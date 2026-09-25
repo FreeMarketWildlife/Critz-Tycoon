@@ -2,6 +2,10 @@
 
 A playable, mobile-first ecosystem RPG. Explore Rootport, recover your escaped animals, care for Kaid’s birthday tank, and share a tiny living world on Critter. Original code-drawn pixel art; no accounts, services, game engine, or runtime dependencies.
 
+## Play on your phone
+
+[Play Critz: Tycoon](https://critz-tycoon.freemarketwildlife.chatgpt.site). Open in Safari or Chrome; sign in with the owner’s ChatGPT account if prompted. No local server is needed for this hosted version.
+
 ## Play locally
 
 Requires Node.js 20 or newer. No dependency installation is needed.
@@ -9,11 +13,13 @@ Requires Node.js 20 or newer. No dependency installation is needed.
 ```bash
 git clone https://github.com/FreeMarketWildlife/Critz-Tycoon.git
 cd Critz-Tycoon
-git switch feature/playable-foundation
+git switch main
 npm run dev
 ```
 
 Open **http://localhost:5173**. To play on a phone on the same Wi-Fi, open `http://YOUR_COMPUTER_LAN_IP:5173`; allow the local server through your computer’s firewall if needed. The server binds to `0.0.0.0` for LAN play. Use a private trusted network.
+
+For an existing checkout, skip cloning and run from its directory. If npm is unavailable on the original development machine, use the exact bundled-Node command in [project status](docs/PROJECT_STATUS.md#launch-and-reproduce-baseline).
 
 ```bash
 npm test          # deterministic systems + world checks
@@ -76,4 +82,6 @@ node tests/browser.mjs
 
 The browser suite starts its own local server and walks the actual world using keyboard input rather than teleporting progress. It checks the main story, rescues, shops, tank management, posting, refresh, and responsive bounds. Screenshots and the report go into ignored `test-results/`. `getDebugSnapshot()` is an exported read-only copy for tests and balancing tools, not a mutable game-state backdoor.
 
-**Best next step:** a species-specific habitat upgrade that lets the player bring Pebble home, with a small paid client commission funding that goal.
+**Current development:** the visual-foundation audit and production plan. Read [project status](docs/PROJECT_STATUS.md), [milestones and review gates](docs/PROJECT_PLAN.md), [art bible](docs/ART_BIBLE.md), and [reference measurements](docs/REFERENCE_MEASUREMENTS.md) before changing the game. Work directly on `main`. M0 changes documents only; the next proposed deliverable is an original character lineup and one bedroom composition for visual approval. Habitat upgrades, commissions and multiple tanks remain future work.
+
+The playable foundation was found in [existing PR #1](https://github.com/FreeMarketWildlife/Critz-Tycoon/pull/1) at `191e3a6` and incorporated into `main` alongside the M0 documents. See project status for the verified Git state and launch commands.

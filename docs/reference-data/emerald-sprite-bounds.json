@@ -1,0 +1,989 @@
+[
+  {
+    "file": "brendan/walking.png",
+    "sha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+    "sheet": [
+      144,
+      32
+    ],
+    "frame_wh": [
+      16,
+      32
+    ],
+    "indexed_transparency_rule": "palette index 0, not PNG alpha",
+    "frames": [
+      {
+        "frame": 0,
+        "bbox_half_open": [
+          1,
+          10,
+          15,
+          31
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 1,
+        "bbox_half_open": [
+          1,
+          10,
+          15,
+          31
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 2,
+        "bbox_half_open": [
+          2,
+          10,
+          16,
+          31
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 3,
+        "bbox_half_open": [
+          1,
+          11,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 4,
+        "bbox_half_open": [
+          1,
+          11,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 5,
+        "bbox_half_open": [
+          1,
+          11,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 6,
+        "bbox_half_open": [
+          1,
+          11,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 7,
+        "bbox_half_open": [
+          2,
+          11,
+          16,
+          32
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 8,
+        "bbox_half_open": [
+          2,
+          11,
+          16,
+          32
+        ],
+        "visible_wh": [
+          14,
+          21
+        ],
+        "last_occupied_row": 31
+      }
+    ]
+  },
+  {
+    "file": "may/walking.png",
+    "sha256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87",
+    "sheet": [
+      144,
+      32
+    ],
+    "frame_wh": [
+      16,
+      32
+    ],
+    "indexed_transparency_rule": "palette index 0, not PNG alpha",
+    "frames": [
+      {
+        "frame": 0,
+        "bbox_half_open": [
+          1,
+          11,
+          15,
+          31
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 1,
+        "bbox_half_open": [
+          1,
+          11,
+          15,
+          31
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 2,
+        "bbox_half_open": [
+          2,
+          11,
+          16,
+          31
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 3,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 4,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 5,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 6,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 7,
+        "bbox_half_open": [
+          2,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 8,
+        "bbox_half_open": [
+          2,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      }
+    ]
+  },
+  {
+    "file": "wally.png",
+    "sha256": "13e4c15ed996858feea6ebff6d858c26fcb54415933a2f57ae6488c76612f111",
+    "sheet": [
+      144,
+      32
+    ],
+    "frame_wh": [
+      16,
+      32
+    ],
+    "indexed_transparency_rule": "palette index 0, not PNG alpha",
+    "frames": [
+      {
+        "frame": 0,
+        "bbox_half_open": [
+          0,
+          12,
+          16,
+          31
+        ],
+        "visible_wh": [
+          16,
+          19
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 1,
+        "bbox_half_open": [
+          0,
+          12,
+          16,
+          31
+        ],
+        "visible_wh": [
+          16,
+          19
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 2,
+        "bbox_half_open": [
+          2,
+          12,
+          15,
+          31
+        ],
+        "visible_wh": [
+          13,
+          19
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 3,
+        "bbox_half_open": [
+          0,
+          13,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          19
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 4,
+        "bbox_half_open": [
+          0,
+          13,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          19
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 5,
+        "bbox_half_open": [
+          0,
+          13,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          19
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 6,
+        "bbox_half_open": [
+          0,
+          13,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          19
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 7,
+        "bbox_half_open": [
+          2,
+          13,
+          15,
+          32
+        ],
+        "visible_wh": [
+          13,
+          19
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 8,
+        "bbox_half_open": [
+          2,
+          13,
+          15,
+          32
+        ],
+        "visible_wh": [
+          13,
+          19
+        ],
+        "last_occupied_row": 31
+      }
+    ]
+  },
+  {
+    "file": "mom.png",
+    "sha256": "a404a3c79252a6a13e10622307c3bce4c76c1e1a39814b7c7a11ad7520442289",
+    "sheet": [
+      144,
+      32
+    ],
+    "frame_wh": [
+      16,
+      32
+    ],
+    "indexed_transparency_rule": "palette index 0, not PNG alpha",
+    "frames": [
+      {
+        "frame": 0,
+        "bbox_half_open": [
+          0,
+          11,
+          16,
+          31
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 1,
+        "bbox_half_open": [
+          0,
+          11,
+          16,
+          31
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 2,
+        "bbox_half_open": [
+          2,
+          11,
+          14,
+          31
+        ],
+        "visible_wh": [
+          12,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 3,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 4,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 5,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 6,
+        "bbox_half_open": [
+          1,
+          12,
+          15,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 7,
+        "bbox_half_open": [
+          2,
+          12,
+          14,
+          32
+        ],
+        "visible_wh": [
+          12,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 8,
+        "bbox_half_open": [
+          2,
+          12,
+          14,
+          32
+        ],
+        "visible_wh": [
+          12,
+          20
+        ],
+        "last_occupied_row": 31
+      }
+    ]
+  },
+  {
+    "file": "prof_birch.png",
+    "sha256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15",
+    "sheet": [
+      144,
+      32
+    ],
+    "frame_wh": [
+      16,
+      32
+    ],
+    "indexed_transparency_rule": "palette index 0, not PNG alpha",
+    "frames": [
+      {
+        "frame": 0,
+        "bbox_half_open": [
+          0,
+          11,
+          16,
+          31
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 1,
+        "bbox_half_open": [
+          0,
+          11,
+          16,
+          31
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 2,
+        "bbox_half_open": [
+          2,
+          11,
+          16,
+          31
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 30
+      },
+      {
+        "frame": 3,
+        "bbox_half_open": [
+          0,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 4,
+        "bbox_half_open": [
+          0,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 5,
+        "bbox_half_open": [
+          0,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 6,
+        "bbox_half_open": [
+          0,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          16,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 7,
+        "bbox_half_open": [
+          2,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      },
+      {
+        "frame": 8,
+        "bbox_half_open": [
+          2,
+          12,
+          16,
+          32
+        ],
+        "visible_wh": [
+          14,
+          20
+        ],
+        "last_occupied_row": 31
+      }
+    ]
+  },
+  {
+    "file": "little_boy.png",
+    "sha256": "a572403aae77c26c6035d799af7a9c4b9214f32a4de0512caf9c879337969e46",
+    "sheet": [
+      144,
+      16
+    ],
+    "frame_wh": [
+      16,
+      16
+    ],
+    "indexed_transparency_rule": "palette index 0, not PNG alpha",
+    "frames": [
+      {
+        "frame": 0,
+        "bbox_half_open": [
+          2,
+          1,
+          14,
+          15
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 14
+      },
+      {
+        "frame": 1,
+        "bbox_half_open": [
+          2,
+          1,
+          14,
+          15
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 14
+      },
+      {
+        "frame": 2,
+        "bbox_half_open": [
+          3,
+          1,
+          14,
+          15
+        ],
+        "visible_wh": [
+          11,
+          14
+        ],
+        "last_occupied_row": 14
+      },
+      {
+        "frame": 3,
+        "bbox_half_open": [
+          2,
+          2,
+          14,
+          16
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 4,
+        "bbox_half_open": [
+          2,
+          2,
+          14,
+          16
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 5,
+        "bbox_half_open": [
+          2,
+          2,
+          14,
+          16
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 6,
+        "bbox_half_open": [
+          2,
+          2,
+          14,
+          16
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 7,
+        "bbox_half_open": [
+          3,
+          2,
+          14,
+          16
+        ],
+        "visible_wh": [
+          11,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 8,
+        "bbox_half_open": [
+          3,
+          2,
+          14,
+          16
+        ],
+        "visible_wh": [
+          11,
+          14
+        ],
+        "last_occupied_row": 15
+      }
+    ]
+  },
+  {
+    "file": "little_girl.png",
+    "sha256": "e7b81a71e97f284d04e0b1fa4546e7d4137364c52e0b091c215c17fca3d716dc",
+    "sheet": [
+      144,
+      16
+    ],
+    "frame_wh": [
+      16,
+      16
+    ],
+    "indexed_transparency_rule": "palette index 0, not PNG alpha",
+    "frames": [
+      {
+        "frame": 0,
+        "bbox_half_open": [
+          1,
+          1,
+          15,
+          15
+        ],
+        "visible_wh": [
+          14,
+          14
+        ],
+        "last_occupied_row": 14
+      },
+      {
+        "frame": 1,
+        "bbox_half_open": [
+          1,
+          1,
+          15,
+          15
+        ],
+        "visible_wh": [
+          14,
+          14
+        ],
+        "last_occupied_row": 14
+      },
+      {
+        "frame": 2,
+        "bbox_half_open": [
+          3,
+          1,
+          15,
+          15
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 14
+      },
+      {
+        "frame": 3,
+        "bbox_half_open": [
+          1,
+          2,
+          15,
+          16
+        ],
+        "visible_wh": [
+          14,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 4,
+        "bbox_half_open": [
+          1,
+          2,
+          15,
+          16
+        ],
+        "visible_wh": [
+          14,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 5,
+        "bbox_half_open": [
+          1,
+          2,
+          15,
+          16
+        ],
+        "visible_wh": [
+          14,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 6,
+        "bbox_half_open": [
+          1,
+          2,
+          15,
+          16
+        ],
+        "visible_wh": [
+          14,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 7,
+        "bbox_half_open": [
+          3,
+          2,
+          15,
+          16
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 15
+      },
+      {
+        "frame": 8,
+        "bbox_half_open": [
+          3,
+          2,
+          15,
+          16
+        ],
+        "visible_wh": [
+          12,
+          14
+        ],
+        "last_occupied_row": 15
+      }
+    ]
+  }
+]
