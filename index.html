@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#10272f" />
+    <meta
+      name="description"
+      content="Explore Rootport, build a tiny living world, and share it on Critter. A cozy playable ecosystem RPG."
+    />
+    <title>Critz: Tycoon — Rootport Stories</title>
+    <link rel="icon" href="./icon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="shell">
+      <header class="brand">
+        <div>
+          <span class="brand-mark">critz<span class="brand-dot">✦</span></span
+          ><span class="brand-sub">TYCOON</span>
+        </div>
+        <span class="edition"
+          >ROOTPORT STORIES<br /><b>A little world, alive.</b></span
+        >
+      </header>
+      <section class="game-unit" aria-label="Critz Tycoon game">
+        <div id="hud">
+          <span id="location">Your new beginning</span
+          ><span id="clock">NIGHT 01</span><span id="money">$0.00</span>
+        </div>
+        <div id="viewport">
+          <canvas
+            id="world"
+            width="384"
+            height="288"
+            aria-label="Top-down game world. Use the D-pad or arrow keys to walk, A to interact."
+          ></canvas>
+          <div id="scene-label" aria-live="polite"></div>
+          <div id="interact-prompt" hidden></div>
+          <div id="dialogue" hidden aria-live="polite">
+            <div id="speaker"></div>
+            <p id="dialogue-text"></p>
+            <button id="dialogue-next" aria-label="Continue dialogue">
+              A <span>Continue</span> ▸
+            </button>
+          </div>
+          <div id="fade"></div>
+        </div>
+        <div id="quest-strip">
+          <span class="quest-star">✦</span
+          ><span id="quest">A small beginning. A world of possibilities.</span
+          ><button id="journal-shortcut" aria-label="Open notebook">▤</button>
+        </div>
+      </section>
+      <section id="controller" aria-label="Game controls">
+        <div class="dpad" aria-label="Movement">
+          <button data-dir="up" class="up" aria-label="Move up">▲</button
+          ><button data-dir="left" class="left" aria-label="Move left">◀</button
+          ><span class="center"></span
+          ><button data-dir="right" class="right" aria-label="Move right">
+            ▶</button
+          ><button data-dir="down" class="down" aria-label="Move down">
+            ▼
+          </button>
+        </div>
+        <div class="system-buttons">
+          <button id="run" aria-pressed="false">RUN</button
+          ><button id="start">START</button><span>WALK · DISCOVER · GROW</span>
+        </div>
+        <div class="action-buttons">
+          <button
+            id="b-button"
+            class="b-button"
+            aria-label="B — Back or cancel"
+          >
+            B</button
+          ><button
+            id="a-button"
+            class="a-button"
+            aria-label="A — Interact or confirm"
+          >
+            A
+          </button>
+        </div>
+      </section>
+      <footer>
+        Arrow keys / WASD <i>move</i> <span>·</span> Z / Enter <i>A</i>
+        <span>·</span> X / Esc <i>B</i> <span>·</span> Shift <i>run</i>
+      </footer>
+    </main>
+    <div id="overlay" hidden>
+      <section
+        id="panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="panel-title"
+      ></section>
+    </div>
+    <div id="toast" role="status" hidden></div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
