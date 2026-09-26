@@ -33,7 +33,7 @@ No M1.1 character lineup or M1.2 Hero/Mom bedroom scale proof is complete. The s
 ## Git and hosting delivery
 
 - Work remains on **main**; initial clean local HEAD and separately verified GitHub `origin/main` were `b779dec5ee4c1879e427dc07fc6c74751bcf85b3`.
-- Task changes are being committed and pushed under standing authorization. A delivery receipt will record the verified art commit/remote state after push; do not infer a push from this pre-delivery note.
+- **Artwork/research delivery commit:** `8f57d089cbbff8ede0de37458d7a1fb90ca25690`, pushed to GitHub `origin/main` and verified with `git ls-remote` to match local HEAD. Working tree was clean at that verification. The following documentation-only receipt commit records this evidence; it does not change the reviewed PNG hashes. Final delivery must also verify that receipt HEAD against the remote.
 - Sites source opening first hit a sandbox DNS failure. The required network escalation was **rejected by the user**. No Sites source push, saved version or deployment happened, and no further attempt was made. Access/audience unchanged.
 - [Phone game](https://critz-tycoon.freemarketwildlife.chatgpt.site) therefore still serves its previously successful owner-only version 1: deployment `appgdep_6ab5dd4db9608191a338dfbdc9786320`, saved version `appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_5aec90aa6f208191ab9a7c3f3ad0546e`, previous hosting source `e64d5ea16be908d90995ea16dffb56f36437ae73`. This review is **not deployed**. A GitHub push does not change the phone build.
 
