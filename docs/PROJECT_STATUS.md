@@ -1,6 +1,19 @@
 # Project status
 
-Updated **2026-09-26 (America/Los_Angeles)**. Current milestone: **M1 visual review**. Active task: **M1.E1 — environment tiles and location proposals**, **awaiting review of revision 2**. M0 remains complete. M1/G1 and M2/G2 are not complete or approved.
+Updated **2026-09-26 (America/Los_Angeles)**. Current milestone: **M1 visual review**. Active delivery: **M1.E1 gallery — inventory and animation viewer**. Environment revision 2 remains awaiting visual review. M0 remains complete. M1/G1 and M2/G2 are not complete or approved.
+
+## Asset gallery follow-up — 2026-09-26
+
+The user requested a playable link and a sheet of all existing pixel assets, including animation. This authorizes publication of a review gallery beside the existing game, without approving new artwork or modifying gameplay.
+
+- Gallery: `/art-review/`; previous focused review retained at `/art-review/style-proof.html`.
+- **216 catalog entries**: 13 revision-2 parts, 41 current prototype appearances/props/buildings/compositions, 162 rejected revision-1 entries. Distinct renderer sizes and story states count as entries; these are not 216 wholly unique production tiles.
+- **10 actor appearances**, all four current facing drawings, live walk-parameter/idle previews. NPCs normally remain idle in-game; the gallery exposes the existing renderer parameter. No new walking sprites were authored.
+- Three live effects: tank plants/isopods/springtails, opening gecko motion, rescue-marker bob. Environment review PNGs remain static. No approved Emerald-style animation sheets exist yet.
+- [Complete PNG contact sheet](../assets/catalogue/all-assets.png), [160 sampled character views](../assets/catalogue/character-frames.png), downloadable in the gallery. Export includes original code-drawn prototype artwork (including its translucent/rounded rendering), explicitly labeled as such.
+- **13 gallery checks passed**, including loading, animation changes/pause/step, filtering, PNG export/download, reduced motion, zero uncaught errors and no overflow at 320/390/844/1280 widths. Isolated synthetic storage stayed unchanged. [Report](verification/ART_GALLERY.json). 10/10 domain tests, 14/14 reported game-browser checkpoints, and syntax/build checks pass. [Game report](verification/GALLERY_GAME_REGRESSION.json). The browser reload assertion covers names, money, post count and rescues; its broad success-message wording does not establish full tank/inventory equality. Physical phone Safari remains untested.
+- Hosted and GitHub source histories were merged on main at `3ef1c0f2023c125070f95288c3e60de4aba6ee3c`; the Site branch only added the identical hosting manifest. No remote history was overwritten, no branch/worktree created, and the merge changed no tracked file content.
+- Current publication is in progress; record the verified deployment below. The earlier permission denial is a historical tool result, not a current restriction after the environment permissions changed and the user asked to view/play.
 
 ## Current deliverable and user feedback
 
@@ -21,7 +34,7 @@ Revision 2 returns to a focused original **240×160 house/tree scene**, with exa
 - **23/23 revision-2 asset checks passed:** native dimensions; exact integer enlargement; binary alpha; 13 unique atlas IDs in bounds with no overlap; standalone house/tree PNGs equal atlas crops; 44 part references resolve and fit. [Report](reviews/M1-E1/revision-2/validation.json). Reference images are not read by either deterministic authoring source.
 - Native and enlarged revised images visually inspected. The local review page opened successfully in the in-app browser and its current image/labels were inspected. This does not establish user style approval or phone usability.
 - **10/10 existing domain/world tests passed**; both authoring-script syntax checks and static game build passed; whitespace checks passed.
-- Existing `src/`, root `index.html`, `style.css`, `scripts/build.mjs`, save keys/schema and `GAME_VISION.md` are unchanged. Review files are excluded from the playable build. No user browser storage was read or modified.
+- The earlier art proof changed no game code. The gallery follow-up adds named exports for existing art helpers and includes the gallery/assets in the static build; root game markup, gameplay logic, save keys/schema and GAME_VISION remain unchanged. Review files are served separately and not integrated into gameplay. No real user browser storage was read or modified.
 - Physical phone/Safari, Hero/Mom scale, movement, camera and occlusion behavior remain untested in this art proof. No collision, warp, animation or production Tiled pipeline is claimed.
 
 ## Approval and exact next action

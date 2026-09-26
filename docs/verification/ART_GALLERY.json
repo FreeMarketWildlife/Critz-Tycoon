@@ -1,0 +1,41 @@
+{
+  "checks": [
+    "All 175 environment entries and prototype inventory loaded",
+    "Every catalog entry is shown",
+    "10 four-direction actor previews and 3 motion previews present",
+    "Walking preview changes rendered pixels",
+    "Pause freezes animation time",
+    "Step advances paused animation",
+    "Status and text filters narrow correctly",
+    "Complete contact sheet and 160 sampled character views exported",
+    "PNG download works",
+    "No page overflow at 320, 390, 844 and 1280 px",
+    "Gallery does not access/write game saves; synthetic storage unchanged",
+    "Zero uncaught page errors",
+    "Reduced-motion preference starts paused"
+  ],
+  "errors": [],
+  "viewports": [
+    {
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 844,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "overflow": false
+    }
+  ],
+  "groups": {
+    "v2": 13,
+    "prototype": 41,
+    "v1": 162
+  }
+}

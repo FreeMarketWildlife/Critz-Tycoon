@@ -13,6 +13,8 @@ const C = {
   pathLight: "#e5cf9c",
   ink: "#314842",
 };
+// Read-only art catalog uses these exact renderers; game rendering is unchanged.
+export { tree, flower, plant, furniture, building };
 const r = (c, x, y, w, h, color) => {
   c.fillStyle = color;
   c.fillRect(Math.round(x), Math.round(y), Math.ceil(w), Math.ceil(h));

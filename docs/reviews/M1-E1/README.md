@@ -44,3 +44,8 @@ Revision-2 validation covers native dimensions, exact nearest-neighbor enlargeme
 Get the user's response to this small revision. If it still misses the style, revise the sample; do not expand it. Once the direction is accepted, rebuild the indoor/outdoor tiles and all three location proposals in that style, then perform the planned character-scale and broader visual review. The original environment request remains active at this review boundary.
 
 The Sites network permission was declined. No hosting attempt succeeded, no audience changed, and [the phone game](https://critz-tycoon.freemarketwildlife.chatgpt.site) still serves the earlier playable build. This review page is local and committed source only; a GitHub push does not deploy it. See PROJECT_STATUS for Git delivery evidence.
+
+
+## 2026-09-26 catalog follow-up
+
+The asset gallery at `/art-review/` now inventories 216 entries and previews current code-driven motion; the focused R2 review moved to `/art-review/style-proof.html`. [Full PNG sheet](../../../assets/catalogue/all-assets.png), [sampled character-frame sheet](../../../assets/catalogue/character-frames.png). These aggregate existing art and expose current renderer behavior, including prototype limitations; no new animations or approvals were added. Earlier statements that the review is undeployed describe the prior turn only. PROJECT_STATUS records the current publication outcome.
