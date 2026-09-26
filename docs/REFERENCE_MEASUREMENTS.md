@@ -167,3 +167,8 @@ Keep the habitat's 8-second active-hour clock, deliberate menu pauses, video cou
 | U008 | Critz room-running permission, skateboard integer cadence, long-frame cap | M2/M3 explicitly preserve control/transport functionality and label deviations. G2 must approve a declared approximation if reference behavior cannot be reproduced. |
 
 No unresolved item is silently converted into an exact-match claim. Where measurement cannot be obtained, present the proposed approximation and its effect in the relevant user review packet before integration.
+
+
+## M1.E1 environment follow-up — 2026-09-25
+
+The [environment construction study](reference-data/EMERALD_ENVIRONMENT_RESEARCH.md) narrows U002 with selected source-data assemblies: 32×32 tree, 80×80 house, 64×64 rug, shared primary/secondary banks and measurable tile reuse. These are allocated map rectangles, not universally segmented visible/collision bounds. Original authoring software/workflow, exact prop silhouettes beyond the selected assemblies, full dynamic rendering and emulator confirmation remain unresolved. Revision-1 Critz art was rejected by the user; measured dimensions alone do not establish a stylistic match.

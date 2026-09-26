@@ -1,0 +1,379 @@
+{
+  "schemaVersion": 1,
+  "status": "awaiting-review",
+  "image": "atlas.png",
+  "baseTile": 8,
+  "metatile": 16,
+  "assets": [
+    {
+      "id": "ground.grass",
+      "rect": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "paletteFamily": "landscape",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "roof.pantile",
+      "rect": [
+        16,
+        0,
+        16,
+        16
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "roof.ridge",
+      "rect": [
+        32,
+        0,
+        16,
+        8
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "roof.eave",
+      "rect": [
+        48,
+        0,
+        16,
+        8
+      ],
+      "paletteFamily": "structure",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "wall.plaster",
+      "rect": [
+        64,
+        0,
+        16,
+        16
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "wall.timber",
+      "rect": [
+        80,
+        0,
+        8,
+        16
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "window.double",
+      "rect": [
+        88,
+        0,
+        24,
+        16
+      ],
+      "paletteFamily": "window",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "door.home",
+      "rect": [
+        112,
+        0,
+        16,
+        24
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "building.rootport.proof",
+      "rect": [
+        128,
+        0,
+        96,
+        80
+      ],
+      "paletteFamily": "assembly",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "tree.clustered.trunk",
+      "rect": [
+        224,
+        0,
+        32,
+        32
+      ],
+      "paletteFamily": "foliage",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "tree.clustered.canopy",
+      "rect": [
+        0,
+        80,
+        32,
+        32
+      ],
+      "paletteFamily": "foliage",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "tree.clustered",
+      "rect": [
+        32,
+        80,
+        32,
+        32
+      ],
+      "paletteFamily": "foliage",
+      "status": "awaiting-review"
+    },
+    {
+      "id": "plant.flowers",
+      "rect": [
+        64,
+        80,
+        16,
+        16
+      ],
+      "paletteFamily": "flowers",
+      "status": "awaiting-review"
+    }
+  ],
+  "houseParts": [
+    {
+      "id": "wall.plaster",
+      "x": 8,
+      "y": 56
+    },
+    {
+      "id": "wall.plaster",
+      "x": 24,
+      "y": 56
+    },
+    {
+      "id": "wall.plaster",
+      "x": 40,
+      "y": 56
+    },
+    {
+      "id": "wall.plaster",
+      "x": 56,
+      "y": 56
+    },
+    {
+      "id": "wall.plaster",
+      "x": 72,
+      "y": 56
+    },
+    {
+      "id": "wall.timber",
+      "x": 8,
+      "y": 56
+    },
+    {
+      "id": "wall.timber",
+      "x": 8,
+      "y": 64
+    },
+    {
+      "id": "wall.timber",
+      "x": 32,
+      "y": 56
+    },
+    {
+      "id": "wall.timber",
+      "x": 32,
+      "y": 64
+    },
+    {
+      "id": "wall.timber",
+      "x": 80,
+      "y": 56
+    },
+    {
+      "id": "wall.timber",
+      "x": 80,
+      "y": 64
+    },
+    {
+      "id": "window.double",
+      "x": 48,
+      "y": 58
+    },
+    {
+      "id": "door.home",
+      "x": 16,
+      "y": 56
+    },
+    {
+      "id": "roof.pantile",
+      "x": 8,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 24,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 40,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 56,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 72,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 8,
+      "y": 40
+    },
+    {
+      "id": "roof.pantile",
+      "x": 24,
+      "y": 40
+    },
+    {
+      "id": "roof.pantile",
+      "x": 40,
+      "y": 40
+    },
+    {
+      "id": "roof.pantile",
+      "x": 56,
+      "y": 40
+    },
+    {
+      "id": "roof.pantile",
+      "x": 72,
+      "y": 40
+    },
+    {
+      "id": "roof.eave",
+      "x": 8,
+      "y": 51
+    },
+    {
+      "id": "roof.eave",
+      "x": 24,
+      "y": 51
+    },
+    {
+      "id": "roof.eave",
+      "x": 40,
+      "y": 51
+    },
+    {
+      "id": "roof.eave",
+      "x": 56,
+      "y": 51
+    },
+    {
+      "id": "roof.eave",
+      "x": 72,
+      "y": 51
+    },
+    {
+      "id": "roof.pantile",
+      "x": 16,
+      "y": 8
+    },
+    {
+      "id": "roof.pantile",
+      "x": 32,
+      "y": 8
+    },
+    {
+      "id": "roof.pantile",
+      "x": 48,
+      "y": 8
+    },
+    {
+      "id": "roof.pantile",
+      "x": 64,
+      "y": 8
+    },
+    {
+      "id": "roof.pantile",
+      "x": 16,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 32,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 48,
+      "y": 24
+    },
+    {
+      "id": "roof.pantile",
+      "x": 64,
+      "y": 24
+    },
+    {
+      "id": "roof.ridge",
+      "x": 16,
+      "y": 0
+    },
+    {
+      "id": "roof.ridge",
+      "x": 32,
+      "y": 0
+    },
+    {
+      "id": "roof.ridge",
+      "x": 48,
+      "y": 0
+    },
+    {
+      "id": "roof.ridge",
+      "x": 64,
+      "y": 0
+    },
+    {
+      "id": "roof.eave",
+      "x": 16,
+      "y": 39
+    },
+    {
+      "id": "roof.eave",
+      "x": 32,
+      "y": 39
+    },
+    {
+      "id": "roof.eave",
+      "x": 48,
+      "y": 39
+    },
+    {
+      "id": "roof.eave",
+      "x": 64,
+      "y": 39
+    }
+  ],
+  "limitations": [
+    "Focused visual proof only; no town regeneration or gameplay integration.",
+    "Assembly contains hand-authored trim pixels as well as reusable module references.",
+    "No palette/character/movement approval is implied."
+  ]
+}

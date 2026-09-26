@@ -1,0 +1,46 @@
+{
+  "status": "proposed-only",
+  "tree": {
+    "size": [
+      32,
+      32
+    ],
+    "canopy": "tree.clustered.canopy",
+    "trunk": "tree.clustered.trunk",
+    "groundFootprint": [
+      8,
+      16,
+      16,
+      16
+    ],
+    "sortAnchor": [
+      16,
+      32
+    ]
+  },
+  "house": {
+    "size": [
+      96,
+      80
+    ],
+    "sortAnchor": [
+      48,
+      80
+    ],
+    "doorThreshold": [
+      16,
+      64,
+      16,
+      16
+    ],
+    "doorApproach": [
+      16,
+      80,
+      16,
+      16
+    ]
+  },
+  "collision": [],
+  "warps": [],
+  "interactions": []
+}

@@ -1,0 +1,268 @@
+{
+  "revision": 2,
+  "validationDate": "2026-09-25",
+  "tool": "Pillow 12.3.0",
+  "result": "passed",
+  "checksPassed": 23,
+  "checksTotal": 23,
+  "checks": [
+    {
+      "check": "house-tree-native.png dimensions and integer enlargement",
+      "passed": true,
+      "native": [
+        240,
+        160
+      ],
+      "enlarged": [
+        960,
+        640
+      ],
+      "scale": 4
+    },
+    {
+      "check": "assets/review/environment-v2/house-tree-native.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        255
+      ]
+    },
+    {
+      "check": "docs/reviews/M1-E1/revision-2/house-tree-4x.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        255
+      ]
+    },
+    {
+      "check": "house-native.png dimensions and integer enlargement",
+      "passed": true,
+      "native": [
+        96,
+        80
+      ],
+      "enlarged": [
+        384,
+        320
+      ],
+      "scale": 4
+    },
+    {
+      "check": "assets/review/environment-v2/house-native.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "check": "docs/reviews/M1-E1/revision-2/house-4x.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "check": "tree-native.png dimensions and integer enlargement",
+      "passed": true,
+      "native": [
+        32,
+        32
+      ],
+      "enlarged": [
+        256,
+        256
+      ],
+      "scale": 8
+    },
+    {
+      "check": "assets/review/environment-v2/tree-native.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "check": "docs/reviews/M1-E1/revision-2/tree-8x.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "check": "atlas.png dimensions and integer enlargement",
+      "passed": true,
+      "native": [
+        256,
+        128
+      ],
+      "enlarged": [
+        1024,
+        512
+      ],
+      "scale": 4
+    },
+    {
+      "check": "assets/review/environment-v2/atlas.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "check": "docs/reviews/M1-E1/revision-2/atlas-4x.png binary alpha",
+      "passed": true,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "check": "unique stable asset IDs",
+      "passed": true,
+      "assetCount": 13
+    },
+    {
+      "check": "atlas bounds and nonoverlap",
+      "passed": true,
+      "atlas": [
+        256,
+        128
+      ],
+      "outOfBounds": [],
+      "overlapPairs": []
+    },
+    {
+      "check": "base 8 pixel asset dimensions",
+      "passed": true,
+      "declaredBaseTile": 8,
+      "declaredMetatile": 16
+    },
+    {
+      "check": "house assembly references resolve",
+      "passed": true,
+      "partCount": 44,
+      "missing": []
+    },
+    {
+      "check": "house parts fit assembly",
+      "passed": true,
+      "invalid": []
+    },
+    {
+      "check": "building.rootport.proof atlas matches standalone",
+      "passed": true
+    },
+    {
+      "check": "tree.clustered atlas matches standalone",
+      "passed": true
+    },
+    {
+      "check": "tree geometry asset references resolve",
+      "passed": true
+    },
+    {
+      "check": "review metadata remains unapproved and nonplayable",
+      "passed": true
+    },
+    {
+      "check": "art/source/environment-v2/build.mjs has no external image input",
+      "passed": true,
+      "sha256": "66c4b1fa3fa6144da3210ae9f57fe78d4131ea868922edd87cbcc18a13ce9c55"
+    },
+    {
+      "check": "art/source/environment-v1/raster.mjs has no external image input",
+      "passed": true,
+      "sha256": "dcc9c91c176b89ce4193dbbca6a9469b7caf447872c4b34911efbd7d61cead9e"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "assets/review/environment-v2/house-tree-native.png",
+      "size": [
+        240,
+        160
+      ],
+      "sha256": "8992e4e56ea9aa3266d66135de2aa6476c2a7d43b09e6c68c860ac211318ef8b"
+    },
+    {
+      "path": "docs/reviews/M1-E1/revision-2/house-tree-4x.png",
+      "size": [
+        960,
+        640
+      ],
+      "sha256": "6d773f47c7f1573415db9981dab395b0e34e3ae59e62afbff2d429f10798c056"
+    },
+    {
+      "path": "assets/review/environment-v2/house-native.png",
+      "size": [
+        96,
+        80
+      ],
+      "sha256": "5d3a4d00d1227ea493418dcab3e48a0289fcb68b331c0fb1d66a16180ff1e4c2"
+    },
+    {
+      "path": "docs/reviews/M1-E1/revision-2/house-4x.png",
+      "size": [
+        384,
+        320
+      ],
+      "sha256": "f971abe883d757840c3a361c80742828ee1068a213ae16009f4a1d4e61d77198"
+    },
+    {
+      "path": "assets/review/environment-v2/tree-native.png",
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "2a4e49fd7a12d120e8381c55d392108bd34e9eb87644e657c762c8c0224fa8c1"
+    },
+    {
+      "path": "docs/reviews/M1-E1/revision-2/tree-8x.png",
+      "size": [
+        256,
+        256
+      ],
+      "sha256": "8c822644cdaef20018a376ac0b330ce615f96f9f0e84b65c38a4712ff8ff5301"
+    },
+    {
+      "path": "assets/review/environment-v2/atlas.png",
+      "size": [
+        256,
+        128
+      ],
+      "sha256": "8f54b1d662a3962a1a41c2980136f82e81896f0ec088f76b80287656b3651b1a"
+    },
+    {
+      "path": "docs/reviews/M1-E1/revision-2/atlas-4x.png",
+      "size": [
+        1024,
+        512
+      ],
+      "sha256": "80ff2e1d6638d0805b1869c1e36401427d584bc91d832447ca1f783ef9bd687e"
+    }
+  ],
+  "visualReview": {
+    "inspected": [
+      "assets/review/environment-v2/house-tree-native.png",
+      "docs/reviews/M1-E1/revision-2/house-tree-4x.png",
+      "docs/reviews/M1-E1/revision-2/tree-8x.png"
+    ],
+    "status": "awaiting user review; visual quality not approved",
+    "observations": [
+      "House, trees, ground and flowers are legible in the native and enlarged proof.",
+      "Door connects visibly to the foreground path.",
+      "Static proof only: no character scale, occlusion, collision, camera or movement compliance demonstrated."
+    ],
+    "referenceStyle": "Subjective comparison; neither exact Emerald style nor user approval is established."
+  },
+  "sourceInspection": "The R2 generator and raster dependency use authored integer geometry, explicit color values and pixel cluster arrays; neither reads reference images or other external artwork. This validates the absence of source-image copying in this generation path.",
+  "limitations": [
+    "Style-study image is conceptual inspiration and is excluded from native PNG validation.",
+    "No gameplay or browser test performed.",
+    "R1 remains a user-rejected archived draft."
+  ]
+}

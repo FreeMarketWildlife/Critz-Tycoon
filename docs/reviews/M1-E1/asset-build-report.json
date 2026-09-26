@@ -1,0 +1,90 @@
+{
+  "status": "rejected-review-history",
+  "source": "art/source/environment-v1/build.mjs",
+  "assetCount": 162,
+  "baseTileCount": 454,
+  "atlas": [
+    512,
+    384
+  ],
+  "palettes": {
+    "landscape": {
+      "entries": 16,
+      "opaque": 15
+    },
+    "woodwork": {
+      "entries": 16,
+      "opaque": 15
+    },
+    "terracotta": {
+      "entries": 7,
+      "opaque": 6
+    },
+    "plum": {
+      "entries": 7,
+      "opaque": 6
+    },
+    "teal": {
+      "entries": 7,
+      "opaque": 6
+    },
+    "interior": {
+      "entries": 16,
+      "opaque": 15
+    }
+  },
+  "verified": [
+    "integer authored pixels",
+    "binary alpha",
+    "per-asset declared bank membership",
+    "all assembly references resolved",
+    "map previews use exported asset pixels",
+    "exact integer enlargement by pixel replication"
+  ],
+  "maps": [
+    {
+      "id": "rootport",
+      "width": 640,
+      "height": 576,
+      "placements": 1551,
+      "viewport": [
+        240,
+        160
+      ],
+      "nativeRgbaSha256": "235d59003cbf19bac00c7301128c317c333f55a1a167bc16431e760f1b8522b2"
+    },
+    {
+      "id": "forest-route",
+      "width": 640,
+      "height": 384,
+      "placements": 1056,
+      "viewport": [
+        240,
+        160
+      ],
+      "nativeRgbaSha256": "550eb4ffe050d0b2597bd3a8baad1c4cd4cdb42ef35e6bded0a14e352ed1467c"
+    },
+    {
+      "id": "liarsville",
+      "width": 512,
+      "height": 448,
+      "placements": 962,
+      "viewport": [
+        240,
+        160
+      ],
+      "nativeRgbaSha256": "4f799b542051da2e70eb3b9a5613521b251a823d685f86cee0e6fd76d40ec22f"
+    },
+    {
+      "id": "bedroom",
+      "width": 240,
+      "height": 160,
+      "placements": 182,
+      "viewport": [
+        240,
+        160
+      ],
+      "nativeRgbaSha256": "722330bbb22dfce02630f508a76a2a31ebaaba0034382f30bba48e3fbd3e9881"
+    }
+  ]
+}

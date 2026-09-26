@@ -1,0 +1,4881 @@
+{
+  "schemaVersion": 1,
+  "assetId": "tiles.environment.review.v1",
+  "status": "rejected-review-history",
+  "nativeTileSize": 8,
+  "metatileSize": 16,
+  "image": "atlas.png",
+  "width": 512,
+  "height": 384,
+  "assets": [
+    {
+      "id": "ground.grass.0",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f28b14f4510628c5f906fc0058d06f1158bf46112707c9c323b538fcf48f2b07"
+    },
+    {
+      "id": "ground.grass.1",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        16,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "14e6551f2e4e71c069c87c1dc384ef62bf5fa3218f66774a75a3b53ce6d8ce74"
+    },
+    {
+      "id": "ground.grass.2",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        32,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "02d44d58960cd34f8e1b9acdef3de0e21c4483a0978e8e2861806fda5d5ca730"
+    },
+    {
+      "id": "ground.grass.3",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        48,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "bf8ecb072844af2a8fcb71e90e76531a3a430adb7dd916ee39d65810544b797d"
+    },
+    {
+      "id": "ground.path.0",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        64,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "91932987f305055f7e5f86e7d44b2c43870b6bb3b2302c69737988477fe93eef"
+    },
+    {
+      "id": "ground.path.1",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        80,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "fa25b20873176495b310508e356f9812a6c7b5d879f3d5be4db3b5d09df635d0"
+    },
+    {
+      "id": "ground.path.2",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        96,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "bbb914feb50dd0b23880001b56a7be16d4c9d5d9cc75c71d8d537d5c74fd3895"
+    },
+    {
+      "id": "ground.path.3",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        112,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f487d45fbccee87baac662b1ad8021b02d940fbc9f07a6ec6df23b74f0dd4a1d"
+    },
+    {
+      "id": "ground.path.4",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        128,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "3a9487befd512f2a1693257113e4c36ef6277211ea1f2e62ab8d835ee7bc1cbe"
+    },
+    {
+      "id": "ground.path.5",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        144,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "53ad2dfe2291478dd0746b13bb3d815251cb4f19c77a0dff2faf62ab371c756f"
+    },
+    {
+      "id": "ground.path.6",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        160,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "35d1d26e308131c6686e3845dfffcec2441ec04951faac1c10c255c97540afe9"
+    },
+    {
+      "id": "ground.path.7",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        176,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "916e5badd83b55aa9a39a8280419c8e08695e5fb5b559ef7396289ed5754fa15"
+    },
+    {
+      "id": "ground.path.8",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        192,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "a90e9621e85bf32b6232d122c20df379e8c9855f9dee9d23eb1ac0a9c9fb2d0c"
+    },
+    {
+      "id": "ground.path.9",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        208,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "737df014b5453808971dd38716e78cfecebdca82fd22d71fc7da36c1760f76ed"
+    },
+    {
+      "id": "ground.path.10",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        224,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "2ecec694e0767db644c728cf3001c5dcee2d7160c00eedfcc1c83519a0f60801"
+    },
+    {
+      "id": "ground.path.11",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        240,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1ead6b0f9c92c13bd8131756a3d2ba64868e678b8c9420610c70cf57aa8d4c32"
+    },
+    {
+      "id": "ground.path.12",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        256,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "450fcad565d68c755a0857c8d64d69b8c3d0ca5f59fc80f1701494da95a2516d"
+    },
+    {
+      "id": "ground.path.13",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        272,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d3dcc89425dbec7f9425964c2a8b425611e6664e87859362d3872a7d1f31a6ff"
+    },
+    {
+      "id": "ground.path.14",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        288,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ac9d29611471c47ed007ddffddf7a8cfb6536fdc775ecf2698a96b3b75818237"
+    },
+    {
+      "id": "ground.path.15",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        304,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4620fa60a50ff545799126f40df06e844660f128765363e3793d50d701a40c95"
+    },
+    {
+      "id": "ground.water.0",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        320,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "be4120d20cea8026655bc7594c5bfe378ba79d89c275a38c1c843ab1dea987f2"
+    },
+    {
+      "id": "ground.water.1",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        336,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "08c7d837039837f78e568b06cfc6720cd7940c0d32628f36707336a033c2a2ce"
+    },
+    {
+      "id": "ground.water.2",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        352,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "951267fb455992fe3b66744bca0b19f38e432934f02ff3759a370e1fd49daa08"
+    },
+    {
+      "id": "ground.water.3",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        368,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "a2457204be1001138811678b0c583021c57e72579f4e69eb8851bea96a666658"
+    },
+    {
+      "id": "ground.water.4",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        384,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ec5ee6fba2b83e675b18c13ba43a3c53a57bb55be2c43f412a7c162ac11817a1"
+    },
+    {
+      "id": "ground.water.5",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        400,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "2db8a2972b0e445abdeb2d3b3f818798b35d6b3892fb8f7c4260d29b8275d3a8"
+    },
+    {
+      "id": "ground.water.6",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        416,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9eeabfc45e3d2daac4fbb6675cfe83464e063fb946eb6f250e1c5ef9a1f8f9aa"
+    },
+    {
+      "id": "ground.water.7",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        432,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ad2a4bc5e5a84a6f5b7e516e9fc1193e02c5141209f2151c446d0c2f4c2c309c"
+    },
+    {
+      "id": "ground.water.8",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        448,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "32f314d23d0477b05e3ba3d3c3146f8ca4ba36b137d8157fab24ab9e3798bb0c"
+    },
+    {
+      "id": "ground.water.9",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        464,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "2c6595dea6eb78bd076613b9a6c5778a4218f8d013acd0895c86bf4d14560e8f"
+    },
+    {
+      "id": "ground.water.10",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        480,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "b5fa6bebfc1b39817a1ce2aeda2965248303d13f9e4244a4fd1dd93e0b6c1900"
+    },
+    {
+      "id": "ground.water.11",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        496,
+        0,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "b86a64274c4f34e2471f87db22d3141f91dd740f54ed939b14ceb1628e1bf228"
+    },
+    {
+      "id": "ground.water.12",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        0,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "a8bd79a4a9705cab9efc45d642a04c5d9a8ea24819564b60160cffdb8a91fd22"
+    },
+    {
+      "id": "ground.water.13",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "e84af70a3ab52a0f1cb44489ee413b1be923fcc243451def3b287c012584a950"
+    },
+    {
+      "id": "ground.water.14",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        32,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "6d75d9986e8c5c8582110d2061769103ca86d855172f21ba363c714f92054a37"
+    },
+    {
+      "id": "ground.water.15",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        48,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9aa977f3e2078f99452d6c0af4931f5886b7ce46c42e46d31e52940b46418627"
+    },
+    {
+      "id": "ground.cobble.0",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        64,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "eb9799d1d5af43f23c29a18ada0418873d957153a0c86d64ae7c1cbf76e524a2"
+    },
+    {
+      "id": "ground.cobble.1",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        80,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f8ccacfff853a219301824e988280acf9e979fe5523a42b918ef77e07859bef1"
+    },
+    {
+      "id": "ground.cobble.2",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        96,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "b2f41c8b6ff6eb24ee7872a13cbfbf774c1915cbb6919f003b94bc7fdf68291a"
+    },
+    {
+      "id": "ground.cobble.3",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        112,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "e6cd99d3dd18c9919b45417713ca15d06394fcfe82b0830f36fe70a3f473ee20"
+    },
+    {
+      "id": "ground.cobble.4",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        128,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "c0867b9f71d45b603d9ca8ea65f795ceec4b24ce3ed8435e00ee6f98460fb653"
+    },
+    {
+      "id": "ground.cobble.5",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        144,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "c65cedc6d3567f0014b66fa81f3a8d9b96c234e373e2f804aa8c6e04531e4f65"
+    },
+    {
+      "id": "ground.cobble.6",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        160,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d5e5f3adf68720cf3f51f10e7b3cd193d2f48d3554832d70943b228bb031e5b7"
+    },
+    {
+      "id": "ground.cobble.7",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        176,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "79be2af6607397bc361bb1cd9229f8ec074a287d59c0408811616ef3c4dec505"
+    },
+    {
+      "id": "ground.cobble.8",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        192,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4384e07dfae773e9b3d717250aebde5245790d7dffd5bf158e27400df41b3722"
+    },
+    {
+      "id": "ground.cobble.9",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        208,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "8a2d6e4e7d67bc750f013833baea50ce793908f3d2ed74b51d651d7f2c319832"
+    },
+    {
+      "id": "ground.cobble.10",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        224,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f2f6d75365ed5f13df17056fdd683e651135f50e15dec2681dd68ca3772f52ba"
+    },
+    {
+      "id": "ground.cobble.11",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        240,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4e439a71a87b046f872eb10b7aebf5ed230c16e56c47e5be862b208767dc091b"
+    },
+    {
+      "id": "ground.cobble.12",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        256,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "505872497e9cdcbae566f0bab9319eb0c93e2261b2cf570c22bf3dac7be1bcbd"
+    },
+    {
+      "id": "ground.cobble.13",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        272,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "12c26dc2d60ad10a1b4b7659c41026edfd1a22817c35317612c161b7ede7548f"
+    },
+    {
+      "id": "ground.cobble.14",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        288,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9eaf5aa66016d9e83b95ded68d6418d997e0c2657ee0b98b1d05b67d53c8bcd8"
+    },
+    {
+      "id": "ground.cobble.15",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        304,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1c6f69456e25733b0c46ef7e84bb4844b8e08ba771d624efec0b2f67c36d8c98"
+    },
+    {
+      "id": "corner.path.0",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        320,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "09fe552acdf5e845d5ee2e887014adc80d5cf30d149dab7afffd6d342c9b8a63"
+    },
+    {
+      "id": "corner.path.1",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        336,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "20ac954562811d5ee167cadffde25e6b35ea0c3d6f52f974711f337ba01c82c7"
+    },
+    {
+      "id": "corner.path.2",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        352,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "16b67074d59085f32d651c1cdae15f78f77a7ff9ad1a6766d1f4730a4ed36f8a"
+    },
+    {
+      "id": "corner.path.3",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        368,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d1dbe37bf33c0a50db989db56630a04aeed8ff552028bf72b0c604fec8ff7d4f"
+    },
+    {
+      "id": "corner.water.0",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        384,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "69609600890be011b16ad94db2e40db3d015fdb9cd226c178bcf0f850c7f4393"
+    },
+    {
+      "id": "corner.water.1",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        400,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "a15c5294846e013768acd300202db34c50667d7557631756ea54e8c8d9cfde25"
+    },
+    {
+      "id": "corner.water.2",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        416,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "c6d7c08f8f60fbe252d885e9112cdc2b94ca81538dac3047c57c9ed869f851e4"
+    },
+    {
+      "id": "corner.water.3",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        432,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9c0085f16cd5214e8fb78406a3c5608be21c3e5a1e76b1f7c7d5355708c65276"
+    },
+    {
+      "id": "corner.cobble.0",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        448,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "09fe552acdf5e845d5ee2e887014adc80d5cf30d149dab7afffd6d342c9b8a63"
+    },
+    {
+      "id": "corner.cobble.1",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        464,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "20ac954562811d5ee167cadffde25e6b35ea0c3d6f52f974711f337ba01c82c7"
+    },
+    {
+      "id": "corner.cobble.2",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        480,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "16b67074d59085f32d651c1cdae15f78f77a7ff9ad1a6766d1f4730a4ed36f8a"
+    },
+    {
+      "id": "corner.cobble.3",
+      "bank": "landscape",
+      "kind": "metatile",
+      "rect": [
+        496,
+        16,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d1dbe37bf33c0a50db989db56630a04aeed8ff552028bf72b0c604fec8ff7d4f"
+    },
+    {
+      "id": "floor.wood.0",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        0,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "41579e93026c58aeaed9e498100ffe408eb5043a9bed1fc57a218354f265cfe1"
+    },
+    {
+      "id": "floor.wood.1",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        16,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1a27e7b509d277c52f4f168a12e6e47269c96e7788e144e12725718b0b044e3c"
+    },
+    {
+      "id": "floor.tile",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        32,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ba7bd258110fc8157cad8afcd92ae036b73a7582301879ecab665e556c038ac2"
+    },
+    {
+      "id": "roof.terracotta.0.0",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        48,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1456eeb0e5815e02060d8729bd882e3000daeef0f131108de01849793c2496be"
+    },
+    {
+      "id": "roof.terracotta.1.0",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        64,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "2206a3f8a2b0ee5a945e3ee03935b8666c560c3f07f151a87a254c9326f88f38"
+    },
+    {
+      "id": "roof.terracotta.2.0",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        80,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "fe6e1df5a58ad36a57b5f87344a77e7f55189395dc59b03d440f9afb91a50cd5"
+    },
+    {
+      "id": "roof.terracotta.0.1",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        96,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ad0f63ed82733244ea13098f14a20b7ac68d328875df1089b322f5ec9e148e23"
+    },
+    {
+      "id": "roof.terracotta.1.1",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        112,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "484216d589364332c70081c4cfc473c4f6f8778e5ed8154e8321f299716baccb"
+    },
+    {
+      "id": "roof.terracotta.2.1",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        128,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "267a4d6007e4574402246aaa065e7f52282d302f32cd9a232c22b3de947b3304"
+    },
+    {
+      "id": "roof.terracotta.0.2",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        144,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4d357272ae509610cd5ebcb526af64d2918e15bc2f11feeaf1bd48a864c550d8"
+    },
+    {
+      "id": "roof.terracotta.1.2",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        160,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "302f8d1b3ab0fa47c466cbd73d7a8c370db9b54b656dcf3729bf56d39185596d"
+    },
+    {
+      "id": "roof.terracotta.2.2",
+      "bank": "terracotta",
+      "kind": "metatile",
+      "rect": [
+        176,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.terracotta",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "6b64a9302ff7cfc8227ea92f1b75c4fce5102218fb8ce388e3fb65f68e36fa70"
+    },
+    {
+      "id": "roof.plum.0.0",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        192,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "0fee3cf0026f649c28361c2a8923c12b9a10c3a85dd865fc4aa410ec4dbbd925"
+    },
+    {
+      "id": "roof.plum.1.0",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        208,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "44df0ca414324dab27f64f03422e9291ca28e9171e9160da13a4e2de62ff2eb3"
+    },
+    {
+      "id": "roof.plum.2.0",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        224,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "86e4e73a48d71851c7e2c7b6e9117482591ceed664f55bd55bea30ceea6732e8"
+    },
+    {
+      "id": "roof.plum.0.1",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        240,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "dc3f6ed0cb192bcc340525a99169e6e4d556678424e8a94c471ba76e17636aed"
+    },
+    {
+      "id": "roof.plum.1.1",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        256,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "de49959524e34c1edc1a95f09ab23f3b6eed66a6a7ffdbfb761dbbc7b0edf333"
+    },
+    {
+      "id": "roof.plum.2.1",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        272,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4370837a0596c997fd2bf978be515496fc3c251804dbce9e542ddeb2fcc18a2f"
+    },
+    {
+      "id": "roof.plum.0.2",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        288,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "3bc77b0b917409d3f2c4fdcf81aa9369a3af869a9b4440a10edf823021f70a2d"
+    },
+    {
+      "id": "roof.plum.1.2",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        304,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9f92922d1b2429c3e444a533c679e8563910ff81044573b102752db8941954d9"
+    },
+    {
+      "id": "roof.plum.2.2",
+      "bank": "plum",
+      "kind": "metatile",
+      "rect": [
+        320,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.plum",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "8b7dc46b43167e7781713a97ed38284a6a478bc10ef510d695cf9c609811d3d0"
+    },
+    {
+      "id": "roof.teal.0.0",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        336,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "92c1057def2ea1a98746936ccc65b189929fefe41e8d590854df7979bc5079d9"
+    },
+    {
+      "id": "roof.teal.1.0",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        352,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ade3f512a21a2c540a0077d4089bbcbc2948bdd58904df67c6456b21448ee0a0"
+    },
+    {
+      "id": "roof.teal.2.0",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        368,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f36116586812c1093278d00b01675acc6f29d68d9437694cb23d8241ebf50cc0"
+    },
+    {
+      "id": "roof.teal.0.1",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        384,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "892311775031dacc4142e9f55e132670b3638cfa0904cf8c00c877f1f0804a65"
+    },
+    {
+      "id": "roof.teal.1.1",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        400,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f1eeccb61db6e2f7d1cd56da40b34ad10e070d2b19f968644d743745a4c01260"
+    },
+    {
+      "id": "roof.teal.2.1",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        416,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9fb52b3cd6d38e03c7226f209a810a09eba9ae5a732a94c1ecf7eb2c2ae29027"
+    },
+    {
+      "id": "roof.teal.0.2",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        432,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "a415c23fdc32b8444b6c24ed5f054d7946148ec26a2e5f5950bd189046b8fc8b"
+    },
+    {
+      "id": "roof.teal.1.2",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        448,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4a557d69ba582731b76e4fd7c376ce59f3ae6ea7529f642250ec4af3b0db20ae"
+    },
+    {
+      "id": "roof.teal.2.2",
+      "bank": "teal",
+      "kind": "metatile",
+      "rect": [
+        464,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.teal",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "cf2dc3632702552a1a01f13c37d8cd245088dfe8dc060b7b1282b2fe4f6d5c1a"
+    },
+    {
+      "id": "wall.exterior.0.0",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        480,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "b0c801fe3d6c44af131852c181274b68477e22adde4bbbc07d90ddd0305b55d3"
+    },
+    {
+      "id": "wall.exterior.0.1",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        496,
+        32,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1d74e531fb2320a602d742c290ed66fb53794ef7a1a8cb8b9f1d3905f214c070"
+    },
+    {
+      "id": "wall.exterior.1.0",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        0,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f058d61767f3a8174a20b32d480a93339922797138d6a694bb235137b4676b27"
+    },
+    {
+      "id": "wall.exterior.1.1",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        16,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ea4a7c9646c3a2d220fe232345a263e3ca0c68f84f4fcc9bd7faee6bc67ccfd6"
+    },
+    {
+      "id": "wall.exterior.2.0",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        32,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "8d3ffceb3777b0b81cdbcc721db9d0b9476a695f1b1a3e7eb7dee89b7151eca0"
+    },
+    {
+      "id": "wall.exterior.2.1",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        48,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f07a5247a299f64736da8a4ba1b1f07f426386db148ea5dfb0e5c56738cbd690"
+    },
+    {
+      "id": "fixture.window",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        64,
+        48,
+        16,
+        24
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "b365d635f92a2bce1fd08cc8f1816706a7038e0002ba4a501d3b70a2cd1c2957"
+    },
+    {
+      "id": "fixture.door",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "groundFootprint": [
+        0,
+        16,
+        16,
+        16
+      ],
+      "rect": [
+        80,
+        48,
+        16,
+        32
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "60ca5f27e9c2a60136737fa7b165911d21673decb0b84be29e48cd00a1c333af"
+    },
+    {
+      "id": "fixture.chimney",
+      "bank": "woodwork",
+      "kind": "roof-detail",
+      "rect": [
+        96,
+        48,
+        16,
+        24
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "fe425ec318db278e932f24a29a69b456f51f4c74c2b500429652cb9e56c09056"
+    },
+    {
+      "id": "fixture.gable",
+      "bank": "woodwork",
+      "kind": "roof-detail",
+      "rect": [
+        112,
+        48,
+        32,
+        24
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "5e6603c01be7e569affaa44fed3986e48087386049f757839f1218a3da7b9b41"
+    },
+    {
+      "id": "fixture.display",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        144,
+        48,
+        32,
+        24
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "07acefe6e7685f575322b5c27ba30799280f460e2e8b2cf1b39f154799d485a6"
+    },
+    {
+      "id": "fixture.awning.cream",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        176,
+        48,
+        32,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "38ec008f98ab524e52bab4b380104a1fe283257a6c882a64585454583aa919da"
+    },
+    {
+      "id": "fixture.awning.teal",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        208,
+        48,
+        32,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "582ff1b9df688a99825791823e9124a8b6649ef01c39fa3a9206f440ab6e4490"
+    },
+    {
+      "id": "fixture.flowerbox",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        240,
+        48,
+        24,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d31e660d5df69ba2b7a7adb27cffb8ad02a393a54e6e5d97c1bd30e0c8d54f3a"
+    },
+    {
+      "id": "fixture.sign.0",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        264,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "7571363b430eff7a34ecd267e6c695c6717aa10c54084c4a080cb45d9bbe4e62"
+    },
+    {
+      "id": "fixture.sign.1",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        280,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "0fbdbf9796baddbe4d629be5ffba2b4800c294591afa4f79fd2a36c1ef350102"
+    },
+    {
+      "id": "fixture.sign.2",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        296,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "32e918a772d862c791d9a4e291a0df5facc86003315a1310adb7ea9db75114ee"
+    },
+    {
+      "id": "fixture.sign.3",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        312,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9d5201d30b8b2356f4c0b147afd0e130e856f6a8677be73269dc6ae3a3cca5db"
+    },
+    {
+      "id": "fixture.sign.4",
+      "bank": "woodwork",
+      "kind": "facade-detail",
+      "rect": [
+        328,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4c85458603dd67c22469951a5b9fd1e3664e6983f2a1afca755f0d7c829a784a"
+    },
+    {
+      "id": "fence.horizontal",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        344,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "2c697777d6161e9fcc58cc02997c3468e31c79f3e8d6c6734886745ad09615b1"
+    },
+    {
+      "id": "fence.vertical",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        360,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "0dd88051ba18868025cab1f878d949d2a56da60056876ff6e2b265d25de46e77"
+    },
+    {
+      "id": "fence.left",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        376,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "81cb45252c66d1ace3496b10b673642e5c90c7646555179130ac772978ba7360"
+    },
+    {
+      "id": "fence.right",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        392,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "3e567a7633d678a76ac24c7bf6d8ccd59d324b429a161df0024fd256f3bcd64e"
+    },
+    {
+      "id": "bridge.planks",
+      "bank": "woodwork",
+      "kind": "metatile",
+      "rect": [
+        408,
+        48,
+        16,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "c6b8e95ea83ec32f38408d994ce7806e46e3aa9fced59fc8133fd1f7b98dec84"
+    },
+    {
+      "id": "tree.broadleaf.trunk",
+      "bank": "landscape",
+      "kind": "trunk",
+      "sortAnchor": [
+        16,
+        48
+      ],
+      "groundFootprint": [
+        8,
+        32,
+        16,
+        16
+      ],
+      "rect": [
+        424,
+        48,
+        32,
+        48
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d1c0314df23d7f36a1f1279dc958fc08a82233a060a64312d762f05a4de6e0a5"
+    },
+    {
+      "id": "tree.broadleaf.canopy",
+      "bank": "landscape",
+      "kind": "canopy",
+      "sortAnchor": [
+        16,
+        48
+      ],
+      "foreground": true,
+      "groundFootprint": null,
+      "rect": [
+        456,
+        48,
+        32,
+        48
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "5eddc09a8612a3160b27363203381d99ad480cf31de6b6cd3ea7252aa7ddd380"
+    },
+    {
+      "id": "tree.broadleaf",
+      "bank": "landscape",
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "tree.broadleaf.trunk",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "tree.broadleaf.canopy",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "sortAnchor": [
+        16,
+        48
+      ],
+      "groundFootprint": [
+        8,
+        32,
+        16,
+        16
+      ],
+      "rect": [
+        0,
+        96,
+        32,
+        48
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "df69145bab2dfba1972c505c0254590d2fd66ef69464258f4827af1fba659dcd"
+    },
+    {
+      "id": "tree.compact.trunk",
+      "bank": "landscape",
+      "kind": "trunk",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        8,
+        16,
+        16,
+        16
+      ],
+      "rect": [
+        32,
+        96,
+        32,
+        32
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ef0e847bb665e4b5ff94e9cdce10abfaf153ce1a6e5e0bf60ebfaa33d825d686"
+    },
+    {
+      "id": "tree.compact.canopy",
+      "bank": "landscape",
+      "kind": "canopy",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "foreground": true,
+      "groundFootprint": null,
+      "rect": [
+        64,
+        96,
+        32,
+        32
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ba7b1ed05cc41287ec548d3c05f264068dde949a01deddff4566b78f541d5ca1"
+    },
+    {
+      "id": "tree.compact",
+      "bank": "landscape",
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "tree.compact.trunk",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "tree.compact.canopy",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        8,
+        16,
+        16,
+        16
+      ],
+      "rect": [
+        96,
+        96,
+        32,
+        32
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4d2b1afd94de64a0324d63defedd3070af63215ea27fc5002fae8b4b47376151"
+    },
+    {
+      "id": "tree.sunleaf.trunk",
+      "bank": "landscape",
+      "kind": "trunk",
+      "sortAnchor": [
+        16,
+        48
+      ],
+      "groundFootprint": [
+        8,
+        32,
+        16,
+        16
+      ],
+      "rect": [
+        128,
+        96,
+        32,
+        48
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d1c0314df23d7f36a1f1279dc958fc08a82233a060a64312d762f05a4de6e0a5"
+    },
+    {
+      "id": "tree.sunleaf.canopy",
+      "bank": "landscape",
+      "kind": "canopy",
+      "sortAnchor": [
+        16,
+        48
+      ],
+      "foreground": true,
+      "groundFootprint": null,
+      "rect": [
+        160,
+        96,
+        32,
+        48
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "fc08c4c181228e13ae3eff3aff6a1790a29cb06888af08630af15a519f0a16b8"
+    },
+    {
+      "id": "tree.sunleaf",
+      "bank": "landscape",
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "tree.sunleaf.trunk",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "tree.sunleaf.canopy",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "sortAnchor": [
+        16,
+        48
+      ],
+      "groundFootprint": [
+        8,
+        32,
+        16,
+        16
+      ],
+      "rect": [
+        192,
+        96,
+        32,
+        48
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "3e20e08fc6e42c7cda899654efde46ada8025a75a355771b286ea0b5e93db0b9"
+    },
+    {
+      "id": "plant.fern",
+      "bank": "landscape",
+      "kind": "ground-detail",
+      "rect": [
+        224,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4f384b761cca90513d541b0c056610e40c8a487372180db6e8fca70e8b8ab82e"
+    },
+    {
+      "id": "plant.flowers",
+      "bank": "landscape",
+      "kind": "ground-detail",
+      "rect": [
+        240,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "0e04feb36926450ab7c2245e7c5e219231b4272b1454a032322c8d358d8ec3db"
+    },
+    {
+      "id": "plant.shrub",
+      "bank": "landscape",
+      "kind": "prop",
+      "sortAnchor": [
+        16,
+        16
+      ],
+      "groundFootprint": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "rect": [
+        256,
+        96,
+        32,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "80d3a0805118a2e066714a5d83c346c89882960ccb7cd66221b56e380f19d138"
+    },
+    {
+      "id": "prop.stump",
+      "bank": "landscape",
+      "kind": "prop",
+      "sortAnchor": [
+        8,
+        16
+      ],
+      "groundFootprint": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "rect": [
+        288,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "eff42643d992c5d49062daad7da0a774060ed100d8778113098dbe3f94b343d6"
+    },
+    {
+      "id": "prop.log",
+      "bank": "landscape",
+      "kind": "prop",
+      "sortAnchor": [
+        16,
+        16
+      ],
+      "groundFootprint": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "rect": [
+        304,
+        96,
+        32,
+        16
+      ],
+      "paletteId": "env.landscape",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "9f8efdb8b4f7afb5adca0f7994e8d7e4899bc97707a69f9e47fb0a0f074b8ced"
+    },
+    {
+      "id": "prop.bench",
+      "bank": "woodwork",
+      "kind": "prop",
+      "sortAnchor": [
+        16,
+        16
+      ],
+      "groundFootprint": [
+        0,
+        0,
+        32,
+        16
+      ],
+      "rect": [
+        336,
+        96,
+        32,
+        16
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "8ee0db7e81e6a8b0332caecabfdb1103e9fb4710c9e638f43e102e0c809a60e8"
+    },
+    {
+      "id": "prop.notice",
+      "bank": "woodwork",
+      "kind": "prop",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        0,
+        16,
+        32,
+        16
+      ],
+      "rect": [
+        368,
+        96,
+        32,
+        32
+      ],
+      "paletteId": "env.woodwork",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "cbb3ab6b25628e7888b26075d299942eda416d8dbad629c7392944c0b8829950"
+    },
+    {
+      "id": "wall.interior.0",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        400,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "4160f029ce3318c03286f7cb7432d374ad093ae6d8db37f095c36ea76610f1e6"
+    },
+    {
+      "id": "wall.interior.1",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        416,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "eb53fc5d27968f448083c81a5213b847b3e94cfc2afb54e85e1de5b4fa1bbe85"
+    },
+    {
+      "id": "wall.interior.2",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        432,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "01a9157ac682c258951cfa2bd5c79574497c4802d2ebd8fd4b0f19ac8f39d4a7"
+    },
+    {
+      "id": "rug.0.0",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        448,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "c488394277983c3d1b119146d5eeab073c3b3f0876164e4e30e350e7858552e1"
+    },
+    {
+      "id": "rug.1.0",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        464,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "76a1a8ced5c1713659ad13befc23a0904d0df343c66fd629b90a584969661f55"
+    },
+    {
+      "id": "rug.2.0",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        480,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "d13f18efd42a85df823da2ff029c25236f1cccad6ff7a3bf96fdd99b83bfc2d1"
+    },
+    {
+      "id": "rug.0.1",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        496,
+        96,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1beb9d1a2eb6c5b50f0c0a085ff9e569ed99f77824fb74418a4ad8e3f280c470"
+    },
+    {
+      "id": "rug.1.1",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        0,
+        144,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ed6939da77c0fedc8c56724539857aedd4ac348ab8e39c26e6d2e3e9abbe7263"
+    },
+    {
+      "id": "rug.2.1",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        16,
+        144,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "24e51f1c719fa38c1aa60e757cbe7b8b5856d17c7e4744192e77250459f50c29"
+    },
+    {
+      "id": "rug.0.2",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        32,
+        144,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "e453a43913a880b783db490b64ec39ef767be12c19a69afcf1c58708aee1f8f5"
+    },
+    {
+      "id": "rug.1.2",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        48,
+        144,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "45f96ba15dd33b1ae26ace67f3403ae20975faf575fee4fc4be41e7aefb3feb5"
+    },
+    {
+      "id": "rug.2.2",
+      "bank": "interior",
+      "kind": "metatile",
+      "rect": [
+        64,
+        144,
+        16,
+        16
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "cb287a3e1a68b1ff9180decea15d88063714255e04f69c85808b25092748d22b"
+    },
+    {
+      "id": "inside.bed",
+      "bank": "interior",
+      "kind": "furniture",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "rect": [
+        80,
+        144,
+        32,
+        32
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "44b67d91c35567a71fde2b6f12d9757be9d2200be212f7c1b857848b7ac26eee"
+    },
+    {
+      "id": "inside.desk",
+      "bank": "interior",
+      "kind": "furniture",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        0,
+        16,
+        32,
+        16
+      ],
+      "rect": [
+        112,
+        144,
+        32,
+        32
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "cb292f83dbfab2642f25f32e1e7fdb4bbdd9f73f09e2a1b02fa9ea98aea1c454"
+    },
+    {
+      "id": "inside.shelf",
+      "bank": "interior",
+      "kind": "furniture",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        0,
+        16,
+        32,
+        16
+      ],
+      "rect": [
+        144,
+        144,
+        32,
+        32
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ca3053eec5000e1b0ee2e582aa41612a19a1b6b9c2ead3fa1ae7f00c695994f7"
+    },
+    {
+      "id": "inside.tank25",
+      "bank": "interior",
+      "kind": "furniture",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        0,
+        16,
+        32,
+        16
+      ],
+      "label": "25-gallon ventilated starter tank; volume specified in UI",
+      "rect": [
+        176,
+        144,
+        32,
+        32
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "e856cedd9a0e5804ca8ef8bdf40f1066e847e465589853d0e0cb51498c4dc06c"
+    },
+    {
+      "id": "inside.chair",
+      "bank": "interior",
+      "kind": "furniture",
+      "sortAnchor": [
+        8,
+        24
+      ],
+      "groundFootprint": [
+        0,
+        8,
+        16,
+        16
+      ],
+      "rect": [
+        208,
+        144,
+        16,
+        24
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "55d5d7f54224e540850244fcc0939dabf65f7cd8c24cd271d302ee538429e4ec"
+    },
+    {
+      "id": "inside.plant",
+      "bank": "interior",
+      "kind": "furniture",
+      "sortAnchor": [
+        8,
+        24
+      ],
+      "groundFootprint": [
+        0,
+        8,
+        16,
+        16
+      ],
+      "rect": [
+        224,
+        144,
+        16,
+        24
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "f563f7e19b81fe85c429ab4e16c69aeb72e19a2b8ffa9a6a005e316a0730116a"
+    },
+    {
+      "id": "inside.stairs",
+      "bank": "interior",
+      "kind": "furniture",
+      "sortAnchor": [
+        16,
+        32
+      ],
+      "groundFootprint": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "rect": [
+        240,
+        144,
+        32,
+        32
+      ],
+      "paletteId": "env.interior",
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "6973b2b27adec272ea7daea9e8285b3a560fb3526285ebb7e669012600563ff5"
+    },
+    {
+      "id": "building.home",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.terracotta.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.window",
+          "x": 14,
+          "y": 51
+        },
+        {
+          "id": "fixture.window",
+          "x": 66,
+          "y": 51
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.gable",
+          "x": 32,
+          "y": 31
+        },
+        {
+          "id": "fixture.chimney",
+          "x": 9,
+          "y": 1
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        272,
+        144,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "163e10016d3d1374b737fb9c22a90fdbcd78a24c4ddc909ee3f04aef6e93f3d5"
+    },
+    {
+      "id": "building.kaid-home",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.terracotta.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.window",
+          "x": 14,
+          "y": 51
+        },
+        {
+          "id": "fixture.window",
+          "x": 66,
+          "y": 51
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.gable",
+          "x": 32,
+          "y": 31
+        },
+        {
+          "id": "fixture.flowerbox",
+          "x": 10,
+          "y": 63
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        368,
+        144,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "2f758d8157591b4d1444a883897fafdacb1842a06bebceb7a0e13c55c2a83bfb"
+    },
+    {
+      "id": "building.rival-home",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.terracotta.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.window",
+          "x": 14,
+          "y": 51
+        },
+        {
+          "id": "fixture.window",
+          "x": 66,
+          "y": 51
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.gable",
+          "x": 32,
+          "y": 31
+        },
+        {
+          "id": "fixture.chimney",
+          "x": 70,
+          "y": 1
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        0,
+        224,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1cb3861fd533ea947d9a255f809b019bcc714ff7f516907c0029bf3ecdbc471c"
+    },
+    {
+      "id": "building.critz",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.teal.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.display",
+          "x": 5,
+          "y": 52
+        },
+        {
+          "id": "fixture.display",
+          "x": 59,
+          "y": 52
+        },
+        {
+          "id": "fixture.awning.cream",
+          "x": 5,
+          "y": 42
+        },
+        {
+          "id": "fixture.awning.cream",
+          "x": 59,
+          "y": 42
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.sign.0",
+          "x": 40,
+          "y": 29
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        96,
+        224,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "1c039844c8dbf3de33b6d45a75b1cf4c8a7d5d1499f27c1cecc09b091c9a32e5"
+    },
+    {
+      "id": "building.vet",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.teal.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.display",
+          "x": 5,
+          "y": 52
+        },
+        {
+          "id": "fixture.display",
+          "x": 59,
+          "y": 52
+        },
+        {
+          "id": "fixture.awning.teal",
+          "x": 5,
+          "y": 42
+        },
+        {
+          "id": "fixture.awning.teal",
+          "x": 59,
+          "y": 42
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.sign.1",
+          "x": 40,
+          "y": 29
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        192,
+        224,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "2dfc23534e8a400e639b08298186466e5097e9c41ee108d15a21a69247d45ef1"
+    },
+    {
+      "id": "building.drug-store",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.teal.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.display",
+          "x": 5,
+          "y": 52
+        },
+        {
+          "id": "fixture.display",
+          "x": 59,
+          "y": 52
+        },
+        {
+          "id": "fixture.awning.teal",
+          "x": 5,
+          "y": 42
+        },
+        {
+          "id": "fixture.awning.teal",
+          "x": 59,
+          "y": 42
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.sign.2",
+          "x": 40,
+          "y": 29
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        288,
+        224,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "0c09814d03e6e5fe929db874458b2f5dbd1a5aee36cb99494b8982ab852fb15d"
+    },
+    {
+      "id": "building.bike-shop",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.terracotta.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.terracotta.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.terracotta.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.terracotta.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.display",
+          "x": 5,
+          "y": 52
+        },
+        {
+          "id": "fixture.display",
+          "x": 59,
+          "y": 52
+        },
+        {
+          "id": "fixture.awning.cream",
+          "x": 5,
+          "y": 42
+        },
+        {
+          "id": "fixture.awning.cream",
+          "x": 59,
+          "y": 42
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.sign.3",
+          "x": 40,
+          "y": 29
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        384,
+        224,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "96b84b2d1c1d85f4947881feefbe3d95e78fda69c3eb331137f097342ff186ad"
+    },
+    {
+      "id": "building.glow-n-blow",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.teal.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.teal.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.teal.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.teal.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.display",
+          "x": 5,
+          "y": 52
+        },
+        {
+          "id": "fixture.display",
+          "x": 59,
+          "y": 52
+        },
+        {
+          "id": "fixture.awning.teal",
+          "x": 5,
+          "y": 42
+        },
+        {
+          "id": "fixture.awning.teal",
+          "x": 59,
+          "y": 42
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.sign.4",
+          "x": 40,
+          "y": 29
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        0,
+        304,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "22637826dc05df2aaff177c7c5fca90664594317899ee2973e0afbeedcdca45c"
+    },
+    {
+      "id": "building.liarsville-cottage",
+      "bank": null,
+      "kind": "assembly",
+      "parts": [
+        {
+          "id": "roof.plum.0.0",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "id": "roof.plum.1.0",
+          "x": 16,
+          "y": 0
+        },
+        {
+          "id": "roof.plum.1.0",
+          "x": 32,
+          "y": 0
+        },
+        {
+          "id": "roof.plum.1.0",
+          "x": 48,
+          "y": 0
+        },
+        {
+          "id": "roof.plum.1.0",
+          "x": 64,
+          "y": 0
+        },
+        {
+          "id": "roof.plum.2.0",
+          "x": 80,
+          "y": 0
+        },
+        {
+          "id": "roof.plum.0.1",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "id": "roof.plum.1.1",
+          "x": 16,
+          "y": 16
+        },
+        {
+          "id": "roof.plum.1.1",
+          "x": 32,
+          "y": 16
+        },
+        {
+          "id": "roof.plum.1.1",
+          "x": 48,
+          "y": 16
+        },
+        {
+          "id": "roof.plum.1.1",
+          "x": 64,
+          "y": 16
+        },
+        {
+          "id": "roof.plum.2.1",
+          "x": 80,
+          "y": 16
+        },
+        {
+          "id": "roof.plum.0.2",
+          "x": 0,
+          "y": 32
+        },
+        {
+          "id": "roof.plum.1.2",
+          "x": 16,
+          "y": 32
+        },
+        {
+          "id": "roof.plum.1.2",
+          "x": 32,
+          "y": 32
+        },
+        {
+          "id": "roof.plum.1.2",
+          "x": 48,
+          "y": 32
+        },
+        {
+          "id": "roof.plum.1.2",
+          "x": 64,
+          "y": 32
+        },
+        {
+          "id": "roof.plum.2.2",
+          "x": 80,
+          "y": 32
+        },
+        {
+          "id": "wall.exterior.0.0",
+          "x": 0,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 16,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 32,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 48,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.1.0",
+          "x": 64,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.2.0",
+          "x": 80,
+          "y": 48
+        },
+        {
+          "id": "wall.exterior.0.1",
+          "x": 0,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 16,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 32,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 48,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.1.1",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "id": "wall.exterior.2.1",
+          "x": 80,
+          "y": 64
+        },
+        {
+          "id": "fixture.window",
+          "x": 14,
+          "y": 51
+        },
+        {
+          "id": "fixture.window",
+          "x": 66,
+          "y": 51
+        },
+        {
+          "id": "fixture.door",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": "fixture.gable",
+          "x": 32,
+          "y": 31
+        },
+        {
+          "id": "fixture.chimney",
+          "x": 9,
+          "y": 1
+        }
+      ],
+      "sortAnchor": [
+        48,
+        80
+      ],
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "rect": [
+        96,
+        304,
+        96,
+        80
+      ],
+      "paletteId": null,
+      "origin": [
+        0,
+        0
+      ],
+      "approval": "rejected-review-history",
+      "sha256": "ba877d20fd2f4bae102e5a4f97c028a20da802e59766b3bbfd79ba2eec7407c4"
+    }
+  ]
+}

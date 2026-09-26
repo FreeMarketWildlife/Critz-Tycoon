@@ -1,6 +1,6 @@
 # Critz: Tycoon — initial art bible
 
-M0 edition, 2026-09-24. **No example artwork, character proportions, palette swatches or motion proof has user approval yet.** “Approved direction” below means the user's supplied technical brief, not a finished art asset. [REFERENCE_MEASUREMENTS.md](REFERENCE_MEASUREMENTS.md) separates measured evidence from proposals. [GAME_VISION.md](GAME_VISION.md) remains canon.
+M1 environment review edition, 2026-09-25. **No example artwork, character proportions, palette swatches or motion proof has user approval yet.** “Approved direction” below means the user's supplied technical brief, not a finished art asset. [REFERENCE_MEASUREMENTS.md](REFERENCE_MEASUREMENTS.md) separates measured evidence from proposals. [GAME_VISION.md](GAME_VISION.md) remains canon.
 
 ## Approved direction
 
@@ -58,7 +58,7 @@ These are original composition targets to test, **not verified Emerald prop meas
 | Compact house | Initial 96×80 silhouette | Grid-composed roof/front; explicit building footprint and one-cell entrance. Not a size rule for every building. |
 | Starter tank fixture | 32×32 | 2×1 supporting cabinet/contact footprint; reachable front interaction, identified as 25 gallons in UI. Artwork alone is not a gallon measurement. |
 
-M1 tests indoor scales only. Outdoor tree/fence/building dimensions await M2/M3 examples; do not expand to Rootport now. Leave floor and wall areas visually quiet enough that silhouettes, doors and interactions remain readable.
+The user authorized M1.E1 environment review artwork on 2026-09-25, including original indoor/outdoor pieces and proposed Rootport, forest-route and Liarsville views. This is a review-only scope extension; it does not authorize gameplay expansion or approve G1/G2. Revision 1 was rejected for missing the intended Emerald style; revision 2 returns to a small house/tree proof before more map work. Leave floor and wall areas visually quiet enough that silhouettes, doors and interactions remain readable.
 
 ## Palette, outlines and light — proposals for G1
 
@@ -96,3 +96,22 @@ Export PNG at 1× with hard pixels and binary transparency for exploration sprit
 Preserve accessible DOM menus/control semantics while native borders/icons/fonts are evaluated in M6. Never shrink touch hit areas to sprite dimensions. Primary touch targets proposed at ≥44 CSS px; preserve scroll and keyboard focus, player-entered names and live causal tank data. Manage/Stats/View remain the first tank choices. Whether dialogue/menu text is native bitmap or display-scale DOM is unresolved pending readability review.
 
 Approved example images: **none**. Existing `docs/screenshots/` and M0 test captures document the prototype only. Proposed standards become approved only with the user's G1/G2 response recorded alongside exact artifact revision/hash. M1 will present seven original characters (front and side, both sides for Kaid) together plus one bedroom at native and 4×; it will not finalize the remaining roster.
+
+
+## Environment construction research and the rejected first draft — 2026-09-25
+
+Read the [pinned environment research](reference-data/EMERALD_ENVIRONMENT_RESEARCH.md) for source links, assembly measurements and limits. Emerald uses shared primary and area-specific secondary tilesets, reusable 8×8 references inside 16×16 metatiles, and explicit layering. Selected measured examples are a **32×32 tree assembly** and **80×80 house assembly**; these are not universal silhouette dimensions. The earlier 32×48 tree and 96×80 house remain Critz proposals. Original Game Freak drawing software, brush/layer workflow and art review process were not verified; the decompilation's modern file organization does not establish those historical facts. No emulator observations were made.
+
+The first Critz environment draft passed elementary grid constraints but the user rejected its visual style: “What I see you making does not look like Pokémon emerald.” Treat **all revision-1 environment PNGs/maps as rejected review history**. Technical validity is not visual approval. Do not integrate them, call them accepted, or use them as a new style reference.
+
+### Revised drawing guidance — proposed, awaiting review
+
+- **Draw volume before texture.** Roofs should show distinct planes, narrow side returns and layered eaves above a short front wall. Avoid a flat rectangle with a brick pattern and a front-facing triangular porch pasted onto it. Not every building needs the same silhouette.
+- **Use material-specific pixel clusters.** Roof highlights describe the direction and overlap of tiles. Avoid a uniform decorative dash pattern. Windows need a simple cyan glass ramp and structural framing; walls should be calmer than roof edges.
+- **Separate warm/cool material families.** Explore warm ochre/terracotta roof surfaces against pale cream plaster, cool gray-violet structural shadows and cyan window glass. Ground can be lighter mint green than deep foliage. These color relationships are observations/proposals, not a copied reference palette or exact final RGB specification.
+- **Trees are compact foliage masses.** Prefer a 32×32 specimen for the next comparison, with jagged interlocking leaf clusters, bright yellow-green upper planes, dark connected lower canopy, and a mostly concealed trunk. Avoid smooth pear silhouettes, isolated circular highlight spots, long lollipop trunks and detached oval shadows. Taller variants remain possible after the small reference-scale specimen works.
+- **Judge at native size.** A 240×160 proof and exact nearest-neighbor enlargement must both be shown. Generative mood studies may guide a direction but cannot establish native dimensions, palette membership or tile reusability. Exported native proofs require independent pixel checks.
+- **Keep originality explicit.** Source assemblies can be studied outside the repository. New Critz palettes, pixels and assemblies must be authored separately; never ship source-game sprites. The checked-in generators read no reference artwork.
+- **Build connected compositions.** Keep paths clear of border trees, bridge the full stream width, connect each doorstep to a lane, and leave room below south-facing doors. These static layout checks do not prove collision or movement.
+
+Current review: [M1.E1 packet](reviews/M1-E1/README.md), [revision-2 native proof](../assets/review/environment-v2/house-tree-native.png), [exact 4× proof](reviews/M1-E1/revision-2/house-tree-4x.png). The revised proof is **awaiting user feedback**, not an accepted art example. Indoor furniture, all town maps and the production tileset must be revised after the direction is settled. The planned Hero/Mom scale test and G1/G2 gates remain outstanding.

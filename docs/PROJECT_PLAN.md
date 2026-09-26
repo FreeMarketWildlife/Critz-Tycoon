@@ -32,6 +32,12 @@ Dependency: M0 delivered; user authorizes M1.
 
 Gate G1: user visual approval recorded before M2 or roster/world expansion. Exclusions: full roster, town redraw, playable movement rewrite, new canon, full production pipeline. If G1 requests changes, revise M1; do not proceed while waiting.
 
+## M1.E1 — User-requested environment review extension
+
+Authorized 2026-09-25: start original indoor/outdoor tiles, placeable trees and houses, research missing Emerald construction details, and present proposed Rootport, Liarsville and their short connecting forest route. This later instruction extends the earlier bedroom-only art scope **for review artifacts**, without approving gameplay integration or G1/G2.
+
+Only this implementation task is active. Revision 1 produced a draft kit and map proposals but was rejected by the user for visual mismatch. **State: awaiting review of revision 2**, a focused native house/tree proof. The broader kit and town revisions remain planned until this direction is accepted; M1.1/M1.2/M1.3 are not complete. Deliver PNGs and sources as review assets, preserve the rejected version as clearly labeled history, and record the user's response before expanding the revised artwork. Research evidence is in the [environment report](reference-data/EMERALD_ENVIRONMENT_RESEARCH.md).
+
 ## M2 — Movement and camera proof
 
 Dependency: G1 approved art; unresolved critical motion details measured or explicitly labeled approximation in the demo.

@@ -1,0 +1,970 @@
+{
+  "schemaVersion": 1,
+  "id": "review.bedroom",
+  "status": "rejected-review-history",
+  "tileSize": 16,
+  "width": 15,
+  "height": 10,
+  "camera": {
+    "x": 0,
+    "y": 0,
+    "width": 240,
+    "height": 160
+  },
+  "placements": [
+    {
+      "id": "floor.wood.0",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 16,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 32,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 48,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 64,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 80,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 96,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 112,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 128,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 144,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 160,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 176,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 192,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 208,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 224,
+      "y": 0
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 0,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 16,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 32,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 48,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 64,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 80,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 96,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 112,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 128,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 144,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 160,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 176,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 192,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 208,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 224,
+      "y": 16
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 0,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 32,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 48,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 64,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 80,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 96,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 112,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 128,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 144,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 160,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 176,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 192,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 208,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 224,
+      "y": 32
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 0,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 16,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 32,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 48,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 64,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 80,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 96,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 112,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 128,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 144,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 160,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 176,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 192,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 208,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 224,
+      "y": 48
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 0,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 16,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 32,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 48,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 64,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 80,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 96,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 112,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 128,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 144,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 160,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 176,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 192,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 208,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 224,
+      "y": 64
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 0,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 16,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 32,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 48,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 64,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 80,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 96,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 112,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 128,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 144,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 160,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 176,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 192,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 208,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 224,
+      "y": 80
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 0,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 16,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 32,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 48,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 64,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 80,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 96,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 112,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 128,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 144,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 160,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 176,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 192,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 208,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 224,
+      "y": 96
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 0,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 16,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 32,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 48,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 64,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 80,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 96,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 112,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 128,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 144,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 160,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 176,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 192,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 208,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 224,
+      "y": 112
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 0,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 16,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 32,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 48,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 64,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 80,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 96,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 112,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 128,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 144,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 160,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 176,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 192,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 208,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.0",
+      "x": 224,
+      "y": 128
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 0,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 16,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 32,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 48,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 64,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 80,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 96,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 112,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 128,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 144,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 160,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 176,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 192,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 208,
+      "y": 144
+    },
+    {
+      "id": "floor.wood.1",
+      "x": 224,
+      "y": 144
+    },
+    {
+      "id": "wall.interior.0",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 16,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 32,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 48,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 64,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 80,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 96,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 112,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 128,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 144,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 160,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 176,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 192,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.1",
+      "x": 208,
+      "y": 0
+    },
+    {
+      "id": "wall.interior.2",
+      "x": 224,
+      "y": 0
+    },
+    {
+      "id": "rug.0.0",
+      "x": 96,
+      "y": 64
+    },
+    {
+      "id": "rug.1.0",
+      "x": 112,
+      "y": 64
+    },
+    {
+      "id": "rug.2.0",
+      "x": 128,
+      "y": 64
+    },
+    {
+      "id": "rug.0.1",
+      "x": 96,
+      "y": 80
+    },
+    {
+      "id": "rug.1.1",
+      "x": 112,
+      "y": 80
+    },
+    {
+      "id": "rug.2.1",
+      "x": 128,
+      "y": 80
+    },
+    {
+      "id": "rug.0.2",
+      "x": 96,
+      "y": 96
+    },
+    {
+      "id": "rug.1.2",
+      "x": 112,
+      "y": 96
+    },
+    {
+      "id": "rug.2.2",
+      "x": 128,
+      "y": 96
+    },
+    {
+      "id": "fixture.window",
+      "x": 48,
+      "y": 0
+    },
+    {
+      "id": "inside.plant",
+      "x": 128,
+      "y": 16
+    },
+    {
+      "id": "inside.desk",
+      "x": 80,
+      "y": 16
+    },
+    {
+      "id": "inside.shelf",
+      "x": 160,
+      "y": 16
+    },
+    {
+      "id": "inside.bed",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "id": "inside.chair",
+      "x": 80,
+      "y": 48
+    },
+    {
+      "id": "inside.tank25",
+      "x": 160,
+      "y": 80
+    },
+    {
+      "id": "inside.stairs",
+      "x": 16,
+      "y": 112
+    }
+  ],
+  "objects": [
+    {
+      "id": "inside.bed",
+      "x": 16,
+      "y": 32
+    },
+    {
+      "id": "inside.desk",
+      "x": 80,
+      "y": 16
+    },
+    {
+      "id": "inside.chair",
+      "x": 80,
+      "y": 48
+    },
+    {
+      "id": "inside.shelf",
+      "x": 160,
+      "y": 16
+    },
+    {
+      "id": "inside.tank25",
+      "x": 160,
+      "y": 80
+    },
+    {
+      "id": "inside.plant",
+      "x": 128,
+      "y": 16
+    },
+    {
+      "id": "inside.stairs",
+      "x": 16,
+      "y": 112
+    }
+  ],
+  "pointsOfInterest": [
+    {
+      "label": "25-gallon gift",
+      "x": 160,
+      "y": 80
+    }
+  ]
+}

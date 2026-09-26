@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "status": "proposed-not-playable",
+  "units": "native-pixels",
+  "rules": [
+    {
+      "id": "tree.broadleaf",
+      "groundFootprint": [
+        8,
+        32,
+        16,
+        16
+      ],
+      "canopy": "tree.broadleaf.canopy",
+      "note": "Trunk occupancy only; canopy cover requires depth validation with approved actor."
+    },
+    {
+      "id": "building.home",
+      "groundFootprint": [
+        0,
+        48,
+        96,
+        32
+      ],
+      "threshold": [
+        40,
+        64,
+        16,
+        16
+      ],
+      "approach": [
+        40,
+        80,
+        16,
+        16
+      ],
+      "note": "Illustrative contact footprint, not complete inaccessible roof/rear building volume. Future collision map must explicitly block full building and leave reachable threshold."
+    }
+  ],
+  "warps": [],
+  "interactions": [],
+  "spawns": []
+}
