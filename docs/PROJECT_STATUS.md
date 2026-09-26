@@ -1,6 +1,6 @@
 # Project status
 
-Updated **2026-09-26 (America/Los_Angeles)**. Current milestone: **M1 visual review**. Active delivery: **M1.E1 gallery — inventory and animation viewer**. Environment revision 2 remains awaiting visual review. M0 remains complete. M1/G1 and M2/G2 are not complete or approved.
+Updated **2026-09-26 (America/Los_Angeles)**. Current milestone: **M1 visual review**. **M1.E1 gallery delivery is complete**. No gallery implementation remains active; environment revision 2 remains awaiting user visual review. M0 remains complete. M1/G1 and M2/G2 are not complete or approved.
 
 ## Asset gallery follow-up — 2026-09-26
 
@@ -13,7 +13,10 @@ The user requested a playable link and a sheet of all existing pixel assets, inc
 - [Complete PNG contact sheet](../assets/catalogue/all-assets.png), [160 sampled character views](../assets/catalogue/character-frames.png), downloadable in the gallery. Export includes original code-drawn prototype artwork (including its translucent/rounded rendering), explicitly labeled as such.
 - **13 gallery checks passed**, including loading, animation changes/pause/step, filtering, PNG export/download, reduced motion, zero uncaught errors and no overflow at 320/390/844/1280 widths. Isolated synthetic storage stayed unchanged. [Report](verification/ART_GALLERY.json). 10/10 domain tests, 14/14 reported game-browser checkpoints, and syntax/build checks pass. [Game report](verification/GALLERY_GAME_REGRESSION.json). The browser reload assertion covers names, money, post count and rescues; its broad success-message wording does not establish full tank/inventory equality. Physical phone Safari remains untested.
 - Hosted and GitHub source histories were merged on main at `3ef1c0f2023c125070f95288c3e60de4aba6ee3c`; the Site branch only added the identical hosting manifest. No remote history was overwritten, no branch/worktree created, and the merge changed no tracked file content.
-- Current publication is in progress; record the verified deployment below. The earlier permission denial is a historical tool result, not a current restriction after the environment permissions changed and the user asked to view/play.
+- **Published successfully:** source `b6bc2641f1afd4b501e630c1efc984e14626cf50`, matched GitHub main at delivery, saved version `appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_f6466a3d21e881919e0896f68c84f1c8`, deployment `appgdep_6ab7f4f3136c819193cb5ea00ceba7ae`, native status **succeeded** at 2026-09-26 16:38:20 UTC. No failure message. Artifact was packaged from that committed source and tested build.
+- [Play the game](https://critz-tycoon.freemarketwildlife.chatgpt.site/) · [Asset/animation gallery](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/) · [Complete PNG sheet](https://critz-tycoon.freemarketwildlife.chatgpt.site/assets/catalogue/all-assets.png) · [Sampled character frames](https://critz-tycoon.freemarketwildlife.chatgpt.site/assets/catalogue/character-frames.png).
+- Access remains owner-only; no audience, site origin, save key or schema change. This publishes the review separately from the game and preserves existing gameplay. A documentation-only receipt follows this verified source commit; no redundant gameplay deployment is needed for that receipt.
+- The earlier permission denial is a historical runtime result, not a current restriction. Its exact UI cause/intent is unknown. The current request and changed permissions allowed publication. A short-lived credential was renewed and the local packaging Node PATH fixed; both were resolved before the successful deployment.
 
 ## Current deliverable and user feedback
 
@@ -43,12 +46,12 @@ Revision 2 returns to a focused original **240×160 house/tree scene**, with exa
 
 No M1.1 character lineup or M1.2 Hero/Mom bedroom scale proof is complete. The separate ten shared Hero/rival candidate assignment remains pending. G1 and G2 are explicitly unapproved; no playable-world expansion, M2 movement, save migration or new story content is authorized by this artwork delivery.
 
-## Git and hosting delivery
+## Previous delivery history — superseded by gallery publication above
 
 - Work remains on **main**; initial clean local HEAD and separately verified GitHub `origin/main` were `b779dec5ee4c1879e427dc07fc6c74751bcf85b3`.
 - **Artwork/research delivery commit:** `8f57d089cbbff8ede0de37458d7a1fb90ca25690`, pushed to GitHub `origin/main` and verified with `git ls-remote` to match local HEAD. Working tree was clean at that verification. The following documentation-only receipt commit records this evidence; it does not change the reviewed PNG hashes. Final delivery must also verify that receipt HEAD against the remote.
 - Sites source opening first hit a sandbox DNS failure. The required network escalation was **rejected by the user**. No Sites source push, saved version or deployment happened, and no further attempt was made. Access/audience unchanged.
-- [Phone game](https://critz-tycoon.freemarketwildlife.chatgpt.site) therefore still serves its previously successful owner-only version 1: deployment `appgdep_6ab5dd4db9608191a338dfbdc9786320`, saved version `appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_5aec90aa6f208191ab9a7c3f3ad0546e`, previous hosting source `e64d5ea16be908d90995ea16dffb56f36437ae73`. This review is **not deployed**. A GitHub push does not change the phone build.
+- [Phone game](https://critz-tycoon.freemarketwildlife.chatgpt.site) therefore still serves its previously successful owner-only version 1: deployment `appgdep_6ab5dd4db9608191a338dfbdc9786320`, saved version `appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_5aec90aa6f208191ab9a7c3f3ad0546e`, previous hosting source `e64d5ea16be908d90995ea16dffb56f36437ae73`. At the end of that previous turn the review was **not deployed**; the newer gallery publication above supersedes this state. A GitHub push does not change the phone build.
 
 ## Earlier baseline / resume context
 
