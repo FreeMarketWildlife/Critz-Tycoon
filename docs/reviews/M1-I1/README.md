@@ -2,6 +2,8 @@
 
 User goal: update the playable game with the new Emerald-style artwork and tile movement. This review supplies the recovered original art handoff needed for that goal; it does not claim the full game update is complete.
 
+Published review: [open on phone](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/integration.html). Native deployment succeeded for source `1c1c62bcff554394ae27c5b02501e6554abdedfb`; receipt in PROJECT_STATUS. 18/18 review checks, 10/10 domain tests and 14/14 existing browser checkpoints passed. Physical Safari remains untested.
+
 - [Static scene review](../../../art-review/integration.html): ten character choices, doorway and tree placements, 16px grid.
 - [Combined PNG](../../../assets/review/integration-v1/atlas.png): 256×160, 23 entries.
 - [Runtime manifest](../../../assets/review/integration-v1/atlas.json): stable asset IDs and exact rectangles.
