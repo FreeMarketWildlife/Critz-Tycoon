@@ -2,7 +2,7 @@
 
 ## M1.I2 — Playable visual-review delivery, 2026-09-27
 
-**Implementation and checks complete; publication in progress. Final user visual/movement acceptance is awaiting review.** The user explicitly authorized completing missing native art, playable integration and tile movement together without intermediate approvals. This supersedes the earlier staged restriction and unanswered M1.I1 scope question; no world/roster expansion beyond existing scenes was authorized. Work is directly on `main`, initially clean at `37cb7d6560f39ac8a65fafabe61faeb06eb0da8e`.
+**Implementation, checks and publication complete. Final user visual/movement acceptance is awaiting review.** The user explicitly authorized completing missing native art, playable integration and tile movement together without intermediate approvals. This supersedes the earlier staged restriction and unanswered M1.I1 scope question; no world/roster expansion beyond existing scenes was authorized. Work is directly on `main`, initially clean at `37cb7d6560f39ac8a65fafabe61faeb06eb0da8e`.
 
 The deliverable is the normal playable game with a visible **VISUAL REVIEW BUILD** label. [Review record](reviews/M1-I2/README.md) documents original assets, controls, save conversion and deliberate differences. All eleven existing scenes now use one **512×768 PNG with 270 stable entries**: 54 environment pieces and 216 directional idle/walk/run frames. B1/G1 remain provisional defaults, with exact south idle pixels preserved; player gender/names and the Hero's Black child identity remain. Mom/Nugget are adults, rival/Kaid children, and Kaid's asymmetric sides are authored explicitly. The night tank includes Pebble. Tank View/photography has a separate new native pixel rendering implementation while retaining snapshot dimensions and gameplay semantics. No prototype exploration or rejected environment-v1 art is imported by the game.
 
@@ -19,7 +19,11 @@ Actual checks:
 
 Limitations: tests use isolated desktop Chrome/mobile emulation and synthetic visibility events, not physical iPhone Safari/OS suspension. No Emerald emulator frame capture was performed. Native art and movement are explicitly awaiting the user's acceptance; technical checks are not approval. Later Tiled/world-expansion milestones remain deferred.
 
-Push/deployment evidence and exact next action will be recorded here immediately after the final run/publication. Until successful deployment, the phone URL still serves the prior build.
+**Delivery source:** `2604e6c18b3142793a3d2d5edf0654c5261109ab`, committed on `main`, pushed to GitHub `origin/main` and verified by `git ls-remote` to equal local HEAD. The Sites workflow also pushed and verified that exact source. All 13 runtime files in the deployment archive match the browser-tested hashes. An initial packaging attempt could not find Node on PATH; rerunning the same workflow with the bundled runtime on PATH succeeded, without changing source or tests.
+
+**Deployment succeeded** at **2026-09-27 18:54:54 UTC** (11:54 Pacific): `appgdep_6ab966771a3c8191b9267d0054419643`, version `appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_9c132d36983c8191868f2c6bfb0e8078`, native status `succeeded`, no failure message. Existing owner-only audience and origin are unchanged. [Play the new game on phone](https://critz-tycoon.freemarketwildlife.chatgpt.site). [Deployment receipt](reviews/M1-I2/deployment.json).
+
+**Exact next action:** the user plays the normal game and reviews its art and movement feel. M1.I2 implementation/delivery is complete; G1/G2 acceptance remains awaiting review. This following documentation-only receipt is committed/pushed separately; it changes none of the tested runtime hashes and requires no duplicate deployment. No unrelated working-tree changes were present or committed; local build/test output remains ignored.
 
 Earlier entries below are historical and their pending authorization language is superseded by this explicit instruction.
 
