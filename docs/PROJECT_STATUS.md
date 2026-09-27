@@ -1,8 +1,31 @@
 # Project status
 
-Updated **2026-09-26 (America/Los_Angeles)**. Current milestone: **M1 visual review**. **M1.E1 gallery delivery is complete**. No gallery implementation remains active; environment revision 2 remains awaiting user visual review. M0 remains complete. M1/G1 and M2/G2 are not complete or approved.
+Updated **2026-09-26 (America/Los_Angeles)**. Current milestone: **M1 visual review**. Active task: **M1.I1 recovered-art integration review**, awaiting user response; artifact implementation and checks complete, publication pending below. M1.E1 gallery delivery and the earlier ten-character artifact assignment are complete as deliveries, but visual approval remains pending. M0 remains complete. M1/G1 and M2/G2 are not complete or approved.
 
-## Asset gallery follow-up — 2026-09-26
+## Current request: use the new artwork in the game
+
+The user requested the new Emerald-style visuals, preferably a single tileset PNG, and reiterated Emerald tile movement. Audits of repository files, prior art task, branches and PRs found:
+
+- Revised environment 2 has **13 pieces**, not a complete interior/outdoor kit. Revision 1 remains rejected.
+- The separate character task delivered **ten original 16×32 south-idle candidates**, B1–B5/G1–G5, outside the repo. They are now imported unchanged into `assets/review/characters-v1/`; original indexed source and palette data are in `art/source/characters-v1/`. Their source metadata and hashes are retained. No side/back/walk/run or Mom/Kaid/Nugget sprites exist in that handoff.
+- No exact artwork approval was found. The earlier status saying the candidate assignment was wholly pending was incomplete: artifact delivery was finished, selection and approval were pending.
+- Current gameplay is continuous/diagonal at 24px tiles, not the requested Emerald movement. The pinned source ledger supports a 59.72750057 Hz tick, 16-tick walk, 8-tick run and committed cardinal 16px steps; exact displayed action/warp boundaries remain unresolved. Source inspection is not emulator observation.
+
+An asynchronous question asks whether this request authorizes missing-art production and tile movement together as a labeled playable review, or whether to retain staged approvals. **No answer recorded yet.** Do not infer approval from silence. Current work is limited to concrete, reversible art handoff and static assembly review under M1; no production movement rewrite, save migration or world expansion has started.
+
+### M1.I1 deliverable / awaiting review
+
+- [One shared atlas](../assets/review/integration-v1/atlas.png): **256×160, 23 entries**, 13 revised environmental assets + ten candidates. [Stable-ID manifest](../assets/review/integration-v1/atlas.json); [reproducible lossless packer](../scripts/pack-review-atlas.py).
+- [Static assembled review](../art-review/integration.html): 240×160 native scene, all ten selectable candidates, doorway/tree/canopy scale placements, optional 16px grid, exact integer CSS enlargement and downloadable atlas. No movement or animation is represented. Original pixels are unchanged; this imports no reference artwork or rejected art.
+- `src/atlas.js` provides an appearance-only PNG/manifest loader used by the review. The story game links to the review but does not import this loader or change its world renderer, story, simulation, movement, collision, warps or save format.
+- Atlas checks passed: 23 unique IDs, nonoverlapping/in-bounds rectangles, binary alpha and byte-for-byte RGBA equality for every source crop, plus original character PNG SHA-256 verification. [Report](reviews/M1-I1/atlas-validation.json).
+- **18/18 review browser checks passed**: all assets and ten candidate selections, placement/occlusion, grid, exact download bytes, missing-atlas failure UI, zero exceptions, untouched isolated synthetic storage, no overflow/clipping and ≥44px controls at 320×568, 390×844, 844×390 and 1280×900. Final desktop/phone/error captures visually inspected. [Report](verification/ART_INTEGRATION.json). Initial narrow-screen overflow and small text-link targets were fixed before final validation.
+- **10/10 domain tests, 14/14 existing browser checkpoints and six JS syntax checks passed**, with source/build/served gameplay hashes compared. [Preservation report](verification/ART_INTEGRATION_GAME_REGRESSION.json). Browser reload assertions cover only hero/money/post count/rescued IDs; full tank/inventory equality is covered by synthetic domain round-trip tests, not that browser assertion. Physical phone Safari and new movement remain untested; none is claimed.
+- Branch `main`; opening local/GitHub baseline `f9067ad234eaf90da3ec47bfa6cc1314eebc4807`. Source opening succeeded against the existing owner-only Site. Push/deployment for M1.I1 pending. Current phone link still serves the prior gallery/game build.
+
+**Exact next action:** publish this checked review beside the preserved game and obtain the user's scope/art response. Full requested visuals and Emerald movement remain unfinished, not self-approved by this packaging work.
+
+## Previous asset gallery follow-up — 2026-09-26
 
 The user requested a playable link and a sheet of all existing pixel assets, including animation. This authorizes publication of a review gallery beside the existing game, without approving new artwork or modifying gameplay.
 
@@ -44,7 +67,7 @@ Revision 2 returns to a focused original **240×160 house/tree scene**, with exa
 
 **Await the user's response to the focused revision-2 proof.** If it still misses the target, revise this small example. Only after the visual direction is accepted should the indoor/outdoor kit and Rootport/route/Liarsville proposals be rebuilt in the revised style. The original broader environment request is unfinished at this visual review boundary.
 
-No M1.1 character lineup or M1.2 Hero/Mom bedroom scale proof is complete. The separate ten shared Hero/rival candidate assignment remains pending. G1 and G2 are explicitly unapproved; no playable-world expansion, M2 movement, save migration or new story content is authorized by this artwork delivery.
+No M1.1 full character lineup or M1.2 Hero/Mom bedroom scale proof is complete. The separate ten shared Hero/rival candidate artifact assignment was delivered and has now been recovered into M1.I1; selection/approval remains pending. G1 and G2 are explicitly unapproved; no playable-world expansion, M2 movement, save migration or new story content is authorized by the earlier artwork delivery.
 
 ## Previous delivery history — superseded by gallery publication above
 

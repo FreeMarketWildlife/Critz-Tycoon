@@ -97,6 +97,8 @@ Preserve accessible DOM menus/control semantics while native borders/icons/fonts
 
 Approved example images: **none**. Existing `docs/screenshots/` and M0 test captures document the prototype only. Proposed standards become approved only with the user's G1/G2 response recorded alongside exact artifact revision/hash. M1 will present seven original characters (front and side, both sides for Kaid) together plus one bedroom at native and 4×; it will not finalize the remaining roster.
 
+Recovered character proposals: the separate art task delivered ten shared Hero/rival candidates B1–B5/G1–G5, one south-idle pose each. They are now in `assets/review/characters-v1/`, with editable indexed rows/palettes in `art/source/characters-v1/`. The combined [M1.I1 atlas](../assets/review/integration-v1/atlas.png) contains those ten and environment revision 2, using [stable IDs](../assets/review/integration-v1/atlas.json). It is a lossless review package, not a complete production sheet. No directional/animated character or revised indoor assets are implied. Inspect them together at [the static assembly review](../art-review/integration.html).
+
 
 ## Environment construction research and the rejected first draft — 2026-09-25
 

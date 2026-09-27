@@ -38,6 +38,12 @@ Authorized 2026-09-25: start original indoor/outdoor tiles, placeable trees and 
 
 The 2026-09-26 inventory/contact-sheet and animation gallery using existing artwork is complete and successfully published alongside the playable game; see PROJECT_STATUS for source/deployment and checks. This does not approve art, invent new animations, or begin M2. Only this implementation task is active. Revision 1 produced a draft kit and map proposals but was rejected by the user for visual mismatch. **State: awaiting review of revision 2**, a focused native house/tree proof. The broader kit and town revisions remain planned until this direction is accepted; M1.1/M1.2/M1.3 are not complete. Deliver PNGs and sources as review assets, preserve the rejected version as clearly labeled history, and record the user's response before expanding the revised artwork. Research evidence is in the [environment report](reference-data/EMERALD_ENVIRONMENT_RESEARCH.md).
 
+## M1.I1 — Recovered-art integration review
+
+Requested 2026-09-26: update the game using the new Emerald-style artwork, prefer one shared PNG, and retain the target of Emerald tile movement. Discovery found ten finished south-idle candidate PNGs outside this checkout; it did not find directional/animated character sheets, Mom/Kaid/Nugget sheets, or a revised indoor kit. No recorded G1 approval exists. The user has been asked whether to authorize a combined art/movement playable review or keep the staged gates; no response is recorded yet.
+
+**Active deliverable: awaiting review; artifact and checks complete.** Recovered the original candidates and editable source, losslessly packed them with environment revision 2 into one 256×160 atlas (23 stable IDs), and provided a static 240×160 assembly review with candidate selection and foreground placement. Rejected environment revision 1 and reference-game art are excluded. This is useful preparation for the requested integration, not completion of the full reskin or M2. The preview never accesses saved game storage. New runtime integration and movement remain dependent on the user's scope/gate response. Delivery evidence is in PROJECT_STATUS.
+
 ## M2 — Movement and camera proof
 
 Dependency: G1 approved art; unresolved critical motion details measured or explicitly labeled approximation in the demo.

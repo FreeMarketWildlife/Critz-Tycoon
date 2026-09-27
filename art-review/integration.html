@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#173f3d">
+  <title>Critz — New art together</title>
+  <link rel="icon" href="../icon.svg">
+  <link rel="stylesheet" href="integration.css">
+</head>
+<body>
+  <header><a class="brand" href="/">critz<span>✦</span> <small>TYCOON</small></a><a href="./">Art library ↗</a></header>
+  <main>
+    <p class="eyebrow">VISUAL REVIEW · M1.I1</p>
+    <h1>A little world,<br>coming together.</h1>
+    <p class="intro">The new character candidates and revised outdoor art, drawn from one shared PNG. Choose a character to see the scale together.</p>
+    <div class="review-layout">
+      <section class="scene-card" aria-labelledby="scene-title">
+        <div class="card-heading"><h2 id="scene-title">Outside the house</h2><span>240 × 160</span></div>
+        <div id="scene-container"><canvas id="scene" width="240" height="160" aria-label="Original Critz house and trees with the selected character candidate"></canvas></div>
+        <div class="scene-controls">
+          <label>Place character <select id="position" disabled><option value="door">At the doorstep</option><option value="beside">Beside the tree</option><option value="behind">Behind the canopy</option></select></label>
+          <label class="check"><input id="grid" type="checkbox" disabled> Show 16px grid</label>
+        </div>
+        <p class="caption">Exact integer enlargement. Character placement is a static scale and layering check, not a movement demo.</p>
+      </section>
+      <section class="character-card" aria-labelledby="characters-title">
+        <p class="eyebrow">TEN ORIGINAL CANDIDATES</p>
+        <h2 id="characters-title">Who feels like Hero?</h2>
+        <div id="candidates" aria-label="Character candidates"></div>
+        <p id="description" class="description" aria-live="polite">Loading original artwork…</p>
+        <p class="caption">All ten are front-facing idle poses. Selecting one previews it here; it does not approve a design or change your saved Hero.</p>
+      </section>
+    </div>
+    <p id="status" role="status">Loading the shared atlas…</p>
+    <section class="sheet-card">
+      <div><p class="eyebrow">ONE PNG · 23 ENTRIES</p><h2>The shared art sheet.</h2><p>13 revised environment pieces and 10 character candidates, with stable IDs and original pixels preserved.</p><div class="links"><a class="primary" href="../assets/review/integration-v1/atlas.png" download="critz-review-atlas.png">Download the PNG ↓</a><a href="../assets/review/integration-v1/atlas.json" download>Asset manifest ↓</a></div></div>
+      <img id="atlas-sheet" src="../assets/review/integration-v1/atlas.png" width="256" height="160" alt="Combined atlas of the revised house, tree, grass, flowers and ten original character fronts">
+    </section>
+    <section class="next"><h2>What still needs artwork</h2><p>Side, back, walk and run poses; Mom, Kaid and Professor Nugget; and revised indoor tiles and furniture. The first environment draft was rejected and is excluded from this sheet.</p><p>Art approval and a separate tile-movement proof are still pending. The existing story game remains available with its current visuals, controls and saves.</p><a href="/">Continue the existing game ↗</a></section>
+  </main>
+  <footer>Original Critz art · Visual review only · Your saved game is never accessed here.</footer>
+  <script type="module" src="integration.js"></script>
+</body>
+</html>

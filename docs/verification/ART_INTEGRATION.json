@@ -1,0 +1,698 @@
+{
+  "task": "M1.I1 static art integration review",
+  "scope": "Appearance review only; no movement, animation, full-game integration or user approval claimed.",
+  "url": "http://localhost:5173/art-review/integration.html",
+  "testedAt": "2026-09-27T06:15:22.658Z",
+  "isolatedBrowserContext": true,
+  "realBrowserProfileAccessed": false,
+  "checks": [
+    {
+      "name": "Served integration files equal the built dist files",
+      "pass": true
+    },
+    {
+      "name": "All 23 atlas entries and ten candidate previews preserve source pixels",
+      "pass": true,
+      "detail": [
+        {
+          "id": "ground.grass",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "roof.pantile",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "roof.ridge",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "roof.eave",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "wall.plaster",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "wall.timber",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "window.double",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "door.home",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "building.rootport.proof",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "tree.clustered.trunk",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "tree.clustered.canopy",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "tree.clustered",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "plant.flowers",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.b1.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.b2.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.b3.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.b4.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.b5.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.g1.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.g2.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.g3.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.g4.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        },
+        {
+          "id": "critz.candidate.g5.south.idle.v1",
+          "sourceMatches": true,
+          "previewMatches": true
+        }
+      ]
+    },
+    {
+      "name": "Every candidate updates the selected state, description and scene",
+      "pass": true
+    },
+    {
+      "name": "Static placement preserves source pixels and tree canopy covers overlapping character pixels",
+      "pass": true,
+      "detail": {
+        "door": {
+          "visible": 216,
+          "occluded": 0,
+          "mismatches": 0
+        },
+        "beside": {
+          "visible": 216,
+          "occluded": 0,
+          "mismatches": 0
+        },
+        "behind": {
+          "visible": 66,
+          "occluded": 150,
+          "mismatches": 0
+        }
+      }
+    },
+    {
+      "name": "Grid toggles visible pixels and reversibly restores the original scene",
+      "pass": true
+    },
+    {
+      "name": "PNG download is byte-identical to the atlas",
+      "pass": true
+    },
+    {
+      "name": "No overflow or scene clipping at 320×568; integer native scaling",
+      "pass": true
+    },
+    {
+      "name": "All controls and links have 44px targets at 320×568",
+      "pass": true
+    },
+    {
+      "name": "No overflow or scene clipping at 390×844; integer native scaling",
+      "pass": true
+    },
+    {
+      "name": "All controls and links have 44px targets at 390×844",
+      "pass": true
+    },
+    {
+      "name": "No overflow or scene clipping at 844×390; integer native scaling",
+      "pass": true
+    },
+    {
+      "name": "All controls and links have 44px targets at 844×390",
+      "pass": true
+    },
+    {
+      "name": "No overflow or scene clipping at 1280×900; integer native scaling",
+      "pass": true
+    },
+    {
+      "name": "All controls and links have 44px targets at 1280×900",
+      "pass": true
+    },
+    {
+      "name": "Missing animation and pending review are explicitly labeled; scene remains static",
+      "pass": true
+    },
+    {
+      "name": "Synthetic local and session storage remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Missing atlas shows an error, disables controls and causes no uncaught exception",
+      "pass": true
+    },
+    {
+      "name": "Zero uncaught page errors",
+      "pass": true
+    }
+  ],
+  "pageErrors": [],
+  "failures": [],
+  "viewports": [
+    {
+      "width": 320,
+      "height": 568,
+      "pageOverflow": false,
+      "scale": 1,
+      "sceneClipped": false,
+      "controls": [
+        {
+          "label": "critz✦ TYCOON",
+          "tag": "A",
+          "width": 145.375,
+          "height": 45
+        },
+        {
+          "label": "Art library ↗",
+          "tag": "A",
+          "width": 87.625,
+          "height": 44
+        },
+        {
+          "label": "At the doorstepBeside the treeBehind the canopy",
+          "tag": "SELECT",
+          "width": 144,
+          "height": 44
+        },
+        {
+          "label": "Show 16px grid",
+          "tag": "LABEL",
+          "width": 117.359375,
+          "height": 44
+        },
+        {
+          "label": "B1: Rounded afro; teal raglan tee, cream sleeves, navy shorts",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 92
+        },
+        {
+          "label": "B2: Flat high-top fade; ochre open vest, cream tee, charcoal shorts",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 92
+        },
+        {
+          "label": "B3: Short loc fringe; coral stripe tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 92
+        },
+        {
+          "label": "B4: Low cornrows; blue open overshirt, cream tee, olive shorts",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 92
+        },
+        {
+          "label": "B5: Small crown puff; sage bib overalls, ochre tee",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 92
+        },
+        {
+          "label": "G1: Twin afro puffs; coral tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 90
+        },
+        {
+          "label": "G2: Braided bob; teal pinafore, cream sleeves, ochre bead tips",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 90
+        },
+        {
+          "label": "G3: High natural puff; coral band, ochre romper",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 90
+        },
+        {
+          "label": "G4: Tapered natural curls; sage vest, cream tee, plum shorts",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 90
+        },
+        {
+          "label": "G5: Two short braid tails; violet ties, lilac tee, navy short overalls",
+          "tag": "BUTTON",
+          "width": 48.796875,
+          "height": 90
+        },
+        {
+          "label": "Download the PNG ↓",
+          "tag": "A",
+          "width": 170.953125,
+          "height": 45.5
+        },
+        {
+          "label": "Asset manifest ↓",
+          "tag": "A",
+          "width": 123.40625,
+          "height": 44
+        },
+        {
+          "label": "Continue the existing game ↗",
+          "tag": "A",
+          "width": 213.625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "pageOverflow": false,
+      "scale": 1,
+      "sceneClipped": false,
+      "controls": [
+        {
+          "label": "critz✦ TYCOON",
+          "tag": "A",
+          "width": 145.375,
+          "height": 45
+        },
+        {
+          "label": "Art library ↗",
+          "tag": "A",
+          "width": 87.625,
+          "height": 44
+        },
+        {
+          "label": "At the doorstepBeside the treeBehind the canopy",
+          "tag": "SELECT",
+          "width": 144,
+          "height": 44
+        },
+        {
+          "label": "Show 16px grid",
+          "tag": "LABEL",
+          "width": 117.359375,
+          "height": 44
+        },
+        {
+          "label": "B1: Rounded afro; teal raglan tee, cream sleeves, navy shorts",
+          "tag": "BUTTON",
+          "width": 60.390625,
+          "height": 92
+        },
+        {
+          "label": "B2: Flat high-top fade; ochre open vest, cream tee, charcoal shorts",
+          "tag": "BUTTON",
+          "width": 60.40625,
+          "height": 92
+        },
+        {
+          "label": "B3: Short loc fringe; coral stripe tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 60.390625,
+          "height": 92
+        },
+        {
+          "label": "B4: Low cornrows; blue open overshirt, cream tee, olive shorts",
+          "tag": "BUTTON",
+          "width": 60.40625,
+          "height": 92
+        },
+        {
+          "label": "B5: Small crown puff; sage bib overalls, ochre tee",
+          "tag": "BUTTON",
+          "width": 60.40625,
+          "height": 92
+        },
+        {
+          "label": "G1: Twin afro puffs; coral tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 60.390625,
+          "height": 90
+        },
+        {
+          "label": "G2: Braided bob; teal pinafore, cream sleeves, ochre bead tips",
+          "tag": "BUTTON",
+          "width": 60.40625,
+          "height": 90
+        },
+        {
+          "label": "G3: High natural puff; coral band, ochre romper",
+          "tag": "BUTTON",
+          "width": 60.390625,
+          "height": 90
+        },
+        {
+          "label": "G4: Tapered natural curls; sage vest, cream tee, plum shorts",
+          "tag": "BUTTON",
+          "width": 60.40625,
+          "height": 90
+        },
+        {
+          "label": "G5: Two short braid tails; violet ties, lilac tee, navy short overalls",
+          "tag": "BUTTON",
+          "width": 60.40625,
+          "height": 90
+        },
+        {
+          "label": "Download the PNG ↓",
+          "tag": "A",
+          "width": 170.953125,
+          "height": 45.5
+        },
+        {
+          "label": "Asset manifest ↓",
+          "tag": "A",
+          "width": 123.40625,
+          "height": 44
+        },
+        {
+          "label": "Continue the existing game ↗",
+          "tag": "A",
+          "width": 213.625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "pageOverflow": false,
+      "scale": 3,
+      "sceneClipped": false,
+      "controls": [
+        {
+          "label": "critz✦ TYCOON",
+          "tag": "A",
+          "width": 145.375,
+          "height": 45
+        },
+        {
+          "label": "Art library ↗",
+          "tag": "A",
+          "width": 87.625,
+          "height": 44
+        },
+        {
+          "label": "At the doorstepBeside the treeBehind the canopy",
+          "tag": "SELECT",
+          "width": 144,
+          "height": 44
+        },
+        {
+          "label": "Show 16px grid",
+          "tag": "LABEL",
+          "width": 117.359375,
+          "height": 44
+        },
+        {
+          "label": "B1: Rounded afro; teal raglan tee, cream sleeves, navy shorts",
+          "tag": "BUTTON",
+          "width": 69.59375,
+          "height": 92
+        },
+        {
+          "label": "B2: Flat high-top fade; ochre open vest, cream tee, charcoal shorts",
+          "tag": "BUTTON",
+          "width": 69.59375,
+          "height": 92
+        },
+        {
+          "label": "B3: Short loc fringe; coral stripe tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 69.609375,
+          "height": 92
+        },
+        {
+          "label": "B4: Low cornrows; blue open overshirt, cream tee, olive shorts",
+          "tag": "BUTTON",
+          "width": 69.59375,
+          "height": 92
+        },
+        {
+          "label": "B5: Small crown puff; sage bib overalls, ochre tee",
+          "tag": "BUTTON",
+          "width": 69.59375,
+          "height": 92
+        },
+        {
+          "label": "G1: Twin afro puffs; coral tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 69.609375,
+          "height": 92
+        },
+        {
+          "label": "G2: Braided bob; teal pinafore, cream sleeves, ochre bead tips",
+          "tag": "BUTTON",
+          "width": 69.59375,
+          "height": 92
+        },
+        {
+          "label": "G3: High natural puff; coral band, ochre romper",
+          "tag": "BUTTON",
+          "width": 69.609375,
+          "height": 92
+        },
+        {
+          "label": "G4: Tapered natural curls; sage vest, cream tee, plum shorts",
+          "tag": "BUTTON",
+          "width": 69.59375,
+          "height": 92
+        },
+        {
+          "label": "G5: Two short braid tails; violet ties, lilac tee, navy short overalls",
+          "tag": "BUTTON",
+          "width": 69.59375,
+          "height": 92
+        },
+        {
+          "label": "Download the PNG ↓",
+          "tag": "A",
+          "width": 170.953125,
+          "height": 45.5
+        },
+        {
+          "label": "Asset manifest ↓",
+          "tag": "A",
+          "width": 123.40625,
+          "height": 44
+        },
+        {
+          "label": "Continue the existing game ↗",
+          "tag": "A",
+          "width": 213.625,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "pageOverflow": false,
+      "scale": 2,
+      "sceneClipped": false,
+      "controls": [
+        {
+          "label": "critz✦ TYCOON",
+          "tag": "A",
+          "width": 145.375,
+          "height": 45
+        },
+        {
+          "label": "Art library ↗",
+          "tag": "A",
+          "width": 87.625,
+          "height": 44
+        },
+        {
+          "label": "At the doorstepBeside the treeBehind the canopy",
+          "tag": "SELECT",
+          "width": 144,
+          "height": 44
+        },
+        {
+          "label": "Show 16px grid",
+          "tag": "LABEL",
+          "width": 117.359375,
+          "height": 44
+        },
+        {
+          "label": "B1: Rounded afro; teal raglan tee, cream sleeves, navy shorts",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 92
+        },
+        {
+          "label": "B2: Flat high-top fade; ochre open vest, cream tee, charcoal shorts",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 92
+        },
+        {
+          "label": "B3: Short loc fringe; coral stripe tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 63.140625,
+          "height": 92
+        },
+        {
+          "label": "B4: Low cornrows; blue open overshirt, cream tee, olive shorts",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 92
+        },
+        {
+          "label": "B5: Small crown puff; sage bib overalls, ochre tee",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 92
+        },
+        {
+          "label": "G1: Twin afro puffs; coral tee, indigo shorts",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 90
+        },
+        {
+          "label": "G2: Braided bob; teal pinafore, cream sleeves, ochre bead tips",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 90
+        },
+        {
+          "label": "G3: High natural puff; coral band, ochre romper",
+          "tag": "BUTTON",
+          "width": 63.140625,
+          "height": 90
+        },
+        {
+          "label": "G4: Tapered natural curls; sage vest, cream tee, plum shorts",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 90
+        },
+        {
+          "label": "G5: Two short braid tails; violet ties, lilac tee, navy short overalls",
+          "tag": "BUTTON",
+          "width": 63.125,
+          "height": 90
+        },
+        {
+          "label": "Download the PNG ↓",
+          "tag": "A",
+          "width": 170.953125,
+          "height": 45.5
+        },
+        {
+          "label": "Asset manifest ↓",
+          "tag": "A",
+          "width": 123.40625,
+          "height": 44
+        },
+        {
+          "label": "Continue the existing game ↗",
+          "tag": "A",
+          "width": 213.625,
+          "height": 44
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "docs/reviews/M1-I1/integration-320x568.png",
+    "docs/reviews/M1-I1/integration-390x844.png",
+    "docs/reviews/M1-I1/integration-844x390.png",
+    "docs/reviews/M1-I1/integration-1280x900.png",
+    "docs/reviews/M1-I1/integration-missing-atlas.png"
+  ],
+  "limitations": [
+    "Desktop Chromium emulation, not physical phone Safari.",
+    "Visual style approval remains with the user."
+  ],
+  "testedArtifactSha256": {
+    "art-review/integration.html": "3252bd98b3257477dbc6fc90b66ff37cc6c1c7c262b44390d89ea7004e2c3571",
+    "art-review/integration.js": "aef11cb07b0aab2646b38ec560997696caf2721dbd1896b2398883ccbb97c383",
+    "art-review/integration.css": "db373dcb91f8dd411490c0eb45599162beff9a0bef3fe8523885096c60edaafe",
+    "src/atlas.js": "b0a4049e7cab40a222a2d6712769aae367041924d965ca17636bc9d8d5b24231",
+    "assets/review/integration-v1/atlas.png": "e0dae602ae0a52bdbb0c452e9e980c2337f38fdbde6201305e05fb84c4b3f431",
+    "assets/review/integration-v1/atlas.json": "150053823113840ccd1911080a787793f98231963323c65f05b113309c6e217a"
+  },
+  "pass": true,
+  "passedChecks": 18,
+  "totalChecks": 18,
+  "visualInspection": {
+    "reviewedScreenshots": [
+      "docs/reviews/M1-I1/integration-320x568.png",
+      "docs/reviews/M1-I1/integration-390x844.png",
+      "docs/reviews/M1-I1/integration-844x390.png",
+      "docs/reviews/M1-I1/integration-1280x900.png",
+      "docs/reviews/M1-I1/integration-missing-atlas.png"
+    ],
+    "result": "Corrected 320/390 mobile screenshots fit within viewport; desktop/landscape composition is readable with no overlaps or clipped text. Source scene is crisp at integer scale. Missing-atlas screenshot shows explanatory status and disabled preview controls.",
+    "remainingIssues": [],
+    "limitations": "Visual layout QA is not user style approval. No movement, directional animation or physical-phone Safari test performed."
+  }
+}

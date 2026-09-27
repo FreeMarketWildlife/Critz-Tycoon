@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "23 unique stable IDs, including all 13 environment parts and ten candidates",
+    "Every atlas crop is byte-for-byte equal to its original RGBA pixels",
+    "All rectangles in bounds and nonoverlapping",
+    "Binary transparency only"
+  ],
+  "size": [
+    256,
+    160
+  ],
+  "assets": 23,
+  "atlasSha256": "e0dae602ae0a52bdbb0c452e9e980c2337f38fdbde6201305e05fb84c4b3f431"
+}

@@ -1,0 +1,145 @@
+{
+  "task": "M1.I1 art integration review: existing game preservation checks",
+  "verifiedAt": "2026-09-27T06:14:33.441Z",
+  "branch": "main",
+  "baselineHeadAtTest": "f9067ad234eaf90da3ec47bfa6cc1314eebc4807",
+  "sourceState": "Uncommitted review additions were present. This report identifies the unchanged gameplay payload by SHA-256; it is not a claim that the new review deliverable was committed or deployed.",
+  "environment": {
+    "url": "http://localhost:5173",
+    "build": "Existing dist prepared by the parent task; the five gameplay files below matched source, dist and served bytes.",
+    "node": "v24.19.0",
+    "playwright": "1.62.1",
+    "browser": "Google Chrome 153.0.8010.54",
+    "browserExecutable": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "headless": true,
+    "context": "Fresh browser.newContext; no persistent profile and no connection to a real browser session.",
+    "storage": "Synthetic new-story storage confined to isolated context; browser closed after checks. No user browser storage was read or modified."
+  },
+  "domainTests": {
+    "command": "node --test tests/*.test.mjs",
+    "exitCode": 0,
+    "passed": 10,
+    "failed": 0,
+    "coverage": [
+      "Both loan branches, 25-gallon gift and repeated loan decision",
+      "Rescue idempotence, four surviving groups and starter compatibility",
+      "Deterministic ecosystem care and breeding conditions",
+      "Inventory and purchase bounds",
+      "Critter framing, interest and exactly-once revenue",
+      "Save round-trip with full object equality and corrupt-primary backup recovery using synthetic storage",
+      "Malformed save validation",
+      "Unblocked nearby interaction samples and scene-exit positions",
+      "Existing continuous movement collision, normalized diagonal speed and running"
+    ]
+  },
+  "syntaxChecks": {
+    "exitCode": 0,
+    "files": [
+      "src/main.js",
+      "src/state.js",
+      "src/world.js",
+      "src/art.js",
+      "src/atlas.js",
+      "art-review/integration.js"
+    ],
+    "method": "node --check for each file"
+  },
+  "browserRegression": {
+    "command": "TEST_URL=http://localhost:5173 node tests/browser.mjs",
+    "exitCode": 0,
+    "reportedCheckpointsPassed": 14,
+    "reportedCheckpoints": [
+      "Girl Hero and opposite-gender rival can be named.",
+      "Opening completes, animals survive, 25-gallon gift and $100 loan arrive.",
+      "All four groups found by walking through bedroom, house, and yard.",
+      "Professor Nugget gives notebook and the $15 search reward.",
+      "Critz shop is enterable; purchases debit money and the free kit is claimable.",
+      "Vet, Drug Store, Bike Shop, and Glow n’ Blow open; medicine, skateboard, and hide purchases work.",
+      "Both neighboring homes and character dialogue are reachable.",
+      "Management changes live conditions, inventory, and stats.",
+      "Framed tank photo posts to Critter and earns money; reach grows with time.",
+      "Six-second simulated video records and posts.",
+      "Refresh restores name, money, rescues, tank, inventory, and Critter posts.",
+      "320px and 390px portrait, 844px landscape, and desktop layouts keep panels and controls onscreen.",
+      "Virtual D-pad hold moves, release stops; no sticky movement.",
+      "No uncaught browser errors."
+    ],
+    "uncaughtErrors": [],
+    "viewports": [
+      {
+        "width": 390,
+        "height": 844
+      },
+      {
+        "width": 320,
+        "height": 568
+      },
+      {
+        "width": 844,
+        "height": 390
+      },
+      {
+        "width": 1280,
+        "height": 900
+      }
+    ],
+    "saveReloadAssertions": [
+      "hero name equality",
+      "money equality",
+      "two posts present",
+      "rescued IDs equality"
+    ]
+  },
+  "gameplayFingerprints": [
+    {
+      "path": "index.html",
+      "sha256": "d62dbff083e2db5b849f449ba703c37d7c92f063102be43054f55104856f649d",
+      "builtSha256": "d62dbff083e2db5b849f449ba703c37d7c92f063102be43054f55104856f649d",
+      "servedSha256": "d62dbff083e2db5b849f449ba703c37d7c92f063102be43054f55104856f649d",
+      "httpStatus": 200,
+      "sourceBuildAndServedMatch": true
+    },
+    {
+      "path": "src/main.js",
+      "sha256": "4e252f6c9a954bbb4b5ecc6f396a228b41834fa41fbc6367c7cfb78ea736d515",
+      "builtSha256": "4e252f6c9a954bbb4b5ecc6f396a228b41834fa41fbc6367c7cfb78ea736d515",
+      "servedSha256": "4e252f6c9a954bbb4b5ecc6f396a228b41834fa41fbc6367c7cfb78ea736d515",
+      "httpStatus": 200,
+      "sourceBuildAndServedMatch": true
+    },
+    {
+      "path": "src/world.js",
+      "sha256": "2b865c8d37691d3c83576d4b3a0cb42cec914404088d80d3d584a9a9766c3888",
+      "builtSha256": "2b865c8d37691d3c83576d4b3a0cb42cec914404088d80d3d584a9a9766c3888",
+      "servedSha256": "2b865c8d37691d3c83576d4b3a0cb42cec914404088d80d3d584a9a9766c3888",
+      "httpStatus": 200,
+      "sourceBuildAndServedMatch": true
+    },
+    {
+      "path": "src/state.js",
+      "sha256": "d84f5853da3848f43c958db83acdcb1d78b38ad5d4161978d64402ae6dfdf89c",
+      "builtSha256": "d84f5853da3848f43c958db83acdcb1d78b38ad5d4161978d64402ae6dfdf89c",
+      "servedSha256": "d84f5853da3848f43c958db83acdcb1d78b38ad5d4161978d64402ae6dfdf89c",
+      "httpStatus": 200,
+      "sourceBuildAndServedMatch": true
+    },
+    {
+      "path": "src/art.js",
+      "sha256": "b9076844cad6ee6be15b6684738d6ffa6b5a915a9821af0debc408ac5181895a",
+      "builtSha256": "b9076844cad6ee6be15b6684738d6ffa6b5a915a9821af0debc408ac5181895a",
+      "servedSha256": "b9076844cad6ee6be15b6684738d6ffa6b5a915a9821af0debc408ac5181895a",
+      "httpStatus": 200,
+      "sourceBuildAndServedMatch": true
+    }
+  ],
+  "limitations": [
+    "This is preservation coverage for the existing game. It does not verify visual approval or the review page, new art atlas, PNGs or integration demo behavior.",
+    "The browser script reports a broad save-restoration message, but it directly compares only hero, money, post count and rescued IDs after reload. It does not establish browser-level tank/inventory equality. The separate domain save test does perform full state-object equality in synthetic storage.",
+    "Browser flow covers the girl Hero with accepted loan. Both loan branches are checked by domain tests, not both browser walkthroughs.",
+    "Several browser checkpoint labels describe broader behavior than their direct assertions. They are retained verbatim as reported checkpoints, not independent proof of every noun in each label.",
+    "Viewport emulation and pointer events in desktop Chrome do not establish physical iPhone/Safari usability.",
+    "Existing movement remains continuous and permits normalized diagonals; these tests preserve that baseline and do not establish Emerald cardinal tile timing or M2 approval.",
+    "No new migration, NPC occupancy, exhaustive map connectivity, hidden-page timing or full movement/camera/door equivalence test was performed.",
+    "No website deployment was performed by this regression run."
+  ]
+}

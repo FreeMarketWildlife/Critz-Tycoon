@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "title": "Critz: Tycoon - ten-option proposal v1",
+  "approval": "awaiting_user_review",
+  "sourceMethod": "generated concept followed by independent native-grid reconstruction and manual refinement",
+  "assets": [
+    {
+      "assetId": "critz.candidate.b1.south.idle.v1",
+      "candidate": "B1",
+      "png": "assets/characters/critz-candidate-b1-south-idle.png",
+      "description": "Rounded afro; teal raglan tee, cream sleeves, navy shorts",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        11,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        20
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 12,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "B1",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "119ac09a0e7277f7f3226c99069e082f881a1c3be975695ffa44cbef8ba505c4"
+    },
+    {
+      "assetId": "critz.candidate.b2.south.idle.v1",
+      "candidate": "B2",
+      "png": "assets/characters/critz-candidate-b2-south-idle.png",
+      "description": "Flat high-top fade; ochre open vest, cream tee, charcoal shorts",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        11,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        20
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 12,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "B2",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "b39102f167e3ab226ea71ac759fd6bc69cd4d8e43e100984d3c170d1b954d8f6"
+    },
+    {
+      "assetId": "critz.candidate.b3.south.idle.v1",
+      "candidate": "B3",
+      "png": "assets/characters/critz-candidate-b3-south-idle.png",
+      "description": "Short loc fringe; coral stripe tee, indigo shorts",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        11,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        20
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 12,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "B3",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "15ea933326719c8fb89a0f0d608badc47b0729abc5e96b63a31b2dbda01660d0"
+    },
+    {
+      "assetId": "critz.candidate.b4.south.idle.v1",
+      "candidate": "B4",
+      "png": "assets/characters/critz-candidate-b4-south-idle.png",
+      "description": "Low cornrows; blue open overshirt, cream tee, olive shorts",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        19
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 12,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "B4",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "ce90a89db9a8dc2e8b074ef6abed64ac8362f06fdc360871e68332b414c2575b"
+    },
+    {
+      "assetId": "critz.candidate.b5.south.idle.v1",
+      "candidate": "B5",
+      "png": "assets/characters/critz-candidate-b5-south-idle.png",
+      "description": "Small crown puff; sage bib overalls, ochre tee",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        21
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 13,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "B5",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "d8a3fe6e60449c5d7c8e67149b9acf6db19ec61b903d1edb125233d9a29bb6ee"
+    },
+    {
+      "assetId": "critz.candidate.g1.south.idle.v1",
+      "candidate": "G1",
+      "png": "assets/characters/critz-candidate-g1-south-idle.png",
+      "description": "Twin afro puffs; coral tee, indigo shorts",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        0,
+        11,
+        16,
+        31
+      ],
+      "visibleSize": [
+        16,
+        20
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 13,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "G1",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "61684e96ee13c38f4a0e66522eea742460d8c7715021fb6fb4f08c00d845ee16"
+    },
+    {
+      "assetId": "critz.candidate.g2.south.idle.v1",
+      "candidate": "G2",
+      "png": "assets/characters/critz-candidate-g2-south-idle.png",
+      "description": "Braided bob; teal pinafore, cream sleeves, ochre bead tips",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        19
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 13,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "G2",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "bae6e25ae50f31076392a09782865da6a35a985f31b8f9d4bdbf69f66d9940bb"
+    },
+    {
+      "assetId": "critz.candidate.g3.south.idle.v1",
+      "candidate": "G3",
+      "png": "assets/characters/critz-candidate-g3-south-idle.png",
+      "description": "High natural puff; coral band, ochre romper",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        21
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 13,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "G3",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "e71373b85de6b6a300f2b22d037e8c359c857714b246de58be5df634667d3bbc"
+    },
+    {
+      "assetId": "critz.candidate.g4.south.idle.v1",
+      "candidate": "G4",
+      "png": "assets/characters/critz-candidate-g4-south-idle.png",
+      "description": "Tapered natural curls; sage vest, cream tee, plum shorts",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        1,
+        11,
+        15,
+        31
+      ],
+      "visibleSize": [
+        14,
+        20
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 12,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "G4",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "2088a0dec1a79bf50874ce33b0e8a38ecaa85fcfc7ea35e79ac342062453ca36"
+    },
+    {
+      "assetId": "critz.candidate.g5.south.idle.v1",
+      "candidate": "G5",
+      "png": "assets/characters/critz-candidate-g5-south-idle.png",
+      "description": "Two short braid tails; violet ties, lilac tee, navy short overalls",
+      "frame": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "origin": [
+        0,
+        0
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "mirrored": false,
+      "bboxHalfOpen": [
+        0,
+        12,
+        16,
+        31
+      ],
+      "visibleSize": [
+        16,
+        19
+      ],
+      "paintedFootRow": 30,
+      "opaqueColors": 12,
+      "alphaValues": [
+        0,
+        255
+      ],
+      "paletteId": "G5",
+      "collision": null,
+      "approval": "awaiting_user_review",
+      "pngSha256": "3bc3290f9edb9ae86d26b6b947b238089e67afbc390708c80fd2c17f7b6b2620"
+    }
+  ],
+  "comparison": {
+    "native": [
+      200,
+      104
+    ],
+    "enlarged": [
+      1600,
+      832
+    ],
+    "scale": 8,
+    "cell": [
+      40,
+      52
+    ],
+    "spriteTopLeftInCell": [
+      12,
+      5
+    ],
+    "labelYInCell": 41
+  }
+}

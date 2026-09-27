@@ -1,0 +1,515 @@
+{
+  "schemaVersion": 1,
+  "id": "critz.review.integration.v1",
+  "image": "atlas.png",
+  "size": [
+    256,
+    160
+  ],
+  "baseTile": 8,
+  "metatile": 16,
+  "status": "awaiting-review",
+  "assets": [
+    {
+      "id": "ground.grass",
+      "rect": [
+        0,
+        0,
+        16,
+        16
+      ],
+      "paletteFamily": "landscape",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        0,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "roof.pantile",
+      "rect": [
+        16,
+        0,
+        16,
+        16
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        16,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "roof.ridge",
+      "rect": [
+        32,
+        0,
+        16,
+        8
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        32,
+        0,
+        16,
+        8
+      ]
+    },
+    {
+      "id": "roof.eave",
+      "rect": [
+        48,
+        0,
+        16,
+        8
+      ],
+      "paletteFamily": "structure",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        48,
+        0,
+        16,
+        8
+      ]
+    },
+    {
+      "id": "wall.plaster",
+      "rect": [
+        64,
+        0,
+        16,
+        16
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        64,
+        0,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "wall.timber",
+      "rect": [
+        80,
+        0,
+        8,
+        16
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        80,
+        0,
+        8,
+        16
+      ]
+    },
+    {
+      "id": "window.double",
+      "rect": [
+        88,
+        0,
+        24,
+        16
+      ],
+      "paletteFamily": "window",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        88,
+        0,
+        24,
+        16
+      ]
+    },
+    {
+      "id": "door.home",
+      "rect": [
+        112,
+        0,
+        16,
+        24
+      ],
+      "paletteFamily": "architecture",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        112,
+        0,
+        16,
+        24
+      ]
+    },
+    {
+      "id": "building.rootport.proof",
+      "rect": [
+        128,
+        0,
+        96,
+        80
+      ],
+      "paletteFamily": "assembly",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        128,
+        0,
+        96,
+        80
+      ]
+    },
+    {
+      "id": "tree.clustered.trunk",
+      "rect": [
+        224,
+        0,
+        32,
+        32
+      ],
+      "paletteFamily": "foliage",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        224,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "tree.clustered.canopy",
+      "rect": [
+        0,
+        80,
+        32,
+        32
+      ],
+      "paletteFamily": "foliage",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        0,
+        80,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "tree.clustered",
+      "rect": [
+        32,
+        80,
+        32,
+        32
+      ],
+      "paletteFamily": "foliage",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        32,
+        80,
+        32,
+        32
+      ]
+    },
+    {
+      "id": "plant.flowers",
+      "rect": [
+        64,
+        80,
+        16,
+        16
+      ],
+      "paletteFamily": "flowers",
+      "status": "awaiting-review",
+      "source": "environment-v2/atlas.png",
+      "sourceRect": [
+        64,
+        80,
+        16,
+        16
+      ]
+    },
+    {
+      "id": "critz.candidate.b1.south.idle.v1",
+      "candidate": "B1",
+      "description": "Rounded afro; teal raglan tee, cream sleeves, navy shorts",
+      "rect": [
+        0,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-b1-south-idle.png",
+      "sourceSha256": "119ac09a0e7277f7f3226c99069e082f881a1c3be975695ffa44cbef8ba505c4",
+      "paletteId": "B1"
+    },
+    {
+      "id": "critz.candidate.b2.south.idle.v1",
+      "candidate": "B2",
+      "description": "Flat high-top fade; ochre open vest, cream tee, charcoal shorts",
+      "rect": [
+        16,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-b2-south-idle.png",
+      "sourceSha256": "b39102f167e3ab226ea71ac759fd6bc69cd4d8e43e100984d3c170d1b954d8f6",
+      "paletteId": "B2"
+    },
+    {
+      "id": "critz.candidate.b3.south.idle.v1",
+      "candidate": "B3",
+      "description": "Short loc fringe; coral stripe tee, indigo shorts",
+      "rect": [
+        32,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-b3-south-idle.png",
+      "sourceSha256": "15ea933326719c8fb89a0f0d608badc47b0729abc5e96b63a31b2dbda01660d0",
+      "paletteId": "B3"
+    },
+    {
+      "id": "critz.candidate.b4.south.idle.v1",
+      "candidate": "B4",
+      "description": "Low cornrows; blue open overshirt, cream tee, olive shorts",
+      "rect": [
+        48,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-b4-south-idle.png",
+      "sourceSha256": "ce90a89db9a8dc2e8b074ef6abed64ac8362f06fdc360871e68332b414c2575b",
+      "paletteId": "B4"
+    },
+    {
+      "id": "critz.candidate.b5.south.idle.v1",
+      "candidate": "B5",
+      "description": "Small crown puff; sage bib overalls, ochre tee",
+      "rect": [
+        64,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-b5-south-idle.png",
+      "sourceSha256": "d8a3fe6e60449c5d7c8e67149b9acf6db19ec61b903d1edb125233d9a29bb6ee",
+      "paletteId": "B5"
+    },
+    {
+      "id": "critz.candidate.g1.south.idle.v1",
+      "candidate": "G1",
+      "description": "Twin afro puffs; coral tee, indigo shorts",
+      "rect": [
+        80,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-g1-south-idle.png",
+      "sourceSha256": "61684e96ee13c38f4a0e66522eea742460d8c7715021fb6fb4f08c00d845ee16",
+      "paletteId": "G1"
+    },
+    {
+      "id": "critz.candidate.g2.south.idle.v1",
+      "candidate": "G2",
+      "description": "Braided bob; teal pinafore, cream sleeves, ochre bead tips",
+      "rect": [
+        96,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-g2-south-idle.png",
+      "sourceSha256": "bae6e25ae50f31076392a09782865da6a35a985f31b8f9d4bdbf69f66d9940bb",
+      "paletteId": "G2"
+    },
+    {
+      "id": "critz.candidate.g3.south.idle.v1",
+      "candidate": "G3",
+      "description": "High natural puff; coral band, ochre romper",
+      "rect": [
+        112,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-g3-south-idle.png",
+      "sourceSha256": "e71373b85de6b6a300f2b22d037e8c359c857714b246de58be5df634667d3bbc",
+      "paletteId": "G3"
+    },
+    {
+      "id": "critz.candidate.g4.south.idle.v1",
+      "candidate": "G4",
+      "description": "Tapered natural curls; sage vest, cream tee, plum shorts",
+      "rect": [
+        128,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-g4-south-idle.png",
+      "sourceSha256": "2088a0dec1a79bf50874ce33b0e8a38ecaa85fcfc7ea35e79ac342062453ca36",
+      "paletteId": "G4"
+    },
+    {
+      "id": "critz.candidate.g5.south.idle.v1",
+      "candidate": "G5",
+      "description": "Two short braid tails; violet ties, lilac tee, navy short overalls",
+      "rect": [
+        144,
+        128,
+        16,
+        32
+      ],
+      "groundAnchor": [
+        8,
+        32
+      ],
+      "sortAnchor": [
+        8,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "frames": 1,
+      "status": "awaiting-review",
+      "source": "characters-v1/critz-candidate-g5-south-idle.png",
+      "sourceSha256": "3bc3290f9edb9ae86d26b6b947b238089e67afbc390708c80fd2c17f7b6b2620",
+      "paletteId": "G5"
+    }
+  ],
+  "limitations": [
+    "Visual assembly review; not approved production artwork.",
+    "Ten character candidates have one south-idle frame each; no walk/run frames.",
+    "Revised indoor art, Mom, Kaid and Professor Nugget sheets are not available.",
+    "Rejected environment revision 1 and reference-game art are excluded.",
+    "Collision, interactions, warps and save data are not encoded in the atlas."
+  ]
+}
