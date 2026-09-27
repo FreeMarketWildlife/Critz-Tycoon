@@ -1,5 +1,7 @@
 # Decision log
 
+- **D014 / 2026-09-27 — explicit combined implementation authorization:** user directs M1.I2: complete all missing original art needed by existing scenes, use B1/G1 provisionally, integrate new PNG visuals and Emerald-style tile movement in the normal playable URL. No intermediate art approval pauses or another gallery-only delivery. Final art/feel acceptance remains pending user review. This supersedes D013's implementation boundary and the unanswered scope question. Preserve v1 progress/recoverability; commit/push and publish the exact tested build with existing audience.
+
 Only user approvals promote visual/feel proposals into approved standards. Technical choices below are labeled separately.
 
 | ID / date | Decision | Authority / state |

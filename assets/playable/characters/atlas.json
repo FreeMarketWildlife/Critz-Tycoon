@@ -1,0 +1,4666 @@
+{
+  "schemaVersion": 1,
+  "image": "atlas.png",
+  "size": [
+    256,
+    448
+  ],
+  "status": "playable-review",
+  "assets": [
+    {
+      "id": "char.hero.boy.down.walk.idle",
+      "rect": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.down.walk.strideA",
+      "rect": [
+        16,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.down.walk.strideB",
+      "rect": [
+        32,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.down.run.idle",
+      "rect": [
+        48,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.down.run.strideA",
+      "rect": [
+        64,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.down.run.strideB",
+      "rect": [
+        80,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.up.walk.idle",
+      "rect": [
+        96,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.up.walk.strideA",
+      "rect": [
+        112,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.up.walk.strideB",
+      "rect": [
+        128,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.up.run.idle",
+      "rect": [
+        144,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.up.run.strideA",
+      "rect": [
+        160,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.up.run.strideB",
+      "rect": [
+        176,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.left.walk.idle",
+      "rect": [
+        192,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.left.walk.strideA",
+      "rect": [
+        208,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.left.walk.strideB",
+      "rect": [
+        224,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.left.run.idle",
+      "rect": [
+        240,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.left.run.strideA",
+      "rect": [
+        0,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.left.run.strideB",
+      "rect": [
+        16,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.right.walk.idle",
+      "rect": [
+        32,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.right.walk.strideA",
+      "rect": [
+        48,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.right.walk.strideB",
+      "rect": [
+        64,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.right.run.idle",
+      "rect": [
+        80,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.right.run.strideA",
+      "rect": [
+        96,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.boy.right.run.strideB",
+      "rect": [
+        112,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.boy",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.down.walk.idle",
+      "rect": [
+        128,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.down.walk.strideA",
+      "rect": [
+        144,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.down.walk.strideB",
+      "rect": [
+        160,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.down.run.idle",
+      "rect": [
+        176,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.down.run.strideA",
+      "rect": [
+        192,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.down.run.strideB",
+      "rect": [
+        208,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.up.walk.idle",
+      "rect": [
+        224,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.up.walk.strideA",
+      "rect": [
+        240,
+        32,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.up.walk.strideB",
+      "rect": [
+        0,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.up.run.idle",
+      "rect": [
+        16,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.up.run.strideA",
+      "rect": [
+        32,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.up.run.strideB",
+      "rect": [
+        48,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.left.walk.idle",
+      "rect": [
+        64,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.left.walk.strideA",
+      "rect": [
+        80,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.left.walk.strideB",
+      "rect": [
+        96,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.left.run.idle",
+      "rect": [
+        112,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.left.run.strideA",
+      "rect": [
+        128,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.left.run.strideB",
+      "rect": [
+        144,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.right.walk.idle",
+      "rect": [
+        160,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.right.walk.strideA",
+      "rect": [
+        176,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.right.walk.strideB",
+      "rect": [
+        192,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.right.run.idle",
+      "rect": [
+        208,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.right.run.strideA",
+      "rect": [
+        224,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.hero.girl.right.run.strideB",
+      "rect": [
+        240,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "hero.girl",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.down.walk.idle",
+      "rect": [
+        0,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.down.walk.strideA",
+      "rect": [
+        16,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.down.walk.strideB",
+      "rect": [
+        32,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.down.run.idle",
+      "rect": [
+        48,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.down.run.strideA",
+      "rect": [
+        64,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.down.run.strideB",
+      "rect": [
+        80,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.up.walk.idle",
+      "rect": [
+        96,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.up.walk.strideA",
+      "rect": [
+        112,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.up.walk.strideB",
+      "rect": [
+        128,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.up.run.idle",
+      "rect": [
+        144,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.up.run.strideA",
+      "rect": [
+        160,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.up.run.strideB",
+      "rect": [
+        176,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.left.walk.idle",
+      "rect": [
+        192,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.left.walk.strideA",
+      "rect": [
+        208,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.left.walk.strideB",
+      "rect": [
+        224,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.left.run.idle",
+      "rect": [
+        240,
+        96,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.left.run.strideA",
+      "rect": [
+        0,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.left.run.strideB",
+      "rect": [
+        16,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.right.walk.idle",
+      "rect": [
+        32,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.right.walk.strideA",
+      "rect": [
+        48,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.right.walk.strideB",
+      "rect": [
+        64,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.right.run.idle",
+      "rect": [
+        80,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.right.run.strideA",
+      "rect": [
+        96,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.mom.right.run.strideB",
+      "rect": [
+        112,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.down.walk.idle",
+      "rect": [
+        128,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.down.walk.strideA",
+      "rect": [
+        144,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.down.walk.strideB",
+      "rect": [
+        160,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.down.run.idle",
+      "rect": [
+        176,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.down.run.strideA",
+      "rect": [
+        192,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.down.run.strideB",
+      "rect": [
+        208,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.up.walk.idle",
+      "rect": [
+        224,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.up.walk.strideA",
+      "rect": [
+        240,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.up.walk.strideB",
+      "rect": [
+        0,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.up.run.idle",
+      "rect": [
+        16,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.up.run.strideA",
+      "rect": [
+        32,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.up.run.strideB",
+      "rect": [
+        48,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.left.walk.idle",
+      "rect": [
+        64,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.left.walk.strideA",
+      "rect": [
+        80,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.left.walk.strideB",
+      "rect": [
+        96,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.left.run.idle",
+      "rect": [
+        112,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.left.run.strideA",
+      "rect": [
+        128,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.left.run.strideB",
+      "rect": [
+        144,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.right.walk.idle",
+      "rect": [
+        160,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.right.walk.strideA",
+      "rect": [
+        176,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.right.walk.strideB",
+      "rect": [
+        192,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.right.run.idle",
+      "rect": [
+        208,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.right.run.strideA",
+      "rect": [
+        224,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.professor.right.run.strideB",
+      "rect": [
+        240,
+        160,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.down.walk.idle",
+      "rect": [
+        0,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.down.walk.strideA",
+      "rect": [
+        16,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.down.walk.strideB",
+      "rect": [
+        32,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.down.run.idle",
+      "rect": [
+        48,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.down.run.strideA",
+      "rect": [
+        64,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.down.run.strideB",
+      "rect": [
+        80,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.up.walk.idle",
+      "rect": [
+        96,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.up.walk.strideA",
+      "rect": [
+        112,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.up.walk.strideB",
+      "rect": [
+        128,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.up.run.idle",
+      "rect": [
+        144,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.up.run.strideA",
+      "rect": [
+        160,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.up.run.strideB",
+      "rect": [
+        176,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.left.walk.idle",
+      "rect": [
+        192,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.left.walk.strideA",
+      "rect": [
+        208,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.left.walk.strideB",
+      "rect": [
+        224,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.left.run.idle",
+      "rect": [
+        240,
+        192,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.left.run.strideA",
+      "rect": [
+        0,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.left.run.strideB",
+      "rect": [
+        16,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.right.walk.idle",
+      "rect": [
+        32,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.right.walk.strideA",
+      "rect": [
+        48,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.right.walk.strideB",
+      "rect": [
+        64,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.right.run.idle",
+      "rect": [
+        80,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.right.run.strideA",
+      "rect": [
+        96,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.adult.right.run.strideB",
+      "rect": [
+        112,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "adult",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.down.walk.idle",
+      "rect": [
+        128,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.down.walk.strideA",
+      "rect": [
+        144,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.down.walk.strideB",
+      "rect": [
+        160,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.down.run.idle",
+      "rect": [
+        176,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.down.run.strideA",
+      "rect": [
+        192,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.down.run.strideB",
+      "rect": [
+        208,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.up.walk.idle",
+      "rect": [
+        224,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.up.walk.strideA",
+      "rect": [
+        240,
+        224,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.up.walk.strideB",
+      "rect": [
+        0,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.up.run.idle",
+      "rect": [
+        16,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.up.run.strideA",
+      "rect": [
+        32,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.up.run.strideB",
+      "rect": [
+        48,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.left.walk.idle",
+      "rect": [
+        64,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.left.walk.strideA",
+      "rect": [
+        80,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.left.walk.strideB",
+      "rect": [
+        96,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.left.run.idle",
+      "rect": [
+        112,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.left.run.strideA",
+      "rect": [
+        128,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.left.run.strideB",
+      "rect": [
+        144,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.right.walk.idle",
+      "rect": [
+        160,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.right.walk.strideA",
+      "rect": [
+        176,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.right.walk.strideB",
+      "rect": [
+        192,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.right.run.idle",
+      "rect": [
+        208,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.right.run.strideA",
+      "rect": [
+        224,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.shopkeeper.right.run.strideB",
+      "rect": [
+        240,
+        256,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "shopkeeper",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.down.walk.idle",
+      "rect": [
+        0,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.down.walk.strideA",
+      "rect": [
+        16,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.down.walk.strideB",
+      "rect": [
+        32,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.down.run.idle",
+      "rect": [
+        48,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.down.run.strideA",
+      "rect": [
+        64,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.down.run.strideB",
+      "rect": [
+        80,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.up.walk.idle",
+      "rect": [
+        96,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.up.walk.strideA",
+      "rect": [
+        112,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.up.walk.strideB",
+      "rect": [
+        128,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.up.run.idle",
+      "rect": [
+        144,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.up.run.strideA",
+      "rect": [
+        160,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.up.run.strideB",
+      "rect": [
+        176,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.left.walk.idle",
+      "rect": [
+        192,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.left.walk.strideA",
+      "rect": [
+        208,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.left.walk.strideB",
+      "rect": [
+        224,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.left.run.idle",
+      "rect": [
+        240,
+        288,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.left.run.strideA",
+      "rect": [
+        0,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.left.run.strideB",
+      "rect": [
+        16,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.right.walk.idle",
+      "rect": [
+        32,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.right.walk.strideA",
+      "rect": [
+        48,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.right.walk.strideB",
+      "rect": [
+        64,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.right.run.idle",
+      "rect": [
+        80,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.right.run.strideA",
+      "rect": [
+        96,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.doctor.right.run.strideB",
+      "rect": [
+        112,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "doctor",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.down.walk.idle",
+      "rect": [
+        128,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.down.walk.strideA",
+      "rect": [
+        144,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.down.walk.strideB",
+      "rect": [
+        160,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.down.run.idle",
+      "rect": [
+        176,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.down.run.strideA",
+      "rect": [
+        192,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.down.run.strideB",
+      "rect": [
+        208,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.up.walk.idle",
+      "rect": [
+        224,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.up.walk.strideA",
+      "rect": [
+        240,
+        320,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.up.walk.strideB",
+      "rect": [
+        0,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.up.run.idle",
+      "rect": [
+        16,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.up.run.strideA",
+      "rect": [
+        32,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.up.run.strideB",
+      "rect": [
+        48,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.left.walk.idle",
+      "rect": [
+        64,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.left.walk.strideA",
+      "rect": [
+        80,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.left.walk.strideB",
+      "rect": [
+        96,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.left.run.idle",
+      "rect": [
+        112,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.left.run.strideA",
+      "rect": [
+        128,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.left.run.strideB",
+      "rect": [
+        144,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.right.walk.idle",
+      "rect": [
+        160,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.right.walk.strideA",
+      "rect": [
+        176,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.right.walk.strideB",
+      "rect": [
+        192,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.right.run.idle",
+      "rect": [
+        208,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.right.run.strideA",
+      "rect": [
+        224,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.glassblower.right.run.strideB",
+      "rect": [
+        240,
+        352,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "glassblower",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": true,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.down.walk.idle",
+      "rect": [
+        0,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.down.walk.strideA",
+      "rect": [
+        16,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.down.walk.strideB",
+      "rect": [
+        32,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "down",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.down.run.idle",
+      "rect": [
+        48,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "down",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.down.run.strideA",
+      "rect": [
+        64,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.down.run.strideB",
+      "rect": [
+        80,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "down",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.up.walk.idle",
+      "rect": [
+        96,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.up.walk.strideA",
+      "rect": [
+        112,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.up.walk.strideB",
+      "rect": [
+        128,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "up",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.up.run.idle",
+      "rect": [
+        144,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "up",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.up.run.strideA",
+      "rect": [
+        160,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.up.run.strideB",
+      "rect": [
+        176,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "up",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.left.walk.idle",
+      "rect": [
+        192,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.left.walk.strideA",
+      "rect": [
+        208,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.left.walk.strideB",
+      "rect": [
+        224,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "left",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.left.run.idle",
+      "rect": [
+        240,
+        384,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "left",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.left.run.strideA",
+      "rect": [
+        0,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.left.run.strideB",
+      "rect": [
+        16,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "left",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.right.walk.idle",
+      "rect": [
+        32,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.right.walk.strideA",
+      "rect": [
+        48,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.right.walk.strideB",
+      "rect": [
+        64,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "right",
+      "mode": "walk",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.right.run.idle",
+      "rect": [
+        80,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "right",
+      "mode": "run",
+      "pose": "idle",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.right.run.strideA",
+      "rect": [
+        96,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideA",
+      "mirrored": false,
+      "status": "playable-review"
+    },
+    {
+      "id": "char.kaid.right.run.strideB",
+      "rect": [
+        112,
+        416,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "direction": "right",
+      "mode": "run",
+      "pose": "strideB",
+      "mirrored": false,
+      "status": "playable-review"
+    }
+  ],
+  "characters": {
+    "hero.boy": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.hero.boy.down.walk.idle",
+            "strideA": "char.hero.boy.down.walk.strideA",
+            "strideB": "char.hero.boy.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.boy.down.run.idle",
+            "strideA": "char.hero.boy.down.run.strideA",
+            "strideB": "char.hero.boy.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.hero.boy.up.walk.idle",
+            "strideA": "char.hero.boy.up.walk.strideA",
+            "strideB": "char.hero.boy.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.boy.up.run.idle",
+            "strideA": "char.hero.boy.up.run.strideA",
+            "strideB": "char.hero.boy.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.hero.boy.left.walk.idle",
+            "strideA": "char.hero.boy.left.walk.strideA",
+            "strideB": "char.hero.boy.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.boy.left.run.idle",
+            "strideA": "char.hero.boy.left.run.strideA",
+            "strideB": "char.hero.boy.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.hero.boy.right.walk.idle",
+            "strideA": "char.hero.boy.right.walk.strideA",
+            "strideB": "char.hero.boy.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.boy.right.run.idle",
+            "strideA": "char.hero.boy.right.run.strideA",
+            "strideB": "char.hero.boy.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "hero.girl": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.hero.girl.down.walk.idle",
+            "strideA": "char.hero.girl.down.walk.strideA",
+            "strideB": "char.hero.girl.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.girl.down.run.idle",
+            "strideA": "char.hero.girl.down.run.strideA",
+            "strideB": "char.hero.girl.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.hero.girl.up.walk.idle",
+            "strideA": "char.hero.girl.up.walk.strideA",
+            "strideB": "char.hero.girl.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.girl.up.run.idle",
+            "strideA": "char.hero.girl.up.run.strideA",
+            "strideB": "char.hero.girl.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.hero.girl.left.walk.idle",
+            "strideA": "char.hero.girl.left.walk.strideA",
+            "strideB": "char.hero.girl.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.girl.left.run.idle",
+            "strideA": "char.hero.girl.left.run.strideA",
+            "strideB": "char.hero.girl.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.hero.girl.right.walk.idle",
+            "strideA": "char.hero.girl.right.walk.strideA",
+            "strideB": "char.hero.girl.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.hero.girl.right.run.idle",
+            "strideA": "char.hero.girl.right.run.strideA",
+            "strideB": "char.hero.girl.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "mom": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.mom.down.walk.idle",
+            "strideA": "char.mom.down.walk.strideA",
+            "strideB": "char.mom.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.mom.down.run.idle",
+            "strideA": "char.mom.down.run.strideA",
+            "strideB": "char.mom.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.mom.up.walk.idle",
+            "strideA": "char.mom.up.walk.strideA",
+            "strideB": "char.mom.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.mom.up.run.idle",
+            "strideA": "char.mom.up.run.strideA",
+            "strideB": "char.mom.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.mom.left.walk.idle",
+            "strideA": "char.mom.left.walk.strideA",
+            "strideB": "char.mom.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.mom.left.run.idle",
+            "strideA": "char.mom.left.run.strideA",
+            "strideB": "char.mom.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.mom.right.walk.idle",
+            "strideA": "char.mom.right.walk.strideA",
+            "strideB": "char.mom.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.mom.right.run.idle",
+            "strideA": "char.mom.right.run.strideA",
+            "strideB": "char.mom.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "professor": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.professor.down.walk.idle",
+            "strideA": "char.professor.down.walk.strideA",
+            "strideB": "char.professor.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.professor.down.run.idle",
+            "strideA": "char.professor.down.run.strideA",
+            "strideB": "char.professor.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.professor.up.walk.idle",
+            "strideA": "char.professor.up.walk.strideA",
+            "strideB": "char.professor.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.professor.up.run.idle",
+            "strideA": "char.professor.up.run.strideA",
+            "strideB": "char.professor.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.professor.left.walk.idle",
+            "strideA": "char.professor.left.walk.strideA",
+            "strideB": "char.professor.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.professor.left.run.idle",
+            "strideA": "char.professor.left.run.strideA",
+            "strideB": "char.professor.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.professor.right.walk.idle",
+            "strideA": "char.professor.right.walk.strideA",
+            "strideB": "char.professor.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.professor.right.run.idle",
+            "strideA": "char.professor.right.run.strideA",
+            "strideB": "char.professor.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "adult": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.adult.down.walk.idle",
+            "strideA": "char.adult.down.walk.strideA",
+            "strideB": "char.adult.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.adult.down.run.idle",
+            "strideA": "char.adult.down.run.strideA",
+            "strideB": "char.adult.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.adult.up.walk.idle",
+            "strideA": "char.adult.up.walk.strideA",
+            "strideB": "char.adult.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.adult.up.run.idle",
+            "strideA": "char.adult.up.run.strideA",
+            "strideB": "char.adult.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.adult.left.walk.idle",
+            "strideA": "char.adult.left.walk.strideA",
+            "strideB": "char.adult.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.adult.left.run.idle",
+            "strideA": "char.adult.left.run.strideA",
+            "strideB": "char.adult.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.adult.right.walk.idle",
+            "strideA": "char.adult.right.walk.strideA",
+            "strideB": "char.adult.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.adult.right.run.idle",
+            "strideA": "char.adult.right.run.strideA",
+            "strideB": "char.adult.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "shopkeeper": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.shopkeeper.down.walk.idle",
+            "strideA": "char.shopkeeper.down.walk.strideA",
+            "strideB": "char.shopkeeper.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.shopkeeper.down.run.idle",
+            "strideA": "char.shopkeeper.down.run.strideA",
+            "strideB": "char.shopkeeper.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.shopkeeper.up.walk.idle",
+            "strideA": "char.shopkeeper.up.walk.strideA",
+            "strideB": "char.shopkeeper.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.shopkeeper.up.run.idle",
+            "strideA": "char.shopkeeper.up.run.strideA",
+            "strideB": "char.shopkeeper.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.shopkeeper.left.walk.idle",
+            "strideA": "char.shopkeeper.left.walk.strideA",
+            "strideB": "char.shopkeeper.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.shopkeeper.left.run.idle",
+            "strideA": "char.shopkeeper.left.run.strideA",
+            "strideB": "char.shopkeeper.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.shopkeeper.right.walk.idle",
+            "strideA": "char.shopkeeper.right.walk.strideA",
+            "strideB": "char.shopkeeper.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.shopkeeper.right.run.idle",
+            "strideA": "char.shopkeeper.right.run.strideA",
+            "strideB": "char.shopkeeper.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "doctor": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.doctor.down.walk.idle",
+            "strideA": "char.doctor.down.walk.strideA",
+            "strideB": "char.doctor.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.doctor.down.run.idle",
+            "strideA": "char.doctor.down.run.strideA",
+            "strideB": "char.doctor.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.doctor.up.walk.idle",
+            "strideA": "char.doctor.up.walk.strideA",
+            "strideB": "char.doctor.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.doctor.up.run.idle",
+            "strideA": "char.doctor.up.run.strideA",
+            "strideB": "char.doctor.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.doctor.left.walk.idle",
+            "strideA": "char.doctor.left.walk.strideA",
+            "strideB": "char.doctor.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.doctor.left.run.idle",
+            "strideA": "char.doctor.left.run.strideA",
+            "strideB": "char.doctor.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.doctor.right.walk.idle",
+            "strideA": "char.doctor.right.walk.strideA",
+            "strideB": "char.doctor.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.doctor.right.run.idle",
+            "strideA": "char.doctor.right.run.strideA",
+            "strideB": "char.doctor.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "glassblower": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.glassblower.down.walk.idle",
+            "strideA": "char.glassblower.down.walk.strideA",
+            "strideB": "char.glassblower.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.glassblower.down.run.idle",
+            "strideA": "char.glassblower.down.run.strideA",
+            "strideB": "char.glassblower.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.glassblower.up.walk.idle",
+            "strideA": "char.glassblower.up.walk.strideA",
+            "strideB": "char.glassblower.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.glassblower.up.run.idle",
+            "strideA": "char.glassblower.up.run.strideA",
+            "strideB": "char.glassblower.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.glassblower.left.walk.idle",
+            "strideA": "char.glassblower.left.walk.strideA",
+            "strideB": "char.glassblower.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.glassblower.left.run.idle",
+            "strideA": "char.glassblower.left.run.strideA",
+            "strideB": "char.glassblower.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.glassblower.right.walk.idle",
+            "strideA": "char.glassblower.right.walk.strideA",
+            "strideB": "char.glassblower.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.glassblower.right.run.idle",
+            "strideA": "char.glassblower.right.run.strideA",
+            "strideB": "char.glassblower.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    },
+    "kaid": {
+      "frame": [
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "directions": {
+        "down": {
+          "walk": {
+            "idle": "char.kaid.down.walk.idle",
+            "strideA": "char.kaid.down.walk.strideA",
+            "strideB": "char.kaid.down.walk.strideB"
+          },
+          "run": {
+            "idle": "char.kaid.down.run.idle",
+            "strideA": "char.kaid.down.run.strideA",
+            "strideB": "char.kaid.down.run.strideB"
+          }
+        },
+        "up": {
+          "walk": {
+            "idle": "char.kaid.up.walk.idle",
+            "strideA": "char.kaid.up.walk.strideA",
+            "strideB": "char.kaid.up.walk.strideB"
+          },
+          "run": {
+            "idle": "char.kaid.up.run.idle",
+            "strideA": "char.kaid.up.run.strideA",
+            "strideB": "char.kaid.up.run.strideB"
+          }
+        },
+        "left": {
+          "walk": {
+            "idle": "char.kaid.left.walk.idle",
+            "strideA": "char.kaid.left.walk.strideA",
+            "strideB": "char.kaid.left.walk.strideB"
+          },
+          "run": {
+            "idle": "char.kaid.left.run.idle",
+            "strideA": "char.kaid.left.run.strideA",
+            "strideB": "char.kaid.left.run.strideB"
+          }
+        },
+        "right": {
+          "walk": {
+            "idle": "char.kaid.right.walk.idle",
+            "strideA": "char.kaid.right.walk.strideA",
+            "strideB": "char.kaid.right.walk.strideB"
+          },
+          "run": {
+            "idle": "char.kaid.right.run.idle",
+            "strideA": "char.kaid.right.run.strideA",
+            "strideB": "char.kaid.right.run.strideB"
+          }
+        }
+      },
+      "status": "playable-review"
+    }
+  }
+}

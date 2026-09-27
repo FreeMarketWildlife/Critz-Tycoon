@@ -20,8 +20,8 @@ import {
   getEntities,
   isBlocked,
   transition,
-  movePlayer,
 } from "../src/world.js";
+import { createMotion, advanceMotion, getMotionView } from "../src/movement.js";
 const ready = (loan = false) => {
   const s = createState("Ari", "girl", "Rowan");
   startMorning(s, loan);
@@ -167,19 +167,19 @@ test("scene exits return to valid positions; every interaction has a reachable a
   for (const [id, scene] of Object.entries(scenes)) {
     const s = ready();
     s.scene = id;
-    s.player = { x: 8, y: 9.5, facing: "down" };
+    s.player = { x: scene.safeSpawn[0], y: scene.safeSpawn[1], facing: "down" };
     for (const e of getEntities(s)) {
       const approach = [];
-      for (let y = 0.75; y < scene.h; y += 0.25)
-        for (let x = 0.75; x < scene.w; x += 0.25)
-          if (!isBlocked(id, x, y) && Math.hypot(e.x - x, e.y - y) < 1.6)
+      for (let y = 1; y < scene.h; y++)
+        for (let x = 1; x < scene.w; x++)
+          if (!isBlocked(id, x, y, s) && Math.abs(e.x - x) + Math.abs(e.y - y) <= 1)
             approach.push([x, y]);
       assert.ok(approach.length, `${id}/${e.id} cannot be approached`);
       if (e.type === "door") {
         const clone = structuredClone(s);
         transition(clone, e);
         assert.equal(
-          isBlocked(clone.scene, clone.player.x, clone.player.y),
+          isBlocked(clone.scene, clone.player.x, clone.player.y, clone),
           false,
           `${id} → ${e.to} blocked spawn`,
         );
@@ -187,20 +187,29 @@ test("scene exits return to valid positions; every interaction has a reachable a
     }
   }
 });
-test("movement respects collision, normalizes diagonal speed, and supports running", () => {
-  const a = ready(),
-    b = ready(),
-    c = ready();
-  for (const s of [a, b, c]) s.player = { x: 8, y: 8, facing: "down" };
-  movePlayer(a, 1, 0, 0.1);
-  movePlayer(b, 1, 1, 0.1);
-  movePlayer(c, 1, 0, 0.1, true);
-  assert.ok(
-    Math.abs(Math.hypot(b.player.x - 8, b.player.y - 8) - (a.player.x - 8)) <
-      1e-8,
-  );
-  assert.ok(c.player.x > a.player.x);
-  a.player = { x: 0.81, y: 8, facing: "left" };
-  movePlayer(a, -1, 0, 0.1);
-  assert.equal(a.player.x, 0.81);
+test("tile movement integrates world collision, cardinal input and running without changing save coordinates mid-step", () => {
+  const walk = ready(), run = ready(), diagonal = ready();
+  for (const state of [walk, run]) state.player = { x: 8, y: 9, facing: "right" };
+  diagonal.player = { x: 8, y: 9, facing: "down" };
+  const walkMotion = createMotion(walk.player), runMotion = createMotion(run.player), diagonalMotion = createMotion(diagonal.player);
+  for (let tick = 1; tick <= 16; tick++) {
+    advanceMotion(walkMotion, new Set(["right"]), false, (x,y) => !isBlocked(walk.scene,x,y,walk));
+    advanceMotion(runMotion, new Set(["right"]), true, (x,y) => !isBlocked(run.scene,x,y,run));
+    advanceMotion(diagonalMotion, new Set(["right","down"]), false, (x,y) => !isBlocked(diagonal.scene,x,y,diagonal));
+    if (tick < 16) assert.equal(walk.player.x, 8, "unfinished steps cannot leak fractional positions into saves");
+  }
+  assert.deepEqual([walk.player.x,walk.player.y],[9,9]);
+  assert.deepEqual([run.player.x,run.player.y],[10,9]);
+  assert.deepEqual([diagonal.player.x,diagonal.player.y],[8,10]);
+  const atMom = ready();
+  atMom.scene = "house";
+  atMom.player = { x: 5, y: 7, facing: "up" };
+  const blocked = createMotion(atMom.player);
+  advanceMotion(blocked,new Set(["up"]),false,(x,y)=>!isBlocked(atMom.scene,x,y,atMom));
+  assert.equal(getMotionView(blocked).action,"blocked");
+  assert.deepEqual([atMom.player.x,atMom.player.y],[5,7]);
+  // Turn away from occupied Mom's tile; the open adjacent cell is accepted.
+  advanceMotion(blocked,new Set(["left"]),false,(x,y)=>!isBlocked(atMom.scene,x,y,atMom));
+  assert.equal(getMotionView(blocked).action,"walk");
+  assert.equal(getMotionView(blocked).x,79);
 });

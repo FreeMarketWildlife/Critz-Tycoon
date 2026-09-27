@@ -1,0 +1,77 @@
+{
+  "task": "M1.I2",
+  "status": "technical-checks-passed-awaiting-user-style-review",
+  "assetCount": 54,
+  "atlasSize": [
+    512,
+    320
+  ],
+  "checks": [
+    {
+      "name": "unique-stable-ids",
+      "pass": true,
+      "details": {
+        "count": 54
+      }
+    },
+    {
+      "name": "binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "atlas-inbounds",
+      "pass": true
+    },
+    {
+      "name": "no-overlap",
+      "pass": true
+    },
+    {
+      "name": "all-assets-have-integer-anchors",
+      "pass": true
+    },
+    {
+      "name": "all-assets-nonempty",
+      "pass": true
+    },
+    {
+      "name": "roundtrip-crops-exact",
+      "pass": true
+    },
+    {
+      "name": "buildings-centered-doors",
+      "pass": true
+    },
+    {
+      "name": "tiles-native-16",
+      "pass": true
+    },
+    {
+      "name": "revised-tree-lossless",
+      "pass": true
+    },
+    {
+      "name": "revised-grass-lossless",
+      "pass": true
+    },
+    {
+      "name": "no-reference-png-input",
+      "pass": true,
+      "details": {
+        "source": "Only deterministic original native drawing code is used. No PNG is read by this build."
+      }
+    },
+    {
+      "name": "nearest-neighbor-preview-exact",
+      "pass": true
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "visualInspection": "Native and 3x atlas inspected by author after export; user style acceptance pending.",
+  "source": "art/source/playable-environment/build.mjs",
+  "limitations": [
+    "No physical-phone observation from this environment-asset authoring task.",
+    "Gameplay reachability and foreground placement belong to runtime integration checks."
+  ]
+}

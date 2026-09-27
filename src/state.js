@@ -1,5 +1,8 @@
 export const SAVE_KEY = "critz-tycoon.save.v1";
 export const BACKUP_KEY = SAVE_KEY + ".backup";
+// Immutable recovery snapshots from before the coordinate-grid conversion.
+export const PRE_GRID_KEY = SAVE_KEY + ".pre-grid";
+export const PRE_GRID_BACKUP_KEY = SAVE_KEY + ".pre-grid.backup";
 export const SCHEMA = 1;
 export const HOUR_SECONDS = 8;
 export const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
@@ -34,12 +37,13 @@ export const rescueInfo = {
 export function createState(hero = "Hero", gender = "boy", rival = "Rowan") {
   return {
     version: SCHEMA,
+    gridVersion: 1,
     hero: hero.trim().slice(0, 16) || "Hero",
     gender,
     rival: rival.trim().slice(0, 16) || "Rowan",
     stage: "night",
     scene: "bedroom",
-    player: { x: 7.6, y: 5.4, facing: "up" },
+    player: { x: 8, y: 6, facing: "up" },
     money: 1200,
     debt: 0,
     time: 8,
@@ -97,7 +101,7 @@ export function startMorning(s, acceptLoan) {
   s.stage = "morning";
   s.time = 8;
   s.scene = "bedroom";
-  s.player = { x: 3.5, y: 6.5, facing: "down" };
+  s.player = { x: 4, y: 7, facing: "down" };
 }
 export function rescue(s, id) {
   if (!rescueInfo[id] || s.flags.rescued.includes(id)) return false;
@@ -371,6 +375,7 @@ export function validateState(s) {
   if (
     !s ||
     s.version !== SCHEMA ||
+    (s.gridVersion !== undefined && s.gridVersion !== 1) ||
     !["boy", "girl"].includes(s.gender) ||
     !["night", "morning"].includes(s.stage) ||
     !sceneIds.includes(s.scene)
@@ -490,16 +495,29 @@ export function save(s, storage = localStorage) {
   try {
     if (!validateState(s)) throw new Error("Invalid state");
     const previous = storage.getItem(SAVE_KEY);
-    if (previous) {
-      try {
-        if (validateState(JSON.parse(previous)))
-          storage.setItem(BACKUP_KEY, previous);
-      } catch {
-        /* Keep last good backup. */
+    if (s.gridVersion === 1) {
+      // Preserve exact original bytes once, before either normal save slot is
+      // overwritten. A failed recovery write aborts the save, retaining v1.
+      for (const [key, archive] of [[SAVE_KEY, PRE_GRID_KEY], [BACKUP_KEY, PRE_GRID_BACKUP_KEY]]) {
+        const raw = storage.getItem(key);
+        if (!raw || storage.getItem(archive)) continue;
+        let old;
+        try { old = JSON.parse(raw); } catch { continue; }
+        if (validateState(old) && old.gridVersion !== 1) storage.setItem(archive, raw);
       }
     }
-    s.savedAt = new Date().toISOString();
-    storage.setItem(SAVE_KEY, JSON.stringify(s));
+    let previousState;
+    if (previous) {
+      try { previousState = JSON.parse(previous); }
+      catch { /* A malformed primary must not replace the last good backup. */ }
+    }
+    // Storage errors must escape to the outer guard: replacing the primary
+    // after failing to retain its valid prior state would lose recovery data.
+    if (validateState(previousState)) storage.setItem(BACKUP_KEY, previous);
+    const savedAt = new Date().toISOString();
+    storage.setItem(SAVE_KEY, JSON.stringify({ ...s, savedAt }));
+    // A failed write is not a successful in-memory save either.
+    s.savedAt = savedAt;
     return true;
   } catch {
     return false;
@@ -507,12 +525,12 @@ export function save(s, storage = localStorage) {
 }
 export function load(storage = localStorage) {
   let damaged = false;
-  for (const key of [SAVE_KEY, BACKUP_KEY]) {
+  for (const key of [SAVE_KEY, BACKUP_KEY, PRE_GRID_KEY, PRE_GRID_BACKUP_KEY]) {
     try {
       const raw = storage.getItem(key);
       if (!raw) continue;
       const state = JSON.parse(raw);
-      if (validateState(state)) return { state, recovered: key === BACKUP_KEY };
+      if (validateState(state)) return { state, recovered: key !== SAVE_KEY };
       damaged = true;
     } catch {
       damaged = true;

@@ -1,0 +1,41 @@
+{
+  "testedAt": "2026-09-27T18:51:59.648Z",
+  "url": "http://127.0.0.1:5178",
+  "browser": "153.0.8010.54",
+  "passed": [
+    "Synthetic visibility hide freezes committed motion and habitat time; resume retains the step, clears held input and produces no catch-up ticks.",
+    "Pause menu freezes an in-flight step and its pose; resume completes exactly that tile without restoring held input.",
+    "A pressed mid-step waits for the completed adjacent tile before opening the tank interaction.",
+    "A pressed mid-step completes the source tile before fade and warp, then arrives at the authored safe destination.",
+    "All four scene-edge directions use a 32-tick blocked action, finish after release and never change position.",
+    "Legacy fractional primary loads without nonposition changes or initial writes; UI save retains both exact pre-grid raw archives across repeated saves.",
+    "Corrupt-primary recovery loads the valid legacy backup unchanged, and UI save preserves its exact pre-grid archive and normal backup.",
+    "Synthetic quota failure keeps Save/Title in the paused current grid state with unsaved care changes; old bytes remain exact and reload/Continue still migrates and moves without writes.",
+    "No uncaught browser errors in isolated lifecycle, migration or quota-failure contexts."
+  ],
+  "errors": [],
+  "failure": null,
+  "beforeHashes": {
+    "src/main.js": "451cdc7bfcd299d5604e4073a3345c8843175e9d7e1f0039b6caac983785fe1b",
+    "src/movement.js": "0a791a774a8d37691b822242be668bd8b26409b7034bb3a7c3969158af206821",
+    "src/state.js": "b55e7e7fe4a0c95e603e452cd0bbe842c2fcb30b4bb8b6e514ee8a10f80dc7d4",
+    "src/world.js": "3acf0bc67b2391b9ea0107fe4b34d1809635cb593ac67938042ad88d7e7ea610",
+    "src/grid-save.js": "178d5200d91ba76be096f76c3f9f4bbe8544e4857b59e4fb196db428b9735c4c"
+  },
+  "afterHashes": {
+    "src/main.js": "451cdc7bfcd299d5604e4073a3345c8843175e9d7e1f0039b6caac983785fe1b",
+    "src/movement.js": "0a791a774a8d37691b822242be668bd8b26409b7034bb3a7c3969158af206821",
+    "src/state.js": "b55e7e7fe4a0c95e603e452cd0bbe842c2fcb30b4bb8b6e514ee8a10f80dc7d4",
+    "src/world.js": "3acf0bc67b2391b9ea0107fe4b34d1809635cb593ac67938042ad88d7e7ea610",
+    "src/grid-save.js": "178d5200d91ba76be096f76c3f9f4bbe8544e4857b59e4fb196db428b9735c4c"
+  },
+  "runtimeFilesUnchangedDuringRun": true,
+  "isolation": "Fresh browser contexts with synthetic localStorage fixtures; no real browser profile or user saves accessed.",
+  "limitations": [
+    "Visibility is a synthetic document.hidden/visibilityState override plus visibilitychange event, not OS suspension or a physical-device background test.",
+    "Timing uses source-derived movement rules. No Emerald emulator/hardware captures establish first/last presented action frames or total door timing.",
+    "Browser polling checks phase stability and action completion, not every rendered video frame.",
+    "Migration browser coverage uses representative primary, backup-recovery and quota-failure legacy fixtures. Exhaustive scene/loan/progress combinations belong to separate domain tests.",
+    "Desktop Chrome mobile emulation does not establish physical iPhone/Safari behavior."
+  ]
+}

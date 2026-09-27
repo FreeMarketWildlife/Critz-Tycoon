@@ -1,0 +1,153 @@
+{
+  "task": "M1.I2",
+  "status": "technical-checks-passed-awaiting-user-review",
+  "atlasSize": [
+    512,
+    768
+  ],
+  "assetCount": 270,
+  "environmentAssetCount": 54,
+  "characterFrameCount": 216,
+  "characterRoleCount": 9,
+  "atlasSha256": "64853f46d5b823600fc58e8914877b41a49e05873af08fee96bd164d08bfe84a",
+  "checks": [
+    {
+      "name": "single-png-runtime-contract",
+      "pass": true
+    },
+    {
+      "name": "expected-packed-size",
+      "pass": true,
+      "details": {
+        "actual": [
+          512,
+          768
+        ]
+      }
+    },
+    {
+      "name": "unique-stable-ids",
+      "pass": true,
+      "details": {
+        "assetCount": 270
+      }
+    },
+    {
+      "name": "integer-positive-inbounds-rectangles",
+      "pass": true
+    },
+    {
+      "name": "no-overlapping-asset-rectangles",
+      "pass": true
+    },
+    {
+      "name": "binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "integer-anchors-preserved",
+      "pass": true
+    },
+    {
+      "name": "environment-whole-sheet-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "environment-every-asset-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "environment-nonrectangle-metadata-unchanged",
+      "pass": true
+    },
+    {
+      "name": "characters-whole-sheet-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "characters-every-asset-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "characters-nonrectangle-metadata-unchanged",
+      "pass": true
+    },
+    {
+      "name": "character-map-preserved",
+      "pass": true
+    },
+    {
+      "name": "24-frames-per-character",
+      "pass": true,
+      "details": {
+        "hero.boy": 24,
+        "hero.girl": 24,
+        "mom": 24,
+        "professor": 24,
+        "adult": 24,
+        "shopkeeper": 24,
+        "doctor": 24,
+        "glassblower": 24,
+        "kaid": 24
+      }
+    },
+    {
+      "name": "complete-direction-mode-pose-matrix",
+      "pass": true
+    },
+    {
+      "name": "all-character-map-references-resolve",
+      "pass": true
+    },
+    {
+      "name": "character-native-frame-and-foot-anchor",
+      "pass": true
+    },
+    {
+      "name": "b1-south-walk-idle-pixel-exact",
+      "pass": true,
+      "details": {
+        "source": "assets/review/characters-v1/critz-candidate-b1-south-idle.png",
+        "sourceSha256": "119ac09a0e7277f7f3226c99069e082f881a1c3be975695ffa44cbef8ba505c4"
+      }
+    },
+    {
+      "name": "g1-south-walk-idle-pixel-exact",
+      "pass": true,
+      "details": {
+        "source": "assets/review/characters-v1/critz-candidate-g1-south-idle.png",
+        "sourceSha256": "61684e96ee13c38f4a0e66522eea742460d8c7715021fb6fb4f08c00d845ee16"
+      }
+    },
+    {
+      "name": "kaid-explicit-unmirrored-metadata",
+      "pass": true
+    },
+    {
+      "name": "kaid-left-right-not-naive-mirrors",
+      "pass": true,
+      "details": {
+        "walk.idle": true,
+        "walk.strideA": true,
+        "walk.strideB": true,
+        "run.idle": true,
+        "run.strideA": true,
+        "run.strideB": true
+      }
+    },
+    {
+      "name": "deterministic-png-serialization",
+      "pass": true
+    },
+    {
+      "name": "png-encode-decode-rgba-exact",
+      "pass": true
+    }
+  ],
+  "passed": 24,
+  "total": 24,
+  "limitations": [
+    "This validates packing and source preservation; gameplay and visual/feel acceptance are separate checks.",
+    "Kaid asymmetry check proves no naive mirrored east/west frames, not an artistic judgment about his anatomy."
+  ]
+}

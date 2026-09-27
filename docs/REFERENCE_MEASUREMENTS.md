@@ -172,3 +172,7 @@ No unresolved item is silently converted into an exact-match claim. Where measur
 ## M1.E1 environment follow-up — 2026-09-25
 
 The [environment construction study](reference-data/EMERALD_ENVIRONMENT_RESEARCH.md) narrows U002 with selected source-data assemblies: 32×32 tree, 80×80 house, 64×64 rug, shared primary/secondary banks and measurable tile reuse. These are allocated map rectangles, not universally segmented visible/collision bounds. Original authoring software/workflow, exact prop silhouettes beyond the selected assemblies, full dynamic rendering and emulator confirmation remain unresolved. Revision-1 Critz art was rejected by the user; measured dimensions alone do not establish a stylistic match.
+
+## M1.I2 implementation mapping — 2026-09-27
+
+The playable review now implements the pinned source-derived ordinary cardinal movement in `src/movement.js`, tested tick-for-tick across30/60/90/120/144Hz schedules. This adds no emulator/capture evidence and does not resolve the first/last displayed action-frame or full door/warp boundary questions above. [The implementation record](reviews/M1-I2/README.md) identifies indoor running, A-triggered doors/fades, adjacent interaction, skateboard cadence and dropped long-frame time as deliberate Critz differences. The user authorized a combined playable review; no visual/feel acceptance is inferred.

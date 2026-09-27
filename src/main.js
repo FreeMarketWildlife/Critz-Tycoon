@@ -19,11 +19,13 @@ import {
   scenes,
   getEntities,
   nearestEntity,
-  movePlayer,
   transition,
   isBlocked,
 } from "./world.js";
-import { renderWorld, renderTank, character } from "./art.js";
+import { renderTank } from "./tank-render.js";
+import { initWorldArt, renderWorld, character } from "./render.js";
+import { migrateGridState } from "./grid-save.js";
+import { createMotion, getMotionView, advanceMotion, createMotionClock, advanceMotionClock, resetMotionClock } from "./movement.js";
 const $ = (id) => document.getElementById(id);
 const esc = (s) =>
   String(s).replace(
@@ -34,10 +36,19 @@ const esc = (s) =>
       ],
   );
 let loaded = load(),
-  state = loaded.state || createState(),
+  state = migrateGridState(loaded.state || createState()),
   panelName = "",
   dialogue = null,
   dialogueDone = null;
+if (loaded.state) loaded.state = state;
+let motion = createMotion(state.player), motionClock = createMotionClock(), pendingInteract = false;
+function syncMotion() {
+  if (motion.player !== state.player) {
+    motion = createMotion(state.player);
+    resetMotionClock(motionClock);
+    pendingInteract = false;
+  }
+}
 let gender = "boy",
   running = false,
   moving = false,
@@ -85,6 +96,13 @@ function hud() {
   $("money").textContent = dollars(state.money);
   $("quest").textContent = objective(state);
 }
+function fitWorld() {
+  const viewport = $("viewport");
+  const scale = Math.max(1, Math.floor(viewport.clientWidth / 240));
+  canvas.style.width = `${240 * scale}px`;
+  canvas.style.height = `${160 * scale}px`;
+  viewport.style.height = `${160 * scale}px`;
+}
 function fitOverlay() {
   const controls = $("controller").getBoundingClientRect();
   if (innerWidth > innerHeight && innerHeight < 600) {
@@ -105,6 +123,8 @@ function showPanel(
   const scroll = keep ? panel.scrollTop : 0;
   panelName = name;
   down.clear();
+  pendingInteract = false;
+  resetMotionClock(motionClock);
   overlay.hidden = false;
   fitOverlay();
   panel.innerHTML = `${eyebrow ? `<div class="eyebrow">${eyebrow}</div>` : ""}<div class="panel-heading"><h2 id="panel-title">${title}</h2>${back ? button("back", "×", "close", 'aria-label="Close or go back"') : ""}</div>${html}`;
@@ -135,12 +155,12 @@ function setup() {
   showPanel(
     "setup",
     "Who’s moving in?",
-    `<p>You’re ten. You love tiny creatures. This is your story.</p><div class="choices"><button class="choice selected" data-action="boy" aria-pressed="true"><canvas id="boy-preview" class="hero-preview" width="22" height="29"></canvas>Boy</button><button class="choice" data-action="girl" aria-pressed="false"><canvas id="girl-preview" class="hero-preview" width="22" height="29"></canvas>Girl</button></div><label class="field-label" for="hero-name">Your name</label><input id="hero-name" type="text" placeholder="e.g. Ari" maxlength="16" autocomplete="off"><label class="field-label" for="rival-name">Your rival’s name <span id="rival-gender">(girl)</span></label><input id="rival-name" type="text" placeholder="e.g. Rowan" maxlength="16" autocomplete="off">${button("begin", "Let’s go to Rootport →")}<p class="hint">Opening: a difficult night at home. Every animal survives.</p>`,
+    `<p>You’re ten. You love tiny creatures. This is your story.</p><div class="choices"><button class="choice selected" data-action="boy" aria-pressed="true"><canvas id="boy-preview" class="hero-preview" width="16" height="32"></canvas>Boy</button><button class="choice" data-action="girl" aria-pressed="false"><canvas id="girl-preview" class="hero-preview" width="16" height="32"></canvas>Girl</button></div><label class="field-label" for="hero-name">Your name</label><input id="hero-name" type="text" placeholder="e.g. Ari" maxlength="16" autocomplete="off"><label class="field-label" for="rival-name">Your rival’s name <span id="rival-gender">(girl)</span></label><input id="rival-name" type="text" placeholder="e.g. Rowan" maxlength="16" autocomplete="off">${button("begin", "Let’s go to Rootport →")}<p class="hint">Opening: a difficult night at home. Every animal survives.</p>`,
     { back: false, eyebrow: "A NEW BEGINNING" },
   );
   for (const g of ["boy", "girl"]) {
     const c = $(g + "-preview").getContext("2d");
-    character(c, 11, 26, { gender: g });
+    character(c, 8, 32, { gender: g });
   }
 }
 function say(lines, done) {
@@ -282,6 +302,12 @@ function interact() {
   }
   if (panelName) {
     confirmPanel();
+    return;
+  }
+  syncMotion();
+  if (!getMotionView(motion).settled) {
+    down.clear();
+    pendingInteract = true;
     return;
   }
   const e = nearestEntity(state);
@@ -778,6 +804,9 @@ function doAction(action, el) {
     return;
   }
   switch (action) {
+    case "reload":
+      location.reload();
+      break;
     case "new":
       if (loaded.state)
         showPanel(
@@ -812,11 +841,12 @@ function doAction(action, el) {
       break;
     }
     case "continue":
-      state = loaded.state;
+      state = migrateGridState(loaded.state);
+      loaded.state = state;
       closePanel();
       if (state.stage === "night") {
         state.scene = "bedroom";
-        state.player = { x: 7.6, y: 5.4, facing: "up" };
+        state.player = { x: 8, y: 6, facing: "up" };
         delete state.storyBeat;
         opening();
       }
@@ -887,7 +917,7 @@ function doAction(action, el) {
       persist(false);
       break;
     case "title":
-      persist();
+      if (!persist()) break;
       loaded = load();
       titleScreen();
       break;
@@ -1062,12 +1092,16 @@ document.addEventListener("keyup", (e) => {
 function clearInput() {
   down.clear();
   shift = false;
+  pendingInteract = false;
+  resetMotionClock(motionClock);
+  lastTime = performance.now();
   document
     .querySelectorAll(".pressed")
     .forEach((b) => b.classList.remove("pressed"));
 }
 window.addEventListener("blur", clearInput);
-window.addEventListener("resize", fitOverlay);
+window.addEventListener("resize", () => { fitWorld(); fitOverlay(); });
+new ResizeObserver(fitWorld).observe($("viewport"));
 document.addEventListener("visibilitychange", () => {
   clearInput();
   lastTime = performance.now();
@@ -1078,27 +1112,26 @@ window.addEventListener("pagehide", () => {
   if (!["title", "setup", "confirm-new"].includes(panelName)) persist();
 });
 function frame(now) {
-  const dt = Math.min(0.05, (now - lastTime) / 1000);
+  const elapsed = Math.max(0, (now - lastTime) / 1000);
+  const dt = Math.min(0.05, elapsed);
   lastTime = now;
   if (!document.hidden) {
     visualTime += dt;
     moving = false;
+    syncMotion();
     if (!panelName && !dialogue && !transitioning) {
-      const dx = Number(down.has("right")) - Number(down.has("left")),
-        dy = Number(down.has("down")) - Number(down.has("up"));
-      moving = movePlayer(
-        state,
-        dx,
-        dy,
-        dt *
-          (state.flags.board &&
-          ["town", "yard"].includes(state.scene) &&
-          (running || shift)
-            ? 1.25
-            : 1),
-        running || shift,
-      );
-    }
+      advanceMotionClock(motionClock, elapsed, () => {
+        if (panelName || dialogue || transitioning) return;
+        advanceMotion(motion, down, running || shift,
+          (x,y) => !isBlocked(state.scene,x,y,state),
+          { runAllowed: true, board: !!state.flags.board && ["town","yard"].includes(state.scene) });
+        if (pendingInteract && getMotionView(motion).settled) {
+          pendingInteract = false;
+          interact();
+        }
+      });
+      moving = getMotionView(motion).moving;
+    } else resetMotionClock(motionClock);
     const live =
       state.stage === "morning" &&
       !dialogue &&
@@ -1122,7 +1155,7 @@ function frame(now) {
       persist();
       lastSaved = now;
     }
-    renderWorld(canvas, state, visualTime, moving);
+    renderWorld(canvas, state, visualTime, getMotionView(motion));
     for (const id of ["tank-preview", "view-canvas"]) {
       const target = $(id);
       if (target)
@@ -1153,14 +1186,22 @@ function frame(now) {
   }
   requestAnimationFrame(frame);
 }
-// Recover an out-of-bounds position gracefully if a future map edit moves walls.
-if (loaded.state && isBlocked(state.scene, state.player.x, state.player.y)) {
-  state.player = { x: 8, y: 9.5, facing: "down" };
+try {
+  await initWorldArt();
+  fitWorld();
+  document.documentElement.dataset.gameReady = 'true';
+  hud();
+  titleScreen();
+  lastTime = performance.now();
+  requestAnimationFrame(frame);
+} catch (error) {
+  showPanel('asset-error','Artwork could not load',`<p>Your saved game is safe. Please reload to try again.</p>${button('reload','Reload game')}<p class="hint">${esc(error.message)}</p>`,{back:false});
 }
-hud();
-titleScreen();
-requestAnimationFrame(frame);
 // Read-only development snapshot for integration tests and balancing tools.
 export function getDebugSnapshot() {
   return structuredClone(state);
+}
+export function getDebugMovement() {
+  syncMotion();
+  return { ...getMotionView(motion), clock: { ...motionClock } };
 }

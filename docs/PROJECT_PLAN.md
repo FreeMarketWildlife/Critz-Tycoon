@@ -4,6 +4,8 @@ Established 2026-09-24. Scope: original Critz artwork and exploration conforming
 
 ## Execution and gates
 
+**2026-09-27 scope update: M1.I2 is authorized.** The user explicitly requests missing-art completion, main-game visual integration and tile movement together as one playable visual-review build. Implement and validate these components without intermediate gate pauses. G1/G2 final acceptance still belongs to the user after delivery; no self-approval. Existing world/story/economy preservation, isolated synthetic save testing and publication requirements remain in force. The staged milestone definitions below remain quality requirements/backlog context, not a reason to stop this authorized combined implementation.
+
 Use `planned → in progress → awaiting review → complete`, or `blocked` with a named dependency. Only one implementation task is active. A check failure keeps that task in progress; required user approval keeps it awaiting review. Completing M0 does not start M1. Start the next milestone when the user authorizes it. User approval must cite the delivered artifact/revision and be recorded in [DECISIONS.md](DECISIONS.md); an agent cannot approve its own art.
 
 All work stays on `main`. Existing feature history is audit evidence, not a request to create branches. Publish/deployment is separate from milestone completion. Reference artwork is for inspection only; deliver original Critz assets.
@@ -123,3 +125,7 @@ Gate G7: user final consistency review; zero open save-loss, unreachable require
 - Before a destructive map/save change, use synthetic legacy fixtures and a backup-preserving migration; coordinate systems must be explicit. Never delete localStorage to make a test pass.
 - Test criteria apply to delivered behavior, not amount of code. Critical unresolved reference behavior must either be verified or receive a clearly stated approximation approval before G2.
 - Future habitat upgrades, commissions and multiple tanks from GAME_VISION §10 remain separate backlog work.
+
+### M1.I2 delivery acceptance
+
+Combined playable review includes the existing 11 scenes, native shared atlas, missing directional/supporting-character/environment assets, cardinal fixed-tick motion, v1 coordinate recovery and full story regression. Final user art/feel review follows delivery at the normal play URL; G1/G2 are awaiting review, not self-approved. Existing later world/roster expansion and Tiled migration remain deferred. Implementation uses the current map module with explicit appearance/collision/warp data; introducing a new map editor pipeline is not required to play this build.

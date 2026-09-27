@@ -1,0 +1,30 @@
+{
+  "passed": 18,
+  "results": [
+    "bedroom: native atlas render and integer camera",
+    "house: native atlas render and integer camera",
+    "yard: native atlas render and integer camera",
+    "town: native atlas render and integer camera",
+    "critz: native atlas render and integer camera",
+    "vet: native atlas render and integer camera",
+    "pharmacy: native atlas render and integer camera",
+    "bike: native atlas render and integer camera",
+    "glass: native atlas render and integer camera",
+    "kaidHome: native atlas render and integer camera",
+    "rivalHome: native atlas render and integer camera",
+    "canopy/actor occlusion: atlas-pixel equality behind and in front",
+    "320x568: integer uniform world scale, no horizontal overflow,44px controls",
+    "390x844: integer uniform world scale, no horizontal overflow,44px controls",
+    "844x390: integer uniform world scale, no horizontal overflow,44px controls",
+    "1280x900: integer uniform world scale, no horizontal overflow,44px controls",
+    "missing PNG produces recoverable error without save writes",
+    "zero uncaught browser exceptions"
+  ],
+  "layer": {
+    "count": 723,
+    "bad": 0,
+    "frontCount": 216,
+    "frontBad": 0
+  },
+  "errors": []
+}

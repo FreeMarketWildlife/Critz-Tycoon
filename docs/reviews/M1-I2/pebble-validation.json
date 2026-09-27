@@ -1,0 +1,30 @@
+{
+  "task": "M1.I2",
+  "checks": [
+    {
+      "name": "metadata-ids-rectangles-anchors-unchanged",
+      "pass": true
+    },
+    {
+      "name": "only-night-tank-pixels-updated",
+      "pass": true,
+      "changedAssets": [
+        "prop.tank.night"
+      ],
+      "changedNativePixels": 33
+    },
+    {
+      "name": "original-pebble-stays-inside-glass",
+      "pass": true,
+      "localRect": [
+        17,
+        20,
+        14,
+        5
+      ]
+    }
+  ],
+  "passed": 3,
+  "total": 3,
+  "description": "33 original native pixels add Pebble on the nighttime tank log. No other asset pixels or IDs changed. Broken/daytime fixtures stay unchanged."
+}

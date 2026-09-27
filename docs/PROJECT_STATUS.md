@@ -1,5 +1,28 @@
 # Project status
 
+## M1.I2 — Playable visual-review delivery, 2026-09-27
+
+**Implementation and checks complete; publication in progress. Final user visual/movement acceptance is awaiting review.** The user explicitly authorized completing missing native art, playable integration and tile movement together without intermediate approvals. This supersedes the earlier staged restriction and unanswered M1.I1 scope question; no world/roster expansion beyond existing scenes was authorized. Work is directly on `main`, initially clean at `37cb7d6560f39ac8a65fafabe61faeb06eb0da8e`.
+
+The deliverable is the normal playable game with a visible **VISUAL REVIEW BUILD** label. [Review record](reviews/M1-I2/README.md) documents original assets, controls, save conversion and deliberate differences. All eleven existing scenes now use one **512×768 PNG with 270 stable entries**: 54 environment pieces and 216 directional idle/walk/run frames. B1/G1 remain provisional defaults, with exact south idle pixels preserved; player gender/names and the Hero's Black child identity remain. Mom/Nugget are adults, rival/Kaid children, and Kaid's asymmetric sides are authored explicitly. The night tank includes Pebble. Tank View/photography has a separate new native pixel rendering implementation while retaining snapshot dimensions and gameplay semantics. No prototype exploration or rejected environment-v1 art is imported by the game.
+
+Movement uses integer 16px cells at 240×160, fixed `280896/16777216`-second ticks, committed cardinal steps, walk16/run8 ticks, turn8/block32 ticks, held-input priority, phase continuity and integer direct camera tracking. Habitat simulation remains separate. Main scene collision, interactions, warps and depth/foreground rendering have independent data. Source-derived behavior is not claimed emulator-equivalent; capture boundary details remain unresolved. Indoor running, A-triggered door fades, adjacent interactions, skateboard cadence and long-frame dropping are explicit Critz differences.
+
+The v1 key/data remain, with a tested coordinate convention marker and nearest connected integer-cell conversion. Nonposition progress survives; original legacy primary/backup bytes are retained in immutable recovery slots. Failed archive/backup/primary writes preserve recoverability. A final review also caught and fixed Title→Continue bypassing migration after a failed save; returning to the title now stops when saving fails. Tests never used real user browser storage.
+
+Actual checks:
+
+- **45/45 domain tests**: both loans, gift, rescues, purchases, ecosystem causes, Critter payouts, full save round-trip/recovery; 11-scene/22-rich-fixture coordinate conversion, all reachable interactions and door round trips; fixed-tick traces at 30/60/90/120/144 Hz; release, turn/block/phase rules; synthetic storage failures and archive immutability. [Output](reviews/M1-I2/domain-tests.txt).
+- **24/24 atlas**, **13/13 environment**, **18/18 native tank**, and **3/3 Pebble differential** checks pass. Includes complete frame matrices, binary alpha, source pixels, anchors, bounds, exact B1/G1 recovery, Kaid asymmetry and tile seams. [Atlas report](reviews/M1-I2/atlas-validation.json), [environment report](reviews/M1-I2/environment-validation.json), [tank report](reviews/M1-I2/tank-validation.json).
+- **18/18 visual/browser checks**: all 11 scenes, exact pixel comparison for foreground/behind-tree occlusion, integer camera/presentation, 320×568 / 390×844 portrait, 844×390 landscape and desktop layouts, ≥44px movement/action controls, missing-PNG recovery and zero uncaught exceptions. Native scenes, habitat, portrait/landscape captures were visually inspected. [Report](reviews/M1-I2/visual-browser.json).
+- **17/17 final story/browser checkpoints** pass: both genders/loan choices, the complete opening and existing shops/rescues/care/Critter loop, full nonposition save equality, held-step release, pointer cancellation and blur. [Report](reviews/M1-I2/story-browser.json). **9/9 final lifecycle/browser checkpoints** pass: synthetic background/resume, pause/phase continuity, deferred A/tank/warp, all blocked edges, legacy archives/corrupt-primary recovery and storage-quota failure with safe Title/Continue. [Report](reviews/M1-I2/lifecycle-browser.json). Zero uncaught errors. Ten JS syntax checks and `git diff --check` pass. All 13 [runtime hashes](reviews/M1-I2/tested-runtime.json) match source and the locally served tested build and remain unchanged through the final story/lifecycle/visual runs.
+
+Limitations: tests use isolated desktop Chrome/mobile emulation and synthetic visibility events, not physical iPhone Safari/OS suspension. No Emerald emulator frame capture was performed. Native art and movement are explicitly awaiting the user's acceptance; technical checks are not approval. Later Tiled/world-expansion milestones remain deferred.
+
+Push/deployment evidence and exact next action will be recorded here immediately after the final run/publication. Until successful deployment, the phone URL still serves the prior build.
+
+Earlier entries below are historical and their pending authorization language is superseded by this explicit instruction.
+
 Updated **2026-09-26 (America/Los_Angeles)**. Current milestone: **M1 visual review**. Active task: **M1.I1 recovered-art integration review**, awaiting user response; artifact implementation, checks and publication complete. M1.E1 gallery delivery and the earlier ten-character artifact assignment are complete as deliveries, but visual approval remains pending. M0 remains complete. M1/G1 and M2/G2 are not complete or approved.
 
 ## Current request: use the new artwork in the game

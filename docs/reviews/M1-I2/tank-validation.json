@@ -1,0 +1,82 @@
+{
+  "task": "M1.I2",
+  "checks": [
+    {
+      "name": "no-tank-state-mutation",
+      "pass": true
+    },
+    {
+      "name": "same-state-time-camera-deterministic",
+      "pass": true
+    },
+    {
+      "name": "all-output-opaque",
+      "pass": true
+    },
+    {
+      "name": "exact-two-by-two-presentation",
+      "pass": true
+    },
+    {
+      "name": "plants-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "food-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "hide-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "isopods-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "springtails-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "algae-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "waste-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "moisture-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "stress-visibly-affects-render",
+      "pass": true
+    },
+    {
+      "name": "native-animation-changes-over-time",
+      "pass": true
+    },
+    {
+      "name": "pan-affects-frame",
+      "pass": true
+    },
+    {
+      "name": "zoom-affects-frame",
+      "pass": true
+    },
+    {
+      "name": "reticle-affects-frame",
+      "pass": true
+    },
+    {
+      "name": "title-card-size-preserved",
+      "pass": true
+    }
+  ],
+  "passed": 18,
+  "total": 18,
+  "limitations": [
+    "Canvas implementation check using @napi-rs/canvas; browser integration and user acceptance remain separate."
+  ]
+}

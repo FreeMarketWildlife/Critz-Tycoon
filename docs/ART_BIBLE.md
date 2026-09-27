@@ -1,5 +1,7 @@
 # Critz: Tycoon — initial art bible
 
+**2026-09-27 scope amendment:** The user explicitly authorized M1.I2 to complete the existing roster/environment art, directional walk/run sheets, playable integration and tile movement together without intermediate art approvals. Earlier staged restrictions below are historical and superseded for this deliverable. Technical/visual proposals remain provisional; final user acceptance is pending. The [playable-review record](reviews/M1-I2/README.md) documents actual asset extents, native rendering, limitations and checks. No world expansion is authorized.
+
 M1 environment review edition, 2026-09-25. **No example artwork, character proportions, palette swatches or motion proof has user approval yet.** “Approved direction” below means the user's supplied technical brief, not a finished art asset. [REFERENCE_MEASUREMENTS.md](REFERENCE_MEASUREMENTS.md) separates measured evidence from proposals. [GAME_VISION.md](GAME_VISION.md) remains canon.
 
 ## Approved direction
