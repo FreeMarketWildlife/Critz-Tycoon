@@ -2,7 +2,7 @@
 
 ## M1.C3 — All-cast directional walking review
 
-**Implementation and checks complete; publication in progress. Final visual acceptance awaits the user.** The user requests walking animations for each of the twelve delivered characters and a GIF showing everyone. This supersedes the prior still-only limitation for the animation task. Work is directly on `main`, clean baseline `4b5b62013d1ac800e9cbcafecb82a0f6d3d9d611`.
+**Implementation, checks and publication complete. Final visual acceptance awaits the user.** The user requests walking animations for each of the twelve delivered characters and a GIF showing everyone. This supersedes the prior still-only limitation for the animation task. Work is directly on `main`, clean baseline `4b5b62013d1ac800e9cbcafecb82a0f6d3d9d611`.
 
 Deliverable: **144 native frames** (12 characters × 4 directions × idle/two strides), one **288×384 shared PNG atlas**, twelve individual PNG sheets, **thirteen GIFs** (full cast plus one per character), and `/art-review/walking.html` with synchronized playback, pause, pose stepping, direction/background selection and downloads. Every M1.C2 south idle and original palette remains exact. All poses fit at most 20×26 painted pixels in 24×32 storage with anchor `[12,32]`. Idle feet end on row 30; strides use row 31 and a one-pixel compact bob. [Full-cast GIF](../assets/review/characters-walk-v2/all-characters.gif) · [Artwork, prompts and checks](reviews/M1-C3/README.md).
 
@@ -12,7 +12,11 @@ Actual results: **816/816 native authoring checks**, **986/986 independent PNG c
 
 **33 existing gameplay, playable-atlas and still-art files remain byte-identical** to the opening commit. Main game changes only its footer link; earlier reviews link to the walking page. Existing domain/story checks were not repeated because runtime inputs are unchanged. No new roster, running poses, playable replacement, collision or save changes were made. The earlier 102-character list remains unlocated; this delivery animates every currently delivered design. Physical iPhone/Safari was not tested. Technical checks do not replace user visual acceptance.
 
-Final commit/push/deployment evidence follows successful publication. **Exact next action:** publish this tested walking-review package, then the user inspects the GIFs/poses and gives visual feedback.
+**Delivery source:** `41377f766ac895927feb36da19c4e24944be0496`, committed on `main`, pushed to GitHub `origin/main`, and verified against the remote SHA. The Sites workflow separately pushed/verified that exact source. All **70 deployed file hashes** match the tested source/build, including every GIF and native sheet. [Runtime manifest](reviews/M1-C3/tested-runtime.json).
+
+**Deployment succeeded** at **2026-09-28 03:07:22 UTC** (Sept 27, 20:07 Pacific): `appgdep_6ab9d9e03d8c819197ab1a3e310d5fed`, saved version `appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_b9e6d72da8b081919120994c4edd27f6`, native status `succeeded`, no failure message. Existing owner-only audience and origin remain unchanged. [Walking review and individual downloads](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/walking.html) · [Full-cast GIF](https://critz-tycoon.freemarketwildlife.chatgpt.site/assets/review/characters-walk-v2/all-characters.gif) · [Current game](https://critz-tycoon.freemarketwildlife.chatgpt.site) · [Receipt](reviews/M1-C3/deployment.json).
+
+**Exact next action:** the user inspects the GIFs/poses and gives visual feedback. This animation-review request is delivered. No running poses or playable replacement are implied. This following documentation-only receipt changes no tested runtime and needs no duplicate deployment. No unrelated working changes were present or included; build/test caches remain ignored. Receipt HEAD is separately pushed and remote-verified before handoff.
 
 ## M1.C2 — Compact 20×26 still-character framework
 

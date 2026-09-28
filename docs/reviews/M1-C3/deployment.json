@@ -1,0 +1,37 @@
+{
+  "task": "M1.C3",
+  "sourceCommit": "41377f766ac895927feb36da19c4e24944be0496",
+  "branch": "main",
+  "githubOriginVerified": true,
+  "sitesSourceVerified": true,
+  "deployment": {
+    "id": "appgdep_6ab9d9e03d8c819197ab1a3e310d5fed",
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "title": "Critz: Tycoon",
+    "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_b9e6d72da8b081919120994c4edd27f6",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "has_mcp": null,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab5dd1e11ac8191937254280d6ba196",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-09-28T03:07:22.003686+00:00"
+  },
+  "archiveMatchedTestedFiles": 70,
+  "audience": "existing owner-only; unchanged",
+  "characterCount": 12,
+  "cardinalDirections": 4,
+  "nativeFrames": 144,
+  "gifCount": 13,
+  "decodedGifFramesChecked": 624,
+  "checks": {
+    "native": 816,
+    "png": 986,
+    "timing": 6,
+    "browser": 14
+  },
+  "userArtworkAcceptance": "awaiting review",
+  "playableRuntimeAndSaveData": "unchanged"
+}
