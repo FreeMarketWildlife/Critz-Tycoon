@@ -1,0 +1,1175 @@
+{
+  "schemaVersion": 1,
+  "image": "atlas.png",
+  "size": [
+    144,
+    64
+  ],
+  "nativeFrame": [
+    24,
+    32
+  ],
+  "paintedBudget": [
+    20,
+    26
+  ],
+  "animation": null,
+  "status": "still-design-review",
+  "assetCount": 12,
+  "assets": [
+    {
+      "id": "character.v2.hero.boy.south.idle",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "rect": [
+        0,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "paintedPixels": 322,
+      "colorCount": 12,
+      "colors": [
+        "#292532",
+        "#55404a",
+        "#352e35",
+        "#905439",
+        "#ba7c4e",
+        "#633a35",
+        "#11111a",
+        "#eddfb5",
+        "#245968",
+        "#64b7ab",
+        "#2f8c91",
+        "#2b3452"
+      ],
+      "sha256": "00a176dc7aceb3b07ce07bfcda303dfdc635959d22f85c88507d305eeb067c30",
+      "png": "individual/hero.boy.png",
+      "source": "art/source/characters-v2/hero.boy.json",
+      "design": {
+        "ageCategory": "ten-year-old Black child",
+        "identitySource": "B1",
+        "identityCues": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+        "bodyType": "compact child · relaxed",
+        "headBounds": [
+          3,
+          7,
+          21,
+          22
+        ],
+        "headRows": 15,
+        "chinRow": 21,
+        "shoulderRow": 22,
+        "bodyBounds": [
+          6,
+          22,
+          18,
+          31
+        ],
+        "bodyRows": 9,
+        "neckRows": 0,
+        "torsoRows": [
+          22,
+          27
+        ],
+        "legsAndShoesRows": [
+          28,
+          30
+        ],
+        "eyeClusters": [
+          [
+            9,
+            17,
+            1,
+            2
+          ],
+          [
+            14,
+            17,
+            1,
+            2
+          ]
+        ],
+        "footBaseline": 30,
+        "headShareOfPaintedHeight": 0.625,
+        "status": "review-awaiting-user-acceptance",
+        "headHeight": 15,
+        "bodyHeight": 9,
+        "signature": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.hero.girl.south.idle",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "rect": [
+        24,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        7,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        24
+      ],
+      "paintedPixels": 310,
+      "colorCount": 13,
+      "colors": [
+        "#292532",
+        "#55404a",
+        "#352e35",
+        "#ef9578",
+        "#905439",
+        "#ba7c4e",
+        "#633a35",
+        "#11111a",
+        "#f6a28b",
+        "#dd7979",
+        "#9b4858",
+        "#2b3452",
+        "#eddfb5"
+      ],
+      "sha256": "4ffd8b24c45fd00906035f940a29dd0e00bfee95e8a81b370f192649a08c299d",
+      "png": "individual/hero.girl.png",
+      "source": "art/source/characters-v2/hero.girl.json",
+      "design": {
+        "ageCategory": "ten-year-old Black child",
+        "identitySource": "G1",
+        "identityCues": "Twin rounded afro puffs with coral ties; coral tee, indigo shorts; close cream sneakers",
+        "bodyType": "compact child · petite",
+        "headBounds": [
+          2,
+          7,
+          22,
+          22
+        ],
+        "headRows": 15,
+        "chinRow": 21,
+        "shoulderRow": 22,
+        "bodyBounds": [
+          6,
+          22,
+          18,
+          31
+        ],
+        "bodyRows": 9,
+        "neckRows": 0,
+        "torsoRows": [
+          22,
+          27
+        ],
+        "legsAndShoesRows": [
+          28,
+          30
+        ],
+        "eyeClusters": [
+          [
+            9,
+            17,
+            1,
+            2
+          ],
+          [
+            14,
+            17,
+            1,
+            2
+          ]
+        ],
+        "footBaseline": 30,
+        "headShareOfPaintedHeight": 0.625,
+        "status": "review-awaiting-user-acceptance",
+        "headHeight": 15,
+        "bodyHeight": 9,
+        "signature": "Twin rounded afro puffs with coral ties; coral tee, indigo shorts; close cream sneakers",
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.mom.south.idle",
+      "character": "mom",
+      "label": "Mom",
+      "rect": [
+        48,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "paintedPixels": 379,
+      "colorCount": 15,
+      "colors": [
+        "#24232e",
+        "#4a4554",
+        "#34333f",
+        "#615767",
+        "#995b3c",
+        "#bd7d4e",
+        "#754333",
+        "#11131d",
+        "#e9b94f",
+        "#e5a0a6",
+        "#bb7081",
+        "#f2dfb6",
+        "#874d60",
+        "#29384e",
+        "#495c78"
+      ],
+      "sha256": "7cd0820606f146924172eb5dbe7a7a93f267ba1f6ca9ac16e3e644efc97de942",
+      "png": "individual/mom.png",
+      "source": "art/source/characters-v2/mom.json",
+      "design": {
+        "bodyType": "soft-round adult",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "eyeRows": [
+          16,
+          17
+        ],
+        "eyeColumns": [
+          9,
+          14
+        ],
+        "feetRows": [
+          29,
+          30
+        ],
+        "silhouetteIntent": "Cloud-round twin puffs, broad soft pink jacket, generous cheeks and short planted legs. Adult identity from clothes and posture.",
+        "changedFromM1C1": [
+          "Rounded puff silhouette and connected central hair crown",
+          "Widened soft jacket and relaxed hands without longer waist",
+          "Shortened visible legs to three rows",
+          "Rebuilt face cheeks and clear two-row eyes"
+        ],
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": "Cloud-round twin puffs, broad soft pink jacket, generous cheeks and short planted legs. Adult identity from clothes and posture.",
+        "bodyBounds": [
+          4,
+          21,
+          20,
+          31
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.kaid.south.idle",
+      "character": "kaid",
+      "label": "Kaid",
+      "rect": [
+        72,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "paintedPixels": 293,
+      "colorCount": 13,
+      "colors": [
+        "#222b3a",
+        "#c1e3db",
+        "#86c5c8",
+        "#539ba6",
+        "#f3ecd0",
+        "#f4d17b",
+        "#edb54e",
+        "#d88d29",
+        "#356775",
+        "#a96c30",
+        "#c7b994",
+        "#314861",
+        "#536c88"
+      ],
+      "sha256": "4762284622c8a85efcf2ef66c7e9cc60883a5e869bed6e4f9a364465bb75d499",
+      "png": "individual/kaid.png",
+      "source": "art/source/characters-v2/kaid.json",
+      "design": {
+        "bodyType": "compact pitcher child",
+        "age": "child",
+        "headBounds": [
+          3,
+          7,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "headHeight": 14,
+        "bodyHeight": 10,
+        "frame": [
+          24,
+          32
+        ],
+        "anchor": [
+          12,
+          32
+        ],
+        "signature": [
+          "rounded teal pitcher with amber contents",
+          "spout left / loop handle right",
+          "cream tee and navy shorts with connected legs"
+        ],
+        "changes": [
+          "shorter rounded vessel construction",
+          "two deliberate1×2 eyes",
+          "pelvis and legs connected; former blank row removed"
+        ],
+        "identitySource": "docs/GAME_VISION.md",
+        "status": "awaiting-user-art-review",
+        "bodyBounds": [
+          5,
+          21,
+          17,
+          31
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.professor.south.idle",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "rect": [
+        96,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "paintedPixels": 390,
+      "colorCount": 14,
+      "colors": [
+        "#282c30",
+        "#ddcda0",
+        "#b3a178",
+        "#827856",
+        "#43563c",
+        "#596363",
+        "#a0aaa7",
+        "#efc38b",
+        "#cf986d",
+        "#f1eacf",
+        "#929f74",
+        "#b9bba4",
+        "#a76d4d",
+        "#525442"
+      ],
+      "sha256": "2329ab839da63569f325589a68366db76679e4cd16a848e36b9778e588366675",
+      "png": "individual/professor.png",
+      "source": "art/source/characters-v2/professor.json",
+      "design": {
+        "bodyType": "sturdy-broad adult",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "eyeRows": [
+          15,
+          16
+        ],
+        "eyeColumns": [
+          8,
+          15
+        ],
+        "feetRows": [
+          29,
+          30
+        ],
+        "silhouetteIntent": "Wide short cream coat, broad safari brim, round glasses with visible dark pupils and grey side hair; distinctly stockier than Mom.",
+        "changedFromM1C1": [
+          "Simplified glasses into separate readable lens shapes with dark pupils",
+          "Broadened short shoulders and coat",
+          "Lower-body stance limited to three rows",
+          "Retained wide brim and grey side-hair identity"
+        ],
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": "Wide short cream coat, broad safari brim, round glasses with visible dark pupils and grey side hair; distinctly stockier than Mom.",
+        "bodyBounds": [
+          3,
+          21,
+          22,
+          31
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.juniper.south.idle",
+      "character": "juniper",
+      "label": "Juniper",
+      "rect": [
+        120,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "paintedPixels": 349,
+      "colorCount": 12,
+      "colors": [
+        "#24252f",
+        "#70505a",
+        "#443440",
+        "#c88960",
+        "#e8b88a",
+        "#9b5e46",
+        "#f0e5c5",
+        "#75b2a3",
+        "#438787",
+        "#2d626e",
+        "#2c4059",
+        "#53627a"
+      ],
+      "sha256": "3ce0d210a72dc6302e5ba042c0772c57cb31451d9c15051027b7c3ca4a7b2026",
+      "png": "individual/juniper.png",
+      "source": "art/source/characters-v2/juniper.json",
+      "design": {
+        "bodyType": "soft pear adult",
+        "headBounds": [
+          3,
+          5,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "round high bun",
+          "cream puff sleeves",
+          "apron widens at low hips with curved short hem"
+        ],
+        "identitySource": "src/world.js:30; Juniper is the Critz shopkeeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Bun and short pear apron distinguish silhouette; cream shoulder seams separate apron from face.",
+        "bodyBounds": [
+          3,
+          21,
+          20,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            2
+          ],
+          [
+            13,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": [
+          "round high bun",
+          "cream puff sleeves",
+          "apron widens at low hips with curved short hem"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.dr-fern.south.idle",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "rect": [
+        0,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "paintedPixels": 356,
+      "colorCount": 13,
+      "colors": [
+        "#24252f",
+        "#45485b",
+        "#292c3e",
+        "#e2ac79",
+        "#c18057",
+        "#955640",
+        "#f0e5c5",
+        "#b6c7b2",
+        "#438a93",
+        "#c27080",
+        "#33636f",
+        "#2c4059",
+        "#528b93"
+      ],
+      "sha256": "df54966186b760f1cae2ec41c375eac8be944b9fa789c4e46ac1e2de98fbaae5",
+      "png": "individual/dr-fern.png",
+      "source": "art/source/characters-v2/dr-fern.json",
+      "design": {
+        "bodyType": "slim adult",
+        "headBounds": [
+          3,
+          6,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "asymmetric rounded bob",
+          "short open coat and light lapels",
+          "narrow straight teal center"
+        ],
+        "identitySource": "src/world.js:30; Dr. Fern is the Vet keeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Dark bob silhouette, cream coat, turquoise clothing and small pink badge preserve reference identity.",
+        "bodyBounds": [
+          5,
+          21,
+          18,
+          31
+        ],
+        "eyeClusters": [
+          [
+            7,
+            16,
+            1,
+            2
+          ],
+          [
+            12,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 15,
+        "bodyHeight": 10,
+        "signature": [
+          "asymmetric rounded bob",
+          "short open coat and light lapels",
+          "narrow straight teal center"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.mina.south.idle",
+      "character": "mina",
+      "label": "Mina",
+      "rect": [
+        24,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        4,
+        7,
+        20,
+        31
+      ],
+      "visibleSize": [
+        16,
+        24
+      ],
+      "paintedPixels": 306,
+      "colorCount": 13,
+      "colors": [
+        "#24252f",
+        "#72505e",
+        "#40303f",
+        "#dba271",
+        "#b87853",
+        "#89523f",
+        "#d2b277",
+        "#f0e5c5",
+        "#665f83",
+        "#9683ad",
+        "#b9a8cd",
+        "#29474c",
+        "#42696b"
+      ],
+      "sha256": "0f70b3fbdaab4617f79933c4e4d9b4007a894fcc94faaacc95212486859011da",
+      "png": "individual/mina.png",
+      "source": "art/source/characters-v2/mina.json",
+      "design": {
+        "bodyType": "petite slim adult",
+        "headBounds": [
+          4,
+          7,
+          20,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "tucked chin-length hair",
+          "small golden round glasses",
+          "narrow cropped cardigan with cream collar"
+        ],
+        "identitySource": "src/world.js:30; Mina is the Drug Store keeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Petite body, tucked hair and glasses distinguish Mina from Dr. Fern despite shared older doctor sprite.",
+        "bodyBounds": [
+          6,
+          21,
+          18,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            1
+          ],
+          [
+            13,
+            16,
+            1,
+            1
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 14,
+        "bodyHeight": 10,
+        "signature": [
+          "tucked chin-length hair",
+          "small golden round glasses",
+          "narrow cropped cardigan with cream collar"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.ollie.south.idle",
+      "character": "ollie",
+      "label": "Ollie",
+      "rect": [
+        48,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "paintedPixels": 369,
+      "colorCount": 15,
+      "colors": [
+        "#24252f",
+        "#dd9b6b",
+        "#b26b51",
+        "#80534c",
+        "#544039",
+        "#edc38d",
+        "#d29a67",
+        "#ab724e",
+        "#f0e5c5",
+        "#71b29f",
+        "#408785",
+        "#2d676d",
+        "#3d4657",
+        "#9b8b68",
+        "#c2aa7d"
+      ],
+      "sha256": "8b9a16930c357da21e12b524fa977535ffadd129bd75af0edc275124fd6cc742",
+      "png": "individual/ollie.png",
+      "source": "art/source/characters-v2/ollie.json",
+      "design": {
+        "bodyType": "broad compact adult",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "low cap with projecting stepped brim",
+          "broad sports sleeves",
+          "wide cargo shorts and short planted stance"
+        ],
+        "identitySource": "src/world.js:30; Ollie is the Bike Shop keeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Rust cap contrasts sports teal; short cargo legs and broad shoulders carry adult body type.",
+        "bodyBounds": [
+          4,
+          21,
+          20,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            15,
+            1,
+            2
+          ],
+          [
+            13,
+            15,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": [
+          "low cap with projecting stepped brim",
+          "broad sports sleeves",
+          "wide cargo shorts and short planted stance"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.aunt-ember.south.idle",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "rect": [
+        72,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "paintedPixels": 346,
+      "colorCount": 14,
+      "colors": [
+        "#24252f",
+        "#725042",
+        "#43313a",
+        "#e5a14e",
+        "#bd6c40",
+        "#cd945f",
+        "#a66c48",
+        "#c8d9dc",
+        "#79503e",
+        "#c7933f",
+        "#e4b75b",
+        "#35465d",
+        "#637a90",
+        "#926b38"
+      ],
+      "sha256": "8dbaa97cedb0ec317f01736bf8ab2e80ea9c902eebb37c906fe3d8322e3e70b5",
+      "png": "individual/aunt-ember.png",
+      "source": "art/source/characters-v2/aunt-ember.json",
+      "design": {
+        "bodyType": "sturdy round adult",
+        "headBounds": [
+          3,
+          5,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "textured asymmetric tied bun",
+          "large protective goggles",
+          "wide short indigo apron and rolled mustard sleeves"
+        ],
+        "identitySource": "docs/GAME_VISION.md:45; src/world.js:30",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Warm dark skin and visible eyes under pale goggle rims; fuller apron and wide stance remain compact.",
+        "bodyBounds": [
+          5,
+          21,
+          19,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            1
+          ],
+          [
+            14,
+            16,
+            1,
+            1
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": [
+          "textured asymmetric tied bun",
+          "large protective goggles",
+          "wide short indigo apron and rolled mustard sleeves"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.rival-mom.south.idle",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "rect": [
+        96,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "paintedPixels": 385,
+      "colorCount": 12,
+      "colors": [
+        "#24252f",
+        "#936052",
+        "#623f3c",
+        "#f0c79b",
+        "#d6a37a",
+        "#b57e5d",
+        "#cd8985",
+        "#f0e5c5",
+        "#e8b1a0",
+        "#995b69",
+        "#4b3c58",
+        "#796180"
+      ],
+      "sha256": "741126a8c023db42e8fb717c24f0620b673852ce39b0e6dd93dae34dc4817307",
+      "png": "individual/rival-mom.png",
+      "source": "art/source/characters-v2/rival-mom.json",
+      "design": {
+        "bodyType": "soft pear adult",
+        "headBounds": [
+          3,
+          6,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "polished shoulder-length swept hair",
+          "rounded cream blouse collar",
+          "full short plum trousers with separated planted feet"
+        ],
+        "identitySource": "src/world.js:125; unnamed rival parent",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Hair down and a collar/trouser silhouette distinguish her from Mom and Juniper; no permanent name assigned.",
+        "bodyBounds": [
+          4,
+          21,
+          19,
+          31
+        ],
+        "eyeClusters": [
+          [
+            7,
+            16,
+            1,
+            2
+          ],
+          [
+            12,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 15,
+        "bodyHeight": 10,
+        "signature": [
+          "polished shoulder-length swept hair",
+          "rounded cream blouse collar",
+          "full short plum trousers with separated planted feet"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.v2.rival-dad.south.idle",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "rect": [
+        120,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "direction": "south",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "visibleSize": [
+        17,
+        25
+      ],
+      "paintedPixels": 366,
+      "colorCount": 11,
+      "colors": [
+        "#24252f",
+        "#6c5146",
+        "#453638",
+        "#c98d63",
+        "#e7b587",
+        "#9f654a",
+        "#75966e",
+        "#a6b98d",
+        "#4e725c",
+        "#34405a",
+        "#52657b"
+      ],
+      "sha256": "e6ad7a6696567fe3dc01efcfc21af1579aeebc8fea547898d153b4f0e8bc8e81",
+      "png": "individual/rival-dad.png",
+      "source": "art/source/characters-v2/rival-dad.json",
+      "design": {
+        "bodyType": "broad short adult",
+        "headBounds": [
+          3,
+          6,
+          20,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "tidy uneven wavy hair crest",
+          "broad soft pullover shoulders and middle",
+          "wide tiny trouser stance"
+        ],
+        "identitySource": "src/world.js:126; unnamed rival parent",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Friendly face without a beard; fuller pullover hem and broad shoulders show adult shape without extending height.",
+        "bodyBounds": [
+          4,
+          21,
+          20,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            2
+          ],
+          [
+            13,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 15,
+        "bodyHeight": 10,
+        "signature": [
+          "tidy uneven wavy hair crest",
+          "broad soft pullover shoulders and middle",
+          "wide tiny trouser stance"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "status": "awaiting-user-art-review"
+    }
+  ]
+}

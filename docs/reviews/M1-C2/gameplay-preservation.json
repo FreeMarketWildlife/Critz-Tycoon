@@ -1,0 +1,21 @@
+{
+  "task": "M1.C2",
+  "sourceBaseline": "f59bcc1ff4a0e1436d0d0e56f6f47b7f33a7ebce",
+  "preservedRuntimeHashes": {
+    "style.css": true,
+    "assets/playable/atlas.png": true,
+    "assets/playable/atlas.json": true,
+    "src/art.js": true,
+    "src/atlas.js": true,
+    "src/grid-save.js": true,
+    "src/main.js": true,
+    "src/movement.js": true,
+    "src/render.js": true,
+    "src/state.js": true,
+    "src/tank-render.js": true,
+    "src/world.js": true
+  },
+  "indexChange": "Only replaces comparison footer link with new still-character review link",
+  "noGameplayIntegration": true,
+  "noNewAnimations": true
+}

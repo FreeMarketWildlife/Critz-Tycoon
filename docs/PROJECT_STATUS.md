@@ -1,5 +1,21 @@
 # Project status
 
+## M1.C2 — Compact 20×26 still-character framework
+
+**Framework and 12 confirmed-cast still designs complete; full requested 102-character set awaits its roster source. New artwork awaits user review.** The user selected the larger 20×26 visible budget, cute Emerald-inspired chibi construction, varied body types and one still pose each with no animations. This authorizes the new framework and character design work; it approves the direction, not unseen finished artwork.
+
+Work is directly on `main`, opening baseline `f59bcc1ff4a0e1436d0d0e56f6f47b7f33a7ebce`. [CHARACTER_FRAMEWORK](CHARACTER_FRAMEWORK.md) defines 24×32 storage, at most 20×26 ink, dominant rounded heads, short connected bodies and distinct body families. The twelve designs have 14–16 head rows, 9–10 body rows, a common foot baseline and twelve different silhouette masks. [Labeled lineup](reviews/M1-C2/character-still-contact-sheet.png) · [Annotated framework](reviews/M1-C2/character-framework-annotated.png) · [Review record and prompts](reviews/M1-C2/README.md).
+
+The repository/history audit found 12 story identities, nine reused renderer roles and ten alternate Hero/rival candidates; no 102-character list exists in the 17 available commits. The prior art task requested exactly ten candidates. The user has been asked to locate/clarify the roster. These twelve still drawings cover the confirmed cast; Hero boy/girl also support the opposite-gender rival under the existing shared appearance convention. No unnamed extras were invented or counted as established characters. The full 102-character request remains unfinished until that dependency is resolved.
+
+The new `/art-review/characters.html` inspector provides exact 8× portraits, equal 4× cast cards, dark/paper/grass backgrounds, pixel guides, an existing-room scale view, individual PNG downloads and one shared 144×64 atlas. It has no animation loop and accesses no game saves. Game logic, current playable art, story and progress are unchanged; the game footer and previous budget study link to the new review.
+
+Actual checks: **108/108 native-source, 90/90 independent decoded-PNG, and 15/15 browser checks pass**. All twelve designs and labels are checked at 320×568, 390×844, 844×390 and 1280×900; exact integer canvas scales, keyboard/touch controls, download byte equality, failure UI and zero storage reads/writes pass. Source/build/atlas checks cover binary alpha, exact source pixels, shared baseline, compact bounds, connected figures and unique silhouettes. All twelve prior gameplay/atlas hashes remain unchanged. Final contact sheet, framework plate, native/enlarged art and portrait/landscape screenshots were inspected. [Browser evidence](reviews/M1-C2/browser-report.json) · [PNG evidence](reviews/M1-C2/png-validation.json) · [Preservation evidence](reviews/M1-C2/gameplay-preservation.json).
+
+Limits: one south-facing still each, not directional or animated replacements. Built-in image generation supplied original design guides; the exported native sprites are separately authored indexed pixels, not resized concepts. Physical iPhone/Safari and Emerald emulator capture were not tested. Checks do not constitute user art acceptance. Final push/publication evidence follows delivery.
+
+**Exact next action:** publish this concrete confirmed-cast review, then obtain the missing 102-character roster/count and design the remaining specified characters with the new framework.
+
 ## M1.C1 — Animated character-budget comparison, 2026-09-27
 
 **Implementation, checks and publication complete. Budget choice and art acceptance await the user.** The user likes the supporting-character concept study and requests two proposed native character budgets side by side, including walking. Active task **M1.C1**, on `main`; clean opening baseline `12a6104f5d27ec91ea7d0938c44d4ff7b214381e`.

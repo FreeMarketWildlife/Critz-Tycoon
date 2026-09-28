@@ -1,5 +1,11 @@
 # Visual foundation production plan
 
+## M1.C2 — User-selected 20×26 chibi still cast
+
+Current authorized task: establish an implementable chibi drawing framework and create one south/front idle still per requested character. Use large rounded heads, compact connected bodies, distinct body shapes and original character-specific silhouettes. No new animation or game integration is requested. Export shared/individual transparent native PNGs, palettes/editable sources, labeled native/enlarged lineups, annotations and measured validation. Final review remains the user's.
+
+The requested 102 roster is not present in the repository/history audit; clarification is pending. Continue framework and confirmed-cast drawings without inventing additional canon. See [CHARACTER_FRAMEWORK](CHARACTER_FRAMEWORK.md) and current [PROJECT_STATUS](PROJECT_STATUS.md).
+
 Established 2026-09-24. Scope: original Critz artwork and exploration conforming to measured Emerald-era conventions while retaining the playable game. [GAME_VISION.md](GAME_VISION.md) owns canon; [PROJECT_STATUS.md](PROJECT_STATUS.md) owns current state. No artwork or gameplay rewrite is authorized by M0.
 
 ## Execution and gates
@@ -134,4 +140,4 @@ Combined playable review includes the existing 11 scenes, native shared atlas, m
 
 Authorized 2026-09-27 after the user liked the concept characters: compare three representative designs at 16×32 and 24×32 with walking animations. Independently author each budget at native resolution, preserve identity/palette, show matched timing/scale and room context, and publish a separate review. The game retains its current artwork and saves. Final budget selection and final-art acceptance await the user's comparison; this task does not authorize applying the larger standard to the full roster.
 
-M1.C1 implementation and technical checks are complete. Comparison delivery is published; budget selection and art acceptance remain awaiting user review. The existing game keeps its current art until that choice.
+M1.C1 comparison delivery is complete. The user selected the larger 20×26 painted budget for the M1.C2 still-character pass. Final designs remain awaiting review; the existing game retains its current artwork during that design work.

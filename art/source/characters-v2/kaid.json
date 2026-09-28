@@ -1,0 +1,94 @@
+{
+  "id": "kaid",
+  "label": "Kaid",
+  "palette": {
+    "O": "#222b3a",
+    "D": "#356775",
+    "T": "#539ba6",
+    "C": "#86c5c8",
+    "H": "#c1e3db",
+    "W": "#f3ecd0",
+    "A": "#d88d29",
+    "G": "#edb54e",
+    "L": "#f4d17b",
+    "B": "#a96c30",
+    "N": "#314861",
+    "P": "#536c88",
+    "F": "#c7b994"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "....OOO....OOOOOO.......",
+    "...OHHCO..OHHHHHHO......",
+    "...OCHHCOOCTCCCCTO......",
+    "....OTCHHCCCHHHCTO......",
+    ".....OTCCCCCCCCTTOO.....",
+    ".....OHCCTCCCCCCOTCO....",
+    "....OHCCCCCCCCCCOTCHO...",
+    "....OHWLLLLLLLGGCO.CO...",
+    "....OHCLGOGGGOGGCO.CO...",
+    "....OTCLGOGGGOGGCO.CO...",
+    ".....OTGGGAGGGGATCTO....",
+    ".....OTAGGGGGGAATTO.....",
+    "......OTTAAAAAATTO......",
+    ".......ODTTTTTDO........",
+    ".......ODWWWWDO.........",
+    "......OWWWWWWWWO........",
+    ".....OLWWWWWWWWLO.......",
+    ".....OBOWWWWWWOBO.......",
+    ".....OBOFWWWWFOBO.......",
+    "......OONPPPPNOO........",
+    ".......ONNPPNNO.........",
+    ".......OGNOONGO.........",
+    ".......OWNOONWO.........",
+    "......OOPNOONPOO........",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "compact pitcher child",
+    "age": "child",
+    "headBounds": [
+      3,
+      7,
+      21,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "headHeight": 14,
+    "bodyHeight": 10,
+    "frame": [
+      24,
+      32
+    ],
+    "anchor": [
+      12,
+      32
+    ],
+    "signature": [
+      "rounded teal pitcher with amber contents",
+      "spout left / loop handle right",
+      "cream tee and navy shorts with connected legs"
+    ],
+    "changes": [
+      "shorter rounded vessel construction",
+      "two deliberate1\u00d72 eyes",
+      "pelvis and legs connected; former blank row removed"
+    ],
+    "identitySource": "docs/GAME_VISION.md",
+    "status": "awaiting-user-art-review",
+    "bodyBounds": [
+      5,
+      21,
+      17,
+      31
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  }
+}

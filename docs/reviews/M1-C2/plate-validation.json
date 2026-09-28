@@ -1,0 +1,351 @@
+{
+  "atlasSha256": "a4f7fb5b2b25e03f664fe7189d87c1b48f2e12089d1b41b63883618434cb297e",
+  "metadataSha256": "81d7c1f3b2b24c48c87e3af42c70a835843af58c4aa7fa3add34226241132aba",
+  "pillowVersion": "12.3.0",
+  "nativeCropCount": 12,
+  "nativeRgbaUnchanged": true,
+  "nativeChecks": [
+    {
+      "id": "character.v2.hero.boy.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "00a176dc7aceb3b07ce07bfcda303dfdc635959d22f85c88507d305eeb067c30"
+    },
+    {
+      "id": "character.v2.hero.girl.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "4ffd8b24c45fd00906035f940a29dd0e00bfee95e8a81b370f192649a08c299d"
+    },
+    {
+      "id": "character.v2.mom.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "7cd0820606f146924172eb5dbe7a7a93f267ba1f6ca9ac16e3e644efc97de942"
+    },
+    {
+      "id": "character.v2.kaid.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "4762284622c8a85efcf2ef66c7e9cc60883a5e869bed6e4f9a364465bb75d499"
+    },
+    {
+      "id": "character.v2.professor.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "2329ab839da63569f325589a68366db76679e4cd16a848e36b9778e588366675"
+    },
+    {
+      "id": "character.v2.juniper.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "3ce0d210a72dc6302e5ba042c0772c57cb31451d9c15051027b7c3ca4a7b2026"
+    },
+    {
+      "id": "character.v2.dr-fern.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "df54966186b760f1cae2ec41c375eac8be944b9fa789c4e46ac1e2de98fbaae5"
+    },
+    {
+      "id": "character.v2.mina.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "0f70b3fbdaab4617f79933c4e4d9b4007a894fcc94faaacc95212486859011da"
+    },
+    {
+      "id": "character.v2.ollie.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "8b9a16930c357da21e12b524fa977535ffadd129bd75af0edc275124fd6cc742"
+    },
+    {
+      "id": "character.v2.aunt-ember.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "8dbaa97cedb0ec317f01736bf8ab2e80ea9c902eebb37c906fe3d8322e3e70b5"
+    },
+    {
+      "id": "character.v2.rival-mom.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "741126a8c023db42e8fb717c24f0620b673852ce39b0e6dd93dae34dc4817307"
+    },
+    {
+      "id": "character.v2.rival-dad.south.idle",
+      "cropMatchesIndividualRgba": true,
+      "rgbaSha256": "e6ad7a6696567fe3dc01efcfc21af1579aeebc8fea547898d153b4f0e8bc8e81"
+    }
+  ],
+  "contact": {
+    "dimensions": [
+      720,
+      748
+    ],
+    "layout": [
+      4,
+      3
+    ],
+    "scale": 4,
+    "footAnchorRows": [
+      262,
+      468,
+      674
+    ]
+  },
+  "framework": {
+    "dimensions": [
+      900,
+      700
+    ],
+    "scale": 8,
+    "annotations": [
+      {
+        "id": "character.v2.hero.boy.south.idle",
+        "headBounds": [
+          3,
+          7,
+          21,
+          22
+        ],
+        "bodyBounds": [
+          6,
+          22,
+          18,
+          31
+        ],
+        "headBodyBoundaryRow": 22,
+        "paintableRegionXyxy": [
+          2,
+          5,
+          22,
+          31
+        ],
+        "storageXyxy": [
+          0,
+          0,
+          24,
+          32
+        ],
+        "shortStanceRows": [
+          28,
+          30
+        ],
+        "shortStanceNote": "Last 3 rows include any garment hem as well as legs and feet; not a measured anatomical limb length."
+      },
+      {
+        "id": "character.v2.mom.south.idle",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "bodyBounds": [
+          4,
+          21,
+          20,
+          31
+        ],
+        "headBodyBoundaryRow": 21,
+        "paintableRegionXyxy": [
+          2,
+          5,
+          22,
+          31
+        ],
+        "storageXyxy": [
+          0,
+          0,
+          24,
+          32
+        ],
+        "shortStanceRows": [
+          28,
+          30
+        ],
+        "shortStanceNote": "Last 3 rows include any garment hem as well as legs and feet; not a measured anatomical limb length."
+      },
+      {
+        "id": "character.v2.professor.south.idle",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "bodyBounds": [
+          3,
+          21,
+          22,
+          31
+        ],
+        "headBodyBoundaryRow": 21,
+        "paintableRegionXyxy": [
+          2,
+          5,
+          22,
+          31
+        ],
+        "storageXyxy": [
+          0,
+          0,
+          24,
+          32
+        ],
+        "shortStanceRows": [
+          28,
+          30
+        ],
+        "shortStanceNote": "Last 3 rows include any garment hem as well as legs and feet; not a measured anatomical limb length."
+      }
+    ]
+  },
+  "allOpaqueSpriteBlocksExact": true,
+  "integrityChecks": [
+    {
+      "plate": "contact",
+      "id": "character.v2.hero.boy.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 322,
+      "screenAnchor": [
+        102,
+        262
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.hero.girl.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 310,
+      "screenAnchor": [
+        274,
+        262
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.mom.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 379,
+      "screenAnchor": [
+        446,
+        262
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.kaid.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 293,
+      "screenAnchor": [
+        618,
+        262
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.professor.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 390,
+      "screenAnchor": [
+        102,
+        468
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.juniper.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 349,
+      "screenAnchor": [
+        274,
+        468
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.dr-fern.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 356,
+      "screenAnchor": [
+        446,
+        468
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.mina.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 306,
+      "screenAnchor": [
+        618,
+        468
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.ollie.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 369,
+      "screenAnchor": [
+        102,
+        674
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.aunt-ember.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 346,
+      "screenAnchor": [
+        274,
+        674
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.rival-mom.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 385,
+      "screenAnchor": [
+        446,
+        674
+      ]
+    },
+    {
+      "plate": "contact",
+      "id": "character.v2.rival-dad.south.idle",
+      "scale": 4,
+      "verifiedOpaqueBlocks": 366,
+      "screenAnchor": [
+        618,
+        674
+      ]
+    },
+    {
+      "plate": "framework",
+      "id": "character.v2.hero.boy.south.idle",
+      "scale": 8,
+      "verifiedOpaqueBlocks": 322,
+      "screenAnchor": [
+        144,
+        444
+      ]
+    },
+    {
+      "plate": "framework",
+      "id": "character.v2.mom.south.idle",
+      "scale": 8,
+      "verifiedOpaqueBlocks": 379,
+      "screenAnchor": [
+        436,
+        444
+      ]
+    },
+    {
+      "plate": "framework",
+      "id": "character.v2.professor.south.idle",
+      "scale": 8,
+      "verifiedOpaqueBlocks": 390,
+      "screenAnchor": [
+        728,
+        444
+      ]
+    }
+  ],
+  "guidesPaintedBeforeSprites": true,
+  "contactPngSha256": "9291f3e32f3b623ee78c30214bb6b434feca4235ecc8a2565e4616c09c4e198b",
+  "frameworkPngSha256": "decbd4c73bb6cccb2788d765aeb25c233ad91cc90ede260272137ee53b2a7059",
+  "sourceAssetsMutated": false,
+  "reviewStatus": "awaiting-user-art-review"
+}

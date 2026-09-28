@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#17383c">
+  <title>Critz — A little more character</title>
+  <link rel="icon" href="../icon.svg">
+  <link rel="stylesheet" href="characters.css">
+</head>
+<body>
+  <header><a class="brand" href="/">critz<span>✦</span><small>TYCOON</small></a><nav aria-label="Review navigation"><a href="budgets.html">Size comparison</a><a href="/">Play the game ↗</a></nav></header>
+  <main>
+    <section class="intro">
+      <div><p class="eyebrow">CHARACTER DESIGN · M1.C2</p><h1>A little more character.</h1><p class="lede">Big heads. Small bodies. A town full of personality.<br>Original still designs within a 20 × 26 pixel budget.</p></div>
+      <div class="budget-stamp"><strong>20 × 26</strong><span>MAXIMUM PAINTED SIZE</span><small>One pose · No animation</small></div>
+    </section>
+    <p id="roster-note" class="roster-note">The confirmed cast is being refined. The requested 102-character roster has not been located; its source/count is awaiting clarification.</p>
+    <section class="studio" aria-label="Character inspection">
+      <div class="portrait-panel">
+        <div class="panel-top"><span>UP CLOSE · EXACT 8×</span><label><input id="guides" type="checkbox" disabled> Pixel guides</label></div>
+        <div class="portrait-stage" id="portrait-stage"><canvas id="portrait" width="32" height="40" aria-label="Selected character enlarged eight times"></canvas></div>
+        <div class="backgrounds" aria-label="Portrait background"><button data-bg="dark" aria-pressed="true" disabled>Dark</button><button data-bg="paper" aria-pressed="false" disabled>Paper</button><button data-bg="green" aria-pressed="false" disabled>Grass</button></div>
+      </div>
+      <div class="character-detail">
+        <p class="eyebrow" id="character-kind">NATIVE CHARACTER STUDY</p><h2 id="character-name">Loading the cast…</h2><p id="character-design" class="design-copy"></p>
+        <dl class="measurements"><div><dt>Visible artwork</dt><dd id="ink-size">—</dd></div><div><dt>Native colors</dt><dd id="color-count">—</dd></div><div><dt>Head / body</dt><dd id="proportion">—</dd></div></dl>
+        <div id="palette" class="palette" aria-label="Selected character palette"></div>
+        <div class="room-label"><h3>At home in Rootport</h3><span>Same 16px world grid</span></div>
+        <div class="room-wrap"><canvas id="room" width="240" height="160" aria-label="Selected still character in the existing bedroom"></canvas></div>
+        <a id="download-character" class="download" href="#" download>Download this native PNG ↓</a>
+      </div>
+    </section>
+    <section class="cast-section" aria-labelledby="cast-heading"><div class="section-heading"><div><p class="eyebrow">EVERY SILHOUETTE HAS A NAME</p><h2 id="cast-heading">The confirmed cast</h2></div><p id="cast-count">Loading…</p></div><div id="cast" class="cast-grid"></div></section>
+    <section class="framework" aria-labelledby="framework-heading"><div class="section-heading"><div><p class="eyebrow">THE CHIBI FRAMEWORK</p><h2 id="framework-heading">More room. Still little.</h2></div><a href="../docs/CHARACTER_FRAMEWORK.md">Read the drawing framework ↗</a></div><div class="principles"><article><span>01</span><h3>Head first</h3><p>Rounded heads and clear faces take most of the silhouette. Hair and hats carry identity without hiding the expression.</p></article><article><span>02</span><h3>Short from the shoulders down</h3><p>Compact torsos, concealed necks and tiny connected legs keep the cast cute. Extra detail never becomes extra shin length.</p></article><article><span>03</span><h3>Shape makes the difference</h3><p>Round, broad, slim, petite and pear-shaped bodies share the same world. Each has its own hair, clothing construction and stance.</p></article></div></section>
+    <section class="handoff"><div><h2>One still frame each.</h2><p>These are original native character designs for your review. The game’s current artwork, animations and saved progress are unchanged. The Hero options remain player-named Black children and also support the opposite-gender rival.</p></div><div class="handoff-links"><a href="../assets/review/characters-v2/atlas.png" download>Shared PNG atlas ↓</a><a href="../docs/reviews/M1-C2/lineup-8x.png" download>Enlarged cast sheet ↓</a><a href="../docs/reviews/M1-C2/README.md">Sources and review notes ↗</a></div></section>
+    <p id="error" role="alert" hidden></p>
+  </main>
+  <footer>Original Critz character artwork · Budget selected; final designs awaiting your review</footer>
+  <script type="module" src="characters.js"></script>
+</body></html>

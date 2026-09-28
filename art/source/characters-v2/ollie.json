@@ -1,0 +1,121 @@
+{
+  "id": "ollie",
+  "label": "Ollie",
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "palette": {
+    "A": "#71b29f",
+    "C": "#408785",
+    "D": "#2d676d",
+    "H": "#544039",
+    "K": "#80534c",
+    "L": "#edc38d",
+    "M": "#d29a67",
+    "N": "#3d4657",
+    "O": "#24252f",
+    "P": "#9b8b68",
+    "Q": "#dd9b6b",
+    "R": "#b26b51",
+    "S": "#ab724e",
+    "T": "#c2aa7d",
+    "W": "#f0e5c5"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    ".........OOOOOO.........",
+    "........OQQQRRRO........",
+    "......OQQRRRRRRRO.......",
+    ".....OQQRRRRQQRRRRO.....",
+    "....OQQRRRRRRRRRRRRO....",
+    "...OORRRRRKKKKKKKKKOO...",
+    "..OOOOOOOOOOOOKKKKOOOO..",
+    "....OHLLMMMMMMMMMMHO....",
+    "....OHLLMMMMMMMMMMHO....",
+    "....OSLLMMMMMMMMMMSO....",
+    "....OSLMOMMMMOMMMMSO....",
+    "....OSLMOMMMMOMMMMSO....",
+    "....OSLMMMMMMMMMMMSO....",
+    ".....OSLMMMMMMMMSO......",
+    ".....OSMMMMSSMMMSO......",
+    "......OSSMMMMMMSSO......",
+    ".....OOWWSSMMSSWWOO.....",
+    "....OWWAAACCCCAAWWO.....",
+    "....ODWWWCCCCCCWWWDO....",
+    "....OSDDCCCCCCCCDDSO....",
+    "....OLMDDCCCCCCDDMLO....",
+    "....OSODDCCCCCCDDOSO....",
+    ".....OONPTTTTTTPNOO.....",
+    ".....ONTPPNONPPTNO......",
+    ".....ONNNNO.ONNNNO......",
+    "......OOOOO..OOOOO......",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "broad compact adult",
+    "headBounds": [
+      2,
+      5,
+      22,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "legsAndShoesRows": 3,
+    "distinctiveStructure": [
+      "low cap with projecting stepped brim",
+      "broad sports sleeves",
+      "wide cargo shorts and short planted stance"
+    ],
+    "identitySource": "src/world.js:30; Ollie is the Bike Shop keeper",
+    "designStatus": "proposed visual design",
+    "reviewNotes": "Rust cap contrasts sports teal; short cargo legs and broad shoulders carry adult body type.",
+    "bodyBounds": [
+      4,
+      21,
+      20,
+      31
+    ],
+    "eyeClusters": [
+      [
+        8,
+        15,
+        1,
+        2
+      ],
+      [
+        13,
+        15,
+        1,
+        2
+      ]
+    ],
+    "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+    "headHeight": 16,
+    "bodyHeight": 10,
+    "signature": [
+      "low cap with projecting stepped brim",
+      "broad sports sleeves",
+      "wide cargo shorts and short planted stance"
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "opaqueBBox": [
+    2,
+    5,
+    20,
+    26
+  ],
+  "colorCount": 15,
+  "sha256": "8b9a16930c357da21e12b524fa977535ffadd129bd75af0edc275124fd6cc742"
+}

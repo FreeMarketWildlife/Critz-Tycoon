@@ -1,0 +1,117 @@
+{
+  "id": "rival-dad",
+  "label": "Rival\u2019s dad",
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "palette": {
+    "A": "#a6b98d",
+    "C": "#75966e",
+    "D": "#4e725c",
+    "H": "#453638",
+    "J": "#6c5146",
+    "L": "#e7b587",
+    "M": "#c98d63",
+    "N": "#34405a",
+    "O": "#24252f",
+    "P": "#52657b",
+    "S": "#9f654a"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........OO..OOOO........",
+    "......OOJJOOJHHHOO......",
+    ".....OJJJJJHHHHHHHO.....",
+    "....OJJJHHHHHHHHHHHO....",
+    "...OJJHHHHHHHHHHHHHO....",
+    "...OHHHHHHHMMHHHHHHO....",
+    "...OHHLLLLMMMMMMHHHO....",
+    "....OHLLLLMMMMMMMMHO....",
+    "....OSLLLMMMMMMMMMSO....",
+    "....OSLLMMMMMMMMMMSO....",
+    "....OSLMOMMMMOMMMMSO....",
+    "....OSLMOMMMMOMMMMSO....",
+    "....OSLMMMMMMMMMMMSO....",
+    ".....OSMMMMSSMMMMSO.....",
+    ".....OSSMMMMMMMMSSO.....",
+    ".....OOCSSMMMMSSCOO.....",
+    "....OACAACCCCCCACAO.....",
+    "....ODCAACCCCCCCCDO.....",
+    "....OSDCCCCCCCCCCDSO....",
+    "....OLDCCCCCCCCCCDLO....",
+    "....OMDDDCCCCCCDDDMO....",
+    "....OODDDDDDDDDDDOO.....",
+    ".....ONPPPNNNNPPPNO.....",
+    "......ONNNNOONNNNO......",
+    "......OOOOO..OOOOO......",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "broad short adult",
+    "headBounds": [
+      3,
+      6,
+      20,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "legsAndShoesRows": 3,
+    "distinctiveStructure": [
+      "tidy uneven wavy hair crest",
+      "broad soft pullover shoulders and middle",
+      "wide tiny trouser stance"
+    ],
+    "identitySource": "src/world.js:126; unnamed rival parent",
+    "designStatus": "proposed visual design",
+    "reviewNotes": "Friendly face without a beard; fuller pullover hem and broad shoulders show adult shape without extending height.",
+    "bodyBounds": [
+      4,
+      21,
+      20,
+      31
+    ],
+    "eyeClusters": [
+      [
+        8,
+        16,
+        1,
+        2
+      ],
+      [
+        13,
+        16,
+        1,
+        2
+      ]
+    ],
+    "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+    "headHeight": 15,
+    "bodyHeight": 10,
+    "signature": [
+      "tidy uneven wavy hair crest",
+      "broad soft pullover shoulders and middle",
+      "wide tiny trouser stance"
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "opaqueBBox": [
+    3,
+    6,
+    17,
+    25
+  ],
+  "colorCount": 11,
+  "sha256": "e6ad7a6696567fe3dc01efcfc21af1579aeebc8fea547898d153b4f0e8bc8e81"
+}

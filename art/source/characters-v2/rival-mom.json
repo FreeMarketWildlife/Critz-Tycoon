@@ -1,0 +1,118 @@
+{
+  "id": "rival-mom",
+  "label": "Rival\u2019s mom",
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "palette": {
+    "A": "#e8b1a0",
+    "C": "#cd8985",
+    "D": "#995b69",
+    "H": "#623f3c",
+    "J": "#936052",
+    "L": "#f0c79b",
+    "M": "#d6a37a",
+    "N": "#4b3c58",
+    "O": "#24252f",
+    "P": "#796180",
+    "S": "#b57e5d",
+    "W": "#f0e5c5"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........OOOOOOOO........",
+    "......OOJJJHHHHHOO......",
+    ".....OJJJJHHHHHHHHO.....",
+    "....OJJJHHHHHHHHHHHO....",
+    "...OJJJHHHHHHHHHHHHO....",
+    "...OJHHHHHLLMMHHHHHHO...",
+    "...OHHHHHLLLMMMHHHHHO...",
+    "...OHHHLLLLMMMMMHHHHO...",
+    "...OHHLLLLMMMMMMHHHHO...",
+    "...OHLLLMMMMMMMMMHHHO...",
+    "...OHLMOMMMMOMMMMSHHO...",
+    "...OHLMOMMMMOMMMMSHHO...",
+    "...OHSLMMMMMMMMMMSHHO...",
+    "...OHHSMMMMSSMMSSHHHO...",
+    "...OHHHSSMMMMSSHHHHHO...",
+    "....OOCCWSSMMSWCCOO.....",
+    ".....OACCCWWWWCCCAO.....",
+    ".....OSCCCAACCCCCSO.....",
+    ".....OLCCCCCCCCCCLO.....",
+    ".....OMCDDDDDDDCDMO.....",
+    ".....OODNPPPPPPNDOO.....",
+    "....ONNPPPPNPPPPNNO.....",
+    ".....ONPPPPNNPPPPNO.....",
+    ".....ONNNNNOONNNNNO.....",
+    "......OOOOO..OOOOO......",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "soft pear adult",
+    "headBounds": [
+      3,
+      6,
+      21,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "legsAndShoesRows": 3,
+    "distinctiveStructure": [
+      "polished shoulder-length swept hair",
+      "rounded cream blouse collar",
+      "full short plum trousers with separated planted feet"
+    ],
+    "identitySource": "src/world.js:125; unnamed rival parent",
+    "designStatus": "proposed visual design",
+    "reviewNotes": "Hair down and a collar/trouser silhouette distinguish her from Mom and Juniper; no permanent name assigned.",
+    "bodyBounds": [
+      4,
+      21,
+      19,
+      31
+    ],
+    "eyeClusters": [
+      [
+        7,
+        16,
+        1,
+        2
+      ],
+      [
+        12,
+        16,
+        1,
+        2
+      ]
+    ],
+    "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+    "headHeight": 15,
+    "bodyHeight": 10,
+    "signature": [
+      "polished shoulder-length swept hair",
+      "rounded cream blouse collar",
+      "full short plum trousers with separated planted feet"
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "opaqueBBox": [
+    3,
+    6,
+    18,
+    25
+  ],
+  "colorCount": 12,
+  "sha256": "741126a8c023db42e8fb717c24f0620b673852ce39b0e6dd93dae34dc4817307"
+}

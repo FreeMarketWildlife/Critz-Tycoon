@@ -1,0 +1,119 @@
+{
+  "id": "dr-fern",
+  "label": "Dr. Fern",
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "palette": {
+    "A": "#b6c7b2",
+    "C": "#438a93",
+    "D": "#33636f",
+    "H": "#292c3e",
+    "J": "#45485b",
+    "L": "#e2ac79",
+    "M": "#c18057",
+    "N": "#2c4059",
+    "O": "#24252f",
+    "P": "#528b93",
+    "S": "#955640",
+    "V": "#c27080",
+    "W": "#f0e5c5"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........OOOOOOOO........",
+    "......OOJJHHHHHHOO......",
+    ".....OJJJHHHHHHHHHO.....",
+    "....OJJHHHHHHHHHHHHO....",
+    "...OJJHHHHHHHHHHHHHHO...",
+    "...OJHHHHHHHHHHHHHHHO...",
+    "...OHHHHHHHHHLMMHHHHO...",
+    "...OHHHHHHHLLMMMHHHHO...",
+    "...OHHHHLLLLMMMMHHHHO...",
+    "...OHHLLLLMMMMMMMHHHO...",
+    "...OHLMOMMMMOMMMSHHHO...",
+    "...OHLMOMMMMOMMMSHHHO...",
+    "....OSMMMMMMMMMMSHHO....",
+    ".....OHHSMMMSSMSHHHO....",
+    ".......OHSSMMSSHHOO.....",
+    ".....OOWWSSMMSWWOO......",
+    ".....OWWAWCCCWAWWO......",
+    ".....OWWAWACCWVWVO......",
+    ".....OSWAWCCCWAWVO......",
+    ".....OLWAWCCCWAWLO......",
+    ".....OMWAWCCCWAWMO......",
+    ".....OOWDWCCCDWDOO......",
+    ".......ONPPNNPPNO.......",
+    ".......ONNNOONNNO.......",
+    ".......OOOO..OOOO.......",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "slim adult",
+    "headBounds": [
+      3,
+      6,
+      21,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "legsAndShoesRows": 3,
+    "distinctiveStructure": [
+      "asymmetric rounded bob",
+      "short open coat and light lapels",
+      "narrow straight teal center"
+    ],
+    "identitySource": "src/world.js:30; Dr. Fern is the Vet keeper",
+    "designStatus": "proposed visual design",
+    "reviewNotes": "Dark bob silhouette, cream coat, turquoise clothing and small pink badge preserve reference identity.",
+    "bodyBounds": [
+      5,
+      21,
+      18,
+      31
+    ],
+    "eyeClusters": [
+      [
+        7,
+        16,
+        1,
+        2
+      ],
+      [
+        12,
+        16,
+        1,
+        2
+      ]
+    ],
+    "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+    "headHeight": 15,
+    "bodyHeight": 10,
+    "signature": [
+      "asymmetric rounded bob",
+      "short open coat and light lapels",
+      "narrow straight teal center"
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "opaqueBBox": [
+    3,
+    6,
+    18,
+    25
+  ],
+  "colorCount": 13,
+  "sha256": "df54966186b760f1cae2ec41c375eac8be944b9fa789c4e46ac1e2de98fbaae5"
+}

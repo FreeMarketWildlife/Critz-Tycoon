@@ -1,0 +1,307 @@
+{
+  "passed": true,
+  "checkCount": 34,
+  "checks": [
+    {
+      "character": "char.mom.south.idle",
+      "check": "frame_24x32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "max_20x26_window",
+      "passed": true,
+      "detail": {
+        "bbox": [
+          2,
+          5,
+          22,
+          31
+        ],
+        "size": [
+          20,
+          26
+        ]
+      }
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "feet_row30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "palette_15_or_less",
+      "passed": true,
+      "detail": {
+        "used": 15,
+        "defined": 15
+      }
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "binary_alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "no_empty_body_scanline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "nonempty_eyes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "connected_figure_8_neighbors",
+      "passed": true,
+      "detail": {
+        "components": [
+          379
+        ]
+      }
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "frame_24x32",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "max_20x26_window",
+      "passed": true,
+      "detail": {
+        "bbox": [
+          2,
+          5,
+          22,
+          31
+        ],
+        "size": [
+          20,
+          26
+        ]
+      }
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "feet_row30",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "anchor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "palette_15_or_less",
+      "passed": true,
+      "detail": {
+        "used": 14,
+        "defined": 15
+      }
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "binary_alpha",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "no_empty_body_scanline",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "nonempty_eyes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "connected_figure_8_neighbors",
+      "passed": true,
+      "detail": {
+        "components": [
+          390
+        ]
+      }
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "exact_single_south_idle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "rows_match_decoded_png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "two_clear_two_row_eyes",
+      "passed": true,
+      "detail": {
+        "eyeRows": [
+          16,
+          17
+        ],
+        "eyeColumns": [
+          9,
+          14
+        ]
+      }
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "body_ten_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "head_sixteen_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "two_grounded_shoes",
+      "passed": true,
+      "detail": {
+        "shoeGroups": [
+          [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          [
+            14,
+            15,
+            16,
+            17,
+            18
+          ]
+        ]
+      }
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "exact_4x_pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.mom.south.idle",
+      "check": "exact_8x_pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "exact_single_south_idle",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "rows_match_decoded_png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "two_clear_two_row_eyes",
+      "passed": true,
+      "detail": {
+        "eyeRows": [
+          15,
+          16
+        ],
+        "eyeColumns": [
+          8,
+          15
+        ]
+      }
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "body_ten_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "head_sixteen_rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "two_grounded_shoes",
+      "passed": true,
+      "detail": {
+        "shoeGroups": [
+          [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          [
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        ]
+      }
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "exact_4x_pixels",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "character": "char.nugget.south.idle",
+      "check": "exact_8x_pixels",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "notes": [
+    "Source rows and PNG output visually inspected on light and dark backgrounds at1\u00d7,4\u00d7 and8\u00d7.",
+    "Mom puffs underwent an additional silhouette revision after8\u00d7 inspection: wider flat tops, full rounded sides and dark inner joins replaced pointed appearance.",
+    "Nugget glasses were revised to separate pupils from rims; no added large nose cluster.",
+    "Technical validation does not constitute user art acceptance.",
+    "Original image-generation guide is stored separately; no guide pixels were downsampled or imported.",
+    "The only final pose is south-facing idle."
+  ]
+}

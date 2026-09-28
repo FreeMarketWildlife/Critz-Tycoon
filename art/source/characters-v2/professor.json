@@ -1,0 +1,118 @@
+{
+  "id": "professor",
+  "label": "Professor Nugget",
+  "palette": {
+    "O": "#282c30",
+    "D": "#596363",
+    "G": "#a0aaa7",
+    "H": "#d3d6c7",
+    "T": "#b3a178",
+    "L": "#ddcda0",
+    "B": "#827856",
+    "V": "#43563c",
+    "A": "#929f74",
+    "S": "#cf986d",
+    "F": "#efc38b",
+    "R": "#a76d4d",
+    "C": "#f1eacf",
+    "E": "#b9bba4",
+    "K": "#525442"
+  },
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "direction": "down",
+  "pose": "idle",
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "..........OOOOO.........",
+    "........OOLLLLTOO.......",
+    ".......OLLLLLLTTTO......",
+    "......OLLLLTTTTTTO......",
+    ".....OLLLTTTTTTTBBO.....",
+    "....OOVVVVVVVVVVVOOO....",
+    "..OOLLLTTTTTTTTTTBBBOO..",
+    "...OBBBBBBBBBBBBBBBBO...",
+    "....ODGGFFFFFFFFGGDO....",
+    "....OGGDDDFFFFDDDGDO....",
+    "....OGDFOFDDDDFOFDDO....",
+    "....ODDFOFDFSDFOFDDO....",
+    "....OGGDDDSSSSDDDGDO....",
+    "....ODGFFFSSSSSFFGDO....",
+    ".....ODGFFSSSSSSFGDO....",
+    "......OCCCSSSSSSCCCO....",
+    ".....OCCCCAAAAAACCCEO...",
+    "....OCCCCEAAAAAAECCEO...",
+    "...OCCCCCEAAAAAAVECCEO..",
+    "...OCCECCEAAAAAAVECCEO..",
+    "...OFSOECEAAAAAAVEOSRO..",
+    "....OSOECCEAAAAAVECSO...",
+    ".....OOCCCEAVVVVAECOO...",
+    "......OECCOVAAAVOCCEO...",
+    ".......OVKKKO..OKKVO....",
+    ".......OOOOOO..OOOOO....",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "sturdy-broad adult",
+    "headBounds": [
+      2,
+      5,
+      22,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "eyeRows": [
+      15,
+      16
+    ],
+    "eyeColumns": [
+      8,
+      15
+    ],
+    "feetRows": [
+      29,
+      30
+    ],
+    "silhouetteIntent": "Wide short cream coat, broad safari brim, round glasses with visible dark pupils and grey side hair; distinctly stockier than Mom.",
+    "changedFromM1C1": [
+      "Simplified glasses into separate readable lens shapes with dark pupils",
+      "Broadened short shoulders and coat",
+      "Lower-body stance limited to three rows",
+      "Retained wide brim and grey side-hair identity"
+    ],
+    "headHeight": 16,
+    "bodyHeight": 10,
+    "signature": "Wide short cream coat, broad safari brim, round glasses with visible dark pupils and grey side hair; distinctly stockier than Mom.",
+    "bodyBounds": [
+      3,
+      21,
+      22,
+      31
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "validation": {
+    "bbox": [
+      2,
+      5,
+      22,
+      31
+    ],
+    "opaquePixels": 390,
+    "opaqueColors": 14,
+    "rgbaSha256": "2329ab839da63569f325589a68366db76679e4cd16a848e36b9778e588366675",
+    "connectedComponents8": 1
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "passed": 90,
+  "characterCount": 12,
+  "checks": [
+    {
+      "name": "one still only; no animation metadata",
+      "pass": true
+    },
+    {
+      "name": "atlas dimensions agree with metadata",
+      "pass": true
+    },
+    {
+      "name": "12 unique native IDs for the confirmed cast",
+      "pass": true
+    },
+    {
+      "name": "Hero boy: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Hero boy: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Hero boy: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Hero boy: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Hero boy: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Hero boy: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Hero boy: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Hero girl: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Hero girl: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Hero girl: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Hero girl: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Hero girl: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Hero girl: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Hero girl: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Mom: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Mom: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Mom: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Mom: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Mom: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Mom: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Kaid: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Kaid: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Kaid: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Kaid: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Kaid: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Kaid: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Kaid: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Professor Nugget: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Professor Nugget: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Professor Nugget: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Professor Nugget: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Professor Nugget: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Professor Nugget: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Professor Nugget: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Juniper: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Juniper: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Juniper: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Juniper: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Juniper: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Juniper: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Juniper: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Dr. Fern: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Dr. Fern: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Dr. Fern: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Dr. Fern: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Dr. Fern: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Dr. Fern: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Dr. Fern: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Mina: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Mina: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Mina: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Mina: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Mina: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Mina: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Mina: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Ollie: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Ollie: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Ollie: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Ollie: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Ollie: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Ollie: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Ollie: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Aunt Ember: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Aunt Ember: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Aunt Ember: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Aunt Ember: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Aunt Ember: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Aunt Ember: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Aunt Ember: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s mom: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s mom: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s mom: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s mom: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s mom: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s mom: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s mom: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s dad: native PNG equals atlas crop",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s dad: frame in bounds without overlap",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s dad: binary transparent PNG",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s dad: measured budget and planted feet",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s dad: color count and exact decoded hash",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s dad: one connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "Rival\u2019s dad: every exported pixel equals editable source",
+      "pass": true
+    },
+    {
+      "name": "all12 drawings also have distinct silhouette masks",
+      "pass": true
+    },
+    {
+      "name": "lineup 4\u00d7 is exact nearest-neighbor enlargement",
+      "pass": true
+    },
+    {
+      "name": "lineup 8\u00d7 is exact nearest-neighbor enlargement",
+      "pass": true
+    }
+  ],
+  "measurements": [
+    {
+      "id": "hero.boy",
+      "visible": [
+        18,
+        24
+      ],
+      "colors": 12,
+      "headHeight": 15,
+      "bodyHeight": 9,
+      "connected": true
+    },
+    {
+      "id": "hero.girl",
+      "visible": [
+        20,
+        24
+      ],
+      "colors": 13,
+      "headHeight": 15,
+      "bodyHeight": 9,
+      "connected": true
+    },
+    {
+      "id": "mom",
+      "visible": [
+        20,
+        26
+      ],
+      "colors": 15,
+      "headHeight": 16,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "kaid",
+      "visible": [
+        18,
+        24
+      ],
+      "colors": 13,
+      "headHeight": 14,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "professor",
+      "visible": [
+        20,
+        26
+      ],
+      "colors": 14,
+      "headHeight": 16,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "juniper",
+      "visible": [
+        18,
+        26
+      ],
+      "colors": 12,
+      "headHeight": 16,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "dr-fern",
+      "visible": [
+        18,
+        25
+      ],
+      "colors": 13,
+      "headHeight": 15,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "mina",
+      "visible": [
+        16,
+        24
+      ],
+      "colors": 13,
+      "headHeight": 14,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "ollie",
+      "visible": [
+        20,
+        26
+      ],
+      "colors": 15,
+      "headHeight": 16,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "aunt-ember",
+      "visible": [
+        18,
+        26
+      ],
+      "colors": 14,
+      "headHeight": 16,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "rival-mom",
+      "visible": [
+        18,
+        25
+      ],
+      "colors": 12,
+      "headHeight": 15,
+      "bodyHeight": 10,
+      "connected": true
+    },
+    {
+      "id": "rival-dad",
+      "visible": [
+        17,
+        25
+      ],
+      "colors": 11,
+      "headHeight": 15,
+      "bodyHeight": 10,
+      "connected": true
+    }
+  ],
+  "atlasSha256": "a4f7fb5b2b25e03f664fe7189d87c1b48f2e12089d1b41b63883618434cb297e"
+}

@@ -1,0 +1,59 @@
+{
+  "status": "technical-checks-passed-art-awaiting-review",
+  "characterCount": 2,
+  "poseCountPerCharacter": 1,
+  "animationCount": 0,
+  "sourceType": "Individually hand-authored native indexed rows; generated guide was inspected, never resampled into assets.",
+  "characters": [
+    {
+      "id": "hero.boy",
+      "bbox": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "paintedSize": [
+        18,
+        24
+      ],
+      "opaqueColors": 12,
+      "paintedPixels": 322,
+      "connectedComponents": [
+        322
+      ],
+      "headRows": 15,
+      "bodyRows": 9,
+      "neckRows": 0,
+      "footRow": 30,
+      "binaryAlpha": true,
+      "exact4xAnd8x": true,
+      "sha256": "8346cc629fd63905760c80f618510414e84c8223bebdd8c0ee0ef7a41622de1c"
+    },
+    {
+      "id": "hero.girl",
+      "bbox": [
+        2,
+        7,
+        22,
+        31
+      ],
+      "paintedSize": [
+        20,
+        24
+      ],
+      "opaqueColors": 13,
+      "paintedPixels": 310,
+      "connectedComponents": [
+        310
+      ],
+      "headRows": 15,
+      "bodyRows": 9,
+      "neckRows": 0,
+      "footRow": 30,
+      "binaryAlpha": true,
+      "exact4xAnd8x": true,
+      "sha256": "83797be47deff0fe406c5eba37244c90c5fba80141979152b52d74441fc7d063"
+    }
+  ]
+}

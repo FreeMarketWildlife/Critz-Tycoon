@@ -1,0 +1,199 @@
+{
+  "status": "technical checks passed; user visual acceptance pending",
+  "characters": [
+    {
+      "id": "juniper",
+      "bounds": [
+        3,
+        5,
+        18,
+        26
+      ],
+      "colors": 12,
+      "baseline": 30,
+      "binaryAlpha": true,
+      "noEmptyBodyRows": true,
+      "single8ConnectedSilhouette": true,
+      "headBounds": [
+        3,
+        5,
+        18,
+        16
+      ],
+      "bodyBounds": [
+        3,
+        21,
+        17,
+        10
+      ],
+      "uniqueNativeHash": "3ce0d210a72dc6302e5ba042c0772c57cb31451d9c15051027b7c3ca4a7b2026"
+    },
+    {
+      "id": "dr-fern",
+      "bounds": [
+        3,
+        6,
+        18,
+        25
+      ],
+      "colors": 13,
+      "baseline": 30,
+      "binaryAlpha": true,
+      "noEmptyBodyRows": true,
+      "single8ConnectedSilhouette": true,
+      "headBounds": [
+        3,
+        6,
+        18,
+        15
+      ],
+      "bodyBounds": [
+        5,
+        21,
+        13,
+        10
+      ],
+      "uniqueNativeHash": "df54966186b760f1cae2ec41c375eac8be944b9fa789c4e46ac1e2de98fbaae5"
+    },
+    {
+      "id": "mina",
+      "bounds": [
+        4,
+        7,
+        16,
+        24
+      ],
+      "colors": 13,
+      "baseline": 30,
+      "binaryAlpha": true,
+      "noEmptyBodyRows": true,
+      "single8ConnectedSilhouette": true,
+      "headBounds": [
+        4,
+        7,
+        16,
+        14
+      ],
+      "bodyBounds": [
+        6,
+        21,
+        12,
+        10
+      ],
+      "uniqueNativeHash": "0f70b3fbdaab4617f79933c4e4d9b4007a894fcc94faaacc95212486859011da"
+    },
+    {
+      "id": "ollie",
+      "bounds": [
+        2,
+        5,
+        20,
+        26
+      ],
+      "colors": 15,
+      "baseline": 30,
+      "binaryAlpha": true,
+      "noEmptyBodyRows": true,
+      "single8ConnectedSilhouette": true,
+      "headBounds": [
+        2,
+        5,
+        20,
+        16
+      ],
+      "bodyBounds": [
+        4,
+        21,
+        16,
+        10
+      ],
+      "uniqueNativeHash": "8b9a16930c357da21e12b524fa977535ffadd129bd75af0edc275124fd6cc742"
+    },
+    {
+      "id": "aunt-ember",
+      "bounds": [
+        3,
+        5,
+        18,
+        26
+      ],
+      "colors": 14,
+      "baseline": 30,
+      "binaryAlpha": true,
+      "noEmptyBodyRows": true,
+      "single8ConnectedSilhouette": true,
+      "headBounds": [
+        3,
+        5,
+        18,
+        16
+      ],
+      "bodyBounds": [
+        5,
+        21,
+        14,
+        10
+      ],
+      "uniqueNativeHash": "8dbaa97cedb0ec317f01736bf8ab2e80ea9c902eebb37c906fe3d8322e3e70b5"
+    },
+    {
+      "id": "rival-mom",
+      "bounds": [
+        3,
+        6,
+        18,
+        25
+      ],
+      "colors": 12,
+      "baseline": 30,
+      "binaryAlpha": true,
+      "noEmptyBodyRows": true,
+      "single8ConnectedSilhouette": true,
+      "headBounds": [
+        3,
+        6,
+        18,
+        15
+      ],
+      "bodyBounds": [
+        4,
+        21,
+        15,
+        10
+      ],
+      "uniqueNativeHash": "741126a8c023db42e8fb717c24f0620b673852ce39b0e6dd93dae34dc4817307"
+    },
+    {
+      "id": "rival-dad",
+      "bounds": [
+        3,
+        6,
+        17,
+        25
+      ],
+      "colors": 11,
+      "baseline": 30,
+      "binaryAlpha": true,
+      "noEmptyBodyRows": true,
+      "single8ConnectedSilhouette": true,
+      "headBounds": [
+        3,
+        6,
+        17,
+        15
+      ],
+      "bodyBounds": [
+        4,
+        21,
+        16,
+        10
+      ],
+      "uniqueNativeHash": "e6ad7a6696567fe3dc01efcfc21af1579aeebc8fea547898d153b4f0e8bc8e81"
+    }
+  ],
+  "count": 7,
+  "uniqueFrameCount": 7,
+  "uniqueSilhouetteCount": 7,
+  "declaredEyesMatchPixels": true,
+  "transparentFinalRow": true
+}

@@ -1,0 +1,439 @@
+{
+  "passed": 108,
+  "characterCount": 12,
+  "checks": [
+    {
+      "name": "hero.boy: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "hero.boy:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "hero.girl:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "mom: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "mom: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "mom: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "mom: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "mom:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "mom: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "mom: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "mom: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "kaid: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "kaid: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "kaid: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "kaid: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "kaid:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "kaid: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "kaid: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "professor: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "professor: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "professor: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "professor: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "professor:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "professor: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "professor: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "professor: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "juniper: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "juniper: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "juniper: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "juniper: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "juniper:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "juniper: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "juniper: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "dr-fern:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "mina: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "mina: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "mina: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "mina: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "mina:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "mina: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "mina: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "mina: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "ollie: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "ollie: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "ollie: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "ollie: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "ollie:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "ollie: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "ollie: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "rival-mom:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: unique native drawing",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: unique character identity",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: full24×32 source rows",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: palette at most15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: all painted symbols resolve to valid palette colors",
+      "pass": true
+    },
+    {
+      "name": "rival-dad:20×26 budget and common idle baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: no detached body scanline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: annotated compact head/body construction",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: actual painted palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: unique native drawing",
+      "pass": true
+    }
+  ],
+  "atlasSha256": "a4f7fb5b2b25e03f664fe7189d87c1b48f2e12089d1b41b63883618434cb297e"
+}

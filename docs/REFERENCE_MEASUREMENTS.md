@@ -56,6 +56,8 @@ Sources: [sprite placement](https://github.com/pret/pokeemerald/blob/5eff78649e7
 
 ## Suggested Critz specification, all PROPOSED FOR CRITZ and unapproved
 
+**Historical proposal below:** M1.C2 subsequently records the user’s choice of a 20×26 maximum visible character budget and a new compact chibi still-art framework. See [CHARACTER_FRAMEWORK.md](CHARACTER_FRAMEWORK.md). Reference measurements above are unchanged; the new Critz proportions are design rules, not newly measured Emerald anatomy.
+
 These are M1 test constraints, not measurements of Emerald or finalized roster art. All main characters use a 16×32 transparent frame, frame-top-left (0,0), fixed ground anchor (8,32), idle last foot row 30, stride row 31, one 16×16 collision cell independent of painted silhouette. Pose exports should carry explicit left/right direction metadata; asymmetric designs may need twelve unique frames rather than blindly mirroring nine. Exact colors and semantic face pixels remain subject to lineup review.
 
 | Character | Proposed visible W×H south idle | Proposed head silhouette / body height | Proposed eye band | Proposed poses |

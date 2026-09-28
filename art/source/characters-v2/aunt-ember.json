@@ -1,0 +1,120 @@
+{
+  "id": "aunt-ember",
+  "label": "Aunt Ember",
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "palette": {
+    "A": "#e4b75b",
+    "C": "#c7933f",
+    "D": "#926b38",
+    "H": "#43313a",
+    "J": "#725042",
+    "L": "#cd945f",
+    "M": "#a66c48",
+    "N": "#35465d",
+    "O": "#24252f",
+    "P": "#637a90",
+    "S": "#79503e",
+    "T": "#e5a14e",
+    "V": "#bd6c40",
+    "W": "#c8d9dc"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    ".........OO..OO.........",
+    ".......OOJHOOHHO........",
+    ".......OJHHJHHHHO.......",
+    ".......OOJHHHHHOO.......",
+    ".......OOTTVVTTOO.......",
+    ".....OOJJHHHHHHHOO......",
+    "....OJJHHHHHHHHHHHO.....",
+    "....OJJHHHHHHHHHHHHO....",
+    "...OJHHJHHHHHHHHHHHO....",
+    "...OHHLLLMMMMHHHHHHO....",
+    "...OHLWWWWMMWWWWMMSHO...",
+    "...OHLWLOWWWWLOWMMSHO...",
+    "...OSLWWWWMMWWWWMMSHO...",
+    "....OSLMMMMMMMMMMSO.....",
+    ".....OSMMMMSSMMMSO......",
+    "......OSSMMMMMMSSO......",
+    ".....OOTCSSMMSSCTOO.....",
+    ".....OTAACNCCNCAATO.....",
+    ".....OTACNPPPPNCATO.....",
+    ".....OSDCNPPPPNCDSO.....",
+    ".....OLMCNPPPNNCMLO.....",
+    ".....OSONPPPPPPNOSO.....",
+    ".....OONPPNNPPPNOO......",
+    "......ONPPPNNPPPNO......",
+    "......ONNNNOONNNNO......",
+    "......OOOOO..OOOOO......",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "sturdy round adult",
+    "headBounds": [
+      3,
+      5,
+      21,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "legsAndShoesRows": 3,
+    "distinctiveStructure": [
+      "textured asymmetric tied bun",
+      "large protective goggles",
+      "wide short indigo apron and rolled mustard sleeves"
+    ],
+    "identitySource": "docs/GAME_VISION.md:45; src/world.js:30",
+    "designStatus": "proposed visual design",
+    "reviewNotes": "Warm dark skin and visible eyes under pale goggle rims; fuller apron and wide stance remain compact.",
+    "bodyBounds": [
+      5,
+      21,
+      19,
+      31
+    ],
+    "eyeClusters": [
+      [
+        8,
+        16,
+        1,
+        1
+      ],
+      [
+        14,
+        16,
+        1,
+        1
+      ]
+    ],
+    "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+    "headHeight": 16,
+    "bodyHeight": 10,
+    "signature": [
+      "textured asymmetric tied bun",
+      "large protective goggles",
+      "wide short indigo apron and rolled mustard sleeves"
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "opaqueBBox": [
+    3,
+    5,
+    18,
+    26
+  ],
+  "colorCount": 14,
+  "sha256": "8dbaa97cedb0ec317f01736bf8ab2e80ea9c902eebb37c906fe3d8322e3e70b5"
+}

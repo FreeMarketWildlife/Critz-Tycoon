@@ -1,0 +1,118 @@
+{
+  "id": "juniper",
+  "label": "Juniper",
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "palette": {
+    "A": "#75b2a3",
+    "C": "#438787",
+    "D": "#2d626e",
+    "H": "#443440",
+    "J": "#70505a",
+    "L": "#e8b88a",
+    "M": "#c88960",
+    "N": "#2c4059",
+    "O": "#24252f",
+    "P": "#53627a",
+    "S": "#9b5e46",
+    "W": "#f0e5c5"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    ".........OOOOOO.........",
+    "........OJJHHHHO........",
+    "........OJJHHHHO........",
+    ".......OOJHHHHHOO.......",
+    ".....OOJJHHHHHHHHOO.....",
+    "....OJJJHHHHHHHHHHHO....",
+    "...OJJHHHHHHHHHHHHHHO...",
+    "...OHHHHHHHHHHHHHHHHO...",
+    "...OHJJHHHMMHHHHHHHHO...",
+    "....OHLLMMMMMMMMHHHO....",
+    "....OSLMMMMMMMMMMSHO....",
+    "....OSLMOMMMMOMMMSHO....",
+    "....OSLMOMMMMOMMMSHO....",
+    ".....OSLMMMMMMMMMSO.....",
+    "......OSMMMSSMMMSO......",
+    ".......OSMMMMMMSO.......",
+    "......OOWWSMMSSWWO......",
+    ".....OWWWACCCCAWWWO.....",
+    "....OSWWCACCCCAWWSO.....",
+    "....OLWWCACCCCAWWLO.....",
+    "....OMODCDAAADCCDOMO....",
+    "...OSODCCCAACCCCDOSO....",
+    "....OODDDCCCCCCDDDOO....",
+    ".......ONPPNNPPNO.......",
+    ".......ONNNOONNNO.......",
+    ".......OOOO..OOOO.......",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "soft pear adult",
+    "headBounds": [
+      3,
+      5,
+      21,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "legsAndShoesRows": 3,
+    "distinctiveStructure": [
+      "round high bun",
+      "cream puff sleeves",
+      "apron widens at low hips with curved short hem"
+    ],
+    "identitySource": "src/world.js:30; Juniper is the Critz shopkeeper",
+    "designStatus": "proposed visual design",
+    "reviewNotes": "Bun and short pear apron distinguish silhouette; cream shoulder seams separate apron from face.",
+    "bodyBounds": [
+      3,
+      21,
+      20,
+      31
+    ],
+    "eyeClusters": [
+      [
+        8,
+        16,
+        1,
+        2
+      ],
+      [
+        13,
+        16,
+        1,
+        2
+      ]
+    ],
+    "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+    "headHeight": 16,
+    "bodyHeight": 10,
+    "signature": [
+      "round high bun",
+      "cream puff sleeves",
+      "apron widens at low hips with curved short hem"
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "opaqueBBox": [
+    3,
+    5,
+    18,
+    26
+  ],
+  "colorCount": 12,
+  "sha256": "3ce0d210a72dc6302e5ba042c0772c57cb31451d9c15051027b7c3ca4a7b2026"
+}

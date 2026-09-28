@@ -1,0 +1,118 @@
+{
+  "id": "mom",
+  "label": "Mom",
+  "palette": {
+    "O": "#24232e",
+    "H": "#34333f",
+    "J": "#4a4554",
+    "K": "#615767",
+    "S": "#754333",
+    "M": "#995b3c",
+    "L": "#bd7d4e",
+    "D": "#874d60",
+    "C": "#bb7081",
+    "A": "#e5a0a6",
+    "W": "#f2dfb6",
+    "V": "#e9b94f",
+    "N": "#29384e",
+    "P": "#495c78",
+    "E": "#11131d"
+  },
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "direction": "down",
+  "pose": "idle",
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "....OOOO........OOOO....",
+    "...OJJJJO......OJJJHO...",
+    "..OJKKJJHO....OJJJHHHO..",
+    "..OJKKJHHO....OJJHHHHO..",
+    "..OJJJJHHOOOOOOJJHHHHO..",
+    "..OHJJHHHOKKJJOHHHHHHO..",
+    "...OHHHHOKKJJJJOHHHHO...",
+    "....OOOOJJJHHJJJOOOO....",
+    ".....OHJJMMLLLLMJHHHO...",
+    ".....OHMMLLLLLLLLMHO....",
+    ".....OMMLLLLLLLLLMSO....",
+    ".....OMLLELLLLELLMSO....",
+    ".....VMLLELLLLELLMSV....",
+    ".....VMLLLLLLLLLMMSV....",
+    "......OMMLLLMLLMMSO.....",
+    ".......OSMMMMMMMSO......",
+    "......OACWWMMWWCAO......",
+    ".....OACACWWWWCACO......",
+    "....OACCACWWWWCACCDO....",
+    "....OACDCWWWWWWCDCDO....",
+    "....OLMDCWWWWWWCDMMO....",
+    "....OMSDCCNNNNCCDSMO....",
+    ".....OODCCNNNNCCDOO.....",
+    "......ONNPPNNNNPNNO.....",
+    "......OPPNNO.ONPNNO.....",
+    "......OOOOO...OOOOO.....",
+    "........................"
+  ],
+  "design": {
+    "bodyType": "soft-round adult",
+    "headBounds": [
+      2,
+      5,
+      22,
+      21
+    ],
+    "chinRow": 20,
+    "shoulderRow": 21,
+    "bodyRows": 10,
+    "eyeRows": [
+      16,
+      17
+    ],
+    "eyeColumns": [
+      9,
+      14
+    ],
+    "feetRows": [
+      29,
+      30
+    ],
+    "silhouetteIntent": "Cloud-round twin puffs, broad soft pink jacket, generous cheeks and short planted legs. Adult identity from clothes and posture.",
+    "changedFromM1C1": [
+      "Rounded puff silhouette and connected central hair crown",
+      "Widened soft jacket and relaxed hands without longer waist",
+      "Shortened visible legs to three rows",
+      "Rebuilt face cheeks and clear two-row eyes"
+    ],
+    "headHeight": 16,
+    "bodyHeight": 10,
+    "signature": "Cloud-round twin puffs, broad soft pink jacket, generous cheeks and short planted legs. Adult identity from clothes and posture.",
+    "bodyBounds": [
+      4,
+      21,
+      20,
+      31
+    ],
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "validation": {
+    "bbox": [
+      2,
+      5,
+      22,
+      31
+    ],
+    "opaquePixels": 379,
+    "opaqueColors": 15,
+    "rgbaSha256": "7cd0820606f146924172eb5dbe7a7a93f267ba1f6ca9ac16e3e644efc97de942",
+    "connectedComponents8": 1
+  }
+}

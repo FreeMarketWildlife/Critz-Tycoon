@@ -1,0 +1,217 @@
+{
+  "id": "hero.girl",
+  "label": "Hero girl",
+  "palette": {
+    "O": "#292532",
+    "E": "#11111a",
+    "H": "#352e35",
+    "J": "#55404a",
+    "S": "#633a35",
+    "M": "#905439",
+    "L": "#ba7c4e",
+    "D": "#9b4858",
+    "C": "#dd7979",
+    "A": "#f6a28b",
+    "N": "#2b3452",
+    "P": "#4a5578",
+    "W": "#eddfb5",
+    "V": "#ef9578"
+  },
+  "rows": [
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "........................",
+    "....OOOO........OOOO....",
+    "...OJJJHO......OJHHHO...",
+    "..OJJJJHHO....OJJHHHHO..",
+    "..OJJJHHHO....OJHHHHHO..",
+    "..OJJHHHHOOOOJJHHHHHHO..",
+    "..OJHHHHHJHHJJHHHHHHHO..",
+    "...OHHHHJHHHHHHHHHHHO...",
+    "....OHHVHHHHHHVHHHHO....",
+    ".....OHHMMLLLLMMHHO.....",
+    ".....OHMMLLLLLLMMSO.....",
+    ".....OMMLELLLLEMMSO.....",
+    "....OMMLLELLLLEMMSSO....",
+    "....OMMLLLMLMMMMMMSO....",
+    ".....OMMMMMMSMMMMSO.....",
+    ".......OMMMMMMMMO.......",
+    ".......OACCDCCACO.......",
+    ".......OCACCCCACO.......",
+    "......OCACCCCCCDCO......",
+    "......OLMDCCCCDMMO......",
+    "......OMSDCCCCDMSO......",
+    ".......ODCCCCCCDO.......",
+    "........ONNOONNO........",
+    "........OWO..OWO........",
+    "........OOO..OOO........",
+    "........................"
+  ],
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "design": {
+    "ageCategory": "ten-year-old Black child",
+    "identitySource": "G1",
+    "identityCues": "Twin rounded afro puffs with coral ties; coral tee, indigo shorts; close cream sneakers",
+    "bodyType": "compact child \u00b7 petite",
+    "headBounds": [
+      2,
+      7,
+      22,
+      22
+    ],
+    "headRows": 15,
+    "chinRow": 21,
+    "shoulderRow": 22,
+    "bodyBounds": [
+      6,
+      22,
+      18,
+      31
+    ],
+    "bodyRows": 9,
+    "neckRows": 0,
+    "torsoRows": [
+      22,
+      27
+    ],
+    "legsAndShoesRows": [
+      28,
+      30
+    ],
+    "eyeClusters": [
+      [
+        9,
+        17,
+        1,
+        2
+      ],
+      [
+        14,
+        17,
+        1,
+        2
+      ]
+    ],
+    "footBaseline": 30,
+    "headShareOfPaintedHeight": 0.625,
+    "status": "review-awaiting-user-acceptance",
+    "headHeight": 15,
+    "bodyHeight": 9,
+    "signature": "Twin rounded afro puffs with coral ties; coral tee, indigo shorts; close cream sneakers",
+    "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+  },
+  "layers": {
+    "head": {
+      "paletteKeys": [
+        "O",
+        "E",
+        "H",
+        "J",
+        "S",
+        "M",
+        "L",
+        "V"
+      ],
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "....OOOO........OOOO....",
+        "...OJJJHO......OJHHHO...",
+        "..OJJJJHHO....OJJHHHHO..",
+        "..OJJJHHHO....OJHHHHHO..",
+        "..OJJHHHHOOOOJJHHHHHHO..",
+        "..OJHHHHHJHHJJHHHHHHHO..",
+        "...OHHHHJHHHHHHHHHHHO...",
+        "....OHHVHHHHHHVHHHHO....",
+        ".....OHHMMLLLLMMHHO.....",
+        ".....OHMMLLLLLLMMSO.....",
+        ".....OMMLELLLLEMMSO.....",
+        "....OMMLLELLLLEMMSSO....",
+        "....OMMLLLMLMMMMMMSO....",
+        ".....OMMMMMMSMMMMSO.....",
+        ".......OMMMMMMMMO.......",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................"
+      ]
+    },
+    "body": {
+      "paletteKeys": [
+        "O",
+        "S",
+        "M",
+        "L",
+        "D",
+        "C",
+        "A",
+        "N",
+        "P",
+        "W"
+      ],
+      "rows": [
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        "........................",
+        ".......OACCDCCACO.......",
+        ".......OCACCCCACO.......",
+        "......OCACCCCCCDCO......",
+        "......OLMDCCCCDMMO......",
+        "......OMSDCCCCDMSO......",
+        ".......ODCCCCCCDO.......",
+        "........ONNOONNO........",
+        "........OWO..OWO........",
+        "........OOO..OOO........",
+        "........................"
+      ]
+    }
+  },
+  "intent": {
+    "hair": "Large rounded stepped clusters; upper-left selective highlight.",
+    "face": "Warm deep skin, broad cheeks and spaced near-black eyes; restrained one-pixel mouth.",
+    "clothing": "Short connected body under the head; compact silhouette distinguishes B1/G1 beyond color.",
+    "hands": "Skin-colored hands attach directly to sleeve edges.",
+    "legs": "Three short rows connect hips to planted cream shoes; no exposed shins."
+  }
+}

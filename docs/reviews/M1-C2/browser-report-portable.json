@@ -1,0 +1,3253 @@
+{
+  "url": "http://localhost:5181/art-review/characters.html",
+  "expectedCount": 12,
+  "startedAt": "2026-09-28T02:35:04.630Z",
+  "checks": [
+    {
+      "name": "all expected still designs load and every card selects correct details",
+      "status": "pass",
+      "details": [
+        {
+          "character": "hero.boy",
+          "label": "Hero boy",
+          "signature": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+          "bodyType": "compact child · relaxed"
+        },
+        {
+          "character": "hero.girl",
+          "label": "Hero girl",
+          "signature": "Twin rounded afro puffs with coral ties; coral tee, indigo shorts; close cream sneakers",
+          "bodyType": "compact child · petite"
+        },
+        {
+          "character": "mom",
+          "label": "Mom",
+          "signature": "Cloud-round twin puffs, broad soft pink jacket, generous cheeks and short planted legs. Adult identity from clothes and posture.",
+          "bodyType": "soft-round adult"
+        },
+        {
+          "character": "kaid",
+          "label": "Kaid",
+          "signature": "rounded teal pitcher with amber contents · spout left / loop handle right · cream tee and navy shorts with connected legs",
+          "bodyType": "compact pitcher child"
+        },
+        {
+          "character": "professor",
+          "label": "Professor Nugget",
+          "signature": "Wide short cream coat, broad safari brim, round glasses with visible dark pupils and grey side hair; distinctly stockier than Mom.",
+          "bodyType": "sturdy-broad adult"
+        },
+        {
+          "character": "juniper",
+          "label": "Juniper",
+          "signature": "round high bun · cream puff sleeves · apron widens at low hips with curved short hem",
+          "bodyType": "soft pear adult"
+        },
+        {
+          "character": "dr-fern",
+          "label": "Dr. Fern",
+          "signature": "asymmetric rounded bob · short open coat and light lapels · narrow straight teal center",
+          "bodyType": "slim adult"
+        },
+        {
+          "character": "mina",
+          "label": "Mina",
+          "signature": "tucked chin-length hair · small golden round glasses · narrow cropped cardigan with cream collar",
+          "bodyType": "petite slim adult"
+        },
+        {
+          "character": "ollie",
+          "label": "Ollie",
+          "signature": "low cap with projecting stepped brim · broad sports sleeves · wide cargo shorts and short planted stance",
+          "bodyType": "broad compact adult"
+        },
+        {
+          "character": "aunt-ember",
+          "label": "Aunt Ember",
+          "signature": "textured asymmetric tied bun · large protective goggles · wide short indigo apron and rolled mustard sleeves",
+          "bodyType": "sturdy round adult"
+        },
+        {
+          "character": "rival-mom",
+          "label": "Rival’s mom",
+          "signature": "polished shoulder-length swept hair · rounded cream blouse collar · full short plum trousers with separated planted feet",
+          "bodyType": "soft pear adult"
+        },
+        {
+          "character": "rival-dad",
+          "label": "Rival’s dad",
+          "signature": "tidy uneven wavy hair crest · broad soft pullover shoulders and middle · wide tiny trouser stance",
+          "bodyType": "broad short adult"
+        }
+      ]
+    },
+    {
+      "name": "portrait backgrounds switch and preserve still asset selection",
+      "status": "pass",
+      "details": {
+        "backgrounds": 3
+      }
+    },
+    {
+      "name": "pixel guides alter only inspection portrait and toggle reversibly",
+      "status": "pass"
+    },
+    {
+      "name": "native PNG downloads match checked-in bytes for every design",
+      "status": "pass",
+      "details": [
+        {
+          "character": "hero.boy",
+          "bytes": 311,
+          "sha256": "461c1dd4739ef7762667af79c0d2be4edb6d357ff467d1df6a9a68c6263445d8",
+          "suggestedFilename": "critz-hero.boy-24x32.png"
+        },
+        {
+          "character": "hero.girl",
+          "bytes": 328,
+          "sha256": "be863e1d0f383604be2c4b57a7ad76830e85fff656d359019eb1e7983e5848fb",
+          "suggestedFilename": "critz-hero.girl-24x32.png"
+        },
+        {
+          "character": "mom",
+          "bytes": 378,
+          "sha256": "bf840486904100c581662280c75b6157a91a0513e5952bf9fab439fb26459a31",
+          "suggestedFilename": "critz-mom-24x32.png"
+        },
+        {
+          "character": "kaid",
+          "bytes": 356,
+          "sha256": "3d01fb639286f61b395c9b6e3ffd87f74da1c2cf931ebab1cb9f69dc98d29e44",
+          "suggestedFilename": "critz-kaid-24x32.png"
+        },
+        {
+          "character": "professor",
+          "bytes": 373,
+          "sha256": "e093ad7e37394f4227035b23207588c499e662acc7e120cb5057be7fb5b27a09",
+          "suggestedFilename": "critz-professor-24x32.png"
+        },
+        {
+          "character": "juniper",
+          "bytes": 337,
+          "sha256": "5873cb6dcd8f83060bf84b4c757754cc88905042c17bc652474d67e3c3741942",
+          "suggestedFilename": "critz-juniper-24x32.png"
+        },
+        {
+          "character": "dr-fern",
+          "bytes": 320,
+          "sha256": "258cd8b276f02b5192acf86a2f079e8f19b779450242d0ae4fe17e5737ae47f0",
+          "suggestedFilename": "critz-dr-fern-24x32.png"
+        },
+        {
+          "character": "mina",
+          "bytes": 340,
+          "sha256": "c8b5ac6e6aed2f07ba590d7fb09fe69c17391b745060fd22d7cfe779e39ea310",
+          "suggestedFilename": "critz-mina-24x32.png"
+        },
+        {
+          "character": "ollie",
+          "bytes": 347,
+          "sha256": "8b3cd4511441cd71e3d57792f6aa3d8a046ecf64afd6b2c805689f6f67691e89",
+          "suggestedFilename": "critz-ollie-24x32.png"
+        },
+        {
+          "character": "aunt-ember",
+          "bytes": 345,
+          "sha256": "954e5e38f79fc5a6534311656ac38e1aed3855ae86b4dc3e3e941d930c09d28a",
+          "suggestedFilename": "critz-aunt-ember-24x32.png"
+        },
+        {
+          "character": "rival-mom",
+          "bytes": 329,
+          "sha256": "e1c3904ed91a878f906adbbbb0a4621c94f050474914eaf3e20e12d44bb0cab3",
+          "suggestedFilename": "critz-rival-mom-24x32.png"
+        },
+        {
+          "character": "rival-dad",
+          "bytes": 320,
+          "sha256": "9303b566ad1800ada9a577cb8a02e8ba7c7f6c494541fa1965c8ff7f3b6a3625",
+          "suggestedFilename": "critz-rival-dad-24x32.png"
+        }
+      ]
+    },
+    {
+      "name": "keyboard activation, focus indication and sequential tab reachability",
+      "status": "pass",
+      "details": {
+        "outline": {
+          "style": "solid",
+          "width": "3px"
+        },
+        "reached": [
+          {
+            "tag": "A",
+            "id": "",
+            "text": "critz✦TYCOON"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Size comparison"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Play the game ↗"
+          },
+          {
+            "tag": "INPUT",
+            "id": "guides",
+            "text": ""
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "bg": "dark",
+            "text": "Dark"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "bg": "paper",
+            "text": "Paper"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "bg": "green",
+            "text": "Grass"
+          },
+          {
+            "tag": "A",
+            "id": "download-character",
+            "text": "Download this native PNG ↓"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "hero.boy",
+            "text": "Hero boycompact child · relaxed"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "hero.girl",
+            "text": "Hero girlcompact child · petite"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "mom",
+            "text": "Momsoft-round adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "kaid",
+            "text": "Kaidcompact pitcher child"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "professor",
+            "text": "Professor Nuggetsturdy-broad adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "juniper",
+            "text": "Junipersoft pear adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "dr-fern",
+            "text": "Dr. Fernslim adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "mina",
+            "text": "Minapetite slim adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "ollie",
+            "text": "Olliebroad compact adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "aunt-ember",
+            "text": "Aunt Embersturdy round adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "rival-mom",
+            "text": "Rival’s momsoft pear adult"
+          },
+          {
+            "tag": "BUTTON",
+            "id": "",
+            "character": "rival-dad",
+            "text": "Rival’s dadbroad short adult"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Read the drawing framework ↗"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Shared PNG atlas ↓"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Enlarged cast sheet ↓"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Sources and review notes ↗"
+          },
+          {
+            "tag": "BODY",
+            "id": "",
+            "text": "critz✦TYCOONSize comparisonPlay the game ↗\n  \n    \n    "
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "critz✦TYCOON"
+          },
+          {
+            "tag": "A",
+            "id": "",
+            "text": "Size comparison"
+          }
+        ]
+      }
+    },
+    {
+      "name": "selected card and hover text retain accessible contrast",
+      "status": "pass",
+      "details": [
+        {
+          "tag": "STRONG",
+          "color": "rgb(241, 237, 218)",
+          "background": "rgb(33, 75, 73)",
+          "opacity": 1,
+          "contrast": 8.243518130259073
+        },
+        {
+          "tag": "SMALL",
+          "color": "rgb(241, 237, 218)",
+          "background": "rgb(33, 75, 73)",
+          "opacity": 0.8,
+          "contrast": 5.937561292224409
+        }
+      ]
+    },
+    {
+      "name": "responsive layout, labels and integer pixels 320x568",
+      "status": "pass",
+      "details": {
+        "pageWidth": 320,
+        "viewport": 320,
+        "canvases": [
+          {
+            "id": "portrait",
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "room",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "label": "critz✦TYCOON",
+            "left": 12,
+            "right": 82.75,
+            "width": 70.75,
+            "height": 32,
+            "tag": "A"
+          },
+          {
+            "label": "Size comparison",
+            "left": 149.640625,
+            "right": 221.578125,
+            "width": 71.9375,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Play the game ↗",
+            "left": 233.578125,
+            "right": 308,
+            "width": 74.421875,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "",
+            "left": 200.640625,
+            "right": 217.640625,
+            "width": 17,
+            "height": 17,
+            "tag": "INPUT"
+          },
+          {
+            "label": "Dark",
+            "left": 48.3125,
+            "right": 112.828125,
+            "width": 64.515625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Paper",
+            "left": 120.828125,
+            "right": 193.265625,
+            "width": 72.4375,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Grass",
+            "left": 201.265625,
+            "right": 271.671875,
+            "width": 70.40625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Download this native PNG ↓",
+            "left": 29,
+            "right": 180.625,
+            "width": 151.625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Inspect Hero boy",
+            "left": 12,
+            "right": 156,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Hero girl",
+            "left": 164,
+            "right": 308,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mom",
+            "left": 12,
+            "right": 156,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Kaid",
+            "left": 164,
+            "right": 308,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Professor Nugget",
+            "left": 12,
+            "right": 156,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Juniper",
+            "left": 164,
+            "right": 308,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Dr. Fern",
+            "left": 12,
+            "right": 156,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mina",
+            "left": 164,
+            "right": 308,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Ollie",
+            "left": 12,
+            "right": 156,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Aunt Ember",
+            "left": 164,
+            "right": 308,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s mom",
+            "left": 12,
+            "right": 156,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s dad",
+            "left": 164,
+            "right": 308,
+            "width": 144,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Read the drawing framework ↗",
+            "left": 12,
+            "right": 180.109375,
+            "width": 168.109375,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Shared PNG atlas ↓",
+            "left": 35,
+            "right": 285,
+            "width": 250,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Enlarged cast sheet ↓",
+            "left": 35,
+            "right": 285,
+            "width": 250,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Sources and review notes ↗",
+            "left": 35,
+            "right": 285,
+            "width": 250,
+            "height": 44,
+            "tag": "A"
+          }
+        ],
+        "labels": [
+          {
+            "text": "compact child · relaxed",
+            "scroll": 262,
+            "client": 262,
+            "left": 29,
+            "right": 291,
+            "parentLeft": 13,
+            "parentRight": 307
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 262,
+            "client": 262,
+            "left": 29,
+            "right": 291,
+            "parentLeft": 13,
+            "parentRight": 307
+          },
+          {
+            "text": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+            "scroll": 262,
+            "client": 262,
+            "left": 29,
+            "right": 291,
+            "parentLeft": 13,
+            "parentRight": 307
+          },
+          {
+            "text": "18 × 24 px",
+            "scroll": 83,
+            "client": 83,
+            "left": 29,
+            "right": 111.65625,
+            "parentLeft": 29,
+            "parentRight": 111.65625
+          },
+          {
+            "text": "12",
+            "scroll": 83,
+            "client": 83,
+            "left": 118.65625,
+            "right": 201.328125,
+            "parentLeft": 118.65625,
+            "parentRight": 201.328125
+          },
+          {
+            "text": "15 / 9 px",
+            "scroll": 83,
+            "client": 83,
+            "left": 208.328125,
+            "right": 291,
+            "parentLeft": 208.328125,
+            "parentRight": 291
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55,
+            "left": 56.46875,
+            "right": 111.515625,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106,
+            "left": 30.78125,
+            "right": 137.21875,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53,
+            "left": 209.5,
+            "right": 262.484375,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100,
+            "left": 185.9375,
+            "right": 286.0625,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28,
+            "left": 69.890625,
+            "right": 98.109375,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73,
+            "left": 47.640625,
+            "right": 120.359375,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26,
+            "left": 222.8125,
+            "right": 249.1875,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98,
+            "left": 186.828125,
+            "right": 285.15625,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103,
+            "left": 32.546875,
+            "right": 135.4375,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 42.296875,
+            "right": 125.703125,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47,
+            "left": 212.609375,
+            "right": 259.375,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 202.75,
+            "right": 269.234375,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49,
+            "left": 59.625,
+            "right": 108.375,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44,
+            "left": 61.8125,
+            "right": 106.1875,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28,
+            "left": 221.90625,
+            "right": 250.078125,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75,
+            "left": 198.671875,
+            "right": 273.3125,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28,
+            "left": 69.90625,
+            "right": 98.078125,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93,
+            "left": 37.375,
+            "right": 130.625,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72,
+            "left": 200.09375,
+            "right": 271.90625,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 194.5625,
+            "right": 277.421875,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73,
+            "left": 47.734375,
+            "right": 120.25,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 50.75,
+            "right": 117.234375,
+            "parentLeft": 12,
+            "parentRight": 156
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65,
+            "left": 203.578125,
+            "right": 268.421875,
+            "parentLeft": 164,
+            "parentRight": 308
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78,
+            "left": 197.1875,
+            "right": 274.796875,
+            "parentLeft": 164,
+            "parentRight": 308
+          }
+        ],
+        "selectedDesigns": [
+          {
+            "character": "hero.boy",
+            "label": "Hero boy"
+          },
+          {
+            "character": "hero.girl",
+            "label": "Hero girl"
+          },
+          {
+            "character": "mom",
+            "label": "Mom"
+          },
+          {
+            "character": "kaid",
+            "label": "Kaid"
+          },
+          {
+            "character": "professor",
+            "label": "Professor Nugget"
+          },
+          {
+            "character": "juniper",
+            "label": "Juniper"
+          },
+          {
+            "character": "dr-fern",
+            "label": "Dr. Fern"
+          },
+          {
+            "character": "mina",
+            "label": "Mina"
+          },
+          {
+            "character": "ollie",
+            "label": "Ollie"
+          },
+          {
+            "character": "aunt-ember",
+            "label": "Aunt Ember"
+          },
+          {
+            "character": "rival-mom",
+            "label": "Rival’s mom"
+          },
+          {
+            "character": "rival-dad",
+            "label": "Rival’s dad"
+          }
+        ]
+      }
+    },
+    {
+      "name": "responsive layout, labels and integer pixels 390x844",
+      "status": "pass",
+      "details": {
+        "pageWidth": 390,
+        "viewport": 390,
+        "canvases": [
+          {
+            "id": "portrait",
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "room",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "label": "critz✦TYCOON",
+            "left": 12,
+            "right": 82.75,
+            "width": 70.75,
+            "height": 32,
+            "tag": "A"
+          },
+          {
+            "label": "Size comparison",
+            "left": 219.640625,
+            "right": 291.578125,
+            "width": 71.9375,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Play the game ↗",
+            "left": 303.578125,
+            "right": 378,
+            "width": 74.421875,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "",
+            "left": 270.640625,
+            "right": 287.640625,
+            "width": 17,
+            "height": 17,
+            "tag": "INPUT"
+          },
+          {
+            "label": "Dark",
+            "left": 83.3125,
+            "right": 147.828125,
+            "width": 64.515625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Paper",
+            "left": 155.828125,
+            "right": 228.265625,
+            "width": 72.4375,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Grass",
+            "left": 236.265625,
+            "right": 306.671875,
+            "width": 70.40625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Download this native PNG ↓",
+            "left": 29,
+            "right": 180.625,
+            "width": 151.625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Inspect Hero boy",
+            "left": 12,
+            "right": 191,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Hero girl",
+            "left": 199,
+            "right": 378,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mom",
+            "left": 12,
+            "right": 191,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Kaid",
+            "left": 199,
+            "right": 378,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Professor Nugget",
+            "left": 12,
+            "right": 191,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Juniper",
+            "left": 199,
+            "right": 378,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Dr. Fern",
+            "left": 12,
+            "right": 191,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mina",
+            "left": 199,
+            "right": 378,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Ollie",
+            "left": 12,
+            "right": 191,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Aunt Ember",
+            "left": 199,
+            "right": 378,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s mom",
+            "left": 12,
+            "right": 191,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s dad",
+            "left": 199,
+            "right": 378,
+            "width": 179,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Read the drawing framework ↗",
+            "left": 12,
+            "right": 180.109375,
+            "width": 168.109375,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Shared PNG atlas ↓",
+            "left": 35,
+            "right": 355,
+            "width": 320,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Enlarged cast sheet ↓",
+            "left": 35,
+            "right": 355,
+            "width": 320,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Sources and review notes ↗",
+            "left": 35,
+            "right": 355,
+            "width": 320,
+            "height": 44,
+            "tag": "A"
+          }
+        ],
+        "labels": [
+          {
+            "text": "compact child · relaxed",
+            "scroll": 332,
+            "client": 332,
+            "left": 29,
+            "right": 361,
+            "parentLeft": 13,
+            "parentRight": 377
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 332,
+            "client": 332,
+            "left": 29,
+            "right": 361,
+            "parentLeft": 13,
+            "parentRight": 377
+          },
+          {
+            "text": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+            "scroll": 332,
+            "client": 332,
+            "left": 29,
+            "right": 361,
+            "parentLeft": 13,
+            "parentRight": 377
+          },
+          {
+            "text": "18 × 24 px",
+            "scroll": 106,
+            "client": 106,
+            "left": 29,
+            "right": 135,
+            "parentLeft": 29,
+            "parentRight": 135
+          },
+          {
+            "text": "12",
+            "scroll": 106,
+            "client": 106,
+            "left": 142,
+            "right": 248,
+            "parentLeft": 142,
+            "parentRight": 248
+          },
+          {
+            "text": "15 / 9 px",
+            "scroll": 106,
+            "client": 106,
+            "left": 255,
+            "right": 361,
+            "parentLeft": 255,
+            "parentRight": 361
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55,
+            "left": 73.96875,
+            "right": 129.015625,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106,
+            "left": 48.28125,
+            "right": 154.71875,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53,
+            "left": 262,
+            "right": 314.984375,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100,
+            "left": 238.4375,
+            "right": 338.5625,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28,
+            "left": 87.390625,
+            "right": 115.609375,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73,
+            "left": 65.140625,
+            "right": 137.859375,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26,
+            "left": 275.3125,
+            "right": 301.6875,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98,
+            "left": 239.328125,
+            "right": 337.65625,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103,
+            "left": 50.046875,
+            "right": 152.9375,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 59.796875,
+            "right": 143.203125,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47,
+            "left": 265.109375,
+            "right": 311.875,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 255.25,
+            "right": 321.734375,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49,
+            "left": 77.125,
+            "right": 125.875,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44,
+            "left": 79.3125,
+            "right": 123.6875,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28,
+            "left": 274.40625,
+            "right": 302.578125,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75,
+            "left": 251.171875,
+            "right": 325.8125,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28,
+            "left": 87.40625,
+            "right": 115.578125,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93,
+            "left": 54.875,
+            "right": 148.125,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72,
+            "left": 252.59375,
+            "right": 324.40625,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 247.0625,
+            "right": 329.921875,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73,
+            "left": 65.234375,
+            "right": 137.75,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 68.25,
+            "right": 134.734375,
+            "parentLeft": 12,
+            "parentRight": 191
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65,
+            "left": 256.078125,
+            "right": 320.921875,
+            "parentLeft": 199,
+            "parentRight": 378
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78,
+            "left": 249.6875,
+            "right": 327.296875,
+            "parentLeft": 199,
+            "parentRight": 378
+          }
+        ],
+        "selectedDesigns": [
+          {
+            "character": "hero.boy",
+            "label": "Hero boy"
+          },
+          {
+            "character": "hero.girl",
+            "label": "Hero girl"
+          },
+          {
+            "character": "mom",
+            "label": "Mom"
+          },
+          {
+            "character": "kaid",
+            "label": "Kaid"
+          },
+          {
+            "character": "professor",
+            "label": "Professor Nugget"
+          },
+          {
+            "character": "juniper",
+            "label": "Juniper"
+          },
+          {
+            "character": "dr-fern",
+            "label": "Dr. Fern"
+          },
+          {
+            "character": "mina",
+            "label": "Mina"
+          },
+          {
+            "character": "ollie",
+            "label": "Ollie"
+          },
+          {
+            "character": "aunt-ember",
+            "label": "Aunt Ember"
+          },
+          {
+            "character": "rival-mom",
+            "label": "Rival’s mom"
+          },
+          {
+            "character": "rival-dad",
+            "label": "Rival’s dad"
+          }
+        ]
+      }
+    },
+    {
+      "name": "responsive layout, labels and integer pixels 844x390",
+      "status": "pass",
+      "details": {
+        "pageWidth": 844,
+        "viewport": 844,
+        "canvases": [
+          {
+            "id": "portrait",
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "room",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "label": "critz✦TYCOON",
+            "left": 24,
+            "right": 178.734375,
+            "width": 154.734375,
+            "height": 38,
+            "tag": "A"
+          },
+          {
+            "label": "Size comparison",
+            "left": 605.953125,
+            "right": 699.46875,
+            "width": 93.515625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Play the game ↗",
+            "left": 723.46875,
+            "right": 820,
+            "width": 96.53125,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "",
+            "left": 276.9375,
+            "right": 293.9375,
+            "width": 17,
+            "height": 17,
+            "tag": "INPUT"
+          },
+          {
+            "label": "Dark",
+            "left": 91.46875,
+            "right": 155.984375,
+            "width": 64.515625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Paper",
+            "left": 163.984375,
+            "right": 236.421875,
+            "width": 72.4375,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Grass",
+            "left": 244.421875,
+            "right": 314.828125,
+            "width": 70.40625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Download this native PNG ↓",
+            "left": 402.296875,
+            "right": 553.921875,
+            "width": 151.625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Inspect Hero boy",
+            "left": 24,
+            "right": 214,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Hero girl",
+            "left": 226,
+            "right": 416,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mom",
+            "left": 428,
+            "right": 618,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Kaid",
+            "left": 630,
+            "right": 820,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Professor Nugget",
+            "left": 24,
+            "right": 214,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Juniper",
+            "left": 226,
+            "right": 416,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Dr. Fern",
+            "left": 428,
+            "right": 618,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mina",
+            "left": 630,
+            "right": 820,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Ollie",
+            "left": 24,
+            "right": 214,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Aunt Ember",
+            "left": 226,
+            "right": 416,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s mom",
+            "left": 428,
+            "right": 618,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s dad",
+            "left": 630,
+            "right": 820,
+            "width": 190,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Read the drawing framework ↗",
+            "left": 651.890625,
+            "right": 820,
+            "width": 168.109375,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Shared PNG atlas ↓",
+            "left": 499.828125,
+            "right": 788.984375,
+            "width": 289.15625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Enlarged cast sheet ↓",
+            "left": 499.828125,
+            "right": 788.984375,
+            "width": 289.15625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Sources and review notes ↗",
+            "left": 499.828125,
+            "right": 788.984375,
+            "width": 289.15625,
+            "height": 44,
+            "tag": "A"
+          }
+        ],
+        "labels": [
+          {
+            "text": "compact child · relaxed",
+            "scroll": 397,
+            "client": 397,
+            "left": 402.296875,
+            "right": 799,
+            "parentLeft": 382.296875,
+            "parentRight": 819
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 397,
+            "client": 397,
+            "left": 402.296875,
+            "right": 799,
+            "parentLeft": 382.296875,
+            "parentRight": 819
+          },
+          {
+            "text": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+            "scroll": 397,
+            "client": 397,
+            "left": 402.296875,
+            "right": 799,
+            "parentLeft": 382.296875,
+            "parentRight": 819
+          },
+          {
+            "text": "18 × 24 px",
+            "scroll": 124,
+            "client": 124,
+            "left": 402.296875,
+            "right": 525.859375,
+            "parentLeft": 402.296875,
+            "parentRight": 525.859375
+          },
+          {
+            "text": "12",
+            "scroll": 124,
+            "client": 124,
+            "left": 538.859375,
+            "right": 662.4375,
+            "parentLeft": 538.859375,
+            "parentRight": 662.4375
+          },
+          {
+            "text": "15 / 9 px",
+            "scroll": 124,
+            "client": 124,
+            "left": 675.4375,
+            "right": 799,
+            "parentLeft": 675.4375,
+            "parentRight": 799
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55,
+            "left": 91.46875,
+            "right": 146.515625,
+            "parentLeft": 24,
+            "parentRight": 214
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106,
+            "left": 65.78125,
+            "right": 172.21875,
+            "parentLeft": 24,
+            "parentRight": 214
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53,
+            "left": 294.5,
+            "right": 347.484375,
+            "parentLeft": 226,
+            "parentRight": 416
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100,
+            "left": 270.9375,
+            "right": 371.0625,
+            "parentLeft": 226,
+            "parentRight": 416
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28,
+            "left": 508.890625,
+            "right": 537.109375,
+            "parentLeft": 428,
+            "parentRight": 618
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73,
+            "left": 486.640625,
+            "right": 559.359375,
+            "parentLeft": 428,
+            "parentRight": 618
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26,
+            "left": 711.8125,
+            "right": 738.1875,
+            "parentLeft": 630,
+            "parentRight": 820
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98,
+            "left": 675.828125,
+            "right": 774.15625,
+            "parentLeft": 630,
+            "parentRight": 820
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103,
+            "left": 67.546875,
+            "right": 170.4375,
+            "parentLeft": 24,
+            "parentRight": 214
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 77.296875,
+            "right": 160.703125,
+            "parentLeft": 24,
+            "parentRight": 214
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47,
+            "left": 297.609375,
+            "right": 344.375,
+            "parentLeft": 226,
+            "parentRight": 416
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 287.75,
+            "right": 354.234375,
+            "parentLeft": 226,
+            "parentRight": 416
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49,
+            "left": 498.625,
+            "right": 547.375,
+            "parentLeft": 428,
+            "parentRight": 618
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44,
+            "left": 500.8125,
+            "right": 545.1875,
+            "parentLeft": 428,
+            "parentRight": 618
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28,
+            "left": 710.90625,
+            "right": 739.078125,
+            "parentLeft": 630,
+            "parentRight": 820
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75,
+            "left": 687.671875,
+            "right": 762.3125,
+            "parentLeft": 630,
+            "parentRight": 820
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28,
+            "left": 104.90625,
+            "right": 133.078125,
+            "parentLeft": 24,
+            "parentRight": 214
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93,
+            "left": 72.375,
+            "right": 165.625,
+            "parentLeft": 24,
+            "parentRight": 214
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72,
+            "left": 285.09375,
+            "right": 356.90625,
+            "parentLeft": 226,
+            "parentRight": 416
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 279.5625,
+            "right": 362.421875,
+            "parentLeft": 226,
+            "parentRight": 416
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73,
+            "left": 486.734375,
+            "right": 559.25,
+            "parentLeft": 428,
+            "parentRight": 618
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 489.75,
+            "right": 556.234375,
+            "parentLeft": 428,
+            "parentRight": 618
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65,
+            "left": 692.578125,
+            "right": 757.421875,
+            "parentLeft": 630,
+            "parentRight": 820
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78,
+            "left": 686.1875,
+            "right": 763.796875,
+            "parentLeft": 630,
+            "parentRight": 820
+          }
+        ],
+        "selectedDesigns": [
+          {
+            "character": "hero.boy",
+            "label": "Hero boy"
+          },
+          {
+            "character": "hero.girl",
+            "label": "Hero girl"
+          },
+          {
+            "character": "mom",
+            "label": "Mom"
+          },
+          {
+            "character": "kaid",
+            "label": "Kaid"
+          },
+          {
+            "character": "professor",
+            "label": "Professor Nugget"
+          },
+          {
+            "character": "juniper",
+            "label": "Juniper"
+          },
+          {
+            "character": "dr-fern",
+            "label": "Dr. Fern"
+          },
+          {
+            "character": "mina",
+            "label": "Mina"
+          },
+          {
+            "character": "ollie",
+            "label": "Ollie"
+          },
+          {
+            "character": "aunt-ember",
+            "label": "Aunt Ember"
+          },
+          {
+            "character": "rival-mom",
+            "label": "Rival’s mom"
+          },
+          {
+            "character": "rival-dad",
+            "label": "Rival’s dad"
+          }
+        ]
+      }
+    },
+    {
+      "name": "responsive layout, labels and integer pixels 1280x900",
+      "status": "pass",
+      "details": {
+        "pageWidth": 1280,
+        "viewport": 1280,
+        "canvases": [
+          {
+            "id": "portrait",
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "room",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              480,
+              320
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          },
+          {
+            "id": "",
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "rendering": "crisp-edges",
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "label": "critz✦TYCOON",
+            "left": 60,
+            "right": 214.734375,
+            "width": 154.734375,
+            "height": 38,
+            "tag": "A"
+          },
+          {
+            "label": "Size comparison",
+            "left": 1005.953125,
+            "right": 1099.46875,
+            "width": 93.515625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Play the game ↗",
+            "left": 1123.46875,
+            "right": 1220,
+            "width": 96.53125,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "",
+            "left": 470.734375,
+            "right": 487.734375,
+            "width": 17,
+            "height": 17,
+            "tag": "INPUT"
+          },
+          {
+            "label": "Dark",
+            "left": 209.359375,
+            "right": 273.875,
+            "width": 64.515625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Paper",
+            "left": 281.875,
+            "right": 354.3125,
+            "width": 72.4375,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Grass",
+            "left": 362.3125,
+            "right": 432.71875,
+            "width": 70.40625,
+            "height": 44,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Download this native PNG ↓",
+            "left": 612.09375,
+            "right": 763.71875,
+            "width": 151.625,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Inspect Hero boy",
+            "left": 60,
+            "right": 243.328125,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Hero girl",
+            "left": 255.328125,
+            "right": 438.65625,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mom",
+            "left": 450.65625,
+            "right": 633.984375,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Kaid",
+            "left": 645.984375,
+            "right": 829.328125,
+            "width": 183.34375,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Professor Nugget",
+            "left": 841.328125,
+            "right": 1024.65625,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Juniper",
+            "left": 1036.65625,
+            "right": 1219.984375,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Dr. Fern",
+            "left": 60,
+            "right": 243.328125,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Mina",
+            "left": 255.328125,
+            "right": 438.65625,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Ollie",
+            "left": 450.65625,
+            "right": 633.984375,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Aunt Ember",
+            "left": 645.984375,
+            "right": 829.328125,
+            "width": 183.34375,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s mom",
+            "left": 841.328125,
+            "right": 1024.65625,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Inspect Rival’s dad",
+            "left": 1036.65625,
+            "right": 1219.984375,
+            "width": 183.328125,
+            "height": 206.890625,
+            "tag": "BUTTON"
+          },
+          {
+            "label": "Read the drawing framework ↗",
+            "left": 1051.890625,
+            "right": 1220,
+            "width": 168.109375,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Shared PNG atlas ↓",
+            "left": 748.15625,
+            "right": 1188.984375,
+            "width": 440.828125,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Enlarged cast sheet ↓",
+            "left": 748.15625,
+            "right": 1188.984375,
+            "width": 440.828125,
+            "height": 44,
+            "tag": "A"
+          },
+          {
+            "label": "Sources and review notes ↗",
+            "left": 748.15625,
+            "right": 1188.984375,
+            "width": 440.828125,
+            "height": 44,
+            "tag": "A"
+          }
+        ],
+        "labels": [
+          {
+            "text": "compact child · relaxed",
+            "scroll": 577,
+            "client": 577,
+            "left": 612.09375,
+            "right": 1189,
+            "parentLeft": 582.09375,
+            "parentRight": 1219
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 577,
+            "client": 577,
+            "left": 612.09375,
+            "right": 1189,
+            "parentLeft": 582.09375,
+            "parentRight": 1219
+          },
+          {
+            "text": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+            "scroll": 577,
+            "client": 577,
+            "left": 612.09375,
+            "right": 1189,
+            "parentLeft": 582.09375,
+            "parentRight": 1219
+          },
+          {
+            "text": "18 × 24 px",
+            "scroll": 178,
+            "client": 178,
+            "left": 612.09375,
+            "right": 789.71875,
+            "parentLeft": 612.09375,
+            "parentRight": 789.71875
+          },
+          {
+            "text": "12",
+            "scroll": 178,
+            "client": 178,
+            "left": 811.71875,
+            "right": 989.359375,
+            "parentLeft": 811.71875,
+            "parentRight": 989.359375
+          },
+          {
+            "text": "15 / 9 px",
+            "scroll": 178,
+            "client": 178,
+            "left": 1011.359375,
+            "right": 1189,
+            "parentLeft": 1011.359375,
+            "parentRight": 1189
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55,
+            "left": 124.140625,
+            "right": 179.1875,
+            "parentLeft": 60,
+            "parentRight": 243.328125
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106,
+            "left": 98.4375,
+            "right": 204.875,
+            "parentLeft": 60,
+            "parentRight": 243.328125
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53,
+            "left": 320.5,
+            "right": 373.484375,
+            "parentLeft": 255.328125,
+            "parentRight": 438.65625
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100,
+            "left": 296.921875,
+            "right": 397.046875,
+            "parentLeft": 255.328125,
+            "parentRight": 438.65625
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28,
+            "left": 528.203125,
+            "right": 556.421875,
+            "parentLeft": 450.65625,
+            "parentRight": 633.984375
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73,
+            "left": 505.953125,
+            "right": 578.671875,
+            "parentLeft": 450.65625,
+            "parentRight": 633.984375
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26,
+            "left": 724.46875,
+            "right": 750.84375,
+            "parentLeft": 645.984375,
+            "parentRight": 829.328125
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98,
+            "left": 688.484375,
+            "right": 786.8125,
+            "parentLeft": 645.984375,
+            "parentRight": 829.328125
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103,
+            "left": 881.546875,
+            "right": 984.4375,
+            "parentLeft": 841.328125,
+            "parentRight": 1024.65625
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 891.28125,
+            "right": 974.6875,
+            "parentLeft": 841.328125,
+            "parentRight": 1024.65625
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47,
+            "left": 1104.9375,
+            "right": 1151.703125,
+            "parentLeft": 1036.65625,
+            "parentRight": 1219.984375
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 1095.078125,
+            "right": 1161.5625,
+            "parentLeft": 1036.65625,
+            "parentRight": 1219.984375
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49,
+            "left": 127.28125,
+            "right": 176.03125,
+            "parentLeft": 60,
+            "parentRight": 243.328125
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44,
+            "left": 129.46875,
+            "right": 173.84375,
+            "parentLeft": 60,
+            "parentRight": 243.328125
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28,
+            "left": 332.90625,
+            "right": 361.078125,
+            "parentLeft": 255.328125,
+            "parentRight": 438.65625
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75,
+            "left": 309.671875,
+            "right": 384.3125,
+            "parentLeft": 255.328125,
+            "parentRight": 438.65625
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28,
+            "left": 528.234375,
+            "right": 556.40625,
+            "parentLeft": 450.65625,
+            "parentRight": 633.984375
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93,
+            "left": 495.6875,
+            "right": 588.9375,
+            "parentLeft": 450.65625,
+            "parentRight": 633.984375
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72,
+            "left": 701.75,
+            "right": 773.5625,
+            "parentLeft": 645.984375,
+            "parentRight": 829.328125
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83,
+            "left": 696.21875,
+            "right": 779.078125,
+            "parentLeft": 645.984375,
+            "parentRight": 829.328125
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73,
+            "left": 896.734375,
+            "right": 969.25,
+            "parentLeft": 841.328125,
+            "parentRight": 1024.65625
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66,
+            "left": 899.75,
+            "right": 966.234375,
+            "parentLeft": 841.328125,
+            "parentRight": 1024.65625
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65,
+            "left": 1095.890625,
+            "right": 1160.734375,
+            "parentLeft": 1036.65625,
+            "parentRight": 1219.984375
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78,
+            "left": 1089.515625,
+            "right": 1167.125,
+            "parentLeft": 1036.65625,
+            "parentRight": 1219.984375
+          }
+        ],
+        "selectedDesigns": [
+          {
+            "character": "hero.boy",
+            "label": "Hero boy"
+          },
+          {
+            "character": "hero.girl",
+            "label": "Hero girl"
+          },
+          {
+            "character": "mom",
+            "label": "Mom"
+          },
+          {
+            "character": "kaid",
+            "label": "Kaid"
+          },
+          {
+            "character": "professor",
+            "label": "Professor Nugget"
+          },
+          {
+            "character": "juniper",
+            "label": "Juniper"
+          },
+          {
+            "character": "dr-fern",
+            "label": "Dr. Fern"
+          },
+          {
+            "character": "mina",
+            "label": "Mina"
+          },
+          {
+            "character": "ollie",
+            "label": "Ollie"
+          },
+          {
+            "character": "aunt-ember",
+            "label": "Aunt Ember"
+          },
+          {
+            "character": "rival-mom",
+            "label": "Rival’s mom"
+          },
+          {
+            "character": "rival-dad",
+            "label": "Rival’s dad"
+          }
+        ]
+      }
+    },
+    {
+      "name": "still canvases stay fixed without animation frames or CSS animation",
+      "status": "pass",
+      "details": {
+        "raf": 0,
+        "animations": 0
+      }
+    },
+    {
+      "name": "zero storage reads/writes, no gameplay imports and no runtime errors",
+      "status": "pass",
+      "details": {
+        "reads": 0,
+        "writes": 0,
+        "syntheticKeys": 3,
+        "pageErrors": [],
+        "requestCount": 11
+      }
+    },
+    {
+      "name": "touch review controls on isolated phone context",
+      "status": "pass",
+      "details": {
+        "touchControls": true,
+        "viewport": [
+          390,
+          844
+        ]
+      }
+    },
+    {
+      "name": "missing atlas.json reports failure and keeps controls disabled",
+      "status": "pass",
+      "details": {
+        "message": "The character artwork could not load. Reload to try again. Failed to fetch"
+      }
+    },
+    {
+      "name": "missing atlas.png reports failure and keeps controls disabled",
+      "status": "pass",
+      "details": {
+        "message": "The character artwork could not load. Reload to try again. The source image cannot be decoded."
+      }
+    }
+  ],
+  "screenshots": [
+    "test-results/characters/guides-desktop.png",
+    "test-results/characters/characters-320x568.png",
+    "test-results/characters/studio-320x568.png",
+    "test-results/characters/cast-320x568.png",
+    "test-results/characters/characters-390x844.png",
+    "test-results/characters/studio-390x844.png",
+    "test-results/characters/cast-390x844.png",
+    "test-results/characters/characters-844x390.png",
+    "test-results/characters/studio-844x390.png",
+    "test-results/characters/cast-844x390.png",
+    "test-results/characters/characters-1280x900.png",
+    "test-results/characters/studio-1280x900.png",
+    "test-results/characters/cast-1280x900.png",
+    "test-results/characters/touch-phone-studio.png",
+    "test-results/characters/failure-atlas.json.png",
+    "test-results/characters/failure-atlas.png.png"
+  ],
+  "finishedAt": "2026-09-28T02:35:22.491Z",
+  "passed": 15,
+  "failed": 0
+}
