@@ -1,0 +1,3271 @@
+{
+  "passed": 816,
+  "characterCount": 12,
+  "frameCount": 144,
+  "checks": [
+    {
+      "name": "hero.boy: identity",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: identity",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "mom: identity",
+      "pass": true
+    },
+    {
+      "name": "mom: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "mom: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "mom.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mom.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mom.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "kaid: identity",
+      "pass": true
+    },
+    {
+      "name": "kaid: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "kaid: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "kaid.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "kaid.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "professor: identity",
+      "pass": true
+    },
+    {
+      "name": "professor: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "professor: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "professor.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "professor.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "professor.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "juniper: identity",
+      "pass": true
+    },
+    {
+      "name": "juniper: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "juniper: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "juniper.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "juniper.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: identity",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "mina: identity",
+      "pass": true
+    },
+    {
+      "name": "mina: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "mina: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "mina.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "mina.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "mina.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "ollie: identity",
+      "pass": true
+    },
+    {
+      "name": "ollie: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "ollie: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "ollie.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "ollie.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: identity",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: identity",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: shared character palette",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: identity",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: original palette unchanged",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: front idle unchanged",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.idle: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.idle: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.idle: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.idle: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.idle: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideA: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideA: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideA: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideA: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideA: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideB: full native frame",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideB: 20x26 painted budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideB: stance baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideB: palette budget",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east.strideB: no detached body row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: shared character palette",
+      "pass": true
+    }
+  ]
+}

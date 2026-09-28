@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10292f"><title>Critz — The cast in motion</title>
+  <link rel="icon" href="../icon.svg"><link rel="stylesheet" href="characters.css"><link rel="stylesheet" href="walking.css">
+</head>
+<body>
+  <header><a class="brand" href="/">critz<span>✦</span><small>TYCOON</small></a><nav aria-label="Review navigation"><a href="characters.html">Still designs</a><a href="/">Play the game ↗</a></nav></header>
+  <main>
+    <div class="walk-heading"><div><p class="eyebrow">WALKING REVIEW · M1.C3</p><h1>The cast in motion.</h1><p class="lede">Twelve characters. Four directions. Small, deliberate steps.</p></div><a class="primary-link" href="../assets/review/characters-walk-v2/all-characters.gif" download>Download everyone’s GIF ↓</a></div>
+    <div class="playback" aria-label="Animation controls">
+      <div class="play-buttons"><button id="play" disabled>Pause</button><button id="step" disabled>Next pose</button></div>
+      <div class="directions" aria-label="Facing direction"><button data-direction="south" aria-pressed="true" disabled>↓ Down</button><button data-direction="west" aria-pressed="false" disabled>← Left</button><button data-direction="north" aria-pressed="false" disabled>↑ Up</button><button data-direction="east" aria-pressed="false" disabled>→ Right</button></div>
+      <label class="cycle-label"><input type="checkbox" id="cycle" checked disabled> Show all directions</label>
+    </div>
+    <section class="walk-studio" aria-label="Selected walking character">
+      <div class="portrait-panel"><div class="panel-top"><span>EXACT 8× PIXELS</span><span id="pose-label">Loading…</span></div><div class="portrait-stage" id="portrait-stage"><canvas id="portrait" width="32" height="40" aria-label="Selected character walking"></canvas></div><div class="backgrounds" aria-label="Portrait background"><button data-bg="dark" aria-pressed="true" disabled>Dark</button><button data-bg="paper" aria-pressed="false" disabled>Paper</button><button data-bg="green" aria-pressed="false" disabled>Grass</button></div></div>
+      <div class="character-detail"><p class="eyebrow" id="character-kind">COMPACT CHIBI WALK</p><h2 id="character-name">Loading the cast…</h2><p class="design-copy">Two alternating strides, with a passing pose between them. Heads stay round, bodies stay short, and the arms move opposite the feet.</p><div class="pose-strip" aria-label="Three native walking poses"><figure><canvas data-pose="strideA" width="24" height="32"></canvas><figcaption>First stride</figcaption></figure><figure><canvas data-pose="idle" width="24" height="32"></canvas><figcaption>Passing</figcaption></figure><figure><canvas data-pose="strideB" width="24" height="32"></canvas><figcaption>Other stride</figcaption></figure></div><p class="scale-note">The strip uses exact 3× pixels. All poses stay within 20×26 painted pixels.</p><div class="handoff-links"><a id="download-character" href="#" download>Download this character’s GIF ↓</a><a id="download-sheet" href="#" download>Download native PNG poses ↓</a></div></div>
+    </section>
+    <section class="cast-section" aria-labelledby="cast-heading"><div class="section-heading"><div><p class="eyebrow">WALKING TOGETHER</p><h2 id="cast-heading">Everyone, at the same scale.</h2></div><p>Choose a character to inspect</p></div><div id="cast" class="cast-grid"></div></section>
+    <section class="handoff"><div><h2>Original artwork, ready for review.</h2><p>All twelve current designs have four directional walk cycles. These animations are shown in place so you can compare each pose. The game’s current art and saved progress are unchanged; final visual acceptance remains yours.</p></div><div class="handoff-links"><a href="../assets/review/characters-walk-v2/all-characters.gif" download>All-character walking GIF ↓</a><a href="../assets/review/characters-walk-v2/atlas.png" download>Shared transparent PNG atlas ↓</a><a href="../docs/reviews/M1-C3/README.md">Artwork and timing notes ↗</a></div></section>
+    <p id="error" role="alert" hidden></p>
+  </main><footer>20×26 painted budget · Four directions · Walking animation review</footer>
+  <script type="module" src="walking.js"></script>
+</body></html>

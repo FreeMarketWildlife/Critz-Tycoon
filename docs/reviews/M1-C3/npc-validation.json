@@ -1,0 +1,758 @@
+{
+  "totalFrames": 48,
+  "characters": [
+    {
+      "id": "juniper",
+      "southIdleExact": true,
+      "paletteKeysOrderValuesExact": true,
+      "uniqueFrameCount": 12,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            3,
+            5,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 21
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 11,
+          "feetPixelDeltaVsBob": 20
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            3,
+            5,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 11,
+          "feetPixelDeltaVsBob": 21
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 20
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            5,
+            5,
+            14,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            5,
+            6,
+            14,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 15,
+          "feetPixelDeltaVsBob": 22
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            6,
+            14,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 10,
+          "feetPixelDeltaVsBob": 19
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            5,
+            5,
+            14,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            5,
+            6,
+            14,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 15,
+          "feetPixelDeltaVsBob": 22
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            6,
+            14,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 10,
+          "feetPixelDeltaVsBob": 19
+        }
+      ]
+    },
+    {
+      "id": "dr-fern",
+      "southIdleExact": true,
+      "paletteKeysOrderValuesExact": true,
+      "uniqueFrameCount": 12,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            3,
+            6,
+            18,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            7,
+            18,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 21
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            7,
+            18,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 20
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            3,
+            6,
+            18,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            7,
+            18,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 12,
+          "feetPixelDeltaVsBob": 21
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            7,
+            18,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 14,
+          "feetPixelDeltaVsBob": 20
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            5,
+            6,
+            14,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            5,
+            7,
+            14,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 22
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            7,
+            14,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 19
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            5,
+            6,
+            14,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            5,
+            7,
+            14,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 22
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            7,
+            14,
+            25
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 19
+        }
+      ]
+    },
+    {
+      "id": "mina",
+      "southIdleExact": true,
+      "paletteKeysOrderValuesExact": true,
+      "uniqueFrameCount": 12,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            4,
+            7,
+            16,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            4,
+            8,
+            16,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 15
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            4,
+            8,
+            16,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 15,
+          "feetPixelDeltaVsBob": 19
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            4,
+            7,
+            16,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            4,
+            8,
+            16,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 15
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            4,
+            8,
+            16,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 15,
+          "feetPixelDeltaVsBob": 19
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            5,
+            7,
+            13,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            5,
+            8,
+            13,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 14,
+          "feetPixelDeltaVsBob": 22
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            8,
+            13,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 9,
+          "feetPixelDeltaVsBob": 19
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            6,
+            7,
+            13,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            6,
+            8,
+            13,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 14,
+          "feetPixelDeltaVsBob": 22
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            6,
+            8,
+            13,
+            24
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 9,
+          "feetPixelDeltaVsBob": 19
+        }
+      ]
+    },
+    {
+      "id": "aunt-ember",
+      "southIdleExact": true,
+      "paletteKeysOrderValuesExact": true,
+      "uniqueFrameCount": 12,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            3,
+            5,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 25
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 15,
+          "feetPixelDeltaVsBob": 27
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            3,
+            5,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 13,
+          "feetPixelDeltaVsBob": 25
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            6,
+            18,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 14,
+          "feetPixelDeltaVsBob": 27
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            5,
+            5,
+            15,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            5,
+            6,
+            15,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 14,
+          "feetPixelDeltaVsBob": 23
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            6,
+            15,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 10,
+          "feetPixelDeltaVsBob": 24
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            4,
+            5,
+            15,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 0,
+          "feetPixelDeltaVsBob": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            4,
+            6,
+            15,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 14,
+          "feetPixelDeltaVsBob": 23
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            4,
+            6,
+            15,
+            26
+          ],
+          "binaryAlpha": true,
+          "single8ConnectedSilhouette": true,
+          "headGeometryStable": true,
+          "armTorsoPixelDeltaVsBob": 10,
+          "feetPixelDeltaVsBob": 24
+        }
+      ]
+    }
+  ],
+  "status": "Passed exact-source, geometry, connected-silhouette and genuine-gait pixel checks; user visual acceptance remains pending."
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "kaid",
+    "tool": "image_gen built-in",
+    "mode": "character-specific pose guide from supplied canonical reference",
+    "original": "/Users/tanoshi/.codex/generated_images/01a0e417-ea17-7b92-ab2e-1ac40c726da4/exec-b98f1a63-80a6-4e9b-9c54-4b301d2a13f0.png",
+    "guide": "kaid-first-guide-superseded.png",
+    "prompt": "kaid-prompt.txt",
+    "sha256": "ab7e82dbdae9672771ef9b27bfaf67f891d0d799cc13c35b1678fa002205dece",
+    "usage": "Historical guide only. Incorrect west/east handle visibility; not native asset authority.",
+    "status": "superseded: mistaken profile near-side projection in first prompt"
+  },
+  {
+    "id": "ollie",
+    "tool": "image_gen built-in",
+    "mode": "character-specific pose guide from supplied canonical reference",
+    "original": "/Users/tanoshi/.codex/generated_images/01a0e417-ea17-7b92-ab2e-1ac40c726da4/exec-1cd58149-0534-451e-9e55-07dc23fb4af2.png",
+    "guide": "ollie-pose-guide.png",
+    "prompt": "ollie-prompt.txt",
+    "sha256": "505bd1f10a1c23ecf81e8b92fcc67ad1341db43c4da72ae4c6597d0e1170e507",
+    "usage": "Guide only: no generated bitmap pixels copied to native frames."
+  },
+  {
+    "id": "rival-mom",
+    "tool": "image_gen built-in",
+    "mode": "character-specific pose guide from supplied canonical reference",
+    "original": "/Users/tanoshi/.codex/generated_images/01a0e417-ea17-7b92-ab2e-1ac40c726da4/exec-71064b28-12bd-41bf-b23d-818993015408.png",
+    "guide": "rival-mom-pose-guide.png",
+    "prompt": "rival-mom-prompt.txt",
+    "sha256": "15cced39f196098ba509613b65a1dab42f7575f68f9ab196fcd8e3f81685c2f3",
+    "usage": "Guide only: no generated bitmap pixels copied to native frames."
+  },
+  {
+    "id": "rival-dad",
+    "tool": "image_gen built-in",
+    "mode": "character-specific pose guide from supplied canonical reference",
+    "original": "/Users/tanoshi/.codex/generated_images/01a0e417-ea17-7b92-ab2e-1ac40c726da4/exec-8a0fa2f3-ffce-45f7-8f28-def5772df2cb.png",
+    "guide": "rival-dad-pose-guide.png",
+    "prompt": "rival-dad-prompt.txt",
+    "sha256": "9efb3392fb7cba36cd9a274bfc06ebb974f94db6506d5ff734ab4f1cf5d9355d",
+    "usage": "Guide only: no generated bitmap pixels copied to native frames."
+  },
+  {
+    "id": "kaid",
+    "revision": 2,
+    "tool": "image_gen built-in",
+    "mode": "corrected four-direction pose guide",
+    "original": "/Users/tanoshi/.codex/generated_images/01a0e417-ea17-7b92-ab2e-1ac40c726da4/exec-c9d0fb0d-9bb8-469e-9ff7-5ca803dae0a1.png",
+    "guide": "kaid-pose-guide.png",
+    "prompt": "kaid-corrected-prompt.txt",
+    "sha256": "26dc26b14cd05543a53e01f98b23632afe29170d36c0ebc0e9f48d6efd8364f6",
+    "status": "current guide; native assets separately authored",
+    "usage": "Correct overhead near side: west handle near, east spout near. No bitmap pixels copied."
+  }
+]

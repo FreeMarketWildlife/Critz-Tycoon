@@ -1,0 +1,3253 @@
+{
+  "task": "M1.C3",
+  "characters": 4,
+  "frames": 48,
+  "passed": 540,
+  "total": 540,
+  "sourceHashes": {
+    "kaid.json": "07db74929acb133285248537af8e7daf32955b0da2160a93f76297044417c3d5",
+    "ollie.json": "665f943179f48c620d6c208a7743555f1c9af75b56b3e6121df2bb4f19664717",
+    "rival-dad.json": "5cb0d70966e9a099071894a80b11ccc2553e91677e6c045ab9f72a170e582857",
+    "rival-mom.json": "fab2595b09bfae5e091e106831dc4fb830abdde99eaeb00028700f3d8d173234"
+  },
+  "checks": [
+    {
+      "name": "kaid-south-idle-exact",
+      "pass": true
+    },
+    {
+      "name": "kaid-palette-exact",
+      "pass": true
+    },
+    {
+      "name": "kaid-four-logical-directions",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        18,
+        24
+      ]
+    },
+    {
+      "name": "kaid-south-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-south-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        8,
+        18,
+        24
+      ]
+    },
+    {
+      "name": "kaid-south-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-south-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        8,
+        18,
+        24
+      ]
+    },
+    {
+      "name": "kaid-south-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-south-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-arm-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-foot-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        18,
+        24
+      ]
+    },
+    {
+      "name": "kaid-north-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-north-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        8,
+        18,
+        24
+      ]
+    },
+    {
+      "name": "kaid-north-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-north-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        8,
+        18,
+        24
+      ]
+    },
+    {
+      "name": "kaid-north-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-north-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-arm-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-foot-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        7,
+        15,
+        24
+      ]
+    },
+    {
+      "name": "kaid-west-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-west-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        8,
+        15,
+        24
+      ]
+    },
+    {
+      "name": "kaid-west-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-west-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        8,
+        15,
+        24
+      ]
+    },
+    {
+      "name": "kaid-west-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-west-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-arm-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-foot-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        7,
+        15,
+        24
+      ]
+    },
+    {
+      "name": "kaid-east-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-east-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        8,
+        15,
+        24
+      ]
+    },
+    {
+      "name": "kaid-east-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-east-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        8,
+        15,
+        24
+      ]
+    },
+    {
+      "name": "kaid-east-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "kaid-east-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-arm-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-foot-change",
+      "pass": true
+    },
+    {
+      "name": "kaid-4x-exact",
+      "pass": true
+    },
+    {
+      "name": "kaid-8x-exact",
+      "pass": true
+    },
+    {
+      "name": "kaid-idle-east-not-mirrored-west",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-idle-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            18,
+            14
+          ],
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-south-idle-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-idle-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            5,
+            14
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            5,
+            16
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-north-idle-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-idle-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            16,
+            14
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            16,
+            16
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-west-idle-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-idle-far-handle-occluded",
+      "pass": true
+    },
+    {
+      "name": "kaid-strideA-east-not-mirrored-west",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideA-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-south-strideA-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideA-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            5,
+            15
+          ],
+          [
+            5,
+            16
+          ],
+          [
+            5,
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-north-strideA-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideA-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            16,
+            15
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            16,
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-west-strideA-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideA-far-handle-occluded",
+      "pass": true
+    },
+    {
+      "name": "kaid-strideB-east-not-mirrored-west",
+      "pass": true
+    },
+    {
+      "name": "kaid-south-strideB-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            18,
+            15
+          ],
+          [
+            18,
+            16
+          ],
+          [
+            18,
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-south-strideB-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-north-strideB-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            5,
+            15
+          ],
+          [
+            5,
+            16
+          ],
+          [
+            5,
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-north-strideB-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-west-strideB-handle-open-loop",
+      "pass": true,
+      "detail": [
+        [
+          [
+            16,
+            15
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            16,
+            17
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "kaid-west-strideB-physical-handle-position",
+      "pass": true
+    },
+    {
+      "name": "kaid-east-strideB-far-handle-occluded",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-idle-exact",
+      "pass": true
+    },
+    {
+      "name": "ollie-palette-exact",
+      "pass": true
+    },
+    {
+      "name": "ollie-four-logical-directions",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        2,
+        5,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "ollie-south-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-south-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        2,
+        6,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "ollie-south-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-south-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        2,
+        6,
+        20,
+        26
+      ]
+    },
+    {
+      "name": "ollie-south-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-south-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-arm-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-south-foot-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        5,
+        16,
+        26
+      ]
+    },
+    {
+      "name": "ollie-north-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-north-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        6,
+        16,
+        26
+      ]
+    },
+    {
+      "name": "ollie-north-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-north-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        6,
+        16,
+        26
+      ]
+    },
+    {
+      "name": "ollie-north-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-north-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-arm-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-north-foot-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        5,
+        16,
+        26
+      ]
+    },
+    {
+      "name": "ollie-west-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-west-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        6,
+        15,
+        26
+      ]
+    },
+    {
+      "name": "ollie-west-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-west-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        6,
+        16,
+        26
+      ]
+    },
+    {
+      "name": "ollie-west-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-west-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-arm-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-west-foot-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        5,
+        16,
+        26
+      ]
+    },
+    {
+      "name": "ollie-east-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-east-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        6,
+        6,
+        15,
+        26
+      ]
+    },
+    {
+      "name": "ollie-east-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-east-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        6,
+        16,
+        26
+      ]
+    },
+    {
+      "name": "ollie-east-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "ollie-east-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-arm-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-east-foot-change",
+      "pass": true
+    },
+    {
+      "name": "ollie-4x-exact",
+      "pass": true
+    },
+    {
+      "name": "ollie-8x-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-idle-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-palette-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-four-logical-directions",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        6,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-south-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-south-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-south-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-south-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-south-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-south-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-south-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        6,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-north-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-north-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-north-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-north-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-north-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-north-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-north-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        6,
+        16,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-west-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-west-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        7,
+        16,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-west-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-west-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        7,
+        16,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-west-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-west-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-west-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        6,
+        16,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-east-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-east-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        7,
+        16,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-east-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-east-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        7,
+        16,
+        25
+      ]
+    },
+    {
+      "name": "rival-mom-east-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-mom-east-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-east-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-4x-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-mom-8x-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-idle-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-palette-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-four-logical-directions",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        6,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-south-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-south-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-south-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-south-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-south-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-south-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-south-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        6,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-north-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-north-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-north-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-north-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        3,
+        7,
+        17,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-north-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-north-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-north-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        6,
+        15,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-west-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-west-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        7,
+        15,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-west-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-west-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        4,
+        7,
+        15,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-west-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-west-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-west-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-three-distinct-poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-idle-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-idle-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        6,
+        15,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-east-idle-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-idle-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-east-idle-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-idle-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-idle-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-idle-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        7,
+        15,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-east-strideA-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-east-strideA-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideA-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-rows24x32",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-20x26-budget",
+      "pass": true,
+      "detail": [
+        5,
+        7,
+        15,
+        25
+      ]
+    },
+    {
+      "name": "rival-dad-east-strideB-foot-baseline",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-no-detached-pixels",
+      "pass": true,
+      "detail": 1
+    },
+    {
+      "name": "rival-dad-east-strideB-no-body-gap",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-palette-codes",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-png-matches-final-source",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-head-one-pixel-bob",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-strideB-articulated-not-shift-only",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-arm-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-east-foot-change",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-4x-exact",
+      "pass": true
+    },
+    {
+      "name": "rival-dad-8x-exact",
+      "pass": true
+    }
+  ],
+  "measurements": [
+    {
+      "id": "kaid-south-idle",
+      "bbox": [
+        3,
+        7,
+        18,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          18,
+          14,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-south-strideA",
+      "bbox": [
+        3,
+        8,
+        18,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          18,
+          15,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-south-strideB",
+      "bbox": [
+        3,
+        8,
+        18,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          18,
+          15,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-north-idle",
+      "bbox": [
+        3,
+        7,
+        18,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          5,
+          14,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-north-strideA",
+      "bbox": [
+        3,
+        8,
+        18,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          5,
+          15,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-north-strideB",
+      "bbox": [
+        3,
+        8,
+        18,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          5,
+          15,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-west-idle",
+      "bbox": [
+        4,
+        7,
+        15,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          16,
+          14,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-west-strideA",
+      "bbox": [
+        4,
+        8,
+        15,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          16,
+          15,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-west-strideB",
+      "bbox": [
+        4,
+        8,
+        15,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": [
+        [
+          16,
+          15,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "id": "kaid-east-idle",
+      "bbox": [
+        5,
+        7,
+        15,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "kaid-east-strideA",
+      "bbox": [
+        5,
+        8,
+        15,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "kaid-east-strideB",
+      "bbox": [
+        5,
+        8,
+        15,
+        24
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-south-idle",
+      "bbox": [
+        2,
+        5,
+        20,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-south-strideA",
+      "bbox": [
+        2,
+        6,
+        20,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-south-strideB",
+      "bbox": [
+        2,
+        6,
+        20,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-north-idle",
+      "bbox": [
+        4,
+        5,
+        16,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-north-strideA",
+      "bbox": [
+        4,
+        6,
+        16,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-north-strideB",
+      "bbox": [
+        4,
+        6,
+        16,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-west-idle",
+      "bbox": [
+        3,
+        5,
+        16,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-west-strideA",
+      "bbox": [
+        3,
+        6,
+        15,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-west-strideB",
+      "bbox": [
+        3,
+        6,
+        16,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-east-idle",
+      "bbox": [
+        5,
+        5,
+        16,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-east-strideA",
+      "bbox": [
+        6,
+        6,
+        15,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "ollie-east-strideB",
+      "bbox": [
+        5,
+        6,
+        16,
+        26
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-south-idle",
+      "bbox": [
+        3,
+        6,
+        18,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-south-strideA",
+      "bbox": [
+        3,
+        7,
+        18,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-south-strideB",
+      "bbox": [
+        3,
+        7,
+        18,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-north-idle",
+      "bbox": [
+        3,
+        6,
+        18,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-north-strideA",
+      "bbox": [
+        3,
+        7,
+        18,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-north-strideB",
+      "bbox": [
+        3,
+        7,
+        18,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-west-idle",
+      "bbox": [
+        4,
+        6,
+        16,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-west-strideA",
+      "bbox": [
+        4,
+        7,
+        16,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-west-strideB",
+      "bbox": [
+        4,
+        7,
+        16,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-east-idle",
+      "bbox": [
+        4,
+        6,
+        16,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-east-strideA",
+      "bbox": [
+        4,
+        7,
+        16,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-mom-east-strideB",
+      "bbox": [
+        4,
+        7,
+        16,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-south-idle",
+      "bbox": [
+        3,
+        6,
+        17,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-south-strideA",
+      "bbox": [
+        3,
+        7,
+        17,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-south-strideB",
+      "bbox": [
+        3,
+        7,
+        17,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-north-idle",
+      "bbox": [
+        3,
+        6,
+        17,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-north-strideA",
+      "bbox": [
+        3,
+        7,
+        17,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-north-strideB",
+      "bbox": [
+        3,
+        7,
+        17,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-west-idle",
+      "bbox": [
+        4,
+        6,
+        15,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-west-strideA",
+      "bbox": [
+        4,
+        7,
+        15,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-west-strideB",
+      "bbox": [
+        4,
+        7,
+        15,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-east-idle",
+      "bbox": [
+        5,
+        6,
+        15,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-east-strideA",
+      "bbox": [
+        5,
+        7,
+        15,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    },
+    {
+      "id": "rival-dad-east-strideB",
+      "bbox": [
+        5,
+        7,
+        15,
+        25
+      ],
+      "components8": 1,
+      "holeBounds": []
+    }
+  ],
+  "limitations": [
+    "Technical validation is not user animation approval.",
+    "Pose guides are generated design references only; native pixels are independently row-authored.",
+    "Walking source timing is pinned reference evidence, not emulator frame observation."
+  ]
+}

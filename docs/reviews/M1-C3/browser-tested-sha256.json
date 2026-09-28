@@ -1,0 +1,293 @@
+{
+  "status": "Final current source matches every downloaded GIF and character PNG after browser run",
+  "files": [
+    {
+      "path": "art-review/walking.html",
+      "bytes": 4380,
+      "sha256": "0d5c16afc8147a4ecf18d88ee223ed8815dd1a960c6e6875ea79748e0a8aaa48"
+    },
+    {
+      "path": "art-review/walking.css",
+      "bytes": 2182,
+      "sha256": "8293df44a9390903d4d4388b6e068a45ab2bd309372c081b3e6a56742eb8c95f"
+    },
+    {
+      "path": "art-review/characters.css",
+      "bytes": 7503,
+      "sha256": "94dd242f9d6943d0fa1e1612a30628c87cbdb787e7a79c9a733c37ab5edb065e"
+    },
+    {
+      "path": "art-review/walking.js",
+      "bytes": 5429,
+      "sha256": "f58e7bf0d4cbe2088b49b304cb9c0e87bd700ac8c310add8ad3dc1e815cfacbf"
+    },
+    {
+      "path": "art-review/walking-timing.js",
+      "bytes": 1430,
+      "sha256": "12b1ec57344c713557efbc92173e5eccdae5e703fe5902daec3b4ac71713fc87"
+    },
+    {
+      "path": "src/atlas.js",
+      "bytes": 1599,
+      "sha256": "b0a4049e7cab40a222a2d6712769aae367041924d965ca17636bc9d8d5b24231"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/atlas.json",
+      "bytes": 135509,
+      "sha256": "8120430e37e70891ae1116513419c2c04c790b9748a66aba07fd73627bf41d37"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/atlas.png",
+      "bytes": 14680,
+      "sha256": "2378d529cc3c3d814a092ba1b1bb72981cb9ffab66c66ef37d71ff36dabe0a71"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/all-characters.gif",
+      "bytes": 1396845,
+      "sha256": "069dbe036a8b8a9aa4ed4014303209b1dace4e916a72b636cd602d2ee4be70fa"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/hero.boy.gif",
+      "bytes": 153687,
+      "sha256": "ad0479c28bf02d1bdeff55800852a084453c7dde43f820d5b9072bf48100bb01"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/hero.boy.png",
+      "bytes": 1244,
+      "sha256": "9ae4fc8d501dddce0765e01c48bc33e06b3867464e50ed5bbd04b5d86d8597d7"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/hero.girl.gif",
+      "bytes": 158550,
+      "sha256": "0231132e7c11897ca59a9f822abe269df3c79c3ff9dda69b57ad7e617241ffab"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/hero.girl.png",
+      "bytes": 1258,
+      "sha256": "10b6fe0055ea92b943684ab82a0d599fe453394fec733ef862e55e590ea01e8c"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/mom.gif",
+      "bytes": 171501,
+      "sha256": "81dccfdf5990f742b2482eb0a74a5ff7b2be508aec1be72dc60dbdfe8b08ebe5"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/mom.png",
+      "bytes": 1547,
+      "sha256": "5976ebd7a2be8deade3a5b4388970bb6fc4fd1f8ddc689dc51bfba31030d9ee9"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/kaid.gif",
+      "bytes": 159990,
+      "sha256": "2f5cfd94aea1b964c4a5c0086ef7adc26dbeedc23802564b0de5470f5bbc0a93"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/kaid.png",
+      "bytes": 1282,
+      "sha256": "7398afbd664780f20c114b7b8cc85ca5b179829811d75e53ea751751a0f157ec"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/professor.gif",
+      "bytes": 182160,
+      "sha256": "80c35056a31d64ac3b7af6e045f79a10039df93a08838e3f05acb134331cfdcb"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/professor.png",
+      "bytes": 1490,
+      "sha256": "0ea8c50b7d5ff1245c62e376d4072fabfca382fede6b4113fd531f6a7ba979bc"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/juniper.gif",
+      "bytes": 157260,
+      "sha256": "c8a122e27dbf65b256dbdb890579f360c7bafd926fd1ee6ec507c34884515395"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/juniper.png",
+      "bytes": 1352,
+      "sha256": "fa6c9ad14c27fc775baf7371b59a126b7cf0d41b16df99f74c0deb11661ca211"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/dr-fern.gif",
+      "bytes": 155838,
+      "sha256": "54d41fd96f89c5abda0b47f3b19acf96cd496063fba23c10f6df179308cb98c6"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/dr-fern.png",
+      "bytes": 1317,
+      "sha256": "73fdd8827249e2c8880e1c84f337a736cbfce95e34d8f1232ba65f8e9fb0a5ea"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/mina.gif",
+      "bytes": 153555,
+      "sha256": "bab93208af17d1af650c72ae15deb77203104edd818cb1eedd2c6f18e5cba5b3"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/mina.png",
+      "bytes": 1256,
+      "sha256": "68cf8889fc818105b30e65b7c2373bc8e159b6d4ef2e4758db5187523142d6c1"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/ollie.gif",
+      "bytes": 158280,
+      "sha256": "a92da462361968641c2c36a818f173e664783a1de94e529abd9cf8712f49b2a5"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/ollie.png",
+      "bytes": 1310,
+      "sha256": "3b3f9a9976ae07ee8a09277405200939d9a0fbd5db3a42987726c9f0896ef99b"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/aunt-ember.gif",
+      "bytes": 168648,
+      "sha256": "4d03465ce0ffb8c8bddee7ffb0d26f618aca7d48bfc5f7a1dea2d09610c313b7"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/aunt-ember.png",
+      "bytes": 1351,
+      "sha256": "f6cbcad7b92fcdbe39153e6193af0f4029a523a09c0f43950003d72d3028230b"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/rival-mom.gif",
+      "bytes": 162159,
+      "sha256": "96c9cf93ec9343edbe64d1375b47baa9c1e24e516890b683a39c4ea3f85ee6c6"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/rival-mom.png",
+      "bytes": 1279,
+      "sha256": "aa83287c3779b250ffd91ad2d57350a8801266494106947d1f714f2fb2fd91a7"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/gifs/rival-dad.gif",
+      "bytes": 161028,
+      "sha256": "7007f4cda7ab48a5da61ab9d2ff997af0bfd071adf740a1efe524d4e37f74351"
+    },
+    {
+      "path": "assets/review/characters-walk-v2/sheets/rival-dad.png",
+      "bytes": 1241,
+      "sha256": "11886cd800c84b70a2f7e34904cee96fca32682a23bb63795ff31e4f1e4c994e"
+    }
+  ],
+  "downloadChecks": [
+    {
+      "character": "hero.boy",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "hero.boy",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "hero.girl",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "hero.girl",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "mom",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "mom",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "kaid",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "kaid",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "professor",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "professor",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "juniper",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "juniper",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "dr-fern",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "dr-fern",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "mina",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "mina",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "ollie",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "ollie",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "aunt-ember",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "aunt-ember",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "rival-mom",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "rival-mom",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "rival-dad",
+      "kind": "gif",
+      "downloadMatchesFinalSource": true
+    },
+    {
+      "character": "rival-dad",
+      "kind": "sheet",
+      "downloadMatchesFinalSource": true
+    }
+  ],
+  "fullCastGifMatches": true
+}

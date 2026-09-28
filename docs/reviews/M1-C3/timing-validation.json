@@ -1,0 +1,29 @@
+{
+  "passed": 6,
+  "checks": [
+    {
+      "name": "same 600 ticks across 30/60/90/120/144 Hz display schedules",
+      "pass": true
+    },
+    {
+      "name": "source-derived 8-tick holds and phase continuity",
+      "pass": true
+    },
+    {
+      "name": "three complete gaits per direction, exact loop",
+      "pass": true
+    },
+    {
+      "name": "pause/resume reset drops suspended time without changing phase",
+      "pass": true
+    },
+    {
+      "name": "long frames drop elapsed time rather than racing through artwork",
+      "pass": true
+    },
+    {
+      "name": "single pose stepping follows boundaries and restarts cleanly",
+      "pass": true
+    }
+  ]
+}

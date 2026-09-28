@@ -1,5 +1,7 @@
 # Critz: Tycoon — initial art bible
 
+**M1.C3 animation extension:** The user now requests walking cycles and GIFs for every current M1.C2 design. The [walking extension](CHARACTER_FRAMEWORK.md#m1c3-walking-extension) retains the 20×26 painted ceiling, compact anatomy, exact front-idle art and four explicit directions. This supersedes still-only scope for animation review; finished artwork remains awaiting user acceptance.
+
 **M1.C2 current character direction:** The user selected a 20×26 maximum visible budget and requested a new compact chibi framework, distinct body types and one still frame per character. [CHARACTER_FRAMEWORK.md](CHARACTER_FRAMEWORK.md) now governs this still-character design pass, superseding the earlier 16×32 character-production proposal for these new assets. Storage remains 24×32 with explicit anchors; the map grid stays 16×16. Final artwork acceptance is pending; budget selection alone does not approve the drawings.
 
 **2026-09-27 scope amendment:** The user explicitly authorized M1.I2 to complete the existing roster/environment art, directional walk/run sheets, playable integration and tile movement together without intermediate art approvals. Earlier staged restrictions below are historical and superseded for this deliverable. Technical/visual proposals remain provisional; final user acceptance is pending. The [playable-review record](reviews/M1-I2/README.md) documents actual asset extents, native rendering, limitations and checks. No world expansion is authorized.

@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C3 — Walking animations for the current cast
+
+The user authorizes animation of every delivered M1.C2 character. Produce original front/back/both-side walks, preserve the chibi framework and existing front idle pixels, and provide individual/full-cast GIFs plus a controllable review. Three poses per direction use source-derived 8-tick walk holds. This is an animation-review deliverable, not a gameplay replacement or new roster. Final visual acceptance remains the user’s.
+
 ## M1.C2 — User-selected 20×26 chibi still cast
 
 Current authorized task: establish an implementable chibi drawing framework and create one south/front idle still per requested character. Use large rounded heads, compact connected bodies, distinct body shapes and original character-specific silhouettes. No new animation or game integration is requested. Export shared/individual transparent native PNGs, palettes/editable sources, labeled native/enlarged lineups, annotations and measured validation. Final review remains the user's.

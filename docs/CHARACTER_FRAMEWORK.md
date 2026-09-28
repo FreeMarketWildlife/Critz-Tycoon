@@ -68,3 +68,9 @@ The requested count is **102**, but the current repository/history audit found *
 Technical checks establish usable files. The user retains final acceptance of the character designs and their charm. This assignment produces one still pose; walking, running and playable replacement are separate work.
 
 [View the annotated native construction plate](reviews/M1-C2/character-framework-annotated.png) · [Inspect the confirmed cast](reviews/M1-C2/character-still-contact-sheet.png).
+
+## M1.C3 walking extension
+
+The user subsequently requested walking for every delivered character. Keep each exact south idle and palette. Author north, west and east idle plus two distinct opposite strides in every direction. Store all twelve directional poses explicitly, including asymmetric designs; Kaid’s spout and handle retain their physical sides. Walking frames have the same 24×32 storage and at most 20×26 painted bounding box. Idle feet end on row 30; stride feet may end on row 31 with a one-pixel whole-head/body bob, so stride ink may occupy y=6…31. Do not enlarge the figure to achieve this movement. Keep connected hips, alternating short foot contacts, opposite arm swings and stable faces/accessories.
+
+The source-derived walk is stride A, idle/passing, stride B, idle/passing, each held eight ticks at `280896/16777216` seconds. A full gait lasts 32 ticks and spans two ordinary 16-tick tile steps in the game; this review displays the gait in place. GIF delays are rounded cumulatively to 10ms. Animation review does not approve the drawings or integrate them into the game.

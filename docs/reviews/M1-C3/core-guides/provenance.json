@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "guides": [
+    {
+      "id": "hero.boy",
+      "original": "/Users/tanoshi/.codex/generated_images/01a0e58e-ff03-7160-b981-21ee8be2c410/exec-579daca0-139b-4039-a715-e175a6b12cce.png",
+      "guide": "hero.boy-guide.png",
+      "prompt": "hero.boy-prompt.txt",
+      "reference": "assets/review/characters-v2/individual/hero.boy.png"
+    },
+    {
+      "id": "hero.girl",
+      "original": "/Users/tanoshi/.codex/generated_images/01a0e58e-ff03-7160-b981-21ee8be2c410/exec-e7a48e50-5025-4bae-8616-ca9df9da70f3.png",
+      "guide": "hero.girl-guide.png",
+      "prompt": "hero.girl-prompt.txt",
+      "reference": "assets/review/characters-v2/individual/hero.girl.png"
+    },
+    {
+      "id": "mom",
+      "original": "/Users/tanoshi/.codex/generated_images/01a0e58e-ff03-7160-b981-21ee8be2c410/exec-22c4a55d-461f-4ab3-868c-6fbe4fcc5b89.png",
+      "guide": "mom-guide.png",
+      "prompt": "mom-prompt.txt",
+      "reference": "assets/review/characters-v2/individual/mom.png"
+    },
+    {
+      "id": "professor",
+      "original": "/Users/tanoshi/.codex/generated_images/01a0e58e-ff03-7160-b981-21ee8be2c410/exec-012b4305-472d-4fbf-9e34-c3d241c41db7.png",
+      "guide": "professor-guide.png",
+      "prompt": "professor-prompt.txt",
+      "reference": "assets/review/characters-v2/individual/professor.png"
+    }
+  ],
+  "use": "Direction and gait construction guide only; generated pixels are not resampled or copied into native assets."
+}

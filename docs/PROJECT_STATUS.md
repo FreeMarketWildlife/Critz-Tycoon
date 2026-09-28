@@ -1,5 +1,19 @@
 # Project status
 
+## M1.C3 — All-cast directional walking review
+
+**Implementation and checks complete; publication in progress. Final visual acceptance awaits the user.** The user requests walking animations for each of the twelve delivered characters and a GIF showing everyone. This supersedes the prior still-only limitation for the animation task. Work is directly on `main`, clean baseline `4b5b62013d1ac800e9cbcafecb82a0f6d3d9d611`.
+
+Deliverable: **144 native frames** (12 characters × 4 directions × idle/two strides), one **288×384 shared PNG atlas**, twelve individual PNG sheets, **thirteen GIFs** (full cast plus one per character), and `/art-review/walking.html` with synchronized playback, pause, pose stepping, direction/background selection and downloads. Every M1.C2 south idle and original palette remains exact. All poses fit at most 20×26 painted pixels in 24×32 storage with anchor `[12,32]`. Idle feet end on row 30; strides use row 31 and a one-pixel compact bob. [Full-cast GIF](../assets/review/characters-walk-v2/all-characters.gif) · [Artwork, prompts and checks](reviews/M1-C3/README.md).
+
+Source-derived walk holds are stride A → idle → stride B → idle, eight fixed ticks each at `280896/16777216` seconds. The live review uses that clock; the GIF loops round cumulative holds to centiseconds and last 6430ms, within 0.801ms of 384 exact ticks. The review displays walking in place; it does not test new tile displacement or claim emulator-observed equivalence. Character asymmetries are explicit. Final inspection corrected Kaid’s profile near/far handle mapping, regenerated stale proofs, and fixed the GIF title glyph before delivery.
+
+Actual results: **816/816 native authoring checks**, **986/986 independent PNG checks**, **624/624 decoded GIF frames**, **6/6 fixed-clock checks**, and **14/14 browser checks pass**. All twelve figures/48 directional sequences, 192 rendered pose holds, all 25 GIF/PNG downloads, keyboard/touch, reduced-motion start, visibility/focus suspension, exact scales, ≥44px controls and failure UI were checked. 320×568 / 390×844 portrait, 844×390 landscape and 1280×900 desktop screenshots plus native/enlarged/animated proofs were inspected. Zero uncaught browser errors and zero storage access. [Browser report](reviews/M1-C3/browser-report.json) · [GIF report](reviews/M1-C3/gif-validation.json).
+
+**33 existing gameplay, playable-atlas and still-art files remain byte-identical** to the opening commit. Main game changes only its footer link; earlier reviews link to the walking page. Existing domain/story checks were not repeated because runtime inputs are unchanged. No new roster, running poses, playable replacement, collision or save changes were made. The earlier 102-character list remains unlocated; this delivery animates every currently delivered design. Physical iPhone/Safari was not tested. Technical checks do not replace user visual acceptance.
+
+Final commit/push/deployment evidence follows successful publication. **Exact next action:** publish this tested walking-review package, then the user inspects the GIFs/poses and gives visual feedback.
+
 ## M1.C2 — Compact 20×26 still-character framework
 
 **Framework and 12 confirmed-cast still designs complete; full requested 102-character set awaits its roster source. New artwork awaits user review.** The user selected the larger 20×26 visible budget, cute Emerald-inspired chibi construction, varied body types and one still pose each with no animations. This authorizes the new framework and character design work; it approves the direction, not unseen finished artwork.

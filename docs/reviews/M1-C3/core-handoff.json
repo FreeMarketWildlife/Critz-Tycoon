@@ -1,0 +1,54 @@
+[
+  {
+    "id": "hero.boy",
+    "widthRange": [
+      14,
+      18
+    ],
+    "heightRange": [
+      24,
+      24
+    ],
+    "maxOpaqueColors": 13,
+    "jsonSha256": "acf22563ace0e8ff8742c32bee0c94c3153356f60bee02c3ede84a8d8a2bf894"
+  },
+  {
+    "id": "hero.girl",
+    "widthRange": [
+      15,
+      20
+    ],
+    "heightRange": [
+      24,
+      24
+    ],
+    "maxOpaqueColors": 14,
+    "jsonSha256": "105392337891b88ef5a679fdefa6b8a0b69d32e7fe7d0575e81ea81db98f79e1"
+  },
+  {
+    "id": "mom",
+    "widthRange": [
+      17,
+      20
+    ],
+    "heightRange": [
+      26,
+      26
+    ],
+    "maxOpaqueColors": 15,
+    "jsonSha256": "cc318f6b12102a7ef5487590af2439935461f6177411acef64fc29291d80460e"
+  },
+  {
+    "id": "professor",
+    "widthRange": [
+      17,
+      20
+    ],
+    "heightRange": [
+      26,
+      26
+    ],
+    "maxOpaqueColors": 14,
+    "jsonSha256": "13f17f84223ad5b578268d72cd9110fa987e5ae179ef7d3a7c955d4f21cd21eb"
+  }
+]

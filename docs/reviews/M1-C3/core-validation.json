@@ -1,0 +1,1136 @@
+{
+  "characterCount": 4,
+  "framesPerCharacter": 12,
+  "totalFrames": 48,
+  "allSouthIdlesExact": true,
+  "allPalettesExact": true,
+  "frame": [
+    24,
+    32
+  ],
+  "anchor": [
+    12,
+    32
+  ],
+  "maxPaintedBudget": [
+    20,
+    26
+  ],
+  "footRows": {
+    "idle": 30,
+    "stride": 31
+  },
+  "fourNeighborConnected": true,
+  "eightNeighborConnected": true,
+  "nonTranslatedStrideProof": true,
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "proofColumns": [
+    "idle",
+    "strideA",
+    "strideB"
+  ],
+  "walkCycle": [
+    "strideA",
+    "idle",
+    "strideB",
+    "idle"
+  ],
+  "holdsTicks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "reviewStatus": "awaiting-user-art-review",
+  "characters": [
+    {
+      "id": "hero.boy",
+      "southIdleExact": true,
+      "paletteExact": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            3,
+            7,
+            21,
+            31
+          ],
+          "visibleSize": [
+            18,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            322
+          ],
+          "components8": [
+            322
+          ],
+          "rgbaSha256": "00a176dc7aceb3b07ce07bfcda303dfdc635959d22f85c88507d305eeb067c30"
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "visibleSize": [
+            18,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            318
+          ],
+          "components8": [
+            318
+          ],
+          "rgbaSha256": "31012f2ad47f87128ea2eb44a48f73599011d80c200ff8f617a168a015758db6"
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "visibleSize": [
+            18,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            318
+          ],
+          "components8": [
+            318
+          ],
+          "rgbaSha256": "1c76a5c4944d18be1e97c1f5c72c5adb991ff5eaf10919678fc1141fef8e4c77"
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            3,
+            7,
+            21,
+            31
+          ],
+          "visibleSize": [
+            18,
+            24
+          ],
+          "opaqueColors": 10,
+          "components4": [
+            322
+          ],
+          "components8": [
+            322
+          ],
+          "rgbaSha256": "24b50688c9e79d929af7692bd5dcdcab9fed5869cad96dd330a5acd5f832446a"
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "visibleSize": [
+            18,
+            24
+          ],
+          "opaqueColors": 11,
+          "components4": [
+            318
+          ],
+          "components8": [
+            318
+          ],
+          "rgbaSha256": "be7f3b0c1762337273d54d9f04408a365bdbdfe34d4c42f9fee55f4ea83b68b8"
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "visibleSize": [
+            18,
+            24
+          ],
+          "opaqueColors": 11,
+          "components4": [
+            318
+          ],
+          "components8": [
+            318
+          ],
+          "rgbaSha256": "40b46c24af5bd71d307af3bf883369f2a2ae131d998b0981bd61b83c1a7131ff"
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            4,
+            7,
+            18,
+            31
+          ],
+          "visibleSize": [
+            14,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            246
+          ],
+          "components8": [
+            246
+          ],
+          "rgbaSha256": "d8f3f03493c88d8c5bb9d5469188a4cd6fb35451fd0f7970a9f28980ea565297"
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            4,
+            8,
+            18,
+            32
+          ],
+          "visibleSize": [
+            14,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            249
+          ],
+          "components8": [
+            249
+          ],
+          "rgbaSha256": "77c8bd0b09713b654f2f307fec2f0158bcdfe2dba3267aa1e68e1e5994e71090"
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            4,
+            8,
+            19,
+            32
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            248
+          ],
+          "components8": [
+            248
+          ],
+          "rgbaSha256": "e5e3f18c0064298a4e8411735ef3e3c841a82f6c887f9280ff0fb541ecadceaa"
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            6,
+            7,
+            20,
+            31
+          ],
+          "visibleSize": [
+            14,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            246
+          ],
+          "components8": [
+            246
+          ],
+          "rgbaSha256": "1b05aa090dd2060ccb02e5bcdcf67f91ceab3cb6b579d03091ca9c1210eeb10a"
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            6,
+            8,
+            20,
+            32
+          ],
+          "visibleSize": [
+            14,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            249
+          ],
+          "components8": [
+            249
+          ],
+          "rgbaSha256": "48d3c4450b295b479d5940868092c8bf27662a4504afb309c681c088acd18ca4"
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            8,
+            20,
+            32
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            248
+          ],
+          "components8": [
+            248
+          ],
+          "rgbaSha256": "ccd99bef3f7d877cb5b787dc15d7d785711eb23d797b2443dbe9fcb6ab914076"
+        }
+      ]
+    },
+    {
+      "id": "hero.girl",
+      "southIdleExact": true,
+      "paletteExact": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            2,
+            7,
+            22,
+            31
+          ],
+          "visibleSize": [
+            20,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            310
+          ],
+          "components8": [
+            310
+          ],
+          "rgbaSha256": "4ffd8b24c45fd00906035f940a29dd0e00bfee95e8a81b370f192649a08c299d"
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            24
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            309
+          ],
+          "components8": [
+            309
+          ],
+          "rgbaSha256": "3934659e8b442a20a0ce48e442891a9e2979b03dfbf72e89553daa50d39e41a4"
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            24
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            309
+          ],
+          "components8": [
+            309
+          ],
+          "rgbaSha256": "7ef6adf639b5df2af6e682c9c96621b51561fc97bd03b2d6e66dcc2da093e015"
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            2,
+            7,
+            22,
+            31
+          ],
+          "visibleSize": [
+            20,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            310
+          ],
+          "components8": [
+            310
+          ],
+          "rgbaSha256": "891dd94f69e1e39f58cc4a994ce7e29799a2a6352f790a7fe78ba384fb127f71"
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            309
+          ],
+          "components8": [
+            309
+          ],
+          "rgbaSha256": "34979ff0d5f06b4786cb50d58cabddbc6e656de54f6f1c7ee74a74365d1b2851"
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            24
+          ],
+          "opaqueColors": 12,
+          "components4": [
+            309
+          ],
+          "components8": [
+            309
+          ],
+          "rgbaSha256": "25b4e1951e9f6cb28c0403df4553558a919c49bc95090235bad402b1f4522437"
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            4,
+            7,
+            19,
+            31
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            240
+          ],
+          "components8": [
+            240
+          ],
+          "rgbaSha256": "03bfa435dd975cd0ed4f4266189cf427572a5a6944a2b510fc59d60aa6ac1bd5"
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            4,
+            8,
+            19,
+            32
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            245
+          ],
+          "components8": [
+            245
+          ],
+          "rgbaSha256": "1982306226a09073aac58034bbd936175dddb2fdd59127c6c08ceada8b5ebf53"
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            4,
+            8,
+            19,
+            32
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            244
+          ],
+          "components8": [
+            244
+          ],
+          "rgbaSha256": "301023d7cb034da1b4464843f277ec3af74c2a672b8a1c1235e6f6045cf94686"
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            5,
+            7,
+            20,
+            31
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            240
+          ],
+          "components8": [
+            240
+          ],
+          "rgbaSha256": "6eda9c0aace31b578b9f278b8dd654f3f39e1e24ea0190dec687da15c12d5f26"
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            5,
+            8,
+            20,
+            32
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            245
+          ],
+          "components8": [
+            245
+          ],
+          "rgbaSha256": "8c41112332b7c7eab01a5f41c5070c9a0aa92c8919a6c9f7c9a8ff46e10f4f57"
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            5,
+            8,
+            20,
+            32
+          ],
+          "visibleSize": [
+            15,
+            24
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            244
+          ],
+          "components8": [
+            244
+          ],
+          "rgbaSha256": "f7a9415a70a0df758de6b68f164d52f76e42005322767138dff01cfb8025c13a"
+        }
+      ]
+    },
+    {
+      "id": "mom",
+      "southIdleExact": true,
+      "paletteExact": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            379
+          ],
+          "components8": [
+            379
+          ],
+          "rgbaSha256": "7cd0820606f146924172eb5dbe7a7a93f267ba1f6ca9ac16e3e644efc97de942"
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            370
+          ],
+          "components8": [
+            370
+          ],
+          "rgbaSha256": "d8c84c10eee14ed55e8b8848e104b35512428ad585e9bab76b326998a4a4de3c"
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            370
+          ],
+          "components8": [
+            370
+          ],
+          "rgbaSha256": "13674ab3ec39aeb5f1b451573c3267172b9b4d6bfe0f16e34bed1effb11085d0"
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            379
+          ],
+          "components8": [
+            379
+          ],
+          "rgbaSha256": "09084890ec494ad676d73ebdca00ec4f6585382dd67c02351adfc901c0cdb7c7"
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            370
+          ],
+          "components8": [
+            370
+          ],
+          "rgbaSha256": "78bc81798664d73ab91aab2b2720a80b4c6b9ca80390cda73ac9384d27ffb532"
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 13,
+          "components4": [
+            370
+          ],
+          "components8": [
+            370
+          ],
+          "rgbaSha256": "429446a5c26f7cbebb118f1a57e374941d47c0b230daf2f7e7ef844b93cb8003"
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            4,
+            5,
+            21,
+            31
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            303
+          ],
+          "components8": [
+            303
+          ],
+          "rgbaSha256": "abff264c76bf32e3c6c7cfab4bdcf44a26287f030056da660cd6f93402f158b1"
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            302
+          ],
+          "components8": [
+            302
+          ],
+          "rgbaSha256": "30e3aa8cbede8fdf0717c3502a0518846e5c201a48a3172b022f7cbcff7d5407"
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            302
+          ],
+          "components8": [
+            302
+          ],
+          "rgbaSha256": "90124e66cbcf402729980103ed81d4a9f75906b86c8e0f89be2dd4a1797f6dc6"
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            3,
+            5,
+            20,
+            31
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            303
+          ],
+          "components8": [
+            303
+          ],
+          "rgbaSha256": "511ef98ba0aa84ded91de9c2cca4004333ba4517cfcf051cf643a6dbb45fe3a4"
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            302
+          ],
+          "components8": [
+            302
+          ],
+          "rgbaSha256": "dcce5f8addb1d4aae6233302c9d67956bad797bbba860bbdfdde1123d3ec5551"
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 15,
+          "components4": [
+            302
+          ],
+          "components8": [
+            302
+          ],
+          "rgbaSha256": "b6668187040de48bf8ce1ebc62fe07738d13dea9cc0304ae6d15cdd04351b100"
+        }
+      ]
+    },
+    {
+      "id": "professor",
+      "southIdleExact": true,
+      "paletteExact": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bbox": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            390
+          ],
+          "components8": [
+            390
+          ],
+          "rgbaSha256": "2329ab839da63569f325589a68366db76679e4cd16a848e36b9778e588366675"
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            382
+          ],
+          "components8": [
+            382
+          ],
+          "rgbaSha256": "b34f95f91774e01d2eec7c8748d1401d55566c4f333d8f426b8fd0e6f2749ec4"
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            384
+          ],
+          "components8": [
+            384
+          ],
+          "rgbaSha256": "a603d0876068f63c6c8274cbed744d87299aaffd1904c576825012627246ed3f"
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bbox": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            388
+          ],
+          "components8": [
+            388
+          ],
+          "rgbaSha256": "ef829b861c71795a76ec9a4a2b080d935e351c55e351f76c10b8e116ace1e1ed"
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            380
+          ],
+          "components8": [
+            380
+          ],
+          "rgbaSha256": "864a7b799c1cbceb1cf6d9c617cd8924ffcd0f54177c40f545c9bb478855357a"
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bbox": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "visibleSize": [
+            20,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            382
+          ],
+          "components8": [
+            382
+          ],
+          "rgbaSha256": "63098217385f06bc49f28bd2aaa803e75c686aecae69a58cc8c61b80e9cdc449"
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bbox": [
+            3,
+            5,
+            20,
+            31
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            299
+          ],
+          "components8": [
+            299
+          ],
+          "rgbaSha256": "e475438f6156536731059580f80950a8317e1293a389bae9dfc49146e8dd2c01"
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bbox": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            298
+          ],
+          "components8": [
+            298
+          ],
+          "rgbaSha256": "c7686a3a592d40906470a1ac61caf7818fe711b84e0d8d5f13ed58eab85faf09"
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bbox": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            298
+          ],
+          "components8": [
+            298
+          ],
+          "rgbaSha256": "485a9fd6229f06db1ee3580c8319a67b688c900d2db7ccc2007a83298edbc5bc"
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bbox": [
+            4,
+            5,
+            21,
+            31
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            299
+          ],
+          "components8": [
+            299
+          ],
+          "rgbaSha256": "fd3d6ce643b4da81f07644bce69b82a236b476157a018fb2487e7b8e8d3f791c"
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bbox": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            298
+          ],
+          "components8": [
+            298
+          ],
+          "rgbaSha256": "20689dbd350817c04cf0772715699cddb25f7325d76e7110ce6aed3949d4d615"
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bbox": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "visibleSize": [
+            17,
+            26
+          ],
+          "opaqueColors": 14,
+          "components4": [
+            298
+          ],
+          "components8": [
+            298
+          ],
+          "rgbaSha256": "23d6be2417925d51b3e340ba1d147e5eb2266e28eb473679e4549cd350719b9f"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2096 @@
+{
+  "url": "http://localhost:5182/art-review/walking.html",
+  "startedAt": "2026-09-28T03:02:05.280Z",
+  "checks": [
+    {
+      "name": "twelve characters and 144 poses load with faithful labels",
+      "pass": true,
+      "details": {
+        "characters": 12,
+        "frames": 144
+      }
+    },
+    {
+      "name": "every character, direction and pose renders unique pixels; stepping stays paused",
+      "pass": true,
+      "details": {
+        "sequences": 48,
+        "renderedHolds": 192
+      }
+    },
+    {
+      "name": "pause, play, all-direction cycle and background controls",
+      "pass": true,
+      "details": {
+        "autoDirection": true,
+        "backgrounds": 3
+      }
+    },
+    {
+      "name": "integer pixels, readable labels and controls at 320x568",
+      "pass": true,
+      "details": {
+        "width": 320,
+        "viewport": 320,
+        "canvases": [
+          {
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "text": "critz✦TYCOON",
+            "height": 44,
+            "left": 12,
+            "right": 82.75
+          },
+          {
+            "text": "Still designs",
+            "height": 44,
+            "left": 168.578125,
+            "right": 221.578125
+          },
+          {
+            "text": "Play the game ↗",
+            "height": 44,
+            "left": 233.578125,
+            "right": 308
+          },
+          {
+            "text": "Download everyone’s GIF ↓",
+            "height": 48,
+            "left": 12,
+            "right": 202.875
+          },
+          {
+            "text": "Play",
+            "height": 44,
+            "left": 23,
+            "right": 98
+          },
+          {
+            "text": "Next pose",
+            "height": 44,
+            "left": 104,
+            "right": 183.125
+          },
+          {
+            "text": "↓ Down",
+            "height": 44,
+            "left": 23,
+            "right": 87.28125
+          },
+          {
+            "text": "← Left",
+            "height": 44,
+            "left": 93.28125,
+            "right": 151.59375
+          },
+          {
+            "text": "↑ Up",
+            "height": 44,
+            "left": 157.59375,
+            "right": 207.0625
+          },
+          {
+            "text": "→ Right",
+            "height": 44,
+            "left": 213.0625,
+            "right": 277.296875
+          },
+          {
+            "text": " Show all directions",
+            "height": 44,
+            "left": 23,
+            "right": 156.609375
+          },
+          {
+            "text": "Dark",
+            "height": 44,
+            "left": 48.3125,
+            "right": 112.828125
+          },
+          {
+            "text": "Paper",
+            "height": 44,
+            "left": 120.828125,
+            "right": 193.265625
+          },
+          {
+            "text": "Grass",
+            "height": 44,
+            "left": 201.265625,
+            "right": 271.671875
+          },
+          {
+            "text": "Download this character’s GIF ↓",
+            "height": 44,
+            "left": 29,
+            "right": 291
+          },
+          {
+            "text": "Download native PNG poses ↓",
+            "height": 44,
+            "left": 29,
+            "right": 291
+          },
+          {
+            "text": "Hero boycompact child · relaxed",
+            "height": 221.890625,
+            "left": 12,
+            "right": 156
+          },
+          {
+            "text": "Hero girlcompact child · petite",
+            "height": 221.890625,
+            "left": 164,
+            "right": 308
+          },
+          {
+            "text": "Momsoft-round adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 156
+          },
+          {
+            "text": "Kaidcompact pitcher child",
+            "height": 221.890625,
+            "left": 164,
+            "right": 308
+          },
+          {
+            "text": "Professor Nuggetsturdy-broad adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 156
+          },
+          {
+            "text": "Junipersoft pear adult",
+            "height": 221.890625,
+            "left": 164,
+            "right": 308
+          },
+          {
+            "text": "Dr. Fernslim adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 156
+          },
+          {
+            "text": "Minapetite slim adult",
+            "height": 221.890625,
+            "left": 164,
+            "right": 308
+          },
+          {
+            "text": "Olliebroad compact adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 156
+          },
+          {
+            "text": "Aunt Embersturdy round adult",
+            "height": 221.890625,
+            "left": 164,
+            "right": 308
+          },
+          {
+            "text": "Rival’s momsoft pear adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 156
+          },
+          {
+            "text": "Rival’s dadbroad short adult",
+            "height": 221.890625,
+            "left": 164,
+            "right": 308
+          },
+          {
+            "text": "All-character walking GIF ↓",
+            "height": 44,
+            "left": 35,
+            "right": 285
+          },
+          {
+            "text": "Shared transparent PNG atlas ↓",
+            "height": 44,
+            "left": 35,
+            "right": 285
+          },
+          {
+            "text": "Artwork and timing notes ↗",
+            "height": 44,
+            "left": 35,
+            "right": 285
+          }
+        ],
+        "labels": [
+          {
+            "text": "Rival’s dad",
+            "scroll": 262,
+            "client": 262
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78
+          }
+        ]
+      }
+    },
+    {
+      "name": "integer pixels, readable labels and controls at 390x844",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "viewport": 390,
+        "canvases": [
+          {
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "text": "critz✦TYCOON",
+            "height": 44,
+            "left": 12,
+            "right": 82.75
+          },
+          {
+            "text": "Still designs",
+            "height": 44,
+            "left": 238.578125,
+            "right": 291.578125
+          },
+          {
+            "text": "Play the game ↗",
+            "height": 44,
+            "left": 303.578125,
+            "right": 378
+          },
+          {
+            "text": "Download everyone’s GIF ↓",
+            "height": 48,
+            "left": 12,
+            "right": 202.875
+          },
+          {
+            "text": "Play",
+            "height": 44,
+            "left": 23,
+            "right": 98
+          },
+          {
+            "text": "Next pose",
+            "height": 44,
+            "left": 104,
+            "right": 183.125
+          },
+          {
+            "text": "↓ Down",
+            "height": 44,
+            "left": 23,
+            "right": 87.28125
+          },
+          {
+            "text": "← Left",
+            "height": 44,
+            "left": 93.28125,
+            "right": 151.59375
+          },
+          {
+            "text": "↑ Up",
+            "height": 44,
+            "left": 157.59375,
+            "right": 207.0625
+          },
+          {
+            "text": "→ Right",
+            "height": 44,
+            "left": 213.0625,
+            "right": 277.296875
+          },
+          {
+            "text": " Show all directions",
+            "height": 44,
+            "left": 23,
+            "right": 156.609375
+          },
+          {
+            "text": "Dark",
+            "height": 44,
+            "left": 83.3125,
+            "right": 147.828125
+          },
+          {
+            "text": "Paper",
+            "height": 44,
+            "left": 155.828125,
+            "right": 228.265625
+          },
+          {
+            "text": "Grass",
+            "height": 44,
+            "left": 236.265625,
+            "right": 306.671875
+          },
+          {
+            "text": "Download this character’s GIF ↓",
+            "height": 44,
+            "left": 29,
+            "right": 361
+          },
+          {
+            "text": "Download native PNG poses ↓",
+            "height": 44,
+            "left": 29,
+            "right": 361
+          },
+          {
+            "text": "Hero boycompact child · relaxed",
+            "height": 221.890625,
+            "left": 12,
+            "right": 191
+          },
+          {
+            "text": "Hero girlcompact child · petite",
+            "height": 221.890625,
+            "left": 199,
+            "right": 378
+          },
+          {
+            "text": "Momsoft-round adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 191
+          },
+          {
+            "text": "Kaidcompact pitcher child",
+            "height": 221.890625,
+            "left": 199,
+            "right": 378
+          },
+          {
+            "text": "Professor Nuggetsturdy-broad adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 191
+          },
+          {
+            "text": "Junipersoft pear adult",
+            "height": 221.890625,
+            "left": 199,
+            "right": 378
+          },
+          {
+            "text": "Dr. Fernslim adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 191
+          },
+          {
+            "text": "Minapetite slim adult",
+            "height": 221.890625,
+            "left": 199,
+            "right": 378
+          },
+          {
+            "text": "Olliebroad compact adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 191
+          },
+          {
+            "text": "Aunt Embersturdy round adult",
+            "height": 221.890625,
+            "left": 199,
+            "right": 378
+          },
+          {
+            "text": "Rival’s momsoft pear adult",
+            "height": 221.890625,
+            "left": 12,
+            "right": 191
+          },
+          {
+            "text": "Rival’s dadbroad short adult",
+            "height": 221.890625,
+            "left": 199,
+            "right": 378
+          },
+          {
+            "text": "All-character walking GIF ↓",
+            "height": 44,
+            "left": 35,
+            "right": 355
+          },
+          {
+            "text": "Shared transparent PNG atlas ↓",
+            "height": 44,
+            "left": 35,
+            "right": 355
+          },
+          {
+            "text": "Artwork and timing notes ↗",
+            "height": 44,
+            "left": 35,
+            "right": 355
+          }
+        ],
+        "labels": [
+          {
+            "text": "Rival’s dad",
+            "scroll": 332,
+            "client": 332
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78
+          }
+        ]
+      }
+    },
+    {
+      "name": "integer pixels, readable labels and controls at 844x390",
+      "pass": true,
+      "details": {
+        "width": 844,
+        "viewport": 844,
+        "canvases": [
+          {
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "text": "critz✦TYCOON",
+            "height": 44,
+            "left": 24,
+            "right": 178.734375
+          },
+          {
+            "text": "Still designs",
+            "height": 44,
+            "left": 630.5625,
+            "right": 699.46875
+          },
+          {
+            "text": "Play the game ↗",
+            "height": 44,
+            "left": 723.46875,
+            "right": 820
+          },
+          {
+            "text": "Download everyone’s GIF ↓",
+            "height": 48,
+            "left": 616.296875,
+            "right": 820
+          },
+          {
+            "text": "Play",
+            "height": 44,
+            "left": 40,
+            "right": 115
+          },
+          {
+            "text": "Next pose",
+            "height": 44,
+            "left": 121,
+            "right": 200.125
+          },
+          {
+            "text": "↓ Down",
+            "height": 44,
+            "left": 218.125,
+            "right": 286.40625
+          },
+          {
+            "text": "← Left",
+            "height": 44,
+            "left": 292.40625,
+            "right": 354.71875
+          },
+          {
+            "text": "↑ Up",
+            "height": 44,
+            "left": 360.71875,
+            "right": 414.1875
+          },
+          {
+            "text": "→ Right",
+            "height": 44,
+            "left": 420.1875,
+            "right": 488.421875
+          },
+          {
+            "text": " Show all directions",
+            "height": 44,
+            "left": 506.421875,
+            "right": 640.03125
+          },
+          {
+            "text": "Dark",
+            "height": 44,
+            "left": 81.53125,
+            "right": 146.046875
+          },
+          {
+            "text": "Paper",
+            "height": 44,
+            "left": 154.046875,
+            "right": 226.484375
+          },
+          {
+            "text": "Grass",
+            "height": 44,
+            "left": 234.484375,
+            "right": 304.890625
+          },
+          {
+            "text": "Download this character’s GIF ↓",
+            "height": 44,
+            "left": 382.4375,
+            "right": 799
+          },
+          {
+            "text": "Download native PNG poses ↓",
+            "height": 44,
+            "left": 382.4375,
+            "right": 799
+          },
+          {
+            "text": "Hero boycompact child · relaxed",
+            "height": 221.890625,
+            "left": 24,
+            "right": 214
+          },
+          {
+            "text": "Hero girlcompact child · petite",
+            "height": 221.890625,
+            "left": 226,
+            "right": 416
+          },
+          {
+            "text": "Momsoft-round adult",
+            "height": 221.890625,
+            "left": 428,
+            "right": 618
+          },
+          {
+            "text": "Kaidcompact pitcher child",
+            "height": 221.890625,
+            "left": 630,
+            "right": 820
+          },
+          {
+            "text": "Professor Nuggetsturdy-broad adult",
+            "height": 221.890625,
+            "left": 24,
+            "right": 214
+          },
+          {
+            "text": "Junipersoft pear adult",
+            "height": 221.890625,
+            "left": 226,
+            "right": 416
+          },
+          {
+            "text": "Dr. Fernslim adult",
+            "height": 221.890625,
+            "left": 428,
+            "right": 618
+          },
+          {
+            "text": "Minapetite slim adult",
+            "height": 221.890625,
+            "left": 630,
+            "right": 820
+          },
+          {
+            "text": "Olliebroad compact adult",
+            "height": 221.890625,
+            "left": 24,
+            "right": 214
+          },
+          {
+            "text": "Aunt Embersturdy round adult",
+            "height": 221.890625,
+            "left": 226,
+            "right": 416
+          },
+          {
+            "text": "Rival’s momsoft pear adult",
+            "height": 221.890625,
+            "left": 428,
+            "right": 618
+          },
+          {
+            "text": "Rival’s dadbroad short adult",
+            "height": 221.890625,
+            "left": 630,
+            "right": 820
+          },
+          {
+            "text": "All-character walking GIF ↓",
+            "height": 44,
+            "left": 499.828125,
+            "right": 788.984375
+          },
+          {
+            "text": "Shared transparent PNG atlas ↓",
+            "height": 44,
+            "left": 499.828125,
+            "right": 788.984375
+          },
+          {
+            "text": "Artwork and timing notes ↗",
+            "height": 44,
+            "left": 499.828125,
+            "right": 788.984375
+          }
+        ],
+        "labels": [
+          {
+            "text": "Rival’s dad",
+            "scroll": 417,
+            "client": 417
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78
+          }
+        ]
+      }
+    },
+    {
+      "name": "integer pixels, readable labels and controls at 1280x900",
+      "pass": true,
+      "details": {
+        "width": 1280,
+        "viewport": 1280,
+        "canvases": [
+          {
+            "native": [
+              32,
+              40
+            ],
+            "display": [
+              256,
+              320
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              72,
+              96
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          },
+          {
+            "native": [
+              24,
+              32
+            ],
+            "display": [
+              96,
+              128
+            ],
+            "smoothing": false
+          }
+        ],
+        "controls": [
+          {
+            "text": "critz✦TYCOON",
+            "height": 44,
+            "left": 60,
+            "right": 214.734375
+          },
+          {
+            "text": "Still designs",
+            "height": 44,
+            "left": 1030.5625,
+            "right": 1099.46875
+          },
+          {
+            "text": "Play the game ↗",
+            "height": 44,
+            "left": 1123.46875,
+            "right": 1220
+          },
+          {
+            "text": "Download everyone’s GIF ↓",
+            "height": 48,
+            "left": 1016.296875,
+            "right": 1220
+          },
+          {
+            "text": "Play",
+            "height": 44,
+            "left": 76,
+            "right": 151
+          },
+          {
+            "text": "Next pose",
+            "height": 44,
+            "left": 157,
+            "right": 236.125
+          },
+          {
+            "text": "↓ Down",
+            "height": 44,
+            "left": 254.125,
+            "right": 322.40625
+          },
+          {
+            "text": "← Left",
+            "height": 44,
+            "left": 328.40625,
+            "right": 390.71875
+          },
+          {
+            "text": "↑ Up",
+            "height": 44,
+            "left": 396.71875,
+            "right": 450.1875
+          },
+          {
+            "text": "→ Right",
+            "height": 44,
+            "left": 456.1875,
+            "right": 524.421875
+          },
+          {
+            "text": " Show all directions",
+            "height": 44,
+            "left": 542.421875,
+            "right": 676.03125
+          },
+          {
+            "text": "Dark",
+            "height": 44,
+            "left": 194.890625,
+            "right": 259.40625
+          },
+          {
+            "text": "Paper",
+            "height": 44,
+            "left": 267.40625,
+            "right": 339.84375
+          },
+          {
+            "text": "Grass",
+            "height": 44,
+            "left": 347.84375,
+            "right": 418.25
+          },
+          {
+            "text": "Download this character’s GIF ↓",
+            "height": 44,
+            "left": 583.140625,
+            "right": 1189
+          },
+          {
+            "text": "Download native PNG poses ↓",
+            "height": 44,
+            "left": 583.140625,
+            "right": 1189
+          },
+          {
+            "text": "Hero boycompact child · relaxed",
+            "height": 221.890625,
+            "left": 60,
+            "right": 243.328125
+          },
+          {
+            "text": "Hero girlcompact child · petite",
+            "height": 221.890625,
+            "left": 255.328125,
+            "right": 438.65625
+          },
+          {
+            "text": "Momsoft-round adult",
+            "height": 221.890625,
+            "left": 450.65625,
+            "right": 633.984375
+          },
+          {
+            "text": "Kaidcompact pitcher child",
+            "height": 221.890625,
+            "left": 645.984375,
+            "right": 829.328125
+          },
+          {
+            "text": "Professor Nuggetsturdy-broad adult",
+            "height": 221.890625,
+            "left": 841.328125,
+            "right": 1024.65625
+          },
+          {
+            "text": "Junipersoft pear adult",
+            "height": 221.890625,
+            "left": 1036.65625,
+            "right": 1219.984375
+          },
+          {
+            "text": "Dr. Fernslim adult",
+            "height": 221.890625,
+            "left": 60,
+            "right": 243.328125
+          },
+          {
+            "text": "Minapetite slim adult",
+            "height": 221.890625,
+            "left": 255.328125,
+            "right": 438.65625
+          },
+          {
+            "text": "Olliebroad compact adult",
+            "height": 221.890625,
+            "left": 450.65625,
+            "right": 633.984375
+          },
+          {
+            "text": "Aunt Embersturdy round adult",
+            "height": 221.890625,
+            "left": 645.984375,
+            "right": 829.328125
+          },
+          {
+            "text": "Rival’s momsoft pear adult",
+            "height": 221.890625,
+            "left": 841.328125,
+            "right": 1024.65625
+          },
+          {
+            "text": "Rival’s dadbroad short adult",
+            "height": 221.890625,
+            "left": 1036.65625,
+            "right": 1219.984375
+          },
+          {
+            "text": "All-character walking GIF ↓",
+            "height": 44,
+            "left": 748.15625,
+            "right": 1188.984375
+          },
+          {
+            "text": "Shared transparent PNG atlas ↓",
+            "height": 44,
+            "left": 748.15625,
+            "right": 1188.984375
+          },
+          {
+            "text": "Artwork and timing notes ↗",
+            "height": 44,
+            "left": 748.15625,
+            "right": 1188.984375
+          }
+        ],
+        "labels": [
+          {
+            "text": "Rival’s dad",
+            "scroll": 606,
+            "client": 606
+          },
+          {
+            "text": "Hero boy",
+            "scroll": 55,
+            "client": 55
+          },
+          {
+            "text": "compact child · relaxed",
+            "scroll": 106,
+            "client": 106
+          },
+          {
+            "text": "Hero girl",
+            "scroll": 53,
+            "client": 53
+          },
+          {
+            "text": "compact child · petite",
+            "scroll": 100,
+            "client": 100
+          },
+          {
+            "text": "Mom",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "soft-round adult",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "Kaid",
+            "scroll": 26,
+            "client": 26
+          },
+          {
+            "text": "compact pitcher child",
+            "scroll": 98,
+            "client": 98
+          },
+          {
+            "text": "Professor Nugget",
+            "scroll": 103,
+            "client": 103
+          },
+          {
+            "text": "sturdy-broad adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Juniper",
+            "scroll": 47,
+            "client": 47
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Dr. Fern",
+            "scroll": 49,
+            "client": 49
+          },
+          {
+            "text": "slim adult",
+            "scroll": 44,
+            "client": 44
+          },
+          {
+            "text": "Mina",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "petite slim adult",
+            "scroll": 75,
+            "client": 75
+          },
+          {
+            "text": "Ollie",
+            "scroll": 28,
+            "client": 28
+          },
+          {
+            "text": "broad compact adult",
+            "scroll": 93,
+            "client": 93
+          },
+          {
+            "text": "Aunt Ember",
+            "scroll": 72,
+            "client": 72
+          },
+          {
+            "text": "sturdy round adult",
+            "scroll": 83,
+            "client": 83
+          },
+          {
+            "text": "Rival’s mom",
+            "scroll": 73,
+            "client": 73
+          },
+          {
+            "text": "soft pear adult",
+            "scroll": 66,
+            "client": 66
+          },
+          {
+            "text": "Rival’s dad",
+            "scroll": 65,
+            "client": 65
+          },
+          {
+            "text": "broad short adult",
+            "scroll": 78,
+            "client": 78
+          }
+        ]
+      }
+    },
+    {
+      "name": "keyboard operation, focus and touch selection",
+      "pass": true,
+      "details": {
+        "keyboard": true,
+        "touch": true
+      }
+    },
+    {
+      "name": "all twelve GIF and PNG downloads plus full-cast GIF match checked-in files",
+      "pass": true,
+      "details": {
+        "downloads": 25
+      }
+    },
+    {
+      "name": "reduced motion starts paused and explicit play remains available",
+      "pass": true,
+      "details": {
+        "reducedMotion": true
+      }
+    },
+    {
+      "name": "background and focus suspension preserve phase without catch-up",
+      "pass": true,
+      "details": {
+        "visibility": true,
+        "focus": true
+      }
+    },
+    {
+      "name": "zero save/storage access, no gameplay imports or runtime errors",
+      "pass": true,
+      "details": {
+        "errors": [],
+        "storageOperations": 0
+      }
+    },
+    {
+      "name": "missing atlas.json gives readable error and disabled controls",
+      "pass": true,
+      "details": {
+        "failureUI": true
+      }
+    },
+    {
+      "name": "missing atlas.png gives readable error and disabled controls",
+      "pass": true,
+      "details": {
+        "failureUI": true
+      }
+    }
+  ],
+  "screenshots": [
+    "/tmp/critz-m1c3-browser/walking-320x568.png",
+    "/tmp/critz-m1c3-browser/walking-390x844.png",
+    "/tmp/critz-m1c3-browser/walking-844x390.png",
+    "/tmp/critz-m1c3-browser/walking-1280x900.png",
+    "/tmp/critz-m1c3-browser/walking-touch.png"
+  ],
+  "finishedAt": "2026-09-28T03:02:29.414Z",
+  "passed": 14,
+  "failed": 0
+}
