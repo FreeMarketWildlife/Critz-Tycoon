@@ -1,0 +1,86 @@
+{
+  "result": "pass",
+  "character": "professor",
+  "checks": [
+    {
+      "name": "palette-at-most-15-opaque",
+      "pass": true
+    },
+    {
+      "name": "16-sheet-dimensions",
+      "pass": true
+    },
+    {
+      "name": "16-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "16-anchor",
+      "pass": true
+    },
+    {
+      "name": "16-native-color-count",
+      "pass": true
+    },
+    {
+      "name": "16-12-distinct-native-frames",
+      "pass": true
+    },
+    {
+      "name": "16-png-equals-indexed-rows",
+      "pass": true
+    },
+    {
+      "name": "16-foot-baselines-30-idle-31-stride",
+      "pass": true
+    },
+    {
+      "name": "16-exact-nearest-8x",
+      "pass": true
+    },
+    {
+      "name": "24-sheet-dimensions",
+      "pass": true
+    },
+    {
+      "name": "24-binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "24-anchor",
+      "pass": true
+    },
+    {
+      "name": "24-native-color-count",
+      "pass": true
+    },
+    {
+      "name": "24-12-distinct-native-frames",
+      "pass": true
+    },
+    {
+      "name": "24-png-equals-indexed-rows",
+      "pass": true
+    },
+    {
+      "name": "24-foot-baselines-30-idle-31-stride",
+      "pass": true
+    },
+    {
+      "name": "24-exact-nearest-8x",
+      "pass": true
+    }
+  ],
+  "sha256": {
+    "nugget.json": "616accd37efb84acaf09965c29341a7cf0077f903c04303732c00bee858f9973",
+    "nugget-16.png": "35497d1a3bc42894edaaf5b6fee481a2d8a65a3b8981e211167a5b8e44baf2b2",
+    "nugget-24.png": "9d7ca419da93dfe8c9bf809062dac9d92a30e30608f0325c024b05d89bf1daf7",
+    "nugget-proof.png": "c7fefcd5ac57967f466cc2a6d021bad545ec7cb1bd4f74e15205f9673933cb0d",
+    "nugget-proof-5x.png": "471c259e77cec4fda7bae676f2778804e98cf981eb15232ccc2972fa84f31655"
+  },
+  "frameCount": 24,
+  "nativeColorsPerBudget": {
+    "16": 15,
+    "24": 15
+  }
+}

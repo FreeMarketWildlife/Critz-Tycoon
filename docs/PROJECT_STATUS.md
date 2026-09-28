@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C1 — Animated character-budget comparison, 2026-09-27
+
+**Implementation and checks complete; publishing in progress. Budget choice and art acceptance await the user.** The user likes the supporting-character concept study and requests two proposed native character budgets side by side, including walking. Active task **M1.C1**, on `main`; clean opening baseline `12a6104f5d27ec91ea7d0938c44d4ff7b214381e`.
+
+Deliverable: `/art-review/budgets.html`, with Mom, Kaid and Professor Nugget independently authored in **16×32 and 24×32** frames. One **288×192 transparent atlas, 72 stable entries** covers idle/two strides in four directions. Both sides share palette, ground anchoring, exact pixel zoom, room, controller, coordinates and gait phase. The page offers synchronized auto walking, keyboard/touch movement, pause, single-tick stepping and frame guides. Current game art/progress remain unchanged; the game footer adds a comparison link. Positive concept feedback is recorded, without treating it as a final native-sheet or game-wide budget approval. [Study notes](reviews/M1-C1/README.md).
+
+Actual checks: **165/165 authoring**, **7/7 decoded-PNG** (binary alpha, exact source RGBA, bounds, anchors and independent Kaid sides), **16/16 browser** and **45/45 existing domain tests** pass. Isolated synthetic storage remained untouched. Portrait 320×568 / 390×844, landscape 844×390 and desktop 1280×900 retain integer canvas scales with no horizontal document overflow. Native frames and screenshots were inspected. A selected-button hover contrast defect was fixed and rechecked at **8.73:1**. All **12 unchanged gameplay/atlas hashes** match the prior tested build; only `index.html` adds the review link. [Preservation evidence](reviews/M1-C1/gameplay-preservation.json).
+
+Limits: representative walking study only, with final full-roster art and running frames following the user's choice. Frame width and painted height both differ intentionally. Generated walking concepts are pose guides, not validated native sprites; exact editable rows are exported separately. Physical iPhone/Safari and Emerald emulator capture were not tested. The unchanged game's prior full story/browser journey was not repeated for this isolated review. None of these checks substitutes for the user's visual or movement acceptance.
+
+Exact next action: publish the tested comparison, record deployment/source evidence, then let the user compare the two budgets in motion before applying a chosen standard to the cast.
+
 ## M1.I2 — Playable visual-review delivery, 2026-09-27
 
 **Implementation, checks and publication complete. Final user visual/movement acceptance is awaiting review.** The user explicitly authorized completing missing native art, playable integration and tile movement together without intermediate approvals. This supersedes the earlier staged restriction and unanswered M1.I1 scope question; no world/roster expansion beyond existing scenes was authorized. Work is directly on `main`, initially clean at `37cb7d6560f39ac8a65fafabe61faeb06eb0da8e`.

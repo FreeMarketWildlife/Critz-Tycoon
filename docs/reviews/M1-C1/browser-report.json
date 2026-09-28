@@ -1,0 +1,430 @@
+{
+  "url": "http://localhost:5181/art-review/budgets.html",
+  "startedAt": "2026-09-28T01:28:36.967Z",
+  "checks": [
+    {
+      "name": "all requested characters and both budgets are available",
+      "status": "pass",
+      "details": {
+        "roles": [
+          "mom",
+          "kaid",
+          "professor"
+        ]
+      }
+    },
+    {
+      "name": "reduced motion begins paused with no simulation advancement",
+      "status": "pass",
+      "details": {
+        "initialTick": 0
+      }
+    },
+    {
+      "name": "pause and a single fixed-tick step",
+      "status": "pass",
+      "details": {
+        "before": 0,
+        "after": 1
+      }
+    },
+    {
+      "name": "auto loop covers all four directions and idle plus both alternating strides in shared phase",
+      "status": "pass",
+      "details": {
+        "directions": [
+          "down",
+          "left",
+          "up",
+          "right"
+        ],
+        "poses": [
+          "idle",
+          "strideA",
+          "strideB"
+        ],
+        "sampleCount": 72,
+        "first": {
+          "tick": 1,
+          "facing": "down",
+          "pose": "idle",
+          "x": 128,
+          "y": 112
+        },
+        "last": {
+          "tick": 99,
+          "facing": "right",
+          "pose": "strideA",
+          "x": 98,
+          "y": 112
+        }
+      }
+    },
+    {
+      "name": "keyboard release completes a committed tile, then stops",
+      "status": "pass",
+      "details": {
+        "from": [
+          8,
+          7
+        ],
+        "destination": [
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "name": "pointer cancellation clears held input",
+      "status": "pass",
+      "details": {
+        "stoppedAt": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "name": "window blur clears held keyboard input",
+      "status": "pass",
+      "details": {
+        "stoppedAt": [
+          128,
+          128
+        ]
+      }
+    },
+    {
+      "name": "reset restores position and initial facing",
+      "status": "pass",
+      "details": {
+        "position": [
+          128,
+          112
+        ]
+      }
+    },
+    {
+      "name": "frame guides change both canvases and are reversible",
+      "status": "pass"
+    },
+    {
+      "name": "integer canvas presentation and overflow containment at 320×568",
+      "status": "pass",
+      "details": {
+        "bodyWidth": 320,
+        "viewport": 320,
+        "canvases": [
+          {
+            "id": "close16",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              128,
+              96
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room16",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "close24",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              128,
+              96
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room24",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "imageRendering": "crisp-edges"
+          }
+        ],
+        "stages": [
+          {
+            "width": 142,
+            "content": 240,
+            "scroll": 49
+          },
+          {
+            "width": 142,
+            "content": 240,
+            "scroll": 49
+          }
+        ]
+      }
+    },
+    {
+      "name": "integer canvas presentation and overflow containment at 390×844",
+      "status": "pass",
+      "details": {
+        "bodyWidth": 390,
+        "viewport": 390,
+        "canvases": [
+          {
+            "id": "close16",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              128,
+              96
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room16",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "close24",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              128,
+              96
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room24",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "imageRendering": "crisp-edges"
+          }
+        ],
+        "stages": [
+          {
+            "width": 177,
+            "content": 240,
+            "scroll": 32
+          },
+          {
+            "width": 177,
+            "content": 240,
+            "scroll": 32
+          }
+        ]
+      }
+    },
+    {
+      "name": "integer canvas presentation and overflow containment at 844×390",
+      "status": "pass",
+      "details": {
+        "bodyWidth": 844,
+        "viewport": 844,
+        "canvases": [
+          {
+            "id": "close16",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              256,
+              192
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room16",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "close24",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              256,
+              192
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room24",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              240,
+              160
+            ],
+            "imageRendering": "crisp-edges"
+          }
+        ],
+        "stages": [
+          {
+            "width": 391,
+            "content": 391,
+            "scroll": 0
+          },
+          {
+            "width": 391,
+            "content": 391,
+            "scroll": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "integer canvas presentation and overflow containment at 1280×900",
+      "status": "pass",
+      "details": {
+        "bodyWidth": 1280,
+        "viewport": 1280,
+        "canvases": [
+          {
+            "id": "close16",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              256,
+              192
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room16",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              480,
+              320
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "close24",
+            "native": [
+              64,
+              48
+            ],
+            "display": [
+              256,
+              192
+            ],
+            "imageRendering": "crisp-edges"
+          },
+          {
+            "id": "room24",
+            "native": [
+              240,
+              160
+            ],
+            "display": [
+              480,
+              320
+            ],
+            "imageRendering": "crisp-edges"
+          }
+        ],
+        "stages": [
+          {
+            "width": 539,
+            "content": 539,
+            "scroll": 0
+          },
+          {
+            "width": 539,
+            "content": 539,
+            "scroll": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "isolated synthetic saves are untouched and no game entrypoint or mutating request is used",
+      "status": "pass",
+      "details": {
+        "syntheticSaveKeys": 5,
+        "writes": 0,
+        "pageErrors": [],
+        "requestCount": 11
+      }
+    },
+    {
+      "name": "default motion preference starts playback",
+      "status": "pass",
+      "details": {
+        "tick": 29
+      }
+    },
+    {
+      "name": "artwork load failure is visible and controls stay disabled",
+      "status": "pass",
+      "details": {
+        "message": "The comparison artwork could not load. Your game save is untouched. Reload to try again. Failed to fetch"
+      }
+    }
+  ],
+  "screenshots": [
+    "test-results/budgets/desktop-guides-1280x900.png",
+    "test-results/budgets/comparison-320x568.png",
+    "test-results/budgets/comparison-390x844.png",
+    "test-results/budgets/comparison-844x390.png",
+    "test-results/budgets/comparison-1280x900.png",
+    "test-results/budgets/mom-comparison-desktop.png",
+    "test-results/budgets/kaid-comparison-desktop.png",
+    "test-results/budgets/professor-comparison-desktop.png",
+    "test-results/budgets/load-failure.png"
+  ],
+  "finishedAt": "2026-09-28T01:28:45.689Z",
+  "passed": 16,
+  "failed": 0
+}

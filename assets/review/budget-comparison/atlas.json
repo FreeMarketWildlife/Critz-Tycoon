@@ -1,0 +1,2183 @@
+{
+  "schemaVersion": 1,
+  "image": "atlas.png",
+  "size": [
+    288,
+    192
+  ],
+  "status": "comparison-awaiting-user-choice",
+  "characters": [
+    {
+      "id": "mom",
+      "label": "Mom",
+      "budgets": {
+        "16": {
+          "frame": [
+            16,
+            32
+          ],
+          "anchor": [
+            8,
+            32
+          ],
+          "frames": {
+            "down": {
+              "idle": "compare.mom.16.down.idle",
+              "strideA": "compare.mom.16.down.strideA",
+              "strideB": "compare.mom.16.down.strideB"
+            },
+            "up": {
+              "idle": "compare.mom.16.up.idle",
+              "strideA": "compare.mom.16.up.strideA",
+              "strideB": "compare.mom.16.up.strideB"
+            },
+            "left": {
+              "idle": "compare.mom.16.left.idle",
+              "strideA": "compare.mom.16.left.strideA",
+              "strideB": "compare.mom.16.left.strideB"
+            },
+            "right": {
+              "idle": "compare.mom.16.right.idle",
+              "strideA": "compare.mom.16.right.strideA",
+              "strideB": "compare.mom.16.right.strideB"
+            }
+          }
+        },
+        "24": {
+          "frame": [
+            24,
+            32
+          ],
+          "anchor": [
+            12,
+            32
+          ],
+          "frames": {
+            "down": {
+              "idle": "compare.mom.24.down.idle",
+              "strideA": "compare.mom.24.down.strideA",
+              "strideB": "compare.mom.24.down.strideB"
+            },
+            "up": {
+              "idle": "compare.mom.24.up.idle",
+              "strideA": "compare.mom.24.up.strideA",
+              "strideB": "compare.mom.24.up.strideB"
+            },
+            "left": {
+              "idle": "compare.mom.24.left.idle",
+              "strideA": "compare.mom.24.left.strideA",
+              "strideB": "compare.mom.24.left.strideB"
+            },
+            "right": {
+              "idle": "compare.mom.24.right.idle",
+              "strideA": "compare.mom.24.right.strideA",
+              "strideB": "compare.mom.24.right.strideB"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "kaid",
+      "label": "Kaid",
+      "budgets": {
+        "16": {
+          "frame": [
+            16,
+            32
+          ],
+          "anchor": [
+            8,
+            32
+          ],
+          "frames": {
+            "down": {
+              "idle": "compare.kaid.16.down.idle",
+              "strideA": "compare.kaid.16.down.strideA",
+              "strideB": "compare.kaid.16.down.strideB"
+            },
+            "up": {
+              "idle": "compare.kaid.16.up.idle",
+              "strideA": "compare.kaid.16.up.strideA",
+              "strideB": "compare.kaid.16.up.strideB"
+            },
+            "left": {
+              "idle": "compare.kaid.16.left.idle",
+              "strideA": "compare.kaid.16.left.strideA",
+              "strideB": "compare.kaid.16.left.strideB"
+            },
+            "right": {
+              "idle": "compare.kaid.16.right.idle",
+              "strideA": "compare.kaid.16.right.strideA",
+              "strideB": "compare.kaid.16.right.strideB"
+            }
+          }
+        },
+        "24": {
+          "frame": [
+            24,
+            32
+          ],
+          "anchor": [
+            12,
+            32
+          ],
+          "frames": {
+            "down": {
+              "idle": "compare.kaid.24.down.idle",
+              "strideA": "compare.kaid.24.down.strideA",
+              "strideB": "compare.kaid.24.down.strideB"
+            },
+            "up": {
+              "idle": "compare.kaid.24.up.idle",
+              "strideA": "compare.kaid.24.up.strideA",
+              "strideB": "compare.kaid.24.up.strideB"
+            },
+            "left": {
+              "idle": "compare.kaid.24.left.idle",
+              "strideA": "compare.kaid.24.left.strideA",
+              "strideB": "compare.kaid.24.left.strideB"
+            },
+            "right": {
+              "idle": "compare.kaid.24.right.idle",
+              "strideA": "compare.kaid.24.right.strideA",
+              "strideB": "compare.kaid.24.right.strideB"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "professor",
+      "label": "Professor Nugget",
+      "budgets": {
+        "16": {
+          "frame": [
+            16,
+            32
+          ],
+          "anchor": [
+            8,
+            32
+          ],
+          "frames": {
+            "down": {
+              "idle": "compare.professor.16.down.idle",
+              "strideA": "compare.professor.16.down.strideA",
+              "strideB": "compare.professor.16.down.strideB"
+            },
+            "up": {
+              "idle": "compare.professor.16.up.idle",
+              "strideA": "compare.professor.16.up.strideA",
+              "strideB": "compare.professor.16.up.strideB"
+            },
+            "left": {
+              "idle": "compare.professor.16.left.idle",
+              "strideA": "compare.professor.16.left.strideA",
+              "strideB": "compare.professor.16.left.strideB"
+            },
+            "right": {
+              "idle": "compare.professor.16.right.idle",
+              "strideA": "compare.professor.16.right.strideA",
+              "strideB": "compare.professor.16.right.strideB"
+            }
+          }
+        },
+        "24": {
+          "frame": [
+            24,
+            32
+          ],
+          "anchor": [
+            12,
+            32
+          ],
+          "frames": {
+            "down": {
+              "idle": "compare.professor.24.down.idle",
+              "strideA": "compare.professor.24.down.strideA",
+              "strideB": "compare.professor.24.down.strideB"
+            },
+            "up": {
+              "idle": "compare.professor.24.up.idle",
+              "strideA": "compare.professor.24.up.strideA",
+              "strideB": "compare.professor.24.up.strideB"
+            },
+            "left": {
+              "idle": "compare.professor.24.left.idle",
+              "strideA": "compare.professor.24.left.strideA",
+              "strideB": "compare.professor.24.left.strideB"
+            },
+            "right": {
+              "idle": "compare.professor.24.right.idle",
+              "strideA": "compare.professor.24.right.strideA",
+              "strideB": "compare.professor.24.right.strideB"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "compare.mom.16.down.idle",
+      "rect": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "down",
+      "pose": "idle",
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "paintedPixels": 196,
+      "colorCount": 14,
+      "sha256": "5fa8361dc1b0df80aeba8504055b070d25d0141f0ff3a6c53a0ce9c5c73b7652",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.down.strideA",
+      "rect": [
+        24,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "down",
+      "pose": "strideA",
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        32
+      ],
+      "paintedPixels": 202,
+      "colorCount": 14,
+      "sha256": "71ebee774a695443c28e59386b7aa49f2905e4cfb3202d71ba31e059b7b37d62",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.down.strideB",
+      "rect": [
+        48,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "down",
+      "pose": "strideB",
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        32
+      ],
+      "paintedPixels": 202,
+      "colorCount": 14,
+      "sha256": "85027aac64d813a192cc48641a32f9afe8e94d0803aef89701ef742fc0c31c89",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.up.idle",
+      "rect": [
+        72,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "up",
+      "pose": "idle",
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "paintedPixels": 196,
+      "colorCount": 11,
+      "sha256": "6e96b8b956c586b68be84844bdd0b20c09d18b7d4c7998778fbd1ed22343f5c4",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.up.strideA",
+      "rect": [
+        96,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "up",
+      "pose": "strideA",
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        32
+      ],
+      "paintedPixels": 202,
+      "colorCount": 12,
+      "sha256": "ac59f445434d2b6303279711958c501eef4875f3695747e3f9f6f00b89396be1",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.up.strideB",
+      "rect": [
+        120,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "up",
+      "pose": "strideB",
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        32
+      ],
+      "paintedPixels": 202,
+      "colorCount": 11,
+      "sha256": "b0011c85b0431b90570be08b539099d8d7d5931f37e26576b199ea8da9552f44",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.left.idle",
+      "rect": [
+        144,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "left",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        10,
+        13,
+        31
+      ],
+      "paintedPixels": 156,
+      "colorCount": 15,
+      "sha256": "695a33a92ef52fe4c3ed38b74bc59bbb3991809cc8dbc616056e7b31aa6d677e",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.left.strideA",
+      "rect": [
+        168,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "left",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        10,
+        13,
+        32
+      ],
+      "paintedPixels": 165,
+      "colorCount": 15,
+      "sha256": "327a067482f2a6de9b1f1da6616918798f72454c1f297922ebdb5731513d868c",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.left.strideB",
+      "rect": [
+        192,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "left",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        10,
+        13,
+        32
+      ],
+      "paintedPixels": 165,
+      "colorCount": 15,
+      "sha256": "9207012076c99fb5a4b36dde29ea383e5deb4a1959d974b3f0c32e8a5d354104",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.right.idle",
+      "rect": [
+        216,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "right",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        10,
+        13,
+        31
+      ],
+      "paintedPixels": 156,
+      "colorCount": 15,
+      "sha256": "cc251ebdcef7d19c4bf2d6d5b2b6426dd2035a134d5f5a06c84850fa181babc0",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.right.strideA",
+      "rect": [
+        240,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "right",
+      "pose": "strideA",
+      "opaqueBBox": [
+        3,
+        10,
+        14,
+        32
+      ],
+      "paintedPixels": 165,
+      "colorCount": 15,
+      "sha256": "d0c978ccad0beabd17a086af5f145f04ee1eb25d305197d4bce2d81418cef256",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.16.right.strideB",
+      "rect": [
+        264,
+        0,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "mom",
+      "budget": 16,
+      "direction": "right",
+      "pose": "strideB",
+      "opaqueBBox": [
+        3,
+        10,
+        14,
+        32
+      ],
+      "paintedPixels": 165,
+      "colorCount": 15,
+      "sha256": "1c3b693aa37e9ade8dbcfc13c48d3ab35b79ac3aaafe738cc84fd0bfaa080c29",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.down.idle",
+      "rect": [
+        0,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "down",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "paintedPixels": 349,
+      "colorCount": 15,
+      "sha256": "cf86d2a69bd83aded8ded57a62bc1d066ab71252b9dc57ccf287fcc8d178f861",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.down.strideA",
+      "rect": [
+        24,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "down",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 356,
+      "colorCount": 15,
+      "sha256": "863e5c93b4d95ffe85bba8dc1aef3fc56ce683f63ab6c785998276c569b4fd24",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.down.strideB",
+      "rect": [
+        48,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "down",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 356,
+      "colorCount": 15,
+      "sha256": "c45084e9d203d00241e33df9af8e335bc0d75080aef60c9a9f67f2a4f732a6d3",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.up.idle",
+      "rect": [
+        72,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "up",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "paintedPixels": 349,
+      "colorCount": 13,
+      "sha256": "4c6918a90965ee6fded1b9180531b3ba93cca1933bb398c72202959d4aeefb4a",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.up.strideA",
+      "rect": [
+        96,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "up",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 356,
+      "colorCount": 13,
+      "sha256": "fc9769d217ca534322c1fb460900228c0ad6b41374a1dcdfa937022a025d68a4",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.up.strideB",
+      "rect": [
+        120,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "up",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 356,
+      "colorCount": 13,
+      "sha256": "e123f491826063ae8c80f6b779afbbca3d75cc31938f4f3a6a8a14d31c30e084",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.left.idle",
+      "rect": [
+        144,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "left",
+      "pose": "idle",
+      "opaqueBBox": [
+        4,
+        5,
+        17,
+        31
+      ],
+      "paintedPixels": 251,
+      "colorCount": 15,
+      "sha256": "d52403c0b862d06ef04cb7d9b88cdbe1f5f95cdf7ba56d508c250cf5bfa8b5f8",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.left.strideA",
+      "rect": [
+        168,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "left",
+      "pose": "strideA",
+      "opaqueBBox": [
+        3,
+        5,
+        17,
+        32
+      ],
+      "paintedPixels": 261,
+      "colorCount": 15,
+      "sha256": "1fba897e621c52b4a28c3236bfe37a53a0798f25c23067f157d92937a08b3eb0",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.left.strideB",
+      "rect": [
+        192,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "left",
+      "pose": "strideB",
+      "opaqueBBox": [
+        4,
+        5,
+        17,
+        32
+      ],
+      "paintedPixels": 261,
+      "colorCount": 15,
+      "sha256": "222e87326d89a7b1c57f5d07145636d6268d2312521e6add58c89fd6a1c8fea0",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.right.idle",
+      "rect": [
+        216,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "right",
+      "pose": "idle",
+      "opaqueBBox": [
+        7,
+        5,
+        20,
+        31
+      ],
+      "paintedPixels": 251,
+      "colorCount": 15,
+      "sha256": "6898b425ecd1ee856d91bce51ef7188bb7758f00c18a4ca5e42cb2ed21d7fa44",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.right.strideA",
+      "rect": [
+        240,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "right",
+      "pose": "strideA",
+      "opaqueBBox": [
+        7,
+        5,
+        21,
+        32
+      ],
+      "paintedPixels": 261,
+      "colorCount": 15,
+      "sha256": "7290723c60bf1d7805d5074fb29559ba0dcee0bafc20edce271b77f2645afc20",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.mom.24.right.strideB",
+      "rect": [
+        264,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "mom",
+      "budget": 24,
+      "direction": "right",
+      "pose": "strideB",
+      "opaqueBBox": [
+        7,
+        5,
+        20,
+        32
+      ],
+      "paintedPixels": 261,
+      "colorCount": 15,
+      "sha256": "5920fb4c0053e790a6e065d023b0fe0731e4198bdf091aad5370729a5dd2d65a",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.down.idle",
+      "rect": [
+        0,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "down",
+      "pose": "idle",
+      "opaqueBBox": [
+        1,
+        11,
+        14,
+        31
+      ],
+      "paintedPixels": 157,
+      "colorCount": 13,
+      "sha256": "8d1e4b9279c333f615c2597451f93570ab7ab77b27a54112e9f66073e09c458f",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.down.strideA",
+      "rect": [
+        24,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "down",
+      "pose": "strideA",
+      "opaqueBBox": [
+        1,
+        11,
+        14,
+        32
+      ],
+      "paintedPixels": 162,
+      "colorCount": 13,
+      "sha256": "2cfd13783cb604bd2f3a899f57466b29d40c6c6738e4d7f4bd2a719f0ef7a025",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.down.strideB",
+      "rect": [
+        48,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "down",
+      "pose": "strideB",
+      "opaqueBBox": [
+        1,
+        11,
+        14,
+        32
+      ],
+      "paintedPixels": 162,
+      "colorCount": 13,
+      "sha256": "7bee93045507b1b43b28b9da6583ed86a0d1fd37d21be43bc0523a593c19086e",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.up.idle",
+      "rect": [
+        72,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "up",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        11,
+        15,
+        31
+      ],
+      "paintedPixels": 159,
+      "colorCount": 11,
+      "sha256": "491bc01ed92d1740b23e7134511b7a3bf5188fb17230085ec86643b444325242",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.up.strideA",
+      "rect": [
+        96,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "up",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        11,
+        15,
+        32
+      ],
+      "paintedPixels": 164,
+      "colorCount": 12,
+      "sha256": "1e6dd3cb60a7e2451adec5ab1ac3a3570a0decd0fe38544510282749dd9410bc",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.up.strideB",
+      "rect": [
+        120,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "up",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        11,
+        15,
+        32
+      ],
+      "paintedPixels": 164,
+      "colorCount": 12,
+      "sha256": "232647fba2af95fb24501397d07b31792c2d5f3589188ef3662698fe250490e9",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.left.idle",
+      "rect": [
+        144,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "left",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        11,
+        14,
+        31
+      ],
+      "paintedPixels": 135,
+      "colorCount": 13,
+      "sha256": "6dfdfad59129a3fec3518d168ee1fc2e2c01c7eb6973a7bc7cff0ba5082326f6",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.left.strideA",
+      "rect": [
+        168,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "left",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        11,
+        14,
+        32
+      ],
+      "paintedPixels": 140,
+      "colorCount": 13,
+      "sha256": "48615a653350c557f8507dd28bdf18d41fbbb27dd3947b0ff267e126b9cf0f7f",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.left.strideB",
+      "rect": [
+        192,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "left",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        11,
+        14,
+        32
+      ],
+      "paintedPixels": 139,
+      "colorCount": 13,
+      "sha256": "fd3ffbfc2258fcbd36c060b41660e0ee3d218992ecf8141382cf705a3a5e88c1",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.right.idle",
+      "rect": [
+        216,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "right",
+      "pose": "idle",
+      "opaqueBBox": [
+        1,
+        11,
+        14,
+        31
+      ],
+      "paintedPixels": 139,
+      "colorCount": 13,
+      "sha256": "bd6bb0ed70653a5e9c3fe9bafb5869c6163ce8554264566c3b5cb158e44133dd",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.right.strideA",
+      "rect": [
+        240,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "right",
+      "pose": "strideA",
+      "opaqueBBox": [
+        1,
+        11,
+        14,
+        32
+      ],
+      "paintedPixels": 143,
+      "colorCount": 13,
+      "sha256": "a152c1822efc711d02338d425672d2b281656db8a973264417031ed9669959e3",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.16.right.strideB",
+      "rect": [
+        264,
+        64,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "kaid",
+      "budget": 16,
+      "direction": "right",
+      "pose": "strideB",
+      "opaqueBBox": [
+        1,
+        11,
+        14,
+        32
+      ],
+      "paintedPixels": 149,
+      "colorCount": 13,
+      "sha256": "bf036df8aa86e8a8cdce5066c29f3e759c0dd392ce65fe83aaeb14a0442818e5",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.down.idle",
+      "rect": [
+        0,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "down",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        20,
+        31
+      ],
+      "paintedPixels": 279,
+      "colorCount": 13,
+      "sha256": "9cdff226aab423e2f1e8c4e7079ae6ff08c1902c1a0a2e2e126f3bd530146a68",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.down.strideA",
+      "rect": [
+        24,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "down",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        5,
+        20,
+        32
+      ],
+      "paintedPixels": 282,
+      "colorCount": 13,
+      "sha256": "1a850230d82b4dcd8e0f6bd5c26ec7b82ade949f038d581d00bdad1962a4c027",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.down.strideB",
+      "rect": [
+        48,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "down",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        5,
+        20,
+        32
+      ],
+      "paintedPixels": 282,
+      "colorCount": 13,
+      "sha256": "2e314193595cafadd7a0c6e85a5a396ab4309ddab5addf45a1b1a9b598154d10",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.up.idle",
+      "rect": [
+        72,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "up",
+      "pose": "idle",
+      "opaqueBBox": [
+        4,
+        5,
+        22,
+        31
+      ],
+      "paintedPixels": 279,
+      "colorCount": 13,
+      "sha256": "ce69f81261916886a5f9888360cb00adf63721d1d2fcbf821f27f1151385e324",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.up.strideA",
+      "rect": [
+        96,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "up",
+      "pose": "strideA",
+      "opaqueBBox": [
+        4,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 282,
+      "colorCount": 13,
+      "sha256": "f6f3198a4c6d5f5960d21bceeaa9ad6ca1782d7a7b855e88598a76a5cbe05841",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.up.strideB",
+      "rect": [
+        120,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "up",
+      "pose": "strideB",
+      "opaqueBBox": [
+        4,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 282,
+      "colorCount": 13,
+      "sha256": "f56960c97d17a4266b86597c615b7f929f6793074ace518f8e4bdce416696965",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.left.idle",
+      "rect": [
+        144,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "left",
+      "pose": "idle",
+      "opaqueBBox": [
+        4,
+        5,
+        20,
+        31
+      ],
+      "paintedPixels": 224,
+      "colorCount": 13,
+      "sha256": "badada9914ccd1e9cb3d0bc9027313c2b18e85e2aad8ba13e47f9201ffba20c7",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.left.strideA",
+      "rect": [
+        168,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "left",
+      "pose": "strideA",
+      "opaqueBBox": [
+        4,
+        5,
+        20,
+        32
+      ],
+      "paintedPixels": 228,
+      "colorCount": 13,
+      "sha256": "9b232b21327cf917cd066d74bd51cea6afa20b6ed60cc001f5aa54d39c939d26",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.left.strideB",
+      "rect": [
+        192,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "left",
+      "pose": "strideB",
+      "opaqueBBox": [
+        4,
+        5,
+        20,
+        32
+      ],
+      "paintedPixels": 228,
+      "colorCount": 13,
+      "sha256": "77976b600413234ff126eb216d9fd410ebeb7acfb320b38b2a145d227fd0c1ca",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.right.idle",
+      "rect": [
+        216,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "right",
+      "pose": "idle",
+      "opaqueBBox": [
+        4,
+        5,
+        21,
+        31
+      ],
+      "paintedPixels": 232,
+      "colorCount": 13,
+      "sha256": "aeeacb220352a475cb8aa6f6765885789a9a7d04d970e6cf960a197a41862a61",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.right.strideA",
+      "rect": [
+        240,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "right",
+      "pose": "strideA",
+      "opaqueBBox": [
+        4,
+        5,
+        21,
+        32
+      ],
+      "paintedPixels": 236,
+      "colorCount": 13,
+      "sha256": "30dfcf0d297a54301c4e4864ac28f5b8c5acac6e997e928d6658703fa2d96051",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.kaid.24.right.strideB",
+      "rect": [
+        264,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "kaid",
+      "budget": 24,
+      "direction": "right",
+      "pose": "strideB",
+      "opaqueBBox": [
+        4,
+        5,
+        21,
+        32
+      ],
+      "paintedPixels": 238,
+      "colorCount": 13,
+      "sha256": "b9e20250cf81ae33c67853c59e17a3f7e11ca897ac28829c804b569b7f78e88d",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.down.idle",
+      "rect": [
+        0,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "down",
+      "pose": "idle",
+      "opaqueBBox": [
+        0,
+        9,
+        16,
+        31
+      ],
+      "paintedPixels": 224,
+      "colorCount": 14,
+      "sha256": "38820b8ac5e6840a6ac03bf1f6db4ae90c55abee4e7ef2ce2e536a1899158261",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.down.strideA",
+      "rect": [
+        24,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "down",
+      "pose": "strideA",
+      "opaqueBBox": [
+        0,
+        9,
+        16,
+        32
+      ],
+      "paintedPixels": 226,
+      "colorCount": 14,
+      "sha256": "128c979f172e22277598d5e65ec02f33aa79b62d37d446a243522d43ab128487",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.down.strideB",
+      "rect": [
+        48,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "down",
+      "pose": "strideB",
+      "opaqueBBox": [
+        0,
+        9,
+        16,
+        32
+      ],
+      "paintedPixels": 225,
+      "colorCount": 14,
+      "sha256": "ad8f97f3fc3ee6a3412ef74572812e070a7d0460efae99070ec0c100e5b613d0",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.up.idle",
+      "rect": [
+        72,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "up",
+      "pose": "idle",
+      "opaqueBBox": [
+        0,
+        9,
+        16,
+        31
+      ],
+      "paintedPixels": 223,
+      "colorCount": 15,
+      "sha256": "520d79623efcd39923102904973279a7209aee97e48d45b15cbb7e5cab5e02bd",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.up.strideA",
+      "rect": [
+        96,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "up",
+      "pose": "strideA",
+      "opaqueBBox": [
+        0,
+        9,
+        16,
+        32
+      ],
+      "paintedPixels": 225,
+      "colorCount": 15,
+      "sha256": "5a1542ba23c3238a502358cbbf2f0bf23289f52458ceaf69a3e7a331338868ee",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.up.strideB",
+      "rect": [
+        120,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "up",
+      "pose": "strideB",
+      "opaqueBBox": [
+        0,
+        9,
+        16,
+        32
+      ],
+      "paintedPixels": 224,
+      "colorCount": 15,
+      "sha256": "b2e763fdade36f99cd80b079d71998f7a424a8998e4cc24fa9f9a83e3d3b17b7",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.left.idle",
+      "rect": [
+        144,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "left",
+      "pose": "idle",
+      "opaqueBBox": [
+        0,
+        9,
+        14,
+        31
+      ],
+      "paintedPixels": 203,
+      "colorCount": 14,
+      "sha256": "978f07b39224b51e73f8ef69284cf27627db6b57283e71f7f4b346415582eb0a",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.left.strideA",
+      "rect": [
+        168,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "left",
+      "pose": "strideA",
+      "opaqueBBox": [
+        0,
+        9,
+        14,
+        32
+      ],
+      "paintedPixels": 207,
+      "colorCount": 14,
+      "sha256": "301915243692b418fa0719ec3ac6f17b1df06ef959448e0765d0efc6481e04fc",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.left.strideB",
+      "rect": [
+        192,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "left",
+      "pose": "strideB",
+      "opaqueBBox": [
+        0,
+        9,
+        14,
+        32
+      ],
+      "paintedPixels": 206,
+      "colorCount": 14,
+      "sha256": "5b8e97a9ab974ce9b98751e064a1084fc63141d52002d29691c507a7ce5d9480",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.right.idle",
+      "rect": [
+        216,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "right",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        9,
+        16,
+        31
+      ],
+      "paintedPixels": 203,
+      "colorCount": 14,
+      "sha256": "db8b713cebea736e089246de5733408afa5799323c4565388817a3cd31762b4c",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.right.strideA",
+      "rect": [
+        240,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "right",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        9,
+        16,
+        32
+      ],
+      "paintedPixels": 207,
+      "colorCount": 14,
+      "sha256": "b3ebe218461e05a10461220ee1da84299031d0a76fd24f6d3a9a1ef0256abd1b",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.16.right.strideB",
+      "rect": [
+        264,
+        128,
+        16,
+        32
+      ],
+      "anchor": [
+        8,
+        32
+      ],
+      "character": "professor",
+      "budget": 16,
+      "direction": "right",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        9,
+        16,
+        32
+      ],
+      "paintedPixels": 206,
+      "colorCount": 14,
+      "sha256": "0ffcee324680439f1ad9570bf4fb6d422fc08581fd06923f8f2c73de00b7e407",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.down.idle",
+      "rect": [
+        0,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "down",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "paintedPixels": 362,
+      "colorCount": 14,
+      "sha256": "0e1f738bb9719cb610d8bf7cf5f8a0d23205c4460d3ed7f443b7b385da56249f",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.down.strideA",
+      "rect": [
+        24,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "down",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 366,
+      "colorCount": 14,
+      "sha256": "cb9fcd65ff9598e558615dac44b84b6c730c12ece01e26398f3b0c108518c40a",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.down.strideB",
+      "rect": [
+        48,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "down",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 366,
+      "colorCount": 14,
+      "sha256": "354769c8813c3b6a130f9e8cea298332fa0952abfc56d702950bcdb1f80e183f",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.up.idle",
+      "rect": [
+        72,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "up",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "paintedPixels": 358,
+      "colorCount": 15,
+      "sha256": "48722c87e3cc170dd87402b69b73421affa240cb5cb218e8973bb7233025606f",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.up.strideA",
+      "rect": [
+        96,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "up",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 362,
+      "colorCount": 15,
+      "sha256": "e32fc01572d7a2e060cc27de7be1ff16616ebfd92b85c669495062109293f7c0",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.up.strideB",
+      "rect": [
+        120,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "up",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 362,
+      "colorCount": 15,
+      "sha256": "2d04a6db0a833921e943009859c9114c987da2d75a6fddd9c3f6e44017829079",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.left.idle",
+      "rect": [
+        144,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "left",
+      "pose": "idle",
+      "opaqueBBox": [
+        2,
+        5,
+        21,
+        31
+      ],
+      "paintedPixels": 315,
+      "colorCount": 14,
+      "sha256": "cf0e5c60996cc861a15861bb1aea248875fae1bb83b88d5ac7f193383b56e202",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.left.strideA",
+      "rect": [
+        168,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "left",
+      "pose": "strideA",
+      "opaqueBBox": [
+        2,
+        5,
+        21,
+        32
+      ],
+      "paintedPixels": 319,
+      "colorCount": 14,
+      "sha256": "3361415ffad0dd9fec19af57f487926a0a4c6ae51d2ce9ec03c081373cac5685",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.left.strideB",
+      "rect": [
+        192,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "left",
+      "pose": "strideB",
+      "opaqueBBox": [
+        2,
+        5,
+        21,
+        32
+      ],
+      "paintedPixels": 318,
+      "colorCount": 14,
+      "sha256": "4f6845414f8bb04ba8f5bf221d5d43388db0de985d929bd0679a436d7ea7c51b",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.right.idle",
+      "rect": [
+        216,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "right",
+      "pose": "idle",
+      "opaqueBBox": [
+        3,
+        5,
+        22,
+        31
+      ],
+      "paintedPixels": 316,
+      "colorCount": 14,
+      "sha256": "3d5e832b84aeb167f6857ca8d16afab603105cf112ef8c87366b1b1a184afa2f",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.right.strideA",
+      "rect": [
+        240,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "right",
+      "pose": "strideA",
+      "opaqueBBox": [
+        3,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 320,
+      "colorCount": 14,
+      "sha256": "44f9150ee76eb73fc1f56051215fb92396c7a6fee024fe7dd3198375733fdb04",
+      "status": "comparison-awaiting-user-choice"
+    },
+    {
+      "id": "compare.professor.24.right.strideB",
+      "rect": [
+        264,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "character": "professor",
+      "budget": 24,
+      "direction": "right",
+      "pose": "strideB",
+      "opaqueBBox": [
+        3,
+        5,
+        22,
+        32
+      ],
+      "paintedPixels": 319,
+      "colorCount": 14,
+      "sha256": "cf167e2444e7832bad0e47746102e9afb42b7ae16b1030f464a758cc7710eded",
+      "status": "comparison-awaiting-user-choice"
+    }
+  ],
+  "animation": {
+    "tickSeconds": 0.016742706298828125,
+    "walkTicksPerTile": 16,
+    "holds": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "cycle": [
+      "strideA",
+      "idle",
+      "strideB",
+      "idle"
+    ]
+  }
+}

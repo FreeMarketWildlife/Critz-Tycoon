@@ -1,0 +1,18 @@
+{
+  "task": "M1.C1",
+  "gameplayRuntimePreserved": {
+    "style.css": true,
+    "assets/playable/atlas.png": true,
+    "assets/playable/atlas.json": true,
+    "src/art.js": true,
+    "src/atlas.js": true,
+    "src/grid-save.js": true,
+    "src/main.js": true,
+    "src/movement.js": true,
+    "src/render.js": true,
+    "src/state.js": true,
+    "src/tank-render.js": true,
+    "src/world.js": true
+  },
+  "indexChange": "Adds only a link to the isolated comparison page; no canvas/control/entrypoint changes."
+}

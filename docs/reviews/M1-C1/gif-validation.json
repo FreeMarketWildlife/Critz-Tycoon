@@ -1,0 +1,51 @@
+{
+  "dimensions": [
+    400,
+    610
+  ],
+  "scale": 4,
+  "frameCount": 48,
+  "directions": [
+    "down",
+    "left",
+    "up",
+    "right"
+  ],
+  "cycle": [
+    "strideA",
+    "idle",
+    "strideB",
+    "idle"
+  ],
+  "cyclesPerDirection": 3,
+  "requestedHoldMs": 133.941650390625,
+  "encodedHoldValuesMs": [
+    130,
+    140
+  ],
+  "averageEncodedHoldMs": 133.95833333333334,
+  "loopDurationMs": 6430,
+  "gifTimingNote": "GIF centisecond timing uses carried 130/140 ms rounding.",
+  "sourceOpaqueColorCount": 43,
+  "globalPaletteColorCount": 49,
+  "sourcePalettePreserved": true,
+  "gifRoundtripPixelExact": true,
+  "spriteBlocksExactNearestNeighbor": true,
+  "sourceAssetsRead": 72,
+  "footAnchorYByRow": {
+    "mom": 244,
+    "kaid": 404,
+    "professor": 564
+  },
+  "atlasSha256": "b0976d65931a5c87b6b19973b0daa951a4a2f7df40c0138fbac3ec5961a49dae",
+  "metadataSha256": "5e84b32f550a40e94c5541653db4e35d7d9b31587487eb2c0125abda416d12bd",
+  "gifSha256": "9d8bcb304162b7fe21b14ec17d564e48d3dd7b029093de7a34d28d5aa75783ff",
+  "posterSha256": "da29c362accef37f17fce52854b460b9d38c456364641d1905c0353bd10bb6e0",
+  "gifBytes": 583276,
+  "pillowVersion": "12.3.0",
+  "posterPose": {
+    "direction": "down",
+    "pose": "idle"
+  },
+  "altText": "Animated comparison of Mom, Kaid, and Professor Nugget in three rows. The left column uses 16 by 32 pixel frames and the right uses 24 by 32 pixel frames. Both columns use the same four-times pixel scale and aligned foot anchors. Each character walks facing down, left, up, then right, with a visible facing label. The sequence repeats. This is review artwork awaiting user choice."
+}

@@ -1,0 +1,25 @@
+{
+  "task": "M1.C1",
+  "sourceAndDistMatch": true,
+  "sha256": {
+    "index.html": "a20bed216b99ff1eab1245f45ef00f6627747304fed07289466bcc70b5a191c6",
+    "style.css": "42fab3a3eb10ab8e41f518ad4c58d60cf46144b221f2dd8c8b1fdc26240fe61c",
+    "assets/playable/atlas.png": "64853f46d5b823600fc58e8914877b41a49e05873af08fee96bd164d08bfe84a",
+    "assets/playable/atlas.json": "b2a4d0e0fb98c59058dcc9f2f3ba7b4a7cb0d9cca61f110b9d5199433ca089cc",
+    "src/art.js": "b9076844cad6ee6be15b6684738d6ffa6b5a915a9821af0debc408ac5181895a",
+    "src/atlas.js": "b0a4049e7cab40a222a2d6712769aae367041924d965ca17636bc9d8d5b24231",
+    "src/grid-save.js": "178d5200d91ba76be096f76c3f9f4bbe8544e4857b59e4fb196db428b9735c4c",
+    "src/main.js": "451cdc7bfcd299d5604e4073a3345c8843175e9d7e1f0039b6caac983785fe1b",
+    "src/movement.js": "0a791a774a8d37691b822242be668bd8b26409b7034bb3a7c3969158af206821",
+    "src/render.js": "a87355adf79506776dfe57ba1e0d4714c2f97fb4677614bc6ef58d50c9e8e756",
+    "src/state.js": "b55e7e7fe4a0c95e603e452cd0bbe842c2fcb30b4bb8b6e514ee8a10f80dc7d4",
+    "src/tank-render.js": "835946df5563eff41cbfb900d174febce03c35f2ae81688d31f26e8196f493d9",
+    "src/world.js": "3acf0bc67b2391b9ea0107fe4b34d1809635cb593ac67938042ad88d7e7ea610",
+    "art-review/budgets.html": "9845c18992f2a7dab0d5ec824e14e3640be5047b968ce9038f4042e1d13ce6a3",
+    "art-review/budgets.js": "8365520b3b5a2a5ff2866b721234994c99b0b7a637f3b257c45ba16b69cd8205",
+    "art-review/budgets.css": "4d4e14a8522514091b800d02a357d2e79e2fb05f4c71ca5e9c5faeb9cc2dcd70",
+    "assets/review/budget-comparison/atlas.json": "5e84b32f550a40e94c5541653db4e35d7d9b31587487eb2c0125abda416d12bd",
+    "assets/review/budget-comparison/atlas.png": "b0976d65931a5c87b6b19973b0daa951a4a2f7df40c0138fbac3ec5961a49dae",
+    "assets/review/budget-comparison/character-budget-comparison.gif": "9d8bcb304162b7fe21b14ec17d564e48d3dd7b029093de7a34d28d5aa75783ff"
+  }
+}

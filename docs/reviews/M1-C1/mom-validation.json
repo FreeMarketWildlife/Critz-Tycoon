@@ -1,0 +1,353 @@
+{
+  "paletteColors": 15,
+  "poseCount": 24,
+  "budgets": {
+    "16": {
+      "down.idle": {
+        "bbox": [
+          1,
+          10,
+          15,
+          31
+        ],
+        "visible": [
+          14,
+          21
+        ],
+        "opaqueColors": 14,
+        "pixels": 196
+      },
+      "down.strideA": {
+        "bbox": [
+          1,
+          10,
+          15,
+          32
+        ],
+        "visible": [
+          14,
+          22
+        ],
+        "opaqueColors": 14,
+        "pixels": 202
+      },
+      "down.strideB": {
+        "bbox": [
+          1,
+          10,
+          15,
+          32
+        ],
+        "visible": [
+          14,
+          22
+        ],
+        "opaqueColors": 14,
+        "pixels": 202
+      },
+      "up.idle": {
+        "bbox": [
+          1,
+          10,
+          15,
+          31
+        ],
+        "visible": [
+          14,
+          21
+        ],
+        "opaqueColors": 11,
+        "pixels": 196
+      },
+      "up.strideA": {
+        "bbox": [
+          1,
+          10,
+          15,
+          32
+        ],
+        "visible": [
+          14,
+          22
+        ],
+        "opaqueColors": 12,
+        "pixels": 202
+      },
+      "up.strideB": {
+        "bbox": [
+          1,
+          10,
+          15,
+          32
+        ],
+        "visible": [
+          14,
+          22
+        ],
+        "opaqueColors": 11,
+        "pixels": 202
+      },
+      "left.idle": {
+        "bbox": [
+          3,
+          10,
+          13,
+          31
+        ],
+        "visible": [
+          10,
+          21
+        ],
+        "opaqueColors": 15,
+        "pixels": 156
+      },
+      "left.strideA": {
+        "bbox": [
+          2,
+          10,
+          13,
+          32
+        ],
+        "visible": [
+          11,
+          22
+        ],
+        "opaqueColors": 15,
+        "pixels": 165
+      },
+      "left.strideB": {
+        "bbox": [
+          2,
+          10,
+          13,
+          32
+        ],
+        "visible": [
+          11,
+          22
+        ],
+        "opaqueColors": 15,
+        "pixels": 165
+      },
+      "right.idle": {
+        "bbox": [
+          3,
+          10,
+          13,
+          31
+        ],
+        "visible": [
+          10,
+          21
+        ],
+        "opaqueColors": 15,
+        "pixels": 156
+      },
+      "right.strideA": {
+        "bbox": [
+          3,
+          10,
+          14,
+          32
+        ],
+        "visible": [
+          11,
+          22
+        ],
+        "opaqueColors": 15,
+        "pixels": 165
+      },
+      "right.strideB": {
+        "bbox": [
+          3,
+          10,
+          14,
+          32
+        ],
+        "visible": [
+          11,
+          22
+        ],
+        "opaqueColors": 15,
+        "pixels": 165
+      }
+    },
+    "24": {
+      "down.idle": {
+        "bbox": [
+          2,
+          5,
+          22,
+          31
+        ],
+        "visible": [
+          20,
+          26
+        ],
+        "opaqueColors": 15,
+        "pixels": 349
+      },
+      "down.strideA": {
+        "bbox": [
+          2,
+          5,
+          22,
+          32
+        ],
+        "visible": [
+          20,
+          27
+        ],
+        "opaqueColors": 15,
+        "pixels": 356
+      },
+      "down.strideB": {
+        "bbox": [
+          2,
+          5,
+          22,
+          32
+        ],
+        "visible": [
+          20,
+          27
+        ],
+        "opaqueColors": 15,
+        "pixels": 356
+      },
+      "up.idle": {
+        "bbox": [
+          2,
+          5,
+          22,
+          31
+        ],
+        "visible": [
+          20,
+          26
+        ],
+        "opaqueColors": 13,
+        "pixels": 349
+      },
+      "up.strideA": {
+        "bbox": [
+          2,
+          5,
+          22,
+          32
+        ],
+        "visible": [
+          20,
+          27
+        ],
+        "opaqueColors": 13,
+        "pixels": 356
+      },
+      "up.strideB": {
+        "bbox": [
+          2,
+          5,
+          22,
+          32
+        ],
+        "visible": [
+          20,
+          27
+        ],
+        "opaqueColors": 13,
+        "pixels": 356
+      },
+      "left.idle": {
+        "bbox": [
+          4,
+          5,
+          17,
+          31
+        ],
+        "visible": [
+          13,
+          26
+        ],
+        "opaqueColors": 15,
+        "pixels": 251
+      },
+      "left.strideA": {
+        "bbox": [
+          3,
+          5,
+          17,
+          32
+        ],
+        "visible": [
+          14,
+          27
+        ],
+        "opaqueColors": 15,
+        "pixels": 261
+      },
+      "left.strideB": {
+        "bbox": [
+          4,
+          5,
+          17,
+          32
+        ],
+        "visible": [
+          13,
+          27
+        ],
+        "opaqueColors": 15,
+        "pixels": 261
+      },
+      "right.idle": {
+        "bbox": [
+          7,
+          5,
+          20,
+          31
+        ],
+        "visible": [
+          13,
+          26
+        ],
+        "opaqueColors": 15,
+        "pixels": 251
+      },
+      "right.strideA": {
+        "bbox": [
+          7,
+          5,
+          21,
+          32
+        ],
+        "visible": [
+          14,
+          27
+        ],
+        "opaqueColors": 15,
+        "pixels": 261
+      },
+      "right.strideB": {
+        "bbox": [
+          7,
+          5,
+          20,
+          32
+        ],
+        "visible": [
+          13,
+          27
+        ],
+        "opaqueColors": 15,
+        "pixels": 261
+      }
+    }
+  },
+  "sourceSha256": "38ffacccdaa66277a65f19008e3a119ae8a4fdd6d2450fbb34ea8f3fed92026b",
+  "allRowsCorrectWidth": true,
+  "allRowsCorrectHeight": true,
+  "idleLastPaintedRow": 30,
+  "strideLastPaintedRow": 31,
+  "facePolish": "Shorter selectively outlined profile noses and dedicated near-black eyes (#11131d). All body rows21\u201331 and puff rows0\u201312 unchanged.",
+  "rightProfile": "Opposite geometry reconstructed from left and re-lit; fully stored indexed rows."
+}

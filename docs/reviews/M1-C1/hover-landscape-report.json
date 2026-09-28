@@ -1,0 +1,216 @@
+{
+  "url": "http://localhost:5181/art-review/budgets.html",
+  "startedAt": "2026-09-28T01:23:49.524Z",
+  "cssSHA256": "4d4e14a8522514091b800d02a357d2e79e2fb05f4c71ca5e9c5faeb9cc2dcd70",
+  "checks": [
+    {
+      "name": "mom selected hover contrast",
+      "status": "pass",
+      "resting": {
+        "background": "rgb(217, 216, 178)",
+        "color": "rgb(25, 55, 59)"
+      },
+      "hovered": {
+        "background": "rgb(217, 216, 178)",
+        "color": "rgb(25, 55, 59)"
+      },
+      "contrast": 8.731605181398745
+    },
+    {
+      "name": "kaid selected hover contrast",
+      "status": "pass",
+      "resting": {
+        "background": "rgb(217, 216, 178)",
+        "color": "rgb(25, 55, 59)"
+      },
+      "hovered": {
+        "background": "rgb(217, 216, 178)",
+        "color": "rgb(25, 55, 59)"
+      },
+      "contrast": 8.731605181398745
+    },
+    {
+      "name": "professor selected hover contrast",
+      "status": "pass",
+      "resting": {
+        "background": "rgb(217, 216, 178)",
+        "color": "rgb(25, 55, 59)"
+      },
+      "hovered": {
+        "background": "rgb(217, 216, 178)",
+        "color": "rgb(25, 55, 59)"
+      },
+      "contrast": 8.731605181398745
+    },
+    {
+      "name": "selected auto button hover contrast",
+      "status": "pass",
+      "styles": {
+        "background": "rgb(217, 216, 178)",
+        "color": "rgb(25, 55, 59)"
+      },
+      "contrast": 8.731605181398745
+    },
+    {
+      "name": "844×390 landscape contains canvases and button labels without horizontal document overflow",
+      "status": "pass",
+      "dimensions": {
+        "documentWidth": 844,
+        "viewportWidth": 844,
+        "canvases": [
+          {
+            "id": "close16",
+            "size": [
+              256,
+              192
+            ],
+            "native": [
+              64,
+              48
+            ],
+            "parentSize": [
+              391,
+              218
+            ],
+            "contained": true
+          },
+          {
+            "id": "room16",
+            "size": [
+              240,
+              160
+            ],
+            "native": [
+              240,
+              160
+            ],
+            "parentSize": [
+              391,
+              160
+            ],
+            "contained": true
+          },
+          {
+            "id": "close24",
+            "size": [
+              256,
+              192
+            ],
+            "native": [
+              64,
+              48
+            ],
+            "parentSize": [
+              391,
+              218
+            ],
+            "contained": true
+          },
+          {
+            "id": "room24",
+            "size": [
+              240,
+              160
+            ],
+            "native": [
+              240,
+              160
+            ],
+            "parentSize": [
+              391,
+              160
+            ],
+            "contained": true
+          }
+        ],
+        "buttons": [
+          {
+            "label": "Mom",
+            "width": 61,
+            "scrollWidth": 61,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "Kaid",
+            "width": 59,
+            "scrollWidth": 59,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "Professor Nugget",
+            "width": 148,
+            "scrollWidth": 148,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "Play",
+            "width": 58,
+            "scrollWidth": 58,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "Step 1 tick",
+            "width": 105,
+            "scrollWidth": 105,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "Auto walk on",
+            "width": 121,
+            "scrollWidth": 121,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "↑",
+            "width": 42,
+            "scrollWidth": 42,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "←",
+            "width": 42,
+            "scrollWidth": 42,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "↓",
+            "width": 42,
+            "scrollWidth": 42,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "→",
+            "width": 42,
+            "scrollWidth": 42,
+            "height": 42,
+            "scrollHeight": 42
+          },
+          {
+            "label": "Reset position",
+            "width": 129,
+            "scrollWidth": 129,
+            "height": 42,
+            "scrollHeight": 42
+          }
+        ]
+      }
+    }
+  ],
+  "screenshots": [
+    "/tmp/critz-m1c1-qa/evidence/mom-comparison-desktop.png",
+    "/tmp/critz-m1c1-qa/evidence/kaid-comparison-desktop.png",
+    "/tmp/critz-m1c1-qa/evidence/professor-comparison-desktop.png",
+    "/tmp/critz-m1c1-qa/evidence/comparison-844x390.png",
+    "/tmp/critz-m1c1-qa/evidence/landscape-844x390-viewport.png"
+  ],
+  "finishedAt": "2026-09-28T01:23:51.288Z"
+}

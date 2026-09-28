@@ -1,0 +1,672 @@
+{
+  "passed": 165,
+  "checks": [
+    {
+      "name": "mom: palette <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "mom/16: frame dimensions",
+      "pass": true
+    },
+    {
+      "name": "mom/16: ground anchor",
+      "pass": true
+    },
+    {
+      "name": "mom/16/down/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/down/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/down/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/down/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/down/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/down/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/up/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/up/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/up/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/up/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/up/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/up/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/left/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/left/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/left/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/left/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/left/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/left/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/right/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/right/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/right/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/right/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16/right/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/16/right/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/16: distinct directional/gait drawings",
+      "pass": true
+    },
+    {
+      "name": "mom/24: frame dimensions",
+      "pass": true
+    },
+    {
+      "name": "mom/24: ground anchor",
+      "pass": true
+    },
+    {
+      "name": "mom/24/down/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/down/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/down/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/down/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/down/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/down/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/up/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/up/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/up/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/up/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/up/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/up/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/left/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/left/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/left/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/left/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/left/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/left/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/right/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/right/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/right/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/right/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24/right/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "mom/24/right/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "mom/24: distinct directional/gait drawings",
+      "pass": true
+    },
+    {
+      "name": "kaid: palette <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "kaid/16: frame dimensions",
+      "pass": true
+    },
+    {
+      "name": "kaid/16: ground anchor",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/down/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/down/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/down/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/down/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/down/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/down/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/up/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/up/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/up/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/up/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/up/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/up/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/left/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/left/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/left/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/left/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/left/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/left/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/right/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/right/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/right/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/right/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/right/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/16/right/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/16: distinct directional/gait drawings",
+      "pass": true
+    },
+    {
+      "name": "kaid/24: frame dimensions",
+      "pass": true
+    },
+    {
+      "name": "kaid/24: ground anchor",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/down/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/down/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/down/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/down/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/down/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/down/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/up/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/up/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/up/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/up/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/up/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/up/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/left/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/left/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/left/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/left/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/left/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/left/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/right/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/right/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/right/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/right/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/right/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "kaid/24/right/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "kaid/24: distinct directional/gait drawings",
+      "pass": true
+    },
+    {
+      "name": "professor: palette <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "name": "professor/16: frame dimensions",
+      "pass": true
+    },
+    {
+      "name": "professor/16: ground anchor",
+      "pass": true
+    },
+    {
+      "name": "professor/16/down/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/down/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/down/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/down/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/down/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/down/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/up/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/up/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/up/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/up/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/up/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/up/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/left/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/left/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/left/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/left/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/left/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/left/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/right/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/right/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/right/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/right/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16/right/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/16/right/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/16: distinct directional/gait drawings",
+      "pass": true
+    },
+    {
+      "name": "professor/24: frame dimensions",
+      "pass": true
+    },
+    {
+      "name": "professor/24: ground anchor",
+      "pass": true
+    },
+    {
+      "name": "professor/24/down/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/down/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/down/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/down/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/down/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/down/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/up/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/up/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/up/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/up/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/up/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/up/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/left/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/left/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/left/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/left/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/left/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/left/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/right/idle: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/right/idle: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/right/strideA: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/right/strideA: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24/right/strideB: full untrimmed rows",
+      "pass": true
+    },
+    {
+      "name": "professor/24/right/strideB: foot baseline",
+      "pass": true
+    },
+    {
+      "name": "professor/24: distinct directional/gait drawings",
+      "pass": true
+    }
+  ],
+  "assetCount": 72,
+  "sourceRoles": [
+    "mom",
+    "kaid",
+    "nugget"
+  ],
+  "atlasSha256": "b0976d65931a5c87b6b19973b0daa951a4a2f7df40c0138fbac3ec5961a49dae"
+}

@@ -119,3 +119,7 @@ The first Critz environment draft passed elementary grid constraints but the use
 - **Build connected compositions.** Keep paths clear of border trees, bridge the full stream width, connect each doorstep to a lane, and leave room below south-facing doors. These static layout checks do not prove collision or movement.
 
 Current review: [M1.E1 packet](reviews/M1-E1/README.md), [revision-2 native proof](../assets/review/environment-v2/house-tree-native.png), [exact 4× proof](reviews/M1-E1/revision-2/house-tree-4x.png). The revised proof is **awaiting user feedback**, not an accepted art example. Indoor furniture, all town maps and the production tileset must be revised after the direction is settled. The planned Hero/Mom scale test and G1/G2 gates remain outstanding.
+
+## M1.C1 character-budget comparison (2026-09-27)
+
+The user likes the supporting-character concept designs and requested animated 16×32 versus 24×32 samples. [The comparison](reviews/M1-C1/README.md) uses Mom, Kaid and Nugget at equal pixel zoom with the same 16px tile movement. This is a proposed character-only budget comparison, not a change to the 240×160 viewport, map grid, or approved production standard. Final budget and native-sheet acceptance await the user.
