@@ -134,4 +134,4 @@ Combined playable review includes the existing 11 scenes, native shared atlas, m
 
 Authorized 2026-09-27 after the user liked the concept characters: compare three representative designs at 16×32 and 24×32 with walking animations. Independently author each budget at native resolution, preserve identity/palette, show matched timing/scale and room context, and publish a separate review. The game retains its current artwork and saves. Final budget selection and final-art acceptance await the user's comparison; this task does not authorize applying the larger standard to the full roster.
 
-M1.C1 implementation and technical checks are complete. Comparison delivery is being published; budget selection and art acceptance remain awaiting user review. The existing game keeps its current art until that choice.
+M1.C1 implementation and technical checks are complete. Comparison delivery is published; budget selection and art acceptance remain awaiting user review. The existing game keeps its current art until that choice.

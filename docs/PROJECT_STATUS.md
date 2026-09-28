@@ -2,7 +2,7 @@
 
 ## M1.C1 — Animated character-budget comparison, 2026-09-27
 
-**Implementation and checks complete; publishing in progress. Budget choice and art acceptance await the user.** The user likes the supporting-character concept study and requests two proposed native character budgets side by side, including walking. Active task **M1.C1**, on `main`; clean opening baseline `12a6104f5d27ec91ea7d0938c44d4ff7b214381e`.
+**Implementation, checks and publication complete. Budget choice and art acceptance await the user.** The user likes the supporting-character concept study and requests two proposed native character budgets side by side, including walking. Active task **M1.C1**, on `main`; clean opening baseline `12a6104f5d27ec91ea7d0938c44d4ff7b214381e`.
 
 Deliverable: `/art-review/budgets.html`, with Mom, Kaid and Professor Nugget independently authored in **16×32 and 24×32** frames. One **288×192 transparent atlas, 72 stable entries** covers idle/two strides in four directions. Both sides share palette, ground anchoring, exact pixel zoom, room, controller, coordinates and gait phase. The page offers synchronized auto walking, keyboard/touch movement, pause, single-tick stepping and frame guides. Current game art/progress remain unchanged; the game footer adds a comparison link. Positive concept feedback is recorded, without treating it as a final native-sheet or game-wide budget approval. [Study notes](reviews/M1-C1/README.md).
 
@@ -10,7 +10,11 @@ Actual checks: **165/165 authoring**, **7/7 decoded-PNG** (binary alpha, exact s
 
 Limits: representative walking study only, with final full-roster art and running frames following the user's choice. Frame width and painted height both differ intentionally. Generated walking concepts are pose guides, not validated native sprites; exact editable rows are exported separately. Physical iPhone/Safari and Emerald emulator capture were not tested. The unchanged game's prior full story/browser journey was not repeated for this isolated review. None of these checks substitutes for the user's visual or movement acceptance.
 
-Exact next action: publish the tested comparison, record deployment/source evidence, then let the user compare the two budgets in motion before applying a chosen standard to the cast.
+**Delivery source:** `51349d1cda0862fc4e9cae664dcbb1fd1c00e418`, committed on `main`, pushed to GitHub `origin/main` and verified against local HEAD. The Sites workflow separately pushed and verified this exact source. All **19 deployed runtime hashes** match the browser-tested source/build, including comparison HTML/CSS/JS, native PNG/metadata and the animated GIF. [Runtime hashes](reviews/M1-C1/tested-runtime.json).
+
+**Deployment succeeded** at **2026-09-28 01:30:31 UTC** (Sept 27, 18:30 Pacific): `appgdep_6ab9c32ce72c8191a3ef759bd093e19f`, saved version `appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_84427f5e45008191aad1451cdbbec937`, native status `succeeded`, no failure message. Existing owner-only audience and origin are preserved. [Open the animated comparison](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/budgets.html) · [Play the current game](https://critz-tycoon.freemarketwildlife.chatgpt.site) · [Deployment receipt](reviews/M1-C1/deployment.json).
+
+**Exact next action:** the user compares A (16×32) and B (24×32), including all four walking directions, and chooses the character budget/design direction. Implementation/delivery is complete; artwork and budget acceptance remain awaiting review. This following documentation-only receipt changes no tested runtime and requires no duplicate deployment. No unrelated edits were present or included; local build/test caches remain ignored. Receipt HEAD is pushed and verified separately before handoff.
 
 ## M1.I2 — Playable visual-review delivery, 2026-09-27
 

@@ -36,4 +36,4 @@ The review imports no game persistence/entrypoint module, reads no game saves, a
 
 Desktop comparisons, mobile portrait/landscape and all native frames were visually inspected. Browser device emulation is not a physical iPhone/Safari test. The user decides whether either budget preserves the desired charm and whether these drawings/animations are acceptable. Technical checks do not provide that approval.
 
-Publication evidence is recorded in [PROJECT_STATUS](../../PROJECT_STATUS.md) and the deployment receipt after publishing. Next action: review A versus B in motion and choose the budget/design direction before replacing the game's character artwork.
+Publication succeeded; evidence is recorded in [PROJECT_STATUS](../../PROJECT_STATUS.md) and the [deployment receipt](deployment.json). Next action: review A versus B in motion and choose the budget/design direction before replacing the game's character artwork.
