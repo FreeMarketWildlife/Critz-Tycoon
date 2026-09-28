@@ -69,6 +69,7 @@ The pharmacy purchase exists, but **no weekly deadline or repeat tank-breaking e
 - `src/state.js`: pure state, simulation, economy, posting and save validation.
 - `src/art.js`: original Canvas tilework, sprites, and tank renderer.
 - `docs/GAME_VISION.md`: confirmed full vision and proposed future ideas.
+- [Ideas notebook](docs/IDEAS.md): organized brainstorming, draft dialogue, and future wishes.
 - `docs/SYSTEMS.md`: exact simulation and scoring rules.
 - `docs/QA.md`: verification scope and remaining limitations.
 

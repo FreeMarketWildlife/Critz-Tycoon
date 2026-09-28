@@ -1,5 +1,15 @@
 # Project status
 
+## IDEAS.1 — Ideas notebook, 2026-09-27
+
+**Documentation complete.** User requested a running ideas file and supplied the P2W shop concept. [IDEAS.md](IDEAS.md) records IDEA-001: Peigh (walking dollar sign), his wife Teawin (walking teacup), their luxury real-money-only Liarsville shop, first-ad encounter, shop dialogue, one-time $4.99 permanent ad removal, cosmetics, special fish, premium quests, and limited-time stock. Draft wording and unresolved details are labeled. README links the notebook.
+
+Work is on `main`, clean opening baseline `708b56bba3423368acda80f71a4c8424582c00fc`. Scope is documentation only; no runtime, art, save, milestone, or visual approval changes. Checks: reviewed the captured details against the user’s request; relative documentation links and `git diff --check` checked before commit. Gameplay tests are unnecessary for this documentation-only change.
+
+Delivery: task documentation is committed and pushed to `origin/main`, with remote HEAD verified before handoff; exact delivery SHA is reported in the handoff. No deployment is required: the playable build and its existing phone URL remain unchanged. No unrelated edits were present at task start; remaining working-tree state is checked after push.
+
+**Exact next action:** append and organize the user’s next ideas in the notebook. M1.C3 visual acceptance still awaits the user; this capture does not begin new implementation.
+
 ## M1.C3 — All-cast directional walking review
 
 **Implementation, checks and publication complete. Final visual acceptance awaits the user.** The user requests walking animations for each of the twelve delivered characters and a GIF showing everyone. This supersedes the prior still-only limitation for the animation task. Work is directly on `main`, clean baseline `4b5b62013d1ac800e9cbcafecb82a0f6d3d9d611`.
