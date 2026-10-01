@@ -109,42 +109,125 @@ The desired behavior includes:
 - The player should not have to guess which tile is the exit.
 - Door/exit behavior, animation timing, player movement, facing, and scene transition should eventually be treated as one reusable system rather than being improvised per map.
 
-### Character pixel-budget question
+### Pixel budget — current preference: exactly 2× Emerald
 
-The native character pixel budget is **not settled yet**.
+The current preference is to **lean toward an exactly 2× native pixel budget** rather than staying at the original Emerald resolution.
 
-Earlier thought: scaling Emerald’s character budget up by exactly 2× might give Critz more room while preserving the same proportions and pixel-art logic.
+The proposed relationship is intentionally simple:
 
-Latest thought after reviewing additional user-supplied GIF references:
+| | Pokémon Emerald reference | Proposed Critz target |
+| --- | ---: | ---: |
+| Native viewport | **240×160 px** | **480×320 px** |
+| Visible tile count | **15×10 tiles** | **15×10 tiles** |
+| Tile size | **16×16 px** | **32×32 px** |
+| Spatial composition | Same 15×10-tile view | Same 15×10-tile view, with 2× pixels per tile |
 
-- It appears entirely possible to make appealing, distinct characters **within the original Pokémon Emerald-sized pixel budget**.
-- Therefore, Critz may not need a 2× character pixel budget at all.
-- The new reference GIF is important because it shows that recognizable, expressive character art can still be achieved with roughly the original Emerald constraints.
-- The preference is now to **seriously test the original Emerald budget before increasing it**.
-- A larger budget should only be adopted if Critz characters genuinely cannot achieve the needed readability, identity, animation, and charm at the original scale.
-- This should be treated as a visual comparison decision, not assumed from theory: create representative Critz characters at the Emerald-like native budget and compare them against a 2× interpretation at equal display scale.
+The reason for doubling the resolution while preserving the same number of visible tiles is to keep the **composition, density, and overworld scale logic** of Pokémon Emerald while giving Critz substantially more room for detail.
+
+For characters, the intended rule is especially important:
+
+- **Every overworld character’s entire body should fit inside one 32×32 tile.**
+- Characters should not visually feel two or three tiles tall.
+- The world should continue to read on a one-character-per-tile grid, just with a higher-resolution drawing budget inside that tile.
+- This is meant to solve some of the current game’s strange scale feeling: characters, structures, terrain, and movement should all feel like they belong to the same coherent tile system.
+- The earlier idea of staying at the original Emerald-sized character budget remains useful as evidence that good low-resolution characters are possible, but the current preference is now **2× because it allows more detail without changing the underlying 15×10 composition**.
+
+### Environment depth and transition-tile technique
+
+A major part of making the world feel less flat should be the deliberate use of **boundary/transition tiles that contain two surfaces or elevations at once**.
+
+The desired technique:
+
+- **The core technique:** boundary tiles should visually contain pieces of both neighboring surfaces. For example, one tile might contain rocky ground along its lower portion and the beginning of a lava pool along its upper portion.
+- **The illusion of depth:** the boundary tile can be marked impassable in collision. The character’s feet stop at the edge, while the artwork itself blends both surfaces together inside that tile. Visually, this makes the player appear to stand naturally beside a ledge, wall, pool, shoreline, structure, or other elevation change rather than next to a hard square edge.
+- **The checkerboard fix:** without transition art, different terrain types can read like flat colored blocks placed next to one another. Baking overlap, lips, borders, shadows, and surface transitions into boundary tiles helps the world feel continuous and spatially layered.
+- Collision should remain separate from appearance: a tile may visually contain two surfaces while still being a single blocked or passable gameplay cell according to the map data.
+- This should become a consistent environment-art rule for walls, cliffs, water, pools, shorelines, building edges, garden beds, fences, raised terrain, and similar boundaries.
+
+The important visual goal is that Critz should **not look like a checkerboard of isolated 32×32 squares**, even though it is built on a 32×32 placement grid.
+
+### Restricted world palette — proposed direction
+
+The world should also use a deliberately restricted reusable palette instead of freely introducing new colors from asset to asset.
+
+Current proposed palette:
+
+**Row 1 — System, greens / forests, blues / lakes and oceans**
+
+| Role | Hex |
+| --- | --- |
+| System black | `#000000` |
+| Light green | `#C2F3A1` |
+| Mid green | `#64CD63` |
+| Deep green | `#218739` |
+| Dark forest green | `#0E4B1F` |
+| Light water blue | `#BCEEFA` |
+| Mid water blue | `#46B2E6` |
+| Deep water blue | `#1862B5` |
+| Dark navy | `#0A2B66` |
+
+**Row 2 — Earth tones & mountains: browns, grays, oranges**
+
+| Role | Hex |
+| --- | --- |
+| Warm cream | `#FFF4D4` |
+| Light tan | `#DEB887` |
+| Mid brown | `#9E6A38` |
+| Dark brown | `#5E3A1A` |
+| Light orange earth | `#DCA060` |
+| Deep orange earth | `#A86834` |
+| Light gray | `#D2D6DC` |
+| Mid gray | `#8A92A6` |
+| Dark gray | `#4A5260` |
+
+**Row 3 — Accents & settlements: reds, yellows, purples, shadows**
+
+| Role | Hex |
+| --- | --- |
+| Bright red | `#FF5252` |
+| Deep red | `#B81D24` |
+| Bright yellow | `#FFD54F` |
+| Deep gold | `#C69500` |
+| Light purple | `#D7A6EC` |
+| Deep purple | `#803BB0` |
+| Purple-black shadow | `#2B1D38` |
+| Near-white | `#FDFEFE` |
+| Near-black | `#161A1D` |
+
+This palette should be treated as a **strong proposed world palette / starting restriction**, not an excuse to make every asset use every color. Individual sprites and tiles should still use small local subsets and disciplined ramps.
+
+The intended benefit is consistency: forests, lakes, mountains, towns, roofs, paths, shadows, and UI-adjacent world elements should look like they belong to the same game rather than having independently generated palettes.
 
 ### Pixel-art principle
 
-The broader goal is not “make everything higher resolution because we can.” The goal is to preserve the visual economy that makes Pokémon Emerald readable and charming.
+The goal is **not** simply to make Pokémon Emerald art twice as large. The goal is to preserve Emerald’s compositional discipline while giving Critz exactly twice the linear pixel resolution to draw with.
 
-If the original Emerald-scale budget works, prefer it. Extra pixels should only be introduced when they clearly improve Critz rather than simply making the sprites larger or less disciplined.
+That means:
+
+- Same **15×10 visible tile composition**.
+- Same grid-based readability and compact overworld feel.
+- **32×32 tiles instead of 16×16**.
+- Characters contained within a **single 32×32 tile**.
+- More pixels available for faces, clothing, silhouettes, materials, foliage, water edges, and animation.
+- No smoothing, antialiasing, subpixel placement, or “HD pixel art” shortcuts that undermine the grid.
+- More detail should come from better pixel clusters and better drawing, not from making objects arbitrarily larger in tile-space.
 
 ### References supplied by the user
 
-The user supplied animated visual references showing:
+The user supplied animated visual references showing both:
 
-- an Emerald-style character redraw at a higher pixel budget, useful for evaluating a possible 2× approach; and
-- a separate low-resolution character example demonstrating that attractive characters can still be made within an Emerald-like original budget.
+- an Emerald-style character redrawn with a larger pixel budget, demonstrating the kind of additional detail a higher-resolution budget can support; and
+- a low-resolution character example showing that strong character designs are possible even at an Emerald-like original budget.
 
-These references are design evidence for the future comparison, not shipped Critz artwork and not automatic approval of either budget.
+The second reference is still useful because it proves that the game does not *need* extra pixels just to make recognizable characters. The current preference for 2× is instead about gaining **more detail while keeping the exact same tile-count composition and compact world scale**.
 
 ### Questions to resolve when this enters implementation
 
-- Define the exact native sprite/frame dimensions being compared as “Emerald budget” versus “2× budget.”
-- Identify several representative Critz characters to test, including at least the Hero and characters with unusual silhouettes.
+- Verify the 480×320 / 32×32 / 15×10 standard in an actual playable scene before making it permanent.
+- Build representative Critz characters whose full bodies fit inside a single 32×32 tile.
+- Redraw a small environment using the transition-tile technique so walls, water, terrain boundaries, and structures do not read like a checkerboard.
+- Test the proposed restricted palette across at least one forest/outdoor scene, one settlement scene, one interior, water, and multiple characters.
 - Build one short Emerald-style campaign scene that includes multiple actors, movement, facing, dialogue, a door, an interior exit, and return of player control.
-- Compare camera visibility, dialogue readability, animation readability, and overall charm at native size.
-- Only then lock the production pixel budget and reusable cutscene/door/dialogue rules.
+- Review the result at native resolution and at integer display scaling before locking the standard.
 
-This entry records a target and an experiment to run; it does **not** yet replace the current art bible, implementation plan, or existing approval gates.
+This entry records the current design preference and constraints; it does **not** yet replace the current art bible, implementation plan, or existing approval gates.
