@@ -2,7 +2,7 @@
 
 ## TOOLS.SE6 — Pointer-anchored zoom
 
-Implementation and focused checks complete; clean release/publication pending. Anchor wheel zoom to the chosen canvas point, buttons to the view center, and preserve integer pixel rendering. Permit panning around all edges and keep Fit as an explicit recenter action. Verify repeated zoom, panning, draw coordinates, mobile layouts and existing reference/crop workflows. Preserve palette, artwork, saves and review gates.
+Complete, tested, pushed and published. Anchors wheel zoom to the chosen canvas point, buttons to the view center, and preserve integer pixel rendering. Permit panning around all edges and keep Fit as an explicit recenter action. All 60 unit tests and 49 browser scenarios passed, including repeated zoom, panning, draw coordinates, mobile layouts and existing reference/crop workflows. [Release/deployment evidence](reviews/TOOLS-SE6/README.md). Preserve palette, artwork, saves and review gates.
 
 ## TOOLS.SE5 — Visible column correction and reference crop
 

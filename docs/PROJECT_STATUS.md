@@ -2,13 +2,15 @@
 
 ## TOOLS.SE6 — Zoom around any point
 
-**Implementation and focused verification complete; clean release/publication pending.** User requested zooming at any chosen position instead of jumping to an image corner. Opening `main` is `aeab9e4609efa605b0553a2b7ed381791de2cac8`. TOOLS.SE5 centering/crop changes are already published and retained. Unrelated unfinished game/art work remains excluded.
+**Complete, tested, pushed and published.** User requested zooming at any chosen position instead of jumping to an image corner. Opening `main` is `aeab9e4609efa605b0553a2b7ed381791de2cac8`. TOOLS.SE5 centering/crop changes are already published and retained. Unrelated unfinished game/art work remains excluded.
 
 The previous zoom formula used viewport scroll ratios without accounting for the centered canvas origin; buttons had no anchor. Zoom now measures the native pixel under the actual pointer before changing size and restores its screen position afterward. A scroll plane provides margins for panning around every edge; ordinary wheel and Ctrl/Command-wheel zoom under the pointer, keyboard +/− uses the hovered point, and buttons/1× preserve the viewport center. Repeated wheel steps retain the intended anchor to avoid cumulative browser scroll rounding. Space-drag/Pan also work on blank workspace; Fit recenters the full canvas. Integer zoom/memory bounds remain intact.
 
-Seven new browser checks pass for all quadrants, repeated in/out zoom across overflow sizes, panned-center buttons, keyboard/Ctrl-wheel, panning without paint, exact drawing coordinates after zoom and mobile layouts. Ten reference regressions also pass. No art, reference pixel, animation, export or game save changes. [Guide](../sprite-editor/README.md). Clean release checks and deployment receipt follow.
+Clean committed release passed all 60 unit tests and 49 isolated browser scenarios with zero runtime errors. Seven zoom checks cover all quadrants, repeated in/out zoom across overflow sizes, panned-center buttons, keyboard/Ctrl-wheel, panning without paint, exact drawing coordinates after zoom and mobile layouts. All existing editor/reference/crop/workspace suites pass. All 585 tested build files match the deployment archive. No art, reference pixel, animation, export or game save changes. [Release evidence](reviews/TOOLS-SE6/README.md) · [Guide](../sprite-editor/README.md).
 
-**Exact next action:** verify the clean committed release, publish through the existing owner-only Site, and record evidence.
+Source **`74eaa8d2f8409851dfee48bce4ffeff433d3359d`** committed/pushed on `main`, remote SHA verified. Deployment **`appgdep_6ac1134001a481919d8d6b6dde8ce854`** succeeded at 2026-10-03 14:37 UTC for that exact source. Existing owner-only audience preserved. [Working editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/). Header revision is **06**. This documentation-only receipt is committed/pushed separately. The 19 opening modified files and five untracked game/art paths remain preserved and excluded, with shared status/plan additions staged independently.
+
+**Exact next action:** refresh to editor 06, scroll at the chosen point to zoom, Space-drag to pan, or Fit to recenter.
 
 ## TOOLS.SE5 — Preserve visible column edits and add reference-only crop
 
