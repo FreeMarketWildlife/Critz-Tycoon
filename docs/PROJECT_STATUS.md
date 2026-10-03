@@ -8,7 +8,7 @@ Painted sizes remain 24×38 / 24×39 / 24×38 / 24×37, eyes are mirrored 2×4 b
 
 Checks pass for 8,192 native source/export cells and all 10,240 comparison cells, exact source palettes, binary alpha, connected silhouettes, anatomical-mask symmetry, eye/foot landmarks and unchanged Brendan reconstruction. Native and private enlarged inspection completed. Layer masks are original construction, including hidden regions, not recovered reference bones. Color/design quality remains subject to user review. No animation or new ROM/emulator evidence is claimed.
 
-Work directly on `main`, opening `f857aae22fb6e5225c1c8ed918e6e4b8fb0afb5a`. Delivery commit/push verification follows. Existing unfinished game/art edits and concurrent editor work remain preserved and excluded. **Playable build unchanged by this task; no deployment required.** No runtime, save or collision changes. Phone game remains https://critz-tycoon.freemarketwildlife.chatgpt.site.
+Work directly on `main`, opening `f857aae22fb6e5225c1c8ed918e6e4b8fb0afb5a`. Native-art/source commit **`8cc8310c97979187913044b2912da3956fe9e2c7`** is pushed to `origin/main`; remote SHA was verified equal to local HEAD. All 19 pre-existing tracked deltas were checked unchanged. This documentation-only receipt is pushed and verified separately. Existing unfinished game/art edits and concurrent editor work remain preserved and excluded. **Playable build unchanged by this task; no deployment required.** No runtime, save or collision changes. Phone game remains https://critz-tycoon.freemarketwildlife.chatgpt.site.
 
 **Exact next action:** review the native five-character lineup; refine the still before animation. R7 remains alignment evidence, not accepted final pixel art.
 
