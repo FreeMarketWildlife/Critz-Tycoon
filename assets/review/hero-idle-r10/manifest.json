@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "hero.boy.orange-stripes.idle.south",
+  "file": "hero.png",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "transparentBottomRows": 2,
+  "direction": "south",
+  "state": "idle",
+  "animation": false,
+  "status": "awaiting-user-visual-review",
+  "runtimeIntegrated": false,
+  "paletteCount": 28,
+  "source": "../../../art/source/hero-idle-r10/hero.sprite.json"
+}

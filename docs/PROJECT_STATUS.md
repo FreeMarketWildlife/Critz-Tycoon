@@ -1,5 +1,13 @@
 # Project status
 
+## M1.C4 revision 10 — Selected twists Hero, local outline cleanup
+
+**Asset/checks complete; visual acceptance pending.** User selected the orange-striped twists screenshot, requested 32×64, two bottom padding rows, symmetric anatomy, retained hair, no color-budget restriction and a one-pixel black outline. [Native asset and review](reviews/M1-C4/revision-10/README.md). R10 edits the matching R7 native source instead of another redesign. All 698 occupied cells and 223 non-outline upper/hair-region colors remain exact; 201 localized color edits produce the black boundary and material shadows. Actual palette is 28 colors. The skeleton is guidance, not an instruction to overwrite the chosen outline with R9.
+
+Checks pass for all 2,048 native pixels, exact source/RLE, connectedness, zero target-silhouette changes, paired body alpha, fixed 2×4 eyes, two empty rows, exact one-layer pure-black boundary and zero 2×2 black blocks. Native/grid views inspected. Custom indexed/RLE colors may be rejected by the editor's current allow-list; no editor compatibility or palette-remap claim. PNG is authoritative. ART_BIBLE now explicitly corrects transfer-origin prejudice and unintended palette/shape replacement. Hair/lighting retain the existing allowed asymmetry; no self-approval.
+
+Work on `main`, opening `e0baaed081305e0f53947ab3b1f862ea0da400a7`. Delivery verification follows. Unrelated game/art/editor work is preserved. **Playable build unchanged; no deployment required.** No animation, saves or runtime integration. **Next action:** user reviews this single selected still before animation.
+
 ## TOOLS.SE7 — User skeleton, anatomy-aware painting and exact-data import
 
 **Complete, tested, pushed and published.** Editor revision **07**, source `e0baaed081305e0f53947ab3b1f862ea0da400a7`, verified on origin/main. Deployment `appgdep_6ac1228ae24c8191bfe654d30df8c1a3` succeeded; existing owner-only audience preserved. [Open Sprite Editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/) · [Release evidence](reviews/TOOLS-SE7/README.md).

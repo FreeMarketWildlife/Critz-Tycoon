@@ -1,0 +1,25 @@
+{
+  "approval": false,
+  "frame": [
+    32,
+    64
+  ],
+  "bbox": [
+    4,
+    24,
+    28,
+    62
+  ],
+  "occupiedPixels": 698,
+  "paletteColors": 28,
+  "nativeCellsChecked": 2048,
+  "interiorHairRegionCellsPreserved": 223,
+  "silhouetteChangesFromTarget": 0,
+  "symmetricBody": true,
+  "bottomPadding": 2,
+  "blackOutlineLayers": 1,
+  "black2x2Blocks": 0,
+  "rleRoundTrip": true,
+  "connected": true,
+  "sha256": "dbc4abca5958dcc317aea50df96273877b88a9ad07ef63b88e46903627c9215d"
+}

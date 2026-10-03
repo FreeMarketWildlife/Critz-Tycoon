@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 10 — Current selected Hero review
+
+Local cleanup complete; visual acceptance pending. Preserve the selected layered-twists/orange-stripes native target, 32×64 frame, symmetric body, two bottom padding rows and unrestricted source colors. Apply a one-pixel pure-black outline without reauthoring the hair or copying R9 proportions. [R10](reviews/M1-C4/revision-10/README.md) supplies the native asset, countable proof and exact edit log. No animation or runtime replacement.
+
 ## TOOLS.SE7 — Construction-aware Sprite Editor
 
 Complete, tested, pushed and published. Exact user skeleton and anatomy/shading map, fixed region masks, outline/alpha locks, palette-ramp Shade/Lighten, scoped recolor, clean view, symmetry diagnostics and lossless RLE paste/open are available in revision 07. All 67 unit tests and 60 browser scenarios passed. This authoring-tool update preserves prior reference/zoom/animation workflows and does not approve or replace gameplay artwork. [Release evidence](reviews/TOOLS-SE7/README.md).

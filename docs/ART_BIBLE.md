@@ -47,7 +47,15 @@ Editable source: [sprite-editor/palettes.json](../sprite-editor/palettes.json). 
 
 This contract supersedes conflicting production dimensions, generic chibi formulas and 20×26/24×32 constraints below and in CHARACTER_FRAMEWORK, PROJECT_PLAN and older prompts. Those passages remain historical records. It does not retroactively certify existing assets, implement a renderer migration, approve finished art or expand the authorized roster/world. GAME_VISION remains story canon.
 
-### Current asset direction — user-authored skeleton and one-pixel outlines (revision 9)
+### Current Hero target — preserve the twists reference; local cleanup only (revision 10)
+
+The user selected the orange-and-cream striped Hero with layered twists shown in the R7-derived screenshot. It already fits the native 32×64 budget; use its saved native pixels as the visual target. Preserve the good irregular hair clusters, proportions, clothing and color relationships. The supplied skeleton is an anatomy/landmark guide, not authorization to replace the chosen silhouette with the differently shaped R9 body. Keep two transparent bottom rows, mirrored anatomy/eye positions, separate hair/lighting variation, and a one-native-pixel **black** exterior outline.
+
+**No color-budget restriction for this request.** Do not quantize to the editor's Wildlife bank or simplify the palette merely to match a previous revision's count. R10 has 28 deliberate retained/cleanup colors; that is an actual result, not a new cap. Being derived from an earlier reference transfer is not itself a reason to discard valid native pixels or redesign the character. The failure in R8/R9 was losing the selected appearance while changing methods. Make small recorded edits to the target instead. A reference image overlay is not an export, but a correctly decoded native raster is real pixel data; evaluate its pixels and appearance rather than assigning quality from its origin.
+
+The R10 operation preserves all occupied cells and all non-outline hair-region colors, changes the exterior to one black boundary layer, and repaints adjacent overly dark body bands as material shadows. No 2×2 solid pure-black outline blocks remain. Anatomy is mirrored; the selected hair/lighting variation stays intact under the standing hair exception. Only the user approves the resulting appearance. Front idle only; animation and gameplay integration remain separate. The earlier R9 strict-template/Wildlife directions below describe that revision and do not override this chosen target.
+
+### Prior asset direction — user-authored skeleton and one-pixel outlines (revision 9)
 
 The user supplied an exact `fmw-sprite-exact-rle` editor export as the construction source. Decode its native pixels; do not infer geometry from screenshot grid lines. This input is one symmetric color-blocked template, not four finished sprites. Preserve its head/body construction, eye positions and two-row idle foot padding; apply the four supplied hairstyles/outfits separately. Mirror anatomy with `x ↔ 31-x`, the same operation as the editor's X-symmetry tool. Preserve original input before editing. Hair and lighting remain separate from anatomical symmetry.
 
