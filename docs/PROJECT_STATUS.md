@@ -1,5 +1,15 @@
 # Project status
 
+## ART.2X — Emerald 2× standing visual direction, 2026-10-02
+
+**Documentation complete; commit/push verification pending below.** User explicitly requests Emerald's exact character proportions, camera framing and art style at twice the linear resolution. Deliverable: authoritative ART_BIBLE contract, persistent AGENTS rules, aligned historical-framework/reference/plan notices and a replacement copy-ready prompt. This direction supersedes prior 20×26/24×32 production constraints. It approves a specification, not finished art.
+
+Work is on `main`, opening HEAD `2d00b5bee9c3d62ca7924f2e594e3c60a94b01f7`. The checkout already contains unfinished M1.I3/C4-related game, artwork, tests and documentation changes. Preserve those changes and exclude them from this task's commit, including pre-existing portions of shared documentation. No runtime, PNG, save, collision, world or deployment changes are made here. The playable build is unchanged by ART.2X; no redundant deployment is required.
+
+Checks passed: all seven task documents inspected; new relative links resolve; doubling arithmetic and 15×10 framing verified; `git diff --cached --check` passed; staged content excludes pre-existing shared-file edits. Gameplay tests are not needed for this documentation-only change. Git delivery receipt follows before handoff. Limitations: no new source-image anatomy measurements, artwork comparison, emulator capture, renderer migration or physical phone test was performed. The old source ledger remains evidence in original pixels; exact semantic anatomy annotations are still required. No G1/G2 acceptance is implied.
+
+**Exact next action:** when asset implementation resumes, annotate selected pinned Emerald frames and derive exact 2× anatomy/pose targets before drawing the authorized sample. Reconcile unfinished older-budget work with this contract; do not continue the superseded proportions by default.
+
 ## M1.C4 — Countable idle comparison and reference construction
 
 **Awaiting user art review.** Delivered original boy Hero south-idle drawings on actual **16×32 and 32×64 native grids**, with one square per pixel and numbered major lines every ten pixels. [Comparison](reviews/M1-C4/hero-grid.png) · [Construction sheet](reviews/M1-C4/hero-skeleton.png) · [Review record](reviews/M1-C4/README.md). The smaller drawing copies the supplied reference’s eight-row torso/arm/hip/foot occupancy mask; the rounded afro replaces its pointed hat. Head/torso/lower-body bands are 13/5/3 rows and 26/10/6 rows. Painted bounds are 14×21 and 28×42; transparent storage padding remains visible. The larger drawing includes native refinements.

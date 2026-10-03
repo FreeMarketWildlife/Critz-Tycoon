@@ -1,5 +1,62 @@
 # Critz: Tycoon — initial art bible
 
+## Emerald 2× visual contract — authoritative, 2026-10-02
+
+**User-confirmed direction:** Critz uses Pokémon Emerald's art style, camera framing and character proportions at **twice the linear pixel resolution**. This is a geometric and animation-construction requirement, not a loose “Emerald-inspired” mood. Preserve the reference proportions of heads, faces, hair, hats, torsos, arms, hands, legs and feet. Original character identity is expressed through original designs fitted to those proportions.
+
+This contract supersedes conflicting production dimensions, generic chibi formulas and 20×26/24×32 constraints below and in CHARACTER_FRAMEWORK, PROJECT_PLAN and older prompts. Those passages remain historical records. It does not retroactively certify existing assets, implement a renderer migration, approve finished art or expand the authorized roster/world. GAME_VISION remains story canon.
+
+### Resolution and framing
+
+| Quantity | Reference basis | Critz target |
+| --- | --- | --- |
+| Exploration raster | 240×160 | **480×320**, same 3:2 view |
+| Total raster pixels | 38,400 | **153,600** (4× area) |
+| Standard human overworld frame | 16×32 | **32×64** transparent canvas |
+| Small NPC/item frame family | 16×16 | **32×32**, where that reference family applies |
+| Map metatile | 16×16 | **32×32** |
+| Base art tile | 8×8 | **16×16** |
+| Battle/intro front/back frame budget | User-supplied 64×64 basis | **128×128** when such assets are authorized |
+
+Battle/intro dimensions are a user-selected production budget, not a newly verified universal fact about Emerald portraits or an instruction to implement battles. Do not substitute Platinum, HeartGold, remakes or other generations for the Emerald reference.
+
+Scale viewport, artwork, rendered distances and camera offsets together. The view remains 15×10 metatiles, not a zoom-out showing more world. Keep the controller outside it. At 2×, a standard bottom-center frame anchor `(8,32)` becomes `(16,64)`; the 16×16 family anchor `(8,16)` becomes `(16,32)`. Edge coordinates double; an inclusive pixel row `r` maps to rows `2r` and `2r+1`: reference idle foot row 30 becomes rows 60–61, stride row 31 becomes 62–63. Do not mistake transparent frame padding for body height.
+
+The existing ledger's south-idle bounds imply these **derived, not newly measured** targets: Brendan 14×21 → 28×42; May 14×20 → 28×40; Wally 16×19 → 32×38; Mom/Birch 16×20 → 32×40. These examples show why a 32×64 frame must not be filled by a 64px-tall person. Select a specific measured reference family for each Critz design; there is no single universal Gen 3 head/body ratio.
+
+### Mandatory measured construction
+
+1. Inspect actual native Emerald overworld frames from pinned revision `5eff78649e7170a877b961ef0b3da13b81a16038`, using the ledger's transparency rules. Record source path, frame index, direction, revision and method. Use gameplay captures for camera/motion claims; label source-only evidence accurately.
+2. Before production, create an annotated measurement table per representative body/pose family: full opaque bounds; head width/height; face/eye/chin landmarks; hair and hat envelopes separately from face/head; shoulder and torso widths/heights; arm/hand bounds and attachment points; leg/shoe bounds, stance and contact points; ground anchor; all pose offsets. Each row must contain reference coordinates or dimensions, exact 2× target, actual Critz value and deviation. Head/eye/limb segmentation remains unresolved in the old ledger: inspect and annotate it instead of inventing values.
+3. Use the measured structure as the drawing scaffold in front, back and both profiles. Preserve relative size, placement, overlap, foreshortening and silhouette mass. No improvised taller torsos, long shins, narrow waists, oversized hands/shoes or enlarged hair/hats merely because the canvas has room. Distinct body types use corresponding measured reference families. Kaid's nonhuman vessel/spout/handle require a labeled original adaptation while limb scale, ground contact and gait stay coherent; do not pretend Emerald contains an exact Kaid template.
+4. Author original Critz PNGs and editable pixel sources against that scaffold. Reference sprites remain inspection material, never shipped game assets. Preserve the Black child Hero, child rival/Kaid and adult Mom/Nugget. Do not recolor reference characters and call them original designs.
+
+### What the extra pixels are for
+
+Each reference pixel occupies a 2×2 area in the structural comparison. Start comparison guides with exact nearest-neighbor doubling. Final original assets may subdivide those blocks into finer **1px target-grid** clusters for cleaner linework, texture, expressive faces and material detail while retaining the measured envelopes and landmarks. Literal upscaling alone adds no detail; a freely redesigned 32×64 figure also does not satisfy this contract.
+
+Aim for the user's richer texture and cleaner linework within Emerald's restrained contrast, palette relationships and readable shapes. Detail must survive inspection at intended screen size. Avoid noise, pillow shading, antialiasing, blur, fractional pixel placement or mixed asset densities. A reference 1px outline initially occupies 2 target pixels; selective 1px refinements must not change silhouette mass or make the whole character look thin. Do not silently turn the 4× pixel count into a 4× color budget.
+
+### Animation fidelity
+
+Map each authorized Critz key pose to a named reference pose and measure limb travel, foot contacts, arm opposition, body bob, head stability and accessory motion. Double spatial offsets, preserve timing and phase continuity. Do not animate disconnected feet beneath a static invented body or reset the gait every tile. Author both profiles for asymmetric designs.
+
+The existing source-derived baseline remains walk `stride A → idle/passing → stride B → idle/passing`, holds `8/8/8/8` ticks, and run holds `5/3/5/3`, at `280896/16777216` seconds per tick. Scaling changes walk displacement from 1 to 2 rendered pixels/tick and run from 2 to 4; a 32px cell still takes 16 walk ticks or 8 run ticks. These are source-derived targets, not a claim of emulator-observed equivalence. Finer spatial resolution alone does not add animation frames or temporal smoothness. When smoother animation is in scope, add measured in-between poses within the same cycle duration and preserve key-pose/contact timing; present the refinement beside the reference-cadence version for user review.
+
+### Required evidence and acceptance
+
+For the currently authorized sample, deliver a measured overlay/comparison at matched apparent scale (reference 2× beside Critz 1×), native 480×320 room context when environment/framing is in scope, enlarged nearest-neighbor sheets, and synchronized loops plus frame stepping when animation is in scope. Include a table of targets/actual values/deviations, original asset IDs, source/PNG hashes and unresolved measurements. Keep reference imagery separate from production atlases and build output.
+
+Check PNG dimensions, binary alpha, palette counts, opaque bounds, landmarks, anchors, pose continuity, tile seams and exact enlargement. Inspect actual pixels as well as automated results. Do not declare compliance from dimensions or bounding boxes alone. No unmeasured “close enough” substitutions: document the gap and resolve it before calling that requirement complete. The user retains visual/feel approval; documentation acceptance approves the specification only.
+
+For a future renderer migration, keep appearance units separate from gameplay cells, collision, interactions, warps and v1 save coordinates. Re-evaluate phone presentation explicitly: 480px cannot fit a 320px-wide screen at 1×. Present and test any nearest-neighbor downsampling or orientation/layout solution with its detail-loss tradeoff; never silently crop, blur or stretch. This documentation task changes no runtime or saves.
+
+---
+
+## Historical art direction and implementation records
+
+The following specifications predate the authoritative 2× contract. Read conflicting dimensions and construction rules as history, not current authoring instructions.
+
 **M1.C3 animation extension:** The user now requests walking cycles and GIFs for every current M1.C2 design. The [walking extension](CHARACTER_FRAMEWORK.md#m1c3-walking-extension) retains the 20×26 painted ceiling, compact anatomy, exact front-idle art and four explicit directions. This supersedes still-only scope for animation review; finished artwork remains awaiting user acceptance.
 
 **M1.C2 current character direction:** The user selected a 20×26 maximum visible budget and requested a new compact chibi framework, distinct body types and one still frame per character. [CHARACTER_FRAMEWORK.md](CHARACTER_FRAMEWORK.md) now governs this still-character design pass, superseding the earlier 16×32 character-production proposal for these new assets. Storage remains 24×32 with explicit anchors; the map grid stays 16×16. Final artwork acceptance is pending; budget selection alone does not approve the drawings.

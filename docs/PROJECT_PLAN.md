@@ -1,5 +1,11 @@
 # Visual foundation production plan
 
+## ART.2X — Standing Emerald proportion and resolution contract
+
+Documentation task authorized 2026-10-02: record exact Emerald proportions/framing at 2× linear resolution in AGENTS and ART_BIBLE, align entry-point docs and supply a reusable prompt. No sprite generation, runtime migration or deployment is part of this task. The [2× contract](ART_BIBLE.md#emerald-2-visual-contract--authoritative-2026-10-02) supersedes conflicting pixel budgets and invented chibi ratios in historical task descriptions below, including M1.I3. Preserve unfinished implementation changes; do not treat them as delivered or accepted.
+
+Next asset work must first annotate reference anatomy and pose measurements for the authorized sample, then author against exact doubled targets and present comparison evidence. The 480×320 renderer/32px map presentation migration remains planned, not implemented by updating the docs. Existing milestone scope and user visual/feel approval requirements remain in force.
+
 ## M1.C4 — Idle resolution and chibi construction review
 
 Current review task: boy Hero only, one south idle at 16×32 and 32×64. The user requests a countable native-pixel grid, marks every ten pixels and the supplied reference’s compact body construction. Deliver original native PNGs, editable pixels, exact enlarged grids and a separate construction plate. Refine idle first; no new walking or playable integration is part of this task. [Review packet](reviews/M1-C4/README.md) is delivered and awaits user visual feedback. Preserve unfinished M1.I3 work. The ideas notebook’s separate one-tile body proposal is not adopted or resolved by these taller storage frames.

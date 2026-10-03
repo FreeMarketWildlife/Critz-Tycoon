@@ -1,5 +1,7 @@
 # Reference measurements — Emerald exploration
 
+**Current Critz production target:** the [Emerald 2× visual contract](ART_BIBLE.md#emerald-2-visual-contract--authoritative-2026-10-02) doubles spatial measurements while preserving proportions, framing and timing. Reference facts below stay in original Emerald pixels; do not rewrite measured source values as 2× values. Older Critz proposals below are superseded where they conflict. Exact head/hand/foot/hair/hat annotations still need measurement; this policy change supplies no new observational evidence.
+
 Measured 2026-09-24. All Emerald file links below are pinned to pret/pokeemerald commit `5eff78649e7170a877b961ef0b3da13b81a16038` (repository HEAD at retrieval). This is source/asset analysis, not a frame-by-frame emulator observation. No reference-game artwork is copied into Critz. `Reference verified` means a cited source or measured PNG supports the value; `proposed for Critz` means an unapproved production choice; `unresolved` means evidence is incomplete. Source-derived coordinates/timing require capture confirmation at M2 boundaries. Current Critz discrepancies are in [AUDIT_M0.md](AUDIT_M0.md).
 
 ## Verified screen/tile/palette foundations
