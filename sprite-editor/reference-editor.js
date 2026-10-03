@@ -1,9 +1,11 @@
+import {createSymmetryWorkshop} from './symmetry-workshop.js';
 import {fitReference, resizeReference, sampleReference} from './reference-pixels.js';
 
 // This controller owns only the ephemeral guide. The indexed artwork model is
 // deliberately absent from its API, including during drag/crop/key operations.
 export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange, onMessage, onStart, readImage}) {
   const $ = id => document.getElementById(id);
+  let originalReference = null;
   let reference = null, editing = false, drag = null, cropDrag = null, loadVersion = 0;
   const sampled = document.createElement('canvas');
   const box = document.createElement('div');
@@ -46,7 +48,7 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     update();
   }
   function finish() {
-    editing = false; drag = null;
+    editing = false; drag = null; $('ref-done-canvas').hidden=true;
     stage.classList.remove('reference-editing');
     $('ref-transform').textContent = 'Move / resize';
     $('ref-transform').setAttribute('aria-pressed','false');
@@ -56,7 +58,7 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
   function start() {
     if (!reference) return;
     if (!free()) fit();
-    onStart(); editing = true;
+    onStart(); editing = true; $('ref-done-canvas').hidden=false;
     $('show-reference').checked = true;
     stage.classList.add('reference-editing');
     $('ref-transform').textContent = 'Done positioning';
@@ -116,7 +118,7 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     g.strokeStyle='#ddff9a';g.lineWidth=1;g.strokeRect(r.x*sx+.5,r.y*sy+.5,r.w*sx,r.h*sy);
   }
   function clear() {
-    loadVersion++; reference=null; finish();
+    loadVersion++; reference=null; originalReference=null; $('symmetry-restore').hidden=true; finish();
     sampled.width=1;sampled.height=1;$('reference-source').width=1;$('reference-source').height=1;
     $('reference-controls').hidden=true;
   }
@@ -128,18 +130,19 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     const g=keyed.getContext('2d');g.drawImage(image,0,0);
     const im=g.getImageData(0,0,image.width,image.height),rgba=new Uint8ClampedArray(im.data),bg=rgba.subarray(0,3);
     for(let i=0;i<im.data.length;i+=4)if(im.data[i]===bg[0]&&im.data[i+1]===bg[1]&&im.data[i+2]===bg[2])im.data[i+3]=0;
-    g.putImageData(im,0,0);finish();reference={image,keyed,rgba,cacheKey:null};
+    g.putImageData(im,0,0);finish();reference={image,keyed,rgba,cacheKey:null};originalReference=null;$('symmetry-restore').hidden=true;
     $('crop-x').value=0;$('crop-y').value=0;$('crop-w').value=image.width;$('crop-h').value=image.height;
     $('ref-x').value=0;$('ref-y').value=0;$('ref-lock').checked=true;$('ref-layer').value='above';
     $('reference-controls').hidden=false;$('show-reference').checked=true;
     const size=getSize();
     if(image.width*2>size.width||image.height*2>size.height)fit();
     else {$('ref-scale').value='2';update();}
-    drawSource();onMessage('Reference added above your artwork. Free fits large images; Move / resize positions them.');
+    $('reference-panel').open=true;drawSource();onMessage('Reference added above your artwork. Free fits large images; Move / resize positions them.');
   });
   on('ref-scale','change',()=>{if(!reference)return;finish();if(free())fit();else update();});
   on('ref-fit','click',()=>{fit();onMessage('Reference crop fitted and centered inside the canvas.');});
   on('ref-transform','click',()=>editing?finish():start());
+  on('ref-done-canvas','click',finish);
   on('remove-reference','click',clear);
   for(const id of ['ref-x','ref-y','ref-layer','opacity','remove-bg','show-reference','ref-sampling'])on(id,'input',update);
   for(const id of ['crop-x','crop-y','crop-w','crop-h'])on(id,'change',()=>{if(!reference)return;const c=crop();$('crop-x').value=c.x;$('crop-y').value=c.y;$('crop-w').value=c.w;$('crop-h').value=c.h;if(free())fit();else update();drawSource();});
@@ -186,5 +189,27 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
   });
   function endCrop(e){if(!cropDrag||cropDrag.pointer!==e.pointerId)return;cropDrag=null;if(free())fit();else update();drawSource();}
   source.addEventListener('pointerup',endCrop);source.addEventListener('pointercancel',endCrop);source.addEventListener('lostpointercapture',endCrop);
-  return {draw,renderHandles,finish,clear,hasImage:()=>!!reference,snapshot:()=>reference?{mode:$('ref-scale').value,crop:crop(),rect:rect(),editing,sampling:$('ref-sampling').value,locked:$('ref-lock').checked}:null};
+  const settingIds=['crop-x','crop-y','crop-w','crop-h','ref-scale','ref-x','ref-y','ref-width','ref-height','ref-sampling'];
+  createSymmetryWorkshop({
+    getCanvasSize:getSize,
+    getReference:()=>reference?{rgba:reference.rgba,width:reference.image.width,crop:crop(),rect:rect(),background:$('remove-bg').checked?reference.rgba.subarray(0,3):null}:null,
+    onMessage,
+    applyReference(result){
+      if(!reference)return;
+      onStart();finish();
+      if(!originalReference)originalReference={reference,values:Object.fromEntries(settingIds.map(id=>[id,$(id).value])),removeBackground:$('remove-bg').checked};
+      const image=document.createElement('canvas');image.width=result.width;image.height=result.height;
+      image.getContext('2d').putImageData(new ImageData(result.pixels,result.width,result.height),0,0);
+      reference={image,keyed:image,rgba:new Uint8ClampedArray(result.pixels),cacheKey:null};
+      $('crop-x').value=0;$('crop-y').value=0;$('crop-w').value=result.width;$('crop-h').value=result.height;
+      $('ref-scale').value='free';$('ref-sampling').value='nearest';$('remove-bg').checked=false;$('show-reference').checked=true;
+      setRect(result.placement);$('symmetry-restore').hidden=false;drawSource();update();
+    }
+  });
+  on('symmetry-restore','click',()=>{
+    if(!originalReference)return;finish();reference=originalReference.reference;
+    for(const [id,value]of Object.entries(originalReference.values))$(id).value=value;
+    $('remove-bg').checked=originalReference.removeBackground;originalReference=null;$('symmetry-restore').hidden=true;drawSource();update();onMessage('Original reference and positioning restored.');
+  });
+  return {draw,renderHandles,finish,clear,hasImage:()=>!!reference,snapshot:()=>reference?{mode:$('ref-scale').value,crop:crop(),rect:rect(),editing,sampling:$('ref-sampling').value,locked:$('ref-lock').checked,corrected:!!originalReference}:null};
 }

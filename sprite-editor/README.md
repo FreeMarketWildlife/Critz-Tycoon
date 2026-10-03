@@ -4,6 +4,14 @@ A dependency-free pixel editor at `/sprite-editor/`. Run the repository dev serv
 
 Choose a canvas preset, select a Critz palette bank and draw. Every stored cell is one native pixel, with either full opacity or full transparency. Tools: pencil, eraser, flood fill, eyedropper, line, rectangle and pan. Integer zoom, X mirror, pixel grid, vertical centerline, numbered horizontal guides, clean preview, undo/redo, and previous/next onion skin support review. Grid cell lines appear at ≥4×; ten-row guides appear at ≥3×, with fifty-row labels at lower zoom to remain readable. Maximum zoom is bounded by overlay memory.
 
+## Workspace
+
+The editor fills the browser window. The canvas gets the remaining space while the right panels scroll independently. Drag the dividers beside the drawing tools and inspector to change their widths. Expand Animation, then drag its top divider to change its height. Dividers also support arrow keys, Shift for larger steps and double-click to reset their size.
+
+Use **Tools**, **Animation** and **Panels** to show or hide each dock; click any inspector section heading to collapse it. Animation starts collapsed and pauses when collapsed. **Focus** hides all docks and restores the previous arrangement on a second click. **Reset layout** restores the defaults. Layout preferences have their own local storage key, separate from sprites and game saves. Fit zoom follows viewport changes until you choose a manual zoom. On narrow screens, Panels opens a drawer; selecting a color or positioning a reference returns to the canvas.
+
+Guide labels count upward from Y=0 at the bottom. Exported pixel rows still use standard top-left image coordinates.
+
 ## Canvas sizes
 
 | Preset | Pixels |
@@ -42,6 +50,14 @@ Drag on the bounded source thumbnail or edit crop coordinates to select a pose. 
 
 Reference images remain in browser memory; reload them after opening/reloading a project. They are excluded from artwork PNG/GIF, project/copy data, autosave and checked-in assets. No bundled Pokémon image is shipped.
 
+## Odd-width reference workshop
+
+After adding a reference, choose **Fix odd width / symmetry…**. An odd-width image has a middle column; an even-width canvas has a centerline between columns. Choose **Duplicate center column · +1 px** (for example 31 → 32) or **Remove center column · −1 px** (33 → 32). Preview both grids before applying. Every other column retains its exact RGBA values; no averaging or forced mirroring occurs. Existing asymmetry remains. Adding transparent padding alone would not solve the anatomical center-column mismatch.
+
+The workshop starts with the selected crop's dimensions when within its 480px limit. For an enlarged screenshot, enter the actual native grid first; **Use source size** and **Use shown size** are shortcuts. Nearest sampling constructs that working grid; it cannot infer an unknown original grid or recover lost detail. Correction then operates exactly on that grid.
+
+**Use corrected reference** replaces only the temporary reference and centers its even width on the canvas centerline. A reference that fits stays at 1×; oversized results are reduced with nearest pixels and an even displayed width. The preview explains that reduction. The canvas must have an even width. Already-even images can be centered without changing their grid. **Restore original reference** restores the original image, crop and settings, including after repeated corrections. Cancel changes nothing. The corrected reference remains excluded from artwork, saves and exports.
+
 ## Animation and files
 
 Add blank frames, duplicate, rename, reorder, delete, adjust holds and play. Up to 64 frames and two million total pixels. Timing uses the Art Bible clock `280896 / 16777216` seconds per tick. Default holds are 8 ticks; users can author run holds 5/3/5/3. The app does not infer pose construction or generate in-betweens. Playback pauses on blur and does not accrue hidden-tab time.
@@ -57,3 +73,5 @@ Add blank frames, duplicate, rename, reorder, delete, adjust holds and play. Up 
 ## Checks
 
 `node --test tests/sprite-editor.test.mjs` checks preset dimensions, bank provenance, drawing primitives, lossless data reconstruction and project validation; creates a GIF fixture for independent decoding. `tests/reference-pixels.test.mjs` verifies fitting, anchored resizing, fractional area sampling, transparency and crop boundaries. `tests/reference-editor-browser.mjs` checks large-image fitting, move/resize/crop, numeric and keyboard controls, desktop/mobile layouts and touch without painting. `tests/sprite-editor-browser.mjs` uses Playwright/Chromium with isolated synthetic storage to exercise editing, references, exports, save/reload, animation, all sizes, responsive layout and touch. Supply `CODEX_PRIMARY_RUNTIME_NODE_MODULES` and `CHROMIUM_EXECUTABLE` when using a bundled runtime. `CRITZ_EDITOR_URL` can point to a built local server.
+
+`tests/symmetry.test.mjs` checks exact column conversion, transparency, immutable sources, invalid input and even-centered placement. `tests/sprite-workspace-browser.mjs` verifies screen fit, dock resizing/collapse, layout persistence, reference-only symmetry correction and restore, screenshot grids, playback collapse and mobile drawers in isolated browser contexts.

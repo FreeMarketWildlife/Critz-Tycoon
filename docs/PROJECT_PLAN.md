@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE3 — Canvas-first workspace and symmetry correction
+
+Implementation and source checks complete; clean release and publication in progress. Provide window-bounded layout, draggable dock widths/animation height, collapsible sections and animation, Focus/reset, and separate layout persistence. Add a reversible reference-only odd→even workshop with exact center-column duplication/removal, native-grid input, before/after previews and even-center placement. Preserve artwork, exports, saves, palette, animation behavior and art-review gates. [Guide](../sprite-editor/README.md). Record tested release/deployment evidence in PROJECT_STATUS before completion.
+
 ## M1.C4 revision 7 — Current five-grid reference-led review
 
 Deliverable complete, artwork awaiting user review. Use the actual supplied four designs at one uniform whole-figure scale, aligned to Brendan's eyes and feet, on five full 32×64 grids with Brendan first, x=16 centerlines and Y=0 at bottom. Preserve rounded cranium/hair volume and each supplied outfit. R6's shorter-head directive and forced hat-bottom hairline are revoked. [R7](reviews/M1-C4/revision-7/README.md) records actual source registration, measured bounds, native transfers and visual/check evidence. ART_BIBLE remains the only art-direction authority; AGENTS already points there. Idle only; no animation or gameplay integration. Earlier revision sections below are history, not current construction instructions.

@@ -21,6 +21,7 @@ try{
  await test('large reference auto-fits entire image; scale offers only 1x, 2x and Free',async()=>{
   await p.locator('#reference-file').setInputFiles({name:'large.png',mimeType:'image/png',buffer:await fixture(p)});
   await p.waitForFunction(async()=> (await import('./editor.js')).getSnapshot().reference?.mode==='free');await settle();
+  await p.locator('#position-panel summary').click();await p.locator('#crop-panel summary').click();
   const r=(await snap()).reference;assert.deepEqual(r.crop,{x:0,y:0,w:256,h:512});assert.deepEqual(r.rect,{x:0,y:0,w:32,h:64});assert.equal(await p.locator('#ref-layer').inputValue(),'above');
   assert.deepEqual(await p.locator('#ref-scale option').evaluateAll(a=>a.map(o=>o.value)),['1','2','free']);
  });
@@ -63,12 +64,12 @@ try{
  });
  await test('desktop and mobile controls have no horizontal page overflow',async()=>{
   await p.locator('#ref-fit').click();await p.locator('#ref-transform').click();
-  for(const [width,height]of [[1440,1050],[390,844],[320,568]]){await p.setViewportSize({width,height});await p.locator('#fit').click();await settle();assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await p.screenshot({path:path.join(output,`reference-${width}.png`),fullPage:true});}
+  for(const [width,height]of [[1440,1050],[390,844],[320,568]]){await p.setViewportSize({width,height});await p.locator('#reset-layout').click();await p.locator('#fit').click();await settle();assert.ok(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));await p.screenshot({path:path.join(output,`reference-${width}.png`),fullPage:true});}
  });
  await test('touch transform moves without creating artwork',async()=>{
   const c=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true}),q=await c.newPage();await q.goto(url);await q.waitForFunction(()=>document.documentElement.dataset.editorReady==='true');
   await q.locator('#reference-file').setInputFiles({name:'large.png',mimeType:'image/png',buffer:await fixture(q)});await q.waitForFunction(async()=> (await import('./editor.js')).getSnapshot().hasReference);
-  await q.locator('#ref-transform').tap();await q.locator('#canvas').scrollIntoViewIfNeeded();const r=await q.locator('#canvas').boundingBox(),cdp=await c.newCDPSession(q);
+  await q.locator('#toggle-inspector').tap();await q.locator('#ref-transform').tap();await q.locator('#canvas').scrollIntoViewIfNeeded();const r=await q.locator('#canvas').boundingBox(),cdp=await c.newCDPSession(q);
   await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:r.x+25,y:r.y+60}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:r.x+40,y:r.y+75}]});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await q.waitForTimeout(60);
   const s=await q.evaluate(async()=> (await import('./editor.js')).getSnapshot());assert.ok(s.reference.rect.x>0);assert.ok(s.reference.rect.y>0);assert.equal(s.project.frames[0].pixels.filter(Boolean).length,0);await c.close();
  });

@@ -1,5 +1,17 @@
 # Project status
 
+## TOOLS.SE3 — Resizable workspace and odd-width reference workshop
+
+**Implementation and source checks complete; clean release verification and publication in progress.** User requested a normal-screen layout with a large viewport, draggable panel sizes, collapsible animation/other sections, and an odd-width reference correction tool. Work on `main`, opening `7c238a925ee942fe7f53c1f7e8dd0d54cb4307d0`; concurrent committed M1.C4 R7 review work is preserved. Unfinished game/art changes remain excluded.
+
+The window now contains a flexible canvas, narrow resizable drawing dock and independently scrolling resizable inspector. Animation starts collapsed and pauses when hidden; its expanded height is draggable. Section headings collapse, Focus hides/restores docks, and Reset layout restores defaults. Separate local layout preferences preserve sprite/game saves. Desktop fit checks cover 1280×720 through 1920×1080; mobile panels use a drawer. Upward guide labels follow the current Art Bible; exported raster rows remain top-down.
+
+Reference → **Fix odd width / symmetry…** previews duplicating a center column (31→32) or removing it (33→32), preserving every other RGBA column. It centers the temporary reference on the even canvas boundary, with an original-reference restore action. Native working-grid dimensions can be entered for enlarged screenshots; nearest sampling does not infer an unknown grid. Oversized corrected references are explicitly reduced to an even displayed width. Existing asymmetric features are preserved; no anatomy approval or forced mirroring is implied. Drawing, project data, exports and game saves are untouched by this operation.
+
+Actual source checks: four symmetry unit tests and all 30 isolated browser scenarios pass across workspace, existing editor and reference suites, including exact pixels, export isolation, save compatibility, desktop/mobile fit and touch. Desktop and symmetry-modal screenshots were visually inspected. Release validation/deployment receipt will follow. [Guide](../sprite-editor/README.md). No gameplay, roster, accepted-art or review-gate changes.
+
+**Exact next action:** verify the clean committed build, publish it to the existing owner-only Site, and record the source SHA/deployment receipt.
+
 ## M1.C4 revision 7 — Actual-reference tracing and five upward grids
 
 **Review deliverable complete; artwork awaiting user review.** R6 was rejected for squashed heads. The latest request requires Brendan first in five full grids and actual supplied concepts registered over him. [R7 review/method](reviews/M1-C4/revision-7/README.md) · [measurements](reviews/M1-C4/revision-7/MEASUREMENTS.md) · [four-character repository copy](reviews/M1-C4/revision-7/four-heroes-grid.png). The primary five-grid and actual-reference-overlay plates are external local artifacts linked from the review; reference-game colored pixels remain outside the build.
