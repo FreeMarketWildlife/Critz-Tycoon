@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 6 — Current four-character review
+
+Deliver four corrected front-idle candidates retaining the user's supplied designs, with original shorter hair/skull construction and face/body landmarks aligned to the supplied Brendan reference. Use all 32×64 grid space, Y=0 bottom/Y=64 top, x=16 symmetry, native-pixel cells and ten-height guides. [Revision 6](reviews/M1-C4/revision-6/README.md) records actual extents and source/design distinctions. ART_BIBLE is the sole art direction; AGENTS and the reusable prompt point to it. Final art acceptance awaits the user; no walking or accepted gameplay replacement is included.
+
 ## TOOLS.SE2 — Free reference transform and user palette
 
 Completed and published editor update: 1× / 2× / Free reference scaling, automatic fit, direct move/resize/stretch, source cropping, alpha-aware area averaging plus nearest sampling, and the user's exact 32-slot Wildlife palette. Preserve old project colors and game saves. This tooling task does not create or approve game artwork. [Editor guide](../sprite-editor/README.md). Clean release passed 56 unit tests and 20 browser scenarios; deployment succeeded. See PROJECT_STATUS for receipt and limitations.

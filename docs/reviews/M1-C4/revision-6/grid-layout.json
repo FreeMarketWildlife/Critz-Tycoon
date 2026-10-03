@@ -1,0 +1,54 @@
+{
+  "four-heroes-grid": [
+    {
+      "slug": "a-afro",
+      "x": 50,
+      "y": 175,
+      "scale": 12
+    },
+    {
+      "slug": "b-flat-top",
+      "x": 500,
+      "y": 175,
+      "scale": 12
+    },
+    {
+      "slug": "c-twists",
+      "x": 950,
+      "y": 175,
+      "scale": 12
+    },
+    {
+      "slug": "d-cornrows",
+      "x": 1400,
+      "y": 175,
+      "scale": 12
+    }
+  ],
+  "four-heroes-grid-2x2": [
+    {
+      "slug": "a-afro",
+      "x": 50,
+      "y": 175,
+      "scale": 12
+    },
+    {
+      "slug": "b-flat-top",
+      "x": 500,
+      "y": 175,
+      "scale": 12
+    },
+    {
+      "slug": "c-twists",
+      "x": 50,
+      "y": 1100,
+      "scale": 12
+    },
+    {
+      "slug": "d-cornrows",
+      "x": 500,
+      "y": 1100,
+      "scale": 12
+    }
+  ]
+}

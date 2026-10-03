@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C4 revision 6 — Corrected head construction and upward grids
+
+**Implementation/checks complete; artwork awaiting user review.** User requested four new idle candidates retaining the supplied afro/teal, flat-top/gold, twists/red stripes and cornrows/blue designs, corrected against Brendan without forcing skull/hair to his hat height. The user then corrected the coordinate convention: **0 at bottom, 64 at top**; the earlier 36 estimate is not a required height. [Four full grids](reviews/M1-C4/revision-6/four-heroes-grid.png) · [Larger 2×2 layout](reviews/M1-C4/revision-6/four-heroes-grid-2x2.png) · [Review/evidence](reviews/M1-C4/revision-6/README.md).
+
+All candidates use 32×64 frames, one native pixel per displayed cell, x=16 symmetry and numbered ten-height guides. Actual painted heights 35/35/34/33 reflect original hairstyles. Face/eye/jaw/neck/foot landmarks remain aligned to the supplied Brendan example; hidden skull crowns are labeled original construction, not inferred through hats. A local-only five-character comparison preserves reference isolation. ART_BIBLE corrects mandatory-height/envelope language, records the learned mistakes, and establishes bottom-up presentation. AGENTS now only points there for art direction; numerical duplicated art directives were removed. The reusable prompt also defers to the Bible. General project workflow and gates remain intact.
+
+Actual checks: 8,192 decoded native cells, 8,192 anatomy-mask cells and 34,816 displayed grid cells pass, including both combined layouts, individual grids and the external reference comparison. Binary alpha, connected silhouettes, <=15 colors, paired anatomy, exact eyes/anchors, upward Y labels/guide positions and individual-pixel contours pass. Final clean, grid and reference proofs visually inspected. These are integrity checks, not visual acceptance. No animation/back pose or runtime tests are part of this review-only task.
+
+Work on `main`, opening `548a42abcb37bdabc49d244410fb5bbc7e031011`. Task review/docs changes are ready for commit/push and remote verification. Existing unfinished game/art/editor changes remain preserved and excluded. **Playable build unchanged; no deployment required.** No saved progress, collision, roster, movement or accepted gameplay art changed. Current phone game remains https://critz-tycoon.freemarketwildlife.chatgpt.site.
+
+**Exact next action:** user reviews the four idle candidates and the upward-counting full grids; continue the chosen still before animation.
+
 ## TOOLS.SE2 — Free reference transform and Wildlife palette
 
 **Complete, tested, pushed and published.** User requested 1×, 2× and Free reference scales with automatic fitting, direct movement/stretching/cropping and averaged pixel sampling, then supplied an exact 32-slot Wildlife palette. Work is directly on `main`, opening `548a42abcb37bdabc49d244410fb5bbc7e031011`. Existing unfinished game edits and concurrent art-direction documentation are preserved and excluded.

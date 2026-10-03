@@ -1,15 +1,10 @@
 # Critz: Tycoon workflow
 
-## Standing visual contract — Emerald at 2× resolution
+## Art asset direction
 
-- For every visual-asset task, read the **Emerald 2× visual contract** at the top of `docs/ART_BIBLE.md`. It supersedes older 240×160 production targets, 20×26 painted budgets, 24×32 storage and invented chibi ratios. Existing assets are historical work, not proof of compliance.
-- Match Pokémon Emerald's measured camera framing, character proportions and pose construction exactly at 2× linear resolution: 480×320 world raster, 32×32 map cells, standard human 32×64 frames. Double spatial measurements, not apparent character size, world coverage, animation duration or movement time. Canvas size is not painted height.
-- Before drawing, identify a pinned Emerald reference per body/pose family and annotate head/face, hair/hat, shoulders, torso, arms/hands, legs/feet, anchors and pose offsets. Derive targets as `2 × reference measurement`. Never replace missing measurements with guessed ratios or call them exact. Match original Critz designs to that measured structure; keep reference artwork out of shipped assets.
-- For front/back idle, enforce the ART_BIBLE's bilateral anatomy rule: skull, torso, eyes, arms, hands and legs/feet mirror by default. Hair and color may differ; structural exceptions require an explicit per-feature record (for example Kaid's spout/handle). Validate anatomical masks, not just whole-image alpha or RGB.
-- Before drawing, show measured reference proportions and doubled targets to the user. Character reviews default to Emerald 2× with one-native-pixel cells, a vertical centerline at half the X width and numbered horizontal guides every 10 Y pixels. Keep boy Hero's 1×/2× comparison until the user accepts the style.
-- Treat exact 2× blocks as comparison scaffolding, not a frozen final silhouette. Author one-target-pixel contours/curves and selective material-colored outlines while preserving measured envelopes, landmarks and idle symmetry. Do not use exact doubled-row occupancy as the final-art acceptance test. Inspect depth and edge weight in a clean view as well as the required grid.
-- Extra pixels permit finer clusters, textures and linework within the matched structure; they do not authorize taller bodies, longer limbs, different hats/head masses, larger shoes, changed perspective or indiscriminate detail. Preserve Emerald's native-size readability. Extra animation frames must preserve the measured gait, key poses, contacts and cycle duration.
-- Deliver annotated comparison evidence, native/enlarged PNGs and synchronized animation evidence when motion is in scope. File-size checks alone cannot prove fidelity. User approval of this specification is not approval of artwork. Preserve current task scope, story, saves and review gates.
+For every art-asset task, read and follow [docs/ART_BIBLE.md](docs/ART_BIBLE.md), the single source of art direction. Keep specifications and lessons there; do not duplicate pixel budgets, proportions, reference interpretations or presentation rules in this file. The user's latest instructions take precedence.
+
+## Project workflow
 
 - Work directly on `main`. Do not create development branches or worktrees. Inspect existing branches/PRs when locating prior work; do not delete or manually close them as a side effect.
 - Standing user authorization: after completing a requested change and its relevant checks, commit all task-related project changes and push to GitHub `origin/main` without asking again. Verify the remote SHA matches local HEAD and report any remaining changes. Preserve unrelated user edits, never commit secrets or generated caches, and never force-push or discard remote work to make a push succeed. Honor a later explicit request not to push.
@@ -21,6 +16,5 @@
 - Distinguish reference-verified facts, proposed Critz decisions, and unresolved measurements. Pin reference revisions. Source inspection is not emulator/frame-capture observation.
 - Preserve player names, Black child Hero, child Kaid/rival, adult Mom/Professor Nugget, compassionate story, surviving animals, 25-gallon gift, optional $100 loan, Rootport names, Manage/Stats/View, ecosystem causes, Critter earnings, and existing progress.
 - Preserve save keys and v1 data until a tested migration exists. Never test against a user's real browser storage. Use isolated browser contexts and synthetic fixtures.
-- Keep appearance separate from collision, interaction, warp, and gameplay data. Ship original reusable PNG assets with stable IDs and metadata; do not ship reference-game sprites.
 - Run checks relevant to the change. Record actual results, limitations, approval evidence, branch/verified commit, push/deployment state, and exact next action in status before ending. Prefer the working hosted phone link; local launch instructions are supplementary. Code/art being written is not completion. Push/publish authorization does not bypass milestone or visual review gates; unapproved art belongs in an explicitly labeled review deliverable, not silently in the accepted gameplay.
 - Routine authorized edits/tests need no additional permission. Review gates require a concrete visual/playable deliverable and the user's response.

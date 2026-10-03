@@ -1,0 +1,87 @@
+{
+  "approval": false,
+  "nativeCellComparisons": 8192,
+  "gridCellComparisons": 34816,
+  "anatomyCellComparisons": 8192,
+  "coordinateSystem": "Y up, 0 bottom, 64 top",
+  "figures": [
+    {
+      "id": "review.hero.boy.south.idle.r6.a-afro",
+      "bbox": [
+        3,
+        27,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        35
+      ],
+      "topEdgeReviewY": 37,
+      "colors": 14,
+      "mixedAlpha2x2Blocks": 40,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "0b739c693eb05f20840e477e3b2a916652de0373874fc6cb67846c8acac36840"
+    },
+    {
+      "id": "review.hero.boy.south.idle.r6.b-flat-top",
+      "bbox": [
+        3,
+        27,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        35
+      ],
+      "topEdgeReviewY": 37,
+      "colors": 14,
+      "mixedAlpha2x2Blocks": 38,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "ec4b696f9143ba14e928874268542ec00c204fdbac9cb5fc83e7d4fbf921a7f6"
+    },
+    {
+      "id": "review.hero.boy.south.idle.r6.c-twists",
+      "bbox": [
+        3,
+        28,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        34
+      ],
+      "topEdgeReviewY": 36,
+      "colors": 12,
+      "mixedAlpha2x2Blocks": 34,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "666d11ca8349b909f869ac7446a2665552a0f5b550af4b2e658dacf8677c2f20"
+    },
+    {
+      "id": "review.hero.boy.south.idle.r6.d-cornrows",
+      "bbox": [
+        3,
+        29,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        33
+      ],
+      "topEdgeReviewY": 35,
+      "colors": 12,
+      "mixedAlpha2x2Blocks": 38,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "cf6cffa59169900cdd3798be20f2b16df75fa56b1a79bdbfe1e1e4b18360fd1d"
+    }
+  ],
+  "externalReferencePlateVerified": true,
+  "agentsDirectionPointerOnly": true
+}
