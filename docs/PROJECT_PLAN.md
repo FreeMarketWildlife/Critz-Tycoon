@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE8 — Reference-to-artwork and flexible colors
+
+Implemented, awaiting clean-release checks/publication. Add full-opacity exact-color reference copy, prominent artwork/reference eyedropper, 14 palettes and custom colors, skeleton reference preset, two-finger pan/pinch zoom and simpler color/reference-first panels. Preserve prior editor workflows and game/art review gates. The user's latest instruction relaxes editor-only color restrictions; existing Wildlife values remain unchanged. [Evidence](reviews/TOOLS-SE8/README.md).
+
 ## M1.C4 revision 10 — Current selected Hero review
 
 Local cleanup complete; visual acceptance pending. Preserve the selected layered-twists/orange-stripes native target, 32×64 frame, symmetric body, two bottom padding rows and unrestricted source colors. Apply a one-pixel pure-black outline without reauthoring the hair or copying R9 proportions. [R10](reviews/M1-C4/revision-10/README.md) supplies the native asset, countable proof and exact edit log. No animation or runtime replacement.

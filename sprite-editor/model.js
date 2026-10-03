@@ -23,11 +23,10 @@ export function validateProject(p,allowed) {
   if(!p||p.format!=='fmw-sprite'||p.version!==1)throw Error('This is not a Free Market Wildlife sprite project.');
   if(!Number.isInteger(p.width)||!Number.isInteger(p.height)||p.width<1||p.height<1||p.width>480||p.height>480)throw Error('Canvas dimensions must be whole pixels from 1 to 480.');
   if(!Array.isArray(p.frames)||p.frames.length<1||p.frames.length>64||p.width*p.height*p.frames.length>MAX_PIXELS)throw Error('Project exceeds 64 frames or 2 million pixels.');
-  if(!Array.isArray(p.palette)||p.palette[0]!==null||p.palette.length>256||p.palette.slice(1).some(c=>typeof c!=='string'||!allowed.has(c.toLowerCase())))throw Error('Project contains colors outside the Critz palette banks.');
+  if(!Array.isArray(p.palette)||p.palette[0]!==null||p.palette.length>MAX_PIXELS+1||p.palette.slice(1).some(c=>typeof c!=='string'||!/^#[0-9a-f]{6}$/i.test(c)))throw Error('Project contains an invalid RGB palette.');
   if(!PRESETS.some(a=>a[0]===p.preset))throw Error('Unknown canvas preset.');
   for(const f of p.frames)if(!f||!Number.isInteger(f.ticks)||f.ticks<1||f.ticks>600||!Array.isArray(f.pixels)||f.pixels.length!==p.width*p.height||f.pixels.some(v=>!Number.isInteger(v)||v<0||v>=p.palette.length))throw Error('Invalid frame pixels or timing.');
   if(typeof p.name!=='string'||p.name.length>100||typeof p.notes!=='string'||p.notes.length>10000||p.frames.some(f=>typeof f.name!=='string'||f.name.length>80))throw Error('Invalid project text.');
-  if(isCharacter(p)&&usedColors(p).size>31)throw Error('Character projects allow 31 opaque colors plus transparency.');
   return p;
 }
 export const isCharacter=p=>PRESETS.find(a=>a[0]===p.preset)?.[4];
@@ -43,9 +42,10 @@ export function fill(pixels,w,h,x,y,color,canWrite=()=>true) {
 }
 export function nearest(r,g,b,palette) {let best=1,score=Infinity;for(let i=1;i<palette.length;i++){const c=palette[i],d=(r-parseInt(c.slice(1,3),16))**2+(g-parseInt(c.slice(3,5),16))**2+(b-parseInt(c.slice(5,7),16))**2;if(d<score){score=d;best=i;}}return best;}
 export function bounds(pixels,w,h){let l=w,t=h,r=-1,b=-1;pixels.forEach((v,i)=>{if(v){const x=i%w,y=Math.floor(i/w);l=Math.min(l,x);t=Math.min(t,y);r=Math.max(r,x);b=Math.max(b,y);}});return r<0?null:[l,t,r+1,b+1];}
-export function describe(p){return JSON.stringify({format:'fmw-sprite-exact-rle',version:1,name:p.name,preset:p.preset,width:p.width,height:p.height,coordinateSystem:'Top-left (0,0); x increases right, y down. Each row is [paletteIndex, runLength] pairs. Expand each row to exactly width pixels. Index 0 is fully transparent; all other pixels are fully opaque. No smoothing.',palette:p.palette,tickMilliseconds:TICK_MS,anchor:[p.width/2,p.height],notes:p.notes,artBible:'Emerald 2×; original Critz colors. Canvas size is not painted height. Anatomy and pose proportions require separately measured reference annotations. This data does not certify art approval. Reference overlays excluded.',frames:p.frames.map(f=>({name:f.name,ticks:f.ticks,durationMilliseconds:f.ticks*TICK_MS,opaqueBounds:bounds(f.pixels,p.width,p.height),rows:Array.from({length:p.height},(_,y)=>{const a=[];for(let x=0;x<p.width;x++){const v=f.pixels[y*p.width+x];if(a.length&&a[a.length-2]===v)a[a.length-1]++;else a.push(v,1);}return a;})}))},null,2);}
+export function describe(p){return JSON.stringify({format:'fmw-sprite-exact-rle',version:1,name:p.name,preset:p.preset,width:p.width,height:p.height,coordinateSystem:'Top-left (0,0); x increases right, y down. Each row is [paletteIndex, runLength] pairs. Expand each row to exactly width pixels. Index 0 is fully transparent; all other pixels are fully opaque. No smoothing.',palette:p.palette,tickMilliseconds:TICK_MS,anchor:[p.width/2,p.height],notes:p.notes,artBible:'Emerald 2×; selected palettes and exact custom RGB colors. Canvas size is not painted height. Anatomy and pose proportions require separately measured reference annotations. This data does not certify art approval. Reference overlays excluded.',frames:p.frames.map(f=>({name:f.name,ticks:f.ticks,durationMilliseconds:f.ticks*TICK_MS,opaqueBounds:bounds(f.pixels,p.width,p.height),rows:Array.from({length:p.height},(_,y)=>{const a=[];for(let x=0;x<p.width;x++){const v=f.pixels[y*p.width+x];if(a.length&&a[a.length-2]===v)a[a.length-1]++;else a.push(v,1);}return a;})}))},null,2);}
 // GIF89a uses literal LZW codes and periodic clears, avoiding lossy color conversion.
 export function gifBytes(p){
+ p=gifProject(p);
  const bytes=[],put=(...a)=>bytes.push(...a),word=n=>put(n&255,n>>8&255),str=s=>put(...[...s].map(c=>c.charCodeAt(0)));
  str('GIF89a');word(p.width);word(p.height);put(0xf7,0,0);
  for(let i=0;i<256;i++){const c=p.palette[i]||'#000000';put(parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16));}
@@ -64,7 +64,7 @@ export function readProjectData(data,allowed){
  if(data?.format!=='fmw-sprite-exact-rle')return validateProject(data,allowed);
  const {width,height,palette,frames}=data;
  if(data.version!==1||!Number.isInteger(width)||!Number.isInteger(height)||width<1||height<1||width>480||height>480||!Array.isArray(frames)||frames.length<1||frames.length>64||width*height*frames.length>MAX_PIXELS)throw Error('Invalid exact-data dimensions or frame budget.');
- if(!Array.isArray(palette)||palette.length<1||palette.length>256)throw Error('Invalid exact-data palette.');
+ if(!Array.isArray(palette)||palette.length<1||palette.length>MAX_PIXELS+1)throw Error('Invalid exact-data palette.');
  const decoded=frames.map(f=>{
   if(!Array.isArray(f.rows)||f.rows.length!==height)throw Error('Each frame needs exactly one encoded row per image row.');
   const pixels=[];
@@ -77,4 +77,25 @@ export function readProjectData(data,allowed){
   return {name:f.name,ticks:f.ticks,pixels};
  });
  return validateProject({format:'fmw-sprite',version:1,name:data.name,preset:data.preset||'custom',width,height,palette:[...palette],bank:'wildlife',notes:data.notes||'',frames:decoded},allowed);
+}
+
+// Reference copying paints only nontransparent sampled cells, at full opacity.
+// Palette indexes are deduplicated by RGB; the caller commits this atomically.
+export function paintReference(project,frame,rgba){
+ if(rgba.length!==project.width*project.height*4)throw Error('Reference raster does not match the canvas.');
+ const lookup=new Map(project.palette.slice(1).map((c,i)=>[c.toLowerCase(),i+1]));let count=0;
+ for(let i=0;i<frame.pixels.length;i++)if(rgba[i*4+3]){
+  const hex='#'+Array.from(rgba.subarray(i*4,i*4+3),v=>v.toString(16).padStart(2,'0')).join('');
+  let at=lookup.get(hex);if(at===undefined){at=project.palette.length;project.palette.push(hex);lookup.set(hex,at);}frame.pixels[i]=at;count++;
+ }
+ return count;
+}
+// GIF has a 256-entry table. Compact unused indexes first; only GIFs using
+// more than 255 opaque RGB colors need a reduced copy. The project stays exact.
+export function gifProject(p){
+ const frequencies=new Map();for(const f of p.frames)for(const v of f.pixels)if(v){const hex=p.palette[v].toLowerCase();frequencies.set(hex,(frequencies.get(hex)||0)+1);}
+ if(p.palette.length<=256)return p;
+ const colors=[...frequencies.keys()].sort((a,b)=>frequencies.get(b)-frequencies.get(a)).slice(0,255),palette=[null,...colors],lookup=new Map(colors.map((c,i)=>[c,i+1])),mapping=[0];
+ for(const [i,hex]of p.palette.entries())if(i&&frequencies.has(hex.toLowerCase())){const c=hex.toLowerCase();if(!lookup.has(c))lookup.set(c,nearest(parseInt(c.slice(1,3),16),parseInt(c.slice(3,5),16),parseInt(c.slice(5,7),16),palette));mapping[i]=lookup.get(c);}
+ return {...p,palette,frames:p.frames.map(f=>({...f,pixels:f.pixels.map(v=>mapping[v])}))};
 }

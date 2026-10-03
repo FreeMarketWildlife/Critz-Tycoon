@@ -4,7 +4,7 @@ import {fitReference, resizeReference, sampleReference} from './reference-pixels
 
 // This controller owns only the ephemeral guide. The indexed artwork model is
 // deliberately absent from its API, including during drag/crop/key operations.
-export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange, onMessage, onStart, readImage}) {
+export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange, onMessage, onStart, readImage, onCopy}) {
   const $ = id => document.getElementById(id);
   let originalReference = null;
   let reference = null, editing = false, drag = null, cropDrag = null, loadVersion = 0;
@@ -78,10 +78,10 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
       : `${c.w} × ${c.h} source → ${r.w} × ${r.h} canvas pixels. Choose Free or Fit inside canvas to shrink a large reference.`;
     onChange();
   }
-  function draw(ctx) {
-    if (!reference || !$('show-reference').checked) return;
+  function draw(ctx, full = false) {
+    if (!reference || (!full && !$('show-reference').checked)) return;
     const c = crop(), r = rect();
-    ctx.save(); ctx.globalAlpha = Number($('opacity').value)/100;
+    ctx.save(); ctx.globalAlpha = full ? 1 : Number($('opacity').value)/100;
     ctx.imageSmoothingEnabled = false;
     if (!free()) {
       ctx.drawImage($('remove-bg').checked ? reference.keyed : reference.image,c.x,c.y,c.w,c.h,r.x,r.y,r.w,r.h);
@@ -121,12 +121,12 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
   function clear() {
     loadVersion++; reference=null; originalReference=null; $('symmetry-restore').hidden=true;$('ref-correction-status').hidden=true; finish();
     sampled.width=1;sampled.height=1;$('reference-source').width=1;$('reference-source').height=1;
-    $('reference-controls').hidden=true;
+    $('reference-controls').hidden=true;$('copy-reference').disabled=true;$('reference-preset').value='';
   }
   on('load-reference','click',()=>$('reference-file').click());
-  on('reference-file','change',async e=>{
-    const file=e.target.files[0];e.target.value='';if(!file)return;
+  async function loadFile(file,preset=false){
     const version=++loadVersion,image=await readImage(file);if(version!==loadVersion)return;
+    if(!preset)$('reference-preset').value='';
     const keyed=document.createElement('canvas');keyed.width=image.width;keyed.height=image.height;
     const g=keyed.getContext('2d');g.drawImage(image,0,0);
     const im=g.getImageData(0,0,image.width,image.height),rgba=new Uint8ClampedArray(im.data),bg=rgba.subarray(0,3);
@@ -134,12 +134,17 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     g.putImageData(im,0,0);finish();reference={image,keyed,rgba,cacheKey:null};originalReference=null;$('symmetry-restore').hidden=true;$('ref-correction-status').hidden=true;
     $('crop-x').value=0;$('crop-y').value=0;$('crop-w').value=image.width;$('crop-h').value=image.height;
     $('ref-x').value=0;$('ref-y').value=0;$('ref-lock').checked=true;$('ref-layer').value='above';
-    $('reference-controls').hidden=false;$('show-reference').checked=true;
+    $('reference-controls').hidden=false;$('copy-reference').disabled=false;$('show-reference').checked=true;$('clean-view').checked=false;
     const size=getSize();
     if(image.width*2>size.width||image.height*2>size.height)fit();
     else {$('ref-scale').value='2';update();}
-    $('reference-panel').open=true;drawSource();onMessage('Reference added above your artwork. Free fits large images; Move / resize positions them.');
-  });
+    $('reference-panel').open=true;drawSource();onMessage('Reference ready. Move / resize to position it, or Copy reference to paint it.');
+  }
+  on('reference-file','change',async e=>{const file=e.target.files[0];e.target.value='';if(file)await loadFile(file);});
+  on('reference-preset','change',async()=>{if($('reference-preset').value!=='skeleton')return;const version=++loadVersion,response=await fetch('./templates/basic-character.png');if(!response.ok)throw Error('Skeleton could not load.');const blob=await response.blob();if(version===loadVersion)await loadFile(blob,true);});
+  on('copy-reference','click',()=>{if(!reference)return;onStart();finish();const rgba=raster();if(!rgba.some((v,i)=>i%4===3&&v)){onMessage('The reference has no visible pixels inside this canvas. Use Fit inside or move it onto the canvas.',true);return;}onCopy(rgba);$('show-reference').checked=false;$('clean-view').checked=false;update();});
+  function raster(){const {width,height}=getSize(),c=document.createElement('canvas');c.width=width;c.height=height;draw(c.getContext('2d'),true);return c.getContext('2d').getImageData(0,0,width,height).data;}
+
   on('ref-scale','change',()=>{if(!reference)return;finish();if(free())fit();else update();});
   on('ref-fit','click',()=>{fit();onMessage('Reference crop fitted and centered inside the canvas.');});
   on('ref-transform','click',()=>editing?finish():start());
@@ -224,5 +229,5 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     for(const [id,value]of Object.entries(originalReference.values))$(id).value=value;
     $('remove-bg').checked=originalReference.removeBackground;$('show-reference').checked=originalReference.shown;originalReference=null;$('symmetry-restore').hidden=true;$('ref-correction-status').hidden=true;drawSource();update();onMessage('Original reference and positioning restored.');
   });
-  return {draw,renderHandles,finish,clear,hasImage:()=>!!reference,snapshot:()=>reference?{mode:$('ref-scale').value,crop:crop(),rect:rect(),editing,sampling:$('ref-sampling').value,locked:$('ref-lock').checked,corrected:!!originalReference}:null};
+  return {draw,raster,visible:()=>!!reference&&$('show-reference').checked&&Number($('opacity').value)>0,renderHandles,finish,clear,hasImage:()=>!!reference,snapshot:()=>reference?{mode:$('ref-scale').value,crop:crop(),rect:rect(),editing,sampling:$('ref-sampling').value,locked:$('ref-lock').checked,corrected:!!originalReference}:null};
 }

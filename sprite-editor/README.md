@@ -1,5 +1,15 @@
 # Free Market Wildlife Sprite Editor
 
+## Reference and colors (revision 08)
+
+- **Reference → Copy reference** paints the positioned/cropped reference onto the active frame with full opacity and exact sampled colors. Transparent cells preserve existing artwork. Other frames are unchanged; Undo restores the edit. The overlay hides afterward. Copy uses the entire reference footprint, independent of drawing locks.
+- **Reference preset → Basic character skeleton** loads the user's exact template as a normal reference, ready to position, crop or copy. Upload remains available for your own images.
+- **Eyedropper (I / Alt-click)** samples the visible layer, artwork only, or reference only. Faded guide opacity never dulls its sampled RGB. After picking, Pencil is ready to draw.
+- **Colors** offers 14 palette collections plus a custom color picker/hex field. Use color selects the new color. Switching palettes preserves existing pixels. Colors in this sprite shows your used colors; more than 256 swatches are available through the eyedropper.
+- **Two-finger scrolling pans** horizontally and vertically. Pinch or Ctrl/Command-scroll zooms at the pointer; +/−, Fit, and Space-drag remain available. Ordinary scroll now pans instead of zooming.
+
+The latest user instruction permits exact RGB beyond Wildlife and removes the editor's old 31-color limit. PNG, projects and exact data remain lossless. GIF compacts unused indexes; when artwork uses more than 255 opaque colors, only that GIF is reduced and the export message says so. Existing PNG import still snaps to the selected palette; use Copy reference for exact colors. Palette changes and this tooling update do not approve or recolor gameplay art.
+
 ## Character construction and shading (revision 07)
 
 Click **Skeleton → Start from skeleton** to edit the user's exact basic character model. This replaces the workspace and is undoable. **Use as guide** overlays the same model without changing artwork. Choose a region to highlight it, set opacity/layer, or open **Anatomy & shading map**. The semantic guide fits 32×64 frames; it is disabled at other canvas sizes.

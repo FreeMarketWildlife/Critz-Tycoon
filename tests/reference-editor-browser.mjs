@@ -79,7 +79,7 @@ try{
   const old=await q.evaluate(async()=>{const data=await(await fetch('./palettes.json')).json(),{makeProject}=await import('./model.js');const p=makeProject(data.banks.find(b=>b.id==='hero').colors);p.bank='hero';p.frames[0].pixels[0]=1;return p;});
   await q.locator('#project-file').setInputFiles({name:'legacy.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(old))});
   await q.waitForFunction(async()=> (await import('./editor.js')).getSnapshot().project.palette[1]==='#292532');
-  let state=await q.evaluate(async()=> (await import('./editor.js')).getSnapshot());assert.deepEqual(state.project.frames,old.frames);assert.equal(state.project.bank,'wildlife');
+  let state=await q.evaluate(async()=> (await import('./editor.js')).getSnapshot());assert.deepEqual(state.project.frames,old.frames);assert.equal(state.project.bank,'hero');
   await q.locator('#swatches button').first().click();await q.locator('#canvas').scrollIntoViewIfNeeded();const r=await q.locator('#canvas').boundingBox();await q.mouse.click(r.x+state.zoom/2,r.y+state.zoom/2);
   state=await q.evaluate(async()=> (await import('./editor.js')).getSnapshot());assert.equal(state.project.frames[0].pixels[0],0);
   await c.close();

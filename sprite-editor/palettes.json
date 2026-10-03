@@ -1,6 +1,6 @@
 {
   "artBible": "docs/ART_BIBLE.md",
-  "policy": "User-selected 32-slot Wildlife palette: transparent slot 00 and 31 opaque colors, all usable per sprite. Prior banks are read-only compatibility data for existing projects; no automatic recoloring.",
+  "policy": "Selectable palette collections; Wildlife remains unchanged. Exact reference and custom RGB colors are permitted in editor projects. No automatic recoloring on palette changes.",
   "banks": [
     {
       "id": "wildlife",
@@ -257,7 +257,105 @@
       ],
       "source": "docs/reviews/M1-C4/revision-3/hero-32x64.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#292532",
+          "name": "#292532",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 2,
+          "hex": "#11111A",
+          "name": "#11111A",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 3,
+          "hex": "#352E35",
+          "name": "#352E35",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 4,
+          "hex": "#55404A",
+          "name": "#55404A",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 5,
+          "hex": "#633A35",
+          "name": "#633A35",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 6,
+          "hex": "#905439",
+          "name": "#905439",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 7,
+          "hex": "#BA7C4E",
+          "name": "#BA7C4E",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 8,
+          "hex": "#245968",
+          "name": "#245968",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 9,
+          "hex": "#2F8C91",
+          "name": "#2F8C91",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 10,
+          "hex": "#64B7AB",
+          "name": "#64B7AB",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 11,
+          "hex": "#2B3452",
+          "name": "#2B3452",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 12,
+          "hex": "#4A5578",
+          "name": "#4A5578",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 13,
+          "hex": "#EDDFB5",
+          "name": "#EDDFB5",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 14,
+          "hex": "#775A66",
+          "name": "#775A66",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        },
+        {
+          "slot": 15,
+          "hex": "#B9B69B",
+          "name": "#B9B69B",
+          "group": "Hero \u00b7 current 2\u00d7 review"
+        }
+      ]
     },
     {
       "id": "mom",
@@ -281,7 +379,105 @@
       ],
       "source": "art/source/budget-comparison/mom.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#24232E",
+          "name": "#24232E",
+          "group": "Mom"
+        },
+        {
+          "slot": 2,
+          "hex": "#34333F",
+          "name": "#34333F",
+          "group": "Mom"
+        },
+        {
+          "slot": 3,
+          "hex": "#4A4554",
+          "name": "#4A4554",
+          "group": "Mom"
+        },
+        {
+          "slot": 4,
+          "hex": "#615767",
+          "name": "#615767",
+          "group": "Mom"
+        },
+        {
+          "slot": 5,
+          "hex": "#754333",
+          "name": "#754333",
+          "group": "Mom"
+        },
+        {
+          "slot": 6,
+          "hex": "#995B3C",
+          "name": "#995B3C",
+          "group": "Mom"
+        },
+        {
+          "slot": 7,
+          "hex": "#BD7D4E",
+          "name": "#BD7D4E",
+          "group": "Mom"
+        },
+        {
+          "slot": 8,
+          "hex": "#874D60",
+          "name": "#874D60",
+          "group": "Mom"
+        },
+        {
+          "slot": 9,
+          "hex": "#BB7081",
+          "name": "#BB7081",
+          "group": "Mom"
+        },
+        {
+          "slot": 10,
+          "hex": "#E5A0A6",
+          "name": "#E5A0A6",
+          "group": "Mom"
+        },
+        {
+          "slot": 11,
+          "hex": "#F2DFB6",
+          "name": "#F2DFB6",
+          "group": "Mom"
+        },
+        {
+          "slot": 12,
+          "hex": "#E9B94F",
+          "name": "#E9B94F",
+          "group": "Mom"
+        },
+        {
+          "slot": 13,
+          "hex": "#29384E",
+          "name": "#29384E",
+          "group": "Mom"
+        },
+        {
+          "slot": 14,
+          "hex": "#495C78",
+          "name": "#495C78",
+          "group": "Mom"
+        },
+        {
+          "slot": 15,
+          "hex": "#11131D",
+          "name": "#11131D",
+          "group": "Mom"
+        }
+      ]
     },
     {
       "id": "kaid",
@@ -303,7 +499,93 @@
       ],
       "source": "art/source/budget-comparison/kaid.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#25313E",
+          "name": "#25313E",
+          "group": "Kaid"
+        },
+        {
+          "slot": 2,
+          "hex": "#365E69",
+          "name": "#365E69",
+          "group": "Kaid"
+        },
+        {
+          "slot": 3,
+          "hex": "#4D919D",
+          "name": "#4D919D",
+          "group": "Kaid"
+        },
+        {
+          "slot": 4,
+          "hex": "#81BDC4",
+          "name": "#81BDC4",
+          "group": "Kaid"
+        },
+        {
+          "slot": 5,
+          "hex": "#B4DDDD",
+          "name": "#B4DDDD",
+          "group": "Kaid"
+        },
+        {
+          "slot": 6,
+          "hex": "#E5EDD3",
+          "name": "#E5EDD3",
+          "group": "Kaid"
+        },
+        {
+          "slot": 7,
+          "hex": "#D9942F",
+          "name": "#D9942F",
+          "group": "Kaid"
+        },
+        {
+          "slot": 8,
+          "hex": "#EDB64A",
+          "name": "#EDB64A",
+          "group": "Kaid"
+        },
+        {
+          "slot": 9,
+          "hex": "#F2D074",
+          "name": "#F2D074",
+          "group": "Kaid"
+        },
+        {
+          "slot": 10,
+          "hex": "#A56B31",
+          "name": "#A56B31",
+          "group": "Kaid"
+        },
+        {
+          "slot": 11,
+          "hex": "#30465E",
+          "name": "#30465E",
+          "group": "Kaid"
+        },
+        {
+          "slot": 12,
+          "hex": "#566981",
+          "name": "#566981",
+          "group": "Kaid"
+        },
+        {
+          "slot": 13,
+          "hex": "#C5BC92",
+          "name": "#C5BC92",
+          "group": "Kaid"
+        }
+      ]
     },
     {
       "id": "nugget",
@@ -327,7 +609,105 @@
       ],
       "source": "art/source/budget-comparison/nugget.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#282C30",
+          "name": "#282C30",
+          "group": "Nugget"
+        },
+        {
+          "slot": 2,
+          "hex": "#596363",
+          "name": "#596363",
+          "group": "Nugget"
+        },
+        {
+          "slot": 3,
+          "hex": "#A0AAA7",
+          "name": "#A0AAA7",
+          "group": "Nugget"
+        },
+        {
+          "slot": 4,
+          "hex": "#D3D6C7",
+          "name": "#D3D6C7",
+          "group": "Nugget"
+        },
+        {
+          "slot": 5,
+          "hex": "#B3A178",
+          "name": "#B3A178",
+          "group": "Nugget"
+        },
+        {
+          "slot": 6,
+          "hex": "#DDCDA0",
+          "name": "#DDCDA0",
+          "group": "Nugget"
+        },
+        {
+          "slot": 7,
+          "hex": "#827856",
+          "name": "#827856",
+          "group": "Nugget"
+        },
+        {
+          "slot": 8,
+          "hex": "#43563C",
+          "name": "#43563C",
+          "group": "Nugget"
+        },
+        {
+          "slot": 9,
+          "hex": "#929F74",
+          "name": "#929F74",
+          "group": "Nugget"
+        },
+        {
+          "slot": 10,
+          "hex": "#CF986D",
+          "name": "#CF986D",
+          "group": "Nugget"
+        },
+        {
+          "slot": 11,
+          "hex": "#EFC38B",
+          "name": "#EFC38B",
+          "group": "Nugget"
+        },
+        {
+          "slot": 12,
+          "hex": "#A76D4D",
+          "name": "#A76D4D",
+          "group": "Nugget"
+        },
+        {
+          "slot": 13,
+          "hex": "#F1EACF",
+          "name": "#F1EACF",
+          "group": "Nugget"
+        },
+        {
+          "slot": 14,
+          "hex": "#B9BBA4",
+          "name": "#B9BBA4",
+          "group": "Nugget"
+        },
+        {
+          "slot": 15,
+          "hex": "#525442",
+          "name": "#525442",
+          "group": "Nugget"
+        }
+      ]
     },
     {
       "id": "env.landscape",
@@ -351,7 +731,105 @@
       ],
       "source": "assets/review/environment-v1/palette.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#233F39",
+          "name": "#233F39",
+          "group": "Landscape"
+        },
+        {
+          "slot": 2,
+          "hex": "#38634D",
+          "name": "#38634D",
+          "group": "Landscape"
+        },
+        {
+          "slot": 3,
+          "hex": "#4F8053",
+          "name": "#4F8053",
+          "group": "Landscape"
+        },
+        {
+          "slot": 4,
+          "hex": "#72A05C",
+          "name": "#72A05C",
+          "group": "Landscape"
+        },
+        {
+          "slot": 5,
+          "hex": "#9ABD72",
+          "name": "#9ABD72",
+          "group": "Landscape"
+        },
+        {
+          "slot": 6,
+          "hex": "#C4D78A",
+          "name": "#C4D78A",
+          "group": "Landscape"
+        },
+        {
+          "slot": 7,
+          "hex": "#655343",
+          "name": "#655343",
+          "group": "Landscape"
+        },
+        {
+          "slot": 8,
+          "hex": "#92724E",
+          "name": "#92724E",
+          "group": "Landscape"
+        },
+        {
+          "slot": 9,
+          "hex": "#B99565",
+          "name": "#B99565",
+          "group": "Landscape"
+        },
+        {
+          "slot": 10,
+          "hex": "#D9B57B",
+          "name": "#D9B57B",
+          "group": "Landscape"
+        },
+        {
+          "slot": 11,
+          "hex": "#EFD29A",
+          "name": "#EFD29A",
+          "group": "Landscape"
+        },
+        {
+          "slot": 12,
+          "hex": "#245C67",
+          "name": "#245C67",
+          "group": "Landscape"
+        },
+        {
+          "slot": 13,
+          "hex": "#368793",
+          "name": "#368793",
+          "group": "Landscape"
+        },
+        {
+          "slot": 14,
+          "hex": "#65B3B0",
+          "name": "#65B3B0",
+          "group": "Landscape"
+        },
+        {
+          "slot": 15,
+          "hex": "#B3D9BF",
+          "name": "#B3D9BF",
+          "group": "Landscape"
+        }
+      ]
     },
     {
       "id": "env.woodwork",
@@ -375,7 +853,105 @@
       ],
       "source": "assets/review/environment-v1/palette.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#293E40",
+          "name": "#293E40",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 2,
+          "hex": "#57463E",
+          "name": "#57463E",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 3,
+          "hex": "#7E5841",
+          "name": "#7E5841",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 4,
+          "hex": "#A6764F",
+          "name": "#A6764F",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 5,
+          "hex": "#CCA173",
+          "name": "#CCA173",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 6,
+          "hex": "#E8C99B",
+          "name": "#E8C99B",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 7,
+          "hex": "#F7E6BE",
+          "name": "#F7E6BE",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 8,
+          "hex": "#497F87",
+          "name": "#497F87",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 9,
+          "hex": "#79AFB1",
+          "name": "#79AFB1",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 10,
+          "hex": "#B8D6C7",
+          "name": "#B8D6C7",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 11,
+          "hex": "#D48B57",
+          "name": "#D48B57",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 12,
+          "hex": "#A35F46",
+          "name": "#A35F46",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 13,
+          "hex": "#769D62",
+          "name": "#769D62",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 14,
+          "hex": "#ACBC7F",
+          "name": "#ACBC7F",
+          "group": "Woodwork"
+        },
+        {
+          "slot": 15,
+          "hex": "#334F54",
+          "name": "#334F54",
+          "group": "Woodwork"
+        }
+      ]
     },
     {
       "id": "env.terracotta",
@@ -390,7 +966,51 @@
       ],
       "source": "assets/review/environment-v1/palette.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#513F45",
+          "name": "#513F45",
+          "group": "Terracotta"
+        },
+        {
+          "slot": 2,
+          "hex": "#804E49",
+          "name": "#804E49",
+          "group": "Terracotta"
+        },
+        {
+          "slot": 3,
+          "hex": "#A85E4D",
+          "name": "#A85E4D",
+          "group": "Terracotta"
+        },
+        {
+          "slot": 4,
+          "hex": "#C77C59",
+          "name": "#C77C59",
+          "group": "Terracotta"
+        },
+        {
+          "slot": 5,
+          "hex": "#E1A16E",
+          "name": "#E1A16E",
+          "group": "Terracotta"
+        },
+        {
+          "slot": 6,
+          "hex": "#F0BE87",
+          "name": "#F0BE87",
+          "group": "Terracotta"
+        }
+      ]
     },
     {
       "id": "env.plum",
@@ -405,7 +1025,51 @@
       ],
       "source": "assets/review/environment-v1/palette.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#3B3D51",
+          "name": "#3B3D51",
+          "group": "Plum"
+        },
+        {
+          "slot": 2,
+          "hex": "#574C64",
+          "name": "#574C64",
+          "group": "Plum"
+        },
+        {
+          "slot": 3,
+          "hex": "#75617B",
+          "name": "#75617B",
+          "group": "Plum"
+        },
+        {
+          "slot": 4,
+          "hex": "#958091",
+          "name": "#958091",
+          "group": "Plum"
+        },
+        {
+          "slot": 5,
+          "hex": "#B49DAD",
+          "name": "#B49DAD",
+          "group": "Plum"
+        },
+        {
+          "slot": 6,
+          "hex": "#D4C1C4",
+          "name": "#D4C1C4",
+          "group": "Plum"
+        }
+      ]
     },
     {
       "id": "env.teal",
@@ -420,7 +1084,51 @@
       ],
       "source": "assets/review/environment-v1/palette.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#264650",
+          "name": "#264650",
+          "group": "Teal"
+        },
+        {
+          "slot": 2,
+          "hex": "#396775",
+          "name": "#396775",
+          "group": "Teal"
+        },
+        {
+          "slot": 3,
+          "hex": "#558E98",
+          "name": "#558E98",
+          "group": "Teal"
+        },
+        {
+          "slot": 4,
+          "hex": "#80B6B6",
+          "name": "#80B6B6",
+          "group": "Teal"
+        },
+        {
+          "slot": 5,
+          "hex": "#B7D8C4",
+          "name": "#B7D8C4",
+          "group": "Teal"
+        },
+        {
+          "slot": 6,
+          "hex": "#E4E4BC",
+          "name": "#E4E4BC",
+          "group": "Teal"
+        }
+      ]
     },
     {
       "id": "env.interior",
@@ -444,7 +1152,105 @@
       ],
       "source": "assets/review/environment-v1/palette.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#293E40",
+          "name": "#293E40",
+          "group": "Interior"
+        },
+        {
+          "slot": 2,
+          "hex": "#624B48",
+          "name": "#624B48",
+          "group": "Interior"
+        },
+        {
+          "slot": 3,
+          "hex": "#896654",
+          "name": "#896654",
+          "group": "Interior"
+        },
+        {
+          "slot": 4,
+          "hex": "#B08762",
+          "name": "#B08762",
+          "group": "Interior"
+        },
+        {
+          "slot": 5,
+          "hex": "#D5B286",
+          "name": "#D5B286",
+          "group": "Interior"
+        },
+        {
+          "slot": 6,
+          "hex": "#EDCFA0",
+          "name": "#EDCFA0",
+          "group": "Interior"
+        },
+        {
+          "slot": 7,
+          "hex": "#F7E6BE",
+          "name": "#F7E6BE",
+          "group": "Interior"
+        },
+        {
+          "slot": 8,
+          "hex": "#3B7479",
+          "name": "#3B7479",
+          "group": "Interior"
+        },
+        {
+          "slot": 9,
+          "hex": "#5A9B9B",
+          "name": "#5A9B9B",
+          "group": "Interior"
+        },
+        {
+          "slot": 10,
+          "hex": "#99C6B6",
+          "name": "#99C6B6",
+          "group": "Interior"
+        },
+        {
+          "slot": 11,
+          "hex": "#527B58",
+          "name": "#527B58",
+          "group": "Interior"
+        },
+        {
+          "slot": 12,
+          "hex": "#84A168",
+          "name": "#84A168",
+          "group": "Interior"
+        },
+        {
+          "slot": 13,
+          "hex": "#AD695F",
+          "name": "#AD695F",
+          "group": "Interior"
+        },
+        {
+          "slot": 14,
+          "hex": "#D08F7A",
+          "name": "#D08F7A",
+          "group": "Interior"
+        },
+        {
+          "slot": 15,
+          "hex": "#EFBBA0",
+          "name": "#EFBBA0",
+          "group": "Interior"
+        }
+      ]
     },
     {
       "id": "environment",
@@ -480,7 +1286,534 @@
       ],
       "source": "art/source/playable-environment/palette.json",
       "status": "proposed; artwork approval pending",
-      "legacy": true
+      "legacy": true,
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#50546B",
+          "name": "#50546B",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 2,
+          "hex": "#737183",
+          "name": "#737183",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 3,
+          "hex": "#927359",
+          "name": "#927359",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 4,
+          "hex": "#BC9467",
+          "name": "#BC9467",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 5,
+          "hex": "#DEC091",
+          "name": "#DEC091",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 6,
+          "hex": "#E6E5CB",
+          "name": "#E6E5CB",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 7,
+          "hex": "#CECFB3",
+          "name": "#CECFB3",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 8,
+          "hex": "#F6EFDA",
+          "name": "#F6EFDA",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 9,
+          "hex": "#91D2C5",
+          "name": "#91D2C5",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 10,
+          "hex": "#A5D9D2",
+          "name": "#A5D9D2",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 11,
+          "hex": "#996E65",
+          "name": "#996E65",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 12,
+          "hex": "#C18A6B",
+          "name": "#C18A6B",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 13,
+          "hex": "#E0AD78",
+          "name": "#E0AD78",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 14,
+          "hex": "#F0CB8B",
+          "name": "#F0CB8B",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 15,
+          "hex": "#BD9C78",
+          "name": "#BD9C78",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 16,
+          "hex": "#686978",
+          "name": "#686978",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 17,
+          "hex": "#ECD4A0",
+          "name": "#ECD4A0",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 18,
+          "hex": "#F4EDCC",
+          "name": "#F4EDCC",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 19,
+          "hex": "#679C99",
+          "name": "#679C99",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 20,
+          "hex": "#456D79",
+          "name": "#456D79",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 21,
+          "hex": "#A5CEAD",
+          "name": "#A5CEAD",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 22,
+          "hex": "#5E9AAB",
+          "name": "#5E9AAB",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 23,
+          "hex": "#96744F",
+          "name": "#96744F",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 24,
+          "hex": "#6F594B",
+          "name": "#6F594B",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 25,
+          "hex": "#70A856",
+          "name": "#70A856",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 26,
+          "hex": "#9BCA69",
+          "name": "#9BCA69",
+          "group": "Environment \u00b7 current working colors"
+        },
+        {
+          "slot": 27,
+          "hex": "#3D794A",
+          "name": "#3D794A",
+          "group": "Environment \u00b7 current working colors"
+        }
+      ]
+    },
+    {
+      "id": "portraits",
+      "label": "Portraits \u00b7 skin & hair",
+      "colors": [
+        "#17121c",
+        "#30202b",
+        "#513031",
+        "#754438",
+        "#9c6049",
+        "#c28362",
+        "#dea780",
+        "#f5cfaa",
+        "#ffead0",
+        "#352328",
+        "#583a37",
+        "#805344",
+        "#ad7656",
+        "#cf9870",
+        "#ecc39b",
+        "#fff0ca",
+        "#202333",
+        "#343d52",
+        "#56647a",
+        "#8598ad",
+        "#bfd0df",
+        "#f7f5ec",
+        "#8b394a",
+        "#c25b65",
+        "#eb9090",
+        "#ffd0c0",
+        "#574055",
+        "#87536d",
+        "#b67c98",
+        "#e5afc5",
+        "#fff3f6"
+      ],
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#17121C",
+          "name": "#17121C",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 2,
+          "hex": "#30202B",
+          "name": "#30202B",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 3,
+          "hex": "#513031",
+          "name": "#513031",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 4,
+          "hex": "#754438",
+          "name": "#754438",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 5,
+          "hex": "#9C6049",
+          "name": "#9C6049",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 6,
+          "hex": "#C28362",
+          "name": "#C28362",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 7,
+          "hex": "#DEA780",
+          "name": "#DEA780",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 8,
+          "hex": "#F5CFAA",
+          "name": "#F5CFAA",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 9,
+          "hex": "#FFEAD0",
+          "name": "#FFEAD0",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 10,
+          "hex": "#352328",
+          "name": "#352328",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 11,
+          "hex": "#583A37",
+          "name": "#583A37",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 12,
+          "hex": "#805344",
+          "name": "#805344",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 13,
+          "hex": "#AD7656",
+          "name": "#AD7656",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 14,
+          "hex": "#CF9870",
+          "name": "#CF9870",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 15,
+          "hex": "#ECC39B",
+          "name": "#ECC39B",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 16,
+          "hex": "#FFF0CA",
+          "name": "#FFF0CA",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 17,
+          "hex": "#202333",
+          "name": "#202333",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 18,
+          "hex": "#343D52",
+          "name": "#343D52",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 19,
+          "hex": "#56647A",
+          "name": "#56647A",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 20,
+          "hex": "#8598AD",
+          "name": "#8598AD",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 21,
+          "hex": "#BFD0DF",
+          "name": "#BFD0DF",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 22,
+          "hex": "#F7F5EC",
+          "name": "#F7F5EC",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 23,
+          "hex": "#8B394A",
+          "name": "#8B394A",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 24,
+          "hex": "#C25B65",
+          "name": "#C25B65",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 25,
+          "hex": "#EB9090",
+          "name": "#EB9090",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 26,
+          "hex": "#FFD0C0",
+          "name": "#FFD0C0",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 27,
+          "hex": "#574055",
+          "name": "#574055",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 28,
+          "hex": "#87536D",
+          "name": "#87536D",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 29,
+          "hex": "#B67C98",
+          "name": "#B67C98",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 30,
+          "hex": "#E5AFC5",
+          "name": "#E5AFC5",
+          "group": "Portraits \u00b7 skin & hair"
+        },
+        {
+          "slot": 31,
+          "hex": "#FFF3F6",
+          "name": "#FFF3F6",
+          "group": "Portraits \u00b7 skin & hair"
+        }
+      ]
+    },
+    {
+      "id": "grayscale",
+      "label": "Grayscale \u00b7 16 tones",
+      "colors": [
+        "#000000",
+        "#111111",
+        "#222222",
+        "#333333",
+        "#444444",
+        "#555555",
+        "#666666",
+        "#777777",
+        "#888888",
+        "#999999",
+        "#aaaaaa",
+        "#bbbbbb",
+        "#cccccc",
+        "#dddddd",
+        "#eeeeee",
+        "#ffffff"
+      ],
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#000000",
+          "name": "#000000",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 2,
+          "hex": "#111111",
+          "name": "#111111",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 3,
+          "hex": "#222222",
+          "name": "#222222",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 4,
+          "hex": "#333333",
+          "name": "#333333",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 5,
+          "hex": "#444444",
+          "name": "#444444",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 6,
+          "hex": "#555555",
+          "name": "#555555",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 7,
+          "hex": "#666666",
+          "name": "#666666",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 8,
+          "hex": "#777777",
+          "name": "#777777",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 9,
+          "hex": "#888888",
+          "name": "#888888",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 10,
+          "hex": "#999999",
+          "name": "#999999",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 11,
+          "hex": "#AAAAAA",
+          "name": "#AAAAAA",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 12,
+          "hex": "#BBBBBB",
+          "name": "#BBBBBB",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 13,
+          "hex": "#CCCCCC",
+          "name": "#CCCCCC",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 14,
+          "hex": "#DDDDDD",
+          "name": "#DDDDDD",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 15,
+          "hex": "#EEEEEE",
+          "name": "#EEEEEE",
+          "group": "Grayscale \u00b7 16 tones"
+        },
+        {
+          "slot": 16,
+          "hex": "#FFFFFF",
+          "name": "#FFFFFF",
+          "group": "Grayscale \u00b7 16 tones"
+        }
+      ]
     }
   ]
 }

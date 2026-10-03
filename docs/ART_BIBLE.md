@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Editor color freedom — user update, TOOLS.SE8
+
+The latest user request expands the Sprite Editor beyond a single Wildlife palette: **selectable palettes, arbitrary exact RGB picked from references/artwork, custom colors and full-opacity reference copying are authorized.** This supersedes the Wildlife-only selectable bank and 31-opaque-color editor validation restrictions below. The original Wildlife slot order/values stay intact as one choice; existing artwork is not recolored when switching banks. Fourteen editor palette collections include existing Critz character/environment banks, a new portrait/skin/hair selection and grayscale. These are authoring choices, not approval or recoloring of gameplay assets.
+
+Copied references preserve their current crop, position, sampling and exact colors. Fully transparent cells stay unpainted; nonzero alpha becomes fully opaque because artwork remains true binary-alpha pixels. Guide opacity does not affect copied or eyedropped RGB. References remain separate until the user explicitly clicks Copy reference. PNG/project/exact-data exports keep all colors; GIF exports may reduce their own color table above 255 opaque colors, without changing the project. Preset references contain only the user's original skeleton; no reference-game artwork is bundled.
+
 ## Current Wildlife palette — 32 slots, 2026-10-03
 
 The user supplied the following exact palette for the Sprite Editor. **Slot 00 is transparent; slots 01–31 are fully opaque.** This replaces the editor's previous selectable Critz banks. All 31 opaque colors may be used together in an editor character project; the older proposed 15-color restriction below is superseded for this workflow. Palette selection is not artwork approval, a reference-game palette claim or authorization to recolor existing gameplay assets.

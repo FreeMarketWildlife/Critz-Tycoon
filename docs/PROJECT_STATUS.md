@@ -1,5 +1,13 @@
 # Project status
 
+## TOOLS.SE8 — Copy reference, open color choices and trackpad navigation
+
+**Implemented; release verification in progress.** Active task delivers Copy reference at full opacity with exact RGB, an explicit reference/artwork eyedropper, 14 selectable palette collections plus custom hex/color input, skeleton reference preset, and two-finger pan with modified-wheel/pinch zoom. Main remains the working branch. Preserve game saves, all animation frames outside the active copy target, prior reference transform/crop/centering and construction tools. Unrelated unfinished game/art work is excluded.
+
+The user's new exact-color instruction supersedes Wildlife-only and 31-color editor restrictions; Wildlife slots remain unchanged. PNG, projects and exact data preserve arbitrary RGB. GIF compacts palette indexes losslessly when possible; over 255 opaque colors reduces only the GIF export with a visible receipt. Copy keeps source crop/scale/offset/background removal, paints over nontransparent reference cells on the active frame, ignores guide opacity/paint masks and supports Undo. No new game artwork or approval is inferred. [Guide](../sprite-editor/README.md) · [Release evidence](reviews/TOOLS-SE8/README.md).
+
+Initial checks: four new pure-model tests and ten new browser scenarios passed, including exact custom colors, clipping, averaging, active-frame isolation, eyedropper source selection, palette preservation, reopen, no-op handling and navigation. **Next action:** validate the clean committed release, publish revision 08 and record the verified source/deployment receipt.
+
 ## M1.C4 revision 10 — Selected twists Hero, local outline cleanup
 
 **Asset/checks complete; visual acceptance pending.** User selected the orange-striped twists screenshot, requested 32×64, two bottom padding rows, symmetric anatomy, retained hair, no color-budget restriction and a one-pixel black outline. [Native asset and review](reviews/M1-C4/revision-10/README.md). R10 edits the matching R7 native source instead of another redesign. All 698 occupied cells and 223 non-outline upper/hair-region colors remain exact; 201 localized color edits produce the black boundary and material shadows. Actual palette is 28 colors. The skeleton is guidance, not an instruction to overwrite the chosen outline with R9.
