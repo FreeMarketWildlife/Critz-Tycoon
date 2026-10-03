@@ -1,0 +1,146 @@
+{
+  "approval": false,
+  "nativeCells": 8192,
+  "gridCells": 34816,
+  "pairedAnatomyCells": 3456,
+  "figures": [
+    {
+      "id": "review.hero.boy.south.idle.r7.a-afro",
+      "bbox": [
+        4,
+        24,
+        28,
+        62
+      ],
+      "paintedSize": [
+        24,
+        38
+      ],
+      "colors": 24,
+      "connected": true,
+      "bodyAlphaMismatchPairs": 0,
+      "sourceTransform": {
+        "sourceCrop": [
+          15,
+          25,
+          145,
+          243
+        ],
+        "sourceCenterX": 79.5,
+        "sourceFootEdge": 239,
+        "sourcePixelsPerNativePixel": 5.25,
+        "uniformScale": true,
+        "sourceFrameOrigin": [
+          -4.5,
+          -86.5
+        ]
+      },
+      "sha256": "2e7acce60f81077e37228f483cbab5b32f4bab1673ca60bd4f27017e66bdf0ec"
+    },
+    {
+      "id": "review.hero.boy.south.idle.r7.b-flat-top",
+      "bbox": [
+        4,
+        23,
+        28,
+        62
+      ],
+      "paintedSize": [
+        24,
+        39
+      ],
+      "colors": 24,
+      "connected": true,
+      "bodyAlphaMismatchPairs": 0,
+      "sourceTransform": {
+        "sourceCrop": [
+          205,
+          25,
+          334,
+          243
+        ],
+        "sourceCenterX": 270,
+        "sourceFootEdge": 239,
+        "sourcePixelsPerNativePixel": 5.25,
+        "uniformScale": true,
+        "sourceFrameOrigin": [
+          186.0,
+          -86.5
+        ]
+      },
+      "sha256": "80cfbc6bbae2d42aeadcfa7b7091b1958a0d0e93fa18635eb7792ee1fdcab918"
+    },
+    {
+      "id": "review.hero.boy.south.idle.r7.c-twists",
+      "bbox": [
+        4,
+        24,
+        28,
+        62
+      ],
+      "paintedSize": [
+        24,
+        38
+      ],
+      "colors": 24,
+      "connected": true,
+      "bodyAlphaMismatchPairs": 0,
+      "sourceTransform": {
+        "sourceCrop": [
+          393,
+          25,
+          525,
+          243
+        ],
+        "sourceCenterX": 459.25,
+        "sourceFootEdge": 239,
+        "sourcePixelsPerNativePixel": 5.25,
+        "uniformScale": true,
+        "sourceFrameOrigin": [
+          375.25,
+          -86.5
+        ]
+      },
+      "sha256": "a8022cbf912bf407348da7914c754cb1f70a2ae6e25f2150dc1e5d7c6a870ada"
+    },
+    {
+      "id": "review.hero.boy.south.idle.r7.d-cornrows",
+      "bbox": [
+        4,
+        25,
+        28,
+        62
+      ],
+      "paintedSize": [
+        24,
+        37
+      ],
+      "colors": 24,
+      "connected": true,
+      "bodyAlphaMismatchPairs": 0,
+      "sourceTransform": {
+        "sourceCrop": [
+          585,
+          25,
+          714,
+          243
+        ],
+        "sourceCenterX": 649.75,
+        "sourceFootEdge": 239,
+        "sourcePixelsPerNativePixel": 5.25,
+        "uniformScale": true,
+        "sourceFrameOrigin": [
+          565.75,
+          -86.5
+        ]
+      },
+      "sha256": "36bf18451763d50476049ade8680d59583893ecb593624e30a0845960dab40e6"
+    }
+  ],
+  "limitations": [
+    "Skull guide is inferred construction, not recovered hidden anatomy.",
+    "Screenshot transfer and 24-color quantization are not byte-exact copies of the screenshot.",
+    "Reference silhouettes differ from Brendan; this preserves supplied design proportions and registers eyes/feet rather than copying his costume."
+  ],
+  "referenceUnchanged": true
+}

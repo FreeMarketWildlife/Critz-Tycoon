@@ -1,0 +1,86 @@
+{
+  "four-heroes-grid": [
+    {
+      "slug": "a-afro",
+      "x": 48,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "b-flat-top",
+      "x": 494,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "c-twists",
+      "x": 940,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "d-cornrows",
+      "x": 1386,
+      "y": 176,
+      "scale": 12
+    }
+  ],
+  "four-heroes-grid-2x2": [
+    {
+      "slug": "a-afro",
+      "x": 48,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "b-flat-top",
+      "x": 494,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "c-twists",
+      "x": 48,
+      "y": 1091,
+      "scale": 12
+    },
+    {
+      "slug": "d-cornrows",
+      "x": 494,
+      "y": 1091,
+      "scale": 12
+    }
+  ],
+  "five-character-grid": [
+    {
+      "slug": "brendan",
+      "x": 48,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "a-afro",
+      "x": 494,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "b-flat-top",
+      "x": 940,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "c-twists",
+      "x": 1386,
+      "y": 176,
+      "scale": 12
+    },
+    {
+      "slug": "d-cornrows",
+      "x": 1832,
+      "y": 176,
+      "scale": 12
+    }
+  ]
+}

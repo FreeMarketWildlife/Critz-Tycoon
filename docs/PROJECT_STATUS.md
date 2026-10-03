@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C4 revision 7 — Actual-reference tracing and five upward grids
+
+**Review deliverable complete; artwork awaiting user review.** R6 was rejected for squashed heads. The latest request requires Brendan first in five full grids and actual supplied concepts registered over him. [R7 review/method](reviews/M1-C4/revision-7/README.md) · [measurements](reviews/M1-C4/revision-7/MEASUREMENTS.md) · [four-character repository copy](reviews/M1-C4/revision-7/four-heroes-grid.png). The primary five-grid and actual-reference-overlay plates are external local artifacts linked from the review; reference-game colored pixels remain outside the build.
+
+Four front-idle native transfers preserve the supplied afro/teal, flat-top/gold, twists/red stripes and cornrows/blue designs with uniform whole-figure registration. Actual painted sizes are 24×38 / 24×39 / 24×38 / 24×37 inside 32×64 frames. All grids use native-pixel cells, x=16 symmetry, ten-height guides and 0 at bottom. ART_BIBLE revokes both hat-tip-as-skull and hat-bottom-as-bare-hairline assumptions, including R6's shorter-head directive. AGENTS already defers exclusively to the Bible for art direction and is unchanged.
+
+Actual checks pass: 8,192 native cells, 34,816 displayed grid cells, 3,456 paired anatomical-zone cells, exact mirrored eyes, common feet/anchor, uniform source transforms, connected silhouettes, binary alpha, 24 colors per figure, source-transfer equality and unchanged Brendan reconstruction. Native, enlarged, five-grid and source-overlay images were visually inspected. Limits: screenshot transfer/quantization is not a byte-exact screenshot copy or a new hand-drawn production asset; cranium and part zones are inferred inspection guides, not measured hidden bones. The 24-color review does not change the editor palette. No visual approval is claimed.
+
+Work directly on `main`, opening `7c238a925ee942fe7f53c1f7e8dd0d54cb4307d0`. Commit/push verification is recorded in the delivery receipt below after checks. Opening unrelated game/art work and concurrent editor changes are preserved and excluded. **Playable build unchanged; no deployment required.** No animation, runtime art replacement, save access or gameplay changes. Existing phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site.
+
+**Exact next action:** user visually reviews the five aligned figures; continue the selected front idle before animation. Prior R6/R5 diagnoses below are historical and superseded by R7.
+
 ## M1.C4 revision 6 — Corrected head construction and upward grids
 
 **Implementation/checks complete; artwork awaiting user review.** User requested four new idle candidates retaining the supplied afro/teal, flat-top/gold, twists/red stripes and cornrows/blue designs, corrected against Brendan without forcing skull/hair to his hat height. The user then corrected the coordinate convention: **0 at bottom, 64 at top**; the earlier 36 estimate is not a required height. [Four full grids](reviews/M1-C4/revision-6/four-heroes-grid.png) · [Larger 2×2 layout](reviews/M1-C4/revision-6/four-heroes-grid-2x2.png) · [Review/evidence](reviews/M1-C4/revision-6/README.md).

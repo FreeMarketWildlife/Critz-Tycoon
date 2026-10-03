@@ -1,6 +1,6 @@
 # M1.C4 — Countable idle pixels and chibi construction
 
-**Current review: [revision 6](revision-6/README.md).** Four shorter original Hero head constructions retain the supplied designs, on full 32×64 grids counting upward from zero. Headwear height is no longer treated as skull height. Earlier revisions remain history; final artwork approval remains pending.
+**Current review: [revision 7](revision-7/README.md).** Five full grids place Brendan first and the four designs traced from the user's actual supplied references beside him. Uniform whole-figure registration preserves head/body proportions; the shorter-head directive from rejected R6 is revoked. Grids count upward from zero. Earlier revisions are history; final artwork approval remains pending.
 
 **Awaiting user art review.** The user requested a boy Hero idle comparison at 16×32 versus 32×64, then required a true one-native-pixel grid, numbered marks every ten pixels, and the compact construction of the supplied character reference. No animation or playable replacement is included.
 

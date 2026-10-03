@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 7 — Current five-grid reference-led review
+
+Deliverable complete, artwork awaiting user review. Use the actual supplied four designs at one uniform whole-figure scale, aligned to Brendan's eyes and feet, on five full 32×64 grids with Brendan first, x=16 centerlines and Y=0 at bottom. Preserve rounded cranium/hair volume and each supplied outfit. R6's shorter-head directive and forced hat-bottom hairline are revoked. [R7](reviews/M1-C4/revision-7/README.md) records actual source registration, measured bounds, native transfers and visual/check evidence. ART_BIBLE remains the only art-direction authority; AGENTS already points there. Idle only; no animation or gameplay integration. Earlier revision sections below are history, not current construction instructions.
+
 ## M1.C4 revision 6 — Current four-character review
 
 Deliver four corrected front-idle candidates retaining the user's supplied designs, with original shorter hair/skull construction and face/body landmarks aligned to the supplied Brendan reference. Use all 32×64 grid space, Y=0 bottom/Y=64 top, x=16 symmetry, native-pixel cells and ten-height guides. [Revision 6](reviews/M1-C4/revision-6/README.md) records actual extents and source/design distinctions. ART_BIBLE is the sole art direction; AGENTS and the reusable prompt point to it. Final art acceptance awaits the user; no walking or accepted gameplay replacement is included.
