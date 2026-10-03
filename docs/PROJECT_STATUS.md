@@ -6,7 +6,7 @@
 
 Checks pass for all 2,048 native pixels, exact source/RLE, connectedness, zero target-silhouette changes, paired body alpha, fixed 2×4 eyes, two empty rows, exact one-layer pure-black boundary and zero 2×2 black blocks. Native/grid views inspected. Custom indexed/RLE colors may be rejected by the editor's current allow-list; no editor compatibility or palette-remap claim. PNG is authoritative. ART_BIBLE now explicitly corrects transfer-origin prejudice and unintended palette/shape replacement. Hair/lighting retain the existing allowed asymmetry; no self-approval.
 
-Work on `main`, opening `e0baaed081305e0f53947ab3b1f862ea0da400a7`. Delivery verification follows. Unrelated game/art/editor work is preserved. **Playable build unchanged; no deployment required.** No animation, saves or runtime integration. **Next action:** user reviews this single selected still before animation.
+Work on `main`, opening `e0baaed081305e0f53947ab3b1f862ea0da400a7`. Asset/source **`5b52b256c02e4906812f0e639770c4bb1a960293`** committed/pushed to `origin/main`; remote SHA matched local HEAD. All 19 opening tracked deltas were verified unchanged; concurrent editor release work is preserved. This documentation receipt is pushed and verified separately. Unrelated game/art/editor work is preserved. **Playable build unchanged; no deployment required.** No animation, saves or runtime integration. **Next action:** user reviews this single selected still before animation.
 
 ## TOOLS.SE7 — User skeleton, anatomy-aware painting and exact-data import
 
