@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE1 — User-requested sprite authoring tool
+
+Active implementation deliverable: **Free Market Wildlife Sprite Editor**, a standalone `/sprite-editor/` tool with the user's Emerald 2× canvas budgets, existing original Critz palette banks, pixel drawing/zoom, local reference overlays, exact pixel copy, project persistence and animation exports. [Editor guide](../sprite-editor/README.md). No new artwork, roster expansion, renderer migration or milestone acceptance is implied. Existing unfinished M1.I3 changes stay excluded. The new tool is usable before final art approval; it must label palette/proportion limits honestly and preserve game saves. After editor release, M1.C4 revision-3 visual review remains pending.
+
 ## M1.C4 revision 4 — Four gridded 2× Hero candidates
 
 Current review follows the latest user request: four front-idle 32×64 options corresponding to afro/teal, flat-top/gold, twists/red stripes and cornrows/blue references. Present every option on native-pixel grids with x=16 symmetry and numbered ten-row Y guides. [Revision 4](reviews/M1-C4/revision-4/README.md) records compact-human-ear corrections and explicit proportion deviations. The requested four 2× variants supersede the earlier paired-budget layout for this review only. Await user selection/refinement; no animation, accepted art replacement or game integration.

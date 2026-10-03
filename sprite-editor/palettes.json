@@ -1,0 +1,242 @@
+{
+  "artBible": "docs/ART_BIBLE.md",
+  "policy": "Existing original Critz banks; no approved global 32-color palette. Character projects use at most 15 opaque colors plus transparency.",
+  "banks": [
+    {
+      "id": "hero",
+      "label": "Hero \u00b7 current 2\u00d7 review",
+      "colors": [
+        "#292532",
+        "#11111a",
+        "#352e35",
+        "#55404a",
+        "#633a35",
+        "#905439",
+        "#ba7c4e",
+        "#245968",
+        "#2f8c91",
+        "#64b7ab",
+        "#2b3452",
+        "#4a5578",
+        "#eddfb5",
+        "#775a66",
+        "#b9b69b"
+      ],
+      "source": "docs/reviews/M1-C4/revision-3/hero-32x64.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "mom",
+      "label": "Mom",
+      "colors": [
+        "#24232e",
+        "#34333f",
+        "#4a4554",
+        "#615767",
+        "#754333",
+        "#995b3c",
+        "#bd7d4e",
+        "#874d60",
+        "#bb7081",
+        "#e5a0a6",
+        "#f2dfb6",
+        "#e9b94f",
+        "#29384e",
+        "#495c78",
+        "#11131d"
+      ],
+      "source": "art/source/budget-comparison/mom.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "kaid",
+      "label": "Kaid",
+      "colors": [
+        "#25313e",
+        "#365e69",
+        "#4d919d",
+        "#81bdc4",
+        "#b4dddd",
+        "#e5edd3",
+        "#d9942f",
+        "#edb64a",
+        "#f2d074",
+        "#a56b31",
+        "#30465e",
+        "#566981",
+        "#c5bc92"
+      ],
+      "source": "art/source/budget-comparison/kaid.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "nugget",
+      "label": "Nugget",
+      "colors": [
+        "#282c30",
+        "#596363",
+        "#a0aaa7",
+        "#d3d6c7",
+        "#b3a178",
+        "#ddcda0",
+        "#827856",
+        "#43563c",
+        "#929f74",
+        "#cf986d",
+        "#efc38b",
+        "#a76d4d",
+        "#f1eacf",
+        "#b9bba4",
+        "#525442"
+      ],
+      "source": "art/source/budget-comparison/nugget.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "env.landscape",
+      "label": "Landscape",
+      "colors": [
+        "#233f39",
+        "#38634d",
+        "#4f8053",
+        "#72a05c",
+        "#9abd72",
+        "#c4d78a",
+        "#655343",
+        "#92724e",
+        "#b99565",
+        "#d9b57b",
+        "#efd29a",
+        "#245c67",
+        "#368793",
+        "#65b3b0",
+        "#b3d9bf"
+      ],
+      "source": "assets/review/environment-v1/palette.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "env.woodwork",
+      "label": "Woodwork",
+      "colors": [
+        "#293e40",
+        "#57463e",
+        "#7e5841",
+        "#a6764f",
+        "#cca173",
+        "#e8c99b",
+        "#f7e6be",
+        "#497f87",
+        "#79afb1",
+        "#b8d6c7",
+        "#d48b57",
+        "#a35f46",
+        "#769d62",
+        "#acbc7f",
+        "#334f54"
+      ],
+      "source": "assets/review/environment-v1/palette.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "env.terracotta",
+      "label": "Terracotta",
+      "colors": [
+        "#513f45",
+        "#804e49",
+        "#a85e4d",
+        "#c77c59",
+        "#e1a16e",
+        "#f0be87"
+      ],
+      "source": "assets/review/environment-v1/palette.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "env.plum",
+      "label": "Plum",
+      "colors": [
+        "#3b3d51",
+        "#574c64",
+        "#75617b",
+        "#958091",
+        "#b49dad",
+        "#d4c1c4"
+      ],
+      "source": "assets/review/environment-v1/palette.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "env.teal",
+      "label": "Teal",
+      "colors": [
+        "#264650",
+        "#396775",
+        "#558e98",
+        "#80b6b6",
+        "#b7d8c4",
+        "#e4e4bc"
+      ],
+      "source": "assets/review/environment-v1/palette.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "env.interior",
+      "label": "Interior",
+      "colors": [
+        "#293e40",
+        "#624b48",
+        "#896654",
+        "#b08762",
+        "#d5b286",
+        "#edcfa0",
+        "#f7e6be",
+        "#3b7479",
+        "#5a9b9b",
+        "#99c6b6",
+        "#527b58",
+        "#84a168",
+        "#ad695f",
+        "#d08f7a",
+        "#efbba0"
+      ],
+      "source": "assets/review/environment-v1/palette.json",
+      "status": "proposed; artwork approval pending"
+    },
+    {
+      "id": "environment",
+      "label": "Environment \u00b7 current working colors",
+      "colors": [
+        "#50546b",
+        "#737183",
+        "#927359",
+        "#bc9467",
+        "#dec091",
+        "#e6e5cb",
+        "#cecfb3",
+        "#f6efda",
+        "#91d2c5",
+        "#a5d9d2",
+        "#996e65",
+        "#c18a6b",
+        "#e0ad78",
+        "#f0cb8b",
+        "#bd9c78",
+        "#686978",
+        "#ecd4a0",
+        "#f4edcc",
+        "#679c99",
+        "#456d79",
+        "#a5cead",
+        "#5e9aab",
+        "#96744f",
+        "#6f594b",
+        "#70a856",
+        "#9bca69",
+        "#3d794a"
+      ],
+      "source": "art/source/playable-environment/palette.json",
+      "status": "proposed; artwork approval pending"
+    }
+  ]
+}

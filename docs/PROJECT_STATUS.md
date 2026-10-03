@@ -1,5 +1,19 @@
 # Project status
 
+## TOOLS.SE1 — Free Market Wildlife Sprite Editor
+
+**Implementation and editor checks complete; release verification in progress.** User explicitly requested a simple true-pixel authoring program with Emerald 2× canvas presets, existing Critz palettes, zoom, reference overlays, exact ChatGPT copy and animations. Deliverable: standalone `/sprite-editor/`, linked from the game footer and README, with no imported game/save modules. Work is on `main`, opening SHA `7d475fac7910520b8b4c32ade46cc49fd7a6be75`. Existing unfinished M1.I3 changes are preserved and excluded.
+
+Features: integer-pixel pencil/eraser/fill/picker/line/box/pan, mirror X, undo/redo, native grid/centerline/numbered guides, clean preview, all eight requested dimensions, rock and configurable 32px-block building canvases; local reference image cropping, scale/offset/opacity/layer and exact background keying; palette-restricted imports and authoring; frame add/duplicate/name/reorder/delete, onion skin, exact-tick playback; project save/open and separate local autosave; PNG, sprite sheet, GIF, lossless RLE JSON and Copy for ChatGPT. No reference images are shipped or included in artwork exports/storage. [Guide](../sprite-editor/README.md).
+
+Palette finding: ART_BIBLE specifies proposed 15-opaque-color character palettes and explicit environment banks, **not an approved global 32-color palette**. The editor loads the current original Hero revision-3 bank, Mom/Kaid/Nugget banks and existing environment banks with source provenance. Character projects enforce 15 used opaque colors across frames. Switching banks preserves painted colors. New canvas sizes are storage budgets, not measured anatomy. The 160×160 building default is a configurable five-block workspace, not a universal reference claim. No new asset or art approval is claimed; M1.C4 style acceptance still awaits the user.
+
+Actual checks: five model tests pass (preset/bank source equality, native drawing primitives, exact RLE reconstruction, malformed/foreign-color/budget rejection and GIF fixture); ten isolated Chromium browser scenarios pass (native drawing/mirror/undo, frame playback/timing/order, reference exclusion, copy and project round-trip, every preset, import validation, autosave with unchanged synthetic game save, 1440/390/320/844 layouts, touch, zero runtime errors). Independent Pillow decoding verifies every exported PNG RGBA pixel (2,048) and both GIF frames including cleared transparency. Desktop/phone screenshots visually inspected. Final memory-bounded zoom change will be checked in the clean release build.
+
+Limitations: no physical iPhone/Safari test; reference images are memory-only and must be reloaded; autosave holds one local draft, with downloadable projects for durable/multiple-file storage. GIF delays use centiseconds with a 20ms minimum; JSON retains exact tick durations. Mirror-paint and blank canvas guides do not validate anatomical masks or generate the separate required Hero 1×/2× comparison. Small preview scales use sparse guide labels; individual pixel lines appear at ≥4×. No gameplay art, story, collision, save migration, roster or movement edits belong to this task.
+
+**Exact next action:** verify the clean committed build, push and verify `origin/main`, publish that same tested build through the existing owner-only Site, record its deployment receipt, and open the editor for user use.
+
 ## M1.C4 revision 4 — Four reference-led Hero options
 
 **Delivered for review; artwork acceptance pending.** User rejected R3 as elf-like and requested four 2× front-idle options following the new four-concept reference, all on native-pixel grids with symmetry lines. [Four-across grid](reviews/M1-C4/revision-4/four-heroes-grid.png) · [Large 2×2 grid](reviews/M1-C4/revision-4/four-heroes-grid-2x2.png) · [Review and deviations](reviews/M1-C4/revision-4/README.md).

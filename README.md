@@ -6,6 +6,10 @@ A playable, mobile-first ecosystem RPG. Explore Rootport, recover your escaped a
 
 [Play Critz: Tycoon](https://critz-tycoon.freemarketwildlife.chatgpt.site). Open in Safari or Chrome; sign in with the owner’s ChatGPT account if prompted. No local server is needed for this hosted version.
 
+## Sprite editor
+
+[Open Free Market Wildlife Sprite Editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/): real pixel drawing, Emerald 2× size presets, Critz palette banks, local reference overlays, animation and PNG/GIF/project exports. [Editor guide](sprite-editor/README.md). Its browser draft is separate from game saves.
+
 ## Play locally
 
 Requires Node.js 20 or newer. No dependency installation is needed.
