@@ -1,6 +1,6 @@
 # TOOLS.SE8 — Reference, color and trackpad workflow
 
-Revision **08**, release verification in progress. [Editor guide](../../../sprite-editor/README.md).
+Revision **08** published from source `9141b2738df31154af10c662e945065838d48f64`, pushed to origin/main and remote SHA verified. [Deployment receipt](deployment.json) reports succeeded; existing owner-only audience preserved. [Open editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/). [Editor guide](../../../sprite-editor/README.md).
 
 ## Behavior
 
@@ -20,4 +20,8 @@ No reference-game asset is bundled, no new finished artwork accepted and no game
 
 ## Verification
 
-Initial model and browser tests pass; complete clean-release results and publication receipt will be recorded after validation. New scenarios cover skeleton/reference separation, exact copy/undo, active-frame isolation, transparent/clipped/cropped references, full-color area-average results, reference and artwork eyedropper, Alt-click, 14 palettes, custom-color save/open, off-canvas no-op, two-axis pan, modified wheel and Safari gesture handling, and bounded desktop/mobile layouts. Independent Pillow GIF decoding matched every output pixel, transparency and both animation frames against the reduced export model.
+All **71 unit tests and 70 isolated Chromium browser scenarios passed**, with zero runtime errors, on the clean committed release. [Unit results](unit-tests.txt), [reference/color/navigation](reference-copy-browser-report.json), [construction](construction-browser-report.json), [editor](browser-report.json), [reference](reference-browser-report.json), [workspace](workspace-browser-report.json), [crop/centering](symmetry-sides-report.json), [zoom](zoom-browser-report.json). New scenarios cover skeleton/reference separation, exact copy/undo, active-frame isolation, transparent/clipped/cropped references, full-color area-average results, reference and artwork eyedropper, Alt-click, 14 palettes, custom-color save/open, off-canvas no-op, two-axis pan, modified wheel and Safari gesture handling, and bounded desktop/mobile layouts. Independent Pillow GIF decoding matched every output pixel, transparency and both animation frames against the reduced export model.
+
+All **651 tested build files** match the deployment archive by SHA-256; the only additional helper file is the identical hosting manifest. [Hashes](tested-build-sha256.json). [Desktop](studio-1366.png) and [phone](studio-390.png) layouts visually inspected. [Independent GIF decoder result](gif-decoder.txt). All unrelated opening file hashes remain unchanged; shared status/plan changes were staged separately and unfinished M1.I3 work excluded. No gameplay changes or game save accesses.
+
+Next action: refresh to revision 08. Choose a reference or skeleton preset, position it, then Copy reference. Use Eyedropper (I/Alt-click), select a palette or enter a hex, and pan with two-finger scrolling. Physical MacBook/Safari gesture verification remains a user-device check; synthetic wheel and gesture tests pass.

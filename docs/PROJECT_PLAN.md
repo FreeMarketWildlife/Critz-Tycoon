@@ -2,7 +2,7 @@
 
 ## TOOLS.SE8 — Reference-to-artwork and flexible colors
 
-Implemented, awaiting clean-release checks/publication. Add full-opacity exact-color reference copy, prominent artwork/reference eyedropper, 14 palettes and custom colors, skeleton reference preset, two-finger pan/pinch zoom and simpler color/reference-first panels. Preserve prior editor workflows and game/art review gates. The user's latest instruction relaxes editor-only color restrictions; existing Wildlife values remain unchanged. [Evidence](reviews/TOOLS-SE8/README.md).
+Complete, tested, pushed and published in revision 08. Full-opacity exact-color reference copy, artwork/reference eyedropper, 14 palettes/custom RGB, skeleton reference preset, two-finger pan/pinch zoom and color/reference-first panels are available. All 71 unit tests and 70 browser scenarios pass; exact tested archive deployed successfully. Latest user instruction relaxes editor color restrictions while preserving Wildlife values and gameplay/art review gates. [Evidence](reviews/TOOLS-SE8/README.md).
 
 ## M1.C4 revision 10 — Current selected Hero review
 

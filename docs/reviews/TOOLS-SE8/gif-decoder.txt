@@ -1,0 +1,1 @@
+PASS: Pillow independently decoded both GIF frames; every RGB/alpha pixel matches the reduced export model. Source project unchanged.

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "skeleton preset is reference-only until Copy; copy uses exact pixels on active frame and supports undo",
+    "pass": true
+  },
+  {
+    "name": "Copy respects source crop, integer scale, offsets, canvas clipping, transparency and custom RGB",
+    "pass": true
+  },
+  {
+    "name": "Free averaged sampling copies its displayed full-color sample and preserves existing artwork outside it",
+    "pass": true
+  },
+  {
+    "name": "eyedropper picks full reference color despite faded opacity, then paints it exactly",
+    "pass": true
+  },
+  {
+    "name": "eyedropper can target artwork separately; Alt-click samples without painting",
+    "pass": true
+  },
+  {
+    "name": "14 palette collections change choices without recoloring pixels; custom colors reopen exactly",
+    "pass": true
+  },
+  {
+    "name": "off-canvas reference produces an actionable no-op; no extra undo record",
+    "pass": true
+  },
+  {
+    "name": "two-finger wheel pans both axes without zoom or artwork edits; Ctrl-wheel and Safari gesture zoom",
+    "pass": true
+  },
+  {
+    "name": "desktop and phone keep canvas bounded and reference/color controls usable",
+    "pass": true
+  },
+  {
+    "name": "zero runtime errors",
+    "pass": true
+  }
+]
