@@ -1,6 +1,6 @@
 # M1.C4 — Countable idle pixels and chibi construction
 
-**Current review: [revision 8](revision-8/README.md).** Four directly authored 32×64 pixel sprites retain the supplied designs and hairstyles, presented at native 1× size beside Brendan. R7 was useful reference alignment but was rejected as finished pixel art. Prior revisions remain history; visual acceptance is pending.
+**Current review: [revision 9](revision-9/README.md).** Four native idles preserve the user's exact editor-template anatomy, add the requested hairstyles/outfits, and use one-pixel exterior outlines. Reopenable editor projects and PNG assets are supplied; animation and visual acceptance remain pending.
 
 **Awaiting user art review.** The user requested a boy Hero idle comparison at 16×32 versus 32×64, then required a true one-native-pixel grid, numbered marks every ten pixels, and the compact construction of the supplied character reference. No animation or playable replacement is included.
 

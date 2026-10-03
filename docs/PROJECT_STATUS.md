@@ -1,5 +1,15 @@
 # Project status
 
+## M1.C4 revision 9 — User RLE anatomy and single-pixel outlines
+
+**Idle asset files/checks complete; visual acceptance pending.** The user supplied a 32×64 editor RLE template, requested its anatomy be used for all four designs with X symmetry, one-pixel outlines and individual-pixel refinement; animation follows later. [R9 packet/asset ZIP](reviews/M1-C4/revision-9/README.md). Deliverables include four transparent PNGs, stable-ID manifest, reopenable editor projects, exact RLE and source/masks. Native/grid comparisons retain Brendan externally, excluded from the asset pack and build.
+
+The input is one color-blocked symmetric template. All four preserve its body silhouette from native row 36 down exactly, eye rectangles and foot padding; hair is separate. Paint uses the input Wildlife palette (teal-green and green interpretations of the screenshot's teal/olive). Full silhouettes are 26×38 / 26×39 / 26×38 / 26×37 inside 32×64. One-layer boundary masks implement the new outline rule; source internal thick borders become material or single-row seams. ART_BIBLE supersedes prior 2px-outline advice and distinguishes a grid from quality/approval. AGENTS remains an art-direction pointer.
+
+Actual checks: editor-model project validation and exact RLE exports; 8,192 decoded PNG/source/strip comparisons; exact preserved symmetric body template, eye landmarks, binary alpha, connected silhouettes, Wildlife palette equality and one-layer outline masks. Brendan comparison is unchanged. Native/grid output visually inspected. No walking/back/side frames are included. Game-ready here means consumable front-idle PNG/metadata files, not visual approval or a complete animated character.
+
+Work on `main`, opening `1c83de49672ae357a7a03906af1151a24304504f`. Commit/push receipt follows. Unrelated game/art work is preserved and excluded. **Playable build unchanged; no deployment required.** No runtime, collision or save changes. Current phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site. **Next action:** visual review of these idle assets, then animation only when requested.
+
 ## TOOLS.SE6 — Zoom around any point
 
 **Complete, tested, pushed and published.** User requested zooming at any chosen position instead of jumping to an image corner. Opening `main` is `aeab9e4609efa605b0553a2b7ed381791de2cac8`. TOOLS.SE5 centering/crop changes are already published and retained. Unrelated unfinished game/art work remains excluded.

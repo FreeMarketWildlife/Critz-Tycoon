@@ -1,0 +1,61 @@
+{
+  "approved": false,
+  "cellsChecked": 8192,
+  "bodyTemplatePreserved": true,
+  "outlineDefinition": "one occupied-cell four-neighbor boundary layer; no dilation",
+  "assets": [
+    {
+      "slug": "a-afro",
+      "bbox": [
+        3,
+        24,
+        29,
+        62
+      ],
+      "opaqueColors": 14,
+      "connected": true,
+      "bodyMismatchPixels": 0,
+      "sha256": "a15ca81ca42327b7628eef7d00d2fe13e561f22a196c6f1f582224b2c5fef38a"
+    },
+    {
+      "slug": "b-flat-top",
+      "bbox": [
+        3,
+        23,
+        29,
+        62
+      ],
+      "opaqueColors": 11,
+      "connected": true,
+      "bodyMismatchPixels": 0,
+      "sha256": "9c3d30e12fa79cb72932efea3d4a69a99f2985e0adb77872724c4928d28b6a7c"
+    },
+    {
+      "slug": "c-twists",
+      "bbox": [
+        3,
+        24,
+        29,
+        62
+      ],
+      "opaqueColors": 13,
+      "connected": true,
+      "bodyMismatchPixels": 0,
+      "sha256": "163038fa5b683f3e4b88d60c7a7fa204dfd6bacfcb3896d4da080638fe09450d"
+    },
+    {
+      "slug": "d-cornrows",
+      "bbox": [
+        3,
+        25,
+        29,
+        62
+      ],
+      "opaqueColors": 15,
+      "connected": true,
+      "bodyMismatchPixels": 0,
+      "sha256": "54a9db00d456607f6bc9b5667a5d628dad08b93a39b7d5cb5d30bf340251a501"
+    }
+  ],
+  "brendanUnchanged": true
+}

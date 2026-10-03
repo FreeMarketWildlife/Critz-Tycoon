@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "frame": [
+    32,
+    64
+  ],
+  "runtimeIntegrated": false,
+  "assets": [
+    {
+      "id": "hero.boy.idle.south.a-afro",
+      "file": "a-afro.png",
+      "source": "../../../art/source/hero-idle-r9/a-afro.sprite.json",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "direction": "south",
+      "state": "idle",
+      "animation": false,
+      "status": "awaiting-user-visual-review",
+      "outlineThickness": 1
+    },
+    {
+      "id": "hero.boy.idle.south.b-flat-top",
+      "file": "b-flat-top.png",
+      "source": "../../../art/source/hero-idle-r9/b-flat-top.sprite.json",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "direction": "south",
+      "state": "idle",
+      "animation": false,
+      "status": "awaiting-user-visual-review",
+      "outlineThickness": 1
+    },
+    {
+      "id": "hero.boy.idle.south.c-twists",
+      "file": "c-twists.png",
+      "source": "../../../art/source/hero-idle-r9/c-twists.sprite.json",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "direction": "south",
+      "state": "idle",
+      "animation": false,
+      "status": "awaiting-user-visual-review",
+      "outlineThickness": 1
+    },
+    {
+      "id": "hero.boy.idle.south.d-cornrows",
+      "file": "d-cornrows.png",
+      "source": "../../../art/source/hero-idle-r9/d-cornrows.sprite.json",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "direction": "south",
+      "state": "idle",
+      "animation": false,
+      "status": "awaiting-user-visual-review",
+      "outlineThickness": 1
+    }
+  ]
+}

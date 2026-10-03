@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 9 — Current user-template idle review
+
+Deliverable/checks complete; visual acceptance pending. Use the user's exact editor RLE skeleton, maintain X-mirrored anatomy, paint the four supplied hairstyle/outfit variants at native 32×64 with one-pixel outlines and no forced 2×2 block construction. [R9 asset packet](reviews/M1-C4/revision-9/README.md) includes PNGs, editor projects, exact RLE, metadata and native/grid comparisons with external Brendan. Keep assets review-only until visual acceptance; no animation or runtime replacement in this task. ART_BIBLE supersedes older outline-weight advice.
+
 ## TOOLS.SE6 — Pointer-anchored zoom
 
 Complete, tested, pushed and published. Anchors wheel zoom to the chosen canvas point, buttons to the view center, and preserve integer pixel rendering. Permit panning around all edges and keep Fit as an explicit recenter action. All 60 unit tests and 49 browser scenarios passed, including repeated zoom, panning, draw coordinates, mobile layouts and existing reference/crop workflows. [Release/deployment evidence](reviews/TOOLS-SE6/README.md). Preserve palette, artwork, saves and review gates.
