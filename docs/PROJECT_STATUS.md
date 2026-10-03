@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C4 revision 4 — Four reference-led Hero options
+
+**Delivered for review; artwork acceptance pending.** User rejected R3 as elf-like and requested four 2× front-idle options following the new four-concept reference, all on native-pixel grids with symmetry lines. [Four-across grid](reviews/M1-C4/revision-4/four-heroes-grid.png) · [Large 2×2 grid](reviews/M1-C4/revision-4/four-heroes-grid-2x2.png) · [Review and deviations](reviews/M1-C4/revision-4/README.md).
+
+Original indexed/native 32×64 candidates: A afro/teal, B flat-top/gold, C twists/red stripes, D cornrows/blue jacket. Each grid has exact 12× enlargement, x=16 centerline, one-pixel cells and numbered ten-row Y guides. Anatomy is mirrored independently of hair/color. Compact human ears and rounded cheeks replace pointed side wings. ART_BIBLE records the correction and this request’s four-2× presentation exception. Source targets were shown before drawing; narrower 24px face/ear widths and B/D 26×42 bounds are explicitly proposed adaptations, not claimed exact-reference compliance or approved production art.
+
+Actual checks passed: 8,192 native-source and 16,384 grid-center comparisons; dimensions, binary alpha, connected silhouettes, <=15 colors, symmetric anatomical masks, exact eye rectangles and anchors; native single-pixel contour steps verified. Both combined sheets visually inspected. No emulator, animation, browser or phone tests were required/performed for this review-only packet.
+
+Work on `main`, opening `7d475fac7910520b8b4c32ade46cc49fd7a6be75`. Task-related review/docs changes are ready for commit/push and remote verification. Existing unfinished game/art/editor changes are preserved and excluded. **Playable build unchanged; no deployment required.** Existing phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site. No saves, collision, roster or accepted gameplay art changed.
+
+**Exact next action:** user selects/refines an idle option. No visual acceptance or animation authorization is inferred.
+
 ## M1.C4 revision 3 — Native contours, selective outlines and depth
 
 **Correction delivered for user review; final artwork acceptance pending.** User rejected R2's retained 2×2 block edges and flat rendering, requested diagnosis/correction, and explicitly requested recording future lessons in ART_BIBLE. [Clean before/after](reviews/M1-C4/revision-3/before-after.png) · [Required 1×/2× grid](reviews/M1-C4/revision-3/hero-grid.png) · [Diagnosis and evidence](reviews/M1-C4/revision-3/README.md).

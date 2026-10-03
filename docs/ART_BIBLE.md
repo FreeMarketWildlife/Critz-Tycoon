@@ -51,6 +51,12 @@ Present every new character in its **Emerald 2× native budget** with a countabl
 
 For **boy Hero**, continue showing **Emerald 1× and 2× side by side at matching apparent size until the user explicitly accepts the style**. Other characters normally need only the 2× presentation unless a comparison is requested. Include a part/silhouette proof when checking symmetry. Grids are review overlays, never baked into the native character PNG. Present idle revisions first; this rule does not authorize animation or game integration.
 
+### Human ear/face correction and review priority — revision 4
+
+The user rejected the previous Hero as elf-like and supplied four human-boy concepts. Human Hero ears must be small, blunt lobes close to the head; do not stretch or taper them sideways to satisfy an overall bounding width. Preserve a full, rounded cheek/jaw mass. The anatomy includes mirrored ears; hairstyle volume and costume shading remain independent. Measure candidate deviations explicitly instead of compensating for smaller hair with oversized ears. Revision 4’s narrower face/ear shapes are proposed adaptations to those concepts, not approval of a changed global proportion standard.
+
+When the user explicitly requests multiple 2× candidates, that request determines the current comparison layout: revision 4 presents four 2× idles, without an added 1× panel. **Lead the delivery with the requested gridded artwork**, not a clean-only sheet with the grid hidden behind a link. Every candidate still requires one native pixel per cell, the x=16 symmetry line and numbered ten-row Y guides. A clean view can supplement that presentation. Technical symmetry/bounds checks never substitute for whether the character visibly matches the user’s reference.
+
 ### What the extra pixels are for
 
 Each reference pixel occupies a 2×2 area in the structural comparison. Start comparison guides with exact nearest-neighbor doubling. Final original assets may subdivide those blocks into finer **1px target-grid** clusters for cleaner linework, texture, expressive faces and material detail while retaining the measured envelopes and landmarks. Literal upscaling alone adds no detail; a freely redesigned 32×64 figure also does not satisfy this contract.

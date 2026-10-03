@@ -1,0 +1,95 @@
+{
+  "approval": false,
+  "frames": [
+    {
+      "slug": "a-afro",
+      "frame": [
+        32,
+        64
+      ],
+      "opaqueBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "paintedSize": [
+        28,
+        42
+      ],
+      "colors": 15,
+      "mixedAlpha2x2Blocks": 50,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "5fa9c424b528da4994b7adb46dc6f177d25dcc2f8766cfc766c835f37de61f1f"
+    },
+    {
+      "slug": "b-flat-top",
+      "frame": [
+        32,
+        64
+      ],
+      "opaqueBBox": [
+        3,
+        20,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        42
+      ],
+      "colors": 14,
+      "mixedAlpha2x2Blocks": 42,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "22ec9a5993cfaad4a3aaa7ccebdb905272db536438889d7bb3bf5ffeabba3c9f"
+    },
+    {
+      "slug": "c-twists",
+      "frame": [
+        32,
+        64
+      ],
+      "opaqueBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "paintedSize": [
+        28,
+        42
+      ],
+      "colors": 14,
+      "mixedAlpha2x2Blocks": 46,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "4d362555fd09678284974efeb49417f76cbd38f4d804311aabe501049784f789"
+    },
+    {
+      "slug": "d-cornrows",
+      "frame": [
+        32,
+        64
+      ],
+      "opaqueBBox": [
+        3,
+        20,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        42
+      ],
+      "colors": 12,
+      "mixedAlpha2x2Blocks": 44,
+      "anatomyMismatchPairs": 0,
+      "connected": true,
+      "sha256": "eb68dd97fcd988b030d07afc535fa41e7260c1f9f33c9d534d6c43ba4a518e09"
+    }
+  ],
+  "nativeCellComparisons": 8192,
+  "gridCellComparisons": 16384
+}

@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 4 — Four gridded 2× Hero candidates
+
+Current review follows the latest user request: four front-idle 32×64 options corresponding to afro/teal, flat-top/gold, twists/red stripes and cornrows/blue references. Present every option on native-pixel grids with x=16 symmetry and numbered ten-row Y guides. [Revision 4](reviews/M1-C4/revision-4/README.md) records compact-human-ear corrections and explicit proportion deviations. The requested four 2× variants supersede the earlier paired-budget layout for this review only. Await user selection/refinement; no animation, accepted art replacement or game integration.
+
 ## M1.C4 revision 3 — Target-grid contour and depth correction
 
 Current delivered review: original 2× boy Hero idle with actual one-target-pixel contour refinement, selective colored outlines and clustered form shading, retaining measured envelopes, eye positions and mirrored anatomy. Preserve the 1× baseline, required centerline/ten-row grid and a clean before/after. [Revision 3](reviews/M1-C4/revision-3/README.md) records why exact doubled occupancy was an incorrect final-art constraint. The user must review the style before animation; no runtime migration or unrelated M1.I3 work is included.

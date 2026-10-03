@@ -1,6 +1,6 @@
 # M1.C4 — Countable idle pixels and chibi construction
 
-**Current review: [revision 3](revision-3/README.md).** It fixes the retained 2×2 block contours, adds selective outlining and form shading, and includes a clean before/after plus the measured 1×/2× grid. Earlier revisions remain review history; no finished art has been accepted.
+**Current review: [revision 4](revision-4/README.md).** Four reference-led 2× Hero front-idle options, all on countable grids with symmetry lines. R3 was rejected as elf-like; R4 uses compact human ears and records its proportion adaptations. Earlier revisions remain history; no finished art has been accepted.
 
 **Awaiting user art review.** The user requested a boy Hero idle comparison at 16×32 versus 32×64, then required a true one-native-pixel grid, numbered marks every ten pixels, and the compact construction of the supplied character reference. No animation or playable replacement is included.
 
