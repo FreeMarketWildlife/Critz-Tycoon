@@ -8,7 +8,7 @@ The input is one color-blocked symmetric template. All four preserve its body si
 
 Actual checks: editor-model project validation and exact RLE exports; 8,192 decoded PNG/source/strip comparisons; exact preserved symmetric body template, eye landmarks, binary alpha, connected silhouettes, Wildlife palette equality and one-layer outline masks. Brendan comparison is unchanged. Native/grid output visually inspected. No walking/back/side frames are included. Game-ready here means consumable front-idle PNG/metadata files, not visual approval or a complete animated character.
 
-Work on `main`, opening `1c83de49672ae357a7a03906af1151a24304504f`. Commit/push receipt follows. Unrelated game/art work is preserved and excluded. **Playable build unchanged; no deployment required.** No runtime, collision or save changes. Current phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site. **Next action:** visual review of these idle assets, then animation only when requested.
+Work on `main`, opening `1c83de49672ae357a7a03906af1151a24304504f`. Asset/source commit **`b39b7bb7300ecb4f66e2ca5b21ee09215158848e`** is pushed to `origin/main`; remote SHA verified equal to local HEAD. All 19 opening tracked deltas remain unchanged. This documentation-only receipt is pushed and verified separately. Unrelated game/art work is preserved and excluded. **Playable build unchanged; no deployment required.** No runtime, collision or save changes. Current phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site. **Next action:** visual review of these idle assets, then animation only when requested.
 
 ## TOOLS.SE6 — Zoom around any point
 
