@@ -1,0 +1,42 @@
+[
+  {
+    "name": "single native pixel, continuous stroke, mirror, undo and redo",
+    "pass": true
+  },
+  {
+    "name": "animation duplication, independent edits, timing, order and playback",
+    "pass": true
+  },
+  {
+    "name": "reference crop/opacity/2x and exact PNG excludes reference, guides, onion",
+    "pass": true
+  },
+  {
+    "name": "copy exact reconstructable sprite and round-trip project download/open",
+    "pass": true
+  },
+  {
+    "name": "all requested size presets, building validation and undo-safe new canvas",
+    "pass": true
+  },
+  {
+    "name": "PNG import quantizes to chosen bank; invalid project preserves artwork",
+    "pass": true
+  },
+  {
+    "name": "autosave reload and untouched synthetic gameplay save",
+    "pass": true
+  },
+  {
+    "name": "desktop and phone layouts, integer zoom and clean preview screenshots",
+    "pass": true
+  },
+  {
+    "name": "touch drawing edits a single native pixel",
+    "pass": true
+  },
+  {
+    "name": "zero runtime errors",
+    "pass": true
+  }
+]

@@ -2,7 +2,7 @@
 
 ## TOOLS.SE4 — Side-of-center reference correction
 
-Implementation and focused checks complete; clean release/publication pending. Replace the old even-grid no-op with four explicit left/right add/remove treatments. Highlight the selected column, replace the viewport reference immediately on Center this image, and preserve exact original-reference restoration. Verify actual rendered pixels, odd/even inputs and hidden/mobile overlays. No game/art acceptance changes. See PROJECT_STATUS and the editor guide.
+Complete, tested, pushed and published. Replaces the old even-grid no-op with four explicit left/right add/remove treatments. Highlight the selected column, replace the viewport reference immediately on Center this image, and preserve exact original-reference restoration. Verify actual rendered pixels, odd/even inputs and hidden/mobile overlays. No game/art acceptance changes. All 60 unit tests and 36 isolated browser scenarios passed. [Release and deployment evidence](reviews/TOOLS-SE4/README.md).
 
 ## M1.C4 revision 8 — Current native pixel-art review
 

@@ -2,15 +2,17 @@
 
 ## TOOLS.SE4 — Four side-of-center treatments and immediate reference replacement
 
-**Implementation and focused checks complete; clean release/publication pending.** User reported that Center this image did nothing and requested four treatments: remove left/right of center and add left/right of center. Opening `main` is `964655fd6d6cf04e842d97b3a2cd69b6d3236965`. Unrelated unfinished game/art changes are preserved and excluded.
+**Complete, tested, pushed and published.** User reported that Center this image did nothing and requested four treatments: remove left/right of center and add left/right of center. Opening `main` is `964655fd6d6cf04e842d97b3a2cd69b6d3236965`. Unrelated unfinished game/art changes are preserved and excluded.
 
 Confirmed old behavior: even-width working grids silently bypassed the selected treatment, leaving only centering, which could produce no visible change. All four new treatments edit one column regardless of parity. Odd grids use the immediate neighbors of the unique center column; even grids use the central pair. Add duplicates the selected column toward center; remove deletes it. The dialog highlights the exact source column and reports its one-based number. Even→odd results are explicitly labeled with any half-pixel axis mismatch; native pixels remain aligned. No anatomy symmetry is inferred.
 
 Center this image constructs a new reference canvas, resets its crop, invalidates sampling, shows it above artwork, raises zero opacity to 30%, and redraws the viewport. On mobile it reveals the canvas. Restore invalidates the old sampled cache and restores the original image/settings, including visibility/layer/opacity. Sprite pixels, palette, files, game saves and review gates are unchanged.
 
-Four unit tests and 16 focused isolated browser scenarios pass, including direct viewport RGBA assertions for all four treatments on odd/even inputs, repeated edits, exact restore, hidden/zero-opacity guides and mobile application. [Editor guide](../sprite-editor/README.md). Full clean release checks and deployment receipt follow.
+All 60 unit tests and 36 isolated browser scenarios pass on the clean committed build, including direct viewport RGBA assertions for all four treatments on odd/even inputs, repeated edits, exact restore, hidden/zero-opacity guides and mobile application; zero runtime errors. The 565 tested build files match the published archive exactly. [Release evidence](reviews/TOOLS-SE4/README.md) · [Editor guide](../sprite-editor/README.md).
 
-**Exact next action:** verify the committed release, publish to the existing owner-only Site, and record source/deployment evidence.
+Source **`76931028c0d991ffb7c209cd34c3d0efba47718b`** committed/pushed on `main`, remote SHA verified. Deployment **`appgdep_6ac10d2c70ac8191991d94ce49c2f96d`** succeeded at 2026-10-03 14:12 UTC for that exact source. Existing owner-only audience preserved. [Working editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/). This documentation-only receipt is committed/pushed separately. The 19 opening modified files and five untracked game/art paths remain excluded and preserved; shared status/plan additions are isolated.
+
+**Exact next action:** refresh the editor, reload the reference, choose a treatment and click Center this image.
 
 ## M1.C4 revision 8 — Authored native pixels, unscaled five-character lineup
 
