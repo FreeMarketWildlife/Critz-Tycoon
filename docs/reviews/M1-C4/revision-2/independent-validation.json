@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "frames": [
+    {
+      "frame": [
+        16,
+        32
+      ],
+      "gridCellsChecked": 512,
+      "decodedPixelsMatch": true,
+      "oneConnectedFigure": true,
+      "symmetryAxis": 8.0,
+      "anatomicalMismatchPairs": 0,
+      "bodyMaterialMismatchPairs": 0,
+      "previousRevisionBodyMaterialMismatchPairs": 0,
+      "sha256": "a4a1abeb04d4903a0d6b69a6537367408d9d448baea632219c605926fdab2747"
+    },
+    {
+      "frame": [
+        32,
+        64
+      ],
+      "gridCellsChecked": 2048,
+      "decodedPixelsMatch": true,
+      "oneConnectedFigure": true,
+      "symmetryAxis": 16.0,
+      "anatomicalMismatchPairs": 0,
+      "bodyMaterialMismatchPairs": 0,
+      "previousRevisionBodyMaterialMismatchPairs": 15,
+      "sha256": "41290a6e6f0957b0afc0a64c301524fe061674f1d3a2ca78eb51eeb159af3e4b"
+    }
+  ],
+  "totalCells": 2560,
+  "sourceRegionsMeasured": 13,
+  "scope": "Native art, symmetry and exact grid; no runtime/animation/save changes"
+}

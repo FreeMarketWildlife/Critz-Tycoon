@@ -1,0 +1,109 @@
+{
+  "status": "pass",
+  "referenceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "referenceSha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+  "frames": [
+    {
+      "id": "review.hero.boy.south.idle.16x32.r2",
+      "frame": [
+        16,
+        32
+      ],
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "symmetry": {
+        "hair": {
+          "left": 39,
+          "right": 39
+        },
+        "skull": {
+          "left": 28,
+          "right": 28
+        },
+        "eyes": {
+          "left": 2,
+          "right": 2
+        },
+        "arms": {
+          "left": 7,
+          "right": 7
+        },
+        "torso": {
+          "left": 17,
+          "right": 17
+        },
+        "hands": {
+          "left": 7,
+          "right": 7
+        },
+        "legsFeet": {
+          "left": 11,
+          "right": 11
+        },
+        "hips": {
+          "left": 2,
+          "right": 2
+        }
+      },
+      "opaqueMismatchPairs": 0,
+      "anatomicalMismatchPairs": 0,
+      "bodyMaterialMismatchPairs": 0
+    },
+    {
+      "id": "review.hero.boy.south.idle.32x64.r2",
+      "frame": [
+        32,
+        64
+      ],
+      "opaqueBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "symmetry": {
+        "hair": {
+          "left": 156,
+          "right": 156
+        },
+        "skull": {
+          "left": 112,
+          "right": 112
+        },
+        "eyes": {
+          "left": 8,
+          "right": 8
+        },
+        "arms": {
+          "left": 28,
+          "right": 28
+        },
+        "torso": {
+          "left": 68,
+          "right": 68
+        },
+        "hands": {
+          "left": 28,
+          "right": 28
+        },
+        "legsFeet": {
+          "left": 44,
+          "right": 44
+        },
+        "hips": {
+          "left": 8,
+          "right": 8
+        }
+      },
+      "opaqueMismatchPairs": 0,
+      "anatomicalMismatchPairs": 0,
+      "bodyMaterialMismatchPairs": 0
+    }
+  ],
+  "nativeRefinementOperations": 54,
+  "artApproval": false
+}

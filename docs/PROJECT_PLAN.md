@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 2 — Measured, symmetric idle review
+
+Delivered for user review: original boy Hero front idle at Emerald 1× and 2×, measured from pinned Brendan frame 0 before drawing, with one-pixel cells, vertical centerline and numbered ten-row horizontal guides. [Revision 2](reviews/M1-C4/revision-2/README.md) fixes material/anatomy symmetry and eye placement. ART_BIBLE now requires default bilateral front/back idle anatomy and 2× grid presentation for new characters, preserving hair/color and explicit unusual-character exceptions. Keep both Hero budgets until the user accepts the style. No walking, back-frame authoring or runtime migration is included; existing M1.I3 work is preserved.
+
 ## ART.2X — Standing Emerald proportion and resolution contract
 
 Documentation task authorized 2026-10-02: record exact Emerald proportions/framing at 2× linear resolution in AGENTS and ART_BIBLE, align entry-point docs and supply a reusable prompt. No sprite generation, runtime migration or deployment is part of this task. The [2× contract](ART_BIBLE.md#emerald-2-visual-contract--authoritative-2026-10-02) supersedes conflicting pixel budgets and invented chibi ratios in historical task descriptions below, including M1.I3. Preserve unfinished implementation changes; do not treat them as delivered or accepted.

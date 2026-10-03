@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C4 revision 2 — Symmetric idle and permanent presentation rules
+
+**Implementation and checks complete; awaiting user art review.** User requested matching front-idle arm/hand shapes, a vertical symmetry line through the midpoint of X, numbered guides every ten Y pixels, the measured Emerald 2× contract, and permanent skull/body/eye/limb symmetry defaults for front/back idle. [Corrected 1×/2× Hero](reviews/M1-C4/revision-2/hero-grid.png) · [Part proof](reviews/M1-C4/revision-2/hero-symmetry.png) · [Measurements and deviations](reviews/M1-C4/revision-2/MEASUREMENTS.md).
+
+Before drawing, inspected pinned Brendan frame 0, verified its PNG SHA and showed the measured reference/doubled-target table. Corrected eye positions and hair envelope, preserved reference face/body occupied rows, and separated anatomy from hue. ART_BIBLE, AGENTS, framework notice and reusable prompt now require symmetric skull/torso/eyes/arms/hands/legs for front/back idle, with hair/color flexibility and documented unusual-character exceptions. Every new character review defaults to Emerald 2×, native-pixel cells, vertical centerline and ten-row guides; boy Hero keeps both budgets until user acceptance.
+
+Checks pass: 13 annotated region envelopes, source eye rectangles, anchors/foot baseline and reference face/body masks; 2,560 decoded/native/grid cell comparisons; zero mirrored anatomy or body-material mismatch pairs; connected figures and binary alpha. Prior 2× art had 15 mirrored material-boundary mismatch pairs. Both plates visually inspected. Limits: hidden anatomy is not source-observable; original afro contour/area adaptation is disclosed; source-only evidence, no emulator/phone test; no back frame or animation produced; art acceptance remains the user's.
+
+Work on `main`, opening `787643fd1974c82af5c284209312ca32fe717d45`. Unfinished M1.I3 edits are preserved and excluded. Task documentation and review artifacts are committed/pushed with remote SHA verification recorded at handoff. **Playable build unchanged; no deployment required.** Existing game remains https://critz-tycoon.freemarketwildlife.chatgpt.site. No save, collision, runtime or roster changes.
+
+**Exact next action:** user reviews revision 2's idle anatomy/style, then request/perform any still corrections before walking. No final art approval is inferred.
+
 ## ART.2X — Emerald 2× standing visual direction, 2026-10-02
 
 **Documentation complete, committed and pushed; remote SHA verified.** User explicitly requests Emerald's exact character proportions, camera framing and art style at twice the linear resolution. Deliverable: authoritative ART_BIBLE contract, persistent AGENTS rules, aligned historical-framework/reference/plan notices and a replacement copy-ready prompt. This direction supersedes prior 20×26/24×32 production constraints. It approves a specification, not finished art.

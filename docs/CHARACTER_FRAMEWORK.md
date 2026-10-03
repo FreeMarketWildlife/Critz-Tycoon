@@ -1,5 +1,7 @@
 # Critz character framework — 20×26 chibi
 
+**Current idle symmetry and review rules:** follow [ART_BIBLE: idle front/back symmetry](ART_BIBLE.md#idle-frontback-symmetry--mandatory-character-rule-2026-10-03) and [character review grid](ART_BIBLE.md#character-review-grid--required-presentation). Skull/body/eyes/arms/hands/legs mirror by default in front/back idle; hair and color can differ. Explicit unusual-character exceptions are recorded per feature. New characters use the 2× grid with centerline and ten-row guides; boy Hero continues with both 1× and 2× until the user accepts the style.
+
 **Superseded production framework, 2026-10-02:** New assets must follow the [Emerald 2× visual contract](ART_BIBLE.md#emerald-2-visual-contract--authoritative-2026-10-02): standard 32×64 frames, exact doubled reference proportions and measured pose landmarks. The 20×26 painted ceiling, 24×32 storage, guessed head/body ranges and exact preservation of older idle pixels below are historical constraints, not requirements for new 2× work. Existing files and unfinished corrections are preserved; no new art is approved by this documentation update.
 
 M1.C2, 2026-09-27. The user selected the larger **20×26 visible-pixel budget** and requested a new construction framework, distinct body types and **one still frame per character, no animations**. These proportions are Critz design rules, not measurements of Emerald anatomy. The pinned source facts remain in [REFERENCE_MEASUREMENTS](REFERENCE_MEASUREMENTS.md).

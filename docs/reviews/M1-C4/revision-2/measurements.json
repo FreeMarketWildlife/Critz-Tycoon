@@ -1,0 +1,699 @@
+{
+  "reference": {
+    "repository": "pret/pokeemerald",
+    "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+    "path": "graphics/object_events/pics/people/brendan/walking.png",
+    "sha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+    "frame": 0,
+    "direction": "south",
+    "pose": "idle",
+    "method": "Palette index != 0; manually identified semantic regions, half-open coordinates. Source-only, no emulator observation."
+  },
+  "measurements": [
+    {
+      "region": "full figure",
+      "annotationWindow": [
+        0,
+        0,
+        16,
+        32
+      ],
+      "referenceBBox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "referenceSize": [
+        14,
+        21
+      ],
+      "target2xBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "actual1xBBox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "actual2xBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 214,
+      "actualOccupiedCells": [
+        226,
+        904
+      ]
+    },
+    {
+      "region": "headwear / original hair envelope",
+      "annotationWindow": [
+        0,
+        10,
+        16,
+        18
+      ],
+      "referenceBBox": [
+        2,
+        10,
+        14,
+        18
+      ],
+      "referenceSize": [
+        12,
+        8
+      ],
+      "target2xBBox": [
+        4,
+        20,
+        28,
+        36
+      ],
+      "actual1xBBox": [
+        2,
+        10,
+        14,
+        18
+      ],
+      "actual2xBBox": [
+        4,
+        20,
+        28,
+        36
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 66,
+      "actualOccupiedCells": [
+        78,
+        312
+      ]
+    },
+    {
+      "region": "face and ear band, with borders",
+      "annotationWindow": [
+        0,
+        18,
+        16,
+        23
+      ],
+      "referenceBBox": [
+        1,
+        18,
+        15,
+        23
+      ],
+      "referenceSize": [
+        14,
+        5
+      ],
+      "target2xBBox": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "actual1xBBox": [
+        1,
+        18,
+        15,
+        23
+      ],
+      "actual2xBBox": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 60,
+      "actualOccupiedCells": [
+        60,
+        240
+      ]
+    },
+    {
+      "region": "head and face combined",
+      "annotationWindow": [
+        0,
+        10,
+        16,
+        23
+      ],
+      "referenceBBox": [
+        1,
+        10,
+        15,
+        23
+      ],
+      "referenceSize": [
+        14,
+        13
+      ],
+      "target2xBBox": [
+        2,
+        20,
+        30,
+        46
+      ],
+      "actual1xBBox": [
+        1,
+        10,
+        15,
+        23
+      ],
+      "actual2xBBox": [
+        2,
+        20,
+        30,
+        46
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 126,
+      "actualOccupiedCells": [
+        138,
+        552
+      ]
+    },
+    {
+      "region": "shoulder row",
+      "annotationWindow": [
+        0,
+        23,
+        16,
+        24
+      ],
+      "referenceBBox": [
+        2,
+        23,
+        14,
+        24
+      ],
+      "referenceSize": [
+        12,
+        1
+      ],
+      "target2xBBox": [
+        4,
+        46,
+        28,
+        48
+      ],
+      "actual1xBBox": [
+        2,
+        23,
+        14,
+        24
+      ],
+      "actual2xBBox": [
+        4,
+        46,
+        28,
+        48
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 12,
+      "actualOccupiedCells": [
+        12,
+        48
+      ]
+    },
+    {
+      "region": "central torso region",
+      "annotationWindow": [
+        5,
+        23,
+        11,
+        28
+      ],
+      "referenceBBox": [
+        5,
+        23,
+        11,
+        28
+      ],
+      "referenceSize": [
+        6,
+        5
+      ],
+      "target2xBBox": [
+        10,
+        46,
+        22,
+        56
+      ],
+      "actual1xBBox": [
+        5,
+        23,
+        11,
+        28
+      ],
+      "actual2xBBox": [
+        10,
+        46,
+        22,
+        56
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 30,
+      "actualOccupiedCells": [
+        30,
+        120
+      ]
+    },
+    {
+      "region": "left arm and hand region",
+      "annotationWindow": [
+        1,
+        23,
+        5,
+        27
+      ],
+      "referenceBBox": [
+        1,
+        23,
+        5,
+        27
+      ],
+      "referenceSize": [
+        4,
+        4
+      ],
+      "target2xBBox": [
+        2,
+        46,
+        10,
+        54
+      ],
+      "actual1xBBox": [
+        1,
+        23,
+        5,
+        27
+      ],
+      "actual2xBBox": [
+        2,
+        46,
+        10,
+        54
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 14,
+      "actualOccupiedCells": [
+        14,
+        56
+      ]
+    },
+    {
+      "region": "right arm and hand region",
+      "annotationWindow": [
+        11,
+        23,
+        15,
+        27
+      ],
+      "referenceBBox": [
+        11,
+        23,
+        15,
+        27
+      ],
+      "referenceSize": [
+        4,
+        4
+      ],
+      "target2xBBox": [
+        22,
+        46,
+        30,
+        54
+      ],
+      "actual1xBBox": [
+        11,
+        23,
+        15,
+        27
+      ],
+      "actual2xBBox": [
+        22,
+        46,
+        30,
+        54
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 14,
+      "actualOccupiedCells": [
+        14,
+        56
+      ]
+    },
+    {
+      "region": "left distal limb region",
+      "annotationWindow": [
+        1,
+        24,
+        5,
+        27
+      ],
+      "referenceBBox": [
+        1,
+        24,
+        5,
+        27
+      ],
+      "referenceSize": [
+        4,
+        3
+      ],
+      "target2xBBox": [
+        2,
+        48,
+        10,
+        54
+      ],
+      "actual1xBBox": [
+        1,
+        24,
+        5,
+        27
+      ],
+      "actual2xBBox": [
+        2,
+        48,
+        10,
+        54
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 11,
+      "actualOccupiedCells": [
+        11,
+        44
+      ]
+    },
+    {
+      "region": "right distal limb region",
+      "annotationWindow": [
+        11,
+        24,
+        15,
+        27
+      ],
+      "referenceBBox": [
+        11,
+        24,
+        15,
+        27
+      ],
+      "referenceSize": [
+        4,
+        3
+      ],
+      "target2xBBox": [
+        22,
+        48,
+        30,
+        54
+      ],
+      "actual1xBBox": [
+        11,
+        24,
+        15,
+        27
+      ],
+      "actual2xBBox": [
+        22,
+        48,
+        30,
+        54
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 11,
+      "actualOccupiedCells": [
+        11,
+        44
+      ]
+    },
+    {
+      "region": "shorts and feet band",
+      "annotationWindow": [
+        3,
+        28,
+        13,
+        31
+      ],
+      "referenceBBox": [
+        3,
+        28,
+        13,
+        31
+      ],
+      "referenceSize": [
+        10,
+        3
+      ],
+      "target2xBBox": [
+        6,
+        56,
+        26,
+        62
+      ],
+      "actual1xBBox": [
+        3,
+        28,
+        13,
+        31
+      ],
+      "actual2xBBox": [
+        6,
+        56,
+        26,
+        62
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 26,
+      "actualOccupiedCells": [
+        26,
+        104
+      ]
+    },
+    {
+      "region": "left leg and shoe region",
+      "annotationWindow": [
+        3,
+        28,
+        7,
+        31
+      ],
+      "referenceBBox": [
+        3,
+        28,
+        7,
+        31
+      ],
+      "referenceSize": [
+        4,
+        3
+      ],
+      "target2xBBox": [
+        6,
+        56,
+        14,
+        62
+      ],
+      "actual1xBBox": [
+        3,
+        28,
+        7,
+        31
+      ],
+      "actual2xBBox": [
+        6,
+        56,
+        14,
+        62
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 11,
+      "actualOccupiedCells": [
+        11,
+        44
+      ]
+    },
+    {
+      "region": "right leg and shoe region",
+      "annotationWindow": [
+        9,
+        28,
+        13,
+        31
+      ],
+      "referenceBBox": [
+        9,
+        28,
+        13,
+        31
+      ],
+      "referenceSize": [
+        4,
+        3
+      ],
+      "target2xBBox": [
+        18,
+        56,
+        26,
+        62
+      ],
+      "actual1xBBox": [
+        9,
+        28,
+        13,
+        31
+      ],
+      "actual2xBBox": [
+        18,
+        56,
+        26,
+        62
+      ],
+      "bboxDeviation": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "referenceOccupiedCells": 11,
+      "actualOccupiedCells": [
+        11,
+        44
+      ]
+    }
+  ],
+  "referenceEyePixels": [
+    [
+      6,
+      19
+    ],
+    [
+      9,
+      19
+    ],
+    [
+      6,
+      20
+    ],
+    [
+      9,
+      20
+    ]
+  ],
+  "referenceBodyMaskFromRow18": [
+    ".##############.",
+    ".##############.",
+    "..############..",
+    "...##########...",
+    "...##########...",
+    "..############..",
+    ".##############.",
+    ".##############.",
+    "..############..",
+    "...##########...",
+    "...##########...",
+    "...##########...",
+    "....###..###...."
+  ],
+  "groundAnchor": {
+    "reference": [
+      8,
+      32
+    ],
+    "target": [
+      16,
+      64
+    ],
+    "actual": [
+      16,
+      64
+    ]
+  },
+  "lastFootRow": {
+    "reference": 30,
+    "targetRows": [
+      60,
+      61
+    ],
+    "actual": 61
+  },
+  "limitations": [
+    "The hidden skull and exact anatomical boundaries beneath headwear/clothes cannot be recovered from this raster. Symmetric construction is required for Critz; it is not an observed hidden bone shape.",
+    "Arm/hand and distal-limb windows include their outline and sleeve/glove overlap. Original Hero clothing changes their color/material partition without changing the measured occupied silhouette.",
+    "Original afro occupies the measured headwear envelope but has a different contour and fill area (78 vs 66 cells at 1x). This is an explicit hairstyle adaptation, not exact copying of the pointed cap.",
+    "The newly supplied montage is a visual preference reference, not a provenance-verified Emerald source sheet."
+  ]
+}

@@ -1,4 +1,4 @@
-# Critz: Tycoon — initial art bible
+# Critz: Tycoon — art bible
 
 ## Emerald 2× visual contract — authoritative, 2026-10-02
 
@@ -30,6 +30,26 @@ The existing ledger's south-idle bounds imply these **derived, not newly measure
 2. Before production, create an annotated measurement table per representative body/pose family: full opaque bounds; head width/height; face/eye/chin landmarks; hair and hat envelopes separately from face/head; shoulder and torso widths/heights; arm/hand bounds and attachment points; leg/shoe bounds, stance and contact points; ground anchor; all pose offsets. Each row must contain reference coordinates or dimensions, exact 2× target, actual Critz value and deviation. Head/eye/limb segmentation remains unresolved in the old ledger: inspect and annotate it instead of inventing values.
 3. Use the measured structure as the drawing scaffold in front, back and both profiles. Preserve relative size, placement, overlap, foreshortening and silhouette mass. No improvised taller torsos, long shins, narrow waists, oversized hands/shoes or enlarged hair/hats merely because the canvas has room. Distinct body types use corresponding measured reference families. Kaid's nonhuman vessel/spout/handle require a labeled original adaptation while limb scale, ground contact and gait stay coherent; do not pretend Emerald contains an exact Kaid template.
 4. Author original Critz PNGs and editable pixel sources against that scaffold. Reference sprites remain inspection material, never shipped game assets. Preserve the Black child Hero, child rival/Kaid and adult Mom/Nugget. Do not recolor reference characters and call them original designs.
+
+### Idle front/back symmetry — mandatory character rule, 2026-10-03
+
+**User-confirmed:** we are committed to the measured **Emerald 2× style and pixel budget**. New standard-human character reviews use 32×64 frames, with painted dimensions derived from the selected Emerald frame. Older approximate chibi budgets are not alternate defaults. Show the user the measured reference proportions and their doubled targets **before drawing**, with the reference revision, frame/pose, annotation definitions and unresolved hidden anatomy clearly identified.
+
+For **front idle and back idle**, the underlying skull/cranium, face construction, eye positions, torso/body, shoulders, arms, hands, hips, legs and feet must be bilaterally symmetric by default. Corresponding parts have mirrored contours, equal dimensions and area, equal attachment heights and equal offsets from the centerline. The eye positions and shape must mirror; matching outer alpha alone is insufficient. A larger hand, a lower shoulder or displaced eye is a defect unless the user explicitly requests that structural exception.
+
+- Mirror geometry across the vertical line halfway across the X extent: `x = frameWidth / 2`. For native pixel indices the partner is `frameWidth - 1 - x`. A 32×64 frame has its centerline at edge coordinate **x=16**, between columns 15 and 16; the 16×32 comparison has x=8, between columns 7 and 8.
+- **Hair is separate.** Hairstyles, bangs, parts and uneven hair volume may be asymmetric. Keep the underlying skull construction symmetric; do not let hair asymmetry silently distort the cranium or eye placement. Hair still obeys the selected reference envelope and recorded design adaptation.
+- **Color is separate.** Lighting, shadows, highlights, fabric colors and decorative color patterns may be asymmetric. Do not RGB-mirror the whole character. Conversely, do not excuse different anatomical or sleeve/hand boundaries as mere shading; inspect the actual part masks and visible shape.
+- **Explicit exceptions:** unusual/nonhuman designs such as Kaid may have documented asymmetric features (for example, a pitcher spout and handle), or the user may explicitly request another exception. Record the specific exempt feature; an unusual character does not automatically exempt every limb or eye.
+- This bilateral idle rule applies to front/back rest poses. It does not force profile views, walking strides, running or expressive action poses to be symmetric. Those still follow measured reference construction and pose-specific checks.
+
+Author or annotate separate anatomical masks for skull/face, eyes, torso, arms, hands and legs/feet. Validate each reflected pair, its bounds/attachments and occupied area, independently of RGB shading and hair. Where a hat or garment hides anatomy, label the hidden construction as a symmetric Critz scaffold, not a measured Emerald bone shape. Inspect the visible result as well as the automated mask comparison.
+
+### Character review grid — required presentation
+
+Present every new character in its **Emerald 2× native budget** with a countable grid: **one square equals one native pixel**, even when enlarged. Always show a distinct **vertical symmetry line through the horizontal midpoint** (x=16 for a standard 32×64 human frame). Draw and number **horizontal major guides every 10 pixels down the Y axis**, with frame boundaries labeled too. Keep the ordinary one-pixel cell lines visible and clearly distinguish the centerline from the ten-row guides. Use integer enlargement and report the native frame, painted bounds and display scale. Blank padding is not anatomy.
+
+For **boy Hero**, continue showing **Emerald 1× and 2× side by side at matching apparent size until the user explicitly accepts the style**. Other characters normally need only the 2× presentation unless a comparison is requested. Include a part/silhouette proof when checking symmetry. Grids are review overlays, never baked into the native character PNG. Present idle revisions first; this rule does not authorize animation or game integration.
 
 ### What the extra pixels are for
 
