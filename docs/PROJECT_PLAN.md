@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE6 — Pointer-anchored zoom
+
+Implementation and focused checks complete; clean release/publication pending. Anchor wheel zoom to the chosen canvas point, buttons to the view center, and preserve integer pixel rendering. Permit panning around all edges and keep Fit as an explicit recenter action. Verify repeated zoom, panning, draw coordinates, mobile layouts and existing reference/crop workflows. Preserve palette, artwork, saves and review gates.
+
 ## TOOLS.SE5 — Visible column correction and reference crop
 
 Complete, tested, pushed and published. Prevents reference reduction from erasing center-column edits by editing the displayed grid and retaining 1:1 corrected pixels. Add reference-only drag/numeric cropping with Apply/Cancel and full-source restoration. Preserve artwork, animation, palette, saves and review gates. All 60 unit tests and 42 browser scenarios passed. [Release/deployment evidence](reviews/TOOLS-SE5/README.md).

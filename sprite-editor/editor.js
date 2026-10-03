@@ -3,7 +3,7 @@ import {createReferenceEditor} from './reference-editor.js';
 import {PRESETS,TICK_MS,MAX_PIXELS,makeProject,validateProject,isCharacter,usedColors,line,fill,nearest,bounds,describe,gifBytes} from './model.js';
 const $=id=>document.getElementById(id),canvas=$('canvas'),ctx=canvas.getContext('2d'),overlay=$('overlay'),og=overlay.getContext('2d'),view=$('viewport');
 const STORAGE='fmw.sprite-editor.v1';
-let autoFit=true;
+let autoFit=true,pointerAnchor=null,backgroundPan=null,zoomAnchor=null;
 let banks,allowed,project,frame=0,tool='pencil',color=1,zoom=6,history=[],future=[],stroke=null,space=false,playing=false,playFrame=0,lastTime=0,elapsed=0,saveTimer,renderPending=false;
 const scratch=document.createElement('canvas');
 const status=(message,error=false)=>{$('status').textContent=message;$('status').dataset.error=error;};
@@ -23,6 +23,8 @@ function imageFrame(target,f=project.frames[frame]){target.width=project.width;t
 function renderCanvas(){
  if(!project)return;const w=project.width,h=project.height;
  if(canvas.width!==w||canvas.height!==h){canvas.width=w;canvas.height=h;}
+ const padX=view.clientWidth,padY=view.clientHeight;
+ $('zoom-plane').style.width=w*zoom+padX*2+'px';$('zoom-plane').style.height=h*zoom+padY*2+'px';$('stage').style.left=padX+'px';$('stage').style.top=padY+'px';
  canvas.style.width=w*zoom+'px';canvas.style.height=h*zoom+'px';$('stage').style.width=w*zoom+'px';$('stage').style.height=h*zoom+'px';ctx.imageSmoothingEnabled=false;ctx.clearRect(0,0,w,h);
  if($('ref-layer').value==='behind')reference.draw(ctx);
  if($('onion').checked&&!playing){for(const [i,tint] of [[frame-1,'#72d9c0'],[frame+1,'#d699c8']])if(project.frames[i]){imageFrame(scratch,project.frames[i]);const g=scratch.getContext('2d');g.globalCompositeOperation='source-in';g.fillStyle=tint;g.fillRect(0,0,w,h);g.globalCompositeOperation='source-over';ctx.globalAlpha=.25;ctx.drawImage(scratch,0,0);ctx.globalAlpha=1;}}
@@ -56,8 +58,24 @@ function renderPalette(){
 function renderAll(){if(!project)return;renderPalette();renderCanvas();renderFrames();$('project-name').value=project.name;$('preset').value=project.preset;$('bank').value=project.bank;$('notes').value=project.notes;$('frame-name').value=project.frames[frame].name;$('ticks').value=project.frames[frame].ticks;$('timing').textContent=`${Math.round(project.frames[frame].ticks*TICK_MS)} ms · ${Math.round(project.frames.reduce((a,f)=>a+f.ticks,0)*TICK_MS)} ms loop`;$('canvas-info').textContent=`${project.width} × ${project.height} px`;$('zoom-value').textContent=zoom+'×';$('undo').disabled=!history.length;$('redo').disabled=!future.length;$('delete-frame').disabled=project.frames.length===1;$('earlier').disabled=frame===0;$('later').disabled=frame===project.frames.length-1;}
 function requestRender(){if(renderPending)return;renderPending=true;requestAnimationFrame(()=>{renderPending=false;renderCanvas();});}
 function selectTool(t){reference.finish();tool=t;document.querySelectorAll('[data-tool]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.tool===tool));$('current-tool').textContent=tool[0].toUpperCase()+tool.slice(1)+(tool==='pencil'?' · 1px':'');canvas.style.cursor=tool==='pan'?'grab':'crosshair';}
-function setZoom(value,anchor,fromFit=false){autoFit=fromFit;const old=zoom;zoom=Math.max(1,Math.min(24,Math.floor(Math.sqrt(8_000_000/(project.width*project.height))),Math.round(value)));renderCanvas();$('zoom-value').textContent=zoom+'×';if(anchor){view.scrollLeft=(view.scrollLeft+anchor.x)*zoom/old-anchor.x;view.scrollTop=(view.scrollTop+anchor.y)*zoom/old-anchor.y;}}
-function fit(){setZoom(Math.max(1,Math.min(12,Math.floor(Math.min((view.clientWidth-64)/project.width,(view.clientHeight-64)/project.height)))) ,undefined,true);view.scrollTop=0;view.scrollLeft=0;}
+function setZoom(value,anchor,fromFit=false){
+ autoFit=fromFit;
+ const v=view.getBoundingClientRect(),before=canvas.getBoundingClientRect();
+ const point=anchor||{x:v.left+view.clientWidth/2,y:v.top+view.clientHeight/2};
+ // Use the actual canvas origin, including its centering margin and scroll.
+ // Viewport-only ratios lose this offset and snap the image toward a corner.
+ const reuse=!fromFit&&zoomAnchor&&zoomAnchor.x===point.x&&zoomAnchor.y===point.y&&zoomAnchor.left===view.scrollLeft&&zoomAnchor.top===view.scrollTop&&zoomAnchor.width===view.clientWidth&&zoomAnchor.height===view.clientHeight;
+ const pixel=reuse?zoomAnchor.pixel:{x:(point.x-before.left)/zoom,y:(point.y-before.top)/zoom};
+ zoom=Math.max(1,Math.min(24,Math.floor(Math.sqrt(8_000_000/(project.width*project.height))),Math.round(value)));
+ renderCanvas();$('zoom-value').textContent=zoom+'×';
+ const after=canvas.getBoundingClientRect();
+ view.scrollLeft+=after.left+pixel.x*zoom-point.x;
+ view.scrollTop+=after.top+pixel.y*zoom-point.y;
+ // Browsers round scroll offsets. Reuse the intended pixel across a wheel
+ // burst so subpixel rounding cannot accumulate into visible drift.
+ zoomAnchor={...point,pixel,left:view.scrollLeft,top:view.scrollTop,width:view.clientWidth,height:view.clientHeight};
+}
+function fit(){setZoom(Math.max(1,Math.min(12,Math.floor(Math.min((view.clientWidth-64)/project.width,(view.clientHeight-64)/project.height)))),undefined,true);view.scrollLeft=view.clientWidth/2+project.width*zoom/2;view.scrollTop=view.clientHeight/2+project.height*zoom/2;zoomAnchor=null;}
 function position(e){const r=canvas.getBoundingClientRect();return [Math.floor((e.clientX-r.left)/zoom),Math.floor((e.clientY-r.top)/zoom)];}
 function paint(x,y,c){if(x<0||y<0||x>=project.width||y>=project.height)return;activePixels()[y*project.width+x]=c;if($('mirror').checked)activePixels()[y*project.width+project.width-1-x]=c;}
 function canPaint(c){if(!c||!isCharacter(project))return true;const used=usedColors(project);if(!used.has(c)&&used.size>=31){status('31-color budget reached. Use an existing color or erase one first.',true);return false;}return true;}
@@ -77,7 +95,11 @@ document.querySelectorAll('[data-tool]').forEach(b=>b.onclick=()=>selectTool(b.d
 listen('undo','click',()=>{endStroke();if(!history.length)return;future.push(clone());restore(history.pop());status('Undone.');});listen('redo','click',()=>{if(!future.length)return;history.push(clone());restore(future.pop());status('Redone.');});
 for(const id of ['grid','guides','onion'])listen(id,'change',renderCanvas);listen('preview-scale','change',renderPreview);
 listen('zoom-in','click',()=>setZoom(zoom+1));listen('zoom-out','click',()=>setZoom(zoom-1));listen('native','click',()=>setZoom(1));listen('fit','click',fit);
-view.addEventListener('wheel',e=>{if(e.ctrlKey||e.metaKey){e.preventDefault();const r=view.getBoundingClientRect();setZoom(zoom+(e.deltaY<0?1:-1),{x:e.clientX-r.left,y:e.clientY-r.top});}},{passive:false});
+view.addEventListener('wheel',e=>{if(!e.deltaY)return;e.preventDefault();setZoom(zoom+(e.deltaY<0?1:-1),{x:e.clientX,y:e.clientY});},{passive:false});
+view.addEventListener('pointermove',e=>{pointerAnchor={x:e.clientX,y:e.clientY};if(backgroundPan&&e.pointerId===backgroundPan.id){view.scrollLeft=backgroundPan.left-(e.clientX-backgroundPan.x);view.scrollTop=backgroundPan.top-(e.clientY-backgroundPan.y);}});
+view.addEventListener('pointerleave',()=>{pointerAnchor=null;});
+view.addEventListener('pointerdown',e=>{if(stroke||!(space||tool==='pan'||e.button===1)||e.target.closest('button')||![0,1].includes(e.button))return;e.preventDefault();backgroundPan={id:e.pointerId,x:e.clientX,y:e.clientY,left:view.scrollLeft,top:view.scrollTop};view.setPointerCapture(e.pointerId);});
+for(const event of ['pointerup','pointercancel','lostpointercapture'])view.addEventListener(event,()=>{backgroundPan=null;});
 listen('bank','change',()=>{project.bank=$('bank').value;color=index(bank().colors[0]);renderPalette();autosave();status('Palette selected. Existing pixels keep their exact colors.');});
 listen('project-name','change',()=>commit(()=>project.name=$('project-name').value.trim()||'Untitled sprite'));
 listen('notes','change',()=>commit(()=>project.notes=$('notes').value));listen('frame-name','change',()=>commit(()=>project.frames[frame].name=$('frame-name').value.trim()||`Frame ${frame+1}`));listen('ticks','change',()=>{const n=Number($('ticks').value);if(!Number.isInteger(n)||n<1||n>600){$('ticks').value=project.frames[frame].ticks;throw Error('Use a whole-number hold between 1 and 600 ticks.');}commit(()=>project.frames[frame].ticks=n);});
@@ -116,10 +138,10 @@ const reference = createReferenceEditor({
 });
 let layoutFrame;
 const workspace=createWorkspace({
- onResize:()=>{cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(()=>{if(!project)return;if(autoFit)fit();else requestRender();});},
+ onResize:()=>{cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(()=>{if(!project)return;if(autoFit)fit();else setZoom(zoom);});},
  onAnimationCollapse:()=>{if(playing)stop();}
 });
-window.addEventListener('keydown',e=>{if(e.target.matches('input,select,textarea')||document.querySelector('dialog[open]'))return;const key=e.key.toLowerCase();if(e.metaKey||e.ctrlKey){if(key==='z'){e.preventDefault();$(e.shiftKey?'redo':'undo').click();}if(key==='y'){e.preventDefault();$('redo').click();}if(key==='s'){e.preventDefault();$('save-project').click();}return;}if(stroke)return;const tools={b:'pencil',e:'eraser',f:'fill',i:'picker',l:'line',r:'rectangle',h:'pan'};if(tools[key])selectTool(tools[key]);if(key===' '){e.preventDefault();space=true;}if(key==='+'||key==='='){e.preventDefault();setZoom(zoom+1);}if(key==='-'){e.preventDefault();setZoom(zoom-1);}});window.addEventListener('keyup',e=>{if(e.key===' ')space=false;});
+window.addEventListener('keydown',e=>{if(e.target.matches('input,select,textarea')||document.querySelector('dialog[open]'))return;const key=e.key.toLowerCase();if(e.metaKey||e.ctrlKey){if(key==='z'){e.preventDefault();$(e.shiftKey?'redo':'undo').click();}if(key==='y'){e.preventDefault();$('redo').click();}if(key==='s'){e.preventDefault();$('save-project').click();}return;}if(stroke)return;const tools={b:'pencil',e:'eraser',f:'fill',i:'picker',l:'line',r:'rectangle',h:'pan'};if(tools[key])selectTool(tools[key]);if(key===' '){e.preventDefault();space=true;}if(key==='+'||key==='='){e.preventDefault();setZoom(zoom+1,pointerAnchor);}if(key==='-'){e.preventDefault();setZoom(zoom-1,pointerAnchor);}});window.addEventListener('keyup',e=>{if(e.key===' ')space=false;});
 async function init(){const response=await fetch('./palettes.json');if(!response.ok)throw Error('Palette files could not load. Reload the editor.');const data=await response.json();banks=data.banks.filter(b=>!b.legacy);allowed=new Set(data.banks.flatMap(b=>b.colors));project=makeProject(banks[0].colors);for(const p of PRESETS){const o=new Option(`${p[1]} — ${p[2]} × ${p[3]}`,p[0]);$('preset').add(o);}for(const b of banks)$('bank').add(new Option(b.label,b.id));try{const saved=localStorage.getItem(STORAGE);if(saved){project=validateProject(JSON.parse(saved),allowed);status('Restored your last local workspace.');$('save-state').textContent='Restored from this browser';}}catch{status('Could not restore local draft. Open a downloaded project or start drawing.',true);}
  if(!banks.some(b=>b.id===project.bank))project.bank=banks[0].id;renderAll();fit();document.documentElement.dataset.editorReady='true';}
 init().catch(e=>{status(e.message,true);document.querySelectorAll('button,input,select').forEach(b=>b.disabled=true);});

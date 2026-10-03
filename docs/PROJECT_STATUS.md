@@ -1,5 +1,15 @@
 # Project status
 
+## TOOLS.SE6 — Zoom around any point
+
+**Implementation and focused verification complete; clean release/publication pending.** User requested zooming at any chosen position instead of jumping to an image corner. Opening `main` is `aeab9e4609efa605b0553a2b7ed381791de2cac8`. TOOLS.SE5 centering/crop changes are already published and retained. Unrelated unfinished game/art work remains excluded.
+
+The previous zoom formula used viewport scroll ratios without accounting for the centered canvas origin; buttons had no anchor. Zoom now measures the native pixel under the actual pointer before changing size and restores its screen position afterward. A scroll plane provides margins for panning around every edge; ordinary wheel and Ctrl/Command-wheel zoom under the pointer, keyboard +/− uses the hovered point, and buttons/1× preserve the viewport center. Repeated wheel steps retain the intended anchor to avoid cumulative browser scroll rounding. Space-drag/Pan also work on blank workspace; Fit recenters the full canvas. Integer zoom/memory bounds remain intact.
+
+Seven new browser checks pass for all quadrants, repeated in/out zoom across overflow sizes, panned-center buttons, keyboard/Ctrl-wheel, panning without paint, exact drawing coordinates after zoom and mobile layouts. Ten reference regressions also pass. No art, reference pixel, animation, export or game save changes. [Guide](../sprite-editor/README.md). Clean release checks and deployment receipt follow.
+
+**Exact next action:** verify the clean committed release, publish through the existing owner-only Site, and record evidence.
+
 ## TOOLS.SE5 — Preserve visible column edits and add reference-only crop
 
 **Complete, tested, pushed and published.** User reported the centering button still appeared ineffective and then requested a crop tool, explicitly clarified as **reference image only**. Work on `main`, opening `b9291b50716b4dae31175ea8666bedb6ec9d13c3`. Unrelated game/art work is preserved and excluded.
