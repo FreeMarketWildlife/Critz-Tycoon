@@ -55,6 +55,26 @@ The user supplied an exact `fmw-sprite-exact-rle` editor export as the construct
 
 Grid alignment alone does not establish finished pixel quality. Check actual dimensions, exact export pixels, paired anatomy, outline masks, palette, anchor and native-size readability. R9 retains the input Wildlife palette and exports native transparent PNGs, reopenable editor projects, exact RLE and stable asset metadata. These are technically ready front-idle asset files awaiting visual review, not a complete animated/multidirectional character. Animation and runtime replacement are separate next steps. Brendan stays external to the build. Native and gridded comparison views may both accompany this revision; grids are never baked into sprites.
 
+### Basic character skeleton — exact user intent, TOOLS.SE7
+
+The user's pasted sprite is the **basic anatomical construction model**. Blue is head volume, gray is torso, pink marks arms/hands, green the pelvis/upper-leg connection, and coral the lower legs/feet. These colors distinguish body sections; they are not an alien, costume, skin-color assignment or finished outfit. Preserve this structural reading when designing original characters. The exact source is retained in [user-skeleton.pixels.json](reviews/TOOLS-SE7/user-skeleton.pixels.json); the editor's [starter](../sprite-editor/templates/basic-character.json) contains identical pixels and palette.
+
+| Section | Exact source colors | Construction / shading |
+| --- | --- | --- |
+| Head | `#68B0E0`, `#3878B8`, `#184080` | Main blue cranium/face plane; medium-blue lower-face/side shadow; deepest blue recessed side areas |
+| Eyes | `#F8F8F8` | Two 2×4 landmark blocks at x12–13 and x18–19, source rows38–41 |
+| Body / torso | `#9898A0`, `#707078` | Gray torso plane; darker neck/shoulder shading below the head |
+| Arms / hands | `#F85888` | Paired side volumes; no separate arm shadow ramp in this template |
+| Pelvis / upper legs | `#388840` | Structural connection between torso and two legs |
+| Lower legs / feet | `#FC7858` | Paired lower-limb volumes; no separate leg shadow ramp in this template |
+| Outline / separations | `#201008` | Dark-brown outer contour and internal form divisions; distinguish these pixels from shadows |
+
+Measured user pixels: 32×64 canvas, 720 occupied cells, 10 opaque colors, half-open bounds `[3,26,29,62]` (26×36). All colors and occupied cells mirror exactly about x16. Feet finish on source row61 with two transparent rows below (review cell Y2). Source rows count downward; review guides count upward. These measurements describe the supplied template, not mandatory bounding heights for hair or headwear.
+
+The saved supplied Brendan **screenshot reconstruction** matches all 832 occupied/empty cells across rows36–61 (zero silhouette differences), eye positions and the foot row. This comparison is evidence for the supplied alignment, not raw-ROM pixel identity or a measurement of the skull hidden under Brendan's hat. The rounded bare head above row36 belongs to the user's construction. Do not stretch it to the hat peak or flatten it to the hat brim. [Measurement evidence](reviews/TOOLS-SE7/measurements.json) pins source hashes and the comparison's scope. Reference-game pixels stay outside the shipped project.
+
+The editor uses fixed semantic masks derived from this template, so recoloring does not reclassify anatomy. A selected region, outline protection and alpha lock constrain drawing; guide pixels remain separate from artwork. General silhouette/RGB mirror counts are diagnostic only and do not replace anatomical-mask validation or user approval. This request authorizes a reusable editor guide and starter; it does not approve new character art, animation or gameplay replacements.
+
 ### Prior correction — author native pixel clusters; reference overlays are guides (revision 8)
 
 **User instruction:** retain all four supplied boy designs and hairstyles, turn them into real native pixel art within the 32×64 budget, and put Brendan beside them. **Show this revision at actual 1× size, without enlarging it.** This specific request overrides the default gridded review presentation for R8. Front idle only; no animation or accepted gameplay replacement.

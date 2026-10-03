@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE7 — Construction-aware Sprite Editor
+
+Implemented, release verification in progress. Preserve the exact user skeleton as a reusable template and guide; teach anatomy/shading/outline semantics through the Art Bible and editor. Add fixed region painting, outline/alpha locks, palette ramp shading, scoped recolor, clean view, symmetry diagnostics and exact-RLE paste/open. Preserve all prior authoring, reference, zoom and animation workflows. This task improves the authoring tool without approving or replacing gameplay artwork. [Release evidence](reviews/TOOLS-SE7/README.md).
+
 ## M1.C4 revision 9 — Current user-template idle review
 
 Deliverable/checks complete; visual acceptance pending. Use the user's exact editor RLE skeleton, maintain X-mirrored anatomy, paint the four supplied hairstyle/outfit variants at native 32×64 with one-pixel outlines and no forced 2×2 block construction. [R9 asset packet](reviews/M1-C4/revision-9/README.md) includes PNGs, editor projects, exact RLE, metadata and native/grid comparisons with external Brendan. Keep assets review-only until visual acceptance; no animation or runtime replacement in this task. ART_BIBLE supersedes older outline-weight advice.

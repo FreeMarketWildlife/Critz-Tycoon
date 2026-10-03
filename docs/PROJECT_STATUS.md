@@ -1,5 +1,13 @@
 # Project status
 
+## TOOLS.SE7 — User skeleton, anatomy-aware painting and exact-data import
+
+**Implemented; release validation and publication in progress.** The user's exact 32×64, 720-cell, 10-color basic character construction is preserved as an editable starter and separate guide. Head/eyes/body/arms/pelvis/legs, shadow ramps and structural outline are explicitly mapped in the Art Bible and editor. The lower silhouette matches the supplied Brendan reconstruction over all 832 cells in rows36–61; hidden head anatomy is not claimed to be measured.
+
+Deliverable: Skeleton launcher, anatomy/shading map, fixed region masks, outline/alpha locks, Shade/Lighten ramp tools, current/all-frame color replacement, symmetry diagnostics, Clean view and lossless exact-RLE paste/open. Existing reference centering/crop, pointer zoom, animation, save/export and compact resizable workspace remain intact. Starter replacement and painting/recoloring are undoable. No automatic artwork replacement on load or new game-art acceptance. [Editor guide](../sprite-editor/README.md) · [Evidence](reviews/TOOLS-SE7/README.md).
+
+Source development checks: seven new unit tests, eleven construction browser scenarios and ten existing editor scenarios passed in isolated Chromium, with zero runtime errors. Unrelated M1.I3 working changes remain excluded. Active branch main; release commit, remote verification, complete build checks and deployment receipt will be recorded after publication. **Next action:** validate and publish the clean committed release, then refresh the editor to revision 07.
+
 ## M1.C4 revision 9 — User RLE anatomy and single-pixel outlines
 
 **Idle asset files/checks complete; visual acceptance pending.** The user supplied a 32×64 editor RLE template, requested its anatomy be used for all four designs with X symmetry, one-pixel outlines and individual-pixel refinement; animation follows later. [R9 packet/asset ZIP](reviews/M1-C4/revision-9/README.md). Deliverables include four transparent PNGs, stable-ID manifest, reopenable editor projects, exact RLE and source/masks. Native/grid comparisons retain Brendan externally, excluded from the asset pack and build.

@@ -1,0 +1,39 @@
+{
+  "userSourceSHA256": "8c4c7c9859d5f2879c509d439ab1457fae2e8c3d758eb6112e8562bea5bbe190",
+  "userBounds": [
+    3,
+    26,
+    29,
+    62
+  ],
+  "frame": [
+    32,
+    64
+  ],
+  "opaquePixels": 720,
+  "opaqueColors": 10,
+  "rgbMismatchedPairs": 0,
+  "reference": "Supplied refined Brendan screenshot reconstruction; not raw ROM sprite",
+  "referenceScreenshotSHA256": "e1ca0c743d27b40ac411ff32a9094e3b4abb3f0c9e889d7c3cade2042992c8f9",
+  "comparisonRowsInclusive": [
+    36,
+    61
+  ],
+  "comparedCells": 832,
+  "silhouetteMismatches": 0,
+  "eyes": [
+    [
+      12,
+      38,
+      14,
+      42
+    ],
+    [
+      18,
+      38,
+      20,
+      42
+    ]
+  ],
+  "footLastRow": 61
+}

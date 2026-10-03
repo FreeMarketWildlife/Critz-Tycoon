@@ -1,5 +1,19 @@
 # Free Market Wildlife Sprite Editor
 
+## Character construction and shading (revision 07)
+
+Click **Skeleton → Start from skeleton** to edit the user's exact basic character model. This replaces the workspace and is undoable. **Use as guide** overlays the same model without changing artwork. Choose a region to highlight it, set opacity/layer, or open **Anatomy & shading map**. The semantic guide fits 32×64 frames; it is disabled at other canvas sizes.
+
+- **Paint only selected region** restricts pencil, eraser, fill, line, box, shade and recolor to that fixed template mask. Left/right mean screen-left/right. Mirrored marks must independently pass the mask.
+- **Protect template outline** preserves the template's dark contour/separation positions. **Paint only existing pixels** locks transparent cells. Controls are explicit and session-only; they do not silently modify imported artwork.
+- **Shade (D) / Lighten (U)** steps through the selected palette ramp once per pixel per stroke. Other colors and transparent cells remain unchanged. Select the appropriate ramp under **Shading & recolor**; the head/body region selector chooses its matching ramp.
+- **Replace with brush color** changes the chosen source color in the current frame or all animation frames, respecting paint limits. Undo restores the whole operation.
+- **Clean** hides reference/skeleton/grid/onion overlays for an artwork-only view. Exports always contain artwork only. Hover over the canvas to read the template's anatomical region.
+- **Import & export → Paste sprite data**, or **Open project**, now accepts the exact RLE copied to ChatGPT, including animation frames and exact palette values. Invalid input is rejected before changing the workspace. No pasted text is executed.
+
+The skeleton is a construction model, not a finished outfit or a new approved game asset. Its head/torso shadows are distinct from its outline; pink/green/coral are anatomy labels. See the [Art Bible](../docs/ART_BIBLE.md) for measured interpretation and the limited Brendan comparison. All existing reference cropping, odd-width correction, freely positioned overlays, cursor zoom, animation and resizing/collapsing controls remain available.
+
+
 A dependency-free pixel editor at `/sprite-editor/`. Run the repository dev server and open that path. The normal project build includes it. No game runtime or save code is imported.
 
 Choose a canvas preset, select a Critz palette bank and draw. Every stored cell is one native pixel, with either full opacity or full transparency. Tools: pencil, eraser, flood fill, eyedropper, line, rectangle and pan. Integer zoom, X mirror, pixel grid, vertical centerline, numbered horizontal guides, clean preview, undo/redo, and previous/next onion skin support review. Grid cell lines appear at ≥4×; ten-row guides appear at ≥3×, with fifty-row labels at lower zoom to remain readable. Maximum zoom is bounded by overlay memory.

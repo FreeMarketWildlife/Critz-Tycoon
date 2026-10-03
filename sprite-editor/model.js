@@ -36,10 +36,10 @@ export function line(x0,y0,x1,y1,visit) {
   const dx=Math.abs(x1-x0),sx=x0<x1?1:-1,dy=-Math.abs(y1-y0),sy=y0<y1?1:-1;let err=dx+dy;
   for(;;){visit(x0,y0);if(x0===x1&&y0===y1)break;const e=2*err;if(e>=dy){err+=dy;x0+=sx;}if(e<=dx){err+=dx;y0+=sy;}}
 }
-export function fill(pixels,w,h,x,y,color) {
-  if(x<0||x>=w||y<0||y>=h)return;
+export function fill(pixels,w,h,x,y,color,canWrite=()=>true) {
+  if(x<0||x>=w||y<0||y>=h||!canWrite(x,y))return;
   const old=pixels[y*w+x];if(old===color)return;const stack=[y*w+x];pixels[y*w+x]=color;
-  while(stack.length){const i=stack.pop(),cx=i%w;for(const n of [cx>0?i-1:-1,cx<w-1?i+1:-1,i-w,i+w])if(n>=0&&n<pixels.length&&pixels[n]===old){pixels[n]=color;stack.push(n);}}
+  while(stack.length){const i=stack.pop(),cx=i%w;for(const n of [cx>0?i-1:-1,cx<w-1?i+1:-1,i-w,i+w])if(n>=0&&n<pixels.length&&pixels[n]===old&&canWrite(n%w,Math.floor(n/w))){pixels[n]=color;stack.push(n);}}
 }
 export function nearest(r,g,b,palette) {let best=1,score=Infinity;for(let i=1;i<palette.length;i++){const c=palette[i],d=(r-parseInt(c.slice(1,3),16))**2+(g-parseInt(c.slice(3,5),16))**2+(b-parseInt(c.slice(5,7),16))**2;if(d<score){score=d;best=i;}}return best;}
 export function bounds(pixels,w,h){let l=w,t=h,r=-1,b=-1;pixels.forEach((v,i)=>{if(v){const x=i%w,y=Math.floor(i/w);l=Math.min(l,x);t=Math.min(t,y);r=Math.max(r,x);b=Math.max(b,y);}});return r<0?null:[l,t,r+1,b+1];}
@@ -57,4 +57,24 @@ export function gifBytes(p){
  for(let i=0;i<f.pixels.length;i++){if(i%200===0)code(256);code(f.pixels[i]);}code(257);if(bits)data.push(acc&255);
  for(let i=0;i<data.length;i+=255){const part=data.slice(i,i+255);put(part.length,...part);}put(0);
  }put(0x3b);return new Uint8Array(bytes);
+}
+
+// Exact copy/paste round trip; bounded before allocating any decoded rows.
+export function readProjectData(data,allowed){
+ if(data?.format!=='fmw-sprite-exact-rle')return validateProject(data,allowed);
+ const {width,height,palette,frames}=data;
+ if(data.version!==1||!Number.isInteger(width)||!Number.isInteger(height)||width<1||height<1||width>480||height>480||!Array.isArray(frames)||frames.length<1||frames.length>64||width*height*frames.length>MAX_PIXELS)throw Error('Invalid exact-data dimensions or frame budget.');
+ if(!Array.isArray(palette)||palette.length<1||palette.length>256)throw Error('Invalid exact-data palette.');
+ const decoded=frames.map(f=>{
+  if(!Array.isArray(f.rows)||f.rows.length!==height)throw Error('Each frame needs exactly one encoded row per image row.');
+  const pixels=[];
+  for(const row of f.rows){
+   if(!Array.isArray(row)||row.length%2||row.length>width*2)throw Error('Invalid encoded row.');
+   let count=0;
+   for(let i=0;i<row.length;i+=2){const color=row[i],run=row[i+1];if(!Number.isInteger(color)||color<0||color>=palette.length||!Number.isInteger(run)||run<1||count+run>width)throw Error('Invalid color or run length in exact pixel data.');for(let j=0;j<run;j++)pixels.push(color);count+=run;}
+   if(count!==width)throw Error('An encoded row does not match the canvas width.');
+  }
+  return {name:f.name,ticks:f.ticks,pixels};
+ });
+ return validateProject({format:'fmw-sprite',version:1,name:data.name,preset:data.preset||'custom',width,height,palette:[...palette],bank:'wildlife',notes:data.notes||'',frames:decoded},allowed);
 }
