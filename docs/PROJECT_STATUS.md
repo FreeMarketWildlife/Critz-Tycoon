@@ -8,7 +8,7 @@ Original indexed/native 32×64 candidates: A afro/teal, B flat-top/gold, C twist
 
 Actual checks passed: 8,192 native-source and 16,384 grid-center comparisons; dimensions, binary alpha, connected silhouettes, <=15 colors, symmetric anatomical masks, exact eye rectangles and anchors; native single-pixel contour steps verified. Both combined sheets visually inspected. No emulator, animation, browser or phone tests were required/performed for this review-only packet.
 
-Work on `main`, opening `7d475fac7910520b8b4c32ade46cc49fd7a6be75`. Task-related review/docs changes are ready for commit/push and remote verification. Existing unfinished game/art/editor changes are preserved and excluded. **Playable build unchanged; no deployment required.** Existing phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site. No saves, collision, roster or accepted gameplay art changed.
+Work on `main`, opening `7d475fac7910520b8b4c32ade46cc49fd7a6be75`. Review source **`30eb7e530431c51a37111e8f503d5bcd8734a583`** is committed/pushed to `origin/main`; remote SHA matched local HEAD. All opening tracked edits were verified preserved. An additional concurrent edit to `scripts/build.mjs` appeared during the task and remains excluded, alongside 19 opening modified files and six untracked paths. This status-only receipt is pushed and verified separately. Existing unfinished game/art/editor changes are preserved and excluded. **Playable build unchanged; no deployment required.** Existing phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site. No saves, collision, roster or accepted gameplay art changed.
 
 **Exact next action:** user selects/refines an idle option. No visual acceptance or animation authorization is inferred.
 
