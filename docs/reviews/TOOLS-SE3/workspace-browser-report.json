@@ -1,0 +1,42 @@
+[
+  {
+    "name": "normal desktop viewports fit without page scrolling and prioritize the drawing area",
+    "pass": true
+  },
+  {
+    "name": "draggable panel borders, keyboard resizing, animation collapse and focus restore space",
+    "pass": true
+  },
+  {
+    "name": "layout persists independently of artwork and game save and can reset",
+    "pass": true
+  },
+  {
+    "name": "reference controls scroll inside their dock while canvas stays visible",
+    "pass": true
+  },
+  {
+    "name": "31→32 duplicates center exactly, centers overlay and leaves artwork/export unchanged",
+    "pass": true
+  },
+  {
+    "name": "33→32 removal, cancel, already-even and one-column guard are explicit",
+    "pass": true
+  },
+  {
+    "name": "large screenshot can select a native grid and malformed dimensions cannot apply",
+    "pass": true
+  },
+  {
+    "name": "collapsed animation can reopen and remains fully functional",
+    "pass": true
+  },
+  {
+    "name": "mobile drawer, reset and symmetry modal fit narrow screens",
+    "pass": true
+  },
+  {
+    "name": "no runtime errors",
+    "pass": true
+  }
+]

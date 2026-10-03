@@ -6,7 +6,7 @@ Deliverable/checks complete; visual acceptance awaits the user. Retain all four 
 
 ## TOOLS.SE3 — Canvas-first workspace and symmetry correction
 
-Implementation and source checks complete; clean release and publication in progress. Provide window-bounded layout, draggable dock widths/animation height, collapsible sections and animation, Focus/reset, and separate layout persistence. Add a reversible reference-only odd→even workshop with exact center-column duplication/removal, native-grid input, before/after previews and even-center placement. Preserve artwork, exports, saves, palette, animation behavior and art-review gates. [Guide](../sprite-editor/README.md). Record tested release/deployment evidence in PROJECT_STATUS before completion.
+Complete, tested, pushed and published. Provides window-bounded layout, draggable dock widths/animation height, collapsible sections and animation, Focus/reset, and separate layout persistence. Includes a reversible reference-only odd→even workshop with exact center-column duplication/removal, native-grid input, before/after previews and even-center placement. Preserve artwork, exports, saves, palette, animation behavior and art-review gates. [Guide](../sprite-editor/README.md). Clean release passed 60 unit tests and 30 browser scenarios. [Deployment and validation](reviews/TOOLS-SE3/README.md).
 
 ## M1.C4 revision 7 — Current five-grid reference-led review
 

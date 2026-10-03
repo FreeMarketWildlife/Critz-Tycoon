@@ -14,15 +14,17 @@ Work directly on `main`, opening `f857aae22fb6e5225c1c8ed918e6e4b8fb0afb5a`. Nat
 
 ## TOOLS.SE3 — Resizable workspace and odd-width reference workshop
 
-**Implementation and source checks complete; clean release verification and publication in progress.** User requested a normal-screen layout with a large viewport, draggable panel sizes, collapsible animation/other sections, and an odd-width reference correction tool. Work on `main`, opening `7c238a925ee942fe7f53c1f7e8dd0d54cb4307d0`; concurrent committed M1.C4 R7 review work is preserved. Unfinished game/art changes remain excluded.
+**Complete, tested, pushed and published.** User requested a normal-screen layout with a large viewport, draggable panel sizes, collapsible animation/other sections, and an odd-width reference correction tool. Work on `main`, opening `7c238a925ee942fe7f53c1f7e8dd0d54cb4307d0`; concurrent committed M1.C4 R7 review work is preserved. Unfinished game/art changes remain excluded.
 
 The window now contains a flexible canvas, narrow resizable drawing dock and independently scrolling resizable inspector. Animation starts collapsed and pauses when hidden; its expanded height is draggable. Section headings collapse, Focus hides/restores docks, and Reset layout restores defaults. Separate local layout preferences preserve sprite/game saves. Desktop fit checks cover 1280×720 through 1920×1080; mobile panels use a drawer. Upward guide labels follow the current Art Bible; exported raster rows remain top-down.
 
 Reference → **Fix odd width / symmetry…** previews duplicating a center column (31→32) or removing it (33→32), preserving every other RGBA column. It centers the temporary reference on the even canvas boundary, with an original-reference restore action. Native working-grid dimensions can be entered for enlarged screenshots; nearest sampling does not infer an unknown grid. Oversized corrected references are explicitly reduced to an even displayed width. Existing asymmetric features are preserved; no anatomy approval or forced mirroring is implied. Drawing, project data, exports and game saves are untouched by this operation.
 
-Actual source checks: four symmetry unit tests and all 30 isolated browser scenarios pass across workspace, existing editor and reference suites, including exact pixels, export isolation, save compatibility, desktop/mobile fit and touch. Desktop and symmetry-modal screenshots were visually inspected. Release validation/deployment receipt will follow. [Guide](../sprite-editor/README.md). No gameplay, roster, accepted-art or review-gate changes.
+Actual clean-release checks: all 60 unit tests and 30 isolated browser scenarios pass across workspace, existing editor and reference suites, including exact pixels, export isolation, save compatibility, desktop/mobile fit and touch; zero runtime errors. Desktop and symmetry-modal screenshots were visually inspected. All 543 tested build files matched the packaged archive; the helper-added hosting manifest was identical. [Release evidence](reviews/TOOLS-SE3/README.md). [Guide](../sprite-editor/README.md). No gameplay, roster, accepted-art or review-gate changes.
 
-**Exact next action:** verify the clean committed build, publish it to the existing owner-only Site, and record the source SHA/deployment receipt.
+Source **`f857aae22fb6e5225c1c8ed918e6e4b8fb0afb5a`** committed/pushed to `origin/main`, remote SHA verified. Sites deployment **`appgdep_6ac0953a71388191bd8feb25419902a6`** succeeded for that exact source at 2026-10-03 05:40 UTC. Existing owner-only audience preserved. [Working editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/). Receipt-only documentation is committed/pushed separately. The 19 opening tracked deltas and five untracked game/art paths remain excluded; their file hashes are unchanged apart from the intentionally shared status/plan additions.
+
+**Exact next action:** use the updated editor; existing artwork review remains with the user.
 
 ## M1.C4 revision 7 — Actual-reference tracing and five upward grids
 
