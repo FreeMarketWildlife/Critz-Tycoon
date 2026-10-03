@@ -23,6 +23,7 @@ test('one-column, limit and invalid input guards do not silently ignore treatmen
 test('placement centers even results exactly and labels native-grid odd offset without hiding edits',()=>{
  assert.deepEqual(centeredReferenceOverlay(32,42,32,64),{w:32,h:42,resampled:false,x:0,y:11,centerOffset:0});
  assert.deepEqual(centeredReferenceOverlay(31,42,32,64),{w:31,h:42,resampled:false,x:1,y:11,centerOffset:.5});
- for(const [w,h]of [[480,479],[28,480],[2,480],[320,480]]){const r=centeredReferenceOverlay(w,h,32,64);assert.equal(r.w%2,0);assert.equal(r.x+r.w/2,16);assert.ok(r.h<=64);assert.ok(r.w<=32);}
+ for(const [w,h]of [[480,479],[28,480],[2,480],[320,480],[33,43]]){const r=centeredReferenceOverlay(w,h,32,64);assert.equal(r.w,w);assert.equal(r.h,h);assert.equal(r.resampled,false);assert.ok(Math.abs(r.centerOffset)<=.5);}
+
  assert.equal(centeredReferenceOverlay(30,42,31,64).centerOffset,.5);
 });

@@ -1,5 +1,3 @@
-import {fitReference} from './reference-pixels.js';
-
 // Edit exactly one native column. Both odd and even grids receive the requested
 // operation; no parity-based no-op and no recoloring or mirrored inference.
 export function treatCenterColumn(pixels,width,height,method='add-left') {
@@ -21,13 +19,10 @@ export function treatCenterColumn(pixels,width,height,method='add-left') {
   return {pixels:result,width:nextWidth,height,column,method};
 }
 
+// Keep every corrected pixel. Refitting here can erase a one-column edit when
+// reducing a large source to a sprite-sized overlay. Overflow is clipped by the
+// drawing canvas, never silently resampled; the original remains restorable.
 export function centeredReferenceOverlay(width,height,canvasWidth,canvasHeight) {
-  const r=width<=canvasWidth&&height<=canvasHeight
-    ?{w:width,h:height,resampled:false}
-    :{...fitReference(width,height,canvasWidth,canvasHeight),resampled:true};
-  // Keep even corrected grids even when reducing, if the canvas permits it.
-  if(r.resampled&&width%2===0&&canvasWidth>=2)r.w=Math.max(2,Math.min(canvasWidth-canvasWidth%2,2*Math.round(r.w/2)));
-  r.x=Math.round((canvasWidth-r.w)/2);r.y=Math.round((canvasHeight-r.h)/2);
-  r.centerOffset=r.x+r.w/2-canvasWidth/2;
-  return r;
+  const x=Math.round((canvasWidth-width)/2),y=Math.round((canvasHeight-height)/2);
+  return {w:width,h:height,resampled:false,x,y,centerOffset:x+width/2-canvasWidth/2};
 }

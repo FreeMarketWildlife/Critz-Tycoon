@@ -1,5 +1,17 @@
 # Project status
 
+## TOOLS.SE5 — Preserve visible column edits and add reference-only crop
+
+**Implementation and focused verification complete; clean release/publication pending.** User reported the centering button still appeared ineffective and then requested a crop tool, explicitly clarified as **reference image only**. Work on `main`, opening `b9291b50716b4dae31175ea8666bedb6ec9d13c3`. Unrelated game/art work is preserved and excluded.
+
+Reproduced a distinct missed failure: a 320×434 reference edited to 321×434 then refitted to 32px wide produced zero changed display channels on a repeated-column fixture. The earlier tests verified tiny native inputs, not a large source losing its edit during reduction. Reduced references now start with their displayed pixel dimensions and current sampling method. Column treatment is applied once; corrected pixels stay 1:1 with canvas pixels. Oversized results clip rather than silently refit, disclosed in the dialog. Original-reference restore remains exact. A visible applied-size receipt confirms the replacement. Live Sites metadata was read; no user editor tab was available for inspection and no user storage was accessed.
+
+New **Crop reference** dialog offers a large drag selection, exact source X/Y/Width/Height, Apply, Cancel and Full image. It retains the source image and only updates the reference crop, fitting that crop into the viewport. Sprite canvas, artwork, palette and all animation frames remain unchanged. Desktop/mobile previews were visually inspected.
+
+Focused checks: four symmetry unit tests and 22 isolated browser scenarios pass, including all four large-reference treatments, exact displayed RGBA, no post-edit resampling, explicit original-size clipping, cancel/apply/restore crop behavior, pointer source coordinates, crop-to-symmetry workflow and mobile layout. [Guide](../sprite-editor/README.md). Clean build regression results and publication receipt follow. No gameplay, art acceptance or review-gate changes.
+
+**Exact next action:** verify the clean committed release, publish it to the existing owner-only Site, and record source/deployment evidence.
+
 ## TOOLS.SE4 — Four side-of-center treatments and immediate reference replacement
 
 **Complete, tested, pushed and published.** User reported that Center this image did nothing and requested four treatments: remove left/right of center and add left/right of center. Opening `main` is `964655fd6d6cf04e842d97b3a2cd69b6d3236965`. Unrelated unfinished game/art changes are preserved and excluded.

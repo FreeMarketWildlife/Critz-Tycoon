@@ -7,7 +7,7 @@
 </head>
 <body>
 <header class="app-header">
-  <div class="brand"><span class="mark" aria-hidden="true">▦</span><div><span class="eyebrow">FREE MARKET WILDLIFE</span><h1>Sprite Editor <span class="version">03</span></h1></div></div>
+  <div class="brand"><span class="mark" aria-hidden="true">▦</span><div><span class="eyebrow">FREE MARKET WILDLIFE</span><h1>Sprite Editor <span class="version">05</span></h1></div></div>
   <div class="header-actions"><span id="save-state" class="muted">Local workspace</span><button id="open-project">Open project</button><button id="save-project">Save project</button><button id="copy" class="accent">Copy for ChatGPT ↗</button></div>
 </header>
 <main>
@@ -52,7 +52,8 @@
           <div id="reference-controls" hidden>
             <div class="field-grid reference-mode"><label>Scale<select id="ref-scale"><option value="1">1×</option><option value="2" selected>2×</option><option value="free">Free</option></select></label><label>Layer<select id="ref-layer"><option value="behind">Behind</option><option value="above">Above</option></select></label></div>
             <div class="reference-actions"><button id="ref-fit">Fit inside</button><button id="ref-transform" aria-pressed="false">Move / resize</button></div>
-            <button id="symmetry-open" class="wide symmetry-launch">◧ Fix odd width / symmetry…</button><button id="symmetry-restore" class="wide quiet" hidden>Restore original reference</button>
+            <button id="ref-crop-open" class="wide" style="margin-top:7px">⌑ Crop reference</button>
+            <button id="symmetry-open" class="wide symmetry-launch">◧ Fix odd width / symmetry…</button><p id="ref-correction-status" class="small" role="status" hidden></p><button id="symmetry-restore" class="wide quiet" hidden>Restore original reference</button>
             <label class="range-label">Opacity <output id="opacity-value">35%</output><input id="opacity" type="range" min="0" max="100" value="35"></label>
             <label class="small check"><input id="show-reference" type="checkbox" checked> Show reference</label>
             <p id="ref-hint" class="small muted"></p>
@@ -72,6 +73,14 @@
 <input type="file" id="project-file" accept=".json,application/json" hidden><input type="file" id="reference-file" accept="image/png,image/jpeg,image/webp,image/gif" hidden><input type="file" id="art-file" accept="image/png" hidden>
 <dialog id="new-dialog"><form method="dialog"><h2>Start a new canvas</h2><p id="preset-description"></p><div class="field-grid"><label>Width (px)<input id="new-width" type="number" min="1" max="480" value="32" required></label><label>Height (px)<input id="new-height" type="number" min="1" max="480" value="64" required></label></div><p class="small muted">Building sizes use 32px blocks. New replaces this workspace; Undo restores it.</p><div class="dialog-actions"><button value="cancel">Cancel</button><button id="create-canvas" class="accent" value="create">Create canvas</button></div></form></dialog>
 <dialog id="copy-dialog"><h2>Exact sprite data</h2><p>Select and copy this text, or download Exact pixel data.</p><textarea id="copy-text" rows="12" readonly></textarea><button id="close-copy">Done</button></dialog>
+<dialog id="reference-crop-dialog" aria-labelledby="reference-crop-title">
+  <div class="dialog-heading"><div><span class="eyebrow">REFERENCE ONLY</span><h2 id="reference-crop-title">Crop reference image</h2></div><button id="reference-crop-close" aria-label="Close reference crop">✕</button></div>
+  <p id="ref-crop-source-size" class="small muted"></p>
+  <div class="crop-preview-area"><canvas id="crop-preview" aria-label="Drag to select reference crop"></canvas></div>
+  <div class="crop-dimensions"><label>X<input id="ref-crop-x" type="number" min="0"></label><label>Y<input id="ref-crop-y" type="number" min="0"></label><label>Width<input id="ref-crop-w" type="number" min="1"></label><label>Height<input id="ref-crop-h" type="number" min="1"></label></div>
+  <p id="ref-crop-message" role="status"></p><p class="small muted">Your drawing and animation frames stay unchanged. The full source image is kept so you can crop again.</p>
+  <div class="dialog-actions"><button id="ref-crop-reset">Full image</button><button id="cancel-reference-crop">Cancel</button><button id="apply-reference-crop" class="accent">Apply crop</button></div>
+</dialog>
 <dialog id="symmetry-dialog" aria-labelledby="symmetry-title">
   <div class="dialog-heading"><div><span class="eyebrow">REFERENCE WORKSHOP</span><h2 id="symmetry-title">Center-column workshop</h2></div><button id="symmetry-close" aria-label="Close symmetry workshop">✕</button></div>
   <p class="small muted">Choose the column immediately left or right of center. Add duplicates that column toward the center; remove deletes it. The highlighted column shows exactly what will change.</p>
@@ -79,7 +88,7 @@
   <p id="symmetry-source-info" class="small muted"></p>
   <label class="symmetry-method">Center treatment<select id="symmetry-method"><option value="remove-left">Remove left of center column</option><option value="remove-right">Remove right of center column</option><option value="add-left">Add left of center column</option><option value="add-right">Add right of center column</option></select></label>
   <div class="symmetry-previews"><figure><figcaption id="symmetry-before-label">Before</figcaption><div class="symmetry-scroll"><canvas id="symmetry-before"></canvas></div></figure><figure><figcaption id="symmetry-after-label">After</figcaption><div class="symmetry-scroll"><canvas id="symmetry-after"></canvas></div></figure></div>
-  <p id="symmetry-explanation" role="status"></p><p class="small muted">For an enlarged screenshot, enter its real pixel grid first (for example 31 × 42). This uses nearest pixels; it cannot recover an unknown original grid. Existing left/right differences are preserved. Padding alone would not center the anatomy.</p>
+  <p id="symmetry-explanation" role="status"></p><p class="small muted">Large images start with their displayed pixel grid. One edited column is one canvas pixel. Use source size only to work on original image pixels. Existing left/right differences are preserved. Padding alone would not center the anatomy.</p>
   <div class="dialog-actions"><button id="symmetry-cancel">Cancel</button><button id="symmetry-apply" class="accent">Center this image</button></div>
 </dialog>
 <dialog id="help-dialog"><h2>Your canvas comes first.</h2><p>Drag the thin dividers beside Tools, Panels, or above Animation to resize them. Double-click a divider to reset it. Use the top buttons or section headers to collapse anything; Focus temporarily hides all docks. Reset layout restores defaults. Panel sizes and visibility are remembered in this browser.</p><p><b>B</b> pencil · <b>E</b> eraser · <b>F</b> fill · <b>I</b> pick · <b>L</b> line · <b>R</b> box · <b>H / hold Space</b> pan · <b>+ / −</b> zoom · <b>⌘/Ctrl Z</b> undo · <b>⌘/Ctrl Shift Z</b> redo · <b>⌘/Ctrl S</b> save. Click Focus for distraction-free drawing. Dividers also work with arrow keys.</p><p>Reference Free mode fits large images. Move / resize reveals on-canvas handles; Done positioning returns to drawing. Fix odd width previews adding or removing the column left or right of center. Center this image replaces the viewport reference immediately. Restore original reference reverses the guide change.</p><p>Art autosaves separately from game saves. Download projects for durable backups. Reference images stay in memory and must be reloaded after closing. Frame PNG, GIF and exact data export only your artwork.</p><button id="close-help">Let’s draw</button></dialog>

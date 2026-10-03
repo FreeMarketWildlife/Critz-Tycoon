@@ -50,15 +50,19 @@ Drag on the bounded source thumbnail or edit crop coordinates to select a pose. 
 
 Reference images remain in browser memory; reload them after opening/reloading a project. They are excluded from artwork PNG/GIF, project/copy data, autosave and checked-in assets. No bundled Pokémon image is shipped.
 
+## Crop reference image
+
+Click **Crop reference** for a large selection preview. Drag a rectangle, or enter exact X/Y/Width/Height in original-image pixels (top-left origin). **Apply crop** fits that region into the viewport; **Cancel** changes nothing. **Full image**, then Apply, restores the complete source. Cropping only changes the guide: sprite dimensions, painted pixels and animation frames are untouched. The original source stays available for further crops.
+
 ## Center-column reference workshop
 
 After adding a reference, choose **Fix odd width / symmetry…**. Four treatments are available: **Remove left of center column**, **Remove right of center column**, **Add left of center column**, and **Add right of center column**. The selected source column is highlighted and its one-based number appears in the preview explanation.
 
 For an odd grid, left/right means the immediate neighbors of the single middle column. For an even grid, it means the two columns beside the centerline. Add duplicates the selected column toward the center; remove deletes it. Every other column keeps its exact RGBA values. All four options perform an edit, even if the input width is already even. An odd width becomes even; an even width becomes odd. Existing asymmetric features remain.
 
-The workshop starts with the selected crop's dimensions when within its 480px limit. For an enlarged screenshot, enter the actual native grid first; **Use source size** and **Use shown size** are shortcuts. Nearest sampling constructs that working grid; it cannot infer an unknown original grid or recover lost detail. Correction then operates exactly on that grid. Removing the only column or adding beyond 480px shows an error.
+When a large reference is reduced in the viewport, the workshop starts with its displayed dimensions and current sampling method. The column treatment therefore edits a real canvas pixel rather than a tiny source-image pixel. Small unscaled references use their source grid. For an enlarged screenshot, enter the actual native grid first; **Use source size** and **Use shown size** are shortcuts. The reference’s current sampling mode constructs the working grid; it cannot infer an unknown original grid or recover lost detail. Correction then operates exactly on that grid. Removing the only column or adding beyond 480px shows an error.
 
-**Center this image** creates a new temporary reference image, replaces the viewport overlay immediately, resets the crop to the corrected image and shows it above the artwork. Zero opacity becomes 30%; other opacity values remain. The mobile inspector closes so the canvas is visible. A reference that fits stays at 1×; oversized results are reduced with nearest pixels, disclosed in the dialog. Pixel placement stays on the native grid: odd/even parity mismatches are centered to the nearest whole pixel, with the half-pixel axis difference disclosed rather than blurring the image.
+**Center this image** creates a new temporary reference image, replaces the viewport overlay immediately, resets the crop to the corrected image and shows it above the artwork. Zero opacity becomes 30%; other opacity values remain. The mobile inspector closes so the canvas is visible. The corrected image stays at exactly 1×: there is no fit/resampling after the column edit. If it extends past the canvas, that part is clipped rather than squeezed. The dialog explains this and the Reference panel shows an applied-size receipt. Pixel placement stays on the native grid: odd/even parity mismatches are centered to the nearest whole pixel, with the half-pixel axis difference disclosed rather than blurring the image.
 
 **Restore original reference** restores the original image, crop, positioning, visibility, layer and opacity, even after repeated treatments. Cancel changes nothing. Corrections remain excluded from artwork, saves and exports; reload the original reference after a browser reload.
 

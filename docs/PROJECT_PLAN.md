@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE5 — Visible column correction and reference crop
+
+Implementation and focused checks complete; clean release/publication pending. Prevent reference reduction from erasing center-column edits by editing the displayed grid and retaining 1:1 corrected pixels. Add reference-only drag/numeric cropping with Apply/Cancel and full-source restoration. Preserve artwork, animation, palette, saves and review gates. Verify large-reference viewport pixels, crop workflows and the clean release before publishing.
+
 ## TOOLS.SE4 — Side-of-center reference correction
 
 Complete, tested, pushed and published. Replaces the old even-grid no-op with four explicit left/right add/remove treatments. Highlight the selected column, replace the viewport reference immediately on Center this image, and preserve exact original-reference restoration. Verify actual rendered pixels, odd/even inputs and hidden/mobile overlays. No game/art acceptance changes. All 60 unit tests and 36 isolated browser scenarios passed. [Release and deployment evidence](reviews/TOOLS-SE4/README.md).

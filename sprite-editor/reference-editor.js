@@ -1,3 +1,4 @@
+import {createReferenceCrop} from './reference-crop.js';
 import {createSymmetryWorkshop} from './symmetry-workshop.js';
 import {fitReference, resizeReference, sampleReference} from './reference-pixels.js';
 
@@ -118,7 +119,7 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     g.strokeStyle='#ddff9a';g.lineWidth=1;g.strokeRect(r.x*sx+.5,r.y*sy+.5,r.w*sx,r.h*sy);
   }
   function clear() {
-    loadVersion++; reference=null; originalReference=null; $('symmetry-restore').hidden=true; finish();
+    loadVersion++; reference=null; originalReference=null; $('symmetry-restore').hidden=true;$('ref-correction-status').hidden=true; finish();
     sampled.width=1;sampled.height=1;$('reference-source').width=1;$('reference-source').height=1;
     $('reference-controls').hidden=true;
   }
@@ -130,7 +131,7 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     const g=keyed.getContext('2d');g.drawImage(image,0,0);
     const im=g.getImageData(0,0,image.width,image.height),rgba=new Uint8ClampedArray(im.data),bg=rgba.subarray(0,3);
     for(let i=0;i<im.data.length;i+=4)if(im.data[i]===bg[0]&&im.data[i+1]===bg[1]&&im.data[i+2]===bg[2])im.data[i+3]=0;
-    g.putImageData(im,0,0);finish();reference={image,keyed,rgba,cacheKey:null};originalReference=null;$('symmetry-restore').hidden=true;
+    g.putImageData(im,0,0);finish();reference={image,keyed,rgba,cacheKey:null};originalReference=null;$('symmetry-restore').hidden=true;$('ref-correction-status').hidden=true;
     $('crop-x').value=0;$('crop-y').value=0;$('crop-w').value=image.width;$('crop-h').value=image.height;
     $('ref-x').value=0;$('ref-y').value=0;$('ref-lock').checked=true;$('ref-layer').value='above';
     $('reference-controls').hidden=false;$('show-reference').checked=true;
@@ -189,10 +190,18 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
   });
   function endCrop(e){if(!cropDrag||cropDrag.pointer!==e.pointerId)return;cropDrag=null;if(free())fit();else update();drawSource();}
   source.addEventListener('pointerup',endCrop);source.addEventListener('pointercancel',endCrop);source.addEventListener('lostpointercapture',endCrop);
+  createReferenceCrop({
+    getReference:()=>reference?{image:reference.image,crop:crop()}:null,
+    applyCrop(c){
+      onStart();finish();
+      for(const [k,value]of Object.entries(c))$('crop-'+k).value=value;
+      fit();drawSource();onMessage(`Reference cropped to ${c.w} × ${c.h} source pixels. Reopen Crop reference and choose Full image to restore it.`);
+    },onMessage
+  });
   const settingIds=['crop-x','crop-y','crop-w','crop-h','ref-scale','ref-x','ref-y','ref-width','ref-height','ref-sampling','ref-layer','opacity'];
   createSymmetryWorkshop({
     getCanvasSize:getSize,
-    getReference:()=>reference?{rgba:reference.rgba,width:reference.image.width,crop:crop(),rect:rect(),background:$('remove-bg').checked?reference.rgba.subarray(0,3):null}:null,
+    getReference:()=>reference?{rgba:reference.rgba,width:reference.image.width,crop:crop(),rect:rect(),sampling:free()?$('ref-sampling').value:'nearest',background:$('remove-bg').checked?reference.rgba.subarray(0,3):null}:null,
     onMessage,
     applyReference(result){
       if(!reference)return;
@@ -205,13 +214,15 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
       $('ref-scale').value='free';$('ref-sampling').value='nearest';$('remove-bg').checked=false;$('show-reference').checked=true;
       $('ref-layer').value='above';if(Number($('opacity').value)===0)$('opacity').value=30;
       sampled.width=1;sampled.height=1;
-      setRect(result.placement);$('symmetry-restore').hidden=false;drawSource();update();
+      setRect(result.placement);$('symmetry-restore').hidden=false;
+      $('ref-correction-status').hidden=false;$('ref-correction-status').textContent=`Applied: ${result.width} × ${result.height} px · 1:1 on canvas. No refitting.`;
+      drawSource();update();
     }
   });
   on('symmetry-restore','click',()=>{
     if(!originalReference)return;finish();reference=originalReference.reference;reference.cacheKey=null;
     for(const [id,value]of Object.entries(originalReference.values))$(id).value=value;
-    $('remove-bg').checked=originalReference.removeBackground;$('show-reference').checked=originalReference.shown;originalReference=null;$('symmetry-restore').hidden=true;drawSource();update();onMessage('Original reference and positioning restored.');
+    $('remove-bg').checked=originalReference.removeBackground;$('show-reference').checked=originalReference.shown;originalReference=null;$('symmetry-restore').hidden=true;$('ref-correction-status').hidden=true;drawSource();update();onMessage('Original reference and positioning restored.');
   });
   return {draw,renderHandles,finish,clear,hasImage:()=>!!reference,snapshot:()=>reference?{mode:$('ref-scale').value,crop:crop(),rect:rect(),editing,sampling:$('ref-sampling').value,locked:$('ref-lock').checked,corrected:!!originalReference}:null};
 }

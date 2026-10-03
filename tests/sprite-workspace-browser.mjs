@@ -35,7 +35,7 @@ try{
   await p.locator('#symmetry-restore').click();await settle();assert.equal((await snap()).reference.crop.w,31);assert.equal((await snap()).reference.corrected,false);assert.deepEqual((await snap()).project,before);
  });
  await test('33→32 removal, cancel, even-width treatment and one-column guard are explicit',async()=>{
-  await upload(33,42);await openSym();await p.locator('#symmetry-method').selectOption('remove-right');assert.match(await p.locator('#symmetry-after-label').textContent(),/32 × 42/);await p.locator('#symmetry-apply').click();await settle();assert.equal((await snap()).reference.crop.w,32);
+  await upload(33,42);await openSym();await p.locator('#symmetry-source-size').click();await p.locator('#symmetry-method').selectOption('remove-right');assert.match(await p.locator('#symmetry-after-label').textContent(),/32 × 42/);await p.locator('#symmetry-apply').click();await settle();assert.equal((await snap()).reference.crop.w,32);
   await openSym();assert.match(await p.locator('#symmetry-explanation').textContent(),/32 → 33/);await p.locator('#symmetry-cancel').click();assert.equal((await snap()).reference.crop.w,32);
   await p.locator('#symmetry-restore').click();await upload(1,8);await openSym();await p.locator('#symmetry-method').selectOption('remove-right');assert.equal(await p.locator('#symmetry-apply').isDisabled(),true);assert.match(await p.locator('#symmetry-explanation').textContent(),/only column/);await p.locator('#symmetry-cancel').click();
  });

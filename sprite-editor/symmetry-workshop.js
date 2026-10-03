@@ -1,4 +1,4 @@
-import {sampleReference} from './reference-pixels.js';
+import {sampleReference,fitReference} from './reference-pixels.js';
 import {treatCenterColumn,centeredReferenceOverlay} from './symmetry.js';
 
 export function createSymmetryWorkshop({getReference,getCanvasSize,applyReference,onMessage}) {
@@ -19,12 +19,12 @@ export function createSymmetryWorkshop({getReference,getCanvasSize,applyReferenc
     g.strokeStyle=after?'#d8ff91':'#ffbe75';g.lineWidth=1;g.setLineDash(after?[]:[3,3]);g.beginPath();g.moveTo(12+width*z/2+.5,5);g.lineTo(12+width*z/2+.5,19+height*z);g.stroke();g.setLineDash([]);
   }
   function update(){
-    prepared=null;$('symmetry-apply').disabled=true;
+    clearTimeout(timer);prepared=null;$('symmetry-apply').disabled=true;
     try{
       const width=Number($('symmetry-width').value),height=Number($('symmetry-height').value);
       if(!Number.isInteger(width)||!Number.isInteger(height)||width<1||width>480||height<1||height>480)throw Error('Enter whole pixel dimensions from 1 to 480.');
       const key=width+':'+height;
-      if(key!==lastInput){base=sampleReference(source.rgba,source.width,source.crop,width,height,'nearest',source.background);lastInput=key;}
+      if(key!==lastInput){base=sampleReference(source.rgba,source.width,source.crop,width,height,source.sampling||'nearest',source.background);lastInput=key;}
       const next=treatCenterColumn(base,width,height,$('symmetry-method').value);
       paint('symmetry-before',base,width,height,false,next.column);paint('symmetry-after',next.pixels,next.width,next.height,true);
       $('symmetry-before-label').textContent=`Before · ${width} × ${height} · axis x=${width/2}`;
@@ -34,7 +34,8 @@ export function createSymmetryWorkshop({getReference,getCanvasSize,applyReferenc
       const adding=next.method.startsWith('add'),side=next.method.endsWith('left')?'left':'right';
       let description=`${width} → ${next.width}: ${adding?'duplicate':'remove'} column ${next.column+1} (${side} of center; columns count from 1). All other columns stay exact.`;
       description+=placement.centerOffset?' The result is odd-width: its center is half a pixel from the canvas axis so its pixels stay on the native grid. Apply another treatment to return to an even width.':` Overlay center: x=${size.width/2}.`;
-      if(placement.resampled)description+=` The ${next.width} × ${height} reference is larger than this canvas, so its overlay is shown at ${placement.w} × ${placement.h} with nearest pixels. For an enlarged screenshot, set its true native grid first.`;
+      description+=' Applied at exactly 1 canvas pixel per corrected pixel; no resize after editing.';
+      if(next.width>size.width||height>size.height)description+=' The part outside the canvas will be clipped, not squeezed back down.';
       $('symmetry-explanation').textContent=description;
       $('symmetry-apply').textContent='Center this image';$('symmetry-apply').disabled=false;
     }catch(e){$('symmetry-explanation').textContent=e.message;}
@@ -46,15 +47,18 @@ export function createSymmetryWorkshop({getReference,getCanvasSize,applyReferenc
     $('symmetry-method').value='add-left';
     $('symmetry-source-info').textContent=`Selected source crop: ${source.crop.w} × ${source.crop.h}. Shown overlay: ${source.rect.w} × ${source.rect.h}. Choose the pixel grid you want to correct.`;
     dialog.showModal();
-    const native=source.crop.w<=480&&source.crop.h<=480;
-    setSize(native?source.crop.w:Math.min(480,source.rect.w),native?source.crop.h:Math.min(480,source.rect.h));
+    const downscaled=source.crop.w>source.rect.w||source.crop.h>source.rect.h;
+    const w=downscaled?source.rect.w:source.crop.w,h=downscaled?source.rect.h:source.crop.h;
+    const grid=w>480||h>480?fitReference(w,h,480,480):{w,h};
+    setSize(grid.w,grid.h);
+    $('symmetry-source-info').textContent+=downscaled?' Editing the displayed pixel grid so one column equals one canvas pixel.':'';
   };
   for(const id of ['symmetry-width','symmetry-height'])$(id).addEventListener('input',()=>{prepared=null;$('symmetry-apply').disabled=true;clearTimeout(timer);timer=setTimeout(update,100);});
   $('symmetry-method').onchange=update;
   $('symmetry-source-size').onclick=()=>{if(source.crop.w>480||source.crop.h>480){onMessage('Source exceeds the 480px workshop grid. Enter its native pixel dimensions or use shown size.',true);$('symmetry-explanation').textContent='This source is too large to treat each screenshot pixel as a sprite pixel. Enter its true native grid, or use shown size.';return;}setSize(source.crop.w,source.crop.h);};
-  $('symmetry-shown-size').onclick=()=>setSize(Math.min(480,source.rect.w),Math.min(480,source.rect.h));
+  $('symmetry-shown-size').onclick=()=>{const r=fitReference(source.rect.w,source.rect.h,Math.min(480,source.rect.w),Math.min(480,source.rect.h));setSize(r.w,r.h);};
   for(const id of ['symmetry-close','symmetry-cancel'])$(id).onclick=()=>dialog.close();
   window.addEventListener('resize',()=>{if(dialog.open&&source)update();});
   dialog.addEventListener('close',()=>{clearTimeout(timer);source=null;base=null;prepared=null;});
-  $('symmetry-apply').onclick=()=>{if(!prepared)return;try{applyReference(prepared);dialog.close();onMessage('Column treatment applied to the viewport reference. Restore original reference reverses this.');}catch(e){$('symmetry-explanation').textContent=e.message;}};
+  $('symmetry-apply').onclick=()=>{update();if(!prepared)return;try{const result=prepared;applyReference(result);dialog.close();onMessage(`Applied to viewport: ${result.width} × ${result.height} px at 1:1. Restore original reference reverses this.`);}catch(e){$('symmetry-explanation').textContent=e.message;}};
 }
