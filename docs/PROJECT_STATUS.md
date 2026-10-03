@@ -8,7 +8,7 @@ Recovered the screenshot’s 16-screen-pixel cell pitch and 13 flat colors; all 
 
 Reference-colored images/JSON are saved outside the repository under `/Users/tanoshi/.codex/visualizations/2026/10/03/hero-brendan-comparison/`; the build copies project docs, so committing those images would incorrectly ship reference artwork. Only the reproduction script, validation metadata and documentation are project changes. **Playable build unchanged; no deployment required.** No gameplay, animation, saves or accepted art changed. Existing unrelated work remains excluded.
 
-Branch `main`, opening SHA `b173403387e7757fe602c54cd360c72cfb97cb5b`. Task documentation/reproduction files are ready for commit, push and remote verification. Concurrent editor work is preserved; repository state is checked again at handoff.
+Branch `main`, opening SHA `b173403387e7757fe602c54cd360c72cfb97cb5b`. Review documentation/reproduction source **`9fe3ba6cbdf1aab46aafaa1d3dcebd24bc88931a`** is committed/pushed to `origin/main`; remote SHA matched local HEAD. Opening tracked edits were verified unchanged after this commit. Remaining unrelated work: 19 modified paths plus five untracked art/review/appearance paths; none included. This status receipt is pushed and verified separately. Concurrent editor work remains preserved.
 
 **Exact next action:** user examines the aligned comparison; any subsequent Hero correction must address face/overlap landmarks rather than only symmetry and bounding dimensions.
 
