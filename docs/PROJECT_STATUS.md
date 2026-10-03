@@ -1,5 +1,15 @@
 # Project status
 
+## M1.C4 — Countable idle comparison and reference construction
+
+**Awaiting user art review.** Delivered original boy Hero south-idle drawings on actual **16×32 and 32×64 native grids**, with one square per pixel and numbered major lines every ten pixels. [Comparison](reviews/M1-C4/hero-grid.png) · [Construction sheet](reviews/M1-C4/hero-skeleton.png) · [Review record](reviews/M1-C4/README.md). The smaller drawing copies the supplied reference’s eight-row torso/arm/hip/foot occupancy mask; the rounded afro replaces its pointed hat. Head/torso/lower-body bands are 13/5/3 rows and 26/10/6 rows. Painted bounds are 14×21 and 28×42; transparent storage padding remains visible. The larger drawing includes native refinements.
+
+Actual checks: decoded PNG/source equality and exact displayed grid-center colors pass for **2,560 cells**; dimensions, binary alpha, connected figures, palette limits, bounds and copied body mask pass. Both plates visually inspected. No animation or finished-art acceptance is claimed. The ideas notebook’s separate full-body-inside-32×32 preference remains unresolved by this explicitly requested 32×64 comparison.
+
+Branch `main`; baseline `2d00b5b` after safely fast-forwarding two ideas-only remote commits. Existing M1.I3 working changes remain preserved and excluded from this commit. Delivery consists only of documentation and review artifacts, with no runtime consumers. **Playable build unchanged; no deployment required.** The current phone game remains at https://critz-tycoon.freemarketwildlife.chatgpt.site. Task changes are committed/pushed and the remote SHA checked in the handoff; any failure is reported there.
+
+**Exact next action:** user reviews the idle skeleton and requests refinements; perfect this still before walking. M1.I3 implementation is not advanced by this review.
+
 ## IDEAS.1 — Ideas notebook, 2026-09-27
 
 **Documentation complete.** User requested a running ideas file and supplied the P2W shop concept. [IDEAS.md](IDEAS.md) records IDEA-001: Peigh (walking dollar sign), his wife Teawin (walking teacup), their luxury real-money-only Liarsville shop, first-ad encounter, shop dialogue, one-time $4.99 permanent ad removal, cosmetics, special fish, premium quests, and limited-time stock. Draft wording and unresolved details are labeled. README links the notebook.

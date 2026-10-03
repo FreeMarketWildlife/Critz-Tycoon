@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 — Idle resolution and chibi construction review
+
+Current review task: boy Hero only, one south idle at 16×32 and 32×64. The user requests a countable native-pixel grid, marks every ten pixels and the supplied reference’s compact body construction. Deliver original native PNGs, editable pixels, exact enlarged grids and a separate construction plate. Refine idle first; no new walking or playable integration is part of this task. [Review packet](reviews/M1-C4/README.md) is delivered and awaits user visual feedback. Preserve unfinished M1.I3 work. The ideas notebook’s separate one-tile body proposal is not adopted or resolved by these taller storage frames.
+
 ## M1.C3 — Walking animations for the current cast
 
 The user authorizes animation of every delivered M1.C2 character. Produce original front/back/both-side walks, preserve the chibi framework and existing front idle pixels, and provide individual/full-cast GIFs plus a controllable review. Three poses per direction use source-derived 8-tick walk holds. This is an animation-review deliverable, not a gameplay replacement or new roster. Final visual acceptance remains the user’s.

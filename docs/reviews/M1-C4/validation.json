@@ -1,0 +1,52 @@
+{
+  "checks": 2564,
+  "nativeRefinements": 174,
+  "frames": [
+    {
+      "id": "review.hero.boy.idle.16x32.v1",
+      "frame": [
+        16,
+        32
+      ],
+      "opaqueBBox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "paintedPixels": 242
+    },
+    {
+      "id": "review.hero.boy.idle.32x64.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "opaqueBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "paintedPixels": 956
+    }
+  ],
+  "grid": {
+    "majorEvery": 10,
+    "displayScales": [
+      24,
+      12
+    ],
+    "displayFrames": [
+      [
+        384,
+        768
+      ],
+      [
+        384,
+        768
+      ]
+    ]
+  },
+  "artApproval": false
+}

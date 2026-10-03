@@ -1,0 +1,43 @@
+{
+  "status": "pass",
+  "frames": [
+    {
+      "frame": [
+        16,
+        32
+      ],
+      "decodedPixelEquality": true,
+      "exactGridCellCenters": 512,
+      "binaryAlpha": true,
+      "oneConnectedFigure": true,
+      "colors": 12,
+      "bbox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "sha256": "1695e41bebd2ee5c2b964ef423b0a0aa97e07b0da31ee13759ff41387eea70a8"
+    },
+    {
+      "frame": [
+        32,
+        64
+      ],
+      "decodedPixelEquality": true,
+      "exactGridCellCenters": 2048,
+      "binaryAlpha": true,
+      "oneConnectedFigure": true,
+      "colors": 13,
+      "bbox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "sha256": "fdb077701d6b6c6e3941b0694067d7be278ab392f4cf85e4a3dde556e15249f1"
+    }
+  ],
+  "totalExactCells": 2560,
+  "visualReview": "Both plates inspected after contour and limb corrections; user art approval pending."
+}
