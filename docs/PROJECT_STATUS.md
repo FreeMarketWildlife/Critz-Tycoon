@@ -1,5 +1,17 @@
 # Project status
 
+## TOOLS.SE4 — Four side-of-center treatments and immediate reference replacement
+
+**Implementation and focused checks complete; clean release/publication pending.** User reported that Center this image did nothing and requested four treatments: remove left/right of center and add left/right of center. Opening `main` is `964655fd6d6cf04e842d97b3a2cd69b6d3236965`. Unrelated unfinished game/art changes are preserved and excluded.
+
+Confirmed old behavior: even-width working grids silently bypassed the selected treatment, leaving only centering, which could produce no visible change. All four new treatments edit one column regardless of parity. Odd grids use the immediate neighbors of the unique center column; even grids use the central pair. Add duplicates the selected column toward center; remove deletes it. The dialog highlights the exact source column and reports its one-based number. Even→odd results are explicitly labeled with any half-pixel axis mismatch; native pixels remain aligned. No anatomy symmetry is inferred.
+
+Center this image constructs a new reference canvas, resets its crop, invalidates sampling, shows it above artwork, raises zero opacity to 30%, and redraws the viewport. On mobile it reveals the canvas. Restore invalidates the old sampled cache and restores the original image/settings, including visibility/layer/opacity. Sprite pixels, palette, files, game saves and review gates are unchanged.
+
+Four unit tests and 16 focused isolated browser scenarios pass, including direct viewport RGBA assertions for all four treatments on odd/even inputs, repeated edits, exact restore, hidden/zero-opacity guides and mobile application. [Editor guide](../sprite-editor/README.md). Full clean release checks and deployment receipt follow.
+
+**Exact next action:** verify the committed release, publish to the existing owner-only Site, and record source/deployment evidence.
+
 ## M1.C4 revision 8 — Authored native pixels, unscaled five-character lineup
 
 **Native redraw/checks complete; artwork awaiting user review.** User accepted R7 as close reference alignment but rejected it as finished pixel art, requesting real pixel clusters retaining the four hairstyles/outfits and an unscaled lineup with Brendan. [R8 packet and native comparison](reviews/M1-C4/revision-8/README.md). Four original 32×64 sprites are authored from integer pixel marks, with no screenshot input, sampling, quantization or resizing. The 160×64 comparison shows Brendan first at actual 1×. This latest request overrides the enlarged grid for R8.

@@ -1,5 +1,5 @@
 import {sampleReference} from './reference-pixels.js';
-import {evenReference,centeredEvenOverlay} from './symmetry.js';
+import {treatCenterColumn,centeredReferenceOverlay} from './symmetry.js';
 
 export function createSymmetryWorkshop({getReference,getCanvasSize,applyReference,onMessage}) {
   const $=id=>document.getElementById(id),dialog=$('symmetry-dialog');
@@ -25,24 +25,25 @@ export function createSymmetryWorkshop({getReference,getCanvasSize,applyReferenc
       if(!Number.isInteger(width)||!Number.isInteger(height)||width<1||width>480||height<1||height>480)throw Error('Enter whole pixel dimensions from 1 to 480.');
       const key=width+':'+height;
       if(key!==lastInput){base=sampleReference(source.rgba,source.width,source.crop,width,height,'nearest',source.background);lastInput=key;}
-      const next=evenReference(base,width,height,$('symmetry-method').value);
-      paint('symmetry-before',base,width,height,false,width%2?Math.floor(width/2):null);paint('symmetry-after',next.pixels,next.width,next.height,true);
+      const next=treatCenterColumn(base,width,height,$('symmetry-method').value);
+      paint('symmetry-before',base,width,height,false,next.column);paint('symmetry-after',next.pixels,next.width,next.height,true);
       $('symmetry-before-label').textContent=`Before · ${width} × ${height} · axis x=${width/2}`;
       $('symmetry-after-label').textContent=`After · ${next.width} × ${height} · axis x=${next.width/2}`;
-      const size=getCanvasSize(),placement=centeredEvenOverlay(next.width,height,size.width,size.height);
+      const size=getCanvasSize(),placement=centeredReferenceOverlay(next.width,height,size.width,size.height);
       prepared={...next,placement};
-      let description=next.changed?`${width} → ${next.width}: ${$('symmetry-method').value==='duplicate'?'the center column becomes two identical columns':'the center column is removed'}. All other pixels stay exact.`:'This grid is already even. Its centerline already falls between columns.';
-      description+=` Overlay center: x=${size.width/2}.`;
+      const adding=next.method.startsWith('add'),side=next.method.endsWith('left')?'left':'right';
+      let description=`${width} → ${next.width}: ${adding?'duplicate':'remove'} column ${next.column+1} (${side} of center; columns count from 1). All other columns stay exact.`;
+      description+=placement.centerOffset?' The result is odd-width: its center is half a pixel from the canvas axis so its pixels stay on the native grid. Apply another treatment to return to an even width.':` Overlay center: x=${size.width/2}.`;
       if(placement.resampled)description+=` The ${next.width} × ${height} reference is larger than this canvas, so its overlay is shown at ${placement.w} × ${placement.h} with nearest pixels. For an enlarged screenshot, set its true native grid first.`;
       $('symmetry-explanation').textContent=description;
-      $('symmetry-apply').textContent=next.changed?'Use corrected reference':'Center this reference';$('symmetry-apply').disabled=false;
+      $('symmetry-apply').textContent='Center this image';$('symmetry-apply').disabled=false;
     }catch(e){$('symmetry-explanation').textContent=e.message;}
   }
   function setSize(width,height){$('symmetry-width').value=width;$('symmetry-height').value=height;update();}
   $('symmetry-open').onclick=()=>{
     source=getReference();if(!source){onMessage('Add a reference image first.',true);return;}
     lastInput='';base=null;prepared=null;
-    $('symmetry-method').value='duplicate';
+    $('symmetry-method').value='add-left';
     $('symmetry-source-info').textContent=`Selected source crop: ${source.crop.w} × ${source.crop.h}. Shown overlay: ${source.rect.w} × ${source.rect.h}. Choose the pixel grid you want to correct.`;
     dialog.showModal();
     const native=source.crop.w<=480&&source.crop.h<=480;
@@ -55,5 +56,5 @@ export function createSymmetryWorkshop({getReference,getCanvasSize,applyReferenc
   for(const id of ['symmetry-close','symmetry-cancel'])$(id).onclick=()=>dialog.close();
   window.addEventListener('resize',()=>{if(dialog.open&&source)update();});
   dialog.addEventListener('close',()=>{clearTimeout(timer);source=null;base=null;prepared=null;});
-  $('symmetry-apply').onclick=()=>{if(!prepared)return;try{applyReference(prepared);dialog.close();onMessage('Even-width reference centered. Your artwork is unchanged; Restore original reference reverses this.');}catch(e){$('symmetry-explanation').textContent=e.message;}};
+  $('symmetry-apply').onclick=()=>{if(!prepared)return;try{applyReference(prepared);dialog.close();onMessage('Column treatment applied to the viewport reference. Restore original reference reverses this.');}catch(e){$('symmetry-explanation').textContent=e.message;}};
 }

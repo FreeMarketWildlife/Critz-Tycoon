@@ -189,7 +189,7 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
   });
   function endCrop(e){if(!cropDrag||cropDrag.pointer!==e.pointerId)return;cropDrag=null;if(free())fit();else update();drawSource();}
   source.addEventListener('pointerup',endCrop);source.addEventListener('pointercancel',endCrop);source.addEventListener('lostpointercapture',endCrop);
-  const settingIds=['crop-x','crop-y','crop-w','crop-h','ref-scale','ref-x','ref-y','ref-width','ref-height','ref-sampling'];
+  const settingIds=['crop-x','crop-y','crop-w','crop-h','ref-scale','ref-x','ref-y','ref-width','ref-height','ref-sampling','ref-layer','opacity'];
   createSymmetryWorkshop({
     getCanvasSize:getSize,
     getReference:()=>reference?{rgba:reference.rgba,width:reference.image.width,crop:crop(),rect:rect(),background:$('remove-bg').checked?reference.rgba.subarray(0,3):null}:null,
@@ -197,19 +197,21 @@ export function createReferenceEditor({canvas, stage, getSize, getZoom, onChange
     applyReference(result){
       if(!reference)return;
       onStart();finish();
-      if(!originalReference)originalReference={reference,values:Object.fromEntries(settingIds.map(id=>[id,$(id).value])),removeBackground:$('remove-bg').checked};
+      if(!originalReference)originalReference={reference,values:Object.fromEntries(settingIds.map(id=>[id,$(id).value])),removeBackground:$('remove-bg').checked,shown:$('show-reference').checked};
       const image=document.createElement('canvas');image.width=result.width;image.height=result.height;
       image.getContext('2d').putImageData(new ImageData(result.pixels,result.width,result.height),0,0);
       reference={image,keyed:image,rgba:new Uint8ClampedArray(result.pixels),cacheKey:null};
       $('crop-x').value=0;$('crop-y').value=0;$('crop-w').value=result.width;$('crop-h').value=result.height;
       $('ref-scale').value='free';$('ref-sampling').value='nearest';$('remove-bg').checked=false;$('show-reference').checked=true;
+      $('ref-layer').value='above';if(Number($('opacity').value)===0)$('opacity').value=30;
+      sampled.width=1;sampled.height=1;
       setRect(result.placement);$('symmetry-restore').hidden=false;drawSource();update();
     }
   });
   on('symmetry-restore','click',()=>{
-    if(!originalReference)return;finish();reference=originalReference.reference;
+    if(!originalReference)return;finish();reference=originalReference.reference;reference.cacheKey=null;
     for(const [id,value]of Object.entries(originalReference.values))$(id).value=value;
-    $('remove-bg').checked=originalReference.removeBackground;originalReference=null;$('symmetry-restore').hidden=true;drawSource();update();onMessage('Original reference and positioning restored.');
+    $('remove-bg').checked=originalReference.removeBackground;$('show-reference').checked=originalReference.shown;originalReference=null;$('symmetry-restore').hidden=true;drawSource();update();onMessage('Original reference and positioning restored.');
   });
   return {draw,renderHandles,finish,clear,hasImage:()=>!!reference,snapshot:()=>reference?{mode:$('ref-scale').value,crop:crop(),rect:rect(),editing,sampling:$('ref-sampling').value,locked:$('ref-lock').checked,corrected:!!originalReference}:null};
 }

@@ -50,13 +50,17 @@ Drag on the bounded source thumbnail or edit crop coordinates to select a pose. 
 
 Reference images remain in browser memory; reload them after opening/reloading a project. They are excluded from artwork PNG/GIF, project/copy data, autosave and checked-in assets. No bundled Pokémon image is shipped.
 
-## Odd-width reference workshop
+## Center-column reference workshop
 
-After adding a reference, choose **Fix odd width / symmetry…**. An odd-width image has a middle column; an even-width canvas has a centerline between columns. Choose **Duplicate center column · +1 px** (for example 31 → 32) or **Remove center column · −1 px** (33 → 32). Preview both grids before applying. Every other column retains its exact RGBA values; no averaging or forced mirroring occurs. Existing asymmetry remains. Adding transparent padding alone would not solve the anatomical center-column mismatch.
+After adding a reference, choose **Fix odd width / symmetry…**. Four treatments are available: **Remove left of center column**, **Remove right of center column**, **Add left of center column**, and **Add right of center column**. The selected source column is highlighted and its one-based number appears in the preview explanation.
 
-The workshop starts with the selected crop's dimensions when within its 480px limit. For an enlarged screenshot, enter the actual native grid first; **Use source size** and **Use shown size** are shortcuts. Nearest sampling constructs that working grid; it cannot infer an unknown original grid or recover lost detail. Correction then operates exactly on that grid.
+For an odd grid, left/right means the immediate neighbors of the single middle column. For an even grid, it means the two columns beside the centerline. Add duplicates the selected column toward the center; remove deletes it. Every other column keeps its exact RGBA values. All four options perform an edit, even if the input width is already even. An odd width becomes even; an even width becomes odd. Existing asymmetric features remain.
 
-**Use corrected reference** replaces only the temporary reference and centers its even width on the canvas centerline. A reference that fits stays at 1×; oversized results are reduced with nearest pixels and an even displayed width. The preview explains that reduction. The canvas must have an even width. Already-even images can be centered without changing their grid. **Restore original reference** restores the original image, crop and settings, including after repeated corrections. Cancel changes nothing. The corrected reference remains excluded from artwork, saves and exports.
+The workshop starts with the selected crop's dimensions when within its 480px limit. For an enlarged screenshot, enter the actual native grid first; **Use source size** and **Use shown size** are shortcuts. Nearest sampling constructs that working grid; it cannot infer an unknown original grid or recover lost detail. Correction then operates exactly on that grid. Removing the only column or adding beyond 480px shows an error.
+
+**Center this image** creates a new temporary reference image, replaces the viewport overlay immediately, resets the crop to the corrected image and shows it above the artwork. Zero opacity becomes 30%; other opacity values remain. The mobile inspector closes so the canvas is visible. A reference that fits stays at 1×; oversized results are reduced with nearest pixels, disclosed in the dialog. Pixel placement stays on the native grid: odd/even parity mismatches are centered to the nearest whole pixel, with the half-pixel axis difference disclosed rather than blurring the image.
+
+**Restore original reference** restores the original image, crop, positioning, visibility, layer and opacity, even after repeated treatments. Cancel changes nothing. Corrections remain excluded from artwork, saves and exports; reload the original reference after a browser reload.
 
 ## Animation and files
 
@@ -74,4 +78,6 @@ Add blank frames, duplicate, rename, reorder, delete, adjust holds and play. Up 
 
 `node --test tests/sprite-editor.test.mjs` checks preset dimensions, bank provenance, drawing primitives, lossless data reconstruction and project validation; creates a GIF fixture for independent decoding. `tests/reference-pixels.test.mjs` verifies fitting, anchored resizing, fractional area sampling, transparency and crop boundaries. `tests/reference-editor-browser.mjs` checks large-image fitting, move/resize/crop, numeric and keyboard controls, desktop/mobile layouts and touch without painting. `tests/sprite-editor-browser.mjs` uses Playwright/Chromium with isolated synthetic storage to exercise editing, references, exports, save/reload, animation, all sizes, responsive layout and touch. Supply `CODEX_PRIMARY_RUNTIME_NODE_MODULES` and `CHROMIUM_EXECUTABLE` when using a bundled runtime. `CRITZ_EDITOR_URL` can point to a built local server.
 
-`tests/symmetry.test.mjs` checks exact column conversion, transparency, immutable sources, invalid input and even-centered placement. `tests/sprite-workspace-browser.mjs` verifies screen fit, dock resizing/collapse, layout persistence, reference-only symmetry correction and restore, screenshot grids, playback collapse and mobile drawers in isolated browser contexts.
+`tests/symmetry.test.mjs` checks all four side treatments on odd/even grids, transparency, immutable sources, invalid input and centered placement. `tests/sprite-workspace-browser.mjs` verifies screen fit, dock resizing/collapse, layout persistence, reference-only symmetry correction and restore, screenshot grids, playback collapse and mobile drawers in isolated browser contexts.
+
+`tests/symmetry-sides-browser.mjs` asserts actual viewport RGBA after all four treatments for odd/even inputs, repeated edits, exact restoration, hidden/zero-opacity overlays and mobile apply.

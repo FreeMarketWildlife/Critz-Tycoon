@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE4 — Side-of-center reference correction
+
+Implementation and focused checks complete; clean release/publication pending. Replace the old even-grid no-op with four explicit left/right add/remove treatments. Highlight the selected column, replace the viewport reference immediately on Center this image, and preserve exact original-reference restoration. Verify actual rendered pixels, odd/even inputs and hidden/mobile overlays. No game/art acceptance changes. See PROJECT_STATUS and the editor guide.
+
 ## M1.C4 revision 8 — Current native pixel-art review
 
 Deliverable/checks complete; visual acceptance awaits the user. Retain all four supplied designs and hairstyles in directly authored 32×64 pixel sprites, with intentional clusters and short color ramps. Present an unscaled 160×64 lineup with Brendan first; the user's latest native-size request overrides enlarged grids for this revision. [R8 packet](reviews/M1-C4/revision-8/README.md). R7 is alignment evidence only, and ART_BIBLE now distinguishes reference transfers from finished pixel art. Front idle only; no animation or accepted runtime artwork replacement.
