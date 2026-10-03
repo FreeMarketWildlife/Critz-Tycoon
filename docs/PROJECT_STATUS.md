@@ -2,15 +2,17 @@
 
 ## TOOLS.SE5 — Preserve visible column edits and add reference-only crop
 
-**Implementation and focused verification complete; clean release/publication pending.** User reported the centering button still appeared ineffective and then requested a crop tool, explicitly clarified as **reference image only**. Work on `main`, opening `b9291b50716b4dae31175ea8666bedb6ec9d13c3`. Unrelated game/art work is preserved and excluded.
+**Complete, tested, pushed and published.** User reported the centering button still appeared ineffective and then requested a crop tool, explicitly clarified as **reference image only**. Work on `main`, opening `b9291b50716b4dae31175ea8666bedb6ec9d13c3`. Unrelated game/art work is preserved and excluded.
 
 Reproduced a distinct missed failure: a 320×434 reference edited to 321×434 then refitted to 32px wide produced zero changed display channels on a repeated-column fixture. The earlier tests verified tiny native inputs, not a large source losing its edit during reduction. Reduced references now start with their displayed pixel dimensions and current sampling method. Column treatment is applied once; corrected pixels stay 1:1 with canvas pixels. Oversized results clip rather than silently refit, disclosed in the dialog. Original-reference restore remains exact. A visible applied-size receipt confirms the replacement. Live Sites metadata was read; no user editor tab was available for inspection and no user storage was accessed.
 
 New **Crop reference** dialog offers a large drag selection, exact source X/Y/Width/Height, Apply, Cancel and Full image. It retains the source image and only updates the reference crop, fitting that crop into the viewport. Sprite canvas, artwork, palette and all animation frames remain unchanged. Desktop/mobile previews were visually inspected.
 
-Focused checks: four symmetry unit tests and 22 isolated browser scenarios pass, including all four large-reference treatments, exact displayed RGBA, no post-edit resampling, explicit original-size clipping, cancel/apply/restore crop behavior, pointer source coordinates, crop-to-symmetry workflow and mobile layout. [Guide](../sprite-editor/README.md). Clean build regression results and publication receipt follow. No gameplay, art acceptance or review-gate changes.
+Clean committed release passed all 60 unit tests and 42 isolated browser scenarios with zero runtime errors, including all four large-reference treatments, exact displayed RGBA, no post-edit resampling, explicit original-size clipping, cancel/apply/restore crop behavior, pointer source coordinates, crop-to-symmetry workflow and mobile layout. All 575 tested build files match the publication archive exactly. [Release evidence](reviews/TOOLS-SE5/README.md) · [Guide](../sprite-editor/README.md). No gameplay, art acceptance or review-gate changes.
 
-**Exact next action:** verify the clean committed release, publish it to the existing owner-only Site, and record source/deployment evidence.
+Source **`58c6ede10542f3850a94d537ad99e10685e7d642`** committed/pushed on `main`, remote SHA verified. Deployment **`appgdep_6ac110efc6c8819193966b601bedeace`** succeeded at 2026-10-03 14:28 UTC for that exact source. Existing owner-only audience preserved. [Working editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/). Header revision is **05**. This documentation-only receipt is committed/pushed separately. All 19 opening modified files and five untracked game/art paths are preserved and excluded, with shared status/plan additions staged independently.
+
+**Exact next action:** refresh to editor 05, reload the reference, use Crop reference if needed, and apply a center treatment.
 
 ## TOOLS.SE4 — Four side-of-center treatments and immediate reference replacement
 

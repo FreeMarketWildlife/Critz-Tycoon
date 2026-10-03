@@ -1,0 +1,50 @@
+[
+  {
+    "name": "all four treatments immediately replace actual viewport pixels for 5px source and restore exact original",
+    "pass": true
+  },
+  {
+    "name": "all four treatments immediately replace actual viewport pixels for 6px source and restore exact original",
+    "pass": true
+  },
+  {
+    "name": "apply reveals hidden zero-opacity behind-layer reference; restore reinstates visibility settings",
+    "pass": true
+  },
+  {
+    "name": "repeated edits operate on replaced image and restore bypasses stale sampled cache",
+    "pass": true
+  },
+  {
+    "name": "mobile apply dismisses drawer and shows updated canvas immediately",
+    "pass": true
+  },
+  {
+    "name": "large downscaled reference edits the displayed grid once; every corrected column survives apply",
+    "pass": true
+  },
+  {
+    "name": "explicit source-size edit stays at 1:1 rather than silently shrinking away the treatment",
+    "pass": true
+  },
+  {
+    "name": "reference crop previews exact coordinates without changing artwork or reference until Apply",
+    "pass": true
+  },
+  {
+    "name": "reference crop guards invalid rectangles and restores full original image",
+    "pass": true
+  },
+  {
+    "name": "drag crop selects source pixels; symmetry uses the cropped viewport grid",
+    "pass": true
+  },
+  {
+    "name": "reference crop modal fits mobile and apply reveals canvas",
+    "pass": true
+  },
+  {
+    "name": "no runtime errors",
+    "pass": true
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "large reference auto-fits entire image; scale offers only 1x, 2x and Free",
+    "pass": true
+  },
+  {
+    "name": "average maps all covered pixels to native cells; nearest is selectable and fixed 1x/2x exact",
+    "pass": true
+  },
+  {
+    "name": "direct drag moves reference without painting, handles resize and unlocked edges stretch",
+    "pass": true
+  },
+  {
+    "name": "crop selection uses original source coordinates and automatically refits",
+    "pass": true
+  },
+  {
+    "name": "numeric dimensions lock proportions; keyboard resizing and Escape return to drawing",
+    "pass": true
+  },
+  {
+    "name": "reference remains excluded from clipboard/project/export and game save",
+    "pass": true
+  },
+  {
+    "name": "desktop and mobile controls have no horizontal page overflow",
+    "pass": true
+  },
+  {
+    "name": "touch transform moves without creating artwork",
+    "pass": true
+  },
+  {
+    "name": "Wildlife slots, transparent drawing and legacy project preservation",
+    "pass": true
+  },
+  {
+    "name": "zero runtime errors",
+    "pass": true
+  }
+]

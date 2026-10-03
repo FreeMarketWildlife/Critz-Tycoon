@@ -2,7 +2,7 @@
 
 ## TOOLS.SE5 — Visible column correction and reference crop
 
-Implementation and focused checks complete; clean release/publication pending. Prevent reference reduction from erasing center-column edits by editing the displayed grid and retaining 1:1 corrected pixels. Add reference-only drag/numeric cropping with Apply/Cancel and full-source restoration. Preserve artwork, animation, palette, saves and review gates. Verify large-reference viewport pixels, crop workflows and the clean release before publishing.
+Complete, tested, pushed and published. Prevents reference reduction from erasing center-column edits by editing the displayed grid and retaining 1:1 corrected pixels. Add reference-only drag/numeric cropping with Apply/Cancel and full-source restoration. Preserve artwork, animation, palette, saves and review gates. All 60 unit tests and 42 browser scenarios passed. [Release/deployment evidence](reviews/TOOLS-SE5/README.md).
 
 ## TOOLS.SE4 — Side-of-center reference correction
 
