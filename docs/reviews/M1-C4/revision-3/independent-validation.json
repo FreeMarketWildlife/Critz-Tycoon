@@ -1,0 +1,398 @@
+{
+  "status": "pass",
+  "frames": [
+    {
+      "frame": [
+        16,
+        32
+      ],
+      "cellsVerified": 512,
+      "opaqueColors": 11,
+      "oneConnectedFigure": true,
+      "symmetryMismatchPairs": 0,
+      "exactEyes": true,
+      "sha256": "a4a1abeb04d4903a0d6b69a6537367408d9d448baea632219c605926fdab2747"
+    },
+    {
+      "frame": [
+        32,
+        64
+      ],
+      "cellsVerified": 2048,
+      "opaqueColors": 15,
+      "oneConnectedFigure": true,
+      "symmetryMismatchPairs": 0,
+      "exactEyes": true,
+      "sha256": "18d1b0e880c5b139cfc81da86123ae0925df2f233a4affe68e5f38998038235a"
+    }
+  ],
+  "regions": [
+    {
+      "region": "full figure",
+      "referenceBBox": [
+        1,
+        10,
+        15,
+        31
+      ],
+      "target2xBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "actual2xBBox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "headwear / original hair envelope",
+      "referenceBBox": [
+        2,
+        10,
+        14,
+        18
+      ],
+      "target2xBBox": [
+        4,
+        20,
+        28,
+        36
+      ],
+      "actual2xBBox": [
+        4,
+        20,
+        28,
+        36
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "face and ear band, with borders",
+      "referenceBBox": [
+        1,
+        18,
+        15,
+        23
+      ],
+      "target2xBBox": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "actual2xBBox": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "head and face combined",
+      "referenceBBox": [
+        1,
+        10,
+        15,
+        23
+      ],
+      "target2xBBox": [
+        2,
+        20,
+        30,
+        46
+      ],
+      "actual2xBBox": [
+        2,
+        20,
+        30,
+        46
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "shoulder row",
+      "referenceBBox": [
+        2,
+        23,
+        14,
+        24
+      ],
+      "target2xBBox": [
+        4,
+        46,
+        28,
+        48
+      ],
+      "actual2xBBox": [
+        4,
+        46,
+        28,
+        48
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "central torso region",
+      "referenceBBox": [
+        5,
+        23,
+        11,
+        28
+      ],
+      "target2xBBox": [
+        10,
+        46,
+        22,
+        56
+      ],
+      "actual2xBBox": [
+        10,
+        46,
+        22,
+        56
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "left arm and hand region",
+      "referenceBBox": [
+        1,
+        23,
+        5,
+        27
+      ],
+      "target2xBBox": [
+        2,
+        46,
+        10,
+        54
+      ],
+      "actual2xBBox": [
+        2,
+        46,
+        10,
+        54
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "right arm and hand region",
+      "referenceBBox": [
+        11,
+        23,
+        15,
+        27
+      ],
+      "target2xBBox": [
+        22,
+        46,
+        30,
+        54
+      ],
+      "actual2xBBox": [
+        22,
+        46,
+        30,
+        54
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "left distal limb region",
+      "referenceBBox": [
+        1,
+        24,
+        5,
+        27
+      ],
+      "target2xBBox": [
+        2,
+        48,
+        10,
+        54
+      ],
+      "actual2xBBox": [
+        2,
+        48,
+        10,
+        54
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "right distal limb region",
+      "referenceBBox": [
+        11,
+        24,
+        15,
+        27
+      ],
+      "target2xBBox": [
+        22,
+        48,
+        30,
+        54
+      ],
+      "actual2xBBox": [
+        22,
+        48,
+        30,
+        54
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "shorts and feet band",
+      "referenceBBox": [
+        3,
+        28,
+        13,
+        31
+      ],
+      "target2xBBox": [
+        6,
+        56,
+        26,
+        62
+      ],
+      "actual2xBBox": [
+        6,
+        56,
+        26,
+        62
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "left leg and shoe region",
+      "referenceBBox": [
+        3,
+        28,
+        7,
+        31
+      ],
+      "target2xBBox": [
+        6,
+        56,
+        14,
+        62
+      ],
+      "actual2xBBox": [
+        6,
+        56,
+        14,
+        62
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "region": "right leg and shoe region",
+      "referenceBBox": [
+        9,
+        28,
+        13,
+        31
+      ],
+      "target2xBBox": [
+        18,
+        56,
+        26,
+        62
+      ],
+      "actual2xBBox": [
+        18,
+        56,
+        26,
+        62
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "mixedAlpha2x2Blocks": {
+    "r2": 0,
+    "r3": 34
+  },
+  "changedAlphaCells": 50,
+  "referenceBoundaryPaletteCounts": {
+    "5": 12,
+    "15": 25,
+    "4": 11,
+    "8": 2
+  },
+  "limitations": [
+    "Envelope and landmark fidelity is measured; per-row occupancy intentionally differs to refine contours.",
+    "Mixed-block count proves subdivision, not aesthetic quality. User art acceptance remains pending.",
+    "Only one pinned reference front-idle frame was analyzed; no universal Emerald art-process or lighting claim is made."
+  ]
+}

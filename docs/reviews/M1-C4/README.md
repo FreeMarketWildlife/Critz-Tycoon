@@ -1,6 +1,6 @@
 # M1.C4 — Countable idle pixels and chibi construction
 
-**Current review: [revision 2](revision-2/README.md).** It adds the required centerline, fixes anatomical/material symmetry, corrects eye positions and hair envelope from pinned-source measurements, and records the standing art-bible rules. Revision 1 below is retained as review history, not the current accepted standard.
+**Current review: [revision 3](revision-3/README.md).** It fixes the retained 2×2 block contours, adds selective outlining and form shading, and includes a clean before/after plus the measured 1×/2× grid. Earlier revisions remain review history; no finished art has been accepted.
 
 **Awaiting user art review.** The user requested a boy Hero idle comparison at 16×32 versus 32×64, then required a true one-native-pixel grid, numbered marks every ten pixels, and the compact construction of the supplied character reference. No animation or playable replacement is included.
 

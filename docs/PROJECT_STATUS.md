@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C4 revision 3 — Native contours, selective outlines and depth
+
+**Correction delivered for user review; final artwork acceptance pending.** User rejected R2's retained 2×2 block edges and flat rendering, requested diagnosis/correction, and explicitly requested recording future lessons in ART_BIBLE. [Clean before/after](reviews/M1-C4/revision-3/before-after.png) · [Required 1×/2× grid](reviews/M1-C4/revision-3/hero-grid.png) · [Diagnosis and evidence](reviews/M1-C4/revision-3/README.md).
+
+Cause confirmed in code: R2 doubled the source occupancy/part labels and prohibited painting into empty cells; its final silhouette had zero partially occupied 2×2 blocks. Exact doubled-row validation reinforced that constraint. R3 authors contours on the target grid, preserves the measured region envelopes/eye landmarks and mirrored anatomy, and uses selective material-colored edges and grouped shading. The unchanged 1× PNG remains beside the new 2× idle. ART_BIBLE, AGENTS and the reusable prompt now distinguish structural targets from editable contours and require a clean view for depth/outline review.
+
+Actual checks pass: 2,560 native/source/grid cell comparisons, 13 source-derived target region envelopes, eye rectangles, bilateral part masks, binary alpha, connected figures, palette limits, centerline and ten-row guides. The 1× PNG is byte-identical to R2; R3 changes 50 alpha cells and has 34 partially occupied 2×2 blocks. Both clean/grid proofs were visually inspected. These counts prove target-grid editing, not aesthetic approval. Source inspection found four exterior-boundary colors in selected Brendan frame 0; this is not a universal Emerald art-process claim. Hair/costume adaptations and hidden-anatomy limits remain explicit.
+
+Work on `main`, opening `94a8f18246a5777aed7de0a627f3858d4e443d66`. Existing unfinished M1.I3 changes remain preserved and excluded. Task review/documentation changes are committed/pushed with remote SHA verified in the handoff. **Playable build unchanged; no deployment required.** Existing phone game remains https://critz-tycoon.freemarketwildlife.chatgpt.site. No animation, back pose, save, collision or roster changes.
+
+**Exact next action:** user judges revision 3's contours, outline weight and depth; continue refining this idle before walking.
+
 ## M1.C4 revision 2 — Symmetric idle and permanent presentation rules
 
 **Implementation and checks complete; awaiting user art review.** User requested matching front-idle arm/hand shapes, a vertical symmetry line through the midpoint of X, numbered guides every ten Y pixels, the measured Emerald 2× contract, and permanent skull/body/eye/limb symmetry defaults for front/back idle. [Corrected 1×/2× Hero](reviews/M1-C4/revision-2/hero-grid.png) · [Part proof](reviews/M1-C4/revision-2/hero-symmetry.png) · [Measurements and deviations](reviews/M1-C4/revision-2/MEASUREMENTS.md).

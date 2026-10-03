@@ -1,0 +1,92 @@
+{
+  "frames": [
+    {
+      "frame": [
+        16,
+        32
+      ],
+      "symmetry": {
+        "hair": {
+          "left": 39,
+          "right": 39
+        },
+        "skull": {
+          "left": 28,
+          "right": 28
+        },
+        "eyes": {
+          "left": 2,
+          "right": 2
+        },
+        "arms": {
+          "left": 7,
+          "right": 7
+        },
+        "torso": {
+          "left": 17,
+          "right": 17
+        },
+        "hands": {
+          "left": 7,
+          "right": 7
+        },
+        "legsFeet": {
+          "left": 11,
+          "right": 11
+        },
+        "hips": {
+          "left": 2,
+          "right": 2
+        }
+      },
+      "mismatchPairs": 0
+    },
+    {
+      "frame": [
+        32,
+        64
+      ],
+      "symmetry": {
+        "hair": {
+          "left": 159,
+          "right": 159
+        },
+        "skull": {
+          "left": 106,
+          "right": 106
+        },
+        "eyes": {
+          "left": 8,
+          "right": 8
+        },
+        "arms": {
+          "left": 24,
+          "right": 24
+        },
+        "torso": {
+          "left": 67,
+          "right": 67
+        },
+        "hands": {
+          "left": 26,
+          "right": 26
+        },
+        "hips": {
+          "left": 20,
+          "right": 20
+        },
+        "legsFeet": {
+          "left": 29,
+          "right": 29
+        }
+      },
+      "mismatchPairs": 0
+    }
+  ],
+  "referenceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "approval": false,
+  "mixedAlphaBlocks": {
+    "before": 0,
+    "after": 34
+  }
+}

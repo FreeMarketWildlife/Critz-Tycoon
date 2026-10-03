@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 3 — Target-grid contour and depth correction
+
+Current delivered review: original 2× boy Hero idle with actual one-target-pixel contour refinement, selective colored outlines and clustered form shading, retaining measured envelopes, eye positions and mirrored anatomy. Preserve the 1× baseline, required centerline/ten-row grid and a clean before/after. [Revision 3](reviews/M1-C4/revision-3/README.md) records why exact doubled occupancy was an incorrect final-art constraint. The user must review the style before animation; no runtime migration or unrelated M1.I3 work is included.
+
 ## M1.C4 revision 2 — Measured, symmetric idle review
 
 Delivered for user review: original boy Hero front idle at Emerald 1× and 2×, measured from pinned Brendan frame 0 before drawing, with one-pixel cells, vertical centerline and numbered ten-row horizontal guides. [Revision 2](reviews/M1-C4/revision-2/README.md) fixes material/anatomy symmetry and eye placement. ART_BIBLE now requires default bilateral front/back idle anatomy and 2× grid presentation for new characters, preserving hair/color and explicit unusual-character exceptions. Keep both Hero budgets until the user accepts the style. No walking, back-frame authoring or runtime migration is included; existing M1.I3 work is preserved.
