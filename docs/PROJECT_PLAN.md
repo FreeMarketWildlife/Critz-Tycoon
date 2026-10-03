@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C4 revision 8 — Current native pixel-art review
+
+Deliverable/checks complete; visual acceptance awaits the user. Retain all four supplied designs and hairstyles in directly authored 32×64 pixel sprites, with intentional clusters and short color ramps. Present an unscaled 160×64 lineup with Brendan first; the user's latest native-size request overrides enlarged grids for this revision. [R8 packet](reviews/M1-C4/revision-8/README.md). R7 is alignment evidence only, and ART_BIBLE now distinguishes reference transfers from finished pixel art. Front idle only; no animation or accepted runtime artwork replacement.
+
 ## TOOLS.SE3 — Canvas-first workspace and symmetry correction
 
 Implementation and source checks complete; clean release and publication in progress. Provide window-bounded layout, draggable dock widths/animation height, collapsible sections and animation, Focus/reset, and separate layout persistence. Add a reversible reference-only odd→even workshop with exact center-column duplication/removal, native-grid input, before/after previews and even-center placement. Preserve artwork, exports, saves, palette, animation behavior and art-review gates. [Guide](../sprite-editor/README.md). Record tested release/deployment evidence in PROJECT_STATUS before completion.

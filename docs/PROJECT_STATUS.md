@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C4 revision 8 — Authored native pixels, unscaled five-character lineup
+
+**Native redraw/checks complete; artwork awaiting user review.** User accepted R7 as close reference alignment but rejected it as finished pixel art, requesting real pixel clusters retaining the four hairstyles/outfits and an unscaled lineup with Brendan. [R8 packet and native comparison](reviews/M1-C4/revision-8/README.md). Four original 32×64 sprites are authored from integer pixel marks, with no screenshot input, sampling, quantization or resizing. The 160×64 comparison shows Brendan first at actual 1×. This latest request overrides the enlarged grid for R8.
+
+Painted sizes remain 24×38 / 24×39 / 24×38 / 24×37, eyes are mirrored 2×4 boxes and feet end at native row 61. Intentional material clusters replace R7's sampled color noise, using 16/16/16/15 opaque colors. ART_BIBLE removes the transfer-as-finished-art direction, distinguishes guides from authored pixels and records the native-size override. AGENTS already points there; no duplicated art specification was added.
+
+Checks pass for 8,192 native source/export cells and all 10,240 comparison cells, exact source palettes, binary alpha, connected silhouettes, anatomical-mask symmetry, eye/foot landmarks and unchanged Brendan reconstruction. Native and private enlarged inspection completed. Layer masks are original construction, including hidden regions, not recovered reference bones. Color/design quality remains subject to user review. No animation or new ROM/emulator evidence is claimed.
+
+Work directly on `main`, opening `f857aae22fb6e5225c1c8ed918e6e4b8fb0afb5a`. Delivery commit/push verification follows. Existing unfinished game/art edits and concurrent editor work remain preserved and excluded. **Playable build unchanged by this task; no deployment required.** No runtime, save or collision changes. Phone game remains https://critz-tycoon.freemarketwildlife.chatgpt.site.
+
+**Exact next action:** review the native five-character lineup; refine the still before animation. R7 remains alignment evidence, not accepted final pixel art.
+
 ## TOOLS.SE3 — Resizable workspace and odd-width reference workshop
 
 **Implementation and source checks complete; clean release verification and publication in progress.** User requested a normal-screen layout with a large viewport, draggable panel sizes, collapsible animation/other sections, and an odd-width reference correction tool. Work on `main`, opening `7c238a925ee942fe7f53c1f7e8dd0d54cb4307d0`; concurrent committed M1.C4 R7 review work is preserved. Unfinished game/art changes remain excluded.

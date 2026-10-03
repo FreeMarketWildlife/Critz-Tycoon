@@ -1,0 +1,61 @@
+{
+  "visualApproval": false,
+  "nativeCellsChecked": 8192,
+  "stripCellsChecked": 10240,
+  "displayScale": 1,
+  "figures": [
+    {
+      "slug": "a-afro",
+      "bbox": [
+        4,
+        24,
+        28,
+        62
+      ],
+      "opaqueColors": 16,
+      "connected": true,
+      "anatomyMasksSymmetric": true,
+      "sha256": "a29d2126912adb5ae94f362a51e505f7c2cdd079b5fcc0df352ad4dc9e0c4aeb"
+    },
+    {
+      "slug": "b-flat-top",
+      "bbox": [
+        4,
+        23,
+        28,
+        62
+      ],
+      "opaqueColors": 16,
+      "connected": true,
+      "anatomyMasksSymmetric": true,
+      "sha256": "fcc84997a1f6de01bcbaa6a5bb4d00974cc9af5f0696e96f79909fd7b9ddaad1"
+    },
+    {
+      "slug": "c-twists",
+      "bbox": [
+        4,
+        24,
+        28,
+        62
+      ],
+      "opaqueColors": 16,
+      "connected": true,
+      "anatomyMasksSymmetric": true,
+      "sha256": "ed1653b2d67a49f410fb9c7d7650054c8e989c83f3b92b033626bf64a7520991"
+    },
+    {
+      "slug": "d-cornrows",
+      "bbox": [
+        4,
+        25,
+        28,
+        62
+      ],
+      "opaqueColors": 15,
+      "connected": true,
+      "anatomyMasksSymmetric": true,
+      "sha256": "26801eabc249118c20632a09eea86650166655d76bf4c6c693b957591cc11cee"
+    }
+  ],
+  "brendanPixelsUnchanged": true
+}

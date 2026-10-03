@@ -1,6 +1,6 @@
 # M1.C4 — Countable idle pixels and chibi construction
 
-**Current review: [revision 7](revision-7/README.md).** Five full grids place Brendan first and the four designs traced from the user's actual supplied references beside him. Uniform whole-figure registration preserves head/body proportions; the shorter-head directive from rejected R6 is revoked. Grids count upward from zero. Earlier revisions are history; final artwork approval remains pending.
+**Current review: [revision 8](revision-8/README.md).** Four directly authored 32×64 pixel sprites retain the supplied designs and hairstyles, presented at native 1× size beside Brendan. R7 was useful reference alignment but was rejected as finished pixel art. Prior revisions remain history; visual acceptance is pending.
 
 **Awaiting user art review.** The user requested a boy Hero idle comparison at 16×32 versus 32×64, then required a true one-native-pixel grid, numbered marks every ten pixels, and the compact construction of the supplied character reference. No animation or playable replacement is included.
 
