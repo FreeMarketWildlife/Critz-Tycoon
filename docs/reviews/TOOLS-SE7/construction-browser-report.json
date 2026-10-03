@@ -1,0 +1,46 @@
+[
+  {
+    "name": "exact starter is undoable and preserves all 2048 supplied cells",
+    "pass": true
+  },
+  {
+    "name": "anatomy guide shows above artwork, Clean hides it, neither changes exported pixels",
+    "pass": true
+  },
+  {
+    "name": "part clipping and outline protection apply to pencil, eraser, line, rectangle and fill",
+    "pass": true
+  },
+  {
+    "name": "outline and alpha locks work independently; mirrored writes obey the region mask",
+    "pass": true
+  },
+  {
+    "name": "shading uses one exact ramp step per stroke, supports lighten and undo",
+    "pass": true
+  },
+  {
+    "name": "replace across animation frames changes only selected part and one undo restores both",
+    "pass": true
+  },
+  {
+    "name": "paste exact RLE is lossless and bad input preserves the workspace",
+    "pass": true
+  },
+  {
+    "name": "anatomy map and pointer labels describe construction; desktop stays bounded",
+    "pass": true
+  },
+  {
+    "name": "construction masks disable on another canvas size without blocking drawing",
+    "pass": true
+  },
+  {
+    "name": "small screens retain bounded canvas and accessible skeleton controls",
+    "pass": true
+  },
+  {
+    "name": "zero runtime errors",
+    "pass": true
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ordinary wheel zoom holds every canvas quadrant under the cursor across fit and overflowing sizes",
+    "pass": true
+  },
+  {
+    "name": "zoom buttons and native size preserve center of panned viewport",
+    "pass": true
+  },
+  {
+    "name": "keyboard zoom uses hovered point and control-wheel does not zoom the page",
+    "pass": true
+  },
+  {
+    "name": "Space-drag and pan tool move view without painting; Fit recenters",
+    "pass": true
+  },
+  {
+    "name": "drawing hits exact native pixel after cursor zoom and pan",
+    "pass": true
+  },
+  {
+    "name": "small-screen zoom stays anchored and never expands the page",
+    "pass": true
+  },
+  {
+    "name": "zero runtime errors",
+    "pass": true
+  }
+]

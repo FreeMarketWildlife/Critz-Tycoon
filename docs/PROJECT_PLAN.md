@@ -2,7 +2,7 @@
 
 ## TOOLS.SE7 — Construction-aware Sprite Editor
 
-Implemented, release verification in progress. Preserve the exact user skeleton as a reusable template and guide; teach anatomy/shading/outline semantics through the Art Bible and editor. Add fixed region painting, outline/alpha locks, palette ramp shading, scoped recolor, clean view, symmetry diagnostics and exact-RLE paste/open. Preserve all prior authoring, reference, zoom and animation workflows. This task improves the authoring tool without approving or replacing gameplay artwork. [Release evidence](reviews/TOOLS-SE7/README.md).
+Complete, tested, pushed and published. Exact user skeleton and anatomy/shading map, fixed region masks, outline/alpha locks, palette-ramp Shade/Lighten, scoped recolor, clean view, symmetry diagnostics and lossless RLE paste/open are available in revision 07. All 67 unit tests and 60 browser scenarios passed. This authoring-tool update preserves prior reference/zoom/animation workflows and does not approve or replace gameplay artwork. [Release evidence](reviews/TOOLS-SE7/README.md).
 
 ## M1.C4 revision 9 — Current user-template idle review
 

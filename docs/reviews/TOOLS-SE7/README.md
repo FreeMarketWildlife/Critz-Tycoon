@@ -1,6 +1,6 @@
 # TOOLS.SE7 — Character construction studio
 
-Release verification in progress; editor revision **07**. This tool update treats the supplied pixel data as the user's basic character construction model. [Exact input](user-skeleton.pixels.json), [measurements](measurements.json), [editor guide](../../../sprite-editor/README.md), [Art Bible](../../ART_BIBLE.md).
+Published editor revision **07** from source `e0baaed081305e0f53947ab3b1f862ea0da400a7`, pushed to origin/main with exact remote SHA verified. [Deployment receipt](deployment.json) reports succeeded; existing owner-only audience preserved. [Open the editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/). This tool update treats the supplied pixel data as the user's basic character construction model. [Exact input](user-skeleton.pixels.json), [measurements](measurements.json), [editor guide](../../../sprite-editor/README.md), [Art Bible](../../ART_BIBLE.md).
 
 ## Interpretation
 
@@ -21,4 +21,8 @@ All 2048 cells and palette entries are preserved. 720 are opaque, using ten colo
 
 No new finished sprite or animation is authored or accepted. Construction masks use this fixed front-idle 32×64 template; they do not track arbitrary shifted poses or infer anatomy from colors in imported art. Nonmatching canvas dimensions disable template masks. All drawing colors remain in existing palette banks; no off-palette blending enters artwork. Existing save keys remain unchanged. Testing uses isolated contexts and synthetic state.
 
-The editor retains freely placed references, reference-only cropping, four center-column treatments, cursor-anchored zoom, collapsible/resizable docks, animation and exact exports. Screenshots and final test/deployment results will be recorded after testing the clean release.
+The editor retains freely placed references, reference-only cropping, four center-column treatments, cursor-anchored zoom, collapsible/resizable docks, animation and exact exports. All **67 unit tests and 60 isolated Chromium browser scenarios passed**, with zero runtime errors. The eleven new construction scenarios verify the exact starter/undo, guide/export separation, each paint tool under masks, outline/alpha/mirror guards, per-stroke ramp steps, all-frame recolor undo, valid/invalid RLE paste, anatomy map/labels, alternate canvas sizes and mobile layouts. The other 49 scenarios cover existing editor, reference, crop/centering, workspace and zoom behavior. [Unit results](unit-tests.txt), [construction](construction-browser-report.json), [editor](browser-report.json), [reference](reference-browser-report.json), [workspace](workspace-browser-report.json), [crop/centering](symmetry-sides-report.json), [zoom](zoom-browser-report.json).
+
+Visually inspected [anatomy map](anatomy-map.png), [desktop](construction-desktop.png) and [phone](construction-390.png). All **627 tested build files** match the uploaded archive by SHA-256; the only helper-added file is an identical hosting manifest. [Tested hashes](tested-build-sha256.json). The clean release includes the already-committed R9 review work that arrived during development; unrelated unfinished M1.I3 changes were excluded and preserved. No new gameplay artwork or saves were modified by this task.
+
+Next action: refresh to revision 07 and click **Skeleton → Start from skeleton** or **Use as guide**. Select a region and optional paint limits, then use **Shade (D) / Lighten (U)** or scoped color replacement. The user retains final artwork approval.
