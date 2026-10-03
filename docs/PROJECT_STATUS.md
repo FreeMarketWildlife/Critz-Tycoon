@@ -1,5 +1,17 @@
 # Project status
 
+## M1.C4 revision 5 — Exact supplied-reference comparison
+
+**Comparison delivered; Hero artwork still awaiting review.** User requested their supplied Brendan version pixel for pixel beside the four existing R4 Heroes. [Recovery, comparison paths and diagnosis](reviews/M1-C4/revision-5/README.md). The five-wide grids share 12× cell scale, x=16 centerlines, numbered ten-row guides and foot row 61. A detail plate omits empty rows 0–19 equally; a full 32×64 plate retains them. No Hero pixels were changed.
+
+Recovered the screenshot’s 16-screen-pixel cell pitch and 13 flat colors; all 11,340 center-region samples pass uniformity checks. Reference bounds are 26×42, compared with A/C 28×42 and B/D 26×42. All 8,192 original Hero cells and 17,280 displayed grid cells verify exactly. Screenshot interpolation is not reproduced; this supplied refined Brendan image is not claimed as an unmodified ROM source. Both plates visually inspected. ART_BIBLE records excessive exposed forehead, unmatched upper-head mass and weak body separation as the comparison’s lessons.
+
+Reference-colored images/JSON are saved outside the repository under `/Users/tanoshi/.codex/visualizations/2026/10/03/hero-brendan-comparison/`; the build copies project docs, so committing those images would incorrectly ship reference artwork. Only the reproduction script, validation metadata and documentation are project changes. **Playable build unchanged; no deployment required.** No gameplay, animation, saves or accepted art changed. Existing unrelated work remains excluded.
+
+Branch `main`, opening SHA `b173403387e7757fe602c54cd360c72cfb97cb5b`. Task documentation/reproduction files are ready for commit, push and remote verification. Concurrent editor work is preserved; repository state is checked again at handoff.
+
+**Exact next action:** user examines the aligned comparison; any subsequent Hero correction must address face/overlap landmarks rather than only symmetry and bounding dimensions.
+
 ## TOOLS.SE1 — Free Market Wildlife Sprite Editor
 
 **Complete, tested, committed, pushed and published.** User explicitly requested a simple true-pixel authoring program with Emerald 2× canvas presets, existing Critz palettes, zoom, reference overlays, exact ChatGPT copy and animations. Deliverable: standalone `/sprite-editor/`, linked from the game footer and README, with no imported game/save modules. Work is on `main`, opening SHA `7d475fac7910520b8b4c32ade46cc49fd7a6be75`. Existing unfinished M1.I3 changes are preserved and excluded.

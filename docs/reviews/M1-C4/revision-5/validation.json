@@ -1,0 +1,69 @@
+{
+  "source": {
+    "pitch": 16,
+    "frameOriginInScreenshot": [
+      -18,
+      -311
+    ],
+    "sampling": "3\u00d73 center block, all nine values identical",
+    "sampleChecks": 11340,
+    "limitation": "Exact recovered flat-cell pattern/colors; screenshot edge blur is not reproduced. This supplied refined version is not asserted to be an unmodified Emerald ROM sprite."
+  },
+  "sourceSHA256": "e1ca0c743d27b40ac411ff32a9094e3b4abb3f0c9e889d7c3cade2042992c8f9",
+  "referenceColors": 13,
+  "heroesUnchanged": true,
+  "nativeCellsVerified": 8192,
+  "gridCellsVerified": 17280,
+  "figures": [
+    {
+      "id": "brendan-reference",
+      "bbox": [
+        3,
+        20,
+        29,
+        62
+      ],
+      "sha256RGBA": "68bccc3eafa4495fd87c0f787dcc50a368ac47b1e2094f306d490370c47529ce"
+    },
+    {
+      "id": "a-afro",
+      "bbox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "sha256RGBA": "6c3a31c4eaef53b22853ba93e766f29cabeb06046a75d28d6ecde8b7d8818d9f"
+    },
+    {
+      "id": "b-flat-top",
+      "bbox": [
+        3,
+        20,
+        29,
+        62
+      ],
+      "sha256RGBA": "eed40aa0c76748f27d408412b1f855972a5571a1e76a9de6e76541a383190750"
+    },
+    {
+      "id": "c-twists",
+      "bbox": [
+        2,
+        20,
+        30,
+        62
+      ],
+      "sha256RGBA": "ec36ef56de183974462fe73c24f1149f1a14059912777337e3a834bd00ad8764"
+    },
+    {
+      "id": "d-cornrows",
+      "bbox": [
+        3,
+        20,
+        29,
+        62
+      ],
+      "sha256RGBA": "d81dd8389f233408c4ec954d1783039f01fa7fe2f3719c74b1b8ddb14e5c0b4e"
+    }
+  ]
+}

@@ -57,6 +57,12 @@ The user rejected the previous Hero as elf-like and supplied four human-boy conc
 
 When the user explicitly requests multiple 2× candidates, that request determines the current comparison layout: revision 4 presents four 2× idles, without an added 1× panel. **Lead the delivery with the requested gridded artwork**, not a clean-only sheet with the grid hidden behind a link. Every candidate still requires one native pixel per cell, the x=16 symmetry line and numbered ten-row Y guides. A clean view can supplement that presentation. Technical symmetry/bounds checks never substitute for whether the character visibly matches the user’s reference.
 
+### Aligned-reference diagnosis — revision 5
+
+The user requested their refined Brendan screenshot beside all four unchanged R4 Heroes. The comparison reveals that equal frame/painted height and mirrored anatomy do not ensure the same proportions or character read. In the supplied reference, the continuous central exposed face begins at row 36; A/B/D begin around rows 30–31 while retaining eyes at rows 38–41. The extra forehead changes the face. C’s locks partly cover the same tall underlying scaffold. A pointed hat peak and a broad afro/flat-top cannot be equated solely by their topmost pixel; compare occupied row widths and distinguish hat, hair, exposed face and hidden skull.
+
+Before the next correction, compare the exposed hairline-to-eye and eye-to-chin distances, face width profile, neck overlap, shoulder/arm attachment, torso width profile and dark separation between body parts. The prior broad shirt rectangles and weak arm/torso separation flatten the image. Preserve the reference’s structural readability without changing Hero’s identity/skin tone. This is a diagnosis of the supplied comparison, not new ROM-source measurement or approval of a revised anatomy standard. Keep all reference-colored review images outside the shipped build; screenshot interpolation is not additional native colors.
+
 ### What the extra pixels are for
 
 Each reference pixel occupies a 2×2 area in the structural comparison. Start comparison guides with exact nearest-neighbor doubling. Final original assets may subdivide those blocks into finer **1px target-grid** clusters for cleaner linework, texture, expressive faces and material detail while retaining the measured envelopes and landmarks. Literal upscaling alone adds no detail; a freely redesigned 32×64 figure also does not satisfy this contract.
