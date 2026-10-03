@@ -2,7 +2,7 @@
 
 ## TOOLS.SE2 — Free reference transform and user palette
 
-Current authorized editor update: 1× / 2× / Free reference scaling, automatic fit, direct move/resize/stretch, source cropping, alpha-aware area averaging plus nearest sampling, and the user's exact 32-slot Wildlife palette. Preserve old project colors and game saves. This tooling task does not create or approve game artwork. [Editor guide](../sprite-editor/README.md). Complete clean-build checks and publication before delivery.
+Completed and published editor update: 1× / 2× / Free reference scaling, automatic fit, direct move/resize/stretch, source cropping, alpha-aware area averaging plus nearest sampling, and the user's exact 32-slot Wildlife palette. Preserve old project colors and game saves. This tooling task does not create or approve game artwork. [Editor guide](../sprite-editor/README.md). Clean release passed 56 unit tests and 20 browser scenarios; deployment succeeded. See PROJECT_STATUS for receipt and limitations.
 
 ## TOOLS.SE1 — User-requested sprite authoring tool
 
