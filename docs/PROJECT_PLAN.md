@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## TOOLS.SE2 — Free reference transform and user palette
+
+Current authorized editor update: 1× / 2× / Free reference scaling, automatic fit, direct move/resize/stretch, source cropping, alpha-aware area averaging plus nearest sampling, and the user's exact 32-slot Wildlife palette. Preserve old project colors and game saves. This tooling task does not create or approve game artwork. [Editor guide](../sprite-editor/README.md). Complete clean-build checks and publication before delivery.
+
 ## TOOLS.SE1 — User-requested sprite authoring tool
 
 Completed and published tool deliverable: **Free Market Wildlife Sprite Editor**, a standalone `/sprite-editor/` tool with the user's Emerald 2× canvas budgets, existing original Critz palette banks, pixel drawing/zoom, local reference overlays, exact pixel copy, project persistence and animation exports. [Editor guide](../sprite-editor/README.md). No new artwork, roster expansion, renderer migration or milestone acceptance is implied. Existing unfinished M1.I3 changes stay excluded. The new tool is usable before final art approval; it must label palette/proportion limits honestly and preserve game saves. After editor release, M1.C4 revision-3 visual review remains pending.

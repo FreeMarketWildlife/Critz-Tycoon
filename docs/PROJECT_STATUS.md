@@ -1,5 +1,19 @@
 # Project status
 
+## TOOLS.SE2 — Free reference transform and Wildlife palette
+
+**Implementation and focused checks complete; clean release verification/publication in progress.** User requested 1×, 2× and Free reference scales with automatic fitting, direct movement/stretching/cropping and averaged pixel sampling, then supplied an exact 32-slot Wildlife palette. Work is directly on `main`, opening `548a42abcb37bdabc49d244410fb5bbc7e031011`. Existing unfinished game edits and concurrent art-direction documentation are preserved and excluded.
+
+Free fits and centers the selected source crop inside the native canvas. Large reference images automatically use Free; small native images retain 2×. Move / resize offers eight pointer/touch/keyboard handles, integer offsets and dimensions, proportional resizing with optional independent stretching, Fit inside canvas and Done positioning/Escape. Source thumbnail cropping uses original coordinates and automatically refits in Free. The thumbnail is bounded so controls remain reachable. Average covered pixels integrates source area with alpha-weighted RGB; Nearest pixel is also available. Resizing shows a responsive nearest preview and settles to selected sampling on release. Reference pixels never enter artwork, palette, saves, exports or copied sprite data. No original anatomy is inferred by automatic fitting.
+
+The exact user palette is now the default: transparent slot 00 plus 31 opaque colors, with supplied names, hex values and slot order. All 31 colors are usable together. Transparent is a brush swatch. Legacy banks are hidden compatibility data; prior projects open/restore without recoloring, and the picker can still select old artwork colors. ART_BIBLE records the new palette and supersedes the editor's previous proposed 15-color budget. This is palette configuration, not artwork approval or a game-art recolor. [Editor guide](../sprite-editor/README.md).
+
+Checks so far: 11 focused model tests pass, including fractional area weighting, alpha isolation, crop edges, geometry anchors/limits, exact supplied palette slots and legacy project preservation. Ten original editor browser scenarios pass. New browser coverage verifies large-image auto-fit, fixed scales and both sampling methods, direct movement/locked/unlocked resizing, source-coordinate crop/refit, numeric and keyboard controls, export exclusion, responsive layouts and touch. One initial keyboard test raced handle rendering; waiting for the rendered interaction state resolved it. Desktop/mobile screenshots inspected. Final clean-build results and deployment receipt follow before handoff.
+
+Limitations: references remain session-memory-only; source limit is 16 million pixels / 20 MB, Free output maximum 2048px per axis. Area averages operate in source sRGB, not a learned sprite-reconstruction algorithm; downsampling can lose details. Fitting a canvas does not validate anatomical proportions. No physical phone/Safari test or artwork approval is claimed.
+
+**Exact next action:** validate and publish the exact clean committed release through the existing owner-only Site, record remote SHA/deployment evidence, then have the user refresh the editor and reload their reference.
+
 ## M1.C4 revision 5 — Exact supplied-reference comparison
 
 **Comparison delivered; Hero artwork still awaiting review.** User requested their supplied Brendan version pixel for pixel beside the four existing R4 Heroes. [Recovery, comparison paths and diagnosis](reviews/M1-C4/revision-5/README.md). The five-wide grids share 12× cell scale, x=16 centerlines, numbered ten-row guides and foot row 61. A detail plate omits empty rows 0–19 equally; a full 32×64 plate retains them. No Hero pixels were changed.

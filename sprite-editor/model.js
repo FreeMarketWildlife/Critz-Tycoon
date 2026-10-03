@@ -17,7 +17,7 @@ export const PRESETS = [
 export function makeProject(palette, preset='character', width, height) {
   const p=PRESETS.find(p=>p[0]===preset)||PRESETS[0];
   width??=p[2];height??=p[3];
-  return {format:'fmw-sprite',version:1,name:'Untitled sprite',preset:p[0],width,height,palette:[null,...palette],bank:'hero',notes:'',frames:[{name:'Idle',ticks:8,pixels:Array(width*height).fill(0)}]};
+  return {format:'fmw-sprite',version:1,name:'Untitled sprite',preset:p[0],width,height,palette:[null,...palette],bank:'wildlife',notes:'',frames:[{name:'Idle',ticks:8,pixels:Array(width*height).fill(0)}]};
 }
 export function validateProject(p,allowed) {
   if(!p||p.format!=='fmw-sprite'||p.version!==1)throw Error('This is not a Free Market Wildlife sprite project.');
@@ -27,7 +27,7 @@ export function validateProject(p,allowed) {
   if(!PRESETS.some(a=>a[0]===p.preset))throw Error('Unknown canvas preset.');
   for(const f of p.frames)if(!f||!Number.isInteger(f.ticks)||f.ticks<1||f.ticks>600||!Array.isArray(f.pixels)||f.pixels.length!==p.width*p.height||f.pixels.some(v=>!Number.isInteger(v)||v<0||v>=p.palette.length))throw Error('Invalid frame pixels or timing.');
   if(typeof p.name!=='string'||p.name.length>100||typeof p.notes!=='string'||p.notes.length>10000||p.frames.some(f=>typeof f.name!=='string'||f.name.length>80))throw Error('Invalid project text.');
-  if(isCharacter(p)&&usedColors(p).size>15)throw Error('Character projects allow 15 opaque colors plus transparency.');
+  if(isCharacter(p)&&usedColors(p).size>31)throw Error('Character projects allow 31 opaque colors plus transparency.');
   return p;
 }
 export const isCharacter=p=>PRESETS.find(a=>a[0]===p.preset)?.[4];

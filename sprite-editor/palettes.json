@@ -1,7 +1,240 @@
 {
   "artBible": "docs/ART_BIBLE.md",
-  "policy": "Existing original Critz banks; no approved global 32-color palette. Character projects use at most 15 opaque colors plus transparency.",
+  "policy": "User-selected 32-slot Wildlife palette: transparent slot 00 and 31 opaque colors, all usable per sprite. Prior banks are read-only compatibility data for existing projects; no automatic recoloring.",
   "banks": [
+    {
+      "id": "wildlife",
+      "label": "Wildlife \u00b7 32 slots",
+      "colors": [
+        "#e84038",
+        "#fc7858",
+        "#fcd080",
+        "#289870",
+        "#48d098",
+        "#a0f8d0",
+        "#f85888",
+        "#082048",
+        "#184080",
+        "#3878b8",
+        "#68b0e0",
+        "#98e0f8",
+        "#f8f8f8",
+        "#201008",
+        "#482810",
+        "#784820",
+        "#a87038",
+        "#d0a068",
+        "#f8d8b0",
+        "#083018",
+        "#185828",
+        "#388840",
+        "#68b858",
+        "#a0e068",
+        "#d8f880",
+        "#282830",
+        "#484850",
+        "#707078",
+        "#9898a0",
+        "#c0c0c8",
+        "#e0e0e8"
+      ],
+      "slots": [
+        {
+          "slot": 0,
+          "hex": "#00000000",
+          "name": "Transparent",
+          "group": "Transparency"
+        },
+        {
+          "slot": 1,
+          "hex": "#E84038",
+          "name": "Saturated Ruby Red",
+          "group": "Tropical vibrant creatures"
+        },
+        {
+          "slot": 2,
+          "hex": "#FC7858",
+          "name": "Coral Salmon",
+          "group": "Tropical vibrant creatures"
+        },
+        {
+          "slot": 3,
+          "hex": "#FCD080",
+          "name": "Warm Belly Yellow",
+          "group": "Tropical vibrant creatures"
+        },
+        {
+          "slot": 4,
+          "hex": "#289870",
+          "name": "Tropical Teal Green",
+          "group": "Tropical vibrant creatures"
+        },
+        {
+          "slot": 5,
+          "hex": "#48D098",
+          "name": "Saturated Mint",
+          "group": "Tropical vibrant creatures"
+        },
+        {
+          "slot": 6,
+          "hex": "#A0F8D0",
+          "name": "Seafoam Cream",
+          "group": "Tropical vibrant creatures"
+        },
+        {
+          "slot": 7,
+          "hex": "#F85888",
+          "name": "Bioluminescent Pink",
+          "group": "Tropical vibrant creatures"
+        },
+        {
+          "slot": 8,
+          "hex": "#082048",
+          "name": "Midnight Trench Blue",
+          "group": "Reef & deep water"
+        },
+        {
+          "slot": 9,
+          "hex": "#184080",
+          "name": "Sunken Sapphire",
+          "group": "Reef & deep water"
+        },
+        {
+          "slot": 10,
+          "hex": "#3878B8",
+          "name": "Classic Surf Aqua",
+          "group": "Reef & deep water"
+        },
+        {
+          "slot": 11,
+          "hex": "#68B0E0",
+          "name": "Shallow Lagoon Teal",
+          "group": "Reef & deep water"
+        },
+        {
+          "slot": 12,
+          "hex": "#98E0F8",
+          "name": "Crisp Glass Ice",
+          "group": "Reef & deep water"
+        },
+        {
+          "slot": 13,
+          "hex": "#F8F8F8",
+          "name": "Pure Bubble White",
+          "group": "Reef & deep water"
+        },
+        {
+          "slot": 14,
+          "hex": "#201008",
+          "name": "Damp Humus Black",
+          "group": "Substrate, wood & roots"
+        },
+        {
+          "slot": 15,
+          "hex": "#482810",
+          "name": "Bogwood Brown",
+          "group": "Substrate, wood & roots"
+        },
+        {
+          "slot": 16,
+          "hex": "#784820",
+          "name": "Mangrove Bark",
+          "group": "Substrate, wood & roots"
+        },
+        {
+          "slot": 17,
+          "hex": "#A87038",
+          "name": "Golden Tan Oak",
+          "group": "Substrate, wood & roots"
+        },
+        {
+          "slot": 18,
+          "hex": "#D0A068",
+          "name": "Desert Clay/Sand",
+          "group": "Substrate, wood & roots"
+        },
+        {
+          "slot": 19,
+          "hex": "#F8D8B0",
+          "name": "Soft Silicate Sand",
+          "group": "Substrate, wood & roots"
+        },
+        {
+          "slot": 20,
+          "hex": "#083018",
+          "name": "Overgrown Shadow Green",
+          "group": "Forestry & rainforest canopy"
+        },
+        {
+          "slot": 21,
+          "hex": "#185828",
+          "name": "Monstera Leaf Base",
+          "group": "Forestry & rainforest canopy"
+        },
+        {
+          "slot": 22,
+          "hex": "#388840",
+          "name": "Vibrant Emerald",
+          "group": "Forestry & rainforest canopy"
+        },
+        {
+          "slot": 23,
+          "hex": "#68B858",
+          "name": "Chartreuse Sprout",
+          "group": "Forestry & rainforest canopy"
+        },
+        {
+          "slot": 24,
+          "hex": "#A0E068",
+          "name": "Vivid Lime",
+          "group": "Forestry & rainforest canopy"
+        },
+        {
+          "slot": 25,
+          "hex": "#D8F880",
+          "name": "Acidic Shoot Yellow",
+          "group": "Forestry & rainforest canopy"
+        },
+        {
+          "slot": 26,
+          "hex": "#282830",
+          "name": "Obsidian Iron",
+          "group": "Hardscape & hardware"
+        },
+        {
+          "slot": 27,
+          "hex": "#484850",
+          "name": "Weathered Basalt",
+          "group": "Hardscape & hardware"
+        },
+        {
+          "slot": 28,
+          "hex": "#707078",
+          "name": "River Slate",
+          "group": "Hardscape & hardware"
+        },
+        {
+          "slot": 29,
+          "hex": "#9898A0",
+          "name": "Pumice Ash",
+          "group": "Hardscape & hardware"
+        },
+        {
+          "slot": 30,
+          "hex": "#C0C0C8",
+          "name": "Polished Chrome Filter",
+          "group": "Hardscape & hardware"
+        },
+        {
+          "slot": 31,
+          "hex": "#E0E0E8",
+          "name": "Anodized Aluminum",
+          "group": "Hardscape & hardware"
+        }
+      ],
+      "source": "User-supplied palette, 2026-10-03; docs/ART_BIBLE.md",
+      "status": "user-selected palette specification; artwork approval remains separate"
+    },
     {
       "id": "hero",
       "label": "Hero \u00b7 current 2\u00d7 review",
@@ -23,7 +256,8 @@
         "#b9b69b"
       ],
       "source": "docs/reviews/M1-C4/revision-3/hero-32x64.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "mom",
@@ -46,7 +280,8 @@
         "#11131d"
       ],
       "source": "art/source/budget-comparison/mom.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "kaid",
@@ -67,7 +302,8 @@
         "#c5bc92"
       ],
       "source": "art/source/budget-comparison/kaid.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "nugget",
@@ -90,7 +326,8 @@
         "#525442"
       ],
       "source": "art/source/budget-comparison/nugget.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "env.landscape",
@@ -113,7 +350,8 @@
         "#b3d9bf"
       ],
       "source": "assets/review/environment-v1/palette.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "env.woodwork",
@@ -136,7 +374,8 @@
         "#334f54"
       ],
       "source": "assets/review/environment-v1/palette.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "env.terracotta",
@@ -150,7 +389,8 @@
         "#f0be87"
       ],
       "source": "assets/review/environment-v1/palette.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "env.plum",
@@ -164,7 +404,8 @@
         "#d4c1c4"
       ],
       "source": "assets/review/environment-v1/palette.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "env.teal",
@@ -178,7 +419,8 @@
         "#e4e4bc"
       ],
       "source": "assets/review/environment-v1/palette.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "env.interior",
@@ -201,7 +443,8 @@
         "#efbba0"
       ],
       "source": "assets/review/environment-v1/palette.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     },
     {
       "id": "environment",
@@ -236,7 +479,8 @@
         "#3d794a"
       ],
       "source": "art/source/playable-environment/palette.json",
-      "status": "proposed; artwork approval pending"
+      "status": "proposed; artwork approval pending",
+      "legacy": true
     }
   ]
 }

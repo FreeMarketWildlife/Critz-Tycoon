@@ -1,5 +1,46 @@
 # Critz: Tycoon — art bible
 
+## Current Wildlife palette — 32 slots, 2026-10-03
+
+The user supplied the following exact palette for the Sprite Editor. **Slot 00 is transparent; slots 01–31 are fully opaque.** This replaces the editor's previous selectable Critz banks. All 31 opaque colors may be used together in an editor character project; the older proposed 15-color restriction below is superseded for this workflow. Palette selection is not artwork approval, a reference-game palette claim or authorization to recolor existing gameplay assets.
+
+Editable source: [sprite-editor/palettes.json](../sprite-editor/palettes.json). Preserve the slot order, exact RGB values and names. Existing project pixels retain their legacy colors on open/restore; do not silently quantize old artwork. New drawing/imports use this palette. Reference overlays may retain their source/averaged colors because they are inspection-only and excluded from shipped artwork/exported sprites.
+
+| Slot | Exact value | Color | Family |
+| --- | --- | --- | --- |
+| 00 | `#00000000` | Transparent | Transparency |
+| 01 | `#E84038` | Saturated Ruby Red | Tropical vibrant creatures |
+| 02 | `#FC7858` | Coral Salmon | Tropical vibrant creatures |
+| 03 | `#FCD080` | Warm Belly Yellow | Tropical vibrant creatures |
+| 04 | `#289870` | Tropical Teal Green | Tropical vibrant creatures |
+| 05 | `#48D098` | Saturated Mint | Tropical vibrant creatures |
+| 06 | `#A0F8D0` | Seafoam Cream | Tropical vibrant creatures |
+| 07 | `#F85888` | Bioluminescent Pink | Tropical vibrant creatures |
+| 08 | `#082048` | Midnight Trench Blue | Reef & deep water |
+| 09 | `#184080` | Sunken Sapphire | Reef & deep water |
+| 10 | `#3878B8` | Classic Surf Aqua | Reef & deep water |
+| 11 | `#68B0E0` | Shallow Lagoon Teal | Reef & deep water |
+| 12 | `#98E0F8` | Crisp Glass Ice | Reef & deep water |
+| 13 | `#F8F8F8` | Pure Bubble White | Reef & deep water |
+| 14 | `#201008` | Damp Humus Black | Substrate, wood & roots |
+| 15 | `#482810` | Bogwood Brown | Substrate, wood & roots |
+| 16 | `#784820` | Mangrove Bark | Substrate, wood & roots |
+| 17 | `#A87038` | Golden Tan Oak | Substrate, wood & roots |
+| 18 | `#D0A068` | Desert Clay/Sand | Substrate, wood & roots |
+| 19 | `#F8D8B0` | Soft Silicate Sand | Substrate, wood & roots |
+| 20 | `#083018` | Overgrown Shadow Green | Forestry & rainforest canopy |
+| 21 | `#185828` | Monstera Leaf Base | Forestry & rainforest canopy |
+| 22 | `#388840` | Vibrant Emerald | Forestry & rainforest canopy |
+| 23 | `#68B858` | Chartreuse Sprout | Forestry & rainforest canopy |
+| 24 | `#A0E068` | Vivid Lime | Forestry & rainforest canopy |
+| 25 | `#D8F880` | Acidic Shoot Yellow | Forestry & rainforest canopy |
+| 26 | `#282830` | Obsidian Iron | Hardscape & hardware |
+| 27 | `#484850` | Weathered Basalt | Hardscape & hardware |
+| 28 | `#707078` | River Slate | Hardscape & hardware |
+| 29 | `#9898A0` | Pumice Ash | Hardscape & hardware |
+| 30 | `#C0C0C8` | Polished Chrome Filter | Hardscape & hardware |
+| 31 | `#E0E0E8` | Anodized Aluminum | Hardscape & hardware |
+
 ## Emerald 2× visual contract — authoritative, 2026-10-02
 
 **User-confirmed direction:** Critz uses Pokémon Emerald's art style, camera framing and character proportions at **twice the linear pixel resolution**. This is a geometric and animation-construction requirement, not a loose “Emerald-inspired” mood. Preserve the reference proportions of heads, faces, hair, hats, torsos, arms, hands, legs and feet. Original character identity is expressed through original designs fitted to those proportions.
