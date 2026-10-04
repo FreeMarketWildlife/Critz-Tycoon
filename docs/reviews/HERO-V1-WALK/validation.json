@@ -1,0 +1,92 @@
+{
+  "idleApproved": true,
+  "walkApproved": false,
+  "nativeFrame": [
+    32,
+    64
+  ],
+  "idlePixelsVerified": 2048,
+  "walkPixelsVerified": 8192,
+  "gifPixelsVerified": 303104,
+  "poses": [
+    {
+      "name": "Stride A \u00b7 right foot forward",
+      "bbox": [
+        3,
+        27,
+        29,
+        64
+      ],
+      "opaquePixels": 696,
+      "connected": true
+    },
+    {
+      "name": "Hero Boy V1 \u00b7 passing",
+      "bbox": [
+        3,
+        25,
+        29,
+        62
+      ],
+      "opaquePixels": 757,
+      "connected": true
+    },
+    {
+      "name": "Stride B \u00b7 left foot forward",
+      "bbox": [
+        3,
+        27,
+        29,
+        64
+      ],
+      "opaquePixels": 696,
+      "connected": true
+    },
+    {
+      "name": "Hero Boy V1 \u00b7 passing",
+      "bbox": [
+        3,
+        25,
+        29,
+        62
+      ],
+      "opaquePixels": 757,
+      "connected": true
+    }
+  ],
+  "walk-native.gif": {
+    "dimensions": [
+      32,
+      64
+    ],
+    "frames": 4,
+    "durationsMs": [
+      130,
+      140,
+      130,
+      140
+    ],
+    "loopMs": 540,
+    "pixelExact": true
+  },
+  "walk-preview-6x.gif": {
+    "dimensions": [
+      192,
+      384
+    ],
+    "frames": 4,
+    "durationsMs": [
+      130,
+      140,
+      130,
+      140
+    ],
+    "loopMs": 540,
+    "pixelExact": true
+  },
+  "sourceCycleMs": 535.7666015625,
+  "gifCycleRoundingMs": 4.2333984375,
+  "paletteRequantized": false,
+  "idleSHA256": "0099dd331ae2c2d995663328e52763e8b10b1df0d36854d59676ee0ac52f7883",
+  "gifSHA256": "b903dbd2c13e10a945f53690efa1aa16e3142734fee0de30846400d767438c9f"
+}

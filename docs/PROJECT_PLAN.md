@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C5 — Hero Boy V1 approved; front walk delivered
+
+The user's exact corrected export is officially registered as Hero Boy V1 and must remain unchanged. Two original front-walk strides now surround that exact passing pose, following pinned Emerald3/0/4/0 cadence and two-target-pixel stride bob. [GIFs, sources and verification](reviews/HERO-V1-WALK/README.md). Deliverable/checks complete; animation acceptance awaits the user. Native and6× GIFs are provided with documented centisecond rounding. No side/back/run poses or runtime integration are included; prior M1.C4 assistant stills are superseded by the user-approved V1.
+
 ## TOOLS.SE8 — Reference-to-artwork and flexible colors
 
 Complete, tested, pushed and published in revision 08. Full-opacity exact-color reference copy, artwork/reference eyedropper, 14 palettes/custom RGB, skeleton reference preset, two-finger pan/pinch zoom and color/reference-first panels are available. All 71 unit tests and 70 browser scenarios pass; exact tested archive deployed successfully. Latest user instruction relaxes editor color restrictions while preserving Wildlife values and gameplay/art review gates. [Evidence](reviews/TOOLS-SE8/README.md).

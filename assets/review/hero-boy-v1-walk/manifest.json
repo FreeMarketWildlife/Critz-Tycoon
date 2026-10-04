@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "hero.boy.v1.walk.south.review1",
+  "status": "awaiting-user-animation-review",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "sequence": [
+    "strideA",
+    "idleV1",
+    "strideB",
+    "idleV1"
+  ],
+  "ticksPerFrame": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMilliseconds": 16.742706298828125,
+  "gifDelaysMilliseconds": [
+    130,
+    140,
+    130,
+    140
+  ],
+  "sourceReference": "pret/pokeemerald@5eff78649e7170a877b961ef0b3da13b81a16038",
+  "referenceFrames": [
+    3,
+    0,
+    4,
+    0
+  ],
+  "headStrideOffset": [
+    0,
+    2
+  ],
+  "footLastRow": {
+    "idle": 61,
+    "stride": 63
+  },
+  "scope": "front-facing walk in place; no runtime integration"
+}

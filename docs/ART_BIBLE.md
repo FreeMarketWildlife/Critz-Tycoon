@@ -53,7 +53,15 @@ Editable source: [sprite-editor/palettes.json](../sprite-editor/palettes.json). 
 
 This contract supersedes conflicting production dimensions, generic chibi formulas and 20×26/24×32 constraints below and in CHARACTER_FRAMEWORK, PROJECT_PLAN and older prompts. Those passages remain historical records. It does not retroactively certify existing assets, implement a renderer migration, approve finished art or expand the authorized roster/world. GAME_VISION remains story canon.
 
-### Current Hero target — preserve the twists reference; local cleanup only (revision 10)
+### Official Hero Boy V1 — approved still; walking review (M1.C5)
+
+The user declared their editor-corrected Hero Boy still perfect and requested official V1, then supplied the exact RLE. **That supplied sprite is now the approved still**, superseding earlier assistant drafts. Preserve its pixels without cleanup, palette replacement, outline normalization or automatic mirroring. [Official PNG](../assets/characters/hero-boy-v1/idle-south.png) · [Approval/hash manifest](../assets/characters/hero-boy-v1/manifest.json) · [Exact original export](../art/source/hero-boy-v1/user-approved.rle.json). Source SHA-256 `bef3289d8d62801ea2f223ae9359beb305856764a54afed8fe9990f42676fb3a`. Measured 32×64, bounds `[3,25,29,62]`, 757 occupied cells, 14 used colors, anchor `[16,64]`. Later user edits require a new version; V1 stays intact.
+
+Walking is now explicitly authorized for this Hero. The current deliverable is a front-facing walk in place using the exact approved still as both passing poses. Study pinned Emerald frames3/0/4/0 at eight ticks each; translate this Hero's head/hair down two target pixels for strides, maintain its asymmetric hair/color identity, and alternate opposing arms/legs with a tucked rear foot. Never mirror the entire sprite to switch leading legs. Idle feet end at row61; stride feet may reach63. The 32×64 frame stays fixed. The still's approval does not self-approve the new strides or authorize silent runtime replacement. [Walk GIF/evidence](reviews/HERO-V1-WALK/README.md).
+
+GIF uses 10ms timing units. Preserve exact source ticks in editable data and state export rounding honestly: this four-pose preview holds130/140/130/140ms, a540ms loop versus535.7666ms source cadence. Preserve palette and per-frame transparency; check decoded animation frames for trails, recoloring, clipping and exact return to the approved still.
+
+### Prior Hero target — preserve the twists reference; local cleanup only (revision 10)
 
 The user selected the orange-and-cream striped Hero with layered twists shown in the R7-derived screenshot. It already fits the native 32×64 budget; use its saved native pixels as the visual target. Preserve the good irregular hair clusters, proportions, clothing and color relationships. The supplied skeleton is an anatomy/landmark guide, not authorization to replace the chosen silhouette with the differently shaped R9 body. Keep two transparent bottom rows, mirrored anatomy/eye positions, separate hair/lighting variation, and a one-native-pixel **black** exterior outline.
 

@@ -1,5 +1,15 @@
 # Project status
 
+## M1.C5 — Official Hero Boy V1 and front-walk GIF
+
+**Official still registered; walk delivered for user animation review.** User declared their editor-corrected still perfect, explicitly requested official V1 and walking, then supplied exact RLE. [V1/GIF/asset pack](reviews/HERO-V1-WALK/README.md). The original export is retained byte-for-byte; all 2,048 decoded pixels and palette slots remain unchanged. Official still: 32×64, 757 occupied pixels, 14 used colors, bounds `[3,25,29,62]`, anchor `[16,64]`. Approval/source/pixel hashes are stored in the official manifest; the build guards the V1 source hash. This replaces earlier assistant drafts as the accepted still.
+
+Front walk: two new alternating strides with the exact V1 still in both passing positions. Pinned native Brendan frames3/0/4 and the animation table were inspected directly; sheet hash matches the established source ledger. Head/hair/face pixels translate down2px without mirroring/recoloring, original shirt clusters bob, opposite limbs advance, and rear foot tucks behind the pelvis. Native transparent32×64 GIF plus exact6× neutral-background preview, sprite sheet and editable editor/RLE files supplied. Source8/8/8/8 ticks are retained; GIF rounds to130/140/130/140ms (540ms versus535.7666ms source cycle).
+
+Checks pass: 2,048 official-still cells, 8,192 pose PNG cells, 303,104 decoded GIF cells, exact idle returns, unchanged head pixels, connected silhouettes, genuine limb edits, last foot row61 idle/63 stride, looping/delays and clean disposal. All unique poses inspected at native/enlarged size. No palette quantization. Reference study is source inspection, not emulator capture. Front only, in place; no side/back/run or world translation. Still approval does not imply walk approval.
+
+Work directly on `main`, opening `651f3601c33e1a2584fab796a92cd6257d09049b`. Delivery commit/push verification follows. Unrelated game/art/editor edits are preserved and excluded. **Playable build unchanged; no deployment required.** No saves, runtime renderer or accepted playable atlas replacement. Current phone game: https://critz-tycoon.freemarketwildlife.chatgpt.site. **Exact next action:** user reviews the front walk; refine animation while keeping V1 still immutable.
+
 ## TOOLS.SE8 — Copy reference, open color choices and trackpad navigation
 
 **Complete, tested, pushed and published.** Editor revision **08**, source `9141b2738df31154af10c662e945065838d48f64`, verified on origin/main. Deployment `appgdep_6ac126db82d48191be0ecb5e0b5ecfc9` succeeded; owner-only audience preserved. [Open editor](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/) · [Release evidence](reviews/TOOLS-SE8/README.md).

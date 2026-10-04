@@ -1,6 +1,6 @@
 # M1.C4 — Countable idle pixels and chibi construction
 
-**Current review: [revision 10](revision-10/README.md).** One selected orange-striped twists Hero, retaining the target's native silhouette/hair/colors with a one-pixel black exterior and two empty foot rows. Local cleanup replaces the redesign approach; visual acceptance is pending.
+**Still approved:** the user's subsequent editor-corrected export is now [official Hero Boy V1](../HERO-V1-WALK/README.md), with a front-walk GIF delivered under M1.C5. The exact supplied still supersedes the assistant's R10 draft; earlier reviews below remain history.
 
 **Awaiting user art review.** The user requested a boy Hero idle comparison at 16×32 versus 32×64, then required a true one-native-pixel grid, numbered marks every ten pixels, and the compact construction of the supplied character reference. No animation or playable replacement is included.
 
