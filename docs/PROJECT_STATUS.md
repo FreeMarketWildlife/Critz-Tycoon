@@ -1,5 +1,12 @@
 # Project status
 
+## M1.C4 revision 11 — Girl Hero concept
+
+**Concept delivered; awaiting user visual review.** [Clean concept and source evidence](reviews/M1-C4/revision-11/README.md). User's new boy RLE and exact editor skeleton guide the same-body girl design; twin puffs extend above the skull. Decoded source dimensions, row widths, symmetry, two-row foot padding and PNG integrity checks pass. Two boy/skeleton hand/hip gap differences are recorded. The selected generated preview is 887×1774, not a pixel-verified 32×64 export. The first generated grid was unreliable and not selected. Native production/grid verification remains a later step.
+
+Work directly on `main`, opening `651f3601c33e1a2584fab796a92cd6257d09049b`; concurrent Hero Boy V1 commits through `bbc826559a5173da81dfa23c11394be2884458b3` preserved. Unrelated unfinished project changes remain excluded; all other opening tracked file hashes are unchanged. This task changes art-review documentation and references only. No girl acceptance, animation or runtime integration is inferred. **Playable build unchanged by this task; no deployment required.** Exact next action: user reviews the girl concept, then requests adjustments or native sprite production. Commit/push receipt follows after remote verification.
+
+
 ## M1.C5 — Official Hero Boy V1 and front-walk GIF
 
 **Official still registered; walk delivered for user animation review.** User declared their editor-corrected still perfect, explicitly requested official V1 and walking, then supplied exact RLE. [V1/GIF/asset pack](reviews/HERO-V1-WALK/README.md). The original export is retained byte-for-byte; all 2,048 decoded pixels and palette slots remain unchanged. Official still: 32×64, 757 occupied pixels, 14 used colors, bounds `[3,25,29,62]`, anchor `[16,64]`. Approval/source/pixel hashes are stored in the official manifest; the build guards the V1 source hash. This replaces earlier assistant drafts as the accepted still.

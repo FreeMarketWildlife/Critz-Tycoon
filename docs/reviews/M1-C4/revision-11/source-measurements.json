@@ -1,0 +1,83 @@
+{
+  "inputVerificationOnly": true,
+  "nativeCanvas": [
+    32,
+    64
+  ],
+  "boyBounds": [
+    3,
+    25,
+    29,
+    62
+  ],
+  "skeletonBounds": [
+    3,
+    26,
+    29,
+    62
+  ],
+  "bodyAndChinRowEnvelopesMatchSkeleton": true,
+  "bodyAndChinAlphaDifferencesRows44Through63": [
+    [
+      7,
+      54
+    ],
+    [
+      24,
+      54
+    ]
+  ],
+  "bodyAlphaSymmetric": true,
+  "lastFootRow": 61,
+  "bottomPaddingRows": 2,
+  "skeletonEyeRectangles": [
+    [
+      12,
+      38,
+      14,
+      42
+    ],
+    [
+      18,
+      38,
+      20,
+      42
+    ]
+  ],
+  "coordinates": "Top-left native, y down; half-open rectangles. Review Y=64-native edge y.",
+  "sourceBoySha256": "bef3289d8d62801ea2f223ae9359beb305856764a54afed8fe9990f42676fb3a",
+  "skeletonSha256": "8c4c7c9859d5f2879c509d439ab1457fae2e8c3d758eb6112e8562bea5bbe190",
+  "generatedConceptNativeGeometryVerified": false,
+  "girl-hero-concept.png": {
+    "dimensions": [
+      887,
+      1774
+    ],
+    "sha256": "3e2387f74366daebda78ad39472148989f7ff0791ecb35d52b6691324c4abeea",
+    "pngChunkCrcsValid": true
+  },
+  "user-boy-native.png": {
+    "dimensions": [
+      32,
+      64
+    ],
+    "sha256": "77b4206cb3611fc9bd2ea3fef99b6bcb1927b1e96ccb664b4573f42ff4d6479a",
+    "pngChunkCrcsValid": true
+  },
+  "user-boy-16x.png": {
+    "dimensions": [
+      512,
+      1024
+    ],
+    "sha256": "9905c37af09e1d0f002ea2dd1849f15dd1d58dc851df75324a3b46089d16f450",
+    "pngChunkCrcsValid": true
+  },
+  "skeleton-16x.png": {
+    "dimensions": [
+      512,
+      1024
+    ],
+    "sha256": "03e2c725f27294d75469ada0bb0f36a35c6eaefa401f6a7a6be2a5336e99ede3",
+    "pngChunkCrcsValid": true
+  }
+}

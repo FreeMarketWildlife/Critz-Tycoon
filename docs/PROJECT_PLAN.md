@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.C4 revision 11 — Girl Hero concept review
+
+Concept delivered, awaiting user visual review. Use the newly supplied boy RLE and editor skeleton for unchanged body construction; hair adds separate volume above the skull. [R11 preview](reviews/M1-C4/revision-11/README.md) includes source data and measurement evidence. The generated enlarged concept is not a verified native 32×64 asset. Review the design before subsequent production-pixel work or animation. No accepted gameplay art is replaced.
+
+
 ## M1.C5 — Hero Boy V1 approved; front walk delivered
 
 The user's exact corrected export is officially registered as Hero Boy V1 and must remain unchanged. Two original front-walk strides now surround that exact passing pose, following pinned Emerald3/0/4/0 cadence and two-target-pixel stride bob. [GIFs, sources and verification](reviews/HERO-V1-WALK/README.md). Deliverable/checks complete; animation acceptance awaits the user. Native and6× GIFs are provided with documented centisecond rounding. No side/back/run poses or runtime integration are included; prior M1.C4 assistant stills are superseded by the user-approved V1.

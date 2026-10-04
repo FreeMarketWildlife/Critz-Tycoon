@@ -1,5 +1,15 @@
 # Critz: Tycoon — art bible
 
+## Girl Hero concept — user update, M1.C4 revision 11
+
+The user supplied their newly edited boy as exact editor RLE and requested a girl concept using that boy and the editor's basic skeleton, **keeping the body proportions the same**. This authorizes one front-idle concept, not animation or accepted gameplay replacement. Preserve the source at [R11 boy RLE](reviews/M1-C4/revision-11/user-boy.rle.json). Its body construction is the current comparison target for this girl, superseding older boy revisions wherever they differ.
+
+Use the skeleton's rounded bare cranium and fixed eye landmarks; hair is a separate volume extending above the skull. Do not enlarge or stretch the skull to reach the top of the hairstyle. Retain the boy's shoulders, torso, arms/hands, pelvis, short legs, shoes and stance; do not narrow or lengthen the girl to communicate gender. The attached girl screenshot supplies the twin-puff/short-lock hairstyle and coral/blue/burgundy outfit direction, not replacement anatomy. Her identity remains a ten-year-old Black child.
+
+Measured inputs: both sources use 32×64 frames; the boy's full bounds are `[3,25,29,62]`, and the skeleton's are `[3,26,29,62]`. Body/chin outer row envelopes match from row44 down, but the boy has two empty hand/hip gap cells at `(7,54)` and `(24,54)` where the skeleton is occupied. Preserve the boy as instructed rather than silently filling them. Source eyes retain the 2×4 landmarks and source feet end on row61. All coordinates here are top-down native; these source measurements do not certify a generated concept's pixel positions.
+
+[R11](reviews/M1-C4/revision-11/README.md) is a generated enlarged design preview, awaiting visual review. Its 32×64 budget is a construction target, not a claim that the high-resolution output is a native sprite. Generated grid labels cannot establish exact proportions: reject unreliable grids, preserve actual source evidence, and require a separately verified native/grid deliverable before calling later artwork production-ready. No new general palette cap or approval is implied.
+
 ## Editor color freedom — user update, TOOLS.SE8
 
 The latest user request expands the Sprite Editor beyond a single Wildlife palette: **selectable palettes, arbitrary exact RGB picked from references/artwork, custom colors and full-opacity reference copying are authorized.** This supersedes the Wildlife-only selectable bank and 31-opaque-color editor validation restrictions below. The original Wildlife slot order/values stay intact as one choice; existing artwork is not recolored when switching banks. Fourteen editor palette collections include existing Critz character/environment banks, a new portrait/skin/hair selection and grayscale. These are authoring choices, not approval or recoloring of gameplay assets.
