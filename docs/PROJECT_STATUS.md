@@ -1,5 +1,13 @@
 # Project status
 
+## M1.C6 — Native idle cast and animals
+
+**Deliverables/checks complete; new native art awaits user visual review.** The user selected the R11 girl design and explicitly authorized additional idle characters and animals. [Collection, native exports, grids and ZIP](reviews/M1-C6/README.md). Eleven new character stills cover Girl Hero, Professor Nugget, Mom, Kaid, both rival options and the five existing shop/support characters. Eight animal studies include all four current rescue groups and four clearly labeled future-species proposals. Hero Boy V1 remains byte-for-byte unchanged.
+
+All nineteen native PNG/indexed/RLE representations match exactly. Binary alpha, dimensions, actual bounds, source/pixel hashes, two-row character foot padding, paired construction masks and visible eyes pass; Girl Hero has zero changed body-alpha cells from row45 down. Native, clean6× and full-canvas gridded7× plates were visually inspected. Hair occlusion and adult footwear were corrected before delivery. Animal observation scale is not a biological-size or habitat-compatibility claim. No animation or runtime integration. ART_BIBLE now records the user-selected girl/current roster scope, current approved baseline, separate hair volume, visible-eye checks and correct flexible palette rules.
+
+Work directly on `main`, opening `20f7c8de6ab436b77e1e583a67bc9c6a21d977b2`. Task changes only are staged; opening gameplay/walking edits and concurrent overworld work are preserved. **Playable build unchanged by this task; no deployment required.** Source commit/push verification follows after commit. Exact next action: user reviews these native stills before adjustments, animation or accepted gameplay integration.
+
 ## M1.C4 revision 11 — Girl Hero concept
 
 **Concept delivered; awaiting user visual review.** [Clean concept and source evidence](reviews/M1-C4/revision-11/README.md). User's new boy RLE and exact editor skeleton guide the same-body girl design; twin puffs extend above the skull. Decoded source dimensions, row widths, symmetry, two-row foot padding and PNG integrity checks pass. Two boy/skeleton hand/hip gap differences are recorded. The selected generated preview is 887×1774, not a pixel-verified 32×64 export. The first generated grid was unreliable and not selected. Native production/grid verification remains a later step.

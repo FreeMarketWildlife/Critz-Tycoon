@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C6 — Expanded native idle collection
+
+**Deliverable/checks complete; awaiting native-art visual review.** The 2026-10-06 request explicitly selects the R11 girl concept and authorizes an expanded idle cast plus animals. [Nineteen new native stills](reviews/M1-C6/README.md): Girl Hero, Nugget, Mom, Kaid, both rival options, five existing Rootport support characters, four existing rescue animals and four future-species proposals. Approved Hero Boy V1 remains unchanged. Actual 32×64 character and 32×32 animal exports, editor sources, masks, native/clean/grid plates and validation are delivered. Animation and accepted runtime integration remain separate; review output does not self-approve new art.
+
 ## M1.C4 revision 11 — Girl Hero concept review
 
 Concept delivered, awaiting user visual review. Use the newly supplied boy RLE and editor skeleton for unchanged body construction; hair adds separate volume above the skull. [R11 preview](reviews/M1-C4/revision-11/README.md) includes source data and measurement evidence. The generated enlarged concept is not a verified native 32×64 asset. Review the design before subsequent production-pixel work or animation. No accepted gameplay art is replaced.

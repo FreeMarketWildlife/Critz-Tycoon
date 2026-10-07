@@ -1,0 +1,429 @@
+{
+  "task": "M1.C6",
+  "result": "pass",
+  "newCharacters": 11,
+  "newAnimalStills": 8,
+  "approvedBoyHashesUnchanged": true,
+  "checks": [
+    {
+      "id": "critz.hero-girl.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "colors": 14,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "approved_boy_body_alpha_changes": 0,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.professor-nugget.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "colors": 24,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.mom.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "colors": 16,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.kaid.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        26,
+        29,
+        62
+      ],
+      "colors": 18,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.rival-boy.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        24,
+        29,
+        62
+      ],
+      "colors": 15,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.rival-girl.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        26,
+        29,
+        62
+      ],
+      "colors": 16,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.aunt-ember.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        18,
+        29,
+        62
+      ],
+      "colors": 20,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.dr-fern.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        24,
+        29,
+        62
+      ],
+      "colors": 15,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.juniper.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        23,
+        29,
+        62
+      ],
+      "colors": 15,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.mina.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        18,
+        29,
+        62
+      ],
+      "colors": 19,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.ollie.idle.v1",
+      "frame": [
+        32,
+        64
+      ],
+      "bbox": [
+        3,
+        23,
+        29,
+        62
+      ],
+      "colors": 18,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true,
+      "paired_construction_masks": [
+        "body",
+        "arms",
+        "hands",
+        "legs",
+        "skull",
+        "eyes"
+      ],
+      "bottom_padding": 2,
+      "eyes_visible": true
+    },
+    {
+      "id": "critz.pebble-gecko.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        4,
+        7,
+        26,
+        29
+      ],
+      "colors": 6,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "critz.button-snail.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        4,
+        12,
+        28,
+        28
+      ],
+      "colors": 7,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "critz.isopod.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        30
+      ],
+      "colors": 4,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "critz.springtail.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        10,
+        17,
+        22,
+        29
+      ],
+      "colors": 5,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "critz.tree-frog.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        5,
+        10,
+        25,
+        26
+      ],
+      "colors": 6,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "critz.cherry-shrimp.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        3,
+        13,
+        26,
+        29
+      ],
+      "colors": 4,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "critz.guppy.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        3,
+        13,
+        24,
+        24
+      ],
+      "colors": 5,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    },
+    {
+      "id": "critz.stag-beetle.idle.v1",
+      "frame": [
+        32,
+        32
+      ],
+      "bbox": [
+        7,
+        9,
+        23,
+        29
+      ],
+      "colors": 5,
+      "RGBA_and_RLE_exact": true,
+      "binary_alpha": true
+    }
+  ],
+  "limitations": [
+    "Native visual acceptance remains the user\u2019s decision.",
+    "Adult construction is an original two-row adaptation, not a new measurement of Emerald adult anatomy.",
+    "Animal observation-scale studies do not declare physical size or habitat compatibility.",
+    "No animation, directional completion, runtime integration or deployment."
+  ]
+}

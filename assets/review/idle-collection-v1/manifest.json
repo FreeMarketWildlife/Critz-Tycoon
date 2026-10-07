@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "id": "critz.idle-collection.v1",
+  "task": "M1.C6",
+  "status": "awaiting-user-native-art-review",
+  "runtimeIntegrated": false,
+  "approvedBaseline": "assets/characters/hero-boy-v1/idle-south.png",
+  "assets": [
+    {
+      "id": "critz.hero-girl.idle.v1",
+      "slug": "hero-girl",
+      "label": "Girl Hero",
+      "role": "Player-named Black child",
+      "kind": "character",
+      "file": "hero-girl.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        41
+      ],
+      "bottomPadding": 2,
+      "colors": 14,
+      "opaquePixels": 851,
+      "pixelSHA256": "74e0e2c76b54ad01b87d08d7dad04dfc29a2b33c4096d842e70493fb549fff49",
+      "pngSHA256": "3acf53419e77034b611a1d49c6146a80e40d22b110cc18d70e4acc319a4a7428",
+      "source": "art/source/idle-collection-v1/hero-girl.sprite.json",
+      "notes": "Child body uses approved V1 occupied cells from row45 down; original hairstyle and clothing."
+    },
+    {
+      "id": "critz.professor-nugget.idle.v1",
+      "slug": "professor-nugget",
+      "label": "Professor Nugget",
+      "role": "Herpetologist and mentor",
+      "kind": "character",
+      "file": "professor-nugget.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        40
+      ],
+      "bottomPadding": 2,
+      "colors": 24,
+      "opaquePixels": 813,
+      "pixelSHA256": "8409bb1904997fd3d68a17bfadc177aa5f83522b7556222dcfd9d27ee48ef190",
+      "pngSHA256": "35158361e97c83fd10dda55cc2e7764e0483d08a4ccc7abb635a5e990f53fc15",
+      "source": "art/source/idle-collection-v1/professor-nugget.sprite.json",
+      "notes": "Adult original adaptation: eye row36, compact torso extended upward by two cells; feet unchanged."
+    },
+    {
+      "id": "critz.mom.idle.v1",
+      "slug": "mom",
+      "label": "Mom",
+      "role": "Loving parent",
+      "kind": "character",
+      "file": "mom.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        43
+      ],
+      "bottomPadding": 2,
+      "colors": 16,
+      "opaquePixels": 895,
+      "pixelSHA256": "3946e001495142a30e1449e187de8ed98c6d59c43cadcb009af5f6ca32786470",
+      "pngSHA256": "8fe31a3ce96637f46245ae11519c24714fe9120290a37799e4d91a9f5964e8bb",
+      "source": "art/source/idle-collection-v1/mom.sprite.json",
+      "notes": "Adult original adaptation: eye row36, compact torso extended upward by two cells; feet unchanged."
+    },
+    {
+      "id": "critz.kaid.idle.v1",
+      "slug": "kaid",
+      "label": "Kaid",
+      "role": "Pitcher child · Glow n’ Blow",
+      "kind": "character",
+      "file": "kaid.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        26,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        36
+      ],
+      "bottomPadding": 2,
+      "colors": 18,
+      "opaquePixels": 674,
+      "pixelSHA256": "5a0a4cf72db5f4cbce08c028632df7fac5d89aabd39ace789f0201b77dfef3d6",
+      "pngSHA256": "d2ac58d5511eafc2f866c83c63610edeabea918cf1fc0e4a5b1e52a49ab042b4",
+      "source": "art/source/idle-collection-v1/kaid.sprite.json",
+      "notes": "Original teal glass pitcher, amber contents. Spout left and hollow handle right are deliberate asymmetry; paired body/limbs and eyes remain symmetric."
+    },
+    {
+      "id": "critz.rival-boy.idle.v1",
+      "slug": "rival-boy",
+      "label": "Boy Rival",
+      "role": "Player-named rival option",
+      "kind": "character",
+      "file": "rival-boy.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        24,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        38
+      ],
+      "bottomPadding": 2,
+      "colors": 15,
+      "opaquePixels": 747,
+      "pixelSHA256": "26d5524c75724a60a3c09f0abbc9a1d04926b8f411310ed2a8cb09693ea5c3b3",
+      "pngSHA256": "eebecd75269bfd7827dac502fcd5ff802efd606b268571aee0f2c70687b39d94",
+      "source": "art/source/idle-collection-v1/rival-boy.sprite.json",
+      "notes": "Child body uses approved V1 occupied cells from row45 down; original hairstyle and clothing."
+    },
+    {
+      "id": "critz.rival-girl.idle.v1",
+      "slug": "rival-girl",
+      "label": "Girl Rival",
+      "role": "Player-named rival option",
+      "kind": "character",
+      "file": "rival-girl.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        26,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        36
+      ],
+      "bottomPadding": 2,
+      "colors": 16,
+      "opaquePixels": 751,
+      "pixelSHA256": "fc10c8ce2052158c138479312944835f89b002f431533babc4268dbcb0b3b9af",
+      "pngSHA256": "520d3bf6e76c89c733c3f9851202a0a9890376455258e3e6f4f9b33d5c66528d",
+      "source": "art/source/idle-collection-v1/rival-girl.sprite.json",
+      "notes": "Child body uses approved V1 occupied cells from row45 down; original hairstyle and clothing."
+    },
+    {
+      "id": "critz.aunt-ember.idle.v1",
+      "slug": "aunt-ember",
+      "label": "Aunt Ember",
+      "role": "Adult glass artist",
+      "kind": "character",
+      "file": "aunt-ember.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        18,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        44
+      ],
+      "bottomPadding": 2,
+      "colors": 20,
+      "opaquePixels": 843,
+      "pixelSHA256": "1d377f2ae764424175618899cd996f999cd802ef3e8525be6ec191e1a0910d0e",
+      "pngSHA256": "f3460de35aee8b61a28207df7be7d136688fed4e71c73c8b4cdd495a4eaf5df0",
+      "source": "art/source/idle-collection-v1/aunt-ember.sprite.json",
+      "notes": "Adult original adaptation: eye row36, compact torso extended upward by two cells; feet unchanged."
+    },
+    {
+      "id": "critz.dr-fern.idle.v1",
+      "slug": "dr-fern",
+      "label": "Dr. Fern",
+      "role": "Vet",
+      "kind": "character",
+      "file": "dr-fern.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        24,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        38
+      ],
+      "bottomPadding": 2,
+      "colors": 15,
+      "opaquePixels": 791,
+      "pixelSHA256": "039cc3004b4425d733fc30cc7740e335750ad3e230a1ad8cd8a89a963925d7d2",
+      "pngSHA256": "519a541f7fd6f259ec479a640f6115a08693d3cb9adeaad698f25b016c770ff2",
+      "source": "art/source/idle-collection-v1/dr-fern.sprite.json",
+      "notes": "Adult original adaptation: eye row36, compact torso extended upward by two cells; feet unchanged."
+    },
+    {
+      "id": "critz.juniper.idle.v1",
+      "slug": "juniper",
+      "label": "Juniper",
+      "role": "Critz shopkeeper",
+      "kind": "character",
+      "file": "juniper.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        23,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        39
+      ],
+      "bottomPadding": 2,
+      "colors": 15,
+      "opaquePixels": 786,
+      "pixelSHA256": "d20faf267038de0783cdf0b5825a560f2a7844d78eaf163ab665c7c9de69a3e9",
+      "pngSHA256": "c16aeec67549b06577a52dc2ae49c70d06d1ac7947fe39957543f7332b2b768e",
+      "source": "art/source/idle-collection-v1/juniper.sprite.json",
+      "notes": "Adult original adaptation: eye row36, compact torso extended upward by two cells; feet unchanged."
+    },
+    {
+      "id": "critz.mina.idle.v1",
+      "slug": "mina",
+      "label": "Mina",
+      "role": "Drug Store pharmacist",
+      "kind": "character",
+      "file": "mina.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        18,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        44
+      ],
+      "bottomPadding": 2,
+      "colors": 19,
+      "opaquePixels": 843,
+      "pixelSHA256": "efc9f3e09879ad84e907f6d27ff06420acf1d0311080d9eb65e0f4c4a4a5ff09",
+      "pngSHA256": "05e27877d2f58fbd0b1466e6df38ace58c77514d89be92a608be544d54524b6b",
+      "source": "art/source/idle-collection-v1/mina.sprite.json",
+      "notes": "Adult original adaptation: eye row36, compact torso extended upward by two cells; feet unchanged."
+    },
+    {
+      "id": "critz.ollie.idle.v1",
+      "slug": "ollie",
+      "label": "Ollie",
+      "role": "Bike Shop mechanic",
+      "kind": "character",
+      "file": "ollie.png",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "bbox": [
+        3,
+        23,
+        29,
+        62
+      ],
+      "paintedSize": [
+        26,
+        39
+      ],
+      "bottomPadding": 2,
+      "colors": 18,
+      "opaquePixels": 790,
+      "pixelSHA256": "cdf1e2a0fd834cbfff7a2f74800a61b68363616bf78f2b617ce535ad19d3fd68",
+      "pngSHA256": "606bd95998fa055995f6259419329add3dbb3b8938660ccff5a2a8958deebe03",
+      "source": "art/source/idle-collection-v1/ollie.sprite.json",
+      "notes": "Adult original adaptation: eye row36, compact torso extended upward by two cells; feet unchanged."
+    },
+    {
+      "id": "critz.pebble-gecko.idle.v1",
+      "slug": "pebble-gecko",
+      "label": "Pebble",
+      "role": "Existing rescue · gecko",
+      "kind": "animal",
+      "file": "pebble-gecko.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        4,
+        7,
+        26,
+        29
+      ],
+      "paintedSize": [
+        22,
+        22
+      ],
+      "bottomPadding": 3,
+      "colors": 6,
+      "opaquePixels": 230,
+      "pixelSHA256": "de80e0137d17d4af2b0e9dbd1182b292e8a378a66ce3f1a1fab19efdd5a8d712",
+      "pngSHA256": "49aed2b9ba8ea97964b91022e09fa7f200c16bbcd69d23ecaf967504b0112fbe",
+      "source": "art/source/idle-collection-v1/pebble-gecko.sprite.json",
+      "notes": "Original top-down gecko rescue study; curved segmented tail, splayed feet, warm olive/cream spots. Species identification beyond gecko is not asserted."
+    },
+    {
+      "id": "critz.button-snail.idle.v1",
+      "slug": "button-snail",
+      "label": "Button",
+      "role": "Existing rescue · land snail",
+      "kind": "animal",
+      "file": "button-snail.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        4,
+        12,
+        28,
+        28
+      ],
+      "paintedSize": [
+        24,
+        16
+      ],
+      "bottomPadding": 4,
+      "colors": 7,
+      "opaquePixels": 248,
+      "pixelSHA256": "d504d3297893a1426e3cb2fad22f361c4a00337b92de1d96be2b2f397d1f0d47",
+      "pngSHA256": "0c20099b88e4dc4daa2e8e99a4411575aa3eb34154af4a7a58c492727e7ecd1d",
+      "source": "art/source/idle-collection-v1/button-snail.sprite.json",
+      "notes": "Original profile snail with visible spiral shell and paired eyestalks."
+    },
+    {
+      "id": "critz.isopod.idle.v1",
+      "slug": "isopod",
+      "label": "Isopod",
+      "role": "Existing rescue · decomposer",
+      "kind": "animal",
+      "file": "isopod.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        8,
+        12,
+        24,
+        30
+      ],
+      "paintedSize": [
+        16,
+        18
+      ],
+      "bottomPadding": 2,
+      "colors": 4,
+      "opaquePixels": 210,
+      "pixelSHA256": "8a6c4870af5d26deedc03bb1150c6ab77ea17b142a2f9bf35c79cf95acdbfb8c",
+      "pngSHA256": "a98aa6b09453614f45c1eb82291e92811542cfdce6efc6e330551209b92cf26d",
+      "source": "art/source/idle-collection-v1/isopod.sprite.json",
+      "notes": "Dorsal observation-scale isopod; readable paired legs and overlapping armor plates."
+    },
+    {
+      "id": "critz.springtail.idle.v1",
+      "slug": "springtail",
+      "label": "Springtail",
+      "role": "Existing rescue · decomposer",
+      "kind": "animal",
+      "file": "springtail.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        10,
+        17,
+        22,
+        29
+      ],
+      "paintedSize": [
+        12,
+        12
+      ],
+      "bottomPadding": 3,
+      "colors": 5,
+      "opaquePixels": 56,
+      "pixelSHA256": "cdad175a6c90907a3c55e8dce39f9e9b81c70a940642ad1dbf5b013fc42b82e3",
+      "pngSHA256": "94ffd41782eb9331873ea0b524632969d83ff2b77ef11d4f33d2137aec605869",
+      "source": "art/source/idle-collection-v1/springtail.sprite.json",
+      "notes": "Observation-scale springtail. Deliberately tiny compared with other study frames; not drawn at true shared physical scale."
+    },
+    {
+      "id": "critz.tree-frog.idle.v1",
+      "slug": "tree-frog",
+      "label": "Tree Frog",
+      "role": "Future species proposal",
+      "kind": "animal",
+      "file": "tree-frog.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        5,
+        10,
+        25,
+        26
+      ],
+      "paintedSize": [
+        20,
+        16
+      ],
+      "bottomPadding": 6,
+      "colors": 6,
+      "opaquePixels": 215,
+      "pixelSHA256": "a4abff3e82180cf937339dfb0d05c8323dea5cc7d24addf48c80976e66b56960",
+      "pngSHA256": "837792967fc15d231c0c3bd4ec0c12e5ab6d8828c9fa3cd00c22b88d53b31869",
+      "source": "art/source/idle-collection-v1/tree-frog.sprite.json",
+      "notes": "Optional future animal visual proposal; no habitat/gameplay claim."
+    },
+    {
+      "id": "critz.cherry-shrimp.idle.v1",
+      "slug": "cherry-shrimp",
+      "label": "Cherry Shrimp",
+      "role": "Future aquarium proposal",
+      "kind": "animal",
+      "file": "cherry-shrimp.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        3,
+        13,
+        26,
+        29
+      ],
+      "paintedSize": [
+        23,
+        16
+      ],
+      "bottomPadding": 3,
+      "colors": 4,
+      "opaquePixels": 158,
+      "pixelSHA256": "b1917dc12f0c8ba544e99f086705bcd2387a83fb88b0a1e1f3f3b993595df45e",
+      "pngSHA256": "cbbf5b0519920fd406141fcee2514353e506eded03c5159916f02a0c0019ae8b",
+      "source": "art/source/idle-collection-v1/cherry-shrimp.sprite.json",
+      "notes": "Original profile freshwater shrimp proposal; legs and long antennae are single-cell strokes."
+    },
+    {
+      "id": "critz.guppy.idle.v1",
+      "slug": "guppy",
+      "label": "Guppy",
+      "role": "Future aquarium proposal",
+      "kind": "animal",
+      "file": "guppy.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        3,
+        13,
+        24,
+        24
+      ],
+      "paintedSize": [
+        21,
+        11
+      ],
+      "bottomPadding": 8,
+      "colors": 5,
+      "opaquePixels": 139,
+      "pixelSHA256": "cfa8627b26980841dc188fbb9d51f9f6ea3c2892bd8675db9d97541ad5d789f2",
+      "pngSHA256": "fc2bc24b18481223859153a3919b7425e48f2b5d258607c9feb07894e4dfe7b2",
+      "source": "art/source/idle-collection-v1/guppy.sprite.json",
+      "notes": "Original fish profile proposal; this is a display-size study, not an aquarium species suitability recommendation."
+    },
+    {
+      "id": "critz.stag-beetle.idle.v1",
+      "slug": "stag-beetle",
+      "label": "Stag Beetle",
+      "role": "Future forest proposal",
+      "kind": "animal",
+      "file": "stag-beetle.png",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "bbox": [
+        7,
+        9,
+        23,
+        29
+      ],
+      "paintedSize": [
+        16,
+        20
+      ],
+      "bottomPadding": 3,
+      "colors": 5,
+      "opaquePixels": 194,
+      "pixelSHA256": "e34d599642f55535c32734082deb1d7ee228e485bf0622e06f4a7372ee2fc386",
+      "pngSHA256": "15a152b1a76f24897b14ee3e0184894f97f55dc4027a46740c3601fa90e96b85",
+      "source": "art/source/idle-collection-v1/stag-beetle.sprite.json",
+      "notes": "Original top-down stag beetle proposal, distinct mandibles and split elytra."
+    }
+  ]
+}
