@@ -1,0 +1,32 @@
+{
+  "passed": 12,
+  "results": [
+    "Walking north from Rootport enters Mossway without a menu",
+    "Real keyboard traversal reaches the required tall-grass meadow",
+    "Full wooded route reaches Liarsville through the meadow",
+    "Waterworks entrance, history interaction and return doorway work",
+    "Complete return journey reaches Rootport and retains debt/story progress",
+    "World-v2 save reload restores the completed cell and existing loan",
+    "All 14 scenes render in the native 480×320 framebuffer with no missing art",
+    "Actual rendered pixels change for contacted grass, water/falls, flowers and the waterwheel",
+    "Tree canopy covers an actor behind it; the actor covers the tree when in front",
+    "320/390 portrait, 844 landscape and desktop: full aspect, no overflow, 44px controls",
+    "Missing new atlas shows recovery UI without touching storage",
+    "Zero uncaught browser errors"
+  ],
+  "animationPixelChanges": {
+    "grass": 267,
+    "water": 1722,
+    "flowers": 234,
+    "wheel": 851
+  },
+  "occlusion": {
+    "behind": 1628,
+    "front": 2048
+  },
+  "errors": [],
+  "limitations": [
+    "Chromium phone emulation; no physical iPhone/Safari test.",
+    "New map composition and animations await user feedback."
+  ]
+}

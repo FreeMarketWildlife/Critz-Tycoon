@@ -2,7 +2,7 @@
 
 ## M1.W1 — Playable northern overworld
 
-**Implemented and tested; publication in progress:** user-selected M1.E2 integration; Rootport → Mossway → Liarsville; tile-built architecture, water/cliffs, gardens/fences/fountains, hollow logs and living vegetation. Preserve story/save systems and complete collision, route, migration, browser and phone checks, then push/publish the exact tested build. New map/motion review follows delivery; no unrelated character self-approval.
+**Implementation/checks/publication complete; awaiting user visual/motion feedback.** User-selected M1.E2 is integrated into Rootport → Mossway → Liarsville, with tile-built architecture, water/cliffs, gardens/fences/fountains, hollow logs and living vegetation. Existing story/save systems are preserved. Source `787d0ea` passes 78 unit tests, original chapter regression and 12 release-browser checks; its exact tested build is live at the existing phone URL. [Receipt and next action](PROJECT_STATUS.md#m1w1--rootport-to-liarsville). Refine user feedback next; do not infer approval of unrelated character work or self-approve the new world/motion.
 
 
 ## M1.C7 — Walks and living habitat review

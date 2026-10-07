@@ -34,3 +34,9 @@ The framebuffer is **480×320**. Movement/save coordinates retain their original
 [Browser audit](world-browser.json) covers a real keyboard journey Rootport → forest → Liarsville → waterworks → Rootport, history interaction, save/reload, actual animation pixels, all 14 scene renders, missing-atlas recovery and phone/desktop layouts. The existing full chapter browser walkthrough separately exercises both loan choices, all four rescues, all five shops, neighboring homes, care/Manage/Stats/View, Critter posts and save recovery. Final receipts below are recorded only after tests and publication finish.
 
 Chromium phone emulation is not physical iPhone/Safari testing. New layouts, art additions and motion await the user's feedback; successful tests do not constitute visual or movement approval.
+
+## Published build
+
+Source **787d0ea77b6479287b3037cddf40ba97f14f21e1** is pushed to GitHub main. [Deployment](deployment.json) succeeded at 2026-10-07 06:52:24 UTC with the existing owner-only audience. All **1,485 tested files** match the [archive audit](archive-check.json). [Release browser checks](release-browser.json) and [78 release unit tests](release-unit-tests.txt) pass. The original chapter walkthrough also passes. Documentation receipts are pushed separately without redeploying unchanged gameplay.
+
+[Rootport overview](map-town.png) · [Mossway overview](map-forest.png) · [Liarsville overview](map-liarsville.png).
