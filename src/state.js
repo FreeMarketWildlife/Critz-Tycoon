@@ -1,4 +1,6 @@
 export const SAVE_KEY = "critz-tycoon.save.v1";
+export const PRE_WORLD_KEY = SAVE_KEY + ".pre-world-2";
+export const PRE_WORLD_BACKUP_KEY = SAVE_KEY + ".pre-world-2.backup";
 export const BACKUP_KEY = SAVE_KEY + ".backup";
 // Immutable recovery snapshots from before the coordinate-grid conversion.
 export const PRE_GRID_KEY = SAVE_KEY + ".pre-grid";
@@ -38,6 +40,7 @@ export function createState(hero = "Hero", gender = "boy", rival = "Rowan") {
   return {
     version: SCHEMA,
     gridVersion: 1,
+    worldVersion: 2,
     hero: hero.trim().slice(0, 16) || "Hero",
     gender,
     rival: rival.trim().slice(0, 16) || "Rowan",
@@ -356,6 +359,7 @@ export function publish(s, capture) {
   return post;
 }
 const sceneIds = [
+  "forest", "liarsville", "waterworks",
   "bedroom",
   "house",
   "yard",
@@ -376,6 +380,7 @@ export function validateState(s) {
     !s ||
     s.version !== SCHEMA ||
     (s.gridVersion !== undefined && s.gridVersion !== 1) ||
+    (s.worldVersion !== undefined && s.worldVersion !== 2) ||
     !["boy", "girl"].includes(s.gender) ||
     !["night", "morning"].includes(s.stage) ||
     !sceneIds.includes(s.scene)
@@ -397,8 +402,8 @@ export function validateState(s) {
     return false;
   if (
     !s.player ||
-    !validNumber(s.player.x, 0, 32) ||
-    !validNumber(s.player.y, 0, 27) ||
+    !validNumber(s.player.x, 0, s.worldVersion === 2 ? 44 : 32) ||
+    !validNumber(s.player.y, 0, s.worldVersion === 2 ? 38 : 27) ||
     !["up", "down", "left", "right"].includes(s.player.facing)
   )
     return false;
@@ -506,6 +511,15 @@ export function save(s, storage = localStorage) {
         if (validateState(old) && old.gridVersion !== 1) storage.setItem(archive, raw);
       }
     }
+    if (s.worldVersion === 2) {
+      for (const [key, archive] of [[SAVE_KEY, PRE_WORLD_KEY], [BACKUP_KEY, PRE_WORLD_BACKUP_KEY]]) {
+        const raw = storage.getItem(key);
+        if (!raw || storage.getItem(archive)) continue;
+        let old; try { old = JSON.parse(raw); } catch { continue; }
+        // Pre-grid archives above already preserve fractional v1 saves.
+        if (validateState(old) && old.gridVersion === 1 && old.worldVersion !== 2) storage.setItem(archive, raw);
+      }
+    }
     let previousState;
     if (previous) {
       try { previousState = JSON.parse(previous); }
@@ -525,7 +539,7 @@ export function save(s, storage = localStorage) {
 }
 export function load(storage = localStorage) {
   let damaged = false;
-  for (const key of [SAVE_KEY, BACKUP_KEY, PRE_GRID_KEY, PRE_GRID_BACKUP_KEY]) {
+  for (const key of [SAVE_KEY, BACKUP_KEY, PRE_WORLD_KEY, PRE_WORLD_BACKUP_KEY, PRE_GRID_KEY, PRE_GRID_BACKUP_KEY]) {
     try {
       const raw = storage.getItem(key);
       if (!raw) continue;

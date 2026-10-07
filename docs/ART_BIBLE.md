@@ -1,5 +1,14 @@
 # Critz: Tycoon — art bible
 
+## Playable overworld — user update, M1.W1
+
+The user explicitly selected the M1.E2 tileset for world integration and authorized Rootport, a short northern wooded route through tall grass to Liarsville, hollow logs and environmental animation. This supersedes the preceding static-review and old world-expansion limits for this task. New composition/motion awaits feedback; unrelated character reviews remain separate.
+
+[World deliverable and research](reviews/M1-W1/README.md). Keep the selected 385 original cells unchanged and append to reserved master slots. The active atlas has 588 named cells in the same 1024×1024 sheet. Rootport uses warm cottage lanes and a communal spring; Liarsville uses broader stone waterworks, a clock plaque, timber millhouse and waterwheel. Mossway connects their watercourse history through trees, a grass meadow, logs and a spillway. History must appear in materials, shared structures and inspectable details, not only exposition.
+
+Use native 480×320 outdoor rendering, 32-pixel cells, quiet ground, rooted flower sway and local contacted-grass motion. Shared terrain animation stays on fixed banks. Tree footprint and depth ordering are independent of canopy alpha. Preserve logical save/movement units; display doubles spatial pixels without changing cadence. Retain existing character/interior artwork until its own authorized integration. Phones below 480 CSS pixels fit the whole frame uniformly; document that physical pixel scaling is fractional there. Visual and movement approval still comes from the user.
+
+
 ## Current motion and habitats — M1.C7
 
 The user explicitly requested walks for the M1.C6 cast and critters plus an aquarium, terrarium and paludarium, with more critters where useful. **Animation and habitat artwork are now authorized**; older idle-only limits are historical. Use the native stills as frozen source appearances. Keep approved Boy V1 and its existing front walk untouched. New back/profile views, strides, critter movement and habitats remain review proposals until accepted. [M1.C7 GIFs, grids, sources and actual checks](reviews/M1-C7/README.md).

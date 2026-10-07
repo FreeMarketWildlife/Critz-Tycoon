@@ -28,12 +28,15 @@ const requiredIds = {
   bedroom: ["tank", "sleep", "desk", "gecko", "stairs"],
   house: ["mom", "snail", "stairs", "exit"],
   yard: ["home", "gate", "isopods", "springtails", "forage"],
-  town: ["yard", "kaidHome", "rivalHome", "critz", "vet", "pharmacy", "bike", "glass", "nugget", "rival", "kaid", "route", "townSign"],
+  town: ["yard", "kaidHome", "rivalHome", "critz", "vet", "pharmacy", "bike", "glass", "nugget", "rival", "kaid", "route", "townSign", "spring"],
+  forest: ["south","north","hollowLog","spillway","milepost"],
+  liarsville: ["south","waterworks","millHouse","cottage","seeds","townStory"],
+  waterworks: ["exit","ledger","model","bell"],
   critz: ["shop-critz", "exit"], vet: ["shop-vet", "exit"], pharmacy: ["shop-pharmacy", "exit"],
   bike: ["shop-bike", "exit"], glass: ["shop-glass", "exit"], kaidHome: ["kaid", "exit"], rivalHome: ["rivalMom", "rivalDad", "exit"],
 };
 
-test("grid world preserves all eleven scene IDs and original interaction IDs", () => {
+test("grid world preserves original scene IDs and adds the connected northern world and original interaction IDs", () => {
   assert.equal(TILE, 16);
   assert.deepEqual(Object.keys(scenes).sort(), Object.keys(requiredIds).sort());
   for (const [id, scene] of Object.entries(scenes)) {
@@ -83,11 +86,11 @@ test("every entrance and exit returns to its origin scene with a reachable safe 
     assert.equal(isBlocked(id, state.player.x, state.player.y, state), false);
     tested++;
   }
-  assert.equal(tested, 20);
+  assert.equal(tested, 26);
   for (const building of buildings) {
     const threshold = scenes.town.entities.find(entity => entity.id === building.scene);
-    assert.equal(threshold.x, building.x + 3);
-    assert.equal(threshold.y, building.y + 5);
+    assert.equal(threshold.x, building.doorX);
+    assert.equal(threshold.y, building.doorY);
     assert.equal(isBlocked("town", threshold.x, threshold.y), false);
     const state = ready(building.scene);
     const exit = scenes[building.scene].entities.find(entity => entity.type === "door" && entity.to === "town");
@@ -112,8 +115,7 @@ test("explicit footprints block every occupied cell and reject fractional moveme
     assert.equal(isBlocked(id,x,scene.h),true);
     assert.equal(isBlocked(id,NaN,y),true);
   }
-  const leaves = scenes.yard.objects.find(object => object.kind === "leaves");
-  assert.equal(leaves.collision,null);
+  const leaves = scenes.yard.map.decals.find(object => object.id === "leaves.litter");
   assert.equal(isBlocked("yard",leaves.x,leaves.y),false);
   const tree = scenes.town.objects.find(object => object.kind === "tree");
   assert.equal(isBlocked("town",tree.x,tree.y),false, "canopy is not the trunk footprint");
@@ -170,6 +172,7 @@ function progressFixture(scene,loan) {
 function withoutPosition(state) {
   const copy=structuredClone(state);
   delete copy.gridVersion;
+  delete copy.worldVersion;
   delete copy.player.x;
   delete copy.player.y;
   return copy;

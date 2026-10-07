@@ -1,0 +1,13 @@
+{
+  "passed": 5,
+  "checks": [
+    "1024x1024 RGBA with binary alpha",
+    "All 385 selected original tiles remain byte-exact at unchanged coordinates",
+    "All 588 named cells aligned, nonempty and unique",
+    "All 47 water shapes keep all four tile edges unchanged throughout animation",
+    "Four distinct contacted-grass and foreground frames"
+  ],
+  "tiles": 588,
+  "masterSha256": "b182b7ee9eb89f10f3a7e802b46b3d5ac0efd6b396201b2b8f244aaa8fef4f38",
+  "approvedHeroSha256": "0099dd331ae2c2d995663328e52763e8b10b1df0d36854d59676ee0ac52f7883"
+}

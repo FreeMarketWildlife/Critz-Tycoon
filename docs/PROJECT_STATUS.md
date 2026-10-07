@@ -1,5 +1,14 @@
 # Project status
 
+## M1.W1 — Rootport to Liarsville
+
+**Implementation/checks complete; publication in progress.** Active deliverable: a playable 2× overworld using the user-selected M1.E2 master, with Rootport, northbound Mossway through tall grass, Liarsville and an enterable waterworks. Buildings remain tile assemblies. Master additions include hollow logs, ferns, stumps, water/flower/grass/fountain motion, a turning mill wheel and clock plaque. [Review/evidence](reviews/M1-W1/README.md).
+
+User authorization: “please make the world use this tile set” explicitly requests integration, new locations and animation, superseding the previous static-only environment gate. New results await feedback. Existing gameplay character art/interiors remain; unrelated pending character work is preserved. No new economy, save-key rename or story rewrite. World revision 2 relocates old town positions by familiar doorsteps and archives original grid-v1 bytes before replacement.
+
+Working directly on main; opening `17dda75824699a3c6c77c5d77bc5f486fbb2d4be`. Concurrent music/cast commits through `fe3ad4b` are preserved. Clean candidate passes 78 unit tests, five independent asset checks, the full original chapter walkthrough and the new-world browser journey. Native maps/crops and 320/390/844/1280px layouts were inspected. The final release will repeat the world journey after packaging. Publication is not yet claimed. Exact next action: commit task-only changes, push, test the clean release and publish that identical build, then record receipts.
+
+
 ## M1.C7 — Walking cast, critters and habitat art
 
 **Deliverables and checks complete; awaiting visual/motion review.** User explicitly requested walks for the M1.C6 cast and critters plus aquarium, terrarium and paludarium art, authorizing additional critters. [GIFs, sources, grids and complete pack](reviews/M1-C7/README.md). Twelve characters have four directional cycles (48 total); ten critters have species-specific movement, including new crab/catfish proposals. Three animated192×144 close-ups include background/foreground layers and separate96×96 world props. All original front idles and the existing Boy V1 south walk remain unchanged.

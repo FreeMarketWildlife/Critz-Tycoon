@@ -98,10 +98,10 @@ function hud() {
 }
 function fitWorld() {
   const viewport = $("viewport");
-  const scale = Math.max(1, Math.floor(viewport.clientWidth / 240));
-  canvas.style.width = `${240 * scale}px`;
-  canvas.style.height = `${160 * scale}px`;
-  viewport.style.height = `${160 * scale}px`;
+  const scale = viewport.clientWidth < 480 ? viewport.clientWidth / 480 : Math.floor(viewport.clientWidth / 480);
+  canvas.style.width = `${480 * scale}px`;
+  canvas.style.height = `${320 * scale}px`;
+  viewport.style.height = `${320 * scale}px`;
 }
 function fitOverlay() {
   const controls = $("controller").getBoundingClientRect();
@@ -319,6 +319,7 @@ function interact() {
     travel(e);
     return;
   }
+  if (e.text) { say([[e.name,e.text]]); return; }
   if (e.type === "rescue") {
     if (rescue(state, e.id)) {
       const isSmall = ["isopods", "springtails"].includes(e.id);
@@ -435,18 +436,6 @@ function interact() {
         persist();
         toast("Collected 2 portions of clean leaf litter.");
       }
-      break;
-    case "route":
-      say([
-        [
-          "Forest route",
-          "The path to Liarsville runs beyond these trees. This first chapter stays in Rootport.",
-        ],
-        [
-          state.hero,
-          "A whole route of little lives to discover. Someday soon.",
-        ],
-      ]);
       break;
     case "townSign":
       directory();
@@ -710,7 +699,7 @@ function directory() {
   showPanel(
     "directory",
     "Welcome to Rootport",
-    `<p>From home: bedroom stairs → downstairs → yard gate. Town’s streets connect three rows of buildings.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Press A near a doorway to enter. Look for sparkles when searching. The eastern forest route to Liarsville is planned.</p>`,
+    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Press A near a doorway to enter. Look for sparkles when searching. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Press A at the signed ends of the route to travel.</p>`,
   );
 }
 function bag() {
@@ -1124,7 +1113,12 @@ function frame(now) {
         if (panelName || dialogue || transitioning) return;
         advanceMotion(motion, down, running || shift,
           (x,y) => !isBlocked(state.scene,x,y,state),
-          { runAllowed: true, board: !!state.flags.board && ["town","yard"].includes(state.scene) });
+          { runAllowed: true, board: !!state.flags.board && ["town","yard","liarsville"].includes(state.scene) });
+        const stepView = getMotionView(motion);
+        if (stepView.moving && stepView.settled && ['town','forest','liarsville'].includes(state.scene)) {
+          const gate = getEntities(state).find(e => e.type === 'door' && ['town','forest','liarsville'].includes(e.to) && e.x === state.player.x && e.y === state.player.y);
+          if (gate) { travel(gate); return; }
+        }
         if (pendingInteract && getMotionView(motion).settled) {
           pendingInteract = false;
           interact();

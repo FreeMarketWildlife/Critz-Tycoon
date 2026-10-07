@@ -1,0 +1,39 @@
+{
+  "passed": [
+    "Girl Hero and opposite-gender rival can be named.",
+    "Opening completes, animals survive, 25-gallon gift and $100 loan arrive.",
+    "All four groups found by walking through bedroom, house, and yard.",
+    "Professor Nugget gives notebook and the $15 search reward.",
+    "Critz shop is enterable; purchases debit money and the free kit is claimable.",
+    "Vet, Drug Store, Bike Shop, and Glow n’ Blow open; medicine, skateboard, and hide purchases work.",
+    "Both neighboring homes and character dialogue are reachable.",
+    "Management changes live conditions, inventory, and stats.",
+    "Framed tank photo posts to Critter and earns money; reach grows with time.",
+    "Six-second simulated video records and posts.",
+    "Paused save/reload preserves complete nonposition state, including tank, inventory, flags and Critter records, plus completed player tile.",
+    "320px and 390px portrait, 844px landscape, and desktop layouts keep panels and controls onscreen.",
+    "D-pad release finishes exactly one committed step and starts no further step.",
+    "Pointer cancellation clears held direction and pressed styling before physical release.",
+    "A synthetic window blur clears a held keyboard direction; its committed step settles without another step.",
+    "A separate boy-Hero context declines the loan, receives the 25-gallon gift, keeps $12/no debt, and reloads unchanged progress.",
+    "No uncaught browser errors."
+  ],
+  "errors": [],
+  "coverage": {
+    "browserWalkthrough": "Girl Hero / accepted loan; all original story, town, care and Critter steps retained.",
+    "secondContext": "Boy Hero / declined loan; opening, names, surviving animals, 25-gallon gift, money/debt, save/reload.",
+    "navigation": "Integer cardinal BFS with NPC occupancy; real held keys released when target destination is committed.",
+    "saveEquality": "All state fields except player and savedAt compared while title pauses time; player compared separately.",
+    "inputEvents": [
+      "actual pointerup",
+      "synthetic pointercancel while physical pointer remains held",
+      "synthetic window blur while keyboard direction remains held"
+    ],
+    "isolatedStorage": true,
+    "limitations": [
+      "Desktop Chrome viewport emulation is not physical iPhone/Safari testing.",
+      "Synthetic blur exercises the app handler, not OS backgrounding or document.hidden timing.",
+      "Source-derived tile motion is tested separately; this walkthrough does not establish reference emulator frame equivalence."
+    ]
+  }
+}

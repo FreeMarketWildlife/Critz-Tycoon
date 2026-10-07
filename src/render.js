@@ -1,3 +1,4 @@
+import {loadEnvironment,renderEnvironment} from './environment-render.js';
 // Native, appearance-only exploration renderer. Collision and interaction live
 // in world.js; sprite bounds and transparency never decide a walkable cell.
 import { loadAtlas } from './atlas.js';
@@ -6,6 +7,7 @@ let atlas, entries;
 export async function initWorldArt() {
   atlas = await loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url));
   entries = new Map(atlas.manifest.assets.map(a => [a.id, a]));
+  await loadEnvironment();
 }
 function sprite(c, id, x, y) {
   const a = entries.get(id);
@@ -21,6 +23,8 @@ export function getRenderDebug() { return structuredClone(debug); }
 export function renderWorld(canvas, state, time, view) {
   const c = canvas.getContext('2d');
   c.imageSmoothingEnabled = false;
+  if(scenes[state.scene].map) { debug=renderEnvironment(c,state,time,view,character,(e,g)=>e.look==='rival'?`hero.${g==='boy'?'girl':'boy'}`:e.look); return; }
+  c.save(); c.scale(2,2);
   const scene = scenes[state.scene], outside = ['town','yard'].includes(scene.style);
   // Camera tracks the integer rendered foot position directly, without easing.
   const camera = {x: view.x - 120, y: view.y - 88};
@@ -78,4 +82,5 @@ export function renderWorld(canvas, state, time, view) {
   effects.forEach(draw=>draw());
   c.restore();
   if(state.stage==='night') { c.fillStyle='#1e244b38';c.fillRect(0,0,240,160); }
+  c.restore();
 }

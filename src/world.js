@@ -1,3 +1,4 @@
+import {buildings, liarsBuildings, overworldMaps} from './overworld.js';
 // Coordinates are integer grid cells at actors' feet, rendered at x*16,y*16.
 // Appearance bounds never determine collision: every solid has an explicit
 // half-open [x,y,width,height] cell rectangle independent of its PNG.
@@ -8,16 +9,7 @@ const item = (id, name, x, y, type = "inspect") => ({ id, name, x, y, type });
 const furniture = (kind, x, y, w, h, collision, sprite = `prop.${kind}`) => ({ kind, x, y, w, h, collision, sprite });
 const tree = (x, y) => furniture("tree", x, y, 2, 2, [x + 1, y + 2, 1, 1], "tree.clustered");
 
-export const buildings = [
-  { x: 2, y: 2, w: 6, h: 5, name: "HOME", scene: "yard", color: "#cc8b66", roof: "#ad5e50" },
-  { x: 12, y: 2, w: 6, h: 5, name: "KAID", scene: "kaidHome", color: "#e0c787", roof: "#69999e" },
-  { x: 22, y: 2, w: 6, h: 5, name: "RIVAL", scene: "rivalHome", color: "#e0cfa1", roof: "#7c89aa" },
-  { x: 2, y: 11, w: 6, h: 5, name: "CRITZ", scene: "critz", color: "#e1d4a5", roof: "#67905c" },
-  { x: 12, y: 11, w: 6, h: 5, name: "VET", scene: "vet", color: "#d9ddbb", roof: "#619494" },
-  { x: 22, y: 11, w: 6, h: 5, name: "DRUG STORE", scene: "pharmacy", color: "#d8cbaa", roof: "#ac7b90" },
-  { x: 6, y: 20, w: 6, h: 5, name: "BIKE SHOP", scene: "bike", color: "#e9cd8c", roof: "#bd8758" },
-  { x: 19, y: 20, w: 6, h: 5, name: "GLOW N’ BLOW", scene: "glass", color: "#dfc495", roof: "#6b8598" },
-].map(building => ({ ...building, sprite: `building.${building.scene}`, collision: [building.x, building.y, building.w, building.h] }));
+export {buildings} from './overworld.js';
 
 const shop = (name, keeper, look = "adult", style = "shop") => ({
   name, w: 16, h: 12, style, safeSpawn: [8, 9],
@@ -129,6 +121,43 @@ export const scenes = {
   },
 };
 
+// Runtime maps use the approved master tileset; old interior/story layouts remain.
+for (const [id, map] of Object.entries(overworldMaps)) {
+  const existing = scenes[id] || {name:id === 'forest' ? 'Mossway · forest route' : 'Liarsville', entities:[]};
+  scenes[id] = {...existing, w:map.w, h:map.h, safeSpawn:map.safeSpawn, style:'outdoor', map, objects:map.objects};
+}
+scenes.town.entities = [
+  ...buildings.map(b=>door(b.scene,b.name,b.doorX,b.doorY,b.scene,[8,10])),
+  npc('nugget','Professor Nugget',22,24,'professor'),
+  npc('rival','Your rival',30,12,'rival'), npc('kaid','Kaid',16,11,'kaid'),
+  door('route','North · Mossway / Liarsville',21,2,'forest',[13,31]),
+  item('townSign','Rootport directory',14,26,'directory'),
+  {...item('spring','The Founders’ Spring',20,17),text:'Before these lanes had names, families shared this spring. The fountain still feeds the gardens; the old stone channel carries its overflow to Mossway.'},
+];
+scenes.forest.entities = [
+  door('south','South · Rootport',13,32,'town',[21,3]),
+  door('north','North · Liarsville',13,2,'liarsville',[14,28]),
+  {...item('hollowLog','A fallen tree, still full of life',6,23),text:'Rain gathers in the hollow. Beetle tunnels and pale mushrooms thread the old wood. A fallen tree can shelter a whole neighborhood. Leave this little home where it is.'},
+  {...item('spillway','The old spillway',19,12),text:'The stones once guided water toward Liarsville’s mill. Ferns now fill the joints, and the pool belongs to reeds and dragonflies.'},
+  {...item('milepost','The northbound path',11,6),text:'NORTH — LIARSVILLE. SOUTH — ROOTPORT. Step through the meadow, then follow the bend beside the old spillway.'},
+];
+scenes.liarsville.entities = [
+  door('south','South · Mossway / Rootport',14,29,'forest',[13,3]),
+  door('waterworks','The old waterworks · local history',8,10,'waterworks',[8,9]),
+  {...item('millHouse','Millkeeper’s house',28,11),text:'A brass plaque reads: “We kept the water moving; the town kept us fed.” Someone still polishes it. The family is out tending the riverbank.'},
+  {...item('cottage','Gardener’s cottage',6,26),text:'Bundles of dried herbs hang inside the window. A note says: “At the shared beds. Please leave the gate as you found it.”'},
+  {...item('seeds','The seed library',27,28),text:'Take a seed, grow a story, bring a seed back. Liarsville’s families keep the old mill garden together. Today’s seed exchange has finished.'},
+  {...item('townStory','Why Liarsville?',18,18),text:'The old mill clock never agreed with the river bell. Each keeper insisted the other was lying. The teasing name stayed long after the mill retired; the neighbors stayed friends.'},
+];
+scenes.waterworks = {
+  name:'Liarsville · the old waterworks',w:16,h:12,style:'house',safeSpawn:[8,9],
+  objects:[furniture('shelf',2,2,3,2,[2,3,3,1]),furniture('shelf',10,2,3,2,[10,3,3,1]),furniture('table',6,5,3,2,[6,6,3,1])],
+  entities:[door('exit','Liarsville',8,11,'liarsville',[8,11]),
+    {...item('ledger','The gardeners’ ledger',3,4),text:'The first ledger lists repairs beside gifts of carrots, bread and seedlings. The waterworks belonged to the people who cared for it.'},
+    {...item('model','A model of the old watercourse',7,7),text:'Spring, channel, mill, garden. When the mill closed, the town opened its side channels again. Slow water and planted banks brought the insects back.'},
+    {...item('bell','Two clocks, one town',11,4),text:'A faded invitation: “Meet at noon, whichever clock you trust. Bring something to share.” A tradition worth keeping.'}],
+};
+
 export function getEntities(state) {
   const list = scenes[state.scene].entities.filter(entity => entity.type !== "rescue" || (state.stage === "morning" && !state.flags.rescued.includes(entity.id)));
   const visible = state.scene === "bedroom" && state.stage === "night" ? list.filter(entity => ["tank", "desk", "sleep"].includes(entity.id)) : list;
@@ -154,9 +183,10 @@ const contains = (rect, x, y) => rect && x >= rect[0] && y >= rect[1] && x < rec
 export function isBlocked(sceneId, x, y, state) {
   const scene = scenes[sceneId];
   if (!scene || !Number.isInteger(x) || !Number.isInteger(y)) return true;
-  const top = scene.style === "town" ? 1 : scene.style === "yard" ? 4 : 3;
+  const top = scene.map ? (sceneId === "yard" ? 4 : 1) : 3;
   if (x < 1 || x >= scene.w || y < top || y >= scene.h) return true;
-  if (scene.objects.some(object => contains(object.collision, x, y))) return true;
+  if (scene.map) { if (scene.map.solid.has(`${x},${y}`)) return true; }
+  else if (scene.objects.some(object => contains(object.collision, x, y))) return true;
   if (scene.style === "town" && buildings.some(building => contains(building.collision, x, y))) return true;
   return !!state && getEntities({ ...state, scene: sceneId }).some(entity => entity.type === "npc" && contains(entity.collision, x, y));
 }
@@ -193,8 +223,8 @@ export function transition(state, entity) {
   // from any shop/home places the player one cell below that same threshold.
   if (state.scene === "town") {
     const building = buildings.find(candidate => candidate.scene === previous);
-    if (building) { x = building.x + 3; y = building.y + 6; }
+    if (building) { x = building.doorX; y = building.doorY + 1; }
   }
-  state.player = { ...state.player, ...safeGridPosition(state.scene, x, y, state), facing: "down" };
+  state.player = { ...state.player, ...safeGridPosition(state.scene, x, y, state), facing: ["route","north"].includes(entity.id) ? "up" : "down" };
   if (!state.flags.visited.includes(state.scene)) state.flags.visited.push(state.scene);
 }

@@ -1,0 +1,13 @@
+# M1.W1 — Tile construction and living terrain
+
+Source revision: **pret/pokeemerald `5eff78649e7170a877b961ef0b3da13b81a16038`**. Inspected again for this implementation on 2026-10-07. This is source evidence, not a ROM/emulator capture and not testimony about the original artists' software.
+
+The existing [environment ledger](../../reference-data/EMERALD_ENVIRONMENT_RESEARCH.md) records primary General + secondary Petalburg reuse in Littleroot, Oldale and nearby routes, explicit collision/elevation, and 16×16 metatiles composed from two 2×2 sets of 8×8 references. Roof/wall centers and shared edge pieces allow whole buildings to be assembled from tiles. The layer selector determines how background pieces overlap object sprites. [Pinned renderer](https://github.com/pret/pokeemerald/blob/5eff78649e7170a877b961ef0b3da13b81a16038/src/field_camera.c#L225-L310).
+
+The General animation callback queues flower, water, shore and waterfall updates at different offsets within a 16-update cycle. Flower playback uses 0/1/0/2; water has eight source frames. Updating shared source tiles animates their repeated instances. These are verified source tables/callbacks, not a claim of measured emulator display phase. [Pinned animation source](https://github.com/pret/pokeemerald/blob/5eff78649e7170a877b961ef0b3da13b81a16038/src/tileset_anims.c#L554-L603).
+
+Grass has a distinct movement effect path: object spawning and the beginning of a step inspect the current metatile's behavior, then flag the appropriate tall/long-grass ground effect. This supports treating contacted grass separately from an ambient tileset loop. [Pinned step-effect source](https://github.com/pret/pokeemerald/blob/5eff78649e7170a877b961ef0b3da13b81a16038/src/event_object_movement.c#L6790-L6872).
+
+**Original Critz decisions:** 32×32 metatiles with 16×16 subtiles; one append-only atlas; four water phases with unchanged outer edge pixels; discrete flower-head sway; four grass contact states and a foreground blade pass; depth-sorted trees; independent authored collision. Water/flower holds use 16 existing source-derived simulation-tick seconds, but Critz's renderer uses foreground visual time and does not claim cycle-exact emulation. Its four water frames, wheel and fountain animation are original choices. Neither the atlas grouping nor the 47-shape adjacency authoring helper is claimed to be Emerald's original asset-production pipeline.
+
+New animations do not alter motion cadence, habitat clock rules, economy or encounter behavior. Wind shifts flower heads while stems remain rooted; tall grass reacts only at the player's contacted cell. The changing water remains contained within the authored banks, checked independently in the exported PNG.

@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.W1 — Playable northern overworld
+
+**Implemented and tested; publication in progress:** user-selected M1.E2 integration; Rootport → Mossway → Liarsville; tile-built architecture, water/cliffs, gardens/fences/fountains, hollow logs and living vegetation. Preserve story/save systems and complete collision, route, migration, browser and phone checks, then push/publish the exact tested build. New map/motion review follows delivery; no unrelated character self-approval.
+
+
 ## M1.C7 — Walks and living habitat review
 
 **Deliverable/checks complete; awaiting visual and motion review.** User explicitly authorizes animation of the M1.C6 appearances and three habitat types. [Collection](reviews/M1-C7/README.md): twelve characters in four directions, ten animated critters, aquarium/terrarium/paludarium close-ups and world props. Frozen source idles and Boy V1 front walk remain exact. Native GIF/PNG/editor/RLE checks pass. No gameplay integration or simulation is added; new directional anatomy and habitat layouts remain original review proposals. User feedback is the next action.
