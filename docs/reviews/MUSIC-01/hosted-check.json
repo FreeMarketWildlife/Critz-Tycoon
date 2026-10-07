@@ -1,0 +1,6 @@
+{
+  "deploymentVerification": "Native Sites deployment succeeded",
+  "directHttpProbe": "307 redirect on first requested private-site asset; no direct hosted playback or hash verification claimed",
+  "localReleasePlayback": "All 30 tracks decoded, played and sought successfully in isolated Chromium on exact clean dist build",
+  "physicalPhoneSafari": "Not tested"
+}

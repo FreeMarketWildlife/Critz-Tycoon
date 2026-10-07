@@ -1,0 +1,10 @@
+{
+  "source": "fbac3396a11111f377fb81fb4aeac91ed62e7756",
+  "matchedBuildFiles": 917,
+  "allBuildContentExact": true,
+  "additionalHostingManifest": true,
+  "additionalMacOSAppleDoubleEntries": 1002,
+  "archiveSha256": "eb8f6e59c861a9ac9ace913352062fbf17ae2c4fa6320f2bc269cda1c93433de",
+  "archiveBytes": 85745334,
+  "note": "Initial strict archive entry-count comparison flagged packager-added AppleDouble metadata and hosting manifest. All 917 tested build content files match byte-for-byte."
+}
