@@ -298,3 +298,77 @@ Fill Critz: Tycoon with discoverable, affectionate Easter eggs referencing succe
 - Aquarium Co-Op / Cory McElroy: https://www.aquariumcoop.com/blogs/meet-the-team/cory-mcelroy
 - Kamp Kenan: https://www.youtube.com/watch?v=KoYGHxFF7hI
 - Brian Barczyk / Reptarium and two-headed turtle: https://obits.mlive.com/news/brian-barczyk-1969-2024-tiktok-reptile-expert
+
+
+## IDEA-004 — Mobile MVP, one opening quest, enduring tank loop, Critter phone and hidden bases
+
+**State:** 2026-10-07 user-directed brainstorm captured; MVP scope below is a **rough proposal for review, not approved scope or implementation**. Existing source-of-truth, plan, milestone review gates, and gameplay remain unchanged.
+
+### MVP goal and story shape
+
+- Build a **single-player mobile app game**, with an emotionally meaningful **short opening story as Quest 1**, then an **open ending** that hands the player a lasting, repeatable game loop of tank care, ecological balance, upgrading and optimization.
+- Retain the established opening characters and beats: named boy/girl Hero; rival; Mom's tank-breaking incident; all escaped animals surviving; neighbor/friend Kaid gifting a 25-gallon starter tank and optionally lending $100; rescue and recovery. Keep Mom compassionate, and the medication mechanic clear and recoverable.
+- The primary product to validate is not a large quest campaign or an enormous RPG map: it is **the satisfaction of building and improving living habitats** and finding a reason to return after the quest concludes.
+
+### First-quest draft structure (proposal; details flexible)
+
+1. **Inciting incident:** Hero's established opening night scene; Mom's crisis; tanks broken; animals escape safely.
+2. **Help and recovery:** Kaid brings the gifted 25-gallon starter tank and offers the optional loan.
+3. **First playable goal:** retrieve at least the starter-compatible rescued critters, collect/buy a starter plant or substrate, restore suitable habitat conditions, and observe the tank improve.
+4. **Introduce caring and economy:** player encounters the store/pharmacy, earns a small amount through the rescue and/or a first Critter post, and learns Mom needs $20 medication every in-game week.
+5. **Social/phone onboarding:** receive phone/Critter access, name the tank, use Manage/Stats/View, publish an actual in-game tank post, and see the initial reward/progression.
+6. **Open-ended quest completion:** close the rescue chapter with a small story beat celebrating the new beginning. No credits or enforced win state: freely improve tanks, post progress, earn money and maintain family needs.
+
+The MVP must leave sufficient repeatable earnings to avoid an irreversible inability to afford medication, food or supplies. Resolve exactly how clocks run on mobile (active-play time, pauses, saves and offline passage).
+
+### Main tank gameplay: the nonnegotiable core
+
+- Support building/placing a tank, naming/renaming it, inspecting animals, choosing suitable plants and inhabitants, managing a few meaningful ecological variables, feeding/watering/cleaning as appropriate, and observing visible consequences.
+- The tank's existing **Manage / Stats / View** controls remain the top-level interaction.
+- Basic organism behavior and a small ecological model should produce **understandable cause and effect**, not arbitrary health numbers. The payoff is learning and increasingly **self-sustaining or appropriately automated** tank care (without unrealistic neglect of animals that require ongoing care).
+- Tank conditions and stored names/inventory/populations must persist reliably across play sessions.
+- Repeatable loop: observe problem/opportunity -> adjust ecosystem/supplies -> passage of time visibly changes habitat -> capture/post on Critter -> earn currency/progress -> buy supplies/tanks and repeat. Care and family needs remain meaningful resource sinks.
+
+### Bedroom tank-capacity rule and terminology
+
+- **Three tank slots maximum in the Hero's bedroom: one aquarium (aquatic), one terrarium (primarily terrestrial), and one paludarium (water + land).**
+- **Paludarium** is the clearest standard term for the mixed aquatic/terrestrial habitat the user describes. **Vivarium** is a broad umbrella term and may include terrariums, aquariums and paludariums; do **not** substitute "vivarium" for the mixed tank label.
+- Exact order, quests and cost to obtain the second/third tank, and whether each tank can house multiple compatible creatures, remain to be balanced.
+- The user envisions **unlocking hidden bases after occupying/obtaining all three bedroom tank types**.
+
+### Hidden bases and storage (future-looking design constraints)
+
+- Think **Pokémon Emerald Secret Bases**: player claims **one active hidden base at a time**, which can hold additional tanks beyond the three bedroom display slots.
+- Once the player fills all three bedroom tank types, unlock discovering/claiming a hidden base. **Base expansion** to fit more tanks is proposed later, not required for a first MVP unless validated as critical.
+- A player can **pack away an individual tank** with *all* of its exact state intact: tank name, type, size, terrain and decor, plants, inhabitants, stats/condition, populations, inventory/equipment, placement/layout, ownership, history and other per-tank data. Re-placing it must restore the same state losslessly. Packed tanks are **frozen**: their simulation clock does not advance, and contents are not silently changed or killed in storage.
+- Packed storage is not the same as owning a second active hidden base. Only one active claimed base at a time; changing base location and capacity rules TBD.
+- Future connected-friend feature: friends' hidden bases may appear as **visitable copies** in the player's own world, analogous to Emerald's mixed-record secret bases. This remains asynchronous social content, **not a shared real-time multiplayer world**; consider snapshots, privacy, data size and moderation.
+
+### Critter, friends, leaderboards and the in-game phone
+
+- Mobile app is **single-player at its simulation core**, with **online asynchronous social features**.
+- **Critter** is the in-game social-media application: post tank images/updates; browse own and friends' profiles/posts; discover/add friends; see **leaderboards via Critter**; entry point for social connections.
+- The **in-game phone** should consolidate UI: Critter, contacts/friends, a player-assigned **in-game phone number**, friend-to-friend texting, map, settings and expandable future apps. Think of it as the player's main navigation/management hub without cluttering the world.
+- Decide later whether the "phone number" is a generated in-world ID versus a real verified telephone number. Proposal: **fictional game ID only**, not the user's actual phone number.
+- The user's ideal includes real friend text messaging. This introduces online services, abuse controls, privacy, and especially child-safety requirements because protagonists are children and players may be minors. For a minimal launch, consider **preset in-game messages** or delayed full chat and friend-base sharing pending account architecture, moderation, blocking/reporting and legal review. Do not misrepresent mock or local features as live social services.
+- Leaderboards should reflect well-defined comparable tank/creative achievements rather than reward neglect or spam. Suggested metric candidates: habitat stability, research progress, ecosystem diversity within ethical compatibility, post engagement, and best improvement. Exact ranks/scoring/anti-cheat TBD.
+
+### Deliberately lean proposed MVP / later split
+
+**MVP candidate:** one short complete opening/rescue quest; one small explorable home/neighborhood and essential shops; robust **single aquarium or terrarium starter loop** with basic ecological interactions; tank names and saves; repeated care/earn/spend including Mom's weekly medicine; local Critter photo posting and an actual useful phone UI (Critter, map, settings); at least a minimal demonstration of progression toward the three bedroom types; *if real online launch is mandatory*, a backed leaderboard with accounts is its own required backend workstream.
+
+**Candidates for immediately after a successful core-loop MVP:** completing all **three** fully functional distinct tank ecosystems; hidden base ownership/extra tank space; freeze/pack/unpack; server-backed friends and visitable bases; friend text conversations and moderation; more creatures, shops, quests, detailed phone apps, tank automation, base expansion.
+
+**Alternative broader launch scope for the creator to decide:** all three bedroom tanks plus first hidden base and true asynchronous friend presence at release. This is a significantly larger online game than a pure tank-loop MVP. Do not quietly cut the user's stated long-term requirements; this is a sequencing proposal only.
+
+### Open decisions to ask during MVP review
+
+1. Must **all three** tank types and the first hidden base be playable on day one, or is one deep working tank enough to validate the core?
+2. Is the launch **online account + live leaderboard + friend connections** required, or can the earliest MVP use local Critter posts with online rollout later?
+3. Must full **player-to-player text messaging** ship on day one? If so, choose age-gating/moderation/reporting/privacy requirements before implementation.
+4. Can an opening rescued animal live in the starter tank, given appropriate species-specific habitat conditions? Which first ecosystem demonstrates the loop most convincingly?
+5. Should the weekly medication clock only advance during gameplay? Precisely what occurs when payment is missed, and how is a player guaranteed a route back into play?
+6. How deep must tank ecology/automation and how many animals/plants be for a fun, not merely demonstrative MVP?
+7. Are hidden bases real-time shared places or, as proposed, single-player snapshots of friends' bases?
+
+**Documentation only:** this captures direction without changing implementation scope or declaring visual reviews approved. Reconcile a chosen MVP with GAME_VISION.md and PROJECT_PLAN.md after user feedback.
