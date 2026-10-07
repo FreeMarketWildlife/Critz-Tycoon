@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## MUSIC.01 — Original 30-track soundtrack collection
+
+Latest user request authorizes a separate music-review extension: research Pokémon composition, write 30 distinct original Critz MIDI tracks with expressive synths and every requested emotion, and present all of them without questions. **Composition/export/player work complete; awaiting user listening review.** [MUSIC.01](reviews/MUSIC-01/README.md) contains all 30 tracks, matching audio, editable sources and actual validation. Musical future-place/battle cues are proposals, not new canon or gameplay. Keep the collection separate until the user chooses integration; no visual/movement review gate is self-approved. Exact next action: user listens and selects/refines tracks. Publication evidence belongs in PROJECT_STATUS.
+
 ## M1.E2 — Full overworld tile kit at Emerald 2×
 
 Latest user request authorizes the complete original terrain/building/garden kit as a review deliverable, superseding the older house/tree-only restriction. **Asset/checks delivered; awaiting user visual review.** [M1.E2 packet](reviews/M1-E2/README.md) includes one native master PNG, 385 named tile entries, full terrain/fence/hedge connections, genuinely modular building parts, editable source, Tiled metadata, assembly proofs and an interactive review. Source and native export checks pass; publication evidence is in PROJECT_STATUS. This does not approve the artwork, animate the kit, replace Rootport's layout, alter saves or silently integrate replacement gameplay art. Exact next action: user reviews this native revision; refine it before runtime integration or animation. Art direction belongs in ART_BIBLE.

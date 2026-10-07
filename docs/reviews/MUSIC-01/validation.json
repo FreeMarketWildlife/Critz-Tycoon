@@ -1,0 +1,609 @@
+{
+  "task": "MUSIC.01",
+  "tracks": 30,
+  "totalSeconds": 2876.165,
+  "allPass": true,
+  "method": "Parsed exported MIDI and independently decoded rendered MP3. Technical checks do not establish artistic approval or human listening.",
+  "tracksChecked": [
+    {
+      "id": 1,
+      "title": "A Tiny World, A New Beginning",
+      "notes": 1303,
+      "nonzeroBends": 680,
+      "velocityLevels": 63,
+      "leadRange": [
+        72,
+        90
+      ],
+      "seconds": 97.086,
+      "leadHash": "d5eddd067916cf54ed81a08498534451afa16c2163ae089e740c2aef4c0633c0",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.3,
+      "decodedPeak": 0.7676,
+      "stereoCorrelation": 0.983,
+      "bytes": 1554563
+    },
+    {
+      "id": 2,
+      "title": "Kitchen Light, Still On",
+      "notes": 1011,
+      "nonzeroBends": 545,
+      "velocityLevels": 53,
+      "leadRange": [
+        65,
+        77
+      ],
+      "seconds": 113.569,
+      "leadHash": "5a6978e2c932f983ee2e87b643eab8162b2313bc13a9f734b3ad17dd4cd3aadf",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.1,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7728,
+      "stereoCorrelation": 0.975,
+      "bytes": 1818289
+    },
+    {
+      "id": 3,
+      "title": "Pebble in a Pocket",
+      "notes": 1174,
+      "nonzeroBends": 869,
+      "velocityLevels": 62,
+      "leadRange": [
+        72,
+        84
+      ],
+      "seconds": 86.609,
+      "leadHash": "7f3a4bd75955bba8deaa81bca3318dee730f587147198b5e4292696b6b7da124",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.3,
+      "decodedPeak": 0.7653,
+      "stereoCorrelation": 0.985,
+      "bytes": 1386950
+    },
+    {
+      "id": 4,
+      "title": "Kaid Brought Tomorrow",
+      "notes": 1243,
+      "nonzeroBends": 819,
+      "velocityLevels": 62,
+      "leadRange": [
+        65,
+        79
+      ],
+      "seconds": 104.338,
+      "leadHash": "2e920ef9b781e716e8d98b77ca181a72822455f08deed16ac44b63092519acad",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -2.1,
+      "decodedPeak": 0.7878,
+      "stereoCorrelation": 0.979,
+      "bytes": 1670747
+    },
+    {
+      "id": 5,
+      "title": "Rootport Wakes Up",
+      "notes": 1189,
+      "nonzeroBends": 618,
+      "velocityLevels": 63,
+      "leadRange": [
+        70,
+        82
+      ],
+      "seconds": 93.834,
+      "leadHash": "ddaace07e7593d272fe369af1dbf642f1cc574ff2d68a6d1ed17373fba825bb8",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7755,
+      "stereoCorrelation": 0.985,
+      "bytes": 1502724
+    },
+    {
+      "id": 6,
+      "title": "Past the Last Mailbox",
+      "notes": 1208,
+      "nonzeroBends": 680,
+      "velocityLevels": 63,
+      "leadRange": [
+        69,
+        83
+      ],
+      "seconds": 79.322,
+      "leadHash": "4cfcd8f0fa4ddf459995c293327b7eecc9f3539bfcc86f16c5da53c179666d80",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.4,
+      "decodedPeak": 0.7517,
+      "stereoCorrelation": 0.986,
+      "bytes": 1270343
+    },
+    {
+      "id": 7,
+      "title": "Notebook Full of Wings",
+      "notes": 1098,
+      "nonzeroBends": 805,
+      "velocityLevels": 63,
+      "leadRange": [
+        70,
+        88
+      ],
+      "seconds": 137.494,
+      "leadHash": "59226d8fbdd6949c76368f6d4ff33658651b73e5cb9abbd08cb39b6bc0ab9ff9",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -1.9,
+      "decodedPeak": 0.8005,
+      "stereoCorrelation": 0.978,
+      "bytes": 2201139
+    },
+    {
+      "id": 8,
+      "title": "Button Takes the Scenic Route",
+      "notes": 995,
+      "nonzeroBends": 560,
+      "velocityLevels": 64,
+      "leadRange": [
+        75,
+        87
+      ],
+      "seconds": 76.133,
+      "leadHash": "b8dbe8f84f785223853551feb51fdb161c86778ea991abe5b1ff7b3331bdf7c0",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7736,
+      "stereoCorrelation": 0.98,
+      "bytes": 1219360
+    },
+    {
+      "id": 9,
+      "title": "Glow n\u2019 Blow",
+      "notes": 1606,
+      "nonzeroBends": 877,
+      "velocityLevels": 63,
+      "leadRange": [
+        74,
+        86
+      ],
+      "seconds": 90.8,
+      "leadHash": "49d74803ffd526c93c222f40e1a79013e7ee142d3f5e1628624145b8f79f8192",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.1,
+      "decodedPeak": 0.7621,
+      "stereoCorrelation": 0.983,
+      "bytes": 1453820
+    },
+    {
+      "id": 10,
+      "title": "A Rival, Not an Enemy",
+      "notes": 1587,
+      "nonzeroBends": 649,
+      "velocityLevels": 64,
+      "leadRange": [
+        76,
+        88
+      ],
+      "seconds": 82.8,
+      "leadHash": "5a575b3b70b980d5fcb667c31134bfd8f91baa1e0a97df784934d51999f3fabe",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7755,
+      "stereoCorrelation": 0.979,
+      "bytes": 1325932
+    },
+    {
+      "id": 11,
+      "title": "Rain Between the Houses",
+      "notes": 993,
+      "nonzeroBends": 533,
+      "velocityLevels": 54,
+      "leadRange": [
+        67,
+        81
+      ],
+      "seconds": 116.484,
+      "leadHash": "6c4a781b28b8b6ece30d91b68b40d763fba6147d05a7968ed1d884a7519d05b6",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7721,
+      "stereoCorrelation": 0.973,
+      "bytes": 1865101
+    },
+    {
+      "id": 12,
+      "title": "Every Little Life Is Still Here",
+      "notes": 809,
+      "nonzeroBends": 530,
+      "velocityLevels": 50,
+      "leadRange": [
+        68,
+        80
+      ],
+      "seconds": 79.943,
+      "leadHash": "fb15cb12b6de227420d3ca3bb8cdac6d5ae3abb500131e4e3face167f5ea9f99",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7719,
+      "stereoCorrelation": 0.969,
+      "bytes": 1280385
+    },
+    {
+      "id": 13,
+      "title": "Under the Floorboards",
+      "notes": 522,
+      "nonzeroBends": 667,
+      "velocityLevels": 54,
+      "leadRange": [
+        74,
+        84
+      ],
+      "seconds": 100.982,
+      "leadHash": "d40165c60dc50cbc3efbed9e9e67500ea349be46fc94ac239674b96fca4a6c32",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -15.9,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.77,
+      "stereoCorrelation": 0.97,
+      "bytes": 1616832
+    },
+    {
+      "id": 14,
+      "title": "The Water Is Rising",
+      "notes": 1733,
+      "nonzeroBends": 1092,
+      "velocityLevels": 58,
+      "leadRange": [
+        66,
+        80
+      ],
+      "seconds": 73.709,
+      "leadHash": "d2d5b3bdb5b7b1ef56584c918f33e6604f5f4624527eb5df59eead3513f98558",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.7,
+      "truePeakDb": -3.5,
+      "decodedPeak": 0.6649,
+      "stereoCorrelation": 0.989,
+      "bytes": 1180480
+    },
+    {
+      "id": 15,
+      "title": "Small Paws, Big Courage",
+      "notes": 1861,
+      "nonzeroBends": 569,
+      "velocityLevels": 56,
+      "leadRange": [
+        67,
+        81
+      ],
+      "seconds": 78.898,
+      "leadHash": "fc7b1dbfca184ad2a2bdaa693d26778a91beae11f70680d47c442132c8c44505",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.7,
+      "truePeakDb": -3.8,
+      "decodedPeak": 0.6441,
+      "stereoCorrelation": 0.989,
+      "bytes": 1263658
+    },
+    {
+      "id": 16,
+      "title": "No One Gets Left Behind",
+      "notes": 1839,
+      "nonzeroBends": 862,
+      "velocityLevels": 57,
+      "leadRange": [
+        70,
+        87
+      ],
+      "seconds": 88.279,
+      "leadHash": "5f3ce86e79768835583d9f91e823e8e58f74c02d0639ad6b87c96d759ff4af50",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.7,
+      "truePeakDb": -3.8,
+      "decodedPeak": 0.6304,
+      "stereoCorrelation": 0.988,
+      "bytes": 1413706
+    },
+    {
+      "id": 17,
+      "title": "We Did It, Together",
+      "notes": 1000,
+      "nonzeroBends": 576,
+      "velocityLevels": 56,
+      "leadRange": [
+        75,
+        93
+      ],
+      "seconds": 66.329,
+      "leadHash": "b027b101ff2594e29042e69532eb192c8479d1f0b6e333ca4821b88d6d1f6ef4",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.7,
+      "truePeakDb": -2.3,
+      "decodedPeak": 0.7594,
+      "stereoCorrelation": 0.988,
+      "bytes": 1062616
+    },
+    {
+      "id": 18,
+      "title": "Sorry Is a Beginning",
+      "notes": 795,
+      "nonzeroBends": 455,
+      "velocityLevels": 50,
+      "leadRange": [
+        61,
+        70
+      ],
+      "seconds": 95.371,
+      "leadHash": "6e3b8312e2b1352c3f9aedcb954394aa52552017cc716ba2c1d462672274c830",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.3,
+      "decodedPeak": 0.7702,
+      "stereoCorrelation": 0.952,
+      "bytes": 1526969
+    },
+    {
+      "id": 19,
+      "title": "New Leaves After Rain",
+      "notes": 1023,
+      "nonzeroBends": 717,
+      "velocityLevels": 66,
+      "leadRange": [
+        69,
+        85
+      ],
+      "seconds": 85.3,
+      "leadHash": "ee32abfbee9cbae70ac792f2b1c99bf503593f9b6e55a82d4cbfe19e6d092ef6",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -2.3,
+      "decodedPeak": 0.7633,
+      "stereoCorrelation": 0.973,
+      "bytes": 1366056
+    },
+    {
+      "id": 20,
+      "title": "Little Root, Living Universe",
+      "notes": 565,
+      "nonzeroBends": 529,
+      "velocityLevels": 43,
+      "leadRange": [
+        77,
+        93
+      ],
+      "seconds": 98.8,
+      "leadHash": "0eb09a02499b030e5d414e2cf8968b598701ed89aa1888540c4339f5000ec23a",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.7,
+      "truePeakDb": -3.4,
+      "decodedPeak": 0.6798,
+      "stereoCorrelation": 0.961,
+      "bytes": 1582148
+    },
+    {
+      "id": 21,
+      "title": "Midnight Tank Watch",
+      "notes": 952,
+      "nonzeroBends": 557,
+      "velocityLevels": 49,
+      "leadRange": [
+        62,
+        72
+      ],
+      "seconds": 122.8,
+      "leadHash": "555b96a0a60a11e0db0d534c0af0271b9d6fb5c57d1ae53b81c2b8665dd330f7",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.5,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7732,
+      "stereoCorrelation": 0.978,
+      "bytes": 1965826
+    },
+    {
+      "id": 22,
+      "title": "Critter, One Little Heart",
+      "notes": 1580,
+      "nonzeroBends": 1041,
+      "velocityLevels": 64,
+      "leadRange": [
+        76,
+        88
+      ],
+      "seconds": 92.292,
+      "leadHash": "1d3539f0e9acfeced83690530bf2ebf7626af458d12c2e50a5931f3540988687",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.776,
+      "stereoCorrelation": 0.979,
+      "bytes": 1478073
+    },
+    {
+      "id": 23,
+      "title": "Paper Boats to Liarsville",
+      "notes": 1023,
+      "nonzeroBends": 706,
+      "velocityLevels": 65,
+      "leadRange": [
+        69,
+        81
+      ],
+      "seconds": 82.0,
+      "leadHash": "e2b6ff5dae7d3d882e1f002011317e8a37e31619775418bbbe2693e0ea775110",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -3.3,
+      "decodedPeak": 0.6852,
+      "stereoCorrelation": 0.98,
+      "bytes": 1313397
+    },
+    {
+      "id": 24,
+      "title": "Bicycle Basket Sky",
+      "notes": 1415,
+      "nonzeroBends": 1196,
+      "velocityLevels": 64,
+      "leadRange": [
+        74,
+        86
+      ],
+      "seconds": 77.166,
+      "leadHash": "cf4b693f9a43354da3121ffa6aef3d965f7c059c81eccb7713411ec4ff49f687",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.3,
+      "truePeakDb": -2.1,
+      "decodedPeak": 0.7827,
+      "stereoCorrelation": 0.987,
+      "bytes": 1236068
+    },
+    {
+      "id": 25,
+      "title": "Footprints Where Nobody Went",
+      "notes": 887,
+      "nonzeroBends": 940,
+      "velocityLevels": 54,
+      "leadRange": [
+        69,
+        83
+      ],
+      "seconds": 117.694,
+      "leadHash": "e87d57d407f094a09f8283c3a796ec2dd6dbb0ed9da7ee6d95db246d296b8f1f",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -15.9,
+      "truePeakDb": -2.9,
+      "decodedPeak": 0.7163,
+      "stereoCorrelation": 0.981,
+      "bytes": 1884333
+    },
+    {
+      "id": 26,
+      "title": "Snow Globe Promise",
+      "notes": 749,
+      "nonzeroBends": 513,
+      "velocityLevels": 45,
+      "leadRange": [
+        66,
+        80
+      ],
+      "seconds": 81.824,
+      "leadHash": "91b58cc6bc1c2c5001c0885e8461c00ac2a88d64ad975ae14fe769c3c02cba83",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.8,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7746,
+      "stereoCorrelation": 0.973,
+      "bytes": 1310465
+    },
+    {
+      "id": 27,
+      "title": "Salt Air, No Hurry",
+      "notes": 1199,
+      "nonzeroBends": 610,
+      "velocityLevels": 45,
+      "leadRange": [
+        72,
+        82
+      ],
+      "seconds": 96.713,
+      "leadHash": "b6a877f3b9ee9e21c0ca6f094f824fcd6b842a9cbe9c2bee809611db23745378",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.6,
+      "truePeakDb": -2.0,
+      "decodedPeak": 0.7931,
+      "stereoCorrelation": 0.96,
+      "bytes": 1548701
+    },
+    {
+      "id": 28,
+      "title": "Porch Radio, Summer 2004",
+      "notes": 1017,
+      "nonzeroBends": 542,
+      "velocityLevels": 54,
+      "leadRange": [
+        75,
+        87
+      ],
+      "seconds": 119.557,
+      "leadHash": "7171e1c9374133972712a782294633316052c8f5a493ecb2eb3a69dec4227ca4",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.2,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7749,
+      "stereoCorrelation": 0.971,
+      "bytes": 1914004
+    },
+    {
+      "id": 29,
+      "title": "Fireflies Above the Filter",
+      "notes": 570,
+      "nonzeroBends": 451,
+      "velocityLevels": 43,
+      "leadRange": [
+        67,
+        81
+      ],
+      "seconds": 133.709,
+      "leadHash": "72ac391c8f833e79f19218a9846b0632196ec3b7ac5ab796adba4977d4efacf6",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.8,
+      "truePeakDb": -2.3,
+      "decodedPeak": 0.766,
+      "stereoCorrelation": 0.953,
+      "bytes": 2140540
+    },
+    {
+      "id": 30,
+      "title": "Tomorrow Has Your Name",
+      "notes": 1262,
+      "nonzeroBends": 736,
+      "velocityLevels": 57,
+      "leadRange": [
+        72,
+        90
+      ],
+      "seconds": 106.329,
+      "leadHash": "66970339d70a48c7a31cb29bde156ef5325596a7d8232a49117afdcd9f077be7",
+      "passMidi": true,
+      "passAudio": true,
+      "lufs": -16.4,
+      "truePeakDb": -2.2,
+      "decodedPeak": 0.7744,
+      "stereoCorrelation": 0.979,
+      "bytes": 1702514
+    }
+  ]
+}

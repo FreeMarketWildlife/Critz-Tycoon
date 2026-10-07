@@ -1,0 +1,173 @@
+{
+  "referenceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "method": "Mido source-file inspection, not original hardware playback or a listening test",
+  "files": [
+    {
+      "name": "mus_littleroot",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/sound/songs/midi/mus_littleroot.mid",
+      "sha256": "935ff859d90abd20c621dd8474e4604c18c258ef5b358d84fb361b7f5beb88c7",
+      "ppq": 24,
+      "tracks": 10,
+      "bpm": [
+        108.0
+      ],
+      "noteOn": 1166,
+      "pitchBends": 2,
+      "controllers": [
+        1,
+        7,
+        10,
+        20,
+        21,
+        29,
+        30
+      ],
+      "markers": [
+        "[",
+        "]"
+      ]
+    },
+    {
+      "name": "mus_route101",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/sound/songs/midi/mus_route101.mid",
+      "sha256": "c96d279c87f47ffa26137a0c9013f40140053c252e3dac3f3b0182e22158e85d",
+      "ppq": 24,
+      "tracks": 9,
+      "bpm": [
+        114.0
+      ],
+      "noteOn": 762,
+      "pitchBends": 29,
+      "controllers": [
+        1,
+        7,
+        10,
+        21,
+        29,
+        30
+      ],
+      "markers": [
+        "[",
+        "]"
+      ]
+    },
+    {
+      "name": "mus_route104",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/sound/songs/midi/mus_route104.mid",
+      "sha256": "bcc748dab4c8cfc41299c920aff644f3bc8df64d705eb2fee4f893b086f739f5",
+      "ppq": 24,
+      "tracks": 11,
+      "bpm": [
+        128.0,
+        128.0,
+        122.0,
+        120.0
+      ],
+      "noteOn": 1535,
+      "pitchBends": 9,
+      "controllers": [
+        1,
+        7,
+        10,
+        13,
+        20,
+        21,
+        29,
+        30
+      ],
+      "markers": [
+        "[",
+        "]"
+      ]
+    },
+    {
+      "name": "mus_abandoned_ship",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/sound/songs/midi/mus_abandoned_ship.mid",
+      "sha256": "1df391a2e47af125149deec3c984f73c64643f6b2d3adb41ebe1af1f510d20d0",
+      "ppq": 24,
+      "tracks": 9,
+      "bpm": [
+        100.0
+      ],
+      "noteOn": 642,
+      "pitchBends": 1,
+      "controllers": [
+        1,
+        7,
+        10,
+        21,
+        29,
+        30
+      ],
+      "markers": [
+        "[",
+        "]"
+      ]
+    },
+    {
+      "name": "mus_vs_wild",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/sound/songs/midi/mus_vs_wild.mid",
+      "sha256": "f3a7287af6fa8547e3bbfd36391aa41dd7ac0c367739174836a3993d2a908421",
+      "ppq": 24,
+      "tracks": 9,
+      "bpm": [
+        196.0
+      ],
+      "noteOn": 1058,
+      "pitchBends": 1,
+      "controllers": [
+        1,
+        7,
+        10,
+        21,
+        29,
+        30
+      ],
+      "markers": [
+        "[",
+        "]"
+      ]
+    },
+    {
+      "name": "mus_vs_rival",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/sound/songs/midi/mus_vs_rival.mid",
+      "sha256": "4a572d925a6579463625efb10ad890c5473394e8cd37e62295da4c71ac6185cf",
+      "ppq": 24,
+      "tracks": 9,
+      "bpm": [
+        196.0
+      ],
+      "noteOn": 1235,
+      "pitchBends": 4,
+      "controllers": [
+        1,
+        7,
+        10,
+        21,
+        29,
+        30
+      ],
+      "markers": [
+        "[",
+        "]"
+      ]
+    },
+    {
+      "name": "mus_heal",
+      "url": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/sound/songs/midi/mus_heal.mid",
+      "sha256": "d45a5966975fcc452c307354e2caee0e68134960f06fb5533e0dcd5577ccf740",
+      "ppq": 24,
+      "tracks": 5,
+      "bpm": [
+        132.0
+      ],
+      "noteOn": 33,
+      "pitchBends": 0,
+      "controllers": [
+        7,
+        10
+      ],
+      "markers": []
+    }
+  ]
+}

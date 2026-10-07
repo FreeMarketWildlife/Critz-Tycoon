@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Music review direction — MUSIC.01
+
+The user explicitly requests 30 original MIDI tracks with creative bending synths, strong emotional storytelling, Pokémon-informed research, wholesome nostalgia and optional lo-fi. The review collection uses memorable question/answer melodies, independent responding voices, varied meters/grooves, expressive pitch scoops, warm keys, glass/bubble tones and restrained ambience. Preserve the compassionate story: Mom's music is tender, animals survive, and battle/future-place cues remain labeled musical proposals. Never ship reference-game melodies, recordings or sound banks. MIDI performance data and the custom-synth audio are distinct deliverables; arbitrary MIDI playback will use different instruments. Technical checks do not replace the user's listening approval. [Research, original composition decisions and measured limits](reviews/MUSIC-01/RESEARCH.md) · [All 30 tracks](reviews/MUSIC-01/README.md). No gameplay soundtrack integration is authorized by delivery alone.
+
 ## Overworld master tileset — user update, M1.E2
 
 The user authorizes a full original overworld kit evoking Emerald's Littleroot/Oldale garden-town feeling: **water, cliffs, buildings made from tiles, fences, gardens and fountains**, at the established 2× linear budget. This supersedes the older house/tree-only restriction for this review task. It does not approve finished art or replace accepted gameplay artwork. [Review 01](reviews/M1-E2/README.md) awaits the user's visual response.
