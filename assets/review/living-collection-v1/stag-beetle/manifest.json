@@ -1,0 +1,53 @@
+{
+  "id": "critz.stag-beetle.motion.v1",
+  "slug": "stag-beetle",
+  "label": "Stag Beetle",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#263138",
+    "#536e69",
+    "#334c4c",
+    "#8aa78d",
+    "#c8ceb1"
+  ],
+  "source": "art/source/living-collection-v1/stag-beetle.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "e34d599642f55535c32734082deb1d7ee228e485bf0622e06f4a7372ee2fc386"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "ce674eeb12421e93f78802e2612b0218a4c947f77b24f5c2cfad8a583dfddbd2"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "e34d599642f55535c32734082deb1d7ee228e485bf0622e06f4a7372ee2fc386"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "e611c663bacc938319bb1c99f63020630d717354c7bd34caf81dcd6a6776c3a2"
+    }
+  ],
+  "idleRGBA": "e34d599642f55535c32734082deb1d7ee228e485bf0622e06f4a7372ee2fc386",
+  "stillSource": "art/source/idle-collection-v1/stag-beetle.sprite.json",
+  "role": "Future forest proposal",
+  "movement": "crawl/scuttle",
+  "notes": "Original top-down stag beetle proposal, distinct mandibles and split elytra."
+}

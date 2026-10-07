@@ -1,0 +1,157 @@
+{
+  "id": "critz.aunt-ember.motion.v1",
+  "slug": "aunt-ember",
+  "label": "Aunt Ember",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#594333",
+    "#3b3030",
+    "#795336",
+    "#28252b",
+    "#dfad49",
+    "#a87038",
+    "#b7c3bc",
+    "#f8f8f8",
+    "#f7edcc",
+    "#c48e4a",
+    "#784820",
+    "#7998a3",
+    "#506b82",
+    "#354b60",
+    "#92a9ae",
+    "#334956",
+    "#293849",
+    "#5e4937",
+    "#11111a"
+  ],
+  "source": "art/source/living-collection-v1/aunt-ember.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "879df0b47327fbf940050131bcd957c94b83866478dba8d5291fe5719eebf398"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "1d377f2ae764424175618899cd996f999cd802ef3e8525be6ec191e1a0910d0e"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "1388cefefd10c25d8d5e4a2e8f39db819b9feae0a6fb888a646c9d3c7d3dee41"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "1d377f2ae764424175618899cd996f999cd802ef3e8525be6ec191e1a0910d0e"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "7da9aa3968ca00de07be233c54ab12df87e9a6c8e7449aeaacef39787924789a"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "0c3a1d2dd798c9746171624dbd36384aef8291288bcf2cdc26dec79f83edca50"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "07557abba2783203e429d9f0652fd1fcb57ab6dc592746f9a2df1ba1ae394c93"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "0c3a1d2dd798c9746171624dbd36384aef8291288bcf2cdc26dec79f83edca50"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "30b65b28c9a3368dfbd2ef834253c1eee90587bd4f4e44c36576f32b0c187b9e"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "9e5b303324feda6515286d7ba95602647bec64273492893730d5afa1e401415a"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "c1422fdf61afd74875ed9b946a2dfc65094ce2432506f18573449f1ceb80f671"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "9e5b303324feda6515286d7ba95602647bec64273492893730d5afa1e401415a"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "ae5e2486c949aeae6c802ef00f495346d3f4ecac984767c36ff7575a26c2bad4"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "567725784c2263c9ca27ffe9ae05b39ea021808ea7cac64d69572ff79635777e"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "035abbe668f78655721f44d0dcc1e8a3811a5650b8db81fd2a18cb0d1e609e8c"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "567725784c2263c9ca27ffe9ae05b39ea021808ea7cac64d69572ff79635777e"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "1d377f2ae764424175618899cd996f999cd802ef3e8525be6ec191e1a0910d0e",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/aunt-ember.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

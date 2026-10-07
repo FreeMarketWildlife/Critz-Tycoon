@@ -1,0 +1,54 @@
+{
+  "id": "critz.tree-frog.motion.v1",
+  "slug": "tree-frog",
+  "label": "Tree Frog",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#203d30",
+    "#50a46e",
+    "#8bc77a",
+    "#dae6a0",
+    "#183326",
+    "#f2f6cd"
+  ],
+  "source": "art/source/living-collection-v1/tree-frog.sprite.json",
+  "ticks": [
+    14,
+    6,
+    10,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "a4abff3e82180cf937339dfb0d05c8323dea5cc7d24addf48c80976e66b56960"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "822b8acc61f545d4b9b7cdd74e1b3195832ccf747ef180b2dfc38671b7321cc0"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "a4abff3e82180cf937339dfb0d05c8323dea5cc7d24addf48c80976e66b56960"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "442bb9a9503a6480e314b4fad07024d5b6fe41cdc7b3910fcbc2228a1ee3b6d1"
+    }
+  ],
+  "idleRGBA": "a4abff3e82180cf937339dfb0d05c8323dea5cc7d24addf48c80976e66b56960",
+  "stillSource": "art/source/idle-collection-v1/tree-frog.sprite.json",
+  "role": "Future species proposal",
+  "movement": "hop",
+  "notes": "Optional future animal visual proposal; no habitat/gameplay claim."
+}

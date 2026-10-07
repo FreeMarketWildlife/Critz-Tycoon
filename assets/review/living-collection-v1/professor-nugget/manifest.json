@@ -1,0 +1,164 @@
+{
+  "id": "critz.professor-nugget.motion.v1",
+  "slug": "professor-nugget",
+  "label": "Professor Nugget",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#e4d09a",
+    "#bfab77",
+    "#3b5943",
+    "#78966b",
+    "#bcc3b9",
+    "#8b8159",
+    "#e1e3cf",
+    "#9aa6a4",
+    "#d29b68",
+    "#293445",
+    "#f8f8f8",
+    "#f7edcc",
+    "#edbb83",
+    "#ad714f",
+    "#c4c5af",
+    "#708661",
+    "#398f98",
+    "#9aa69a",
+    "#b9c4af",
+    "#c34d48",
+    "#6c6043",
+    "#514539",
+    "#11111a",
+    "#d2d7c8",
+    "#a8b4af",
+    "#798987"
+  ],
+  "source": "art/source/living-collection-v1/professor-nugget.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "a83541f78c215fa07e61712abff9500d4f063c8085f387b70f44118444efcbea"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "8409bb1904997fd3d68a17bfadc177aa5f83522b7556222dcfd9d27ee48ef190"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "8d9057b496f6446c3fbf196d76dea486597a3acecd1bb584fc4ed1a7a3c49b36"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "8409bb1904997fd3d68a17bfadc177aa5f83522b7556222dcfd9d27ee48ef190"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "a0e58041210c7afd237cab7bbaa917534fd06b874791e1599c92c156328d2449"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "da2316ba62320861c213674f24768f16f04ef39c362a48af5e9940856b529bd7"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "051fb4c925261a7c03468585d0f01a5cba71bdc9469b52200ae235f180064228"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "da2316ba62320861c213674f24768f16f04ef39c362a48af5e9940856b529bd7"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "afa48e135bc4ade0923da74bee29db5fde8e6f8ac2f024c81ee4d802d246ccec"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "771b72847173d6b2e8c9b99abc2d6cd1e7dc04eb3a74c7fd72a3295dde863e72"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "4d07c390c0194d1ee4fae447c6634c48cd643fe2f5559a6557a05e6b3bbd846c"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "771b72847173d6b2e8c9b99abc2d6cd1e7dc04eb3a74c7fd72a3295dde863e72"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "4fe7a80203edadb87c7d53b941e3e0150415cf18fb69aec5330089eb90802022"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "133bd293d84d2dd0de84d76ad14cfd9927929a3f265107ae5a36513e4930fe47"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "708fdd784e3404c9ab7053135517e0b1109c7f799b6c8f40c50b9fd6762c0fa9"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "133bd293d84d2dd0de84d76ad14cfd9927929a3f265107ae5a36513e4930fe47"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "8409bb1904997fd3d68a17bfadc177aa5f83522b7556222dcfd9d27ee48ef190",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/professor-nugget.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

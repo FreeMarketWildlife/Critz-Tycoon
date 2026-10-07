@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.C7 — Walks and living habitat review
+
+**Deliverable/checks complete; awaiting visual and motion review.** User explicitly authorizes animation of the M1.C6 appearances and three habitat types. [Collection](reviews/M1-C7/README.md): twelve characters in four directions, ten animated critters, aquarium/terrarium/paludarium close-ups and world props. Frozen source idles and Boy V1 front walk remain exact. Native GIF/PNG/editor/RLE checks pass. No gameplay integration or simulation is added; new directional anatomy and habitat layouts remain original review proposals. User feedback is the next action.
+
 ## MUSIC.01 — Original 30-track soundtrack collection
 
 Latest user request authorizes a separate music-review extension: research Pokémon composition, write 30 distinct original Critz MIDI tracks with expressive synths and every requested emotion, and present all of them without questions. **Composition/export/player work complete; awaiting user listening review.** [MUSIC.01](reviews/MUSIC-01/README.md) contains all 30 tracks, matching audio, editable sources and actual validation. Musical future-place/battle cues are proposals, not new canon or gameplay. Keep the collection separate until the user chooses integration; no visual/movement review gate is self-approved. Exact next action: user listens and selects/refines tracks. Publication evidence belongs in PROJECT_STATUS.

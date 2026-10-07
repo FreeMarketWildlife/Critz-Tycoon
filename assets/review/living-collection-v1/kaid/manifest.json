@@ -1,0 +1,156 @@
+{
+  "id": "critz.kaid.motion.v1",
+  "slug": "kaid",
+  "label": "Kaid",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#163a43",
+    "#e6f1d8",
+    "#a5d7d0",
+    "#69a9ae",
+    "#366d75",
+    "#f5c761",
+    "#df9f3a",
+    "#f7edcc",
+    "#201008",
+    "#b97c2d",
+    "#c4c5af",
+    "#94562c",
+    "#dca94d",
+    "#ad7735",
+    "#254465",
+    "#3b3030",
+    "#11111a",
+    "#e0e0e8",
+    "#dca444"
+  ],
+  "source": "art/source/living-collection-v1/kaid.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "879e798165e4082a276698e089fd5e05da216acf3023cb3209223ea72bc4be7b"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "5a0a4cf72db5f4cbce08c028632df7fac5d89aabd39ace789f0201b77dfef3d6"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "f45a5ee21002a8dcddf42996e50a84e275ca6485f1457b4905bd07b4dba8fcd0"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "5a0a4cf72db5f4cbce08c028632df7fac5d89aabd39ace789f0201b77dfef3d6"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "45801f3aebbff6a1ae8fdd61e55c1dad8daf1edbee5296f4cc937463419f147f"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "5be6181552344ea9694eb7ab370f0d37d1e6825c42ecd8f64c0b05119b498c65"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "c90390bb6b03168a8e54cdfbe414a9e73e6b6da014f0316cba3c97cd9be22227"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "5be6181552344ea9694eb7ab370f0d37d1e6825c42ecd8f64c0b05119b498c65"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "c0e7cd56542c6c64bc287fe22b3dffb6549033a673468a0e4123ba60156acd03"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "498f74455fda7abc2591854b5c702f85af80ed4a8fe7b7c8abeff2c39558fbba"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "a7e15d626c1c95a6d09ee95da43c24024a899557476ab8e8f4486f0db80ff289"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "498f74455fda7abc2591854b5c702f85af80ed4a8fe7b7c8abeff2c39558fbba"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "91e91fd8c1bea27468c6f8e9add191ea12be0c1a5f0046e1bef10d92c3abdd3a"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "0e8fda0ade2849887e59c4377e6a1691659f8efcc4074dfc54853d22257e7e45"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "6096831fe3ffc03eb6598971976bee5e1c7791e98d57722838d34134e638d9d1"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "0e8fda0ade2849887e59c4377e6a1691659f8efcc4074dfc54853d22257e7e45"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "5a0a4cf72db5f4cbce08c028632df7fac5d89aabd39ace789f0201b77dfef3d6",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/kaid.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

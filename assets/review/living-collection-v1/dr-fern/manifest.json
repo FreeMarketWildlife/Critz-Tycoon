@@ -1,0 +1,154 @@
+{
+  "id": "critz.dr-fern.motion.v1",
+  "slug": "dr-fern",
+  "label": "Dr. Fern",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#4a4554",
+    "#34333f",
+    "#28252b",
+    "#a87038",
+    "#f7edcc",
+    "#c48e4a",
+    "#784820",
+    "#c4c5af",
+    "#388d92",
+    "#b25f71",
+    "#c34d48",
+    "#245568",
+    "#304555",
+    "#11111a",
+    "#594333",
+    "#3b3030"
+  ],
+  "source": "art/source/living-collection-v1/dr-fern.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "df026e1c74a300d7309896aafff10f1146dbfd011ae41a66d5c6d6f05069082f"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "039cc3004b4425d733fc30cc7740e335750ad3e230a1ad8cd8a89a963925d7d2"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "7f4710d4825436bc25f9e6f35a7c5f1ddefe3b724eb1b2878495efc067c328c5"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "039cc3004b4425d733fc30cc7740e335750ad3e230a1ad8cd8a89a963925d7d2"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "aaa4609bb4a3aebf1aa36c6380cd99b92b875bc6b38aed134d5ddd052f85fed4"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "1a2675a7ee59f2c8861525384c0c74c62d60276168d07027b30de0aa48e17b9e"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "1ab49ebf52394b213b0875b027785e4f33d326b68cd357ab8868031b80f41bcc"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "1a2675a7ee59f2c8861525384c0c74c62d60276168d07027b30de0aa48e17b9e"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "bf185fe308e3fe5e17802d2d46aa70707f0c12dfc14e48c16ef7dfd353d4a22b"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "1f4efcd5e9ae7888f83aa83ad04cdb81b894213a93b467e863c4cf51def17ff5"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "219840c38a36809f93f898ecea99c55a345e654bc092f873388caf952ddcd71a"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "1f4efcd5e9ae7888f83aa83ad04cdb81b894213a93b467e863c4cf51def17ff5"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "1463372d7a22c2b5479ed583fd968cfd618d29f3957b16d0f5cdeadf693fdf02"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "aa51815052c83331fa3c2d12adac768b72b937a628aeb20790dcb44586c6f714"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "92fb53f0e7dfc738b79d72a30b58fda8fc26e727f486753716041928628ef4bf"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "aa51815052c83331fa3c2d12adac768b72b937a628aeb20790dcb44586c6f714"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "039cc3004b4425d733fc30cc7740e335750ad3e230a1ad8cd8a89a963925d7d2",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/dr-fern.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

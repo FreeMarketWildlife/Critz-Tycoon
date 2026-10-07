@@ -1,0 +1,53 @@
+{
+  "id": "critz.mangrove-crab.motion.v1",
+  "slug": "mangrove-crab",
+  "label": "Mangrove Crab",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#463340",
+    "#b35f49",
+    "#e9995e",
+    "#171d26",
+    "#f3c783"
+  ],
+  "source": "art/source/living-collection-v1/mangrove-crab.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "e8279105199f1e9263e02769fd68534b1960be503e5f854ae9efea003b7e1c2e"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "7f53bc60d5ab7d7e30f1a76a04bd0c67c974e859e3a0e2b93d621d9ae3ba4f7d"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "e8279105199f1e9263e02769fd68534b1960be503e5f854ae9efea003b7e1c2e"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "29352a40122259bbfde34b36f2328dbea5e85c51e036134633627c43be316a31"
+    }
+  ],
+  "idleRGBA": "e8279105199f1e9263e02769fd68534b1960be503e5f854ae9efea003b7e1c2e",
+  "stillSource": null,
+  "role": "New paludarium visual proposal",
+  "movement": "crawl/scuttle",
+  "notes": "Stylized amphibious crab study; not a precise species identification or salinity/housing recommendation."
+}

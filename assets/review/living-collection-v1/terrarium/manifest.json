@@ -1,0 +1,148 @@
+{
+  "id": "critz.terrarium.motion.v1",
+  "slug": "terrarium",
+  "label": "Woodland Terrarium",
+  "kind": "habitat",
+  "frame": [
+    192,
+    144
+  ],
+  "anchor": [
+    96,
+    144
+  ],
+  "palette": [
+    null,
+    "#173c42",
+    "#668c88",
+    "#182f31",
+    "#274e52",
+    "#cfede0",
+    "#3d5b49",
+    "#476f52",
+    "#453b2d",
+    "#755039",
+    "#75a5a0",
+    "#225744",
+    "#398361",
+    "#3b624a",
+    "#75b87b",
+    "#aad198",
+    "#a6774b",
+    "#59a46e",
+    "#25382c",
+    "#a0af5f",
+    "#d8d58c",
+    "#f8e8ae",
+    "#17251c",
+    "#7cbd7a",
+    "#b59755",
+    "#76a4a0",
+    "#425852",
+    "#9bab92",
+    "#657b76",
+    "#5b4835",
+    "#826447",
+    "#283b2c",
+    "#759d99",
+    "#896348",
+    "#e0c38a",
+    "#627247"
+  ],
+  "source": "art/source/living-collection-v1/terrarium.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "9e63467b055a2d0427a2a1da8426420a0a6c832fa1722b03bfcc25876d08521a"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "dbc1e7100a2b6a429202badcd0d9953149a44e00ea20d5f6d5f6a3ed3cea057a"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "952a79f4179fbfe700642f8540d5869c36cade2268dfe45adfc1152bebc75782"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "84f7e243b5080d4ef9fc1a26259362680f7ad0e733c3a5b309468e66d39a6bc2"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "ff73d32e473e21e753538c7ea3f45964211b7dad7e5c7c0077d1dfaf96c98339"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "566be8faa5abed2c2ecb51518845010620d7c7f0c2841ea94c2c6f84403eb1ea"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "952a79f4179fbfe700642f8540d5869c36cade2268dfe45adfc1152bebc75782"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "1453067d43a8db9c43f31d2fb5c3373e5225b47600020eca19046f8774dfc6ee"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "9e63467b055a2d0427a2a1da8426420a0a6c832fa1722b03bfcc25876d08521a"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "7ccf8279bbbb50292f999e3205e3343cd724605f4abedbe15fb9745102b2730d"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "155a922e1290963539684f24d717d3c9e6fff11e6ad454091e67b5ef4585da1c"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "cc444d34159f93f78aedc0c58887d8d7caffa1e606ddb5da6c1b9eec8335b584"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "7355f07f25eedc9a07ac70e515bf0af2590ce4efc13f4f0095762c8d1a9f5d41"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "90aff69b01b2f34cae1f4840bb012bd200da384c33f28b689730176cf15b01e9"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "155a922e1290963539684f24d717d3c9e6fff11e6ad454091e67b5ef4585da1c"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "b36940a429088cd03acc02c06958327ee3a9b67ddae3116251fffca6e1fe097e"
+    }
+  ],
+  "nativeCloseup": [
+    192,
+    144
+  ],
+  "worldProp": [
+    96,
+    96
+  ],
+  "featuredAnimal": "pebble-gecko",
+  "notes": "Original layered habitat art. One featured species per scene; schematic art, not a care specification or gallon-volume claim. No game simulation changes."
+}

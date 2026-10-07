@@ -1,0 +1,54 @@
+{
+  "id": "critz.cory-catfish.motion.v1",
+  "slug": "cory-catfish",
+  "label": "Cory Catfish",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#333f43",
+    "#c4ccc0",
+    "#eee3bb",
+    "#8d9c99",
+    "#182227",
+    "#657479"
+  ],
+  "source": "art/source/living-collection-v1/cory-catfish.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "056f67c7e784f6ac72d604e59586de8b0d4085c0542b63cb28a6c02f6b4d08ec"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "40312fa6d36bd662c2ca3fdb1bef2bc03f7977e5cb255db41c51262605d809d2"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "056f67c7e784f6ac72d604e59586de8b0d4085c0542b63cb28a6c02f6b4d08ec"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "28dcc777b4a871448ca9312370269537298c1d0858341f54293f6e18d3f94313"
+    }
+  ],
+  "idleRGBA": "056f67c7e784f6ac72d604e59586de8b0d4085c0542b63cb28a6c02f6b4d08ec",
+  "stillSource": null,
+  "role": "New aquarium visual proposal",
+  "movement": "swim",
+  "notes": "Original small bottom-swimmer study. Stylized observation scale; exact species/care requirements remain separate."
+}

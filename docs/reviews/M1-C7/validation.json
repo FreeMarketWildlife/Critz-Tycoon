@@ -1,0 +1,652 @@
+{
+  "task": "M1.C7",
+  "result": "pass",
+  "characterCount": 12,
+  "directionalWalkCycles": 48,
+  "critterCount": 10,
+  "animatedHabitatCount": 3,
+  "worldPropCount": 3,
+  "nativePNGCellsVerified": 1761280,
+  "decodedNativeGIFCellsVerified": 1761280,
+  "frontIdlesUnchanged": true,
+  "boyExistingFrontWalkUnchanged": true,
+  "checks": [
+    {
+      "slug": "hero-boy",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 18,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "hero-girl",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 14,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "professor-nugget",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 27,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "mom",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 17,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "kaid",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 19,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "rival-boy",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 15,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "rival-girl",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 16,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "aunt-ember",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 20,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "dr-fern",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 17,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "juniper",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 15,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "mina",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 20,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "ollie",
+      "frame": [
+        32,
+        64
+      ],
+      "frames": 16,
+      "paletteColors": 19,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "pebble-gecko",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 7,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "button-snail",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 7,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        300,
+        300,
+        300,
+        310
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "isopod",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 4,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "springtail",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 5,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        200,
+        70,
+        130,
+        100
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "tree-frog",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 6,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        230,
+        100,
+        170,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "cherry-shrimp",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 4,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "guppy",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 5,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "stag-beetle",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 5,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "mangrove-crab",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 5,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "cory-catfish",
+      "frame": [
+        32,
+        32
+      ],
+      "frames": 4,
+      "paletteColors": 6,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "connectedAllFrames": true
+    },
+    {
+      "slug": "aquarium",
+      "frame": [
+        192,
+        144
+      ],
+      "frames": 16,
+      "paletteColors": 37,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": "layered habitat"
+    },
+    {
+      "slug": "terrarium",
+      "frame": [
+        192,
+        144
+      ],
+      "frames": 16,
+      "paletteColors": 35,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": "layered habitat"
+    },
+    {
+      "slug": "paludarium",
+      "frame": [
+        192,
+        144
+      ],
+      "frames": 16,
+      "paletteColors": 37,
+      "pngAndEditorAndRLEExact": true,
+      "gifDecodedExact": true,
+      "gifDelaysMs": [
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130,
+        140,
+        130,
+        140,
+        130,
+        130
+      ],
+      "connectedAllFrames": "layered habitat"
+    }
+  ],
+  "limitations": [
+    "Original back/profile constructions require visual review; they are not reference-exact Emerald pose measurements.",
+    "Critter motion is stylized, not a biological gait measurement.",
+    "Gallery GIFs may share a reduced palette and normalized timing; individual native GIFs are verified exact.",
+    "Habitats are layered art demos with one featured species each; no care, gallon capacity or compatibility claim.",
+    "No runtime integration or deployment."
+  ]
+}

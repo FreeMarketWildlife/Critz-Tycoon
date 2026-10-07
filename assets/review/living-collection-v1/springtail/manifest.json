@@ -1,0 +1,53 @@
+{
+  "id": "critz.springtail.motion.v1",
+  "slug": "springtail",
+  "label": "Springtail",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#51544b",
+    "#e4e4c9",
+    "#b8bca4",
+    "#282e2a",
+    "#ffffe3"
+  ],
+  "source": "art/source/living-collection-v1/springtail.sprite.json",
+  "ticks": [
+    12,
+    4,
+    8,
+    6
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "cdad175a6c90907a3c55e8dce39f9e9b81c70a940642ad1dbf5b013fc42b82e3"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "466609c4a19f32570e36c9522375a29c206893d1b958120c606ac5669b2e8169"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "cdad175a6c90907a3c55e8dce39f9e9b81c70a940642ad1dbf5b013fc42b82e3"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "e3ad062730535f4ac4553402838558de1891cbc596329cfafa6bb15e90bfd51d"
+    }
+  ],
+  "idleRGBA": "cdad175a6c90907a3c55e8dce39f9e9b81c70a940642ad1dbf5b013fc42b82e3",
+  "stillSource": "art/source/idle-collection-v1/springtail.sprite.json",
+  "role": "Existing rescue · decomposer",
+  "movement": "hop",
+  "notes": "Observation-scale springtail. Deliberately tiny compared with other study frames; not drawn at true shared physical scale."
+}

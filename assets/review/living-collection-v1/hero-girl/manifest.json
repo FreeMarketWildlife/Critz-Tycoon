@@ -1,0 +1,151 @@
+{
+  "id": "critz.hero-girl.motion.v1",
+  "slug": "hero-girl",
+  "label": "Girl Hero",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#594333",
+    "#3b3030",
+    "#795336",
+    "#28252b",
+    "#fa8078",
+    "#c95662",
+    "#a87038",
+    "#f7edcc",
+    "#c48e4a",
+    "#784820",
+    "#184080",
+    "#11111a",
+    "#e0e0e8"
+  ],
+  "source": "art/source/living-collection-v1/hero-girl.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "8e83ff36d7b388fa0cbdc78b3ed22d6e33b1305c4efd0db78968185b3bbb6a3a"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "74e0e2c76b54ad01b87d08d7dad04dfc29a2b33c4096d842e70493fb549fff49"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "718151eb275661e8302376e33bf58ca11a2fb8cfa7302d500f5f61eafcd4b7e1"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "74e0e2c76b54ad01b87d08d7dad04dfc29a2b33c4096d842e70493fb549fff49"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "080143c8bca0aa097bc734d2155fd36e470f441dbc6959b2a02fdf65e78365d2"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "f2e23ccccf48911ad86882c3203a1aa6f7df4ebe3e8d94f86ac9735d3730cbcf"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "4ab96ddf06e97e28fc4cb9416cf5d8456c2d8f8febc8430b69c2be79e10b0d6e"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "f2e23ccccf48911ad86882c3203a1aa6f7df4ebe3e8d94f86ac9735d3730cbcf"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "46c4eb5d331fe47f3defa373644a55cc6395a73afc9f17806aad3a1623b3047f"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "bfbe5a282253c31bfc537bbe7de34af997ac3542c379cac890cccbdfa1d042c0"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "4887fc8ec9088d4b257708c6f0e6d36f4a6f9751abe6e9b2a6b4b8bf4db4d4bb"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "bfbe5a282253c31bfc537bbe7de34af997ac3542c379cac890cccbdfa1d042c0"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "4e725c112dfd269b80e6d5b5c10ff52682681800c8c2180010b3ea88bbee1f6f"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "c7ff46900aa8916cb6510b837df438de8b3af7f267272c6fbdd8d95a5ad69df5"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "a83f61a4a10fd870c98fdcde5549c1fa9c35a227bf817a290cdb27c8aa654335"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "c7ff46900aa8916cb6510b837df438de8b3af7f267272c6fbdd8d95a5ad69df5"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "74e0e2c76b54ad01b87d08d7dad04dfc29a2b33c4096d842e70493fb549fff49",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/hero-girl.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

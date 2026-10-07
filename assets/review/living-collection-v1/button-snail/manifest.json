@@ -1,0 +1,55 @@
+{
+  "id": "critz.button-snail.motion.v1",
+  "slug": "button-snail",
+  "label": "Button",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#25382c",
+    "#946443",
+    "#cf985f",
+    "#efd093",
+    "#17251c",
+    "#b5b789",
+    "#7a875f"
+  ],
+  "source": "art/source/living-collection-v1/button-snail.sprite.json",
+  "ticks": [
+    18,
+    18,
+    18,
+    18
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "d504d3297893a1426e3cb2fad22f361c4a00337b92de1d96be2b2f397d1f0d47"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "3965608d19c6a57a9e2a79e7285c88fa097b8fd0a2a0c2e07e3cbc01cb62bbe7"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "d504d3297893a1426e3cb2fad22f361c4a00337b92de1d96be2b2f397d1f0d47"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "914c6d1e469440a0bc23c9b884c53440029d7cfcb276a7f80963d1299c27d127"
+    }
+  ],
+  "idleRGBA": "d504d3297893a1426e3cb2fad22f361c4a00337b92de1d96be2b2f397d1f0d47",
+  "stillSource": "art/source/idle-collection-v1/button-snail.sprite.json",
+  "role": "Existing rescue · land snail",
+  "movement": "glide",
+  "notes": "Original profile snail with visible spiral shell and paired eyestalks."
+}

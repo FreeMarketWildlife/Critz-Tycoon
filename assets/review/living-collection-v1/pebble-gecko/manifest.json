@@ -1,0 +1,55 @@
+{
+  "id": "critz.pebble-gecko.motion.v1",
+  "slug": "pebble-gecko",
+  "label": "Pebble",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#25382c",
+    "#a0af5f",
+    "#d8d58c",
+    "#f8e8ae",
+    "#17251c",
+    "#b59755",
+    "#627247"
+  ],
+  "source": "art/source/living-collection-v1/pebble-gecko.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "de80e0137d17d4af2b0e9dbd1182b292e8a378a66ce3f1a1fab19efdd5a8d712"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "9bf3f2a5034491721e869975e7b8817621c8e1a929638fb296a5aacd726687cc"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "de80e0137d17d4af2b0e9dbd1182b292e8a378a66ce3f1a1fab19efdd5a8d712"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "cd6844c625ec0104f2768fd7d7b004ed7b13dca37ddfc6d159cdba0665db1c98"
+    }
+  ],
+  "idleRGBA": "de80e0137d17d4af2b0e9dbd1182b292e8a378a66ce3f1a1fab19efdd5a8d712",
+  "stillSource": "art/source/idle-collection-v1/pebble-gecko.sprite.json",
+  "role": "Existing rescue · gecko",
+  "movement": "crawl/scuttle",
+  "notes": "Original top-down gecko rescue study; curved segmented tail, splayed feet, warm olive/cream spots. Species identification beyond gecko is not asserted."
+}

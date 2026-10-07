@@ -1,0 +1,156 @@
+{
+  "id": "critz.ollie.motion.v1",
+  "slug": "ollie",
+  "label": "Ollie",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#cf8750",
+    "#ae613e",
+    "#edb268",
+    "#78442f",
+    "#3b3030",
+    "#28252b",
+    "#cd955e",
+    "#e5b47a",
+    "#996440",
+    "#f7edcc",
+    "#24646f",
+    "#358b95",
+    "#d4d4bd",
+    "#93afb2",
+    "#344159",
+    "#b56b45",
+    "#11111a",
+    "#594333"
+  ],
+  "source": "art/source/living-collection-v1/ollie.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "12664fd4d14d5dc42f189d91991c62d68214414fb304ab8f9490a76f2ce84e44"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "cdf1e2a0fd834cbfff7a2f74800a61b68363616bf78f2b617ce535ad19d3fd68"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "a148280929986ec42c6fa30ab66ba8d1c4532f91fa54dc6d94335ad021c3f72e"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "cdf1e2a0fd834cbfff7a2f74800a61b68363616bf78f2b617ce535ad19d3fd68"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "5d75efc8d6cf4b0e0f160a50cc65e1f104c4a35f37cf9f6633a897b797adacb3"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "35e34369270aac1e862b835a3d5567733be423cecbf6f6ff6ebcc6a90c12f403"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "c5779e6c65c7c2ef6460e82e497f92345858c5da9dbc3a576cfff4f07931b5b2"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "35e34369270aac1e862b835a3d5567733be423cecbf6f6ff6ebcc6a90c12f403"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "9a8722dceb5878a67bf2c2234554bf1228199d174b6f01da47326a68b36139a3"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "29fc91a9f5f9dff4c0bf1f81f76b0b155c7650aba761ab77f468f652c65b2012"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "8f87365b5c4c5e6d990ff1eb00c4e757bfa3c4359cf17cdadcac82297bfc938d"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "29fc91a9f5f9dff4c0bf1f81f76b0b155c7650aba761ab77f468f652c65b2012"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "38b01cc6365a92f5901a4675f7891f8cbbff97fbccb85f649b87f5eb0ba30e3f"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "90c1f50d239fccdb6c8b996a3caf1b4c48f0f4f8ffe9568ddd9acc3fa3403106"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "87ebdb7e77a221bf732ea8c01029b04d56cda7cde331c1d0e7d83cfc11f8f7d3"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "90c1f50d239fccdb6c8b996a3caf1b4c48f0f4f8ffe9568ddd9acc3fa3403106"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "cdf1e2a0fd834cbfff7a2f74800a61b68363616bf78f2b617ce535ad19d3fd68",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/ollie.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

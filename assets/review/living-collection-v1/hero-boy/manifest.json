@@ -1,0 +1,155 @@
+{
+  "id": "critz.hero-boy.motion.v1",
+  "slug": "hero-boy",
+  "label": "Boy Hero V1",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#11111a",
+    "#282830",
+    "#292532",
+    "#484850",
+    "#482810",
+    "#a87038",
+    "#784820",
+    "#eddfb5",
+    "#f8f8f8",
+    "#fc7858",
+    "#184080",
+    "#352e35",
+    "#e0e0e8",
+    "#594333",
+    "#3b3030",
+    "#28252b",
+    "#f7edcc"
+  ],
+  "source": "art/source/living-collection-v1/hero-boy.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "66ede54c3397c066a41f0d1bc97306fed2f4b582db319b8fc2aa9054b1fac875"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "5939b88c82b92cebb956bb75854b72b5dba7fad6561d57cda908bd87ed2f0ffd"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "42161ca7f73c2ac1e620d9407186f36668a8592806eeca0d64d291503cdc7b91"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "5939b88c82b92cebb956bb75854b72b5dba7fad6561d57cda908bd87ed2f0ffd"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "8ef26a93482932eb67050a26d50555a93015aba2f1d5f355b1a72635d6436d02"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "b5d15c79a0493e529ebd5bf39f41c6774cec9bf22cddbbe90e8050d83a00ec9b"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "9d3af3a476f563c8a6bd75502400067445060fc884d014ed4859b025f8d64be6"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "b5d15c79a0493e529ebd5bf39f41c6774cec9bf22cddbbe90e8050d83a00ec9b"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "50e3ec5150438eb43211ee05d5df3471fd7ee13564b15b2707dd95989b91172e"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "643064a098945d924b507361450d4622f7658da71116f8302c120929158534d0"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "321bc1e2db5f0c4e5926d9c0c3fe58260479a533b92158e761edd54a92d5a52b"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "643064a098945d924b507361450d4622f7658da71116f8302c120929158534d0"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "ae438524091b15186f1ef2c37d0b1dbbe220a5147b837a57f87e3bb3de600bbc"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "3c462d4410542d19a2310f0b2bc35faa27b0610e9973c544229a53cd9681985b"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "dae3532cd8982b8d071390f9407dbe96bac13d646ee2cd2cbd433c62572a9682"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "3c462d4410542d19a2310f0b2bc35faa27b0610e9973c544229a53cd9681985b"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "5939b88c82b92cebb956bb75854b72b5dba7fad6561d57cda908bd87ed2f0ffd",
+  "headBobPixels": 2,
+  "stillSource": "art/source/hero-boy-v1/idle.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

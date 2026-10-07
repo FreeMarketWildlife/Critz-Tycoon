@@ -1,0 +1,53 @@
+{
+  "id": "critz.guppy.motion.v1",
+  "slug": "guppy",
+  "label": "Guppy",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#283e5b",
+    "#518faf",
+    "#9ed4d3",
+    "#f5d395",
+    "#151c27"
+  ],
+  "source": "art/source/living-collection-v1/guppy.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "cfa8627b26980841dc188fbb9d51f9f6ea3c2892bd8675db9d97541ad5d789f2"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "09ccf4ae864dd4e10b3a746538c9526a5b94e0483149b86809b636360af5720c"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "cfa8627b26980841dc188fbb9d51f9f6ea3c2892bd8675db9d97541ad5d789f2"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "b2f081dd14f4278e2dd0a79f76d3e8013a087a7d360d36a5b4ff907b92fe093c"
+    }
+  ],
+  "idleRGBA": "cfa8627b26980841dc188fbb9d51f9f6ea3c2892bd8675db9d97541ad5d789f2",
+  "stillSource": "art/source/idle-collection-v1/guppy.sprite.json",
+  "role": "Future aquarium proposal",
+  "movement": "swim",
+  "notes": "Original fish profile proposal; this is a display-size study, not an aquarium species suitability recommendation."
+}

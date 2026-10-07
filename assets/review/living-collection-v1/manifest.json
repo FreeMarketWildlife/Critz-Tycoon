@@ -1,0 +1,2856 @@
+{
+  "schemaVersion": 1,
+  "id": "critz.living-collection.v1",
+  "task": "M1.C7",
+  "status": "awaiting-user-motion-and-habitat-review",
+  "runtimeIntegrated": false,
+  "characters": [
+    {
+      "id": "critz.hero-boy.motion.v1",
+      "slug": "hero-boy",
+      "label": "Boy Hero V1",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#11111a",
+        "#282830",
+        "#292532",
+        "#484850",
+        "#482810",
+        "#a87038",
+        "#784820",
+        "#eddfb5",
+        "#f8f8f8",
+        "#fc7858",
+        "#184080",
+        "#352e35",
+        "#e0e0e8",
+        "#594333",
+        "#3b3030",
+        "#28252b",
+        "#f7edcc"
+      ],
+      "source": "art/source/living-collection-v1/hero-boy.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "66ede54c3397c066a41f0d1bc97306fed2f4b582db319b8fc2aa9054b1fac875"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "5939b88c82b92cebb956bb75854b72b5dba7fad6561d57cda908bd87ed2f0ffd"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "42161ca7f73c2ac1e620d9407186f36668a8592806eeca0d64d291503cdc7b91"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "5939b88c82b92cebb956bb75854b72b5dba7fad6561d57cda908bd87ed2f0ffd"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "8ef26a93482932eb67050a26d50555a93015aba2f1d5f355b1a72635d6436d02"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "b5d15c79a0493e529ebd5bf39f41c6774cec9bf22cddbbe90e8050d83a00ec9b"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "9d3af3a476f563c8a6bd75502400067445060fc884d014ed4859b025f8d64be6"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "b5d15c79a0493e529ebd5bf39f41c6774cec9bf22cddbbe90e8050d83a00ec9b"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "50e3ec5150438eb43211ee05d5df3471fd7ee13564b15b2707dd95989b91172e"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "643064a098945d924b507361450d4622f7658da71116f8302c120929158534d0"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "321bc1e2db5f0c4e5926d9c0c3fe58260479a533b92158e761edd54a92d5a52b"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "643064a098945d924b507361450d4622f7658da71116f8302c120929158534d0"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "ae438524091b15186f1ef2c37d0b1dbbe220a5147b837a57f87e3bb3de600bbc"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "3c462d4410542d19a2310f0b2bc35faa27b0610e9973c544229a53cd9681985b"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "dae3532cd8982b8d071390f9407dbe96bac13d646ee2cd2cbd433c62572a9682"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "3c462d4410542d19a2310f0b2bc35faa27b0610e9973c544229a53cd9681985b"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "5939b88c82b92cebb956bb75854b72b5dba7fad6561d57cda908bd87ed2f0ffd",
+      "headBobPixels": 2,
+      "stillSource": "art/source/hero-boy-v1/idle.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.hero-girl.motion.v1",
+      "slug": "hero-girl",
+      "label": "Girl Hero",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#594333",
+        "#3b3030",
+        "#795336",
+        "#28252b",
+        "#fa8078",
+        "#c95662",
+        "#a87038",
+        "#f7edcc",
+        "#c48e4a",
+        "#784820",
+        "#184080",
+        "#11111a",
+        "#e0e0e8"
+      ],
+      "source": "art/source/living-collection-v1/hero-girl.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "8e83ff36d7b388fa0cbdc78b3ed22d6e33b1305c4efd0db78968185b3bbb6a3a"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "74e0e2c76b54ad01b87d08d7dad04dfc29a2b33c4096d842e70493fb549fff49"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "718151eb275661e8302376e33bf58ca11a2fb8cfa7302d500f5f61eafcd4b7e1"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "74e0e2c76b54ad01b87d08d7dad04dfc29a2b33c4096d842e70493fb549fff49"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "080143c8bca0aa097bc734d2155fd36e470f441dbc6959b2a02fdf65e78365d2"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "f2e23ccccf48911ad86882c3203a1aa6f7df4ebe3e8d94f86ac9735d3730cbcf"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "4ab96ddf06e97e28fc4cb9416cf5d8456c2d8f8febc8430b69c2be79e10b0d6e"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "f2e23ccccf48911ad86882c3203a1aa6f7df4ebe3e8d94f86ac9735d3730cbcf"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "46c4eb5d331fe47f3defa373644a55cc6395a73afc9f17806aad3a1623b3047f"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "bfbe5a282253c31bfc537bbe7de34af997ac3542c379cac890cccbdfa1d042c0"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "4887fc8ec9088d4b257708c6f0e6d36f4a6f9751abe6e9b2a6b4b8bf4db4d4bb"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "bfbe5a282253c31bfc537bbe7de34af997ac3542c379cac890cccbdfa1d042c0"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "4e725c112dfd269b80e6d5b5c10ff52682681800c8c2180010b3ea88bbee1f6f"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "c7ff46900aa8916cb6510b837df438de8b3af7f267272c6fbdd8d95a5ad69df5"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "a83f61a4a10fd870c98fdcde5549c1fa9c35a227bf817a290cdb27c8aa654335"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "c7ff46900aa8916cb6510b837df438de8b3af7f267272c6fbdd8d95a5ad69df5"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "74e0e2c76b54ad01b87d08d7dad04dfc29a2b33c4096d842e70493fb549fff49",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/hero-girl.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.professor-nugget.motion.v1",
+      "slug": "professor-nugget",
+      "label": "Professor Nugget",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#e4d09a",
+        "#bfab77",
+        "#3b5943",
+        "#78966b",
+        "#bcc3b9",
+        "#8b8159",
+        "#e1e3cf",
+        "#9aa6a4",
+        "#d29b68",
+        "#293445",
+        "#f8f8f8",
+        "#f7edcc",
+        "#edbb83",
+        "#ad714f",
+        "#c4c5af",
+        "#708661",
+        "#398f98",
+        "#9aa69a",
+        "#b9c4af",
+        "#c34d48",
+        "#6c6043",
+        "#514539",
+        "#11111a",
+        "#d2d7c8",
+        "#a8b4af",
+        "#798987"
+      ],
+      "source": "art/source/living-collection-v1/professor-nugget.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "a83541f78c215fa07e61712abff9500d4f063c8085f387b70f44118444efcbea"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "8409bb1904997fd3d68a17bfadc177aa5f83522b7556222dcfd9d27ee48ef190"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "8d9057b496f6446c3fbf196d76dea486597a3acecd1bb584fc4ed1a7a3c49b36"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "8409bb1904997fd3d68a17bfadc177aa5f83522b7556222dcfd9d27ee48ef190"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "a0e58041210c7afd237cab7bbaa917534fd06b874791e1599c92c156328d2449"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "da2316ba62320861c213674f24768f16f04ef39c362a48af5e9940856b529bd7"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "051fb4c925261a7c03468585d0f01a5cba71bdc9469b52200ae235f180064228"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "da2316ba62320861c213674f24768f16f04ef39c362a48af5e9940856b529bd7"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "afa48e135bc4ade0923da74bee29db5fde8e6f8ac2f024c81ee4d802d246ccec"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "771b72847173d6b2e8c9b99abc2d6cd1e7dc04eb3a74c7fd72a3295dde863e72"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "4d07c390c0194d1ee4fae447c6634c48cd643fe2f5559a6557a05e6b3bbd846c"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "771b72847173d6b2e8c9b99abc2d6cd1e7dc04eb3a74c7fd72a3295dde863e72"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "4fe7a80203edadb87c7d53b941e3e0150415cf18fb69aec5330089eb90802022"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "133bd293d84d2dd0de84d76ad14cfd9927929a3f265107ae5a36513e4930fe47"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "708fdd784e3404c9ab7053135517e0b1109c7f799b6c8f40c50b9fd6762c0fa9"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "133bd293d84d2dd0de84d76ad14cfd9927929a3f265107ae5a36513e4930fe47"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "8409bb1904997fd3d68a17bfadc177aa5f83522b7556222dcfd9d27ee48ef190",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/professor-nugget.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.mom.motion.v1",
+      "slug": "mom",
+      "label": "Mom",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#4d414e",
+        "#3b3030",
+        "#64545e",
+        "#28252b",
+        "#dfad49",
+        "#a67436",
+        "#a87038",
+        "#f7edcc",
+        "#c48e4a",
+        "#784820",
+        "#ba7082",
+        "#87465e",
+        "#30476a",
+        "#67464f",
+        "#11111a",
+        "#594333"
+      ],
+      "source": "art/source/living-collection-v1/mom.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "92262fe4e4c79451ae38504bcf0c97d2bcc34256b0cab5b9b1e93b54d0318505"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "3946e001495142a30e1449e187de8ed98c6d59c43cadcb009af5f6ca32786470"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "51f5eaa63cd5d7945192257709716cec0997e4d09398d9acb4fc2a669102d6a3"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "3946e001495142a30e1449e187de8ed98c6d59c43cadcb009af5f6ca32786470"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "41686eaebe2f3eee6a334b8bd3b2473482a18c0640881bf0de5b43f599a6d39c"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "9ea7ada6493228103a28813ca6ed068b51acd15eaed3f62caa98167f4358d509"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "71c202a5fee25e0b51928315d1eadfc7670cdc12812776824ca8803aee99acba"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "9ea7ada6493228103a28813ca6ed068b51acd15eaed3f62caa98167f4358d509"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "f6dceb8126f46606f0b35ad7df852c705b210f3b197f05a0a11d805ddc1cd2a0"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "cfe149ea87a0fa16677959e7ee19a3bb18097f7d4b94142f32529ab221aebd57"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "afcaf73c5402fe309d7f3ee594557272f2a5af5d0d2cb04bbb3c6c206f5e450f"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "cfe149ea87a0fa16677959e7ee19a3bb18097f7d4b94142f32529ab221aebd57"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "afa818f5b465223734a6c4a5b0584b895100528b3cf74ea714139a4cf9fb8c24"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "07980afd7129d64795e74e83097b2a19b76bef27c97175b6c110130195e8ba32"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "32982c7091cee0376d6485fd3943d0e323ac12743c14699bda3417230b8312c6"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "07980afd7129d64795e74e83097b2a19b76bef27c97175b6c110130195e8ba32"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "3946e001495142a30e1449e187de8ed98c6d59c43cadcb009af5f6ca32786470",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/mom.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.kaid.motion.v1",
+      "slug": "kaid",
+      "label": "Kaid",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#163a43",
+        "#e6f1d8",
+        "#a5d7d0",
+        "#69a9ae",
+        "#366d75",
+        "#f5c761",
+        "#df9f3a",
+        "#f7edcc",
+        "#201008",
+        "#b97c2d",
+        "#c4c5af",
+        "#94562c",
+        "#dca94d",
+        "#ad7735",
+        "#254465",
+        "#3b3030",
+        "#11111a",
+        "#e0e0e8",
+        "#dca444"
+      ],
+      "source": "art/source/living-collection-v1/kaid.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "879e798165e4082a276698e089fd5e05da216acf3023cb3209223ea72bc4be7b"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "5a0a4cf72db5f4cbce08c028632df7fac5d89aabd39ace789f0201b77dfef3d6"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "f45a5ee21002a8dcddf42996e50a84e275ca6485f1457b4905bd07b4dba8fcd0"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "5a0a4cf72db5f4cbce08c028632df7fac5d89aabd39ace789f0201b77dfef3d6"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "45801f3aebbff6a1ae8fdd61e55c1dad8daf1edbee5296f4cc937463419f147f"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "5be6181552344ea9694eb7ab370f0d37d1e6825c42ecd8f64c0b05119b498c65"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "c90390bb6b03168a8e54cdfbe414a9e73e6b6da014f0316cba3c97cd9be22227"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "5be6181552344ea9694eb7ab370f0d37d1e6825c42ecd8f64c0b05119b498c65"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "c0e7cd56542c6c64bc287fe22b3dffb6549033a673468a0e4123ba60156acd03"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "498f74455fda7abc2591854b5c702f85af80ed4a8fe7b7c8abeff2c39558fbba"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "a7e15d626c1c95a6d09ee95da43c24024a899557476ab8e8f4486f0db80ff289"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "498f74455fda7abc2591854b5c702f85af80ed4a8fe7b7c8abeff2c39558fbba"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "91e91fd8c1bea27468c6f8e9add191ea12be0c1a5f0046e1bef10d92c3abdd3a"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "0e8fda0ade2849887e59c4377e6a1691659f8efcc4074dfc54853d22257e7e45"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "6096831fe3ffc03eb6598971976bee5e1c7791e98d57722838d34134e638d9d1"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "0e8fda0ade2849887e59c4377e6a1691659f8efcc4074dfc54853d22257e7e45"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "5a0a4cf72db5f4cbce08c028632df7fac5d89aabd39ace789f0201b77dfef3d6",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/kaid.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.rival-boy.motion.v1",
+      "slug": "rival-boy",
+      "label": "Boy Rival",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#594333",
+        "#795336",
+        "#3b3030",
+        "#28252b",
+        "#a87038",
+        "#c48e4a",
+        "#784820",
+        "#f7edcc",
+        "#d7a541",
+        "#aa7936",
+        "#363e54",
+        "#b2925a",
+        "#11111a",
+        "#e0e0e8"
+      ],
+      "source": "art/source/living-collection-v1/rival-boy.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "50d074db80f621abeaa474275b195257e5348d96f5c448e1dc9e41b78d47b093"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "26d5524c75724a60a3c09f0abbc9a1d04926b8f411310ed2a8cb09693ea5c3b3"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "a7044b39aff9616dc925c9e731b1a752a7a19f8c8a91044b813f8f124783c8e1"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "26d5524c75724a60a3c09f0abbc9a1d04926b8f411310ed2a8cb09693ea5c3b3"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "c696564cc767ac0c1e4f891f06e8ed9c9ead418909436095a8fd5a6f87ba84ca"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "e909046ab37a173c69ffb1457bb817b3497a36d9b491d16ec9d8e2c45ef08d08"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "3ae2bc92a92ecdea7bb67859dac04bf7d91dc574a3a3c061e16a63f157325c9c"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "e909046ab37a173c69ffb1457bb817b3497a36d9b491d16ec9d8e2c45ef08d08"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "5b1c86bd5637c01c59215a1d14e1b9d821cede1fe850073a284cc2cb48925843"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "fd9295e595796bea38ddfcf727d2ccb8a5443a0a2a7ea0605a138c5e683c581d"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "af2c1ea4fa167642aac70fdeb3bd8913f191c1217dd595bd4ce6f15f998b139a"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "fd9295e595796bea38ddfcf727d2ccb8a5443a0a2a7ea0605a138c5e683c581d"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "d139a5c1506b383772f2fe6f20d8d978193f916d9dcf579c093c18266c65bb1d"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "74e9118a26dd16eb534d7e650ad76258ef5412a33502f8a822abee69bf9490c3"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "d103f20f04def8519d79e03a274f129cd38c9e384bf2c202aaa86c4607aa1053"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "74e9118a26dd16eb534d7e650ad76258ef5412a33502f8a822abee69bf9490c3"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "26d5524c75724a60a3c09f0abbc9a1d04926b8f411310ed2a8cb09693ea5c3b3",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/rival-boy.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.rival-girl.motion.v1",
+      "slug": "rival-girl",
+      "label": "Girl Rival",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#594333",
+        "#3b3030",
+        "#9688bd",
+        "#28252b",
+        "#ded4ed",
+        "#bdb0d7",
+        "#a87038",
+        "#f7edcc",
+        "#c48e4a",
+        "#784820",
+        "#786eaf",
+        "#504b7e",
+        "#314665",
+        "#11111a",
+        "#e0e0e8"
+      ],
+      "source": "art/source/living-collection-v1/rival-girl.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "8be567fb604f676c862d4674f7b2e7e64da59140f864ffdbf69d2da65e027dfa"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "fc10c8ce2052158c138479312944835f89b002f431533babc4268dbcb0b3b9af"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "d6f636c35d994d0718e167845f12d1a1c170dc2fe4bc3cf92d5f005d7fc2bc36"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "fc10c8ce2052158c138479312944835f89b002f431533babc4268dbcb0b3b9af"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "135a0e5fce61d0738a654113ad29eec3a74a403cd6909fa6a7491a03b23a809f"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "1669a8dab19e5d7b088863b171cb6869f57bc879698286acf34bba8a9d9828c4"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "c0235088b9f6a5df2f1908368fc1cf6a6fb965cb2ef62f6f47020360791d1cde"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "1669a8dab19e5d7b088863b171cb6869f57bc879698286acf34bba8a9d9828c4"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "f20d8a92133e60f532d83f6b0e3ea71b3e871f1c18674c8aa594659a63d7b0e7"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "41a95425f1b424a17a5dc475f5589716d27b2b8e8f48a7703651e5435f9c6cf9"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "dfcbb56b3740d6dd4325c633bfa91f6dcdf3f7c3d4a2a0bd8c4868ff2ea5073b"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "41a95425f1b424a17a5dc475f5589716d27b2b8e8f48a7703651e5435f9c6cf9"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "e57b63ad1818c9e8f77dd01cd071e30e7292c6524bc2073d42c1e60b5d9bcbe2"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "f3398bcdfcf3f0c0d22c6a22d8185a9348496b69b76a510038b2aa124fec6bcd"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "da284a941dad37b6c657bf6c219ef4fe7ffee5d3b2e0a82e32237d28ca3709e9"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "f3398bcdfcf3f0c0d22c6a22d8185a9348496b69b76a510038b2aa124fec6bcd"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "fc10c8ce2052158c138479312944835f89b002f431533babc4268dbcb0b3b9af",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/rival-girl.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.aunt-ember.motion.v1",
+      "slug": "aunt-ember",
+      "label": "Aunt Ember",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#594333",
+        "#3b3030",
+        "#795336",
+        "#28252b",
+        "#dfad49",
+        "#a87038",
+        "#b7c3bc",
+        "#f8f8f8",
+        "#f7edcc",
+        "#c48e4a",
+        "#784820",
+        "#7998a3",
+        "#506b82",
+        "#354b60",
+        "#92a9ae",
+        "#334956",
+        "#293849",
+        "#5e4937",
+        "#11111a"
+      ],
+      "source": "art/source/living-collection-v1/aunt-ember.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "879df0b47327fbf940050131bcd957c94b83866478dba8d5291fe5719eebf398"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "1d377f2ae764424175618899cd996f999cd802ef3e8525be6ec191e1a0910d0e"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "1388cefefd10c25d8d5e4a2e8f39db819b9feae0a6fb888a646c9d3c7d3dee41"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "1d377f2ae764424175618899cd996f999cd802ef3e8525be6ec191e1a0910d0e"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "7da9aa3968ca00de07be233c54ab12df87e9a6c8e7449aeaacef39787924789a"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "0c3a1d2dd798c9746171624dbd36384aef8291288bcf2cdc26dec79f83edca50"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "07557abba2783203e429d9f0652fd1fcb57ab6dc592746f9a2df1ba1ae394c93"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "0c3a1d2dd798c9746171624dbd36384aef8291288bcf2cdc26dec79f83edca50"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "30b65b28c9a3368dfbd2ef834253c1eee90587bd4f4e44c36576f32b0c187b9e"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "9e5b303324feda6515286d7ba95602647bec64273492893730d5afa1e401415a"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "c1422fdf61afd74875ed9b946a2dfc65094ce2432506f18573449f1ceb80f671"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "9e5b303324feda6515286d7ba95602647bec64273492893730d5afa1e401415a"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "ae5e2486c949aeae6c802ef00f495346d3f4ecac984767c36ff7575a26c2bad4"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "567725784c2263c9ca27ffe9ae05b39ea021808ea7cac64d69572ff79635777e"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "035abbe668f78655721f44d0dcc1e8a3811a5650b8db81fd2a18cb0d1e609e8c"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "567725784c2263c9ca27ffe9ae05b39ea021808ea7cac64d69572ff79635777e"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "1d377f2ae764424175618899cd996f999cd802ef3e8525be6ec191e1a0910d0e",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/aunt-ember.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.dr-fern.motion.v1",
+      "slug": "dr-fern",
+      "label": "Dr. Fern",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#4a4554",
+        "#34333f",
+        "#28252b",
+        "#a87038",
+        "#f7edcc",
+        "#c48e4a",
+        "#784820",
+        "#c4c5af",
+        "#388d92",
+        "#b25f71",
+        "#c34d48",
+        "#245568",
+        "#304555",
+        "#11111a",
+        "#594333",
+        "#3b3030"
+      ],
+      "source": "art/source/living-collection-v1/dr-fern.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "df026e1c74a300d7309896aafff10f1146dbfd011ae41a66d5c6d6f05069082f"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "039cc3004b4425d733fc30cc7740e335750ad3e230a1ad8cd8a89a963925d7d2"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "7f4710d4825436bc25f9e6f35a7c5f1ddefe3b724eb1b2878495efc067c328c5"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "039cc3004b4425d733fc30cc7740e335750ad3e230a1ad8cd8a89a963925d7d2"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "aaa4609bb4a3aebf1aa36c6380cd99b92b875bc6b38aed134d5ddd052f85fed4"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "1a2675a7ee59f2c8861525384c0c74c62d60276168d07027b30de0aa48e17b9e"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "1ab49ebf52394b213b0875b027785e4f33d326b68cd357ab8868031b80f41bcc"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "1a2675a7ee59f2c8861525384c0c74c62d60276168d07027b30de0aa48e17b9e"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "bf185fe308e3fe5e17802d2d46aa70707f0c12dfc14e48c16ef7dfd353d4a22b"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "1f4efcd5e9ae7888f83aa83ad04cdb81b894213a93b467e863c4cf51def17ff5"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "219840c38a36809f93f898ecea99c55a345e654bc092f873388caf952ddcd71a"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "1f4efcd5e9ae7888f83aa83ad04cdb81b894213a93b467e863c4cf51def17ff5"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "1463372d7a22c2b5479ed583fd968cfd618d29f3957b16d0f5cdeadf693fdf02"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "aa51815052c83331fa3c2d12adac768b72b937a628aeb20790dcb44586c6f714"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "92fb53f0e7dfc738b79d72a30b58fda8fc26e727f486753716041928628ef4bf"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "aa51815052c83331fa3c2d12adac768b72b937a628aeb20790dcb44586c6f714"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "039cc3004b4425d733fc30cc7740e335750ad3e230a1ad8cd8a89a963925d7d2",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/dr-fern.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.juniper.motion.v1",
+      "slug": "juniper",
+      "label": "Juniper",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#594333",
+        "#795336",
+        "#3b3030",
+        "#28252b",
+        "#bf8756",
+        "#dea871",
+        "#885331",
+        "#f7edcc",
+        "#69895d",
+        "#45664f",
+        "#d8d6a0",
+        "#344564",
+        "#755437",
+        "#11111a"
+      ],
+      "source": "art/source/living-collection-v1/juniper.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "0c933852960c60b8419b8360a2b3e58dabb5e70db35418722ca754c84357ef0b"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "d20faf267038de0783cdf0b5825a560f2a7844d78eaf163ab665c7c9de69a3e9"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "166fed384e77542298a5753cd518b0f1070792c4e53459593ee4dc651f6a39f6"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "d20faf267038de0783cdf0b5825a560f2a7844d78eaf163ab665c7c9de69a3e9"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "1a1d1785d430dccbaed2744719330dbd0ed2386ecdb57a2bbc460d35fbbba73c"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "5479f99fd263151608d8c06b308d213d6ca4333f0503e571a2af37438074ca4b"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "9dbdf43d4ce71a473130387e8fa274fe53a5e7b2c1daf0d64728b52a81e39d76"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "5479f99fd263151608d8c06b308d213d6ca4333f0503e571a2af37438074ca4b"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "07ccc8eead512487a6729360345c6ca8fb1425592189b530b18693a24aa66dbd"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "69f00c2ca970e40a775c420dce4f9b85d916ef925bb9e1750b5fb0999e124e6a"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "dba835a6371ff375458b4d4ce010be569d77dc5926b212bb348ac07558a4a4bb"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "69f00c2ca970e40a775c420dce4f9b85d916ef925bb9e1750b5fb0999e124e6a"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "5cf6014342663a93741c3164738540cb2d328b19c6001676b5ef1ba292b56b50"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "2b8e5684616987059c0f770952ac2721782424dffea3f2b34fbc5cd4db008e94"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "092bc90b44eebe3fac1f73c2a5788fb827b417552728427f954311d6a051e489"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "2b8e5684616987059c0f770952ac2721782424dffea3f2b34fbc5cd4db008e94"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "d20faf267038de0783cdf0b5825a560f2a7844d78eaf163ab665c7c9de69a3e9",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/juniper.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.mina.motion.v1",
+      "slug": "mina",
+      "label": "Mina",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#513a40",
+        "#3b3030",
+        "#755151",
+        "#28252b",
+        "#a8bcaa",
+        "#b77748",
+        "#685074",
+        "#f8f8f8",
+        "#f7edcc",
+        "#d5a16c",
+        "#865036",
+        "#c4c5af",
+        "#8f6c9e",
+        "#a2babc",
+        "#c34d48",
+        "#475c6c",
+        "#584352",
+        "#11111a",
+        "#594333"
+      ],
+      "source": "art/source/living-collection-v1/mina.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "3f5838f1d75438ac0434615f682faf4f026fe7f6933ff271ef9426c6e44fd0e2"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "efc9f3e09879ad84e907f6d27ff06420acf1d0311080d9eb65e0f4c4a4a5ff09"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "1e99c3ac5ab391c494a5b6505994a1eaeb20ff78754c917620503ed27a654379"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "efc9f3e09879ad84e907f6d27ff06420acf1d0311080d9eb65e0f4c4a4a5ff09"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "7dbd784000ce1ef2f3fa7d83512b17d2a62e02e35c4dc8096a926acf61472085"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "45766b23fcdcd4da8087dabcc4ea754f039775f92f299aa05be8bae287d433e8"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "0a071fdf3e947f8c0d107b0455bb7fe33443e6c562df9e47db21bbfb36ec79f0"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "45766b23fcdcd4da8087dabcc4ea754f039775f92f299aa05be8bae287d433e8"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "88857ed34d43007385e207b7be7b258299ace2b28f7a0be6c4c9a913713b680e"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "ceedfcd0fdb5737aa14ed8dffb6f1b0ca937ddf7ea220bb98440f9160985f191"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "06a108ca5d095cfab3a2e82f04c9c485eba7907f3a182dc8908b02fd8a2578d1"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "ceedfcd0fdb5737aa14ed8dffb6f1b0ca937ddf7ea220bb98440f9160985f191"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "483290e776ab06eb4904530d4460ac183ca8e9d2d9ad854e721478c8e694a557"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "7ee08186ea4e487319e6f384db11cfc4696ee1120825b9047d284d3dae8d19e6"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "4fd7b035d23f64756a84e735427c3f32ff50e6e120e2c9c2364bf3bc620a298f"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "7ee08186ea4e487319e6f384db11cfc4696ee1120825b9047d284d3dae8d19e6"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "efc9f3e09879ad84e907f6d27ff06420acf1d0311080d9eb65e0f4c4a4a5ff09",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/mina.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    },
+    {
+      "id": "critz.ollie.motion.v1",
+      "slug": "ollie",
+      "label": "Ollie",
+      "kind": "character",
+      "frame": [
+        32,
+        64
+      ],
+      "anchor": [
+        16,
+        64
+      ],
+      "palette": [
+        null,
+        "#201008",
+        "#cf8750",
+        "#ae613e",
+        "#edb268",
+        "#78442f",
+        "#3b3030",
+        "#28252b",
+        "#cd955e",
+        "#e5b47a",
+        "#996440",
+        "#f7edcc",
+        "#24646f",
+        "#358b95",
+        "#d4d4bd",
+        "#93afb2",
+        "#344159",
+        "#b56b45",
+        "#11111a",
+        "#594333"
+      ],
+      "source": "art/source/living-collection-v1/ollie.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "12664fd4d14d5dc42f189d91991c62d68214414fb304ab8f9490a76f2ce84e44"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "cdf1e2a0fd834cbfff7a2f74800a61b68363616bf78f2b617ce535ad19d3fd68"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "a148280929986ec42c6fa30ab66ba8d1c4532f91fa54dc6d94335ad021c3f72e"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "cdf1e2a0fd834cbfff7a2f74800a61b68363616bf78f2b617ce535ad19d3fd68"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "5d75efc8d6cf4b0e0f160a50cc65e1f104c4a35f37cf9f6633a897b797adacb3"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "35e34369270aac1e862b835a3d5567733be423cecbf6f6ff6ebcc6a90c12f403"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "c5779e6c65c7c2ef6460e82e497f92345858c5da9dbc3a576cfff4f07931b5b2"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "35e34369270aac1e862b835a3d5567733be423cecbf6f6ff6ebcc6a90c12f403"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "9a8722dceb5878a67bf2c2234554bf1228199d174b6f01da47326a68b36139a3"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "29fc91a9f5f9dff4c0bf1f81f76b0b155c7650aba761ab77f468f652c65b2012"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "8f87365b5c4c5e6d990ff1eb00c4e757bfa3c4359cf17cdadcac82297bfc938d"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "29fc91a9f5f9dff4c0bf1f81f76b0b155c7650aba761ab77f468f652c65b2012"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "38b01cc6365a92f5901a4675f7891f8cbbff97fbccb85f649b87f5eb0ba30e3f"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "90c1f50d239fccdb6c8b996a3caf1b4c48f0f4f8ffe9568ddd9acc3fa3403106"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "87ebdb7e77a221bf732ea8c01029b04d56cda7cde331c1d0e7d83cfc11f8f7d3"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "90c1f50d239fccdb6c8b996a3caf1b4c48f0f4f8ffe9568ddd9acc3fa3403106"
+        }
+      ],
+      "directions": [
+        "south",
+        "north",
+        "west",
+        "east"
+      ],
+      "directionRanges": {
+        "south": [
+          0,
+          4
+        ],
+        "north": [
+          4,
+          8
+        ],
+        "west": [
+          8,
+          12
+        ],
+        "east": [
+          12,
+          16
+        ]
+      },
+      "sequence": [
+        "strideA",
+        "passing",
+        "strideB",
+        "passing"
+      ],
+      "frontIdleRGBA": "cdf1e2a0fd834cbfff7a2f74800a61b68363616bf78f2b617ce535ad19d3fd68",
+      "headBobPixels": 2,
+      "stillSource": "art/source/idle-collection-v1/ollie.sprite.json",
+      "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+    }
+  ],
+  "critters": [
+    {
+      "id": "critz.pebble-gecko.motion.v1",
+      "slug": "pebble-gecko",
+      "label": "Pebble",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#25382c",
+        "#a0af5f",
+        "#d8d58c",
+        "#f8e8ae",
+        "#17251c",
+        "#b59755",
+        "#627247"
+      ],
+      "source": "art/source/living-collection-v1/pebble-gecko.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "de80e0137d17d4af2b0e9dbd1182b292e8a378a66ce3f1a1fab19efdd5a8d712"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "9bf3f2a5034491721e869975e7b8817621c8e1a929638fb296a5aacd726687cc"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "de80e0137d17d4af2b0e9dbd1182b292e8a378a66ce3f1a1fab19efdd5a8d712"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "cd6844c625ec0104f2768fd7d7b004ed7b13dca37ddfc6d159cdba0665db1c98"
+        }
+      ],
+      "idleRGBA": "de80e0137d17d4af2b0e9dbd1182b292e8a378a66ce3f1a1fab19efdd5a8d712",
+      "stillSource": "art/source/idle-collection-v1/pebble-gecko.sprite.json",
+      "role": "Existing rescue · gecko",
+      "movement": "crawl/scuttle",
+      "notes": "Original top-down gecko rescue study; curved segmented tail, splayed feet, warm olive/cream spots. Species identification beyond gecko is not asserted."
+    },
+    {
+      "id": "critz.button-snail.motion.v1",
+      "slug": "button-snail",
+      "label": "Button",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#25382c",
+        "#946443",
+        "#cf985f",
+        "#efd093",
+        "#17251c",
+        "#b5b789",
+        "#7a875f"
+      ],
+      "source": "art/source/living-collection-v1/button-snail.sprite.json",
+      "ticks": [
+        18,
+        18,
+        18,
+        18
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "d504d3297893a1426e3cb2fad22f361c4a00337b92de1d96be2b2f397d1f0d47"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "3965608d19c6a57a9e2a79e7285c88fa097b8fd0a2a0c2e07e3cbc01cb62bbe7"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "d504d3297893a1426e3cb2fad22f361c4a00337b92de1d96be2b2f397d1f0d47"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "914c6d1e469440a0bc23c9b884c53440029d7cfcb276a7f80963d1299c27d127"
+        }
+      ],
+      "idleRGBA": "d504d3297893a1426e3cb2fad22f361c4a00337b92de1d96be2b2f397d1f0d47",
+      "stillSource": "art/source/idle-collection-v1/button-snail.sprite.json",
+      "role": "Existing rescue · land snail",
+      "movement": "glide",
+      "notes": "Original profile snail with visible spiral shell and paired eyestalks."
+    },
+    {
+      "id": "critz.isopod.motion.v1",
+      "slug": "isopod",
+      "label": "Isopod",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#29323f",
+        "#475967",
+        "#718995",
+        "#a8bac0"
+      ],
+      "source": "art/source/living-collection-v1/isopod.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "8a6c4870af5d26deedc03bb1150c6ab77ea17b142a2f9bf35c79cf95acdbfb8c"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "c50590657209e154329a19de9279a6ed76b569f9272d01082b0578bc3426f74d"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "8a6c4870af5d26deedc03bb1150c6ab77ea17b142a2f9bf35c79cf95acdbfb8c"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "b0b6ae4d3f031fcdde5c51a55404722d65acd4fce3fc696e4cf4ff736c9b2435"
+        }
+      ],
+      "idleRGBA": "8a6c4870af5d26deedc03bb1150c6ab77ea17b142a2f9bf35c79cf95acdbfb8c",
+      "stillSource": "art/source/idle-collection-v1/isopod.sprite.json",
+      "role": "Existing rescue · decomposer",
+      "movement": "crawl/scuttle",
+      "notes": "Dorsal observation-scale isopod; readable paired legs and overlapping armor plates."
+    },
+    {
+      "id": "critz.springtail.motion.v1",
+      "slug": "springtail",
+      "label": "Springtail",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#51544b",
+        "#e4e4c9",
+        "#b8bca4",
+        "#282e2a",
+        "#ffffe3"
+      ],
+      "source": "art/source/living-collection-v1/springtail.sprite.json",
+      "ticks": [
+        12,
+        4,
+        8,
+        6
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "cdad175a6c90907a3c55e8dce39f9e9b81c70a940642ad1dbf5b013fc42b82e3"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "466609c4a19f32570e36c9522375a29c206893d1b958120c606ac5669b2e8169"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "cdad175a6c90907a3c55e8dce39f9e9b81c70a940642ad1dbf5b013fc42b82e3"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "e3ad062730535f4ac4553402838558de1891cbc596329cfafa6bb15e90bfd51d"
+        }
+      ],
+      "idleRGBA": "cdad175a6c90907a3c55e8dce39f9e9b81c70a940642ad1dbf5b013fc42b82e3",
+      "stillSource": "art/source/idle-collection-v1/springtail.sprite.json",
+      "role": "Existing rescue · decomposer",
+      "movement": "hop",
+      "notes": "Observation-scale springtail. Deliberately tiny compared with other study frames; not drawn at true shared physical scale."
+    },
+    {
+      "id": "critz.tree-frog.motion.v1",
+      "slug": "tree-frog",
+      "label": "Tree Frog",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#203d30",
+        "#50a46e",
+        "#8bc77a",
+        "#dae6a0",
+        "#183326",
+        "#f2f6cd"
+      ],
+      "source": "art/source/living-collection-v1/tree-frog.sprite.json",
+      "ticks": [
+        14,
+        6,
+        10,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "a4abff3e82180cf937339dfb0d05c8323dea5cc7d24addf48c80976e66b56960"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "822b8acc61f545d4b9b7cdd74e1b3195832ccf747ef180b2dfc38671b7321cc0"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "a4abff3e82180cf937339dfb0d05c8323dea5cc7d24addf48c80976e66b56960"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "442bb9a9503a6480e314b4fad07024d5b6fe41cdc7b3910fcbc2228a1ee3b6d1"
+        }
+      ],
+      "idleRGBA": "a4abff3e82180cf937339dfb0d05c8323dea5cc7d24addf48c80976e66b56960",
+      "stillSource": "art/source/idle-collection-v1/tree-frog.sprite.json",
+      "role": "Future species proposal",
+      "movement": "hop",
+      "notes": "Optional future animal visual proposal; no habitat/gameplay claim."
+    },
+    {
+      "id": "critz.cherry-shrimp.motion.v1",
+      "slug": "cherry-shrimp",
+      "label": "Cherry Shrimp",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#713d42",
+        "#e56c54",
+        "#ffa282",
+        "#242a35"
+      ],
+      "source": "art/source/living-collection-v1/cherry-shrimp.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "b1917dc12f0c8ba544e99f086705bcd2387a83fb88b0a1e1f3f3b993595df45e"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "63b1e04fe94fc43c73ffb3a1d906cbc4ff11cfbb12fea1a1f1a8cb409412c899"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "b1917dc12f0c8ba544e99f086705bcd2387a83fb88b0a1e1f3f3b993595df45e"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "c32c4997c37e99b53ec22f25f71be17867d7bfdbdffbefb1d3738372774ea40f"
+        }
+      ],
+      "idleRGBA": "b1917dc12f0c8ba544e99f086705bcd2387a83fb88b0a1e1f3f3b993595df45e",
+      "stillSource": "art/source/idle-collection-v1/cherry-shrimp.sprite.json",
+      "role": "Future aquarium proposal",
+      "movement": "swim/paddle",
+      "notes": "Original profile freshwater shrimp proposal; legs and long antennae are single-cell strokes."
+    },
+    {
+      "id": "critz.guppy.motion.v1",
+      "slug": "guppy",
+      "label": "Guppy",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#283e5b",
+        "#518faf",
+        "#9ed4d3",
+        "#f5d395",
+        "#151c27"
+      ],
+      "source": "art/source/living-collection-v1/guppy.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "cfa8627b26980841dc188fbb9d51f9f6ea3c2892bd8675db9d97541ad5d789f2"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "09ccf4ae864dd4e10b3a746538c9526a5b94e0483149b86809b636360af5720c"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "cfa8627b26980841dc188fbb9d51f9f6ea3c2892bd8675db9d97541ad5d789f2"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "b2f081dd14f4278e2dd0a79f76d3e8013a087a7d360d36a5b4ff907b92fe093c"
+        }
+      ],
+      "idleRGBA": "cfa8627b26980841dc188fbb9d51f9f6ea3c2892bd8675db9d97541ad5d789f2",
+      "stillSource": "art/source/idle-collection-v1/guppy.sprite.json",
+      "role": "Future aquarium proposal",
+      "movement": "swim",
+      "notes": "Original fish profile proposal; this is a display-size study, not an aquarium species suitability recommendation."
+    },
+    {
+      "id": "critz.stag-beetle.motion.v1",
+      "slug": "stag-beetle",
+      "label": "Stag Beetle",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#263138",
+        "#536e69",
+        "#334c4c",
+        "#8aa78d",
+        "#c8ceb1"
+      ],
+      "source": "art/source/living-collection-v1/stag-beetle.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "e34d599642f55535c32734082deb1d7ee228e485bf0622e06f4a7372ee2fc386"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "ce674eeb12421e93f78802e2612b0218a4c947f77b24f5c2cfad8a583dfddbd2"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "e34d599642f55535c32734082deb1d7ee228e485bf0622e06f4a7372ee2fc386"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "e611c663bacc938319bb1c99f63020630d717354c7bd34caf81dcd6a6776c3a2"
+        }
+      ],
+      "idleRGBA": "e34d599642f55535c32734082deb1d7ee228e485bf0622e06f4a7372ee2fc386",
+      "stillSource": "art/source/idle-collection-v1/stag-beetle.sprite.json",
+      "role": "Future forest proposal",
+      "movement": "crawl/scuttle",
+      "notes": "Original top-down stag beetle proposal, distinct mandibles and split elytra."
+    },
+    {
+      "id": "critz.mangrove-crab.motion.v1",
+      "slug": "mangrove-crab",
+      "label": "Mangrove Crab",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#463340",
+        "#b35f49",
+        "#e9995e",
+        "#171d26",
+        "#f3c783"
+      ],
+      "source": "art/source/living-collection-v1/mangrove-crab.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "e8279105199f1e9263e02769fd68534b1960be503e5f854ae9efea003b7e1c2e"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "7f53bc60d5ab7d7e30f1a76a04bd0c67c974e859e3a0e2b93d621d9ae3ba4f7d"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "e8279105199f1e9263e02769fd68534b1960be503e5f854ae9efea003b7e1c2e"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "29352a40122259bbfde34b36f2328dbea5e85c51e036134633627c43be316a31"
+        }
+      ],
+      "idleRGBA": "e8279105199f1e9263e02769fd68534b1960be503e5f854ae9efea003b7e1c2e",
+      "stillSource": null,
+      "role": "New paludarium visual proposal",
+      "movement": "crawl/scuttle",
+      "notes": "Stylized amphibious crab study; not a precise species identification or salinity/housing recommendation."
+    },
+    {
+      "id": "critz.cory-catfish.motion.v1",
+      "slug": "cory-catfish",
+      "label": "Cory Catfish",
+      "kind": "critter",
+      "frame": [
+        32,
+        32
+      ],
+      "anchor": [
+        16,
+        32
+      ],
+      "palette": [
+        null,
+        "#333f43",
+        "#c4ccc0",
+        "#eee3bb",
+        "#8d9c99",
+        "#182227",
+        "#657479"
+      ],
+      "source": "art/source/living-collection-v1/cory-catfish.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "056f67c7e784f6ac72d604e59586de8b0d4085c0542b63cb28a6c02f6b4d08ec"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "40312fa6d36bd662c2ca3fdb1bef2bc03f7977e5cb255db41c51262605d809d2"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "056f67c7e784f6ac72d604e59586de8b0d4085c0542b63cb28a6c02f6b4d08ec"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "28dcc777b4a871448ca9312370269537298c1d0858341f54293f6e18d3f94313"
+        }
+      ],
+      "idleRGBA": "056f67c7e784f6ac72d604e59586de8b0d4085c0542b63cb28a6c02f6b4d08ec",
+      "stillSource": null,
+      "role": "New aquarium visual proposal",
+      "movement": "swim",
+      "notes": "Original small bottom-swimmer study. Stylized observation scale; exact species/care requirements remain separate."
+    }
+  ],
+  "habitats": [
+    {
+      "id": "critz.aquarium.motion.v1",
+      "slug": "aquarium",
+      "label": "Planted Aquarium",
+      "kind": "habitat",
+      "frame": [
+        192,
+        144
+      ],
+      "anchor": [
+        96,
+        144
+      ],
+      "palette": [
+        null,
+        "#173c42",
+        "#668c88",
+        "#87b8b0",
+        "#274e52",
+        "#cfede0",
+        "#235b70",
+        "#496f73",
+        "#33768a",
+        "#8bc8c5",
+        "#5399a5",
+        "#75a5a0",
+        "#b3e2d3",
+        "#88c4c7",
+        "#398361",
+        "#2b687b",
+        "#7cbd7a",
+        "#225744",
+        "#453b2d",
+        "#283e5b",
+        "#518faf",
+        "#9ed4d3",
+        "#f5d395",
+        "#755039",
+        "#151c27",
+        "#a6774b",
+        "#255b6a",
+        "#76a4a0",
+        "#75b87b",
+        "#aad198",
+        "#59a46e",
+        "#425852",
+        "#9bab92",
+        "#657b76",
+        "#c8ae76",
+        "#e4d2a0",
+        "#896348",
+        "#e0c38a"
+      ],
+      "source": "art/source/living-collection-v1/aquarium.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "12a4827b9ca6dbbb3704c958c0770778077f4a17e71f10f33d60c68df7fe548a"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "984581693e2d68bc1752671927a32db15caaaa1443f1d82a2664116de033e134"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "ca6ecd6d71afe481715b1da1c11dda4b420541ea6c71b5417ed505b520deb116"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "00d0d6ab03e354676eecf57b4beafbe68aaeb24cd1a9411c4ece38176f7cb8f3"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "bd7026c60ec8b43f031dc37ac6df5d3ec3cb3090262a501c079e6d41301a177c"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "cafa13e7f157347f415abfe983b3447221118d45587da80855ee04f3fcbd34b5"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "7905e1675bc60bb3c7e4856e32674d523da02200abbf7b475fb9331175ba14db"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "d0e53e68662ae12cb99dff2f0283638fdef41620fbcdf84b073d9eb865f3e0bb"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "2ba8b52887581817e19cbeddfd252ef7ae6104909ed12e732199fb48fe69f6ed"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "8b7d3a70e6d3dd4c2535ed3a39d69c65e562f33f82c7e630a6b2117c31f413c3"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "9f82a812eb14375083b2775b95e3931607cf9ebcd59ad354ab6786646d615ab1"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "01b7a8037e5752ebb473620300803694ec80ea47a40b49781aa8d36e5d082df2"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "c9c9ccd2e6fd73bbad7f51980c2da02de4c3384be2f8a168845f680afb8f57ab"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "5fcb5bff0e6849ff4b8d6669834c18deba886294c1eac6a5cf76b2be1cb9d016"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "644518ce7798ee0644f5b78e124af91b7dee4293252bbb73743b2bd3842d7c74"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "ca296304c50dd92688494076d25f4664e7ebc125ff8591a8ad1673cd2bfe56cc"
+        }
+      ],
+      "nativeCloseup": [
+        192,
+        144
+      ],
+      "worldProp": [
+        96,
+        96
+      ],
+      "featuredAnimal": "guppy",
+      "notes": "Original layered habitat art. One featured species per scene; schematic art, not a care specification or gallon-volume claim. No game simulation changes."
+    },
+    {
+      "id": "critz.terrarium.motion.v1",
+      "slug": "terrarium",
+      "label": "Woodland Terrarium",
+      "kind": "habitat",
+      "frame": [
+        192,
+        144
+      ],
+      "anchor": [
+        96,
+        144
+      ],
+      "palette": [
+        null,
+        "#173c42",
+        "#668c88",
+        "#182f31",
+        "#274e52",
+        "#cfede0",
+        "#3d5b49",
+        "#476f52",
+        "#453b2d",
+        "#755039",
+        "#75a5a0",
+        "#225744",
+        "#398361",
+        "#3b624a",
+        "#75b87b",
+        "#aad198",
+        "#a6774b",
+        "#59a46e",
+        "#25382c",
+        "#a0af5f",
+        "#d8d58c",
+        "#f8e8ae",
+        "#17251c",
+        "#7cbd7a",
+        "#b59755",
+        "#76a4a0",
+        "#425852",
+        "#9bab92",
+        "#657b76",
+        "#5b4835",
+        "#826447",
+        "#283b2c",
+        "#759d99",
+        "#896348",
+        "#e0c38a",
+        "#627247"
+      ],
+      "source": "art/source/living-collection-v1/terrarium.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "9e63467b055a2d0427a2a1da8426420a0a6c832fa1722b03bfcc25876d08521a"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "dbc1e7100a2b6a429202badcd0d9953149a44e00ea20d5f6d5f6a3ed3cea057a"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "952a79f4179fbfe700642f8540d5869c36cade2268dfe45adfc1152bebc75782"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "84f7e243b5080d4ef9fc1a26259362680f7ad0e733c3a5b309468e66d39a6bc2"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "ff73d32e473e21e753538c7ea3f45964211b7dad7e5c7c0077d1dfaf96c98339"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "566be8faa5abed2c2ecb51518845010620d7c7f0c2841ea94c2c6f84403eb1ea"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "952a79f4179fbfe700642f8540d5869c36cade2268dfe45adfc1152bebc75782"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "1453067d43a8db9c43f31d2fb5c3373e5225b47600020eca19046f8774dfc6ee"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "9e63467b055a2d0427a2a1da8426420a0a6c832fa1722b03bfcc25876d08521a"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "7ccf8279bbbb50292f999e3205e3343cd724605f4abedbe15fb9745102b2730d"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "155a922e1290963539684f24d717d3c9e6fff11e6ad454091e67b5ef4585da1c"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "cc444d34159f93f78aedc0c58887d8d7caffa1e606ddb5da6c1b9eec8335b584"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "7355f07f25eedc9a07ac70e515bf0af2590ce4efc13f4f0095762c8d1a9f5d41"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "90aff69b01b2f34cae1f4840bb012bd200da384c33f28b689730176cf15b01e9"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "155a922e1290963539684f24d717d3c9e6fff11e6ad454091e67b5ef4585da1c"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "b36940a429088cd03acc02c06958327ee3a9b67ddae3116251fffca6e1fe097e"
+        }
+      ],
+      "nativeCloseup": [
+        192,
+        144
+      ],
+      "worldProp": [
+        96,
+        96
+      ],
+      "featuredAnimal": "pebble-gecko",
+      "notes": "Original layered habitat art. One featured species per scene; schematic art, not a care specification or gallon-volume claim. No game simulation changes."
+    },
+    {
+      "id": "critz.paludarium.motion.v1",
+      "slug": "paludarium",
+      "label": "Creekbank Paludarium",
+      "kind": "habitat",
+      "frame": [
+        192,
+        144
+      ],
+      "anchor": [
+        96,
+        144
+      ],
+      "palette": [
+        null,
+        "#173c42",
+        "#668c88",
+        "#182f31",
+        "#274e52",
+        "#cfede0",
+        "#244d47",
+        "#37674e",
+        "#453b2d",
+        "#425852",
+        "#225744",
+        "#398361",
+        "#755039",
+        "#9bab92",
+        "#657b76",
+        "#75a5a0",
+        "#75b87b",
+        "#b3e2d3",
+        "#6bb5b8",
+        "#aad198",
+        "#7cbd7a",
+        "#a6774b",
+        "#59a46e",
+        "#463340",
+        "#b35f49",
+        "#e9995e",
+        "#82a966",
+        "#171d26",
+        "#f3c783",
+        "#295f69",
+        "#5b4835",
+        "#76a4a0",
+        "#8fceca",
+        "#6eb2b0",
+        "#428894",
+        "#826447",
+        "#896348",
+        "#e0c38a"
+      ],
+      "source": "art/source/living-collection-v1/paludarium.sprite.json",
+      "ticks": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "tickMs": 16.742706298828125,
+      "frames": [
+        {
+          "index": 0,
+          "rgbaSHA256": "b289b97a2d2a198d051cc954aaa605b27d7e692f5ecaf26ab41daddb21ec6e29"
+        },
+        {
+          "index": 1,
+          "rgbaSHA256": "795644560ca0d4bb10cdcc012a3862f8a3647eb6cfcc0b67d4b2bc6ec12a8d86"
+        },
+        {
+          "index": 2,
+          "rgbaSHA256": "2ec6629cb2ea349d2fc4baf6ebfeca2fcd351e6c99ab30fa2de13f6f5bbbf5a5"
+        },
+        {
+          "index": 3,
+          "rgbaSHA256": "b47b5dd86bf6375f25a98f26b879d6ecc5e66ec4e857bea54140bc970f3713a3"
+        },
+        {
+          "index": 4,
+          "rgbaSHA256": "b3f1e9d5462e2f8141a02b1539989271b339c209eded4e5a3a8d49a7067924fd"
+        },
+        {
+          "index": 5,
+          "rgbaSHA256": "546d8f58580f00947f161c9313dbeaa06d37704235d19c89b2f7981dcc4d7d2b"
+        },
+        {
+          "index": 6,
+          "rgbaSHA256": "2ec6629cb2ea349d2fc4baf6ebfeca2fcd351e6c99ab30fa2de13f6f5bbbf5a5"
+        },
+        {
+          "index": 7,
+          "rgbaSHA256": "62ae6b8e089ab9af4ab2c39c542b2eb3c7397bb7c0402026cd92a8f1182417d3"
+        },
+        {
+          "index": 8,
+          "rgbaSHA256": "b289b97a2d2a198d051cc954aaa605b27d7e692f5ecaf26ab41daddb21ec6e29"
+        },
+        {
+          "index": 9,
+          "rgbaSHA256": "a2cce89d70c3e4b856b7a62d25cfe26a96e20e44d16665a9cd80c96ef1f208eb"
+        },
+        {
+          "index": 10,
+          "rgbaSHA256": "664dce47ea7915a3362958cd4bded89f79874a968d2162d319a27098ba102d97"
+        },
+        {
+          "index": 11,
+          "rgbaSHA256": "bc86c8491ea87e25d0ea792db16f8dddc61b1aff8e54d5ffca3bdff439cedbb6"
+        },
+        {
+          "index": 12,
+          "rgbaSHA256": "6924f89ee577d1f8071de2b8710a92b0c5c6521d4fb2c312dfbe4944726595ed"
+        },
+        {
+          "index": 13,
+          "rgbaSHA256": "2abe9a817c5f15db9e15df0b3431c4e040565ece2ad49f3ba11700d7944512fa"
+        },
+        {
+          "index": 14,
+          "rgbaSHA256": "664dce47ea7915a3362958cd4bded89f79874a968d2162d319a27098ba102d97"
+        },
+        {
+          "index": 15,
+          "rgbaSHA256": "92427a6f5869e9eacbdd0abfe1a7496fb4b7ad54cbcd25f576370e1f76bb32fa"
+        }
+      ],
+      "nativeCloseup": [
+        192,
+        144
+      ],
+      "worldProp": [
+        96,
+        96
+      ],
+      "featuredAnimal": "mangrove-crab",
+      "notes": "Original layered habitat art. One featured species per scene; schematic art, not a care specification or gallon-volume claim. No game simulation changes."
+    }
+  ]
+}

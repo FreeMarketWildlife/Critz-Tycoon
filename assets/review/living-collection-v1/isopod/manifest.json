@@ -1,0 +1,52 @@
+{
+  "id": "critz.isopod.motion.v1",
+  "slug": "isopod",
+  "label": "Isopod",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#29323f",
+    "#475967",
+    "#718995",
+    "#a8bac0"
+  ],
+  "source": "art/source/living-collection-v1/isopod.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "8a6c4870af5d26deedc03bb1150c6ab77ea17b142a2f9bf35c79cf95acdbfb8c"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "c50590657209e154329a19de9279a6ed76b569f9272d01082b0578bc3426f74d"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "8a6c4870af5d26deedc03bb1150c6ab77ea17b142a2f9bf35c79cf95acdbfb8c"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "b0b6ae4d3f031fcdde5c51a55404722d65acd4fce3fc696e4cf4ff736c9b2435"
+    }
+  ],
+  "idleRGBA": "8a6c4870af5d26deedc03bb1150c6ab77ea17b142a2f9bf35c79cf95acdbfb8c",
+  "stillSource": "art/source/idle-collection-v1/isopod.sprite.json",
+  "role": "Existing rescue · decomposer",
+  "movement": "crawl/scuttle",
+  "notes": "Dorsal observation-scale isopod; readable paired legs and overlapping armor plates."
+}

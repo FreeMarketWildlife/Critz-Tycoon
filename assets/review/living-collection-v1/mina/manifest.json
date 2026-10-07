@@ -1,0 +1,157 @@
+{
+  "id": "critz.mina.motion.v1",
+  "slug": "mina",
+  "label": "Mina",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#513a40",
+    "#3b3030",
+    "#755151",
+    "#28252b",
+    "#a8bcaa",
+    "#b77748",
+    "#685074",
+    "#f8f8f8",
+    "#f7edcc",
+    "#d5a16c",
+    "#865036",
+    "#c4c5af",
+    "#8f6c9e",
+    "#a2babc",
+    "#c34d48",
+    "#475c6c",
+    "#584352",
+    "#11111a",
+    "#594333"
+  ],
+  "source": "art/source/living-collection-v1/mina.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "3f5838f1d75438ac0434615f682faf4f026fe7f6933ff271ef9426c6e44fd0e2"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "efc9f3e09879ad84e907f6d27ff06420acf1d0311080d9eb65e0f4c4a4a5ff09"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "1e99c3ac5ab391c494a5b6505994a1eaeb20ff78754c917620503ed27a654379"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "efc9f3e09879ad84e907f6d27ff06420acf1d0311080d9eb65e0f4c4a4a5ff09"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "7dbd784000ce1ef2f3fa7d83512b17d2a62e02e35c4dc8096a926acf61472085"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "45766b23fcdcd4da8087dabcc4ea754f039775f92f299aa05be8bae287d433e8"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "0a071fdf3e947f8c0d107b0455bb7fe33443e6c562df9e47db21bbfb36ec79f0"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "45766b23fcdcd4da8087dabcc4ea754f039775f92f299aa05be8bae287d433e8"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "88857ed34d43007385e207b7be7b258299ace2b28f7a0be6c4c9a913713b680e"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "ceedfcd0fdb5737aa14ed8dffb6f1b0ca937ddf7ea220bb98440f9160985f191"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "06a108ca5d095cfab3a2e82f04c9c485eba7907f3a182dc8908b02fd8a2578d1"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "ceedfcd0fdb5737aa14ed8dffb6f1b0ca937ddf7ea220bb98440f9160985f191"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "483290e776ab06eb4904530d4460ac183ca8e9d2d9ad854e721478c8e694a557"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "7ee08186ea4e487319e6f384db11cfc4696ee1120825b9047d284d3dae8d19e6"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "4fd7b035d23f64756a84e735427c3f32ff50e6e120e2c9c2364bf3bc620a298f"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "7ee08186ea4e487319e6f384db11cfc4696ee1120825b9047d284d3dae8d19e6"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "efc9f3e09879ad84e907f6d27ff06420acf1d0311080d9eb65e0f4c4a4a5ff09",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/mina.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

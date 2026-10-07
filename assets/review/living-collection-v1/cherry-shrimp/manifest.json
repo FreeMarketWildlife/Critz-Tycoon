@@ -1,0 +1,52 @@
+{
+  "id": "critz.cherry-shrimp.motion.v1",
+  "slug": "cherry-shrimp",
+  "label": "Cherry Shrimp",
+  "kind": "critter",
+  "frame": [
+    32,
+    32
+  ],
+  "anchor": [
+    16,
+    32
+  ],
+  "palette": [
+    null,
+    "#713d42",
+    "#e56c54",
+    "#ffa282",
+    "#242a35"
+  ],
+  "source": "art/source/living-collection-v1/cherry-shrimp.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "b1917dc12f0c8ba544e99f086705bcd2387a83fb88b0a1e1f3f3b993595df45e"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "63b1e04fe94fc43c73ffb3a1d906cbc4ff11cfbb12fea1a1f1a8cb409412c899"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "b1917dc12f0c8ba544e99f086705bcd2387a83fb88b0a1e1f3f3b993595df45e"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "c32c4997c37e99b53ec22f25f71be17867d7bfdbdffbefb1d3738372774ea40f"
+    }
+  ],
+  "idleRGBA": "b1917dc12f0c8ba544e99f086705bcd2387a83fb88b0a1e1f3f3b993595df45e",
+  "stillSource": "art/source/idle-collection-v1/cherry-shrimp.sprite.json",
+  "role": "Future aquarium proposal",
+  "movement": "swim/paddle",
+  "notes": "Original profile freshwater shrimp proposal; legs and long antennae are single-cell strokes."
+}

@@ -1,0 +1,154 @@
+{
+  "id": "critz.mom.motion.v1",
+  "slug": "mom",
+  "label": "Mom",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#4d414e",
+    "#3b3030",
+    "#64545e",
+    "#28252b",
+    "#dfad49",
+    "#a67436",
+    "#a87038",
+    "#f7edcc",
+    "#c48e4a",
+    "#784820",
+    "#ba7082",
+    "#87465e",
+    "#30476a",
+    "#67464f",
+    "#11111a",
+    "#594333"
+  ],
+  "source": "art/source/living-collection-v1/mom.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "92262fe4e4c79451ae38504bcf0c97d2bcc34256b0cab5b9b1e93b54d0318505"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "3946e001495142a30e1449e187de8ed98c6d59c43cadcb009af5f6ca32786470"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "51f5eaa63cd5d7945192257709716cec0997e4d09398d9acb4fc2a669102d6a3"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "3946e001495142a30e1449e187de8ed98c6d59c43cadcb009af5f6ca32786470"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "41686eaebe2f3eee6a334b8bd3b2473482a18c0640881bf0de5b43f599a6d39c"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "9ea7ada6493228103a28813ca6ed068b51acd15eaed3f62caa98167f4358d509"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "71c202a5fee25e0b51928315d1eadfc7670cdc12812776824ca8803aee99acba"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "9ea7ada6493228103a28813ca6ed068b51acd15eaed3f62caa98167f4358d509"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "f6dceb8126f46606f0b35ad7df852c705b210f3b197f05a0a11d805ddc1cd2a0"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "cfe149ea87a0fa16677959e7ee19a3bb18097f7d4b94142f32529ab221aebd57"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "afcaf73c5402fe309d7f3ee594557272f2a5af5d0d2cb04bbb3c6c206f5e450f"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "cfe149ea87a0fa16677959e7ee19a3bb18097f7d4b94142f32529ab221aebd57"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "afa818f5b465223734a6c4a5b0584b895100528b3cf74ea714139a4cf9fb8c24"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "07980afd7129d64795e74e83097b2a19b76bef27c97175b6c110130195e8ba32"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "32982c7091cee0376d6485fd3943d0e323ac12743c14699bda3417230b8312c6"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "07980afd7129d64795e74e83097b2a19b76bef27c97175b6c110130195e8ba32"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "3946e001495142a30e1449e187de8ed98c6d59c43cadcb009af5f6ca32786470",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/mom.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

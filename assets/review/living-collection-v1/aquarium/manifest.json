@@ -1,0 +1,150 @@
+{
+  "id": "critz.aquarium.motion.v1",
+  "slug": "aquarium",
+  "label": "Planted Aquarium",
+  "kind": "habitat",
+  "frame": [
+    192,
+    144
+  ],
+  "anchor": [
+    96,
+    144
+  ],
+  "palette": [
+    null,
+    "#173c42",
+    "#668c88",
+    "#87b8b0",
+    "#274e52",
+    "#cfede0",
+    "#235b70",
+    "#496f73",
+    "#33768a",
+    "#8bc8c5",
+    "#5399a5",
+    "#75a5a0",
+    "#b3e2d3",
+    "#88c4c7",
+    "#398361",
+    "#2b687b",
+    "#7cbd7a",
+    "#225744",
+    "#453b2d",
+    "#283e5b",
+    "#518faf",
+    "#9ed4d3",
+    "#f5d395",
+    "#755039",
+    "#151c27",
+    "#a6774b",
+    "#255b6a",
+    "#76a4a0",
+    "#75b87b",
+    "#aad198",
+    "#59a46e",
+    "#425852",
+    "#9bab92",
+    "#657b76",
+    "#c8ae76",
+    "#e4d2a0",
+    "#896348",
+    "#e0c38a"
+  ],
+  "source": "art/source/living-collection-v1/aquarium.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "12a4827b9ca6dbbb3704c958c0770778077f4a17e71f10f33d60c68df7fe548a"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "984581693e2d68bc1752671927a32db15caaaa1443f1d82a2664116de033e134"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "ca6ecd6d71afe481715b1da1c11dda4b420541ea6c71b5417ed505b520deb116"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "00d0d6ab03e354676eecf57b4beafbe68aaeb24cd1a9411c4ece38176f7cb8f3"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "bd7026c60ec8b43f031dc37ac6df5d3ec3cb3090262a501c079e6d41301a177c"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "cafa13e7f157347f415abfe983b3447221118d45587da80855ee04f3fcbd34b5"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "7905e1675bc60bb3c7e4856e32674d523da02200abbf7b475fb9331175ba14db"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "d0e53e68662ae12cb99dff2f0283638fdef41620fbcdf84b073d9eb865f3e0bb"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "2ba8b52887581817e19cbeddfd252ef7ae6104909ed12e732199fb48fe69f6ed"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "8b7d3a70e6d3dd4c2535ed3a39d69c65e562f33f82c7e630a6b2117c31f413c3"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "9f82a812eb14375083b2775b95e3931607cf9ebcd59ad354ab6786646d615ab1"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "01b7a8037e5752ebb473620300803694ec80ea47a40b49781aa8d36e5d082df2"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "c9c9ccd2e6fd73bbad7f51980c2da02de4c3384be2f8a168845f680afb8f57ab"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "5fcb5bff0e6849ff4b8d6669834c18deba886294c1eac6a5cf76b2be1cb9d016"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "644518ce7798ee0644f5b78e124af91b7dee4293252bbb73743b2bd3842d7c74"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "ca296304c50dd92688494076d25f4664e7ebc125ff8591a8ad1673cd2bfe56cc"
+    }
+  ],
+  "nativeCloseup": [
+    192,
+    144
+  ],
+  "worldProp": [
+    96,
+    96
+  ],
+  "featuredAnimal": "guppy",
+  "notes": "Original layered habitat art. One featured species per scene; schematic art, not a care specification or gallon-volume claim. No game simulation changes."
+}

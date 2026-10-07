@@ -1,0 +1,150 @@
+{
+  "id": "critz.paludarium.motion.v1",
+  "slug": "paludarium",
+  "label": "Creekbank Paludarium",
+  "kind": "habitat",
+  "frame": [
+    192,
+    144
+  ],
+  "anchor": [
+    96,
+    144
+  ],
+  "palette": [
+    null,
+    "#173c42",
+    "#668c88",
+    "#182f31",
+    "#274e52",
+    "#cfede0",
+    "#244d47",
+    "#37674e",
+    "#453b2d",
+    "#425852",
+    "#225744",
+    "#398361",
+    "#755039",
+    "#9bab92",
+    "#657b76",
+    "#75a5a0",
+    "#75b87b",
+    "#b3e2d3",
+    "#6bb5b8",
+    "#aad198",
+    "#7cbd7a",
+    "#a6774b",
+    "#59a46e",
+    "#463340",
+    "#b35f49",
+    "#e9995e",
+    "#82a966",
+    "#171d26",
+    "#f3c783",
+    "#295f69",
+    "#5b4835",
+    "#76a4a0",
+    "#8fceca",
+    "#6eb2b0",
+    "#428894",
+    "#826447",
+    "#896348",
+    "#e0c38a"
+  ],
+  "source": "art/source/living-collection-v1/paludarium.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "b289b97a2d2a198d051cc954aaa605b27d7e692f5ecaf26ab41daddb21ec6e29"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "795644560ca0d4bb10cdcc012a3862f8a3647eb6cfcc0b67d4b2bc6ec12a8d86"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "2ec6629cb2ea349d2fc4baf6ebfeca2fcd351e6c99ab30fa2de13f6f5bbbf5a5"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "b47b5dd86bf6375f25a98f26b879d6ecc5e66ec4e857bea54140bc970f3713a3"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "b3f1e9d5462e2f8141a02b1539989271b339c209eded4e5a3a8d49a7067924fd"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "546d8f58580f00947f161c9313dbeaa06d37704235d19c89b2f7981dcc4d7d2b"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "2ec6629cb2ea349d2fc4baf6ebfeca2fcd351e6c99ab30fa2de13f6f5bbbf5a5"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "62ae6b8e089ab9af4ab2c39c542b2eb3c7397bb7c0402026cd92a8f1182417d3"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "b289b97a2d2a198d051cc954aaa605b27d7e692f5ecaf26ab41daddb21ec6e29"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "a2cce89d70c3e4b856b7a62d25cfe26a96e20e44d16665a9cd80c96ef1f208eb"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "664dce47ea7915a3362958cd4bded89f79874a968d2162d319a27098ba102d97"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "bc86c8491ea87e25d0ea792db16f8dddc61b1aff8e54d5ffca3bdff439cedbb6"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "6924f89ee577d1f8071de2b8710a92b0c5c6521d4fb2c312dfbe4944726595ed"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "2abe9a817c5f15db9e15df0b3431c4e040565ece2ad49f3ba11700d7944512fa"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "664dce47ea7915a3362958cd4bded89f79874a968d2162d319a27098ba102d97"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "92427a6f5869e9eacbdd0abfe1a7496fb4b7ad54cbcd25f576370e1f76bb32fa"
+    }
+  ],
+  "nativeCloseup": [
+    192,
+    144
+  ],
+  "worldProp": [
+    96,
+    96
+  ],
+  "featuredAnimal": "mangrove-crab",
+  "notes": "Original layered habitat art. One featured species per scene; schematic art, not a care specification or gallon-volume claim. No game simulation changes."
+}

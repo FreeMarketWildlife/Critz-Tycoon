@@ -1,0 +1,152 @@
+{
+  "id": "critz.juniper.motion.v1",
+  "slug": "juniper",
+  "label": "Juniper",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#594333",
+    "#795336",
+    "#3b3030",
+    "#28252b",
+    "#bf8756",
+    "#dea871",
+    "#885331",
+    "#f7edcc",
+    "#69895d",
+    "#45664f",
+    "#d8d6a0",
+    "#344564",
+    "#755437",
+    "#11111a"
+  ],
+  "source": "art/source/living-collection-v1/juniper.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "0c933852960c60b8419b8360a2b3e58dabb5e70db35418722ca754c84357ef0b"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "d20faf267038de0783cdf0b5825a560f2a7844d78eaf163ab665c7c9de69a3e9"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "166fed384e77542298a5753cd518b0f1070792c4e53459593ee4dc651f6a39f6"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "d20faf267038de0783cdf0b5825a560f2a7844d78eaf163ab665c7c9de69a3e9"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "1a1d1785d430dccbaed2744719330dbd0ed2386ecdb57a2bbc460d35fbbba73c"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "5479f99fd263151608d8c06b308d213d6ca4333f0503e571a2af37438074ca4b"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "9dbdf43d4ce71a473130387e8fa274fe53a5e7b2c1daf0d64728b52a81e39d76"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "5479f99fd263151608d8c06b308d213d6ca4333f0503e571a2af37438074ca4b"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "07ccc8eead512487a6729360345c6ca8fb1425592189b530b18693a24aa66dbd"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "69f00c2ca970e40a775c420dce4f9b85d916ef925bb9e1750b5fb0999e124e6a"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "dba835a6371ff375458b4d4ce010be569d77dc5926b212bb348ac07558a4a4bb"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "69f00c2ca970e40a775c420dce4f9b85d916ef925bb9e1750b5fb0999e124e6a"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "5cf6014342663a93741c3164738540cb2d328b19c6001676b5ef1ba292b56b50"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "2b8e5684616987059c0f770952ac2721782424dffea3f2b34fbc5cd4db008e94"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "092bc90b44eebe3fac1f73c2a5788fb827b417552728427f954311d6a051e489"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "2b8e5684616987059c0f770952ac2721782424dffea3f2b34fbc5cd4db008e94"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "d20faf267038de0783cdf0b5825a560f2a7844d78eaf163ab665c7c9de69a3e9",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/juniper.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

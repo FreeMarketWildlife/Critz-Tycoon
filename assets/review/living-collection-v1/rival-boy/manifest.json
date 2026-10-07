@@ -1,0 +1,152 @@
+{
+  "id": "critz.rival-boy.motion.v1",
+  "slug": "rival-boy",
+  "label": "Boy Rival",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#594333",
+    "#795336",
+    "#3b3030",
+    "#28252b",
+    "#a87038",
+    "#c48e4a",
+    "#784820",
+    "#f7edcc",
+    "#d7a541",
+    "#aa7936",
+    "#363e54",
+    "#b2925a",
+    "#11111a",
+    "#e0e0e8"
+  ],
+  "source": "art/source/living-collection-v1/rival-boy.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "50d074db80f621abeaa474275b195257e5348d96f5c448e1dc9e41b78d47b093"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "26d5524c75724a60a3c09f0abbc9a1d04926b8f411310ed2a8cb09693ea5c3b3"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "a7044b39aff9616dc925c9e731b1a752a7a19f8c8a91044b813f8f124783c8e1"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "26d5524c75724a60a3c09f0abbc9a1d04926b8f411310ed2a8cb09693ea5c3b3"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "c696564cc767ac0c1e4f891f06e8ed9c9ead418909436095a8fd5a6f87ba84ca"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "e909046ab37a173c69ffb1457bb817b3497a36d9b491d16ec9d8e2c45ef08d08"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "3ae2bc92a92ecdea7bb67859dac04bf7d91dc574a3a3c061e16a63f157325c9c"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "e909046ab37a173c69ffb1457bb817b3497a36d9b491d16ec9d8e2c45ef08d08"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "5b1c86bd5637c01c59215a1d14e1b9d821cede1fe850073a284cc2cb48925843"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "fd9295e595796bea38ddfcf727d2ccb8a5443a0a2a7ea0605a138c5e683c581d"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "af2c1ea4fa167642aac70fdeb3bd8913f191c1217dd595bd4ce6f15f998b139a"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "fd9295e595796bea38ddfcf727d2ccb8a5443a0a2a7ea0605a138c5e683c581d"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "d139a5c1506b383772f2fe6f20d8d978193f916d9dcf579c093c18266c65bb1d"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "74e9118a26dd16eb534d7e650ad76258ef5412a33502f8a822abee69bf9490c3"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "d103f20f04def8519d79e03a274f129cd38c9e384bf2c202aaa86c4607aa1053"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "74e9118a26dd16eb534d7e650ad76258ef5412a33502f8a822abee69bf9490c3"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "26d5524c75724a60a3c09f0abbc9a1d04926b8f411310ed2a8cb09693ea5c3b3",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/rival-boy.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}

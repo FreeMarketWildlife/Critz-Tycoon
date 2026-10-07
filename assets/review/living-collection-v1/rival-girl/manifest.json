@@ -1,0 +1,153 @@
+{
+  "id": "critz.rival-girl.motion.v1",
+  "slug": "rival-girl",
+  "label": "Girl Rival",
+  "kind": "character",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "palette": [
+    null,
+    "#201008",
+    "#594333",
+    "#3b3030",
+    "#9688bd",
+    "#28252b",
+    "#ded4ed",
+    "#bdb0d7",
+    "#a87038",
+    "#f7edcc",
+    "#c48e4a",
+    "#784820",
+    "#786eaf",
+    "#504b7e",
+    "#314665",
+    "#11111a",
+    "#e0e0e8"
+  ],
+  "source": "art/source/living-collection-v1/rival-girl.sprite.json",
+  "ticks": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "tickMs": 16.742706298828125,
+  "frames": [
+    {
+      "index": 0,
+      "rgbaSHA256": "8be567fb604f676c862d4674f7b2e7e64da59140f864ffdbf69d2da65e027dfa"
+    },
+    {
+      "index": 1,
+      "rgbaSHA256": "fc10c8ce2052158c138479312944835f89b002f431533babc4268dbcb0b3b9af"
+    },
+    {
+      "index": 2,
+      "rgbaSHA256": "d6f636c35d994d0718e167845f12d1a1c170dc2fe4bc3cf92d5f005d7fc2bc36"
+    },
+    {
+      "index": 3,
+      "rgbaSHA256": "fc10c8ce2052158c138479312944835f89b002f431533babc4268dbcb0b3b9af"
+    },
+    {
+      "index": 4,
+      "rgbaSHA256": "135a0e5fce61d0738a654113ad29eec3a74a403cd6909fa6a7491a03b23a809f"
+    },
+    {
+      "index": 5,
+      "rgbaSHA256": "1669a8dab19e5d7b088863b171cb6869f57bc879698286acf34bba8a9d9828c4"
+    },
+    {
+      "index": 6,
+      "rgbaSHA256": "c0235088b9f6a5df2f1908368fc1cf6a6fb965cb2ef62f6f47020360791d1cde"
+    },
+    {
+      "index": 7,
+      "rgbaSHA256": "1669a8dab19e5d7b088863b171cb6869f57bc879698286acf34bba8a9d9828c4"
+    },
+    {
+      "index": 8,
+      "rgbaSHA256": "f20d8a92133e60f532d83f6b0e3ea71b3e871f1c18674c8aa594659a63d7b0e7"
+    },
+    {
+      "index": 9,
+      "rgbaSHA256": "41a95425f1b424a17a5dc475f5589716d27b2b8e8f48a7703651e5435f9c6cf9"
+    },
+    {
+      "index": 10,
+      "rgbaSHA256": "dfcbb56b3740d6dd4325c633bfa91f6dcdf3f7c3d4a2a0bd8c4868ff2ea5073b"
+    },
+    {
+      "index": 11,
+      "rgbaSHA256": "41a95425f1b424a17a5dc475f5589716d27b2b8e8f48a7703651e5435f9c6cf9"
+    },
+    {
+      "index": 12,
+      "rgbaSHA256": "e57b63ad1818c9e8f77dd01cd071e30e7292c6524bc2073d42c1e60b5d9bcbe2"
+    },
+    {
+      "index": 13,
+      "rgbaSHA256": "f3398bcdfcf3f0c0d22c6a22d8185a9348496b69b76a510038b2aa124fec6bcd"
+    },
+    {
+      "index": 14,
+      "rgbaSHA256": "da284a941dad37b6c657bf6c219ef4fe7ffee5d3b2e0a82e32237d28ca3709e9"
+    },
+    {
+      "index": 15,
+      "rgbaSHA256": "f3398bcdfcf3f0c0d22c6a22d8185a9348496b69b76a510038b2aa124fec6bcd"
+    }
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "directionRanges": {
+    "south": [
+      0,
+      4
+    ],
+    "north": [
+      4,
+      8
+    ],
+    "west": [
+      8,
+      12
+    ],
+    "east": [
+      12,
+      16
+    ]
+  },
+  "sequence": [
+    "strideA",
+    "passing",
+    "strideB",
+    "passing"
+  ],
+  "frontIdleRGBA": "fc10c8ce2052158c138479312944835f89b002f431533babc4268dbcb0b3b9af",
+  "headBobPixels": 2,
+  "stillSource": "art/source/idle-collection-v1/rival-girl.sprite.json",
+  "scope": "Four original directional walk cycles; original front idle retained exactly. Back/profile drawings are new review proposals, not approved likenesses."
+}
