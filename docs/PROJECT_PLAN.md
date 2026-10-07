@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.E2 — Full overworld tile kit at Emerald 2×
+
+Latest user request authorizes the complete original terrain/building/garden kit as a review deliverable, superseding the older house/tree-only restriction. **Asset/checks delivered; awaiting user visual review.** [M1.E2 packet](reviews/M1-E2/README.md) includes one native master PNG, 385 named tile entries, full terrain/fence/hedge connections, genuinely modular building parts, editable source, Tiled metadata, assembly proofs and an interactive review. Source and native export checks pass; publication evidence is in PROJECT_STATUS. This does not approve the artwork, animate the kit, replace Rootport's layout, alter saves or silently integrate replacement gameplay art. Exact next action: user reviews this native revision; refine it before runtime integration or animation. Art direction belongs in ART_BIBLE.
+
 ## M1.C6 — Expanded native idle collection
 
 **Deliverable/checks complete; awaiting native-art visual review.** The 2026-10-06 request explicitly selects the R11 girl concept and authorizes an expanded idle cast plus animals. [Nineteen new native stills](reviews/M1-C6/README.md): Girl Hero, Nugget, Mom, Kaid, both rival options, five existing Rootport support characters, four existing rescue animals and four future-species proposals. Approved Hero Boy V1 remains unchanged. Actual 32×64 character and 32×32 animal exports, editor sources, masks, native/clean/grid plates and validation are delivered. Animation and accepted runtime integration remain separate; review output does not self-approve new art.

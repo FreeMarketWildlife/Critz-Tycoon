@@ -1,0 +1,34 @@
+[
+  {
+    "name": "385 atlas tiles load, no missing network assets",
+    "pass": true
+  },
+  {
+    "name": "Five views, exact canvas dimensions, export browser pixels for independent comparison",
+    "pass": true
+  },
+  {
+    "name": "Grid overlay toggles and native 1× / 2× / 3× are exact",
+    "pass": true
+  },
+  {
+    "name": "Building can extend from 5 to 11 cells and switch roof material",
+    "pass": true
+  },
+  {
+    "name": "Library filtering and per-tile coordinate inspection",
+    "pass": true
+  },
+  {
+    "name": "Desktop and phone layout have no document overflow; screenshot review",
+    "pass": true
+  },
+  {
+    "name": "PNG, metadata, Tiled and ZIP downloads return valid bytes",
+    "pass": true
+  },
+  {
+    "name": "No runtime errors or storage calls; isolated synthetic save preserved",
+    "pass": true
+  }
+]

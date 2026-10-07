@@ -1,5 +1,21 @@
 # Critz: Tycoon — art bible
 
+## Overworld master tileset — user update, M1.E2
+
+The user authorizes a full original overworld kit evoking Emerald's Littleroot/Oldale garden-town feeling: **water, cliffs, buildings made from tiles, fences, gardens and fountains**, at the established 2× linear budget. This supersedes the older house/tree-only restriction for this review task. It does not approve finished art or replace accepted gameplay artwork. [Review 01](reviews/M1-E2/README.md) awaits the user's visual response.
+
+Use one master PNG plus stable metadata. Review 01 uses a **1024×1024 sheet, 32×32 map cells, four 16×16 base tiles per cell**. Reserved transparent slots are not finished tiles. Keep grids, labels and reference art out of the master. Sample at integer coordinates with nearest-neighbor filtering; generate padded runtime exports if filtering/mipmaps are later enabled.
+
+The pinned ledger's selected 80×80 house, 32×32 tree assembly and 16×32 door redraw become **160×160, 64×64 and 32×64**. The 224×160 shop, 64×96 cypress, 96×96 / 160×96 fountain basins and footprints are **Critz proposals**, not Emerald measurements. Show the unchanged approved Hero in native 480×320 context. Roof, wall, window, door, eave and foundation parts must really repeat; prove a second building width using shared center modules.
+
+Material direction: ivory walls, terracotta and lagoon-teal roofs, yellow-green upper foliage over connected darker bases, warm stone, golden paths and blue-teal water. Keep ground quiet and entrances readable. Use single target pixels for roof curvature, leaves and stair-step edges; shingles must show overlap and plane direction rather than read as wall bricks. Retain short wall fronts and mostly hidden trunks. The review's 59 used opaque colors are an actual inventory, not a universal cap or a fourfold palette allowance.
+
+Supply inner/outer terrain corners, narrow connections and islands. Review 01 has all 47 normalized eight-neighbor shapes for path, water bank, paving and soil, plus sixteen cardinal fence/hedge connections. Inspect assemblies and test joins: the first implementation's inner-corner mismatch was caught by edge comparison and corrected. Supply cliff returns, repeated faces/feet, corners, stairs, bridge decks and rails. Connect both bridge ends to dry ground and south-facing doors to approaches.
+
+This review is static; animation follows visual review. Keep ground, decals, objects and foreground separate, and never derive collision from alpha. Tree ordering and footprints need deliberate runtime integration later. Asset validity does not establish visual acceptance.
+
+The generated design study had irregular spacing and raster artifacts. Retain it as provenance; author and verify the native kit independently. Do not promote a generated contact sheet to a working atlas merely because it resembles modular art. Deliver editable pixels, IDs, assembly recipes, native crops, exact enlargements, hashes and actual checks.
+
 ## Current cast and animal direction — M1.C6, 2026-10-06
 
 The user explicitly requested native idle sprites for Girl Hero, Professor Nugget, Mom, Kaid, additional characters and animals, and praised the R11 girl design. **Roster expansion for this idle review is authorized.** The selected girl concept now supplies approved design direction; its generated raster is not itself an approved native sprite. [M1.C6 collection and grids](reviews/M1-C6/README.md) contain eleven new character stills and eight animal studies. New native outputs await the user's visual acceptance; do not silently substitute them into gameplay or create animations.

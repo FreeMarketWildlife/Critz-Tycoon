@@ -1,0 +1,10 @@
+{
+  "passed": 5,
+  "exactBrowserCanvases": {
+    "town": "town-with-hero.png",
+    "cottage": "viewport.png",
+    "water": "water-garden-viewport.png",
+    "construction": "proof-1.png",
+    "terrain": "proof-2.png"
+  }
+}

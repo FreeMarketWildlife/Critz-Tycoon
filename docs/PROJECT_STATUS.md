@@ -1,5 +1,13 @@
 # Project status
 
+## M1.E2 — Overworld master tileset, review 01
+
+**Native kit/checks delivered; awaiting user visual review.** Latest request authorizes a complete original overworld art kit at the standing Emerald 2× budget, including tiled buildings, water, cliffs, fences, gardens and fountains. [Review packet](reviews/M1-E2/README.md) · [Phone art review](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/overworld.html). One 1024×1024 master PNG contains 385 named entries with 32×32 map cells / four 16×16 subtiles each. Reusable building and fountain centers support multiple widths. Tiled metadata, stable IDs, editable indexed sources, three tile-built maps and a ZIP are included. The Hero scale proof preserves approved V1 exactly.
+
+Independent pixel checks pass (28 checks; 8,192 compatible terrain-edge comparisons). Browser review passes eight scenarios, five canvas pixel comparisons, exact integer zoom, filtering/inspection, building width/color changes, downloads and 1440/390/320/844px layouts with no document overflow, runtime errors or storage calls. Source-pixel rebuild reproduces all native outputs. The inner-corner seam defect found during testing was corrected. Native/enlarged proofs and phone layout were inspected. Static water/fountain/door states only; no animation or collision/runtime validation is claimed. Generated design study is concept provenance, not a grid-verified asset.
+
+Work directly on `main`; opening `20f7c8d`. Concurrent completed cast commits through `4aec0c8` and unrelated unfinished game/art/music changes are preserved and excluded. The 17 opening non-status/plan tracked files remain byte-identical; status/plan received concurrent updates. Source commit/push and review publication are being finalized. Playable game artwork, movement, story and saves remain unchanged by this task. **Exact next action:** user reviews native atlas/assemblies; refine visuals before replacement gameplay integration or animation. No G1/G2 self-approval.
+
 ## M1.C6 — Native idle cast and animals
 
 **Deliverables/checks complete; new native art awaits user visual review.** The user selected the R11 girl design and explicitly authorized additional idle characters and animals. [Collection, native exports, grids and ZIP](reviews/M1-C6/README.md). Eleven new character stills cover Girl Hero, Professor Nugget, Mom, Kaid, both rival options and the five existing shop/support characters. Eight animal studies include all four current rescue groups and four clearly labeled future-species proposals. Hero Boy V1 remains byte-for-byte unchanged.
