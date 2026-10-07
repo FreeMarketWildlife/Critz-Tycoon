@@ -31,3 +31,11 @@ Opening branch `main`, commit `20f7c8d`. Existing tracked and untracked characte
 This is a static review kit. Water/fountain/waterfall do not animate; door states are not an accepted animation. Collision, anchors, footprints and foreground metadata are proposals. The review never accesses game saves. The sample town is not a new Rootport map. The generated study is not a native asset.
 
 **Next action:** user reviews this exact native atlas and its assemblies; refine the appearance before replacement gameplay integration or animation. Existing game art, movement, story and save keys are unchanged.
+
+## Publication receipt
+
+Source **`df765bc51321c827c85716fce133697e9b2983ce`** committed/pushed on `main`, with origin/main verified equal at push. [Deployment](deployment.json) **`appgdep_6ac5e44fec848191b7c129b0c09d4078`** succeeded at 2026-10-07 06:19 UTC. Existing owner-only audience preserved. [Phone review](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/overworld.html) · [Playable game](https://critz-tycoon.freemarketwildlife.chatgpt.site).
+
+The isolated release checkout fast-forwarded to that exact committed source; unfinished workspace work was excluded. [Eight release browser scenarios](release-browser-report.json) and all five independent canvas comparisons pass. [807 build file hashes](tested-build-sha256.json) exactly match the [archive verification](archive-check.json); its only additional file is the hosting manifest. Git comparison verifies index, stylesheet, src, Sprite Editor and playable assets are unchanged from the previously published `9141b27`. No redundant game tests were claimed. The first packaging attempt lacked Node on PATH; correcting PATH resolved it. AppleDouble metadata was excluded before final archive verification.
+
+Remaining workspace changes belong to unrelated character/game work. Concurrent music commit `fbac339` is preserved on main. The 17 opening non-status/plan tracked file hashes remain unchanged; concurrent status/plan/cast updates were preserved. This receipt changes documentation only and is pushed separately without another deployment.

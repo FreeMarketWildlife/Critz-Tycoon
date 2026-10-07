@@ -1,0 +1,13 @@
+{
+  "testedFiles": 807,
+  "archiveFiles": 808,
+  "mismatches": [],
+  "archiveSHA256": "8fe0c37364e1936fa3fb860828941ab8f2ff400ac18b41ee35959bae1217be6f",
+  "sourceCommit": "df765bc51321c827c85716fce133697e9b2983ce",
+  "hostingManifest": {
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "static": {
+      "directory": "dist"
+    }
+  }
+}
