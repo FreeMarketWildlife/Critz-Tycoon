@@ -1,5 +1,6 @@
+import {worldFoot,cellFoot,CAMERA_FOCUS_Y} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
-import {loadEnvironment,renderEnvironment} from './environment-render.js';
+import {loadEnvironment,renderEnvironment,drawEnvironmentTile} from './environment-render.js';
 // Native, appearance-only exploration renderer. Collision and interaction live
 // in world.js; sprite bounds and transparency never decide a walkable cell.
 import { loadAtlas } from './atlas.js';
@@ -30,8 +31,9 @@ export function renderWorld(canvas, state, time, view) {
   c.save();
   const scene = scenes[state.scene], outside = ['town','yard'].includes(scene.style);
   // Camera tracks the integer rendered foot position directly, without easing.
-  const camera = {x: view.x*2 - 240, y: view.y*2 - (view.focusY??176)};
-  debug = {camera, width:canvas.width,height:canvas.height, scene:state.scene, atlas:atlas.manifest.image};
+  const foot=worldFoot(view.x,view.y);
+  const camera = {x:foot.x-240,y:foot.y-CAMERA_FOCUS_Y};
+  debug = {camera, playerFoot:foot, width:canvas.width,height:canvas.height, scene:state.scene, atlas:atlas.manifest.image};
   c.fillStyle = outside ? '#446749' : '#223038'; c.fillRect(0,0,480,320);
   c.save(); c.translate(-camera.x,-camera.y);
   const oldSprite=(id,x,y)=>{c.save();c.translate(x,y);c.scale(2,2);sprite(c,id,0,0);c.restore();};
@@ -41,13 +43,16 @@ export function renderWorld(canvas, state, time, view) {
     buildings.some(b => x===b.x+3 && y>=b.y+5 && y<=b.y+6);
   for (let y=0;y<scene.h;y++) for(let x=0;x<scene.w;x++) {
     if (outside) tile(path(x,y)?'ground.path':'ground.grass',x,y);
-    else tile(y===0?'wall.interior.upper':y<3?'wall.interior':x===0?'wall.interior.side':scene.style==='shop'?'floor.tile':'floor.wood',x,y);
+    else if(y===2) drawEnvironmentTile(c,`interior.base.${scene.style==='shop'?'tile':'wood'}`,x*32,y*32);
+    else if(x===0&&y>2) drawEnvironmentTile(c,'interior.side.left',x*32,y*32);
+    else tile(y===0?'wall.interior.upper':y<2?'wall.interior':scene.style==='shop'?'floor.tile':'floor.wood',x,y);
   }
   if (outside) {
     for(let x=0;x<scene.w;x++) { tile('fence.horizontal',x,0); if (x!==7&&x!==8) tile('fence.horizontal',x,scene.h); }
     for(let y=1;y<scene.h-1;y++) { tile('fence.vertical',0,y); tile('fence.vertical',scene.w,y); }
   } else {
-    for(let y=0;y<scene.h;y++) tile('wall.interior.side',scene.w,y);
+    for(let y=0;y<scene.h;y++) drawEnvironmentTile(c,'interior.side.right',scene.w*32,y*32);
+    for(let x=0;x<=scene.w;x++) drawEnvironmentTile(c,'interior.front.rim',x*32,scene.h*32);
     if(scene.style !== 'shop') oldSprite('rug',8*32,8*32);
   }
   const drawables=[], effects=[];
@@ -69,8 +74,8 @@ export function renderWorld(canvas, state, time, view) {
   if(scene.style==='town') for(const b of buildings) add((b.y+b.h)*32,()=>prop(b));
   if(scene.visualHouse) add((scene.visualHouse.y+scene.visualHouse.h)*32,()=>prop(scene.visualHouse));
   for(const e of getEntities(state)) {
-    if(e.type==='npc') {const v=actorView(state,e.id),x=v.x===null?e.x*32:v.x*2,y=v.y===null?e.y*32:v.y*2;add(y,()=>{character(c,x,y-v.hop,{look:npcIdentity(e,state.gender),facing:v.facing,pose:v.pose});});effects.push(()=>drawReaction(c,x,y,v));}
-    else if(e.type==='rescue') add(e.y*32,()=>drawCritter(c,RESCUES[e.id],e.x*32-16,e.y*32-32,time));
+    if(e.type==='npc') {const v=actorView(state,e.id),{x,y}=worldFoot(v.x===null?e.x*16:v.x,v.y===null?e.y*16:v.y);add(y,()=>{character(c,x,y-v.hop,{look:npcIdentity(e,state.gender),facing:v.facing,pose:v.pose});});effects.push(()=>drawReaction(c,x,y,v));}
+    else if(e.type==='rescue') add((e.y+1)*32,()=>drawCritter(c,RESCUES[e.id],e.x*32,e.y*32,time));
     else if(e.id==='townSign'||e.type==='route') add(e.y*32,()=>oldSprite(e.type==='route'?'sign.route':'sign.town',e.x*32,e.y*32));
     else if(e.type==='door'&&!outside) {
       // Threshold decoration shares the authored entity anchor, never its bounds.
@@ -80,12 +85,12 @@ export function renderWorld(canvas, state, time, view) {
   // Stairs remain visible during the opening even while travel is story-locked.
   // Their lower lip is the entrance; side/back cells belong to the solid well.
   for(const e of scene.entities.filter(e=>e.stair))
-    oldSprite(state.scene==='bedroom'?'stairs.down':'stairs.up',e.x*32,e.y*32);
+    oldSprite(state.scene==='bedroom'?'stairs.down':'stairs.up',cellFoot(e.x,e.y).x,cellFoot(e.x,e.y).y);
   if(state.stage==='night'&&state.scene==='bedroom') {
-    if(['mom','broken','kaid'].includes(state.storyBeat)) add(6*32,()=>{const v=actorView(state,'mom');character(c,11*32,6*32-v.hop,{look:'mom',facing:v.facing});drawReaction(c,11*32,6*32,v);});
-    if(state.storyBeat==='kaid') add(5*32,()=>{const v=actorView(state,'kaid');character(c,12*32,5*32-v.hop,{look:'kaid',facing:v.facing});drawReaction(c,12*32,5*32,v);});
+    if(['mom','broken','kaid'].includes(state.storyBeat)) add(7*32,()=>{const v=actorView(state,'mom');character(c,11*32+16,7*32-v.hop,{look:'mom',facing:v.facing});drawReaction(c,11*32+16,7*32,v);});
+    if(state.storyBeat==='kaid') add(6*32,()=>{const v=actorView(state,'kaid');character(c,12*32+16,6*32-v.hop,{look:'kaid',facing:v.facing});drawReaction(c,12*32+16,6*32,v);});
   }
-  const hero=actorView(state,'hero');add(view.y*2,()=>character(c,view.x*2,view.y*2-hero.hop,{gender:state.gender,facing:hero.mark==='?'?hero.facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'}));effects.push(()=>drawReaction(c,view.x*2,view.y*2,hero));
+  const hero=actorView(state,'hero');add(foot.y+.1,()=>character(c,foot.x,foot.y-hero.hop,{gender:state.gender,facing:hero.mark==='?'?hero.facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'}));effects.push(()=>drawReaction(c,foot.x,foot.y,hero));
   if(state.scene==='glass')for(const [type,x]of [['aquarium',4],['paludarium',12]])add(5*32,()=>drawHabitatProp(c,type,x*32,5*32));
   if(state.scene==='vet')for(const [id,x]of [['gecko',4],['snail',11]])if(state.flags.rescued.includes(id))add(5*32,()=>drawCritter(c,RESCUES[id],x*32,4*32,time));
   drawables.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());

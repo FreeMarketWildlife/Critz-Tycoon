@@ -135,10 +135,10 @@ test("walk and run preserve alternating gait across consecutive steps", () => {
   }
 });
 
-test("ordinary blocked attempt lasts 32 ticks; release cannot interrupt it", () => {
+test("held blocked attempt keeps its 32-tick cadence without displacement", () => {
   const motion = make();
   const frames = [step(motion, held("right"), false, () => false)];
-  frames.push(...repeat(31, () => step(motion, held(), false, () => true)));
+  frames.push(...repeat(31, () => step(motion, held("right"), false, () => false)));
   assert.deepEqual(frames.map(f => f.pose), [...Array(16).fill("strideA"), ...Array(16).fill("idle")]);
   for (const view of frames) {
     assert.equal(view.action, "blocked");

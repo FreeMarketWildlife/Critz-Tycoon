@@ -1,3 +1,4 @@
+import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
 import {drawCritter,RESCUES} from './living-art.js';
 import {applyLighting} from './lighting.js';
@@ -14,6 +15,10 @@ export async function loadEnvironment(){
   for(const id of [...map.ground,...map.decals.map(d=>d.id),...map.objects.flatMap(o=>o.tiles?o.tiles.flat():manifest.assemblies[o.id]?.flat()||[o.id])])if(!tiles.has(id))throw Error(`Missing tile ${id} in ${sceneId}`);
  }
 }
+export function drawEnvironmentTile(c,id,x,y){
+ const t=tiles.get(id);if(!t)throw Error(`Missing environment tile ${id}`);
+ c.drawImage(sheet,t.x,t.y,32,32,Math.round(x),Math.round(y),32,32);
+}
 export function animationFrame(id,time,phase=0){
  const frame=Math.floor(time/(16*TICK_SECONDS)+phase)%4;
  if(id.startsWith('water.')&&/^water\.\d+$/.test(id))return frame?`anim.${id}.${frame}`:id;
@@ -22,8 +27,8 @@ export function animationFrame(id,time,phase=0){
  return id;
 }
 export function renderEnvironment(c,state,time,view,character,npcLook){
- const map=scenes[state.scene].map,foot={x:view.x*2+16,y:view.y*2+32};
- const camera={x:Math.max(0,Math.min(map.w*32-480,foot.x-240)),y:Math.max(0,Math.min(map.h*32-320,foot.y-(view.focusY??176)))};
+ const map=scenes[state.scene].map,foot=worldFoot(view.x,view.y);
+ const camera={x:Math.max(0,Math.min(map.w*32-480,foot.x-240)),y:Math.max(0,Math.min(map.h*32-320,foot.y-CAMERA_FOCUS_Y))};
  c.imageSmoothingEnabled=false;c.fillStyle='#487b59';c.fillRect(0,0,480,320);c.save();c.translate(-camera.x,-camera.y);
  const visible=(x,y,w=1,h=1)=>x*32<camera.x+512&&(x+w)*32>camera.x-32&&y*32<camera.y+352&&(y+h)*32>camera.y-64;
  const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
@@ -44,5 +49,5 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  if(activeGrass)draw(`grass.front.${grassFrame}`,actorCell.x*32,actorCell.y*32);
  effects.forEach(draw=>draw());
  // Direction plaques sit in the landscape and remain readable at its north/south thresholds.
- c.restore();const lighting=applyLighting(c,state);return {lighting,camera,width:480,height:320,scene:state.scene,atlas:'assets/playable/overworld/master.png',activeGrass,grassFrame,visibleObjects:sorted.length};
+ c.restore();const lighting=applyLighting(c,state);return {lighting,camera,playerFoot:foot,width:480,height:320,scene:state.scene,atlas:'assets/playable/overworld/master.png',activeGrass,grassFrame,visibleObjects:sorted.length};
 }

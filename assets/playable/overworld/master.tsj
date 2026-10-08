@@ -1,14 +1,14 @@
 {
   "type": "tileset",
   "version": "1.10",
-  "name": "Critz overworld live v2",
+  "name": "Critz overworld live v3",
   "tilewidth": 32,
   "tileheight": 32,
-  "tilecount": 1024,
+  "tilecount": 1120,
   "columns": 32,
   "image": "master.png",
   "imagewidth": 1024,
-  "imageheight": 1024,
+  "imageheight": 1120,
   "tiles": [
     {
       "id": 0,
@@ -5887,6 +5887,516 @@
           "name": "assetId",
           "type": "string",
           "value": "shop.sign.glass"
+        }
+      ]
+    },
+    {
+      "id": 992,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.left.grass"
+        }
+      ]
+    },
+    {
+      "id": 993,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.center.grass"
+        }
+      ]
+    },
+    {
+      "id": 994,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.right.grass"
+        }
+      ]
+    },
+    {
+      "id": 995,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.left.grass"
+        }
+      ]
+    },
+    {
+      "id": 996,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.center.grass"
+        }
+      ]
+    },
+    {
+      "id": 997,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.right.grass"
+        }
+      ]
+    },
+    {
+      "id": 998,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.left.grass"
+        }
+      ]
+    },
+    {
+      "id": 999,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.center.grass"
+        }
+      ]
+    },
+    {
+      "id": 1000,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.right.grass"
+        }
+      ]
+    },
+    {
+      "id": 1001,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.plaster.0.1.grass"
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.timber.0.1.grass"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.stone.0.1.grass"
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.door.wood.closed.0.1.grass"
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.door.wood.open.0.1.grass"
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.left.path"
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.center.path"
+        }
+      ]
+    },
+    {
+      "id": 1008,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.right.path"
+        }
+      ]
+    },
+    {
+      "id": 1009,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.left.path"
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.center.path"
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.right.path"
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.left.path"
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.center.path"
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.right.path"
+        }
+      ]
+    },
+    {
+      "id": 1015,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.plaster.0.1.path"
+        }
+      ]
+    },
+    {
+      "id": 1016,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.timber.0.1.path"
+        }
+      ]
+    },
+    {
+      "id": 1017,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.stone.0.1.path"
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.door.wood.closed.0.1.path"
+        }
+      ]
+    },
+    {
+      "id": 1019,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.door.wood.open.0.1.path"
+        }
+      ]
+    },
+    {
+      "id": 1020,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.left.paving"
+        }
+      ]
+    },
+    {
+      "id": 1021,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.center.paving"
+        }
+      ]
+    },
+    {
+      "id": 1022,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.plaster.1.right.paving"
+        }
+      ]
+    },
+    {
+      "id": 1023,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.left.paving"
+        }
+      ]
+    },
+    {
+      "id": 1024,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.center.paving"
+        }
+      ]
+    },
+    {
+      "id": 1025,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.timber.1.right.paving"
+        }
+      ]
+    },
+    {
+      "id": 1026,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.left.paving"
+        }
+      ]
+    },
+    {
+      "id": 1027,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.center.paving"
+        }
+      ]
+    },
+    {
+      "id": 1028,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.wall.stone.1.right.paving"
+        }
+      ]
+    },
+    {
+      "id": 1029,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.plaster.0.1.paving"
+        }
+      ]
+    },
+    {
+      "id": 1030,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.timber.0.1.paving"
+        }
+      ]
+    },
+    {
+      "id": 1031,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.windowbox.stone.0.1.paving"
+        }
+      ]
+    },
+    {
+      "id": 1032,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.door.wood.closed.0.1.paving"
+        }
+      ]
+    },
+    {
+      "id": 1033,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.door.wood.open.0.1.paving"
+        }
+      ]
+    },
+    {
+      "id": 1056,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.tree.broadleaf.0"
+        }
+      ]
+    },
+    {
+      "id": 1057,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.tree.broadleaf.1"
+        }
+      ]
+    },
+    {
+      "id": 1058,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.tree.cypress.0"
+        }
+      ]
+    },
+    {
+      "id": 1059,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "contact.tree.cypress.1"
+        }
+      ]
+    },
+    {
+      "id": 1088,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "interior.base.wood"
+        }
+      ]
+    },
+    {
+      "id": 1089,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "interior.base.tile"
+        }
+      ]
+    },
+    {
+      "id": 1090,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "interior.side.left"
+        }
+      ]
+    },
+    {
+      "id": 1091,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "interior.side.right"
+        }
+      ]
+    },
+    {
+      "id": 1092,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "interior.front.rim"
         }
       ]
     }

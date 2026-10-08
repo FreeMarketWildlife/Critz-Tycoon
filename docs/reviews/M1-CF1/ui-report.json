@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Seven-command menu supports D-pad/keyboard, A confirm, B return and remembered cursor",
+    "Fast-only options, left/right setting changes, preview and separate preference persistence",
+    "Fast text visibly types; first A reveals the page, subsequent A advances without skipping",
+    "Opening uses question/exclamation reactions and birthday hop, then reaches the unchanged loan choice",
+    "All three outdoor NPCs walk their loops and freeze in menus",
+    "NPC conversation faces the player and pauses the patrol",
+    "320px portrait through desktop and landscape retain panels and controls without overflow",
+    "No missing assets or uncaught browser exceptions"
+  ],
+  "errors": []
+}

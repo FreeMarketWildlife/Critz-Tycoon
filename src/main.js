@@ -72,7 +72,6 @@ let camera = { kind: "photo", frame: 50, zoom: 1 },
 const settings=readSettings({getItem:key=>localStorage.getItem(key)},matchMedia('(prefers-reduced-motion: reduce)').matches);
 function applySettings(){document.documentElement.dataset.frame=settings.frame;document.documentElement.dataset.calm=String(settings.calm);}
 applySettings();
-let dialogueFocus=176;
 let printer=null,dialoguePages=[],dialogueSpeaker='',optionPrinter=null,startCursor='notebook',panelOrigin='',talkingTo=null;
 const textMeasure=document.createElement('canvas').getContext('2d');
 const canvas = $("world"),
@@ -193,7 +192,6 @@ function showDialoguePage(){
   $('dialogue-text').textContent='';
   $('dialogue-accessible').textContent=`${dialogueSpeaker?dialogueSpeaker+': ':''}${text}`;
   $('dialogue').dataset.typing='true';
-  fitDialogue();
   $('dialogue-next').setAttribute('aria-label','Finish current message');
 }
 function nextDialogue() {
@@ -214,10 +212,6 @@ function nextDialogue() {
   if(id){facePlayer(state,id);if(acting)cueActor(state,id,acting);else if(body.includes('?'))cueActor(state,id,{mark:'?',look:true});else if(/Found you!|There you are!|early birthday|good news/i.test(body))cueActor(state,id,{mark:'!',hop:true});}
   if(beat==='broken')cueActor(state,'hero',{mark:'!',look:true});
   showDialoguePage();
-}
-function fitDialogue(){
-  const scale=canvas.getBoundingClientRect().width/480;
-  dialogueFocus=Math.max(80,Math.min(176,Math.floor((canvas.clientHeight-$('dialogue').offsetHeight-18)/scale)-8));
 }
 function updateDialoguePrompt(){if(!printer)return;const done=printerComplete(printer);$('dialogue').dataset.typing=String(!done);$('dialogue-next').innerHTML=done?'A <span>Next</span> <i class="continue-arrow">▼</i>':'A <span>Show all</span>';$('dialogue-next').setAttribute('aria-label',done?'Continue dialogue':'Finish current message');}
 function updateText(dt){if(printer){$('dialogue-text').textContent=advancePrinter(printer,dt);updateDialoguePrompt();}if(optionPrinter&&$('text-sample'))$('text-sample').textContent=advancePrinter(optionPrinter,dt);}
@@ -1145,7 +1139,7 @@ function clearInput() {
     .forEach((b) => b.classList.remove("pressed"));
 }
 window.addEventListener("blur", clearInput);
-window.addEventListener("resize", () => { fitWorld(); fitOverlay(); if(dialogue){fitDialogue(); const remaining=[printer.glyphs.join(''),...dialoguePages].join(' ').replace(/\n/g,' ');const style=getComputedStyle($('dialogue-text'));textMeasure.font=style.font;dialoguePages=paginate(remaining,t=>textMeasure.measureText(t).width,Math.max(140,$('dialogue-text').clientWidth),2);showDialoguePage();} });
+window.addEventListener("resize", () => { fitWorld(); fitOverlay(); if(dialogue){ const remaining=[printer.glyphs.join(''),...dialoguePages].join(' ').replace(/\n/g,' ');const style=getComputedStyle($('dialogue-text'));textMeasure.font=style.font;dialoguePages=paginate(remaining,t=>textMeasure.measureText(t).width,Math.max(140,$('dialogue-text').clientWidth),2);showDialoguePage();} });
 new ResizeObserver(fitWorld).observe($("viewport"));
 document.addEventListener("visibilitychange", () => {
   clearInput();
@@ -1208,7 +1202,7 @@ function frame(now) {
       persist();
       lastSaved = now;
     }
-    renderWorld(canvas, state, visualTime, {...getMotionView(motion),focusY:dialogue?dialogueFocus:176});
+    renderWorld(canvas, state, visualTime, getMotionView(motion));
     for (const id of ["tank-preview", "view-canvas"]) {
       const target = $(id);
       if (target)

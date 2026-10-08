@@ -1,0 +1,16 @@
+{
+  "previous_tiles_exact": 588,
+  "new_tiles": 51,
+  "total_tiles": 639,
+  "foundation_variants": 42,
+  "root_tiles": 4,
+  "interior_boundary_tiles": 5,
+  "camera_before_dialogue_y": 48,
+  "camera_during_dialogue_y": 97,
+  "fixed_before_y": 80,
+  "fixed_during_y": 80,
+  "indoor_foot_offset_correction": [
+    16,
+    32
+  ]
+}

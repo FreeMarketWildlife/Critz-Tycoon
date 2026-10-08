@@ -1,5 +1,13 @@
 # Critz: Tycoon — art bible
 
+## Stable dialogue and readable contact — user correction, M1.CF1
+
+Conversation must not move the camera or resize the world. Use a compact two-line overlay with a 44px confirmation target; show the scene from the same camera target before, during and after speech. Actor reactions may move an actor, never the whole scene.
+
+Use the same bottom-center ground-cell anchor indoors and outdoors. At the current 32px map scale, saved cell `(x,y)` renders the frame anchor at `(32x+16,32y+32)`; the 16px movement units remain internal transport coordinates. Props keep their authored ground footprints. Check visible contact from all four directions instead of compensating for an anchor mismatch by arbitrarily shrinking collision. Visible room borders, stair lips and threshold decoration must align to the occupied cells. A released blocked attempt returns to idle immediately, with no displacement or camera bump; committed walking steps still finish normally. This release policy is a Critz responsiveness choice, not a new Emerald timing measurement.
+
+Use explicit foundation/ground metatiles: the M1.CF1 additions have a stone contact edge and four rows of surrounding grass, path or paving inside the blocked base cell. Trees use spreading roots to make their two-cell trunk footprint visible; canopy projection remains separate. Preserve source tiles under their existing IDs and append revised pieces under new stable IDs. Current additions: 42 foundation variants, four tree-root pieces and five indoor boundary pieces in the master PNG. Check native pixels, clear neighboring cells, all doorway/stair approaches and saves alongside phone views. [Deliverable and evidence](reviews/M1-CF1/README.md). Visual/feel acceptance still comes from the user.
+
 ## Walking behind buildings — user correction, M1.BH1
 
 Freestanding buildings must allow at least one walkable map row beneath their rear roof projection. Author deeper overlap for larger or taller buildings where the assembly supports it; the Old Waterworks uses two rows. Store this as explicit per-building rear depth, separate from the full visual rectangle. Preserve the solid walls and wall-base/ground boundary cells. Roofs and attached chimneys cover the actor behind them; actors on the front side draw in front. Connect the rear strip to reachable clear ground and check the entire strip for accidental tree or prop blockers. Cropped boundary facades whose rear lies outside the map are an explicit exception, not an excuse to block freestanding houses.

@@ -1,5 +1,11 @@
 # Project status
 
+## M1.CF1 — Stable dialogue and clearer collision contact
+
+**Implemented and locally checked; clean-release verification/publication in progress.** The reported conversation jump was a 49-native-pixel camera target change on the tested phone. Speech now retains the normal camera target with a compact two-line overlay. Interior actors, stairs and threshold art now agree with the outdoor bottom-center cell anchor, correcting a 16px horizontal/32px vertical placement mismatch. Blocked movement releases immediately. The master gains 51 native tiles: 42 foundation/ground variants, four tree-root pieces and five indoor border pieces. All 588 prior tiles remain exact. [Deliverable](reviews/M1-CF1/README.md).
+
+On main from `6be1b83ece009071686a7063a5a671a9719643a1`. Local results: 108 unit checks, 17 contact/dialogue browser checks across four viewport sizes, and eight UI regression checks pass. Phone contact views inspected; physical Safari unverified. Existing character work remains outside this task. Next: clean-release regression, push and publish, then user contact/feel feedback. No broader art or movement gate is self-approved.
+
 ## M1.BH1 — Walking behind buildings
 
 **Implemented, tested, pushed and published; traversal feedback pending.** User requests at least one tile behind buildings, with deeper overlap for larger buildings. All twelve freestanding Rootport/Liarsville buildings now expose a reachable rear band: eleven use one row; Old Waterworks uses two. Walls stay solid, roofs/chimneys occlude the player, and one cypress moves aside. The cropped yard facade retains its off-map rear boundary. [Deliverable](reviews/M1-BH1/README.md). Original PNGs, doorways and saves remain intact. The Art Bible records the rule for subsequent buildings.

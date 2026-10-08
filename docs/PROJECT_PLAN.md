@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.CF1 — Dialogue stability and contact alignment
+
+**Implemented and locally tested; clean-release checks/publication in progress.** Remove speech camera jumps, unify indoor/outdoor cell anchors, improve blocked-input release, and add explicit foundation/root/room boundary tiles. [Deliverable](reviews/M1-CF1/README.md). Next: clean-build regression and publication, then user visual/feel feedback.
+
 ## M1.BH1 — Rear building overlap
 
 **Implemented, tested, pushed and published; traversal feedback pending.** Every freestanding building has at least one reachable rear row, with two behind Old Waterworks; solid walls and roof/chimney occlusion remain. [Deliverable](reviews/M1-BH1/README.md). Source `86c310e` is published after 104 unit, 15 rear-building browser and 28 entrance regression checks. Next: user traversal feedback.

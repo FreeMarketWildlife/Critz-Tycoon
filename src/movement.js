@@ -97,6 +97,12 @@ export function advanceMotion(motion, held, run, canEnter, opts = {}) {
   let action = motion.action;
   motion.tick += 1;
   motion.movedThisTick = false;
+  // A released collision is immediately at rest; never keep shuffling after
+  // the player lets go. Committed traversable steps still finish normally.
+  if (action?.kind === "blocked" && !direction) {
+    motion.action = null;
+    action = null;
+  }
   if (action?.kind === "blocked" && action.elapsed < action.duration && direction) {
     const target = destination(motion, direction);
     if (direction !== action.direction || canEnter(target.x, target.y)) {

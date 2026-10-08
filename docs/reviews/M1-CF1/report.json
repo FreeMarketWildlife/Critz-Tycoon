@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "house 320×568: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "town 320×568: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "house 390×844: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "town 390×844: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "house 844×390: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "town 844×390: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "house 1280×900: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "town 1280×900: opening, typing, paging and closing speech keep camera/layout fixed; text, actor and touch target fit",
+    "left-wall: contact blocks correctly without camera displacement; releasing input immediately rests",
+    "right-wall: contact blocks correctly without camera displacement; releasing input immediately rests",
+    "north-wall: contact blocks correctly without camera displacement; releasing input immediately rests",
+    "south-wall: contact blocks correctly without camera displacement; releasing input immediately rests",
+    "table: contact blocks correctly without camera displacement; releasing input immediately rests",
+    "building: contact blocks correctly without camera displacement; releasing input immediately rests",
+    "roots: contact blocks correctly without camera displacement; releasing input immediately rests",
+    "Save/reload keeps exact cell, gift, loan and money",
+    "No missing assets or browser exceptions"
+  ],
+  "errors": []
+}

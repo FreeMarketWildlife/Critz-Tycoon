@@ -72,9 +72,40 @@ for(const kind of ['critz','vet','pharmacy','bike','glass']){
  if(kind==='glass'){r.rect(7,15,18,13,P.glass[0]);r.rect(9,17,14,9,P.glass[2]);r.line(10,24,17,18,P.glass[3]);r.line(23,11,23,17,P.teal[2]);r.line(20,14,26,14,P.teal[2]);}
  add(`shop.sign.${kind}`,r,'object');
 }
+group('Contact edges · solid foundations joined to grass, path or paving');
+const contactSources=original.tiles.filter(t=>/^wall\.(plaster|timber|stone)\.1\./.test(t.id)||/^windowbox\.(plaster|timber|stone)\.0\.1$/.test(t.id)||/^door\.wood\.(open|closed)\.0\.1$/.test(t.id));
+for(const surface of ['grass','path','paving'])for(const t of contactSources){
+ const r=clone(t.id),ground=clone(surface==='grass'?'ground.grass.0':`${surface}.255`);
+ // Four native pixels of real surrounding ground remain inside the solid cell.
+ for(let y=28;y<32;y++)for(let x=0;x<32;x++)r.p.set(ground.p.subarray((y*32+x)*4,(y*32+x)*4+4),(y*32+x)*4);
+ if(t.id.startsWith('door.')){r.rect(2,25,28,2,P.stone[4]);r.rect(2,27,28,2,P.stone[1]);}
+ else {r.rect(0,23,32,2,P.stone[4]);r.rect(0,25,32,2,P.stone[2]);r.rect(0,27,32,1,P.stone[0]);if(surface==='grass')for(const x of [3,21]){r.dot(x,29,P.grass[1]);r.dot(x+1,28,P.grass[2]);}}
+ const id=add(`contact.${t.id}.${surface}`,r,'object');Object.assign(ids.get(id),{blocked:true,contact:{source:t.id,surface,solidThroughRow:27,groundRows:4}});
+}
+group('Tree contact · spreading roots beneath retained canopies');
+for(const type of ['broadleaf','cypress']){
+ const oldRows=assemblies[`tree.${type}`],row=oldRows.length-1,root=new Raster(64,32);
+ oldRows[row].forEach((id,x)=>root.blit(clone(id),x*32,0));
+ root.poly([[2,29],[6,25],[18,24],[25,20],[38,20],[45,24],[58,25],[62,29],[59,31],[5,31]],P.earth[0]);
+ root.poly([[5,28],[17,26],[27,20],[37,20],[47,26],[59,28],[56,30],[8,30]],P.earth[2]);
+ for(const [a,b,c,d]of [[28,20,7,28],[29,21,20,29],[36,20,56,28],[35,22,44,29]]){root.line(a,b,c,d,P.wood[0]);root.line(a,b-1,c,d-1,P.wood[2]);}
+ root.rect(27,17,11,9,P.wood[1]);root.rect(29,17,3,8,P.wood[3]);
+ for(const [x,y]of [[4,29],[12,30],[48,30],[58,29]]){root.rect(x,y,3,1,P.grass[1]);root.dot(x+1,y-1,P.grass[3]);}
+ const bottom=[0,1].map(x=>add(`contact.tree.${type}.${x}`,root.crop(x*32,0,32,32),'foreground'));
+ assemblies[`tree.${type}.rooted`]=[...oldRows.slice(0,-1),bottom];
+}
+group('Interior contact · skirting, side returns and visible south boundary');
+for(const floor of ['wood','tile']){
+ const r=new Raster(32,32);r.rect(0,0,32,32,'#deded0');r.rect(0,0,32,2,'#ece8d2');r.rect(0,20,32,8,'#9aa397');r.rect(0,20,32,2,'#c3c9b3');r.rect(0,26,32,2,'#737183');r.rect(0,28,32,4,floor==='wood'?'#dbc298':'#c7d6c5');r.rect(0,28,32,1,floor==='wood'?'#aa9274':'#96aaa1');add(`interior.base.${floor}`,r,'ground');
+}
+for(const side of ['left','right']){
+ const r=new Raster(32,32);r.rect(0,0,32,32,'#b0bbaa');r.rect(2,0,28,32,'#c6d1bc');const x=side==='left'?28:0;r.rect(x,0,4,32,'#737183');r.rect(side==='left'?26:4,0,2,32,'#e0e2c5');add(`interior.side.${side}`,r,'ground');
+}
+const rim=new Raster(32,32);rim.rect(0,0,32,32,'#223038');rim.rect(0,0,32,2,'#e0e2c5');rim.rect(0,2,32,6,'#737183');rim.rect(0,8,32,2,'#344b50');add('interior.front.rim',rim,'ground');
+
 const atlas=new Raster(1024,Math.max(1024,Math.ceil(cursor/32)*32));for(const t of tiles)atlas.blit(t.r,t.x,t.y);await atlas.save(`${out}/master.png`);
-const manifest={...original,assetId:'critz.overworld.live.v2',approval:'Base kit selected by user; M1.W1 world and additions await feedback',imageWidth:atlas.w,imageHeight:atlas.h,sections,assemblies,tiles:tiles.map(({r,...t})=>t),animation:{stepSeconds:16*280896/16777216,waterFrames:4,flowerSequence:[0,1,0,2],grass:'movement-triggered, one-tile response; foreground foot overlap'},collision:'Authored map cells, independent of appearance'};
+const manifest={...original,assetId:'critz.overworld.live.v3',approval:'Base kit selected by user; M1.CF1 contact edges and integrated world await feedback',imageWidth:atlas.w,imageHeight:atlas.h,sections,assemblies,tiles:tiles.map(({r,...t})=>t),animation:{stepSeconds:16*280896/16777216,waterFrames:4,flowerSequence:[0,1,0,2],grass:'movement-triggered, one-tile response; foreground foot overlap'},collision:'Authored map cells, independent of appearance'};
 await writeFile(`${out}/master.json`,JSON.stringify(manifest,null,2)+'\n');
 await writeFile(`${out}/palette.json`,JSON.stringify(P,null,2)+'\n');
-await writeFile(`${out}/master.tsj`,JSON.stringify({type:'tileset',version:'1.10',name:'Critz overworld live v2',tilewidth:32,tileheight:32,tilecount:atlas.w*atlas.h/1024,columns:32,image:'master.png',imagewidth:atlas.w,imageheight:atlas.h,tiles:tiles.map(t=>({id:t.index,properties:[{name:'assetId',type:'string',value:t.id}]}))},null,2)+'\n');
+await writeFile(`${out}/master.tsj`,JSON.stringify({type:'tileset',version:'1.10',name:'Critz overworld live v3',tilewidth:32,tileheight:32,tilecount:atlas.w*atlas.h/1024,columns:32,image:'master.png',imagewidth:atlas.w,imageheight:atlas.h,tiles:tiles.map(t=>({id:t.index,properties:[{name:'assetId',type:'string',value:t.id}]}))},null,2)+'\n');
 console.log(JSON.stringify({original:original.tiles.length,total:tiles.length,allocated:cursor,size:[atlas.w,atlas.h]}));
