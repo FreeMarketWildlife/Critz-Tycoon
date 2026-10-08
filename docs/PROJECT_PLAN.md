@@ -2,8 +2,7 @@
 
 ## M1.UI2 — Uninterrupted play area
 
-**Implemented; clean-release checks/publication in progress.** Remove automatic tips and all top chrome; expand the world to available screen space while preserving square pixels, fixed dialogue and touch controls. Status/help and save feedback live in player-opened menus. [Deliverable](reviews/M1-UI2/README.md). Next: clean-release checks and publication, then user presentation feedback.
-
+**Implemented, tested, pushed and published; user presentation feedback pending.** Automatic tips and top chrome are removed; the world fills available screen space while preserving square pixels, fixed dialogue and touch controls. Status/help and save feedback live in player-opened menus. [Deliverable](reviews/M1-UI2/README.md). Source `8afa556` is live after 115 unit and 88 browser checks. Next: user presentation feedback; no wider milestone is self-approved.
 
 ## M1.FR1 — Shakeable fruit trees
 
