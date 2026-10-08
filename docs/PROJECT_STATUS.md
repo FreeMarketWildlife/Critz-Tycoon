@@ -1,5 +1,11 @@
 # Project status
 
+## DOC.EDGE1 — Object-to-ground boundary tile rule
+
+**Documentation complete.** The user requires reusable object/ground boundary tiles, especially wall bases combined with grass, with the solid boundary cell blocked. [Authoritative rule](ART_BIBLE.md#object-to-ground-boundary-tiles--user-correction-docedge1) adds repeatable edges/corners, appropriate ground variants, explicit collision, doorway exceptions and native assembly/collision review. AGENTS.md already requires the Art Bible and forbids duplicating art specifications, so its existing pointer remains sufficient. This records user direction, not a new Emerald measurement or approval of existing artwork.
+
+Work on `main` from verified GitHub baseline `e0d18f84dcfe48584362ff167be442730282b7c9`. Checks: documentation diff/whitespace and rule consistency with explicit collision and separate overhead layers. Only this rule and status entry are included in the documentation commit; all pre-existing character edits are preserved. Commit/push verification is reported in the task response. **Playable build unchanged; no deployment required. Exact next action:** apply this rule when correcting environment assemblies, checking wall-base/ground joins and reachable door approaches. No asset or runtime repair is claimed by this documentation task.
+
 ## M1.UI1 — Menus, dialogue and character life
 
 **Implemented, tested, pushed and published; awaiting user presentation/feel feedback.** User authorizes Gen 3-inspired UI, always-fast typed dialogue, punctuation reactions, short hops/looks and NPC patrols. [Deliverable/research](reviews/M1-UI1/README.md): compact seven-command Start menu, remembered cursor, A/B navigation, three window frames, Calm reactions and two-line fast text with accessible full-page announcements. Five small NPC routines and stationary look-around poses use the selected C7 art. Narrow-phone dialogue framing keeps actors visible. Story, shops, care, animal survival, 25-gallon gift, loans, Critter earnings and existing save keys remain.

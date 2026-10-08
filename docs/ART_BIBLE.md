@@ -1,5 +1,15 @@
 # Critz: Tycoon — art bible
 
+## Object-to-ground boundary tiles — user correction, DOC.EDGE1
+
+**Mandatory construction rule:** author deliberate boundary tiles wherever a solid object meets the ground. A building's bottom wall/foundation and the adjoining grass belong together in a reusable boundary metatile. The object may end partway through that cell; the remaining pixels show the surrounding ground and a deliberate contact edge. Do not require the wall to fill the entire cell or end exactly on a grid line. This is the user's requested Emerald-inspired construction principle, recorded as Critz direction rather than a newly verified reference measurement.
+
+For our current 32×32 map cells, provide repeating wall-base/ground centers, left/right ends and corners, plus doorway/threshold transitions. Supply grass, dirt or paving variants where those surfaces actually meet the object; adjacent ground texture, palette and contact shadows must join cleanly. Apply the same principle to fence and garden bases, tree roots, rocks, cliff feet and fountain rims. Keep these parts organized under stable IDs in the master tileset, with explicit assembly metadata. Layered source art is allowed, but the reusable boundary composition must be intentional and inspectable.
+
+**Grass visible inside a solid boundary cell does not make it walkable.** A wall-base-plus-grass cell is blocked as a whole because it contains the building's ground footprint. Store that collision explicitly alongside the map assembly; never infer it from alpha or the proportion of grass pixels. The neighboring clear ground cell remains walkable. Doorway/threshold cells have their own explicit entrance/warp behavior and reachable approaches. Distinguish solid contact from overhead art: a roof overhang, canopy or cast shadow alone does not make the ground below solid.
+
+Before integrating or revising an environment assembly, inspect its repeating edges and corners at native size, then inspect an overlay of the actual collision cells with the Hero standing on the adjacent walkable row. Confirm the Hero cannot step into the wall-base boundary, doors remain reachable, and ground joins have no gaps, abrupt material seams or accidental extra blocked rows. Existing assemblies must be audited against this rule during their next environment correction; this documentation update does not certify or repair their current pixels/collision.
+
 ## Menus and acting — M1.UI1, user update
 
 The user explicitly requests Gen 3-inspired menu/dialogue simplification, always-fast typed text, punctuation reactions, short cutscene hops/looks and NPC walking paths. Full pixel-art UI is deferred. Use quiet warm-paper windows, clear dark borders and a single visible selection cursor; keep original Critz labels and accessible DOM text/touch targets. Maintain Manage/Stats/View and every existing care/story option. Color frames may vary between Leaf/Ocean/Sunset without changing layouts. [Research, implementation and review](reviews/M1-UI1/README.md).
