@@ -517,7 +517,6 @@ function meetNugget() {
           "Search completed · $15 earned. Pebble and Button are safe at the Vet.",
         ],
       ],
-      hud,
     );
     return;
   }
