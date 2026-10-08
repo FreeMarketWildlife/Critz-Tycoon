@@ -1,5 +1,14 @@
 # Project status
 
+## MUSIC.02 — Thirty Different Days, complete rewrite
+
+**Thirty new scores, exports and listening-room changes complete; technical checks pass; publication in progress.** The user rejected MUSIC.01 for sameness and excessive pitch bending and asked for every piece to be rewritten from scratch with different tempos, keys, sounds and minimal arrangements. [All 30 new tracks and evidence](reviews/MUSIC-02/README.md) · [Research](reviews/MUSIC-02/RESEARCH.md). Thirty individually authored scores total **40:01**, with thirty different tempos (52–176 BPM), eight meters, 23 original pitched patches, two to four instrument parts, and 18 drumless pieces. Zero nonzero pitch wheels, no portamento, detuning, pitch LFO, chorus or tape wow. Ordinary MIDI players use their own banks; original waveform previews render the actual exported MIDI.
+
+All 30 MIDI/audio exports pass event, tuning, waveform-spectrum, archive, duration, loudness/peak and stereo checks. Key/tempo-independent six-note contour comparisons show at most 8.16% overlap within the new edition and 1.47% against the rejected edition; this is a limited diagnostic, not proof of aesthetic individuality. The clean release on `ce14c52` passes all **83 unit tests** and nine music-browser scenarios, including playback/seek for every track and isolated synthetic save preservation. No overflow at 1366/390/320/844px; phone/desktop screenshots inspected. Physical Safari and human listening are not claimed. The music remains **awaiting user listening review**, outside gameplay.
+
+Work directly on main; opening `521738439804f3410dc048152b35541c2c849302`. Concurrent game integration and design-document commits are preserved, and unrelated working changes are excluded. Exact next action: finish clean-release checks, commit/push task files, publish the exact tested release to the existing owner-private Sites project, verify deployment and remote SHA, then return all 30 in the listening room. No musical or visual review gate is self-approved.
+
+
 ## M1.I4 — Living collection and doorway integration
 
 **Implementation and relevant checks complete; publication in progress.** The user explicitly authorized C7 gameplay integration, interior mats/open-door daylight, day/night lighting and a missing-character idle brief. [Deliverable](reviews/M1-I4/README.md) integrates 12 character sets, 10 illustrated animated critters, 3 habitat demonstrations/props and the native layered tank UI. Rival parents retain legacy art; [their idle-only prompt](reviews/M1-I4/MISSING-CHARACTERS-PROMPT.md) awaits a subsequent review task. Current appearance/motion awaits user feedback, not self-approval.
@@ -33,6 +42,8 @@ Independent checks compare1,761,280 native PNG cells and1,761,280 decoded GIF ce
 Work directly on `main`, opening `4aec0c8cb8c72d53537f606216710b6ef223f6d9`; concurrent completed overworld/music commits are preserved. Task files are separate from unfinished gameplay/walking work. **Playable build unchanged by this task; no deployment required.** No save, collision, live atlas, habitat simulation or scene changes. Source/art commit `0e43923944d8ed2e9fb7e104e273e681561ec9f6` is pushed to `origin/main`; remote SHA was verified equal to local HEAD. All nineteen opening tracked edit deltas were verified unchanged before commit. Concurrent completed work through `5559e53` remains intact. The delivery receipt is committed/pushed separately. Exact next action: user reviews new motion, directional likenesses and habitat art before refinements or accepted gameplay integration.
 
 ## MUSIC.01 — A Tiny World, 30-track soundtrack review
+
+**Rejected by the user; superseded by MUSIC.02 above.** Historical delivery record follows.
 
 **Compositions/exports/listening room complete; awaiting user listening review.** Latest request explicitly authorizes 30 original MIDI tracks exploring every emotion, creative bending synths, Pokémon research and lo-fi warmth, with no questions while the user is away. [Collection/review](reviews/MUSIC-01/README.md) · [Listening room](https://critz-tycoon.freemarketwildlife.chatgpt.site/music/) · [All MIDI files](../music/critz-tycoon-30-midi.zip). Thirty distinct pieces total **47:56**, with original A/B melodies and individual answering phrases, five meters, six modes, seven sounding parts, real pitch-wheel/expression automation and custom-synth MP3s. Research includes first-person composer interviews and seven pinned Emerald MIDI source inspections; no reference notes, samples or recordings are shipped.
 

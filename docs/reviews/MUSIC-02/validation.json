@@ -1,0 +1,802 @@
+{
+  "status": "PASS",
+  "scope": "Technical validation only; listening acceptance remains with the user.",
+  "tracks": 30,
+  "totalMinutes": 40.02,
+  "tempos": [
+    52,
+    54,
+    56,
+    58,
+    60,
+    62,
+    66,
+    70,
+    72,
+    76,
+    78,
+    80,
+    82,
+    84,
+    88,
+    90,
+    92,
+    96,
+    98,
+    104,
+    112,
+    116,
+    120,
+    128,
+    138,
+    144,
+    148,
+    152,
+    164,
+    176
+  ],
+  "tonalCentres": [
+    "A Lydian",
+    "A major",
+    "Ab major",
+    "B Lydian",
+    "B minor",
+    "Bb major",
+    "C Mixolydian",
+    "C major / A minor",
+    "C minor",
+    "D Dorian",
+    "D major",
+    "D major pentatonic",
+    "D minor",
+    "Db major",
+    "E Phrygian",
+    "E major",
+    "E minor",
+    "Eb major",
+    "F major",
+    "F minor",
+    "F# minor",
+    "G major",
+    "G minor",
+    "Gb major"
+  ],
+  "meters": [
+    "2/4",
+    "3/4",
+    "3/8",
+    "4/4",
+    "5/4",
+    "5/8",
+    "6/8",
+    "7/8"
+  ],
+  "pitchedPatches": [
+    "air",
+    "bell",
+    "box",
+    "brass",
+    "bubble",
+    "epiano",
+    "felt",
+    "flute",
+    "glass",
+    "marimba",
+    "nylon",
+    "organ",
+    "pluck",
+    "pulse",
+    "reed",
+    "saw",
+    "sine",
+    "square",
+    "strings",
+    "sub",
+    "triangle",
+    "upright",
+    "vibes"
+  ],
+  "drumlessTracks": 18,
+  "nonzeroPitchWheels": 0,
+  "partCounts": [
+    3,
+    2,
+    3,
+    3,
+    4,
+    4,
+    2,
+    3,
+    3,
+    4,
+    2,
+    3,
+    3,
+    4,
+    4,
+    3,
+    4,
+    3,
+    2,
+    3,
+    4,
+    2,
+    2,
+    4,
+    3,
+    2,
+    3,
+    4,
+    2,
+    4
+  ],
+  "noteCounts": [
+    118,
+    167,
+    186,
+    142,
+    336,
+    466,
+    95,
+    310,
+    287,
+    494,
+    79,
+    109,
+    43,
+    597,
+    980,
+    215,
+    605,
+    93,
+    140,
+    46,
+    377,
+    192,
+    184,
+    658,
+    171,
+    132,
+    227,
+    504,
+    43,
+    226
+  ],
+  "highestContourOverlaps": [
+    {
+      "a": 12,
+      "b": 27,
+      "sharedFraction": 0.0816
+    },
+    {
+      "a": 3,
+      "b": 17,
+      "sharedFraction": 0.0588
+    },
+    {
+      "a": 10,
+      "b": 30,
+      "sharedFraction": 0.029
+    },
+    {
+      "a": 2,
+      "b": 15,
+      "sharedFraction": 0.0179
+    },
+    {
+      "a": 3,
+      "b": 5,
+      "sharedFraction": 0.0147
+    },
+    {
+      "a": 10,
+      "b": 14,
+      "sharedFraction": 0.0145
+    },
+    {
+      "a": 6,
+      "b": 9,
+      "sharedFraction": 0.013
+    },
+    {
+      "a": 14,
+      "b": 17,
+      "sharedFraction": 0.0116
+    },
+    {
+      "a": 15,
+      "b": 16,
+      "sharedFraction": 0.0109
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "sharedFraction": 0.0
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "sharedFraction": 0.0
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "sharedFraction": 0.0
+    },
+    {
+      "a": 1,
+      "b": 5,
+      "sharedFraction": 0.0
+    },
+    {
+      "a": 1,
+      "b": 6,
+      "sharedFraction": 0.0
+    },
+    {
+      "a": 1,
+      "b": 7,
+      "sharedFraction": 0.0
+    }
+  ],
+  "comparisonAgainstRejectedEdition": [
+    {
+      "id": 1,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 2,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 3,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 4,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 5,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 6,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 7,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 8,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 9,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 10,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 11,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 12,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 13,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 14,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 15,
+      "maxSharedFraction": 0.0147
+    },
+    {
+      "id": 16,
+      "maxSharedFraction": 0.0123
+    },
+    {
+      "id": 17,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 18,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 19,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 20,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 21,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 22,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 23,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 24,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 25,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 26,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 27,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 28,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 29,
+      "maxSharedFraction": 0.0
+    },
+    {
+      "id": 30,
+      "maxSharedFraction": 0.0
+    }
+  ],
+  "comparisonLimit": "Six-note interval/onset fingerprints detect literal/transposed shared phrases, not subjective similarity or all possible melodic relationships.",
+  "tuningChecks": [
+    {
+      "patch": "felt",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "epiano",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "bell",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "box",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "vibes",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "marimba",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "organ",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "nylon",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "pluck",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "upright",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "sub",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "strings",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "brass",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "reed",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "flute",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "square",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "saw",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "triangle",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "pulse",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "air",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "sine",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "glass",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    },
+    {
+      "patch": "bubble",
+      "peakHz": 440.0,
+      "errorCents": 0.0
+    }
+  ],
+  "waveformHarmonicRatios": {
+    "sine": {
+      "second": 0.0,
+      "third": 0.0
+    },
+    "triangle": {
+      "second": 0.0,
+      "third": 0.1111
+    },
+    "square": {
+      "second": 0.0,
+      "third": 0.3053
+    },
+    "saw": {
+      "second": 0.4707,
+      "third": 0.2837
+    }
+  },
+  "audio": [
+    {
+      "id": 1,
+      "seconds": 89.154,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -5.25,
+      "loudnessRangeLU": 7.1,
+      "stereoCorrelation": 0.9731,
+      "quietHalfSecondWindows": 15,
+      "sha256": "c1894411f4be45cd14b2bf11beabf4fb9dd3af9bfc6cbc25381887c9763d64a0"
+    },
+    {
+      "id": 2,
+      "seconds": 90.273,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -8.41,
+      "loudnessRangeLU": 3.6,
+      "stereoCorrelation": 0.9412,
+      "quietHalfSecondWindows": 6,
+      "sha256": "8bfa0bcf4b0ad2481eda9ab99897252e7d53b85fe2becac4c11f272b90b861df"
+    },
+    {
+      "id": 3,
+      "seconds": 52.655,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -7.2,
+      "loudnessRangeLU": 3.0,
+      "stereoCorrelation": 0.9664,
+      "quietHalfSecondWindows": 7,
+      "sha256": "3fb608da366693c41a6ed5b01c4ab2166d2dd92abc06f11d50eda23c197b933d"
+    },
+    {
+      "id": 4,
+      "seconds": 65.609,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -10.66,
+      "loudnessRangeLU": 2.8,
+      "stereoCorrelation": 0.8703,
+      "quietHalfSecondWindows": 6,
+      "sha256": "bd00a2e31fa93443113ccb0fc42554237045a62fe4bfeec2525d729c4b5deb64"
+    },
+    {
+      "id": 5,
+      "seconds": 76.846,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -9.07,
+      "loudnessRangeLU": 3.6,
+      "stereoCorrelation": 0.9801,
+      "quietHalfSecondWindows": 8,
+      "sha256": "eb0b3897ede6f1414ae94a226f952ae2c6d5ee18ba70c67a70b6c67f509f44e0"
+    },
+    {
+      "id": 6,
+      "seconds": 65.609,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -6.69,
+      "loudnessRangeLU": 4.9,
+      "stereoCorrelation": 0.9789,
+      "quietHalfSecondWindows": 7,
+      "sha256": "3a544e66c99eba1014649581cb2f5f50ad6d25ba41c79193ae021270382aa449"
+    },
+    {
+      "id": 7,
+      "seconds": 73.909,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -3.9,
+      "loudnessRangeLU": 4.8,
+      "stereoCorrelation": 0.8787,
+      "quietHalfSecondWindows": 8,
+      "sha256": "26a23687deab1015f1dd8806360c40ae33fa1a24d4da0270c896def291932e35"
+    },
+    {
+      "id": 8,
+      "seconds": 68.625,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -7.41,
+      "loudnessRangeLU": 4.5,
+      "stereoCorrelation": 0.9559,
+      "quietHalfSecondWindows": 11,
+      "sha256": "3b7bdeff62c9f18f91c259c3b21394fcd63a6de7a531d8496f57b50194eeb0c7"
+    },
+    {
+      "id": 9,
+      "seconds": 81.75,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -8.34,
+      "loudnessRangeLU": 7.3,
+      "stereoCorrelation": 0.9659,
+      "quietHalfSecondWindows": 16,
+      "sha256": "e257a2e2ee1856bb5504103c54caa1b7a38706bccafccf9a095ce0e1e28a1317"
+    },
+    {
+      "id": 10,
+      "seconds": 66.158,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -6.71,
+      "loudnessRangeLU": 2.6,
+      "stereoCorrelation": 0.9722,
+      "quietHalfSecondWindows": 6,
+      "sha256": "c81ebfbf17802beedb9e06645262623659016f3cfa496a3e267041c331343605"
+    },
+    {
+      "id": 11,
+      "seconds": 94.035,
+      "integratedLUFS": -19.46,
+      "truePeakDBTP": -6.67,
+      "loudnessRangeLU": 4.8,
+      "stereoCorrelation": 0.9429,
+      "quietHalfSecondWindows": 29,
+      "sha256": "e89dc697095a3abd575a87b62edf46309391101b1811f6db4b172b06486d76a7"
+    },
+    {
+      "id": 12,
+      "seconds": 83.0,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -8.9,
+      "loudnessRangeLU": 5.0,
+      "stereoCorrelation": 0.9526,
+      "quietHalfSecondWindows": 3,
+      "sha256": "4cdaa58953283ae30ca5f77a0e1c025543f3be9b96a18042627c932007daf2ce"
+    },
+    {
+      "id": 13,
+      "seconds": 103.0,
+      "integratedLUFS": -19.47,
+      "truePeakDBTP": -9.27,
+      "loudnessRangeLU": 10.6,
+      "stereoCorrelation": 0.9311,
+      "quietHalfSecondWindows": 39,
+      "sha256": "e13d5977b1fb61d3007af744c324f5c6549e42992e07410193faa77411f45670"
+    },
+    {
+      "id": 14,
+      "seconds": 64.463,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -8.01,
+      "loudnessRangeLU": 7.1,
+      "stereoCorrelation": 0.9776,
+      "quietHalfSecondWindows": 9,
+      "sha256": "7837914500e2c556dcaaaa663360fdc1151bf204b16d8269be5edefc3eec3228"
+    },
+    {
+      "id": 15,
+      "seconds": 79.364,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -8.11,
+      "loudnessRangeLU": 3.1,
+      "stereoCorrelation": 0.9754,
+      "quietHalfSecondWindows": 11,
+      "sha256": "c8bc2590352d61636a7b3c0273ef6716c61d9dce0642a33e069979bbf2bc4c24"
+    },
+    {
+      "id": 16,
+      "seconds": 67.286,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -6.65,
+      "loudnessRangeLU": 3.8,
+      "stereoCorrelation": 0.9475,
+      "quietHalfSecondWindows": 5,
+      "sha256": "bf15f23e1ea23296bfb78164a1ca11840c7efb3fc65b4ad0a67a74c81c95b89f"
+    },
+    {
+      "id": 17,
+      "seconds": 49.667,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -5.87,
+      "loudnessRangeLU": 5.3,
+      "stereoCorrelation": 0.9207,
+      "quietHalfSecondWindows": 5,
+      "sha256": "b1d036f518947ce6eb90cdee67675b6edeb04bd38aff8ac6d369d79d77338b8d"
+    },
+    {
+      "id": 18,
+      "seconds": 95.903,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -6.48,
+      "loudnessRangeLU": 5.9,
+      "stereoCorrelation": 0.8715,
+      "quietHalfSecondWindows": 22,
+      "sha256": "91c58327d39c914ff83865b7e321ad1137575c3e9bae571dcc841dea6eb9a538"
+    },
+    {
+      "id": 19,
+      "seconds": 73.244,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -7.98,
+      "loudnessRangeLU": 7.4,
+      "stereoCorrelation": 0.9389,
+      "quietHalfSecondWindows": 10,
+      "sha256": "5d87c919f3eee984d5acd17683610cad105d3b1b40725afd936fb7dffa7d89a9"
+    },
+    {
+      "id": 20,
+      "seconds": 99.0,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -7.28,
+      "loudnessRangeLU": 3.1,
+      "stereoCorrelation": 0.8961,
+      "quietHalfSecondWindows": 5,
+      "sha256": "c89c90a1376c6331fe573c646b6ea0d1b4974aa8f22514c0e417b112eb8a94d9"
+    },
+    {
+      "id": 21,
+      "seconds": 112.714,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -6.82,
+      "loudnessRangeLU": 4.1,
+      "stereoCorrelation": 0.9538,
+      "quietHalfSecondWindows": 9,
+      "sha256": "9c304f512702530a913da24a4ea73d14ce8ae5d050d821826973e1d61581dd55"
+    },
+    {
+      "id": 22,
+      "seconds": 51.0,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -8.25,
+      "loudnessRangeLU": 4.6,
+      "stereoCorrelation": 0.9458,
+      "quietHalfSecondWindows": 6,
+      "sha256": "f63ba63490739d62b9429570150754072ff0188495ee8d6589b32585fc7ea9d7"
+    },
+    {
+      "id": 23,
+      "seconds": 80.143,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -9.18,
+      "loudnessRangeLU": 2.7,
+      "stereoCorrelation": 0.9208,
+      "quietHalfSecondWindows": 11,
+      "sha256": "e6e3b6e4683812a80e7eb0ef20a22c21b81cd5fbc8814b0c73ea1901a3d689b4"
+    },
+    {
+      "id": 24,
+      "seconds": 67.865,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -8.72,
+      "loudnessRangeLU": 4.6,
+      "stereoCorrelation": 0.9797,
+      "quietHalfSecondWindows": 6,
+      "sha256": "ad5ad9c210d473c375d23db13cd160ad8ad0fbcbbbbfae20d02873d189987a19"
+    },
+    {
+      "id": 25,
+      "seconds": 83.0,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -9.41,
+      "loudnessRangeLU": 5.1,
+      "stereoCorrelation": 0.9336,
+      "quietHalfSecondWindows": 21,
+      "sha256": "eb83575f9850f7773b6c4446aefac6b6925ed5f14dd09fddb078f1dbe799f185"
+    },
+    {
+      "id": 26,
+      "seconds": 93.0,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -3.94,
+      "loudnessRangeLU": 4.8,
+      "stereoCorrelation": 0.8836,
+      "quietHalfSecondWindows": 12,
+      "sha256": "398abeab8315102186c6d8bafac66f9dc52929489498a56ddaefd2e43898de46"
+    },
+    {
+      "id": 27,
+      "seconds": 88.263,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -5.1,
+      "loudnessRangeLU": 5.3,
+      "stereoCorrelation": 0.9075,
+      "quietHalfSecondWindows": 10,
+      "sha256": "090beb76288ae199ce036600c6b9b3490e8f63b470b2a4ee0b04b1295a906640"
+    },
+    {
+      "id": 28,
+      "seconds": 99.0,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -5.24,
+      "loudnessRangeLU": 2.4,
+      "stereoCorrelation": 0.9516,
+      "quietHalfSecondWindows": 6,
+      "sha256": "1b172aed95edc168d72039e0fe9262cb5559c522ae0ded0a55fab10ff18b4e46"
+    },
+    {
+      "id": 29,
+      "seconds": 95.308,
+      "integratedLUFS": -19.45,
+      "truePeakDBTP": -8.19,
+      "loudnessRangeLU": 11.2,
+      "stereoCorrelation": 0.9149,
+      "quietHalfSecondWindows": 29,
+      "sha256": "c795ea58ef67b4dfbcb86be9fd90774a20a14928e31b0a892f95b0dd88ef6684"
+    },
+    {
+      "id": 30,
+      "seconds": 91.163,
+      "integratedLUFS": -19.44,
+      "truePeakDBTP": -7.74,
+      "loudnessRangeLU": 4.8,
+      "stereoCorrelation": 0.9056,
+      "quietHalfSecondWindows": 18,
+      "sha256": "e8988f46458c86e33950640a53ecb61b88a847c55a8cc52adb3e8657d6ccfd04"
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## MUSIC.02 — Thirty independently rewritten MIDI pieces
+
+The user rejected MUSIC.01 for sameness and excessive glides. The latest request supersedes its bending-synth direction: rewrite all thirty from the first note, with distinct musical premises, tempos, keys, meters, instrumentation and restrained arrangements informed by Minecraft/Pokémon/Terraria research. **Composition/export/player work and technical checks complete; publication in progress; listening approval pending.** [MUSIC.02](reviews/MUSIC-02/README.md) presents all thirty new scores and previews. No gameplay soundtrack integration is authorized by delivery. Exact next action: publish the verified collection, then use the user's listening response for refinement/selection.
+
 ## M1.I4 — Selected living collection in gameplay
 
 **Implementation/checks complete; publication in progress.** User authorizes C7 cast/walks, animals and tanks in runtime plus indoor mats/open-entrance daylight and clock-based night. Keep 25-gallon care/earnings/save systems. Rival parents remain legacy placeholders with an idle-only agent brief; do not animate replacements before user review. [Deliverable and checks](reviews/M1-I4/README.md). Publish the exact tested clean build next, then collect appearance/motion feedback.
@@ -15,6 +19,8 @@
 **Deliverable/checks complete; awaiting visual and motion review.** User explicitly authorizes animation of the M1.C6 appearances and three habitat types. [Collection](reviews/M1-C7/README.md): twelve characters in four directions, ten animated critters, aquarium/terrarium/paludarium close-ups and world props. Frozen source idles and Boy V1 front walk remain exact. Native GIF/PNG/editor/RLE checks pass. No gameplay integration or simulation is added; new directional anatomy and habitat layouts remain original review proposals. User feedback is the next action.
 
 ## MUSIC.01 — Original 30-track soundtrack collection
+
+**Rejected and superseded by MUSIC.02.** Historical plan follows.
 
 Latest user request authorizes a separate music-review extension: research Pokémon composition, write 30 distinct original Critz MIDI tracks with expressive synths and every requested emotion, and present all of them without questions. **Composition/export/player work complete; awaiting user listening review.** [MUSIC.01](reviews/MUSIC-01/README.md) contains all 30 tracks, matching audio, editable sources and actual validation. Musical future-place/battle cues are proposals, not new canon or gameplay. Keep the collection separate until the user chooses integration; no visual/movement review gate is self-approved. Exact next action: user listens and selects/refines tracks. Publication evidence belongs in PROJECT_STATUS.
 

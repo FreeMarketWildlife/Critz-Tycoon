@@ -18,7 +18,7 @@ function element(tag, attrs = {}, content = '') {
 }
 function paint() {
   const query = $('#search').value.trim().toLowerCase();
-  const visible = tracks.filter(t => (!groups[category] || groups[category].includes(t.mood)) && `${t.title} ${t.mood} ${t.story}`.toLowerCase().includes(query));
+  const visible = tracks.filter(t => (!groups[category] || groups[category].includes(t.mood)) && `${t.title} ${t.mood} ${t.story} ${t.personality} ${t.key} ${t.instruments.map(p=>p.patch).join(" ")}`.toLowerCase().includes(query));
   $('#result-count').textContent = `${visible.length} of 30 stories`;
   $('#empty').hidden = visible.length > 0;
   $('#tracks').replaceChildren(...visible.map(t => {
@@ -30,7 +30,7 @@ function paint() {
     const body = element('div');
     const title = element('div', {class:'track-title'});
     title.append(element('span', {class:'track-number'}, String(t.id).padStart(2, '0')), document.createTextNode(t.title));
-    body.append(title, element('p',{class:'track-story'},t.story));main.append(button,body);
+    body.append(title, element('p',{class:'track-story'},t.story), element('p',{class:'track-spec'},`${t.bpm} BPM · ${t.meter} · ${t.key} · ${[...new Set(t.instruments.map(p=>p.patch))].join(' / ')}`), element('p',{class:'track-personality'},t.personality));main.append(button,body);
     const links = element('div', {class:'track-links'});
     links.append(element('a',{href:t.midi,download:'','aria-label':`Download MIDI: ${t.title}`},'MIDI ↗'), element('a',{href:t.audio,download:'','aria-label':`Download audio: ${t.title}`},'Audio ↗'));
     row.append(main,element('span',{class:'mood'},t.mood),element('span',{class:'duration'},time(t.duration)),links);
@@ -87,7 +87,7 @@ audio.addEventListener('play',paint);audio.addEventListener('pause',paint);
 audio.addEventListener('ended',()=>{if(index<tracks.length-1)select(index+1,true);else{audio.currentTime=0;paint();}});
 audio.addEventListener('error',()=>{$('#player-error').textContent='This audio file couldn’t load. Try the Audio download or another track.';$('#player-error').hidden=false;});
 try {
-  const response=await fetch('album.json');if(!response.ok)throw new Error('Album unavailable');
+  const response=await fetch('album.json', {cache:'no-store'});if(!response.ok)throw new Error('Album unavailable');
   const album=await response.json();tracks=album.tracks;
   $('#album-length').textContent=`30 original tracks · ${Math.round(tracks.reduce((sum,t)=>sum+t.duration,0)/60)} minutes`;
   select(0);

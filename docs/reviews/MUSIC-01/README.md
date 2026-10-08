@@ -1,3 +1,5 @@
+> **Rejected and superseded:** the user found this collection too similar and over-bent. The current thirty new compositions are [MUSIC.02](../MUSIC-02/README.md). The links below are historical; the active listening room and ZIP now deliver MUSIC.02. Old exports/source remain in Git history, not the current build.
+
 # MUSIC.01 — A Tiny World
 
 **Composition/export complete; awaiting the user’s listening review.** Thirty original Critz: Tycoon MIDI compositions and matching custom-synth MP3 performances, 47 minutes 56 seconds total. The latest user request authorizes this separate collection; no soundtrack is silently integrated into gameplay and no art/movement gate is self-approved.
