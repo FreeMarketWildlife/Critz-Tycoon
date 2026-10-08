@@ -2,7 +2,7 @@
 
 ## M1.BH1 — Rear building overlap
 
-**Implemented and locally tested; release verification/publication in progress.** Give every freestanding building at least one reachable rear row, with two behind Old Waterworks; retain solid walls and correct roof/chimney occlusion. [Deliverable](reviews/M1-BH1/README.md). Next: clean-build checks and publication, then user traversal feedback.
+**Implemented, tested, pushed and published; traversal feedback pending.** Every freestanding building has at least one reachable rear row, with two behind Old Waterworks; solid walls and roof/chimney occlusion remain. [Deliverable](reviews/M1-BH1/README.md). Source `86c310e` is published after 104 unit, 15 rear-building browser and 28 entrance regression checks. Next: user traversal feedback.
 
 ## M1.DO1 — Walk-through entrances
 

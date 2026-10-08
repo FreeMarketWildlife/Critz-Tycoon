@@ -1,0 +1,9 @@
+{
+  "source_commit": "86c310e42656024a041e0ac1954eddd42ba5a09b",
+  "tested_files": 1610,
+  "all_match": true,
+  "additional_files": [
+    "dist/.openai/hosting.json"
+  ],
+  "archive_sha256": "b4098b917f8114a65aa98149dc7cd731e4407f8fc04e4f493a94ac31b5d7f47e"
+}
