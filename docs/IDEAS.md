@@ -235,7 +235,7 @@ This entry records the current design preference and constraints; it does **not*
 
 ## IDEA-003 — Creator Easter eggs: real-world critter YouTubers as memorable NPCs and shops
 
-**State:** Luke’s Greenhouse is now a commissioned M1.LG1 playable review, awaiting user acceptance. Other cameos remain captured for future planning.  
+**State:** Luke’s Greenhouse is now a commissioned M1.LG1 playable review, awaiting user acceptance. Other cameos remain captured for future planning.
 **Source:** user brainstorming, 2026-10-07, plus linked public creator research. Names and the definitive goldfish exclusivity/shop choice come from the user; additional mechanics, dialogue, and cameo pitches below are proposals.
 
 ### Core idea
