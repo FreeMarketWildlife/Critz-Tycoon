@@ -2,7 +2,7 @@
 
 ## M1.CF1 — Dialogue stability and contact alignment
 
-**Implemented and locally tested; clean-release checks/publication in progress.** Remove speech camera jumps, unify indoor/outdoor cell anchors, improve blocked-input release, and add explicit foundation/root/room boundary tiles. [Deliverable](reviews/M1-CF1/README.md). Next: clean-build regression and publication, then user visual/feel feedback.
+**Implemented, tested, pushed and published; user visual/contact feedback pending.** Speech retains a fixed camera; indoor/outdoor cell anchors agree, blocked input releases immediately, and 51 new foundation/root/room boundary tiles make contact readable. [Deliverable](reviews/M1-CF1/README.md). Source `0a86c91` is live after 108 unit and 77 clean-release browser checks. Next: user visual/feel feedback; no wider milestone is self-approved.
 
 ## M1.BH1 — Rear building overlap
 

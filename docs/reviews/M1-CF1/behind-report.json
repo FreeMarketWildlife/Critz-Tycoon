@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "town/HOME: walk across 1-tile rear band, blocked by wall, return safely",
+    "town/KAID: walk across 1-tile rear band, blocked by wall, return safely",
+    "town/RIVAL: walk across 1-tile rear band, blocked by wall, return safely",
+    "town/CRITZ: walk across 1-tile rear band, blocked by wall, return safely",
+    "town/VET: walk across 1-tile rear band, blocked by wall, return safely",
+    "town/DRUG STORE: walk across 1-tile rear band, blocked by wall, return safely",
+    "town/BIKE SHOP: walk across 1-tile rear band, blocked by wall, return safely",
+    "town/GLOW N’ BLOW: walk across 1-tile rear band, blocked by wall, return safely",
+    "liarsville/THE OLD WATERWORKS: walk across 2-tile rear band, blocked by wall, return safely",
+    "liarsville/MILLKEEPER’S HOUSE: walk across 1-tile rear band, blocked by wall, return safely",
+    "liarsville/GARDENER’S COTTAGE: walk across 1-tile rear band, blocked by wall, return safely",
+    "liarsville/SEED LIBRARY: walk across 1-tile rear band, blocked by wall, return safely",
+    "Actual renderer pixels: every roof occludes the actor behind it and every actor draws fully in front",
+    "Save/reload behind Waterworks keeps position and gift/loan progress",
+    "No runtime exceptions or missing assets"
+  ],
+  "errors": []
+}

@@ -12,7 +12,7 @@ The master PNG now contains 639 named tiles. All 588 previously published tile i
 
 ## Checks and review
 
-Local checks pass: [108 unit tests](unit-results.txt), [17 dialogue/contact browser scenarios](report.json), and [eight UI regressions](ui-report.json). Camera coordinates and canvas bounds stay fixed across opening, typing, all pages and closing for indoor/outdoor conversations at 320×568, 390×844, 844×390 and 1280×900. Movement tests cover all four room edges, furniture, building side and tree roots; blocked input release and synthetic save/reload preserve cell, money, debt and 25-gallon gift. Tests use fresh isolated browser contexts, never user storage. Native source pixels, all map references, collision connectivity and binary alpha pass. Clean-release repetition and full doorway/story regressions follow before publication. No physical Safari testing is claimed.
+Local checks pass: [108 unit tests](unit-results.txt), [17 dialogue/contact browser scenarios](report.json), and [eight UI regressions](ui-report.json). Camera coordinates and canvas bounds stay fixed across opening, typing, all pages and closing for indoor/outdoor conversations at 320×568, 390×844, 844×390 and 1280×900. Movement tests cover all four room edges, furniture, building side and tree roots; blocked input release and synthetic save/reload preserve cell, money, debt and 25-gallon gift. Tests use fresh isolated browser contexts, never user storage. Native source pixels, all map references, collision connectivity and binary alpha pass. The exact clean release repeats 108 unit and 17 contact checks, plus [28 entrance scenarios](doors-report.json), [15 rear-building scenarios](behind-report.json) and [all 17 chapter/story scenarios](story-report.json): 77 release browser scenarios total. No physical Safari testing is claimed.
 
 Before / after right-wall contact:
 
@@ -22,6 +22,8 @@ Before / after right-wall contact:
 ![Building foundation and contact](contact-building.png)
 ![Root footprint](contact-roots.png)
 
+Native framebuffer captures: [wall contact](contact-right-wall-native.png), [foundation](contact-building-native.png), [tree roots](contact-roots-native.png).
+
 ## Publication
 
-Pending clean-release verification and deployment. User visual/contact feedback is the next review gate; no broad art or movement approval is inferred.
+[Play on your phone](https://critz-tycoon.freemarketwildlife.chatgpt.site). Source `0a86c91ac99aa39135a860771c62242ee99c952b` is pushed to GitHub main and the Sites source repository. All **1,627 tested content files** match the archive exactly; only the hosting manifest is additional. [Archive verification](archive-check.json) · [Content hashes](tested-build-sha256.json). [Native deployment](deployment.json) succeeded at **2026-10-08 08:31:29 UTC**, preserving owner-private access and existing saves. The publication helper required a routine expired-credential refresh before packaging; the retry succeeded without changing the build. This final documentation receipt needs no redundant deployment. User visual/contact feedback is the next review gate; no broad art or movement approval is inferred.
