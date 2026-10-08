@@ -2,7 +2,7 @@
 
 ## M1.FR1 — Shakeable fruit trees
 
-**Implemented and locally tested; release verification/publication in progress.** Add four apple trees using existing broadleaf footprints, A-to-shake harvest, falling fruit, bag counts and saved 24-hour regrowth. [Deliverable](reviews/M1-FR1/README.md). Next: clean-build regressions and publication, then user visual/feel feedback.
+**Implemented, tested, pushed and published; fruit-tree visual/feel feedback pending.** Four apple trees use existing broadleaf footprints; A shakes three apples into the Bag with falling fruit, saved harvests and 24-hour regrowth. [Deliverable](reviews/M1-FR1/README.md). Source `089908a` is live after 115 unit and 71 browser checks. Next: user visual/feel feedback; no broader milestone is self-approved.
 
 ## M1.CF1 — Dialogue stability and contact alignment
 

@@ -19,7 +19,7 @@ The existing v1 save keys and version remain unchanged. New `inventory.apples` a
 
 ## Verification
 
-[115 unit checks](unit-results.txt) and [nine local browser scenarios](report.json) pass. They cover all four trees, legacy save/reload, repeated presses, independent 24-hour regrowth, actual habitat ticks, invalid/remote attempts, inventory limits, Calm, readable Bag layout and missing assets/errors. [Renderer pixel proof](motion-proof.json) confirms crown movement with fixed roots/camera. Synthetic saves use fresh isolated contexts, never user browser storage. Phone screenshots inspected. Clean-release regressions follow before publication; physical Safari is not claimed.
+[115 unit checks](unit-results.txt) and [nine fruit browser scenarios](report.json) pass. They cover all four trees, legacy save/reload, repeated presses, independent 24-hour regrowth, actual habitat ticks, invalid/remote attempts, inventory limits, Calm, readable Bag layout and missing assets/errors. [Renderer pixel proof](motion-proof.json) confirms crown movement with fixed roots/camera. Synthetic saves use fresh isolated contexts, never user browser storage. Phone screenshots inspected. The exact clean release repeats all 115 unit checks and nine fruit scenarios, plus [28 entrance scenarios](doors-report.json), [17 dialogue/contact scenarios](contact-report.json) and [all 17 story scenarios](story-report.json): 71 release browser scenarios total. Physical Safari is not claimed.
 
 ![Ripe backyard apple tree](apple-yard-ripe.png)
 ![Apples falling after a shake](apple-yard-shake.png)
@@ -28,4 +28,4 @@ The existing v1 save keys and version remain unchanged. New `inventory.apples` a
 
 ## Publication
 
-Pending clean-release verification and publication. User visual/motion feedback remains pending; no broader milestone is self-approved.
+[Play on your phone](https://critz-tycoon.freemarketwildlife.chatgpt.site). Source `089908ad3a21e0456483cbe66251381f4261bf00` is pushed to GitHub main and the Sites source repository. All **1,646 tested content files** match the archive exactly; only the hosting manifest is additional. [Archive verification](archive-check.json) · [Content hashes](tested-build-sha256.json). [Native deployment](deployment.json) succeeded at **2026-10-08 08:47:59 UTC**, preserving owner-private access and saves. This final documentation receipt needs no redundant deployment. User visual/motion feedback remains pending; no broader milestone is self-approved.
