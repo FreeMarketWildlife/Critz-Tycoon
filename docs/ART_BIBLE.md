@@ -1,10 +1,17 @@
 # Critz: Tycoon — art bible
 
+## Uninterrupted play area — user correction, M1.UI2
+
+Remove all floating tips, proximity prompts, location banners and reward toasts. Remove the title/status/quest chrome around the world; put money, location/time, objectives, help and studio links inside player-opened menus. Preserve actual story dialogue, choices and character reactions. Action/validation/save feedback belongs inline in the open menu; retain nonvisual accessible announcements. Failed background saves remain reported when the next menu opens.
+
+The world fills the top edge and the entire area above the touch controls; short landscape layouts reserve a right-hand control column. Expand the framebuffer field of view to fill the available space with uniform nearest-neighbor pixel scale, rather than stretching or cropping a fixed 480×320 view. Retain integer upscaling where space permits and uniform downscaling on narrow phones. All terrain culling, camera bounds and day/night overlays use the actual framebuffer. Conversation must never change its size or camera target. Keep touch controls safe-area aware and at least 44px. This latest direction supersedes earlier fixed-frame presentation and automatic doorway-cue requirements; it is a Critz layout decision, not a newly measured Emerald fact.
+
+
 ## Shakeable fruit trees — user update, M1.FR1
 
 The user authorizes fruit-bearing trees and shaking them in gameplay. Place four apple trees in the existing yard, Rootport, Mossway and Liarsville by reusing the selected broadleaf footprint; do not block another walking cell. Append the ripe crown and apple pickup pixels to the master PNG, retain the bare rooted tree and all previous tile pixels/IDs, and show three clearly readable red apples against the foliage. Fruit is a new original Critz design, not copied reference artwork.
 
-Shake the crown by a few integer native pixels while roots and camera stay fixed. Falling apples briefly bounce at the tree base before collection feedback; Calm removes the shake/fall motion while preserving harvest and message. Ripe and harvested art must agree with saved per-tree regrowth, and both occupied root cells must be interactable from an adjacent clear cell. The current gameplay choice is three bag apples per tree with regrowth after 24 saved habitat hours. No feeding, selling or new animal rules are implied. [Deliverable](reviews/M1-FR1/README.md). Visual/motion feedback remains the user's decision.
+Shake the crown by a few integer native pixels while roots and camera stay fixed. Falling apples briefly bounce at the tree base before collection feedback; Calm removes the shake/fall motion while preserving harvest and accessible feedback. Ripe and harvested art must agree with saved per-tree regrowth, and both occupied root cells must be interactable from an adjacent clear cell. The current gameplay choice is three bag apples per tree with regrowth after 24 saved habitat hours. No feeding, selling or new animal rules are implied. [Deliverable](reviews/M1-FR1/README.md). Visual/motion feedback remains the user's decision.
 
 ## Stable dialogue and readable contact — user correction, M1.CF1
 
@@ -22,7 +29,7 @@ Verify actual movement, blocked wall contact, native renderer occlusion and save
 
 ## Walk-through entrances — user correction, M1.DO1
 
-Every usable doorway, gate, stair entrance and route connection must work through directional movement alone. No option selection or A press is required. Keep the approach and threshold walkable, trigger travel when the entrance step completes, and leave the player on a clear destination landing. Sideways movement across a storefront must not enter it. Show a walking direction/destination cue rather than an A prompt for entrances. Any optional compatibility shortcut must never substitute for a tested walking path. Explicit portal cells may cross a map’s ordinary walking boundary; adjacent walls/fences remain solid. [Implementation and checks](reviews/M1-DO1/README.md).
+Every usable doorway, gate, stair entrance and route connection must work through directional movement alone. No option selection or A press is required. Keep the approach and threshold walkable, trigger travel when the entrance step completes, and leave the player on a clear destination landing. Sideways movement across a storefront must not enter it. Entrances need no popup cue; their authored openings and in-world signs communicate the route (M1.UI2). Any optional compatibility shortcut must never substitute for a tested walking path. Explicit portal cells may cross a map’s ordinary walking boundary; adjacent walls/fences remain solid. [Implementation and checks](reviews/M1-DO1/README.md).
 
 ## Stair construction and traversal — user correction, M1.ST1
 

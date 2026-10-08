@@ -259,7 +259,7 @@ try {
     await page.locator("#start").click();
     const unsaved = await snapshot(page);
     await page.locator('[data-action="save"]').click();
-    assert.match(await page.locator("#toast").textContent(), /Could not save/i);
+    assert.match(await page.locator("#panel-status").textContent(), /Could not save/i);
     await page.locator('[data-action="title"]').click();
     assert.equal(await page.locator('[data-action="resume"]').isVisible(), true);
     assert.equal(await page.locator('[data-action="continue"]').count(), 0);

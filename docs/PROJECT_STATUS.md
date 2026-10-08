@@ -1,5 +1,10 @@
 # Project status
 
+## M1.UI2 — Uninterrupted play area
+
+**Implemented; clean-release validation and publication in progress.** User requests removing all popup tips/top text and filling the top with gameplay. [Deliverable](reviews/M1-UI2/README.md). Removed header/HUD/quest strip, proximity tips, location banners, reward toasts and footer tips. World fills available space with uniform pixel scale, dynamic camera/culling/lighting and fixed dialogue framing. Useful status/help moves into player-opened menus; save errors remain inline and accessible. Save keys/state and existing art remain. Working-tree checks: 115 unit, nine screen, 17 contact and eight UI browser checks. Physical Safari unverified. Work on main from `e768cf76eee6a2a54040e24a1b4d7371d60b099d`; sixteen unrelated tracked edits/five untracked character paths preserved. **Exact next action:** finish clean-release regression checks, commit/push and publish exact tested build; then user presentation feedback. No broader milestone is self-approved.
+
+
 ## M1.FR1 — Shakeable apple trees
 
 **Implemented, tested, pushed and published; fruit-tree visual/feel feedback pending.** Four existing broadleaf trees now bear apples: home yard, Rootport, Mossway and Liarsville. Walk up and press A to shake the crown, drop three apples and collect them in the Bag. Roots, collision and camera remain fixed. Each tree regrows after 24 habitat hours; ripe/bare appearance, quantities and harvest times persist. Calm removes shaking/falling motion. [Deliverable](reviews/M1-FR1/README.md).

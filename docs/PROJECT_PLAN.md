@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.UI2 — Uninterrupted play area
+
+**Implemented; clean-release checks/publication in progress.** Remove automatic tips and all top chrome; expand the world to available screen space while preserving square pixels, fixed dialogue and touch controls. Status/help and save feedback live in player-opened menus. [Deliverable](reviews/M1-UI2/README.md). Next: clean-release checks and publication, then user presentation feedback.
+
+
 ## M1.FR1 — Shakeable fruit trees
 
 **Implemented, tested, pushed and published; fruit-tree visual/feel feedback pending.** Four apple trees use existing broadleaf footprints; A shakes three apples into the Bag with falling fruit, saved harvests and 24-hour regrowth. [Deliverable](reviews/M1-FR1/README.md). Source `089908a` is live after 115 unit and 71 browser checks. Next: user visual/feel feedback; no broader milestone is self-approved.

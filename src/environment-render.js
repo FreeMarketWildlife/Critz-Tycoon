@@ -29,13 +29,15 @@ export function animationFrame(id,time,phase=0){
 }
 export function renderEnvironment(c,state,time,view,character,npcLook){
  const map=scenes[state.scene].map,foot=worldFoot(view.x,view.y);
- const camera={x:Math.max(0,Math.min(map.w*32-480,foot.x-240)),y:Math.max(0,Math.min(map.h*32-320,foot.y-CAMERA_FOCUS_Y))};
- c.imageSmoothingEnabled=false;c.fillStyle='#487b59';c.fillRect(0,0,480,320);c.save();c.translate(-camera.x,-camera.y);
- const visible=(x,y,w=1,h=1)=>x*32<camera.x+512&&(x+w)*32>camera.x-32&&y*32<camera.y+352&&(y+h)*32>camera.y-64;
+ const {width,height}=c.canvas;
+ const axis=(size,field,focus)=>size<field?Math.floor((size-field)/2):Math.max(0,Math.min(size-field,focus));
+ const camera={x:axis(map.w*32,width,foot.x-Math.floor(width/2)),y:axis(map.h*32,height,foot.y-Math.round(height*CAMERA_FOCUS_Y/320))};
+ c.imageSmoothingEnabled=false;c.fillStyle='#487b59';c.fillRect(0,0,width,height);c.save();c.translate(-camera.x,-camera.y);
+ const visible=(x,y,w=1,h=1)=>x*32<camera.x+width+32&&(x+w)*32>camera.x-32&&y*32<camera.y+height+32&&(y+h)*32>camera.y-64;
  const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
  const assembly=(o)=>{const objectId=o.id==='mill.wheel.0'?`mill.wheel.${Math.floor(time/.18)%4}`:o.id;const rows=o.tiles||manifest.assemblies[objectId];if(rows)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,(o.x+i)*32,(o.y+j)*32)));else draw(o.id,o.x*32,o.y*32);};
  const drawActor=(x,y,options)=>{c.save();c.translate(x,y);character(c,0,0,options);c.restore();};
- for(let y=Math.max(0,Math.floor(camera.y/32));y<Math.min(map.h,Math.ceil((camera.y+320)/32));y++)for(let x=Math.max(0,Math.floor(camera.x/32));x<Math.min(map.w,Math.ceil((camera.x+480)/32));x++)draw(map.ground[y*map.w+x],x*32,y*32);
+ for(let y=Math.max(0,Math.floor(camera.y/32));y<Math.min(map.h,Math.ceil((camera.y+height)/32));y++)for(let x=Math.max(0,Math.floor(camera.x/32));x<Math.min(map.w,Math.ceil((camera.x+width)/32));x++)draw(map.ground[y*map.w+x],x*32,y*32);
  const actorCell={x:Math.floor(foot.x/32),y:Math.floor((foot.y-1)/32)};
  const activeGrass=map.grass.has(`${actorCell.x},${actorCell.y}`),grassFrame=view.moving?[1,3,2,3][Math.floor((view.actionTick||0)/3)%4]:0;
  for(const d of map.decals){if(!visible(d.x,d.y))continue;let id=d.id;if(id==='grass.living.0'&&d.x===actorCell.x&&d.y===actorCell.y)id=`grass.living.${grassFrame}`;draw(id,d.x*32,d.y*32,d.id.startsWith('flowers.')?(d.x+d.y)%4:0);}
@@ -60,5 +62,5 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  if(activeGrass)draw(`grass.front.${grassFrame}`,actorCell.x*32,actorCell.y*32);
  effects.forEach(draw=>draw());
  // Direction plaques sit in the landscape and remain readable at its north/south thresholds.
- c.restore();const lighting=applyLighting(c,state);return {lighting,camera,playerFoot:foot,width:480,height:320,scene:state.scene,atlas:'assets/playable/overworld/master.png',activeGrass,grassFrame,visibleObjects:sorted.length};
+ c.restore();const lighting=applyLighting(c,state);return {lighting,camera,playerFoot:foot,width,height,scene:state.scene,atlas:'assets/playable/overworld/master.png',activeGrass,grassFrame,visibleObjects:sorted.length};
 }

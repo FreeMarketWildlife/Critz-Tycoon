@@ -18,8 +18,7 @@ async function fixture(scene,player){
 try{
  for(const [id,scene]of Object.entries(scenes))for(const e of scene.entities.filter(e=>e.type==='door')){
   const [dx,dy]=delta[e.entryFacing];await fixture(id,{x:e.x-dx,y:e.y-dy,facing:e.entryFacing});
-  await page.waitForFunction(()=>document.getElementById('interact-prompt').textContent.startsWith('Walk '));
-  assert.equal(await page.locator('#interact-prompt b').count(),0);
+  assert.equal(await page.locator('#interact-prompt').count(),0);
   if(id==='yard')await page.screenshot({path:`${out}/yard-${e.id}.png`});
   // Touch D-pad for both previously blocked yard entrances; keyboard elsewhere.
   const key='Arrow'+e.entryFacing[0].toUpperCase()+e.entryFacing.slice(1);

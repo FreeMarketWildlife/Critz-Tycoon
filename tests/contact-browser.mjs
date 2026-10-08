@@ -23,7 +23,7 @@ try{
    await fixture(scene,x,y);const camera=(await rendered()).camera,box=await page.locator('#world').boundingBox();
    await page.locator('#a-button').click();assert.ok(await page.locator('#dialogue').isVisible());await stable(camera);
    const d=await page.locator('#dialogue').boundingBox(),button=await page.locator('#dialogue-next').boundingBox();assert.ok(d.x>=0&&d.y>=0&&d.x+d.width<=width+1&&d.y+d.height<=height+1);assert.ok(button.width>=44&&button.height>=44);assert.deepEqual(await page.locator('#world').boundingBox(),box);
-   const data=await rendered();const heroY=box.y+(data.playerFoot.y-camera.y)*box.width/480;assert.ok(heroY<d.y,`Hero feet covered at ${width}: ${heroY} >= ${d.y}`);
+   const data=await rendered();const heroY=box.y+(data.playerFoot.y-camera.y)*box.width/data.width;assert.ok(heroY<d.y,`Hero feet covered at ${width}: ${heroY} >= ${d.y}`);
    await page.screenshot({path:`${out}/dialogue-${scene}-${width}.png`});
    for(let n=0;n<80&&await page.locator('#dialogue').isVisible();n++){await page.locator('#a-button').click();assert.deepEqual((await rendered()).camera,camera);}
    assert.equal(await page.locator('#dialogue').isVisible(),false);await stable(camera);assert.deepEqual(await page.locator('#world').boundingBox(),box);

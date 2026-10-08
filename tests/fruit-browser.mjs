@@ -19,10 +19,10 @@ try{
  for(const tree of FRUIT_TREES){
   await fixture(tree,s=>{delete s.inventory.apples;delete s.fruitHarvests;s.player.y++;});
   await page.keyboard.down('ArrowUp');for(let n=0;n<80;n++){const m=await page.evaluate(async()=>(await import('/src/main.js')).getDebugMovement());if(m.destination?.y===tree.y+2||m.tileY===tree.y+2)break;await page.waitForTimeout(10);}await page.keyboard.up('ArrowUp');await page.waitForTimeout(300);assert.equal((await snap()).player.y,tree.y+2);
-  assert.ok((await page.locator('#interact-prompt').textContent()).includes('Shake apple tree'));const before=await camera();
+  assert.equal(await page.locator('#interact-prompt').count(),0);const before=await camera();
   await page.screenshot({path:`${out}/${tree.id}-ripe.png`});await page.locator('#a-button').tap();
   assert.equal((await snap()).inventory.apples,3);assert.equal((await view()).find(t=>t.id===tree.id).ripe,false);assert.ok((await view()).find(t=>t.id===tree.id).falling);assert.deepEqual(await camera(),before);await page.waitForTimeout(500);await page.screenshot({path:`${out}/${tree.id}-shake.png`});
-  for(let i=0;i<3;i++)await page.locator('#a-button').tap();assert.equal((await snap()).inventory.apples,3);await page.waitForTimeout(1150);await page.locator('#a-button').tap();assert.ok((await page.locator('#toast').textContent()).includes('No ripe apples'));assert.equal((await snap()).inventory.apples,3);
+  for(let i=0;i<3;i++)await page.locator('#a-button').tap();assert.equal((await snap()).inventory.apples,3);await page.waitForTimeout(1150);await page.locator('#a-button').tap();assert.ok((await page.locator('#game-status').textContent()).includes('No ripe apples'));assert.equal((await snap()).inventory.apples,3);
   await page.screenshot({path:`${out}/${tree.id}-bare.png`});await page.reload();await page.locator('[data-action=continue]').click();assert.equal((await snap()).inventory.apples,3);assert.equal((await view()).find(t=>t.id===tree.id).ripe,false);
   pass(`${tree.scene}: walk up and real touch A shakes fruit into Bag once, spam/empty tree cannot duplicate, reload stays harvested`);
  }

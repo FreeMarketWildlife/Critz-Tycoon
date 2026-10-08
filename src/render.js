@@ -32,9 +32,9 @@ export function renderWorld(canvas, state, time, view) {
   const scene = scenes[state.scene], outside = ['town','yard'].includes(scene.style);
   // Camera tracks the integer rendered foot position directly, without easing.
   const foot=worldFoot(view.x,view.y);
-  const camera = {x:foot.x-240,y:foot.y-CAMERA_FOCUS_Y};
+  const camera = {x:foot.x-Math.floor(canvas.width/2),y:foot.y-Math.round(canvas.height*CAMERA_FOCUS_Y/320)};
   debug = {camera, playerFoot:foot, width:canvas.width,height:canvas.height, scene:state.scene, atlas:atlas.manifest.image};
-  c.fillStyle = outside ? '#446749' : '#223038'; c.fillRect(0,0,480,320);
+  c.fillStyle = outside ? '#446749' : '#223038'; c.fillRect(0,0,canvas.width,canvas.height);
   c.save(); c.translate(-camera.x,-camera.y);
   const oldSprite=(id,x,y)=>{c.save();c.translate(x,y);c.scale(2,2);sprite(c,id,0,0);c.restore();};
   const tile = (id,x,y) => {c.save();c.scale(2,2);atlas.draw(c,id,x*16,y*16);c.restore();};

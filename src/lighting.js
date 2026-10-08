@@ -8,7 +8,7 @@ export function drawThreshold(c,e,scene,state){const {open,beam}=doorPresentatio
   if(beam){c.save();c.globalAlpha=.23*beam;c.fillStyle='#fff4bd';for(let d=0;d<64;d+=2){const spread=Math.floor(d/8);c.fillRect(x-14-spread,y-d,28+spread*2,2);}c.restore();c.fillStyle=beam>.5?'#f6e4a4':'#b5bdad';c.fillRect(x-15,y,30,4);}
  }else{c.fillStyle='#344b50';c.fillRect(x-20,y-6,40,16);c.fillStyle='#b99b66';c.fillRect(x-18,y-4,36,12);c.fillStyle='#647e70';c.fillRect(x-15,y-2,30,8);c.fillStyle='#d1be8a';for(let i=-12;i<=12;i+=6)c.fillRect(x+i,y,2,4);}
 }
-export function applyLighting(c,state,inside=false){const d=daylight(state),night=1-d.strength;c.save();c.fillStyle=inside?`rgba(26,35,66,${night*.16})`:`rgba(19,30,65,${night*.48})`;c.fillRect(0,0,480,320);if(d.hour>=17&&d.hour<20){c.fillStyle='rgba(222,134,70,.10)';c.fillRect(0,0,480,320);}c.restore();return d;}
+export function applyLighting(c,state,inside=false){const d=daylight(state),night=1-d.strength;c.save();c.fillStyle=inside?`rgba(26,35,66,${night*.16})`:`rgba(19,30,65,${night*.48})`;c.fillRect(0,0,c.canvas.width,c.canvas.height);if(d.hour>=17&&d.hour<20){c.fillStyle='rgba(222,134,70,.10)';c.fillRect(0,0,c.canvas.width,c.canvas.height);}c.restore();return d;}
 
 // Exterior thresholds also belong to the pavement: crossing sideways must not
 // pull the player into a building. Interior exits are approached southwards.

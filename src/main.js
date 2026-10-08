@@ -63,8 +63,6 @@ let gender = "boy",
   simAccumulator = 0,
   lastTime = performance.now(),
   visualTime = 0,
-  toastTimer,
-  sceneTimer,
   capture = null,
   recording = 0;
 let camera = { kind: "photo", frame: 50, zoom: 1 },
@@ -80,40 +78,33 @@ const canvas = $("world"),
   overlay = $("overlay");
 const button = (action, label, cls = "primary full", extra = "") =>
   `<button class="${cls}" data-action="${action}" ${extra}>${label}</button>`;
-function toast(message) {
+let saveError = '';
+// Feedback belongs to the menu the player opened, never a floating world tip.
+function reportStatus(message) {
   if (!message) return;
-  clearTimeout(toastTimer);
-  $("toast").textContent = message;
-  $("toast").hidden = false;
-  toastTimer = setTimeout(() => ($("toast").hidden = true), 3400);
+  $('game-status').textContent = message;
+  const status = $('panel-status');
+  if (status && panelName) { status.textContent = saveError || message; status.hidden = false; }
 }
 function persist(quiet = true) {
   const ok = save(state);
-  if (!ok)
-    toast(
-      "Could not save on this browser. Free storage or enable local storage.",
-    );
-  else if (!quiet) toast("Progress saved on this device.");
+  saveError = ok ? '' : 'Could not save on this browser. Free storage or enable local storage.';
+  if (saveError) reportStatus(saveError);
+  else if (!quiet) reportStatus('Progress saved on this device.');
   return ok;
 }
-function hud() {
-  $("location").textContent =
-    state.scene === "bedroom"
-      ? `${state.hero}’s room`
-      : scenes[state.scene].name;
-  $("clock").textContent =
-    state.stage === "night"
-      ? "NIGHT 01"
-      : `DAY ${Math.floor(state.time / 24) + 1} · ${String(state.time % 24).padStart(2, "0")}:00`;
-  $("money").textContent = dollars(state.money);
-  $("quest").textContent = objective(state);
-}
 function fitWorld() {
-  const viewport = $("viewport");
-  const scale = viewport.clientWidth < 480 ? viewport.clientWidth / 480 : Math.floor(viewport.clientWidth / 480);
-  canvas.style.width = `${480 * scale}px`;
-  canvas.style.height = `${320 * scale}px`;
-  viewport.style.height = `${320 * scale}px`;
+  const viewport = $('viewport');
+  const {width, height} = viewport.getBoundingClientRect();
+  const fit = Math.min(width / 480, height / 320);
+  const scale = fit >= 1 ? Math.floor(fit) : fit;
+  if (!scale) return;
+  // Grow the field of view to fill the space; preserve square native pixels.
+  const w = Math.ceil(width / scale), h = Math.ceil(height / scale);
+  if (canvas.width !== w) canvas.width = w;
+  if (canvas.height !== h) canvas.height = h;
+  canvas.style.width = `${w * scale}px`;
+  canvas.style.height = `${h * scale}px`;
 }
 function fitOverlay() {
   const controls = $("controller").getBoundingClientRect();
@@ -143,7 +134,7 @@ function showPanel(
   resetMotionClock(motionClock);
   overlay.hidden = false;
   fitOverlay();
-  panel.innerHTML = `${eyebrow ? `<div class="eyebrow">${eyebrow}</div>` : ""}<div class="panel-heading"><h2 id="panel-title">${title}</h2>${back ? button("back", "×", "close", 'aria-label="Close or go back"') : ""}</div>${html}`;
+  panel.innerHTML = `${eyebrow ? `<div class="eyebrow">${eyebrow}</div>` : ""}<div class="panel-heading"><h2 id="panel-title">${title}</h2>${back ? button("back", "×", "close", 'aria-label="Close or go back"') : ""}</div>${html}<p id="panel-status" class="notice" role="status" ${saveError ? "" : "hidden"}>${esc(saveError)}</p>`;
   panel.scrollTop = scroll;
   {
     const first = name==='pause'?panel.querySelector(`[data-action="${startCursor}"]`):panel.querySelector("input,button:not(.close)");
@@ -157,7 +148,7 @@ function closePanel() {
   recording = 0;
   capture = null;
   releaseActors(state);
-  hud();
+
 }
 function titleScreen() {
   showPanel(
@@ -206,7 +197,7 @@ function nextDialogue() {
   const [speaker,body,beat,acting]=dialogue.shift();
   if(beat)state.storyBeat=beat;
   dialogueSpeaker=speaker;
-  $('dialogue').hidden=false;$('interact-prompt').hidden=true;
+  $('dialogue').hidden=false;
   const style=getComputedStyle($('dialogue-text'));textMeasure.font=style.font;
   dialoguePages=paginate(body,text=>textMeasure.measureText(text).width,Math.max(140,$('dialogue-text').clientWidth),2);
   const id=speaker===state.hero?'hero':speaker==='Mom'?'mom':speaker==='Kaid'?'kaid':speaker===state.rival?'rival':speaker==='Professor Nugget'?'nugget':talkingTo;
@@ -277,7 +268,7 @@ function finishNight(accept) {
   delete state.storyBeat;
   closePanel();
   persist();
-  hud();
+
   say(
     [
       [
@@ -301,15 +292,7 @@ function finishNight(accept) {
     () => announce("A new morning · Rootport"),
   );
 }
-function announce(label) {
-  clearTimeout(sceneTimer);
-  $("scene-label").textContent = label;
-  $("scene-label").classList.add("visible");
-  sceneTimer = setTimeout(
-    () => $("scene-label").classList.remove("visible"),
-    2400,
-  );
-}
+function announce(label) { $('game-status').textContent = label; }
 function travel(entity) {
   if (transitioning) return;
   transitioning = true;
@@ -317,7 +300,7 @@ function travel(entity) {
   $("fade").classList.add("on");
   setTimeout(() => {
     transition(state, entity);
-    hud();
+
     persist();
     announce(scenes[state.scene].name);
     $("fade").classList.remove("on");
@@ -342,7 +325,6 @@ function interact() {
   }
   const e = nearestEntity(state);
   if (!e) {
-    toast("Walk closer to a person, doorway, or sparkling hiding spot.");
     return;
   }
   if(e.type==='fruitTree'){
@@ -351,8 +333,8 @@ function interact() {
     if(result.reason==='distance')return;
     state.player.facing=e.x>state.player.x?'right':e.x<state.player.x?'left':e.y>state.player.y?'down':'up';
     cueFruitShake(state,e.id,visualTime,result.ok,settings.calm);
-    if(result.ok){if(persist())toast(`+${result.count} apples · Collected in your Bag!`);}
-    else toast(result.reason==='full'?'Your apple pouch is full.':`No ripe apples yet. More in ${Math.ceil(result.remaining)} habitat hours.`);
+    if(result.ok){if(persist())reportStatus(`+${result.count} apples · Collected in your Bag!`);}
+    else reportStatus(result.reason==='full'?'Your apple pouch is full.':`No ripe apples yet. More in ${Math.ceil(result.remaining)} habitat hours.`);
     return;
   }
   if(e.type==='npc'){talkingTo=e.id;facePlayer(state,e.id);cueActor(state,e.id,{mark:e.id==='rival'?'?':'!'});}
@@ -380,7 +362,6 @@ function interact() {
         ],
         () => {
           persist();
-          hud();
         },
       );
     }
@@ -468,14 +449,14 @@ function interact() {
       break;
     case "forage":
       if (state.time - (state.flags.lastForage ?? -10) < 6) {
-        toast(
+        reportStatus(
           "Let the yard rest. More litter will be ready in 6 habitat hours.",
         );
       } else {
         state.inventory.litter += 2;
         state.flags.lastForage = state.time;
         persist();
-        toast("Collected 2 portions of clean leaf litter.");
+        reportStatus("Collected 2 portions of clean leaf litter.");
       }
       break;
     case "townSign":
@@ -508,7 +489,7 @@ function meetNugget() {
         ],
         [
           "",
-          "Field notebook received. Open it with Start or the notebook button.",
+          "Field notebook received. Open it with Start.",
         ],
       ],
       () => {
@@ -715,7 +696,7 @@ function shop(type) {
 }
 function pause() {
   const commands=[['notebook','Notebook','Your finds, notes and next step.'],['bag','Bag','Supplies, savings and Kaid’s loan.'],['critter','Critter','Your photos, clips and earnings.'],['directory','Town guide','Places to visit and how to play.'],['options','Options','Window colors and quieter reactions.'],['save','Save','Save your progress on this device.'],['resume','Close','Back to your little world.']];
-  showPanel('pause','Menu',`<div class="command-list">${commands.map(([id,label,help])=>button(id,label,'command',`data-help="${help}"`)).join('')}</div><p id="menu-help" class="menu-help">Your finds, notes and next step.</p><div class="window-controls"><b>A</b> Choose <b>B</b> Back</div>`,{back:false,eyebrow:`${esc(state.hero)} · ${dollars(state.money)}`});
+  showPanel('pause','Menu',`<p class="menu-status">${esc(state.scene === "bedroom" ? `${state.hero}’s room` : scenes[state.scene].name)} · ${state.stage === "night" ? "Night 01" : `Day ${Math.floor(state.time / 24) + 1} · ${String(state.time % 24).padStart(2,"0")}:00`}</p><div class="command-list">${commands.map(([id,label,help])=>button(id,label,'command',`data-help="${help}"`)).join('')}</div><p id="menu-help" class="menu-help">Your finds, notes and next step.</p><div class="window-controls"><b>A</b> Choose <b>B</b> Back</div>`,{back:false,eyebrow:`${esc(state.hero)} · ${dollars(state.money)}`});
 }
 function optionsPanel(){
   const returnTo=panelName==='options'?panelOrigin:panelName;
@@ -747,7 +728,7 @@ function directory() {
   showPanel(
     "directory",
     "Welcome to Rootport",
-    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Stand beside a red apple tree and press A to shake fruit into your Bag. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p>`,
+    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Stand beside a red apple tree and press A to shake fruit into your Bag. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p><details class="studio-links"><summary>Studio & credits</summary><a href="sprite-editor/">Sprite Editor</a> · <a href="art-review/walking.html">Art reviews</a> · <a href="music/">Listening room</a></details>`,
   );
 }
 function bag() {
@@ -807,7 +788,7 @@ function doAction(action, el, delta=1) {
   if(action==='options'){optionsPanel();return;}
   if(action==='frame-style'||action==='calm-motion'){
     if(action==='frame-style')settings.frame=FRAME_STYLES[(FRAME_STYLES.indexOf(settings.frame)+delta+FRAME_STYLES.length)%FRAME_STYLES.length];else settings.calm=!settings.calm;
-    applySettings();if(!writeSettings({setItem:(k,v)=>localStorage.setItem(k,v)},settings))toast('Options could not be saved on this browser.');
+    applySettings();if(!writeSettings({setItem:(k,v)=>localStorage.setItem(k,v)},settings))reportStatus('Options could not be saved on this browser.');
     el.innerHTML=action==='frame-style'?`Window <span>◀ ${settings.frame.toUpperCase()} ▶</span>`:`Reactions <span>◀ ${settings.calm?'CALM':'LIVELY'} ▶</span>`;return;
   }
   if (["boy", "girl"].includes(action)) {
@@ -823,12 +804,11 @@ function doAction(action, el, delta=1) {
     ["mist", "moss", "feed", "clean", "light", "ventilation"].includes(action)
   ) {
     const result = manage(state, action, Number(el.dataset.value));
-    toast(result.message);
     if (result.ok) {
       persist();
       managePanel(true);
-      hud();
     }
+    reportStatus(result.message);
     return;
   }
   if (action.startsWith("buy-")) {
@@ -843,9 +823,8 @@ function doAction(action, el, delta=1) {
     if (g && spend(state, g[0])) {
       g[1]();
       persist();
-      hud();
       shop(g[2]);
-      toast("All yours. Added to your supplies.");
+      reportStatus("All yours. Added to your supplies.");
     }
     return;
   }
@@ -873,7 +852,7 @@ function doAction(action, el, delta=1) {
       const hero = $("hero-name").value.trim(),
         rival = $("rival-name").value.trim();
       if (!hero || !rival) {
-        toast("Give both characters a name to begin.");
+        reportStatus("Give both characters a name to begin.");
         (!hero ? $("hero-name") : $("rival-name")).focus();
         return;
       }
@@ -882,7 +861,6 @@ function doAction(action, el, delta=1) {
       simAccumulator = 0;
       closePanel();
       persist();
-      hud();
       opening();
       break;
     }
@@ -896,7 +874,6 @@ function doAction(action, el, delta=1) {
         delete state.storyBeat;
         opening();
       }
-      hud();
       break;
     case "accept-loan":
       finishNight(true);
@@ -942,9 +919,8 @@ function doAction(action, el, delta=1) {
         publish(state, capture);
         capture = null;
         persist();
-        hud();
         critterPanel();
-        toast("Posted! Your first viewers are finding it.");
+        reportStatus("Posted! Your first viewers are finding it.");
       }
       break;
     case "critter":
@@ -974,26 +950,23 @@ function doAction(action, el, delta=1) {
       if (state.debt && spend(state, state.debt)) {
         state.debt = 0;
         persist();
-        hud();
         if (panelName === "bag") bag();
         else kaidMenu();
-        toast("Kaid’s loan repaid. “You remembered. Thanks, friend.”");
+        reportStatus("Kaid’s loan repaid. “You remembered. Thanks, friend.”");
       }
       break;
     case "observe":
       tick(state);
       persist();
-      hud();
       if (panelName === "stats") statsPanel(true);
       else if (panelName === "critter") critterPanel(true);
       else refreshLive();
-      toast("One habitat hour passes.");
+      reportStatus("One habitat hour passes.");
       break;
     case "rest":
       tick(state, 8);
       closePanel();
       persist();
-      hud();
       announce("Eight quiet hours later");
       break;
     case "supply-gift":
@@ -1003,7 +976,7 @@ function doAction(action, el, delta=1) {
         state.inventory.moss++;
         persist();
         shop("critz");
-        toast("Welcome kit: 1 moss cutting and 3 leaf-litter portions.");
+        reportStatus("Welcome kit: 1 moss cutting and 3 leaf-litter portions.");
       }
       break;
     case "vet-talk":
@@ -1066,9 +1039,6 @@ $("run").addEventListener("click", () => {
   $("run").setAttribute("aria-pressed", running);
 });
 $("dialogue-next").addEventListener("click", nextDialogue);
-$("journal-shortcut").addEventListener("click", () => {
-  if (!dialogue && state.stage === "morning" && !panelName) notebook();
-});
 const keyDirs = {
   ArrowUp: "up",
   w: "up",
@@ -1201,7 +1171,6 @@ function frame(now) {
       if (simAccumulator >= HOUR_SECONDS) {
         simAccumulator -= HOUR_SECONDS;
         tick(state);
-        hud();
         refreshLive();
         if (panelName === "critter") critterPanel(true);
       }
@@ -1239,12 +1208,6 @@ function frame(now) {
       if (btn) btn.textContent = `● Recording… ${Math.ceil(recording)}s`;
       if (recording <= 0) takeCapture();
     }
-    const near = nearestEntity(state);
-    $("interact-prompt").hidden = !!(dialogue || panelName || !near);
-    if (near && !dialogue && !panelName)
-      $("interact-prompt").innerHTML = near.type === 'door'
-        ? `Walk ${{up:'↑',down:'↓',left:'←',right:'→'}[near.entryFacing]} · ${esc(near.name)}`
-        : `<b>A</b> ${esc(near.name)}`;
   }
   requestAnimationFrame(frame);
 }
@@ -1252,7 +1215,7 @@ try {
   await initWorldArt();
   fitWorld();
   document.documentElement.dataset.gameReady = 'true';
-  hud();
+
   titleScreen();
   lastTime = performance.now();
   requestAnimationFrame(frame);
