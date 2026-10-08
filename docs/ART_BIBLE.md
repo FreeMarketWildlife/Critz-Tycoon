@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Stair construction and traversal — user correction, M1.ST1
+
+Treat indoor stairs as a solid stairwell with **one clearly readable entrance and landing**, following the inspected Emerald house-map pattern. Rail, side and back cells block movement. The player enters from the opening and travels when the entrance step completes; they cannot roam over the entire stair graphic or activate it through a side wall. A shortcut, when offered, must use the same landing and facing. Match the visible stair mouth to its entrance and keep the arrival landing clear, facing away from the stairwell. Overlapping art never substitutes for explicit collision/warp metadata. Existing saves inside a corrected footprint must recover safely without losing progress.
+
+[Reference evidence and Critz implementation](reviews/M1-ST1/README.md) separate the pinned map/collision facts from our footprint, layout and transition choices. This does not impose indoor warp behavior on outdoor steps: an outdoor stair flight needs its own authored traversable lane, blocked edges and connected landings. Check actual movement from all sides and both ends before integrating either kind.
+
 ## Object-to-ground boundary tiles — user correction, DOC.EDGE1
 
 **Mandatory construction rule:** author deliberate boundary tiles wherever a solid object meets the ground. A building's bottom wall/foundation and the adjoining grass belong together in a reusable boundary metatile. The object may end partway through that cell; the remaining pixels show the surrounding ground and a deliberate contact edge. Do not require the wall to fill the entire cell or end exactly on a grid line. This is the user's requested Emerald-inspired construction principle, recorded as Critz direction rather than a newly verified reference measurement.

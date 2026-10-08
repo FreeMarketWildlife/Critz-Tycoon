@@ -1,5 +1,11 @@
 # Project status
 
+## M1.ST1 — Indoor stair traversal
+
+**Implementation/checks complete; clean-release verification and publication in progress.** The user authorizes correcting unrestricted stair movement to follow Emerald. [Deliverable/reference evidence](reviews/M1-ST1/README.md): both home staircases now have explicit solid side/back cells, one northward entrance from a south landing, landing-only A interaction and safe arrivals. Bedroom stairs move one cell north to leave the landing inside the room. Opening story lock stays intact; stairs remain visible. Pure existing save normalization recovers old stair positions without changing progress.
+
+98 unit checks and six isolated browser checks pass; phone landing screenshots inspected. Source inspection pins `pret/pokeemerald` at `5eff78649e7170a877b961ef0b3da13b81a16038`; it is not emulator observation or full animation equivalence. Work on `main` from `b639a14f28051874fba12f990e30781b8be370cc`. Sixteen unrelated tracked edits and five untracked character-work paths remain outside this task. **Exact next action:** run the clean release/chapter checks, publish that exact build through existing owner-private Sites hosting, and deliver for user traversal/feel feedback. No wider movement or artwork gate is self-approved.
+
 ## DOC.EDGE1 — Object-to-ground boundary tile rule
 
 **Documentation complete.** The user requires reusable object/ground boundary tiles, especially wall bases combined with grass, with the solid boundary cell blocked. [Authoritative rule](ART_BIBLE.md#object-to-ground-boundary-tiles--user-correction-docedge1) adds repeatable edges/corners, appropriate ground variants, explicit collision, doorway exceptions and native assembly/collision review. AGENTS.md already requires the Art Bible and forbids duplicating art specifications, so its existing pointer remains sufficient. This records user direction, not a new Emerald measurement or approval of existing artwork.

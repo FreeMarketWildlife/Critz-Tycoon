@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "bedroom: side collision/A cannot cross rails; committed entrance step travels once to a clear landing",
+    "house: side collision/A cannot cross rails; committed entrance step travels once to a clear landing",
+    "Bedroom stair back blocks entry from the north",
+    "Old save on the stair side recovers, saves and reloads on the landing with gift/loan progress intact",
+    "A at the correct landing remains an accessible stair shortcut",
+    "No runtime exceptions or missing assets"
+  ],
+  "errors": []
+}

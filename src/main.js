@@ -26,6 +26,7 @@ import {
   nearestEntity,
   transition,
   isBlocked,
+  canStep,
 } from "./world.js";
 import { renderTank, renderSpecimen } from "./tank-render.js";
 import { initWorldArt, renderWorld, character } from "./render.js";
@@ -1170,7 +1171,7 @@ function frame(now) {
       advanceMotionClock(motionClock, elapsed, () => {
         if (panelName || dialogue || transitioning) return;
         advanceMotion(motion, down, running || shift,
-          (x,y) => !isBlocked(state.scene,x,y,state),
+          (x,y) => canStep(state,x,y),
           { runAllowed: true, board: !!state.flags.board && ["town","yard","liarsville"].includes(state.scene) });
         const stepView = getMotionView(motion);
         if (stepView.moving && stepView.settled) {

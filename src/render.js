@@ -74,10 +74,13 @@ export function renderWorld(canvas, state, time, view) {
     else if(e.id==='townSign'||e.type==='route') add(e.y*32,()=>oldSprite(e.type==='route'?'sign.route':'sign.town',e.x*32,e.y*32));
     else if(e.type==='door'&&!outside) {
       // Threshold decoration shares the authored entity anchor, never its bounds.
-      if(e.id==='stairs')oldSprite(state.scene==='bedroom'?'stairs.down':'stairs.up',e.x*32,e.y*32);
-      else drawThreshold(c,e,state.scene,state);
+      if(!e.stair)drawThreshold(c,e,state.scene,state);
     }
   }
+  // Stairs remain visible during the opening even while travel is story-locked.
+  // Their lower lip is the entrance; side/back cells belong to the solid well.
+  for(const e of scene.entities.filter(e=>e.stair))
+    oldSprite(state.scene==='bedroom'?'stairs.down':'stairs.up',e.x*32,e.y*32);
   if(state.stage==='night'&&state.scene==='bedroom') {
     if(['mom','broken','kaid'].includes(state.storyBeat)) add(6*32,()=>{const v=actorView(state,'mom');character(c,11*32,6*32-v.hop,{look:'mom',facing:v.facing});drawReaction(c,11*32,6*32,v);});
     if(state.storyBeat==='kaid') add(5*32,()=>{const v=actorView(state,'kaid');character(c,12*32,5*32-v.hop,{look:'kaid',facing:v.facing});drawReaction(c,12*32,5*32,v);});

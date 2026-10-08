@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.ST1 — Stair traversal correction
+
+**Implementation/checks complete; clean release/publication pending.** The user requests Emerald-style stairs. Apply the inspected single entrance/solid surround to the two home staircases, preserve story/saves, and verify directional entry, safe arrivals and old-position recovery. [Deliverable](reviews/M1-ST1/README.md). Next: clean release verification and publication, then user traversal feedback; no broader movement milestone is self-approved.
+
 ## M1.UI1 — Menus, fast speech and NPC life
 
 **Implementation/checks/publication complete; user feedback pending.** The user authorizes this focused Gen 3 UI/acting pass, including fast-only typing, simple menus/options, reactions and small NPC routines. Preserve the existing ecosystem/story and selected living art. [Deliverable and source research](reviews/M1-UI1/README.md) records original Critz decisions and actual checks. Source `56874e4` is published at the existing phone URL after 91 unit, 8 UI-browser and 17 chapter-browser checks. Collect user UI/feel feedback next; full pixel UI and broader movement approval remain separate.

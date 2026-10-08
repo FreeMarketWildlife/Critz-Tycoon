@@ -13,6 +13,7 @@ export function applyLighting(c,state,inside=false){const d=daylight(state),nigh
 // Exterior thresholds also belong to the pavement: crossing sideways must not
 // pull the player into a building. Interior exits are approached southwards.
 export function approachesDoor(outside,destinationOutside,door,facing){
+ if(door.entryFacing)return facing===door.entryFacing;
  if(outside&&destinationOutside&&door.id!=='yard')return true;
  if(outside)return facing==='up';
  return facing===(door.id==='stairs'&&door.y<6?'up':'down');

@@ -5,6 +5,12 @@ import {buildings, liarsBuildings, overworldMaps} from './overworld.js';
 // half-open [x,y,width,height] cell rectangle independent of its PNG.
 export const TILE = 16;
 const door = (id, name, x, y, to, spawn) => ({ id, name, x, y, type: "door", to, spawn });
+// Indoor stairs have one south landing and one northward warp cell. The
+// surrounding rail/back cells are solid, independently of the artwork.
+const stairs = (name, x, y, to, spawn) => ({
+  ...door("stairs", name, x, y, to, spawn), entryFacing: "up",
+  stair: { footprint: [x - 1, y - 1, 3, 2], approach: [x, y + 1] },
+});
 const npc = (id, name, x, y, look = "adult") => ({ id, name, x, y, type: "npc", look, collision: [x, y, 1, 1] });
 const item = (id, name, x, y, type = "inspect") => ({ id, name, x, y, type });
 const furniture = (kind, x, y, w, h, collision, sprite = `prop.${kind}`) => ({ kind, x, y, w, h, collision, sprite });
@@ -40,7 +46,7 @@ export const scenes = {
       item("sleep", "Your bed", 3, 6, "bed"),
       item("desk", "Your sketchbook", 12, 5),
       item("gecko", "A rustle behind the fern", 3, 8, "rescue"),
-      door("stairs", "Downstairs", 14, 11, "house", [14, 4]),
+      stairs("Downstairs", 14, 10, "house", [14, 4]),
     ],
   },
   house: {
@@ -54,7 +60,7 @@ export const scenes = {
     entities: [
       npc("mom", "Mom", 5, 6, "mom"),
       item("snail", "A tiny trail by the books", 11, 4, "rescue"),
-      door("stairs", "Your bedroom", 14, 3, "bedroom", [14, 10]),
+      stairs("Your bedroom", 14, 3, "bedroom", [14, 11]),
       door("exit", "The yard", 8, 11, "yard", [8, 4]),
     ],
   },
@@ -171,6 +177,8 @@ export function nearestEntity(state, entities = getEntities(state)) {
   const facing = { up: [0, -1], down: [0, 1], left: [-1, 0], right: [1, 0] }[state.player.facing] || [0, 0];
   let best = null, rank = Infinity;
   for (const entity of entities) {
+    if (entity.stair && (state.player.x !== entity.stair.approach[0] ||
+        state.player.y !== entity.stair.approach[1] || state.player.facing !== entity.entryFacing)) continue;
     const dx = entity.x - state.player.x, dy = entity.y - state.player.y;
     const distance = Math.abs(dx) + Math.abs(dy);
     if (distance > 1) continue;
@@ -188,8 +196,21 @@ export function isBlocked(sceneId, x, y, state) {
   if (x < 1 || x >= scene.w || y < top || y >= scene.h) return true;
   if (scene.map) { if (scene.map.solid.has(`${x},${y}`)) return true; }
   else if (scene.objects.some(object => contains(object.collision, x, y))) return true;
+  if (scene.entities.some(e => e.stair && contains(e.stair.footprint, x, y) &&
+      (x !== e.x || y !== e.y || (sceneId === 'bedroom' && state?.stage === 'night')))) return true;
   if (scene.style === "town" && buildings.some(building => contains(building.collision, x, y))) return true;
   return !!state && getEntities(state.scene===sceneId?state:{ ...state, scene: sceneId }).some(entity => entity.type === "npc" && (contains(entity.collision, x, y) || (entity.reserved?.[0]===x && entity.reserved?.[1]===y)));
+}
+
+export function canStep(state, x, y) {
+  if (isBlocked(state.scene, x, y, state)) return false;
+  for (const e of scenes[state.scene].entities.filter(e => e.stair)) {
+    const [ax, ay] = e.stair.approach;
+    if (x === e.x && y === e.y && (state.player.x !== ax || state.player.y !== ay)) return false;
+    // Also allow a safe retreat for a caller already standing on the warp.
+    if (state.player.x === e.x && state.player.y === e.y && (x !== ax || y !== ay)) return false;
+  }
+  return true;
 }
 
 // Recover only to the connected floor region containing the authored safe
@@ -198,6 +219,11 @@ export function isBlocked(sceneId, x, y, state) {
 export function safeGridPosition(sceneId, x, y, state) {
   const scene = scenes[sceneId];
   if (!scene) throw new RangeError(`Unknown scene: ${sceneId}`);
+  // Old saves could stand anywhere on the stair art. Recover to its authored
+  // landing, preserving every nonposition field and avoiding an immediate warp.
+  const stair = scene.entities.find(e => e.stair && contains(e.stair.footprint, x, y));
+  if (stair && !isBlocked(sceneId, ...stair.stair.approach, state))
+    return { x: stair.stair.approach[0], y: stair.stair.approach[1] };
   const [sx, sy] = scene.safeSpawn;
   if (isBlocked(sceneId, sx, sy, state)) throw new Error(`Blocked safe spawn: ${sceneId}`);
   const targetX = Number.isFinite(x) ? x : sx, targetY = Number.isFinite(y) ? y : sy;
