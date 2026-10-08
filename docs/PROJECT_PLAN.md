@@ -6,7 +6,7 @@ The user rejected MUSIC.01 for sameness and excessive glides. The latest request
 
 ## M1.I4 — Selected living collection in gameplay
 
-**Implementation/checks complete; publication in progress.** User authorizes C7 cast/walks, animals and tanks in runtime plus indoor mats/open-entrance daylight and clock-based night. Keep 25-gallon care/earnings/save systems. Rival parents remain legacy placeholders with an idle-only agent brief; do not animate replacements before user review. [Deliverable and checks](reviews/M1-I4/README.md). Publish the exact tested clean build next, then collect appearance/motion feedback.
+**Implementation, checks and publication complete; user feedback pending.** User authorizes C7 cast/walks, animals and tanks in runtime plus indoor mats/open-entrance daylight and clock-based night. Keep 25-gallon care/earnings/save systems. Rival parents remain legacy placeholders with an idle-only agent brief; do not animate replacements before user review. [Deliverable and checks](reviews/M1-I4/README.md). Source `ce14c52` is live at the existing phone URL after 83 unit, 17 chapter and 10 integration browser checks. Collect appearance/motion feedback next; then review the two parent idles before authorizing their animations.
 
 
 ## M1.W1 — Playable northern overworld

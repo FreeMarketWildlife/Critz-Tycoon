@@ -38,3 +38,7 @@ The Bible retains the production dimensions and anatomy rules. `art/source/livin
 The shared working directory contains older, unrelated 24×32 character experiments and concurrent music work. These remain outside this delivery. Their stale untracked `appearance.test.mjs` expects a 24×32 atlas and fails against the pre-existing composite atlas; it is not imported by this runtime and is not included in the clean release. Task-related overlapping runtime preview/identity changes are superseded by the requested native integration.
 
 Publication and exact next action are recorded in [PROJECT_STATUS](../../PROJECT_STATUS.md). Review the phone build and then create/review the two parent idles using the linked brief.
+
+## Publication receipt
+
+Source `ce14c5274f01a864674f47931dae7781bca8d591` is pushed to GitHub and published at [the phone game](https://critz-tycoon.freemarketwildlife.chatgpt.site). The final clean release passes [83 unit checks](release-unit-results.txt), [17 chapter browser checks](release-chapter-browser-report.json) and [10 integration checks](release-browser-report.json). [Archive verification](archive-check.json) proves all 1,518 tested files match the published package. [Deployment](deployment.json) succeeded at 2026-10-08 06:58:18 UTC; owner-only access is unchanged. A separate documentation receipt commit does not change the playable build.
