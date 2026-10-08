@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Walk-through entrances — user correction, M1.DO1
+
+Every usable doorway, gate, stair entrance and route connection must work through directional movement alone. No option selection or A press is required. Keep the approach and threshold walkable, trigger travel when the entrance step completes, and leave the player on a clear destination landing. Sideways movement across a storefront must not enter it. Show a walking direction/destination cue rather than an A prompt for entrances. Any optional compatibility shortcut must never substitute for a tested walking path. Explicit portal cells may cross a map’s ordinary walking boundary; adjacent walls/fences remain solid. [Implementation and checks](reviews/M1-DO1/README.md).
+
 ## Stair construction and traversal — user correction, M1.ST1
 
 Treat indoor stairs as a solid stairwell with **one clearly readable entrance and landing**, following the inspected Emerald house-map pattern. Rail, side and back cells block movement. The player enters from the opening and travels when the entrance step completes; they cannot roam over the entire stair graphic or activate it through a side wall. A shortcut, when offered, must use the same landing and facing. Match the visible stair mouth to its entrance and keep the arrival landing clear, facing away from the stairwell. Overlapping art never substitutes for explicit collision/warp metadata. Existing saves inside a corrected footprint must recover safely without losing progress.

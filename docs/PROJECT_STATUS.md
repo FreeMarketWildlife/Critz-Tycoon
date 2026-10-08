@@ -1,5 +1,11 @@
 # Project status
 
+## M1.DO1 — Walk-through entrances
+
+**Implementation/checks complete; clean release/publication pending.** User requests movement-only door travel. [Deliverable](reviews/M1-DO1/README.md) fixes the yard house threshold and gate boundary collision, declares entry directions for all 26 entrances, and replaces door A prompts with walking cues. Existing shortcuts are optional; none is required. Walls/fences, stairs, safe arrivals, story and save keys remain intact.
+
+101 unit checks and 28 isolated browser scenarios pass, including every entrance without A/confirmation, real touch at both yard portals, sideways crossing, no return bounce and preserved money/debt/gift. Phone screenshots inspected; physical Safari not claimed. Work on `main` from `3ca996485a9e9fef29edac79956e0e8b7d904d9e`; sixteen unrelated tracked edits and five untracked character-work paths remain preserved. **Exact next action:** verify the clean build, publish through the existing owner-private Sites project, then collect user traversal feedback. No full movement/art approval is inferred.
+
 ## M1.ST1 — Indoor stair traversal
 
 **Implemented, tested, pushed and published; awaiting traversal/feel feedback.** The user authorizes correcting unrestricted stair movement to follow Emerald. [Deliverable/reference evidence](reviews/M1-ST1/README.md): both home staircases now have explicit solid side/back cells, one northward entrance from a south landing, landing-only A interaction and safe arrivals. Bedroom stairs move one cell north to leave the landing inside the room. Opening story lock stays intact; stairs remain visible. Pure existing save normalization recovers old stair positions without changing progress.

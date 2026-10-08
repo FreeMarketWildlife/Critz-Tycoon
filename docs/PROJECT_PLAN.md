@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.DO1 — Walk-through entrances
+
+**Implementation/checks complete; clean release/publication pending.** All usable doors and gates must work by walking without A or selection. Fix both yard boundary exceptions and show walking cues; preserve solid surroundings, story and saves. [Deliverable](reviews/M1-DO1/README.md). Next: verify/publish the exact clean build, then user traversal feedback.
+
 ## M1.ST1 — Stair traversal correction
 
 **Implementation/checks/publication complete; traversal feedback pending.** The user requests Emerald-style stairs. Apply the inspected single entrance/solid surround to the two home staircases, preserve story/saves, and verify directional entry, safe arrivals and old-position recovery. [Deliverable](reviews/M1-ST1/README.md). Source `8d0b57b` is live at the existing phone URL after 98 unit, six stair-browser and 17 chapter-browser checks. Next: user traversal feedback; no broader movement milestone is self-approved.

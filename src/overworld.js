@@ -43,7 +43,7 @@ function finish(m){
  // Deliberate map boundary: scenic pockets outside the connected playspace are
  // non-walkable. This prevents old saves being recovered onto an isolated bank.
  const queue=[m.safeSpawn],seen=new Set([key(...m.safeSpawn)]);if(m.solid.has(key(...m.safeSpawn)))throw Error('Blocked authored spawn');
- for(let n=0;n<queue.length;n++){const [x,y]=queue[n];for(const [dx,dy]of dirs.slice(0,4)){const a=x+dx,b=y+dy,k=key(a,b);if(a>0&&b>0&&a<m.w-1&&b<m.h-1&&!m.solid.has(k)&&!seen.has(k)){seen.add(k);queue.push([a,b]);}}}
+ for(let n=0;n<queue.length;n++){const [x,y]=queue[n];for(const [dx,dy]of dirs.slice(0,4)){const a=x+dx,b=y+dy,k=key(a,b);if(a>0&&b>0&&a<m.w-1&&(b<m.h-1||m.portals.some(p=>p.x===a&&p.y===b))&&!m.solid.has(k)&&!seen.has(k)){seen.add(k);queue.push([a,b]);}}}
  for(let y=0;y<m.h;y++)for(let x=0;x<m.w;x++)if(!seen.has(key(x,y)))m.solid.add(key(x,y));
  return m;
 }
@@ -98,5 +98,5 @@ function liarsville(){const m=create(36,32,[14,28]);
  flowers(m,15,23,3,2);flowers(m,9,26,2,1);object(m,'marker.north',18,17);object(m,'log.hollow',24,2,3,1);
  for(let y=9;y<30;y+=7){deco(m,'lilypad.1',21,y);deco(m,'reeds.1',19,y+1);}border(m,[],[[12,14]]);return finish(m);
 }
-function yard(){const m=create(16,12,[8,9]);rect(m,8,3,1,9,'path');house(m,{x:6,y:-2,w:5,name:'HOME',roof:'clay',wall:'plaster'});object(m,'log.hollow',2,6,3,1,[0,0,3,1]);deco(m,'leaves.litter',11,7);deco(m,'leaves.litter',12,7);object(m,'planter.center',11,3);tree(m,1,3);tree(m,13,3);flowers(m,3,9,3,1);flowers(m,10,9,3,1);for(let x=0;x<16;x++){if(x!==8)object(m,'fence.10',x,11);block(m,x,0);}for(let y=0;y<12;y++){block(m,0,y);block(m,15,y);}return finish(m);}
+function yard(){const m=create(16,12,[8,9]);m.portals=[{x:8,y:3},{x:8,y:11}];rect(m,8,3,1,9,'path');house(m,{x:6,y:-2,w:5,name:'HOME',roof:'clay',wall:'plaster'});object(m,'log.hollow',2,6,3,1,[0,0,3,1]);deco(m,'leaves.litter',11,7);deco(m,'leaves.litter',12,7);object(m,'planter.center',11,3);tree(m,1,3);tree(m,13,3);flowers(m,3,9,3,1);flowers(m,10,9,3,1);for(let x=0;x<16;x++){if(x!==8)object(m,'fence.10',x,11);block(m,x,0);}for(let y=0;y<12;y++){block(m,0,y);block(m,15,y);}return finish(m);}
 export const overworldMaps={town:rootport(),forest:forest(),liarsville:liarsville(),yard:yard()};

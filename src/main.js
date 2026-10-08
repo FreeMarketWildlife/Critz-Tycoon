@@ -742,7 +742,7 @@ function directory() {
   showPanel(
     "directory",
     "Welcome to Rootport",
-    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk toward a doorway or press A beside it. Look for sparkles when searching. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Press A at the signed ends of the route to travel.</p>`,
+    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p>`,
   );
 }
 function bag() {
@@ -1237,7 +1237,9 @@ function frame(now) {
     const near = nearestEntity(state);
     $("interact-prompt").hidden = !!(dialogue || panelName || !near);
     if (near && !dialogue && !panelName)
-      $("interact-prompt").innerHTML = `<b>A</b> ${esc(near.name)}`;
+      $("interact-prompt").innerHTML = near.type === 'door'
+        ? `Walk ${{up:'↑',down:'↓',left:'←',right:'→'}[near.entryFacing]} · ${esc(near.name)}`
+        : `<b>A</b> ${esc(near.name)}`;
   }
   requestAnimationFrame(frame);
 }

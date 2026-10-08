@@ -66,8 +66,7 @@ export const scenes = {
   },
   yard: {
     name: "Home · the yard", w: 16, h: 12, style: "yard", safeSpawn: [8, 9],
-    // The house sits outside the walkable yard. Its door is one cell north of
-    // the first walkable row, reachable by interacting from (8,4).
+    // The house stays solid; its explicit threshold connects to the yard path.
     visualHouse: { x: 5, y: -2, w: 6, h: 5, sprite: "building.yard" },
     objects: [
       furniture("log", 3, 6, 2, 1, [3, 6, 2, 1]),
@@ -165,6 +164,14 @@ scenes.waterworks = {
     {...item('bell','Two clocks, one town',11,4),text:'A faded invitation: “Meet at noon, whichever clock you trust. Bring something to share.” A tradition worth keeping.'}],
 };
 
+// Every entrance declares its travel direction, including outdoor gates.
+for (const scene of Object.values(scenes)) for (const e of scene.entities) {
+  if (e.type !== 'door' || e.entryFacing) continue;
+  e.entryFacing = scene.map
+    ? (['gate','south'].includes(e.id) ? 'down' : 'up')
+    : 'down';
+}
+
 export function getEntities(state) {
   const list = scenes[state.scene].entities.filter(entity => entity.type !== "rescue" || (state.stage === "morning" && !state.flags.rescued.includes(entity.id)));
   const visible = state.scene === "bedroom" && state.stage === "night" ? list.filter(entity => ["tank", "desk", "sleep"].includes(entity.id)) : list;
@@ -193,7 +200,8 @@ export function isBlocked(sceneId, x, y, state) {
   const scene = scenes[sceneId];
   if (!scene || !Number.isInteger(x) || !Number.isInteger(y)) return true;
   const top = scene.map ? (sceneId === "yard" ? 4 : 1) : 3;
-  if (x < 1 || x >= scene.w || y < top || y >= scene.h) return true;
+  if (x < 1 || x >= scene.w || y < 0 || y >= scene.h) return true;
+  if (y < top && !scene.map?.portals.some(p => p.x === x && p.y === y)) return true;
   if (scene.map) { if (scene.map.solid.has(`${x},${y}`)) return true; }
   else if (scene.objects.some(object => contains(object.collision, x, y))) return true;
   if (scene.entities.some(e => e.stair && contains(e.stair.footprint, x, y) &&
