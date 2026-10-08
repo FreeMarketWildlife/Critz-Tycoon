@@ -1,5 +1,11 @@
 # Project status
 
+## M1.FR1 — Shakeable apple trees
+
+**Implemented and locally checked; clean-release verification/publication in progress.** The user requests fruit-bearing trees that can be shaken. Four existing broadleaf trees now bear apples: home yard, Rootport, Mossway and Liarsville. A shakes the crown, drops three apples and adds them to the Bag. Roots, collision and camera remain fixed. Each tree regrows after 24 habitat hours; ripe/bare appearance, quantities and harvest times persist. Calm removes shaking/falling motion. [Deliverable](reviews/M1-FR1/README.md).
+
+On main from `01d16c06d58137d970dd349ca04015f112431ad8`. Local results: 115 unit checks and nine fruit browser scenarios pass, including legacy save compatibility, duplicate prevention, actual root/camera pixels, bag layout and regrowth. All 639 preceding tiles remain exact; five appended tiles bring the master to 644. Phone screenshots inspected; physical Safari unverified. Existing character work remains outside this task. Next: clean-release fruit/story/entrance/dialogue regression, push and publish, then user fruit-tree visual/feel feedback. No broader art/movement gate is self-approved.
+
 ## M1.CF1 — Stable dialogue and clearer collision contact
 
 **Implemented, tested, pushed and published; visual/contact feedback pending.** The reported conversation jump was a 49-native-pixel camera target change on the tested phone. Speech now retains the normal camera target with a compact two-line overlay. Interior actors, stairs and threshold art now agree with the outdoor bottom-center cell anchor, correcting a 16px horizontal/32px vertical placement mismatch. Blocked movement releases immediately. The master gains 51 native tiles: 42 foundation/ground variants, four tree-root pieces and five indoor border pieces. All 588 prior tiles remain exact. [Deliverable](reviews/M1-CF1/README.md).

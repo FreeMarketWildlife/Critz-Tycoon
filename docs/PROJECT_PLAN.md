@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.FR1 — Shakeable fruit trees
+
+**Implemented and locally tested; release verification/publication in progress.** Add four apple trees using existing broadleaf footprints, A-to-shake harvest, falling fruit, bag counts and saved 24-hour regrowth. [Deliverable](reviews/M1-FR1/README.md). Next: clean-build regressions and publication, then user visual/feel feedback.
+
 ## M1.CF1 — Dialogue stability and contact alignment
 
 **Implemented, tested, pushed and published; user visual/contact feedback pending.** Speech retains a fixed camera; indoor/outdoor cell anchors agree, blocked input releases immediately, and 51 new foundation/root/room boundary tiles make contact readable. [Deliverable](reviews/M1-CF1/README.md). Source `0a86c91` is live after 108 unit and 77 clean-release browser checks. Next: user visual/feel feedback; no wider milestone is self-approved.

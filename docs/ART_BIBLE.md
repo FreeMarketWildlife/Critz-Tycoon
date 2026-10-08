@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Shakeable fruit trees — user update, M1.FR1
+
+The user authorizes fruit-bearing trees and shaking them in gameplay. Place four apple trees in the existing yard, Rootport, Mossway and Liarsville by reusing the selected broadleaf footprint; do not block another walking cell. Append the ripe crown and apple pickup pixels to the master PNG, retain the bare rooted tree and all previous tile pixels/IDs, and show three clearly readable red apples against the foliage. Fruit is a new original Critz design, not copied reference artwork.
+
+Shake the crown by a few integer native pixels while roots and camera stay fixed. Falling apples briefly bounce at the tree base before collection feedback; Calm removes the shake/fall motion while preserving harvest and message. Ripe and harvested art must agree with saved per-tree regrowth, and both occupied root cells must be interactable from an adjacent clear cell. The current gameplay choice is three bag apples per tree with regrowth after 24 saved habitat hours. No feeding, selling or new animal rules are implied. [Deliverable](reviews/M1-FR1/README.md). Visual/motion feedback remains the user's decision.
+
 ## Stable dialogue and readable contact — user correction, M1.CF1
 
 Conversation must not move the camera or resize the world. Use a compact two-line overlay with a 44px confirmation target; show the scene from the same camera target before, during and after speech. Actor reactions may move an actor, never the whole scene.

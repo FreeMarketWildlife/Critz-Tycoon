@@ -1,14 +1,14 @@
 {
   "type": "tileset",
   "version": "1.10",
-  "name": "Critz overworld live v3",
+  "name": "Critz overworld live v4",
   "tilewidth": 32,
   "tileheight": 32,
-  "tilecount": 1120,
+  "tilecount": 1152,
   "columns": 32,
   "image": "master.png",
   "imagewidth": 1024,
-  "imageheight": 1120,
+  "imageheight": 1152,
   "tiles": [
     {
       "id": 0,
@@ -6397,6 +6397,56 @@
           "name": "assetId",
           "type": "string",
           "value": "interior.front.rim"
+        }
+      ]
+    },
+    {
+      "id": 1120,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "tree.apple.ripe.0.0"
+        }
+      ]
+    },
+    {
+      "id": 1121,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "tree.apple.ripe.1.0"
+        }
+      ]
+    },
+    {
+      "id": 1122,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "tree.apple.ripe.0.1"
+        }
+      ]
+    },
+    {
+      "id": 1123,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "tree.apple.ripe.1.1"
+        }
+      ]
+    },
+    {
+      "id": 1124,
+      "properties": [
+        {
+          "name": "assetId",
+          "type": "string",
+          "value": "fruit.apple"
         }
       ]
     }

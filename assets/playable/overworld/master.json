@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "assetId": "critz.overworld.live.v3",
-  "approval": "Base kit selected by user; M1.CF1 contact edges and integrated world await feedback",
+  "assetId": "critz.overworld.live.v4",
+  "approval": "Base kit selected by user; M1.FR1 orchard additions and integrated world await feedback",
   "image": "master.png",
   "imageWidth": 1024,
-  "imageHeight": 1120,
+  "imageHeight": 1152,
   "tileWidth": 32,
   "tileHeight": 32,
   "baseTileWidth": 16,
@@ -130,6 +130,10 @@
     {
       "name": "Interior contact · skirting, side returns and visible south boundary",
       "start": 1088
+    },
+    {
+      "name": "Orchard apples · ripe crown, bare tree and falling pickup",
+      "start": 1120
     }
   ],
   "tiles": [
@@ -13853,6 +13857,51 @@
       "width": 32,
       "height": 32,
       "layer": "ground"
+    },
+    {
+      "id": "tree.apple.ripe.0.0",
+      "index": 1120,
+      "x": 0,
+      "y": 1120,
+      "width": 32,
+      "height": 32,
+      "layer": "foreground"
+    },
+    {
+      "id": "tree.apple.ripe.1.0",
+      "index": 1121,
+      "x": 32,
+      "y": 1120,
+      "width": 32,
+      "height": 32,
+      "layer": "foreground"
+    },
+    {
+      "id": "tree.apple.ripe.0.1",
+      "index": 1122,
+      "x": 64,
+      "y": 1120,
+      "width": 32,
+      "height": 32,
+      "layer": "foreground"
+    },
+    {
+      "id": "tree.apple.ripe.1.1",
+      "index": 1123,
+      "x": 96,
+      "y": 1120,
+      "width": 32,
+      "height": 32,
+      "layer": "foreground"
+    },
+    {
+      "id": "fruit.apple",
+      "index": 1124,
+      "x": 128,
+      "y": 1120,
+      "width": 32,
+      "height": 32,
+      "layer": "foreground"
     }
   ],
   "assemblies": {
@@ -14192,6 +14241,26 @@
       [
         "contact.tree.cypress.0",
         "contact.tree.cypress.1"
+      ]
+    ],
+    "tree.apple.bare": [
+      [
+        "tree.broadleaf.0.0",
+        "tree.broadleaf.1.0"
+      ],
+      [
+        "contact.tree.broadleaf.0",
+        "contact.tree.broadleaf.1"
+      ]
+    ],
+    "tree.apple.ripe": [
+      [
+        "tree.apple.ripe.0.0",
+        "tree.apple.ripe.1.0"
+      ],
+      [
+        "tree.apple.ripe.0.1",
+        "tree.apple.ripe.1.1"
       ]
     ]
   },

@@ -1,3 +1,4 @@
+import {fruitTreeView,APPLE_POSITIONS} from './fruit-trees.js';
 import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
 import {drawCritter,RESCUES} from './living-art.js';
@@ -38,7 +39,17 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  const actorCell={x:Math.floor(foot.x/32),y:Math.floor((foot.y-1)/32)};
  const activeGrass=map.grass.has(`${actorCell.x},${actorCell.y}`),grassFrame=view.moving?[1,3,2,3][Math.floor((view.actionTick||0)/3)%4]:0;
  for(const d of map.decals){if(!visible(d.x,d.y))continue;let id=d.id;if(id==='grass.living.0'&&d.x===actorCell.x&&d.y===actorCell.y)id=`grass.living.${grassFrame}`;draw(id,d.x*32,d.y*32,d.id.startsWith('flowers.')?(d.x+d.y)%4:0);}
- const effects=[],sorted=[];for(const o of map.objects)if(visible(o.x,o.y,o.w,o.h))sorted.push({depth:o.depth*32,draw:()=>{assembly(o);if(o.id==='fountain.jet')draw(`water.spray.${Math.floor(time/.18)%4}`,o.x*32,(o.y+1)*32);}});
+ const drawFruitTree=(o)=>{
+  const v=fruitTreeView(state,o.fruitId,time),id=v.ripe?'tree.apple.ripe':'tree.apple.bare',rows=manifest.assemblies[id],x=o.x*32,y=o.y*32;
+  // The crown sways, while the bottom twelve pixels and solid roots stay fixed.
+  c.save();c.beginPath();c.rect(x-2,y,68,52);c.clip();rows.forEach((row,j)=>row.forEach((t,i)=>draw(t,x+i*32+v.shake,y+j*32)));c.restore();
+  c.save();c.beginPath();c.rect(x,y+52,64,12);c.clip();rows.forEach((row,j)=>row.forEach((t,i)=>draw(t,x+i*32,y+j*32)));c.restore();
+  if(v.falling)effects.push(()=>{for(const [i,[px,py]]of APPLE_POSITIONS.entries()){
+   const fall=Math.max(0,Math.min(1,(v.age-.18)/.48)),bounce=v.age>.66&&v.age<.86?Math.round(Math.sin((v.age-.66)/.2*Math.PI)*4):0;
+   draw('fruit.apple',x+px-16+(fall?Math.round((i-1)*5*fall):v.shake),y+py-16+Math.round((62-py)*fall*fall)-bounce);
+  }});
+ };
+ const effects=[],sorted=[];for(const o of map.objects)if(visible(o.x,o.y,o.w,o.h))sorted.push({depth:o.depth*32,draw:()=>{if(o.fruitId)drawFruitTree(o);else assembly(o);if(o.id==='fountain.jet')draw(`water.spray.${Math.floor(time/.18)%4}`,o.x*32,(o.y+1)*32);}});
  for(const e of getEntities(state)){
   if(e.type==='npc'){const v=actorView(state,e.id),x=(v.x===null?e.x*16:v.x)*2+16,y=(v.y===null?e.y*16:v.y)*2+32;sorted.push({depth:y,draw:()=>drawActor(x,y-v.hop,{look:npcLook(e,state.gender),facing:v.facing,pose:v.pose})});effects.push(()=>drawReaction(c,x,y,v));}
   else if(e.type==='rescue')sorted.push({depth:(e.y+1)*32,draw:()=>{drawCritter(c,RESCUES[e.id],e.x*32,e.y*32,time);const x=e.x*32+16,y=e.y*32+18-Math.floor(time*3)%2;c.fillStyle='#fff3bb';c.fillRect(x-1,y-5,2,10);c.fillRect(x-5,y-1,10,2);}});

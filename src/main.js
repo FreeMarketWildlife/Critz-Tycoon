@@ -1,3 +1,4 @@
+import {harvestFruit,cueFruitShake,fruitTreeView} from './fruit-trees.js';
 import {createPrinter,advancePrinter,printerComplete,finishPrinter,paginate} from './dialogue.js';
 import {readSettings,writeSettings,FRAME_STYLES} from './ui-settings.js';
 import {initializeActors,updateActors,facePlayer,releaseActors,cueActor,actorDebug} from './actors.js';
@@ -342,6 +343,16 @@ function interact() {
   const e = nearestEntity(state);
   if (!e) {
     toast("Walk closer to a person, doorway, or sparkling hiding spot.");
+    return;
+  }
+  if(e.type==='fruitTree'){
+    if(fruitTreeView(state,e.id,visualTime).active)return;
+    const result=harvestFruit(state,e.id);
+    if(result.reason==='distance')return;
+    state.player.facing=e.x>state.player.x?'right':e.x<state.player.x?'left':e.y>state.player.y?'down':'up';
+    cueFruitShake(state,e.id,visualTime,result.ok,settings.calm);
+    if(result.ok){if(persist())toast(`+${result.count} apples · Collected in your Bag!`);}
+    else toast(result.reason==='full'?'Your apple pouch is full.':`No ripe apples yet. More in ${Math.ceil(result.remaining)} habitat hours.`);
     return;
   }
   if(e.type==='npc'){talkingTo=e.id;facePlayer(state,e.id);cueActor(state,e.id,{mark:e.id==='rival'?'?':'!'});}
@@ -736,14 +747,14 @@ function directory() {
   showPanel(
     "directory",
     "Welcome to Rootport",
-    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p>`,
+    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Stand beside a red apple tree and press A to shake fruit into your Bag. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p>`,
   );
 }
 function bag() {
   showPanel(
     "bag",
     "What you’re carrying",
-    `<div class="stat-grid">${stat("Savings", dollars(state.money))}${stat("Kaid’s loan", dollars(state.debt))}${stat("Moss cuttings", state.inventory.moss)}${stat("Leaf litter", state.inventory.litter)}${stat("Prescriptions", state.inventory.medicine)}${stat("Skateboard", state.flags.board ? "Owned" : "None")}</div><p>Clean water for misting is free. Collect two portions of leaf litter from the yard every six habitat hours.</p>${state.debt ? button("repay", `Repay Kaid · ${dollars(state.debt)}`, "secondary full", state.money < state.debt ? "disabled" : "") : ""}`,
+    `<div class="stat-grid">${stat("Savings", dollars(state.money))}${stat("Kaid’s loan", dollars(state.debt))}${stat("Moss cuttings", state.inventory.moss)}${stat("Leaf litter", state.inventory.litter)}${stat("Prescriptions", state.inventory.medicine)}${stat("Orchard apples", state.inventory.apples??0)}${stat("Skateboard", state.flags.board ? "Owned" : "None")}</div><p class="hint">Clean water for misting is free. Collect two portions of leaf litter from the yard every six habitat hours. Shake red apple trees with A to collect three apples for your bag; each tree regrows after 24 habitat hours.</p>${state.debt ? button("repay", `Repay Kaid · ${dollars(state.debt)}`, "secondary full", state.money < state.debt ? "disabled" : "") : ""}`,
   );
 }
 function back() {
@@ -1260,3 +1271,5 @@ export function getDebugMovement() {
 export function getDebugActors(){return structuredClone(actorDebug(state));}
 export function getDebugEntities(){return structuredClone(getEntities(state));}
 export function getDebugUI(){return {panel:panelName,typing:!!printer&&!printerComplete(printer),remainingPages:dialoguePages.length,settings:{...settings}};}
+
+export function getDebugFruit(){return getEntities(state).filter(e=>e.type==='fruitTree').map(e=>({id:e.id,...fruitTreeView(state,e.id,visualTime)}));}

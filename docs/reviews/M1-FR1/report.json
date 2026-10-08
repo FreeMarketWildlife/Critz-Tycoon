@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "yard: real touch A shakes fruit into Bag once, spam/empty tree cannot duplicate, reload stays harvested",
+    "town: real touch A shakes fruit into Bag once, spam/empty tree cannot duplicate, reload stays harvested",
+    "forest: real touch A shakes fruit into Bag once, spam/empty tree cannot duplicate, reload stays harvested",
+    "liarsville: real touch A shakes fruit into Bag once, spam/empty tree cannot duplicate, reload stays harvested",
+    "Bag shows collected apples, explains regrowth and fits narrow/landscape phones",
+    "Ripe art and keyboard harvest return at 24 habitat hours",
+    "Calm preserves harvest and pickup message without shaking or falling motion",
+    "Actual renderer pixels: crown moves, roots and camera stay fixed",
+    "No runtime errors or missing assets"
+  ],
+  "errors": []
+}

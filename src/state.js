@@ -1,3 +1,4 @@
+import {validFruitSave} from './fruit-trees.js';
 export const SAVE_KEY = "critz-tycoon.save.v1";
 export const PRE_WORLD_KEY = SAVE_KEY + ".pre-world-2";
 export const PRE_WORLD_BACKUP_KEY = SAVE_KEY + ".pre-world-2.backup";
@@ -61,7 +62,8 @@ export function createState(hero = "Hero", gender = "boy", rival = "Rowan") {
       metRival: false,
       visited: ["bedroom"],
     },
-    inventory: { moss: 1, litter: 4, medicine: 0, filter: 0 },
+    inventory: { moss: 1, litter: 4, medicine: 0, filter: 0, apples: 0 },
+    fruitHarvests: {},
     tank: {
       name: "Little Root",
       gallons: 25,
@@ -425,6 +427,7 @@ export function validateState(s) {
     )
   )
     return false;
+  if (!validFruitSave(s)) return false;
   const t = s.tank;
   if (
     !t ||

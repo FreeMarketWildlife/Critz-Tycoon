@@ -1,3 +1,4 @@
+import {FRUIT_TREES} from './fruit-trees.js';
 import {OPEN_ENTRANCES} from './lighting.js';
 // Original map authoring. World cells, IDs and collision are independent of PNG pixels.
 export const WORLD_REVISION = 2;
@@ -112,3 +113,10 @@ function liarsville(){const m=create(36,32,[14,28]);
 }
 function yard(){const m=create(16,12,[8,9]);m.portals=[{x:8,y:3},{x:8,y:11}];rect(m,8,3,1,9,'path');house(m,{x:6,y:-2,w:5,rearDepth:0,name:'HOME',roof:'clay',wall:'plaster'});object(m,'log.hollow',2,6,3,1,[0,0,3,1]);deco(m,'leaves.litter',11,7);deco(m,'leaves.litter',12,7);object(m,'planter.center',11,3);tree(m,1,3);tree(m,13,3);flowers(m,3,9,3,1);flowers(m,10,9,3,1);for(let x=0;x<16;x++){if(x!==8)object(m,'fence.10',x,11);block(m,x,0);}for(let y=0;y<12;y++){block(m,0,y);block(m,15,y);}return finish(m);}
 export const overworldMaps={town:rootport(),forest:forest(),liarsville:liarsville(),yard:yard()};
+
+// Convert selected existing broadleaf trees without changing a single solid cell.
+for(const fruit of FRUIT_TREES){
+ const tree=overworldMaps[fruit.scene].objects.find(o=>o.kind==='tree'&&o.x===fruit.x&&o.y===fruit.y);
+ if(!tree||tree.h!==2)throw Error(`Fruit tree footprint mismatch: ${fruit.id}`);
+ tree.id=tree.sprite='tree.apple.bare';tree.fruitId=fruit.id;
+}

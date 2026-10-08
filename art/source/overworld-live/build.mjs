@@ -1,3 +1,4 @@
+import {APPLE_POSITIONS} from '../../../src/fruit-trees.js';
 // Append-only runtime edition of the approved master. Original cells stay exact.
 import {Raster} from '../raster.mjs';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
@@ -103,9 +104,21 @@ for(const side of ['left','right']){
 }
 const rim=new Raster(32,32);rim.rect(0,0,32,32,'#223038');rim.rect(0,0,32,2,'#e0e2c5');rim.rect(0,2,32,6,'#737183');rim.rect(0,8,32,2,'#344b50');add('interior.front.rim',rim,'ground');
 
+group('Orchard apples · ripe crown, bare tree and falling pickup');
+// Reuse the rooted broadleaf frame and its exact ground contact. Only fruit is new.
+const appleBare=new Raster(64,64);assemblies['tree.broadleaf.rooted'].forEach((row,y)=>row.forEach((id,x)=>appleBare.blit(clone(id),x*32,y*32)));
+assemblies['tree.apple.bare']=assemblies['tree.broadleaf.rooted'];
+function paintApple(r,x,y){
+ r.rect(x+4,y,1,3,P.wood[0]);r.line(x+5,y+1,x+8,y,P.leaf[1]);r.line(x+5,y,x+7,y-1,P.leaf[4]);
+ r.poly([[x+1,y+2],[x+3,y+1],[x+5,y+2],[x+7,y+1],[x+9,y+3],[x+8,y+8],[x+6,y+10],[x+3,y+9],[x+1,y+6]],'#633b3b');
+ r.poly([[x+2,y+3],[x+4,y+2],[x+5,y+3],[x+7,y+2],[x+8,y+4],[x+7,y+8],[x+4,y+8],[x+2,y+6]],'#c95445');r.rect(x+2,y+3,2,3,'#ef9163');r.dot(x+3,y+3,'#ffe0a0');r.rect(x+6,y+5,2,2,'#9b3e3c');
+}
+const appleRipe=appleBare.crop(0,0,64,64);for(const [x,y]of APPLE_POSITIONS)paintApple(appleRipe,x-5,y-5);slice('tree.apple.ripe',appleRipe,'foreground');
+const appleIcon=new Raster(32,32);paintApple(appleIcon,11,11);add('fruit.apple',appleIcon,'foreground');
+
 const atlas=new Raster(1024,Math.max(1024,Math.ceil(cursor/32)*32));for(const t of tiles)atlas.blit(t.r,t.x,t.y);await atlas.save(`${out}/master.png`);
-const manifest={...original,assetId:'critz.overworld.live.v3',approval:'Base kit selected by user; M1.CF1 contact edges and integrated world await feedback',imageWidth:atlas.w,imageHeight:atlas.h,sections,assemblies,tiles:tiles.map(({r,...t})=>t),animation:{stepSeconds:16*280896/16777216,waterFrames:4,flowerSequence:[0,1,0,2],grass:'movement-triggered, one-tile response; foreground foot overlap'},collision:'Authored map cells, independent of appearance'};
+const manifest={...original,assetId:'critz.overworld.live.v4',approval:'Base kit selected by user; M1.FR1 orchard additions and integrated world await feedback',imageWidth:atlas.w,imageHeight:atlas.h,sections,assemblies,tiles:tiles.map(({r,...t})=>t),animation:{stepSeconds:16*280896/16777216,waterFrames:4,flowerSequence:[0,1,0,2],grass:'movement-triggered, one-tile response; foreground foot overlap'},collision:'Authored map cells, independent of appearance'};
 await writeFile(`${out}/master.json`,JSON.stringify(manifest,null,2)+'\n');
 await writeFile(`${out}/palette.json`,JSON.stringify(P,null,2)+'\n');
-await writeFile(`${out}/master.tsj`,JSON.stringify({type:'tileset',version:'1.10',name:'Critz overworld live v3',tilewidth:32,tileheight:32,tilecount:atlas.w*atlas.h/1024,columns:32,image:'master.png',imagewidth:atlas.w,imageheight:atlas.h,tiles:tiles.map(t=>({id:t.index,properties:[{name:'assetId',type:'string',value:t.id}]}))},null,2)+'\n');
+await writeFile(`${out}/master.tsj`,JSON.stringify({type:'tileset',version:'1.10',name:'Critz overworld live v4',tilewidth:32,tileheight:32,tilecount:atlas.w*atlas.h/1024,columns:32,image:'master.png',imagewidth:atlas.w,imageheight:atlas.h,tiles:tiles.map(t=>({id:t.index,properties:[{name:'assetId',type:'string',value:t.id}]}))},null,2)+'\n');
 console.log(JSON.stringify({original:original.tiles.length,total:tiles.length,allocated:cursor,size:[atlas.w,atlas.h]}));

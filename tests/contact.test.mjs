@@ -27,6 +27,6 @@ test('foundation metatiles carry a real ground strip and preserve every original
 test('every live foundation remains solid and every tree uses roots at its authored footprint',()=>{
  for(const [id,scene]of Object.entries(scenes)){if(!scene.map)continue;for(const o of scene.objects){
   if(o.kind==='building')for(let x=0;x<o.w;x++){assert.ok(entries.get(o.tiles[4][x]).contact);assert.equal(isBlocked(id,o.x+x,o.y+4),true);}
-  if(o.kind==='tree'){assert.ok(o.id.endsWith('.rooted'));const rows=manifest.assemblies[o.id];assert.equal(rows.length,o.h);assert.ok(rows.at(-1).every(t=>t.startsWith('contact.tree.')));assert.deepEqual(o.collision,[o.x,o.y+o.h-1,2,1]);}
+  if(o.kind==='tree'){assert.ok(o.id.endsWith('.rooted')||o.fruitId);const rows=manifest.assemblies[o.id];assert.equal(rows.length,o.h);assert.ok(rows.at(-1).every(t=>t.startsWith('contact.tree.')));assert.deepEqual(o.collision,[o.x,o.y+o.h-1,2,1]);}
  }}
 });

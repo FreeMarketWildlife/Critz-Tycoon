@@ -1,3 +1,4 @@
+import {FRUIT_TREES,fruitCells} from './fruit-trees.js';
 import {actorEntity} from './actors.js';
 import {buildings, liarsBuildings, overworldMaps} from './overworld.js';
 // Coordinates are integer grid cells at actors' feet, rendered at x*16,y*16.
@@ -164,6 +165,8 @@ scenes.waterworks = {
     {...item('bell','Two clocks, one town',11,4),text:'A faded invitation: “Meet at noon, whichever clock you trust. Bring something to share.” A tradition worth keeping.'}],
 };
 
+for(const t of FRUIT_TREES)scenes[t.scene].entities.push({...item(t.id,'Shake apple tree',t.x,t.y+1,'fruitTree'),interactionCells:fruitCells(t)});
+
 // Every entrance declares its travel direction, including outdoor gates.
 for (const scene of Object.values(scenes)) for (const e of scene.entities) {
   if (e.type !== 'door' || e.entryFacing) continue;
@@ -186,11 +189,12 @@ export function nearestEntity(state, entities = getEntities(state)) {
   for (const entity of entities) {
     if (entity.stair && (state.player.x !== entity.stair.approach[0] ||
         state.player.y !== entity.stair.approach[1] || state.player.facing !== entity.entryFacing)) continue;
-    const dx = entity.x - state.player.x, dy = entity.y - state.player.y;
-    const distance = Math.abs(dx) + Math.abs(dy);
-    if (distance > 1) continue;
-    const score = distance - (dx === facing[0] && dy === facing[1] ? 0.25 : 0);
-    if (score < rank) { best = entity; rank = score; }
+    for(const [x,y]of entity.interactionCells||[[entity.x,entity.y]]){
+      const dx=x-state.player.x,dy=y-state.player.y,distance=Math.abs(dx)+Math.abs(dy);
+      if(distance>1)continue;
+      const score=distance-(dx===facing[0]&&dy===facing[1]?0.25:0);
+      if(score<rank){best=entity.interactionCells?{...entity,x,y}:entity;rank=score;}
+    }
   }
   return best;
 }
