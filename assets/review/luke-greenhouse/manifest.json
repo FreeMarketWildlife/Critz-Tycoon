@@ -1,0 +1,612 @@
+{
+  "schemaVersion": 1,
+  "status": "awaiting-user-visual-review",
+  "task": "M1.LG1",
+  "coordinateSystem": "native top-down integer pixels",
+  "character": {
+    "frame": [
+      32,
+      64
+    ],
+    "anchor": [
+      16,
+      64
+    ],
+    "directions": [
+      "south",
+      "north",
+      "west",
+      "east"
+    ],
+    "columns": [
+      "strideA",
+      "idle",
+      "strideB",
+      "idle"
+    ],
+    "holds": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "tickMs": 16.742706298828125,
+    "frames": [
+      {
+        "bounds": [
+          3,
+          25,
+          29,
+          64
+        ],
+        "occupied": 766
+      },
+      {
+        "bounds": [
+          3,
+          23,
+          29,
+          62
+        ],
+        "occupied": 798
+      },
+      {
+        "bounds": [
+          3,
+          25,
+          29,
+          64
+        ],
+        "occupied": 785
+      },
+      {
+        "bounds": [
+          3,
+          23,
+          29,
+          62
+        ],
+        "occupied": 798
+      },
+      {
+        "bounds": [
+          3,
+          25,
+          29,
+          64
+        ],
+        "occupied": 766
+      },
+      {
+        "bounds": [
+          3,
+          23,
+          29,
+          62
+        ],
+        "occupied": 798
+      },
+      {
+        "bounds": [
+          3,
+          25,
+          29,
+          64
+        ],
+        "occupied": 785
+      },
+      {
+        "bounds": [
+          3,
+          23,
+          29,
+          62
+        ],
+        "occupied": 798
+      },
+      {
+        "bounds": [
+          5,
+          26,
+          25,
+          64
+        ],
+        "occupied": 547
+      },
+      {
+        "bounds": [
+          5,
+          24,
+          25,
+          62
+        ],
+        "occupied": 563
+      },
+      {
+        "bounds": [
+          5,
+          26,
+          25,
+          64
+        ],
+        "occupied": 533
+      },
+      {
+        "bounds": [
+          5,
+          24,
+          25,
+          62
+        ],
+        "occupied": 563
+      },
+      {
+        "bounds": [
+          6,
+          26,
+          26,
+          64
+        ],
+        "occupied": 552
+      },
+      {
+        "bounds": [
+          6,
+          24,
+          26,
+          62
+        ],
+        "occupied": 568
+      },
+      {
+        "bounds": [
+          6,
+          26,
+          26,
+          64
+        ],
+        "occupied": 538
+      },
+      {
+        "bounds": [
+          6,
+          24,
+          26,
+          62
+        ],
+        "occupied": 568
+      }
+    ]
+  },
+  "fish": {
+    "frame": [
+      32,
+      32
+    ],
+    "columns": [
+      "side0",
+      "side1",
+      "top0",
+      "top1"
+    ],
+    "silhouetteColumns": [
+      "top0",
+      "top1"
+    ],
+    "frontColumns": [
+      "front0",
+      "front1"
+    ],
+    "topOrientation": "north",
+    "sideOrientation": "west",
+    "world": {
+      "frame": [
+        16,
+        16
+      ],
+      "columns": [
+        "top0",
+        "top1",
+        "side0",
+        "side1"
+      ],
+      "note": "Independently authored native world clusters, never downsized32px sprite"
+    },
+    "individuals": [
+      {
+        "id": "marmalade",
+        "name": "Marmalade",
+        "variety": "ranchu",
+        "body": "#f7a844",
+        "light": "#f8d889",
+        "shade": "#ba5936",
+        "pattern": "orange",
+        "row": 0
+      },
+      {
+        "id": "lemon-drop",
+        "name": "Lemon Drop",
+        "variety": "ranchu",
+        "body": "#f6d165",
+        "light": "#fff0bb",
+        "shade": "#b88747",
+        "pattern": "lemon",
+        "row": 1
+      },
+      {
+        "id": "dumpling",
+        "name": "Dumpling",
+        "variety": "ranchu",
+        "body": "#e8e4cb",
+        "light": "#fff6d8",
+        "shade": "#aaa9a0",
+        "pattern": "cap",
+        "row": 2
+      },
+      {
+        "id": "milk-tea",
+        "name": "Milk Tea",
+        "variety": "ranchu",
+        "body": "#c49469",
+        "light": "#f1d8a7",
+        "shade": "#805847",
+        "pattern": "saddle",
+        "row": 3
+      },
+      {
+        "id": "sesame",
+        "name": "Sesame",
+        "variety": "ranchu",
+        "body": "#50555a",
+        "light": "#839095",
+        "shade": "#2c343e",
+        "pattern": "dark",
+        "row": 4
+      },
+      {
+        "id": "confetti",
+        "name": "Confetti",
+        "variety": "ranchu",
+        "body": "#e9d6a9",
+        "light": "#fff0cd",
+        "shade": "#ae8969",
+        "pattern": "calico",
+        "row": 5
+      },
+      {
+        "id": "peaches",
+        "name": "Peaches",
+        "variety": "ranchu",
+        "body": "#efb28a",
+        "light": "#ffe0b3",
+        "shade": "#b87264",
+        "pattern": "cheeks",
+        "row": 6
+      },
+      {
+        "id": "inkblot",
+        "name": "Inkblot",
+        "variety": "ranchu",
+        "body": "#e6e4d8",
+        "light": "#fff4da",
+        "shade": "#a5b5b5",
+        "pattern": "panda",
+        "row": 7
+      },
+      {
+        "id": "ember",
+        "name": "Ember",
+        "variety": "oranda",
+        "body": "#eb8b3f",
+        "light": "#ffd477",
+        "shade": "#a74332",
+        "pattern": "orange",
+        "row": 8
+      },
+      {
+        "id": "mooncap",
+        "name": "Mooncap",
+        "variety": "oranda",
+        "body": "#e9e7d5",
+        "light": "#fff8e3",
+        "shade": "#9dabae",
+        "pattern": "cap",
+        "row": 9
+      },
+      {
+        "id": "caramel",
+        "name": "Caramel",
+        "variety": "oranda",
+        "body": "#b08459",
+        "light": "#ddbd87",
+        "shade": "#6b4d41",
+        "pattern": "saddle",
+        "row": 10
+      },
+      {
+        "id": "speckles",
+        "name": "Speckles",
+        "variety": "oranda",
+        "body": "#e2d3ae",
+        "light": "#fff2d4",
+        "shade": "#9d9fa0",
+        "pattern": "calico",
+        "row": 11
+      },
+      {
+        "id": "sunset",
+        "name": "Sunset",
+        "variety": "oranda",
+        "body": "#efaa6b",
+        "light": "#ffe2ab",
+        "shade": "#b85c53",
+        "pattern": "redtail",
+        "row": 12
+      },
+      {
+        "id": "snowball",
+        "name": "Snowball",
+        "variety": "oranda",
+        "body": "#e8ede8",
+        "light": "#fff9df",
+        "shade": "#aabdbc",
+        "pattern": "white",
+        "row": 13
+      },
+      {
+        "id": "pepper",
+        "name": "Pepper",
+        "variety": "oranda",
+        "body": "#697d88",
+        "light": "#a7b8b7",
+        "shade": "#3b455c",
+        "pattern": "dark",
+        "row": 14
+      },
+      {
+        "id": "tangerine",
+        "name": "Tangerine",
+        "variety": "oranda",
+        "body": "#f3af43",
+        "light": "#ffe38a",
+        "shade": "#be673d",
+        "pattern": "cheeks",
+        "row": 15
+      }
+    ]
+  },
+  "tiles": {
+    "frame": [
+      32,
+      32
+    ],
+    "columns": [
+      "brick-floor-a",
+      "brick-floor-b",
+      "glass-wall",
+      "wall-base",
+      "green-rib",
+      "door-threshold",
+      "foundation",
+      "potted-plant"
+    ]
+  },
+  "props": {
+    "tub": {
+      "extent": [
+        96,
+        64
+      ],
+      "groundFootprint": [
+        3,
+        2
+      ],
+      "sortAnchor": [
+        48,
+        64
+      ]
+    },
+    "tank": {
+      "extent": [
+        96,
+        64
+      ],
+      "groundFootprint": [
+        3,
+        2
+      ],
+      "sortAnchor": [
+        48,
+        64
+      ]
+    },
+    "greenhouse": {
+      "extent": [
+        320,
+        192
+      ],
+      "doorRectangle": [
+        144,
+        111,
+        32,
+        64
+      ],
+      "threshold": [
+        144,
+        172,
+        32,
+        10
+      ]
+    }
+  },
+  "assets": {
+    "luke": {
+      "path": "assets/review/luke-greenhouse/luke.png",
+      "width": 128,
+      "height": 256,
+      "paletteColors": 19,
+      "sha256": "3d35343013a352f711288cece8b892ae4a98404654886642672fb926f326ff72",
+      "bounds": [
+        3,
+        23,
+        125,
+        256
+      ],
+      "occupied": 10726
+    },
+    "luke-idle": {
+      "path": "assets/review/luke-greenhouse/luke-idle.png",
+      "width": 32,
+      "height": 64,
+      "paletteColors": 18,
+      "sha256": "7dc4e79bf261a6976a77adedfef107cb87f65d48bf6a900b5b6d537b04c1afc6",
+      "bounds": [
+        3,
+        23,
+        29,
+        62
+      ],
+      "occupied": 798
+    },
+    "fish": {
+      "path": "assets/review/luke-greenhouse/fish.png",
+      "width": 128,
+      "height": 512,
+      "paletteColors": 60,
+      "sha256": "ba261a9c56e1f27f7fd8aff9919ec9fbe1b7f077c4151761c0b9a2edfa265171",
+      "bounds": [
+        3,
+        3,
+        124,
+        510
+      ],
+      "occupied": 24374
+    },
+    "silhouettes": {
+      "path": "assets/review/luke-greenhouse/silhouettes.png",
+      "width": 64,
+      "height": 512,
+      "paletteColors": 1,
+      "sha256": "5c10d181f27aeefa953e93d0fef01a6911bf714a1bd1cf6981422b470fbf93de",
+      "bounds": [
+        4,
+        3,
+        60,
+        510
+      ],
+      "occupied": 11974
+    },
+    "fish-front": {
+      "path": "assets/review/luke-greenhouse/fish-front.png",
+      "width": 64,
+      "height": 512,
+      "paletteColors": 58,
+      "sha256": "d77fa37d2bb86c8a415f5d5b1d698783a34b12963af06d42f90d58c998ea44db",
+      "bounds": [
+        1,
+        4,
+        62,
+        509
+      ],
+      "occupied": 15264
+    },
+    "fish-world": {
+      "path": "assets/review/luke-greenhouse/fish-world.png",
+      "width": 64,
+      "height": 256,
+      "paletteColors": 56,
+      "sha256": "7d2a9b2827b7349ba2dfb3f5ba179ae3e014cc56f48ec112842258263d415d6d",
+      "bounds": [
+        1,
+        2,
+        63,
+        254
+      ],
+      "occupied": 5808
+    },
+    "tub-closeup": {
+      "path": "assets/review/luke-greenhouse/tub-closeup.png",
+      "width": 240,
+      "height": 160,
+      "paletteColors": 18,
+      "sha256": "20d778e4576491cf79f40fc3c62e965d4b17185ddb8c67ead42b221ad7d35a40",
+      "bounds": [
+        0,
+        0,
+        240,
+        160
+      ],
+      "occupied": 38400
+    },
+    "tub": {
+      "path": "assets/review/luke-greenhouse/tub.png",
+      "width": 96,
+      "height": 64,
+      "paletteColors": 20,
+      "sha256": "2b3ce700a2fac3ab5a5c85cf85a23ed353cc06d48577b531d6a10e66716fe845",
+      "bounds": [
+        1,
+        5,
+        95,
+        61
+      ],
+      "occupied": 4372
+    },
+    "tub-variants": {
+      "path": "assets/review/luke-greenhouse/tub-variants.png",
+      "width": 384,
+      "height": 64,
+      "paletteColors": 20,
+      "sha256": "25216cd5665482018609b8b3957fa2c51f688b54bf18340870abd356f4cbdadc",
+      "bounds": [
+        1,
+        5,
+        383,
+        61
+      ],
+      "occupied": 17488
+    },
+    "tank-wall": {
+      "path": "assets/review/luke-greenhouse/tank-wall.png",
+      "width": 96,
+      "height": 64,
+      "paletteColors": 22,
+      "sha256": "a1f3619c48ff7cdbfb88ba38bc210818778e115a24e125d8c6ad7a513f1ae248",
+      "bounds": [
+        3,
+        12,
+        93,
+        62
+      ],
+      "occupied": 4474
+    },
+    "tiles": {
+      "path": "assets/review/luke-greenhouse/tiles.png",
+      "width": 256,
+      "height": 32,
+      "paletteColors": 33,
+      "sha256": "01478d248f9841bd372cd480649e3d2e396286d4333e10ee885eb06dd6d0d7b0",
+      "bounds": [
+        0,
+        0,
+        256,
+        32
+      ],
+      "occupied": 8192
+    },
+    "greenhouse": {
+      "path": "assets/review/luke-greenhouse/greenhouse.png",
+      "width": 320,
+      "height": 192,
+      "paletteColors": 55,
+      "sha256": "c65fe86d8d1161c4a7e0f58113b080acf47ee6e4cb65a14c057b5264f5909b86",
+      "bounds": [
+        10,
+        10,
+        310,
+        182
+      ],
+      "occupied": 49088
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "url": "http://localhost:5185/art-review/greenhouse.html",
+  "startedAt": "2026-10-08T22:09:17.139Z",
+  "checks": [
+    {
+      "name": "cover renders actual colored fish pixels",
+      "pass": true,
+      "details": [
+        {
+          "opaque": 480,
+          "colors": 5
+        },
+        {
+          "opaque": 480,
+          "colors": 6
+        },
+        {
+          "opaque": 480,
+          "colors": 6
+        }
+      ]
+    },
+    {
+      "name": "keyboard start, north doorway and Luke approach; decline ejects without charge",
+      "pass": true,
+      "details": {
+        "approachToY": 15,
+        "money": 300
+      }
+    },
+    {
+      "name": "insufficient $99 is ejected with no charge and no admission option",
+      "pass": true,
+      "details": {
+        "money": 99
+      }
+    },
+    {
+      "name": "exact $100 pays once; tub rejection, free miss, timed catch, saved reveal and collection",
+      "pass": true,
+      "details": {
+        "fish": {
+          "serial": 1,
+          "kind": 10,
+          "seed": 3301097441
+        },
+        "money": 0,
+        "duplicateAward": false,
+        "secondAdmission": true
+      }
+    },
+    {
+      "name": "paid reload resumes without charging; unfinished exit offers and returns $100",
+      "pass": true,
+      "details": {
+        "refund": 100
+      }
+    },
+    {
+      "name": "phone 320x568: touch entry, dialogue, controls and layouts",
+      "pass": true,
+      "details": {
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "scrollHeight": 568,
+        "innerHeight": 568,
+        "controls": [
+          {
+            "label": "\u25b2",
+            "x": 53.65625,
+            "y": 429,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "\u25c0",
+            "x": 9.65625,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "\u25b6",
+            "x": 97.65625,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "\u25bc",
+            "x": 53.65625,
+            "y": 517,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "START",
+            "x": 156.984375,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "B",
+            "x": 216.328125,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "A",
+            "x": 266.328125,
+            "y": 461,
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "speech": {
+          "x": 10,
+          "y": 10,
+          "w": 300,
+          "h": 140
+        }
+      }
+    },
+    {
+      "name": "phone 390x844: touch entry, dialogue, controls and layouts",
+      "pass": true,
+      "details": {
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "scrollHeight": 844,
+        "innerHeight": 844,
+        "controls": [
+          {
+            "label": "\u25b2",
+            "x": 61.828125,
+            "y": 705,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "\u25c0",
+            "x": 15.828125,
+            "y": 749,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "\u25b6",
+            "x": 107.828125,
+            "y": 749,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "\u25bc",
+            "x": 61.828125,
+            "y": 793,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "START",
+            "x": 173.5,
+            "y": 749,
+            "w": 60,
+            "h": 44
+          },
+          {
+            "label": "B",
+            "x": 253.15625,
+            "y": 744,
+            "w": 54,
+            "h": 54
+          },
+          {
+            "label": "A",
+            "x": 320.15625,
+            "y": 732,
+            "w": 54,
+            "h": 54
+          }
+        ],
+        "speech": {
+          "x": 10,
+          "y": 543.8125,
+          "w": 370,
+          "h": 140.1875
+        }
+      }
+    },
+    {
+      "name": "phone 844x390: touch entry, dialogue, controls and layouts",
+      "pass": true,
+      "details": {
+        "scrollWidth": 844,
+        "innerWidth": 844,
+        "scrollHeight": 390,
+        "innerHeight": 390,
+        "controls": [
+          {
+            "label": "\u25b2",
+            "x": 744,
+            "y": 27.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "\u25c0",
+            "x": 698,
+            "y": 71.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "\u25b6",
+            "x": 790,
+            "y": 71.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "\u25bc",
+            "x": 744,
+            "y": 115.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "START",
+            "x": 737,
+            "y": 203,
+            "w": 60,
+            "h": 44
+          },
+          {
+            "label": "B",
+            "x": 712.5,
+            "y": 302.65625,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "label": "A",
+            "x": 773.5,
+            "y": 290.65625,
+            "w": 48,
+            "h": 48
+          }
+        ],
+        "speech": {
+          "x": 38,
+          "y": 10,
+          "w": 610,
+          "h": 140
+        }
+      }
+    },
+    {
+      "name": "touch scoop catches the actual moving silhouette",
+      "pass": true,
+      "details": {
+        "touch": true
+      }
+    },
+    {
+      "name": "caught visit permits all eight tubs without payment; exiting resets paid admission",
+      "pass": true,
+      "details": {
+        "tubsViewed": 8,
+        "freeBrowsing": true,
+        "freshVisitDebited": 100
+      }
+    },
+    {
+      "name": "corrupt review data is retained with disabled start and readable error",
+      "pass": true,
+      "details": {
+        "retained": true
+      }
+    },
+    {
+      "name": "keyboard-only reticle aiming and A catch award a moving fish",
+      "pass": true,
+      "details": {
+        "initialAim": {
+          "x": 240,
+          "y": 158
+        },
+        "movedAim": {
+          "x": 262.76299999999986,
+          "y": 158
+        },
+        "aimUpdates": 6,
+        "awarded": {
+          "serial": 1,
+          "kind": 9,
+          "seed": 4231648041
+        },
+        "pointerUsed": false
+      }
+    },
+    {
+      "name": "review storage write failure preserves purchase and fish award; retry recovers safely",
+      "pass": true,
+      "details": {
+        "purchaseUnchanged": true,
+        "awardUnchanged": true,
+        "retryAwardedOnce": true
+      }
+    },
+    {
+      "name": "all contexts preserve main save and backup; no asset or script errors",
+      "pass": true,
+      "details": [
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "docs/reviews/M1-LG1/browser-cover.png",
+    "docs/reviews/M1-LG1/browser-get-out.png",
+    "docs/reviews/M1-LG1/browser-silhouettes.png",
+    "docs/reviews/M1-LG1/browser-catch-reveal.png",
+    "docs/reviews/M1-LG1/browser-collection.png",
+    "docs/reviews/M1-LG1/browser-cover-320.png",
+    "docs/reviews/M1-LG1/browser-dialogue-320.png",
+    "docs/reviews/M1-LG1/browser-cover-390.png",
+    "docs/reviews/M1-LG1/browser-dialogue-390.png",
+    "docs/reviews/M1-LG1/browser-cover-844.png",
+    "docs/reviews/M1-LG1/browser-dialogue-844.png",
+    "docs/reviews/M1-LG1/browser-touch-reveal.png",
+    "docs/reviews/M1-LG1/browser-room-free-browse.png",
+    "docs/reviews/M1-LG1/browser-outside-390.png"
+  ],
+  "limitations": [
+    "Chromium emulation; physical iOS Safari not tested.",
+    "Snapshot is read-only. Movement, dialogue, scooping and menus use actual input. Synthetic fixtures only in isolated contexts."
+  ],
+  "finishedAt": "2026-10-08T22:10:21.887Z",
+  "passed": 14,
+  "failed": 0,
+  "supplementalCapture": {
+    "url": "http://localhost:5185/art-review/greenhouse.html",
+    "capturedAt": "2026-10-08T22:10:38.824Z",
+    "file": "docs/reviews/M1-LG1/browser-outside-390.png",
+    "reason": "Fresh page after final exterior sign placement adjustment; isolated Chromium touch context.",
+    "visualInspection": "Exterior sign sits above the doorway; door and threshold are visible, with an unobstructed path from Hero."
+  }
+}

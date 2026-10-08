@@ -1,0 +1,142 @@
+{
+  "status": "pass",
+  "assets": {
+    "luke": {
+      "size": [
+        128,
+        256
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "3d35343013a352f711288cece8b892ae4a98404654886642672fb926f326ff72"
+    },
+    "luke-idle": {
+      "size": [
+        32,
+        64
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "7dc4e79bf261a6976a77adedfef107cb87f65d48bf6a900b5b6d537b04c1afc6"
+    },
+    "fish": {
+      "size": [
+        128,
+        512
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "ba261a9c56e1f27f7fd8aff9919ec9fbe1b7f077c4151761c0b9a2edfa265171"
+    },
+    "silhouettes": {
+      "size": [
+        64,
+        512
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "5c10d181f27aeefa953e93d0fef01a6911bf714a1bd1cf6981422b470fbf93de"
+    },
+    "fish-front": {
+      "size": [
+        64,
+        512
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "d77fa37d2bb86c8a415f5d5b1d698783a34b12963af06d42f90d58c998ea44db"
+    },
+    "fish-world": {
+      "size": [
+        64,
+        256
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "7d2a9b2827b7349ba2dfb3f5ba179ae3e014cc56f48ec112842258263d415d6d"
+    },
+    "tub-closeup": {
+      "size": [
+        240,
+        160
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "20d778e4576491cf79f40fc3c62e965d4b17185ddb8c67ead42b221ad7d35a40"
+    },
+    "tub": {
+      "size": [
+        96,
+        64
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "2b3ce700a2fac3ab5a5c85cf85a23ed353cc06d48577b531d6a10e66716fe845"
+    },
+    "tub-variants": {
+      "size": [
+        384,
+        64
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "25216cd5665482018609b8b3957fa2c51f688b54bf18340870abd356f4cbdadc"
+    },
+    "tank-wall": {
+      "size": [
+        96,
+        64
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "a1f3619c48ff7cdbfb88ba38bc210818778e115a24e125d8c6ad7a513f1ae248"
+    },
+    "tiles": {
+      "size": [
+        256,
+        32
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "01478d248f9841bd372cd480649e3d2e396286d4333e10ee885eb06dd6d0d7b0"
+    },
+    "greenhouse": {
+      "size": [
+        320,
+        192
+      ],
+      "indexedSourceExact": true,
+      "binaryAlpha": true,
+      "pngSHA256": "c65fe86d8d1161c4a7e0f58113b080acf47ee6e4cb65a14c057b5264f5909b86"
+    }
+  },
+  "uniqueTopSilhouetteAlphaMasks": 16,
+  "symmetricAnatomyMasks": {
+    "skull": true,
+    "eyes": true,
+    "torso": true,
+    "arms": true,
+    "hands": true,
+    "legs": true
+  },
+  "contactExact3x": true,
+  "visibleBlueEyeLandmarks": true,
+  "poseLastPaintedRows": [
+    63,
+    61,
+    63,
+    61,
+    63,
+    61,
+    63,
+    61,
+    63,
+    61,
+    63,
+    61,
+    63,
+    61,
+    63,
+    61
+  ]
+}

@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.LG1 — Luke’s Greenhouse playable review
+
+**Implementation and clean checks complete; publication in progress, user approval pending.** Latest user request authorizes Luke’s new character, eight-tub greenhouse and $100 silhouette-scoop encounter as the active focused implementation. [Deliverable](reviews/M1-LG1/README.md). Original native art, enter/decline/eject/pay/select/catch/reveal/browse/re-enter loop and isolated persistent review collection are implemented. Luke alone sells goldfish; current name supersedes Nuggets. Other creator cameos remain planned. New appearance/motion await the user; broader M1/M2 gates remain open. The clean export passes135 unit checks,14 greenhouse browser checks,17 adventure scenarios and independent native-art validation. Next: phone publication, then concrete user review feedback before world/save integration.
+
+
 ## MUSIC.03 — Approved MIDI integration
 
 The user accepted the thirty-track MUSIC.02 rewrite and authorized permanent assets, removal of rejected tracks, local MIDI architecture and appropriate in-game placements. **Implemented, tested, pushed and published.** Keep one canonical MIDI collection in `assets/audio/`, retain editable sources, decode/synthesize the actual files in a background worker, and choose scene/story/habitat cues with fades and persistent Music/volume controls. Preserve game saves and other review gates. [Architecture](AUDIO_ARCHITECTURE.md) · [Evidence](reviews/MUSIC-03/README.md). Exact next action: refine concrete in-game listening feedback on the published build.

@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#163c38"><title>Luke’s Greenhouse · Critz playable review</title><link rel="icon" href="../icon.svg"><link rel="stylesheet" href="greenhouse.css"></head>
+<body><main id="game" aria-label="Luke’s Greenhouse playable review">
+  <div id="viewport"><canvas id="world" width="480" height="320" aria-label="Greenhouse world. Use arrow keys or the directional buttons to walk; A to interact."></canvas>
+    <div id="speech" role="dialog" aria-labelledby="speaker" hidden><strong id="speaker">Luke</strong><p id="line"></p><div id="choices"></div></div>
+    <section id="overlay" class="paper" aria-label="Review menu"><p class="eyebrow">CRITZ: TYCOON · PLAYABLE REVIEW</p><h1>Luke’s<br>Greenhouse</h1><p>Eight tubs. One scoop.<br>A little face you haven’t met yet.</p><div id="cover-fish" aria-hidden="true"></div><p class="subtle">Try the new art and scoop timing with a separate $300 review wallet. Your adventure save stays untouched.</p><button id="begin" disabled>Loading the greenhouse…</button><a href="../">Return to Critz</a></section>
+    <section id="menu" class="paper" aria-label="Greenhouse menu" hidden></section>
+  </div>
+  <nav id="controls" aria-label="Game controls"><div class="dpad"><button data-dir="up" aria-label="Walk up">▲</button><button data-dir="left" aria-label="Walk left">◀</button><span></span><button data-dir="right" aria-label="Walk right">▶</button><button data-dir="down" aria-label="Walk down">▼</button></div><button id="start" aria-label="Open review menu">START</button><div class="ab"><button id="b" aria-label="B: Back">B</button><button id="a" aria-label="A: Interact or scoop">A</button></div></nav>
+  <p id="live" class="sr-only" role="status" aria-live="polite"></p>
+</main><script type="module" src="greenhouse.js"></script></body></html>

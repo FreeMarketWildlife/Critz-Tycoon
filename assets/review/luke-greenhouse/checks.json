@@ -1,0 +1,22 @@
+{
+  "binaryAlpha": true,
+  "idle": {
+    "bounds": [
+      3,
+      23,
+      29,
+      62
+    ],
+    "occupied": 798
+  },
+  "idleAnatomicalSymmetry": {
+    "skull": true,
+    "eyes": true,
+    "torso": true,
+    "arms": true,
+    "hands": true,
+    "legs": true
+  },
+  "fishCount": 16,
+  "characterFrameCount": 16
+}

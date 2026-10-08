@@ -1,5 +1,14 @@
 # Project status
 
+## M1.LG1 — Luke’s Greenhouse
+
+**Playable review implemented and tested; publication in progress, user visual/feel approval pending.** The user commissions Luke, the sole goldfish seller, a greenhouse of eight planted black tubs, a $100 admission/one-fish scoop and repeat-entry cutscene. [Deliverable](reviews/M1-LG1/README.md). Original native Luke/fish/environment art, shape-concealed timed catches, cute face reveal and post-purchase free browsing are available at the separate review route. Sixteen distinct fish designs have individual saved IDs. Other creator cameos stay planned while this focused task is reviewed. No artwork or broader M1/M2 gate is self-approved.
+
+Clean exported source passes **135 unit tests, 14 greenhouse browser checks and all17 existing-adventure browser scenarios**, plus independent source/PNG/alpha/geometry checks. Browser checks include all eight tubs, keyboard-only and touch catches, exact/insufficient payments, free misses, paid/caught reload, refunds/re-entry, quota-failure recovery and corrupt-save retention. Each tub samples five distinct designs without replacement. Relevant screenshots have been inspected. Physical Safari unverified. Review key `critz.lukes-greenhouse.review.v1` is isolated from adventure v1 and backup; tests use synthetic storage only. No care/stocking system, adventure collection migration or accepted-world placement is claimed.
+
+Work directly on main, opening baseline `aa2d94ffe450b1de95e184a11a2839eb97b309eb`; concurrent committed MUSIC.03 work is preserved. Sixteen pre-existing tracked character/appearance edits and five related untracked paths remain outside this task. Only task additions to shared status/plan are staged. Exact next action: publish the verified clean export, then the user reviews Luke’s likeness, greenhouse, goldfish faces and scoop timing before integration. Current phone URL remains https://critz-tycoon.freemarketwildlife.chatgpt.site; deployment evidence will be recorded before claiming the review live.
+
+
 ## MUSIC.03 — Approved MIDI assets and in-game soundtrack
 
 **Implemented, tested, pushed and published.** The user explicitly approved MUSIC.02, requested permanent MIDI assets, deletion of rejected music and proper game playback, and authorized fitting cues into gameplay. All thirty approved files now live canonically in `assets/audio/midi/`, with unchanged note bytes/hashes, a verified runtime manifest and the existing complete ZIP. Rejected first-edition loose exports, obsolete source stub/cache and known old temporary media copies are removed; historical documents/Git history are retained. [Architecture and cue map](AUDIO_ARCHITECTURE.md) · [Delivery/evidence](reviews/MUSIC-03/README.md).

@@ -235,18 +235,21 @@ This entry records the current design preference and constraints; it does **not*
 
 ## IDEA-003 — Creator Easter eggs: real-world critter YouTubers as memorable NPCs and shops
 
-**State:** captured for future planning; not implemented, approved as final content, or assigned to a milestone.  
+**State:** Luke’s Greenhouse is now a commissioned M1.LG1 playable review, awaiting user acceptance. Other cameos remain captured for future planning.  
 **Source:** user brainstorming, 2026-10-07, plus linked public creator research. Names and the definitive goldfish exclusivity/shop choice come from the user; additional mechanics, dialogue, and cameo pitches below are proposals.
 
 ### Core idea
 
 Fill Critz: Tycoon with discoverable, affectionate Easter eggs referencing successful real-world YouTube creators who care for, breed, study, rescue, or build habitats for animals. These should be **actual in-world shops, specialist NPCs, unusual animal encounters, props, and optional quests**, not just names buried in text. A player who recognizes a creator should have an "I know who that is!" moment; anyone who does not should still see a coherent, useful, charming character in the game. Spread cameos naturally through the world rather than collecting every creator into one location.
 
-### Priority cameo: Luke's Goldies — **Nuggets**
+### Priority cameo: Luke’s Goldies — **Luke’s Greenhouse**
 
-- **Definitive shop sign:** **Nuggets** (NOT "Luke's Nuggets" or "Luke's Nuggies"; those were earlier brainstormed names).
+**2026-10-08 implementation direction:** The user now commissions Luke’s Greenhouse (M1.LG1), superseding the earlier Nuggets name. Deliver a playable review with eight planted black tubs and wall aquariums; Luke rushes to each new entrant, offers one goldfish for $100, says “GET OUT!” and ushers them outside if they decline or cannot afford it. After payment: “Ok, go ahead and pick a tub”; A at a tub prompts “Are you sure you want that one?”; confirmation opens a top-down silhouette scoop with a timed net and a colorful cute-face reveal. One fish per paid entry, then unrestricted browsing; leaving/re-entering starts admission again. Luke has brown hair, a full beard and bright blue eyes. All goldfish sales remain exclusive to Luke. Details and actual deliverable status live in [M1.LG1](reviews/M1-LG1/README.md). Other creators remain planned and are not silently invented or implemented by this single-task pass.
+
+
+- **Current shop sign:** **Luke’s Greenhouse**, from the latest explicit user request. “Nuggets” is historical.
 - **Shop owner:** **Luke**, inspired by **Luke Hagopian / Luke's Goldies**, the real-world goldfish keeper and breeder.
-- **Hard design rule:** **Nuggets is the ONLY store/location where the player can BUY goldfish in the entire game.** No ordinary pet shop, traveling merchant, online catalog, or other NPC can sell goldfish. Reconcile this exclusive inventory rule with the general pet store and any future catalogs when implemented. Non-purchase ways to obtain goldfish, if any, remain undecided.
+- **Hard design rule:** **Luke’s Greenhouse is the ONLY store/location where the player can BUY goldfish in the entire game.** No ordinary pet shop, traveling merchant, online catalog, or other NPC can sell goldfish. Reconcile this exclusive inventory rule with the general pet store and any future catalogs when implemented. Non-purchase ways to obtain goldfish, if any, remain undecided.
 - **Core identity:** a specialized goldfish shop, not a general fish retailer. Luke takes his fish seriously; available fancy goldfish variants, proper tank requirements, and their individual personalities can be the shop's main appeal.
 - **Character reference supplied in the conversation:** 2026-10-07 uploaded portrait of Luke (IMG_8943.jpeg). Appearance in that supplied image: short dark brown hair; thick eyebrows; full dark brown beard/mustache; friendly expression; red/maroon T-shirt. Use the **uploaded image as the visual reference** when art is commissioned; this chat upload is *not* yet checked in to the repository. The user's identification of the person as Luke Hagopian is treated as the supplied context, not a biometric identification from the portrait.
 - **Possible details, not locked:** standout goldfish with names and personalities; a lesson on goldfish care and adequate aquarium sizes; a small side quest about helping a goldfish thrive; special seasonal stock only here.
@@ -273,7 +276,7 @@ Fill Critz: Tycoon with discoverable, affectionate Easter eggs referencing succe
 | --- | --- | --- |
 | **AntsCanada (Mikey Bustos)** | Ant colonies, observation, complex terrarium ecosystems | A dedicated ant-keeper or elaborate ant-farm exhibit; a colony/foraging side quest and interconnected habitat tunnels. |
 | **Snake Discovery (Emily and Ed Roberts)** | Reptile education, husbandry, conservation | A reptile education center with handling/care lessons, appropriate husbandry supplies, and safe animal-education missions. |
-| **Aquarium Co-Op (Cory McElroy)** | Freshwater fish and aquatic plants, approachable aquarium education | A freshwater mentor, water-testing lessons, aquatic plant and equipment expertise. **Do not stock/sell goldfish**, to preserve Nuggets' unique inventory. |
+| **Aquarium Co-Op (Cory McElroy)** | Freshwater fish and aquatic plants, approachable aquarium education | A freshwater mentor, water-testing lessons, aquatic plant and equipment expertise. **Do not stock/sell goldfish**, to preserve Luke’s exclusive inventory. |
 | **Kamp Kenan (Kenan Harkin)** | Reptiles, tortoises, lizards, conservation | A reptile habitat keeper offering a tortoise-care quest or outdoor reptile exhibit. |
 | **Brian Barczyk (legacy tribute)** | Reptiles, The Reptarium, education | A respectful memorial-style reptile exhibit or book/poster tribute rather than assuming a living present-day shopkeeper; permission and depiction to be considered. |
 
@@ -281,7 +284,7 @@ Fill Critz: Tycoon with discoverable, affectionate Easter eggs referencing succe
 
 1. Treat creator names, likenesses, slogans, branding, and signature animals as **possible collaborations/tributes**. Check permissions and commercial-use/IP implications before shipping directly recognizable people, brand names, logos, exact likenesses, or real pets. An original, loosely inspired NPC is an alternate route.
 2. Do not make real creators sound like they endorsed Critz without approval. Do not assume the creators are participating.
-3. **Preserve goldfish exclusivity at Nuggets** even if other fish/plant specialists are added. Ensure goldfish care is accurately represented; goldfish need appropriate space/filtration, not novelty bowls.
+3. **Preserve goldfish exclusivity at Luke’s Greenhouse** even if other fish/plant specialists are added. Ensure goldfish care is accurately represented; goldfish need appropriate space/filtration, not novelty bowls.
 4. The user supplied Luke's portrait in this conversation. It needs a separate, approved asset transfer before the repo can use it as a pixel-art character reference; do not claim the image itself has been committed.
 5. Prefer optional discovery, easter eggs, specialist shops, and quests that reward curiosity; avoid compulsory cameos blocking the core campaign.
 6. Locate each creator cameo and determine prerequisites only after the world/roster review gates. This is an **idea capture only**: no new approved assets, maps, gameplay, or milestone scope.
