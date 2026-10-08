@@ -25,4 +25,8 @@ Critz uses that single-entrance/solid-surround pattern. Its 3×2 logical footpri
 ![Bedroom landing](bedroom-landing.png)
 ![Downstairs landing](house-landing.png)
 
-Clean release/chapter and deployment receipts will be recorded after verification. User traversal/feel feedback is the next review step.
+The exact clean release repeats all 98 unit and six stair-browser checks, and passes all [17 chapter scenarios](chapter-browser-report.json), including both loan choices, rescues, every shop, care, posts and save/reload. The unrelated pre-existing appearance test is outside the clean release; no unfinished character edits were included.
+
+## Published build
+
+[Play on your phone](https://critz-tycoon.freemarketwildlife.chatgpt.site). Source `8d0b57b29104b98cff03d758694b047a4f0ac336` is pushed to GitHub main and the Sites source repository. All **1,592 tested build files** match the archive exactly; its only addition is the hosting manifest. [Archive verification](archive-check.json) · [Content hashes](tested-build-sha256.json). [Native deployment](deployment.json) succeeded at **2026-10-08 07:51:49 UTC**, preserving the owner-private audience. Documentation receipts are committed separately without rebuilding the playable release. User traversal/feel feedback is the next review step; no implementation/publication work remains.
