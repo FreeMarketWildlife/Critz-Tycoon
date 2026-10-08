@@ -1,5 +1,12 @@
 # Critz: Tycoon — art bible
 
+## Lived-in terrain and clear paths — user correction, M1.E3
+
+The user rejects the flat grass/dirt and misplaced flowers/fences, and explicitly requests richer terrain in the current world. Preserve the liked rooted flower animation. Author clustered turf, connected darker grass patches and warm worn trails with restrained stone/scuff variation. Use named native palette ramps, hard pixels and complete inner/outer corner banks; avoid an evenly repeated noise pattern. Keep characters, doorways and road direction more prominent than ground detail. Append revised terrain under stable IDs in the master PNG; retain every preceding tile and animation cell unchanged.
+
+Road, paved-lane and bridge cells must never contain a fence. Fence end tiles must match the rails actually remaining after a gate or road opening. Flower roots belong on grass or planted soil, never the road or a solid prop footprint. Place turf islands only on grass and retain the tall-grass route crossing. Clear misplaced obstacles without adding new blocked cells or invalidating old save positions. Existing forest assemblies may fill the non-playable backdrop exposed by an expanded viewport; they are scenery, not new map space. The current refinement is authorized for gameplay, with its visual result awaiting user feedback; no broader art gate is self-approved.
+
+
 ## Uninterrupted play area — user correction, M1.UI2
 
 Remove all floating tips, proximity prompts, location banners and reward toasts. Remove the title/status/quest chrome around the world; put money, location/time, objectives, help and studio links inside player-opened menus. Preserve actual story dialogue, choices and character reactions. Action/validation/save feedback belongs inline in the open menu; retain nonvisual accessible announcements. Failed background saves remain reported when the next menu opens.

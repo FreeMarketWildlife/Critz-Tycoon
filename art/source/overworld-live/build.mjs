@@ -1,3 +1,4 @@
+import {appendTerrain,terrainPalette} from './terrain.mjs';
 import {APPLE_POSITIONS} from '../../../src/fruit-trees.js';
 // Append-only runtime edition of the approved master. Original cells stay exact.
 import {Raster} from '../raster.mjs';
@@ -116,9 +117,12 @@ function paintApple(r,x,y){
 const appleRipe=appleBare.crop(0,0,64,64);for(const [x,y]of APPLE_POSITIONS)paintApple(appleRipe,x-5,y-5);slice('tree.apple.ripe',appleRipe,'foreground');
 const appleIcon=new Raster(32,32);paintApple(appleIcon,11,11);add('fruit.apple',appleIcon,'foreground');
 
+appendTerrain({group,add,ids});
+P.meadow=terrainPalette.grass;P.trail=terrainPalette.path;P.sward=terrainPalette.sward;
+
 const atlas=new Raster(1024,Math.max(1024,Math.ceil(cursor/32)*32));for(const t of tiles)atlas.blit(t.r,t.x,t.y);await atlas.save(`${out}/master.png`);
-const manifest={...original,assetId:'critz.overworld.live.v4',approval:'Base kit selected by user; M1.FR1 orchard additions and integrated world await feedback',imageWidth:atlas.w,imageHeight:atlas.h,sections,assemblies,tiles:tiles.map(({r,...t})=>t),animation:{stepSeconds:16*280896/16777216,waterFrames:4,flowerSequence:[0,1,0,2],grass:'movement-triggered, one-tile response; foreground foot overlap'},collision:'Authored map cells, independent of appearance'};
+const manifest={...original,assetId:'critz.overworld.live.v5',approval:'User-requested M1.E3 terrain and route refinement; visual feedback pending',imageWidth:atlas.w,imageHeight:atlas.h,sections,assemblies,tiles:tiles.map(({r,...t})=>t),animation:{stepSeconds:16*280896/16777216,waterFrames:4,flowerSequence:[0,1,0,2],grass:'movement-triggered, one-tile response; foreground foot overlap'},collision:'Authored map cells, independent of appearance'};
 await writeFile(`${out}/master.json`,JSON.stringify(manifest,null,2)+'\n');
 await writeFile(`${out}/palette.json`,JSON.stringify(P,null,2)+'\n');
-await writeFile(`${out}/master.tsj`,JSON.stringify({type:'tileset',version:'1.10',name:'Critz overworld live v4',tilewidth:32,tileheight:32,tilecount:atlas.w*atlas.h/1024,columns:32,image:'master.png',imagewidth:atlas.w,imageheight:atlas.h,tiles:tiles.map(t=>({id:t.index,properties:[{name:'assetId',type:'string',value:t.id}]}))},null,2)+'\n');
+await writeFile(`${out}/master.tsj`,JSON.stringify({type:'tileset',version:'1.10',name:'Critz overworld live v5',tilewidth:32,tileheight:32,tilecount:atlas.w*atlas.h/1024,columns:32,image:'master.png',imagewidth:atlas.w,imageheight:atlas.h,tiles:tiles.map(t=>({id:t.index,properties:[{name:'assetId',type:'string',value:t.id}]}))},null,2)+'\n');
 console.log(JSON.stringify({original:original.tiles.length,total:tiles.length,allocated:cursor,size:[atlas.w,atlas.h]}));

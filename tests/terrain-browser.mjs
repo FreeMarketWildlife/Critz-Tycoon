@@ -1,0 +1,21 @@
+import {createRequire} from 'node:module';import {mkdir,writeFile,readFile} from 'node:fs/promises';import assert from 'node:assert/strict';
+import {createState,startMorning,SAVE_KEY} from '../src/state.js';
+const require=createRequire(import.meta.url),{chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright');
+const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_EXECUTABLE}),ctx=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true}),page=await ctx.newPage();
+const url=process.env.TEST_URL||'http://127.0.0.1:5173',out=process.env.TEST_OUTPUT_DIR||'test-results/terrain',errors=[],checks=[];await mkdir(out,{recursive:true});
+page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(r.url());});const pass=s=>{checks.push(s);console.log('PASS '+s);};
+async function fixture(scene,x,y){await page.goto(url);await page.waitForSelector('[data-action=new]');const s=createState('Ari','boy','River');startMorning(s,true);s.scene=scene;s.player={x,y,facing:'down'};await page.evaluate(({s,key})=>{localStorage.clear();localStorage.setItem(key,JSON.stringify(s));},{s,key:SAVE_KEY});await page.reload();await page.locator('[data-action=continue]').click();await page.waitForTimeout(80);}
+try{
+ for(const [scene,x,y]of [['town',22,25],['town',6,12],['forest',17,10],['liarsville',27,16],['yard',8,9]]){
+  await fixture(scene,x,y);if(scene==='yard'){const colors=await page.locator('#world').evaluate(c=>{const p=c.getContext('2d').getImageData(0,0,c.width,48).data,s=new Set();for(let i=0;i<p.length;i+=4)s.add(`${p[i]},${p[i+1]},${p[i+2]}`);return s.size;});assert.ok(colors>10,'small-map backdrop is rendered forest, not flat empty fill');}await page.screenshot({path:`${out}/phone-${scene}-${x}.png`});
+  const data=await page.evaluate(async()=>{const {getDebugSnapshot}=await import('/src/main.js'),{scenes}=await import('/src/world.js'),{renderWorld}=await import('/src/render.js');const s=getDebugSnapshot(),m=scenes[s.scene].map,c=document.createElement('canvas');c.width=m.w*32;c.height=m.h*32;renderWorld(c,s,0,{x:s.player.x*16,y:s.player.y*16,facing:'down',pose:'idle',action:'idle'});return c.toDataURL().split(',')[1];});await writeFile(`${out}/map-${scene}.png`,Buffer.from(data,'base64'));pass(`${scene} ${x},${y}: terrain and all referenced art render on phone and full native map`);
+ }
+ // Actual movement across former fence cells, without changing save positions or keys.
+ for(const [scene,x,y]of [['town',4,12],['town',16,25],['town',23,34],['liarsville',27,15]]){
+  await fixture(scene,x,y);await page.keyboard.down('ArrowRight');await page.waitForTimeout(290);await page.keyboard.up('ArrowRight');await page.waitForTimeout(260);const p=await page.evaluate(async()=>(await import('/src/main.js')).getDebugSnapshot().player);assert.ok(p.x>x,`${scene} old fence ${x},${y}`);
+ }
+ pass('Real walking crosses the former street fences in both towns');
+ const motion=await page.evaluate(async()=>{const {animationFrame}=await import('/src/environment-render.js'),{drawEnvironmentTile}=await import('/src/environment-render.js');const frames=[];for(const t of [0,.3,.9]){const c=document.createElement('canvas');c.width=c.height=32;drawEnvironmentTile(c.getContext('2d'),animationFrame('flowers.2',t),0,0);frames.push(c.toDataURL());}return new Set(frames).size;});assert.equal(motion,3);pass('Existing rooted flower sway still produces three distinct rendered frames');
+ await page.locator('#start').click();await page.locator('[data-action=save]').click();const saved=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)),SAVE_KEY);await page.reload();await page.locator('[data-action=continue]').click();const restored=await page.evaluate(async()=>(await import('/src/main.js')).getDebugSnapshot());assert.deepEqual(restored.player,saved.player);assert.equal(restored.debt,saved.debt);assert.equal(restored.money,saved.money);pass('Synthetic v1 save/reload retains exact standing cell, money and loan');
+ assert.deepEqual(errors,[]);pass('No missing assets or browser exceptions');
+} finally {await writeFile(`${out}/report.json`,JSON.stringify({checks,errors},null,2)+'\n');await browser.close();}

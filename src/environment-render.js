@@ -36,6 +36,15 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  const visible=(x,y,w=1,h=1)=>x*32<camera.x+width+32&&(x+w)*32>camera.x-32&&y*32<camera.y+height+32&&(y+h)*32>camera.y-64;
  const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
  const assembly=(o)=>{const objectId=o.id==='mill.wheel.0'?`mill.wheel.${Math.floor(time/.18)%4}`:o.id;const rows=o.tiles||manifest.assemblies[objectId];if(rows)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,(o.x+i)*32,(o.y+j)*32)));else draw(o.id,o.x*32,o.y*32);};
+ // A wide/tall viewport can look beyond a small map. Existing dense forest
+ // art marks that non-playable backdrop instead of exposing a flat clear field.
+ if(camera.x<0||camera.y<0||camera.x+width>map.w*32||camera.y+height>map.h*32){
+  c.save();c.beginPath();c.rect(camera.x,camera.y,width,height);c.rect(0,0,map.w*32,map.h*32);c.clip('evenodd');
+  for(let y=Math.floor(camera.y/32)*32;y<camera.y+height;y+=32)for(let x=Math.floor(camera.x/32)*32;x<camera.x+width;x+=32)draw('meadow.grass.0',x,y);
+  const rows=manifest.assemblies['tree.broadleaf'];
+  for(let y=Math.floor(camera.y/64)*64-32;y<camera.y+height;y+=48)for(let x=Math.floor(camera.x/64)*64;x<camera.x+width;x+=64)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,x+i*32,y+j*32)));
+  c.restore();
+ }
  const drawActor=(x,y,options)=>{c.save();c.translate(x,y);character(c,0,0,options);c.restore();};
  for(let y=Math.max(0,Math.floor(camera.y/32));y<Math.min(map.h,Math.ceil((camera.y+height)/32));y++)for(let x=Math.max(0,Math.floor(camera.x/32));x<Math.min(map.w,Math.ceil((camera.x+width)/32));x++)draw(map.ground[y*map.w+x],x*32,y*32);
  const actorCell={x:Math.floor(foot.x/32),y:Math.floor((foot.y-1)/32)};

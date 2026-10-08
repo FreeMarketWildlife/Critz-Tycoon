@@ -1,5 +1,10 @@
 # Project status
 
+## M1.E3 — Richer terrain and clear paths
+
+**Implemented; clean-release validation/publication in progress.** User requests richer grass/dirt and sensible flower/fence placement, preserving flower animation. [Deliverable](reviews/M1-E3/README.md). Append 298 original terrain tiles with clustered grass, connected turf islands and worn golden paths; all 644 old tiles remain exact. Remove 33 road fence cells, reconnect remaining rail ends, move/filter flowers and ferns off roads/solid props, and use existing forest for small-map backdrop. Zero new blocked cells; same maps, saves, story, doors and tall-grass crossing. Working checks: 120 unit, five native pixel and nine terrain browser checks. Work directly on main from `e0f1624b81ef90b67e643279223d7b82fe5c985f`; sixteen unrelated tracked edits and five untracked character paths preserved. Physical Safari unverified. **Exact next action:** clean-release checks, commit/push and publish tested build, then user visual feedback. No broader art/movement gate is self-approved.
+
+
 ## M1.UI2 — Uninterrupted play area
 
 **Implemented, tested, pushed and published; awaiting user presentation feedback.** User requests removing all popup tips/top text and filling the top with gameplay. [Deliverable](reviews/M1-UI2/README.md). Removed header/HUD/quest strip, proximity prompts, location banners, reward toasts and footer tips. World fills available space with uniform pixel scale, dynamic camera/culling/lighting and fixed dialogue framing. Status/help moves into player-opened menus; save errors remain inline and accessible. Existing art, save keys/state and progress are preserved.

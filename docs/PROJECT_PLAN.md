@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.E3 — Richer terrain and clear paths
+
+**Implemented; clean-release checks/publication in progress.** Richer native grass/dirt and connected turf islands, clear streets with garden-only flower/fence placement. Existing animated flowers remain exact. [Deliverable](reviews/M1-E3/README.md). Next: clean release tests and publication, then user visual feedback.
+
+
 ## M1.UI2 — Uninterrupted play area
 
 **Implemented, tested, pushed and published; user presentation feedback pending.** Automatic tips and top chrome are removed; the world fills available screen space while preserving square pixels, fixed dialogue and touch controls. Status/help and save feedback live in player-opened menus. [Deliverable](reviews/M1-UI2/README.md). Source `8afa556` is live after 115 unit and 88 browser checks. Next: user presentation feedback; no wider milestone is self-approved.
