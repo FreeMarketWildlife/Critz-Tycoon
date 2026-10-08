@@ -118,6 +118,9 @@ async function approach(id) {
   await waitIdle();
   const s = await snapshot(), entity = getEntities(s).find(e => e.id === id);
   assert.ok(entity, `Missing entity ${s.scene}/${id}`);
+  // Door cells now warp on approach; route to an adjacent A-interaction cell
+  // without crossing another doorway on the way to this chapter objective.
+  const portals = new Set(getEntities(s).filter(e => e.type === 'door').map(e => `${e.x},${e.y}`));
   const start = [s.player.x, s.player.y];
   assert.ok(start.every(Number.isInteger), "Browser actor is not grid aligned");
   const key = p => p.join(","), frontier = [start], parents = new Map([[key(start), null]]);
@@ -134,7 +137,7 @@ async function approach(id) {
     for (const [dx, dy] of Object.values(directionDeltas)) {
       const n = [p[0] + dx, p[1] + dy], k = key(n);
       if (n[0] < 0 || n[1] < 0 || n[0] >= scenes[s.scene].w || n[1] >= scenes[s.scene].h ||
-          parents.has(k) || isBlocked(s.scene, n[0], n[1], s)) continue;
+          parents.has(k) || portals.has(k) || isBlocked(s.scene, n[0], n[1], s)) continue;
       parents.set(k, p);
       frontier.push(n);
     }

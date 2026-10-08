@@ -1,5 +1,7 @@
 # M1.C7 — Walking cast, moving critters and living habitats
 
+**Subsequent user direction:** the user explicitly requested gameplay integration of this collection. [M1.I4 runtime handoff](../M1-I4/README.md) records that implementation; the original asset-delivery scope below remains historical.
+
 **Assets/checks complete; new motion, views and habitats await user visual review.** The user requested animation of the M1.C6 collection, three habitat types and additional critters. Deliverables: twelve characters, ten moving critters, three animated close-ups and three world props. No gameplay integration is implied.
 
 ![Walking cast](characters-front.gif)

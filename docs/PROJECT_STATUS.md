@@ -1,5 +1,14 @@
 # Project status
 
+## M1.I4 — Living collection and doorway integration
+
+**Implementation and relevant checks complete; publication in progress.** The user explicitly authorized C7 gameplay integration, interior mats/open-door daylight, day/night lighting and a missing-character idle brief. [Deliverable](reviews/M1-I4/README.md) integrates 12 character sets, 10 illustrated animated critters, 3 habitat demonstrations/props and the native layered tank UI. Rival parents retain legacy art; [their idle-only prompt](reviews/M1-I4/MISSING-CHARACTERS-PROMPT.md) awaits a subsequent review task. Current appearance/motion awaits user feedback, not self-approval.
+
+83 relevant unit checks and the original 17-check chapter browser regression pass; new integration browser checks pass. Exact C7 frame pixels/timing, all real NPC identities, clock/threshold behavior, care effects, captures and isolated save preservation are verified. Current checks use Chromium emulation, not physical Safari. The unrelated untracked 24×32 appearance test still fails against its existing atlas; it is excluded from the clean release rather than silently changed.
+
+Working directly on main from `521738439804f3410dc048152b35541c2c849302`. Older character sources/atlases/review scripts/tests and concurrent music work remain uncommitted outside this task. Three overlapping runtime edits (character preview, identity resolver and preview CSS) are superseded by the requested C7 integration; shared status/plan retain prior entries. Exact next action: publish the clean tested source to the existing owner-private Sites project, verify deployment and remote SHA, then request user play/visual feedback through the concrete phone build.
+
+
 ## M1.W1 — Rootport to Liarsville
 
 **Implemented, tested, pushed and published; awaiting visual/motion feedback.** The user explicitly selected M1.E2 for integration and requested Rootport, a northbound wooded route through tall grass, Liarsville, missing logs and environmental animation. This authorizes the new playable world and supersedes the prior static-only/world-expansion restriction. [Deliverable and evidence](reviews/M1-W1/README.md).

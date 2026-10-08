@@ -1,3 +1,5 @@
+import {drawCritter,RESCUES} from './living-art.js';
+import {applyLighting} from './lighting.js';
 import {scenes,getEntities} from './world.js';
 import {TICK_SECONDS} from './movement.js';
 let sheet,manifest,tiles;
@@ -25,7 +27,7 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  const visible=(x,y,w=1,h=1)=>x*32<camera.x+512&&(x+w)*32>camera.x-32&&y*32<camera.y+352&&(y+h)*32>camera.y-64;
  const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
  const assembly=(o)=>{const objectId=o.id==='mill.wheel.0'?`mill.wheel.${Math.floor(time/.18)%4}`:o.id;const rows=o.tiles||manifest.assemblies[objectId];if(rows)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,(o.x+i)*32,(o.y+j)*32)));else draw(o.id,o.x*32,o.y*32);};
- const drawActor=(x,y,options)=>{c.save();c.translate(x,y);c.scale(2,2);character(c,0,0,options);c.restore();};
+ const drawActor=(x,y,options)=>{c.save();c.translate(x,y);character(c,0,0,options);c.restore();};
  for(let y=Math.max(0,Math.floor(camera.y/32));y<Math.min(map.h,Math.ceil((camera.y+320)/32));y++)for(let x=Math.max(0,Math.floor(camera.x/32));x<Math.min(map.w,Math.ceil((camera.x+480)/32));x++)draw(map.ground[y*map.w+x],x*32,y*32);
  const actorCell={x:Math.floor(foot.x/32),y:Math.floor((foot.y-1)/32)};
  const activeGrass=map.grass.has(`${actorCell.x},${actorCell.y}`),grassFrame=view.moving?[1,3,2,3][Math.floor((view.actionTick||0)/3)%4]:0;
@@ -33,12 +35,12 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  const sorted=[];for(const o of map.objects)if(visible(o.x,o.y,o.w,o.h))sorted.push({depth:o.depth*32,draw:()=>{assembly(o);if(o.id==='fountain.jet')draw(`water.spray.${Math.floor(time/.18)%4}`,o.x*32,(o.y+1)*32);}});
  for(const e of getEntities(state)){
   if(e.type==='npc')sorted.push({depth:(e.y+1)*32,draw:()=>drawActor(e.x*32+16,(e.y+1)*32,{look:npcLook(e,state.gender)})});
-  else if(e.type==='rescue')sorted.push({depth:99999,draw:()=>{const x=e.x*32+16,y=e.y*32+18-Math.floor(time*3)%2;c.fillStyle='#fff3bb';c.fillRect(x-1,y-5,2,10);c.fillRect(x-5,y-1,10,2);}});
+  else if(e.type==='rescue')sorted.push({depth:(e.y+1)*32,draw:()=>{drawCritter(c,RESCUES[e.id],e.x*32,e.y*32,time);const x=e.x*32+16,y=e.y*32+18-Math.floor(time*3)%2;c.fillStyle='#fff3bb';c.fillRect(x-1,y-5,2,10);c.fillRect(x-5,y-1,10,2);}});
  }
  sorted.push({depth:foot.y+.1,draw:()=>drawActor(foot.x,foot.y,{gender:state.gender,facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'})});
  sorted.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());
  // Only the contacted blades overlap shoes; grass elsewhere stays on the ground.
  if(activeGrass)draw(`grass.front.${grassFrame}`,actorCell.x*32,actorCell.y*32);
  // Direction plaques sit in the landscape and remain readable at its north/south thresholds.
- c.restore();return {camera,width:480,height:320,scene:state.scene,atlas:'assets/playable/overworld/master.png',activeGrass,grassFrame,visibleObjects:sorted.length};
+ c.restore();const lighting=applyLighting(c,state);return {lighting,camera,width:480,height:320,scene:state.scene,atlas:'assets/playable/overworld/master.png',activeGrass,grassFrame,visibleObjects:sorted.length};
 }

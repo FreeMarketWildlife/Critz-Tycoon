@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Both character choices use native 32×64 art",
+    "25-gallon tank menu uses C7 layers, live census and Manage/Stats/View",
+    "All ten animated animals and three living habitat demonstrations are available",
+    "New tank renderer supports the existing framing and capture flow",
+    "Open exterior entrance has daytime threshold light; night uses the saved clock",
+    "Walking north into the open storefront enters Glow n’ Blow",
+    "Walking over the interior doormat exits to the correct yard",
+    "Parents retain fallback art; all shops and new tank world props render",
+    "No page errors or missing assets, with 320–844px layouts",
+    "Every care/population visual changes without mutating the simulation"
+  ],
+  "errors": []
+}

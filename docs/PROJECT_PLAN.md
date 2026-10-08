@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.I4 — Selected living collection in gameplay
+
+**Implementation/checks complete; publication in progress.** User authorizes C7 cast/walks, animals and tanks in runtime plus indoor mats/open-entrance daylight and clock-based night. Keep 25-gallon care/earnings/save systems. Rival parents remain legacy placeholders with an idle-only agent brief; do not animate replacements before user review. [Deliverable and checks](reviews/M1-I4/README.md). Publish the exact tested clean build next, then collect appearance/motion feedback.
+
+
 ## M1.W1 — Playable northern overworld
 
 **Implementation/checks/publication complete; awaiting user visual/motion feedback.** User-selected M1.E2 is integrated into Rootport → Mossway → Liarsville, with tile-built architecture, water/cliffs, gardens/fences/fountains, hollow logs and living vegetation. Existing story/save systems are preserved. Source `787d0ea` passes 78 unit tests, original chapter regression and 12 release-browser checks; its exact tested build is live at the existing phone URL. [Receipt and next action](PROJECT_STATUS.md#m1w1--rootport-to-liarsville). Refine user feedback next; do not infer approval of unrelated character work or self-approve the new world/motion.

@@ -1,3 +1,4 @@
+import {OPEN_ENTRANCES} from './lighting.js';
 // Original map authoring. World cells, IDs and collision are independent of PNG pixels.
 export const WORLD_REVISION = 2;
 export const OUTDOOR_SCENES = ['yard', 'town', 'forest', 'liarsville'];
@@ -22,7 +23,7 @@ function object(m,id,x,y,w=1,h=1,footprint=[0,h-1,w,1],kind='prop'){
  const o={id,sprite:id,x,y,w,h,kind,depth:y+h,collision:footprint&&[x+footprint[0],y+footprint[1],footprint[2],footprint[3]]};m.objects.push(o);if(o.collision)block(m,...o.collision);return o;
 }
 function tree(m,x,y,type='broadleaf'){return object(m,`tree.${type}`,x,y,2,type==='cypress'?3:2,[0,type==='cypress'?2:1,2,1],'tree');}
-function house(m,b){const rows=[];for(let y=0;y<3;y++)rows.push(Array.from({length:b.w},(_,x)=>`roof.${b.roof}.${y}.${x===0?'left':x===b.w-1?'right':'center'}`));for(let y=0;y<2;y++)rows.push(Array.from({length:b.w},(_,x)=>x===Math.floor(b.w/2)?`door.wood.closed.0.${y}`:x===0||x===b.w-1?`wall.${b.wall}.${y}.${x===0?'left':'right'}`:x===1&&['critz','vet','pharmacy','bike','glass'].includes(b.scene)?`wall.${b.wall}.${y}.center`:x%2?`windowbox.${b.wall}.0.${y}`:`wall.${b.wall}.${y}.center`));
+function house(m,b){const rows=[];for(let y=0;y<3;y++)rows.push(Array.from({length:b.w},(_,x)=>`roof.${b.roof}.${y}.${x===0?'left':x===b.w-1?'right':'center'}`));for(let y=0;y<2;y++)rows.push(Array.from({length:b.w},(_,x)=>x===Math.floor(b.w/2)?`door.wood.${OPEN_ENTRANCES.has(b.scene)?'open':'closed'}.0.${y}`:x===0||x===b.w-1?`wall.${b.wall}.${y}.${x===0?'left':'right'}`:x===1&&['critz','vet','pharmacy','bike','glass'].includes(b.scene)?`wall.${b.wall}.${y}.center`:x%2?`windowbox.${b.wall}.0.${y}`:`wall.${b.wall}.${y}.center`));
  const o=object(m,'building',b.x,b.y,b.w,5,[0,0,b.w,5],'building');o.tiles=rows;o.name=b.name;
  if(['critz','vet','pharmacy','bike','glass'].includes(b.scene)){const plaque=object(m,`shop.sign.${b.scene}`,b.x+1,b.y+3,1,1,null);plaque.depth=b.y+5+.1;}
  object(m,'chimney',b.x+b.w-2,b.y-1,1,2,null);rect(m,b.x+Math.floor(b.w/2),b.y+5,1,3,'path');

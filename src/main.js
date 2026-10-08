@@ -1,3 +1,5 @@
+import {approachesDoor} from './lighting.js';
+import {CRITTERS,HABITATS} from './living-art.js';
 import {
   createState,
   startMorning,
@@ -22,7 +24,7 @@ import {
   transition,
   isBlocked,
 } from "./world.js";
-import { renderTank } from "./tank-render.js";
+import { renderTank, renderSpecimen } from "./tank-render.js";
 import { initWorldArt, renderWorld, character } from "./render.js";
 import { migrateGridState } from "./grid-save.js";
 import { createMotion, getMotionView, advanceMotion, createMotionClock, advanceMotionClock, resetMotionClock } from "./movement.js";
@@ -146,7 +148,7 @@ function titleScreen() {
   showPanel(
     "title",
     "A little world, alive.",
-    `<p>Some beginnings are small enough to fit in a glass tank.</p><canvas id="welcome-tank" class="welcome-art" width="400" height="148"></canvas>${loaded.state ? button("continue", `Continue ${esc(loaded.state.hero)}’s story`) : ""}${button("new", loaded.state ? "Start a new story" : "Begin your story", loaded.state ? "secondary full" : "primary full")}<p class="hint">A cozy ecosystem RPG · original playable chapter<br>Touch controls or keyboard. Progress stays on this browser.</p>${loaded.recovered ? '<div class="notice">Your previous backup was recovered. You can continue safely.</div>' : ""}${loaded.damaged ? '<div class="notice">The saved file could not be read. Start a new story to recover.</div>' : ""}`,
+    `<p>Some beginnings are small enough to fit in a glass tank.</p><canvas id="welcome-tank" class="welcome-art" width="384" height="288"></canvas>${loaded.state ? button("continue", `Continue ${esc(loaded.state.hero)}’s story`) : ""}${button("new", loaded.state ? "Start a new story" : "Begin your story", loaded.state ? "secondary full" : "primary full")}<p class="hint">A cozy ecosystem RPG · original playable chapter<br>Touch controls or keyboard. Progress stays on this browser.</p>${loaded.recovered ? '<div class="notice">Your previous backup was recovered. You can continue safely.</div>' : ""}${loaded.damaged ? '<div class="notice">The saved file could not be read. Start a new story to recover.</div>' : ""}`,
     { back: false, eyebrow: "CRITZ: TYCOON / CHAPTER 01" },
   );
 }
@@ -155,12 +157,12 @@ function setup() {
   showPanel(
     "setup",
     "Who’s moving in?",
-    `<p>You’re ten. You love tiny creatures. This is your story.</p><div class="choices"><button class="choice selected" data-action="boy" aria-pressed="true"><canvas id="boy-preview" class="hero-preview" width="16" height="32"></canvas>Boy</button><button class="choice" data-action="girl" aria-pressed="false"><canvas id="girl-preview" class="hero-preview" width="16" height="32"></canvas>Girl</button></div><label class="field-label" for="hero-name">Your name</label><input id="hero-name" type="text" placeholder="e.g. Ari" maxlength="16" autocomplete="off"><label class="field-label" for="rival-name">Your rival’s name <span id="rival-gender">(girl)</span></label><input id="rival-name" type="text" placeholder="e.g. Rowan" maxlength="16" autocomplete="off">${button("begin", "Let’s go to Rootport →")}<p class="hint">Opening: a difficult night at home. Every animal survives.</p>`,
+    `<p>You’re ten. You love tiny creatures. This is your story.</p><div class="choices"><button class="choice selected" data-action="boy" aria-pressed="true"><canvas id="boy-preview" class="hero-preview" width="32" height="64"></canvas>Boy</button><button class="choice" data-action="girl" aria-pressed="false"><canvas id="girl-preview" class="hero-preview" width="32" height="64"></canvas>Girl</button></div><label class="field-label" for="hero-name">Your name</label><input id="hero-name" type="text" placeholder="e.g. Ari" maxlength="16" autocomplete="off"><label class="field-label" for="rival-name">Your rival’s name <span id="rival-gender">(girl)</span></label><input id="rival-name" type="text" placeholder="e.g. Rowan" maxlength="16" autocomplete="off">${button("begin", "Let’s go to Rootport →")}<p class="hint">Opening: a difficult night at home. Every animal survives.</p>`,
     { back: false, eyebrow: "A NEW BEGINNING" },
   );
   for (const g of ["boy", "girl"]) {
     const c = $(g + "-preview").getContext("2d");
-    character(c, 8, 32, { gender: g });
+    character(c, 16, 64, { gender: g });
   }
 }
 function say(lines, done) {
@@ -515,11 +517,17 @@ function kaidMenu() {
     `<p>“Aunt Ember handles all the hot glass. I draw tank ideas, decorate cool glass, and sweep up. Official corner inspector.”</p><div class="notice">${state.debt ? `Your loan: ${dollars(state.debt)} · no interest or deadline.` : "No outstanding loan. “You bring the ideas. I’ll bring the snacks.”"}</div>${state.debt ? button("repay", `Repay ${dollars(state.debt)}`, "primary full", state.money < state.debt ? "disabled" : "") : ""}${button("back", "See you around", "secondary full")}`,
   );
 }
+let collectionReturn = "tank";
+function collectionPanel() {
+  collectionReturn = panelName;
+  const labels={'pebble-gecko':'Pebble · gecko','button-snail':'Button · snail','isopod':'Isopod','springtail':'Springtail','tree-frog':'Tree frog','cherry-shrimp':'Cherry shrimp','guppy':'Guppy','stag-beetle':'Stag beetle','mangrove-crab':'Mangrove crab','cory-catfish':'Cory catfish'};
+  showPanel('collection','Small worlds, full of life',`<p class="hint">Aunt Ember’s habitat gallery and your illustrated field guide. These displays do not change the animals in Little Root.</p><div class="habitat-gallery">${HABITATS.map(h=>`<article class="habitat-card"><canvas width="384" height="288" data-habitat="${h}" aria-label="Animated ${h}"></canvas><h3>${h[0].toUpperCase()+h.slice(1)}</h3><p>${{terrarium:'Cork, leaf litter and a quiet perch · Pebble study',aquarium:'Submerged planting, driftwood and sand · guppy study',paludarium:'A planted bank above a gentle pool · crab study'}[h]}</p></article>`).join('')}</div><h3>Meet the little neighbors</h3><div class="specimen-grid">${CRITTERS.map(slug=>`<article><canvas width="32" height="32" data-specimen="${slug}" aria-label="Animated ${labels[slug]}"></canvas><strong>${labels[slug]}</strong></article>`).join('')}</div><p class="hint">Illustrated at observation scale. Each habitat features one animal study; these are design displays, not stocking or compatibility instructions.</p>`,{eyebrow:'GLOW N’ BLOW / LIVING COLLECTION'});
+}
 function tankMenu() {
   showPanel(
     "tank",
     "Little Root",
-    `<canvas id="tank-preview" class="tank-canvas" width="400" height="200"></canvas><p class="hint">25-gallon ventilated terrarium · a gift from Kaid</p><div class="menu-list">${menuRow("manage", "⌘", "Manage", "Shape the habitat. Care for its little residents.")}${menuRow("stats", "▥", "Stats", "Conditions, populations, and changes over time.")}${menuRow("view", "◉", "View", "Watch closely. Frame a moment. Share it on Critter.")}</div>`,
+    `<canvas id="tank-preview" class="tank-canvas" width="384" height="288"></canvas><p class="hint">25-gallon ventilated terrarium · a gift from Kaid</p><div class="habitat-census"><span><b data-live="isopods">${state.tank.isopods}</b> isopods</span><span><b data-live="springtails">${state.tank.springtails}</b> springtails</span><span><b data-live="moisture">${state.tank.moisture}%</b> moisture</span></div><div class="menu-list">${menuRow("manage", "⌘", "Manage", "Shape the habitat. Care for its little residents.")}${menuRow("stats", "▥", "Stats", "Conditions, populations, and changes over time.")}${menuRow("view", "◉", "View", "Watch closely. Frame a moment. Share it on Critter.")}${menuRow("collection", "✿", "Living collection", "Meet ten tiny neighbors and explore three habitat designs.")}</div>`,
     { eyebrow: "YOUR FIRST LIVING WORLD" },
   );
 }
@@ -534,7 +542,7 @@ function managePanel(keep = false) {
   showPanel(
     "manage",
     "A habitat in your hands",
-    `<canvas id="tank-preview" class="tank-canvas" width="400" height="200"></canvas><div class="stat-grid"><div class="stat"><label>Substrate moisture</label><strong data-live="moisture">${t.moisture}%</strong><small>Aim for 55–80% in this model</small></div><div class="stat"><label>Leaf litter remaining</label><strong data-live="food">${t.food}%</strong><small>Keep above 8% for breeding</small></div></div><div class="setting"><div class="setting-header">Daily light <span>${t.light} h</span></div><p>Long days encourage algae. Eight hours is a useful starting point.</p><div class="segments">${[4, 8, 12].map((n) => button("light", `${n} hours`, n === t.light ? "selected" : "", `data-value="${n}" aria-pressed="${n === t.light}"`)).join("")}</div></div><div class="setting"><div class="setting-header">Ventilation</div><p>More fresh air dries substrate faster. A low vent setting can limit activity.</p><div class="segments">${["Low", "Balanced", "Open"].map((n, i) => button("ventilation", n, t.ventilation === i + 1 ? "selected" : "", `data-value="${i + 1}" aria-pressed="${t.ventilation === i + 1}"`)).join("")}</div></div>${supply("Mist the substrate", "+14 moisture · clean water", "mist", "Free")}${supply("Plant moss", `${t.plants}/6 planted · ${state.inventory.moss} in your kit`, "moss", "Plant", state.inventory.moss < 1 || t.plants >= 6)}${supply("Add leaf litter", `+25 food · ${state.inventory.litter} portions in your kit`, "feed", "Feed", state.inventory.litter < 1)}${supply("Clean glass & excess waste", "Less algae and waste; a few microbes are removed", "clean", "Clean")}${button("observe", "Observe · 1 habitat hour", "secondary full")}<p class="hint">One habitat hour passes every 8 seconds while playing. Time pauses in dialogue and the pause menu. This is a simplified learning model.</p>`,
+    `<canvas id="tank-preview" class="tank-canvas" width="384" height="288"></canvas><div class="stat-grid"><div class="stat"><label>Substrate moisture</label><strong data-live="moisture">${t.moisture}%</strong><small>Aim for 55–80% in this model</small></div><div class="stat"><label>Leaf litter remaining</label><strong data-live="food">${t.food}%</strong><small>Keep above 8% for breeding</small></div></div><div class="setting"><div class="setting-header">Daily light <span>${t.light} h</span></div><p>Long days encourage algae. Eight hours is a useful starting point.</p><div class="segments">${[4, 8, 12].map((n) => button("light", `${n} hours`, n === t.light ? "selected" : "", `data-value="${n}" aria-pressed="${n === t.light}"`)).join("")}</div></div><div class="setting"><div class="setting-header">Ventilation</div><p>More fresh air dries substrate faster. A low vent setting can limit activity.</p><div class="segments">${["Low", "Balanced", "Open"].map((n, i) => button("ventilation", n, t.ventilation === i + 1 ? "selected" : "", `data-value="${i + 1}" aria-pressed="${t.ventilation === i + 1}"`)).join("")}</div></div>${supply("Mist the substrate", "+14 moisture · clean water", "mist", "Free")}${supply("Plant moss", `${t.plants}/6 planted · ${state.inventory.moss} in your kit`, "moss", "Plant", state.inventory.moss < 1 || t.plants >= 6)}${supply("Add leaf litter", `+25 food · ${state.inventory.litter} portions in your kit`, "feed", "Feed", state.inventory.litter < 1)}${supply("Clean glass & excess waste", "Less algae and waste; a few microbes are removed", "clean", "Clean")}${button("observe", "Observe · 1 habitat hour", "secondary full")}<p class="hint">One habitat hour passes every 8 seconds while playing. Time pauses in dialogue and the pause menu. This is a simplified learning model.</p>`,
     { keep },
   );
 }
@@ -558,7 +566,7 @@ function viewPanel() {
   showPanel(
     "view",
     "Find a little wonder",
-    `<canvas id="view-canvas" class="tank-canvas" width="400" height="200"></canvas><p class="hint">Frame the moss and moving animals. Your choices affect composition.</p><div class="segments">${button("photo-mode", "Photo", camera.kind === "photo" ? "selected" : "")}${button("video-mode", "6-second simulated video", camera.kind === "video" ? "selected" : "")}</div><label class="field-label" for="frame">Pan the frame</label><input type="range" id="frame" min="0" max="100" value="${camera.frame}"><label class="field-label" for="zoom">Zoom</label><input type="range" id="zoom" min="100" max="160" value="${camera.zoom * 100}"><div id="camera-scores"></div>${button("capture", camera.kind === "photo" ? "◉ Take photo" : "● Record simulated video")}<p class="hint">Photos become in-game snapshots. Videos are simulated Critter clips; no real video file is recorded.</p>`,
+    `<canvas id="view-canvas" class="tank-canvas" width="384" height="288"></canvas><p class="hint">Frame the moss and moving animals. Your choices affect composition. The scene shows a sample of the colony; Stats has the full census.</p><div class="segments">${button("photo-mode", "Photo", camera.kind === "photo" ? "selected" : "")}${button("video-mode", "6-second simulated video", camera.kind === "video" ? "selected" : "")}</div><label class="field-label" for="frame">Pan the frame</label><input type="range" id="frame" min="0" max="100" value="${camera.frame}"><label class="field-label" for="zoom">Zoom</label><input type="range" id="zoom" min="100" max="160" value="${camera.zoom * 100}"><div id="camera-scores"></div>${button("capture", camera.kind === "photo" ? "◉ Take photo" : "● Record simulated video")}<p class="hint">Photos become in-game snapshots. Videos are simulated Critter clips; no real video file is recorded.</p>`,
     { eyebrow: "VIEW / CRITTER CAMERA" },
   );
   cameraScores();
@@ -572,8 +580,8 @@ function cameraScores() {
 }
 function takeCapture() {
   const temp = document.createElement("canvas");
-  temp.width = 400;
-  temp.height = 200;
+  temp.width = 384;
+  temp.height = 288;
   renderTank(temp, state.tank, visualTime, camera);
   capture = { ...camera, image: temp.toDataURL("image/png") };
   const sc = scorePost(state, capture);
@@ -662,7 +670,7 @@ function shop(type) {
     showPanel(
       "shop-glass",
       "Glow n’ Blow",
-      `<p>Aunt Ember: “Kaid designs the shapes. I do the hot work. No ten-year-olds near the furnace.”</p>${supply("Carved cork hide", "A visible shelter · +8 appearance points", "buy-hide", state.tank.hide ? "Owned" : "$6", state.money < 600 || state.tank.hide)}<div class="notice">“That 25-gallon birthday tank? Rounded corners, as requested by the boss.”</div><p class="hint">Larger tanks, including a possible 50-gallon upgrade, are planned. Your starter gift stays 25 gallons.</p>`,
+      `<p>Aunt Ember: “Kaid designs the shapes. I do the hot work. No ten-year-olds near the furnace.”</p>${supply("Carved cork hide", "A visible shelter · +8 appearance points", "buy-hide", state.tank.hide ? "Owned" : "$6", state.money < 600 || state.tank.hide)}<div class="notice">“That 25-gallon birthday tank? Rounded corners, as requested by the boss.”</div>${button("collection", "Browse the living collection", "secondary full")}<p class="hint">Larger tanks, including a possible 50-gallon upgrade, are planned. Your starter gift stays 25 gallons.</p>`,
       { eyebrow: "GLASS SHOP / AUNT EMBER" },
     );
 }
@@ -715,6 +723,7 @@ function back() {
     return;
   }
   if (["title", "setup", "loan", "confirm-new"].includes(panelName)) return;
+  if(panelName === "collection") { collectionReturn === "shop-glass" ? shop("glass") : tankMenu(); return; }
   if (["manage", "stats", "view"].includes(panelName)) {
     recording = 0;
     tankMenu();
@@ -855,6 +864,9 @@ function doAction(action, el) {
       break;
     case "stats":
       statsPanel();
+      break;
+    case "collection":
+      collectionPanel();
       break;
     case "view":
       viewPanel();
@@ -1115,8 +1127,8 @@ function frame(now) {
           (x,y) => !isBlocked(state.scene,x,y,state),
           { runAllowed: true, board: !!state.flags.board && ["town","yard","liarsville"].includes(state.scene) });
         const stepView = getMotionView(motion);
-        if (stepView.moving && stepView.settled && ['town','forest','liarsville'].includes(state.scene)) {
-          const gate = getEntities(state).find(e => e.type === 'door' && ['town','forest','liarsville'].includes(e.to) && e.x === state.player.x && e.y === state.player.y);
+        if (stepView.moving && stepView.settled) {
+          const gate = getEntities(state).find(e => e.type === 'door' && approachesDoor(!!scenes[state.scene].map,!!scenes[e.to].map,e,stepView.facing) && e.x === state.player.x && e.y === state.player.y);
           if (gate) { travel(gate); return; }
         }
         if (pendingInteract && getMotionView(motion).settled) {
@@ -1160,6 +1172,8 @@ function frame(now) {
           id === "view-canvas" ? { ...camera, reticle: true } : {},
         );
     }
+    for(const target of panel.querySelectorAll('[data-specimen]'))renderSpecimen(target,target.dataset.specimen,visualTime);
+    for(const target of panel.querySelectorAll('[data-habitat]'))renderTank(target,state.tank,visualTime,{habitat:target.dataset.habitat,demonstration:true});
     const welcome = $("welcome-tank");
     if (welcome)
       renderTank(

@@ -506,8 +506,8 @@ footer i {
   border-color: var(--mint);
 }
 .hero-preview {
-  width: 32px;
-  height: 64px;
+  width: 64px;
+  height: 128px;
   image-rendering: pixelated;
 }
 .field-label {
@@ -1043,3 +1043,16 @@ input[type="range"] {
     flex-shrink: 0;
   }
 }
+
+/* Native habitat presentation, with comfortable touch-sized DOM controls. */
+.tank-canvas, .welcome-art { aspect-ratio: 4 / 3; height: auto; max-width: 384px; display: block; margin-inline: auto; image-rendering: pixelated; border: 3px solid #668e7c; box-shadow: 0 0 0 2px #183e42, 0 5px 0 #102d32; }
+.habitat-census {display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin:16px 0;text-align:center;font-size:11px;color:#b4cebd;}
+.habitat-census span {padding:9px 3px;background:#173d40;border:1px solid #628772;}
+.habitat-census b {display:block;font-size:17px;color:#f1dfaf;margin-bottom:3px;}
+.habitat-card {border:2px solid #688c77;background:#17383c;padding:10px;margin:16px 0;box-shadow:3px 3px 0 #10282f;}
+.habitat-card canvas {display:block;width:100%;max-width:384px;height:auto;margin:auto;image-rendering:pixelated;}
+.habitat-card h3 {color:#eddaa8;margin:10px 0 4px;text-transform:uppercase;letter-spacing:2px;font-size:13px;}
+.habitat-card p {font-size:12px;margin:0;color:#b4cebd;}
+.specimen-grid {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}
+.specimen-grid article {display:flex;align-items:center;gap:6px;padding:8px 4px;background:#234c49;border:1px solid #638976;font-size:11px;}
+.specimen-grid canvas {flex:none;width:64px;height:64px;image-rendering:pixelated;}

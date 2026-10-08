@@ -1,5 +1,14 @@
 # Critz: Tycoon — art bible
 
+## Living collection integration — M1.I4, user update
+
+The user now explicitly selects existing M1.C7 living-collection-v1 assets for gameplay, including walking characters, animals and tanks. This supersedes the preceding C7 no-integration restriction for that collection. Preserve exact source pixels: native 32×64 characters, 32×32 animal studies, 192×144 layered close-ups and separately authored 96×96 world props. The world framebuffer stays 480×320; do not enlarge the new character sprites a second time. The close-up UI presents its authored image at nearest-neighbor 2× in a 384×288 canvas, fitting uniformly on smaller phones. Retain accessible DOM controls and Manage/Stats/View; display scale does not increase the art’s native budget.
+
+The rival’s mother and father lack selected C7 sets. Keep their legacy placeholders until the user reviews one south-facing idle each; no parent animation is authorized before that review. [Integration, limitations and idle-only prompt](reviews/M1-I4/README.md). Existing furniture and broken-tank story art remain until corresponding replacements exist.
+
+Closed exterior doors map to horizontal indoor floor mats; open exterior entrances map to a readable threshold and stepped daylight cast inward during daylight. Glow n’ Blow and Waterworks use the open treatment. Original dawn/day/dusk/night tint follows the saved simulation clock, with the opening’s night overridden explicitly; do not claim Emerald had this lighting system. Native art pixels remain unchanged beneath scene lighting. Animals shown in display habitats/field-guide studies do not imply ownership, compatibility or new simulation species. Keep the 25-gallon gift and all care/earnings/save behavior.
+
+
 ## Playable overworld — user update, M1.W1
 
 The user explicitly selected the M1.E2 tileset for world integration and authorized Rootport, a short northern wooded route through tall grass to Liarsville, hollow logs and environmental animation. This supersedes the preceding static-review and old world-expansion limits for this task. New composition/motion awaits feedback; unrelated character reviews remain separate.
