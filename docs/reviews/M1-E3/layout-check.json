@@ -1,0 +1,26 @@
+{
+  "town": {
+    "removedRoadFences": 32,
+    "newBlockedCells": 0,
+    "openedCells": 32,
+    "flowers": 24
+  },
+  "forest": {
+    "removedRoadFences": 0,
+    "newBlockedCells": 0,
+    "openedCells": 0,
+    "flowers": 6
+  },
+  "liarsville": {
+    "removedRoadFences": 1,
+    "newBlockedCells": 0,
+    "openedCells": 1,
+    "flowers": 16
+  },
+  "yard": {
+    "removedRoadFences": 0,
+    "newBlockedCells": 0,
+    "openedCells": 0,
+    "flowers": 6
+  }
+}

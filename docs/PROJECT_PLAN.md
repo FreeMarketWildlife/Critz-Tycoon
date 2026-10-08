@@ -2,8 +2,7 @@
 
 ## M1.E3 — Richer terrain and clear paths
 
-**Implemented; clean-release checks/publication in progress.** Richer native grass/dirt and connected turf islands, clear streets with garden-only flower/fence placement. Existing animated flowers remain exact. [Deliverable](reviews/M1-E3/README.md). Next: clean release tests and publication, then user visual feedback.
-
+**Implemented, tested, pushed and published; user visual feedback pending.** Richer native grass/dirt and connected turf islands; 33 misplaced fence cells removed from roads, rooted flowers/ferns kept on planted ground. All 644 prior tile pixels/animations remain exact. [Deliverable](reviews/M1-E3/README.md). Source `77a2fbb` is live after 120 unit, five native pixel and 101 browser checks. Next: user terrain/layout feedback; no wider milestone is self-approved.
 
 ## M1.UI2 — Uninterrupted play area
 

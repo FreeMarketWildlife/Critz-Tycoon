@@ -1,0 +1,17 @@
+{
+  "baseline": "e0f1624b81ef90b67e643279223d7b82fe5c985f",
+  "checks": [
+    "Master dimensions match metadata; hard native pixels with binary alpha",
+    "All 644 previous tiles retain exact pixels, IDs and coordinates, including flowers and water animation",
+    "All 942 tile cells are aligned, unique, nonempty and inside the master",
+    "All sixteen turf, four dirt-center and two sward-center variants have distinct native pixels",
+    "Every new terrain pixel is opaque and belongs to the named checked-in palette"
+  ],
+  "tiles": 942,
+  "newTiles": 298,
+  "size": [
+    1024,
+    1472
+  ],
+  "masterSha256": "cbcd7d93cde3ec3828082ac4c942bffa51937b2e58d5232ca7a3c39fb0ae605a"
+}

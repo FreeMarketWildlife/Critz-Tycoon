@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "320×568: world fills available top edge, pixels remain square, controls fit, no page overflow or tip chrome",
+    "390×844: world fills available top edge, pixels remain square, controls fit, no page overflow or tip chrome",
+    "430×932: world fills available top edge, pixels remain square, controls fit, no page overflow or tip chrome",
+    "844×390: world fills available top edge, pixels remain square, controls fit, no page overflow or tip chrome",
+    "1280×900: world fills available top edge, pixels remain square, controls fit, no page overflow or tip chrome",
+    "Start retains money, place/time, Notebook objectives and inline save success/error; failed save preserves original bytes",
+    "Harvest has animation and accessible feedback without a visible popup",
+    "Night lighting covers the entire expanded framebuffer",
+    "No missing assets or uncaught exceptions"
+  ],
+  "errors": []
+}

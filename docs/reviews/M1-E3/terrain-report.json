@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "town 22,25: terrain and all referenced art render on phone and full native map",
+    "town 6,12: terrain and all referenced art render on phone and full native map",
+    "forest 17,10: terrain and all referenced art render on phone and full native map",
+    "liarsville 27,16: terrain and all referenced art render on phone and full native map",
+    "yard 8,9: terrain and all referenced art render on phone and full native map",
+    "Real walking crosses the former street fences in both towns",
+    "Existing rooted flower sway still produces three distinct rendered frames",
+    "Synthetic v1 save/reload retains exact standing cell, money and loan",
+    "No missing assets or browser exceptions"
+  ],
+  "errors": []
+}
