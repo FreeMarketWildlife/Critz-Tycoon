@@ -1,0 +1,22 @@
+{
+  "sourceCommit": "f223e8374d4df5aa79ea22243f1ee24e649d39f1",
+  "archiveSHA256": "52ee785d1a5e166fdcbb38b5deadc96076d7d9cfdb3809796e3cd5998cd2cd6d",
+  "contentFiles": 1775,
+  "archiveFiles": 1776,
+  "mismatches": [],
+  "missing": [],
+  "runtimeFilesMatched": 802,
+  "packagedManifest": {
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "static": {
+      "directory": "dist"
+    }
+  },
+  "note": "COPYFILE_DISABLE=1 omits macOS AppleDouble metadata. The sole additional/normalized file is the Sites-generated dist/.openai/hosting.json.",
+  "sourceHelper": {
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "checkout_path": "/private/tmp/critz-lg1/sites-publish",
+    "commit_sha": "f223e8374d4df5aa79ea22243f1ee24e649d39f1",
+    "archive": "/tmp/critz-lg1/luke-greenhouse.tar.gz"
+  }
+}
