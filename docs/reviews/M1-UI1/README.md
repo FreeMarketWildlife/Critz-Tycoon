@@ -1,6 +1,6 @@
 # M1.UI1 — Menus, fast dialogue and character life
 
-The user authorizes simpler Gen 3-inspired UI, fast typed dialogue without a slow option, punctuation reactions, cutscene hops/looks and small NPC patrols. **Implemented and checked; publication evidence is recorded in PROJECT_STATUS.** This remains a playable presentation/feel deliverable for user feedback, not self-approved M1/M2 artwork or movement.
+The user authorizes simpler Gen 3-inspired UI, fast typed dialogue without a slow option, punctuation reactions, cutscene hops/looks and small NPC patrols. **Implemented, checked and published; user presentation/feel feedback pending.** This remains a playable presentation/feel deliverable for user feedback, not self-approved M1/M2 artwork or movement.
 
 ## Play it
 
@@ -37,3 +37,7 @@ No reference sprites, font bitmaps, recordings or UI art were copied. The warm p
 The first patrol draft could block the single path below Kaid’s gate. It was replaced and a connectivity assertion added. Initial deferred menu focus could lose an immediate direction press; synchronous focus fixes it. Reaction animation continues during dialogue while locomotion freezes, and tests distinguish these two behaviors. Screenshots at 320/390/844/1280 CSS pixels were inspected. Small panels can scroll; 44px confirmation controls remain reachable.
 
 All browser work uses isolated synthetic saves. Physical iPhone/Safari testing and emulator frame equivalence are not claimed. The unrelated untracked 24×32 appearance test remains outside this clean task/release. Existing unfinished character files are preserved. User play/feel feedback is the next review step after publication.
+
+## Publication
+
+[Play on your phone](https://critz-tycoon.freemarketwildlife.chatgpt.site). Source `56874e496a199d74efaf2a5771f54a7b331651cd` is pushed to GitHub main and the Sites source repository. The exact clean release repeats all 91 unit, 8 UI and 17 chapter checks above. [Archive verification](archive-check.json) confirms every one of the 1,584 [tested content hashes](tested-build-sha256.json) matches the deployment package; the hosting manifest is its only addition. [Native deployment](deployment.json) succeeded at 2026-10-08 07:32:27 UTC with the existing owner-private audience. This publication receipt is documentation only; the live playable source is unchanged by it.

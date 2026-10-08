@@ -2,7 +2,7 @@
 
 ## M1.UI1 — Menus, fast speech and NPC life
 
-**Implementation/checks complete; publication in progress.** The user authorizes this focused Gen 3 UI/acting pass, including fast-only typing, simple menus/options, reactions and small NPC routines. Preserve the existing ecosystem/story and selected living art. [Deliverable and source research](reviews/M1-UI1/README.md) records original Critz decisions and actual checks. Publish the tested build, then collect user UI/feel feedback; full pixel UI and broader movement approval remain separate.
+**Implementation/checks/publication complete; user feedback pending.** The user authorizes this focused Gen 3 UI/acting pass, including fast-only typing, simple menus/options, reactions and small NPC routines. Preserve the existing ecosystem/story and selected living art. [Deliverable and source research](reviews/M1-UI1/README.md) records original Critz decisions and actual checks. Source `56874e4` is published at the existing phone URL after 91 unit, 8 UI-browser and 17 chapter-browser checks. Collect user UI/feel feedback next; full pixel UI and broader movement approval remain separate.
 
 
 ## MUSIC.02 — Thirty independently rewritten MIDI pieces
