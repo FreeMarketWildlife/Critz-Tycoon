@@ -924,7 +924,7 @@ footer a {color:#a9c5b0;}
 #viewport { height: 100%; min-height: 0; }
 #world { margin: 0; max-width: none; }
 #controller { width: 100%; max-width: 680px; justify-self: center; height: calc(174px + env(safe-area-inset-bottom)); margin: 0; padding: 10px max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }
-.menu-status { color: var(--muted); font-size: 12px; margin: 0 0 10px; }
+#panel .menu-status { color: var(--muted); font-size: 12px; margin: 0 0 10px; }
 #panel-status[hidden] { display: none; }
 .studio-links { margin-top: 20px; font-size: 12px; }
 .studio-links a { color: var(--mint); }
