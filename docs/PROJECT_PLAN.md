@@ -2,7 +2,7 @@
 
 ## MUSIC.03 — Approved MIDI integration
 
-The user accepted the thirty-track MUSIC.02 rewrite and authorized permanent assets, removal of rejected tracks, local MIDI architecture and appropriate in-game placements. **Implementation and checks complete; publication in progress.** Keep one canonical MIDI collection in `assets/audio/`, retain editable sources, decode/synthesize the actual files in a background worker, and choose scene/story/habitat cues with fades and persistent Music/volume controls. Preserve game saves and other review gates. [Architecture](AUDIO_ARCHITECTURE.md) · [Evidence](reviews/MUSIC-03/README.md). Exact next action: publish the verified build, then refine concrete in-game listening feedback.
+The user accepted the thirty-track MUSIC.02 rewrite and authorized permanent assets, removal of rejected tracks, local MIDI architecture and appropriate in-game placements. **Implemented, tested, pushed and published.** Keep one canonical MIDI collection in `assets/audio/`, retain editable sources, decode/synthesize the actual files in a background worker, and choose scene/story/habitat cues with fades and persistent Music/volume controls. Preserve game saves and other review gates. [Architecture](AUDIO_ARCHITECTURE.md) · [Evidence](reviews/MUSIC-03/README.md). Exact next action: refine concrete in-game listening feedback on the published build.
 
 ## M1.E3 — Richer terrain and clear paths
 

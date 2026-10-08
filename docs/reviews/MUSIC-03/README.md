@@ -22,3 +22,7 @@ An early JavaScript exponentiation syntax error was caught by unit tests and fix
 The runtime preserves the approved pitch/envelope families; lighter room/percussion processing and 22,050 Hz rendering mean its sound is not asserted to be bit-identical to the offline MP3s. This implementation supports the documented fixed-pitch soundtrack MIDI profile, not every possible MIDI controller or external soundfont. Complete pieces replay with written rests and a three-second tail, not fabricated seamless-loop claims.
 
 Source, remote verification and successful publication are recorded in PROJECT_STATUS and the deployment receipt. Exact next action after delivery: play the integrated soundtrack and refine any concrete placement, balance or browser feedback. No implementation remains after verified publication.
+
+## Publication
+
+Source `916595d702dfa53a5baef131640b949d0e970b11` is pushed with matching remote SHA verified. All 1,707 content files match the archive, with only the hosting manifest added. Owner-private deployment `appgdep_6ac812d47e6c819194e7b4da0cda5202` succeeded at 2026-10-08 22:02:09 UTC. [Native receipt](deployment.json) · [Archive proof](archive-check.json) · [Build hashes](tested-build-sha256.json). The game is published; this final receipt changes documentation only. Unrelated character and concurrent greenhouse work remain outside this release.
