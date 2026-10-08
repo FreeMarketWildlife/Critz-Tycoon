@@ -1,3 +1,6 @@
+import {createPrinter,advancePrinter,printerComplete,finishPrinter,paginate} from './dialogue.js';
+import {readSettings,writeSettings,FRAME_STYLES} from './ui-settings.js';
+import {initializeActors,updateActors,facePlayer,releaseActors,cueActor,actorDebug} from './actors.js';
 import {approachesDoor} from './lighting.js';
 import {CRITTERS,HABITATS} from './living-art.js';
 import {
@@ -65,6 +68,12 @@ let gender = "boy",
 let camera = { kind: "photo", frame: 50, zoom: 1 },
   down = new Set(),
   lastSaved = 0;
+const settings=readSettings({getItem:key=>localStorage.getItem(key)},matchMedia('(prefers-reduced-motion: reduce)').matches);
+function applySettings(){document.documentElement.dataset.frame=settings.frame;document.documentElement.dataset.calm=String(settings.calm);}
+applySettings();
+let dialogueFocus=176;
+let printer=null,dialoguePages=[],dialogueSpeaker='',optionPrinter=null,startCursor='notebook',panelOrigin='',talkingTo=null;
+const textMeasure=document.createElement('canvas').getContext('2d');
 const canvas = $("world"),
   panel = $("panel"),
   overlay = $("overlay");
@@ -107,6 +116,7 @@ function fitWorld() {
 }
 function fitOverlay() {
   const controls = $("controller").getBoundingClientRect();
+  overlay.style.setProperty("--menu-top", `${Math.max(12,Math.min(72,$("viewport").getBoundingClientRect().top))}px`);
   if (innerWidth > innerHeight && innerHeight < 600) {
     overlay.style.bottom = "0px";
     overlay.style.right = `${Math.max(202, innerWidth - controls.left + 6)}px`;
@@ -123,7 +133,10 @@ function showPanel(
 ) {
   if (name !== "view") recording = 0;
   const scroll = keep ? panel.scrollTop : 0;
+  if(name!==panelName)panelOrigin=['pause','title'].includes(panelName)?panelName:'';
   panelName = name;
+  overlay.dataset.panel=name;
+  panel.dataset.panel=name;
   down.clear();
   pendingInteract = false;
   resetMotionClock(motionClock);
@@ -131,10 +144,10 @@ function showPanel(
   fitOverlay();
   panel.innerHTML = `${eyebrow ? `<div class="eyebrow">${eyebrow}</div>` : ""}<div class="panel-heading"><h2 id="panel-title">${title}</h2>${back ? button("back", "×", "close", 'aria-label="Close or go back"') : ""}</div>${html}`;
   panel.scrollTop = scroll;
-  requestAnimationFrame(() => {
-    const first = panel.querySelector("input,button:not(.close)");
+  {
+    const first = name==='pause'?panel.querySelector(`[data-action="${startCursor}"]`):panel.querySelector("input,button:not(.close)");
     if (first && !keep) first.focus({ preventScroll: true });
-  });
+  }
 }
 function closePanel() {
   panelName = "";
@@ -142,13 +155,14 @@ function closePanel() {
   down.clear();
   recording = 0;
   capture = null;
+  releaseActors(state);
   hud();
 }
 function titleScreen() {
   showPanel(
     "title",
     "A little world, alive.",
-    `<p>Some beginnings are small enough to fit in a glass tank.</p><canvas id="welcome-tank" class="welcome-art" width="384" height="288"></canvas>${loaded.state ? button("continue", `Continue ${esc(loaded.state.hero)}’s story`) : ""}${button("new", loaded.state ? "Start a new story" : "Begin your story", loaded.state ? "secondary full" : "primary full")}<p class="hint">A cozy ecosystem RPG · original playable chapter<br>Touch controls or keyboard. Progress stays on this browser.</p>${loaded.recovered ? '<div class="notice">Your previous backup was recovered. You can continue safely.</div>' : ""}${loaded.damaged ? '<div class="notice">The saved file could not be read. Start a new story to recover.</div>' : ""}`,
+    `<p>Some beginnings are small enough to fit in a glass tank.</p><canvas id="welcome-tank" class="welcome-art" width="384" height="288"></canvas>${loaded.state ? button("continue", `Continue ${esc(loaded.state.hero)}’s story`) : ""}${button("new", loaded.state ? "New story" : "Begin your story", loaded.state ? "secondary full" : "primary full")}${button("options", "Options", "secondary full")}<p class="hint">A cozy ecosystem RPG · original playable chapter<br>Touch controls or keyboard. Progress stays on this browser.</p>${loaded.recovered ? '<div class="notice">Your previous backup was recovered. You can continue safely.</div>' : ""}${loaded.damaged ? '<div class="notice">The saved file could not be read. Start a new story to recover.</div>' : ""}`,
     { back: false, eyebrow: "CRITZ: TYCOON / CHAPTER 01" },
   );
 }
@@ -167,27 +181,45 @@ function setup() {
 }
 function say(lines, done) {
   down.clear();
-  dialogue = lines.map((l) => (typeof l === "string" ? ["", l] : l));
+  dialogue = lines.map(l => typeof l === 'string' ? ['',l] : l);
   dialogueDone = done;
+  printer=null;dialoguePages=[];
   nextDialogue();
 }
-function nextDialogue() {
-  if (!dialogue) return;
-  if (!dialogue.length) {
-    dialogue = null;
-    $("dialogue").hidden = true;
-    const cb = dialogueDone;
-    dialogueDone = null;
-    if (cb) cb();
-    return;
-  }
-  const [speaker, body, beat] = dialogue.shift();
-  if (beat) state.storyBeat = beat;
-  $("speaker").textContent = speaker || "ROOTPORT";
-  $("dialogue-text").textContent = body;
-  $("dialogue").hidden = false;
-  $("interact-prompt").hidden = true;
+function showDialoguePage(){
+  const text=dialoguePages.shift();printer=createPrinter(text);
+  $('speaker').textContent=dialogueSpeaker||'ROOTPORT';
+  $('dialogue-text').textContent='';
+  $('dialogue-accessible').textContent=`${dialogueSpeaker?dialogueSpeaker+': ':''}${text}`;
+  $('dialogue').dataset.typing='true';
+  fitDialogue();
+  $('dialogue-next').setAttribute('aria-label','Finish current message');
 }
+function nextDialogue() {
+  if(!dialogue)return;
+  if(printer&&!printerComplete(printer)){$('dialogue-text').textContent=finishPrinter(printer);updateDialoguePrompt();return;}
+  if(dialoguePages.length){showDialoguePage();return;}
+  if(!dialogue.length){
+    dialogue=null;printer=null;$('dialogue').hidden=true;talkingTo=null;releaseActors(state);
+    const cb=dialogueDone;dialogueDone=null;if(cb)cb();return;
+  }
+  const [speaker,body,beat,acting]=dialogue.shift();
+  if(beat)state.storyBeat=beat;
+  dialogueSpeaker=speaker;
+  $('dialogue').hidden=false;$('interact-prompt').hidden=true;
+  const style=getComputedStyle($('dialogue-text'));textMeasure.font=style.font;
+  dialoguePages=paginate(body,text=>textMeasure.measureText(text).width,Math.max(140,$('dialogue-text').clientWidth),2);
+  const id=speaker===state.hero?'hero':speaker==='Mom'?'mom':speaker==='Kaid'?'kaid':speaker===state.rival?'rival':speaker==='Professor Nugget'?'nugget':talkingTo;
+  if(id){facePlayer(state,id);if(acting)cueActor(state,id,acting);else if(body.includes('?'))cueActor(state,id,{mark:'?',look:true});else if(/Found you!|There you are!|early birthday|good news/i.test(body))cueActor(state,id,{mark:'!',hop:true});}
+  if(beat==='broken')cueActor(state,'hero',{mark:'!',look:true});
+  showDialoguePage();
+}
+function fitDialogue(){
+  const scale=canvas.getBoundingClientRect().width/480;
+  dialogueFocus=Math.max(80,Math.min(176,Math.floor((canvas.clientHeight-$('dialogue').offsetHeight-18)/scale)-8));
+}
+function updateDialoguePrompt(){if(!printer)return;const done=printerComplete(printer);$('dialogue').dataset.typing=String(!done);$('dialogue-next').innerHTML=done?'A <span>Next</span> <i class="continue-arrow">▼</i>':'A <span>Show all</span>';$('dialogue-next').setAttribute('aria-label',done?'Continue dialogue':'Finish current message');}
+function updateText(dt){if(printer){$('dialogue-text').textContent=advancePrinter(printer,dt);updateDialoguePrompt();}if(optionPrinter&&$('text-sample'))$('text-sample').textContent=advancePrinter(optionPrinter,dt);}
 function opening() {
   say([
     [state.hero, "Just one more cricket, Pebble. Then we both have to sleep."],
@@ -317,6 +349,7 @@ function interact() {
     toast("Walk closer to a person, doorway, or sparkling hiding spot.");
     return;
   }
+  if(e.type==='npc'){talkingTo=e.id;facePlayer(state,e.id);cueActor(state,e.id,{mark:e.id==='rival'?'?':'!'});}
   if (e.type === "door") {
     travel(e);
     return;
@@ -675,12 +708,13 @@ function shop(type) {
     );
 }
 function pause() {
-  showPanel(
-    "pause",
-    "Take a breath.",
-    `<span class="badge">DAY ${Math.floor(state.time / 24) + 1} · ${dollars(state.money)}</span><p>Habitat time is paused here.</p><div class="menu-list">${menuRow("resume", "▷", "Back to the world", "Keep exploring Rootport.")}${menuRow("notebook", "▤", "Field notebook", `${state.flags.rescued.length}/4 animal groups safe · notes & goals`)}${menuRow("critter", "◉", "Critter", `${state.posts.length} posts · ${dollars(state.lifetimeEarned)} earned`)}${menuRow("directory", "⌖", "Town guide", "Shops, directions, and controls.")}${menuRow("bag", "◇", "Your bag", "Supplies, savings, and Kaid’s loan.")}</div>${button("save", "Save progress", "secondary full")}<p class="hint">Autosaves after actions and every 15 seconds. No offline time passes. This browser has one save slot.</p>${button("title", "Return to title", "secondary full")}`,
-    { eyebrow: "PAUSE / CRITZ: TYCOON" },
-  );
+  const commands=[['notebook','Notebook','Your finds, notes and next step.'],['bag','Bag','Supplies, savings and Kaid’s loan.'],['critter','Critter','Your photos, clips and earnings.'],['directory','Town guide','Places to visit and how to play.'],['options','Options','Window colors and quieter reactions.'],['save','Save','Save your progress on this device.'],['resume','Close','Back to your little world.']];
+  showPanel('pause','Menu',`<div class="command-list">${commands.map(([id,label,help])=>button(id,label,'command',`data-help="${help}"`)).join('')}</div><p id="menu-help" class="menu-help">Your finds, notes and next step.</p><div class="window-controls"><b>A</b> Choose <b>B</b> Back</div>`,{back:false,eyebrow:`${esc(state.hero)} · ${dollars(state.money)}`});
+}
+function optionsPanel(){
+  const returnTo=panelName==='options'?panelOrigin:panelName;
+  showPanel('options','Options',`<div class="option-row"><span>Text speed</span><strong>FAST</strong></div><div class="text-sample" id="text-sample" aria-label="Fast text preview"></div>${button('frame-style',`Window <span>◀ ${settings.frame.toUpperCase()} ▶</span>`,'option-row option-control','data-option="frame"')}${button('calm-motion',`Reactions <span>◀ ${settings.calm?'CALM':'LIVELY'} ▶</span>`,'option-row option-control','data-option="calm"')}<p class="hint">A finishes a message. Press again for the next page. Calm keeps reaction symbols and turns off hops.</p>${button('back','Done','primary full')}${returnTo==='pause'?button('title','Save & return to title','secondary full'):''}`,{eyebrow:'MAKE YOURSELF AT HOME'});
+  optionPrinter=createPrinter('A tiny world. A new beginning.');
 }
 function notebook() {
   showPanel(
@@ -707,7 +741,7 @@ function directory() {
   showPanel(
     "directory",
     "Welcome to Rootport",
-    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Press A near a doorway to enter. Look for sparkles when searching. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Press A at the signed ends of the route to travel.</p>`,
+    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk toward a doorway or press A beside it. Look for sparkles when searching. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Press A at the signed ends of the route to travel.</p>`,
   );
 }
 function bag() {
@@ -723,6 +757,7 @@ function back() {
     return;
   }
   if (["title", "setup", "loan", "confirm-new"].includes(panelName)) return;
+  if(['options','notebook','bag','critter','directory'].includes(panelName)&&panelOrigin){const origin=panelOrigin;origin==='title'?titleScreen():pause();return;}
   if(panelName === "collection") { collectionReturn === "shop-glass" ? shop("glass") : tankMenu(); return; }
   if (["manage", "stats", "view"].includes(panelName)) {
     recording = 0;
@@ -753,7 +788,8 @@ function confirmPanel() {
   btn?.focus();
 }
 function moveMenu(dir) {
-  const controls = [...panel.querySelectorAll("button:not(:disabled),input")];
+  if(['left','right'].includes(dir)&&document.activeElement?.dataset.option){doAction(document.activeElement.dataset.action,document.activeElement,dir==='left'?-1:1);return;}
+  const controls = [...panel.querySelectorAll("button:not(.close):not(:disabled),input")];
   if (!controls.length) return;
   const index = controls.indexOf(document.activeElement);
   controls[
@@ -761,7 +797,13 @@ function moveMenu(dir) {
       controls.length
   ].focus();
 }
-function doAction(action, el) {
+function doAction(action, el, delta=1) {
+  if(action==='options'){optionsPanel();return;}
+  if(action==='frame-style'||action==='calm-motion'){
+    if(action==='frame-style')settings.frame=FRAME_STYLES[(FRAME_STYLES.indexOf(settings.frame)+delta+FRAME_STYLES.length)%FRAME_STYLES.length];else settings.calm=!settings.calm;
+    applySettings();if(!writeSettings({setItem:(k,v)=>localStorage.setItem(k,v)},settings))toast('Options could not be saved on this browser.');
+    el.innerHTML=action==='frame-style'?`Window <span>◀ ${settings.frame.toUpperCase()} ▶</span>`:`Reactions <span>◀ ${settings.calm?'CALM':'LIVELY'} ▶</span>`;return;
+  }
   if (["boy", "girl"].includes(action)) {
     gender = action;
     for (const b of panel.querySelectorAll(".choice")) {
@@ -973,6 +1015,7 @@ function doAction(action, el) {
       break;
   }
 }
+panel.addEventListener('focusin',e=>{if(panelName==='pause'&&e.target.dataset.action){startCursor=e.target.dataset.action;$('menu-help').textContent=e.target.dataset.help||'';}});
 panel.addEventListener("click", (e) => {
   const el = e.target.closest("[data-action]");
   if (el && !el.disabled) doAction(el.dataset.action, el);
@@ -1101,7 +1144,7 @@ function clearInput() {
     .forEach((b) => b.classList.remove("pressed"));
 }
 window.addEventListener("blur", clearInput);
-window.addEventListener("resize", () => { fitWorld(); fitOverlay(); });
+window.addEventListener("resize", () => { fitWorld(); fitOverlay(); if(dialogue){fitDialogue(); const remaining=[printer.glyphs.join(''),...dialoguePages].join(' ').replace(/\n/g,' ');const style=getComputedStyle($('dialogue-text'));textMeasure.font=style.font;dialoguePages=paginate(remaining,t=>textMeasure.measureText(t).width,Math.max(140,$('dialogue-text').clientWidth),2);showDialoguePage();} });
 new ResizeObserver(fitWorld).observe($("viewport"));
 document.addEventListener("visibilitychange", () => {
   clearInput();
@@ -1118,6 +1161,9 @@ function frame(now) {
   lastTime = now;
   if (!document.hidden) {
     visualTime += dt;
+    updateText(dt);
+    initializeActors(state,scenes[state.scene].entities);
+    updateActors(state,dt,{paused:!!(panelName||dialogue||transitioning||state.stage==='night'),calm:settings.calm,playerDestination:getMotionView(motion).destination,canEnter:(x,y)=>!isBlocked(state.scene,x,y)&&!getEntities(state).some(e=>e.type==='door'&&e.x===x&&e.y===y)});
     moving = false;
     syncMotion();
     if (!panelName && !dialogue && !transitioning) {
@@ -1161,7 +1207,7 @@ function frame(now) {
       persist();
       lastSaved = now;
     }
-    renderWorld(canvas, state, visualTime, getMotionView(motion));
+    renderWorld(canvas, state, visualTime, {...getMotionView(motion),focusY:dialogue?dialogueFocus:176});
     for (const id of ["tank-preview", "view-canvas"]) {
       const target = $(id);
       if (target)
@@ -1213,3 +1259,7 @@ export function getDebugMovement() {
   syncMotion();
   return { ...getMotionView(motion), clock: { ...motionClock } };
 }
+
+export function getDebugActors(){return structuredClone(actorDebug(state));}
+export function getDebugEntities(){return structuredClone(getEntities(state));}
+export function getDebugUI(){return {panel:panelName,typing:!!printer&&!printerComplete(printer),remainingPages:dialoguePages.length,settings:{...settings}};}

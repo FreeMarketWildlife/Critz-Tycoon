@@ -1,3 +1,4 @@
+import {PATROLS} from '../src/actors.js';
 // Optional end-to-end regression runner. npm install --no-save playwright
 // Runs its own local server; TEST_URL can target an already running build.
 import { createRequire } from "node:module";
@@ -67,7 +68,7 @@ const pass = (message) => {
   console.log("PASS", message);
 };
 async function finishDialogue(targetPage = page) {
-  for (let i = 0; i < 30; i++) {
+  for (let i = 0; i < 120; i++) {
     if (!(await targetPage.locator("#dialogue").isVisible())) break;
     await targetPage.locator("#a-button").click();
   }
@@ -114,13 +115,14 @@ async function moveAxis(axis, target) {
   await waitIdle();
   assert.equal((await snapshot()).player[axis], target, "Held input overshot its intended committed tile");
 }
-async function approach(id) {
+async function approach(id, attempt=0) {
   await waitIdle();
-  const s = await snapshot(), entity = getEntities(s).find(e => e.id === id);
+  const s = await snapshot(), entities=await page.evaluate(async()=> (await import('/src/main.js')).getDebugEntities()), entity = entities.find(e => e.id === id);
   assert.ok(entity, `Missing entity ${s.scene}/${id}`);
   // Door cells now warp on approach; route to an adjacent A-interaction cell
   // without crossing another doorway on the way to this chapter objective.
   const portals = new Set(getEntities(s).filter(e => e.type === 'door').map(e => `${e.x},${e.y}`));
+  const roamingCells=new Set(Object.entries(PATROLS).filter(([key])=>key.startsWith(s.scene+':')).flatMap(([key,path])=>{const home=scenes[s.scene].entities.find(e=>e.id===key.split(':')[1]);return path.map(([x,y])=>`${home.x+x},${home.y+y}`);}));
   const start = [s.player.x, s.player.y];
   assert.ok(start.every(Number.isInteger), "Browser actor is not grid aligned");
   const key = p => p.join(","), frontier = [start], parents = new Map([[key(start), null]]);
@@ -130,14 +132,14 @@ async function approach(id) {
     const player = { ...s.player, x: p[0], y: p[1] };
     player.facing = facingToward(player, entity);
     const fake = { ...s, player };
-    if (Math.abs(player.x - entity.x) + Math.abs(player.y - entity.y) <= 1 && nearestEntity(fake)?.id === id) {
+    if (Math.abs(player.x - entity.x) + Math.abs(player.y - entity.y) <= 1 && nearestEntity(fake,entities)?.id === id) {
       end = p;
       break;
     }
     for (const [dx, dy] of Object.values(directionDeltas)) {
       const n = [p[0] + dx, p[1] + dy], k = key(n);
       if (n[0] < 0 || n[1] < 0 || n[0] >= scenes[s.scene].w || n[1] >= scenes[s.scene].h ||
-          parents.has(k) || portals.has(k) || isBlocked(s.scene, n[0], n[1], s)) continue;
+          parents.has(k) || portals.has(k) || roamingCells.has(k) || isBlocked(s.scene, n[0], n[1]) || entities.some(e=>e.type==='npc'&&((e.x===n[0]&&e.y===n[1])||(e.reserved?.[0]===n[0]&&e.reserved?.[1]===n[1])))) continue;
       parents.set(k, p);
       frontier.push(n);
     }
@@ -155,8 +157,10 @@ async function approach(id) {
     await moveAxis(axis === 0 ? "x" : "y", path[j][axis]);
     i = j + 1;
   }
-  await faceDirection(facingToward((await snapshot()).player, entity));
-  assert.equal(nearestEntity(await snapshot())?.id, id, `Wrong interaction near ${id}`);
+  const currentEntities=await page.evaluate(async()=> (await import('/src/main.js')).getDebugEntities()), current=currentEntities.find(e=>e.id===id);
+  await faceDirection(facingToward((await snapshot()).player, current));
+  if(nearestEntity(await snapshot(),currentEntities)?.id!==id&&attempt<6)return approach(id,attempt+1);
+  assert.equal(nearestEntity(await snapshot(),currentEntities)?.id, id, `Wrong interaction near ${id}`);
 }
 async function use(id) {
   await approach(id);

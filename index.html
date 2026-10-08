@@ -23,7 +23,7 @@
           ><span class="brand-sub">TYCOON</span>
         </div>
         <span class="edition"
-          >VISUAL REVIEW BUILD<br /><b>ROOTPORT STORIES</b></span
+          >A LITTLE WORLD<br /><b>ROOTPORT STORIES</b></span
         >
       </header>
       <section class="game-unit" aria-label="Critz Tycoon game">
@@ -40,9 +40,9 @@
           ></canvas>
           <div id="scene-label" aria-live="polite"></div>
           <div id="interact-prompt" hidden></div>
-          <div id="dialogue" hidden aria-live="polite">
+          <div id="dialogue" hidden role="group" aria-label="Conversation">
             <div id="speaker"></div>
-            <p id="dialogue-text"></p>
+            <p id="dialogue-text" aria-hidden="true"></p><span id="dialogue-accessible" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></span>
             <button id="dialogue-next" aria-label="Continue dialogue">
               A <span>Continue</span> ▸
             </button>
@@ -86,11 +86,7 @@
           </button>
         </div>
       </section>
-      <footer>
-        <a href="sprite-editor/">Sprite Editor</a> · <a href="./assets/playable/atlas.png">New art atlas</a> · <a href="art-review/walking.html">New walking animations</a><span>·</span>
-        Arrow keys / WASD <i>move</i> <span>·</span> Z / Enter <i>A</i>
-        <span>·</span> X / Esc <i>B</i> <span>·</span> Shift <i>run</i>
-      </footer>
+      <footer><span>Arrows / WASD · Move</span><span>Z / Enter · A</span><span>X / Esc · B</span><details><summary>Studio & credits</summary><a href="sprite-editor/">Sprite Editor</a> · <a href="art-review/walking.html">Art reviews</a> · <a href="music/">Listening room</a></details></footer>
     </main>
     <div id="overlay" hidden>
       <section

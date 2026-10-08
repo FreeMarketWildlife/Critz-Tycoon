@@ -1,5 +1,12 @@
 # Critz: Tycoon — art bible
 
+## Menus and acting — M1.UI1, user update
+
+The user explicitly requests Gen 3-inspired menu/dialogue simplification, always-fast typed text, punctuation reactions, short cutscene hops/looks and NPC walking paths. Full pixel-art UI is deferred. Use quiet warm-paper windows, clear dark borders and a single visible selection cursor; keep original Critz labels and accessible DOM text/touch targets. Maintain Manage/Stats/View and every existing care/story option. Color frames may vary between Leaf/Ocean/Sunset without changing layouts. [Research, implementation and review](reviews/M1-UI1/README.md).
+
+Speech is paged into two readable lines, types ordinary graphemes at the source-derived Fast cadence, and offers immediate page completion on A/B before advancing. No Slow option or extra punctuation wait. Keep people and reactions visible above the window on narrow phones. Use original native-grid exclamation/question balloons, brief 8px hops for cheerful beats and restrained surprise for distress. Calm suppresses hop/look/bob flourishes; existing character sources remain untouched. NPCs use short clear-ground paths and glance/face poses; reserve moving cells and keep doorway approaches connected. Acting is transient and must never change story saves or imply approval of the full movement milestone.
+
+
 ## Living collection integration — M1.I4, user update
 
 The user now explicitly selects existing M1.C7 living-collection-v1 assets for gameplay, including walking characters, animals and tanks. This supersedes the preceding C7 no-integration restriction for that collection. Preserve exact source pixels: native 32×64 characters, 32×32 animal studies, 192×144 layered close-ups and separately authored 96×96 world props. The world framebuffer stays 480×320; do not enlarge the new character sprites a second time. The close-up UI presents its authored image at nearest-neighbor 2× in a 384×288 canvas, fitting uniformly on smaller phones. Retain accessible DOM controls and Manage/Stats/View; display scale does not increase the art’s native budget.

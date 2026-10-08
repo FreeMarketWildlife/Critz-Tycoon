@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.UI1 — Menus, fast speech and NPC life
+
+**Implementation/checks complete; publication in progress.** The user authorizes this focused Gen 3 UI/acting pass, including fast-only typing, simple menus/options, reactions and small NPC routines. Preserve the existing ecosystem/story and selected living art. [Deliverable and source research](reviews/M1-UI1/README.md) records original Critz decisions and actual checks. Publish the tested build, then collect user UI/feel feedback; full pixel UI and broader movement approval remain separate.
+
+
 ## MUSIC.02 — Thirty independently rewritten MIDI pieces
 
 The user rejected MUSIC.01 for sameness and excessive glides. The latest request supersedes its bending-synth direction: rewrite all thirty from the first note, with distinct musical premises, tempos, keys, meters, instrumentation and restrained arrangements informed by Minecraft/Pokémon/Terraria research. **Composition/export/player work complete, tested, pushed and published; listening approval pending.** [MUSIC.02](reviews/MUSIC-02/README.md) presents all thirty new scores and previews. No gameplay soundtrack integration is authorized by delivery. Exact next action: use the user's listening response to the published collection for refinement/selection.

@@ -1,3 +1,4 @@
+import {actorView,drawReaction} from './actors.js';
 import {loadEnvironment,renderEnvironment} from './environment-render.js';
 // Native, appearance-only exploration renderer. Collision and interaction live
 // in world.js; sprite bounds and transparency never decide a walkable cell.
@@ -29,7 +30,7 @@ export function renderWorld(canvas, state, time, view) {
   c.save();
   const scene = scenes[state.scene], outside = ['town','yard'].includes(scene.style);
   // Camera tracks the integer rendered foot position directly, without easing.
-  const camera = {x: view.x*2 - 240, y: view.y*2 - 176};
+  const camera = {x: view.x*2 - 240, y: view.y*2 - (view.focusY??176)};
   debug = {camera, width:canvas.width,height:canvas.height, scene:state.scene, atlas:atlas.manifest.image};
   c.fillStyle = outside ? '#446749' : '#223038'; c.fillRect(0,0,480,320);
   c.save(); c.translate(-camera.x,-camera.y);
@@ -68,7 +69,7 @@ export function renderWorld(canvas, state, time, view) {
   if(scene.style==='town') for(const b of buildings) add((b.y+b.h)*32,()=>prop(b));
   if(scene.visualHouse) add((scene.visualHouse.y+scene.visualHouse.h)*32,()=>prop(scene.visualHouse));
   for(const e of getEntities(state)) {
-    if(e.type==='npc') add(e.y*32,()=>character(c,e.x*32,e.y*32,{look:npcIdentity(e,state.gender)}));
+    if(e.type==='npc') {const v=actorView(state,e.id),x=v.x===null?e.x*32:v.x*2,y=v.y===null?e.y*32:v.y*2;add(y,()=>{character(c,x,y-v.hop,{look:npcIdentity(e,state.gender),facing:v.facing,pose:v.pose});});effects.push(()=>drawReaction(c,x,y,v));}
     else if(e.type==='rescue') add(e.y*32,()=>drawCritter(c,RESCUES[e.id],e.x*32-16,e.y*32-32,time));
     else if(e.id==='townSign'||e.type==='route') add(e.y*32,()=>oldSprite(e.type==='route'?'sign.route':'sign.town',e.x*32,e.y*32));
     else if(e.type==='door'&&!outside) {
@@ -78,10 +79,10 @@ export function renderWorld(canvas, state, time, view) {
     }
   }
   if(state.stage==='night'&&state.scene==='bedroom') {
-    if(['mom','broken','kaid'].includes(state.storyBeat)) add(6*32,()=>character(c,11*32,6*32,{look:'mom'}));
-    if(state.storyBeat==='kaid') add(8*32,()=>character(c,12*32,8*32,{look:'kaid'}));
+    if(['mom','broken','kaid'].includes(state.storyBeat)) add(6*32,()=>{const v=actorView(state,'mom');character(c,11*32,6*32-v.hop,{look:'mom',facing:v.facing});drawReaction(c,11*32,6*32,v);});
+    if(state.storyBeat==='kaid') add(5*32,()=>{const v=actorView(state,'kaid');character(c,12*32,5*32-v.hop,{look:'kaid',facing:v.facing});drawReaction(c,12*32,5*32,v);});
   }
-  add(view.y*2,()=>character(c,view.x*2,view.y*2,{gender:state.gender,facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'}));
+  const hero=actorView(state,'hero');add(view.y*2,()=>character(c,view.x*2,view.y*2-hero.hop,{gender:state.gender,facing:hero.mark==='?'?hero.facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'}));effects.push(()=>drawReaction(c,view.x*2,view.y*2,hero));
   if(state.scene==='glass')for(const [type,x]of [['aquarium',4],['paludarium',12]])add(5*32,()=>drawHabitatProp(c,type,x*32,5*32));
   if(state.scene==='vet')for(const [id,x]of [['gecko',4],['snail',11]])if(state.flags.rescued.includes(id))add(5*32,()=>drawCritter(c,RESCUES[id],x*32,4*32,time));
   drawables.sort((a,b)=>a.depth-b.depth).forEach(o=>o.draw());

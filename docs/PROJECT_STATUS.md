@@ -1,5 +1,14 @@
 # Project status
 
+## M1.UI1 — Menus, dialogue and character life
+
+**Implementation and checks complete; publication in progress.** User authorizes Gen 3-inspired UI, always-fast typed dialogue, punctuation reactions, short hops/looks and NPC patrols. [Deliverable/research](reviews/M1-UI1/README.md): compact seven-command Start menu, remembered cursor, A/B navigation, three window frames, Calm reactions and two-line fast text with accessible full-page announcements. Five small NPC routines and stationary look-around poses use the selected C7 art. Narrow-phone dialogue framing keeps actors visible. Story, shops, care, animal survival, 25-gallon gift, loans, Critter earnings and existing save keys remain.
+
+91 relevant unit tests, new UI browser checks and all 17 chapter browser checks pass. Tests cover NPC collision/reservations/player avoidance, doorway connectivity, typing/reveal, menus/preferences, reactions and save immutability. An exit-blocking patrol draft and immediate-input focus race were corrected. No physical Safari or emulator equivalence is claimed. Preferences are stored separately; transient actor state never enters the game save.
+
+Work directly on main from `2689be0a154bfaa5507f3078c211bde1c25434c5`; concurrent music receipt `a7f9039` is preserved. Sixteen opening tracked edits plus old untracked character work remain outside this task. The stale appearance test is not part of the clean release. **Exact next action:** publish and verify the exact clean tested build through existing owner-private Sites hosting, then deliver it for user presentation/feel feedback. No M1/M2 visual or motion gate is self-approved.
+
+
 ## MUSIC.02 — Thirty Different Days, complete rewrite
 
 **Thirty new scores, exports and listening room delivered, pushed and published; awaiting user listening review.** The user rejected MUSIC.01 for sameness and excessive pitch bending and asked for every piece to be rewritten from scratch with different tempos, keys, sounds and minimal arrangements. [All 30 new tracks and evidence](reviews/MUSIC-02/README.md) · [Research](reviews/MUSIC-02/RESEARCH.md). Thirty individually authored scores total **40:01**, with thirty different tempos (52–176 BPM), eight meters, 23 original pitched patches, two to four instrument parts, and 18 drumless pieces. Zero nonzero pitch wheels, no portamento, detuning, pitch LFO, chorus or tape wow. Ordinary MIDI players use their own banks; original waveform previews render the actual exported MIDI.

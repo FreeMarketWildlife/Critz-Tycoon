@@ -1,3 +1,4 @@
+import {actorEntity} from './actors.js';
 import {buildings, liarsBuildings, overworldMaps} from './overworld.js';
 // Coordinates are integer grid cells at actors' feet, rendered at x*16,y*16.
 // Appearance bounds never determine collision: every solid has an explicit
@@ -129,7 +130,7 @@ for (const [id, map] of Object.entries(overworldMaps)) {
 scenes.town.entities = [
   ...buildings.map(b=>door(b.scene,b.name,b.doorX,b.doorY,b.scene,[8,10])),
   npc('nugget','Professor Nugget',22,24,'professor'),
-  npc('rival','Your rival',30,12,'rival'), npc('kaid','Kaid',16,11,'kaid'),
+  npc('rival','Your rival',30,13,'rival'), npc('kaid','Kaid',16,12,'kaid'),
   door('route','North · Mossway / Liarsville',21,2,'forest',[13,31]),
   item('townSign','Rootport directory',14,26,'directory'),
   {...item('spring','The Founders’ Spring',20,17),text:'Before these lanes had names, families shared this spring. The fountain still feeds the gardens; the old stone channel carries its overflow to Mossway.'},
@@ -161,15 +162,15 @@ scenes.waterworks = {
 export function getEntities(state) {
   const list = scenes[state.scene].entities.filter(entity => entity.type !== "rescue" || (state.stage === "morning" && !state.flags.rescued.includes(entity.id)));
   const visible = state.scene === "bedroom" && state.stage === "night" ? list.filter(entity => ["tank", "desk", "sleep"].includes(entity.id)) : list;
-  return visible.map(entity => entity.id === "rival" ? { ...entity, name: state.rival } : entity.id === "tank" && state.stage === "night" ? { ...entity, name: "Feed Pebble the gecko" } : entity);
+  return visible.map(entity => actorEntity(state, entity.id === "rival" ? { ...entity, name: state.rival } : entity.id === "tank" && state.stage === "night" ? { ...entity, name: "Feed Pebble the gecko" } : entity));
 }
 
 // A acts on the current/adjacent cardinal cell; it cannot reach diagonally
 // through a furniture corner. Facing breaks ties without hiding nearby actions.
-export function nearestEntity(state) {
+export function nearestEntity(state, entities = getEntities(state)) {
   const facing = { up: [0, -1], down: [0, 1], left: [-1, 0], right: [1, 0] }[state.player.facing] || [0, 0];
   let best = null, rank = Infinity;
-  for (const entity of getEntities(state)) {
+  for (const entity of entities) {
     const dx = entity.x - state.player.x, dy = entity.y - state.player.y;
     const distance = Math.abs(dx) + Math.abs(dy);
     if (distance > 1) continue;
@@ -188,7 +189,7 @@ export function isBlocked(sceneId, x, y, state) {
   if (scene.map) { if (scene.map.solid.has(`${x},${y}`)) return true; }
   else if (scene.objects.some(object => contains(object.collision, x, y))) return true;
   if (scene.style === "town" && buildings.some(building => contains(building.collision, x, y))) return true;
-  return !!state && getEntities({ ...state, scene: sceneId }).some(entity => entity.type === "npc" && contains(entity.collision, x, y));
+  return !!state && getEntities(state.scene===sceneId?state:{ ...state, scene: sceneId }).some(entity => entity.type === "npc" && (contains(entity.collision, x, y) || (entity.reserved?.[0]===x && entity.reserved?.[1]===y)));
 }
 
 // Recover only to the connected floor region containing the authored safe
