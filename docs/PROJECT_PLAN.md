@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## MUSIC.03 — Approved MIDI integration
+
+The user accepted the thirty-track MUSIC.02 rewrite and authorized permanent assets, removal of rejected tracks, local MIDI architecture and appropriate in-game placements. **Implementation and checks complete; publication in progress.** Keep one canonical MIDI collection in `assets/audio/`, retain editable sources, decode/synthesize the actual files in a background worker, and choose scene/story/habitat cues with fades and persistent Music/volume controls. Preserve game saves and other review gates. [Architecture](AUDIO_ARCHITECTURE.md) · [Evidence](reviews/MUSIC-03/README.md). Exact next action: publish the verified build, then refine concrete in-game listening feedback.
+
 ## M1.E3 — Richer terrain and clear paths
 
 **Implemented, tested, pushed and published; user visual feedback pending.** Richer native grass/dirt and connected turf islands; 33 misplaced fence cells removed from roads, rooted flowers/ferns kept on planted ground. All 644 prior tile pixels/animations remain exact. [Deliverable](reviews/M1-E3/README.md). Source `77a2fbb` is live after 120 unit, five native pixel and 101 browser checks. Next: user terrain/layout feedback; no wider milestone is self-approved.

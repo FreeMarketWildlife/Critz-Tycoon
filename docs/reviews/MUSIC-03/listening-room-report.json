@@ -1,0 +1,38 @@
+[
+  {
+    "name": "all 30 unique tracks, stories and 60 download links load without autoplay",
+    "pass": true
+  },
+  {
+    "name": "search and all mood filters return exactly their matching collection",
+    "pass": true
+  },
+  {
+    "name": "every rendered MP3 loads, decodes metadata, starts and seeks to a later section",
+    "pass": true
+  },
+  {
+    "name": "previous, next, play-all and actual end-of-track queue behavior",
+    "pass": true
+  },
+  {
+    "name": "native repeat, final-track stop and one-player exclusivity",
+    "pass": true
+  },
+  {
+    "name": "MIDI ZIP and individual MIDI download preserve their formats",
+    "pass": true
+  },
+  {
+    "name": "audio failure is visible and a later selection recovers",
+    "pass": true
+  },
+  {
+    "name": "desktop, small phone and landscape have no horizontal overflow",
+    "pass": true
+  },
+  {
+    "name": "synthetic game save stays byte-identical and no runtime errors",
+    "pass": true
+  }
+]

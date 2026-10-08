@@ -1,3 +1,4 @@
+import {MusicDirector} from './audio/director.js';
 import {harvestFruit,cueFruitShake,fruitTreeView} from './fruit-trees.js';
 import {createPrinter,advancePrinter,printerComplete,finishPrinter,paginate} from './dialogue.js';
 import {readSettings,writeSettings,FRAME_STYLES} from './ui-settings.js';
@@ -71,6 +72,18 @@ let camera = { kind: "photo", frame: 50, zoom: 1 },
 const settings=readSettings({getItem:key=>localStorage.getItem(key)},matchMedia('(prefers-reduced-motion: reduce)').matches);
 function applySettings(){document.documentElement.dataset.frame=settings.frame;document.documentElement.dataset.calm=String(settings.calm);}
 applySettings();
+const music=new MusicDirector({storage:{getItem:k=>localStorage.getItem(k),setItem:(k,v)=>localStorage.setItem(k,v)},onChange:updateMusicOptions});
+function updateMusicOptions(){
+ const m=music.snapshot(),toggle=document.querySelector('[data-action="music-toggle"]'),volume=$('music-volume'),label=$('music-status');
+ if(toggle){toggle.innerHTML=`Music <span>◀ ${m.enabled?'ON':'OFF'} ▶</span>`;toggle.setAttribute('aria-pressed',String(m.enabled));}
+ if(volume){volume.value=Math.round(m.volume*100);$('music-volume-value').textContent=`${Math.round(m.volume*100)}%`;}
+ if(label)label.textContent=m.error||(!m.enabled?'Music is off.':!m.volume?'Music volume is zero.':m.title?`Playing: ${m.title}`:'Music starts after a tap or keypress.');
+}
+const unlockMusic=()=>{void music.unlock();};
+document.addEventListener('pointerdown',unlockMusic,{capture:true,passive:true});
+document.addEventListener('keydown',unlockMusic,{capture:true});
+document.addEventListener('click',unlockMusic,{capture:true});
+document.addEventListener('touchend',unlockMusic,{capture:true,passive:true});
 let printer=null,dialoguePages=[],dialogueSpeaker='',optionPrinter=null,startCursor='notebook',panelOrigin='',talkingTo=null;
 const textMeasure=document.createElement('canvas').getContext('2d');
 const canvas = $("world"),
@@ -694,13 +707,14 @@ function shop(type) {
     );
 }
 function pause() {
-  const commands=[['notebook','Notebook','Your finds, notes and next step.'],['bag','Bag','Supplies, savings and Kaid’s loan.'],['critter','Critter','Your photos, clips and earnings.'],['directory','Town guide','Places to visit and how to play.'],['options','Options','Window colors and quieter reactions.'],['save','Save','Save your progress on this device.'],['resume','Close','Back to your little world.']];
+  const commands=[['notebook','Notebook','Your finds, notes and next step.'],['bag','Bag','Supplies, savings and Kaid’s loan.'],['critter','Critter','Your photos, clips and earnings.'],['directory','Town guide','Places to visit and how to play.'],['options','Options','Music, window colors and quieter reactions.'],['save','Save','Save your progress on this device.'],['resume','Close','Back to your little world.']];
   showPanel('pause','Menu',`<p class="menu-status">${esc(state.scene === "bedroom" ? `${state.hero}’s room` : scenes[state.scene].name)} · ${state.stage === "night" ? "Night 01" : `Day ${Math.floor(state.time / 24) + 1} · ${String(state.time % 24).padStart(2,"0")}:00`}</p><div class="command-list">${commands.map(([id,label,help])=>button(id,label,'command',`data-help="${help}"`)).join('')}</div><p id="menu-help" class="menu-help">Your finds, notes and next step.</p><div class="window-controls"><b>A</b> Choose <b>B</b> Back</div>`,{back:false,eyebrow:`${esc(state.hero)} · ${dollars(state.money)}`});
 }
 function optionsPanel(){
   const returnTo=panelName==='options'?panelOrigin:panelName;
-  showPanel('options','Options',`<div class="option-row"><span>Text speed</span><strong>FAST</strong></div><div class="text-sample" id="text-sample" aria-label="Fast text preview"></div>${button('frame-style',`Window <span>◀ ${settings.frame.toUpperCase()} ▶</span>`,'option-row option-control','data-option="frame"')}${button('calm-motion',`Reactions <span>◀ ${settings.calm?'CALM':'LIVELY'} ▶</span>`,'option-row option-control','data-option="calm"')}<p class="hint">A finishes a message. Press again for the next page. Calm keeps reaction symbols and turns off hops.</p>${button('back','Done','primary full')}${returnTo==='pause'?button('title','Save & return to title','secondary full'):''}`,{eyebrow:'MAKE YOURSELF AT HOME'});
+  showPanel('options','Options',`<div class="option-row"><span>Text speed</span><strong>FAST</strong></div><div class="text-sample" id="text-sample" aria-label="Fast text preview"></div>${button('frame-style',`Window <span>◀ ${settings.frame.toUpperCase()} ▶</span>`,'option-row option-control','data-option="frame"')}${button('calm-motion',`Reactions <span>◀ ${settings.calm?'CALM':'LIVELY'} ▶</span>`,'option-row option-control','data-option="calm"')}${button('music-toggle',`Music <span>◀ ${music.settings.enabled?'ON':'OFF'} ▶</span>`,'option-row option-control',`data-option="music" aria-pressed="${music.settings.enabled}"`)}<label class="option-row" for="music-volume">Music volume <output id="music-volume-value">${Math.round(music.settings.volume*100)}%</output></label><input id="music-volume" aria-label="Music volume" type="range" min="0" max="100" step="10" value="${Math.round(music.settings.volume*100)}"><p id="music-status" class="hint" aria-live="polite"></p><p class="hint">A finishes a message. Press again for the next page. Calm keeps reaction symbols and turns off hops.</p>${button('back','Done','primary full')}${returnTo==='pause'?button('title','Save & return to title','secondary full'):''}`,{eyebrow:'MAKE YOURSELF AT HOME'});
   optionPrinter=createPrinter('A tiny world. A new beginning.');
+  updateMusicOptions();
 }
 function notebook() {
   showPanel(
@@ -784,6 +798,7 @@ function moveMenu(dir) {
   ].focus();
 }
 function doAction(action, el, delta=1) {
+  if(action==='music-toggle'){music.setEnabled(!music.settings.enabled);return;}
   if(action==='options'){optionsPanel();return;}
   if(action==='frame-style'||action==='calm-motion'){
     if(action==='frame-style')settings.frame=FRAME_STYLES[(FRAME_STYLES.indexOf(settings.frame)+delta+FRAME_STYLES.length)%FRAME_STYLES.length];else settings.calm=!settings.calm;
@@ -999,6 +1014,7 @@ panel.addEventListener("click", (e) => {
   if (el && !el.disabled) doAction(el.dataset.action, el);
 });
 panel.addEventListener("input", (e) => {
+  if(e.target.id==='music-volume'){music.setVolume(Number(e.target.value)/100);return;}
   if (e.target.id === "frame") camera.frame = Number(e.target.value);
   if (e.target.id === "zoom") camera.zoom = Number(e.target.value) / 100;
   cameraScores();
@@ -1122,15 +1138,19 @@ window.addEventListener("blur", clearInput);
 window.addEventListener("resize", () => { fitWorld(); fitOverlay(); if(dialogue){ const remaining=[printer.glyphs.join(''),...dialoguePages].join(' ').replace(/\n/g,' ');const style=getComputedStyle($('dialogue-text'));textMeasure.font=style.font;dialoguePages=paginate(remaining,t=>textMeasure.measureText(t).width,Math.max(140,$('dialogue-text').clientWidth),2);showDialoguePage();} });
 new ResizeObserver(fitWorld).observe($("viewport"));
 document.addEventListener("visibilitychange", () => {
+  music.setVisible(!document.hidden);
   clearInput();
   lastTime = performance.now();
   if (document.hidden && !["title", "setup", "confirm-new"].includes(panelName))
     persist();
 });
 window.addEventListener("pagehide", () => {
+  music.setVisible(false);
   if (!["title", "setup", "confirm-new"].includes(panelName)) persist();
 });
+window.addEventListener("pageshow", () => music.setVisible(!document.hidden));
 function frame(now) {
+  music.update(state,panelName,panelOrigin);
   const elapsed = Math.max(0, (now - lastTime) / 1000);
   const dt = Math.min(0.05, elapsed);
   lastTime = now;
@@ -1235,3 +1255,6 @@ export function getDebugEntities(){return structuredClone(getEntities(state));}
 export function getDebugUI(){return {panel:panelName,typing:!!printer&&!printerComplete(printer),remainingPages:dialoguePages.length,settings:{...settings}};}
 
 export function getDebugFruit(){return getEntities(state).filter(e=>e.type==='fruitTree').map(e=>({id:e.id,...fruitTreeView(state,e.id,visualTime)}));}
+
+export function getDebugAudio(){return music.snapshot();}
+export function getDebugAudioEnergy(){if(!music.analyser)return 0;const a=new Float32Array(music.analyser.fftSize);music.analyser.getFloatTimeDomainData(a);return Math.sqrt(a.reduce((s,x)=>s+x*x,0)/a.length);}

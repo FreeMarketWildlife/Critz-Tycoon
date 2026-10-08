@@ -67,7 +67,7 @@ class Piece:
             prev=0
             for tick,order,msg in sorted(events,key=lambda x:(x[0],x[1])):mt.append(msg.copy(time=tick-prev));prev=tick
             mt.append(mido.MetaMessage('end_of_track',time=round(total*PPQ)-prev))
-        path=ROOT/'v2'/'midi'/f'{slug}.mid';path.parent.mkdir(parents=True,exist_ok=True);mid.save(path)
+        path=ROOT.parent/'assets'/'audio'/'midi'/f'{slug}.mid';path.parent.mkdir(parents=True,exist_ok=True);mid.save(path)
         score=dict(id=self.id,title=self.title,bpm=self.bpm,meter=self.meter,bars=self.bars,key=self.key,sections=self.sections,parts=self.parts)
         (ROOT/'source-v2'/'scores'/f'{slug}.json').write_text(json.dumps(score,indent=2)+'\n')
-        return dict(id=self.id,title=self.title,slug=slug,mood=self.mood,key=self.key,bpm=self.bpm,meter=self.meter,bars=self.bars,story=self.story,personality=self.personality,sections=self.sections,room=self.room,instruments=[{k:v for k,v in p.items() if k!='notes'} for p in self.parts],noteCount=sum(len(p['notes']) for p in self.parts),duration=round(total*60/self.bpm+3,3),midi=f'v2/midi/{slug}.mid',audio=f'v2/audio/{slug}.mp3',midiSha256=hashlib.sha256(path.read_bytes()).hexdigest())
+        return dict(id=self.id,title=self.title,slug=slug,mood=self.mood,key=self.key,bpm=self.bpm,meter=self.meter,bars=self.bars,story=self.story,personality=self.personality,sections=self.sections,room=self.room,instruments=[{k:v for k,v in p.items() if k!='notes'} for p in self.parts],noteCount=sum(len(p['notes']) for p in self.parts),duration=round(total*60/self.bpm+3,3),midi=f'../assets/audio/midi/{slug}.mid',audio=f'v2/audio/{slug}.mp3',midiSha256=hashlib.sha256(path.read_bytes()).hexdigest())

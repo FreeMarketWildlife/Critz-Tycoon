@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Music accepted for gameplay — MUSIC.03
+
+On 2026-10-08 the user said the MIDI rewrite was “much better,” requested the approved tracks be saved for future use, asked to delete the rejected ones and explicitly authorized in-game placement. This supersedes MUSIC.02's former listening-review-only restriction. Keep the thirty approved note files unchanged when moving them into canonical assets. Use the original stable-pitch timbre families, modest background volume and gentle transitions; home/care cues remain warm, and the opening distress uses sadness rather than treating Mom as a horror character. Future battle/place tracks may remain saved without inventing new gameplay. Keep Music and a touch-friendly volume slider in Options, with preferences separate from progress. [Runtime architecture and chosen placements](AUDIO_ARCHITECTURE.md). This music approval does not approve unrelated artwork or movement.
+
 ## Lived-in terrain and clear paths — user correction, M1.E3
 
 The user rejects the flat grass/dirt and misplaced flowers/fences, and explicitly requests richer terrain in the current world. Preserve the liked rooted flower animation. Author clustered turf, connected darker grass patches and warm worn trails with restrained stone/scuff variation. Use named native palette ramps, hard pixels and complete inner/outer corner banks; avoid an evenly repeated noise pattern. Keep characters, doorways and road direction more prominent than ground detail. Append revised terrain under stable IDs in the master PNG; retain every preceding tile and animation cell unchanged.

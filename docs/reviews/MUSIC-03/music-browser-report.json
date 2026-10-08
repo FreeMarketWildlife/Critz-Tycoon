@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "Initial page stays silent and requests no MIDI before a gesture",
+    "A real tap unlocks Web Audio; a fetched MIDI produces measured audible PCM",
+    "Mute/volume work with keyboard and tap, persist on reload, and never alter the game save",
+    "Pause and Options retain the current scene music without restarting it",
+    "All fourteen scenes plus nighttime variants choose and synthesize the intended MIDI cues",
+    "Tank Manage/Stats/View share a calm cue; collection changes cleanly with at most two fade sources",
+    "Rapid mute toggles cancel stale rendering and keep source/cache counts bounded",
+    "Hidden-page suspension and foreground recovery preserve a single playback session",
+    "Music controls remain reachable on small portrait and landscape phones",
+    "Gameplay fetches MIDI, never MP3s, with no uncaught browser errors",
+    "Missing MIDI fails softly and recovers through the Music control"
+  ],
+  "errors": []
+}

@@ -1,3 +1,4 @@
+import './build-soundtrack.mjs';
 import { mkdir, cp, rm, stat } from "node:fs/promises";
 await rm("dist", { recursive: true, force: true });
 await mkdir("dist");
