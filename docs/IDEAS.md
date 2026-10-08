@@ -231,3 +231,144 @@ The second reference is still useful because it proves that the game does not *n
 - Review the result at native resolution and at integer display scaling before locking the standard.
 
 This entry records the current design preference and constraints; it does **not** yet replace the current art bible, implementation plan, or existing approval gates.
+
+
+## IDEA-003 — Creator Easter eggs: real-world critter YouTubers as memorable NPCs and shops
+
+**State:** captured for future planning; not implemented, approved as final content, or assigned to a milestone.  
+**Source:** user brainstorming, 2026-10-07, plus linked public creator research. Names and the definitive goldfish exclusivity/shop choice come from the user; additional mechanics, dialogue, and cameo pitches below are proposals.
+
+### Core idea
+
+Fill Critz: Tycoon with discoverable, affectionate Easter eggs referencing successful real-world YouTube creators who care for, breed, study, rescue, or build habitats for animals. These should be **actual in-world shops, specialist NPCs, unusual animal encounters, props, and optional quests**, not just names buried in text. A player who recognizes a creator should have an "I know who that is!" moment; anyone who does not should still see a coherent, useful, charming character in the game. Spread cameos naturally through the world rather than collecting every creator into one location.
+
+### Priority cameo: Luke's Goldies — **Nuggets**
+
+- **Definitive shop sign:** **Nuggets** (NOT "Luke's Nuggets" or "Luke's Nuggies"; those were earlier brainstormed names).
+- **Shop owner:** **Luke**, inspired by **Luke Hagopian / Luke's Goldies**, the real-world goldfish keeper and breeder.
+- **Hard design rule:** **Nuggets is the ONLY store/location where the player can BUY goldfish in the entire game.** No ordinary pet shop, traveling merchant, online catalog, or other NPC can sell goldfish. Reconcile this exclusive inventory rule with the general pet store and any future catalogs when implemented. Non-purchase ways to obtain goldfish, if any, remain undecided.
+- **Core identity:** a specialized goldfish shop, not a general fish retailer. Luke takes his fish seriously; available fancy goldfish variants, proper tank requirements, and their individual personalities can be the shop's main appeal.
+- **Character reference supplied in the conversation:** 2026-10-07 uploaded portrait of Luke (IMG_8943.jpeg). Appearance in that supplied image: short dark brown hair; thick eyebrows; full dark brown beard/mustache; friendly expression; red/maroon T-shirt. Use the **uploaded image as the visual reference** when art is commissioned; this chat upload is *not* yet checked in to the repository. The user's identification of the person as Luke Hagopian is treated as the supplied context, not a biometric identification from the portrait.
+- **Possible details, not locked:** standout goldfish with names and personalities; a lesson on goldfish care and adequate aquarium sizes; a small side quest about helping a goldfish thrive; special seasonal stock only here.
+- **Suggested draft flavor (not approved dialogue):** "Around here, every nugget deserves a good home."
+
+### Priority cameo: SerpaDesign — specialist naturalistic landscaping
+
+- **Real-world inspiration:** **Tanner Serpa / SerpaDesign**, known for planted aquariums, terrariums, vivariums, paludariums, and detailed naturalistic habitats.
+- **Proposed in-game role:** a habitat landscaper / aquascaping-and-plant specialist who sells or helps place live plants, moss, substrate, driftwood, rocks, backgrounds, and naturalistic decorative pieces. This preserves the user's preferred **landscaping/plants** direction without locking an exact shop name or inventory.
+- **Possible mechanic:** optional enclosure-makeover commissions, teaching players to arrange convincing ecosystems rather than only purchase expensive animals. Potential synergies with tank health, animal enrichment, and player-post aesthetics, pending balance design.
+- **Shop name, location, NPC look, stock, and quest are TBD.**
+
+### Two-headed turtle cameo — likely creator identified, not yet confirmed by user
+
+- The user specifically remembers a YouTuber with a **two-headed turtle** and wants an Easter egg in the game, but couldn't recall the creator.
+- **Strong candidate:** **Joey Morena (@aqua.terry), AquaTerra Exotic Pets**, whose official site says he cared for a two-headed turtle called **Barf and Belch** and has documented other two-headed animals. This seems especially close to the user's description, **but ask/confirm before locking that identification**.
+- Another possible historic match is **Brian Barczyk / The Reptarium**, which also featured a two-headed turtle. Do not imply that the original owner is identified conclusively.
+- **Proposed gameplay:** a carefully cared-for, special **non-purchasable** two-headed turtle appears at a sanctuary, exhibition, or specialist's habitat. Learning about it or assisting with an ethical habitat/care quest could unlock a journal entry or decorative reward. Never turn a disability/rare condition into a gimmick, careless breeding target, or routine sellable stock.
+- Exact turtle name, NPC, availability, and gameplay impact TBD.
+
+### Additional researched cameo candidates (all optional proposals)
+
+| Real creator / channel | Specialty | Possible Critz cameo, proposed |
+| --- | --- | --- |
+| **AntsCanada (Mikey Bustos)** | Ant colonies, observation, complex terrarium ecosystems | A dedicated ant-keeper or elaborate ant-farm exhibit; a colony/foraging side quest and interconnected habitat tunnels. |
+| **Snake Discovery (Emily and Ed Roberts)** | Reptile education, husbandry, conservation | A reptile education center with handling/care lessons, appropriate husbandry supplies, and safe animal-education missions. |
+| **Aquarium Co-Op (Cory McElroy)** | Freshwater fish and aquatic plants, approachable aquarium education | A freshwater mentor, water-testing lessons, aquatic plant and equipment expertise. **Do not stock/sell goldfish**, to preserve Nuggets' unique inventory. |
+| **Kamp Kenan (Kenan Harkin)** | Reptiles, tortoises, lizards, conservation | A reptile habitat keeper offering a tortoise-care quest or outdoor reptile exhibit. |
+| **Brian Barczyk (legacy tribute)** | Reptiles, The Reptarium, education | A respectful memorial-style reptile exhibit or book/poster tribute rather than assuming a living present-day shopkeeper; permission and depiction to be considered. |
+
+### Design guardrails / open questions
+
+1. Treat creator names, likenesses, slogans, branding, and signature animals as **possible collaborations/tributes**. Check permissions and commercial-use/IP implications before shipping directly recognizable people, brand names, logos, exact likenesses, or real pets. An original, loosely inspired NPC is an alternate route.
+2. Do not make real creators sound like they endorsed Critz without approval. Do not assume the creators are participating.
+3. **Preserve goldfish exclusivity at Nuggets** even if other fish/plant specialists are added. Ensure goldfish care is accurately represented; goldfish need appropriate space/filtration, not novelty bowls.
+4. The user supplied Luke's portrait in this conversation. It needs a separate, approved asset transfer before the repo can use it as a pixel-art character reference; do not claim the image itself has been committed.
+5. Prefer optional discovery, easter eggs, specialist shops, and quests that reward curiosity; avoid compulsory cameos blocking the core campaign.
+6. Locate each creator cameo and determine prerequisites only after the world/roster review gates. This is an **idea capture only**: no new approved assets, maps, gameplay, or milestone scope.
+7. Confirm whether the two-headed turtle reference is **AquaTerra/Barf and Belch**, Brian Barczyk's Reptarium, or someone else; also decide if their iconic animal should be represented by a respectful homage.
+8. Later brainstorm more creators by niche (fish, reptiles, amphibians, insects, invertebrates, planted tanks) and give each one a different useful game function rather than repetitive shops.
+
+### Research starting points (checked 2026-10-07)
+
+- Luke Hagopian / Luke's Goldies: https://www.linkedin.com/in/luke-hagopian-7b9b66193 and https://www.youtube.com/channel/UCg0_9roN7QYzFNLjVSD5Z1Q
+- Tanner Serpa / SerpaDesign: https://www.serpadesign.com/home and https://www.youtube.com/@SerpaDesign
+- AquaTerra Exotic Pets (Joey Morena, Barf and Belch): https://www.aquaterraexoticpets.com/pages/about
+- AntsCanada overview: https://journals.sagepub.com/doi/full/10.1177/01622439261442633
+- Snake Discovery: https://snakediscovery.com/youtube/
+- Aquarium Co-Op / Cory McElroy: https://www.aquariumcoop.com/blogs/meet-the-team/cory-mcelroy
+- Kamp Kenan: https://www.youtube.com/watch?v=KoYGHxFF7hI
+- Brian Barczyk / Reptarium and two-headed turtle: https://obits.mlive.com/news/brian-barczyk-1969-2024-tiktok-reptile-expert
+
+
+## IDEA-004 — Mobile MVP, one opening quest, enduring tank loop, Critter phone and hidden bases
+
+**State:** 2026-10-07 user-directed brainstorm captured; MVP scope below is a **rough proposal for review, not approved scope or implementation**. Existing source-of-truth, plan, milestone review gates, and gameplay remain unchanged.
+
+### MVP goal and story shape
+
+- Build a **single-player mobile app game**, with an emotionally meaningful **short opening story as Quest 1**, then an **open ending** that hands the player a lasting, repeatable game loop of tank care, ecological balance, upgrading and optimization.
+- Retain the established opening characters and beats: named boy/girl Hero; rival; Mom's tank-breaking incident; all escaped animals surviving; neighbor/friend Kaid gifting a 25-gallon starter tank and optionally lending $100; rescue and recovery. Keep Mom compassionate, and the medication mechanic clear and recoverable.
+- The primary product to validate is not a large quest campaign or an enormous RPG map: it is **the satisfaction of building and improving living habitats** and finding a reason to return after the quest concludes.
+
+### First-quest draft structure (proposal; details flexible)
+
+1. **Inciting incident:** Hero's established opening night scene; Mom's crisis; tanks broken; animals escape safely.
+2. **Help and recovery:** Kaid brings the gifted 25-gallon starter tank and offers the optional loan.
+3. **First playable goal:** retrieve at least the starter-compatible rescued critters, collect/buy a starter plant or substrate, restore suitable habitat conditions, and observe the tank improve.
+4. **Introduce caring and economy:** player encounters the store/pharmacy, earns a small amount through the rescue and/or a first Critter post, and learns Mom needs $20 medication every in-game week.
+5. **Social/phone onboarding:** receive phone/Critter access, name the tank, use Manage/Stats/View, publish an actual in-game tank post, and see the initial reward/progression.
+6. **Open-ended quest completion:** close the rescue chapter with a small story beat celebrating the new beginning. No credits or enforced win state: freely improve tanks, post progress, earn money and maintain family needs.
+
+The MVP must leave sufficient repeatable earnings to avoid an irreversible inability to afford medication, food or supplies. Resolve exactly how clocks run on mobile (active-play time, pauses, saves and offline passage).
+
+### Main tank gameplay: the nonnegotiable core
+
+- Support building/placing a tank, naming/renaming it, inspecting animals, choosing suitable plants and inhabitants, managing a few meaningful ecological variables, feeding/watering/cleaning as appropriate, and observing visible consequences.
+- The tank's existing **Manage / Stats / View** controls remain the top-level interaction.
+- Basic organism behavior and a small ecological model should produce **understandable cause and effect**, not arbitrary health numbers. The payoff is learning and increasingly **self-sustaining or appropriately automated** tank care (without unrealistic neglect of animals that require ongoing care).
+- Tank conditions and stored names/inventory/populations must persist reliably across play sessions.
+- Repeatable loop: observe problem/opportunity -> adjust ecosystem/supplies -> passage of time visibly changes habitat -> capture/post on Critter -> earn currency/progress -> buy supplies/tanks and repeat. Care and family needs remain meaningful resource sinks.
+
+### Bedroom tank-capacity rule and terminology
+
+- **Three tank slots maximum in the Hero's bedroom: one aquarium (aquatic), one terrarium (primarily terrestrial), and one paludarium (water + land).**
+- **Paludarium** is the clearest standard term for the mixed aquatic/terrestrial habitat the user describes. **Vivarium** is a broad umbrella term and may include terrariums, aquariums and paludariums; do **not** substitute "vivarium" for the mixed tank label.
+- Exact order, quests and cost to obtain the second/third tank, and whether each tank can house multiple compatible creatures, remain to be balanced.
+- The user envisions **unlocking hidden bases after occupying/obtaining all three bedroom tank types**.
+
+### Hidden bases and storage (future-looking design constraints)
+
+- Think **Pokémon Emerald Secret Bases**: player claims **one active hidden base at a time**, which can hold additional tanks beyond the three bedroom display slots.
+- Once the player fills all three bedroom tank types, unlock discovering/claiming a hidden base. **Base expansion** to fit more tanks is proposed later, not required for a first MVP unless validated as critical.
+- A player can **pack away an individual tank** with *all* of its exact state intact: tank name, type, size, terrain and decor, plants, inhabitants, stats/condition, populations, inventory/equipment, placement/layout, ownership, history and other per-tank data. Re-placing it must restore the same state losslessly. Packed tanks are **frozen**: their simulation clock does not advance, and contents are not silently changed or killed in storage.
+- Packed storage is not the same as owning a second active hidden base. Only one active claimed base at a time; changing base location and capacity rules TBD.
+- Future connected-friend feature: friends' hidden bases may appear as **visitable copies** in the player's own world, analogous to Emerald's mixed-record secret bases. This remains asynchronous social content, **not a shared real-time multiplayer world**; consider snapshots, privacy, data size and moderation.
+
+### Critter, friends, leaderboards and the in-game phone
+
+- Mobile app is **single-player at its simulation core**, with **online asynchronous social features**.
+- **Critter** is the in-game social-media application: post tank images/updates; browse own and friends' profiles/posts; discover/add friends; see **leaderboards via Critter**; entry point for social connections.
+- The **in-game phone** should consolidate UI: Critter, contacts/friends, a player-assigned **in-game phone number**, friend-to-friend texting, map, settings and expandable future apps. Think of it as the player's main navigation/management hub without cluttering the world.
+- Decide later whether the "phone number" is a generated in-world ID versus a real verified telephone number. Proposal: **fictional game ID only**, not the user's actual phone number.
+- The user's ideal includes real friend text messaging. This introduces online services, abuse controls, privacy, and especially child-safety requirements because protagonists are children and players may be minors. For a minimal launch, consider **preset in-game messages** or delayed full chat and friend-base sharing pending account architecture, moderation, blocking/reporting and legal review. Do not misrepresent mock or local features as live social services.
+- Leaderboards should reflect well-defined comparable tank/creative achievements rather than reward neglect or spam. Suggested metric candidates: habitat stability, research progress, ecosystem diversity within ethical compatibility, post engagement, and best improvement. Exact ranks/scoring/anti-cheat TBD.
+
+### Deliberately lean proposed MVP / later split
+
+**MVP candidate:** one short complete opening/rescue quest; one small explorable home/neighborhood and essential shops; robust **single aquarium or terrarium starter loop** with basic ecological interactions; tank names and saves; repeated care/earn/spend including Mom's weekly medicine; local Critter photo posting and an actual useful phone UI (Critter, map, settings); at least a minimal demonstration of progression toward the three bedroom types; *if real online launch is mandatory*, a backed leaderboard with accounts is its own required backend workstream.
+
+**Candidates for immediately after a successful core-loop MVP:** completing all **three** fully functional distinct tank ecosystems; hidden base ownership/extra tank space; freeze/pack/unpack; server-backed friends and visitable bases; friend text conversations and moderation; more creatures, shops, quests, detailed phone apps, tank automation, base expansion.
+
+**Alternative broader launch scope for the creator to decide:** all three bedroom tanks plus first hidden base and true asynchronous friend presence at release. This is a significantly larger online game than a pure tank-loop MVP. Do not quietly cut the user's stated long-term requirements; this is a sequencing proposal only.
+
+### Open decisions to ask during MVP review
+
+1. Must **all three** tank types and the first hidden base be playable on day one, or is one deep working tank enough to validate the core?
+2. Is the launch **online account + live leaderboard + friend connections** required, or can the earliest MVP use local Critter posts with online rollout later?
+3. Must full **player-to-player text messaging** ship on day one? If so, choose age-gating/moderation/reporting/privacy requirements before implementation.
+4. Can an opening rescued animal live in the starter tank, given appropriate species-specific habitat conditions? Which first ecosystem demonstrates the loop most convincingly?
+5. Should the weekly medication clock only advance during gameplay? Precisely what occurs when payment is missed, and how is a player guaranteed a route back into play?
+6. How deep must tank ecology/automation and how many animals/plants be for a fun, not merely demonstrative MVP?
+7. Are hidden bases real-time shared places or, as proposed, single-player snapshots of friends' bases?
+
+**Documentation only:** this captures direction without changing implementation scope or declaring visual reviews approved. Reconcile a chosen MVP with GAME_VISION.md and PROJECT_PLAN.md after user feedback.
