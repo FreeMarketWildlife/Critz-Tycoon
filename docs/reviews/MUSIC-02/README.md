@@ -52,3 +52,7 @@
 The first renderer run exposed an FFmpeg-log JSON parsing error, corrected to parse one JSON object. The initial report writer exposed a NumPy integer serialization error, corrected to emit plain Python numbers; all checks then passed. No failed output was published.
 
 No physical iPhone/Safari or human headphone listening is claimed. Technical verification does not self-approve music. The collection remains a separate review room, without replacing the gameplay soundtrack, save keys, progression or story. Source and publication receipts are recorded in PROJECT_STATUS. Exact next action after delivery: the user listens to the replacement collection and identifies any cues to refine or adopt.
+
+## Published delivery
+
+Source `8a69d3ce64144979b2a99dc78482430bbeedc56c` is pushed. All 1,558 build content files match the archive; only the hosting manifest was added. The native owner-private deployment `appgdep_6ac73fdf91cc8191bc25268afc2e5a65` succeeded on 2026-10-08 at 07:02:08 UTC. [Deployment receipt](deployment.json) · [Archive audit](archive-check.json) · [Build hashes](tested-build-sha256.json). Current game integration is preserved. This receipt is documentation only; the application is already published and unchanged. Listening acceptance remains pending.

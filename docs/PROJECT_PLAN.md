@@ -2,7 +2,7 @@
 
 ## MUSIC.02 — Thirty independently rewritten MIDI pieces
 
-The user rejected MUSIC.01 for sameness and excessive glides. The latest request supersedes its bending-synth direction: rewrite all thirty from the first note, with distinct musical premises, tempos, keys, meters, instrumentation and restrained arrangements informed by Minecraft/Pokémon/Terraria research. **Composition/export/player work and technical checks complete; publication in progress; listening approval pending.** [MUSIC.02](reviews/MUSIC-02/README.md) presents all thirty new scores and previews. No gameplay soundtrack integration is authorized by delivery. Exact next action: publish the verified collection, then use the user's listening response for refinement/selection.
+The user rejected MUSIC.01 for sameness and excessive glides. The latest request supersedes its bending-synth direction: rewrite all thirty from the first note, with distinct musical premises, tempos, keys, meters, instrumentation and restrained arrangements informed by Minecraft/Pokémon/Terraria research. **Composition/export/player work complete, tested, pushed and published; listening approval pending.** [MUSIC.02](reviews/MUSIC-02/README.md) presents all thirty new scores and previews. No gameplay soundtrack integration is authorized by delivery. Exact next action: use the user's listening response to the published collection for refinement/selection.
 
 ## M1.I4 — Selected living collection in gameplay
 
