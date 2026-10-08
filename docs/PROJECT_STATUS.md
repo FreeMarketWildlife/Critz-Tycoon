@@ -1,5 +1,11 @@
 # Project status
 
+## M1.BH1 — Walking behind buildings
+
+**Implemented and locally tested; clean-release verification/publication in progress.** User requests at least one tile behind buildings, with deeper overlap for larger buildings. All twelve freestanding Rootport/Liarsville buildings now expose a reachable rear band: eleven use one row; Old Waterworks uses two. Walls stay solid, roofs/chimneys occlude the player, and one cypress moves aside. The cropped yard facade retains its off-map rear boundary. [Deliverable](reviews/M1-BH1/README.md). Original PNGs, doorways and saves remain intact.
+
+Working directly on main from `622ad17bb0a1d31d4e804cdff75a1ac299b2a18c`. Local checks pass 104 unit tests and 15 isolated browser checks, including actual roof pixels and synthetic save/reload. Phone screenshots inspected; physical Safari not claimed. Sixteen unrelated tracked edits and five untracked character-work paths are preserved. Exact next action: verify clean release and entrance regressions, push and publish that build, then collect user traversal feedback. No visual/movement gate is self-approved.
+
 ## M1.DO1 — Walk-through entrances
 
 **Implemented, tested, pushed and published; traversal feedback pending.** User requests movement-only door travel. [Deliverable](reviews/M1-DO1/README.md) fixes the yard house threshold and gate boundary collision, declares entry directions for all 26 entrances, and replaces door A prompts with walking cues. Existing shortcuts are optional; none is required. Walls/fences, stairs, safe arrivals, story and save keys remain intact.

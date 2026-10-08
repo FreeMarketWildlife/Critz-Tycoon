@@ -2,6 +2,13 @@ import {OPEN_ENTRANCES} from './lighting.js';
 // Original map authoring. World cells, IDs and collision are independent of PNG pixels.
 export const WORLD_REVISION = 2;
 export const OUTDOOR_SCENES = ['yard', 'town', 'forest', 'liarsville'];
+// Roof projection is separate from the solid walls. Deeper rear overlap is an
+// authored per-building choice; it never opens the bottom two wall rows.
+export function buildingFootprint(b){
+ const h=b.h??5,depth=b.rearDepth??1;
+ if(!Number.isInteger(depth)||depth<0||depth>h-2)throw Error('Invalid building rear depth');
+ return [b.x,b.y+depth,b.w,h-depth];
+}
 export const buildings = [
   {x:4,y:6,w:5,h:5,name:'HOME',scene:'yard',roof:'clay',wall:'plaster'},
   {x:13,y:5,w:5,h:5,name:'KAID',scene:'kaidHome',roof:'teal',wall:'timber'},
@@ -11,7 +18,7 @@ export const buildings = [
   {x:28,y:17,w:7,h:5,name:'DRUG STORE',scene:'pharmacy',roof:'teal',wall:'stone'},
   {x:6,y:28,w:5,h:5,name:'BIKE SHOP',scene:'bike',roof:'clay',wall:'timber'},
   {x:23,y:28,w:7,h:5,name:'GLOW N’ BLOW',scene:'glass',roof:'teal',wall:'stone'},
-].map(b=>({...b,doorX:b.x+Math.floor(b.w/2),doorY:b.y+b.h,collision:[b.x,b.y,b.w,b.h]}));
+].map(b=>({...b,rearDepth:1,doorX:b.x+Math.floor(b.w/2),doorY:b.y+b.h,collision:buildingFootprint(b)}));
 const dirs=[[0,-1,1],[1,0,2],[0,1,4],[-1,0,8],[1,-1,16],[1,1,32],[-1,1,64],[-1,-1,128]];
 export function normalizeMask(m){for(const [bit,a,b]of [[16,1,2],[32,2,4],[64,4,8],[128,8,1]])if(!(m&a)||!(m&b))m&=~bit;return m;}
 function create(w,h,safeSpawn){return {w,h,safeSpawn,terrain:Array(w*h).fill('grass'),ground:[],decals:[],objects:[],solid:new Set(),grass:new Set(),portals:[]};}
@@ -24,9 +31,12 @@ function object(m,id,x,y,w=1,h=1,footprint=[0,h-1,w,1],kind='prop'){
 }
 function tree(m,x,y,type='broadleaf'){return object(m,`tree.${type}`,x,y,2,type==='cypress'?3:2,[0,type==='cypress'?2:1,2,1],'tree');}
 function house(m,b){const rows=[];for(let y=0;y<3;y++)rows.push(Array.from({length:b.w},(_,x)=>`roof.${b.roof}.${y}.${x===0?'left':x===b.w-1?'right':'center'}`));for(let y=0;y<2;y++)rows.push(Array.from({length:b.w},(_,x)=>x===Math.floor(b.w/2)?`door.wood.${OPEN_ENTRANCES.has(b.scene)?'open':'closed'}.0.${y}`:x===0||x===b.w-1?`wall.${b.wall}.${y}.${x===0?'left':'right'}`:x===1&&['critz','vet','pharmacy','bike','glass'].includes(b.scene)?`wall.${b.wall}.${y}.center`:x%2?`windowbox.${b.wall}.0.${y}`:`wall.${b.wall}.${y}.center`));
- const o=object(m,'building',b.x,b.y,b.w,5,[0,0,b.w,5],'building');o.tiles=rows;o.name=b.name;
+ const footprint=buildingFootprint(b),rearDepth=footprint[1]-b.y;
+ const o=object(m,'building',b.x,b.y,b.w,5,[0,rearDepth,b.w,footprint[3]],'building');o.tiles=rows;o.name=b.name;o.rearDepth=rearDepth;
  if(['critz','vet','pharmacy','bike','glass'].includes(b.scene)){const plaque=object(m,`shop.sign.${b.scene}`,b.x+1,b.y+3,1,1,null);plaque.depth=b.y+5+.1;}
- object(m,'chimney',b.x+b.w-2,b.y-1,1,2,null);rect(m,b.x+Math.floor(b.w/2),b.y+5,1,3,'path');
+ // Keep attached chimney art above a passing actor, just behind its own roof.
+ const chimney=object(m,'chimney',b.x+b.w-2,b.y-1,1,2,null);chimney.depth=o.depth-.05;
+ rect(m,b.x+Math.floor(b.w/2),b.y+5,1,3,'path');
 }
 function fence(m,x,y,n,gap=-1){for(let i=0;i<n;i++){if(i===gap)continue;object(m,`fence.${(i>0&&i-1!==gap?8:0)|(i<n-1&&i+1!==gap?2:0)}`,x+i,y);}}
 function flowers(m,x,y,w,h,v=0){for(let j=y;j<y+h;j++)for(let i=x;i<x+w;i++)deco(m,`flowers.${(i+j+v)%6}`,i,j);}
@@ -78,7 +88,7 @@ function forest(){const m=create(28,34,[13,31]);
  border(m,[[12,14]],[[12,14]]);return finish(m);
 }
 export const liarsBuildings=[
- {x:4,y:5,w:9,h:5,name:'THE OLD WATERWORKS',scene:'waterworks',roof:'teal',wall:'stone'},
+ {x:4,y:5,w:9,h:5,rearDepth:2,name:'THE OLD WATERWORKS',scene:'waterworks',roof:'teal',wall:'stone'},
  {x:25,y:6,w:7,h:5,name:'MILLKEEPER’S HOUSE',roof:'clay',wall:'timber'},
  {x:4,y:21,w:5,h:5,name:'GARDENER’S COTTAGE',roof:'clay',wall:'plaster'},
  {x:25,y:23,w:5,h:5,name:'SEED LIBRARY',roof:'teal',wall:'timber'},
@@ -94,9 +104,9 @@ function liarsville(){const m=create(36,32,[14,28]);
  for(let y=3;y<6;y++)object(m,`waterfall.0.${y-3}`,21,y,1,1,null);deco(m,'waterfall.splash',21,6);
  rect(m,3,12,5,3,'soil');for(let y=12;y<15;y++)for(let x=3;x<8;x++)deco(m,`garden.${y%2?'lettuce':'seedling'}`,x,y);fence(m,2,15,7);
  rect(m,29,13,4,2,'soil');flowers(m,29,13,4,2);fence(m,25,15,8,3);
- for(const [x,y]of [[2,2],[14,4],[16,5],[30,2],[2,17],[8,19],[16,20],[31,17],[31,27],[2,28],[16,27],[24,20]])tree(m,x,y,(x+y)%2?'cypress':'broadleaf');
+ for(const [x,y]of [[2,2],[14,4],[16,5],[30,2],[2,17],[10,19],[16,20],[31,17],[31,27],[2,28],[16,27],[24,20]])tree(m,x,y,(x+y)%2?'cypress':'broadleaf');
  flowers(m,15,23,3,2);flowers(m,9,26,2,1);object(m,'marker.north',18,17);object(m,'log.hollow',24,2,3,1);
  for(let y=9;y<30;y+=7){deco(m,'lilypad.1',21,y);deco(m,'reeds.1',19,y+1);}border(m,[],[[12,14]]);return finish(m);
 }
-function yard(){const m=create(16,12,[8,9]);m.portals=[{x:8,y:3},{x:8,y:11}];rect(m,8,3,1,9,'path');house(m,{x:6,y:-2,w:5,name:'HOME',roof:'clay',wall:'plaster'});object(m,'log.hollow',2,6,3,1,[0,0,3,1]);deco(m,'leaves.litter',11,7);deco(m,'leaves.litter',12,7);object(m,'planter.center',11,3);tree(m,1,3);tree(m,13,3);flowers(m,3,9,3,1);flowers(m,10,9,3,1);for(let x=0;x<16;x++){if(x!==8)object(m,'fence.10',x,11);block(m,x,0);}for(let y=0;y<12;y++){block(m,0,y);block(m,15,y);}return finish(m);}
+function yard(){const m=create(16,12,[8,9]);m.portals=[{x:8,y:3},{x:8,y:11}];rect(m,8,3,1,9,'path');house(m,{x:6,y:-2,w:5,rearDepth:0,name:'HOME',roof:'clay',wall:'plaster'});object(m,'log.hollow',2,6,3,1,[0,0,3,1]);deco(m,'leaves.litter',11,7);deco(m,'leaves.litter',12,7);object(m,'planter.center',11,3);tree(m,1,3);tree(m,13,3);flowers(m,3,9,3,1);flowers(m,10,9,3,1);for(let x=0;x<16;x++){if(x!==8)object(m,'fence.10',x,11);block(m,x,0);}for(let y=0;y<12;y++){block(m,0,y);block(m,15,y);}return finish(m);}
 export const overworldMaps={town:rootport(),forest:forest(),liarsville:liarsville(),yard:yard()};

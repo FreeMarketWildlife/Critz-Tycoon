@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Walking behind buildings — user correction, M1.BH1
+
+Freestanding buildings must allow at least one walkable map row beneath their rear roof projection. Author deeper overlap for larger or taller buildings where the assembly supports it; the Old Waterworks uses two rows. Store this as explicit per-building rear depth, separate from the full visual rectangle. Preserve the solid walls and wall-base/ground boundary cells. Roofs and attached chimneys cover the actor behind them; actors on the front side draw in front. Connect the rear strip to reachable clear ground and check the entire strip for accidental tree or prop blockers. Cropped boundary facades whose rear lies outside the map are an explicit exception, not an excuse to block freestanding houses.
+
+Verify actual movement, blocked wall contact, native renderer occlusion and save/reload on the newly walkable cells. These depths are original Critz choices following the user's direction, not newly measured Emerald facts. [Implementation and checks](reviews/M1-BH1/README.md).
+
 ## Walk-through entrances — user correction, M1.DO1
 
 Every usable doorway, gate, stair entrance and route connection must work through directional movement alone. No option selection or A press is required. Keep the approach and threshold walkable, trigger travel when the entrance step completes, and leave the player on a clear destination landing. Sideways movement across a storefront must not enter it. Show a walking direction/destination cue rather than an A prompt for entrances. Any optional compatibility shortcut must never substitute for a tested walking path. Explicit portal cells may cross a map’s ordinary walking boundary; adjacent walls/fences remain solid. [Implementation and checks](reviews/M1-DO1/README.md).
