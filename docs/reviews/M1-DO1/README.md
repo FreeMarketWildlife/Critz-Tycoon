@@ -17,4 +17,8 @@ Pinned `pret/pokeemerald` revision `5eff78649e7170a877b961ef0b3da13b81a16038`: [
 ![Walk into the house](yard-home.png)
 ![Walk through the yard gate](yard-gate.png)
 
-Clean-release and publication evidence will be recorded after verification. Existing unfinished character work is excluded.
+The exact clean release repeats all 101 unit checks and 28 browser scenarios. Existing unfinished character work, including the unrelated appearance test, is excluded.
+
+## Publication
+
+[Play on your phone](https://critz-tycoon.freemarketwildlife.chatgpt.site). Source `5ba17b5f6120b17fd7dd4808055653e25d0c1e4c` is pushed to GitHub main and the Sites source repository. All **1,601 tested build files** match the archive exactly; only the hosting manifest is additional. [Archive verification](archive-check.json) · [Content hashes](tested-build-sha256.json). [Native deployment](deployment.json) succeeded at **2026-10-08 08:01:41 UTC**, preserving the owner-private audience. This final documentation receipt does not alter the playable build or require another deployment. User traversal feedback is next; no implementation/publication work remains.

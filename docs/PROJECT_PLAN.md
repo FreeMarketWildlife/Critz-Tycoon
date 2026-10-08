@@ -2,7 +2,7 @@
 
 ## M1.DO1 — Walk-through entrances
 
-**Implementation/checks complete; clean release/publication pending.** All usable doors and gates must work by walking without A or selection. Fix both yard boundary exceptions and show walking cues; preserve solid surroundings, story and saves. [Deliverable](reviews/M1-DO1/README.md). Next: verify/publish the exact clean build, then user traversal feedback.
+**Implemented, tested, pushed and published; traversal feedback pending.** All usable doors and gates must work by walking without A or selection. Fix both yard boundary exceptions and show walking cues; preserve solid surroundings, story and saves. [Deliverable](reviews/M1-DO1/README.md). Source `5ba17b5` is published after 101 unit checks and 28 browser scenarios. Next: user traversal feedback.
 
 ## M1.ST1 — Stair traversal correction
 
