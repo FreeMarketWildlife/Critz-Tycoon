@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Map authoring review — M1.ME1
+
+The user commissions a terrain-aware map editor, whole-building stamps, explicit collision, cliff openings, directed ledges and Hero testing. Keep this as a separate review tool; it does not replace accepted maps or approve new art. Reuse the exact existing native 32px environment and selected living Hero. Add an editor extension sheet with stable named terrain-pair corner banks, fence/ground compositions, mountain walls, cave mouths, stairs and directed ledges. Author hard native pixels with the existing grass/stone/wood/water ramps; no reference-game pixels ship. Terrain, fence and cliff pieces compile to one ground metatile per cell; planters and pushable boulders retain explicit object semantics. Roof/canopy projection is independent of solid footprints.
+
+Water edge cells, including their grass strip, are wholly blocked per this request. Mountain walls are solid; stairs/openings carry explicit walking behavior; short ledges permit a directional two-cell hop only to a clear landing. These are editor rules, not artwork-derived collision. Original Emerald data informs map sizes, connections and behavior; automatic neighbor selection is our authoring feature, not a claim about Game Freak’s original editor. All new extension art and testing feel await user review. Keep specifications here and source evidence in the M1-ME1 review record.
+
 ## Luke’s Greenhouse — M1.LG1, user direction 2026-10-08
 
 The user commissions Luke (brown hair, full beard, bright blue eyes), his greenhouse and a paid silhouette-scoop encounter. **Luke’s Greenhouse supersedes the old Nuggets sign. Luke is the sole goldfish seller in the entire game.** This authorizes a concrete playable review of this new character/location/interaction; it does not self-approve the art or the broader M1/M2 gates. Other IDEA-003 creators stay planned while this implementation task is reviewed.

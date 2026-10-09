@@ -2,7 +2,7 @@ import './build-soundtrack.mjs';
 import { mkdir, cp, rm, stat } from "node:fs/promises";
 await rm("dist", { recursive: true, force: true });
 await mkdir("dist");
-for (const path of ["index.html", "style.css", "src", "icon.svg", "sprite-editor", "music", "art-review", "assets", "docs", "art"])
+for (const path of ["index.html", "style.css", "src", "icon.svg", "sprite-editor", "map-editor", "music", "art-review", "assets", "docs", "art"])
   await cp(path, `dist/${path}`, { recursive: true });
 console.log(
   `Built Critz: Tycoon. Entry: ${(await stat("dist/index.html")).size} bytes. No runtime dependencies.`,

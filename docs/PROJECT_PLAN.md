@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.ME1 — Terrain-aware map editor
+
+**Implementation/checks complete; publication next; art/feel approval pending.** Latest user request authorizes a separate map editor, not hidden bases or accepted-world replacement. [Deliverable and source-derived map presets](reviews/M1-ME1/README.md). Terrain transitions, fences, mountain/opening/stair/directed-ledge cells, semantic stamps, copy/import/export, map links and isolated Hero testing are ready. Clean checks: 150 unit, 22 editor, 10 sprite-editor and 17 adventure browser scenarios; original world/Hero atlases remain unchanged. Preserve unrelated unfinished character work. Next: commit/push and verify publication, then refine the user's concrete editor/map feedback. No broader M1/M2 gate is self-approved.
+
+
 ## M1.LG1 — Luke’s Greenhouse playable review
 
 **Implementation, clean checks, push and publication complete; user visual/feel approval pending.** Latest user request authorizes Luke’s new character, eight-tub greenhouse and $100 silhouette-scoop encounter as the active focused implementation. [Deliverable](reviews/M1-LG1/README.md). Original native art, enter/decline/eject/pay/select/catch/reveal/browse/re-enter loop and isolated persistent review collection are implemented. Luke alone sells goldfish; current name supersedes Nuggets. Other creator cameos remain planned. New appearance/motion await the user; broader M1/M2 gates remain open. The clean export passes135 unit checks,14 greenhouse browser checks,17 adventure scenarios and independent native-art validation. Source `f223e83` is published at the existing phone site’s `/art-review/greenhouse.html` route with successful deployment evidence in status. Next: concrete user review feedback before world/save integration. Other creator cameos remain planned; no gate is self-approved.

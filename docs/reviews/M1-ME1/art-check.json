@@ -1,0 +1,15 @@
+{
+  "tiles": 861,
+  "masks": 47,
+  "size": [
+    1024,
+    864
+  ],
+  "uniqueIds": true,
+  "gridAligned": true,
+  "binaryAlpha": true,
+  "originalWorldAndHeroAtlasesByteIdenticalToHEAD": true,
+  "worldSHA256": "cbcd7d93cde3ec3828082ac4c942bffa51937b2e58d5232ca7a3c39fb0ae605a",
+  "editorSHA256": "f4e8ebbd89f35ac7593ea05d9d32a6e036204c85625a0b4657fece0e83d5129e",
+  "approval": "Awaiting user visual review; these checks are not visual approval"
+}
