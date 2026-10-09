@@ -2,8 +2,7 @@
 
 ## M1.ME1 — Terrain-aware map editor
 
-**Implementation/checks complete; publication next; art/feel approval pending.** Latest user request authorizes a separate map editor, not hidden bases or accepted-world replacement. [Deliverable and source-derived map presets](reviews/M1-ME1/README.md). Terrain transitions, fences, mountain/opening/stair/directed-ledge cells, semantic stamps, copy/import/export, map links and isolated Hero testing are ready. Clean checks: 150 unit, 22 editor, 10 sprite-editor and 17 adventure browser scenarios; original world/Hero atlases remain unchanged. Preserve unrelated unfinished character work. Next: commit/push and verify publication, then refine the user's concrete editor/map feedback. No broader M1/M2 gate is self-approved.
-
+**Implemented, tested, pushed and published; art/feel approval pending.** Latest user request authorizes a separate map editor, not hidden bases or accepted-world replacement. [Deliverable and source-derived map presets](reviews/M1-ME1/README.md). Terrain transitions, fences, mountain/opening/stair/directed-ledge cells, semantic stamps, copy/import/export, map links and isolated Hero testing are ready. Clean checks: 150 unit, 22 editor, 10 sprite-editor and 17 adventure browser scenarios; original world/Hero atlases remain unchanged. Preserve unrelated unfinished character work. Source `88c0689` is published at the existing phone site’s `/map-editor/` route with successful deployment evidence in status. Next: the user authors/tests a map and pastes Copy for chat; refine that concrete map/editor feedback. No broader M1/M2 gate is self-approved.
 
 ## M1.LG1 — Luke’s Greenhouse playable review
 

@@ -1,0 +1,10 @@
+{
+  "sourceCommit": "88c068975192a4f97506b067e123257b79404f2f",
+  "archiveSHA256": "11699a9db537b50f8f83967f8b388ab8f3ab202e54de4f3203c27a9c77006292",
+  "contentFiles": 1794,
+  "archiveFiles": 1795,
+  "mismatches": [],
+  "missing": [],
+  "runtimeFilesMatched": 809,
+  "note": "Exact source build; normalized hosting manifest is the only packaging addition. First packaging attempt lacked node on PATH; retry fixed PATH and reused unchanged build."
+}

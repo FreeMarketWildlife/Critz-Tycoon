@@ -1,0 +1,26 @@
+{
+  "unrelatedTrackedFilesByteIdentical": {
+    "art-review/walking.html": true,
+    "art-review/walking.js": true,
+    "art/source/characters-walk-v2/build.mjs": true,
+    "art/source/playable-characters/README.md": true,
+    "art/source/playable-characters/build.mjs": true,
+    "assets/playable/characters/atlas.json": true,
+    "assets/playable/characters/atlas.png": true,
+    "docs/CHARACTER_FRAMEWORK.md": true,
+    "package.json": true,
+    "scripts/check-walking-atlas.py": true,
+    "scripts/export-character-walks.py": true,
+    "scripts/pack-playable-atlas.py": true,
+    "tests/visual-browser.mjs": true,
+    "tests/walking-browser.mjs": true
+  },
+  "preExistingStatusAndPlanRetained": true,
+  "untrackedCharacterPathsUntouched": [
+    "art/source/characters-walk-v3/",
+    "assets/review/characters-walk-v3/",
+    "docs/reviews/M1-I3/",
+    "src/appearance.js",
+    "tests/appearance.test.mjs"
+  ]
+}
