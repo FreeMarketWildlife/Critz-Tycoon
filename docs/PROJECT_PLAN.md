@@ -2,7 +2,7 @@
 
 ## M1.WA1 — Water/wildlife and world clock
 
-**Implemented, checks passed; publication in progress; awaiting visual review.** User requests animated water, rock turtles, dawn/dusk fish and a Stardew-style clock/daylight cycle at half speed. [Concrete playable review](reviews/M1-WA1/README.md). Adventure clock/sleep rules are implemented; new wildlife pixels remain in a separate review scene before integration. No fee/energy system, save-key change or wider milestone acceptance. Clean release checks:173 unit tests,12 new browser scenarios,17 adventure regressions and independent native art/syntax validation. Next: verified push/publication, then user feedback on appearance and motion.
+**Implemented, tested, pushed and published; awaiting visual review.** User requests animated water, rock turtles, dawn/dusk fish and a Stardew-style clock/daylight cycle at half speed. [Concrete playable review](reviews/M1-WA1/README.md). Adventure clock/sleep rules are implemented; new wildlife pixels remain in a separate review scene before integration. No fee/energy system, save-key change or wider milestone acceptance. Clean release checks:173 unit tests,12 new browser scenarios,17 adventure regressions and independent native art/syntax validation. Source `117625d` is published with successful deployment evidence in status. Next: user feedback on appearance and motion; no implementation/publication step remains.
 
 ## M1.LG2 — Luke greenhouse refinement
 

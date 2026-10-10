@@ -1,0 +1,15 @@
+{
+  "sourceSHA": "117625d305cd380dc8e4970cdf029e2cd7dcadc9",
+  "testedRuntimeFilesMatching": 890,
+  "additionalValidatedAsset": [
+    "assets/review/water-wildlife/water.gif"
+  ],
+  "gifFrames": 8,
+  "gifMatchesNativeFrames": true,
+  "archiveContentFilesMatching": 1953,
+  "archiveOnlyAddition": [
+    ".openai/hosting.json"
+  ],
+  "archiveSHA256": "7d1621904df7cac0f0095f6926850102f7d8bcadcf6087f35a72c2053860a5e6",
+  "appleDoubleMetadata": false
+}
