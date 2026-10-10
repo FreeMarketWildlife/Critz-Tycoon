@@ -1,0 +1,11 @@
+{
+  "source": "afb979cf7b106626f4c7378290ae755fd8cb7da1",
+  "allBuildFiles": 1931,
+  "finalBrowserTestedTaskRuntimeFiles": 63,
+  "allContentHashesMatch": true,
+  "unchangedCommittedGreenhouseSource": "6690add94e26d7cb9f3339aa324146cc389c673c",
+  "onlyPackagingAddition": [
+    "dist/.openai/hosting.json"
+  ],
+  "archiveSHA256": "92e15db55eff20a09d89cb23e0ed92d455a78a5793f7fb81fd40aae47ce631bd"
+}

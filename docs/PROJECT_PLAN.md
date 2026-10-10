@@ -7,7 +7,7 @@
 
 ## M1.CT1 — Transition-tile contact lab
 
-**Implemented and tested; publication pending, then awaiting user choice.** Separate A/B/C/D house/wall/cliff comparison uses one native assembly method, whole blocked transition cells, a labeled fine-approach proposal versus current tile-step spacing, optional bump haptics and Copy choice. [Deliverable and pinned source evidence](reviews/M1-CT1/README.md). Clean checks:166 unit,13 contact browser,22 map-editor regression scenarios and native art/footprint checks. Original atlases, accepted controllers and saves remain unchanged. Next: publish exact tested source, then collect the user's material split and movement preference. No M1/M2 gate is self-approved.
+**Implemented, tested, pushed and published; awaiting user choice.** Separate A/B/C/D house/wall/cliff comparison uses one native assembly method, whole blocked transition cells, a labeled fine-approach proposal versus current tile-step spacing, optional bump haptics and Copy choice. [Deliverable and pinned source evidence](reviews/M1-CT1/README.md). Clean checks:166 unit,13 contact browser,22 map-editor regression scenarios and native art/footprint checks. Original atlases, accepted controllers and saves remain unchanged. Source `afb979c` is published at the existing phone site’s `/art-review/contact-lab/` route with successful deployment evidence in status; committed greenhouse work is retained unchanged. Next: collect the user’s material split and movement preference before integration. No M1/M2 gate is self-approved.
 
 ## M1.ME1 — Terrain-aware map editor
 
