@@ -120,3 +120,7 @@ No placeholder button should pretend any of these systems exists. Keep the READM
 ## 10. Next development milestone
 
 Give the existing loop an emotionally meaningful goal: build a suitable gecko habitat and bring Pebble home. Fund it through one small client commission, then extend the tank model to multiple instances. Preserve the deterministic simulation boundaries, schema migration, mobile controls, and narrative facts above.
+
+## Day-cycle direction — 2026-10-10
+
+Every exploration day begins at6:00am and ends at2:00am. Ten game minutes take14 active real seconds (twice the ordinary Stardew Valley day), for28 minutes excluding pauses. Players may sleep earlier. At2:00am they fall asleep and wake safely at their bed at6:00am, with no fee and no energy mechanic. Keep an on-screen clock. Animated water, proximity turtles sliding off rocks and dawn/dusk fish breaches are requested ambient life; new artwork remains subject to visual review. Reference Stardew’s gradual lighting while preserving Critz’s original pixels and compassionate story.

@@ -1,3 +1,4 @@
+import {ensureDayClock,advanceDayClock,endDay,paintClock} from './day-clock.js';
 import {MusicDirector} from './audio/director.js';
 import {harvestFruit,cueFruitShake,fruitTreeView} from './fruit-trees.js';
 import {createPrinter,advancePrinter,printerComplete,finishPrinter,paginate} from './dialogue.js';
@@ -48,6 +49,7 @@ let loaded = load(),
   panelName = "",
   dialogue = null,
   dialogueDone = null;
+ensureDayClock(state);
 if (loaded.state) loaded.state = state;
 let motion = createMotion(state.player), motionClock = createMotionClock(), pendingInteract = false;
 function syncMotion() {
@@ -389,8 +391,8 @@ function interact() {
         ? say([[state.hero, "Pebble gets dinner first."]])
         : showPanel(
             "sleep",
-            "Rest for a while?",
-            `<p>Advance 8 habitat hours. Your animals keep living while you rest. Check food and moisture first.</p>${button("rest", "Rest · 8 hours")}${button("back", "Stay awake", "secondary full")}`,
+            "Sleep until morning?",
+            `<p>Wake up in bed at 6:00am. Your animals keep living while you rest. Check food and moisture first.</p>${button("rest", "Sleep · until 6:00am")}${button("back", "Stay awake", "secondary full")}`,
           );
       break;
     case "desk":
@@ -978,10 +980,7 @@ function doAction(action, el, delta=1) {
       reportStatus("One habitat hour passes.");
       break;
     case "rest":
-      tick(state, 8);
-      closePanel();
-      persist();
-      announce("Eight quiet hours later");
+      finishDay(false);
       break;
     case "supply-gift":
       if (!state.flags.supplyGift) {
@@ -1149,6 +1148,18 @@ window.addEventListener("pagehide", () => {
   if (!["title", "setup", "confirm-new"].includes(panelName)) persist();
 });
 window.addEventListener("pageshow", () => music.setVisible(!document.hidden));
+function finishDay(passedOut) {
+  if(transitioning)return;
+  transitioning=true;closePanel();clearInput();$('fade').classList.add('on');
+  setTimeout(()=>{
+    const hours=endDay(state);
+    // Whole habitat hours use the existing nonlethal model, independent of world time.
+    tick(state,Math.floor(hours));
+    simAccumulator=0;syncMotion();releaseActors(state);persist();
+    $('fade').classList.remove('on');transitioning=false;lastTime=performance.now();
+    say([[state.hero,passedOut?'I fell asleep at 2:00am. Now it’s 6:00am, safe in my bed.':'A new day. It’s 6:00am.']]);
+  },settings.calm?0:350);
+}
 function frame(now) {
   music.update(state,panelName,panelOrigin);
   const elapsed = Math.max(0, (now - lastTime) / 1000);
@@ -1179,6 +1190,9 @@ function frame(now) {
       });
       moving = getMotionView(motion).moving;
     } else resetMotionClock(motionClock);
+    const worldLive=state.stage==='morning'&&!panelName&&!dialogue&&!transitioning&&document.hasFocus();
+    if(worldLive&&advanceDayClock(state,Math.min(elapsed,1)))finishDay(true);
+    paintClock($('day-clock'),state,!worldLive);
     const live =
       state.stage === "morning" &&
       !dialogue &&

@@ -1,3 +1,4 @@
+import {validDayClock} from './day-clock.js';
 import {validFruitSave} from './fruit-trees.js';
 export const SAVE_KEY = "critz-tycoon.save.v1";
 export const PRE_WORLD_KEY = SAVE_KEY + ".pre-world-2";
@@ -103,6 +104,7 @@ export function startMorning(s, acceptLoan) {
     s.money += 10000;
     s.debt = 10000;
   }
+  s.dayClock={day:1,minute:360,remainder:0};
   s.stage = "morning";
   s.time = 8;
   s.scene = "bedroom";
@@ -378,6 +380,7 @@ function validNumber(n, min, max) {
   return typeof n === "number" && Number.isFinite(n) && n >= min && n <= max;
 }
 export function validateState(s) {
+  if(s?.dayClock!==undefined&&!validDayClock(s.dayClock))return false;
   if (
     !s ||
     s.version !== SCHEMA ||

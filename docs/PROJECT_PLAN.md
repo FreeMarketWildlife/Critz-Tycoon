@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.WA1 — Water/wildlife and world clock
+
+**Implemented, checks passed; publication in progress; awaiting visual review.** User requests animated water, rock turtles, dawn/dusk fish and a Stardew-style clock/daylight cycle at half speed. [Concrete playable review](reviews/M1-WA1/README.md). Adventure clock/sleep rules are implemented; new wildlife pixels remain in a separate review scene before integration. No fee/energy system, save-key change or wider milestone acceptance. Clean release checks:173 unit tests,12 new browser scenarios,17 adventure regressions and independent native art/syntax validation. Next: verified push/publication, then user feedback on appearance and motion.
+
 ## M1.LG2 — Luke greenhouse refinement
 
 **Implemented, tested, pushed and published; awaiting user visual/feel review.** Compact symmetric greenhouse, centered door/four tubs per side, mirrored equipment, saved optional shadow layer, rare ordinary Dorothy, looping golden hopper and hidden1% shiny catches are implemented in the separate review. Clean export passes156 unit tests,19 greenhouse browser checks and17 adventure regressions, plus native-art validation. Preserve LG1 economy/saves and accepted adventure. User praise approves LG1 direction, not new LG2 motion or broader M1/M2 gates. Source `6690add` is pushed; deployment `appgdep_6ac9810bc12481918900fdfbe46781e1` succeeded. Next: user visual/play feedback on the [published greenhouse](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/greenhouse.html); no LG2 publication work remains. [Evidence](reviews/M1-LG2/README.md).

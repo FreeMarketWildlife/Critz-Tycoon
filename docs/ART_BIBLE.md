@@ -1,5 +1,12 @@
 # Critz: Tycoon — art bible
 
+## M1.WA1 — Water/wildlife and Stardew-inspired daylight
+
+User direction2026-10-10: animate water, turtles sliding from rocks on approach, and fish breaching around sunrise/sunset. Original32px native cells, eight-frame moving ripple clusters with wrapped joins; restrained cyan/teal ramps, compact segmented olive shells, cool-gray rocks and silver/teal fish. Source and exported review bank are `art/source/water-wildlife/` and `assets/review/water-wildlife/`. No source-game pixels, blur or filtered resampling. Cast shadows stay on the independently toggleable render layer; material shading is retained. Calm freezes ripples and removes jump/slide motion.
+
+The requested permanent clock supersedes M1.UI2's former time-in-menu-only instruction for this one compact display. Use the upper-right wood/paper date/time/dial/money grouping as reference, with original readable Critz text/icons. Current deliverable uses day numbering and sky phase; do not claim a pixel-exact Stardew HUD, measured native font or existing weather/season simulation. Spring/summer8pm onset and gradually deepening outdoor darkness are reference-documented; warm dusk,6–8am dawn,8–10pm ramp, continuous indoor tint and stepped local lamp pools are proposed Critz treatment. Clock/sleep rules are authorized gameplay, while new wildlife pixels/preview local light remain an explicitly labeled review deliverable. The user alone accepts the new visual/motion result. [Evidence and limits](reviews/M1-WA1/README.md).
+
+
 ## M1.LG2 — compact greenhouse, effect layers and rare fish
 
 User feedback on 2026-10-09 explicitly likes LG1 and asks for this refinement; new LG2 art/motion remains a review deliverable. Use a 13×17 native-cell room (416×544), centered door cell(6,16), three-cell central aisle, four96×64 tubs at x2 and four at x8, rows4/7/10/13. Mirror paired tub planting and pump/airline art. Equipment occupies the outer1×2 cells alongside each tub; crossing rows remain clear. Three display aquariums balance the back wall. Original character/fish assets stay intact.

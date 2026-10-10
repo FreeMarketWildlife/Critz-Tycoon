@@ -932,3 +932,9 @@ footer a {color:#a9c5b0;}
   #shell { grid-template-columns: minmax(0, 1fr) calc(190px + env(safe-area-inset-right)); grid-template-rows: minmax(0, 1fr); }
   #controller { height: 100%; padding: max(8px, env(safe-area-inset-top)) max(10px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) 10px; }
 }
+
+/* Original wood/paper clock, following the reference's upper-right information layout. */
+.day-clock{position:absolute;right:8px;top:8px;z-index:3;width:146px;color:#502d22;background:#f7d99c;border:3px solid #684331;box-shadow:inset 0 0 0 2px #c58c51,2px 2px 0 #342c28;font:13px monospace;pointer-events:none;padding:4px 6px;line-height:1.25}
+.day-clock[hidden]{display:none}.clock-top,.clock-middle{display:flex;align-items:center;justify-content:space-between;gap:5px}.clock-top{border-bottom:2px solid #b27b43;padding-bottom:3px}.clock-middle{padding:5px 0}.clock-wallet{border-top:2px solid #b27b43;text-align:right;padding-top:3px}.clock-dial{width:28px;height:16px;border:2px solid #805438;border-radius:24px 24px 0 0;position:relative;background:#e8b675;overflow:hidden}.clock-dial i{position:absolute;width:2px;height:12px;bottom:0;left:12px;background:#6f3625;transform-origin:bottom;transform:rotate(var(--hand,-90deg))}.day-clock[data-paused=true] [data-clock-time]{color:#74695d}.day-clock[data-late=true]:not([data-paused=true]) [data-clock-time]{color:#ad352e}
+
+.clock-middle strong{white-space:nowrap;font:700 13px monospace;flex-shrink:0}.clock-dial{flex-shrink:0}

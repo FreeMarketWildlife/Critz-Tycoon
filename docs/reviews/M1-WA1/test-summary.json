@@ -1,0 +1,32 @@
+{
+  "unitTests": 173,
+  "unitPassed": 173,
+  "browserScenarios": 12,
+  "syntaxFiles": [
+    "src/main.js",
+    "src/state.js",
+    "src/day-clock.js",
+    "src/water-wildlife.js",
+    "src/lighting.js",
+    "src/audio/cues.js",
+    "art-review/water.js",
+    "tests/water-clock-browser.mjs"
+  ],
+  "unrelatedTrackedFilesPreserved": [
+    "art-review/walking.html",
+    "art-review/walking.js",
+    "art/source/characters-walk-v2/build.mjs",
+    "art/source/playable-characters/README.md",
+    "art/source/playable-characters/build.mjs",
+    "assets/playable/characters/atlas.json",
+    "assets/playable/characters/atlas.png",
+    "docs/CHARACTER_FRAMEWORK.md",
+    "package.json",
+    "scripts/check-walking-atlas.py",
+    "scripts/export-character-walks.py",
+    "scripts/pack-playable-atlas.py",
+    "tests/visual-browser.mjs",
+    "tests/walking-browser.mjs"
+  ],
+  "physicalSafari": "unverified"
+}
