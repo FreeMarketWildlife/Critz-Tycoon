@@ -3,10 +3,10 @@ from PIL import Image,ImageDraw
 from pathlib import Path
 import json
 out=Path('assets/review/water-wildlife');out.mkdir(parents=True,exist_ok=True)
-sheet=Image.new('RGBA',(32*8,32*3));ids=[]
+sheet=Image.new('RGBA',(32*8,32*6));ids=[]
 def emit(im,id):
  n=len(ids);sheet.paste(im,((n%8)*32,(n//8)*32));ids.append({'id':id,'x':(n%8)*32,'y':(n//8)*32,'w':32,'h':32})
-for f in range(8):
+for f in range(32):
  im=Image.new('RGBA',(32,32),'#438e9b');d=ImageDraw.Draw(im)
  for x,y,w in [(1,4,10),(19,19,9),(8,29,6)]:
   for dx,dy,col in [(0,0,'#337886'),(1,1,'#579fa7'),(3,2,'#73b7b8')]:
@@ -35,8 +35,8 @@ for f in range(4):
  im=Image.new('RGBA',(32,32));d=ImageDraw.Draw(im);r=5+f*3
  for x,y,w in [(16-r,20,5),(16+r-4,20,5),(10,18-f,3),(20,15-f*2,2)]:d.rectangle((x,y,x+w-1,y),fill='#b7ded1')
  emit(im,f'splash.{f}')
-sheet.save(out/'atlas.png');(out/'atlas.json').write_text(json.dumps({'image':'atlas.png','frame':32,'assets':ids},indent=2)+'\n')
+sheet.save(out/'atlas.png');(out/'atlas.json').write_text(json.dumps({'image':'atlas.png','frame':32,'assets':ids,'animation':{'water':{'frames':32,'frameSeconds':0.1,'loopSeconds':3.2}}},indent=2)+'\n')
 print(f'{len(ids)} original 32px assets, binary alpha')
 
-frames=[sheet.crop((f*32,0,(f+1)*32,32)) for f in range(8)]
-frames[0].save(out/"water.gif",save_all=True,append_images=frames[1:],duration=180,loop=0,disposal=2)
+frames=[sheet.crop(((f%8)*32,(f//8)*32,(f%8+1)*32,(f//8+1)*32)) for f in range(32)]
+frames[0].save(out/"water.gif",save_all=True,append_images=frames[1:],duration=100,loop=0,disposal=2)

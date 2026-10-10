@@ -1,5 +1,11 @@
 # Visual foundation production plan
 
+## M1.WA2 — Minute clock and tile-based water test
+
+**Implemented and checked; publication in progress; refinement awaits user feedback.** User explicitly likes WA1 and asks to count every minute, use main-game tile walking in the test and keep smooth water loops under ten seconds. [Deliverable](reviews/M1-WA2/README.md). Shared clock text advances every1.4 seconds without changing the 28-minute day or saved v1 representation. Pond imports the actual adventure controller, with whole-cell water/bed blocking and matching walk poses. Native water cycles through32 one-pixel translations at100ms:3.2 seconds including a seamless wrap. All12 wildlife/rock/splash frames remain pixel-identical. No accepted-world wildlife expansion or wider gate approval.
+
+Clean task-only export passes174 unit tests; native44-asset/binary-alpha checks verify32 exact GIF frames and a wrap difference equal to ordinary transitions. Browser report records real minute display, committed walking, shore blocking, turtles, pause, sleep/reload and phone layouts. Physical Safari unverified. Existing character edits are preserved/excluded. Working directly on main from `bd53485`. Exact next action: commit/push task-only changes, publish that tested build through the existing owner-private Site and record verification, then user tries the refinement.
+
 ## M1.WA1 — Water/wildlife and world clock
 
 **Implemented, tested, pushed and published; awaiting visual review.** User requests animated water, rock turtles, dawn/dusk fish and a Stardew-style clock/daylight cycle at half speed. [Concrete playable review](reviews/M1-WA1/README.md). Adventure clock/sleep rules are implemented; new wildlife pixels remain in a separate review scene before integration. No fee/energy system, save-key change or wider milestone acceptance. Clean release checks:173 unit tests,12 new browser scenarios,17 adventure regressions and independent native art/syntax validation. Source `117625d` is published with successful deployment evidence in status. Next: user feedback on appearance and motion; no implementation/publication step remains.

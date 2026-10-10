@@ -1,0 +1,19 @@
+{
+  "passed": [
+    "Phone review loads original native atlas and 6am clock",
+    "Clock visibly advances by individual minutes",
+    "Actual rendered water and dawn fish animate",
+    "Shared committed tile steps trigger the turtle on approach",
+    "Whole pond cells block tile walking without displacement",
+    "Phone dusk and night captured with local illumination",
+    "Calm works and separate shadow toggle persists independently",
+    "Review 2am pass-out returns to bed at 6am; pause holds time",
+    "Early bed sleep advances exactly one day",
+    "Adventure pass-out from forest preserves money, loan, flags and safe bed landing",
+    "Wake dialogue pauses world time",
+    "Bed menu pauses world clock",
+    "Adventure early sleep and reload preserve the new day in the existing v1 slot",
+    "No browser runtime errors"
+  ],
+  "errors": []
+}

@@ -124,3 +124,5 @@ Give the existing loop an emotionally meaningful goal: build a suitable gecko ha
 ## Day-cycle direction — 2026-10-10
 
 Every exploration day begins at6:00am and ends at2:00am. Ten game minutes take14 active real seconds (twice the ordinary Stardew Valley day), for28 minutes excluding pauses. Players may sleep earlier. At2:00am they fall asleep and wake safely at their bed at6:00am, with no fee and no energy mechanic. Keep an on-screen clock. Animated water, proximity turtles sliding off rocks and dawn/dusk fish breaches are requested ambient life; new artwork remains subject to visual review. Reference Stardew’s gradual lighting while preserving Critz’s original pixels and compassionate story.
+
+Clock display refinement, 2026-10-10: show every individual minute at 1.4 real seconds per game minute, keeping the existing 28-minute day and 6am/2am rules.

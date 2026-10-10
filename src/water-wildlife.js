@@ -1,3 +1,4 @@
+export const WATER_FRAMES=32,WATER_FRAME_SECONDS=.1,WATER_LOOP_SECONDS=WATER_FRAMES*WATER_FRAME_SECONDS;
 // Review-only ecology: no adventure state or collision mutations.
 export const fishWindow=minute=>(minute>=360&&minute<480)||(minute>=1080&&minute<1200);
 export function createTurtle(x,y){return {x,y,phase:'basking',age:0};}

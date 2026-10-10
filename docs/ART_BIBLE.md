@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## M1.WA2 — User-liked water study refinement
+
+On 2026-10-10 the user says “I love it!!!!” about the published WA1 study and requests minute-by-minute clock text, the main game's tile-based walking in the test, and smooth water loops no longer than ten seconds. Preserve the liked water palette and all twelve rock/turtle/fish/splash sprites pixel-exact. Replace the eight-frame partial translation (which jumped back at its wrap) with a complete 32-position toroidal translation, one native pixel per 100ms frame: **3.2 seconds**, including the final-to-first step. Keep native hard pixels and nearest-neighbor rendering; smooth motion does not mean softened artwork. Calm still freezes water. Reuse `src/movement.js` for committed steps, turn/blocked behavior and walking poses; whole water and bed cells remain solid. Clock display derives individual minutes from the existing fractional saved clock, retaining the same 28-minute day and v1 representation. Praise records the liked WA1 direction; the new animation refinement awaits user feedback and does not approve wider M1/M2 or authorize unrelated world integration.
+
 ## M1.WA1 — Water/wildlife and Stardew-inspired daylight
 
 User direction2026-10-10: animate water, turtles sliding from rocks on approach, and fish breaching around sunrise/sunset. Original32px native cells, eight-frame moving ripple clusters with wrapped joins; restrained cyan/teal ramps, compact segmented olive shells, cool-gray rocks and silver/teal fish. Source and exported review bank are `art/source/water-wildlife/` and `assets/review/water-wildlife/`. No source-game pixels, blur or filtered resampling. Cast shadows stay on the independently toggleable render layer; material shading is retained. Calm freezes ripples and removes jump/slide motion.

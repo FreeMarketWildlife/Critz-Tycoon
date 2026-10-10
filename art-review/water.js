@@ -1,23 +1,26 @@
+import {createMotion,getMotionView,advanceMotion,createMotionClock,advanceMotionClock,resetMotionClock} from '../src/movement.js';
 import {initWorldArt,character} from '../src/render.js';
 import {drawEnvironmentTile} from '../src/environment-render.js';
 import {createState} from '../src/state.js';
-import {ensureDayClock,advanceDayClock,endDay,paintClock} from '../src/day-clock.js';
+import {ensureDayClock,advanceDayClock,endDay,paintClock,displayedMinute} from '../src/day-clock.js';
 import {applyLighting} from '../src/lighting.js';
-import {loadWaterArt,createTurtle,updateTurtle,turtleOffset,fishPose} from '../src/water-wildlife.js';
+import {WATER_FRAMES,WATER_FRAME_SECONDS,loadWaterArt,createTurtle,updateTurtle,turtleOffset,fishPose} from '../src/water-wildlife.js';
 import {readRenderSettings,saveRenderSettings} from '../src/render-settings.js';
 const canvas=document.querySelector('#pond'),c=canvas.getContext('2d'),state=createState('Hero','boy','River');state.stage='morning';ensureDayClock(state);
-const hero={x:96,y:250,facing:'up'},turtles=[createTurtle(176,176),createTurtle(336,240)],down=new Set(),renderSettings=readRenderSettings(localStorage);
+let player={x:2,y:7,facing:'up'},motion=createMotion(player);const motionClock=createMotionClock();
+const hero={x:80,y:256,facing:'up'},turtles=[createTurtle(176,176),createTurtle(336,240)],down=new Set(),renderSettings=readRenderSettings(localStorage);
 let time=0,last=performance.now(),paused=false,speed=1,calm=matchMedia('(prefers-reduced-motion: reduce)').matches,draw,ready=false;
 const $=id=>document.getElementById(id),message=s=>$('message').textContent=s;
 function water(x,y){return x>=4&&x<=11&&y>=4&&y<=8&&!((x===4||x===11)&&y===4);}
-function walkable(x,y){return x>=16&&x<=464&&y>=48&&y<=310&&!water(Math.floor(x/32),Math.floor((y-1)/32))&&!(x>=64&&x<96&&y>64&&y<106);}
-function sleep(forced=false){if(!forced&&Math.hypot(hero.x-80,hero.y-108)>55){message('Walk beside the bed in the upper-left corner first.');return;}endDay(state);speed=1;$('speed').textContent='Speed · 1×';Object.assign(hero,{x:80,y:112,facing:'down'});message(forced?'You fell asleep at 2:00am and woke safely in bed at 6:00am. No fee.':'Good morning! You woke in bed at 6:00am.');}
+function walkable(x,y){return x>=0&&x<15&&y>=1&&y<10&&!water(x,y)&&!(x===2&&(y===2||y===3));}
+function syncHero(){const v=getMotionView(motion);Object.assign(hero,{x:v.x*2+16,y:v.y*2+32,facing:v.facing});return v;}
+function sleep(forced=false){if(!forced&&Math.hypot(hero.x-80,hero.y-108)>55){message('Walk beside the bed in the upper-left corner first.');return;}endDay(state);speed=1;$('speed').textContent='Speed · 1×';player={x:2,y:4,facing:'down'};motion=createMotion(player);resetMotionClock(motionClock);down.clear();syncHero();message(forced?'You fell asleep at 2:00am and woke safely in bed at 6:00am. No fee.':'Good morning! You woke in bed at 6:00am.');}
 for(const button of document.querySelectorAll('[data-dir]')){button.onpointerdown=e=>{e.preventDefault();button.setPointerCapture(e.pointerId);down.add(button.dataset.dir);};button.onpointerup=button.onpointercancel=()=>down.delete(button.dataset.dir);}
 const keys={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right'};
 addEventListener('keydown',e=>{if(keys[e.key]&&e.target.tagName!=='INPUT'){e.preventDefault();down.add(keys[e.key]);}if(e.key.toLowerCase()==='a')sleep();});addEventListener('keyup',e=>down.delete(keys[e.key]));
-function clear(){down.clear();last=performance.now();}addEventListener('blur',clear);document.addEventListener('visibilitychange',clear);
+function clear(){down.clear();last=performance.now();resetMotionClock(motionClock);}addEventListener('blur',clear);document.addEventListener('visibilitychange',clear);
 $('sleep').onclick=()=>sleep();$('pause').onclick=()=>{paused=!paused;$('pause').textContent=paused?'Resume':'Pause';};$('speed').onclick=()=>{speed=speed===1?60:1;$('speed').textContent=`Speed · ${speed}×`;};
-function setTime(value){state.dayClock.minute=Number(value);state.dayClock.remainder=0;}
+function setTime(value){const m=Number(value);state.dayClock.minute=Math.floor(m/10)*10;state.dayClock.remainder=(m%10)*1.4;}
 for(const b of document.querySelectorAll('[data-minute]'))b.onclick=()=>setTime(b.dataset.minute);$('time').oninput=e=>setTime(e.target.value);
 $('calm').onclick=()=>{calm=!calm;$('calm').textContent=`Calm · ${calm?'On':'Off'}`;};$('calm').textContent=`Calm · ${calm?'On':'Off'}`;
 function showShadows(){$('shadows').textContent=`Shadows · ${renderSettings.shadows?'On':'Off'}`;}showShadows();$('shadows').onclick=()=>{renderSettings.shadows=!renderSettings.shadows;try{saveRenderSettings(localStorage,renderSettings);}catch{message('Shadow preference could not be saved.');}showShadows();};
@@ -26,7 +29,7 @@ const shadow=document.createElement('canvas');shadow.width=480;shadow.height=320
 function render(){c.imageSmoothingEnabled=false;
  for(let y=0;y<10;y++)for(let x=0;x<15;x++){
   drawEnvironmentTile(c,'meadow.grass.0',x*32,y*32);
-  if(water(x,y)){draw(c,`water.${calm?0:Math.floor(time/.18)%8}`,x*32,y*32);
+  if(water(x,y)){draw(c,`water.${calm?0:Math.floor(time/WATER_FRAME_SECONDS)%WATER_FRAMES}`,x*32,y*32);
    c.fillStyle='#a2ae70';if(!water(x,y-1))c.fillRect(x*32,y*32,32,3);if(!water(x-1,y))c.fillRect(x*32,y*32,3,32);c.fillStyle='#37666c';if(!water(x,y+1))c.fillRect(x*32,y*32+29,32,3);if(!water(x+1,y))c.fillRect(x*32+29,y*32,3,32);
   }
  }
@@ -34,16 +37,16 @@ function render(){c.imageSmoothingEnabled=false;
  c.fillStyle='#503f38';c.fillRect(62,62,36,46);c.fillStyle='#c89665';c.fillRect(64,64,32,40);c.fillStyle='#ded8b9';c.fillRect(67,66,26,9);c.fillStyle='#629699';c.fillRect(66,77,28,25);c.fillStyle='#84b9b0';c.fillRect(68,78,24,5);
  sc.clearRect(0,0,480,320);if(renderSettings.shadows){sc.fillStyle='#17343a';sc.fillRect(Math.round(hero.x)-8,Math.round(hero.y)-2,16,3);for(const t of turtles)sc.fillRect(t.x-10,t.y+8,24,5);c.save();c.globalAlpha=.25;c.drawImage(shadow,0,0);c.restore();}
  for(const t of turtles){draw(c,'rock',t.x-16,t.y-16);const v=calm?{x:0,y:0,visible:!(['sliding','submerged'].includes(t.phase))}:turtleOffset(t);if(v.visible){c.save();c.translate(t.x+v.x,t.y+v.y);c.rotate(Math.PI/2);draw(c,`turtle.${calm?0:Math.floor(t.age*8)%4}`,-16,-16);c.restore();}if(t.phase==='submerged'&&t.age<.8&&!calm)draw(c,`splash.${Math.min(3,Math.floor(t.age*5))}`,t.x+6,t.y-3);}
- for(let i=0;i<3;i++){const p=fishPose(time,i,state.dayClock.minute,calm);if(p){const x=197+i*42+p.x,y=210+p.y;draw(c,`fish.${p.frame}`,x,y);if(p.splash)draw(c,'splash.2',x,210);}}
- character(c,Math.round(hero.x),Math.round(hero.y),{gender:'boy',facing:hero.facing,pose:down.size&&!calm?['strideA','idle','strideB','idle'][Math.floor(time*7)%4]:'idle'});
+ for(let i=0;i<3;i++){const p=fishPose(time,i,displayedMinute(state.dayClock),calm);if(p){const x=197+i*42+p.x,y=210+p.y;draw(c,`fish.${p.frame}`,x,y);if(p.splash)draw(c,'splash.2',x,210);}}
+ character(c,Math.round(hero.x),Math.round(hero.y),{gender:'boy',facing:hero.facing,pose:calm?'idle':getMotionView(motion).pose});
  applyLighting(c,state);
  // Local night illumination: hard-pixel concentric rings, separate from cast shadows.
- const h=state.dayClock.minute/60;if(h>=20){c.save();for(let r=42;r>=10;r-=8){c.fillStyle='rgba(255,204,116,.045)';for(let yy=-r;yy<=r;yy+=2){const w=Math.floor(Math.sqrt(r*r-yy*yy));c.fillRect(80-w,84+yy,w*2,2);}}c.restore();}
- paintClock($('day-clock'),state,paused);if(document.activeElement!==$('time'))$('time').value=state.dayClock.minute;
+ const h=displayedMinute(state.dayClock)/60;if(h>=20){c.save();for(let r=42;r>=10;r-=8){c.fillStyle='rgba(255,204,116,.045)';for(let yy=-r;yy<=r;yy+=2){const w=Math.floor(Math.sqrt(r*r-yy*yy));c.fillRect(80-w,84+yy,w*2,2);}}c.restore();}
+ paintClock($('day-clock'),state,paused);if(document.activeElement!==$('time'))$('time').value=displayedMinute(state.dayClock);
 }
-function frame(now){const dt=Math.min(.1,Math.max(0,(now-last)/1000));last=now;if(ready&&!document.hidden){if(!paused&&document.hasFocus()){
- time+=dt;const direction=['up','down','left','right'].find(d=>down.has(d));if(direction){hero.facing=direction;const dx=direction==='left'?-1:direction==='right'?1:0,dy=direction==='up'?-1:direction==='down'?1:0;const x=hero.x+dx*70*dt,y=hero.y+dy*70*dt;if(walkable(x,y))Object.assign(hero,{x,y});}
+function frame(now){const elapsed=Math.max(0,(now-last)/1000),dt=Math.min(.1,elapsed);last=now;if(ready&&!document.hidden){if(!paused&&document.hasFocus()){
+ time+=dt;advanceMotionClock(motionClock,elapsed,()=>advanceMotion(motion,down,false,walkable,{runAllowed:true}));syncHero();
  for(const t of turtles)updateTurtle(t,hero,dt,{calm});if(advanceDayClock(state,dt*speed))sleep(true);
- }render();}requestAnimationFrame(frame);}
+ }else resetMotionClock(motionClock);render();}requestAnimationFrame(frame);}
 try{await initWorldArt();draw=await loadWaterArt();ready=true;requestAnimationFrame(frame);}catch(e){message(`Artwork could not load: ${e.message}`);}
-export function getWaterReview(){return structuredClone({state,hero,turtles,time,paused,speed,calm,shadows:renderSettings.shadows,ready});}
+export function getWaterReview(){return structuredClone({state,hero,player,movement:getMotionView(motion),turtles,time,paused,speed,calm,shadows:renderSettings.shadows,ready});}
