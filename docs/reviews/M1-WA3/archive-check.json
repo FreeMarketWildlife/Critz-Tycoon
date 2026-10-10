@@ -1,0 +1,12 @@
+{
+  "commit": "cc4651497e8a9700c811a959bc8f7b2def608fbc",
+  "buildContentFiles": 1996,
+  "allBuildBytesMatch": true,
+  "noAppleDoubleFiles": true,
+  "onlyAdditionalFile": "dist/.openai/hosting.json",
+  "archiveSHA256": "27cde35e46f2b5b88743b684b55b6463b10f1f2e84c798fd1d791b6de6d3a9f7",
+  "finalReleaseUnitTests": 179,
+  "finalReleaseBrowserScenarios": 40,
+  "concurrentCommitPreserved": "8f4b9b8cf6ae188a4922a0e831adcc3dc5515481",
+  "initialProofCorrection": "Expected normalized manifest at archive root; helper places it inside dist. All content bytes matched in both checks."
+}
