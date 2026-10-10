@@ -1,0 +1,13 @@
+{
+  "openingCommit": "c1bd202cba9ece44a4aea629c99d454aa040cb42",
+  "unitTests": 175,
+  "contactBrowserScenarios": 15,
+  "directControllerComparisonTicks": 3000,
+  "collisionStressTicks": 30000,
+  "testedRuntimeFiles": 891,
+  "syntax": "passed",
+  "reviewAssetsAndGameController": "unchanged",
+  "syntheticSavePreservation": "passed",
+  "physicalSafariAndVibration": "unverified",
+  "userApproval": "Liked test direction; A\u2013D fraction pending"
+}

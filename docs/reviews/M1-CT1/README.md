@@ -1,5 +1,7 @@
 # M1.CT1 — Transition-tile contact lab
 
+**Superseded movement:** [M1.CT2](../M1-CT2/README.md) now uses the actual main-game tile controller exclusively. Fine-approach measurements and controls below are retained as historical study notes.
+
 Playable comparison: https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/contact-lab/
 
 **Awaiting user visual/feel review.** This is a separate review environment, not a replacement for accepted adventure movement or Map Studio collision. It uses the selected Black child Hero, existing native house/stone/wall art, and no adventure or editor storage. Canonical terminology and art direction live in [ART_BIBLE.md](../../ART_BIBLE.md#transition-tile-contact-study--m1ct1-user-correction); AGENTS links there.
