@@ -4,6 +4,10 @@
 
 For every art-asset task, read and follow [docs/ART_BIBLE.md](docs/ART_BIBLE.md), the single source of art direction. Keep specifications and lessons there; do not duplicate pixel budgets, proportions, reference interpretations or presentation rules in this file. The user's latest instructions take precedence.
 
+## Shared terminology
+
+Use the canonical [transition-tile glossary and contact rules](docs/ART_BIBLE.md#transition-tile-contact-study--m1ct1-user-correction): transition tile, surface transition, collision transition, cliff, ledge, ground footprint and overhead projection. Keep definitions and art specifications there.
+
 ## Project workflow
 
 - Work directly on `main`. Do not create development branches or worktrees. Inspect existing branches/PRs when locating prior work; do not delete or manually close them as a side effect.

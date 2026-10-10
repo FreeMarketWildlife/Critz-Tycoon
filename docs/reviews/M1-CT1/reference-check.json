@@ -1,0 +1,203 @@
+{
+  "repository": "pret/pokeemerald",
+  "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "method": "source inspection and native metatile reconstruction; not emulator observation",
+  "verifiedMapWords": [
+    {
+      "map": "LittlerootTown",
+      "cell": [
+        3,
+        8
+      ],
+      "word": "063A",
+      "metatile": "23A",
+      "collision": 1,
+      "elevation": 0
+    },
+    {
+      "map": "LittlerootTown",
+      "cell": [
+        4,
+        8
+      ],
+      "word": "0638",
+      "metatile": "238",
+      "collision": 1,
+      "elevation": 0
+    },
+    {
+      "map": "LittlerootTown",
+      "cell": [
+        5,
+        8
+      ],
+      "word": "0648",
+      "metatile": "248",
+      "collision": 1,
+      "elevation": 0
+    },
+    {
+      "map": "LittlerootTown_BrendansHouse_2F",
+      "cell": [
+        2,
+        1
+      ],
+      "word": "0655",
+      "metatile": "255",
+      "collision": 1,
+      "elevation": 0
+    },
+    {
+      "map": "LittlerootTown_BrendansHouse_2F",
+      "cell": [
+        2,
+        2
+      ],
+      "word": "3278",
+      "metatile": "278",
+      "collision": 0,
+      "elevation": 3
+    },
+    {
+      "map": "Route101",
+      "cell": [
+        7,
+        6
+      ],
+      "word": "0487",
+      "metatile": "087",
+      "collision": 1,
+      "elevation": 0
+    },
+    {
+      "map": "Route111",
+      "cell": [
+        10,
+        108
+      ],
+      "word": "30D3",
+      "metatile": "0D3",
+      "collision": 0,
+      "elevation": 3
+    },
+    {
+      "map": "Route103",
+      "cell": [
+        23,
+        12
+      ],
+      "word": "30D4",
+      "metatile": "0D4",
+      "collision": 0,
+      "elevation": 3
+    },
+    {
+      "map": "Route103",
+      "cell": [
+        58,
+        4
+      ],
+      "word": "0479",
+      "metatile": "079",
+      "collision": 1,
+      "elevation": 0
+    }
+  ],
+  "sourceFileSHA256": {
+    "data/layouts/LittlerootTown/map.bin": "9bc2d52ac0f515a2af3a12483e3913aee3948531f91ca0547513f53ce92acf9d",
+    "data/layouts/LittlerootTown_BrendansHouse_2F/map.bin": "112f73b62a84f4d870b45dc8c90918fc74851bf7643628cf70a229588a21b02c",
+    "data/layouts/PetalburgCity/map.bin": "7650c43cd3a8a235c102e647f3937fd42c75cdb14fd264b3bc46b85f2385d3fd",
+    "data/layouts/Route101/map.bin": "134cf07849968c1b3415df2205e5ba771cb26ba5484cc5d78a1e8d76e52f12ed",
+    "data/layouts/Route102/map.bin": "0bdc71923970bbe8ddaa3bc5793ffbaea0e79c7d08ff14b7aff7ec559570778c",
+    "data/layouts/Route103/map.bin": "e9acf129a6fc0bef6755e6be721887ddcddeb69fe968289d98135e9195a3d837",
+    "data/layouts/Route111/map.bin": "d25bb04ec8a68b82f4af9808974187335c67c17443b0b97c46296bd6f2abfd2a",
+    "data/layouts/Route112/map.bin": "f47781dfb67f0661cf8665c39fe7b6d41cde4a59db5652093336a9029dca10d3",
+    "data/layouts/Route114/map.bin": "2b2c0d6a1bc47c172448db6a9231522d5716d5272ac827dd0fbd23f9798d88d7",
+    "data/layouts/Route115/map.bin": "5c7cc1c25391885af12d40f67c08e2cb04a9984bf2b7d9a604855d1e85ba10fc",
+    "data/layouts/Route116/map.bin": "c38a1213697a4029db23ead73551a25a5cff0a32460bf422f4bc4378f854a9c8",
+    "data/layouts/Route119/map.bin": "f6c948a0fb90925afce408b4bf1742ba56e9e6c95ffb899a348d563d1ba5f47d",
+    "data/layouts/Route120/map.bin": "5a05035e557bc5aa82a66e5817708a6e4d280731938f6b2840eef3a90cae4818",
+    "data/layouts/Route121/map.bin": "d12a569334aa635dcedd83b2ffb19ea49b034a26ad57aa21a6383c84122e4efa",
+    "data/layouts/layouts.json": "5ac58ee1072862c937f82121a931b3315ccca3b5ae807f2a28a0e273957c2e4f",
+    "data/tilesets/primary/building/metatile_attributes.bin": "7a153a1748dc4bd03e621acad6c6b7e90c2d3acfc467a928ad23d21f34e73128",
+    "data/tilesets/primary/building/metatiles.bin": "65e40fece49f8ed09a82b33c3d590716d9740581f087acd1359665331e4683f1",
+    "data/tilesets/primary/building/palettes/00.pal": "6008920965897f0fe9e901ab795aacb4c6a6869ea300db6cfb6411da42f750ee",
+    "data/tilesets/primary/building/palettes/01.pal": "88bf97cf6eca47f21bbf0859fccc60172fc09fd715eb3d9266b8a9d4af715e72",
+    "data/tilesets/primary/building/palettes/02.pal": "b2290ff85f9e19b2b55cf306b381c1e5a927d6efa3de416bcc02132ba78dc8c1",
+    "data/tilesets/primary/building/palettes/03.pal": "b2290ff85f9e19b2b55cf306b381c1e5a927d6efa3de416bcc02132ba78dc8c1",
+    "data/tilesets/primary/building/palettes/04.pal": "b2290ff85f9e19b2b55cf306b381c1e5a927d6efa3de416bcc02132ba78dc8c1",
+    "data/tilesets/primary/building/palettes/05.pal": "b81a37f041aeb04428ce37ad1f7a7a476cdc822f534a4cda12f360c4ca5d0a58",
+    "data/tilesets/primary/building/palettes/06.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/building/palettes/07.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/building/palettes/08.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/building/palettes/09.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/building/palettes/10.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/building/palettes/11.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/building/palettes/12.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/building/tiles.png": "355d5dc8625e332ceb34cbe685092d96540ece0b7a39293e493d27c02b6db300",
+    "data/tilesets/primary/general/metatile_attributes.bin": "06c9548a6c70d133b6d47638090f5d36f3fec92aace3d90deca758a4404cfa9b",
+    "data/tilesets/primary/general/metatiles.bin": "17974b0ba1bb9d105d5ba255c69a3b80d8484a26ea0b8ff22c6c6567c6c22910",
+    "data/tilesets/primary/general/palettes/00.pal": "424a32d1079a61b6b9b4f1e879dd68108708905e8312d18edd134af3918407fd",
+    "data/tilesets/primary/general/palettes/01.pal": "9b9d01878137cef9ea6006c3025a3ada5cdf37d9c251b25bc95f71963bd9a447",
+    "data/tilesets/primary/general/palettes/02.pal": "8a469b137e6fc97823ab46b903c0ab80c466212cd430340586ccde22afbee949",
+    "data/tilesets/primary/general/palettes/03.pal": "821f0a62f0ce995c96e9eaa0b4a32a1cd61e4db1f3216bfbe1fd588cf33b7583",
+    "data/tilesets/primary/general/palettes/04.pal": "f99602126046eed3f20545a34ddd46fa6e5fcb96f032b410fa8d5251c7450e22",
+    "data/tilesets/primary/general/palettes/05.pal": "53b599be1554c4e1a0684f2339409ee4032ac8507696dae1836a10152f925177",
+    "data/tilesets/primary/general/palettes/06.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/general/palettes/07.pal": "75869eaa61747c23984c7f76735cfa77e3950d663ad9cc9dc6ad751210442bd0",
+    "data/tilesets/primary/general/palettes/08.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/general/palettes/09.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/general/palettes/10.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/general/palettes/11.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/general/palettes/12.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/primary/general/tiles.png": "365ba5482e7564763e614a0009900d1c317790dcd9f7a06c4ab74c363a3ba2f5",
+    "data/tilesets/secondary/brendans_mays_house/metatile_attributes.bin": "710964e6bc7bca3e5b5f8ca6f93ece30f14a73151a353fa9eb66e83374d1e45d",
+    "data/tilesets/secondary/brendans_mays_house/metatiles.bin": "870b0c4007f756831addb725a838c46cb2f3bdbbd1dc150ed7653efa6a0e2b3c",
+    "data/tilesets/secondary/brendans_mays_house/palettes/00.pal": "eefcc5a2939969fdd922349f32473897493c1f8fb6803568052f72bc0fe7baea",
+    "data/tilesets/secondary/brendans_mays_house/palettes/01.pal": "23b50b24a416100e22acb306d9343963856dc197bf0e83b3d583e4ffd96ac6f2",
+    "data/tilesets/secondary/brendans_mays_house/palettes/02.pal": "92fbc5796d89cb1b826ea38aea0b283144fed933cd334eb3b5cdbb8a3453277b",
+    "data/tilesets/secondary/brendans_mays_house/palettes/03.pal": "92fbc5796d89cb1b826ea38aea0b283144fed933cd334eb3b5cdbb8a3453277b",
+    "data/tilesets/secondary/brendans_mays_house/palettes/04.pal": "92fbc5796d89cb1b826ea38aea0b283144fed933cd334eb3b5cdbb8a3453277b",
+    "data/tilesets/secondary/brendans_mays_house/palettes/05.pal": "b81a37f041aeb04428ce37ad1f7a7a476cdc822f534a4cda12f360c4ca5d0a58",
+    "data/tilesets/secondary/brendans_mays_house/palettes/06.pal": "858ac96cd45b1d1863fb7f6bc9451b07862e2ffdf2c4a9df175c428207a15d3d",
+    "data/tilesets/secondary/brendans_mays_house/palettes/07.pal": "de1b2721fa068f1813877e02c55d9e46d49f6b268ed62df50558336d66ec8195",
+    "data/tilesets/secondary/brendans_mays_house/palettes/08.pal": "eccdfe12b4478c57d1b9fcde17fe4997a094d6206398500e6c665a85897d7e48",
+    "data/tilesets/secondary/brendans_mays_house/palettes/09.pal": "08998aa3f516c3b705ff21a619f9eec7bed8dd4b808458a17a4126de63d6bc37",
+    "data/tilesets/secondary/brendans_mays_house/palettes/10.pal": "3f8794c8a04a3c9b8b40498146d3ffec1cef849f01e4c4c33eb1e11444e6d91b",
+    "data/tilesets/secondary/brendans_mays_house/palettes/11.pal": "da1c8053b701c2d151ec7203232cb8cd4b23340c41a10db116d468bd83d223ac",
+    "data/tilesets/secondary/brendans_mays_house/palettes/12.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/secondary/brendans_mays_house/tiles.png": "e4eaa7a79f39e265dbc11a0c403c345cae13257a60183194b295cb2f668f1555",
+    "data/tilesets/secondary/lavaridge/metatile_attributes.bin": "ef2ec94a84b2f49701f265ac320596f0bec8835d90bc0a5657c607cdb792e578",
+    "data/tilesets/secondary/lavaridge/metatiles.bin": "a8302e5167fae8e69db4532a983f710f4cbfb669eb23aa1df59b5e2a39212e10",
+    "data/tilesets/secondary/lavaridge/palettes/00.pal": "cf32df15fe12fd5505797af1612354bb0ed37e41637facb469c8edb7b637d4f2",
+    "data/tilesets/secondary/lavaridge/palettes/01.pal": "5b9802c15fe11b3f54609544cd26a9bbc28a1b49fdc2170bead290fca71162dc",
+    "data/tilesets/secondary/lavaridge/palettes/02.pal": "ecf5eab14e3a40c6bf469cfc820e3a98d0f7bcfc67864ea590ad22a3d7a08e94",
+    "data/tilesets/secondary/lavaridge/palettes/03.pal": "b9be53365e8f7f7feab9a9e8206d0a61cfbebc6c730386e693e0db2701a7c2ce",
+    "data/tilesets/secondary/lavaridge/palettes/04.pal": "4eec65ff49b3e57533a67286d8b2200a4a656b84315b8f3b9611d5dd2d3718f3",
+    "data/tilesets/secondary/lavaridge/palettes/05.pal": "f0df52948967d1bb224bf62d8a5c6cac7663ef554ad2e4c3f356a0c4419f7096",
+    "data/tilesets/secondary/lavaridge/palettes/06.pal": "c5080fd03578edb794cb3fa113a8c40479fab4b4fb9ea62b0a0fff70756f8375",
+    "data/tilesets/secondary/lavaridge/palettes/07.pal": "cf7c2af72852858fe0f449e5a2c08af86c034935400221bef0558cb95a9a148f",
+    "data/tilesets/secondary/lavaridge/palettes/08.pal": "74a2d349779b5c9df74a65934cdadf1c7c7bf96855cf554f28b53cff072b3d99",
+    "data/tilesets/secondary/lavaridge/palettes/09.pal": "3c8715f8f6d03854f84fd3079b8b867b9b516932787e2e36ba3876e61040d947",
+    "data/tilesets/secondary/lavaridge/palettes/10.pal": "07de3297d87771bd020934abf615e772603724239eadf64f9d83e78bf0b74fce",
+    "data/tilesets/secondary/lavaridge/palettes/11.pal": "70d6e31b33183da2d4bc57c16571a6b56866c108f4bf89ba72074a4d67ae8ca7",
+    "data/tilesets/secondary/lavaridge/palettes/12.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/secondary/lavaridge/tiles.png": "fa144501b1ef85bd26f45480852bbb793433e88706b6a577bffb7974262dec4d",
+    "data/tilesets/secondary/petalburg/metatile_attributes.bin": "045a3b309c661c87a7704a8ae90d01d24d4532d853b84c730460fe176702ccd7",
+    "data/tilesets/secondary/petalburg/metatiles.bin": "3f2e021f25bc0ed6130956d70de833e874191349bc761188dbb716f32d8d7bae",
+    "data/tilesets/secondary/petalburg/palettes/00.pal": "13f8977e61df1e7ee8f8e3abcf9525256bbf32834b521360418659133df2d2fa",
+    "data/tilesets/secondary/petalburg/palettes/01.pal": "9b9d01878137cef9ea6006c3025a3ada5cdf37d9c251b25bc95f71963bd9a447",
+    "data/tilesets/secondary/petalburg/palettes/02.pal": "8a469b137e6fc97823ab46b903c0ab80c466212cd430340586ccde22afbee949",
+    "data/tilesets/secondary/petalburg/palettes/03.pal": "40d2c14ba666d5ae8f46ae3c7486acd216805d6f16c7dcb87881d7d30833e13c",
+    "data/tilesets/secondary/petalburg/palettes/04.pal": "57274f87862513432500d0b28023cfe13a083019bd4fba2600fa5eae9a1d87fb",
+    "data/tilesets/secondary/petalburg/palettes/05.pal": "53b599be1554c4e1a0684f2339409ee4032ac8507696dae1836a10152f925177",
+    "data/tilesets/secondary/petalburg/palettes/06.pal": "d87b98739f316e00a302ce483e85fcab50564c7707f73a49832b5ecc00ceb92a",
+    "data/tilesets/secondary/petalburg/palettes/07.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/secondary/petalburg/palettes/08.pal": "cbf1a17ec18cbdc3c1816dbf2597fef479ddd3d1abe5763b123d837d815e5305",
+    "data/tilesets/secondary/petalburg/palettes/09.pal": "27ca5a076a1d6695fddd3df9a6267c798d0092be3361c4d91d39e65246965dcb",
+    "data/tilesets/secondary/petalburg/palettes/10.pal": "4a5ee3fc3b30dacb8a43fb3f39d96bb9bf0b91a006d976e25bdd274f8e73da79",
+    "data/tilesets/secondary/petalburg/palettes/11.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/secondary/petalburg/palettes/12.pal": "226f0ddc9a6d3b26b78e138333dfde67d39aa7ac95a257e9e53c766fb6035675",
+    "data/tilesets/secondary/petalburg/tiles.png": "5f7427dfdd227f6f048b5ee9aa167144672a228dbc5bd25a84a6e348d62429d9"
+  }
+}

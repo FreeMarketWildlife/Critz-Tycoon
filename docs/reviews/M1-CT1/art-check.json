@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "assemblies": 48,
+  "transition_cells": 240,
+  "checks": [
+    "source master SHA matches",
+    "native dimensions and binary alpha",
+    "transparent top padding",
+    "exact ground bands for all four surfaces",
+    "sheet cells equal fixture transition rows",
+    "all opaque original house pixels preserved",
+    "structure translations retain native pixels across A\u2013D",
+    "all 16 Hero lower-foot bands fit the 22\u00d78 collision footprint"
+  ]
+}

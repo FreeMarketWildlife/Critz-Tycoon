@@ -1,0 +1,3611 @@
+{
+  "format": "critz-contact-lab-v1",
+  "approval": "User comparison required; no gameplay replacement",
+  "method": "Native source translated in fixed padded frame; full collision cell unchanged",
+  "sourceMasterSHA256": "cbcd7d93cde3ec3828082ac4c942bffa51937b2e58d5232ca7a3c39fb0ae605a",
+  "assets": [
+    {
+      "id": "house-grass-A",
+      "image": "house-grass-A.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-path-A",
+      "image": "house-path-A.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-paving-A",
+      "image": "house-paving-A.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-wood-A",
+      "image": "house-wood-A.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "wall-grass-A",
+      "image": "wall-grass-A.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-path-A",
+      "image": "wall-path-A.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-paving-A",
+      "image": "wall-paving-A.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-wood-A",
+      "image": "wall-wood-A.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "cliff-grass-A",
+      "image": "cliff-grass-A.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-path-A",
+      "image": "cliff-path-A.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-paving-A",
+      "image": "cliff-paving-A.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-wood-A",
+      "image": "cliff-wood-A.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 8,
+      "groundRows": 24,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        8
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "house-grass-B",
+      "image": "house-grass-B.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-path-B",
+      "image": "house-path-B.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-paving-B",
+      "image": "house-paving-B.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-wood-B",
+      "image": "house-wood-B.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "wall-grass-B",
+      "image": "wall-grass-B.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-path-B",
+      "image": "wall-path-B.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-paving-B",
+      "image": "wall-paving-B.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-wood-B",
+      "image": "wall-wood-B.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "cliff-grass-B",
+      "image": "cliff-grass-B.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-path-B",
+      "image": "cliff-path-B.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-paving-B",
+      "image": "cliff-paving-B.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-wood-B",
+      "image": "cliff-wood-B.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 16,
+      "groundRows": 16,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        16
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "house-grass-C",
+      "image": "house-grass-C.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-path-C",
+      "image": "house-path-C.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-paving-C",
+      "image": "house-paving-C.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-wood-C",
+      "image": "house-wood-C.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "wall-grass-C",
+      "image": "wall-grass-C.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-path-C",
+      "image": "wall-path-C.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-paving-C",
+      "image": "wall-paving-C.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-wood-C",
+      "image": "wall-wood-C.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "cliff-grass-C",
+      "image": "cliff-grass-C.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-path-C",
+      "image": "cliff-path-C.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-paving-C",
+      "image": "cliff-paving-C.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-wood-C",
+      "image": "cliff-wood-C.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 24,
+      "groundRows": 8,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        24
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "house-grass-D",
+      "image": "house-grass-D.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-path-D",
+      "image": "house-path-D.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-paving-D",
+      "image": "house-paving-D.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "house-wood-D",
+      "image": "house-wood-D.png",
+      "size": [
+        160,
+        192
+      ],
+      "baseRow": 160,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        160
+      ]
+    },
+    {
+      "id": "wall-grass-D",
+      "image": "wall-grass-D.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-path-D",
+      "image": "wall-path-D.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-paving-D",
+      "image": "wall-paving-D.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "wall-wood-D",
+      "image": "wall-wood-D.png",
+      "size": [
+        160,
+        96
+      ],
+      "baseRow": 64,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        64
+      ]
+    },
+    {
+      "id": "cliff-grass-D",
+      "image": "cliff-grass-D.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-path-D",
+      "image": "cliff-path-D.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-paving-D",
+      "image": "cliff-paving-D.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    },
+    {
+      "id": "cliff-wood-D",
+      "image": "cliff-wood-D.png",
+      "size": [
+        160,
+        128
+      ],
+      "baseRow": 96,
+      "materialRows": 28,
+      "groundRows": 4,
+      "blockedCell": true,
+      "structureTranslation": [
+        0,
+        28
+      ],
+      "sourceSize": [
+        160,
+        96
+      ]
+    }
+  ],
+  "transitionSheet": "transitions.png",
+  "cells": [
+    {
+      "id": "house.grass.A.0",
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.A.1",
+      "rect": [
+        32,
+        0,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.A.2",
+      "rect": [
+        64,
+        0,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.A.3",
+      "rect": [
+        96,
+        0,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.A.4",
+      "rect": [
+        128,
+        0,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.path.A.0",
+      "rect": [
+        0,
+        32,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.path.A.1",
+      "rect": [
+        32,
+        32,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.path.A.2",
+      "rect": [
+        64,
+        32,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.path.A.3",
+      "rect": [
+        96,
+        32,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.path.A.4",
+      "rect": [
+        128,
+        32,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.A.0",
+      "rect": [
+        0,
+        64,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.A.1",
+      "rect": [
+        32,
+        64,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.A.2",
+      "rect": [
+        64,
+        64,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.A.3",
+      "rect": [
+        96,
+        64,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.A.4",
+      "rect": [
+        128,
+        64,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.A.0",
+      "rect": [
+        0,
+        96,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.A.1",
+      "rect": [
+        32,
+        96,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.A.2",
+      "rect": [
+        64,
+        96,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.A.3",
+      "rect": [
+        96,
+        96,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.A.4",
+      "rect": [
+        128,
+        96,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.A.0",
+      "rect": [
+        0,
+        128,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.A.1",
+      "rect": [
+        32,
+        128,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.A.2",
+      "rect": [
+        64,
+        128,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.A.3",
+      "rect": [
+        96,
+        128,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.A.4",
+      "rect": [
+        128,
+        128,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.A.0",
+      "rect": [
+        0,
+        160,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.A.1",
+      "rect": [
+        32,
+        160,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.A.2",
+      "rect": [
+        64,
+        160,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.A.3",
+      "rect": [
+        96,
+        160,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.A.4",
+      "rect": [
+        128,
+        160,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.A.0",
+      "rect": [
+        0,
+        192,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.A.1",
+      "rect": [
+        32,
+        192,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.A.2",
+      "rect": [
+        64,
+        192,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.A.3",
+      "rect": [
+        96,
+        192,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.A.4",
+      "rect": [
+        128,
+        192,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.A.0",
+      "rect": [
+        0,
+        224,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.A.1",
+      "rect": [
+        32,
+        224,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.A.2",
+      "rect": [
+        64,
+        224,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.A.3",
+      "rect": [
+        96,
+        224,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.A.4",
+      "rect": [
+        128,
+        224,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.A.0",
+      "rect": [
+        0,
+        256,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.A.1",
+      "rect": [
+        32,
+        256,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.A.2",
+      "rect": [
+        64,
+        256,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.A.3",
+      "rect": [
+        96,
+        256,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.A.4",
+      "rect": [
+        128,
+        256,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.A.0",
+      "rect": [
+        0,
+        288,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.A.1",
+      "rect": [
+        32,
+        288,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.A.2",
+      "rect": [
+        64,
+        288,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.A.3",
+      "rect": [
+        96,
+        288,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.A.4",
+      "rect": [
+        128,
+        288,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.A.0",
+      "rect": [
+        0,
+        320,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.A.1",
+      "rect": [
+        32,
+        320,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.A.2",
+      "rect": [
+        64,
+        320,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.A.3",
+      "rect": [
+        96,
+        320,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.A.4",
+      "rect": [
+        128,
+        320,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.A.0",
+      "rect": [
+        0,
+        352,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.A.1",
+      "rect": [
+        32,
+        352,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.A.2",
+      "rect": [
+        64,
+        352,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.A.3",
+      "rect": [
+        96,
+        352,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.A.4",
+      "rect": [
+        128,
+        352,
+        32,
+        32
+      ],
+      "materialRows": 8,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.B.0",
+      "rect": [
+        0,
+        384,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.B.1",
+      "rect": [
+        32,
+        384,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.B.2",
+      "rect": [
+        64,
+        384,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.B.3",
+      "rect": [
+        96,
+        384,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.B.4",
+      "rect": [
+        128,
+        384,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.path.B.0",
+      "rect": [
+        0,
+        416,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.path.B.1",
+      "rect": [
+        32,
+        416,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.path.B.2",
+      "rect": [
+        64,
+        416,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.path.B.3",
+      "rect": [
+        96,
+        416,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.path.B.4",
+      "rect": [
+        128,
+        416,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.B.0",
+      "rect": [
+        0,
+        448,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.B.1",
+      "rect": [
+        32,
+        448,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.B.2",
+      "rect": [
+        64,
+        448,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.B.3",
+      "rect": [
+        96,
+        448,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.B.4",
+      "rect": [
+        128,
+        448,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.B.0",
+      "rect": [
+        0,
+        480,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.B.1",
+      "rect": [
+        32,
+        480,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.B.2",
+      "rect": [
+        64,
+        480,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.B.3",
+      "rect": [
+        96,
+        480,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.B.4",
+      "rect": [
+        128,
+        480,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.B.0",
+      "rect": [
+        0,
+        512,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.B.1",
+      "rect": [
+        32,
+        512,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.B.2",
+      "rect": [
+        64,
+        512,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.B.3",
+      "rect": [
+        96,
+        512,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.B.4",
+      "rect": [
+        128,
+        512,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.B.0",
+      "rect": [
+        0,
+        544,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.B.1",
+      "rect": [
+        32,
+        544,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.B.2",
+      "rect": [
+        64,
+        544,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.B.3",
+      "rect": [
+        96,
+        544,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.B.4",
+      "rect": [
+        128,
+        544,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.B.0",
+      "rect": [
+        0,
+        576,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.B.1",
+      "rect": [
+        32,
+        576,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.B.2",
+      "rect": [
+        64,
+        576,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.B.3",
+      "rect": [
+        96,
+        576,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.B.4",
+      "rect": [
+        128,
+        576,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.B.0",
+      "rect": [
+        0,
+        608,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.B.1",
+      "rect": [
+        32,
+        608,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.B.2",
+      "rect": [
+        64,
+        608,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.B.3",
+      "rect": [
+        96,
+        608,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.B.4",
+      "rect": [
+        128,
+        608,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.B.0",
+      "rect": [
+        0,
+        640,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.B.1",
+      "rect": [
+        32,
+        640,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.B.2",
+      "rect": [
+        64,
+        640,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.B.3",
+      "rect": [
+        96,
+        640,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.B.4",
+      "rect": [
+        128,
+        640,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.B.0",
+      "rect": [
+        0,
+        672,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.B.1",
+      "rect": [
+        32,
+        672,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.B.2",
+      "rect": [
+        64,
+        672,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.B.3",
+      "rect": [
+        96,
+        672,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.B.4",
+      "rect": [
+        128,
+        672,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.B.0",
+      "rect": [
+        0,
+        704,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.B.1",
+      "rect": [
+        32,
+        704,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.B.2",
+      "rect": [
+        64,
+        704,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.B.3",
+      "rect": [
+        96,
+        704,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.B.4",
+      "rect": [
+        128,
+        704,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.B.0",
+      "rect": [
+        0,
+        736,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.B.1",
+      "rect": [
+        32,
+        736,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.B.2",
+      "rect": [
+        64,
+        736,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.B.3",
+      "rect": [
+        96,
+        736,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.B.4",
+      "rect": [
+        128,
+        736,
+        32,
+        32
+      ],
+      "materialRows": 16,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.C.0",
+      "rect": [
+        0,
+        768,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.C.1",
+      "rect": [
+        32,
+        768,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.C.2",
+      "rect": [
+        64,
+        768,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.C.3",
+      "rect": [
+        96,
+        768,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.C.4",
+      "rect": [
+        128,
+        768,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.path.C.0",
+      "rect": [
+        0,
+        800,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.path.C.1",
+      "rect": [
+        32,
+        800,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.path.C.2",
+      "rect": [
+        64,
+        800,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.path.C.3",
+      "rect": [
+        96,
+        800,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.path.C.4",
+      "rect": [
+        128,
+        800,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.C.0",
+      "rect": [
+        0,
+        832,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.C.1",
+      "rect": [
+        32,
+        832,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.C.2",
+      "rect": [
+        64,
+        832,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.C.3",
+      "rect": [
+        96,
+        832,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.C.4",
+      "rect": [
+        128,
+        832,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.C.0",
+      "rect": [
+        0,
+        864,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.C.1",
+      "rect": [
+        32,
+        864,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.C.2",
+      "rect": [
+        64,
+        864,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.C.3",
+      "rect": [
+        96,
+        864,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.C.4",
+      "rect": [
+        128,
+        864,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.C.0",
+      "rect": [
+        0,
+        896,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.C.1",
+      "rect": [
+        32,
+        896,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.C.2",
+      "rect": [
+        64,
+        896,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.C.3",
+      "rect": [
+        96,
+        896,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.C.4",
+      "rect": [
+        128,
+        896,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.C.0",
+      "rect": [
+        0,
+        928,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.C.1",
+      "rect": [
+        32,
+        928,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.C.2",
+      "rect": [
+        64,
+        928,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.C.3",
+      "rect": [
+        96,
+        928,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.C.4",
+      "rect": [
+        128,
+        928,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.C.0",
+      "rect": [
+        0,
+        960,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.C.1",
+      "rect": [
+        32,
+        960,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.C.2",
+      "rect": [
+        64,
+        960,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.C.3",
+      "rect": [
+        96,
+        960,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.C.4",
+      "rect": [
+        128,
+        960,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.C.0",
+      "rect": [
+        0,
+        992,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.C.1",
+      "rect": [
+        32,
+        992,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.C.2",
+      "rect": [
+        64,
+        992,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.C.3",
+      "rect": [
+        96,
+        992,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.C.4",
+      "rect": [
+        128,
+        992,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.C.0",
+      "rect": [
+        0,
+        1024,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.C.1",
+      "rect": [
+        32,
+        1024,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.C.2",
+      "rect": [
+        64,
+        1024,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.C.3",
+      "rect": [
+        96,
+        1024,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.C.4",
+      "rect": [
+        128,
+        1024,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.C.0",
+      "rect": [
+        0,
+        1056,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.C.1",
+      "rect": [
+        32,
+        1056,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.C.2",
+      "rect": [
+        64,
+        1056,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.C.3",
+      "rect": [
+        96,
+        1056,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.C.4",
+      "rect": [
+        128,
+        1056,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.C.0",
+      "rect": [
+        0,
+        1088,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.C.1",
+      "rect": [
+        32,
+        1088,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.C.2",
+      "rect": [
+        64,
+        1088,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.C.3",
+      "rect": [
+        96,
+        1088,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.C.4",
+      "rect": [
+        128,
+        1088,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.C.0",
+      "rect": [
+        0,
+        1120,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.C.1",
+      "rect": [
+        32,
+        1120,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.C.2",
+      "rect": [
+        64,
+        1120,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.C.3",
+      "rect": [
+        96,
+        1120,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.C.4",
+      "rect": [
+        128,
+        1120,
+        32,
+        32
+      ],
+      "materialRows": 24,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.D.0",
+      "rect": [
+        0,
+        1152,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.D.1",
+      "rect": [
+        32,
+        1152,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.D.2",
+      "rect": [
+        64,
+        1152,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.D.3",
+      "rect": [
+        96,
+        1152,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.grass.D.4",
+      "rect": [
+        128,
+        1152,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.path.D.0",
+      "rect": [
+        0,
+        1184,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.path.D.1",
+      "rect": [
+        32,
+        1184,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.path.D.2",
+      "rect": [
+        64,
+        1184,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.path.D.3",
+      "rect": [
+        96,
+        1184,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.path.D.4",
+      "rect": [
+        128,
+        1184,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.D.0",
+      "rect": [
+        0,
+        1216,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.D.1",
+      "rect": [
+        32,
+        1216,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.D.2",
+      "rect": [
+        64,
+        1216,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.D.3",
+      "rect": [
+        96,
+        1216,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.paving.D.4",
+      "rect": [
+        128,
+        1216,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.D.0",
+      "rect": [
+        0,
+        1248,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.D.1",
+      "rect": [
+        32,
+        1248,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.D.2",
+      "rect": [
+        64,
+        1248,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.D.3",
+      "rect": [
+        96,
+        1248,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "house.wood.D.4",
+      "rect": [
+        128,
+        1248,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.D.0",
+      "rect": [
+        0,
+        1280,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.D.1",
+      "rect": [
+        32,
+        1280,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.D.2",
+      "rect": [
+        64,
+        1280,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.D.3",
+      "rect": [
+        96,
+        1280,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.grass.D.4",
+      "rect": [
+        128,
+        1280,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.D.0",
+      "rect": [
+        0,
+        1312,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.D.1",
+      "rect": [
+        32,
+        1312,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.D.2",
+      "rect": [
+        64,
+        1312,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.D.3",
+      "rect": [
+        96,
+        1312,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.path.D.4",
+      "rect": [
+        128,
+        1312,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.D.0",
+      "rect": [
+        0,
+        1344,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.D.1",
+      "rect": [
+        32,
+        1344,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.D.2",
+      "rect": [
+        64,
+        1344,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.D.3",
+      "rect": [
+        96,
+        1344,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.paving.D.4",
+      "rect": [
+        128,
+        1344,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.D.0",
+      "rect": [
+        0,
+        1376,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.D.1",
+      "rect": [
+        32,
+        1376,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.D.2",
+      "rect": [
+        64,
+        1376,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.D.3",
+      "rect": [
+        96,
+        1376,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "wall.wood.D.4",
+      "rect": [
+        128,
+        1376,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.D.0",
+      "rect": [
+        0,
+        1408,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.D.1",
+      "rect": [
+        32,
+        1408,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.D.2",
+      "rect": [
+        64,
+        1408,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.D.3",
+      "rect": [
+        96,
+        1408,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.grass.D.4",
+      "rect": [
+        128,
+        1408,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.D.0",
+      "rect": [
+        0,
+        1440,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.D.1",
+      "rect": [
+        32,
+        1440,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.D.2",
+      "rect": [
+        64,
+        1440,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.D.3",
+      "rect": [
+        96,
+        1440,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.path.D.4",
+      "rect": [
+        128,
+        1440,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.D.0",
+      "rect": [
+        0,
+        1472,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.D.1",
+      "rect": [
+        32,
+        1472,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.D.2",
+      "rect": [
+        64,
+        1472,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.D.3",
+      "rect": [
+        96,
+        1472,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.paving.D.4",
+      "rect": [
+        128,
+        1472,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.D.0",
+      "rect": [
+        0,
+        1504,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.D.1",
+      "rect": [
+        32,
+        1504,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.D.2",
+      "rect": [
+        64,
+        1504,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.D.3",
+      "rect": [
+        96,
+        1504,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    },
+    {
+      "id": "cliff.wood.D.4",
+      "rect": [
+        128,
+        1504,
+        32,
+        32
+      ],
+      "materialRows": 28,
+      "blocked": true
+    }
+  ]
+}
