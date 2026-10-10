@@ -1,5 +1,14 @@
 # Project status
 
+## M1.LG2 — compact greenhouse and rare goldfish
+
+**Implemented and tested; publication in progress; user visual/feel review pending.** Deliverable: centered13×17 greenhouse, four tubs per side, mirrored pumps/cords/airlines and bubbles; saved Shadows On/Off with a separate animated native-pixel mask. Ordinary orange Dorothy is a rare coded legendary; a separate golden mascot loops among all eight tubs. Its last landed tub at confirmation enables hidden1% shiny catches with twelve temporary palettes per fish kind and sparkle reveals. [Review and decisions](reviews/M1-LG2/README.md). Old collections and paid visits keep their identities; new visits opt into additive rarity data, retaining the review key. Adventure saves remain untouched.
+
+Task-only clean export passes **156 unit tests,16 greenhouse browser scenarios,3 rarity/effect scenarios and all17 adventure regression scenarios**, plus syntax and independent13-asset pixel/alpha/mirror validation. Actual shiny/Dorothy catches, frozen shadow on/off pixel differences, static Calm shadows, collection/reload, money/refunds, all eight tubs and phone layouts pass. Native equipment, centered room, ordinary Dorothy and shiny reveal/collection were inspected. Physical Safari is unverified. New artwork/motion and wider M1/M2 remain user review gates.
+
+Work directly on **main** from `ff0d432`;15 opening non-shared tracked diffs remain byte-identical, concurrent CT1 files/sections are preserved and excluded. Shared documentation is selectively staged. Exact tested runtime contains826 files. Next: commit/push task changes, verify origin SHA, synchronize Sites source and publish this exact tested build, then record the receipt and return the greenhouse phone route.
+
+
 ## M1.ME1 — Terrain-aware map editor
 
 **Implemented, tested, pushed and published; user art/feel review pending.** The user set aside hidden bases and requested a map-authoring tool. [Map Studio deliverable, controls and pinned Emerald research](reviews/M1-ME1/README.md). Six terrain brushes, automatic 47-shape material joins, connected fences, cliffs/stairs/openings, four directed ledges, whole-building/object stamps, exact tile search, undo/redo, map resizing/presets, edge connections, directional passages, compact copy/import/export, PNG snapshots and disposable Hero playtesting are implemented. The editor adds 861 original native cells in a separate review sheet, preserving all existing world/Hero pixels. Accepted adventure layouts, characters, story and v1 saves are unchanged. Its own draft key is `critz.map-editor.v1`.

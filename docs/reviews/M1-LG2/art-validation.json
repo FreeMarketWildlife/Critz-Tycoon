@@ -1,0 +1,128 @@
+{
+  "status": "pass",
+  "assets": {
+    "equipment-left": {
+      "size": [
+        32,
+        64
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "cb6dc73ec75d063ce7ac25e701f233a3dba23ed093d468c080f7b4d52d9dcb23"
+    },
+    "equipment-right": {
+      "size": [
+        32,
+        64
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "39c572bd34ba38e89183f8d095df22aef5ed5f59b31e32740b02724246966d1b"
+    },
+    "inlet-left": {
+      "size": [
+        16,
+        32
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "0a97b36b8e4e09f89cbfa78f005f048a38f384310798e9ef8bc47be0cc3c66c5"
+    },
+    "inlet-right": {
+      "size": [
+        16,
+        32
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "c964187b046d73f5a260ec70a5573620dd4d0b45c7ac24490d5075f650e66c6c"
+    },
+    "wall-riser-left": {
+      "size": [
+        32,
+        32
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "dfffd02a038b81559d79dbb21d441f4b41294c31288b903e7ee8477b98d1bcaa"
+    },
+    "wall-riser-right": {
+      "size": [
+        32,
+        32
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "8f71e28c3cb6d75272bfd688b827a67224ad5415fc5f8911be01d26800ed5e5c"
+    },
+    "header": {
+      "size": [
+        416,
+        96
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "cde2ef7f344f1817957895b209db5ef1e4671eba80750e5b32a87960c0c6a9d8"
+    },
+    "greenhouse": {
+      "size": [
+        320,
+        192
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "598a969dbc5b6dcb26d759f8e905295a55d77fbbbe5f8196ef4ba79d489a0e41"
+    },
+    "dorothy": {
+      "size": [
+        128,
+        32
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "49f9dfccc8dad654bda9af367f017cb5adca01769e63d3895d7ae78aad54386b"
+    },
+    "dorothy-front": {
+      "size": [
+        64,
+        32
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "802f4964c5daffea565ba7ec1035a0694fcfa210093db1102b9f73465ce4f548"
+    },
+    "dorothy-silhouettes": {
+      "size": [
+        64,
+        32
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "ed2d6cf8b675b1fb392a1a0474ee51c741a2b5c6ab991fc8c3effc6d881d6ebe"
+    },
+    "dorothy-world": {
+      "size": [
+        64,
+        16
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "20cf5b6d40965e82f0162e43a72a4644d62a1e5c9827ba9f49bae6d2aebf6309"
+    },
+    "gold-hopper": {
+      "size": [
+        32,
+        16
+      ],
+      "rgbaMatchesIndexedSource": true,
+      "binaryAlpha": true,
+      "sha256": "b1949092ffd106081fcde2152870a0f561fe49e3c3c2e1ee119786dbd0c2c7dd"
+    }
+  },
+  "threeEquipmentPairsExactMirrors": true,
+  "headerExactMirrorAxis208": true,
+  "facadeAlphaSymmetryAxis160": true,
+  "facadeArchitectureRGBSymmetry": true,
+  "oldCollectionFilesUnchanged": 16,
+  "contactExact3x": true
+}

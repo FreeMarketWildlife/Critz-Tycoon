@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "task": "M1.LG2",
+  "status": "awaiting-user-review",
+  "nativeCell": [
+    32,
+    32
+  ],
+  "room": {
+    "frame": [
+      416,
+      544
+    ],
+    "symmetryAxisX": 208,
+    "doorCell": [
+      6,
+      16
+    ]
+  },
+  "equipment": {
+    "frame": [
+      32,
+      64
+    ],
+    "leftCellX": 1,
+    "rightCellX": 11,
+    "tubRows": [
+      4,
+      7,
+      10,
+      13
+    ],
+    "blockedFootprint": [
+      1,
+      2
+    ],
+    "sortAnchor": [
+      16,
+      64
+    ],
+    "drawOrder": "after floor; before over-tub inlet; no castshadow baked"
+  },
+  "inlet": {
+    "frame": [
+      16,
+      32
+    ],
+    "leftOrigin": "tub top-left",
+    "rightOrigin": "tub top-left+(80,0)",
+    "leftNozzle": [
+      12,
+      25
+    ],
+    "rightNozzle": [
+      3,
+      25
+    ],
+    "drawOrder": "after tub, before bubbles",
+    "collision": "included in existing tub footprint"
+  },
+  "riser": {
+    "frame": [
+      32,
+      32
+    ],
+    "collision": "visual wall channel; do not infer extra blocked cells"
+  },
+  "header": {
+    "frame": [
+      416,
+      96
+    ],
+    "origin": [
+      0,
+      0
+    ],
+    "drawOrder": "behind three existing wall tanks; no new collision",
+    "symmetricRGBA": true
+  },
+  "facade": {
+    "frame": [
+      320,
+      192
+    ],
+    "symmetryAxisX": 160,
+    "door": [
+      144,
+      111,
+      32,
+      64
+    ],
+    "threshold": [
+      142,
+      177,
+      36,
+      5
+    ],
+    "symmetry": "mirrored architectural pixels; original fish sign and door latch remain asymmetric details"
+  },
+  "dorothy": {
+    "kind": 16,
+    "name": "Dorothy",
+    "variety": "common goldfish",
+    "columns": [
+      "side0",
+      "side1",
+      "top0",
+      "top1"
+    ],
+    "frame": [
+      32,
+      32
+    ],
+    "frontColumns": [
+      "front0",
+      "front1"
+    ],
+    "worldColumns": [
+      "top0",
+      "top1",
+      "side0",
+      "side1"
+    ],
+    "worldFrame": [
+      16,
+      16
+    ],
+    "topDirection": "north",
+    "sideDirection": "west",
+    "notes": "Original plain streamlined goldfish; no wen; dorsalfin; single forked tail. Existing16 fancy fish remain frozen."
+  },
+  "goldHopper": {
+    "frame": [
+      16,
+      16
+    ],
+    "columns": [
+      "side0",
+      "side1"
+    ],
+    "direction": "west",
+    "notes": "Original golden common goldfish mascot. Parent owns hopping,sparkles and shadow animation."
+  },
+  "sourceFrozenHashes": {
+    "checks.json": "ce1186927dc658d68ba000e177bf578a58eb8d89ec83660a01a6f4dcf1f7c19a",
+    "contact-3x.png": "1396337c23255739255e2e193c42cc70059640e930b84081b907a6185cdd0ace",
+    "contact-native.png": "cfe02d1366ef4939d91266c2c189a3e4174fdf7027c38a5a2576d7a13d6b1f39",
+    "fish-front.png": "d77fa37d2bb86c8a415f5d5b1d698783a34b12963af06d42f90d58c998ea44db",
+    "fish-world.png": "7d2a9b2827b7349ba2dfb3f5ba179ae3e014cc56f48ec112842258263d415d6d",
+    "fish.png": "ba261a9c56e1f27f7fd8aff9919ec9fbe1b7f077c4151761c0b9a2edfa265171",
+    "greenhouse.png": "c65fe86d8d1161c4a7e0f58113b080acf47ee6e4cb65a14c057b5264f5909b86",
+    "luke-idle.png": "7dc4e79bf261a6976a77adedfef107cb87f65d48bf6a900b5b6d537b04c1afc6",
+    "luke.png": "3d35343013a352f711288cece8b892ae4a98404654886642672fb926f326ff72",
+    "manifest.json": "640fdf63151dca4743156b25463a2f0383f89087be9450711822023f25002eb9",
+    "silhouettes.png": "5c10d181f27aeefa953e93d0fef01a6911bf714a1bd1cf6981422b470fbf93de",
+    "tank-wall.png": "a1f3619c48ff7cdbfb88ba38bc210818778e115a24e125d8c6ad7a513f1ae248",
+    "tiles.png": "01478d248f9841bd372cd480649e3d2e396286d4333e10ee885eb06dd6d0d7b0",
+    "tub-closeup.png": "20d778e4576491cf79f40fc3c62e965d4b17185ddb8c67ead42b221ad7d35a40",
+    "tub-variants.png": "25216cd5665482018609b8b3957fa2c51f688b54bf18340870abd356f4cbdadc",
+    "tub.png": "2b3ce700a2fac3ab5a5c85cf85a23ed353cc06d48577b531d6a10e66716fe845"
+  },
+  "assets": {
+    "equipment-left": {
+      "path": "assets/review/luke-greenhouse-r2/equipment-left.png",
+      "width": 32,
+      "height": 64,
+      "paletteColors": 13,
+      "sha256": "cb6dc73ec75d063ce7ac25e701f233a3dba23ed093d468c080f7b4d52d9dcb23"
+    },
+    "equipment-right": {
+      "path": "assets/review/luke-greenhouse-r2/equipment-right.png",
+      "width": 32,
+      "height": 64,
+      "paletteColors": 13,
+      "sha256": "39c572bd34ba38e89183f8d095df22aef5ed5f59b31e32740b02724246966d1b"
+    },
+    "inlet-left": {
+      "path": "assets/review/luke-greenhouse-r2/inlet-left.png",
+      "width": 16,
+      "height": 32,
+      "paletteColors": 4,
+      "sha256": "0a97b36b8e4e09f89cbfa78f005f048a38f384310798e9ef8bc47be0cc3c66c5"
+    },
+    "inlet-right": {
+      "path": "assets/review/luke-greenhouse-r2/inlet-right.png",
+      "width": 16,
+      "height": 32,
+      "paletteColors": 4,
+      "sha256": "c964187b046d73f5a260ec70a5573620dd4d0b45c7ac24490d5075f650e66c6c"
+    },
+    "wall-riser-left": {
+      "path": "assets/review/luke-greenhouse-r2/wall-riser-left.png",
+      "width": 32,
+      "height": 32,
+      "paletteColors": 6,
+      "sha256": "dfffd02a038b81559d79dbb21d441f4b41294c31288b903e7ee8477b98d1bcaa"
+    },
+    "wall-riser-right": {
+      "path": "assets/review/luke-greenhouse-r2/wall-riser-right.png",
+      "width": 32,
+      "height": 32,
+      "paletteColors": 6,
+      "sha256": "8f71e28c3cb6d75272bfd688b827a67224ad5415fc5f8911be01d26800ed5e5c"
+    },
+    "header": {
+      "path": "assets/review/luke-greenhouse-r2/header.png",
+      "width": 416,
+      "height": 96,
+      "paletteColors": 13,
+      "sha256": "cde2ef7f344f1817957895b209db5ef1e4671eba80750e5b32a87960c0c6a9d8"
+    },
+    "greenhouse": {
+      "path": "assets/review/luke-greenhouse-r2/greenhouse.png",
+      "width": 320,
+      "height": 192,
+      "paletteColors": 54,
+      "sha256": "598a969dbc5b6dcb26d759f8e905295a55d77fbbbe5f8196ef4ba79d489a0e41"
+    },
+    "dorothy": {
+      "path": "assets/review/luke-greenhouse-r2/dorothy.png",
+      "width": 128,
+      "height": 32,
+      "paletteColors": 7,
+      "sha256": "49f9dfccc8dad654bda9af367f017cb5adca01769e63d3895d7ae78aad54386b"
+    },
+    "dorothy-front": {
+      "path": "assets/review/luke-greenhouse-r2/dorothy-front.png",
+      "width": 64,
+      "height": 32,
+      "paletteColors": 7,
+      "sha256": "802f4964c5daffea565ba7ec1035a0694fcfa210093db1102b9f73465ce4f548"
+    },
+    "dorothy-silhouettes": {
+      "path": "assets/review/luke-greenhouse-r2/dorothy-silhouettes.png",
+      "width": 64,
+      "height": 32,
+      "paletteColors": 1,
+      "sha256": "ed2d6cf8b675b1fb392a1a0474ee51c741a2b5c6ab991fc8c3effc6d881d6ebe"
+    },
+    "dorothy-world": {
+      "path": "assets/review/luke-greenhouse-r2/dorothy-world.png",
+      "width": 64,
+      "height": 16,
+      "paletteColors": 7,
+      "sha256": "20cf5b6d40965e82f0162e43a72a4644d62a1e5c9827ba9f49bae6d2aebf6309"
+    },
+    "gold-hopper": {
+      "path": "assets/review/luke-greenhouse-r2/gold-hopper.png",
+      "width": 32,
+      "height": 16,
+      "paletteColors": 7,
+      "sha256": "b1949092ffd106081fcde2152870a0f561fe49e3c3c2e1ee119786dbd0c2c7dd"
+    }
+  }
+}

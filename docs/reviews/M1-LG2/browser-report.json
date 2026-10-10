@@ -1,0 +1,536 @@
+{
+  "url": "http://localhost:5187/art-review/greenhouse.html",
+  "startedAt": "2026-10-10T00:00:16.674Z",
+  "checks": [
+    {
+      "name": "cover renders actual colored fish pixels",
+      "pass": true,
+      "details": [
+        {
+          "opaque": 480,
+          "colors": 5
+        },
+        {
+          "opaque": 480,
+          "colors": 6
+        },
+        {
+          "opaque": 480,
+          "colors": 6
+        }
+      ]
+    },
+    {
+      "name": "keyboard start, north doorway and Luke approach; decline ejects without charge",
+      "pass": true,
+      "details": {
+        "approachToY": 14,
+        "money": 300
+      }
+    },
+    {
+      "name": "insufficient $99 is ejected with no charge and no admission option",
+      "pass": true,
+      "details": {
+        "money": 99
+      }
+    },
+    {
+      "name": "exact $100 pays once; tub rejection, free miss, timed catch, saved reveal and collection",
+      "pass": true,
+      "details": {
+        "fish": {
+          "serial": 1,
+          "kind": 11,
+          "seed": 3503521294,
+          "shiny": false,
+          "variant": 1
+        },
+        "money": 0,
+        "duplicateAward": false,
+        "secondAdmission": true
+      }
+    },
+    {
+      "name": "paid reload resumes without charging; unfinished exit offers and returns $100",
+      "pass": true,
+      "details": {
+        "refund": 100
+      }
+    },
+    {
+      "name": "phone 320x568: touch entry, dialogue, controls and layouts",
+      "pass": true,
+      "details": {
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "scrollHeight": 568,
+        "innerHeight": 568,
+        "controls": [
+          {
+            "label": "▲",
+            "x": 53.65625,
+            "y": 429,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "◀",
+            "x": 9.65625,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "▶",
+            "x": 97.65625,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "▼",
+            "x": 53.65625,
+            "y": 517,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "START",
+            "x": 156.984375,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "B",
+            "x": 216.328125,
+            "y": 473,
+            "w": 44,
+            "h": 44
+          },
+          {
+            "label": "A",
+            "x": 266.328125,
+            "y": 461,
+            "w": 44,
+            "h": 44
+          }
+        ],
+        "speech": {
+          "x": 10,
+          "y": 10,
+          "w": 300,
+          "h": 140
+        }
+      }
+    },
+    {
+      "name": "phone 390x844: touch entry, dialogue, controls and layouts",
+      "pass": true,
+      "details": {
+        "scrollWidth": 390,
+        "innerWidth": 390,
+        "scrollHeight": 844,
+        "innerHeight": 844,
+        "controls": [
+          {
+            "label": "▲",
+            "x": 61.828125,
+            "y": 705,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "◀",
+            "x": 15.828125,
+            "y": 749,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "▶",
+            "x": 107.828125,
+            "y": 749,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "▼",
+            "x": 61.828125,
+            "y": 793,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "START",
+            "x": 173.5,
+            "y": 749,
+            "w": 60,
+            "h": 44
+          },
+          {
+            "label": "B",
+            "x": 253.15625,
+            "y": 744,
+            "w": 54,
+            "h": 54
+          },
+          {
+            "label": "A",
+            "x": 320.15625,
+            "y": 732,
+            "w": 54,
+            "h": 54
+          }
+        ],
+        "speech": {
+          "x": 10,
+          "y": 543.8125,
+          "w": 370,
+          "h": 140.1875
+        }
+      }
+    },
+    {
+      "name": "phone 844x390: touch entry, dialogue, controls and layouts",
+      "pass": true,
+      "details": {
+        "scrollWidth": 844,
+        "innerWidth": 844,
+        "scrollHeight": 390,
+        "innerHeight": 390,
+        "controls": [
+          {
+            "label": "▲",
+            "x": 744,
+            "y": 27.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "◀",
+            "x": 698,
+            "y": 71.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "▶",
+            "x": 790,
+            "y": 71.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "▼",
+            "x": 744,
+            "y": 115.328125,
+            "w": 46,
+            "h": 44
+          },
+          {
+            "label": "START",
+            "x": 737,
+            "y": 203,
+            "w": 60,
+            "h": 44
+          },
+          {
+            "label": "B",
+            "x": 712.5,
+            "y": 302.65625,
+            "w": 48,
+            "h": 48
+          },
+          {
+            "label": "A",
+            "x": 773.5,
+            "y": 290.65625,
+            "w": 48,
+            "h": 48
+          }
+        ],
+        "speech": {
+          "x": 38,
+          "y": 10,
+          "w": 610,
+          "h": 140
+        }
+      }
+    },
+    {
+      "name": "touch scoop catches the actual moving silhouette",
+      "pass": true,
+      "details": {
+        "touch": true
+      }
+    },
+    {
+      "name": "caught visit permits all eight tubs without payment; exiting resets paid admission",
+      "pass": true,
+      "details": {
+        "tubsViewed": 8,
+        "freeBrowsing": true,
+        "freshVisitDebited": 100
+      }
+    },
+    {
+      "name": "corrupt review data is retained with disabled start and readable error",
+      "pass": true,
+      "details": {
+        "retained": true
+      }
+    },
+    {
+      "name": "keyboard-only reticle aiming and A catch award a moving fish",
+      "pass": true,
+      "details": {
+        "initialAim": {
+          "x": 240,
+          "y": 158
+        },
+        "movedAim": {
+          "x": 261.71000000000004,
+          "y": 158
+        },
+        "aimUpdates": 5,
+        "awarded": {
+          "serial": 1,
+          "kind": 9,
+          "seed": 4231648041,
+          "shiny": false,
+          "variant": 8
+        },
+        "pointerUsed": false
+      }
+    },
+    {
+      "name": "review storage write failure preserves purchase and fish award; retry recovers safely",
+      "pass": true,
+      "details": {
+        "purchaseUnchanged": true,
+        "awardUnchanged": true,
+        "retryAwardedOnce": true
+      }
+    },
+    {
+      "name": "Shadows setting changes only its render layer and survives reload",
+      "pass": true,
+      "details": {
+        "changedPixels": 10442,
+        "exactLayerRestoration": true,
+        "persistedAcrossReload": true,
+        "gameStateUnchanged": true
+      }
+    },
+    {
+      "name": "all17 shiny designs plus ordinary Dorothy render and persist in collection",
+      "pass": true,
+      "details": {
+        "shinyKinds": 17,
+        "variants": 12,
+        "ordinaryDorothy": true,
+        "renderedCards": [
+          {
+            "opaque": 480,
+            "colors": 8
+          },
+          {
+            "opaque": 480,
+            "colors": 10
+          },
+          {
+            "opaque": 480,
+            "colors": 10
+          },
+          {
+            "opaque": 480,
+            "colors": 8
+          },
+          {
+            "opaque": 480,
+            "colors": 7
+          },
+          {
+            "opaque": 480,
+            "colors": 14
+          },
+          {
+            "opaque": 480,
+            "colors": 10
+          },
+          {
+            "opaque": 480,
+            "colors": 9
+          },
+          {
+            "opaque": 480,
+            "colors": 8
+          },
+          {
+            "opaque": 480,
+            "colors": 9
+          },
+          {
+            "opaque": 480,
+            "colors": 8
+          },
+          {
+            "opaque": 480,
+            "colors": 14
+          },
+          {
+            "opaque": 480,
+            "colors": 10
+          },
+          {
+            "opaque": 480,
+            "colors": 7
+          },
+          {
+            "opaque": 480,
+            "colors": 7
+          },
+          {
+            "opaque": 480,
+            "colors": 10
+          },
+          {
+            "opaque": 302,
+            "colors": 12
+          },
+          {
+            "opaque": 302,
+            "colors": 7
+          }
+        ],
+        "persistedAcrossReload": true
+      }
+    },
+    {
+      "name": "all contexts preserve main save and backup; no asset or script errors",
+      "pass": true,
+      "details": [
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 1,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 2,
+          "settingsWrites": 0
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0,
+          "settingsWrites": 1
+        },
+        {
+          "errors": [],
+          "failedAssets": [],
+          "reviewWrites": 0,
+          "settingsWrites": 0
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-cover.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-get-out.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-silhouettes.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-catch-reveal.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-collection.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-cover-320.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-dialogue-320.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-cover-390.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-outside-390.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-dialogue-390.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-cover-844.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-dialogue-844.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-touch-reveal.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-room-free-browse.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-settings-shadows-off.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-room-shadows-off.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-room-shadows-on.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-shiny-collection-desktop.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-dorothy-collection-phone.png"
+  ],
+  "limitations": [
+    "Chromium emulation; physical iOS Safari not tested.",
+    "Snapshot is read-only. Movement, dialogue, scooping and menus use actual input. Synthetic fixtures only in isolated contexts."
+  ],
+  "finishedAt": "2026-10-10T00:01:19.498Z",
+  "passed": 16,
+  "failed": 0
+}

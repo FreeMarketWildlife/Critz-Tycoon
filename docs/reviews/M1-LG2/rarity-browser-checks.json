@@ -1,0 +1,52 @@
+{
+  "url": "http://localhost:5187/art-review/greenhouse.html",
+  "startedAt": "2026-10-10T00:00:17.843Z",
+  "checks": [
+    {
+      "name": "actual shiny catch uses confirmed hopper tub and survives reload",
+      "pass": true,
+      "details": {
+        "seed": 2379,
+        "fish": {
+          "serial": 1,
+          "kind": 4,
+          "seed": 1754913956,
+          "shiny": true,
+          "variant": 11
+        },
+        "missFree": true
+      }
+    },
+    {
+      "name": "ordinary Dorothy is the actual caught legendary, with no forced shine",
+      "pass": true,
+      "details": {
+        "serial": 1,
+        "kind": 16,
+        "seed": 277747745,
+        "shiny": false,
+        "variant": 5,
+        "rarity": "legendary"
+      }
+    },
+    {
+      "name": "native shadow layer animates in discrete pixels; off clears; calm is static",
+      "pass": true,
+      "details": {
+        "moves": true,
+        "calm": true,
+        "off": true,
+        "binary": true
+      }
+    }
+  ],
+  "screenshots": [
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-shiny-reveal.png",
+    "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LG2/browser-dorothy-reveal.png"
+  ],
+  "limitations": [
+    "Chromium emulation; physical iOS Safari not tested.",
+    "Snapshot is read-only. Movement, dialogue, scooping and menus use actual input. Synthetic fixtures only in isolated contexts."
+  ],
+  "pass": true
+}

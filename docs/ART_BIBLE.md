@@ -1,5 +1,14 @@
 # Critz: Tycoon — art bible
 
+## M1.LG2 — compact greenhouse, effect layers and rare fish
+
+User feedback on 2026-10-09 explicitly likes LG1 and asks for this refinement; new LG2 art/motion remains a review deliverable. Use a 13×17 native-cell room (416×544), centered door cell(6,16), three-cell central aisle, four96×64 tubs at x2 and four at x8, rows4/7/10/13. Mirror paired tub planting and pump/airline art. Equipment occupies the outer1×2 cells alongside each tub; crossing rows remain clear. Three display aquariums balance the back wall. Original character/fish assets stay intact.
+
+**Standing shadow rule from the user:** all future cast/contact shadows belong to a separate render layer controlled by the saved **Settings → Shadows: On/Off** preference. Do not bake cast shadows into new sprites. Greenhouse uses a disposable native-pixel mask with restrained teal opacity, stepped moving roof/leaf shadows and actor contact shadows; off clears the mask entirely. Calm/reduced-motion makes atmospheric shadows static. Material shading, dark tub interiors and intentionally concealed fish silhouettes are not cast shadows and remain visible. Shared preference key `critz.render-settings.v1` is independent of progress; legacy world renderer migration is outside this focused review.
+
+Dorothy is an original ordinary orange common goldfish with no special decoration, kind16, coded legendary rarity; a separate golden mascot hops around all eight tubs on a loop. Existing sixteen fancy designs are retained. Each fish supports twelve temporary exuberant shiny palettes, keeping face/outline contrast, with small native-pixel sparkle crosses at reveal. Never show hidden odds or eligibility hints in player dialogue. Neither sparkling fish nor shadow animation uses blur or smoothed scaling. [LG2 art/evidence](reviews/M1-LG2/README.md).
+
+
 ## Map authoring review — M1.ME1
 
 The user commissions a terrain-aware map editor, whole-building stamps, explicit collision, cliff openings, directed ledges and Hero testing. Keep this as a separate review tool; it does not replace accepted maps or approve new art. Reuse the exact existing native 32px environment and selected living Hero. Add an editor extension sheet with stable named terrain-pair corner banks, fence/ground compositions, mountain walls, cave mouths, stairs and directed ledges. Author hard native pixels with the existing grass/stone/wood/water ramps; no reference-game pixels ship. Terrain, fence and cliff pieces compile to one ground metatile per cell; planters and pushable boulders retain explicit object semantics. Roof/canopy projection is independent of solid footprints.

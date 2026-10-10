@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.LG2 — Luke greenhouse refinement
+
+**Implemented and tested; publication in progress; awaiting user visual/feel review.** Compact symmetric greenhouse, centered door/four tubs per side, mirrored equipment, saved optional shadow layer, rare ordinary Dorothy, looping golden hopper and hidden1% shiny catches are implemented in the separate review. Clean export passes156 unit tests,19 greenhouse browser checks and17 adventure regressions, plus native-art validation. Preserve LG1 economy/saves and accepted adventure. User praise approves LG1 direction, not new LG2 motion or broader M1/M2 gates. Next: finish exact-build push/deployment and collect visual/play feedback. [Evidence](reviews/M1-LG2/README.md).
+
+
 ## M1.ME1 — Terrain-aware map editor
 
 **Implemented, tested, pushed and published; art/feel approval pending.** Latest user request authorizes a separate map editor, not hidden bases or accepted-world replacement. [Deliverable and source-derived map presets](reviews/M1-ME1/README.md). Terrain transitions, fences, mountain/opening/stair/directed-ledge cells, semantic stamps, copy/import/export, map links and isolated Hero testing are ready. Clean checks: 150 unit, 22 editor, 10 sprite-editor and 17 adventure browser scenarios; original world/Hero atlases remain unchanged. Preserve unrelated unfinished character work. Source `88c0689` is published at the existing phone site’s `/map-editor/` route with successful deployment evidence in status. Next: the user authors/tests a map and pastes Copy for chat; refine that concrete map/editor feedback. No broader M1/M2 gate is self-approved.
