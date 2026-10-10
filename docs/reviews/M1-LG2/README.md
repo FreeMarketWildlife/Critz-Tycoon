@@ -13,3 +13,5 @@ Old collections and paid visits retain their original fish. New visits opt into 
 User approval: “I absolutely love what you did here” supports the LG1 visual direction. This revised art, effects and motion are awaiting the user's review; technical checks do not self-approve M1/M2. Physical iOS Safari remains unverified.
 
 Validation:156 unit tests,16 greenhouse browser scenarios,3 actual rarity/effect checks and17 adventure regressions pass on the isolated clean build. All13 native assets validate and16 previous artwork files stay byte-identical. [Verification](verification.json), [greenhouse](browser-report.json), [rarities](rarity-browser-checks.json), [adventure](adventure-regression.json). Room, phone, reveal and collection evidence was visually inspected; user review remains pending.
+
+Published source `6690add94e26d7cb9f3339aa324146cc389c673c`, deployment `appgdep_6ac9810bc12481918900fdfbe46781e1`, succeeded2026-10-10 00:04:38 UTC. [Native receipt](deployment.json) and [exact-build archive proof](archive-check.json). GitHub origin/main matched the source SHA. Owner-private access retained. This later receipt does not change the tested game build.

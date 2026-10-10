@@ -1,0 +1,10 @@
+{
+  "source": "6690add94e26d7cb9f3339aa324146cc389c673c",
+  "buildFiles": 1861,
+  "runtimeFiles": 826,
+  "allContentHashesMatch": true,
+  "onlyPackagingAddition": [
+    "dist/.openai/hosting.json"
+  ],
+  "archiveSha256": "dde9c1a39ca4c622d56ace1762dba03aa89266a2549a7b99053d745c2c3457b4"
+}

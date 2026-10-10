@@ -2,7 +2,7 @@
 
 ## M1.LG2 — Luke greenhouse refinement
 
-**Implemented and tested; publication in progress; awaiting user visual/feel review.** Compact symmetric greenhouse, centered door/four tubs per side, mirrored equipment, saved optional shadow layer, rare ordinary Dorothy, looping golden hopper and hidden1% shiny catches are implemented in the separate review. Clean export passes156 unit tests,19 greenhouse browser checks and17 adventure regressions, plus native-art validation. Preserve LG1 economy/saves and accepted adventure. User praise approves LG1 direction, not new LG2 motion or broader M1/M2 gates. Next: finish exact-build push/deployment and collect visual/play feedback. [Evidence](reviews/M1-LG2/README.md).
+**Implemented, tested, pushed and published; awaiting user visual/feel review.** Compact symmetric greenhouse, centered door/four tubs per side, mirrored equipment, saved optional shadow layer, rare ordinary Dorothy, looping golden hopper and hidden1% shiny catches are implemented in the separate review. Clean export passes156 unit tests,19 greenhouse browser checks and17 adventure regressions, plus native-art validation. Preserve LG1 economy/saves and accepted adventure. User praise approves LG1 direction, not new LG2 motion or broader M1/M2 gates. Source `6690add` is pushed; deployment `appgdep_6ac9810bc12481918900fdfbe46781e1` succeeded. Next: user visual/play feedback on the [published greenhouse](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/greenhouse.html); no LG2 publication work remains. [Evidence](reviews/M1-LG2/README.md).
 
 
 ## M1.CT1 — Transition-tile contact lab
