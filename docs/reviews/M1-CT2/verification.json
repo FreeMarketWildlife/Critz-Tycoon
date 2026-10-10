@@ -9,5 +9,10 @@
   "reviewAssetsAndGameController": "unchanged",
   "syntheticSavePreservation": "passed",
   "physicalSafariAndVibration": "unverified",
-  "userApproval": "Liked test direction; A\u2013D fraction pending"
+  "userApproval": "Liked test direction; A\u2013D fraction pending",
+  "combinedSource": "cc4651497e8a9700c811a959bc8f7b2def608fbc",
+  "combinedUnitTests": 179,
+  "combinedBrowserReport": "../M1-WA3/archive-check.json:40 scenarios including15 contact",
+  "publication": "succeeded; reconciled version36",
+  "originalRuntimeUnchangedExceptConcurrentWaterReview": 889
 }

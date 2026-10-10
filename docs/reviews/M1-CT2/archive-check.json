@@ -1,0 +1,19 @@
+{
+  "taskSource": "8f4b9b8cf6ae188a4922a0e831adcc3dc5515481",
+  "publishedSource": "cc4651497e8a9700c811a959bc8f7b2def608fbc",
+  "combinedUnitTests": 179,
+  "contactBrowserScenarios": 15,
+  "combinedBrowserEvidence": "../M1-WA3/archive-check.json (40 scenarios, including15 contact-lab)",
+  "previouslyTestedRuntimeFilesUnchanged": 889,
+  "waterReviewChangedByConcurrentTask": [
+    "art-review/water.html",
+    "art-review/water.js"
+  ],
+  "buildFiles": 1996,
+  "allPublishedContentHashesMatch": true,
+  "onlyPackagingAddition": [
+    "dist/.openai/hosting.json"
+  ],
+  "publishedArchiveSHA256": "27cde35e46f2b5b88743b684b55b6463b10f1f2e84c798fd1d791b6de6d3a9f7",
+  "publication": "Reconciled successful version36 instead of starting a duplicate deployment"
+}
