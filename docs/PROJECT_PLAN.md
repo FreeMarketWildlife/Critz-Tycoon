@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.WA3 — Water surfaces, shallow traversal and reflections
+
+Implemented/tested, publication in progress; user visual feedback pending. Extend only the water review with four named surfaces, independent freshwater/ocean identity, shallow walking, still-shallow rings, actor/sky reflections and original raised banks. Deliver6,648 tiles including all47 shapes for96 ordered water/ground pairs, a Tiled extension and transition gallery. Clean178 unit tests and25 browser scenarios pass. Next: task-only commit/push, exact-tested-build owner-private publication and receipt. [Review](reviews/M1-WA3/README.md). Existing adventure maps/editor semantics stay intact; no broader M1/M2 approval is inferred.
+
+
 ## M1.CT2 — Actual tile movement in contact lab
 
 **Implemented and tested; publication pending, boundary choice awaits user.** The user explicitly likes CT1 and requires tile-based movement for a legitimate test. Every A–D house/wall/cliff fixture now imports the actual adventure controller from `src/movement.js`, including committed steps, rest turns, stride poses, blocked-wall behavior and held-key priority. Remove free/fine movement and selector; old fine-mode URLs still use tile walking. Keep all native art, fixtures, collision masks, haptics and Copy choice; copy records tile movement and controller identity. [Review](reviews/M1-CT2/README.md). No material fraction or wider gate self-approved.

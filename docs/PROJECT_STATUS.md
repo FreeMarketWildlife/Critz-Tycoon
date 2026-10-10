@@ -1,5 +1,12 @@
 # Project status
 
+## M1.WA3 — Water surfaces, shallow traversal and reflections
+
+**Implemented and tested; publication in progress; new visuals await user review.** The user likes WA2 and commissions four named water surfaces, walkable shallows, freshwater-only character reflections, still-shallow footsteps, clouds/stars and complete terrain transitions. [Review and pinned Emerald evidence](reviews/M1-WA3/README.md). Demo imports the actual adventure movement controller, keeps minute clock/6am–2am/no-fee sleep rules, and uses original native pixels. Water identity, motion and depth are independent. Ocean never reflects actors; sky clouds/stars can reflect in both identities. All96 ordered water/ground pairs have47 shapes:4,512 transitions plus1,880 bank overlays and256 surface frames,6,648 tiles. All surface loops3.2 seconds. Deep banks have recessed faces; shallow rims remain walkable. Existing atlases, adventure maps, save keys and Map Studio semantics remain unchanged. New bank is a named Tiled extension and fully inspectable gallery.
+
+Clean task-only export passes178 unit tests,11 water browser scenarios and14 clock/sleep regression scenarios; binary alpha and atlas coverage checked. Phone/desktop screenshots inspected, physical Safari unverified. Pinned Emerald source is not emulator capture; night stars and salinity classification are Critz decisions. Work directly on main, baseline `c1bd202cba9ece44a4aea629c99d454aa040cb42`. Fourteen pre-existing non-shared character files stay byte-identical; shared character/contact-lab document edits and concurrent contact work are excluded. **Exact next action:** commit/push the task-only source, publish that exact tested build to the existing owner-private Sites project, then record deployment/remote evidence. No broader art/feel gate is self-approved.
+
+
 ## M1.CT2 — Actual tile movement in contact lab
 
 **Implemented and tested; publication pending, boundary choice awaits user.** The user explicitly likes CT1 and requires tile-based movement for a legitimate test. Every A–D house/wall/cliff fixture now imports the actual adventure controller from `src/movement.js`, including committed steps, rest turns, stride poses, blocked-wall behavior and held-key priority. Remove free/fine movement and selector; old fine-mode URLs still use tile walking. Keep all native art, fixtures, collision masks, haptics and Copy choice; copy records tile movement and controller identity. [Review](reviews/M1-CT2/README.md). No material fraction or wider gate self-approved.

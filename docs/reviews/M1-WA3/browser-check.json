@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "Native water extension loads on phone without touching adventure storage",
+    "Committed tile step enters shallow still water and creates a footstep ring",
+    "Footstep rings expire rather than loop",
+    "Shallow moving water is walkable and reflective, without footstep ripples",
+    "Ocean identity removes character reflections at both depths",
+    "Shallow still water is traversable; deep water remains blocked",
+    "All five complete terrain banks render",
+    "Daytime clouds and nighttime stars rendered in reflective water",
+    "2am pass-out still wakes at 6am",
+    "Complete transition gallery selects water-to-water and land banks",
+    "No browser runtime errors"
+  ],
+  "errors": []
+}

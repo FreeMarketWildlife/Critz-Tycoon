@@ -1,0 +1,25 @@
+{
+  "unitTests": 178,
+  "waterBrowserScenarios": 11,
+  "clockBrowserScenarios": 14,
+  "binaryAlpha": true,
+  "unrelatedOpeningFilesPreserved": [
+    "art-review/walking.html",
+    "art-review/walking.js",
+    "art/source/characters-walk-v2/build.mjs",
+    "art/source/playable-characters/README.md",
+    "art/source/playable-characters/build.mjs",
+    "assets/playable/characters/atlas.json",
+    "assets/playable/characters/atlas.png",
+    "docs/CHARACTER_FRAMEWORK.md",
+    "package.json",
+    "scripts/check-walking-atlas.py",
+    "scripts/export-character-walks.py",
+    "scripts/pack-playable-atlas.py",
+    "tests/visual-browser.mjs",
+    "tests/walking-browser.mjs"
+  ],
+  "referenceMethod": "pinned source inspection and user supplied screenshots; no own emulator capture",
+  "physicalSafari": "unverified",
+  "baseline": "8f4b9b8cf6ae188a4922a0e831adcc3dc5515481"
+}

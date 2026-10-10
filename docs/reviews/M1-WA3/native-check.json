@@ -1,0 +1,12 @@
+{
+  "tiles": 6648,
+  "pairs": 96,
+  "masksPerPair": 47,
+  "binaryAlpha": true,
+  "dimensions": [
+    1024,
+    6656
+  ],
+  "loopSeconds": 3.2,
+  "atlasSHA256": "8006d0b62e3ae55f7a460cf02f1bf041683e7a7af79ae1a51917e39e69eaa150"
+}
