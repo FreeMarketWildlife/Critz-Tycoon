@@ -1,0 +1,26 @@
+{
+  "id": "appgdep_6acb185605008191ac3f3b0bf7f8a8b3",
+  "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "title": "Critz: Tycoon",
+  "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_5573680221b88191baaf7a9b2652d1e4",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ab5dd1e11ac8191937254280d6ba196",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-11T05:02:25.994558+00:00",
+  "version_number": 46,
+  "source_commit": "9dd5f6e3dd1182991110021ff08780f0895c8e23",
+  "owner_private_preserved": true,
+  "checks": {
+    "unit": 224,
+    "browser": 69,
+    "native": 505
+  },
+  "review_url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/map-editor/?review=me3",
+  "accepted_adventure_art_unchanged": true,
+  "visual_approval": "awaiting user"
+}

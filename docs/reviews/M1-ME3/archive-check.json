@@ -1,0 +1,14 @@
+{
+  "result": "pass",
+  "sourceCommit": "9dd5f6e3dd1182991110021ff08780f0895c8e23",
+  "testedRuntimeFiles": 1334,
+  "buildFiles": 2663,
+  "archiveFiles": 2664,
+  "additionalFiles": [
+    "dist/.openai/hosting.json (exact source hosting metadata)"
+  ],
+  "archiveSHA256": "3dfd40c19bfac8c7bf480570aca8d326e4dc6c5dadc27575018331b4ff550511",
+  "runtimeByteIdentical": true,
+  "buildArchiveByteIdentical": true,
+  "noCachesOrResourceForks": true
+}
