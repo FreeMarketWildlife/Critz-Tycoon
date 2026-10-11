@@ -1,5 +1,12 @@
 # Visual foundation production plan
 
+## M1.ME2 — Map-editor readiness audit
+
+**Audit complete; production editor readiness incomplete.** Latest user wants to build real maps and rejects current fences/trees. Deliverable: [readiness evidence and repair backlog](reviews/M1-ME2/README.md). Confirmed shared water brushes/rendering, ground/fence autotiling, JSON/chat export, directional passages and edge links. Missing full semantic asset/animation catalogue, shared adventure movement, automatic project-to-adventure compilation, complete doorway/exit/stair validation and fence/tree visual refinement. Start → Play my map is editor playback, not automatic integration of a new adventure area.
+
+16 editor unit checks and22 isolated browser checks pass; synthetic probes reproduce unlinked doors, fences on paths and walkable stairs on deep water without adequate validation. Published Map Studio opened and reached Ready; user can send Copy for chat or critz-world.json plus area intent. No real saves modified; physical Safari unverified. Branch main; audited36b95df7eaacbcec889b568e4a68094bcebe6b52. Documentation-only audit committed/pushed with remote SHA verified at completion; no runtime/art changes, no redundant deployment. Phone game remains the existing owner-private version45: https://critz-tycoon.freemarketwildlife.chatgpt.site . Exact next action: M1.ME3 doorway/exit/stair semantics and validation, followed by shared movement/compiler/catalogue and a fence/tree visual review. Repairs remain planned; no visual gate is self-approved.
+
+
 ## M1.ALL1 — Full game integration
 
 **Implemented, tested, pushed and published.** The user explicitly requests “the main game, the tile sets, the animations, the characters, EVERYTHING … all the water … the auto tiling map … Luke’s greenhouse … Go for it.” This authorizes integration of the completed work and supersedes the earlier review-only integration boundaries for these deliverables. It does not claim wider G1/G2 visual or feel acceptance, revive rejected artwork, or implement ideas-only future content.
