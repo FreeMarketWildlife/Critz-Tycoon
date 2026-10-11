@@ -1,0 +1,52 @@
+{
+  "task": "M1.ALL1",
+  "sourceCommit": "c56e036547e250003f3e7b2cbaa38246e470c74c",
+  "githubRemoteVerified": true,
+  "versionNumber": 45,
+  "deployment": {
+    "id": "appgdep_6acb0a938a488191abfa135ac932bfea",
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "title": "Critz: Tycoon",
+    "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_f8b2c9d4a9c481918d72524ced75cd91",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab5dd1e11ac8191937254280d6ba196",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-11T04:03:39.597410+00:00"
+  },
+  "initialDeployment": {
+    "id": "appgdep_6acb0a1d1dc0819182f7a86125a7fe33",
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "title": "Critz: Tycoon",
+    "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_d3cfdf519634819190f0af9ead35133e",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab5dd1e11ac8191937254280d6ba196",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-11T04:01:47.092729+00:00"
+  },
+  "audience": "Existing owner-private audience preserved",
+  "unitTests": 215,
+  "browserChecks": 118,
+  "syntaxModules": 60,
+  "atlasChecks": 310,
+  "nativePngChecks": 986,
+  "testedRuntimeFiles": 867,
+  "buildFiles": 2284,
+  "archiveFiles": 2285,
+  "archiveSha256": "ca5e91acbef8b79ec464632b2f0c25966603471e61f4b8bde190f56422b2ea43",
+  "phoneUrl": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "limitations": [
+    "Chromium phone emulation; physical iOS Safari/haptics not tested.",
+    "Custom-map exploration preserves the authored draft and adventure progress; it does not replace Rootport's story layout.",
+    "No overall G1/G2 visual/feel self-approval."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "sourceCommit": "c56e036547e250003f3e7b2cbaa38246e470c74c",
+  "testedRuntimeFiles": 867,
+  "buildFiles": 2284,
+  "archiveFiles": 2285,
+  "matched": true,
+  "additionalFiles": [
+    "dist/.openai/hosting.json"
+  ],
+  "archiveSha256": "ca5e91acbef8b79ec464632b2f0c25966603471e61f4b8bde190f56422b2ea43"
+}
