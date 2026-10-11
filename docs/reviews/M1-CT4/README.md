@@ -10,8 +10,10 @@ Clean task-only export passes192 unit tests and271 isolated browser checks:140 a
 
 Every building and representative static collider families are approached from reachable sides using actual input and synthetic saves. Whole collision cells, actor anchors, passage coordinates, v1 keys and save data remain unchanged. Doors/stairs, one-way ledges, movable boulders, walkable shallows, greenhouse payment/catching, clock/sleep and reload regression checks pass. Browser phone layouts pass; physical Safari and haptic hardware remain untested. Wider M1/M2 review gates remain with the user.
 
-Publication is pending. [Adventure](https://critz-tycoon.freemarketwildlife.chatgpt.site/) · [Map Studio](https://critz-tycoon.freemarketwildlife.chatgpt.site/map-editor/) · [Historical lab, B approved](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/contact-lab/).
+Published as Sites version40 from main source `9799c6f76e76d2cdb432f7211da0713dd2f22574`; deployment succeeded2026-10-10 6:35:49PM Pacific. All910 tested runtime files match the release and all2,084 build files match the archive. Owner-private audience and existing saves preserved. [Deployment receipt](deployment.json) · [Archive proof](archive-check.json) · [Version provenance](version.json). Final receipt updates are documentation only. Unrelated character/coast edits remain in the shared workspace. Exact next action: try integrated B in adventure/Map Studio; no CT4 implementation/publication work remains. [Adventure](https://critz-tycoon.freemarketwildlife.chatgpt.site/) · [Map Studio](https://critz-tycoon.freemarketwildlife.chatgpt.site/map-editor/) · [Historical lab, B approved](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/contact-lab/).
 
 ![Building side contact](building.png)
 ![Indoor wall contact](indoor-wall.png)
 ![Map Studio phone test](editor-phone.png)
+
+![Water depth contact](water.png)

@@ -1,0 +1,19 @@
+{
+  "passed": [
+    "Coastal demo loads isolated disposable state at 6am without adventure storage",
+    "All six scenes show correctly separated land banks, beach wash and curved depths; rocks stay interior",
+    "Deep-only land shores block walking, remain reflective and support all five ground types",
+    "Tile walking in still shallows creates rings, rejects deep entry and triggers turtle slides",
+    "Footstep rings expire",
+    "Moving shallows walk without rings; ocean removes actor reflections",
+    "Sunny cloud window and weather suppression preserved",
+    "Rock halos and contact shadows use the independently toggleable Shadows layer",
+    "Beach wash and moving water animate; Calm freezes native scene motion",
+    "2am pass-out and early bed sleep retain 6am start and no fee",
+    "Complete native tileset gallery displays all 47 shapes and separate rock shadows",
+    "Phone layout fits and touch pad drives actual tile controller",
+    "Earlier water review also removes depth banks and moves rocks off transition cells",
+    "No browser runtime errors"
+  ],
+  "errors": []
+}
