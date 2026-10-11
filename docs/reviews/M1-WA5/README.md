@@ -9,3 +9,5 @@ Original art uses a stepped cap, recessed rock face and dark toe. The new depth 
 Reference: user screenshots and pinned [Emerald movement source](https://github.com/pret/pokeemerald/blob/5eff78649e7170a877b961ef0b3da13b81a16038/src/event_object_movement.c). Source distinguishes directional ledge behavior; our deep-water bank is a Critz collision/art decision. No source art is shipped, no new exact Emerald pixel measurement or emulator observation is claimed.
 
 Validation:185 unit tests;41 isolated browser scenarios (11 water,8 clouds,14 clock/sleep,8 deep boundary approaches). Desktop and phone render screenshots inspected. All4 sides of both deep pools reject walking. Synthetic save fixtures verify unchanged money/debt/flags and v1 slot. Physical Safari remains unverified. New visuals await user feedback. Publication receipts accompany this review after deployment.
+
+Published owner-private Sites version39 from source947f1a17cdc86c797909ba4f08629045bcb9e8af at2026-10-10 6:13:50PM Pacific. [Deployment receipt](deployment.json), [archive proof](archive-check.json), [runtime comparison](runtime-check.json). Final receipt commit changes documentation only.

@@ -2,7 +2,7 @@
 
 ## M1.WA5 — Enclosed deep-water pools
 
-Implemented/tested; publishing the review deliverable. Full shallow rings, diagonal-contact validation and188 original submerged depth-bank overlays.185 unit tests and41 browser checks pass. [Review](reviews/M1-WA5/README.md). Next: publish exact tested build, then user visual review. Wider gates remain pending.
+Implemented/tested/pushed/published; user visual review pending. Full shallow rings, diagonal-contact validation and188 original submerged depth-bank overlays.185 unit tests and41 browser checks pass;778 runtime files and2,056 archive files verified. Source947f1a1; owner-private Sites version39 succeeds2026-10-10 6:13:50PM Pacific. [Phone demo](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/water.html) · [Review](reviews/M1-WA5/README.md). Exact next action: user compares revised deep banks and all four water surfaces. No remaining implementation/publication step; wider gates remain pending.
 
 ## M1.WA4 — Corner correction and sunny reflected clouds
 
