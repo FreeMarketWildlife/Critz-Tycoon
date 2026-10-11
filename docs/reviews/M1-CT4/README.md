@@ -17,3 +17,5 @@ Published as Sites version40 from main source `9799c6f76e76d2cdb432f7211da0713dd
 ![Map Studio phone test](editor-phone.png)
 
 ![Water depth contact](water.png)
+
+Shared-workspace receipt note: commit `b736d34` also captured coast-review files that another task had concurrently staged in the shared Git index. Those files were preserved and pushed; they are not part of CT4’s tested/published version40 source `9799c6f`. The CT4 evidence and source receipt remain valid. Coast publication is tracked by its own task; do not infer that this receipt commit deployed it. Remaining character edits stay in the working tree.
