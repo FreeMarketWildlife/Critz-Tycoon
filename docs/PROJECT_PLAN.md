@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.CT3 — Contact fixtures one tile south
+
+**Implemented and tested; push/publication in progress.** User requests all four options shifted south one full tile. Translate every house/wall/cliff assembly by32 native pixels; keep actual adventure tile controller, Hero anchors and solid-cell masks fixed. Front idle foot gaps become A22/B14/C6/D2 pixels. Native assets and accepted gameplay remain unchanged. No boundary choice or visual gate self-approved. Checks:179 clean unit tests and15 isolated contact-lab browser scenarios pass, including all12 fixture combinations, phone layouts and unchanged synthetic saves. Physical phone haptics remain unverified. Next: push exact tested source and publish it.
+
 ## M1.WA3 — Water surfaces, shallow traversal and reflections
 
 Implemented/tested/pushed/published; new visual feedback pending. Four named surfaces, independent freshwater/ocean identity, shallow walking, still-shallow rings, actor/sky reflections and recessed banks are available in the water demo. Full6,648-tile Tiled extension/gallery, all47 shapes for96 ordered pairs. Source `cc46514`; version36 deployment succeeded2026-10-10 1:07:08pm Pacific. Clean combined release passes179 unit tests and40 browser scenarios, including preserved concurrent contact-lab work. All1,996 build files match publication archive. [Phone demo](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/water.html) · [Review](reviews/M1-WA3/README.md). Existing adventure saves/maps/editor semantics remain. Exact next action: user reviews published shallows/reflections/banks; no implementation/push/publication step remains. No broader M1/M2 approval inferred.

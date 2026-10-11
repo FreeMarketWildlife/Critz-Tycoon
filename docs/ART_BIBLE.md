@@ -37,6 +37,8 @@ Use one method across the three study fixtures: integer translation of native st
 
 Haptics remain an optional feature-detected request, with honest unsupported/hardware-unverified states and one pulse per distinct bump; never move the camera or fake vibration support. Keep ground-strip widths, idle foot gaps, collision overlays and native contact crops reviewable. [Tile-based refinement](reviews/M1-CT2/README.md).
 
+**M1.CT3 correction:** all four options’ house, indoor-wall and cliff assemblies move one full native tile south relative to fixed Hero anchors and collision masks. The comparison changes artwork registration only; tile-based walking remains mandatory. Material splits remain review choices.
+
 ## Map authoring review — M1.ME1
 
 The user commissions a terrain-aware map editor, whole-building stamps, explicit collision, cliff openings, directed ledges and Hero testing. Keep this as a separate review tool; it does not replace accepted maps or approve new art. Reuse the exact existing native 32px environment and selected living Hero. Add an editor extension sheet with stable named terrain-pair corner banks, fence/ground compositions, mountain walls, cave mouths, stairs and directed ledges. Author hard native pixels with the existing grass/stone/wood/water ramps; no reference-game pixels ship. Terrain, fence and cliff pieces compile to one ground metatile per cell; planters and pushable boulders retain explicit object semantics. Roof/canopy projection is independent of solid footprints.

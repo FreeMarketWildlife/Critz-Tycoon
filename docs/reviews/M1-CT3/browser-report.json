@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "All native fixture variants and selected Hero load without errors",
+    "house: A/B/C/D preserve contact position and show exact front gap differences",
+    "wall: A/B/C/D preserve contact position and show exact front gap differences",
+    "cliff: A/B/C/D preserve contact position and show exact front gap differences",
+    "A brief press commits exactly one tile with the actual game controller; no free-movement selector",
+    "Simultaneous keys use game direction priority and release preserves the other held key",
+    "Rear and side walking stay outside solid cells; roof occludes Hero with inspectable clear footprint",
+    "One short vibration request per new bump; held contact does not repeat, and opt-out works",
+    "Copy choice exports exact option, movement method, surface and notes",
+    "Adventure and map-editor saves remain untouched",
+    "Window blur releases input; committed movement finishes on a tile without drift",
+    "Old fine-mode URLs use full-tile movement and cannot bypass the game controller",
+    "Phone controls, tap selection, close view and honest unsupported-haptic fallback work",
+    "Phone portrait and landscape have no horizontal overflow",
+    "No browser exceptions or missing assets"
+  ],
+  "errors": []
+}

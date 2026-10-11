@@ -1,5 +1,9 @@
 # Project status
 
+## M1.CT3 — Contact fixtures one tile south
+
+**Implemented and tested; push/publication in progress.** User requests all four options shifted south one full tile. Translate every house/wall/cliff assembly by32 native pixels; keep actual adventure tile controller, Hero anchors and solid-cell masks fixed. Front idle foot gaps become A22/B14/C6/D2 pixels. Native assets and accepted gameplay remain unchanged. No boundary choice or visual gate self-approved. Checks:179 clean unit tests and15 isolated contact-lab browser scenarios pass, including all12 fixture combinations, phone layouts and unchanged synthetic saves. Physical phone haptics remain unverified. Next: push exact tested source and publish it.
+
 ## M1.WA3 — Water surfaces, shallow traversal and reflections
 
 **Implemented, tested, pushed and published; new visuals await user review.** The user likes WA2 and commissions four named water surfaces, walkable shallows, freshwater-only character reflections, still-shallow footsteps, clouds/stars and complete terrain transitions. [Review and pinned Emerald evidence](reviews/M1-WA3/README.md). Demo imports the actual adventure movement controller, keeps minute clock/6am–2am/no-fee sleep rules, and uses original native pixels. Water identity, motion and depth are independent. Ocean never reflects actors; sky clouds/stars can reflect in both identities. All96 ordered water/ground pairs have47 shapes:4,512 transitions plus1,880 bank overlays and256 surface frames,6,648 tiles. All surface loops3.2 seconds. Deep banks have recessed faces; shallow rims remain walkable. Existing atlases, adventure maps, save keys and Map Studio semantics remain unchanged. New bank is a named Tiled extension and fully inspectable gallery.
