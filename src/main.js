@@ -30,6 +30,7 @@ import {
   nearestEntity,
   transition,
   isBlocked,
+  fenceCrossing,
   canStep,
 } from "./world.js";
 import { renderTank, renderSpecimen } from "./tank-render.js";
@@ -1198,7 +1199,7 @@ function frame(now) {
     visualTime += dt;
     updateText(dt);
     initializeActors(state,scenes[state.scene].entities);
-    updateActors(state,dt,{paused:!!(panelName||dialogue||transitioning||state.stage==='night'),calm:settings.calm,playerDestination:getMotionView(motion).destination,canEnter:(x,y)=>!isBlocked(state.scene,x,y)&&!getEntities(state).some(e=>e.type==='door'&&e.x===x&&e.y===y)});
+    updateActors(state,dt,{paused:!!(panelName||dialogue||transitioning||state.stage==='night'),calm:settings.calm,playerDestination:getMotionView(motion).destination,canEnter:(x,y,id,from)=>!fenceCrossing(state.scene,from,{x,y})&&!isBlocked(state.scene,x,y)&&!getEntities(state).some(e=>e.type==='door'&&e.x===x&&e.y===y)});
     moving = false;
     syncMotion();
     if (!panelName && !dialogue && !transitioning) {

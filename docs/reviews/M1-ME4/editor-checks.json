@@ -1,0 +1,27 @@
+{
+  "checks": [
+    "Desktop editor opens all original and extension art without missing files",
+    "Pointer painting, undo and redo preserve exact cells",
+    "Rectangle drag fills inclusive cells and recomputes corners",
+    "Flood changes a connected material region",
+    "Connected fences and collision overlay render",
+    "Building stamps place and move as whole semantic footprints",
+    "Native desktop drag-and-drop places an entire stamp",
+    "Searchable full tilesheet supplies exact overrides with explicit collision",
+    "Copy-to-chat clipboard data reimports losslessly",
+    "Malformed imports show an inline error and retain the draft",
+    "Draft autosave/reload is isolated from adventure storage",
+    "Project JSON and native map PNG downloads work",
+    "Measured route preset and reciprocal edge connections are editable",
+    "Hero walks actual test cells, stops at shore, and leaves the draft untouched",
+    "Actual Hero test jumps a ledge in one direction and cannot climb back",
+    "Hero pushes a boulder in a disposable test copy",
+    "Actual walking traverses edge connections and directional entrance warps",
+    "Blocked Hero starts prevent testing with actionable validation",
+    "Tablet project panel keeps save/import available",
+    "390px phone has no horizontal overflow; touch painting and Hero controls work",
+    "Corrupt saved draft is retained for recovery",
+    "No browser exceptions or missing assets"
+  ],
+  "errors": []
+}

@@ -1,3 +1,4 @@
+import {loadBuildingArt,drawBuilding} from './passage-art.js';
 import {loadWorldWater,drawWorldWater} from './world-water.js';
 import {loadContactArt,drawContactArt,contactArtInfo,contactEntry,contactFrontiers} from './contact-art.js';
 import {fruitTreeView,APPLE_POSITIONS} from './fruit-trees.js';
@@ -7,9 +8,9 @@ import {drawCritter,RESCUES} from './living-art.js';
 import {applyLighting} from './lighting.js';
 import {scenes,getEntities} from './world.js';
 import {TICK_SECONDS} from './movement.js';
-let sheet,manifest,tiles;
+let sheet,manifest,tiles,buildingArt;
 export async function loadEnvironment(){
- await Promise.all([loadContactArt(),loadWorldWater()]);
+ [buildingArt]=await Promise.all([loadBuildingArt(),loadContactArt(),loadWorldWater()]);
  const url=new URL('../assets/playable/overworld/master.json',import.meta.url),response=await fetch(url);
  if(!response.ok)throw Error('Overworld manifest failed to load');manifest=await response.json();
  sheet=new Image();sheet.src=new URL(manifest.image,url).href;await sheet.decode();
@@ -38,7 +39,7 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  c.imageSmoothingEnabled=false;c.fillStyle='#487b59';c.fillRect(0,0,width,height);c.save();c.translate(-camera.x,-camera.y);
  const visible=(x,y,w=1,h=1)=>x*32<camera.x+width+32&&(x+w)*32>camera.x-32&&y*32<camera.y+height+32&&(y+h)*32>camera.y-64;
  const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
- const assembly=(o)=>{if(o.collision){drawContactArt(c,`${state.scene}:${map.objects.indexOf(o)}${o.id==='mill.wheel.0'?':phase'+Math.floor(time/.18)%4:''}`.replace(':phase0',''),o.x*32,o.y*32);return;}const attached=map.objects.find(b=>b.kind==='building'&&o.x>=b.x&&o.x<b.x+b.w&&(o.id==='chimney'&&o.y===b.y-1||o.id.startsWith('shop.sign.')&&o.y===b.y+3)),fountain=map.objects.find(b=>b.id==='fountain.small'&&o.id==='fountain.jet'&&o.x===b.x+1&&o.y===b.y),parent=attached||fountain,offset=parent?contactEntry(`${state.scene}:${map.objects.indexOf(parent)}`).dy:0;const objectId=o.id==='mill.wheel.0'?`mill.wheel.${Math.floor(time/.18)%4}`:o.id;const rows=o.tiles||manifest.assemblies[objectId];if(rows)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,(o.x+i)*32,(o.y+j)*32+offset)));else draw(o.id,o.x*32,o.y*32+offset);};
+ const assembly=(o)=>{if(o.kind==='building'&&o.facade){const dx=o.x+Math.floor(o.w/2),dy=o.y+5,progress=dy+1-view.y/16,approach=view.facing==='up'&&Math.abs(view.x/16-dx)<.1&&progress>0&&progress<=1,exiting=view.facing==='down'&&Math.abs(view.x/16-dx)<.1&&view.y/16>=dy&&view.y/16<dy+1;drawBuilding(c,buildingArt,{...o,type:o.facade},{open:o.entrance==='open',phase:exiting||approach&&progress>=.45?2:approach?1:0});return;}if(o.kind==='fence'){const a=buildingArt.frames.get('fence:'+o.id.split('.')[1]);c.drawImage(buildingArt.img,...a.rect,o.x*32,o.y*32-16,a.rect[2],a.rect[3]);return;}if(o.collision){drawContactArt(c,`${state.scene}:${map.objects.indexOf(o)}${o.id==='mill.wheel.0'?':phase'+Math.floor(time/.18)%4:''}`.replace(':phase0',''),o.x*32,o.y*32);return;}const attached=map.objects.find(b=>b.kind==='building'&&o.x>=b.x&&o.x<b.x+b.w&&(o.id==='chimney'&&o.y===b.y-1||o.id.startsWith('shop.sign.')&&o.y===b.y+3)),fountain=map.objects.find(b=>b.id==='fountain.small'&&o.id==='fountain.jet'&&o.x===b.x+1&&o.y===b.y),parent=attached||fountain,offset=parent?contactEntry(`${state.scene}:${map.objects.indexOf(parent)}`).dy:0;const objectId=o.id==='mill.wheel.0'?`mill.wheel.${Math.floor(time/.18)%4}`:o.id;const rows=o.tiles||manifest.assemblies[objectId];if(rows)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,(o.x+i)*32,(o.y+j)*32+offset)));else draw(o.id,o.x*32,o.y*32+offset);};
  // A wide/tall viewport can look beyond a small map. Existing dense forest
  // art marks that non-playable backdrop instead of exposing a flat clear field.
  if(camera.x<0||camera.y<0||camera.x+width>map.w*32||camera.y+height>map.h*32){

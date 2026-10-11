@@ -1,3 +1,4 @@
+import {crossesFence} from './fence-crossing.js';
 import {FRUIT_TREES,fruitCells} from './fruit-trees.js';
 import {actorEntity} from './actors.js';
 import {buildings, liarsBuildings, overworldMaps} from './overworld.js';
@@ -217,8 +218,9 @@ export function isBlocked(sceneId, x, y, state) {
   return !!state && getEntities(state.scene===sceneId?state:{ ...state, scene: sceneId }).some(entity => entity.type === "npc" && (contains(entity.collision, x, y) || (entity.reserved?.[0]===x && entity.reserved?.[1]===y)));
 }
 
+export function fenceCrossing(sceneId,from,to){const map=scenes[sceneId]?.map;return !!map&&crossesFence(from,to,(x,y)=>{const o=map.objects.find(o=>o.kind==='fence'&&o.x===x&&o.y===y);return o?Number(o.id.split('.')[1]):null;});}
 export function canStep(state, x, y) {
-  if (isBlocked(state.scene, x, y, state)) return false;
+  if (isBlocked(state.scene, x, y, state)||fenceCrossing(state.scene,state.player,{x,y})) return false;
   for (const e of scenes[state.scene].entities.filter(e => e.stair)) {
     const [ax, ay] = e.stair.approach;
     if (x === e.x && y === e.y && (state.player.x !== ax || state.player.y !== ay)) return false;
@@ -250,7 +252,7 @@ export function safeGridPosition(sceneId, x, y, state) {
     if (d < distance || (d === distance && (cy < best.y || (cy === best.y && cx < best.x)))) { best = { x: cx, y: cy }; distance = d; }
     for (const [dx, dy] of [[0, -1], [-1, 0], [1, 0], [0, 1]]) {
       const nx = cx + dx, ny = cy + dy, key = `${nx},${ny}`;
-      if (!visited.has(key) && !isBlocked(sceneId, nx, ny, state)) { visited.add(key); queue.push([nx, ny]); }
+      if (!visited.has(key) && !isBlocked(sceneId, nx, ny, state)&&!fenceCrossing(sceneId,{x:cx,y:cy},{x:nx,y:ny})) { visited.add(key); queue.push([nx, ny]); }
     }
   }
   return best;

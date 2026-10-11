@@ -25,7 +25,7 @@ export function updateActors(state,dt,{paused=false,canEnter,playerDestination=n
   const point=(a.point+1)%a.path.length,[dx,dy]=a.path[point],x=a.homeX+dx,y=a.homeY+dy;
   const direction=x>a.x?'right':x<a.x?'left':y>a.y?'down':'up';a.facing=direction;
   const occupied=[...r.actors.values()].some(b=>b!==a&&((b.x===x&&b.y===y)||(b.step?.x===x&&b.step?.y===y)));
-  if(Math.abs(x-a.x)+Math.abs(y-a.y)!==1||occupied||(state.player.x===x&&state.player.y===y)||(playerDestination?.x===x&&playerDestination?.y===y)||!canEnter(x,y,a.id)){a.wait=45;continue;}
+  if(Math.abs(x-a.x)+Math.abs(y-a.y)!==1||occupied||(state.player.x===x&&state.player.y===y)||(playerDestination?.x===x&&playerDestination?.y===y)||!canEnter(x,y,a.id,{x:a.x,y:a.y})){a.wait=45;continue;}
   a.point=point;a.step={x,y,tick:0};
  }}
 }
