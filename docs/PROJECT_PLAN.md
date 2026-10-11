@@ -2,7 +2,7 @@
 
 ## M1.WA6 — Beaches, raised shores and curved water depths
 
-Implemented/tested; publishing review. Correct WA5 bank placement; provide six shoreline examples, new sand with3.2-second beach wash, curved shallow/deep edges and interior-only rocks with separate shadows.12,512 base/registered assets/all47 masks;200 unit and47 browser checks pass. [Review](reviews/M1-WA6/README.md). Next: exact-build publication, then user visual review. Concurrent approved CT4 contact integration is preserved; no wider gate is self-approved.
+Implemented/tested/pushed/published; user visual review pending. Correct WA5 bank placement; six shoreline examples, new sand/3.2-second beach wash, curved water-depth edges and interior-only rocks with separate shadows.12,512 native base/registered assets use actual B contact geometry;200 unit tests and47 browser checks pass. All796 runtime/2,119 build files verified. Source8f52cef; owner-private Sites version41 succeeds2026-10-10 6:49:15PM Pacific. Preserve approved CT4 integration and unrelated character edits. [Phone demo](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/coast.html) · [Review](reviews/M1-WA6/README.md). Exact next action: user visual review of six examples; no implementation/publication step remains, and no wider gate is self-approved.
 
 ## M1.CT4 — Approved B contact across collidables
 
