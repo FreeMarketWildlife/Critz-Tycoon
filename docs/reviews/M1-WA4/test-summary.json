@@ -1,0 +1,28 @@
+{
+  "unitTests": 182,
+  "cloudCornerBrowserScenarios": 8,
+  "waterBrowserScenarios": 11,
+  "clockSleepBrowserScenarios": 14,
+  "cornerLayouts": 65536,
+  "cornerEdgeMismatchesBefore": 884736,
+  "cornerEdgeMismatchesAfter": 0,
+  "openingBaseline": "61188ada453097b21bfd5abf005b12d72d9906a4",
+  "currentHead": "002b25f325958e5b517108291b683fa8fcc8fecb",
+  "unrelatedTrackedFilesPreserved": [
+    "art-review/walking.html",
+    "art-review/walking.js",
+    "art/source/characters-walk-v2/build.mjs",
+    "art/source/playable-characters/README.md",
+    "art/source/playable-characters/build.mjs",
+    "assets/playable/characters/atlas.json",
+    "assets/playable/characters/atlas.png",
+    "docs/CHARACTER_FRAMEWORK.md",
+    "package.json",
+    "scripts/check-walking-atlas.py",
+    "scripts/export-character-walks.py",
+    "scripts/pack-playable-atlas.py",
+    "tests/visual-browser.mjs",
+    "tests/walking-browser.mjs"
+  ],
+  "physicalSafari": "unverified"
+}

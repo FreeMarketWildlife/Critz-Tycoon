@@ -10,7 +10,7 @@ export const WATER_MASKS=[...new Set(Array.from({length:256},(_,m)=>canonicalMas
 export function waterPixel(x,y,m){const east=x>=16,south=y>=16,dx=east?31-x:x,dy=south?31-y:y;
  const vx=!!(m&(east?2:8)),vy=!!(m&(south?4:1)),diag=!!(m&(south?(east?32:64):(east?16:128)));
  if(!vx&&!vy)return dx>=5&&dy>=5&&(dx>=11||dy>=11||(dx-11)**2+(dy-11)**2<=36);
- if(!vx)return dx>=5;if(!vy)return dy>=5;if(!diag&&dx<8&&dy<8)return dx*dx+dy*dy>=64;return true;}
+ if(!vx)return dx>=5;if(!vy)return dy>=5;if(!diag&&dx<5&&dy<5)return dx*dx+dy*dy>=25;return true;}
 export function neighborMask(x,y,match){return canonicalMask([[0,-1,1],[1,0,2],[0,1,4],[-1,0,8],[1,-1,16],[1,1,32],[-1,1,64],[-1,-1,128]].reduce((m,[dx,dy,b])=>m|(match(x+dx,y+dy)?b:0),0));}
 // Emerald's ripple animation command sequence; original Critz ring pixels.
 export const RIPPLE_SEQUENCE=[[0,12],[1,9],[2,9],[3,9],[0,9],[1,9],[2,11],[4,11]];

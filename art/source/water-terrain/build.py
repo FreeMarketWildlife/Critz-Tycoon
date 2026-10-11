@@ -16,7 +16,7 @@ def inside(x,y,m):
  if not vx and not vy:return dx>=5 and dy>=5 and (dx>=11 or dy>=11 or (dx-11)**2+(dy-11)**2<=36)
  if not vx:return dx>=5
  if not vy:return dy>=5
- if not diag and dx<8 and dy<8:return dx*dx+dy*dy>=64
+ if not diag and dx<5 and dy<5:return dx*dx+dy*dy>=25
  return True
 colors={'grass':'#8bc77a','path':'#dfc28d','soil':'#94745c','paving':'#9fa79c','cliff':'#927d72'}
 def base(s,f=0):

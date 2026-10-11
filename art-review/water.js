@@ -1,3 +1,4 @@
+import {loadCloudArt,cloudsVisible,cloudSun} from '../src/water-clouds.js';
 import {surface,footstepRipples,neighborMask,RIPPLE_SECONDS} from '../src/water-surfaces.js';
 import {loadWaterTerrain,maskPath,drawRipples,drawReflection,drawSky} from '../src/water-effects.js';
 import {createMotion,getMotionView,advanceMotion,createMotionClock,advanceMotionClock,resetMotionClock} from '../src/movement.js';
@@ -11,6 +12,7 @@ import {readRenderSettings,saveRenderSettings} from '../src/render-settings.js';
 const canvas=document.querySelector('#pond'),c=canvas.getContext('2d'),state=createState('Hero','boy','River');state.stage='morning';ensureDayClock(state);
 let player={x:2,y:7,facing:'up'},motion=createMotion(player);const motionClock=createMotionClock();
 const hero={x:80,y:256,facing:'up'},turtles=[createTurtle(176,176),createTurtle(336,240)],down=new Set(),renderSettings=readRenderSettings(localStorage);
+let cloudArt,weather='sunny';
 let terrain,identity='fresh',ground='grass',ripples=[],steps=0,reflectionVisible=false;
 let time=0,last=performance.now(),paused=false,speed=1,calm=matchMedia('(prefers-reduced-motion: reduce)').matches,draw,ready=false;
 const $=id=>document.getElementById(id),message=s=>$('message').textContent=s;
@@ -22,6 +24,7 @@ function cells(){const result=[];for(let y=0;y<10;y++)for(let x=0;x<15;x++)if(wa
 function visit(x,y){player={x,y,facing:'down'};motion=createMotion(player);down.clear();resetMotionClock(motionClock);syncHero();}
 $('identity').onclick=()=>{identity=identity==='fresh'?'ocean':'fresh';$('identity').textContent=identity==='fresh'?'Freshwater · Reflective':'Ocean · No character reflections';};
 $('ground').onchange=e=>ground=e.target.value;
+$('weather').onchange=e=>weather=e.target.value;
 for(const b of document.querySelectorAll('[data-visit]'))b.onclick=()=>{const [x,y]=b.dataset.visit.split(',').map(Number);visit(x,y);};
 function syncHero(){const v=getMotionView(motion);Object.assign(hero,{x:v.x*2+16,y:v.y*2+32,facing:v.facing});return v;}
 function sleep(forced=false){if(!forced&&Math.hypot(hero.x-80,hero.y-108)>55){message('Walk beside the bed in the upper-left corner first.');return;}endDay(state);speed=1;$('speed').textContent='Speed · 1×';player={x:2,y:4,facing:'down'};motion=createMotion(player);resetMotionClock(motionClock);down.clear();syncHero();message(forced?'You fell asleep at 2:00am and woke safely in bed at 6:00am. No fee.':'Good morning! You woke in bed at 6:00am.');}
@@ -41,7 +44,7 @@ function render(){c.imageSmoothingEnabled=false;
  const all=cells(),wet=maskPath(all),still=maskPath(all,s=>s.reflective&&!s.moving),moving=maskPath(all,s=>s.reflective&&s.moving),f=calm?0:Math.floor(time/WATER_FRAME_SECONDS)%WATER_FRAMES;
  for(let y=0;y<10;y++)for(let x=0;x<15;x++)drawEnvironmentTile(c,'meadow.grass.0',x*32,y*32);
  for(const cell of all){const {x,y,surface:s,mask}=cell,id=`${identity}.${s.type}`;terrain.draw(c,`join.${id}.${ground}.${mask}`,x*32,y*32);c.save();c.clip(maskPath([cell]));const other=[[0,-1],[1,0],[0,1],[-1,0]].map(([dx,dy])=>waterType(x+dx,y+dy)).find(t=>t&&t!==s.type);if(other){const typeMask=neighborMask(x,y,(xx,yy)=>waterType(xx,yy)===s.type);terrain.draw(c,`${identity}.${other}.${f}`,x*32,y*32);c.save();c.clip(maskPath([{...cell,mask:typeMask}]));terrain.draw(c,`${id}.${f}`,x*32,y*32);c.restore();}else terrain.draw(c,`${id}.${f}`,x*32,y*32);c.restore();}
- drawSky(c,time,displayedMinute(state.dayClock),wet,calm);
+ drawSky(c,time,displayedMinute(state.dayClock),wet,calm,cloudArt,weather);
  ac.clearRect(0,0,32,64);character(ac,16,64,{gender:'boy',facing:hero.facing,pose:calm?'idle':getMotionView(motion).pose});const pixels=ac.getImageData(0,0,32,64);for(let i=0;i<pixels.data.length;i+=4){pixels.data[i]=Math.round(pixels.data[i]*.68+147*.32);pixels.data[i+1]=Math.round(pixels.data[i+1]*.68+200*.32);pixels.data[i+2]=Math.round(pixels.data[i+2]*.68+213*.32);}ac.putImageData(pixels,0,0);
  drawReflection(c,{image:actor,x:hero.x,y:hero.y},still,time,false);drawReflection(c,{image:actor,x:hero.x,y:hero.y},moving,calm?0:time,true);
  reflectionVisible=identity==='fresh'&&all.some(cell=>hero.x>=cell.x*32&&hero.x<(cell.x+1)*32&&hero.y<(cell.y+1)*32&&hero.y+64>cell.y*32);
@@ -62,5 +65,5 @@ function frame(now){const elapsed=Math.max(0,(now-last)/1000),dt=Math.min(.1,ela
  time+=dt;advanceMotionClock(motionClock,elapsed,()=>{const before=`${player.x},${player.y}`;advanceMotion(motion,down,false,walkable,{runAllowed:true});if(before!==`${player.x},${player.y}`){steps++;const s=cellSurface(player.x,player.y);if(footstepRipples(s)&&!calm)ripples.push({x:player.x*32+16,y:player.y*32+29,time});}});syncHero();ripples=ripples.filter(r=>time-r.time<RIPPLE_SECONDS);
  for(const t of turtles)updateTurtle(t,hero,dt,{calm});if(advanceDayClock(state,dt*speed))sleep(true);
  }else resetMotionClock(motionClock);render();}requestAnimationFrame(frame);}
-try{await initWorldArt();draw=await loadWaterArt();terrain=await loadWaterTerrain();ready=true;requestAnimationFrame(frame);}catch(e){message(`Artwork could not load: ${e.message}`);}
-export function getWaterReview(){return structuredClone({state,hero,player,movement:getMotionView(motion),turtles,time,paused,speed,calm,shadows:renderSettings.shadows,identity,ground,ripples,steps,reflectionVisible,cells:cells(),ready});}
+try{await initWorldArt();draw=await loadWaterArt();terrain=await loadWaterTerrain();cloudArt=await loadCloudArt();ready=true;requestAnimationFrame(frame);}catch(e){message(`Artwork could not load: ${e.message}`);}
+export function getWaterReview(){return structuredClone({state,hero,player,movement:getMotionView(motion),turtles,time,paused,speed,calm,shadows:renderSettings.shadows,identity,ground,weather,cloudsVisible:cloudsVisible(displayedMinute(state.dayClock),weather),cloudSun:cloudSun(displayedMinute(state.dayClock)),ripples,steps,reflectionVisible,cells:cells(),ready});}

@@ -1,4 +1,5 @@
 // All reflection/effect masks are hard native pixels; no reference artwork.
+import {cloudsVisible} from './water-clouds.js';
 import {waterPixel,ripplePose} from './water-surfaces.js';
 export async function loadWaterTerrain(){const url=new URL('../assets/review/water-terrain/atlas.json',import.meta.url),manifest=await(await fetch(url)).json(),img=new Image();img.src=new URL(manifest.image,url).href;await img.decode();const tiles=new Map(manifest.assets.map(t=>[t.id,t]));return {manifest,draw(c,id,x,y){const a=tiles.get(id);if(!a)throw Error('Missing water tile '+id);c.drawImage(img,a.x,a.y,32,32,x,y,32,32);}};}
 const pathCache=new Map();
@@ -9,7 +10,7 @@ export function drawReflection(c,actor,clip,time,moving=false){c.save();c.clip(c
  // Copy the same pose, invert about the foot anchor. Integer scanlines keep pixels crisp.
  for(let y=0;y<64;y++){const drift=moving?Math.round(Math.sin(time*2+y/7)):0;c.drawImage(actor.image,0,63-y,32,1,Math.round(actor.x)-16+drift,Math.round(actor.y)-4+y,32,1);}
  c.restore();}
-export function drawSky(c,time,minute,clip,calm){const night=minute>=1260,phase=calm?0:time;c.save();c.clip(clip);
+export function drawSky(c,time,minute,clip,calm,cloudArt,weather='sunny'){const night=minute>=1260,phase=calm?0:time;c.save();c.clip(clip);
  if(night){for(let i=0;i<28;i++){const x=(i*73+21)%480,y=(i*47+136)%320;c.fillStyle=i%3?'#b4d5db':'#deead7';c.globalAlpha=.35+(calm?.1:Math.sin(phase*1.8+i)*.15);c.fillRect(x,y,2,2);if(i%5===0){c.fillRect(x-2,y+1,6,1);c.fillRect(x+1,y-2,1,6);}}}
- else{c.globalAlpha=.22;for(let i=0;i<3;i++){const x=Math.round(((410+i*181-phase*9)%660+660)%660)-100,y=140+i*55;ellipse(c,x,y,36,9,'#e0e9d3');ellipse(c,x-16,y-6,18,9,'#e0e9d3');ellipse(c,x+11,y-9,22,11,'#e0e9d3');}}
+ else if(cloudArt&&cloudsVisible(minute,weather)){c.globalAlpha=.52;for(let i=0;i<3;i++){const x=Math.round(((370+i*167-phase*9)%680+680)%680)-96,y=126+i*50;cloudArt.draw(c,i,minute,x,y);}}
  c.restore();}

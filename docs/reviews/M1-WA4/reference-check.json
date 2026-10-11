@@ -1,0 +1,20 @@
+{
+  "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "path": "graphics/weather/cloud.png",
+  "sha256": "726fb4758b335eb10eebdbd918468c2fb5f2a6704cda325db7a598eccd4fe5f2",
+  "allocatedFrame": [
+    64,
+    64
+  ],
+  "mode": "P",
+  "indices": {
+    "0": 1869,
+    "2": 1339,
+    "4": 242,
+    "3": 133,
+    "1": 397,
+    "5": 116
+  },
+  "method": "source PNG/OAM inspection; user supplied screenshot; no own emulator capture",
+  "sourcePixelsShipped": false
+}
