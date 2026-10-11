@@ -1,5 +1,7 @@
 # M1.CT1 — Transition-tile contact lab
 
+**Historical comparison. The user selected B after CT3; [M1.CT4](../M1-CT4/README.md) records approval and integration.**
+
 **Superseded movement:** [M1.CT2](../M1-CT2/README.md) now uses the actual main-game tile controller exclusively. Fine-approach measurements and controls below are retained as historical study notes.
 
 Playable comparison: https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/contact-lab/

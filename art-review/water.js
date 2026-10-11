@@ -1,3 +1,4 @@
+import {drawContactSprite,CONTACT_RULE} from '../src/contact-rules.js';
 import {reviewWaterType,reviewWaterCells,WATER_REVIEW_HEIGHT} from '../src/water-layout.js';
 import {loadCloudArt,cloudsVisible,cloudSun} from '../src/water-clouds.js';
 import {surface,footstepRipples,neighborMask,RIPPLE_SECONDS} from '../src/water-surfaces.js';
@@ -12,9 +13,9 @@ import {WATER_FRAMES,WATER_FRAME_SECONDS,loadWaterArt,createTurtle,updateTurtle,
 import {readRenderSettings,saveRenderSettings} from '../src/render-settings.js';
 const canvas=document.querySelector('#pond'),c=canvas.getContext('2d'),state=createState('Hero','boy','River');state.stage='morning';ensureDayClock(state);
 let player={x:2,y:4,facing:'down'},motion=createMotion(player);const motionClock=createMotionClock();
-const hero={x:80,y:160,facing:'down'},turtles=[createTurtle(80,208),createTurtle(336,240)],down=new Set(),renderSettings=readRenderSettings(localStorage);
-let cloudArt,weather='sunny';
-let depthArt,terrain,identity='fresh',ground='grass',ripples=[],steps=0,reflectionVisible=false;
+const hero={x:80,y:160,facing:'down'},turtles=[createTurtle(112,240),createTurtle(336,240)],down=new Set(),renderSettings=readRenderSettings(localStorage);
+let bedContact,rockContact;let cloudArt,weather='sunny';
+let terrain,identity='fresh',ground='grass',ripples=[],steps=0,reflectionVisible=false;
 let time=0,last=performance.now(),paused=false,speed=1,calm=matchMedia('(prefers-reduced-motion: reduce)').matches,draw,ready=false;
 const $=id=>document.getElementById(id),message=s=>$('message').textContent=s;
 const waterType=reviewWaterType;
@@ -43,19 +44,19 @@ const shadow=document.createElement('canvas');shadow.width=480;shadow.height=384
 const actor=document.createElement('canvas');actor.width=32;actor.height=64;const ac=actor.getContext('2d');ac.imageSmoothingEnabled=false;
 function render(){c.imageSmoothingEnabled=false;
  const all=cells(),wet=maskPath(all),still=maskPath(all,s=>s.reflective&&!s.moving),moving=maskPath(all,s=>s.reflective&&s.moving),f=calm?0:Math.floor(time/WATER_FRAME_SECONDS)%WATER_FRAMES;
- for(let y=0;y<WATER_REVIEW_HEIGHT;y++)for(let x=0;x<15;x++)drawEnvironmentTile(c,'meadow.grass.0',x*32,y*32);
- for(const cell of all){const {x,y,surface:s,mask,depthMask}=cell,id=`${identity}.${s.type}`;terrain.draw(c,`join.${id}.${ground}.${mask}`,x*32,y*32);c.save();c.clip(maskPath([cell]));if(s.shallow)terrain.draw(c,`${id}.${f}`,x*32,y*32);else{terrain.draw(c,`${identity}.shallow-${s.type}.${f}`,x*32,y*32);c.save();c.clip(maskPath([{...cell,mask:depthMask}]));terrain.draw(c,`${id}.${f}`,x*32,y*32);c.restore();}c.restore();}
+ for(let y=0;y<WATER_REVIEW_HEIGHT;y++)for(let x=0;x<15;x++)drawEnvironmentTile(c,({grass:'meadow.grass.0',path:'meadow.path.255.0',soil:'soil.255',paving:'paving.255',cliff:'ground.soil'})[ground],x*32,y*32);
+ for(const cell of all){const {x,y,surface:s,mask,depthMask}=cell,id=`${identity}.${s.type}`;terrain.drawContact(c,`join.${id}.${ground}.${mask}`,x*32,y*32);c.save();c.clip(maskPath([cell]));if(s.shallow)terrain.draw(c,`${id}.${f}`,x*32,y*32+16);else{terrain.draw(c,`${identity}.shallow-${s.type}.${f}`,x*32,y*32+16);c.save();c.clip(maskPath([{...cell,mask:depthMask}]));terrain.draw(c,`${id}.${f}`,x*32,y*32+16);c.restore();}c.restore();}
  drawSky(c,time,displayedMinute(state.dayClock),wet,calm,cloudArt,weather);
  ac.clearRect(0,0,32,64);character(ac,16,64,{gender:'boy',facing:hero.facing,pose:calm?'idle':getMotionView(motion).pose});const pixels=ac.getImageData(0,0,32,64);for(let i=0;i<pixels.data.length;i+=4){pixels.data[i]=Math.round(pixels.data[i]*.68+147*.32);pixels.data[i+1]=Math.round(pixels.data[i+1]*.68+200*.32);pixels.data[i+2]=Math.round(pixels.data[i+2]*.68+213*.32);}ac.putImageData(pixels,0,0);
  drawReflection(c,{image:actor,x:hero.x,y:hero.y},still,time,false);drawReflection(c,{image:actor,x:hero.x,y:hero.y},moving,calm?0:time,true);
  reflectionVisible=identity==='fresh'&&all.some(cell=>hero.x>=cell.x*32&&hero.x<(cell.x+1)*32&&hero.y<(cell.y+1)*32&&hero.y+64>cell.y*32);
- for(const {x,y,surface:s,mask} of all)terrain.draw(c,`bank.${identity}.${s.type}.${ground}.${mask}`,x*32,y*32);
- for(const {x,y,surface:s,depthMask} of all)if(!s.shallow)depthArt.draw(c,`depth.${identity}.${s.type}.${depthMask}`,x*32,y*32);
+ for(const {x,y,surface:s,mask} of all)terrain.drawContact(c,`bank.${identity}.${s.type}.${ground}.${mask}`,x*32,y*32);
  drawRipples(c,ripples,time,maskPath(all,s=>s.shallow&&!s.moving));
  // Original compact bed, visibly located outside the pond's blocked cells.
- c.fillStyle='#503f38';c.fillRect(62,62,36,46);c.fillStyle='#c89665';c.fillRect(64,64,32,40);c.fillStyle='#ded8b9';c.fillRect(67,66,26,9);c.fillStyle='#629699';c.fillRect(66,77,28,25);c.fillStyle='#84b9b0';c.fillRect(68,78,24,5);
+ if(!bedContact){bedContact=document.createElement('canvas');bedContact.width=36;bedContact.height=46;const b=bedContact.getContext('2d');b.fillStyle='#503f38';b.fillRect(0,0,36,46);b.fillStyle='#c89665';b.fillRect(2,2,32,40);b.fillStyle='#ded8b9';b.fillRect(5,4,26,9);b.fillStyle='#629699';b.fillRect(4,15,28,25);b.fillStyle='#84b9b0';b.fillRect(6,16,24,5);}drawContactSprite(c,bedContact,[0,0,36,46],[62,62,36,46],[2,2,1,2]);
+
  sc.clearRect(0,0,480,384);if(renderSettings.shadows){sc.fillStyle='#17343a';sc.fillRect(Math.round(hero.x)-8,Math.round(hero.y)-2,16,3);for(const t of turtles)sc.fillRect(t.x-10,t.y+8,24,5);c.save();c.globalAlpha=.25;c.drawImage(shadow,0,0);c.restore();}
- for(const t of turtles){draw(c,'rock',t.x-16,t.y-16);const v=calm?{x:0,y:0,visible:!(['sliding','submerged'].includes(t.phase))}:turtleOffset(t);if(v.visible){c.save();c.translate(t.x+v.x,t.y+v.y);c.rotate(Math.PI/2);draw(c,`turtle.${calm?0:Math.floor(t.age*8)%4}`,-16,-16);c.restore();}if(t.phase==='submerged'&&t.age<.8&&!calm)draw(c,`splash.${Math.min(3,Math.floor(t.age*5))}`,t.x+6,t.y-3);}
+ for(const t of turtles){if(!rockContact){rockContact=document.createElement('canvas');rockContact.width=rockContact.height=32;draw(rockContact.getContext('2d'),'rock',0,0);}const contact=drawContactSprite(c,rockContact,[0,0,32,32],[t.x-16,t.y-16,32,32],[Math.floor(t.x/32),Math.floor(t.y/32),1,1]);const v=calm?{x:0,y:0,visible:!(['sliding','submerged'].includes(t.phase))}:turtleOffset(t);if(v.visible){c.save();c.translate(t.x+v.x,t.y+v.y+contact.dy);c.rotate(Math.PI/2);draw(c,`turtle.${calm?0:Math.floor(t.age*8)%4}`,-16,-16);c.restore();}if(t.phase==='submerged'&&t.age<.8&&!calm)draw(c,`splash.${Math.min(3,Math.floor(t.age*5))}`,t.x+6,t.y-3+contact.dy);}
  for(let i=0;i<3;i++){const p=fishPose(time,i,displayedMinute(state.dayClock),calm);if(p){const baseX=[95,310,355][i],x=baseX+p.x,y=260+p.y;draw(c,`fish.${p.frame}`,x,y);if(p.splash)draw(c,'splash.2',x,260);}}
  character(c,Math.round(hero.x),Math.round(hero.y),{gender:'boy',facing:hero.facing,pose:calm?'idle':getMotionView(motion).pose});
  applyLighting(c,state);
@@ -67,5 +68,5 @@ function frame(now){const elapsed=Math.max(0,(now-last)/1000),dt=Math.min(.1,ela
  time+=dt;advanceMotionClock(motionClock,elapsed,()=>{const before=`${player.x},${player.y}`;advanceMotion(motion,down,false,walkable,{runAllowed:true});if(before!==`${player.x},${player.y}`){steps++;const s=cellSurface(player.x,player.y);if(footstepRipples(s)&&!calm)ripples.push({x:player.x*32+16,y:player.y*32+29,time});}});syncHero();ripples=ripples.filter(r=>time-r.time<RIPPLE_SECONDS);
  for(const t of turtles)updateTurtle(t,hero,dt,{calm});if(advanceDayClock(state,dt*speed))sleep(true);
  }else resetMotionClock(motionClock);render();}requestAnimationFrame(frame);}
-try{await initWorldArt();draw=await loadWaterArt();terrain=await loadWaterTerrain();depthArt=await loadWaterTerrain('../assets/review/water-depth/atlas.json');cloudArt=await loadCloudArt();ready=true;requestAnimationFrame(frame);}catch(e){message(`Artwork could not load: ${e.message}`);}
-export function getWaterReview(){return structuredClone({state,hero,player,movement:getMotionView(motion),turtles,time,paused,speed,calm,shadows:renderSettings.shadows,identity,ground,weather,cloudsVisible:cloudsVisible(displayedMinute(state.dayClock),weather),cloudSun:cloudSun(displayedMinute(state.dayClock)),ripples,steps,reflectionVisible,cells:cells(),ready});}
+try{await initWorldArt();draw=await loadWaterArt();terrain=await loadWaterTerrain();cloudArt=await loadCloudArt();ready=true;requestAnimationFrame(frame);}catch(e){message(`Artwork could not load: ${e.message}`);}
+export function getWaterReview(){return structuredClone({state,hero,player,movement:getMotionView(motion),turtles,time,paused,speed,calm,shadows:renderSettings.shadows,identity,ground,weather,cloudsVisible:cloudsVisible(displayedMinute(state.dayClock),weather),cloudSun:cloudSun(displayedMinute(state.dayClock)),ripples,steps,reflectionVisible,cells:cells(),contactRule:CONTACT_RULE,ready});}

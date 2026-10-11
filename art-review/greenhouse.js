@@ -1,10 +1,17 @@
+import {drawContactSprite,CONTACT_RULE} from '../src/contact-rules.js';
 import {SAVE_KEY,PRICE,TUBS,ROOM,hopperAt,initialState,normalize,pay,chooseTub,collect,leave,fishInTub,fishPosition,catchAt,blocked,nearTub} from './greenhouse-state.js';
 
 import {readRenderSettings,saveRenderSettings} from '../src/render-settings.js';
 import {paintShadowMask,sparkle,shinySheet} from './greenhouse-effects.js';
 let renderSettings=readRenderSettings({getItem:key=>localStorage.getItem(key)});
 const shadowCanvas=document.createElement('canvas');shadowCanvas.width=416;shadowCanvas.height=544;const shadowContext=shadowCanvas.getContext('2d');
-const shinyCache=new Map();
+const shinyCache=new Map(),contactBases=new Map(),contactPlacements=new Map();
+function tubContactBase(t){
+ if(!contactBases.has(t.id)){const base=document.createElement('canvas');base.width=128;base.height=64;const b=base.getContext('2d'),right=t.id%2;
+  b.save();b.translate(right?96:32,0);if(right)b.scale(-1,1);b.drawImage(images.tubVariants,Math.floor(t.id/2)*96,0,96,64,0,0,96,64);b.restore();
+  b.drawImage(right?images.equipmentRight:images.equipmentLeft,right?96:0,0);b.drawImage(right?images.inletRight:images.inletLeft,right?80:32,0);contactBases.set(t.id,base);
+ }return contactBases.get(t.id);
+}
 const $=id=>document.getElementById(id),cv=$('world'),ctx=cv.getContext('2d');
 const ASSET='../assets/review/luke-greenhouse/';
 const names=['Marmalade','Lemon Drop','Dumpling','Milk Tea','Sesame','Confetti','Peaches','Inkblot','Ember','Mooncap','Caramel','Speckles','Sunset','Snowball','Pepper','Tangerine','Dorothy'];
@@ -35,23 +42,30 @@ function cameraFor(actor,w,h){return {x:Math.round(416<=w?(416-w)/2:Math.max(0,M
 function shadowLayer(inside){paintShadowMask(shadowContext,{enabled:renderSettings.shadows,time,calm,inside,actors:inside?[player,luke]:[player]});ctx.save();ctx.globalAlpha=.15;ctx.drawImage(shadowCanvas,0,0);ctx.restore();}
 function sheet(key,f){const base=images[f.kind===16?'dorothy'+({fish:'',front:'Front',fishWorld:'World',silhouettes:'Silhouettes'}[key]||''):key];if(!f.shiny)return base;const id=key+':'+f.kind+':'+f.variant;if(!shinyCache.has(id))shinyCache.set(id,shinySheet(base,f.variant||0));return shinyCache.get(id);}
 function fishRow(f,size=32){return f.kind===16?0:f.kind*size;}
-function drawHopper(){const h=hopperAt(time,s.visit?.seed||0),a=TUBS[h.tub],b=TUBS[h.next],p=calm?0:h.jump;const x=(a.x+1.5)*32+(b.x-a.x)*32*p,y=(a.y+.7)*32+(b.y-a.y)*32*p-Math.round(Math.sin(p*Math.PI)*44);ctx.drawImage(images.hopper,(calm?0:Math.floor(time*4)%2)*16,0,16,16,Math.round(x)-8,Math.round(y)-8,16,16);sparkle(ctx,x,y,time,calm);}
+function drawHopper(){const h=hopperAt(time,s.visit?.seed||0),a=TUBS[h.tub],b=TUBS[h.next],p=calm?0:h.jump;const ca=contactPlacements.get(a.id)||{dx:0,dy:CONTACT_RULE.groundPixels},cb=contactPlacements.get(b.id)||ca;const x=(a.x+1.5)*32+ca.dx+(b.x-a.x)*32*p+(cb.dx-ca.dx)*p,y=(a.y+.7)*32+ca.dy+(b.y-a.y)*32*p+(cb.dy-ca.dy)*p-Math.round(Math.sin(p*Math.PI)*44);ctx.drawImage(images.hopper,(calm?0:Math.floor(time*4)%2)*16,0,16,16,Math.round(x)-8,Math.round(y)-8,16,16);sparkle(ctx,x,y,time,calm);}
 function drawRoom(){camera=cameraFor(player,viewW,544);rect(0,0,viewW,viewH,'#254b42');ctx.save();ctx.translate(-camera.x,-camera.y);
-  for(let y=0;y<17;y++)for(let x=0;x<13;x++){drawTile(y<3?2:(x===0||x===12?3:(Math.min(x,12-x)+y)%4===0?1:0),x*32,y*32);if(y>=3&&(x===0||x===12)&&y%3===0)drawTile(4,x*32,y*32);}
+  for(let y=0;y<17;y++)for(let x=0;x<13;x++){drawTile(y<3?2:(Math.min(x,12-x)+y)%4===0?1:0,x*32,y*32);if(y===3){ctx.save();ctx.beginPath();ctx.rect(x*32,y*32,32,16);ctx.clip();drawTile(2,x*32,y*32);ctx.restore();}if(y>=3&&(x===0||x===12)){ctx.save();ctx.beginPath();ctx.rect(x*32+(x===12?16:0),y*32,16,32);ctx.clip();drawTile(3,x*32,y*32);if(y%3===0)drawTile(4,x*32,y*32);ctx.restore();}}
   ctx.drawImage(images.header,0,0);
   for(let y=3;y<17;y++){rect(160,y*32,2,32,'#c2ad82');rect(254,y*32,2,32,'#c2ad82');}
   shadowLayer(true);
-  for(const x of [1,5,9])ctx.drawImage(images.tankWall,x*32,32);
-  for(let k=0;k<3;k++)drawWorldFish(k*5,80+k*128+Math.round(Math.sin(time*.5+k)*10),57,false);
-  for(const t of TUBS){const right=t.id%2;ctx.save();ctx.translate((t.x+(right?3:0))*32,t.y*32);if(right)ctx.scale(-1,1);ctx.drawImage(images.tubVariants,Math.floor(t.id/2)*96,0,96,64,0,0,96,64);ctx.restore();ctx.drawImage(right?images.equipmentRight:images.equipmentLeft,(right?11:1)*32,t.y*32);ctx.drawImage(right?images.inletRight:images.inletLeft,t.x*32+(right?80:0),t.y*32);for(let bubble=0;bubble<2;bubble++){const by=t.y*32+26-(calm?bubble*4:Math.floor((time*5+bubble*4)%9)),bx=t.x*32+(right?83:12);rect(bx,by,2,1,'#a5cabc');rect(bx-1,by+1,1,2,'#638f8c');}for(let k=0;k<3;k++){const x=t.x*32+27+k*20+Math.round(Math.sin(time*.6+t.id+k)*5),y=t.y*32+26+Math.round(Math.cos(time*.8+k)*5);drawWorldFish((t.id*2+k)%16,x,y);}text(String(t.id+1),t.x*32+48,t.y*32+61,9,'#e4d5a6','center');}
+  for(const [k,x] of [1,5,9].entries()){const wall=drawContactSprite(ctx,images.tankWall,[0,0,96,64],[x*32,32,96,64],[x,1,3,2],{kind:'wall-aquarium',key:'greenhouse-wall-aquarium'});drawWorldFish(k*5,80+k*128+wall.dx+Math.round(Math.sin(time*.5+k)*10),57+wall.dy,false);}
+  for(const t of TUBS){const right=t.id%2,x=(right?t.x:t.x-1),base=tubContactBase(t),footprint=[x,t.y,4,2];
+    const contact=drawContactSprite(ctx,base,[0,0,128,64],[x*32,t.y*32,128,64],footprint,{kind:'tub',key:`greenhouse-tub-${t.id}`});contactPlacements.set(t.id,contact);
+    // Equipment extends to the original bottom row; contact registration moves
+    // the entire native assembly sixteen pixels, including water inhabitants.
+    const {dx,dy}=contact;
+    for(let bubble=0;bubble<2;bubble++){const by=t.y*32+dy+26-(calm?bubble*4:Math.floor((time*5+bubble*4)%9)),bx=t.x*32+dx+(right?83:12);rect(bx,by,2,1,'#a5cabc');rect(bx-1,by+1,1,2,'#638f8c');}
+    for(let k=0;k<3;k++){const fx=t.x*32+dx+27+k*20+Math.round(Math.sin(time*.6+t.id+k)*5),fy=t.y*32+dy+26+Math.round(Math.cos(time*.8+k)*5);drawWorldFish((t.id*2+k)%16,fx,fy);}
+    text(String(t.id+1),t.x*32+dx+48,t.y*32+dy+61,9,'#e4d5a6','center');
+  }
   for(const y of [6,9,12]){ctx.drawImage(images.riserLeft,32,y*32);ctx.drawImage(images.riserRight,352,y*32);}
-  drawTile(5,6*32,16*32);for(let x=1;x<12;x++)if(x!==6)rect(x*32,16*32+24,32,8,'#55664f');drawHopper();ctx.restore();
+  drawTile(5,6*32,16*32);for(let x=1;x<12;x++)if(x!==6)rect(x*32,16*32+16,32,16,'#55664f');drawHopper();ctx.restore();
   [{a:player,m:motion,l:false},{a:luke,m:lukeMotion,l:true}].sort((a,b)=>a.a.y-b.a.y).forEach(a=>drawActor(a.a,a.m,a.l));
 }
 function drawOutside(){camera=cameraFor(player,viewW,416);rect(0,0,viewW,viewH,'#426c43');ctx.save();ctx.translate(-camera.x,-camera.y);
   for(let y=0;y<13;y++)for(let x=0;x<13;x++){rect(x*32,y*32,32,32,(Math.min(x,12-x)+y)%4===0?'#638348':'#5d7d45');if((Math.min(x,12-x)*7+y*3)%5===0){rect(x*32+9,y*32+18,3,2,'#799850');rect(x*32+13,y*32+16,2,3,'#799850');}}
-  for(let y=7;y<13;y++){rect(160,y*32,96,32,'#c2a276');rect(161,y*32+30,94,2,'#b49670');}shadowLayer(false);ctx.drawImage(images.greenhouse,48,64);
-  rect(107,140,202,29,'#294f40');rect(108,141,200,1,'#bdbb85');text("LUKE'S GREENHOUSE",208,159,12,'#fff0c6','center');
+  for(let y=7;y<13;y++){rect(160,y*32,96,32,'#c2a276');rect(161,y*32+30,94,2,'#b49670');}shadowLayer(false);const contact=drawContactSprite(ctx,images.greenhouse,[0,0,320,192],[48,64,320,192],[1,2,11,6],{kind:'building',key:'luke-greenhouse',overheadRows:2});
+  rect(107+contact.dx,140+contact.dy,202,29,'#294f40');rect(108+contact.dx,141+contact.dy,200,1,'#bdbb85');text("LUKE'S GREENHOUSE",208+contact.dx,159+contact.dy,12,'#fff0c6','center');
   for(const x of [122,281]){rect(x,265,13,10,'#946744');rect(x-4,252,21,14,'#315d36');rect(x,249,13,7,'#a0b660');}ctx.restore();drawActor(player,motion,false);
 }
 function poolTransform(){const z=Math.min(viewW/480,viewH/340);return {z,x:Math.floor((viewW-480*z)/2),y:Math.floor((viewH-340*z)/2)};}

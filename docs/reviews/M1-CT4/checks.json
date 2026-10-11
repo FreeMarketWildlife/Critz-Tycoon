@@ -1,0 +1,32 @@
+{
+  "assemblies": 1798,
+  "nativeNamedTiles": 5247,
+  "atlasSize": [
+    1024,
+    6080
+  ],
+  "alphaValues": [
+    0,
+    255
+  ],
+  "frontiers": {
+    "town": 46,
+    "forest": 28,
+    "liarsville": 44,
+    "yard": 27
+  },
+  "unitTests": 192,
+  "browserCounts": {
+    "contact": 17,
+    "editor": 22,
+    "approaches": 140,
+    "greenhouse": 16,
+    "doors": 28,
+    "water": 11,
+    "depth": 8,
+    "clock": 14,
+    "lab": 15
+  },
+  "tileMovementAndV1StorageUnchanged": true,
+  "physicalSafariAndHaptics": "not tested"
+}

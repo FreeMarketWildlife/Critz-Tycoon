@@ -1,5 +1,7 @@
 # M1.CT2 — Contact comparison with actual tile movement
 
+**Historical comparison. The user selected B after CT3; [M1.CT4](../M1-CT4/README.md) records approval and integration.**
+
 [Play the contact lab on phone](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/contact-lab/).
 
 The user likes CT1 but explicitly requires tile-based movement for a valid comparison. Every option now imports the actual adventure controller, `src/movement.js`. The former free/fine approach and method selector are removed. Old `movement=fine` URLs still use tile walking. No new controller or reference timing is invented.

@@ -1,0 +1,7 @@
+# Approved B contact bank
+
+Canonical specifications: [ART_BIBLE](../../../docs/ART_BIBLE.md#transition-tile-contact-study--m1ct1-user-correction). User selected B after CT3. Build from the project root with `node art/source/contact-approved/build.mjs`; Node and Python with Pillow are build prerequisites. Set `PYTHON_BIN` if Python is not on PATH. Python only decodes immutable source PNGs; the browser needs neither Python nor dependencies.
+
+Inputs are the existing overworld, water-terrain and map-editor atlases plus explicit world/editor footprints. Shared `src/contact-rules.js` performs native integer translation, lower-body edge trimming and native trim reattachment. Roof/canopy projection is separate from blocking footprint. No resampling, actor edits, movement edits or save migration. Runtime asset IDs, 32px tile rows and Tiled metadata are generated in `assets/playable/contact/`. Rebuild after changing map object ordering/footprints; live scene asset keys use object indices, editor stamp IDs use semantic names.
+
+Transparent ground portions compose over the actual map floor. One-cell caps retain a centered native structure; joined fence/hedge runs keep shared ends. All exposed solid-map frontiers receive hedge contact art. Source/review atlases remain editable archival inputs, not a competing approved boundary rule. Dynamic indoor/greenhouse animations use the same cached compiler directly.

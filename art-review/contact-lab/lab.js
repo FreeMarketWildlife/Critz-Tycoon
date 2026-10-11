@@ -3,7 +3,7 @@ import{ART_OFFSET_Y,OPTIONS,STATIONS,blockedCell,footBox,createState,resetPositi
 const $=id=>document.getElementById(id),params=new URLSearchParams(location.search),s=createState({option:params.get('option'),station:params.get('station'),surface:params.get('surface')});
 const motionClock=createMotionClock();
 const canvas=$('world'),ctx=canvas.getContext('2d'),tc=$('tile').getContext('2d');const images=new Map();let heroManifest,heroImage,ready=false,held=new Set(),zoom=1,last=0,flashUntil=0,contactText='',nativeGap=null;
-const names={A:'Quarter structure',B:'Half and half',C:'Three-quarter structure',D:'Current ground strip'};
+const names={A:'Quarter structure',B:'Approved · Half and half',C:'Three-quarter structure',D:'Current ground strip'};
 function textStatus(t){if(contactText!==t){contactText=t;$('contact-label').textContent=t;}}
 function release(){held.clear();s.contact=false;s.lastContact=null;document.querySelectorAll('[data-dir]').forEach(b=>b.setAttribute('aria-pressed','false'));}
 function sync(){document.querySelectorAll('[data-option]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.option===s.option));document.querySelectorAll('[data-station]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.station===s.station));$('surface').value=s.surface;$('option-title').textContent=`${s.option} · ${names[s.option]}`;$('split-description').textContent=`The base ends ${OPTIONS[s.option].cut}px down the tile: ${OPTIONS[s.option].cut}px structure, ${32-OPTIONS[s.option].cut}px ground. ${STATIONS[s.station].rear}`;$('movement-description').textContent='Main game movement: one committed 32px tile per step, with the same turns, walk poses and blocked-wall behavior. Every transition cell stays blocked.';if(ready)draw(performance.now());}

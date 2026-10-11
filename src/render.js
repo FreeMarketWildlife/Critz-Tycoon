@@ -1,4 +1,5 @@
-import {worldFoot,cellFoot,CAMERA_FOCUS_Y} from './world-space.js';
+import {drawContactSprite} from './contact-rules.js';
+import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
 import {loadEnvironment,renderEnvironment,drawEnvironmentTile} from './environment-render.js';
 // Native, appearance-only exploration renderer. Collision and interaction live
@@ -8,6 +9,11 @@ import { scenes, buildings, getEntities } from './world.js';
 import {loadLivingArt,drawLiving,characterFrame,npcIdentity,drawHabitatProp,drawCritter,RESCUES} from './living-art.js';
 import {drawThreshold,applyLighting} from './lighting.js';
 let atlas, entries;
+const contactSources=new Map();
+function contactSource(id,draw,w,h){
+ if(!contactSources.has(id)){const canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;draw(canvas.getContext('2d'));contactSources.set(id,canvas);}
+ return contactSources.get(id);
+}
 export async function initWorldArt() {
   atlas = await loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url));
   entries = new Map(atlas.manifest.assets.map(a => [a.id, a]));
@@ -43,22 +49,26 @@ export function renderWorld(canvas, state, time, view) {
     buildings.some(b => x===b.x+3 && y>=b.y+5 && y<=b.y+6);
   for (let y=0;y<scene.h;y++) for(let x=0;x<scene.w;x++) {
     if (outside) tile(path(x,y)?'ground.path':'ground.grass',x,y);
-    else if(y===2) drawEnvironmentTile(c,`interior.base.${scene.style==='shop'?'tile':'wood'}`,x*32,y*32);
-    else if(x===0&&y>2) drawEnvironmentTile(c,'interior.side.left',x*32,y*32);
-    else tile(y===0?'wall.interior.upper':y<2?'wall.interior':scene.style==='shop'?'floor.tile':'floor.wood',x,y);
+    else if(y===3) {tile(scene.style==='shop'?'floor.tile':'floor.wood',x,y);c.save();c.beginPath();c.rect(x*32,y*32,32,16);c.clip();drawEnvironmentTile(c,`interior.base.${scene.style==='shop'?'tile':'wood'}`,x*32,y*32-12);c.restore();}
+    else if(x===0&&y>3) {tile(scene.style==='shop'?'floor.tile':'floor.wood',x,y);c.save();c.beginPath();c.rect(x*32,y*32,16,32);c.clip();drawEnvironmentTile(c,'interior.side.left',x*32-16,y*32);c.restore();}
+    else tile(y===0?'wall.interior.upper':y<3?'wall.interior':scene.style==='shop'?'floor.tile':'floor.wood',x,y);
   }
   if (outside) {
     for(let x=0;x<scene.w;x++) { tile('fence.horizontal',x,0); if (x!==7&&x!==8) tile('fence.horizontal',x,scene.h); }
     for(let y=1;y<scene.h-1;y++) { tile('fence.vertical',0,y); tile('fence.vertical',scene.w,y); }
   } else {
-    for(let y=0;y<scene.h;y++) drawEnvironmentTile(c,'interior.side.right',scene.w*32,y*32);
-    for(let x=0;x<=scene.w;x++) drawEnvironmentTile(c,'interior.front.rim',x*32,scene.h*32);
+    for(let y=0;y<scene.h;y++){tile(scene.style==='shop'?'floor.tile':'floor.wood',scene.w,y);c.save();c.beginPath();c.rect(scene.w*32+16,y*32,16,32);c.clip();drawEnvironmentTile(c,'interior.side.right',scene.w*32+16,y*32);c.restore();}
+    for(let x=0;x<=scene.w;x++){tile(scene.style==='shop'?'floor.tile':'floor.wood',x,scene.h);c.save();c.beginPath();c.rect(x*32,scene.h*32+16,32,16);c.clip();drawEnvironmentTile(c,'interior.front.rim',x*32,scene.h*32+16);c.restore();}
     if(scene.style !== 'shop') oldSprite('rug',8*32,8*32);
   }
   const drawables=[], effects=[];
   const add=(depth, draw) => drawables.push({depth,draw});
   const prop = (o,id=o.sprite) => {const x=(o.x+o.w/2)*32,y=(o.y+o.h)*32;
-    if(o.kind==='tank'&&id!=='prop.tank.broken')drawHabitatProp(c,'terrarium',x,y);else oldSprite(id,x,y);};
+    if(!o.collision){if(o.kind==='tank'&&id!=='prop.tank.broken')drawHabitatProp(c,'terrarium',x,y);else oldSprite(id,x,y);return;}
+    const living=o.kind==='tank'&&id!=='prop.tank.broken',entry=entries.get(id),w=living?96:entry.rect[2]*2,h=living?96:entry.rect[3]*2;
+    const image=contactSource(living?'terrarium-contact':id,ctx=>{if(living)drawHabitatProp(ctx,'terrarium',48,96);else {ctx.imageSmoothingEnabled=false;ctx.scale(2,2);atlas.draw(ctx,id,0,0);}},w,h);
+    const artRect=[x-(living?48:entry.anchor[0]*2),y-(living?96:entry.anchor[1]*2),w,h];
+    drawContactSprite(c,image,[0,0,w,h],artRect,o.collision,{kind:o.kind,key:id});};
   for(const o of scene.objects) {
     if(o.kind==='pond') { for(let y=o.y;y<o.y+o.h;y++) for(let x=o.x;x<o.x+o.w;x++) tile('ground.water',x,y); continue; }
     if(o.kind==='tree') {
@@ -85,7 +95,7 @@ export function renderWorld(canvas, state, time, view) {
   // Stairs remain visible during the opening even while travel is story-locked.
   // Their lower lip is the entrance; side/back cells belong to the solid well.
   for(const e of scene.entities.filter(e=>e.stair))
-    oldSprite(state.scene==='bedroom'?'stairs.down':'stairs.up',cellFoot(e.x,e.y).x,cellFoot(e.x,e.y).y);
+    prop({kind:'stairs',sprite:state.scene==='bedroom'?'stairs.down':'stairs.up',x:e.x-1,y:e.y-1,w:3,h:2,collision:e.stair.footprint});
   if(state.stage==='night'&&state.scene==='bedroom') {
     if(['mom','broken','kaid'].includes(state.storyBeat)) add(7*32,()=>{const v=actorView(state,'mom');character(c,11*32+16,7*32-v.hop,{look:'mom',facing:v.facing});drawReaction(c,11*32+16,7*32,v);});
     if(state.storyBeat==='kaid') add(6*32,()=>{const v=actorView(state,'kaid');character(c,12*32+16,6*32-v.hop,{look:'kaid',facing:v.facing});drawReaction(c,12*32+16,6*32,v);});

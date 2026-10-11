@@ -8,6 +8,8 @@ For every art-asset task, read and follow [docs/ART_BIBLE.md](docs/ART_BIBLE.md)
 
 Use the canonical [transition-tile glossary and contact rules](docs/ART_BIBLE.md#transition-tile-contact-study--m1ct1-user-correction): transition tile, surface transition, collision transition, cliff, ledge, ground footprint and overhead projection. Keep definitions and art specifications there.
 
+The user-approved boundary choice is **B**. Apply the canonical contact rules to every static collider on both axes, including independent editor and review renderers. Keep collision explicit and overhead projection separate.
+
 ## Project workflow
 
 - Work directly on `main`. Do not create development branches or worktrees. Inspect existing branches/PRs when locating prior work; do not delete or manually close them as a side effect.
