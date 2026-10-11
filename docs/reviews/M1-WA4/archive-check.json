@@ -1,0 +1,11 @@
+{
+  "commit": "269533d79dee6922b6d70dc4277174412db0cc50",
+  "buildContentFiles": 2036,
+  "allBuildBytesMatch": true,
+  "onlyAdditionalFile": "dist/.openai/hosting.json",
+  "noAppleDoubleFiles": true,
+  "archiveSHA256": "0e4be7a32a962d2119d90ec2b78f95725a5adf78bb4c7cd88c83d2eaedce78ae",
+  "unitTests": 182,
+  "browserScenarios": 48,
+  "concurrentContactCommitPreserved": "23df18b0fe2ad77433862fad37d52b8c6346f35e"
+}

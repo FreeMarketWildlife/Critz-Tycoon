@@ -2,7 +2,7 @@
 
 ## M1.WA4 — Corner correction and sunny reflected clouds
 
-Implemented/tested; publication in progress, visual feedback pending. Correct inner-corner geometry in complete tileset/runtime; all65,536 layouts now join. Original three-color upside-down cloud reflections appear only Sunny10am–3pm, with minute-by-minute east/noon/west lighting. Preserve prior tiles, water loops and gameplay/save behavior. Clean182 unit tests and33 browser checks pass. Next: task-only push and exact-tested-build publication/receipt. [Review](reviews/M1-WA4/README.md).
+Implemented/tested/pushed/published; revised visual feedback pending. Corner geometry passes all65,536 layouts. Original three-color upside-down cloud reflections appear Sunny10am–3pm with minute-specific east/noon/west lighting. Preserve existing tiles, loops, saves and concurrent contact correction. Source `269533d`; version38 deployment succeeds at 2026-10-10 5:59:11PM Pacific;182 unit tests,48 browser scenarios and all2,036 build files verified. Final test/receipt-only follow-up does not change hosted runtime. [Phone demo](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/water.html) · [Review](reviews/M1-WA4/README.md). Exact next action: user compares corners/clouds; no implementation/push/publication step remains, and no visual gate is self-approved.
 
 ## M1.CT3 — Contact fixtures one tile south
 

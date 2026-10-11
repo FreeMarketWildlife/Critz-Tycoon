@@ -12,5 +12,20 @@
   "all256WaterAnimationFramesUnchanged": true,
   "cornerLayouts": 65536,
   "oldMaskEdgeMismatches": 884736,
-  "newMaskEdgeMismatches": 0
+  "newMaskEdgeMismatches": 0,
+  "highlightMeanX10amThen259pm": [
+    [
+      56.85840707964602,
+      35.14596273291925
+    ],
+    [
+      49.11849710982659,
+      32.69565217391305
+    ],
+    [
+      47.508389261744966,
+      34.67689161554192
+    ]
+  ],
+  "allHighlightCentroidsMoveWest": true
 }

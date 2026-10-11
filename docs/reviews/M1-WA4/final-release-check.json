@@ -1,0 +1,26 @@
+{
+  "unitTests": 182,
+  "browserScenarios": 48,
+  "cloudCorner": 8,
+  "water": 11,
+  "clockSleep": 14,
+  "contact": 15,
+  "calmCheckedWhileSimulationRuns": true,
+  "unrelatedTrackedFilesPreserved": [
+    "art-review/walking.html",
+    "art-review/walking.js",
+    "art/source/characters-walk-v2/build.mjs",
+    "art/source/playable-characters/README.md",
+    "art/source/playable-characters/build.mjs",
+    "assets/playable/characters/atlas.json",
+    "assets/playable/characters/atlas.png",
+    "docs/CHARACTER_FRAMEWORK.md",
+    "package.json",
+    "scripts/check-walking-atlas.py",
+    "scripts/export-character-walks.py",
+    "scripts/pack-playable-atlas.py",
+    "tests/visual-browser.mjs",
+    "tests/walking-browser.mjs"
+  ],
+  "deployedCommit": "269533d79dee6922b6d70dc4277174412db0cc50"
+}
