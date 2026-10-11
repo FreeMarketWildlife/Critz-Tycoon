@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.WA6 — Beaches, raised shores and curved water depths
+
+Implemented/tested; publishing review. Correct WA5 bank placement; provide six shoreline examples, new sand with3.2-second beach wash, curved shallow/deep edges and interior-only rocks with separate shadows.12,512 base/registered assets/all47 masks;200 unit and47 browser checks pass. [Review](reviews/M1-WA6/README.md). Next: exact-build publication, then user visual review. Concurrent approved CT4 contact integration is preserved; no wider gate is self-approved.
+
 ## M1.CT4 — Approved B contact across collidables
 
 **Complete: implemented, tested, pushed and published.** User explicitly accepts B50/50 after CT3 south registration and authorizes all static collidables and both boundary axes. Canonical ART_BIBLE rule, named native bank (1,798 assemblies /5,247 native tiles), editor picker/export metadata and shared geometry cover live overworld, interiors, Map Studio, greenhouse and water/depth reviews.145 previously invisible exposed map-edge cells now show hedge contact art. Grid collision, actors, entrances, one-way ledges, shallows and v1 saves remain unchanged. B contact is user-approved; unrelated character/world and wider M1/M2 gates remain pending.

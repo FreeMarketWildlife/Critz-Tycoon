@@ -1,10 +1,11 @@
 {
-  "unitTests": 191,
+  "unitTests": 200,
   "coastalBrowserChecks": 14,
   "waterBrowserChecks": 11,
   "clockSleepBrowserChecks": 14,
   "cloudBrowserChecks": 8,
   "totalBrowserChecks": 47,
   "isolatedSyntheticBrowserStorage": true,
-  "physicalSafariVerified": false
+  "physicalSafariVerified": false,
+  "includesConcurrentApprovedCT4Contact": true
 }

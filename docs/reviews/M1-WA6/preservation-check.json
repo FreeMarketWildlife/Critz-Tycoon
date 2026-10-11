@@ -1,0 +1,34 @@
+{
+  "openingUnrelatedFilesUnchanged": [
+    "art-review/contact-lab/index.html",
+    "art-review/contact-lab/lab.js",
+    "art-review/contact-lab/model.js",
+    "art-review/greenhouse.js",
+    "art-review/walking.html",
+    "art-review/walking.js",
+    "art/source/characters-walk-v2/build.mjs",
+    "art/source/playable-characters/README.md",
+    "art/source/playable-characters/build.mjs",
+    "assets/playable/characters/atlas.json",
+    "assets/playable/characters/atlas.png",
+    "docs/CHARACTER_FRAMEWORK.md",
+    "map-editor/model.js",
+    "package.json",
+    "scripts/check-walking-atlas.py",
+    "scripts/export-character-walks.py",
+    "scripts/pack-playable-atlas.py",
+    "src/water-effects.js",
+    "tests/visual-browser.mjs",
+    "tests/walking-browser.mjs",
+    "tests/water-surfaces-browser.mjs"
+  ],
+  "filesChangedByConcurrentApprovedContactWork": [
+    "docs/reviews/M1-LG2/browser-report.json",
+    "map-editor/render.js",
+    "src/environment-render.js",
+    "src/render.js"
+  ],
+  "committedContactWorkPreserved": "8328577e402415e8c4a781f3a5ac44f0811e9088",
+  "sharedDocumentsStagedFromHeadWithTaskOnlySection": true,
+  "unrelatedCharacterWorkingEditsExcluded": true
+}
