@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "Search finds houses, water and native modules across categories, and explains empty results",
+    "Passage creates a real room and reciprocal exit in one action",
+    "Game movement turns, commits the entrance step, then travels to the room",
+    "Walking south through the room exit returns to the clear exterior approach",
+    "Dedicated building/ledge review retains the saved draft and exposes all three connected buildings",
+    "Review playtest does not save over the real map draft",
+    "390px review and toolbox search fit the phone layout",
+    "No missing review assets or browser exceptions"
+  ],
+  "errors": []
+}

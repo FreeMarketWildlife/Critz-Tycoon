@@ -11,9 +11,9 @@ export async function loadWorldWater(){
 }
 export function drawSand(c,x,y,variant=0){const a=sand.manifest.assets.find(a=>a.id===`sand.${variant%4}`);c.drawImage(sand.image,a.x,a.y,a.w,a.h,x,y,32,32);}
 function drawing(map){
- const signature=map.terrain.join(',');
+ const signature=map.terrain.join(',')+'|'+Object.keys(map.raw||{}).join(',');
  if(cache.get(map)?.signature===signature)return cache.get(map);
- const cells=[];for(let y=0;y<map.h;y++)for(let x=0;x<map.w;x++)if(isWater(map.terrain[y*map.w+x])){const tile=waterSurface(map.terrain[y*map.w+x]);cells.push({x,y,surface:surface(tile.type,tile.identity)});}
+ const cells=[];for(let y=0;y<map.h;y++)for(let x=0;x<map.w;x++)if(isWater(map.terrain[y*map.w+x])&&!map.raw?.[y*map.w+x]){const tile=waterSurface(map.terrain[y*map.w+x]);cells.push({x,y,surface:surface(tile.type,tile.identity)});}
  const byCell=new Map(cells.map(a=>[`${a.x},${a.y}`,a]));
  const d=createCoastalDrawing(compileCoastalField(cells,map.w*32,map.h*32+32),(x,y)=>{const xx=Math.floor(x/32),yy=Math.floor((y-16)/32),cell=byCell.get(`${xx},${yy}`),beach=[[-1,0],[1,0],[0,-1],[0,1]].some(([dx,dy])=>map.terrain[(yy+dy)*map.w+xx+dx]==='sand');return {ground:beach?'sand':'grass',shallow:!!cell?.surface.shallow,moving:!!cell?.surface.moving};});
  d.freshPath=cells.every(a=>a.surface.identity==='fresh')?d.path:coastalFieldPath(compileCoastalField(cells.filter(a=>a.surface.identity==='fresh'),map.w*32,map.h*32+32));

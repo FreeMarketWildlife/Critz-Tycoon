@@ -70,3 +70,7 @@ Checksums of the measured binary inputs:
 | Petalburg `metatiles.bin` | `3f2e021f25bc0ed6130956d70de833e874191349bc761188dbb716f32d8d7bae` |
 
 The temporary static reference renderer omits object events, scripts, weather, camera, palette fades, animation and dynamic tile replacement. Two chimney metatiles elsewhere in Littleroot reference lower-layer slots outside Petalburg's static loaded range; those were not used for the selected house measurement and do not establish runtime fidelity. No ROM was downloaded or run. No reference artwork is copied into this project's assets or playable build. Pixel art made for Critz must remain original; review concepts do not authorize gameplay integration or waive the visual/movement gates.
+
+## 6. M1.ME3 reinspection — editor repairs, 2026-10-10
+
+Reopened the pinned field_camera, field_door, field_screen_effect and field_player_avatar source online for the user's latest request. The distinction remains: shipped metatile selection/layers and explicit movement/warp behavior are verified source facts; Critz toolbox search and adjacency selection are our editor decisions. The new editor uses the existing game controller for ordinary motion and a simplified door opening/entry/load ordering; full Gen 3 timing/fades/elevation emulation and emulator observation are not claimed. See [M1.ME3 evidence](../reviews/M1-ME3/README.md) and ART_BIBLE for the original visual choices. No Ruby/Sapphire-specific differences were measured in this pass.
