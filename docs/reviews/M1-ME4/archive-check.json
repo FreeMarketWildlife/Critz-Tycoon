@@ -1,0 +1,10 @@
+{
+  "result": "pass",
+  "testedRuntimeFiles": 1337,
+  "exactBuildFiles": 2684,
+  "archiveFiles": 2685,
+  "soleArchiveAddition": "dist/.openai/hosting.json",
+  "runtimeCommit": "0e6d29fc834baeae673c793b2976740e14d459cd",
+  "archiveSHA256": "10f7af38a2ea2ccbf3710cbab6d752e674a61a7c631c2b7732006b51926776b0",
+  "noCachesOrResourceForks": true
+}

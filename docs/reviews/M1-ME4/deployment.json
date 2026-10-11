@@ -1,0 +1,34 @@
+{
+  "id": "appgdep_6acb21cf8d9c8191a394d5aafe0f2e3c",
+  "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "title": "Critz: Tycoon",
+  "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_a312235693d4819187940f98780f8999",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ab5dd1e11ac8191937254280d6ba196",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-11T05:42:51.507836+00:00",
+  "version_number": 47,
+  "source": {
+    "commit_sha": "0e6d29fc834baeae673c793b2976740e14d459cd"
+  },
+  "archive_storage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000003b988230a6d87e779eb663f6",
+    "content_hash": "sha256:97748b00448f3c12e3dfd0fe2f9e5659e2c11ecacbddc337c45c1d8987bf8845",
+    "size_bytes": 164925440,
+    "file_count": 2685
+  },
+  "github_remote_sha_verified": "0e6d29fc834baeae673c793b2976740e14d459cd",
+  "audience": "unchanged owner-private",
+  "tests": {
+    "unit": 236,
+    "native": 505,
+    "browser": 86
+  },
+  "runtimeFilesVerified": 1337
+}
