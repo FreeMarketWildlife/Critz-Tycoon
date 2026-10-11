@@ -18,3 +18,10 @@ test('every available stamp refers to existing art; every feature has renderable
 test('compact chat RLE is lossless and rejects expansion bombs',()=>{const p=demoProject();assert.deepEqual(importProject(exportChat(p),ids),p);assert.ok(exportChat(p).length<exportProject(p).length/3);const q=JSON.parse(exportChat(p));q.maps[0].terrain=[['grass',999999999]];assert.throws(()=>importProject(JSON.stringify(q),ids));});
 
 test('map check catches a connected edge with no aligned clear crossing',()=>{const p=newProject(),m=p.maps[0],b=newMap('b','Other');p.maps.push(b);m.connections.push({direction:'up',target:'b',offset:60});assert.ok(validate(p).some(s=>s.includes('no clear aligned crossing')));});
+
+test('all freshwater and ocean depths/motions plus sand survive export and play collisions',()=>{
+ const p=newProject(),m=p.maps[0];let x=1;
+ for(const identity of ['fresh','ocean'])for(const type of ['still','moving','shallow-still','shallow-moving']){const id=`water-${identity}-${type}`;paint(m,x,2,id);assert.equal(blocked(m,x,2),!type.startsWith('shallow'));x++;}
+ paint(m,1,3,'sand');assert.equal(blocked(m,1,3),false);
+ const restored=importProject(exportProject(p));assert.deepEqual(restored,p);
+});

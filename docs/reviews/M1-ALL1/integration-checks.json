@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "Phone greenhouse opens inside the game with actual savings, no free review money",
+    "Payment subtracts exactly $100, cents survive, one caught fish persists, review save retained",
+    "Leaving before catching refunds the unused $100",
+    "Failed adventure storage rolls back both wallet and collection",
+    "Play my map loads the saved autotiling project with passages, collisions and Hero movement",
+    "Main menu opens all six coastal landscapes, animated water and wildlife",
+    "Adventure reload retains greenhouse fish and exact savings",
+    "Rootport uses latest animated shared coast renderer with freshwater reflections",
+    "Main tile walking enters the native greenhouse from its garden with shared savings"
+  ],
+  "errors": []
+}

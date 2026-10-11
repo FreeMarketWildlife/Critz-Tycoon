@@ -1,3 +1,4 @@
+import {loadGreenhouseGrounds,renderGreenhouseGrounds} from './greenhouse-grounds.js';
 import {drawContactSprite} from './contact-rules.js';
 import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
@@ -8,7 +9,7 @@ import { loadAtlas } from './atlas.js';
 import { scenes, buildings, getEntities } from './world.js';
 import {loadLivingArt,drawLiving,characterFrame,npcIdentity,drawHabitatProp,drawCritter,RESCUES} from './living-art.js';
 import {drawThreshold,applyLighting} from './lighting.js';
-let atlas, entries;
+let atlas, entries, correctedCast;
 const contactSources=new Map();
 function contactSource(id,draw,w,h){
  if(!contactSources.has(id)){const canvas=document.createElement('canvas');canvas.width=w;canvas.height=h;draw(canvas.getContext('2d'));contactSources.set(id,canvas);}
@@ -17,7 +18,7 @@ function contactSource(id,draw,w,h){
 export async function initWorldArt() {
   atlas = await loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url));
   entries = new Map(atlas.manifest.assets.map(a => [a.id, a]));
-  await Promise.all([loadEnvironment(),loadLivingArt()]);
+  [correctedCast] = await Promise.all([loadAtlas(new URL('../assets/playable/characters/atlas.json', import.meta.url)),loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds()]);
 }
 function sprite(c, id, x, y) {
   const a = entries.get(id);
@@ -25,6 +26,7 @@ function sprite(c, id, x, y) {
   atlas.draw(c, id, x - a.anchor[0], y - a.anchor[1]);
 }
 export function character(c, x, y, {gender='boy',look, facing='down',pose='idle',mode='walk'}={}) {
+  if(['rival-mom','rival-dad'].includes(look)) {c.save();c.translate(x,y);c.scale(2,2);correctedCast.draw(c,`char.${look}.${facing}.${mode}.${pose}`,-12,-32);c.restore();return;}
   if(look?.startsWith('legacy.')) { c.save();c.translate(x,y);c.scale(2,2);sprite(c,`char.${look.slice(7)}.${facing}.${mode}.${pose}`,0,0);c.restore();return; }
   drawLiving(c,look||`hero-${gender}`,characterFrame(facing,pose),x-16,y-64);
 }
@@ -33,6 +35,7 @@ export function getRenderDebug() { return structuredClone(debug); }
 export function renderWorld(canvas, state, time, view) {
   const c = canvas.getContext('2d');
   c.imageSmoothingEnabled = false;
+  if(scenes[state.scene].style==='greenhouse'){debug=renderGreenhouseGrounds(c,state,time,view,character);return;}
   if(scenes[state.scene].map) { debug=renderEnvironment(c,state,time,view,character,npcIdentity); return; }
   c.save();
   const scene = scenes[state.scene], outside = ['town','yard'].includes(scene.style);

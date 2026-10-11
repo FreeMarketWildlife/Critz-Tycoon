@@ -1,3 +1,4 @@
+import {initialState as greenhouseInitial,normalize as normalizeGreenhouse} from '../art-review/greenhouse-state.js';
 import {ensureDayClock,advanceDayClock,endDay,paintClock} from './day-clock.js';
 import {MusicDirector} from './audio/director.js';
 import {harvestFruit,cueFruitShake,fruitTreeView} from './fruit-trees.js';
@@ -342,6 +343,7 @@ function interact() {
   if (!e) {
     return;
   }
+  if(e.type==='greenhouse'){openGreenhouse();return;}
   if(e.type==='fruitTree'){
     if(fruitTreeView(state,e.id,visualTime).active)return;
     const result=harvestFruit(state,e.id);
@@ -709,7 +711,7 @@ function shop(type) {
     );
 }
 function pause() {
-  const commands=[['notebook','Notebook','Your finds, notes and next step.'],['bag','Bag','Supplies, savings and Kaid’s loan.'],['critter','Critter','Your photos, clips and earnings.'],['directory','Town guide','Places to visit and how to play.'],['options','Options','Music, window colors and quieter reactions.'],['save','Save','Save your progress on this device.'],['resume','Close','Back to your little world.']];
+  const commands=[...(state.stage==='morning'?[['greenhouse','Luke’s Greenhouse','Eight tubs, one scoop. Your adventure wallet and goldfish.'],['coast','Visit the coast','Beaches, shallows, turtles and reflections.'],['map-player','Play my map','Explore the map saved in Map Studio.'] ]:[]),['notebook','Notebook','Your finds, notes and next step.'],['bag','Bag','Supplies, savings and Kaid’s loan.'],['critter','Critter','Your photos, clips and earnings.'],['directory','Town guide','Places to visit and how to play.'],['options','Options','Music, window colors and quieter reactions.'],['save','Save','Save your progress on this device.'],['resume','Close','Back to your little world.']];
   showPanel('pause','Menu',`<p class="menu-status">${esc(state.scene === "bedroom" ? `${state.hero}’s room` : scenes[state.scene].name)} · ${state.stage === "night" ? "Night 01" : `Day ${Math.floor(state.time / 24) + 1} · ${String(state.time % 24).padStart(2,"0")}:00`}</p><div class="command-list">${commands.map(([id,label,help])=>button(id,label,'command',`data-help="${help}"`)).join('')}</div><p id="menu-help" class="menu-help">Your finds, notes and next step.</p><div class="window-controls"><b>A</b> Choose <b>B</b> Back</div>`,{back:false,eyebrow:`${esc(state.hero)} · ${dollars(state.money)}`});
 }
 function optionsPanel(){
@@ -739,11 +741,32 @@ function notebook() {
     },
   );
 }
+function openGreenhouse() {
+  // The room shares the adventure wallet and collection. Review storage remains separate.
+  window.critzGreenhouse = {
+    gender:state.gender,
+    read() {return {...(state.lukeGreenhouse || greenhouseInitial()),money:Math.floor(state.money/100)};},
+    write(next) {
+      try {next=normalizeGreenhouse(next);} catch {return false;}
+      const oldMoney=state.money, oldCollection=state.lukeGreenhouse;
+      state.money += (next.money-Math.floor(state.money/100))*100;
+      if(state.money<0){state.money=oldMoney;return false;}
+      state.lukeGreenhouse=next;
+      if(!persist()){state.money=oldMoney;state.lukeGreenhouse=oldCollection;return false;}
+      return true;
+    },
+  };
+  showPanel('greenhouse', 'Luke’s Greenhouse', '<iframe class="game-room" title="Luke’s Greenhouse" src="art-review/greenhouse.html?game=1"></iframe>', {eyebrow:'ROOTPORT · EIGHT TUBS, ONE SCOOP'});
+}
+function openMapPlayer() {
+  showPanel('map-player','Your Map Studio world','<iframe class="game-room" title="Play your Map Studio world" src="map-editor/play.html"></iframe>',{eyebrow:'EXPLORE YOUR MAP'});
+}
+
 function directory() {
   showPanel(
     "directory",
     "Welcome to Rootport",
-    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Stand beside a red apple tree and press A to shake fruit into your Bag. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p><details class="studio-links"><summary>Studio & credits</summary><a href="sprite-editor/">Sprite Editor</a> · <a href="map-editor/">Map Studio</a> · <a href="art-review/walking.html">Art reviews</a> · <a href="music/">Listening room</a></details>`,
+    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span><span><b>Town square</b>Luke’s Greenhouse · beside the directory</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Stand beside a red apple tree and press A to shake fruit into your Bag. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p><details class="studio-links"><summary>Studio & credits</summary><a href="sprite-editor/">Sprite Editor</a> · <a href="map-editor/">Map Studio</a> · <a href="art-review/walking.html">Art reviews</a> · <a href="music/">Listening room</a></details>`,
   );
 }
 function bag() {
@@ -945,6 +968,12 @@ function doAction(action, el, delta=1) {
     case "notebook":
       notebook();
       break;
+    case "greenhouse":
+      openGreenhouse();break;
+    case "coast":
+      window.critzCoast={state};showPanel('coast','The coast','<iframe class="game-room" title="Explore the coast" src="art-review/coast.html?game=1"></iframe>');break;
+    case "map-player":
+      openMapPlayer();break;
     case "directory":
       directory();
       break;
@@ -1182,6 +1211,7 @@ function frame(now) {
         if (stepView.moving && stepView.settled) {
           const gate = getEntities(state).find(e => e.type === 'door' && approachesDoor(!!scenes[state.scene].map,!!scenes[e.to].map,e,stepView.facing) && e.x === state.player.x && e.y === state.player.y);
           if (gate) { travel(gate); return; }
+          const greenhouse=getEntities(state).find(e=>e.type==='greenhouse'&&e.x===state.player.x&&e.y===state.player.y&&stepView.facing==='up');if(greenhouse){openGreenhouse();return;}
         }
         if (pendingInteract && getMotionView(motion).settled) {
           pendingInteract = false;

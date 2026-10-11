@@ -1,0 +1,5759 @@
+{
+  "schemaVersion": 1,
+  "image": "atlas.png",
+  "size": [
+    288,
+    384
+  ],
+  "nativeFrame": [
+    24,
+    32
+  ],
+  "paintedBudget": [
+    20,
+    26
+  ],
+  "directions": [
+    "south",
+    "west",
+    "north",
+    "east"
+  ],
+  "poses": [
+    "idle",
+    "strideA",
+    "strideB"
+  ],
+  "assetCount": 144,
+  "characterCount": 12,
+  "animation": {
+    "sequence": [
+      "strideA",
+      "idle",
+      "strideB",
+      "idle"
+    ],
+    "holds": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "tickSeconds": 0.016742706298828125,
+    "loopTicks": 32,
+    "directionReviewTicks": 96,
+    "gifTiming": "centisecond-rounded cumulative source timing"
+  },
+  "characters": [
+    {
+      "id": "hero.boy",
+      "label": "Hero boy",
+      "bodyType": "compact child · relaxed",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.hero.boy.south.idle",
+          "strideA": "character.walk.v3.hero.boy.south.strideA",
+          "strideB": "character.walk.v3.hero.boy.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.hero.boy.west.idle",
+          "strideA": "character.walk.v3.hero.boy.west.strideA",
+          "strideB": "character.walk.v3.hero.boy.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.hero.boy.north.idle",
+          "strideA": "character.walk.v3.hero.boy.north.strideA",
+          "strideB": "character.walk.v3.hero.boy.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.hero.boy.east.idle",
+          "strideA": "character.walk.v3.hero.boy.east.strideA",
+          "strideB": "character.walk.v3.hero.boy.east.strideB"
+        }
+      },
+      "sheet": "sheets/hero.boy.png",
+      "gif": "gifs/hero.boy.gif",
+      "design": {
+        "ageCategory": "ten-year-old Black child",
+        "identitySource": "B1",
+        "identityCues": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+        "bodyType": "compact child · relaxed",
+        "headBounds": [
+          3,
+          7,
+          21,
+          22
+        ],
+        "headRows": 15,
+        "chinRow": 21,
+        "shoulderRow": 22,
+        "bodyBounds": [
+          6,
+          22,
+          18,
+          31
+        ],
+        "bodyRows": 9,
+        "neckRows": 0,
+        "torsoRows": [
+          22,
+          27
+        ],
+        "legsAndShoesRows": [
+          28,
+          30
+        ],
+        "eyeClusters": [
+          [
+            9,
+            17,
+            1,
+            2
+          ],
+          [
+            14,
+            17,
+            1,
+            2
+          ]
+        ],
+        "footBaseline": 30,
+        "headShareOfPaintedHeight": 0.625,
+        "status": "review-awaiting-user-acceptance",
+        "headHeight": 15,
+        "bodyHeight": 9,
+        "signature": "Rounded afro; teal raglan tee, cream sleeves, navy shorts; wide planted cream sneakers",
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "animation": "walk only",
+        "strideBob": [
+          0,
+          1
+        ],
+        "sourceStill": "art/source/characters-v2/hero.boy.json",
+        "walkCycle": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "holdsTicks": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "cycleTicks": 32,
+        "tickSeconds": 0.016742706298828125,
+        "headPreservation": "South stride head is exactly the unchanged still head translated down 1px.",
+        "eastConstruction": "Symmetric profile geometry reconstructed from west, with image-space upper-left highlights placed separately.",
+        "approval": "New walk art awaiting user review"
+      },
+      "notes": [
+        "Original per-character native row construction; guide bitmap pixels are not resampled or copied.",
+        "Canonical south idle rows and palette are preserved exactly.",
+        "Stride footprints extend to row 31; adult heads bob to row 6, keeping maximum 26px painted height.",
+        "The 32-tick walk cycle is a source-derived scheduling proposal; this deliverable adds no runtime movement or run animation."
+      ]
+    },
+    {
+      "id": "hero.girl",
+      "label": "Hero girl",
+      "bodyType": "compact child · petite",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.hero.girl.south.idle",
+          "strideA": "character.walk.v3.hero.girl.south.strideA",
+          "strideB": "character.walk.v3.hero.girl.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.hero.girl.west.idle",
+          "strideA": "character.walk.v3.hero.girl.west.strideA",
+          "strideB": "character.walk.v3.hero.girl.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.hero.girl.north.idle",
+          "strideA": "character.walk.v3.hero.girl.north.strideA",
+          "strideB": "character.walk.v3.hero.girl.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.hero.girl.east.idle",
+          "strideA": "character.walk.v3.hero.girl.east.strideA",
+          "strideB": "character.walk.v3.hero.girl.east.strideB"
+        }
+      },
+      "sheet": "sheets/hero.girl.png",
+      "gif": "gifs/hero.girl.gif",
+      "design": {
+        "ageCategory": "ten-year-old Black child",
+        "identitySource": "G1",
+        "identityCues": "Twin rounded afro puffs with coral ties; coral tee, indigo shorts; close cream sneakers",
+        "bodyType": "compact child · petite",
+        "headBounds": [
+          2,
+          7,
+          22,
+          22
+        ],
+        "headRows": 15,
+        "chinRow": 21,
+        "shoulderRow": 22,
+        "bodyBounds": [
+          6,
+          22,
+          18,
+          31
+        ],
+        "bodyRows": 9,
+        "neckRows": 0,
+        "torsoRows": [
+          22,
+          27
+        ],
+        "legsAndShoesRows": [
+          28,
+          30
+        ],
+        "eyeClusters": [
+          [
+            9,
+            17,
+            1,
+            2
+          ],
+          [
+            14,
+            17,
+            1,
+            2
+          ]
+        ],
+        "footBaseline": 30,
+        "headShareOfPaintedHeight": 0.625,
+        "status": "review-awaiting-user-acceptance",
+        "headHeight": 15,
+        "bodyHeight": 9,
+        "signature": "Twin rounded afro puffs with coral ties; coral tee, indigo shorts; close cream sneakers",
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "animation": "walk only",
+        "strideBob": [
+          0,
+          1
+        ],
+        "sourceStill": "art/source/characters-v2/hero.girl.json",
+        "walkCycle": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "holdsTicks": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "cycleTicks": 32,
+        "tickSeconds": 0.016742706298828125,
+        "headPreservation": "South stride head is exactly the unchanged still head translated down 1px.",
+        "eastConstruction": "Symmetric profile geometry reconstructed from west, with image-space upper-left highlights placed separately.",
+        "approval": "New walk art awaiting user review"
+      },
+      "notes": [
+        "Original per-character native row construction; guide bitmap pixels are not resampled or copied.",
+        "Canonical south idle rows and palette are preserved exactly.",
+        "Stride footprints extend to row 31; adult heads bob to row 6, keeping maximum 26px painted height.",
+        "The 32-tick walk cycle is a source-derived scheduling proposal; this deliverable adds no runtime movement or run animation."
+      ]
+    },
+    {
+      "id": "mom",
+      "label": "Mom",
+      "bodyType": "soft-round adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.mom.south.idle",
+          "strideA": "character.walk.v3.mom.south.strideA",
+          "strideB": "character.walk.v3.mom.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.mom.west.idle",
+          "strideA": "character.walk.v3.mom.west.strideA",
+          "strideB": "character.walk.v3.mom.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.mom.north.idle",
+          "strideA": "character.walk.v3.mom.north.strideA",
+          "strideB": "character.walk.v3.mom.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.mom.east.idle",
+          "strideA": "character.walk.v3.mom.east.strideA",
+          "strideB": "character.walk.v3.mom.east.strideB"
+        }
+      },
+      "sheet": "sheets/mom.png",
+      "gif": "gifs/mom.gif",
+      "design": {
+        "bodyType": "soft-round adult",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "eyeRows": [
+          16,
+          17
+        ],
+        "eyeColumns": [
+          9,
+          14
+        ],
+        "feetRows": [
+          29,
+          30
+        ],
+        "silhouetteIntent": "Cloud-round twin puffs, broad soft pink jacket, generous cheeks and short planted legs. Adult identity from clothes and posture.",
+        "changedFromM1C1": [
+          "Rounded puff silhouette and connected central hair crown",
+          "Widened soft jacket and relaxed hands without longer waist",
+          "Shortened visible legs to three rows",
+          "Rebuilt face cheeks and clear two-row eyes"
+        ],
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": "Cloud-round twin puffs, broad soft pink jacket, generous cheeks and short planted legs. Adult identity from clothes and posture.",
+        "bodyBounds": [
+          4,
+          21,
+          20,
+          31
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "animation": "walk only",
+        "strideBob": [
+          0,
+          1
+        ],
+        "sourceStill": "art/source/characters-v2/mom.json",
+        "walkCycle": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "holdsTicks": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "cycleTicks": 32,
+        "tickSeconds": 0.016742706298828125,
+        "headPreservation": "South stride head is exactly the unchanged still head translated down 1px.",
+        "eastConstruction": "Symmetric profile geometry reconstructed from west, with image-space upper-left highlights placed separately.",
+        "approval": "New walk art awaiting user review"
+      },
+      "notes": [
+        "Original per-character native row construction; guide bitmap pixels are not resampled or copied.",
+        "Canonical south idle rows and palette are preserved exactly.",
+        "Stride footprints extend to row 31; adult heads bob to row 6, keeping maximum 26px painted height.",
+        "The 32-tick walk cycle is a source-derived scheduling proposal; this deliverable adds no runtime movement or run animation."
+      ]
+    },
+    {
+      "id": "kaid",
+      "label": "Kaid",
+      "bodyType": "compact pitcher child",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.kaid.south.idle",
+          "strideA": "character.walk.v3.kaid.south.strideA",
+          "strideB": "character.walk.v3.kaid.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.kaid.west.idle",
+          "strideA": "character.walk.v3.kaid.west.strideA",
+          "strideB": "character.walk.v3.kaid.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.kaid.north.idle",
+          "strideA": "character.walk.v3.kaid.north.strideA",
+          "strideB": "character.walk.v3.kaid.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.kaid.east.idle",
+          "strideA": "character.walk.v3.kaid.east.strideA",
+          "strideB": "character.walk.v3.kaid.east.strideB"
+        }
+      },
+      "sheet": "sheets/kaid.png",
+      "gif": "gifs/kaid.gif",
+      "design": {
+        "bodyType": "compact pitcher child",
+        "age": "child",
+        "headBounds": [
+          3,
+          7,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "headHeight": 14,
+        "bodyHeight": 10,
+        "frame": [
+          24,
+          32
+        ],
+        "anchor": [
+          12,
+          32
+        ],
+        "signature": [
+          "rounded teal pitcher with amber contents",
+          "spout left / loop handle right",
+          "cream tee and navy shorts with connected legs"
+        ],
+        "changes": [
+          "shorter rounded vessel construction",
+          "two deliberate1×2 eyes",
+          "pelvis and legs connected; former blank row removed"
+        ],
+        "identitySource": "docs/GAME_VISION.md",
+        "status": "awaiting-user-animation-review",
+        "bodyBounds": [
+          5,
+          21,
+          17,
+          31
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "walkSequence": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "walkHolds": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "simulationPeriodSeconds": "280896 / 16777216",
+        "southIdlePreserved": true,
+        "strideBobPixels": 1,
+        "nativeAuthored": true,
+        "guide": "guides/kaid-pose-guide.png",
+        "directionNotes": {
+          "south": "Spout screen-left and open loop screen-right; exactly canonical south idle.",
+          "north": "Spout screen-right and open loop screen-left; no eyes on the rear amber vessel.",
+          "west": "Facing west exposes character-left/near side: open handle loop at screen-right rear; far spout is compressed at upper screen-left.",
+          "east": "Facing east exposes character-right/near side: spout projects at screen-right front; far handle is occluded. This profile is not a mirror of the west frame."
+        },
+        "kaidPhysicalSides": {
+          "spout": "character right",
+          "handle": "character left",
+          "southHandleHole": [
+            18,
+            14,
+            1,
+            3
+          ],
+          "northHandleHole": [
+            5,
+            14,
+            1,
+            3
+          ],
+          "westHandleHole": [
+            16,
+            14,
+            1,
+            3
+          ],
+          "eastHandleHole": "occluded",
+          "overheadNearSide": {
+            "west": "character left, handle visible",
+            "east": "character right, spout visible"
+          }
+        },
+        "auditRevision": "M1.I3"
+      },
+      "notes": [
+        "Canonical v2 south idle and palette preserved exactly.",
+        "Generated pose guide informs gesture only; all native frame pixels independently authored as source rows.",
+        "Three distinct poses per direction with compact alternating arm/leg articulation and a one-pixel stride bob.",
+        "Only walking frames included; running and user visual/feel acceptance are not implied.",
+        "M1.I3: garment core/collar/hem remain aligned to the bobbed directional idle; localized opposite arms and matched short feet correct gait artifacts. All idle and head/face/accessory pixels preserved."
+      ]
+    },
+    {
+      "id": "professor",
+      "label": "Professor Nugget",
+      "bodyType": "sturdy-broad adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.professor.south.idle",
+          "strideA": "character.walk.v3.professor.south.strideA",
+          "strideB": "character.walk.v3.professor.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.professor.west.idle",
+          "strideA": "character.walk.v3.professor.west.strideA",
+          "strideB": "character.walk.v3.professor.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.professor.north.idle",
+          "strideA": "character.walk.v3.professor.north.strideA",
+          "strideB": "character.walk.v3.professor.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.professor.east.idle",
+          "strideA": "character.walk.v3.professor.east.strideA",
+          "strideB": "character.walk.v3.professor.east.strideB"
+        }
+      },
+      "sheet": "sheets/professor.png",
+      "gif": "gifs/professor.gif",
+      "design": {
+        "bodyType": "sturdy-broad adult",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "eyeRows": [
+          15,
+          16
+        ],
+        "eyeColumns": [
+          8,
+          15
+        ],
+        "feetRows": [
+          29,
+          30
+        ],
+        "silhouetteIntent": "Wide short cream coat, broad safari brim, round glasses with visible dark pupils and grey side hair; distinctly stockier than Mom.",
+        "changedFromM1C1": [
+          "Simplified glasses into separate readable lens shapes with dark pupils",
+          "Broadened short shoulders and coat",
+          "Lower-body stance limited to three rows",
+          "Retained wide brim and grey side-hair identity"
+        ],
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": "Wide short cream coat, broad safari brim, round glasses with visible dark pupils and grey side hair; distinctly stockier than Mom.",
+        "bodyBounds": [
+          3,
+          21,
+          22,
+          31
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "animation": "walk only",
+        "strideBob": [
+          0,
+          1
+        ],
+        "sourceStill": "art/source/characters-v2/professor.json",
+        "walkCycle": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "holdsTicks": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "cycleTicks": 32,
+        "tickSeconds": 0.016742706298828125,
+        "headPreservation": "South stride head is exactly the unchanged still head translated down 1px.",
+        "eastConstruction": "Symmetric profile geometry reconstructed from west, with image-space upper-left highlights placed separately.",
+        "approval": "New walk art awaiting user review"
+      },
+      "notes": [
+        "Original per-character native row construction; guide bitmap pixels are not resampled or copied.",
+        "Canonical south idle rows and palette are preserved exactly.",
+        "Stride footprints extend to row 31; adult heads bob to row 6, keeping maximum 26px painted height.",
+        "The 32-tick walk cycle is a source-derived scheduling proposal; this deliverable adds no runtime movement or run animation.",
+        "M1.I3 native correction: side undershirt narrowed to front opening; uninterrupted cream side coat and sleeves restored in all west/east poses. Geometry, head, palette and foot contacts unchanged."
+      ]
+    },
+    {
+      "id": "juniper",
+      "label": "Juniper",
+      "bodyType": "soft pear adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.juniper.south.idle",
+          "strideA": "character.walk.v3.juniper.south.strideA",
+          "strideB": "character.walk.v3.juniper.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.juniper.west.idle",
+          "strideA": "character.walk.v3.juniper.west.strideA",
+          "strideB": "character.walk.v3.juniper.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.juniper.north.idle",
+          "strideA": "character.walk.v3.juniper.north.strideA",
+          "strideB": "character.walk.v3.juniper.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.juniper.east.idle",
+          "strideA": "character.walk.v3.juniper.east.strideA",
+          "strideB": "character.walk.v3.juniper.east.strideB"
+        }
+      },
+      "sheet": "sheets/juniper.png",
+      "gif": "gifs/juniper.gif",
+      "design": {
+        "bodyType": "soft pear adult",
+        "headBounds": [
+          3,
+          5,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "round high bun",
+          "cream puff sleeves",
+          "apron widens at low hips with curved short hem"
+        ],
+        "identitySource": "src/world.js:30; Juniper is the Critz shopkeeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Bun and short pear apron distinguish silhouette; cream shoulder seams separate apron from face.",
+        "bodyBounds": [
+          3,
+          21,
+          20,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            2
+          ],
+          [
+            13,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": [
+          "round high bun",
+          "cream puff sleeves",
+          "apron widens at low hips with curved short hem"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "notes": [
+        "Three genuine poses per direction: compact planted stance plus alternating arm and leg geometry; one-pixel body bob on strides.",
+        "North and west head/clothing are independently authored at native resolution; east is reflected geometry with relit hair and explicit Fern fringe/badge treatment (badge on west-facing near chest only).",
+        "Walk preview sequence strideA,idle,strideB,idle holds8ticks each at280896/16777216seconds per tick. Source-derived reference only; no emulator equivalence or user art approval claimed.",
+        "M1.I3 artifact cleanup: no head/face or palette changes; corrected lower clothing and matched arm geometry. South idle has only the individually logged corrections. Final user art acceptance remains pending."
+      ]
+    },
+    {
+      "id": "dr-fern",
+      "label": "Dr. Fern",
+      "bodyType": "slim adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.dr-fern.south.idle",
+          "strideA": "character.walk.v3.dr-fern.south.strideA",
+          "strideB": "character.walk.v3.dr-fern.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.dr-fern.west.idle",
+          "strideA": "character.walk.v3.dr-fern.west.strideA",
+          "strideB": "character.walk.v3.dr-fern.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.dr-fern.north.idle",
+          "strideA": "character.walk.v3.dr-fern.north.strideA",
+          "strideB": "character.walk.v3.dr-fern.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.dr-fern.east.idle",
+          "strideA": "character.walk.v3.dr-fern.east.strideA",
+          "strideB": "character.walk.v3.dr-fern.east.strideB"
+        }
+      },
+      "sheet": "sheets/dr-fern.png",
+      "gif": "gifs/dr-fern.gif",
+      "design": {
+        "bodyType": "slim adult",
+        "headBounds": [
+          3,
+          6,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "asymmetric rounded bob",
+          "short open coat and light lapels",
+          "narrow straight teal center"
+        ],
+        "identitySource": "src/world.js:30; Dr. Fern is the Vet keeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Dark bob silhouette, cream coat, turquoise clothing and small pink badge preserve reference identity.",
+        "bodyBounds": [
+          5,
+          21,
+          18,
+          31
+        ],
+        "eyeClusters": [
+          [
+            7,
+            16,
+            1,
+            2
+          ],
+          [
+            12,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 15,
+        "bodyHeight": 10,
+        "signature": [
+          "asymmetric rounded bob",
+          "short open coat and light lapels",
+          "narrow straight teal center"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "notes": [
+        "Three genuine poses per direction: compact planted stance plus alternating arm and leg geometry; one-pixel body bob on strides.",
+        "North and west head/clothing are independently authored at native resolution; east is reflected geometry with relit hair and explicit Fern fringe/badge treatment (badge on west-facing near chest only).",
+        "Walk preview sequence strideA,idle,strideB,idle holds8ticks each at280896/16777216seconds per tick. Source-derived reference only; no emulator equivalence or user art approval claimed.",
+        "M1.I3 artifact cleanup: no head/face or palette changes; corrected lower clothing and matched arm geometry. South idle has only the individually logged corrections. Final user art acceptance remains pending."
+      ]
+    },
+    {
+      "id": "mina",
+      "label": "Mina",
+      "bodyType": "petite slim adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.mina.south.idle",
+          "strideA": "character.walk.v3.mina.south.strideA",
+          "strideB": "character.walk.v3.mina.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.mina.west.idle",
+          "strideA": "character.walk.v3.mina.west.strideA",
+          "strideB": "character.walk.v3.mina.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.mina.north.idle",
+          "strideA": "character.walk.v3.mina.north.strideA",
+          "strideB": "character.walk.v3.mina.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.mina.east.idle",
+          "strideA": "character.walk.v3.mina.east.strideA",
+          "strideB": "character.walk.v3.mina.east.strideB"
+        }
+      },
+      "sheet": "sheets/mina.png",
+      "gif": "gifs/mina.gif",
+      "design": {
+        "bodyType": "petite slim adult",
+        "headBounds": [
+          4,
+          7,
+          20,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "tucked chin-length hair",
+          "small golden round glasses",
+          "narrow cropped cardigan with cream collar"
+        ],
+        "identitySource": "src/world.js:30; Mina is the Drug Store keeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Petite body, tucked hair and glasses distinguish Mina from Dr. Fern despite shared older doctor sprite.",
+        "bodyBounds": [
+          6,
+          21,
+          18,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            1
+          ],
+          [
+            13,
+            16,
+            1,
+            1
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 14,
+        "bodyHeight": 10,
+        "signature": [
+          "tucked chin-length hair",
+          "small golden round glasses",
+          "narrow cropped cardigan with cream collar"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "notes": [
+        "Three genuine poses per direction: compact planted stance plus alternating arm and leg geometry; one-pixel body bob on strides.",
+        "North and west head/clothing are independently authored at native resolution; east is reflected geometry with relit hair and explicit Fern fringe/badge treatment (badge on west-facing near chest only).",
+        "Walk preview sequence strideA,idle,strideB,idle holds8ticks each at280896/16777216seconds per tick. Source-derived reference only; no emulator equivalence or user art approval claimed.",
+        "M1.I3 artifact cleanup: no head/face or palette changes; corrected lower clothing and matched arm geometry. South idle has only the individually logged corrections. Final user art acceptance remains pending."
+      ]
+    },
+    {
+      "id": "ollie",
+      "label": "Ollie",
+      "bodyType": "broad compact adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.ollie.south.idle",
+          "strideA": "character.walk.v3.ollie.south.strideA",
+          "strideB": "character.walk.v3.ollie.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.ollie.west.idle",
+          "strideA": "character.walk.v3.ollie.west.strideA",
+          "strideB": "character.walk.v3.ollie.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.ollie.north.idle",
+          "strideA": "character.walk.v3.ollie.north.strideA",
+          "strideB": "character.walk.v3.ollie.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.ollie.east.idle",
+          "strideA": "character.walk.v3.ollie.east.strideA",
+          "strideB": "character.walk.v3.ollie.east.strideB"
+        }
+      },
+      "sheet": "sheets/ollie.png",
+      "gif": "gifs/ollie.gif",
+      "design": {
+        "bodyType": "broad compact adult",
+        "headBounds": [
+          2,
+          5,
+          22,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "low cap with projecting stepped brim",
+          "broad sports sleeves",
+          "wide cargo shorts and short planted stance"
+        ],
+        "identitySource": "src/world.js:30; Ollie is the Bike Shop keeper",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Rust cap contrasts sports teal; short cargo legs and broad shoulders carry adult body type.",
+        "bodyBounds": [
+          4,
+          21,
+          20,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            15,
+            1,
+            2
+          ],
+          [
+            13,
+            15,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": [
+          "low cap with projecting stepped brim",
+          "broad sports sleeves",
+          "wide cargo shorts and short planted stance"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "frame": [
+          24,
+          32
+        ],
+        "anchor": [
+          12,
+          32
+        ],
+        "status": "awaiting-user-animation-review",
+        "walkSequence": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "walkHolds": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "simulationPeriodSeconds": "280896 / 16777216",
+        "southIdlePreserved": true,
+        "strideBobPixels": 1,
+        "nativeAuthored": true,
+        "guide": "guides/ollie-pose-guide.png",
+        "directionNotes": {
+          "south": "Canonical still is untouched. Head/face moves down exactly one row during each stride; compact arms/legs articulate independently.",
+          "north": "Individually authored back head; no eyes or front face retained. Short clothing/feet keep the native body family.",
+          "west": "Individually authored compact left profile. Opposite arm/leg phases show forward and rear foot.",
+          "east": "Right-facing profile retains original shape and image-plane upper-left lighting."
+        },
+        "auditRevision": "M1.I3"
+      },
+      "notes": [
+        "Canonical v2 south idle and palette preserved exactly.",
+        "Generated pose guide informs gesture only; all native frame pixels independently authored as source rows.",
+        "Three distinct poses per direction with compact alternating arm/leg articulation and a one-pixel stride bob.",
+        "Only walking frames included; running and user visual/feel acceptance are not implied.",
+        "M1.I3: garment core/collar/hem remain aligned to the bobbed directional idle; localized opposite arms and matched short feet correct gait artifacts. All idle and head/face/accessory pixels preserved."
+      ]
+    },
+    {
+      "id": "aunt-ember",
+      "label": "Aunt Ember",
+      "bodyType": "sturdy round adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.aunt-ember.south.idle",
+          "strideA": "character.walk.v3.aunt-ember.south.strideA",
+          "strideB": "character.walk.v3.aunt-ember.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.aunt-ember.west.idle",
+          "strideA": "character.walk.v3.aunt-ember.west.strideA",
+          "strideB": "character.walk.v3.aunt-ember.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.aunt-ember.north.idle",
+          "strideA": "character.walk.v3.aunt-ember.north.strideA",
+          "strideB": "character.walk.v3.aunt-ember.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.aunt-ember.east.idle",
+          "strideA": "character.walk.v3.aunt-ember.east.strideA",
+          "strideB": "character.walk.v3.aunt-ember.east.strideB"
+        }
+      },
+      "sheet": "sheets/aunt-ember.png",
+      "gif": "gifs/aunt-ember.gif",
+      "design": {
+        "bodyType": "sturdy round adult",
+        "headBounds": [
+          3,
+          5,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "textured asymmetric tied bun",
+          "large protective goggles",
+          "wide short indigo apron and rolled mustard sleeves"
+        ],
+        "identitySource": "docs/GAME_VISION.md:45; src/world.js:30",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Warm dark skin and visible eyes under pale goggle rims; fuller apron and wide stance remain compact.",
+        "bodyBounds": [
+          5,
+          21,
+          19,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            1
+          ],
+          [
+            14,
+            16,
+            1,
+            1
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 16,
+        "bodyHeight": 10,
+        "signature": [
+          "textured asymmetric tied bun",
+          "large protective goggles",
+          "wide short indigo apron and rolled mustard sleeves"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive"
+      },
+      "notes": [
+        "Three genuine poses per direction: compact planted stance plus alternating arm and leg geometry; one-pixel body bob on strides.",
+        "North and west head/clothing are independently authored at native resolution; east is reflected geometry with relit hair and explicit Fern fringe/badge treatment (badge on west-facing near chest only).",
+        "Walk preview sequence strideA,idle,strideB,idle holds8ticks each at280896/16777216seconds per tick. Source-derived reference only; no emulator equivalence or user art approval claimed.",
+        "M1.I3 artifact cleanup: no head/face or palette changes; corrected lower clothing and matched arm geometry. South idle has only the individually logged corrections. Final user art acceptance remains pending."
+      ]
+    },
+    {
+      "id": "rival-mom",
+      "label": "Rival’s mom",
+      "bodyType": "soft pear adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.rival-mom.south.idle",
+          "strideA": "character.walk.v3.rival-mom.south.strideA",
+          "strideB": "character.walk.v3.rival-mom.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.rival-mom.west.idle",
+          "strideA": "character.walk.v3.rival-mom.west.strideA",
+          "strideB": "character.walk.v3.rival-mom.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.rival-mom.north.idle",
+          "strideA": "character.walk.v3.rival-mom.north.strideA",
+          "strideB": "character.walk.v3.rival-mom.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.rival-mom.east.idle",
+          "strideA": "character.walk.v3.rival-mom.east.strideA",
+          "strideB": "character.walk.v3.rival-mom.east.strideB"
+        }
+      },
+      "sheet": "sheets/rival-mom.png",
+      "gif": "gifs/rival-mom.gif",
+      "design": {
+        "bodyType": "soft pear adult",
+        "headBounds": [
+          3,
+          6,
+          21,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "polished shoulder-length swept hair",
+          "rounded cream blouse collar",
+          "full short plum trousers with separated planted feet"
+        ],
+        "identitySource": "src/world.js:125; unnamed rival parent",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Hair down and a collar/trouser silhouette distinguish her from Mom and Juniper; no permanent name assigned.",
+        "bodyBounds": [
+          4,
+          21,
+          19,
+          31
+        ],
+        "eyeClusters": [
+          [
+            7,
+            16,
+            1,
+            2
+          ],
+          [
+            12,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 15,
+        "bodyHeight": 10,
+        "signature": [
+          "polished shoulder-length swept hair",
+          "rounded cream blouse collar",
+          "full short plum trousers with separated planted feet"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "frame": [
+          24,
+          32
+        ],
+        "anchor": [
+          12,
+          32
+        ],
+        "status": "awaiting-user-animation-review",
+        "walkSequence": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "walkHolds": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "simulationPeriodSeconds": "280896 / 16777216",
+        "southIdlePreserved": true,
+        "strideBobPixels": 1,
+        "nativeAuthored": true,
+        "guide": "guides/rival-mom-pose-guide.png",
+        "directionNotes": {
+          "south": "Canonical still is untouched. Head/face moves down exactly one row during each stride; compact arms/legs articulate independently.",
+          "north": "Individually authored back head; no eyes or front face retained. Short clothing/feet keep the native body family.",
+          "west": "Individually authored compact left profile. Opposite arm/leg phases show forward and rear foot.",
+          "east": "Right-facing profile retains original shape and image-plane upper-left lighting."
+        },
+        "auditRevision": "M1.I3"
+      },
+      "notes": [
+        "Canonical v2 south idle and palette preserved exactly.",
+        "Generated pose guide informs gesture only; all native frame pixels independently authored as source rows.",
+        "Three distinct poses per direction with compact alternating arm/leg articulation and a one-pixel stride bob.",
+        "Only walking frames included; running and user visual/feel acceptance are not implied.",
+        "M1.I3: garment core/collar/hem remain aligned to the bobbed directional idle; localized opposite arms and matched short feet correct gait artifacts. All idle and head/face/accessory pixels preserved."
+      ]
+    },
+    {
+      "id": "rival-dad",
+      "label": "Rival’s dad",
+      "bodyType": "broad short adult",
+      "frames": {
+        "south": {
+          "idle": "character.walk.v3.rival-dad.south.idle",
+          "strideA": "character.walk.v3.rival-dad.south.strideA",
+          "strideB": "character.walk.v3.rival-dad.south.strideB"
+        },
+        "west": {
+          "idle": "character.walk.v3.rival-dad.west.idle",
+          "strideA": "character.walk.v3.rival-dad.west.strideA",
+          "strideB": "character.walk.v3.rival-dad.west.strideB"
+        },
+        "north": {
+          "idle": "character.walk.v3.rival-dad.north.idle",
+          "strideA": "character.walk.v3.rival-dad.north.strideA",
+          "strideB": "character.walk.v3.rival-dad.north.strideB"
+        },
+        "east": {
+          "idle": "character.walk.v3.rival-dad.east.idle",
+          "strideA": "character.walk.v3.rival-dad.east.strideA",
+          "strideB": "character.walk.v3.rival-dad.east.strideB"
+        }
+      },
+      "sheet": "sheets/rival-dad.png",
+      "gif": "gifs/rival-dad.gif",
+      "design": {
+        "bodyType": "broad short adult",
+        "headBounds": [
+          3,
+          6,
+          20,
+          21
+        ],
+        "chinRow": 20,
+        "shoulderRow": 21,
+        "bodyRows": 10,
+        "legsAndShoesRows": 3,
+        "distinctiveStructure": [
+          "tidy uneven wavy hair crest",
+          "broad soft pullover shoulders and middle",
+          "wide tiny trouser stance"
+        ],
+        "identitySource": "src/world.js:126; unnamed rival parent",
+        "designStatus": "proposed visual design",
+        "reviewNotes": "Friendly face without a beard; fuller pullover hem and broad shoulders show adult shape without extending height.",
+        "bodyBounds": [
+          4,
+          21,
+          20,
+          31
+        ],
+        "eyeClusters": [
+          [
+            8,
+            16,
+            1,
+            2
+          ],
+          [
+            13,
+            16,
+            1,
+            2
+          ]
+        ],
+        "paletteRule": "At most15 opaque colors; upper-left highlights; original native pixels.",
+        "headHeight": 15,
+        "bodyHeight": 10,
+        "signature": [
+          "tidy uneven wavy hair crest",
+          "broad soft pullover shoulders and middle",
+          "wide tiny trouser stance"
+        ],
+        "annotationBoundsFormat": "left,top,right-exclusive,bottom-exclusive",
+        "frame": [
+          24,
+          32
+        ],
+        "anchor": [
+          12,
+          32
+        ],
+        "status": "awaiting-user-animation-review",
+        "walkSequence": [
+          "strideA",
+          "idle",
+          "strideB",
+          "idle"
+        ],
+        "walkHolds": [
+          8,
+          8,
+          8,
+          8
+        ],
+        "simulationPeriodSeconds": "280896 / 16777216",
+        "southIdlePreserved": true,
+        "strideBobPixels": 1,
+        "nativeAuthored": true,
+        "guide": "guides/rival-dad-pose-guide.png",
+        "directionNotes": {
+          "south": "Canonical still is untouched. Head/face moves down exactly one row during each stride; compact arms/legs articulate independently.",
+          "north": "Individually authored back head; no eyes or front face retained. Short clothing/feet keep the native body family.",
+          "west": "Individually authored compact left profile. Opposite arm/leg phases show forward and rear foot.",
+          "east": "Right-facing profile retains original shape and image-plane upper-left lighting."
+        },
+        "auditRevision": "M1.I3"
+      },
+      "notes": [
+        "Canonical v2 south idle and palette preserved exactly.",
+        "Generated pose guide informs gesture only; all native frame pixels independently authored as source rows.",
+        "Three distinct poses per direction with compact alternating arm/leg articulation and a one-pixel stride bob.",
+        "Only walking frames included; running and user visual/feel acceptance are not implied.",
+        "M1.I3: garment core/collar/hem remain aligned to the bobbed directional idle; localized opposite arms and matched short feet correct gait artifacts. All idle and head/face/accessory pixels preserved."
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "character.walk.v3.hero.boy.south.idle",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "00a176dc7aceb3b07ce07bfcda303dfdc635959d22f85c88507d305eeb067c30",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.south.strideA",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "31012f2ad47f87128ea2eb44a48f73599011d80c200ff8f617a168a015758db6",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.south.strideB",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "1c76a5c4944d18be1e97c1f5c72c5adb991ff5eaf10919678fc1141fef8e4c77",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.west.idle",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        18,
+        31
+      ],
+      "visibleSize": [
+        14,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "d8f3f03493c88d8c5bb9d5469188a4cd6fb35451fd0f7970a9f28980ea565297",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.west.strideA",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        18,
+        32
+      ],
+      "visibleSize": [
+        14,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "77c8bd0b09713b654f2f307fec2f0158bcdfe2dba3267aa1e68e1e5994e71090",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.west.strideB",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "e5e3f18c0064298a4e8411735ef3e3c841a82f6c887f9280ff0fb541ecadceaa",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.north.idle",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 10,
+      "sha256": "24b50688c9e79d929af7692bd5dcdcab9fed5869cad96dd330a5acd5f832446a",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.north.strideA",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 11,
+      "sha256": "be7f3b0c1762337273d54d9f04408a365bdbdfe34d4c42f9fee55f4ea83b68b8",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.north.strideB",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 11,
+      "sha256": "40b46c24af5bd71d307af3bf883369f2a2ae131d998b0981bd61b83c1a7131ff",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.east.idle",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        6,
+        7,
+        20,
+        31
+      ],
+      "visibleSize": [
+        14,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "1b05aa090dd2060ccb02e5bcdcf67f91ceab3cb6b579d03091ca9c1210eeb10a",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.east.strideA",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        6,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        14,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "48d3c4450b295b479d5940868092c8bf27662a4504afb309c681c088acd18ca4",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.boy.east.strideB",
+      "character": "hero.boy",
+      "label": "Hero boy",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        0,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "ccd99bef3f7d877cb5b787dc15d7d785711eb23d797b2443dbe9fcb6ab914076",
+      "source": "art/source/characters-walk-v3/hero.boy.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.south.idle",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        7,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "4ffd8b24c45fd00906035f940a29dd0e00bfee95e8a81b370f192649a08c299d",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.south.strideA",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        8,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        24
+      ],
+      "colorCount": 14,
+      "sha256": "3934659e8b442a20a0ce48e442891a9e2979b03dfbf72e89553daa50d39e41a4",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.south.strideB",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        8,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        24
+      ],
+      "colorCount": 14,
+      "sha256": "7ef6adf639b5df2af6e682c9c96621b51561fc97bd03b2d6e66dcc2da093e015",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.west.idle",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        19,
+        31
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "03bfa435dd975cd0ed4f4266189cf427572a5a6944a2b510fc59d60aa6ac1bd5",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.west.strideA",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 14,
+      "sha256": "1982306226a09073aac58034bbd936175dddb2fdd59127c6c08ceada8b5ebf53",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.west.strideB",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "301023d7cb034da1b4464843f277ec3af74c2a672b8a1c1235e6f6045cf94686",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.north.idle",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        7,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "891dd94f69e1e39f58cc4a994ce7e29799a2a6352f790a7fe78ba384fb127f71",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.north.strideA",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        8,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "34979ff0d5f06b4786cb50d58cabddbc6e656de54f6f1c7ee74a74365d1b2851",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.north.strideB",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        8,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "25b4e1951e9f6cb28c0403df4553558a919c49bc95090235bad402b1f4522437",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.east.idle",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        20,
+        31
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "6eda9c0aace31b578b9f278b8dd654f3f39e1e24ea0190dec687da15c12d5f26",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.east.strideA",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 14,
+      "sha256": "8c41112332b7c7eab01a5f41c5070c9a0aa92c8919a6c9f7c9a8ff46e10f4f57",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.hero.girl.east.strideB",
+      "character": "hero.girl",
+      "label": "Hero girl",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        32,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "f7a9415a70a0df758de6b68f164d52f76e42005322767138dff01cfb8025c13a",
+      "source": "art/source/characters-walk-v3/hero.girl.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.south.idle",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "7cd0820606f146924172eb5dbe7a7a93f267ba1f6ca9ac16e3e644efc97de942",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.south.strideA",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "d8c84c10eee14ed55e8b8848e104b35512428ad585e9bab76b326998a4a4de3c",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.south.strideB",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "13674ab3ec39aeb5f1b451573c3267172b9b4d6bfe0f16e34bed1effb11085d0",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.west.idle",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "abff264c76bf32e3c6c7cfab4bdcf44a26287f030056da660cd6f93402f158b1",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.west.strideA",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "30e3aa8cbede8fdf0717c3502a0518846e5c201a48a3172b022f7cbcff7d5407",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.west.strideB",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "90124e66cbcf402729980103ed81d4a9f75906b86c8e0f89be2dd4a1797f6dc6",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.north.idle",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 13,
+      "sha256": "09084890ec494ad676d73ebdca00ec4f6585382dd67c02351adfc901c0cdb7c7",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.north.strideA",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 13,
+      "sha256": "78bc81798664d73ab91aab2b2720a80b4c6b9ca80390cda73ac9384d27ffb532",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.north.strideB",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 13,
+      "sha256": "429446a5c26f7cbebb118f1a57e374941d47c0b230daf2f7e7ef844b93cb8003",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.east.idle",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        5,
+        20,
+        31
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "511ef98ba0aa84ded91de9c2cca4004333ba4517cfcf051cf643a6dbb45fe3a4",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.east.strideA",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "dcce5f8addb1d4aae6233302c9d67956bad797bbba860bbdfdde1123d3ec5551",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mom.east.strideB",
+      "character": "mom",
+      "label": "Mom",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        64,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "b6668187040de48bf8ce1ebc62fe07738d13dea9cc0304ae6d15cdd04351b100",
+      "source": "art/source/characters-walk-v3/mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.south.idle",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "4762284622c8a85efcf2ef66c7e9cc60883a5e869bed6e4f9a364465bb75d499",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.south.strideA",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "088f502d3d88e6d8d35b7b44fb130be8bacc73278aa0bb7c7aadf6c9dda549c3",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.south.strideB",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "143cbbf5b8ab395d73e97f35fa9fd5fc84d1aac8151fcd5b6eafec98c737e70b",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.west.idle",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        19,
+        31
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "0e6c8257c78484109ea4148632ca2d761812814a225345f1a81fe7f967c49651",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.west.strideA",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "c1fa9c82fca1a5c67685910f7d186493d115841800a7eeb34db62146cc9132b7",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.west.strideB",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "f5eff3ba0530f1a1fb6c1d1785716acb1f4fc7acbb362ed86df9e00dc203da19",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.north.idle",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "4efa0673bf1c1fda5cdc9f15ec6ee154fa7c14bf7ce6b806b5dc2bda9bf98dd5",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.north.strideA",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "735aa694c92e89ef5d46a3e06616d719b36639f7812b235befd51d2ef291359d",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.north.strideB",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        8,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "3ccdf61e5e1f0edf056730128a7d9ade11e782d5f7bd23234d4ce55828e7ded3",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.east.idle",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        20,
+        31
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "0a0f486c8e48d91d15b76933c09dcf396b38766212a358cb1ce153ab496b2399",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.east.strideA",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "9f045104669f43cdf5fb5c44c1f2ba7173acc4b46a54432e7dcb6d4fc58571db",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.kaid.east.strideB",
+      "character": "kaid",
+      "label": "Kaid",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        96,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "b79b7cc7c8f8830ae9e1ff012c6bb03d64d6edec0c0032951c85270a36d340b2",
+      "source": "art/source/characters-walk-v3/kaid.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.south.idle",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "2329ab839da63569f325589a68366db76679e4cd16a848e36b9778e588366675",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.south.strideA",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "b34f95f91774e01d2eec7c8748d1401d55566c4f333d8f426b8fd0e6f2749ec4",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.south.strideB",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "a603d0876068f63c6c8274cbed744d87299aaffd1904c576825012627246ed3f",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.west.idle",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        5,
+        20,
+        31
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "d2dc59ca64bab12f570866cfb537f9f56b4188a158c3c19620377caadd13a3ec",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.west.strideA",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "59b7314d6738b7d2ded3187be541d062a07b50090a948b56f7e38480ba2bcae5",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.west.strideB",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "1080a3ee7562569adfefde4a05e2fb9101d3247131c4a78d1d4f33a10234f185",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.north.idle",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "ef829b861c71795a76ec9a4a2b080d935e351c55e351f76c10b8e116ace1e1ed",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.north.strideA",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "864a7b799c1cbceb1cf6d9c617cd8924ffcd0f54177c40f545c9bb478855357a",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.north.strideB",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "63098217385f06bc49f28bd2aaa803e75c686aecae69a58cc8c61b80e9cdc449",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.east.idle",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "f07a2590344b5d8934de857be2a05340d0c1c7dad99fb3b39f6b89d41c5c460e",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.east.strideA",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "4644307d61abd7630e281a9316f170e970d47d1f902c70705dc93249cbd9e785",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.professor.east.strideB",
+      "character": "professor",
+      "label": "Professor Nugget",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        128,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        17,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "916625d9d7b82600fb9bd6444d3378a52470289c74c15ab4b44a674c142f06f4",
+      "source": "art/source/characters-walk-v3/professor.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.south.idle",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "8846a3e8366be33bb07a8c8cab79c17d0419bb36a3aaf557200e22fb440a03f3",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.south.strideA",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "62caa56cb8a3c4026ed31076e2946d039a7f161aa21242dd2e840d2373416d6b",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.south.strideB",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "1acdb68cd47b8b571301b21bc1aadf73e78a1871ac3052003be9355fb6217bc1",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.west.idle",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        5,
+        19,
+        31
+      ],
+      "visibleSize": [
+        14,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "80cf9d55ce98d3353d6409fedc490ba646d3da3fb254e2550a2211b003524be3",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.west.strideA",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "eae0218a8a3cee745e5caa4f33747a73ef8f03e7e611e8ddb8a86f00c3e431bd",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.west.strideB",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "8df2cab5354c8a1af82946491c34b8cccca2d7f319d853c2a8f1364608040717",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.north.idle",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "321ee88e4470740ff352bc326b3af98a4d6cf1dc3bb0aaadb6c30eaad5fe1cf3",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.north.strideA",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "dbba1b54c1af3c6819f1a3093645f8300f2e0536daab77ad21fee4ad215c69d2",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.north.strideB",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "533fa43c6e259ef37b485ec231c6ef3b98d82f2fd1c7dbd6b16e87132463067b",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.east.idle",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        5,
+        19,
+        31
+      ],
+      "visibleSize": [
+        14,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "811942f784734e5a9ecc4427f6754d8508e0c3f9811201a4f1cc17135e97a2ce",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.east.strideA",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "761aed7ff436438dd2b210b446201a9957732ab317f12d3946e499c9cdaa60d2",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.juniper.east.strideB",
+      "character": "juniper",
+      "label": "Juniper",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        160,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        26
+      ],
+      "colorCount": 12,
+      "sha256": "4f4e0c47b32a2eadc6f7d81280f69dadaf773a23ba7298a00eac1b37ed53998b",
+      "source": "art/source/characters-walk-v3/juniper.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.south.idle",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 13,
+      "sha256": "772e31e30f73411a292e660b31e7efd9440cf601cefb009d69e1b9a24a08d810",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.south.strideA",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 13,
+      "sha256": "2d484a260792672c3c8d0a7de8ef7f16ad3904c8e7a7a7d1f75faa3834fc68c2",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.south.strideB",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 13,
+      "sha256": "b6ae474736cbab55e88918749a7461da8b6dbed94503c246c32a09f6b3e200f5",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.west.idle",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        19,
+        31
+      ],
+      "visibleSize": [
+        14,
+        25
+      ],
+      "colorCount": 13,
+      "sha256": "039c7c92622d5ecfbe1400ce501db50f54b4f228138a123b5db7f86871c47d1f",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.west.strideA",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        25
+      ],
+      "colorCount": 13,
+      "sha256": "d937ad019b0f65d34005a2f4b41fc31f9a6d4acb569088dd2ac69848dccbeac0",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.west.strideB",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        25
+      ],
+      "colorCount": 13,
+      "sha256": "c0db4f0d9187522b465ebb01995fd109d2f259515005795af89b3450793e3888",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.north.idle",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "dcc9b49d0f112495cb654f5be379cf575ee71155b3254bf530d03ad16ab2d1f2",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.north.strideA",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 10,
+      "sha256": "aa0dc8d66b4ad28f1f607baaca6fcb5077efa851cc427249d8de8e995094151f",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.north.strideB",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 10,
+      "sha256": "d84b323be1cbf7e94931d1ec757b6453aab18ef65357dad45d06283207b64b51",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.east.idle",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        19,
+        31
+      ],
+      "visibleSize": [
+        14,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "43b2bc435919227deb6b5b7f8840cfdf8a7a470263e062699716a2aec0aa29bb",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.east.strideA",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "d014669189e3daf9dc16db366a1402e4841d20c02a05ac0e461886997fa63f1b",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.dr-fern.east.strideB",
+      "character": "dr-fern",
+      "label": "Dr. Fern",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        192,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        19,
+        32
+      ],
+      "visibleSize": [
+        14,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "97459dbf665e51fda1bdb28923792dc38d070b99bee8289716d5df2e51fd63c3",
+      "source": "art/source/characters-walk-v3/dr-fern.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.south.idle",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        20,
+        31
+      ],
+      "visibleSize": [
+        16,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "0f70b3fbdaab4617f79933c4e4d9b4007a894fcc94faaacc95212486859011da",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.south.strideA",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "f1156bb26844e574ab882104a227b1942a105330dbf1fc214e379b43ac095240",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.south.strideB",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "abaae29ee300306bdeea72ddcba5ead137db63b1813fe322ab5c8c98ce600387",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.west.idle",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        18,
+        31
+      ],
+      "visibleSize": [
+        13,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "e246e634d02bfd9eaa6a765e15bc471513c8e16b0424cd62228f137a74335967",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.west.strideA",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        8,
+        18,
+        32
+      ],
+      "visibleSize": [
+        13,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "55051ad9be804818f5f245aec7521921e94c1bc3ebc6b8baed43f9979c2584de",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.west.strideB",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        8,
+        18,
+        32
+      ],
+      "visibleSize": [
+        13,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "4ca58eee17cff807673f1c587321828ea9fbf445726716fa1f3cf002e9f8ba1c",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.north.idle",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        20,
+        31
+      ],
+      "visibleSize": [
+        16,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "8d401dd743d34a1caea4e507698303d43d3446ab24aac139233cc37b5dc477f9",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.north.strideA",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "324fbde4c41274624f2a237db70ebdb9ac27e1dce78ea58be7a40c6d8d31ca8c",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.north.strideB",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        8,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        24
+      ],
+      "colorCount": 12,
+      "sha256": "3cdfe660f3162cdea41796b44484d7e80071f038f1fd6182cc6d52b0b702e0e5",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.east.idle",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        6,
+        7,
+        19,
+        31
+      ],
+      "visibleSize": [
+        13,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "04b5219e8917d9183f310b27311042d49424e66e6a47d94367553f8584135b56",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.east.strideA",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        6,
+        8,
+        19,
+        32
+      ],
+      "visibleSize": [
+        13,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "62fed6500cbdcfe1b90975f47524838a5bf84773d5268f141807e4010020aaeb",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.mina.east.strideB",
+      "character": "mina",
+      "label": "Mina",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        224,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        6,
+        8,
+        19,
+        32
+      ],
+      "visibleSize": [
+        13,
+        24
+      ],
+      "colorCount": 13,
+      "sha256": "21dc210f19062c8420368088a19292acdad09ca9060b98481cf2a05827da9700",
+      "source": "art/source/characters-walk-v3/mina.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.south.idle",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        5,
+        22,
+        31
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "8b9a16930c357da21e12b524fa977535ffadd129bd75af0edc275124fd6cc742",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.south.strideA",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "924415b7adc6d02f36a64d3665168c3d3200d6d3ad7f5675162a312f3988fb07",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.south.strideB",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        2,
+        6,
+        22,
+        32
+      ],
+      "visibleSize": [
+        20,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "870d2e3ec5d46d3a9e0a06fcc92b87ec30fb89c6b4dc163772f5ad3d489c8c6c",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.west.idle",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        5,
+        19,
+        31
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "a74e3961ffef7689733770a0cb79f6fae868ed3680ba7f2d66a1dee46a74001d",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.west.strideA",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "bce6cc91aa81ea2d9ffd53f680be5b6b7cf33dadd25236e2a080b5cece5d83da",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.west.strideB",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "938c32e75eb2ec5273c48c43143e0933e4e090ef5a664d1c2c9c4ce6eae42515",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.north.idle",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        5,
+        20,
+        31
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "74b799804fc86099956d9e3b056ade4e814ebacfcd9d096460e961f0533a7419",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.north.strideA",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "c0b8888cb676f7b50ac6a3362ae4f69e6721b6227a04bcacfd7f8cb6e4e76515",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.north.strideB",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "55d61a1e8db33b6e6343d20227cbc53fd889e7ee5ebdc83f5a8c7d333b4a8485",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.east.idle",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "121182745a39edb86c83d16f795cb013fdfa3f963bea2f0f107611c6ae3f780d",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.east.strideA",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "bce13d2820aca7974db4b90b80c3f45843b2dc6a4ee1edf9275620d94463a375",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.ollie.east.strideB",
+      "character": "ollie",
+      "label": "Ollie",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        256,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        16,
+        26
+      ],
+      "colorCount": 15,
+      "sha256": "93887200664d8ec2c6e3be85fddf6f24263d37288d11facd473943ce38f2f599",
+      "source": "art/source/characters-walk-v3/ollie.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.south.idle",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "8dbaa97cedb0ec317f01736bf8ab2e80ea9c902eebb37c906fe3d8322e3e70b5",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.south.strideA",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "56c5aead103a6399d87ecceff76b78b646ee8d4f931316199a93aa9764488b86",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.south.strideB",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "009580a1d1f1a06b21684017a4cb7aa5b10c704e94c48d03c44db35cfe4b7e53",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.west.idle",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        5,
+        20,
+        31
+      ],
+      "visibleSize": [
+        15,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "6df12bb2a1be80119db92105666f3dc8aef4bd46d1fa9e26eaca5b80dc7ad597",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.west.strideA",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "d09529bc206d0adbd0770c99805f87071c1ee9b020a00d99dacaec8159bef599",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.west.strideB",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "560d138a7fc3c95d513efa5b6e68690afdb126f690fd3431cf381a34ed60ee52",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.north.idle",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        5,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 13,
+      "sha256": "244af9c1ab16cd0ea67d833c454fd9162b4b691705cbf65335c3536103c649ad",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.north.strideA",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 13,
+      "sha256": "7d944e7aab5c8bf24e774ecced855ff01698a81865c47dca3764a3f1b0e221c7",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.north.strideB",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        26
+      ],
+      "colorCount": 13,
+      "sha256": "4e3bc039e17ad4f199fb937a4a89eb30dd7536b992b72e4701fc4b1bc7c299bc",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.east.idle",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        5,
+        19,
+        31
+      ],
+      "visibleSize": [
+        15,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "04120e4fd55d965ee9f3dbc6758f6b7045ce4c4dc0aa72ad9734ec29c9ce9e49",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.east.strideA",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "331a4f1cba96d09fbd5579ecdc4d6246eb1344ac8bd487c514748deb800a95ab",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.aunt-ember.east.strideB",
+      "character": "aunt-ember",
+      "label": "Aunt Ember",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        288,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        26
+      ],
+      "colorCount": 14,
+      "sha256": "b27999554a063ea3c93afb03c1a8cbeef84d9e5a533b79cc10df93e2d3de2022",
+      "source": "art/source/characters-walk-v3/aunt-ember.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.south.idle",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "741126a8c023db42e8fb717c24f0620b673852ce39b0e6dd93dae34dc4817307",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.south.strideA",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "958b931dd4fd7292492dbbeb21a46d312cf43929f186e2fc06d8dd64757dd388",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.south.strideB",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "10f8585ad6e66233dcf197287a2b8fc34d5c5a433da11c9fd57351ed64db157e",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.west.idle",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        20,
+        31
+      ],
+      "visibleSize": [
+        16,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "04eddd120233eb036e18b0599a75e46fd1857d3c6c9d2bb48f511f7f00ea0812",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.west.strideA",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "49e6affabbb1bc727820823d8fc3fd285f2f5a1edf6d6c862232468f777081ea",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.west.strideB",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "b7eb33114887eb40e6cc81d4d41c9e6e548cec05d2dbaa64983992214e43b6b2",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.north.idle",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        21,
+        31
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "171be882f930daeab85a95e8896c6935865466605205d6b159ada676cf35a926",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.north.strideA",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "36fc313d07109fbdd100d8856b8b59d59f8f4f3fbed932c20979d98e9ce0ee55",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.north.strideB",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        21,
+        32
+      ],
+      "visibleSize": [
+        18,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "0a656e11f672f1890203ea7d49b7420382382e12fd4c86d7a6c5409d7b2c1ac4",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.east.idle",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        20,
+        31
+      ],
+      "visibleSize": [
+        16,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "bc54036742aa3eb46eb0ffa2804b712ba7a78a383ecf1e47e654807cb5d46997",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.east.strideA",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "45aa30424b6dc3c520db1434fffbe97e9633ec7c89c706030effbde88c5b64b6",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-mom.east.strideB",
+      "character": "rival-mom",
+      "label": "Rival’s mom",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        320,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        16,
+        25
+      ],
+      "colorCount": 12,
+      "sha256": "22c79c7f85585f83991a8149647e830376e861bc85bc3cc83f657083590640ae",
+      "source": "art/source/characters-walk-v3/rival-mom.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.south.idle",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "south",
+      "pose": "idle",
+      "rect": [
+        0,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "visibleSize": [
+        17,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "e6ad7a6696567fe3dc01efcfc21af1579aeebc8fea547898d153b4f0e8bc8e81",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.south.strideA",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "south",
+      "pose": "strideA",
+      "rect": [
+        24,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        25
+      ],
+      "colorCount": 10,
+      "sha256": "30560675d51791483371b0acf1f001268e9e73f1ea6204c97acf9a15f40d0937",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.south.strideB",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "south",
+      "pose": "strideB",
+      "rect": [
+        48,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        25
+      ],
+      "colorCount": 10,
+      "sha256": "e0f5127d8cc6b8d676aa6771907066f40d7c74c764144cdb845eb67cca673b53",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.west.idle",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "west",
+      "pose": "idle",
+      "rect": [
+        72,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        6,
+        19,
+        31
+      ],
+      "visibleSize": [
+        15,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "192d07259c529e065849a074f396e22f05e2e802f0f26d0b47da4184758812cd",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.west.strideA",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "west",
+      "pose": "strideA",
+      "rect": [
+        96,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "6c4ca03b4ab534cb7d62914b184019704eb788d2f553f98a7ddce660ca590564",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.west.strideB",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "west",
+      "pose": "strideB",
+      "rect": [
+        120,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        4,
+        7,
+        19,
+        32
+      ],
+      "visibleSize": [
+        15,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "0b38d6d799f0dbaaa309c63b05768ad350b14169278ce14ac4328ad0c290c83c",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.north.idle",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "north",
+      "pose": "idle",
+      "rect": [
+        144,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "visibleSize": [
+        17,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "e8aceaad43853a27e60cc66c42c3917c4e889774228d90aa3fabe2a06ebb2d1b",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.north.strideA",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "north",
+      "pose": "strideA",
+      "rect": [
+        168,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        25
+      ],
+      "colorCount": 10,
+      "sha256": "69a3aeb42d012acb57104dc32efeb6c5cceb7fb295facdfea00e965a47a764a3",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.north.strideB",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "north",
+      "pose": "strideB",
+      "rect": [
+        192,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        3,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        17,
+        25
+      ],
+      "colorCount": 10,
+      "sha256": "94118f544d978334cca6e861620fa09433839b937649194bdabae0ae9b996696",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.east.idle",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "east",
+      "pose": "idle",
+      "rect": [
+        216,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        6,
+        20,
+        31
+      ],
+      "visibleSize": [
+        15,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "9b1fa6a36a0a9f1783c69ab2d55cc393c0849141cb7a371b7893a1a815d5b18c",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.east.strideA",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "east",
+      "pose": "strideA",
+      "rect": [
+        240,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "9ced7e5e7676db1e4be2ed5abd7ce26c3eb6e1fe3de72d15a277bb9fec7ebb10",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    },
+    {
+      "id": "character.walk.v3.rival-dad.east.strideB",
+      "character": "rival-dad",
+      "label": "Rival’s dad",
+      "direction": "east",
+      "pose": "strideB",
+      "rect": [
+        264,
+        352,
+        24,
+        32
+      ],
+      "anchor": [
+        12,
+        32
+      ],
+      "opaqueBBox": [
+        5,
+        7,
+        20,
+        32
+      ],
+      "visibleSize": [
+        15,
+        25
+      ],
+      "colorCount": 11,
+      "sha256": "803bf07655a141293caafbce0f68bb38e6227e98937877c7cb3e9b434238342c",
+      "source": "art/source/characters-walk-v3/rival-dad.json",
+      "status": "awaiting-user-art-review"
+    }
+  ]
+}

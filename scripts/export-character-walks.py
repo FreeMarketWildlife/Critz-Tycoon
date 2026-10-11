@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """Lossless PNG-frame assembly into labeled, centisecond-timed review GIFs."""
 from pathlib import Path
-import json, hashlib
+import json, hashlib, os
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'assets/review/characters-walk-v2'
-REVIEW=ROOT/'docs/reviews/M1-C3'
+VERSION=os.environ.get('CRITZ_WALK_VERSION','v2')
+assert VERSION in ['v2','v3']
+OUT=ROOT/f'assets/review/characters-walk-{VERSION}'
+REVIEW=ROOT/('docs/reviews/M1-I3' if VERSION=='v3' else 'docs/reviews/M1-C3')
 META=json.loads((OUT/'atlas.json').read_text())
 ATLAS=Image.open(OUT/'atlas.png').convert('RGBA')
 BG='#102a30';CARD='#1d3b42';BORDER='#315258';TEXT='#f0ead7';MUTED='#b3c8bd';GOLD='#dfbc70'

@@ -1,4 +1,5 @@
-// Review-only economy. Never reads or writes the playable game's v1 save.
+// Pure greenhouse economy. Review storage remains separate; the adventure bridge
+// persists an optional collection and maps whole dollars to adventure cents.
 export const SAVE_KEY = 'critz.lukes-greenhouse.review.v1';
 export const PRICE = 100;
 export const ROOM = Object.freeze({columns:13,rows:17,doorX:6,doorY:16});

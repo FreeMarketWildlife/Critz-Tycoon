@@ -1,0 +1,227 @@
+{
+  "gifCount": 13,
+  "decodedFramesChecked": 624,
+  "globalPaletteColors": 145,
+  "holdsMs": [
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130,
+    130,
+    140,
+    130,
+    140,
+    130
+  ],
+  "timingNote": "GIF delays round cumulative 8-tick holds to 10ms; web review uses fixed ticks. No source colors are quantized.",
+  "gifs": [
+    {
+      "file": "assets/review/characters-walk-v3/all-characters.gif",
+      "frames": 48,
+      "size": [
+        720,
+        768
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "1c83cba4be592e85d4158467872c1c448fded185ff29fa453c7d6f14f0182dc2"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/hero.boy.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "ad0479c28bf02d1bdeff55800852a084453c7dde43f820d5b9072bf48100bb01"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/hero.girl.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "0231132e7c11897ca59a9f822abe269df3c79c3ff9dda69b57ad7e617241ffab"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/mom.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "81dccfdf5990f742b2482eb0a74a5ff7b2be508aec1be72dc60dbdfe8b08ebe5"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/kaid.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "d10e00c024fa958d8e5fadcc6592ecbd72cca3f4231a45c6da943817e120edb2"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/professor.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "95fb4cd61c30d49a89bf808e56d658b0121e0e385001350ae82f4756d774a45e"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/juniper.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "d1d04937a3f7eaf728e0107a37fbe1b9afbedde9f0bb828c9b6ab79784385c71"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/dr-fern.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "4c159a569dcc4610db3426daacc24f2842ccdf99c2957aec91b9d26ef6ddb839"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/mina.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "d326fc28bd0b2ec4c62e3fc22fb8936067734961752e9d802af9854e369e167f"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/ollie.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "bc5ac1b8bfaf66f0c16eebf5f56b8749c5b7c717e14567dad84f85be6f19ccae"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/aunt-ember.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "dee5c3068e7f783ef515289e16208d5916b59beb5af73ba0a45a53596b945d79"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/rival-mom.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "30b205e715c99c9b11a0a0c6e9ab7c4468dee34cddcc3db55f9b150dc3604f44"
+    },
+    {
+      "file": "assets/review/characters-walk-v3/gifs/rival-dad.gif",
+      "frames": 48,
+      "size": [
+        240,
+        288
+      ],
+      "durationMs": 6430,
+      "expectedDurationMs": 6429.19921875,
+      "timingErrorMs": 0.80078125,
+      "allDecodedFramesExact": true,
+      "sha256": "08188550fce1fc3c235049d7437664986744800354e6810d378c7aca7449ce44"
+    }
+  ]
+}

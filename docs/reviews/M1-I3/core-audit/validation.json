@@ -1,0 +1,691 @@
+{
+  "frameCount": 48,
+  "changedPixels": 82,
+  "changedFrames": 6,
+  "characters": {
+    "hero.boy": {
+      "status": "no clear defect; unchanged",
+      "paletteExact": true,
+      "geometryUnchangedEveryPose": true,
+      "southIdleExact": true,
+      "westEastBodiesMirrorExactly": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            3,
+            7,
+            21,
+            31
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            3,
+            7,
+            21,
+            31
+          ],
+          "opaqueColors": 10,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "opaqueColors": 11,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            3,
+            8,
+            21,
+            32
+          ],
+          "opaqueColors": 11,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            4,
+            7,
+            18,
+            31
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            4,
+            8,
+            18,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            4,
+            8,
+            19,
+            32
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            6,
+            7,
+            20,
+            31
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            6,
+            8,
+            20,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            5,
+            8,
+            20,
+            32
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        }
+      ],
+      "sourceSha256": "acf22563ace0e8ff8742c32bee0c94c3153356f60bee02c3ede84a8d8a2bf894",
+      "canonicalSourceSha256": "acf22563ace0e8ff8742c32bee0c94c3153356f60bee02c3ede84a8d8a2bf894",
+      "headPixelsUnchangedEveryPose": true,
+      "footPixelsUnchangedEveryPose": true,
+      "binaryAlpha": true,
+      "pngPaletteVerified": true
+    },
+    "hero.girl": {
+      "status": "no clear defect; unchanged",
+      "paletteExact": true,
+      "geometryUnchangedEveryPose": true,
+      "southIdleExact": true,
+      "westEastBodiesMirrorExactly": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            2,
+            7,
+            22,
+            31
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            2,
+            7,
+            22,
+            31
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            2,
+            8,
+            22,
+            32
+          ],
+          "opaqueColors": 12,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            4,
+            7,
+            19,
+            31
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            4,
+            8,
+            19,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            4,
+            8,
+            19,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            5,
+            7,
+            20,
+            31
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            5,
+            8,
+            20,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            5,
+            8,
+            20,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        }
+      ],
+      "sourceSha256": "105392337891b88ef5a679fdefa6b8a0b69d32e7fe7d0575e81ea81db98f79e1",
+      "canonicalSourceSha256": "105392337891b88ef5a679fdefa6b8a0b69d32e7fe7d0575e81ea81db98f79e1",
+      "headPixelsUnchangedEveryPose": true,
+      "footPixelsUnchangedEveryPose": true,
+      "binaryAlpha": true,
+      "pngPaletteVerified": true
+    },
+    "mom": {
+      "status": "no clear defect; unchanged",
+      "paletteExact": true,
+      "geometryUnchangedEveryPose": true,
+      "southIdleExact": true,
+      "westEastBodiesMirrorExactly": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 13,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            4,
+            5,
+            21,
+            31
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            3,
+            5,
+            20,
+            31
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "opaqueColors": 15,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        }
+      ],
+      "sourceSha256": "cc318f6b12102a7ef5487590af2439935461f6177411acef64fc29291d80460e",
+      "canonicalSourceSha256": "cc318f6b12102a7ef5487590af2439935461f6177411acef64fc29291d80460e",
+      "headPixelsUnchangedEveryPose": true,
+      "footPixelsUnchangedEveryPose": true,
+      "binaryAlpha": true,
+      "pngPaletteVerified": true
+    },
+    "professor": {
+      "status": "targeted coat color fixes",
+      "paletteExact": true,
+      "geometryUnchangedEveryPose": true,
+      "southIdleExact": true,
+      "westEastBodiesMirrorExactly": true,
+      "frames": [
+        {
+          "direction": "south",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "south",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            2,
+            5,
+            22,
+            31
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "north",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            2,
+            6,
+            22,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 0
+        },
+        {
+          "direction": "west",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            3,
+            5,
+            20,
+            31
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 16
+        },
+        {
+          "direction": "west",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 14
+        },
+        {
+          "direction": "west",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            3,
+            6,
+            20,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 11
+        },
+        {
+          "direction": "east",
+          "pose": "idle",
+          "bboxXYXYExclusive": [
+            4,
+            5,
+            21,
+            31
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 16
+        },
+        {
+          "direction": "east",
+          "pose": "strideA",
+          "bboxXYXYExclusive": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 14
+        },
+        {
+          "direction": "east",
+          "pose": "strideB",
+          "bboxXYXYExclusive": [
+            4,
+            6,
+            21,
+            32
+          ],
+          "opaqueColors": 14,
+          "connectedComponents": 1,
+          "changedPixels": 11
+        }
+      ],
+      "sourceSha256": "7e29fc79448bbe8815c55e6c428a17778d56a4f822e506c342ed422de47379b4",
+      "canonicalSourceSha256": "13f17f84223ad5b578268d72cd9110fa987e5ae179ef7d3a7c955d4f21cd21eb",
+      "headPixelsUnchangedEveryPose": true,
+      "footPixelsUnchangedEveryPose": true,
+      "binaryAlpha": true,
+      "pngPaletteVerified": true
+    }
+  }
+}

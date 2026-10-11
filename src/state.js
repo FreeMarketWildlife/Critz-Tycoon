@@ -1,3 +1,4 @@
+import {normalize as normalizeGreenhouse} from '../art-review/greenhouse-state.js';
 import {validDayClock} from './day-clock.js';
 import {validFruitSave} from './fruit-trees.js';
 export const SAVE_KEY = "critz-tycoon.save.v1";
@@ -363,7 +364,7 @@ export function publish(s, capture) {
   return post;
 }
 const sceneIds = [
-  "forest", "liarsville", "waterworks",
+  "forest", "liarsville", "waterworks", "greenhouseGrounds",
   "bedroom",
   "house",
   "yard",
@@ -380,6 +381,7 @@ function validNumber(n, min, max) {
   return typeof n === "number" && Number.isFinite(n) && n >= min && n <= max;
 }
 export function validateState(s) {
+  if(s?.lukeGreenhouse!==undefined){try{normalizeGreenhouse(s.lukeGreenhouse);}catch{return false;}}
   if(s?.dayClock!==undefined&&!validDayClock(s.dayClock))return false;
   if (
     !s ||

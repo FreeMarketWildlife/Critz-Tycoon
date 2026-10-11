@@ -938,3 +938,6 @@ footer a {color:#a9c5b0;}
 .day-clock[hidden]{display:none}.clock-top,.clock-middle{display:flex;align-items:center;justify-content:space-between;gap:5px}.clock-top{border-bottom:2px solid #b27b43;padding-bottom:3px}.clock-middle{padding:5px 0}.clock-wallet{border-top:2px solid #b27b43;text-align:right;padding-top:3px}.clock-dial{width:28px;height:16px;border:2px solid #805438;border-radius:24px 24px 0 0;position:relative;background:#e8b675;overflow:hidden}.clock-dial i{position:absolute;width:2px;height:12px;bottom:0;left:12px;background:#6f3625;transform-origin:bottom;transform:rotate(var(--hand,-90deg))}.day-clock[data-paused=true] [data-clock-time]{color:#74695d}.day-clock[data-late=true]:not([data-paused=true]) [data-clock-time]{color:#ad352e}
 
 .clock-middle strong{white-space:nowrap;font:700 13px monospace;flex-shrink:0}.clock-dial{flex-shrink:0}
+
+.game-room {display:block;width:100%;height: min(72dvh,740px);border:0;border-radius:8px;background:#163c38;}
+.panel:has(.game-room){max-width:760px;}

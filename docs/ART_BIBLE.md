@@ -1,5 +1,10 @@
 # Critz: Tycoon — art bible
 
+## M1.ALL1 — User-authorized integration, 2026-10-10
+
+The user explicitly authorizes all completed game, tile, animation, character, water, autotiling and Luke-greenhouse work to enter the main game. This supersedes earlier review-only integration boundaries for these deliverables. Current active revisions control: WA8 shores and approved B contact; the approved Hero and later C7 living cast stay intact; corrected compact parent art replaces the remaining parent placeholders. Older rejected/superseded banks and character candidates stay as labeled source/review history. All named water identities, motions and depths plus sand become authorable in Map Studio. Existing dimensions, palettes, ground-footprint/overhead separation, sky/reflection, shallow traversal and rock rules still apply. This is integration authorization, not an assertion of overall G1/G2 visual/feel approval.
+
+
 ## M1.WA8 — Shared transition format, no thin water caps
 
 User rejects WA7 screenshots and explicitly removes the thin water tongue/strip from the required tileset. This supersedes WA7's overlapping per-cell bank/foam and subsequent clipping workaround. Construct the continuous native footprint once, round it before slicing, and derive every bank and tide front from that same boundary. Preserve approved B side contact and south registration, whole-cell collision, material-vs-cast shadow distinction, freshwater/ocean reflections and the existing mixed-depth enclosure rule. Shore and surface transitions share the construction, with their appropriate contact insets/registration. No raised bank between water depths. Physical water footprints exclude one-cell caps, strips and tongues; every water cell belongs to a2×2 water block. This does not change the separate shallow/deep enclosure requirement.

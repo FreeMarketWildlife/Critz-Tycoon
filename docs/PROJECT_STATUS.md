@@ -1,5 +1,14 @@
 # Project status
 
+## M1.ALL1 — Full game integration
+
+**Implemented and verified; push/publication underway.** The user explicitly requests “the main game, the tile sets, the animations, the characters, EVERYTHING … all the water … the auto tiling map … Luke’s greenhouse … Go for it.” This authorizes integration of the completed work and supersedes the earlier review-only integration boundaries for these deliverables. It does not claim wider G1/G2 visual or feel acceptance, revive rejected artwork, or implement ideas-only future content.
+
+Deliverable: preserve the approved Hero and later C7 cast/animals/habitats; add the corrected native parents and publish all unfinished compact-character sources, animations and audits. Use the current WA8 shared coast format in outdoor water and Map Studio; add freshwater/ocean still/moving shallow/deep brushes and sand, preserve explicit deep collision and shallow traversal, and play saved Map Studio projects from Start. Connect Luke’s greenhouse through the town-square Luke sign and native garden, with actual adventure savings, persistent goldfish, unused-scoop refunds and rollback on save failure. Start also exposes greenhouse/coastal visits and custom-map playback after the opening story. Original review routes, tile downloads and all historical source assets remain available. Preserve B contact, v1 keys/data, story, money/loan, species, selected soundtrack and current owner-private audience.
+
+Checks: 215 unit tests, 60 module syntax checks, 310 lossless atlas checks, 986 independent compact-frame PNG checks and 118 isolated browser checks pass, including the final dist integration and actual garden/room. Synthetic contexts only; physical Safari/haptics unverified. [Deliverable/evidence](reviews/M1-ALL1/README.md). Existing feature branch is already contained in main and retained. Exact next action: commit all task changes on main, verify origin/main and publish this tested build to the existing phone URL; then record the exact source SHA and successful native deployment receipt.
+
+
 ## M1.WA8 — Rebuilt shared coast format
 
 **Implemented, tested, pushed and published; awaiting user visual verification.** User rejects WA7 joins and excludes thin water tongues/caps. Continuous shared footprint replaces overlapping border strips; raw diagonal context is preserved.15 base formats /55 joining contexts reuse438 native overlay pieces;2,042 colored native images cover4,070 references across all74 pairs. Active bank contains no unsupported cap/strip templates. Original266 water/prop frames preserved exactly; no retired transition sheet is loaded by current reviews. Wide-channel complete review, all orientations/mirrors, native PNG/Tiled downloads and actual tile walking remain review-only.
@@ -480,6 +489,14 @@ Actual checks: decoded PNG/source equality and exact displayed grid-center color
 Branch `main`; baseline `2d00b5b` after safely fast-forwarding two ideas-only remote commits. Existing M1.I3 working changes remain preserved and excluded from this commit. Delivery consists only of documentation and review artifacts, with no runtime consumers. **Playable build unchanged; no deployment required.** The current phone game remains at https://critz-tycoon.freemarketwildlife.chatgpt.site. Review source **`c65b2d4bdaa0cc380005e3ed665d5fa9b1a23033`** is committed and pushed to `origin/main`; the remote SHA matched local HEAD. This following status-only receipt is pushed and verified separately. Unfinished M1.I3 changes remain in the working tree; no unrelated changes were committed.
 
 **Exact next action:** user reviews the idle skeleton and requests refinements; perfect this still before walking. M1.I3 implementation is not advanced by this review.
+
+## M1.I3 — Sprite corrections and playable cast integration
+
+**In progress.** The user identified Professor Nugget’s broken-looking profile coat and authorized inspecting every current character, correcting unintended asymmetries and placing the corrected artwork into the actual playable game. This supersedes the M1.C3 gallery-only boundary. Final art/movement acceptance remains the user’s; technical checks are not approval. Work is on `main`, clean baseline `089f9ebb4e07961318ba845236566fce07573c69`. The unrelated ideas notebook remains intact.
+
+Deliverable: corrected native 20×26 chibi poses, updated GIF review, and all current cast appearances in the normal visual-review game. Preserve fixed tile movement, world, story, names, v1 saves and current audience. Inspect clothing continuity, limb attachment, intentional versus accidental asymmetry, transparency and anchors. Run asset, movement, story/save and mobile browser checks, commit/push with remote verification, and publish the exact tested build through Sites.
+
+**Exact next action:** complete the pixel audit, integrate the corrected cast, and validate before publication.
 
 ## IDEAS.1 — Ideas notebook, 2026-09-27
 

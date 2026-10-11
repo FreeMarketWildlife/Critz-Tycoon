@@ -96,7 +96,7 @@ def build(source_root: Path, output_root: Path) -> dict:
         "limitations": [
             "Final user art and movement acceptance remains pending.",
             "Atlas rectangles and anchors specify appearance only; collision and interactions remain separate.",
-            "B1/G1 remain provisional Hero/rival designs. Nine character roles contain 24 frames each.",
+            "Twelve compact chibi designs contain 24 entries each. Runs reuse walk artwork at the existing run cadence.",
             "Technical checks do not establish visual approval or exact reference-game equivalence.",
         ],
     }
@@ -104,7 +104,7 @@ def build(source_root: Path, output_root: Path) -> dict:
     characters = sources[1]["manifest"]["assets"]
 
     check("single-png-runtime-contract", manifest["image"] == "atlas.png" and manifest["schemaVersion"] == 1)
-    check("expected-packed-size", atlas.size == (512, 768), {"actual": list(atlas.size)})
+    check("expected-packed-size", atlas.size == (512, 1088), {"actual": list(atlas.size)})
     check("unique-stable-ids", len(entries_by_id) == len(entries), {"assetCount": len(entries)})
     check("integer-positive-inbounds-rectangles", all(
         len(entry["rect"]) == 4 and all(type(n) is int for n in entry["rect"])
@@ -140,7 +140,7 @@ def build(source_root: Path, output_root: Path) -> dict:
 
     check("character-map-preserved", manifest["characters"] == sources[1]["manifest"]["characters"])
     counts = Counter(entry["character"] for entry in characters)
-    check("24-frames-per-character", len(counts) == 9 and all(value == 24 for value in counts.values()), dict(counts))
+    check("24-frames-per-character", len(counts) == 12 and all(value == 24 for value in counts.values()), dict(counts))
     expected = {(direction, mode, pose) for direction in ("down", "up", "left", "right")
                 for mode in ("walk", "run") for pose in ("idle", "strideA", "strideB")}
     check("complete-direction-mode-pose-matrix", all(
@@ -149,16 +149,19 @@ def build(source_root: Path, output_root: Path) -> dict:
     references = [pose for character in character_map.values()
                   for direction in character["directions"].values()
                   for mode in direction.values() for pose in mode.values()]
-    check("all-character-map-references-resolve", len(references) == 216 and all(key in entries_by_id for key in references))
+    check("all-character-map-references-resolve", len(references) == 288 and all(key in entries_by_id for key in references))
     check("character-native-frame-and-foot-anchor", all(
-        a["rect"][2:] == [16, 32] and a["anchor"] == [8, 32] for a in characters))
-    for character, candidate in (("hero.boy", "b1"), ("hero.girl", "g1")):
-        original_path = source_root / f"assets/review/characters-v1/critz-candidate-{candidate}-south-idle.png"
-        with Image.open(original_path) as original:
-            original = original.convert("RGBA")
-        entry = entries_by_id[f"char.{character}.down.walk.idle"]
-        check(f"{candidate}-south-walk-idle-pixel-exact", original.tobytes() == atlas.crop(box(entry["rect"])).tobytes(),
-              {"source": str(original_path.relative_to(source_root)), "sourceSha256": digest(original_path)})
+        a["rect"][2:] == [24, 32] and a["anchor"] == [12, 32] for a in characters))
+    # Independently decode each canonical source, including the reused run art.
+    direction_map = {"down":"south", "up":"north", "left":"west", "right":"east"}
+    for character in counts:
+        source_path = source_root / f"art/source/characters-walk-v3/{character}.json"
+        person = json.loads(source_path.read_text())
+        for entry in (a for a in characters if a["character"] == character):
+            rows = person["frames"][direction_map[entry["direction"]]][entry["pose"]]
+            pixels = bytes(v for row in rows for key in row for v in
+                ((0,0,0,0) if key == "." else (*bytes.fromhex(person["palette"][key][1:]),255)))
+            check(entry["id"] + "-canonical-native-pixels", atlas.crop(box(entries_by_id[entry["id"]]["rect"])).tobytes() == pixels)
     kaid = [a for a in characters if a["character"] == "kaid"]
     check("kaid-explicit-unmirrored-metadata", len(kaid) == 24 and all(a["mirrored"] is False for a in kaid))
     asymmetry = {}
@@ -174,7 +177,7 @@ def build(source_root: Path, output_root: Path) -> dict:
     encoded = Image.open(BytesIO(image_bytes)).convert("RGBA")
     check("png-encode-decode-rgba-exact", encoded.tobytes() == atlas.tobytes())
     report = {
-        "task": "M1.I2",
+        "task": "M1.I3",
         "status": "technical-checks-passed-awaiting-user-review" if all(c["pass"] for c in checks) else "failed",
         "atlasSize": [width, height],
         "assetCount": len(entries),
@@ -190,7 +193,7 @@ def build(source_root: Path, output_root: Path) -> dict:
             "Kaid asymmetry check proves no naive mirrored east/west frames, not an artistic judgment about his anatomy.",
         ],
     }
-    report_path = output_root / "docs/reviews/M1-I2/atlas-validation.json"
+    report_path = output_root / "docs/reviews/M1-I3/atlas-validation.json"
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n")
     if any(not check["pass"] for check in checks):

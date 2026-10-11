@@ -1,3 +1,4 @@
+import {loadWorldWater,drawWorldWater} from './world-water.js';
 import {loadContactArt,drawContactArt,contactArtInfo,contactEntry,contactFrontiers} from './contact-art.js';
 import {fruitTreeView,APPLE_POSITIONS} from './fruit-trees.js';
 import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
@@ -8,7 +9,7 @@ import {scenes,getEntities} from './world.js';
 import {TICK_SECONDS} from './movement.js';
 let sheet,manifest,tiles;
 export async function loadEnvironment(){
- await loadContactArt();
+ await Promise.all([loadContactArt(),loadWorldWater()]);
  const url=new URL('../assets/playable/overworld/master.json',import.meta.url),response=await fetch(url);
  if(!response.ok)throw Error('Overworld manifest failed to load');manifest=await response.json();
  sheet=new Image();sheet.src=new URL(manifest.image,url).href;await sheet.decode();
@@ -49,7 +50,9 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  }
  const drawActor=(x,y,options)=>{c.save();c.translate(x,y);character(c,0,0,options);c.restore();};
  for(let y=Math.max(0,Math.floor(camera.y/32));y<Math.min(map.h,Math.ceil((camera.y+height)/32));y++)for(let x=Math.max(0,Math.floor(camera.x/32));x<Math.min(map.w,Math.ceil((camera.x+width)/32));x++)draw(map.terrain[y*map.w+x]==='water'?'meadow.grass.0':map.ground[y*map.w+x],x*32,y*32);
- for(let y=Math.max(0,Math.floor(camera.y/32)-1);y<Math.min(map.h,Math.ceil((camera.y+height)/32));y++)for(let x=Math.max(0,Math.floor(camera.x/32));x<Math.min(map.w,Math.ceil((camera.x+width)/32));x++)if(map.terrain[y*map.w+x]==='water'){let mask=0;for(const [dx,dy,b]of [[0,-1,1],[1,0,2],[0,1,4],[-1,0,8],[1,-1,16],[1,1,32],[-1,1,64],[-1,-1,128]])if(map.terrain[(y+dy)*map.w+x+dx]==='water')mask|=b;for(const [b,a,d]of [[16,1,2],[32,2,4],[64,4,8],[128,8,1]])if(!(mask&a)||!(mask&d))mask&=~b;const phase=Math.floor(time/(16*TICK_SECONDS))%4;drawContactArt(c,`terrain:water:${mask}${phase?':'+phase:''}`,x*32,y*32);}
+ const waterActors=[{x:foot.x,y:foot.y,options:{gender:state.gender,facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'}}];
+ for(const e of getEntities(state).filter(e=>e.type==='npc')){const v=actorView(state,e.id);waterActors.push({x:(v.x===null?e.x*16:v.x)*2+16,y:(v.y===null?e.y*16:v.y)*2+32,options:{look:npcLook(e,state.gender),facing:v.facing,pose:v.pose}});}
+ const waterInfo=drawWorldWater(c,map,state,time,waterActors,character);
  const actorCell={x:Math.floor(foot.x/32),y:Math.floor((foot.y-1)/32)};
  const activeGrass=map.grass.has(`${actorCell.x},${actorCell.y}`),grassFrame=view.moving?[1,3,2,3][Math.floor((view.actionTick||0)/3)%4]:0;
  for(const d of map.decals){if(!visible(d.x,d.y))continue;let id=d.id;if(id==='grass.living.0'&&d.x===actorCell.x&&d.y===actorCell.y)id=`grass.living.${grassFrame}`;draw(id,d.x*32,d.y*32,d.id.startsWith('flowers.')?(d.x+d.y)%4:0);}
@@ -63,6 +66,7 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  const effects=[],sorted=[];for(const o of contactFrontiers(state.scene))if(visible(o.x,o.y))sorted.push({depth:(o.y+1)*32,draw:()=>drawContactArt(c,o.id,o.x*32,o.y*32)});for(const o of map.objects)if(visible(o.x,o.y,o.w,o.h))sorted.push({depth:o.depth*32,draw:()=>{if(o.fruitId)drawFruitTree(o);else assembly(o);if(o.id==='fountain.jet'){const parent=map.objects.find(b=>b.id==='fountain.small'&&o.x===b.x+1&&o.y===b.y),dy=parent?contactEntry(`${state.scene}:${map.objects.indexOf(parent)}`).dy:0;draw(`water.spray.${Math.floor(time/.18)%4}`,o.x*32,(o.y+1)*32+dy);}}});
  for(const e of getEntities(state)){
   if(e.type==='npc'){const v=actorView(state,e.id),x=(v.x===null?e.x*16:v.x)*2+16,y=(v.y===null?e.y*16:v.y)*2+32;sorted.push({depth:y,draw:()=>drawActor(x,y-v.hop,{look:npcLook(e,state.gender),facing:v.facing,pose:v.pose})});effects.push(()=>drawReaction(c,x,y,v));}
+  else if(e.id==='lukeGreenhouse')sorted.push({depth:(e.y+1)*32,draw:()=>{c.fillStyle='#294f40';c.fillRect(e.x*32-12,e.y*32-20,56,18);c.fillStyle='#fff0c6';c.font='bold 10px monospace';c.textAlign='center';c.fillText('LUKE ↑',e.x*32+16,e.y*32-7);}});
   else if(e.type==='rescue')sorted.push({depth:(e.y+1)*32,draw:()=>{drawCritter(c,RESCUES[e.id],e.x*32,e.y*32,time);const x=e.x*32+16,y=e.y*32+18-Math.floor(time*3)%2;c.fillStyle='#fff3bb';c.fillRect(x-1,y-5,2,10);c.fillRect(x-5,y-1,10,2);}});
  }
  const hero=actorView(state,'hero');sorted.push({depth:foot.y+.1,draw:()=>drawActor(foot.x,foot.y-hero.hop,{gender:state.gender,facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'})});effects.push(()=>drawReaction(c,foot.x,foot.y,hero));
@@ -71,5 +75,5 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  if(activeGrass)draw(`grass.front.${grassFrame}`,actorCell.x*32,actorCell.y*32);
  effects.forEach(draw=>draw());
  // Direction plaques sit in the landscape and remain readable at its north/south thresholds.
- c.restore();const lighting=applyLighting(c,state);return {lighting,camera,playerFoot:foot,width,height,scene:state.scene,atlas:'assets/playable/overworld/master.png',contact:contactArtInfo(),activeGrass,grassFrame,visibleObjects:sorted.length};
+ c.restore();const lighting=applyLighting(c,state);return {water:waterInfo,lighting,camera,playerFoot:foot,width,height,scene:state.scene,atlas:'assets/playable/overworld/master.png',contact:contactArtInfo(),activeGrass,grassFrame,visibleObjects:sorted.length};
 }

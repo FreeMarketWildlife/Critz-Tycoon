@@ -139,6 +139,7 @@ scenes.town.entities = [
   npc('rival','Your rival',30,13,'rival'), npc('kaid','Kaid',16,12,'kaid'),
   door('route','North · Mossway / Liarsville',21,2,'forest',[13,31]),
   item('townSign','Rootport directory',14,26,'directory'),
+  door('lukeGreenhouse',"Luke’s Greenhouse",15,25,'greenhouseGrounds',[6,10]),
   {...item('spring','The Founders’ Spring',20,17),text:'Before these lanes had names, families shared this spring. The fountain still feeds the gardens; the old stone channel carries its overflow to Mossway.'},
 ];
 scenes.forest.entities = [
@@ -164,6 +165,8 @@ scenes.waterworks = {
     {...item('model','A model of the old watercourse',7,7),text:'Spring, channel, mill, garden. When the mill closed, the town opened its side channels again. Slow water and planted banks brought the insects back.'},
     {...item('bell','Two clocks, one town',11,4),text:'A faded invitation: “Meet at noon, whichever clock you trust. Bring something to share.” A tradition worth keeping.'}],
 };
+
+scenes.greenhouseGrounds={name:'Luke’s Greenhouse · garden',w:13,h:13,style:'greenhouse',safeSpawn:[6,10],objects:[{kind:'greenhouse',sprite:'luke-greenhouse',x:1,y:2,w:11,h:6,collision:[1,2,11,6]}],entities:[{...item('greenhouse',"Luke’s Greenhouse · enter",6,8,'greenhouse'),entryFacing:'up'},door('exit','Rootport',6,12,'town',[15,26])]};
 
 for(const t of FRUIT_TREES)scenes[t.scene].entities.push({...item(t.id,'Shake apple tree',t.x,t.y+1,'fruitTree'),interactionCells:fruitCells(t)});
 

@@ -3,7 +3,7 @@ import {TICK_SECONDS} from './movement.js';
 let atlas,entries;
 export const CRITTERS=['pebble-gecko','button-snail','isopod','springtail','tree-frog','cherry-shrimp','guppy','stag-beetle','mangrove-crab','cory-catfish'];
 export const HABITATS=['terrarium','aquarium','paludarium'];
-const NPCS={mom:'mom',nugget:'professor-nugget',kaid:'kaid','shop-critz':'juniper','shop-vet':'dr-fern','shop-pharmacy':'mina','shop-bike':'ollie','shop-glass':'aunt-ember',rivalMom:'legacy.mom',rivalDad:'legacy.adult'};
+const NPCS={mom:'mom',nugget:'professor-nugget',kaid:'kaid','shop-critz':'juniper','shop-vet':'dr-fern','shop-pharmacy':'mina','shop-bike':'ollie','shop-glass':'aunt-ember',rivalMom:'rival-mom',rivalDad:'rival-dad'};
 export const RESCUES={gecko:'pebble-gecko',snail:'button-snail',isopods:'isopod',springtails:'springtail'};
 export function npcIdentity(e,gender='boy'){return e.id==='rival'?`rival-${gender==='boy'?'girl':'boy'}`:NPCS[e.id]||e.look;}
 export function characterFrame(facing='down',pose='idle') {return ({down:0,up:4,left:8,right:12}[facing]??0)+({strideA:0,idle:1,passing:1,strideB:2}[pose]??1);}

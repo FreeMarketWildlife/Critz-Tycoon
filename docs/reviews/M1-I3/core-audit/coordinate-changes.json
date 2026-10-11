@@ -1,0 +1,822 @@
+[
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 12,
+    "y": 21,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 11,
+    "y": 21,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 13,
+    "y": 21,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 10,
+    "y": 21,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 11,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 12,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 12,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 11,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 10,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 13,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 11,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 12,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 12,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 11,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 10,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 13,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 10,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 13,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 11,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 12,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 10,
+    "y": 26,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 13,
+    "y": 26,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 11,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 12,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 12,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 11,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 10,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 13,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 11,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 12,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "idle",
+    "x": 12,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "idle",
+    "x": 11,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 12,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 11,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 13,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 10,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 11,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 12,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 12,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 11,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 10,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 13,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 11,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 12,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 10,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 13,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 10,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 13,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 11,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 12,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 10,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 13,
+    "y": 27,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 11,
+    "y": 27,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 12,
+    "y": 27,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 10,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 13,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 11,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 12,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideA",
+    "x": 12,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideA",
+    "x": 11,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 12,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 11,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 13,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 10,
+    "y": 22,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 11,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 12,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 12,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 11,
+    "y": 23,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 11,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 12,
+    "y": 24,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 10,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 13,
+    "y": 25,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 11,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 12,
+    "y": 26,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 11,
+    "y": 27,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 12,
+    "y": 27,
+    "before": "A",
+    "after": "C",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 10,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 13,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 11,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 12,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "west",
+    "pose": "strideB",
+    "x": 12,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  },
+  {
+    "id": "professor",
+    "direction": "east",
+    "pose": "strideB",
+    "x": 11,
+    "y": 28,
+    "before": "V",
+    "after": "E",
+    "reason": "Keep olive undershirt at front opening; restore continuous cream side coat/sleeve."
+  }
+]

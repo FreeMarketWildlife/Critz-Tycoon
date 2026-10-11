@@ -1,0 +1,74 @@
+[
+  {
+    "id": "juniper",
+    "changedPixels": 137,
+    "perFrame": {
+      "south.idle": 3,
+      "south.strideA": 20,
+      "south.strideB": 24,
+      "north.idle": 0,
+      "north.strideA": 25,
+      "north.strideB": 24,
+      "west.idle": 4,
+      "west.strideA": 9,
+      "west.strideB": 9,
+      "east.idle": 3,
+      "east.strideA": 8,
+      "east.strideB": 8
+    }
+  },
+  {
+    "id": "dr-fern",
+    "changedPixels": 96,
+    "perFrame": {
+      "south.idle": 3,
+      "south.strideA": 12,
+      "south.strideB": 20,
+      "north.idle": 0,
+      "north.strideA": 11,
+      "north.strideB": 17,
+      "west.idle": 6,
+      "west.strideA": 9,
+      "west.strideB": 1,
+      "east.idle": 5,
+      "east.strideA": 8,
+      "east.strideB": 4
+    }
+  },
+  {
+    "id": "mina",
+    "changedPixels": 83,
+    "perFrame": {
+      "south.idle": 0,
+      "south.strideA": 12,
+      "south.strideB": 14,
+      "north.idle": 0,
+      "north.strideA": 12,
+      "north.strideB": 14,
+      "west.idle": 6,
+      "west.strideA": 9,
+      "west.strideB": 0,
+      "east.idle": 5,
+      "east.strideA": 8,
+      "east.strideB": 3
+    }
+  },
+  {
+    "id": "aunt-ember",
+    "changedPixels": 81,
+    "perFrame": {
+      "south.idle": 0,
+      "south.strideA": 14,
+      "south.strideB": 16,
+      "north.idle": 0,
+      "north.strideA": 15,
+      "north.strideB": 19,
+      "west.idle": 6,
+      "west.strideA": 0,
+      "west.strideB": 0,
+      "east.idle": 5,
+      "east.strideA": 3,
+      "east.strideB": 3
+    }
+  }
+]

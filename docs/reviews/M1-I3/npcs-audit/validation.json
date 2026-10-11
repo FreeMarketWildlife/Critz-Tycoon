@@ -1,0 +1,2642 @@
+{
+  "status": "pass",
+  "checksPassed": 487,
+  "checksTotal": 487,
+  "frames": 48,
+  "checks": [
+    {
+      "check": "juniper palette exact incl order",
+      "pass": true
+    },
+    {
+      "check": "juniper frame and anchor exact",
+      "pass": true
+    },
+    {
+      "check": "juniper <=15 colors",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.south.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.south three unique poses",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.north.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.north three unique poses",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.west.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.west three unique poses",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "juniper.east.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "juniper.east three unique poses",
+      "pass": true
+    },
+    {
+      "check": "juniper.idle paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.strideA paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "juniper.strideB paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern palette exact incl order",
+      "pass": true
+    },
+    {
+      "check": "dr-fern frame and anchor exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern <=15 colors",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.south three unique poses",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.north three unique poses",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.west three unique poses",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.east three unique poses",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.idle paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "Fern south.idle physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern north.idle physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern west.idle physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern east.idle physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern west.idle continuous teal coat opening",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.strideA paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "Fern south.strideA physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern north.strideA physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern west.strideA physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern east.strideA physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern west.strideA continuous teal coat opening",
+      "pass": true
+    },
+    {
+      "check": "dr-fern.strideB paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "Fern south.strideB physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern north.strideB physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern west.strideB physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern east.strideB physical badge",
+      "pass": true
+    },
+    {
+      "check": "Fern west.strideB continuous teal coat opening",
+      "pass": true
+    },
+    {
+      "check": "mina palette exact incl order",
+      "pass": true
+    },
+    {
+      "check": "mina frame and anchor exact",
+      "pass": true
+    },
+    {
+      "check": "mina <=15 colors",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle storage",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.south.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.south.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.south three unique poses",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle storage",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.north.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.north.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.north three unique poses",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle storage",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.west.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.west.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.west three unique poses",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle storage",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.east.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "mina.east.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "mina.east three unique poses",
+      "pass": true
+    },
+    {
+      "check": "mina.idle paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.strideA paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "mina.strideB paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember palette exact incl order",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember frame and anchor exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember <=15 colors",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.south three unique poses",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.north three unique poses",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.west three unique poses",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.idle binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideA binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB storage",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB palette keys",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB head/face unchanged",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB bounds",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB baseline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB connected silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB no split scanline",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB PNG exact",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east.strideB binary alpha",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.east three unique poses",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.idle paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.strideA paired profile body silhouette",
+      "pass": true
+    },
+    {
+      "check": "aunt-ember.strideB paired profile body silhouette",
+      "pass": true
+    }
+  ],
+  "frameDetails": [
+    {
+      "id": "juniper",
+      "direction": "south",
+      "pose": "idle",
+      "bounds": [
+        3,
+        5,
+        20,
+        30
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "south",
+      "pose": "strideA",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "south",
+      "pose": "strideB",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "north",
+      "pose": "idle",
+      "bounds": [
+        3,
+        5,
+        20,
+        30
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "north",
+      "pose": "strideA",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "north",
+      "pose": "strideB",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "west",
+      "pose": "idle",
+      "bounds": [
+        5,
+        5,
+        18,
+        30
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "west",
+      "pose": "strideA",
+      "bounds": [
+        5,
+        6,
+        18,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "west",
+      "pose": "strideB",
+      "bounds": [
+        5,
+        6,
+        18,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "east",
+      "pose": "idle",
+      "bounds": [
+        5,
+        5,
+        18,
+        30
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "east",
+      "pose": "strideA",
+      "bounds": [
+        5,
+        6,
+        18,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "juniper",
+      "direction": "east",
+      "pose": "strideB",
+      "bounds": [
+        5,
+        6,
+        18,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "south",
+      "pose": "idle",
+      "bounds": [
+        3,
+        6,
+        20,
+        30
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "south",
+      "pose": "strideA",
+      "bounds": [
+        3,
+        7,
+        20,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "south",
+      "pose": "strideB",
+      "bounds": [
+        3,
+        7,
+        20,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "north",
+      "pose": "idle",
+      "bounds": [
+        3,
+        6,
+        20,
+        30
+      ],
+      "colorsUsed": 11,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "north",
+      "pose": "strideA",
+      "bounds": [
+        3,
+        7,
+        20,
+        31
+      ],
+      "colorsUsed": 10,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "north",
+      "pose": "strideB",
+      "bounds": [
+        3,
+        7,
+        20,
+        31
+      ],
+      "colorsUsed": 10,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "west",
+      "pose": "idle",
+      "bounds": [
+        5,
+        6,
+        18,
+        30
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "west",
+      "pose": "strideA",
+      "bounds": [
+        5,
+        7,
+        18,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "west",
+      "pose": "strideB",
+      "bounds": [
+        5,
+        7,
+        18,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "east",
+      "pose": "idle",
+      "bounds": [
+        5,
+        6,
+        18,
+        30
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "east",
+      "pose": "strideA",
+      "bounds": [
+        5,
+        7,
+        18,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "dr-fern",
+      "direction": "east",
+      "pose": "strideB",
+      "bounds": [
+        5,
+        7,
+        18,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "south",
+      "pose": "idle",
+      "bounds": [
+        4,
+        7,
+        19,
+        30
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "south",
+      "pose": "strideA",
+      "bounds": [
+        4,
+        8,
+        19,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "south",
+      "pose": "strideB",
+      "bounds": [
+        4,
+        8,
+        19,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "north",
+      "pose": "idle",
+      "bounds": [
+        4,
+        7,
+        19,
+        30
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "north",
+      "pose": "strideA",
+      "bounds": [
+        4,
+        8,
+        19,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "north",
+      "pose": "strideB",
+      "bounds": [
+        4,
+        8,
+        19,
+        31
+      ],
+      "colorsUsed": 12,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "west",
+      "pose": "idle",
+      "bounds": [
+        5,
+        7,
+        17,
+        30
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "west",
+      "pose": "strideA",
+      "bounds": [
+        5,
+        8,
+        17,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "west",
+      "pose": "strideB",
+      "bounds": [
+        5,
+        8,
+        17,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "east",
+      "pose": "idle",
+      "bounds": [
+        6,
+        7,
+        18,
+        30
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "east",
+      "pose": "strideA",
+      "bounds": [
+        6,
+        8,
+        18,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "mina",
+      "direction": "east",
+      "pose": "strideB",
+      "bounds": [
+        6,
+        8,
+        18,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "south",
+      "pose": "idle",
+      "bounds": [
+        3,
+        5,
+        20,
+        30
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "south",
+      "pose": "strideA",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "south",
+      "pose": "strideB",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "north",
+      "pose": "idle",
+      "bounds": [
+        3,
+        5,
+        20,
+        30
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "north",
+      "pose": "strideA",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "north",
+      "pose": "strideB",
+      "bounds": [
+        3,
+        6,
+        20,
+        31
+      ],
+      "colorsUsed": 13,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "west",
+      "pose": "idle",
+      "bounds": [
+        5,
+        5,
+        19,
+        30
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "west",
+      "pose": "strideA",
+      "bounds": [
+        5,
+        6,
+        19,
+        31
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "west",
+      "pose": "strideB",
+      "bounds": [
+        5,
+        6,
+        19,
+        31
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "east",
+      "pose": "idle",
+      "bounds": [
+        4,
+        5,
+        18,
+        30
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "east",
+      "pose": "strideA",
+      "bounds": [
+        4,
+        6,
+        18,
+        31
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    },
+    {
+      "id": "aunt-ember",
+      "direction": "east",
+      "pose": "strideB",
+      "bounds": [
+        4,
+        6,
+        18,
+        31
+      ],
+      "colorsUsed": 14,
+      "headUnchanged": true,
+      "components": 1
+    }
+  ],
+  "sourceSHA256": {
+    "juniper": "23a650b467f37589ab5d80f026b2e17ebf3d0218175f30b427f576c45726fd58",
+    "dr-fern": "f5968749269f890eea6554be4b6f6b6dd7c6411f19f5711f6511076a168e5822",
+    "mina": "e57b9cd9fce7ba5d63d41d208015577a309e96d7e30219e5637b2152031381f3",
+    "aunt-ember": "44de14df0f4053bea138148bfa15c691606a7768ccb447d3c0ae4a1264f63845"
+  },
+  "correctedSHA256": {
+    "juniper": "89d75d85592b885e033394a7d5b6166e1694a49a416334cbaf4244873900863b",
+    "dr-fern": "157e8d1d1a80bc85308ed1e18d1416f5d12eed20ab90c6068eef6b9f43a108d6",
+    "mina": "04bade866f55b7e7b0d2ea10b816e0c738b01fe80ded49225887fbe7f936887c",
+    "aunt-ember": "3d14a7bdfbb781955064d57f1026f592f6cd424be32a9bbd18f86d5c932b1aaf"
+  }
+}

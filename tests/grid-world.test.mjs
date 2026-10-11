@@ -25,6 +25,7 @@ function reachable(state, start = state.player) {
   return seen;
 }
 const requiredIds = {
+  greenhouseGrounds:['greenhouse','exit'],
   bedroom: ["tank", "sleep", "desk", "gecko", "stairs"],
   house: ["mom", "snail", "stairs", "exit"],
   yard: ["home", "gate", "isopods", "springtails", "forage", "apple-yard"],
@@ -40,7 +41,7 @@ test("grid world preserves original scene IDs and adds the connected northern wo
   assert.equal(TILE, 16);
   assert.deepEqual(Object.keys(scenes).sort(), Object.keys(requiredIds).sort());
   for (const [id, scene] of Object.entries(scenes)) {
-    assert.deepEqual(scene.entities.map(entity => entity.id).sort(), requiredIds[id].sort(), id);
+    assert.deepEqual(scene.entities.map(entity => entity.id).sort(), [...requiredIds[id], ...(id==='town'?['lukeGreenhouse']:[])].sort(), id);
     for (const entity of scene.entities) {
       assert.ok(Number.isInteger(entity.x) && Number.isInteger(entity.y), `${id}/${entity.id}`);
       if (entity.type === "door") assert.ok(entity.spawn.every(Number.isInteger));
@@ -86,7 +87,7 @@ test("every entrance and exit returns to its origin scene with a reachable safe 
     assert.equal(isBlocked(id, state.player.x, state.player.y, state), false);
     tested++;
   }
-  assert.equal(tested, 26);
+  assert.equal(tested, 28);
   for (const building of buildings) {
     const threshold = scenes.town.entities.find(entity => entity.id === building.scene);
     assert.equal(threshold.x, building.doorX);

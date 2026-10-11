@@ -1,5 +1,14 @@
 # Visual foundation production plan
 
+## M1.ALL1 — Full game integration
+
+**Implemented and verified; push/publication underway.** The user explicitly requests “the main game, the tile sets, the animations, the characters, EVERYTHING … all the water … the auto tiling map … Luke’s greenhouse … Go for it.” This authorizes integration of the completed work and supersedes the earlier review-only integration boundaries for these deliverables. It does not claim wider G1/G2 visual or feel acceptance, revive rejected artwork, or implement ideas-only future content.
+
+Deliverable: preserve the approved Hero and later C7 cast/animals/habitats; add the corrected native parents and publish all unfinished compact-character sources, animations and audits. Use the current WA8 shared coast format in outdoor water and Map Studio; add freshwater/ocean still/moving shallow/deep brushes and sand, preserve explicit deep collision and shallow traversal, and play saved Map Studio projects from Start. Connect Luke’s greenhouse through the town-square Luke sign and native garden, with actual adventure savings, persistent goldfish, unused-scoop refunds and rollback on save failure. Start also exposes greenhouse/coastal visits and custom-map playback after the opening story. Original review routes, tile downloads and all historical source assets remain available. Preserve B contact, v1 keys/data, story, money/loan, species, selected soundtrack and current owner-private audience.
+
+Checks: 215 unit tests, 60 module syntax checks, 310 lossless atlas checks, 986 independent compact-frame PNG checks and 118 isolated browser checks pass, including the final dist integration and actual garden/room. Synthetic contexts only; physical Safari/haptics unverified. [Deliverable/evidence](reviews/M1-ALL1/README.md). Existing feature branch is already contained in main and retained. Exact next action: commit all task changes on main, verify origin/main and publish this tested build to the existing phone URL; then record the exact source SHA and successful native deployment receipt.
+
+
 ## M1.WA8 — Rebuilt shared coast format
 
 **Implemented, tested, pushed and published; awaiting user visual verification.** User rejects WA7 joins and excludes thin water tongues/caps. Continuous shared footprint replaces overlapping border strips; raw diagonal context is preserved.15 base formats /55 joining contexts reuse438 native overlay pieces;2,042 colored native images cover4,070 references across all74 pairs. Active bank contains no unsupported cap/strip templates. Original266 water/prop frames preserved exactly; no retired transition sheet is loaded by current reviews. Wide-channel complete review, all orientations/mirrors, native PNG/Tiled downloads and actual tile walking remain review-only.
@@ -225,6 +234,10 @@ Next asset work must first annotate reference anatomy and pose measurements for 
 ## M1.C4 — Idle resolution and chibi construction review
 
 Current review task: boy Hero only, one south idle at 16×32 and 32×64. The user requests a countable native-pixel grid, marks every ten pixels and the supplied reference’s compact body construction. Deliver original native PNGs, editable pixels, exact enlarged grids and a separate construction plate. Refine idle first; no new walking or playable integration is part of this task. [Review packet](reviews/M1-C4/README.md) is delivered and awaits user visual feedback. Preserve unfinished M1.I3 work. The ideas notebook’s separate one-tile body proposal is not adopted or resolved by these taller storage frames.
+
+## M1.I3 — Corrected cast in the playable game
+
+The user now authorizes a complete pose audit and correction of accidental garment/limb asymmetries, followed by playable integration. Preserve intentional hair, lighting, badge and Kaid handle/spout differences. Keep all twelve current designs at the selected compact 20×26 painted budget, 24×32 storage and `[12,32]` anchor. Update the walking review alongside the actual game; do not stop for another gallery approval. The existing fixed-tick tile controller, collision, story and v1 saves remain unchanged. Running retains its movement/animation timing and uses the corrected compact poses pending a separate run-art pass. Final visual and movement acceptance remains with the user.
 
 ## M1.C3 — Walking animations for the current cast
 

@@ -22,8 +22,8 @@ function render(force=false){
 }
 function select(person){selected=person;$('character-name').textContent=person.label;$('character-kind').textContent=person.bodyType;
   $('portrait').setAttribute('aria-label',`${person.label} walking; use Pause and Next pose to inspect`);
-  $('download-character').href=new URL(`../assets/review/characters-walk-v2/${person.gif}`,import.meta.url);$('download-character').download=`critz-${person.id}-walking.gif`;
-  $('download-sheet').href=new URL(`../assets/review/characters-walk-v2/${person.sheet}`,import.meta.url);$('download-sheet').download=`critz-${person.id}-walking.png`;
+  $('download-character').href=new URL(`../assets/review/characters-walk-v3/${person.gif}`,import.meta.url);$('download-character').download=`critz-${person.id}-walking.gif`;
+  $('download-sheet').href=new URL(`../assets/review/characters-walk-v3/${person.sheet}`,import.meta.url);$('download-sheet').download=`critz-${person.id}-walking.png`;
   for(const card of cards)card.button.setAttribute('aria-pressed',String(card.person.id===person.id));render(true);
 }
 function frame(now){request=null;if(!ready||!playing||suspended)return;clock.advance(now);render();request=requestAnimationFrame(frame);}
@@ -37,7 +37,7 @@ function suspension(value){suspended=value;schedule();}
 document.addEventListener('visibilitychange',()=>suspension(document.hidden));window.addEventListener('blur',()=>suspension(true));window.addEventListener('focus',()=>suspension(document.hidden));
 reduced.addEventListener('change',event=>{if(event.matches){playing=false;schedule();}});
 try{
-  atlas=await loadAtlas(new URL('../assets/review/characters-walk-v2/atlas.json',import.meta.url));
+  atlas=await loadAtlas(new URL('../assets/review/characters-walk-v3/atlas.json',import.meta.url));
   for(const person of atlas.manifest.characters){const button=document.createElement('button');button.className='cast-card';button.dataset.character=person.id;button.setAttribute('aria-label',`Inspect ${person.label}`);button.setAttribute('aria-pressed','false');
     const canvas=document.createElement('canvas');canvas.width=24;canvas.height=32;canvas.setAttribute('aria-hidden','true');const name=document.createElement('strong');name.textContent=person.label;const label=document.createElement('small');label.textContent=person.bodyType;
     button.append(canvas,name,label);button.onclick=()=>select(person);$('cast').append(button);cards.push({button,canvas,person});}

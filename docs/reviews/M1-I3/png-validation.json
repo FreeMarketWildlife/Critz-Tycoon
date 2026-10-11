@@ -1,0 +1,3951 @@
+{
+  "passed": 986,
+  "frameCount": 144,
+  "characterCount": 12,
+  "checks": [
+    {
+      "name": "12 characters, all 144 native frames",
+      "pass": true
+    },
+    {
+      "name": "stable unique asset IDs",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.boy.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.hero.girl.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mom.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.kaid.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.professor.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.juniper.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.dr-fern.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.mina.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.ollie.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.aunt-ember.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-mom.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.south.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.west.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.north.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.idle: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.idle: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.idle: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.idle: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.idle: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.idle: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideA: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideA: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideA: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideA: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideA: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideA: connected figure",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideB: decoded PNG equals source pixels",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideB: native hash",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideB: tight 20x26 bounds",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideB: anchor and foot baseline",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideB: binary transparency",
+      "pass": true
+    },
+    {
+      "name": "character.walk.v3.rival-dad.east.strideB: connected figure",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "hero.boy: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.boy.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "hero.girl: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "hero.girl.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mom: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "mom: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "mom.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mom.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mom.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mom.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mom.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "kaid: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "kaid: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "kaid.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "kaid.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "kaid.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "kaid.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "kaid.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "professor: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "professor: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "professor.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "professor.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "professor.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "professor.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "professor.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "juniper: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "juniper: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "juniper.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "juniper.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "juniper.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "juniper.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "juniper.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "dr-fern: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "dr-fern.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mina: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "mina: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "mina.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mina.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mina.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "mina.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "mina.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "ollie: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "ollie: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "ollie.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "ollie.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "ollie.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "ollie.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "ollie.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "aunt-ember.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "rival-mom: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-mom.east: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: correction preserves palette",
+      "pass": true
+    },
+    {
+      "name": "rival-dad: individual sheet equals atlas row",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.south: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.west: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.north: strides change anatomy, not only translation",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east: three distinct poses",
+      "pass": true
+    },
+    {
+      "name": "rival-dad.east: strides change anatomy, not only translation",
+      "pass": true
+    }
+  ]
+}

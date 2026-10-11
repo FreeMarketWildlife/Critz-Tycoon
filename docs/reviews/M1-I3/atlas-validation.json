@@ -1,0 +1,1292 @@
+{
+  "task": "M1.I3",
+  "status": "technical-checks-passed-awaiting-user-review",
+  "atlasSize": [
+    512,
+    1088
+  ],
+  "assetCount": 342,
+  "environmentAssetCount": 54,
+  "characterFrameCount": 288,
+  "characterRoleCount": 12,
+  "atlasSha256": "6e61af5883e819c2ea7be345a7cbf0d7cee92a3952bcb9b28d899bf7823e2324",
+  "checks": [
+    {
+      "name": "single-png-runtime-contract",
+      "pass": true
+    },
+    {
+      "name": "expected-packed-size",
+      "pass": true,
+      "details": {
+        "actual": [
+          512,
+          1088
+        ]
+      }
+    },
+    {
+      "name": "unique-stable-ids",
+      "pass": true,
+      "details": {
+        "assetCount": 342
+      }
+    },
+    {
+      "name": "integer-positive-inbounds-rectangles",
+      "pass": true
+    },
+    {
+      "name": "no-overlapping-asset-rectangles",
+      "pass": true
+    },
+    {
+      "name": "binary-alpha",
+      "pass": true
+    },
+    {
+      "name": "integer-anchors-preserved",
+      "pass": true
+    },
+    {
+      "name": "environment-whole-sheet-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "environment-every-asset-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "environment-nonrectangle-metadata-unchanged",
+      "pass": true
+    },
+    {
+      "name": "characters-whole-sheet-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "characters-every-asset-rgba-exact",
+      "pass": true
+    },
+    {
+      "name": "characters-nonrectangle-metadata-unchanged",
+      "pass": true
+    },
+    {
+      "name": "character-map-preserved",
+      "pass": true
+    },
+    {
+      "name": "24-frames-per-character",
+      "pass": true,
+      "details": {
+        "hero.boy": 24,
+        "hero.girl": 24,
+        "mom": 24,
+        "kaid": 24,
+        "professor": 24,
+        "juniper": 24,
+        "dr-fern": 24,
+        "mina": 24,
+        "ollie": 24,
+        "aunt-ember": 24,
+        "rival-mom": 24,
+        "rival-dad": 24
+      }
+    },
+    {
+      "name": "complete-direction-mode-pose-matrix",
+      "pass": true
+    },
+    {
+      "name": "all-character-map-references-resolve",
+      "pass": true
+    },
+    {
+      "name": "character-native-frame-and-foot-anchor",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.boy.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.hero.girl.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mom.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.kaid.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.professor.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.juniper.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.dr-fern.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.mina.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.ollie.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.aunt-ember.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-mom.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.down.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.down.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.down.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.down.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.down.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.down.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.up.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.up.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.up.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.up.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.up.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.up.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.left.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.left.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.left.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.left.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.left.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.left.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.right.walk.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.right.walk.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.right.walk.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.right.run.idle-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.right.run.strideA-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "char.rival-dad.right.run.strideB-canonical-native-pixels",
+      "pass": true
+    },
+    {
+      "name": "kaid-explicit-unmirrored-metadata",
+      "pass": true
+    },
+    {
+      "name": "kaid-left-right-not-naive-mirrors",
+      "pass": true,
+      "details": {
+        "walk.idle": true,
+        "walk.strideA": true,
+        "walk.strideB": true,
+        "run.idle": true,
+        "run.strideA": true,
+        "run.strideB": true
+      }
+    },
+    {
+      "name": "deterministic-png-serialization",
+      "pass": true
+    },
+    {
+      "name": "png-encode-decode-rgba-exact",
+      "pass": true
+    }
+  ],
+  "passed": 310,
+  "total": 310,
+  "limitations": [
+    "This validates packing and source preservation; gameplay and visual/feel acceptance are separate checks.",
+    "Kaid asymmetry check proves no naive mirrored east/west frames, not an artistic judgment about his anatomy."
+  ]
+}

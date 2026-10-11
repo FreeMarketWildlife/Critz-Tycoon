@@ -19,7 +19,7 @@ test('every live doorway, stair and route endpoint is reachable by walking into 
   assert.equal(s.scene,e.to);assert.equal(isBlocked(s.scene,s.player.x,s.player.y,s),false);
   assert.equal(scenes[s.scene].entities.some(g=>g.type==='door'&&g.x===s.player.x&&g.y===s.player.y),false,'arrival outside warp');count++;
  }
- assert.equal(count,26);
+ assert.equal(count,28);
 });
 test('yard opens only the home threshold and gate, keeping neighboring walls and fences solid',()=>{
  assert.equal(isBlocked('yard',8,3),false);assert.equal(isBlocked('yard',8,11),false);

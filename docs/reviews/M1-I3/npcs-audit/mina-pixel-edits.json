@@ -1,0 +1,684 @@
+{
+  "id": "mina",
+  "changedPixels": 83,
+  "perFrame": {
+    "south.idle": 0,
+    "south.strideA": 12,
+    "south.strideB": 14,
+    "north.idle": 0,
+    "north.strideA": 12,
+    "north.strideB": 14,
+    "west.idle": 6,
+    "west.strideA": 9,
+    "west.strideB": 0,
+    "east.idle": 5,
+    "east.strideA": 8,
+    "east.strideB": 3
+  },
+  "edits": [
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 7,
+      "y": 24,
+      "from": "D",
+      "to": "C"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 17,
+      "y": 24,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 16,
+      "y": 25,
+      "from": "L",
+      "to": "M"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 17,
+      "y": 25,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 6,
+      "y": 26,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 17,
+      "y": 26,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 6,
+      "y": 27,
+      "from": "L",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 7,
+      "y": 27,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 16,
+      "y": 27,
+      "from": "S",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 17,
+      "y": 27,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 6,
+      "y": 28,
+      "from": "S",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideA",
+      "x": 16,
+      "y": 28,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 6,
+      "y": 24,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 16,
+      "y": 24,
+      "from": "D",
+      "to": "C"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 6,
+      "y": 25,
+      "from": "L",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 7,
+      "y": 25,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 6,
+      "y": 26,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 17,
+      "y": 26,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 6,
+      "y": 27,
+      "from": "S",
+      "to": "."
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 7,
+      "y": 27,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 16,
+      "y": 27,
+      "from": "L",
+      "to": "M"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 17,
+      "y": 27,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 6,
+      "y": 28,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 7,
+      "y": 28,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 16,
+      "y": 28,
+      "from": "S",
+      "to": "M"
+    },
+    {
+      "direction": "south",
+      "pose": "strideB",
+      "x": 17,
+      "y": 28,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 7,
+      "y": 24,
+      "from": "D",
+      "to": "C"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 17,
+      "y": 24,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 16,
+      "y": 25,
+      "from": "L",
+      "to": "M"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 17,
+      "y": 25,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 6,
+      "y": 26,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 17,
+      "y": 26,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 6,
+      "y": 27,
+      "from": "L",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 7,
+      "y": 27,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 16,
+      "y": 27,
+      "from": "S",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 17,
+      "y": 27,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 6,
+      "y": 28,
+      "from": "S",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideA",
+      "x": 16,
+      "y": 28,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 6,
+      "y": 24,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 16,
+      "y": 24,
+      "from": "D",
+      "to": "C"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 6,
+      "y": 25,
+      "from": "L",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 7,
+      "y": 25,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 6,
+      "y": 26,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 17,
+      "y": 26,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 6,
+      "y": 27,
+      "from": "S",
+      "to": "."
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 7,
+      "y": 27,
+      "from": "C",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 16,
+      "y": 27,
+      "from": "L",
+      "to": "M"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 17,
+      "y": 27,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 6,
+      "y": 28,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 7,
+      "y": 28,
+      "from": "O",
+      "to": "."
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 16,
+      "y": 28,
+      "from": "S",
+      "to": "M"
+    },
+    {
+      "direction": "north",
+      "pose": "strideB",
+      "x": 17,
+      "y": 28,
+      "from": "M",
+      "to": "O"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "x": 12,
+      "y": 23,
+      "from": "W",
+      "to": "D"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "x": 13,
+      "y": 23,
+      "from": "C",
+      "to": "D"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "x": 12,
+      "y": 24,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "x": 13,
+      "y": 25,
+      "from": "L",
+      "to": "M"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "x": 12,
+      "y": 26,
+      "from": "M",
+      "to": "S"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "x": 13,
+      "y": 26,
+      "from": "M",
+      "to": "C"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 10,
+      "y": 24,
+      "from": "D",
+      "to": "A"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 12,
+      "y": 24,
+      "from": "C",
+      "to": "D"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 10,
+      "y": 25,
+      "from": "L",
+      "to": "A"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 11,
+      "y": 25,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 12,
+      "y": 25,
+      "from": "C",
+      "to": "M"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 10,
+      "y": 26,
+      "from": "M",
+      "to": "A"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 12,
+      "y": 26,
+      "from": "C",
+      "to": "M"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 10,
+      "y": 27,
+      "from": "S",
+      "to": "D"
+    },
+    {
+      "direction": "west",
+      "pose": "strideA",
+      "x": 11,
+      "y": 27,
+      "from": "D",
+      "to": "S"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "x": 10,
+      "y": 23,
+      "from": "C",
+      "to": "D"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "x": 11,
+      "y": 23,
+      "from": "W",
+      "to": "D"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "x": 10,
+      "y": 24,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "x": 10,
+      "y": 26,
+      "from": "M",
+      "to": "C"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "x": 11,
+      "y": 26,
+      "from": "M",
+      "to": "S"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 11,
+      "y": 24,
+      "from": "C",
+      "to": "D"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 13,
+      "y": 24,
+      "from": "D",
+      "to": "A"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 11,
+      "y": 25,
+      "from": "C",
+      "to": "L"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 13,
+      "y": 25,
+      "from": "L",
+      "to": "A"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 11,
+      "y": 26,
+      "from": "C",
+      "to": "L"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 13,
+      "y": 26,
+      "from": "M",
+      "to": "A"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 12,
+      "y": 27,
+      "from": "D",
+      "to": "S"
+    },
+    {
+      "direction": "east",
+      "pose": "strideA",
+      "x": 13,
+      "y": 27,
+      "from": "S",
+      "to": "D"
+    },
+    {
+      "direction": "east",
+      "pose": "strideB",
+      "x": 9,
+      "y": 26,
+      "from": "M",
+      "to": "L"
+    },
+    {
+      "direction": "east",
+      "pose": "strideB",
+      "x": 10,
+      "y": 26,
+      "from": "L",
+      "to": "M"
+    },
+    {
+      "direction": "east",
+      "pose": "strideB",
+      "x": 9,
+      "y": 27,
+      "from": "M",
+      "to": "L"
+    }
+  ]
+}

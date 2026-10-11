@@ -1,7 +1,9 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { Raster } from '../raster.mjs';
-const source = 'art/source/characters-walk-v2', output = 'assets/review/characters-walk-v2', review = 'docs/reviews/M1-C3';
+const version = process.env.CRITZ_WALK_VERSION || 'v2';
+if (!['v2','v3'].includes(version)) throw Error('Unsupported walk source version');
+const source = `art/source/characters-walk-${version}`, output = `assets/review/characters-walk-${version}`, review = version === 'v3' ? 'docs/reviews/M1-I3' : 'docs/reviews/M1-C3';
 const order = ['hero.boy','hero.girl','mom','kaid','professor','juniper','dr-fern','mina','ollie','aunt-ember','rival-mom','rival-dad'];
 const directions = ['south','west','north','east'], poses = ['idle','strideA','strideB'];
 for (const p of [output, output+'/sheets', review]) await mkdir(p, {recursive:true});
@@ -12,7 +14,9 @@ for (const [index, id] of order.entries()) {
   const still = JSON.parse(await readFile(`art/source/characters-v2/${id}.json`, 'utf8'));
   assert(person.id === id, id+': identity');
   assert(JSON.stringify(person.palette) === JSON.stringify(still.palette), id+': original palette unchanged');
-  assert(JSON.stringify(person.frames.south.idle) === JSON.stringify(still.rows), id+': front idle unchanged');
+  if (version === 'v2') assert(JSON.stringify(person.frames.south.idle) === JSON.stringify(still.rows), id+': front idle unchanged');
+  // v3 explicitly corrects reported idle artifacts; independently audit all
+  // native pixel changes against the v2 source in check-walking-atlas.py.
   const sheet = new Raster(288,32), frames = {}, allColors = new Set();
   for (const [di,direction] of directions.entries()) {
     frames[direction] = {}; const distinct = new Set();
@@ -32,7 +36,7 @@ for (const [index, id] of order.entries()) {
       assert(colors.size<=15, `${id}.${direction}.${pose}: palette budget`);
       assert(Array.from({length:bbox[3]-bbox[1]},(_,y)=>/[^.]/.test(rows[y+bbox[1]])).every(Boolean), `${id}.${direction}.${pose}: no detached body row`);
       const hash=createHash('sha256').update(native.p).digest('hex');distinct.add(hash);
-      const column=di*3+pi, frameId=`character.walk.v2.${id}.${direction}.${pose}`;
+      const column=di*3+pi, frameId=`character.walk.${version}.${id}.${direction}.${pose}`;
       atlas.blit(native,column*24,index*32); sheet.blit(native,column*24,0);frames[direction][pose]=frameId;
       assets.push({id:frameId,character:id,label:person.label,direction,pose,rect:[column*24,index*32,24,32],anchor:[12,32],opaqueBBox:bbox,visibleSize:[bbox[2]-bbox[0],bbox[3]-bbox[1]],colorCount:colors.size,sha256:hash,source:`${source}/${id}.json`,status:'awaiting-user-art-review'});
     }
