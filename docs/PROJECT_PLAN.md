@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.WA5 — Enclosed deep-water pools
+
+Implemented/tested; publishing the review deliverable. Full shallow rings, diagonal-contact validation and188 original submerged depth-bank overlays.185 unit tests and41 browser checks pass. [Review](reviews/M1-WA5/README.md). Next: publish exact tested build, then user visual review. Wider gates remain pending.
+
 ## M1.WA4 — Corner correction and sunny reflected clouds
 
 Implemented/tested/pushed/published; revised visual feedback pending. Corner geometry passes all65,536 layouts. Original three-color upside-down cloud reflections appear Sunny10am–3pm with minute-specific east/noon/west lighting. Preserve existing tiles, loops, saves and concurrent contact correction. Source `269533d`; version38 deployment succeeds at 2026-10-10 5:59:11PM Pacific;182 unit tests,48 browser scenarios and all2,036 build files verified. Final test/receipt-only follow-up does not change hosted runtime. [Phone demo](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/water.html) · [Review](reviews/M1-WA4/README.md). Exact next action: user compares corners/clouds; no implementation/push/publication step remains, and no visual gate is self-approved.

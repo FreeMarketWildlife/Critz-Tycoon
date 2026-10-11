@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "Refined native water and three-color cloud atlases load",
+    "Cloud window begins at 10am and ends at 3pm, with boundary screenshots",
+    "Only Sunny weather enables daytime cloud reflections",
+    "Reflected cloud highlights follow the clock from east to west",
+    "Calm keeps the cloud silhouette static while the simulation runs",
+    "Corrected inner and outer corners remain inspectable in complete bank",
+    "Phone demo remains usable without horizontal overflow",
+    "No browser runtime errors"
+  ],
+  "errors": []
+}
