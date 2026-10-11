@@ -1,6 +1,17 @@
 # Critz: Tycoon — art bible
 
+## M1.WA8 — Shared transition format, no thin water caps
+
+User rejects WA7 screenshots and explicitly removes the thin water tongue/strip from the required tileset. This supersedes WA7's overlapping per-cell bank/foam and subsequent clipping workaround. Construct the continuous native footprint once, round it before slicing, and derive every bank and tide front from that same boundary. Preserve approved B side contact and south registration, whole-cell collision, material-vs-cast shadow distinction, freshwater/ocean reflections and the existing mixed-depth enclosure rule. Shore and surface transitions share the construction, with their appropriate contact insets/registration. No raised bank between water depths. Physical water footprints exclude one-cell caps, strips and tongues; every water cell belongs to a2×2 water block. This does not change the separate shallow/deep enclosure requirement.
+
+The reusable bank has15 useful edge/corner formats and55 raw eight-neighbor joining contexts. **Do not discard diagonals while selecting the joining variant:** doing so reproduced an84-pixel stencil mismatch even though the canonical shape was correct. Raw-context selection eliminates it. One source module (`src/coastal-format.js`) produces all pairs and original hard native pixels; no resampling or per-material geometry copies. Banks form complete outer/island loops. Foam follows one signed shore-distance field, advancing/receding in3.2 seconds rather than overlapping independent strips. Empty previews and unsupported cap/strip formats are excluded; useful land-side beach wash returns remain. Native images and transparent tide frames are deduplicated.
+
+Active review loads only the new bank:438 native mask/overlay pieces,2,042 colored native images covering4,070 aliases across74 pairs,10 exact sand/rock/shadow props and256 exact water frames. Historical WA6/WA7 sheets remain audit evidence and are not active transition tiles. Colored PNG/Tiled sheets are frame0; live water and wash use their3.2-second loops. Shore registration16px, surface registration0; original rock placement, separate shadow layer, minute clock, cloud window and no-fee2am/6am sleep remain. This is an M1 review deliverable, not accepted-map integration or wider gate approval.
+
+
 ## M1.WA7 — Complete corrected coastal set
+
+**User rejected the assembled results; superseded by WA8.** Coverage and local clipping did not establish continuous bank/foam joins.
 
 User requests all water/sand/grass combinations for verification. Registered inward returns curve through the connected-row overlap, joining the16px side contact and shore cap. The assembled shoreline is the union of registered water pixels; bank art and wash fronts must be clipped to this shared boundary to remove false internal tails from overlapping sprites. Use `src/coastal-composition.js` for registered tile assemblies. This supplements WA6; no change to collision, B straight contacts, mixed-depth enclosure, bank-vs-beach direction or rock placement. The complete review presents16 water/grass/sand pairs,2 sand/grass directions and56 ordered unequal water pairs, all47 shapes each, plus four rotations/mirrors, tile grid and pause. Original pixels and3.2-second loops; review-only, awaiting user visual verification.
 

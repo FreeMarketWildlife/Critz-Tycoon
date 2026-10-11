@@ -1,0 +1,5 @@
+import {coastalBankPixels,coastalWashPixels} from './coastal-format.js';
+export function coastalFieldPath(field){const p=new Path2D(),{wet,width:w,height:h}=field;for(let y=0;y<h;y++){let start=-1;for(let x=0;x<=w;x++){const on=x<w&&wet[y*w+x];if(on&&start<0)start=x;if(!on&&start>=0){p.rect(start,y,x-start,1);start=-1;}}}return p;}
+function nativeCanvas(field,pixels){const cv=document.createElement('canvas');cv.width=field.width;cv.height=field.height;cv.getContext('2d').putImageData(new ImageData(pixels,field.width,field.height),0,0);return cv;}
+export function createCoastalDrawing(field,styleAt){return{field,path:coastalFieldPath(field),bank:nativeCanvas(field,coastalBankPixels(field,styleAt)),waves:new Map(),enabledAt:(x,y)=>{const s=styleAt(x,y);return s.ground==='sand'&&s.moving;}};}
+export function drawCoastalBoundary(c,d,f,{bank=true,wash=true}={}){if(bank)c.drawImage(d.bank,0,0);if(wash){if(!d.waves.has(f))d.waves.set(f,nativeCanvas(d.field,coastalWashPixels(d.field,f,d.enabledAt)));c.drawImage(d.waves.get(f),0,0);}}
