@@ -1,5 +1,12 @@
 # Visual foundation production plan
 
+## M1.WA7 — Complete water, sand and grass verification
+
+**Implemented and tested; push/publication in progress.** Fix registered inward corners and suppress internal bank/foam tails in assembled shores. Complete review provides74 ordered combinations ×47 shapes (3,478 transitions), rotation/mirror controls, tile grid and animation pause. Native checks and202 clean unit tests pass; 21 isolated browser scenarios pass (14 playable coast,7 complete review); evidence in `docs/reviews/M1-WA7`. Original collision/save/contact/sky/reflection rules remain. Unrelated character working edits excluded; their appearance width test fails in dirty checkout. New art remains review-only. Exact next action: push tested task source, publish matching build, record receipt, then user verifies the complete hosted set.
+
+
+
+
 ## M1.WA6 — Beaches, raised shores and curved water depths
 
 Implemented/tested/pushed/published; user visual review pending. Correct WA5 bank placement; six shoreline examples, new sand/3.2-second beach wash, curved water-depth edges and interior-only rocks with separate shadows.12,512 native base/registered assets use actual B contact geometry;200 unit tests and47 browser checks pass. All796 runtime/2,119 build files verified. Source8f52cef; owner-private Sites version41 succeeds2026-10-10 6:49:15PM Pacific. Preserve approved CT4 integration and unrelated character edits. [Phone demo](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/coast.html) · [Review](reviews/M1-WA6/README.md). Exact next action: user visual review of six examples; no implementation/publication step remains, and no wider gate is self-approved.

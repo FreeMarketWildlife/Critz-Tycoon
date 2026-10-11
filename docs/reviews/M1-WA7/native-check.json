@@ -1,0 +1,18 @@
+{
+  "assets": 6496,
+  "binaryAlpha": true,
+  "sandBankOverlaysEmpty": true,
+  "waterToWaterBanks": false,
+  "animatedBeachShapes": 47,
+  "loopMs": 3200,
+  "largestAdjacentFramePixelDifference": 232,
+  "largestWrapPixelDifference": 232,
+  "allWrapDifferencesWithinOrdinaryFrameDifferences": true,
+  "rockVariants": 3,
+  "separateRockShadowVariants": 3,
+  "registeredSprites": 6016,
+  "totalCoastalAssets": 12512,
+  "contactRule": "B",
+  "all47RegisteredAlphaMasksMatchRuntime": true,
+  "registeredWaveWrapVerified": true
+}

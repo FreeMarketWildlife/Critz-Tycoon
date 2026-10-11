@@ -93,8 +93,8 @@ def emit_shore(id,im,**meta):
  n=len(registered);registered.append(im);shore.append(dict(id=id,x=n%32*32,y=n//32*64,w=32,h=64,**meta))
 def on(x,y,m):return 0<=x<32 and 0<=y<64 and bool(planes[m][y*32+x])
 def sample(x,y,m):
- if y<16 and m&1:y=16
- if y>=48 and m&4:y=47
+ if y<0 and m&1:y=0
+ if y>=64 and m&4:y=63
  if x<0 and m&8:x=0
  if x>=32 and m&2:x=31
  return on(x,y,m)
@@ -102,10 +102,10 @@ for a in surfaces:
  for g in grounds:
   for m in masks:
    im=Image.new('RGBA',(32,64));lip=Image.new('RGBA',(32,64));d=ImageDraw.Draw(lip);front=base(a)
-   for y in range(16,48):
+   for y in range(64):
     for x in range(32):
      if not on(x,y,m):continue
-     im.putpixel((x,y),front.getpixel((x,y-16)))
+     im.putpixel((x,y),front.getpixel((x,(y-16)%32)))
      if g=='sand':continue
      up=next((n for n in range(1,13) if not sample(x,y-n,m)),None);side=next((n for n in range(1,5) if not sample(x-n,y,m) or not sample(x+n,y,m) or not sample(x,y+n,m)),None)
      if 'shallow' in a:
@@ -118,9 +118,8 @@ for a in surfaces:
    emit_shore(f'join.{a}.{g}.{m}',im,kind='registered-water',inner=a,outer=g,neighborMask=m);emit_shore(f'bank.{a}.{g}.{m}',lip,kind='registered-bank',inner=a,outer=g,neighborMask=m)
 for m in masks:
  field=[]
- for y in range(8,56):
+ for y in range(64):
   for x in range(32):
-   if y<16 and m&1 or y>=48 and m&4:continue
    near=[];center=sample(x,y,m)
    for dx,dy in [(1,0),(-1,0),(0,1),(0,-1)]:
     dist=next((n for n in range(1,8) if sample(x+dx*n,y+dy*n,m)!=center),None)

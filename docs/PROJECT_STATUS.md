@@ -1,5 +1,12 @@
 # Project status
 
+## M1.WA7 — Complete water, sand and grass verification
+
+**Implemented and tested; push/publication in progress.** Fix registered inward corners and suppress internal bank/foam tails in assembled shores. Complete review provides74 ordered combinations ×47 shapes (3,478 transitions), rotation/mirror controls, tile grid and animation pause. Native checks and202 clean unit tests pass; 21 isolated browser scenarios pass (14 playable coast,7 complete review); evidence in `docs/reviews/M1-WA7`. Original collision/save/contact/sky/reflection rules remain. Unrelated character working edits excluded; their appearance width test fails in dirty checkout. New art remains review-only. Exact next action: push tested task source, publish matching build, record receipt, then user verifies the complete hosted set.
+
+
+
+
 ## M1.WA6 — Beaches, raised shores and curved water depths
 
 **Implemented, tested, pushed and published; new shore visuals await user review.** Latest user corrects WA5: no defined bank between shallow/deep; raised-land/deep shores and flat sand/water wash. Deep-only shores are allowed and common; mixed-depth enclosure remains distinct from appearance.12,512 native base/registered assets cover all47 masks, explicit3.2-second beach wash animations, sand/ground joins in both directions and3 rocks/3 separate shadow variants. The new coast imports actual approved B geometry (16px structure/16px ground,32px collision grid,64px registered shore projection); bed and rocks use shared contact rendering. Six selectable examples, five land variants and phone Detail/Overview use actual tile movement. Rocks require all8 neighbors to match water identity/motion/depth. Earlier water review removes rejected WA5 bank drawing and moves its first rock off transitions; those changes are preserved in concurrent CT4 source. New visuals stay in the review deliverable, with accepted maps/gates unchanged by this task.

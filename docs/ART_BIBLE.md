@@ -1,5 +1,10 @@
 # Critz: Tycoon — art bible
 
+## M1.WA7 — Complete corrected coastal set
+
+User requests all water/sand/grass combinations for verification. Registered inward returns curve through the connected-row overlap, joining the16px side contact and shore cap. The assembled shoreline is the union of registered water pixels; bank art and wash fronts must be clipped to this shared boundary to remove false internal tails from overlapping sprites. Use `src/coastal-composition.js` for registered tile assemblies. This supplements WA6; no change to collision, B straight contacts, mixed-depth enclosure, bank-vs-beach direction or rock placement. The complete review presents16 water/grass/sand pairs,2 sand/grass directions and56 ordered unequal water pairs, all47 shapes each, plus four rotations/mirrors, tile grid and pause. Original pixels and3.2-second loops; review-only, awaiting user visual verification.
+
+
 ## M1.WA6 — Raised shores, flat beaches and curved water depth edges
 
 User correction2026-10-10 supersedes **WA5's raised shallow/deep bank artwork**. A **transition tile** contains the boundary between materials and/or traversal regions in one map cell. **Water-to-water transition:** shallow/deep edges are rounded color contours, with no earth cap, rock face, cliff or jumpable ledge. **Water-to-raised-land transition:** deep water can directly meet grass, dirt/path, soil, paving or cliff, and shows a clear cap, recessed face and dark toe. Here the user's informal “ledge” means visible shore/cliff art; it does not authorize jumping into blocked deep water. **Water-to-sand transition:** low flat shore, pale foam and wet sand, with waves advancing/receding in a3.2-second native loop. No stone bank on sand. Still puddles on sand do not receive ocean-style wave wash.
