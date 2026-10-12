@@ -1,0 +1,11 @@
+{
+  "result": "pass",
+  "style": "wood",
+  "frames": 16,
+  "checks": 144,
+  "paintRows": [
+    16,
+    47
+  ],
+  "sequence": "Wood-only generator and independent checker completed before picket/barbed generation; final wood crosspieces were rechecked wood-only before adding variants."
+}

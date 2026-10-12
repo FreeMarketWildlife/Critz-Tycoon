@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "cottage enters and returns; indoor cue visible",
+    "garden enters and returns; indoor cue visible",
+    "shop enters and returns; indoor cue visible",
+    "cottage-open enters and returns; indoor cue visible",
+    "garden-open enters and returns; indoor cue visible",
+    "shop-open enters and returns; indoor cue visible",
+    "up uses animated hop and landing dust",
+    "right uses animated hop and landing dust",
+    "down uses animated hop and landing dust",
+    "left uses animated hop and landing dust",
+    "Explicit raw overrides preserve their collision choice",
+    "Fence row is walkable sideways, rail crossing blocked both ways",
+    "Review demonstrates open/closed entrances and preserves existing draft",
+    "All open entrance variants are searchable on the phone",
+    "Actual adventure walks behind a fence and blocks crossing its rail",
+    "Native pixel proof: fence overlaps Hero and all five dust poses differ with binary alpha",
+    "No browser errors or missing assets"
+  ],
+  "errors": []
+}

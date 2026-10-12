@@ -1,12 +1,12 @@
 import {tickMapTest,finishMapJump} from './test-motion.js';
 import {createMotion,advanceMotion,getMotionView,TICK_SECONDS} from '../src/movement.js';
 import {toolMatches} from './tool-search.js';
-import{SAVE_KEY,MATERIALS,FEATURES,PRESETS,STAMPS,DIRS,connectBuilding,doorCell,relocateDoorLinks,eraseAt,clone,at,inside,newMap,newProject,demoProject,reviewProject,paint,flood,resizeMap,blocked,placeObject,objectAt,move,validate,importProject,exportProject,exportChat}from'./model.js';
+import{SAVE_KEY,MATERIALS,FEATURES,PRESETS,STAMPS,DIRS,connectBuilding,doorCell,relocateDoorLinks,eraseAt,clone,at,inside,newMap,newProject,demoProject,reviewProject,fenceReviewProject,paint,flood,resizeMap,blocked,placeObject,objectAt,move,validate,importProject,exportProject,exportChat}from'./model.js';
 import{MapRenderer}from'./render.js';
 const $=id=>document.getElementById(id),renderer=new MapRenderer(),canvas=$('map'),ctx=canvas.getContext('2d'),viewport=$('viewport');
-const reviewId=new URLSearchParams(location.search).get('review'),review=['me3','me4'].includes(reviewId);
-let project=review?reviewProject(reviewId):demoProject(),undo=[],redo=[],mode='paint',brush='grass',stamp=null,raw=null,zoom=1,ox=40,oy=40,point={x:0,y:0},drag=null,settingsAdd=false,connectionPoint=null,testState=null,held=null,space=false,loaded=false,saveTimer,tileLimit=100,recovery=false;
-const labels={grass:'Grass',path:'Dirt path',paving:'Concrete',soil:'Garden soil',water:'Water',sand:'Sand beach',cliff:'Mountain',fence:'Fence',tallgrass:'Tall grass',flowers:'Flowers',bridge:'Bridge',stairs:'Cliff stairs',cave:'Cliff opening','ledge-down':'Ledge ↓','ledge-up':'Ledge ↑','ledge-left':'Ledge ←','ledge-right':'Ledge →'};
+const reviewId=new URLSearchParams(location.search).get('review'),review=['me3','me4','me5'].includes(reviewId);
+let project=review?(reviewId==='me5'?fenceReviewProject():reviewProject(reviewId)):demoProject(),undo=[],redo=[],mode='paint',brush='grass',stamp=null,raw=null,zoom=1,ox=40,oy=40,point={x:0,y:0},drag=null,settingsAdd=false,connectionPoint=null,testState=null,held=null,space=false,loaded=false,saveTimer,tileLimit=100,recovery=false;
+const labels={grass:'Grass',path:'Dirt path',paving:'Concrete',soil:'Garden soil',water:'Water',sand:'Sand beach',cliff:'Mountain',fence:'Wood fence','fence-picket':'White picket fence','fence-barbed':'Barbed wire fence',tallgrass:'Tall grass',flowers:'Flowers',bridge:'Bridge',stairs:'Cliff stairs',cave:'Cliff opening','ledge-down':'Ledge ↓','ledge-up':'Ledge ↑','ledge-left':'Ledge ←','ledge-right':'Ledge →'};
 const map=()=>project.maps.find(m=>m.id===project.active);
 function status(s){$('status').textContent=s;}
 function snapshot(){return JSON.stringify(project);}

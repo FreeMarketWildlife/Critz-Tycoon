@@ -16,3 +16,6 @@ export async function loadBuildingArt(){if(bank)return bank;const url=new URL('.
 export function drawBuilding(c,bank,o,{open=false,phase=0}={}){
  const a=bank.frames.get('building:'+o.type);if(!a)throw Error('Missing building '+o.type);const columns=a.rect[2]/32,width=o.w||columns,mid=Math.floor(columns/2),targetMid=Math.floor(width/2);for(let col=0;col<width;col++){const source=width===columns?col:col===targetMid?mid:col<targetMid?col===0?0:Math.min(col,mid-1):col===width-1?columns-1:columns-2;c.drawImage(bank.img,a.rect[0]+source*32,a.rect[1],32,a.rect[3],(o.x+col)*32,o.y*32+a.offsetY,32,a.rect[3]);}if(!open&&phase<2){const door=bank.frames.get('door:'+phase);c.drawImage(bank.img,...door.rect,(o.x+targetMid)*32,o.y*32+112,32,64);}
 }
+
+let fenceBank;
+export async function loadFenceArt(){if(fenceBank)return fenceBank;const url=new URL('../assets/review/fence-r5/atlas.json',import.meta.url),m=await(await fetch(url)).json(),img=new Image();img.src=new URL(m.image,url).href;await img.decode();fenceBank={img,frames:new Map(m.assets.map(a=>[a.id,a]))};return fenceBank;}

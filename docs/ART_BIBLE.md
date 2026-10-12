@@ -1,5 +1,12 @@
 # Critz: Tycoon — art bible
 
+## M1.ME5 — User correction: two-tile fence frame
+
+This supersedes ME4's raised16px fence draw offset. The user confirms collision is correct; change artwork/registration only. A fence frame is32×64: the top tile's upper half (rows0–15) and bottom tile's lower half (rows48–63) are entirely transparent. Paint is confined to rows16–47, from halfway up the bottom tile to halfway up the top tile. Draw at the authored tile origin, with no extra upward translation or independent per-piece reanchoring. Posts and rails stay within this band. The second tile is art projection, not a second collision tile; existing horizontal south-edge and vertical east-edge crossing rules remain unchanged, including same-row rear overlap and below-row front overlap.
+
+All16 cardinal joining contexts use the same band, including vertical runs and corner/junction branches. Vertical pairs share exact row47/row16 rail profiles; add deliberate crosspieces and finish unconnected ends instead of disconnected stubs. Wood uses warm brown/cream ramps. White pickets use pointed tops, ivory faces and quiet green-gray edges. Barbed wire uses thin cool metal strands, alternating hard-pixel crossed barbs and weathered wooden posts. All three are original hard native pixels with binary alpha, no cast shadow or reference-game imagery. Connect semantic fence styles with the same traversal geometry; mixed-style joins intentionally retain their material colors. Verify wood first, then apply the measured contract to the two new styles. Appearance remains for user review; exact native bounds/seams do not self-approve art.
+
+
 ## M1.TR1 — Tree concept review, 2026-10-11
 
 The user rejects the current trees and requests ten different concepts referencing Pokémon Emerald. [Concept sheet](reviews/M1-TR1/README.md) explores Classic Round, Scalloped Oak, Tall Crown, Twin Crown, Tiered Cedar, Coastal Palm, Orchard, Young Tree, Old Grove and Soft Willow. Use the existing pinned Emerald environment study (`5eff78649e7170a877b961ef0b3da13b81a16038`): compact connected leaf clusters, darker lower foliage, yellow-green upper planes and mostly hidden short trunks, with simultaneous top/front orthographic presentation. Different silhouettes are original Critz proposals, not ten verified Emerald species.

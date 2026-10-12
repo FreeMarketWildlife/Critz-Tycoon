@@ -1,5 +1,10 @@
 # Visual foundation production plan
 
+## M1.ME5 — Fence registration and three connected styles
+
+**Implemented and tested; publication in progress.** User confirms fence collision and requests corrected two-tile artwork, improved vertical joins, then white picket and barbed-wire versions. Deliverable: an explicitly labeled [fence review](reviews/M1-ME5/README.md) and shared adventure/editor fence rendering. Preserve crossing rules, save keys, maps and other assets. Wood registration/seams checked before adding variants. Main branch. 245 unit tests,432 independent native fence checks and56 release-browser scenarios pass (8 fence,22 editor,17 ME4 regression,9 adventure integration). Native/grid/phone and front/behind views inspected. Every style paints only rows16–47, all horizontal/vertical edge pairs join exactly, and projected lower halves remain visible when their anchor is above the viewport. Wood144-check proof preceded adding variants. The adventure integration harness now observes actual committed tile steps instead of assuming wall-clock holds yield fixed tile counts; its stable rerun passes. Tests use isolated synthetic storage; physical Safari is unverified. Exact next action: commit/push/publish the matched tested runtime and record remote/deployment evidence. New appearance awaits user feedback; no wider gate acceptance.
+
+
 ## M1.TR1 — Ten tree concepts
 
 **Concept deliverable complete; awaiting user visual review.** User rejects existing trees and requests ten different Pokémon Emerald-inspired concepts. [Numbered sheet](reviews/M1-TR1/README.md) is a standalone imagegen review, not a native production atlas. Art direction belongs in ART_BIBLE. Next action: user selects preferred silhouettes or requests revision; production/integration and wider visual gates remain pending.
