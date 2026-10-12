@@ -1,5 +1,26 @@
 # Critz: Tycoon — art bible
 
+## Protruding objects — sprite overhang and ground footprint, M1.TR2
+
+**User-defined construction contract, 2026-10-11.** A **protruding object** rises out of the ground and presents height in the overhead world: trees, freestanding rocks, furniture, buildings and similar raised props. This is a 2D representation of a 3D form, not a requirement for polygonal 3D models. Use the canonical **ground footprint** and **overhead projection** terms. **Sprite overhang** means artwork extending beyond occupied ground cells; **ground anchor** registers visible contact; **sort anchor** controls ordering against actor feet. These are separate properties. Flat terrain, water/surface transitions, floor markings, decals and shadows do not use this height convention. Fence-specific crossing/contact exceptions remain governed by ME5/ME4.
+
+For protruding objects, prefer original **transparent PNG object sprites over existing terrain**, with explicit footprint/collision metadata. Do not bake grass, dirt or paving into tree PNGs or block cells merely because canopy pixels cover them. DOC.EDGE1's older baked object-plus-ground boundary metatile requirement is superseded for this category: retain deliberate root/foundation contact and approved B contact principles, while actual underlying terrain supplies the ground. Connected terrain and surface/collision transitions still use dedicated tile systems. PNG is an export format; atlas packing is allowed if placement, native pixels and metadata remain exact.
+
+**Cedar contract:** 32px map cells; 2×3 canvas = 64×96. Only the two middle-row cells are blocked. In PNG coordinates (top-left origin, y down), collision rect `[0,32,64,32]` covers rows 32–63. Crown starts halfway down the top row at y16. Root ground contact is halfway down the bottom row at edge y80 (last painted root row79); trunk rises from that contact into the crown. Preserve transparent rows 0–15 and 80–95. Canvas rows 0/2 contribute no collision; underlying terrain and other objects keep their own blockers. Visible crown/root ends do not resize explicit collision. This halfway registration is the user's Critz convention, not a newly measured universal Emerald rule.
+
+```text
+                 canvas    tree collision
+top row          00        ..
+middle row       00        XX
+bottom row       00        ..
+```
+
+Tiered Cedar and Coastal Palm use 2×3 canvases. The user's follow-up requests wider Soft Willow and Old Grove canvases, authored as 3×3 = 96×96. They retain a centered 2×1 footprint, with 16px visual overhang on each side: collision rect `[16,32,64,32]`. The 3×3 choice and retained footprint for the wider trees are explicit Critz implementation choices for review. Keep y16/y80 height registration across all four.
+
+Place by the top-left of the **ground footprint**. PNG draw offsets are `(0,−32)` for cedar/palm and `(−16,−32)` for willow/grove. Ground anchors in PNG space are `(32,80)` / `(48,80)`; sort anchors are `(32,64)` / `(48,64)`, at the footprint's south edge. Do not use canvas bottom or alpha bounds as replacement anchors. Sort with actor feet: objects cover actors behind them; actors in front cover objects. Use explicit canopy/foreground slices if a shape needs finer ordering. Do not put every PNG permanently above actors. Keep cast shadows on their separate toggleable layer.
+
+The four original native sprites use connected hard-pixel clusters for tiered, hanging, broad-crown and folded-frond forms. PNG exports contain no grid, labels, ground fill, blur, antialiasing or baked cast shadows. Editable indexed sources and object metadata accompany them. [Native review and registration proof](reviews/M1-TR2/README.md). Selected-concept production is authorized; these new native appearances still await the user's visual response before replacing gameplay trees. No existing collision, saves or terrain is changed by this static packet.
+
 ## M1.ME5 — User correction: two-tile fence frame
 
 This supersedes ME4's raised16px fence draw offset. The user confirms collision is correct; change artwork/registration only. A fence frame is32×64: the top tile's upper half (rows0–15) and bottom tile's lower half (rows48–63) are entirely transparent. Paint is confined to rows16–47, from halfway up the bottom tile to halfway up the top tile. Draw at the authored tile origin, with no extra upward translation or independent per-piece reanchoring. Posts and rails stay within this band. The second tile is art projection, not a second collision tile; existing horizontal south-edge and vertical east-edge crossing rules remain unchanged, including same-row rear overlap and below-row front overlap.

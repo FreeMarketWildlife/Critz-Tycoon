@@ -32,11 +32,11 @@
       "collisionCells": [
         [
           0,
-          1
+          0
         ],
         [
           1,
-          1
+          0
         ]
       ],
       "collisionRectPixels": [
@@ -45,7 +45,7 @@
         64,
         32
       ],
-      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "placementOrigin": "top-left of2\u00d71 ground footprint; collisionCells relative to that origin",
       "drawOffsetFromFootprintPixels": [
         0,
         -32
@@ -61,46 +61,46 @@
       "id": "tree-r2:soft-willow",
       "image": "soft-willow.png",
       "canvasPixels": [
-        64,
+        96,
         96
       ],
       "canvasTiles": [
-        2,
+        3,
         3
       ],
       "paintBounds": [
-        4,
+        6,
         16,
-        59,
+        91,
         80
       ],
       "groundAnchorPixels": [
-        32,
+        48,
         80
       ],
       "sortAnchorPixels": [
-        32,
+        48,
         64
       ],
       "collisionCells": [
         [
           0,
-          1
+          0
         ],
         [
           1,
-          1
+          0
         ]
       ],
       "collisionRectPixels": [
-        0,
+        16,
         32,
         64,
         32
       ],
-      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "placementOrigin": "top-left of2\u00d71 ground footprint; collisionCells relative to that origin",
       "drawOffsetFromFootprintPixels": [
-        0,
+        -16,
         -32
       ],
       "visualOnlyRows": [
@@ -114,46 +114,46 @@
       "id": "tree-r2:old-grove",
       "image": "old-grove.png",
       "canvasPixels": [
-        64,
+        96,
         96
       ],
       "canvasTiles": [
-        2,
+        3,
         3
       ],
       "paintBounds": [
-        3,
+        4,
         16,
-        61,
+        92,
         80
       ],
       "groundAnchorPixels": [
-        32,
+        48,
         80
       ],
       "sortAnchorPixels": [
-        32,
+        48,
         64
       ],
       "collisionCells": [
         [
           0,
-          1
+          0
         ],
         [
           1,
-          1
+          0
         ]
       ],
       "collisionRectPixels": [
-        0,
+        16,
         32,
         64,
         32
       ],
-      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "placementOrigin": "top-left of2\u00d71 ground footprint; collisionCells relative to that origin",
       "drawOffsetFromFootprintPixels": [
-        0,
+        -16,
         -32
       ],
       "visualOnlyRows": [
@@ -191,11 +191,11 @@
       "collisionCells": [
         [
           0,
-          1
+          0
         ],
         [
           1,
-          1
+          0
         ]
       ],
       "collisionRectPixels": [
@@ -204,7 +204,7 @@
         64,
         32
       ],
-      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "placementOrigin": "top-left of2\u00d71 ground footprint; collisionCells relative to that origin",
       "drawOffsetFromFootprintPixels": [
         0,
         -32

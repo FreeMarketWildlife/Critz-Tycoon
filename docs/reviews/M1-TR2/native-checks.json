@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "id": "tree-r2:tiered-cedar",
+      "size": [
+        64,
+        96
+      ],
+      "bounds": [
+        5,
+        16,
+        60,
+        80
+      ],
+      "opaqueColors": 11,
+      "occupiedPixels": 2128,
+      "components": [
+        2128
+      ],
+      "sha256": "b3bb5d7620499ca90d35c086616fc52341e62a077472df3910002bf55ec1eb53",
+      "checks": "dimensions, binary alpha, y16..79, middle2-cell collision, anchors, exact source export, connected art, transparent ground pass"
+    },
+    {
+      "id": "tree-r2:soft-willow",
+      "size": [
+        96,
+        96
+      ],
+      "bounds": [
+        6,
+        16,
+        91,
+        80
+      ],
+      "opaqueColors": 11,
+      "occupiedPixels": 3568,
+      "components": [
+        3568
+      ],
+      "sha256": "fc84a85458d88ae0655471a89e8f13fd651dcf25159bad330c0b6be5ccc2c90d",
+      "checks": "dimensions, binary alpha, y16..79, middle2-cell collision, anchors, exact source export, connected art, transparent ground pass"
+    },
+    {
+      "id": "tree-r2:old-grove",
+      "size": [
+        96,
+        96
+      ],
+      "bounds": [
+        4,
+        16,
+        92,
+        80
+      ],
+      "opaqueColors": 11,
+      "occupiedPixels": 3688,
+      "components": [
+        3688
+      ],
+      "sha256": "08c9a5f6ae207ea4c416f69db096e36229cc2d796873ca78b4ae31aef906884d",
+      "checks": "dimensions, binary alpha, y16..79, middle2-cell collision, anchors, exact source export, connected art, transparent ground pass"
+    },
+    {
+      "id": "tree-r2:coastal-palm",
+      "size": [
+        64,
+        96
+      ],
+      "bounds": [
+        3,
+        16,
+        61,
+        80
+      ],
+      "opaqueColors": 10,
+      "occupiedPixels": 1545,
+      "components": [
+        1545
+      ],
+      "sha256": "165ba4941cd2f36e46bca687d4beb3f58f875ab615cb56f380fa1cfa87de2c6d",
+      "checks": "dimensions, binary alpha, y16..79, middle2-cell collision, anchors, exact source export, connected art, transparent ground pass"
+    }
+  ],
+  "limitations": "Static review assets only; no runtime integration or physical-phone movement check."
+}

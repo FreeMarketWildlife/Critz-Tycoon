@@ -1,5 +1,7 @@
 # Reference measurements — Emerald exploration
 
+M1.TR2's protruding-object canvas, halfway registration and separate PNG/ground-footprint contract are **user-defined Critz rules**, not new Emerald measurements. See the canonical [art-bible contract](ART_BIBLE.md#protruding-objects--sprite-overhang-and-ground-footprint-m1tr2) and [native checks](reviews/M1-TR2/native-checks.json). Pinned reference evidence below remains unchanged.
+
 ## M1.C4 revision 2 — Selected front-idle anatomy annotation
 
 [Brendan frame 0 annotations](reviews/M1-C4/revision-2/MEASUREMENTS.md) narrow U001 for this selected south-idle frame using the same pinned PNG and verified SHA-256. The record defines 13 measurement regions, eye rectangles, anchor, doubled targets and actual Critz values. Eye pixels are at x=6/9, y=19–20; target rectangles are `[12,38,14,42]` and `[18,38,20,42]`. Hat/hair band envelope is 12×8; face/ear band is 14×5; each combined arm/hand region is 4×4. Regions include borders and clothing overlap as documented, not invented measurements of hidden bones. Hidden cranium and clothing-obscured anatomy remain unobservable; no other character or pose is resolved by these annotations. The original afro's contour/area differs inside the measured envelope and is declared in the record. No emulator evidence is added.

@@ -10,6 +10,8 @@ Use the canonical [transition-tile glossary and contact rules](docs/ART_BIBLE.md
 
 The user-approved boundary choice is **B**. Apply the canonical contact rules to every static collider on both axes, including independent editor and review renderers. Keep collision explicit and overhead projection separate.
 
+For raised props, follow the canonical [protruding-object sprite and footprint contract](docs/ART_BIBLE.md#protruding-objects--sprite-overhang-and-ground-footprint-m1tr2). Keep its scope, terminology and registration specifications in the art bible.
+
 ## Project workflow
 
 - Work directly on `main`. Do not create development branches or worktrees. Inspect existing branches/PRs when locating prior work; do not delete or manually close them as a side effect.

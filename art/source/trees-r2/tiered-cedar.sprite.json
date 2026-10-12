@@ -20,7 +20,7 @@
     "#c6df7a"
   ],
   "bank": "wildlife",
-  "notes": "M1.TR2 native review. Ground anchor (32,80); explicit middle-row collision in objects.json. No inferred alpha collision.",
+  "notes": "M1.TR2 native review. Ground anchor at (canvasWidth/2,80); explicit middle-row collision in objects.json. No inferred alpha collision.",
   "frames": [
     {
       "name": "Static review",

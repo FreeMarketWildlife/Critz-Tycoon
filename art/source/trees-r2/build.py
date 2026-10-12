@@ -40,36 +40,38 @@ def crown(im, cx, cy, rx, ry, ramp=LEAF):
 
 def roots(im, wide=False, palm=False):
     d=ImageDraw.Draw(im)
-    d.polygon([(28,55),(36,55),(37,70),(40,75),(45 if wide else 41,78),(45 if wide else 41,79),(34,78),(31,79),(20 if wide else 23,79),(23,76),(27,71)],fill=WOOD[0])
-    d.polygon([(29,56),(34,56),(35,70),(38,75),(40,77),(34,76),(32,78),(26,78),(29,72)],fill=WOOD[1])
-    d.polygon([(29,56),(31,56),(31,71),(28,76),(26,77),(30,77),(33,74),(33,70),(32,56)],fill=WOOD[2])
-    d.line((29,60,29,70),fill=WOOD[3]);d.line((28,73,26,76),fill=WOOD[3])
+    d.polygon([(28,42 if palm else 55),(36,42 if palm else 55),(37,70),(40,75),(45 if wide else 41,78),(45 if wide else 41,79),(34,78),(31,79),(20 if wide else 23,79),(23,76),(27,71)],fill=WOOD[0])
+    d.polygon([(29,43 if palm else 56),(34,43 if palm else 56),(35,70),(38,75),(40,77),(34,76),(32,78),(26,78),(29,72)],fill=WOOD[1])
+    d.polygon([(29,43 if palm else 56),(31,43 if palm else 56),(31,71),(28,76),(26,77),(30,77),(33,74),(33,70),(32,43 if palm else 56)],fill=WOOD[2])
+    d.line((29,44 if palm else 60,29,70),fill=WOOD[3]);d.line((28,73,26,76),fill=WOOD[3])
     if palm:
-        for y in [59,64,69,74]:
+        for y in [44,49,54,59,64,69,74]:
             d.line((29,y,34,y+1),fill=WOOD[3]);d.line((31,y+2,35,y+2),fill=WOOD[0])
 
 def make(name):
-    im=Image.new('RGBA',(64,96));roots(im, name=='old-grove', name=='coastal-palm')
+    wide=name in ['old-grove','soft-willow']
+    im=Image.new('RGBA',(96 if wide else 64,96))
+    base=Image.new('RGBA',(64,96));roots(base, name=='old-grove', name=='coastal-palm');im.paste(base,(16 if wide else 0,0))
     if name=='tiered-cedar':
         # Bottom-to-top layers: silhouette stays within y16..79.
         crown(im,32,55,27,14)
         crown(im,31,42,22,13)
         crown(im,32,29,15,13)
     elif name=='old-grove':
-        crown(im,31,53,25,16)
-        crown(im,17,42,14,15);crown(im,46,42,14,15)
-        crown(im,30,34,19,18)
-        crown(im,16,52,12,11);crown(im,45,53,13,12)
+        crown(im,48,53,40,16)
+        crown(im,22,42,18,15);crown(im,73,42,18,15)
+        crown(im,47,34,25,18)
+        crown(im,22,53,17,12);crown(im,72,53,18,12)
     elif name=='soft-willow':
-        crown(im,31,39,27,20)
+        crown(im,48,39,42,20)
         d=ImageDraw.Draw(im)
-        curtains=[(7,43,12,68),(14,46,19,72),(22,48,27,67),(37,47,42,70),(46,43,51,73),(53,40,57,64)]
+        curtains=[(7,43,13,68),(18,46,24,72),(30,48,36,67),(59,47,65,70),(73,43,79,73),(84,40,89,64)]
         for x,y,x2,end in curtains:
             d.polygon([(x,y),(x2,y-2),(x2+1,end-8),(x2-1,end-8),(x2-1,end-2),(x+1,end-2),(x+1,end),(x,end),(x-1,end-9)],fill=LEAF[0])
             d.polygon([(x+1,y),(x2-1,y),(x2-1,end-10),(x+2,end-4),(x+1,end-4)],fill=LEAF[3])
             d.line((x+1,y+2,x+1,end-11),fill=LEAF[5])
             for yy in range(y+7,end-10,8):d.line((x+2,yy,x2-1,yy-2),fill=LEAF[4])
-        crown(im,27,32,18,16)
+        crown(im,43,32,28,16)
     else:
         d=ImageDraw.Draw(im)
         # Six distinct palm fronds, defined as angular folded leaves.
@@ -80,44 +82,49 @@ def make(name):
             inner=[(round(x*.84+cx*.16),round(y*.84+cy*.16)) for x,y in p]
             d.polygon(inner,fill=LEAF[3 if i<3 else 2])
             # One bright vein with small paired facets; dark underside retained.
-            tip=p[2];d.line((31,39,tip[0],tip[1]+2),fill=LEAF[5],width=2)
-            d.line((31,41,tip[0]+1,tip[1]+4),fill=LEAF[4])
+            tip=p[2];vein=Image.new('RGBA',im.size);vd=ImageDraw.Draw(vein)
+            vd.line((31,39,tip[0],tip[1]+2),fill=LEAF[5],width=2)
+            vd.line((31,41,tip[0]+1,tip[1]+4),fill=LEAF[4])
+            mask=Image.new('1',im.size);ImageDraw.Draw(mask).polygon(p,fill=1)
+            for yy in range(16,70):
+                for xx in range(64):
+                    if mask.getpixel((xx,yy)) and vein.getpixel((xx,yy))[3]:im.putpixel((xx,yy),vein.getpixel((xx,yy)))
         d.rectangle((28,38,34,44),fill=LEAF[1]);d.rectangle((29,38,32,40),fill=LEAF[4])
     return im
 
 names=['tiered-cedar','soft-willow','old-grove','coastal-palm']
 assets=[]
 for name in names:
-    im=make(name);im.save(OUT/f'{name}.png')
-    palette=[None]+sorted({'#%02x%02x%02x'%p[:3] for p in im.getdata() if p[3]})
+    im=make(name);im.save(OUT/f'{name}.png');width=im.width;offset=(width-64)//2
+    palette=[None]+sorted({'#%02x%02x%02x'%p[:3] for p in im.get_flattened_data() if p[3]})
     lookup={c:i for i,c in enumerate(palette)}
-    pixels=[lookup['#%02x%02x%02x'%p[:3]] if p[3] else 0 for p in im.getdata()]
-    project={'format':'fmw-sprite','version':1,'name':name.replace('-',' ').title(),'preset':'custom','width':64,'height':96,'palette':palette,'bank':'wildlife','notes':'M1.TR2 native review. Ground anchor (32,80); explicit middle-row collision in objects.json. No inferred alpha collision.','frames':[{'name':'Static review','ticks':8,'pixels':pixels}]}
+    pixels=[lookup['#%02x%02x%02x'%p[:3]] if p[3] else 0 for p in im.get_flattened_data()]
+    project={'format':'fmw-sprite','version':1,'name':name.replace('-',' ').title(),'preset':'custom','width':width,'height':96,'palette':palette,'bank':'wildlife','notes':'M1.TR2 native review. Ground anchor at (canvasWidth/2,80); explicit middle-row collision in objects.json. No inferred alpha collision.','frames':[{'name':'Static review','ticks':8,'pixels':pixels}]}
     (Path(__file__).parent/f'{name}.sprite.json').write_text(json.dumps(project,indent=2)+'\n')
-    assets.append({'id':f'tree-r2:{name}','image':f'{name}.png','canvasPixels':[64,96],'canvasTiles':[2,3],'paintBounds':list(im.getbbox()),'groundAnchorPixels':[32,80],'sortAnchorPixels':[32,64],'collisionCells':[[0,1],[1,1]],'collisionRectPixels':[0,32,64,32],'placementOrigin':'canvas top-left; row1 is occupied ground row','drawOffsetFromFootprintPixels':[0,-32],'visualOnlyRows':[0,2],'protruding':True,'approval':'awaiting user visual review'})
+    assets.append({'id':f'tree-r2:{name}','image':f'{name}.png','canvasPixels':[width,96],'canvasTiles':[width//32,3],'paintBounds':list(im.getbbox()),'groundAnchorPixels':[width//2,80],'sortAnchorPixels':[width//2,64],'collisionCells':[[0,0],[1,0]],'collisionRectPixels':[offset,32,64,32],'placementOrigin':'top-left of2×1 ground footprint; collisionCells relative to that origin','drawOffsetFromFootprintPixels':[-offset,-32],'visualOnlyRows':[0,2],'protruding':True,'approval':'awaiting user visual review'})
 (OUT/'objects.json').write_text(json.dumps({'format':'critz-protruding-object-review','version':1,'tileSize':32,'coordinateSystem':'PNG top-left, x right, y down','assets':assets},indent=2)+'\n')
 # Native and exact enlarged presentation. Guides never enter asset PNGs.
 font=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',22)
 small=ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf',16)
-plate=Image.new('RGB',(1200,600),'#f3f0df');d=ImageDraw.Draw(plate)
+plate=Image.new('RGB',(1472,600),'#f3f0df');d=ImageDraw.Draw(plate)
 d.text((24,16),'M1.TR2 — Native protruding tree objects · review',font=font,fill='#23473c')
 for i,a in enumerate(assets):
-    x=20+i*296; im=Image.open(OUT/a['image'])
+    x=20+i*364; im=Image.open(OUT/a['image'])
     d.text((x,55),names[i].replace('-',' ').title(),font=font,fill='#23473c')
     plate.paste(im,(x,90),im)
-    scaled=im.resize((256,384),Image.Resampling.NEAREST)
-    bg=Image.new('RGB',(256,384),'#a9bb7a');bg.paste(scaled,(0,0),scaled)
+    scaled=im.resize((im.width*4,384),Image.Resampling.NEAREST)
+    bg=Image.new('RGB',(im.width*4,384),'#a9bb7a');bg.paste(scaled,(0,0),scaled)
     plate.paste(bg,(x,196))
-    d.text((x+80,113),'1× · 64×96',font=small,fill='#23473c')
-    d.text((x+80,140),'4× below',font=small,fill='#23473c')
+    d.text((x+im.width+10,113),f'1× · {im.width}×96',font=small,fill='#23473c')
+    d.text((x+im.width+10,140),'4× below',font=small,fill='#23473c')
 plate.save(REVIEW/'trees-native-and-4x.png')
 guide=plate.copy();d=ImageDraw.Draw(guide)
-for i in range(4):
-    x=20+i*296; y=196
-    d.rectangle((x,y+128,x+255,y+255),outline='#df533f',width=3)
-    for xx in [0,128,256]:d.line((x+xx,y,x+xx,y+384),fill='#faf0d5',width=1)
-    for yy in [0,128,256,384]:d.line((x,y+yy,x+256,y+yy),fill='#faf0d5',width=1)
-    for yy in [64,320]:d.line((x,y+yy,x+256,y+yy),fill='#3a68a2',width=2)
-    d.ellipse((x+124,y+316,x+132,y+324),fill='#fbd85d')
+for i,a in enumerate(assets):
+    x=20+i*364; y=196;w=a['canvasPixels'][0]*4;off=a['collisionRectPixels'][0]*4
+    d.rectangle((x+off,y+128,x+off+255,y+255),outline='#df533f',width=3)
+    for xx in range(0,w+1,128):d.line((x+xx,y,x+xx,y+384),fill='#faf0d5',width=1)
+    for yy in [0,128,256,384]:d.line((x,y+yy,x+w,y+yy),fill='#faf0d5',width=1)
+    for yy in [64,320]:d.line((x,y+yy,x+w,y+yy),fill='#3a68a2',width=2)
+    d.ellipse((x+w//2-4,y+316,x+w//2+4,y+324),fill='#fbd85d')
 guide.save(REVIEW/'registration-proof.png')
-print('4 native transparent64×96 PNGs, editable sources, object metadata and exact4× plates')
+print('4 native transparent PNGs (cedar/palm64×96; willow/grove96×96), editable sources, object metadata and exact4× plates')
