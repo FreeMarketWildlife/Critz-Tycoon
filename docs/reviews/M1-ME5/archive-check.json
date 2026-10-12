@@ -1,0 +1,20 @@
+{
+  "result": "pass",
+  "testedRuntimeFiles": 1388,
+  "unchangedTestedRuntime": true,
+  "concurrentInactiveReviewAssets": [
+    "assets/review/trees-r2/coastal-palm.png",
+    "assets/review/trees-r2/objects.json",
+    "assets/review/trees-r2/old-grove.png",
+    "assets/review/trees-r2/soft-willow.png",
+    "assets/review/trees-r2/tiered-cedar.png"
+  ],
+  "allArchiveSourceFilesMatchCommit": true,
+  "exactBuildFiles": 2770,
+  "archiveFiles": 2771,
+  "soleArchiveAddition": "dist/.openai/hosting.json",
+  "fenceCommit": "e4f53eba45ef8a9fc949ba2f29262cfbe0424541",
+  "runtimeCommit": "0d3e56a9ed5c4d84a34e5aa72262b9be5a87a06b",
+  "archiveSHA256": "8077733fb4ed155baff13e4b7f65d589393b522f6639765401f144df303e8a2f",
+  "noCachesOrResourceForks": true
+}
