@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## M1.TR1 — Tree concept review, 2026-10-11
+
+The user rejects the current trees and requests ten different concepts referencing Pokémon Emerald. [Concept sheet](reviews/M1-TR1/README.md) explores Classic Round, Scalloped Oak, Tall Crown, Twin Crown, Tiered Cedar, Coastal Palm, Orchard, Young Tree, Old Grove and Soft Willow. Use the existing pinned Emerald environment study (`5eff78649e7170a877b961ef0b3da13b81a16038`): compact connected leaf clusters, darker lower foliage, yellow-green upper planes and mostly hidden short trunks, with simultaneous top/front orthographic presentation. Different silhouettes are original Critz proposals, not ten verified Emerald species.
+
+This imagegen sheet is enlarged concept art, not native production pixels. Suggested compact64×64 and taller64×96 envelopes reuse the established M1.E2 direction; actual native bounds, palette, anchors and collision remain unverified until a selected design is authored independently. Keep hard stepped clusters and restrained texture; avoid smooth circles, noisy individual leaves and realistic perspective. No baked cast shadows; overhead projection stays separate from explicit ground footprint and approved B contact in any later integration. User selection precedes native production or replacement of accepted gameplay. No animation or world expansion is authorized by this concept delivery.
+
 ## M1.ME4 — Door cues, walk-behind rails and landing dust
 
 The user's positive revision3 feedback and request to apply it to all buildings authorize shared cottage/garden/shop facade rendering across standard adventure buildings and the editor. Preserve existing footprints, scene widths, doors, names and specialist glass greenhouse art. Wide facades repeat native32px modules without resampling; an always-open entrance keeps the dark aperture outside. Closed/part-open/open poses use the same original bank. All three editor building types have explicit open-entrance variants; saved v1 door buildings remain ordinary doors by default.
