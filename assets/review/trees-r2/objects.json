@@ -1,0 +1,220 @@
+{
+  "format": "critz-protruding-object-review",
+  "version": 1,
+  "tileSize": 32,
+  "coordinateSystem": "PNG top-left, x right, y down",
+  "assets": [
+    {
+      "id": "tree-r2:tiered-cedar",
+      "image": "tiered-cedar.png",
+      "canvasPixels": [
+        64,
+        96
+      ],
+      "canvasTiles": [
+        2,
+        3
+      ],
+      "paintBounds": [
+        5,
+        16,
+        60,
+        80
+      ],
+      "groundAnchorPixels": [
+        32,
+        80
+      ],
+      "sortAnchorPixels": [
+        32,
+        64
+      ],
+      "collisionCells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collisionRectPixels": [
+        0,
+        32,
+        64,
+        32
+      ],
+      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "drawOffsetFromFootprintPixels": [
+        0,
+        -32
+      ],
+      "visualOnlyRows": [
+        0,
+        2
+      ],
+      "protruding": true,
+      "approval": "awaiting user visual review"
+    },
+    {
+      "id": "tree-r2:soft-willow",
+      "image": "soft-willow.png",
+      "canvasPixels": [
+        64,
+        96
+      ],
+      "canvasTiles": [
+        2,
+        3
+      ],
+      "paintBounds": [
+        4,
+        16,
+        59,
+        80
+      ],
+      "groundAnchorPixels": [
+        32,
+        80
+      ],
+      "sortAnchorPixels": [
+        32,
+        64
+      ],
+      "collisionCells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collisionRectPixels": [
+        0,
+        32,
+        64,
+        32
+      ],
+      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "drawOffsetFromFootprintPixels": [
+        0,
+        -32
+      ],
+      "visualOnlyRows": [
+        0,
+        2
+      ],
+      "protruding": true,
+      "approval": "awaiting user visual review"
+    },
+    {
+      "id": "tree-r2:old-grove",
+      "image": "old-grove.png",
+      "canvasPixels": [
+        64,
+        96
+      ],
+      "canvasTiles": [
+        2,
+        3
+      ],
+      "paintBounds": [
+        3,
+        16,
+        61,
+        80
+      ],
+      "groundAnchorPixels": [
+        32,
+        80
+      ],
+      "sortAnchorPixels": [
+        32,
+        64
+      ],
+      "collisionCells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collisionRectPixels": [
+        0,
+        32,
+        64,
+        32
+      ],
+      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "drawOffsetFromFootprintPixels": [
+        0,
+        -32
+      ],
+      "visualOnlyRows": [
+        0,
+        2
+      ],
+      "protruding": true,
+      "approval": "awaiting user visual review"
+    },
+    {
+      "id": "tree-r2:coastal-palm",
+      "image": "coastal-palm.png",
+      "canvasPixels": [
+        64,
+        96
+      ],
+      "canvasTiles": [
+        2,
+        3
+      ],
+      "paintBounds": [
+        3,
+        16,
+        61,
+        80
+      ],
+      "groundAnchorPixels": [
+        32,
+        80
+      ],
+      "sortAnchorPixels": [
+        32,
+        64
+      ],
+      "collisionCells": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "collisionRectPixels": [
+        0,
+        32,
+        64,
+        32
+      ],
+      "placementOrigin": "canvas top-left; row1 is occupied ground row",
+      "drawOffsetFromFootprintPixels": [
+        0,
+        -32
+      ],
+      "visualOnlyRows": [
+        0,
+        2
+      ],
+      "protruding": true,
+      "approval": "awaiting user visual review"
+    }
+  ]
+}
