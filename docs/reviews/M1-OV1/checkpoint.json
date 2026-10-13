@@ -1,0 +1,26 @@
+{
+  "task": "M1.OV1",
+  "runtimeCommit": "929a23345d4269393ce375adcce3bea400d06499",
+  "branch": "main",
+  "origin": "https://github.com/FreeMarketWildlife/Critz-Tycoon.git",
+  "pushSucceeded": true,
+  "remoteRuntimeSHAVerified": "929a23345d4269393ce375adcce3bea400d06499",
+  "workingTreeCleanAtRuntimePush": true,
+  "runtimeFilesMatchTestedDist": 1325,
+  "unitTestsPassed": 248,
+  "releaseArtBrowserChecks": 10,
+  "editorRegressionChecks": 22,
+  "adventureIntegrationChecks": 9,
+  "sitesPublished": false,
+  "hostedPhoneBuild": "Existing deployment unchanged; parent coordinates publication.",
+  "ownershipReleased": [
+    "map-editor/editor.js",
+    "map-editor/editor.css",
+    "map-editor/model.js",
+    "map-editor/render.js",
+    "map-editor/tool-search.js"
+  ],
+  "worldWaterEdited": false,
+  "receiptChanges": "Documentation/evidence only; tested runtime unchanged.",
+  "localPreview": "http://localhost:5197/art-review/grove.html"
+}

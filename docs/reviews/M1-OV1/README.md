@@ -56,3 +56,5 @@ Visually inspected native/enlarged Button poses, garden ground/tree composition,
 After the batch checkpoint, editor/model/render ownership is released to parent and the editor audit worker. `src/world-water.js` was never edited. Next priorities from that audit are raw override traversal/render consistency, local water underlays and pond depth isolation, water compilation cost, unreachable passage/water validation, stale return links after resize, and footprint-only tree placement. They are not claimed fixed here.
 
 Morning questions: Does the grove/willow/cedar family fit Rootport at play scale? Should the older fruit-tree crown be redrawn into this family next? Does Button's larger whorl and restrained movement read clearly in the field guide? These are optional visual decisions, not overnight blockers.
+
+Validated runtime commit `929a23345d4269393ce375adcce3bea400d06499` is pushed to verified `FreeMarketWildlife/Critz-Tycoon` `origin/main`, with matching remote SHA and a clean runtime checkpoint. [Receipt](checkpoint.json). This final receipt changes documentation only. Editor/model/render ownership is released; no further source edits by this batch.
