@@ -24,7 +24,7 @@ export const rescueInfo = {
     name: "Button the garden snail",
     location: "House · beside the bookshelf",
     description:
-      "A land snail, not an aquatic snail. Needs suitable food, calcium, moisture, and ventilation. Resting in a separate care box at the Vet.",
+      "A land snail with a honey-colored whorl. Button explores one feeler at a time, then takes the long way around a leaf. Needs suitable food, calcium, moisture, and ventilation. Resting in a separate care box at the Vet.",
   },
   isopods: {
     name: "A family of 6 isopods",

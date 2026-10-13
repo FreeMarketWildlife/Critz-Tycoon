@@ -1,0 +1,17 @@
+{
+  "task": "M1.OV1",
+  "checks": [
+    "Observation vignette completes through three distinct behavior actions",
+    "Accepted Button cue unlocks on click and toggle stops it without repeated MIDI requests",
+    "Art and music review preserve game and map storage byte-for-byte",
+    "All four native tree styles are searchable; placement shows full canopy and separate two-cell blocker",
+    "Garden walking review opens with actual shared controller and never overwrites saved draft",
+    "Eight actual editor renders match independent front/behind native-pixel composites",
+    "Actual adventure loads all four transparent tree sprites on the unchanged yard map",
+    "Before/after yard captures use the same synthetic state, viewport and clock",
+    "Button and Map Studio fit 320px/390px portrait and 844px landscape viewports",
+    "No browser exceptions or missing assets across review, editor and adventure"
+  ],
+  "errors": [],
+  "physicalSafariTested": false
+}

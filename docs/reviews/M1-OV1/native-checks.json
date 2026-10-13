@@ -1,0 +1,257 @@
+{
+  "task": "M1.OV1",
+  "status": "passed",
+  "nativeFrame": [
+    32,
+    32
+  ],
+  "frames": [
+    {
+      "id": "button-snail.0",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-snail.1",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-snail.2",
+      "bounds": [
+        3,
+        10,
+        30,
+        28
+      ],
+      "opaquePixels": 320,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-snail.3",
+      "bounds": [
+        3,
+        10,
+        30,
+        28
+      ],
+      "opaquePixels": 320,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-snail.4",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-snail.5",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-snail.6",
+      "bounds": [
+        3,
+        10,
+        28,
+        28
+      ],
+      "opaquePixels": 317,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-snail.7",
+      "bounds": [
+        3,
+        10,
+        28,
+        28
+      ],
+      "opaquePixels": 317,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-look.0",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-look.1",
+      "bounds": [
+        3,
+        10,
+        28,
+        28
+      ],
+      "opaquePixels": 317,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-look.2",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-look.3",
+      "bounds": [
+        3,
+        10,
+        30,
+        28
+      ],
+      "opaquePixels": 320,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-nibble.0",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-nibble.1",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 309,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-nibble.2",
+      "bounds": [
+        3,
+        10,
+        30,
+        28
+      ],
+      "opaquePixels": 309,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-nibble.3",
+      "bounds": [
+        3,
+        10,
+        30,
+        28
+      ],
+      "opaquePixels": 312,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-tuck.0",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 318,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-tuck.1",
+      "bounds": [
+        3,
+        10,
+        28,
+        28
+      ],
+      "opaquePixels": 310,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-tuck.2",
+      "bounds": [
+        3,
+        10,
+        27,
+        28
+      ],
+      "opaquePixels": 298,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    },
+    {
+      "id": "button-tuck.3",
+      "bounds": [
+        3,
+        10,
+        29,
+        28
+      ],
+      "opaquePixels": 317,
+      "connected": true,
+      "rgbaMatchesSourceAndAtlas": true
+    }
+  ],
+  "decodedGIFFrames": 20,
+  "glideSourceTicks": 72,
+  "glideSeconds": 1.205474853515625,
+  "paletteColors": 11,
+  "heroApprovedHashPreserved": true,
+  "provenance": "Original native authoring; no reference raster inputs",
+  "limitations": "Visual acceptance and physical Safari require user review."
+}

@@ -1,0 +1,22 @@
+{
+  "unitTests": 248,
+  "unitFailures": 0,
+  "releaseBrowserChecks": 10,
+  "editorRegressionChecks": 22,
+  "adventureIntegrationChecks": 9,
+  "nativeButtonFrames": 20,
+  "decodedGIFFrames": 20,
+  "soilSourceFrames": 188,
+  "soilEdgeComparisons": 1048576,
+  "soilLayouts": 65536,
+  "runtimeFilesMatched": 1325,
+  "build": "passed",
+  "syntax": "passed",
+  "diffCheck": "passed",
+  "physicalSafariTested": false,
+  "audibleSpeakerListeningTested": false,
+  "newAppearanceUserAccepted": false,
+  "sitesPublished": false,
+  "originalWorldAndCollisionSourceChanged": false,
+  "fixtureCorrection": "Pre-existing adventure test started inside unchanged Luke sign at14,25; corrected to clear14,26 and verified real upward entry."
+}

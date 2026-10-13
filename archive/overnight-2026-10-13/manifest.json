@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "task": "M1.OV1",
+  "files": [
+    {
+      "originalPath": "music/source-v2/__pycache__/render.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/render.cpython-312.pyc",
+      "bytes": 22311,
+      "sha256": "124620bde43362e4ae24aaae7c969cb660f38583b8665f16aa69242c71b95737",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    },
+    {
+      "originalPath": "music/source-v2/__pycache__/score.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/score.cpython-312.pyc",
+      "bytes": 15219,
+      "sha256": "d1e35defe50e505554e12117688a5cfcea1fe812199036474470a72ef415ba29",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    },
+    {
+      "originalPath": "music/source-v2/__pycache__/scorebook.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/scorebook.cpython-312.pyc",
+      "bytes": 73610,
+      "sha256": "4f8970482a0eea0634bff16a3849932135ea606345483495200a14a160204333",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    },
+    {
+      "originalPath": "music/source-v2/__pycache__/validate.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/validate.cpython-312.pyc",
+      "bytes": 19142,
+      "sha256": "789b3550b8ccb8f142e3f05c8c8c237f6d854c98af0d8111616418b00dceb70a",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    }
+  ]
+}

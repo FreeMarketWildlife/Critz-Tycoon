@@ -3,6 +3,7 @@ import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 import {mkdir,writeFile} from 'node:fs/promises';
 import {createState,startMorning,SAVE_KEY} from '../src/state.js';
+import {isBlocked} from '../src/world.js';
 import {newProject,paint,exportProject,SAVE_KEY as MAP_KEY} from '../map-editor/model.js';
 const require=createRequire(import.meta.url),{chromium}=require(process.env.CODEX_PRIMARY_RUNTIME_NODE_MODULES+'/playwright');
 const browser=await chromium.launch({headless:true,executablePath:process.env.CHROMIUM_EXECUTABLE});
@@ -10,7 +11,7 @@ const base=process.env.TEST_URL||'http://127.0.0.1:5178',out=process.env.TEST_OU
 await mkdir(out,{recursive:true});const errors=[],checks=[];
 try{
  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
- const s=createState('Ari','boy','River');startMorning(s,true);s.money=12345;s.scene='town';s.player={x:14,y:25,facing:'down'};
+ const s=createState('Ari','boy','River');startMorning(s,true);s.money=12345;s.scene='town';s.player={x:14,y:26,facing:'down'};assert.equal(isBlocked(s.scene,s.player.x,s.player.y,s),false,'Integration fixture must start on clear ground');
  const project=newProject();project.maps[0].name='Synthetic custom island';const m=project.maps[0];let left=2;for(const i of ['fresh','ocean'])for(const t of ['still','moving','shallow-still','shallow-moving']){for(let y=2;y<4;y++)for(let x=left;x<left+2;x++)paint(m,x,y,`water-${i}-${t}`);left+=2;}for(let x=2;x<18;x++)paint(m,x,4,'sand');
  await page.goto(base);await page.waitForSelector('[data-action="new"]');
  await page.evaluate(({key,s,mapKey,map})=>{localStorage.setItem(key,JSON.stringify(s));localStorage.setItem(mapKey,map);localStorage.setItem('critz.lukes-greenhouse.review.v1','synthetic-review-preserved');},{key:SAVE_KEY,s,mapKey:MAP_KEY,map:exportProject(project)});
@@ -33,7 +34,7 @@ try{
  await page.evaluate(async()=>{window.__qaMain=await import('./src/main.js');window.__qaRender=await import('./src/render.js');});
  // Observe actual committed steps instead of assuming elapsed wall time maps
  // to a fixed tile count under concurrent browser load.
- for(const [key,x,y]of [['ArrowRight',15,25],['ArrowDown',15,26],['ArrowUp',15,25]]){await page.keyboard.down(key);await page.waitForFunction(({x,y})=>{const v=window.__qaMain.getDebugMovement();return v.destination?.x===x&&v.destination?.y===y;},{x,y});await page.keyboard.up(key);await page.waitForFunction(({x,y})=>{const s=window.__qaMain.getDebugSnapshot();return s.scene==='greenhouseGrounds'||s.player.x===x&&s.player.y===y&&window.__qaMain.getDebugMovement().settled;},{x,y});}
+ for(const [key,x,y]of [['ArrowRight',15,26],['ArrowUp',15,25]]){await page.keyboard.down(key);await page.waitForFunction(({x,y})=>{const v=window.__qaMain.getDebugMovement();return v.destination?.x===x&&v.destination?.y===y;},{x,y});await page.keyboard.up(key);await page.waitForFunction(({x,y})=>{const s=window.__qaMain.getDebugSnapshot();return s.scene==='greenhouseGrounds'||s.player.x===x&&s.player.y===y&&window.__qaMain.getDebugMovement().settled;},{x,y});}
  await page.waitForFunction(()=>window.__qaMain.getDebugSnapshot().scene==='greenhouseGrounds');await page.waitForFunction(()=>window.__qaRender.getRenderDebug().scene==='greenhouseGrounds');await page.waitForTimeout(300);await page.screenshot({path:out+'/phone-greenhouse-garden.png'});await page.keyboard.down('ArrowUp');await page.waitForTimeout(800);await page.keyboard.up('ArrowUp');await page.frameLocator('.game-room').locator('#begin:not(:disabled)').waitFor();await page.frameLocator('.game-room').locator('#begin').click();await page.screenshot({path:out+'/phone-greenhouse-room.png'});checks.push('Main tile walking enters the native greenhouse from its garden with shared savings');
  assert.deepEqual(errors,[]);await writeFile(out+'/checks.json',JSON.stringify({checks,errors},null,2));checks.forEach(x=>console.log('PASS '+x));await context.close();
 }finally{await browser.close();}

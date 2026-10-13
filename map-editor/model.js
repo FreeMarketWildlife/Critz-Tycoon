@@ -16,8 +16,10 @@ export const STAMPS={
  cottage:{name:'Cottage',w:5,h:5,assembly:'house.cottage',kind:'building',footprint:[0,1,5,4],door:[2,4]},
  garden:{name:'Garden house',w:5,h:5,assembly:'house.garden',kind:'building',footprint:[0,1,5,4],door:[2,4]},
  shop:{name:'Critz shop',w:7,h:5,assembly:'house.shop',kind:'building',footprint:[0,1,7,4],door:[3,4]},
- tree:{name:'Broadleaf tree',w:2,h:2,assembly:'tree.broadleaf.rooted',kind:'scenery',footprint:[0,1,2,1]},
- cypress:{name:'Cypress',w:2,h:3,assembly:'tree.cypress.rooted',kind:'scenery',footprint:[0,2,2,1]},
+ tree:{name:'Old Grove · broadleaf',w:2,h:2,assembly:'tree.broadleaf.rooted',treeArt:'old-grove',kind:'scenery',footprint:[0,1,2,1]},
+ willow:{name:'Soft Willow',w:2,h:2,assembly:'tree.broadleaf.rooted',treeArt:'soft-willow',kind:'scenery',footprint:[0,1,2,1]},
+ palm:{name:'Coastal Palm',w:2,h:2,assembly:'tree.broadleaf.rooted',treeArt:'coastal-palm',kind:'scenery',footprint:[0,1,2,1]},
+ cypress:{name:'Tiered Cedar · cypress',w:2,h:3,assembly:'tree.cypress.rooted',treeArt:'tiered-cedar',kind:'scenery',footprint:[0,2,2,1]},
  fountain:{name:'Fountain',w:3,h:3,assembly:'fountain.small',kind:'scenery',footprint:[0,0,3,3]},
  planter:{name:'Planter',w:1,h:1,tile:'planter.center',kind:'object',footprint:[0,0,1,1]},
  boulder:{name:'Pushable boulder',w:1,h:1,tile:'rock.2',kind:'boulder',footprint:[0,0,1,1]},
@@ -76,3 +78,21 @@ export function eraseAt(project,mapId,x,y){const m=project.maps.find(t=>t.id===m
 export function exitPresentation(project,m,w){if(w.direction!=='down')return null;const outside=project.maps.find(t=>t.id===w.target);const o=outside?.objects.find(o=>{const d=doorCell(o);return d&&w.tx===d.x&&w.ty===d.y+1&&outside.warps.some(r=>r.x===d.x&&r.y===d.y&&r.target===m.id);});return o?{open:STAMPS[o.type].entrance==='open'}:null;}
 
 export function fenceReviewProject(){const p=newProject(),m=newMap('fence-review','Fence registration · revision 5',26,24);p.maps=[m];p.active=m.id;p.name='M1.ME5 fence review';p.notes='Wood, white picket and barbed wire share a32×64 frame: paint only rows16–47. Collision is unchanged. Walk on a fence row behind it; below the row you are in front. Go around an end or through a gap to cross. Vertical runs and corner/junction joins are shown. This sandbox never saves over your draft.';for(const [i,f]of ['fence','fence-picket','fence-barbed'].entries()){const x=2+i*8;for(let a=x;a<x+6;a++)paint(m,a,4,f);for(let y=8;y<15;y++)paint(m,x+1,y,f);for(let a=x+1;a<x+6;a++)paint(m,a,14,f);for(let y=17;y<21;y++)paint(m,x+3,y,f);for(let a=x;a<x+7;a++)if(a!==x+3)paint(m,a,19,f);}m.spawn={x:5,y:6};return p;}
+
+
+// M1.OV1 original garden composition. No game/draft storage is consulted.
+export function groveReviewProject(){
+ const p=newProject(),m=newMap('grove-review','Rootport · a quiet garden',22,16);
+ p.name='Rootport Grove · native tree and canopy review';p.maps=[m];p.active=m.id;
+ const fill=(x,y,w,h,k)=>{for(let b=y;b<y+h;b++)for(let a=x;a<x+w;a++)paint(m,a,b,k);};
+ fill(4,11,17,2,'path');fill(7,6,2,6,'path');fill(10,9,7,2,'path');
+ fill(14,4,4,4,'water-fresh-shallow-still');fill(11,3,2,3,'soil');
+ for(const [x,y,type]of [[5,2,'cottage'],[1,3,'cypress'],[3,8,'tree'],[18,5,'willow'],[18,13,'palm'],[10,6,'tree'],[1,13,'cypress']]){
+  const placed=placeObject(m,type,x,y);if(typeof placed==='string')throw Error(placed);
+ }
+ for(const [x,y]of [[4,6],[5,7],[11,3],[12,3],[13,9],[20,9]])paint(m,x,y,'flowers');
+ placeObject(m,'bench',11,13);m.spawn={x:8,y:13};
+ connectBuilding(p,m.id,m.objects.find(o=>o.type==='cottage'));
+ p.notes='Original M1.OV1 composition. Trees share exact transparent TR2 pixels and retain explicit two-cell ground footprints. Walk behind crowns, approach roots from four sides, and use the placement preview to inspect overhang. New appearance awaits morning review.';
+ return p;
+}

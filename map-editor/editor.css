@@ -4,3 +4,6 @@
 #project-panel,#close-project{display:none}@media(min-width:651px) and (max-width:1100px){#project-panel{display:block}.show-project .inspector{display:block;position:fixed;right:0;top:76px;bottom:0;width:290px;z-index:5;box-shadow:-12px 0 30px #18392b30}#close-project{display:block;width:100%;margin-bottom:15px}}
 
 .toolbox-search{display:block;margin:14px 0}.toolbox-search input{width:100%;min-height:44px}#search-results{margin:8px 0}.palette:has(#toolbox-search:not(:placeholder-shown)) section{margin-bottom:22px}
+
+/* Narrow phones retain readable labels and native previews inside the toolbox. */
+@media(max-width:380px){.brush-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.brush{min-width:0;overflow-wrap:anywhere}.stamp-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.header-actions{flex-wrap:wrap}.header-actions button{min-height:44px}header{height:auto;min-height:105px}.workspace{min-height:450px}.tool-bar button,.map-bar button{min-height:44px}}

@@ -8,21 +8,22 @@ import {drawCritter,RESCUES} from './living-art.js';
 import {applyLighting} from './lighting.js';
 import {scenes,getEntities} from './world.js';
 import {TICK_SECONDS} from './movement.js';
+import {loadTreeArt,drawTree,treeStyle,treeArtInfo} from './tree-art.js';
 let sheet,manifest,tiles,buildingArt,fenceArt;
 export async function loadEnvironment(){
- [buildingArt,fenceArt]=await Promise.all([loadBuildingArt(),loadFenceArt(),loadContactArt(),loadWorldWater()]);
+ [buildingArt,fenceArt]=await Promise.all([loadBuildingArt(),loadFenceArt(),loadContactArt(),loadWorldWater(),loadTreeArt()]);
  const url=new URL('../assets/playable/overworld/master.json',import.meta.url),response=await fetch(url);
  if(!response.ok)throw Error('Overworld manifest failed to load');manifest=await response.json();
  sheet=new Image();sheet.src=new URL(manifest.image,url).href;await sheet.decode();
  if(sheet.width!==manifest.imageWidth||sheet.height!==manifest.imageHeight)throw Error('Overworld sheet dimensions do not match');
- tiles=new Map(manifest.tiles.map(t=>[t.id,t]));
+ tiles=new Map(manifest.tiles.map(t=>[t.id,t]));const soilUrl=new URL('../assets/playable/soil-v2/atlas.json',import.meta.url),soil=await(await fetch(soilUrl)).json(),soilImage=new Image();soilImage.src=new URL(soil.image,soilUrl).href;await soilImage.decode();for(const t of soil.tiles)tiles.set(t.id,{...t,img:soilImage});
  for(const [sceneId,scene]of Object.entries(scenes)){if(!scene.map)continue;const map=scene.map;
   for(const id of [...map.ground,...map.decals.map(d=>d.id),...map.objects.flatMap(o=>o.tiles?o.tiles.flat():manifest.assemblies[o.id]?.flat()||[o.id])])if(!tiles.has(id))throw Error(`Missing tile ${id} in ${sceneId}`);
  }
 }
 export function drawEnvironmentTile(c,id,x,y){
  const t=tiles.get(id);if(!t)throw Error(`Missing environment tile ${id}`);
- c.drawImage(sheet,t.x,t.y,32,32,Math.round(x),Math.round(y),32,32);
+ c.drawImage(t.img||sheet,t.x,t.y,32,32,Math.round(x),Math.round(y),32,32);
 }
 export function animationFrame(id,time,phase=0){
  const frame=Math.floor(time/(16*TICK_SECONDS)+phase)%4;
@@ -38,15 +39,14 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  const camera={x:axis(map.w*32,width,foot.x-Math.floor(width/2)),y:axis(map.h*32,height,foot.y-Math.round(height*CAMERA_FOCUS_Y/320))};
  c.imageSmoothingEnabled=false;c.fillStyle='#487b59';c.fillRect(0,0,width,height);c.save();c.translate(-camera.x,-camera.y);
  const visible=(x,y,w=1,h=1)=>x*32<camera.x+width+32&&(x+w)*32>camera.x-32&&y*32<camera.y+height+32&&(y+h)*32>camera.y-64;
- const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
- const assembly=(o)=>{if(o.kind==='building'&&o.facade){const dx=o.x+Math.floor(o.w/2),dy=o.y+5,progress=dy+1-view.y/16,approach=view.facing==='up'&&Math.abs(view.x/16-dx)<.1&&progress>0&&progress<=1,exiting=view.facing==='down'&&Math.abs(view.x/16-dx)<.1&&view.y/16>=dy&&view.y/16<dy+1;drawBuilding(c,buildingArt,{...o,type:o.facade},{open:o.entrance==='open',phase:exiting||approach&&progress>=.45?2:approach?1:0});return;}if(o.kind==='fence'){const a=fenceArt.frames.get('fence:'+(o.fenceStyle||'wood')+':'+o.id.split('.')[1]);c.drawImage(fenceArt.img,...a.rect,o.x*32,o.y*32,a.rect[2],a.rect[3]);return;}if(o.collision){drawContactArt(c,`${state.scene}:${map.objects.indexOf(o)}${o.id==='mill.wheel.0'?':phase'+Math.floor(time/.18)%4:''}`.replace(':phase0',''),o.x*32,o.y*32);return;}const attached=map.objects.find(b=>b.kind==='building'&&o.x>=b.x&&o.x<b.x+b.w&&(o.id==='chimney'&&o.y===b.y-1||o.id.startsWith('shop.sign.')&&o.y===b.y+3)),fountain=map.objects.find(b=>b.id==='fountain.small'&&o.id==='fountain.jet'&&o.x===b.x+1&&o.y===b.y),parent=attached||fountain,offset=parent?contactEntry(`${state.scene}:${map.objects.indexOf(parent)}`).dy:0;const objectId=o.id==='mill.wheel.0'?`mill.wheel.${Math.floor(time/.18)%4}`:o.id;const rows=o.tiles||manifest.assemblies[objectId];if(rows)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,(o.x+i)*32,(o.y+j)*32+offset)));else draw(o.id,o.x*32,o.y*32+offset);};
+ const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(a.img||sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
+ const assembly=(o)=>{if(o.kind==='tree'&&!o.fruitId){drawTree(c,treeStyle(o,state.scene,map),o.collision[0],o.collision[1]);return;}if(o.kind==='building'&&o.facade){const dx=o.x+Math.floor(o.w/2),dy=o.y+5,progress=dy+1-view.y/16,approach=view.facing==='up'&&Math.abs(view.x/16-dx)<.1&&progress>0&&progress<=1,exiting=view.facing==='down'&&Math.abs(view.x/16-dx)<.1&&view.y/16>=dy&&view.y/16<dy+1;drawBuilding(c,buildingArt,{...o,type:o.facade},{open:o.entrance==='open',phase:exiting||approach&&progress>=.45?2:approach?1:0});return;}if(o.kind==='fence'){const a=fenceArt.frames.get('fence:'+(o.fenceStyle||'wood')+':'+o.id.split('.')[1]);c.drawImage(fenceArt.img,...a.rect,o.x*32,o.y*32,a.rect[2],a.rect[3]);return;}if(o.collision){drawContactArt(c,`${state.scene}:${map.objects.indexOf(o)}${o.id==='mill.wheel.0'?':phase'+Math.floor(time/.18)%4:''}`.replace(':phase0',''),o.x*32,o.y*32);return;}const attached=map.objects.find(b=>b.kind==='building'&&o.x>=b.x&&o.x<b.x+b.w&&(o.id==='chimney'&&o.y===b.y-1||o.id.startsWith('shop.sign.')&&o.y===b.y+3)),fountain=map.objects.find(b=>b.id==='fountain.small'&&o.id==='fountain.jet'&&o.x===b.x+1&&o.y===b.y),parent=attached||fountain,offset=parent?contactEntry(`${state.scene}:${map.objects.indexOf(parent)}`).dy:0;const objectId=o.id==='mill.wheel.0'?`mill.wheel.${Math.floor(time/.18)%4}`:o.id;const rows=o.tiles||manifest.assemblies[objectId];if(rows)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,(o.x+i)*32,(o.y+j)*32+offset)));else draw(o.id,o.x*32,o.y*32+offset);};
  // A wide/tall viewport can look beyond a small map. Existing dense forest
  // art marks that non-playable backdrop instead of exposing a flat clear field.
  if(camera.x<0||camera.y<0||camera.x+width>map.w*32||camera.y+height>map.h*32){
   c.save();c.beginPath();c.rect(camera.x,camera.y,width,height);c.rect(0,0,map.w*32,map.h*32);c.clip('evenodd');
   for(let y=Math.floor(camera.y/32)*32;y<camera.y+height;y+=32)for(let x=Math.floor(camera.x/32)*32;x<camera.x+width;x+=32)draw('meadow.grass.0',x,y);
-  const rows=manifest.assemblies['tree.broadleaf'];
-  for(let y=Math.floor(camera.y/64)*64-32;y<camera.y+height;y+=48)for(let x=Math.floor(camera.x/64)*64;x<camera.x+width;x+=64)rows.forEach((row,j)=>row.forEach((id,i)=>draw(id,x+i*32,y+j*32)));
+  for(let y=Math.floor(camera.y/64)*64-32;y<camera.y+height;y+=64)for(let x=Math.floor(camera.x/64)*64-16;x<camera.x+width+32;x+=64)drawTree(c,'old-grove',x/32,y/32);
   c.restore();
  }
  const drawActor=(x,y,options)=>{c.save();c.translate(x,y);character(c,0,0,options);c.restore();};
@@ -76,5 +76,5 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  if(activeGrass)draw(`grass.front.${grassFrame}`,actorCell.x*32,actorCell.y*32);
  effects.forEach(draw=>draw());
  // Direction plaques sit in the landscape and remain readable at its north/south thresholds.
- c.restore();const lighting=applyLighting(c,state);return {water:waterInfo,lighting,camera,playerFoot:foot,width,height,scene:state.scene,atlas:'assets/playable/overworld/master.png',contact:contactArtInfo(),activeGrass,grassFrame,visibleObjects:sorted.length};
+ c.restore();const lighting=applyLighting(c,state);return {water:waterInfo,lighting,camera,playerFoot:foot,width,height,scene:state.scene,atlas:'assets/playable/overworld/master.png',trees:treeArtInfo(),contact:contactArtInfo(),activeGrass,grassFrame,visibleObjects:sorted.length};
 }

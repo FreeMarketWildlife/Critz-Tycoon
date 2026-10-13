@@ -1,0 +1,171 @@
+{
+  "task": "M1.OV1",
+  "archived": [
+    {
+      "originalPath": "music/source-v2/__pycache__/render.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/render.cpython-312.pyc",
+      "bytes": 22311,
+      "sha256": "124620bde43362e4ae24aaae7c969cb660f38583b8665f16aa69242c71b95737",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    },
+    {
+      "originalPath": "music/source-v2/__pycache__/score.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/score.cpython-312.pyc",
+      "bytes": 15219,
+      "sha256": "d1e35defe50e505554e12117688a5cfcea1fe812199036474470a72ef415ba29",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    },
+    {
+      "originalPath": "music/source-v2/__pycache__/scorebook.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/scorebook.cpython-312.pyc",
+      "bytes": 73610,
+      "sha256": "4f8970482a0eea0634bff16a3849932135ea606345483495200a14a160204333",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    },
+    {
+      "originalPath": "music/source-v2/__pycache__/validate.cpython-312.pyc",
+      "archivedPath": "archive/overnight-2026-10-13/generated-caches/validate.cpython-312.pyc",
+      "bytes": 19142,
+      "sha256": "789b3550b8ccb8f142e3f05c8c8c237f6d854c98af0d8111616418b00dceb70a",
+      "reason": "Ignored CPython 3.12 bytecode cache; regenerable from retained source; build excludes __pycache__ and .pyc; no source/runtime/document reference found.",
+      "restore": "Move archived file back to original path, or let Python regenerate it."
+    }
+  ],
+  "retained": [
+    {
+      "path": "assets/review/overworld-v1/critz-overworld-v1.zip",
+      "reason": "Retained: live download/provenance references or ambiguous active history.",
+      "references": [
+        "art-review/overworld.html",
+        "docs/reviews/M1-CF1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-03/tested-build-sha256.json",
+        "docs/reviews/M1-E2/tested-build-sha256.json",
+        "docs/reviews/M1-E2/README.md",
+        "docs/reviews/MUSIC-02/tested-build-sha256.json",
+        "docs/reviews/M1-LG1/tested-build-sha256.json",
+        "docs/reviews/M1-E3/tested-build-sha256.json",
+        "docs/reviews/M1-DO1/tested-build-sha256.json",
+        "docs/reviews/M1-I4/tested-build-sha256.json",
+        "docs/reviews/M1-UI2/tested-build-sha256.json",
+        "docs/reviews/MUSIC-01/tested-build-sha256.json",
+        "docs/reviews/M1-UI1/tested-build-sha256.json",
+        "docs/reviews/M1-BH1/tested-build-sha256.json",
+        "docs/reviews/M1-FR1/tested-build-sha256.json",
+        "docs/reviews/M1-W1/tested-build-sha256.json",
+        "docs/reviews/M1-ST1/tested-build-sha256.json"
+      ]
+    },
+    {
+      "path": "music/critz-tycoon-30-midi.zip",
+      "reason": "Retained: live download/provenance references or ambiguous active history.",
+      "references": [
+        "docs/reviews/M1-CF1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-03/tested-build-sha256.json",
+        "docs/PROJECT_STATUS.md",
+        "docs/AUDIO_ARCHITECTURE.md",
+        "docs/reviews/M1-UI2/tested-build-sha256.json",
+        "docs/reviews/M1-DO1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-02/tested-build-sha256.json",
+        "docs/reviews/M1-W1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-02/README.md",
+        "docs/reviews/M1-LG1/tested-build-sha256.json",
+        "docs/reviews/M1-E3/tested-build-sha256.json",
+        "docs/reviews/M1-BH1/tested-build-sha256.json",
+        "docs/reviews/M1-UI1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-01/tested-build-sha256.json",
+        "docs/reviews/MUSIC-01/README.md",
+        "docs/reviews/M1-FR1/tested-build-sha256.json",
+        "docs/reviews/M1-ST1/tested-build-sha256.json",
+        "docs/reviews/M1-I4/tested-build-sha256.json"
+      ]
+    },
+    {
+      "path": "docs/reviews/M1-C7/critz-motion-habitats-v1.zip",
+      "reason": "Retained: live download/provenance references or ambiguous active history.",
+      "references": [
+        "docs/reviews/M1-CF1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-03/tested-build-sha256.json",
+        "docs/reviews/M1-C7/README.md",
+        "docs/reviews/M1-BH1/tested-build-sha256.json",
+        "docs/reviews/M1-UI2/tested-build-sha256.json",
+        "docs/reviews/M1-UI1/tested-build-sha256.json",
+        "docs/reviews/M1-DO1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-02/tested-build-sha256.json",
+        "docs/reviews/M1-FR1/tested-build-sha256.json",
+        "docs/reviews/M1-ST1/tested-build-sha256.json",
+        "docs/reviews/M1-I4/tested-build-sha256.json",
+        "docs/reviews/M1-E3/tested-build-sha256.json",
+        "docs/reviews/M1-W1/tested-build-sha256.json"
+      ]
+    },
+    {
+      "path": "docs/reviews/HERO-V1-WALK/hero-boy-v1.zip",
+      "reason": "Retained: live download/provenance references or ambiguous active history.",
+      "references": [
+        "docs/reviews/M1-CF1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-03/tested-build-sha256.json",
+        "docs/reviews/M1-E2/tested-build-sha256.json",
+        "docs/reviews/M1-DO1/tested-build-sha256.json",
+        "docs/reviews/HERO-V1-WALK/README.md",
+        "docs/reviews/M1-E3/tested-build-sha256.json",
+        "docs/reviews/M1-ST1/tested-build-sha256.json",
+        "docs/reviews/M1-BH1/tested-build-sha256.json",
+        "docs/reviews/M1-UI2/tested-build-sha256.json",
+        "docs/reviews/M1-W1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-02/tested-build-sha256.json",
+        "docs/reviews/M1-FR1/tested-build-sha256.json",
+        "docs/reviews/M1-I4/tested-build-sha256.json",
+        "docs/reviews/MUSIC-01/tested-build-sha256.json",
+        "docs/reviews/M1-UI1/tested-build-sha256.json"
+      ]
+    },
+    {
+      "path": "docs/reviews/M1-C4/revision-9/hero-idle-r9.zip",
+      "reason": "Retained: live download/provenance references or ambiguous active history.",
+      "references": [
+        "docs/reviews/M1-CF1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-03/tested-build-sha256.json",
+        "docs/reviews/M1-E2/tested-build-sha256.json",
+        "docs/reviews/M1-ST1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-02/tested-build-sha256.json",
+        "docs/reviews/M1-W1/tested-build-sha256.json",
+        "docs/reviews/M1-FR1/tested-build-sha256.json",
+        "docs/reviews/M1-E3/tested-build-sha256.json",
+        "docs/reviews/TOOLS-SE7/tested-build-sha256.json",
+        "docs/reviews/M1-UI2/tested-build-sha256.json",
+        "docs/reviews/MUSIC-01/tested-build-sha256.json",
+        "docs/reviews/TOOLS-SE8/tested-build-sha256.json",
+        "docs/reviews/M1-DO1/tested-build-sha256.json",
+        "docs/reviews/M1-C4/revision-9/README.md",
+        "docs/reviews/M1-I4/tested-build-sha256.json",
+        "docs/reviews/M1-BH1/tested-build-sha256.json",
+        "docs/reviews/M1-UI1/tested-build-sha256.json"
+      ]
+    },
+    {
+      "path": "docs/reviews/M1-C6/critz-idle-collection-v1.zip",
+      "reason": "Retained: live download/provenance references or ambiguous active history.",
+      "references": [
+        "docs/reviews/M1-CF1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-03/tested-build-sha256.json",
+        "docs/reviews/M1-ST1/tested-build-sha256.json",
+        "docs/reviews/M1-E2/tested-build-sha256.json",
+        "docs/reviews/M1-BH1/tested-build-sha256.json",
+        "docs/reviews/M1-UI2/tested-build-sha256.json",
+        "docs/reviews/M1-I4/tested-build-sha256.json",
+        "docs/reviews/MUSIC-01/tested-build-sha256.json",
+        "docs/reviews/M1-DO1/tested-build-sha256.json",
+        "docs/reviews/M1-W1/tested-build-sha256.json",
+        "docs/reviews/MUSIC-02/tested-build-sha256.json",
+        "docs/reviews/M1-E3/tested-build-sha256.json",
+        "docs/reviews/M1-UI1/tested-build-sha256.json",
+        "docs/reviews/M1-FR1/tested-build-sha256.json",
+        "docs/reviews/M1-C6/README.md"
+      ]
+    }
+  ],
+  "noActiveResourceMoved": true
+}

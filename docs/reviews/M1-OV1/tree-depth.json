@@ -1,0 +1,42 @@
+[
+  {
+    "type": "tree",
+    "side": "behind",
+    "pixelAgreement": true
+  },
+  {
+    "type": "tree",
+    "side": "front",
+    "pixelAgreement": true
+  },
+  {
+    "type": "cypress",
+    "side": "behind",
+    "pixelAgreement": true
+  },
+  {
+    "type": "cypress",
+    "side": "front",
+    "pixelAgreement": true
+  },
+  {
+    "type": "willow",
+    "side": "behind",
+    "pixelAgreement": true
+  },
+  {
+    "type": "willow",
+    "side": "front",
+    "pixelAgreement": true
+  },
+  {
+    "type": "palm",
+    "side": "behind",
+    "pixelAgreement": true
+  },
+  {
+    "type": "palm",
+    "side": "front",
+    "pixelAgreement": true
+  }
+]

@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.OV1 — First overnight world/editor visual slice
+
+Implemented under the user's expanded overnight redesign authorization. Selected native TR2 trees enter adventure/editor using existing footprints; all four editor styles have separate canopy/ground placement previews. Shared quiet soil replaces board-like garden rows. Button gains native personality actions and an isolated observation review. [Batch deliverable and checks](reviews/M1-OV1/README.md). Morning visual feedback remains pending. Next implementation ownership passes to parent/editor audit for raw override semantics, water underlays/performance, passage validation, resize return links and footprint-only object placement. No new adventure roster, tank rules or persistent quest system is claimed.
+
 ## M1.TR2 — Native protruding tree objects
 
 **Native asset deliverable complete; awaiting user visual review.** Selected TR1 cedar/willow/grove/palm concepts are independently authored as native transparent PNGs with editable pixels and explicit object metadata. User requests wider willow/grove canvases. Canonical protruding-object rules live in ART_BIBLE; [native packet](reviews/M1-TR2/README.md) contains checks and registration proof. Exact next action: user reviews these native appearances before gameplay/editor replacement. No world expansion or M1/M2 gate acceptance is implied.
