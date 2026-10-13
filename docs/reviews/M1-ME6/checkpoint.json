@@ -1,0 +1,23 @@
+{
+  "task": "M1.ME6",
+  "baseline": "f0a6b31a39a58b752e365ab921da4f14e2d18a87",
+  "branch": "main",
+  "testedRuntimeCommit": "7deafd5a3bc34c770db2a965e45a14d525b41e95",
+  "verifiedOriginMainAtRuntimePush": "7deafd5a3bc34c770db2a965e45a14d525b41e95",
+  "verificationUtc": "2026-10-13 05:34:16 UTC",
+  "workingTreeCleanAtRuntimePush": true,
+  "unitTestsPassed": 259,
+  "releaseBrowserScenariosPassed": 86,
+  "ownedRuntimeFilesMatchTestedDist": true,
+  "runtimeFileEvidence": "runtime-checks.json",
+  "sourceAssetsAndAdventureHomeTankFilesEdited": false,
+  "publication": {
+    "performedByWorker": false,
+    "owner": "parent",
+    "status": "pending aggregate integration and publication",
+    "phoneUrl": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "existingHostedBuildChangedByWorker": false
+  },
+  "visualApproval": "awaiting morning user feedback",
+  "nextAction": "Parent integrates the separate art/UI slice, runs aggregate checks and publishes the exact tested combined build."
+}
