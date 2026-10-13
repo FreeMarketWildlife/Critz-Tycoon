@@ -1,0 +1,39 @@
+{
+  "task": "M1.ME7",
+  "checks": [
+    "Pointer rectangle and keyboard copy/paste preserve cells, exact collision and two overlapping-art props as one undo action",
+    "Invalid overlapping paste changes neither the project nor redo history",
+    "Redo restores exact clone IDs; repeat paste assigns distinct new IDs while originals remain intact",
+    "Whole-selection bounds rejection and Escape retain content and reusable clipboard",
+    "Picking a bench footprint beneath a tree canopy moves the bench with its original ID and leaves the tree untouched",
+    "Props-only erase and pointer jitter remove the chosen footprint once while preserving the overhead tree",
+    "Eyedropper picks footprint-prioritized props or Ground explicitly without map/history edits",
+    "Picking an exact tile retains its saved walkable collision choice",
+    "Ground-only erase preserves features, props and exact-tile data",
+    "Actual building moves carry entrance/return coordinates and Undo restores all links and IDs",
+    "Partial-footprint copy explains the error; copying Ground only succeeds without replacing prior clipboard on failure",
+    "Pointer cancellation rolls back the entire live brush stroke without consuming undo/redo",
+    "Escape cancels an incomplete rectangle without painting or changing history",
+    "Keyboard rectangle extension and copy return useful map focus",
+    "Notes and open-dialog text fields keep copy/paste, undo, eyedropper and Enter away from map editing",
+    "Native overlap matches independent depth compositing; existing flower/grass frames animate with independent front-plane agreement and camera clamps at map edges",
+    "Synthetic normal-editor autosave never persists an incomplete or canceled stroke",
+    "Actual phone touch drag, Copy, Paste and Cancel operate on whole selections",
+    "Selection and layer controls retain44px touch targets without320/390px horizontal overflow",
+    "Review authoring operations preserve synthetic adventure/draft sentinels byte-for-byte",
+    "No browser exceptions or missing assets"
+  ],
+  "errors": [],
+  "native": {
+    "overlapPixelDifferences": 0,
+    "flowerAnimated": true,
+    "grassPixelDifferences": 0,
+    "grassAnimated": true,
+    "camera": {
+      "x": 0,
+      "y": 0
+    },
+    "sourceFramesUnchanged": true
+  },
+  "physicalSafariTested": false
+}

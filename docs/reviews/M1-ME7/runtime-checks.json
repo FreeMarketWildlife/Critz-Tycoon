@@ -1,0 +1,36 @@
+{
+  "previewBackgroundCheckpoint": "137c7537e787f74eb19d4e077ddfa22130f50569",
+  "ownedRuntimeFiles": [
+    {
+      "path": "map-editor/editor.css",
+      "sha256": "f438f734206aa56d2a014c32c98828ef5069f6cc771b1228208a4008031892ce",
+      "testedPreviewMatches": true
+    },
+    {
+      "path": "map-editor/editor.js",
+      "sha256": "7bf9fd86b4e818c1a97d5988820eb3810a5ad28df6c577340a02794aacc3afa7",
+      "testedPreviewMatches": true
+    },
+    {
+      "path": "map-editor/index.html",
+      "sha256": "8a3bf0bd84ead0a3a027131b7612cef91055f70dd90d7e11e57dc02d14ebb66b",
+      "testedPreviewMatches": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "sha256": "d99652cab49c1d997664b5483e46ee038eafc80920916a155bdc39e0d9457c24",
+      "testedPreviewMatches": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "sha256": "03607b0341d88953a0292f47307037d56a490f5490790db30e256c9359dd3a8d",
+      "testedPreviewMatches": true
+    },
+    {
+      "path": "map-editor/authoring.js",
+      "sha256": "6bf1ae3bc899f51ffc11e43d71a23f46a808fb1a7db614c027416f03ef3dd2b4",
+      "testedPreviewMatches": true
+    }
+  ],
+  "concurrentAdventureAndArtFilesExcludedFromWorkerCommit": true
+}

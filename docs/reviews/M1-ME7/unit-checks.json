@@ -1,0 +1,10 @@
+{
+  "command": "node --test tests/*.test.mjs",
+  "exitCode": 0,
+  "tests": 276,
+  "pass": 276,
+  "fail": 0,
+  "cancelled": 0,
+  "skipped": 0,
+  "scope": "Current checkout unit run includes concurrent home-art tests; release-browser preview retains137c753 background/art runtime and overlays only owned editor files."
+}

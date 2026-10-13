@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.ME7 — Authoring productivity
+
+**Implemented and checked; scoped push in progress; parent publication pending.** [Deliverable/evidence](reviews/M1-ME7/README.md): footprint-only placement with independent art picking, rectangular selection and repeatable copy/paste, precise edit layers, eyedropper, transactional history and cancellation/autosave protection. Legacy coordinates, original object IDs, links and v1 project fields stay intact; clones gain fresh IDs and need independent building links. Shared existing flower/grass frames and clamped preview camera are included.276 unit and107 isolated browser checks pass. Parent owns aggregate integration/publication; new tool presentation awaits user review. Catalogue/compiler, oriented stairs/bridge junctions and selected Hero remain planned; scope is held until this checkpoint is committed.
+
 ## M1.ME6 — Exact tiles, independent water and useful validation
 
 **Implemented, checked and pushed; parent publication and user visual feedback pending.** User explicitly assigns the overnight audit repairs after OV1. [Deliverable/evidence](reviews/M1-ME6/README.md): consistent raw overrides, per-body water depth/materials, bounded cached compilation, canonical enclosure plus directional reachability, actionable cell selection and resize/paired-link integrity. Preserve completed tree/soil work, source assets, story/economy and v1 saves.259 unit and86 isolated release-browser checks pass; local cold-render median improves14.2×. Native/phone appearance awaits user review. Parent owns combined integration and exact tested Sites publication. Subsequent catalogue/compiler, overlap-aware placement, selection tools, oriented stairs/bridge junctions and shared Hero/terrain-animation work remain planned; universal readiness is not claimed.
