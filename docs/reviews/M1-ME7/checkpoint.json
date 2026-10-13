@@ -1,0 +1,37 @@
+{
+  "task": "M1.ME7",
+  "baseline": "137c7537e787f74eb19d4e077ddfa22130f50569",
+  "branch": "main",
+  "testedRuntimeCommit": "e73ded48f4cf52e75331b25f965a73ad399dcc97",
+  "verifiedOriginMainAtRuntimePush": "e73ded48f4cf52e75331b25f965a73ad399dcc97",
+  "verificationUtc": "2026-10-13 06:23:35 UTC",
+  "unitTestsPassed": 276,
+  "newModelRegressions": 14,
+  "releaseBrowserScenariosPassed": 107,
+  "ownedRuntimeFilesMatchTestedPreview": true,
+  "runtimeFileEvidence": "runtime-checks.json",
+  "browserPreviewScope": "Retained137c753 background/art runtime with only the six owned editor runtime files overlaid. Parent must run final combined aggregate checks.",
+  "unrelatedWorkingChangesPreserved": [
+    "src/contact-art.js",
+    "src/main.js",
+    "src/render.js",
+    "src/tank-render.js",
+    "style.css",
+    "tests/browser.mjs",
+    "tests/living-browser.mjs",
+    "art/source/home-v2/",
+    "assets/playable/home-v2/",
+    "docs/reviews/M1-OV2/",
+    "src/home-art.js",
+    "tests/home-art.test.mjs",
+    "tests/home-care-browser.mjs"
+  ],
+  "publication": {
+    "performedByWorker": false,
+    "owner": "parent",
+    "status": "pending combined integration and publication",
+    "phoneUrl": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "hostedBuildChangedByWorker": false
+  },
+  "nextAction": "Parent integrates the other slice, runs aggregate checks and publishes the exact tested combined build. This worker holds scope."
+}
