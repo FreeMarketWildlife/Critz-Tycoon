@@ -1,6 +1,14 @@
 import {STAMPS,MATERIALS,FEATURES,clone,inside,at,objectFootprint,objectBlocks,objectsAt,blocked,placementError,placeObject,relocateDoorLinks,paint,eraseAt,eraseObject,DIRS} from './model.js';
 
 export const EDIT_LAYERS=['ground','features','raw','objects'];
+// JSON key order can change on export/import without changing map content.
+// Array order stays significant for map lists and stable object depth ties.
+export function sameProjectContent(a,b){
+ if(a===b)return true;
+ if(a===null||b===null||typeof a!=='object'||typeof b!=='object')return false;
+ if(Array.isArray(a)||Array.isArray(b))return Array.isArray(a)&&Array.isArray(b)&&a.length===b.length&&a.every((v,i)=>sameProjectContent(v,b[i]));
+ const keys=Object.keys(a);return keys.length===Object.keys(b).length&&keys.every(k=>Object.hasOwn(b,k)&&sameProjectContent(a[k],b[k]));
+}
 export const rectBetween=(a,b)=>({x:Math.min(a.x,b.x),y:Math.min(a.y,b.y),w:Math.abs(a.x-b.x)+1,h:Math.abs(a.y-b.y)+1});
 function checkedRect(m,r){
  if(!r||![r.x,r.y,r.w,r.h].every(Number.isInteger)||r.w<1||r.h<1||!inside(m,r.x,r.y)||!inside(m,r.x+r.w-1,r.y+r.h-1))throw Error('The whole selection needs to fit inside the map.');

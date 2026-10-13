@@ -941,3 +941,26 @@ footer a {color:#a9c5b0;}
 
 .game-room {display:block;width:100%;height: min(72dvh,740px);border:0;border-radius:8px;background:#163c38;}
 .panel:has(.game-room){max-width:760px;}
+
+/* M1.OV2: three visible tank actions; everyday care precedes advanced settings. */
+#panel[data-panel="tank"]{max-width:450px;padding:16px;}
+#panel[data-panel="tank"] .panel-heading{margin-bottom:10px;}
+.tank-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-bottom:14px;}
+#panel .tank-choice{display:flex;align-items:center;justify-content:center;flex-direction:column;gap:4px;min-height:72px;padding:9px 4px;background:var(--window-soft);border:1px solid #9bad8c;color:var(--ink);}
+.tank-choice img{width:32px;height:32px;image-rendering:pixelated;}.tank-choice strong{font-size:15px;}.tank-choice small{font-size:10px;}
+.tank-entry-preview .tank-canvas{width:192px;max-width:100%;}
+#panel .tank-caption{font-size:11px;text-align:center;margin:9px 0 7px;}
+.tank-census-line{display:flex;flex-wrap:wrap;justify-content:center;gap:5px 13px;font-size:11px;color:var(--window-edge);}.tank-census-line b{font-size:13px;}
+.care-overview{display:grid;grid-template-columns:minmax(112px,160px) minmax(0,1fr);gap:14px;align-items:center;margin-bottom:12px;}.care-overview .tank-canvas{width:100%;}
+.care-readouts{display:grid;gap:10px;}.care-readouts span,.care-readouts small{display:block;font-size:11px;}.care-readouts strong{display:block;font-size:21px;color:var(--window-edge);}
+.care-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0 10px;}
+#panel .care-action{min-height:66px;padding:10px;text-align:left;background:var(--window-soft);border:1px solid #a6b799;color:var(--ink);}.care-action strong,.care-action small{display:block;}.care-action strong{font-size:13px;}.care-action small{font-size:10px;margin-top:4px;}
+#panel .care-settings-title{font-size:14px;margin:18px 0 9px;}
+@media(max-height:650px){#panel[data-panel="tank"]{padding:12px;}#panel[data-panel="tank"] .eyebrow{display:none;}#panel[data-panel="tank"] .panel-heading{margin-bottom:7px;}.tank-actions{margin-bottom:10px;}.tank-entry-preview .tank-canvas{width:160px;}#panel .tank-choice{min-height:64px;}.tank-choice small{display:none;}}
+@media(orientation:landscape) and (max-height:500px){#panel[data-panel="tank"]{max-width:530px;display:grid;grid-template-columns:1fr 160px;column-gap:14px;}#panel[data-panel="tank"] .panel-heading,#panel[data-panel="tank"] .eyebrow{grid-column:1/-1;}#panel[data-panel="tank"] .tank-actions{grid-column:1;grid-row:2;}#panel[data-panel="tank"] .tank-entry-preview{grid-column:2;grid-row:2/5;}#panel[data-panel="tank"] .tank-caption,#panel[data-panel="tank"] .tank-census-line{grid-column:1;}.care-overview{grid-template-columns:112px 1fr;}.care-actions{gap:6px;}}
+
+@media(max-height:650px){#panel[data-panel="manage"] h2{font-size:20px;}.care-readouts small{display:none;}#panel .care-action{min-height:56px;padding:8px;}.care-overview{margin-bottom:8px;}}
+
+/* Paper-window body copy keeps its contrast at phone scale. */
+#panel p{color:var(--muted);}
+#panel .tank-caption{color:#5b6a58;}

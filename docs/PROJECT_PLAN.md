@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.OV2 — Tank-care and home visual slice
+
+Implemented under the next explicit overnight request: three visible tank-entry actions, gallery retained through View/shop, everyday care first, stronger native habitat/furniture/orchard presentation. [Deliverable/evidence](reviews/M1-OV2/README.md). Core behavior/save compatibility remains intact. Combined committed-HEAD snapshot verification passes; automatic approval blocks the scoped main checkpoint despite retrieved later authorization, so all owned files remain uncommitted. Parent must provide fresh trusted approval or checkpoint the slice; user visual response remains pending. Next priorities are richer native habitat staging and authored room/world composition, with aquarium ownership/care treated as a distinct future gameplay milestone.
+
 ## M1.ME7 — Authoring productivity
 
 **Implemented, checked and pushed; parent publication and user feedback pending.** [Deliverable/evidence](reviews/M1-ME7/README.md): footprint-only placement with independent art picking, rectangular selection and repeatable copy/paste, precise edit layers, eyedropper, transactional history and cancellation/autosave protection. Legacy coordinates, original object IDs, links and v1 project fields stay intact; clones gain fresh IDs and need independent building links. Shared existing flower/grass frames and clamped preview camera are included.276 unit and107 isolated browser checks pass. Parent owns aggregate integration/publication; new tool presentation awaits user review. Catalogue/compiler, oriented stairs/bridge junctions and selected Hero remain planned; scope is held at this verified checkpoint.

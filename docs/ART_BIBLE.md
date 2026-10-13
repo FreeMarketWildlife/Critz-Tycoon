@@ -1,5 +1,15 @@
 # Critz: Tycoon — art bible
 
+## M1.OV2 — Tank care, native home furniture and orchard consistency
+
+The user's next overnight slice prioritizes actual tank management. Tank entry has exactly **Manage / Stats / View**, all visible together at phone scale. The living collection remains a secondary View destination and stays available at Glow n’ Blow; B returns to its originating View/shop. Everyday mist/litter/moss/clean actions precede advanced light/airflow settings. Keep44px targets, visible inventory/cost/disabled states, clear paper-window text and original care/save/economy behavior. Smaller entry previews do not change the authored habitat budget; View retains the detailed close-up and framing controls.
+
+Original home furniture is authored directly at the established doubled legacy canvas sizes, with one-target-pixel contours, warm wood/cream and cool teal cloth/glass planes. Transparent protruding props draw from explicit existing ground footprints and anchors; their material faces/feet do not create collision or baked cast shadows. Native floors, rugs, cabinets, bed, sofa, desk, counter, shelves and fern share the same families. Quiet structural room surround replaces flat dark margins without creating walkable rooms or moving saved coordinates; expanded UI2 FOV stays intact. This is a presentation improvement, not a claim the home map is fully composed.
+
+The original orchard bare/ripe bank uses Grove's retained leaf ramp, a shorter trunk and three red fruits at the unchanged fruit-animation centers. Preserve the existing contact entries/footprints, halfway root registration, saved24-hour regrowth, exactly-three pickup, shake/root split and separate falling effects. Orchard PNGs keep their frame/padding; no reference imagery, resampling, ground fill or cast shadow is introduced.
+
+Little Root's native material planes visibly distinguish moisture, litter, moss, hide, waste and algae. Small original native decomposer poses replace large observation-scale bodies inside the active habitat; the field guide/gallery retains its existing studies. These are original Critz rendering adaptations, not new anatomy/care measurements. Exact source/PNG/atlas checks and native/phone comparisons accompany [the slice](reviews/M1-OV2/README.md). Protected Hero pixels, story/care data and original accepted music remain unchanged. New appearances await morning feedback; no wider gate is self-approved.
+
 ## M1.OV1 — Overnight Rootport Grove visual slice, 2026-10-13
 
 The user's latest overnight direction authorizes ambitious original world, character and supporting editor improvements on main, with commits/pushes, while preserving GAME_VISION and the Emerald target. This authorizes selected TR2 tree integration for this batch; it does not claim morning visual acceptance or wider G1/G2 approval. Original Hero V1 pixels, existing story/maps/save cells, accepted MUSIC.03 notes and fruit-tree harvest behavior remain protected.

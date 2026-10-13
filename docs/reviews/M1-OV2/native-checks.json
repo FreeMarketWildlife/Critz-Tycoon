@@ -1,0 +1,582 @@
+{
+  "task": "M1.OV2",
+  "status": "passed",
+  "assets": [
+    {
+      "id": "prop.bed",
+      "frame": [
+        64,
+        96
+      ],
+      "bounds": [
+        10,
+        2,
+        54,
+        96
+      ],
+      "opaquePixels": 3756,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "dc4724514a800f7849ac0b91ae1df558a722f4cb5084f3a0b16051f1b92dae33"
+    },
+    {
+      "id": "prop.desk",
+      "frame": [
+        96,
+        64
+      ],
+      "bounds": [
+        6,
+        19,
+        90,
+        64
+      ],
+      "opaquePixels": 2655,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "06b22374a296bbc189bef2d898ccfe48ee696e3e068a3e09122364ef124eb4f6"
+    },
+    {
+      "id": "prop.shelf",
+      "frame": [
+        96,
+        64
+      ],
+      "bounds": [
+        9,
+        2,
+        87,
+        64
+      ],
+      "opaquePixels": 4360,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "47c48625478ce88e6634e29c2381781c5c1bad7825528ffc4f7c81b8dd83edeb"
+    },
+    {
+      "id": "prop.shelf.small",
+      "frame": [
+        64,
+        64
+      ],
+      "bounds": [
+        9,
+        2,
+        55,
+        64
+      ],
+      "opaquePixels": 2600,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "a4239646bf1f948b9c6753553363d0f615379e7856efd9a7768974aeb044252d"
+    },
+    {
+      "id": "prop.table",
+      "frame": [
+        96,
+        64
+      ],
+      "bounds": [
+        8,
+        21,
+        88,
+        64
+      ],
+      "opaquePixels": 2284,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "e407b3cedb94a0000de98df41b6d27eeb21da5e4fdcfc7f61400d65a906aa647"
+    },
+    {
+      "id": "prop.sofa",
+      "frame": [
+        128,
+        64
+      ],
+      "bounds": [
+        3,
+        4,
+        126,
+        64
+      ],
+      "opaquePixels": 6613,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "c3a14f64c2abda91c184b7428a5af996aba27cab253b924398e91e44182b24ab"
+    },
+    {
+      "id": "prop.kitchen",
+      "frame": [
+        160,
+        64
+      ],
+      "bounds": [
+        5,
+        12,
+        155,
+        63
+      ],
+      "opaquePixels": 6788,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "9d0998d816b790c5df9285130b2527e639db95a1e8427c3eb3957e48ea9c2bc4"
+    },
+    {
+      "id": "prop.fern",
+      "frame": [
+        32,
+        64
+      ],
+      "bounds": [
+        5,
+        15,
+        27,
+        63
+      ],
+      "opaquePixels": 565,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "020563276843b5ab3efa1c9623058465de88d30cb3ff7a520a4efe32915b7e65"
+    },
+    {
+      "id": "rug",
+      "frame": [
+        96,
+        64
+      ],
+      "bounds": [
+        4,
+        5,
+        92,
+        59
+      ],
+      "opaquePixels": 4752,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "c27b124e3b9da0321e0664fe37706a704e6056098b92f3d84c41e7ee5d46c85e"
+    },
+    {
+      "id": "floor.wood.0",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "opaquePixels": 1024,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "ba8fe6bf558bd177aef9e290d47fa7b7bff7056fd61963aed170a2fe105e50eb"
+    },
+    {
+      "id": "floor.wood.1",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "opaquePixels": 1024,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "0c64390e5645a7d78655b24cc10941f18c51af0d8d32147d130d55be8f85ba26"
+    },
+    {
+      "id": "wall.top",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "opaquePixels": 1024,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "dd75812fc4733068a840b800d5e9fafafa33eeeb557f57dc4bd94fa87c5199be"
+    },
+    {
+      "id": "wall.face",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "opaquePixels": 1024,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "39c198f3e4730f93c042f4325a017cb369c3f9345f788b1537ed7af6d126ff2f"
+    },
+    {
+      "id": "room.surround",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "opaquePixels": 1024,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "752b323c893bea5329d2aa1965485f5f12faa25cc7ac0486ae97b775f26cd1e9"
+    },
+    {
+      "id": "terrarium-back",
+      "frame": [
+        192,
+        144
+      ],
+      "bounds": [
+        0,
+        0,
+        192,
+        144
+      ],
+      "opaquePixels": 27648,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "71a2965a7c3bdfdeeea402c4c09f38d0ec392d9f7f37d8f275e8cbb149077519"
+    },
+    {
+      "id": "terrarium-foreground",
+      "frame": [
+        192,
+        144
+      ],
+      "bounds": [
+        8,
+        7,
+        184,
+        144
+      ],
+      "opaquePixels": 8029,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "2fccbca069a4e75bafc3930207877dafcb51a39d8102e33486267deabc581910"
+    },
+    {
+      "id": "moss",
+      "frame": [
+        28,
+        16
+      ],
+      "bounds": [
+        0,
+        2,
+        28,
+        15
+      ],
+      "opaquePixels": 252,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "354dbd16503187c055670062125ee3102f2c5a2df68e70284f90d99e752e6146"
+    },
+    {
+      "id": "litter",
+      "frame": [
+        16,
+        12
+      ],
+      "bounds": [
+        1,
+        2,
+        15,
+        10
+      ],
+      "opaquePixels": 75,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "fec5568ae66375cfc24e906a255aca76c9a68b83fd43ba317dac3fd8f3d2d1c5"
+    },
+    {
+      "id": "hide",
+      "frame": [
+        36,
+        32
+      ],
+      "bounds": [
+        2,
+        4,
+        35,
+        29
+      ],
+      "opaquePixels": 644,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "6d1219d972bd2b9379ddeb4cfea2c7092220f53aa1d46157cbbc53014b4c55fe"
+    },
+    {
+      "id": "micro-isopod.0",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        9,
+        22,
+        22,
+        30
+      ],
+      "opaquePixels": 63,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "8955530441323f406cd9dfe37c13e8492e12065c83b2364460b6e51c76db20a4"
+    },
+    {
+      "id": "micro-springtail.0",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        13,
+        24,
+        18,
+        29
+      ],
+      "opaquePixels": 12,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "10ecd8b8170178a8e0366a9c48c721159406427b64b498f0d497b061b7ffd1ab"
+    },
+    {
+      "id": "micro-isopod.1",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        9,
+        22,
+        22,
+        30
+      ],
+      "opaquePixels": 63,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "a9c75768f16ab59ab5bfbc23132c39b6161e1a50a42c46fbcbecdaf53d760198"
+    },
+    {
+      "id": "micro-springtail.1",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        13,
+        23,
+        18,
+        28
+      ],
+      "opaquePixels": 12,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "91d8725802cead4ff37926d4ceff182259b6590c098b76678956a88e0c54ac1f"
+    },
+    {
+      "id": "micro-isopod.2",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        9,
+        22,
+        22,
+        30
+      ],
+      "opaquePixels": 63,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "8955530441323f406cd9dfe37c13e8492e12065c83b2364460b6e51c76db20a4"
+    },
+    {
+      "id": "micro-springtail.2",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        13,
+        22,
+        18,
+        27
+      ],
+      "opaquePixels": 12,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "d6125045567b783611377b71b75e2a41ba684109176e99630a35f8c74b6b0040"
+    },
+    {
+      "id": "micro-isopod.3",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        9,
+        22,
+        22,
+        30
+      ],
+      "opaquePixels": 63,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "a9c75768f16ab59ab5bfbc23132c39b6161e1a50a42c46fbcbecdaf53d760198"
+    },
+    {
+      "id": "micro-springtail.3",
+      "frame": [
+        32,
+        32
+      ],
+      "bounds": [
+        13,
+        23,
+        18,
+        28
+      ],
+      "opaquePixels": 12,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "91d8725802cead4ff37926d4ceff182259b6590c098b76678956a88e0c54ac1f"
+    },
+    {
+      "id": "orchard-bare",
+      "frame": [
+        64,
+        96
+      ],
+      "bounds": [
+        4,
+        16,
+        60,
+        80
+      ],
+      "opaquePixels": 2500,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "1560d4200cf0856ff41d105e2cd6e1715cea9c41ccb32ccfe49c80734ebf0d43"
+    },
+    {
+      "id": "orchard-ripe",
+      "frame": [
+        64,
+        96
+      ],
+      "bounds": [
+        4,
+        16,
+        60,
+        80
+      ],
+      "opaquePixels": 2501,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "0d8cf2f470366e5de6a11b9cc4b5d75eab6c198dedaee8322e6a0414eaf10462"
+    },
+    {
+      "id": "terrarium-world",
+      "frame": [
+        96,
+        96
+      ],
+      "bounds": [
+        12,
+        7,
+        84,
+        96
+      ],
+      "opaquePixels": 5933,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "4228b2e3824b960501772d748ce1beb9f4d40d67e524a8d4372d02b8220e96e4"
+    },
+    {
+      "id": "icon-manage",
+      "frame": [
+        16,
+        16
+      ],
+      "bounds": [
+        3,
+        1,
+        15,
+        14
+      ],
+      "opaquePixels": 66,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "e70ab69f2c6caef084ff0ea2a0ce80e389fae4158d1db1ecf6f0c23e7dbc05f0"
+    },
+    {
+      "id": "icon-stats",
+      "frame": [
+        16,
+        16
+      ],
+      "bounds": [
+        2,
+        3,
+        14,
+        14
+      ],
+      "opaquePixels": 54,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "c6e83edc8ada440f870d1db6a26b0a40a53894abed8ef8745e4ecc68e17af664"
+    },
+    {
+      "id": "icon-view",
+      "frame": [
+        16,
+        16
+      ],
+      "bounds": [
+        1,
+        4,
+        15,
+        12
+      ],
+      "opaquePixels": 82,
+      "binaryAlpha": true,
+      "exactSourceAndAtlas": true,
+      "sha256": "ed315904c6e4f68f72aab654a6e7ac990310fc8404f8076eed6fc1cb5b97f3d9"
+    }
+  ],
+  "approvedHeroPreserved": true,
+  "fruitCenters": [
+    [
+      18,
+      23
+    ],
+    [
+      43,
+      26
+    ],
+    [
+      30,
+      40
+    ]
+  ]
+}

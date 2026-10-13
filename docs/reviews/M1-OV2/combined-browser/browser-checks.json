@@ -1,0 +1,15 @@
+{
+  "task": "M1.OV2",
+  "checks": [
+    "Three exact tank actions and all four everyday care buttons fit320/390px portrait and844px landscape/desktop with44px targets",
+    "Real mist/feed/plant/clean preserve costs, inventories, disabled-stock state, rescue flags and loan",
+    "Native dampness/litter/moss/hide/waste/algae/resident states, pan and zoom change pixels without mutating tank data",
+    "Stats, retained gallery, B-to-View return, framing and capture remain reachable",
+    "Current save/reload retains all care/inventory/loan/rescue progress",
+    "Refreshed orchard still shakes, drops exactly three apples and prevents repeat harvest",
+    "All four established orchards use distinct native bare/ripe images with unchanged64×96 contact entries",
+    "No exceptions or missing home/care/fruit assets"
+  ],
+  "errors": [],
+  "physicalSafari": false
+}

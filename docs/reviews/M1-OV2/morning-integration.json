@@ -1,0 +1,20 @@
+{
+  "task": "M1.OV2+M1.ME8",
+  "sourceState": "local main d79ee5e plus only the listed overnight art/UI and editor edits",
+  "fullCurrentCheckoutUnitsPassed": 282,
+  "unitFailures": 0,
+  "nativeExportsPassed": 33,
+  "syntaxCheckPassed": true,
+  "buildPassed": true,
+  "canonicalMidiAssetsInBuild": 30,
+  "builtDistBrowserGroupsPassed": {
+    "homeCare": 8,
+    "story": 17,
+    "editorLongSession": 17
+  },
+  "browserErrors": 0,
+  "physicalSafariTested": false,
+  "hostedSiteId": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "currentSiteAudienceBeforePublish": "custom, owner only",
+  "accessDecisionForFather": "Need father email for named external invitation, or explicit approval for public link."
+}

@@ -5,7 +5,7 @@ import { createRequire } from "node:module";
 import { mkdir, writeFile } from "node:fs/promises";
 import { spawn } from "node:child_process";
 import assert from "node:assert/strict";
-import { scenes, getEntities, isBlocked, nearestEntity } from "../src/world.js";
+import { scenes, getEntities, isBlocked, nearestEntity, fenceCrossing } from "../src/world.js";
 const require = createRequire(import.meta.url);
 let server;
 if (!process.env.TEST_URL) {
@@ -139,7 +139,7 @@ async function approach(id, attempt=0) {
     for (const [dx, dy] of Object.values(directionDeltas)) {
       const n = [p[0] + dx, p[1] + dy], k = key(n);
       if (n[0] < 0 || n[1] < 0 || n[0] >= scenes[s.scene].w || n[1] >= scenes[s.scene].h ||
-          parents.has(k) || portals.has(k) || roamingCells.has(k) || isBlocked(s.scene, n[0], n[1]) || entities.some(e=>e.type==='npc'&&((e.x===n[0]&&e.y===n[1])||(e.reserved?.[0]===n[0]&&e.reserved?.[1]===n[1])))) continue;
+          parents.has(k) || portals.has(k) || roamingCells.has(k) || isBlocked(s.scene, n[0], n[1]) || fenceCrossing(s.scene,{x:p[0],y:p[1]},{x:n[0],y:n[1]}) || entities.some(e=>e.type==='npc'&&((e.x===n[0]&&e.y===n[1])||(e.reserved?.[0]===n[0]&&e.reserved?.[1]===n[1])))) continue;
       parents.set(k, p);
       frontier.push(n);
     }
@@ -184,7 +184,7 @@ async function verifyInputRelease(kind) {
   // Choose open floor so cancellation is proved by stopped input, not a wall.
   const direction = Object.keys(directionDeltas).find(direction => {
     const [dx, dy] = directionDeltas[direction];
-    return [1, 2, 3].every(n => !isBlocked(before.scene, before.player.x + dx * n, before.player.y + dy * n, before));
+    return [1, 2, 3].every(n => !isBlocked(before.scene, before.player.x + dx * n, before.player.y + dy * n, before) && !fenceCrossing(before.scene,{x:before.player.x+dx*(n-1),y:before.player.y+dy*(n-1)},{x:before.player.x+dx*n,y:before.player.y+dy*n}));
   });
   assert.ok(direction, "Need an open three-cell line for input-release proof");
   await faceDirection(direction);

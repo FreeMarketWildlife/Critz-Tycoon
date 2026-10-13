@@ -1,4 +1,5 @@
 import {loadGreenhouseGrounds,renderGreenhouseGrounds} from './greenhouse-grounds.js';
+import {loadHomeArt,hasHomeArt,homeEntry,drawHomeArt,drawHomeProp,drawRoomBackdrop} from './home-art.js';
 import {drawContactSprite} from './contact-rules.js';
 import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
@@ -18,7 +19,7 @@ function contactSource(id,draw,w,h){
 export async function initWorldArt() {
   atlas = await loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url));
   entries = new Map(atlas.manifest.assets.map(a => [a.id, a]));
-  [correctedCast] = await Promise.all([loadAtlas(new URL('../assets/playable/characters/atlas.json', import.meta.url)),loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds()]);
+  [correctedCast] = await Promise.all([loadAtlas(new URL('../assets/playable/characters/atlas.json', import.meta.url)),loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds(),loadHomeArt()]);
 }
 function sprite(c, id, x, y) {
   const a = entries.get(id);
@@ -45,8 +46,9 @@ export function renderWorld(canvas, state, time, view) {
   debug = {camera, playerFoot:foot, width:canvas.width,height:canvas.height, scene:state.scene, atlas:atlas.manifest.image};
   c.fillStyle = outside ? '#446749' : '#223038'; c.fillRect(0,0,canvas.width,canvas.height);
   c.save(); c.translate(-camera.x,-camera.y);
-  const oldSprite=(id,x,y)=>{c.save();c.translate(x,y);c.scale(2,2);sprite(c,id,0,0);c.restore();};
-  const tile = (id,x,y) => {c.save();c.scale(2,2);atlas.draw(c,id,x*16,y*16);c.restore();};
+  if(!outside)drawRoomBackdrop(c,camera,canvas.width,canvas.height);
+  const oldSprite=(id,x,y)=>{if(hasHomeArt(id)){const a=homeEntry(id);drawHomeArt(c,id,x-a.anchor[0],y-a.anchor[1]);return;}c.save();c.translate(x,y);c.scale(2,2);sprite(c,id,0,0);c.restore();};
+  const tile = (id,x,y) => {const home=id==='floor.wood'?'floor.wood.'+((x+y)%2):id==='wall.interior.upper'?'wall.top':id==='wall.interior'?'wall.face':null;if(home){drawHomeArt(c,home,x*32,y*32);return;}c.save();c.scale(2,2);atlas.draw(c,id,x*16,y*16);c.restore();};
   const path = (x,y) => scene.style === 'yard' ? (x===7 || x===8) :
     [8,9,17,18,25].includes(y) || [9,10,19,20].includes(x) ||
     buildings.some(b => x===b.x+3 && y>=b.y+5 && y<=b.y+6);
@@ -66,7 +68,7 @@ export function renderWorld(canvas, state, time, view) {
   }
   const drawables=[], effects=[];
   const add=(depth, draw) => drawables.push({depth,draw});
-  const prop = (o,id=o.sprite) => {const x=(o.x+o.w/2)*32,y=(o.y+o.h)*32;
+  const prop = (o,id=o.sprite) => {if(drawHomeProp(c,id,o))return;if(o.kind==='tank'&&state.stage==='morning'&&id!=='prop.tank.broken'&&drawHomeProp(c,'terrarium-world',o))return;const x=(o.x+o.w/2)*32,y=(o.y+o.h)*32;
     if(!o.collision){if(o.kind==='tank'&&id!=='prop.tank.broken')drawHabitatProp(c,'terrarium',x,y);else oldSprite(id,x,y);return;}
     const living=o.kind==='tank'&&id!=='prop.tank.broken',entry=entries.get(id),w=living?96:entry.rect[2]*2,h=living?96:entry.rect[3]*2;
     const image=contactSource(living?'terrarium-contact':id,ctx=>{if(living)drawHabitatProp(ctx,'terrarium',48,96);else {ctx.imageSmoothingEnabled=false;ctx.scale(2,2);atlas.draw(ctx,id,0,0);}},w,h);

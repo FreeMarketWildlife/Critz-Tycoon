@@ -1,0 +1,22 @@
+{
+  "task": "M1.OV2",
+  "baseHead": "d79ee5e9707082f5daf4a3576c472c02b156f74a",
+  "combinedUnitTests": 276,
+  "unitFailures": 0,
+  "nativeExports": 33,
+  "focusedHomeCareGroups": 8,
+  "existingLivingGroups": 10,
+  "screenGroups": 9,
+  "fullStoryCareCritterGroups": 17,
+  "combinedIntegrationGroups": 9,
+  "uniqueRelevantBrowserGroups": 53,
+  "focusedGroupsRerunOnFinalCombinedRelease": 8,
+  "allChecksPassed": true,
+  "runtimeFilesMatched": 1360,
+  "newAppearanceAcceptedByUser": false,
+  "physicalSafariTested": false,
+  "audibleSpeakerListeningTested": false,
+  "sitesPublished": false,
+  "libraryUploadRetried": false,
+  "saveCareFruitCollisionSourceChanged": false
+}
