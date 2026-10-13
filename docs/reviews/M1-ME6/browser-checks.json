@@ -1,0 +1,196 @@
+{
+  "task": "M1.ME6",
+  "checks": [
+    "Twelve exact-override composites match feature-free rendering and collision overlays pixel-for-pixel",
+    "Path, quiet soil, paving and sand remain their actual native material in water contact margins",
+    "A separate shallow pond changes zero pixels in the original deep-only pond",
+    "Exact raw grass suppresses automatic water and adjacent registered projection inside its cell",
+    "Actionable validation closes the report, centers the trapped start and exposes its coordinates",
+    "Actual map check reports the canonical mixed-depth shallow-border violation",
+    "UI shrinking removes cropped entrance/return links, retains editable rooms and undoes losslessly",
+    "Removing an auto-paired passage removes its return in the actual connection dialog",
+    "Same-device cold-render benchmark improves over threefold; distant dry edits reuse bounded fields without recompilation",
+    "Release review opens on desktop and 320/390px phones with all four native tree styles and working playtest",
+    "All review imports, checks, resize tests and walking preserve synthetic game/draft sentinels",
+    "No browser exceptions or missing assets"
+  ],
+  "errors": [],
+  "measurements": {
+    "baseline": {
+      "coldMs": [
+        1793.0999999046326,
+        1758.5999999046326,
+        1760
+      ],
+      "distantDryEditMs": [
+        1770.5999999046326,
+        1762.4000000953674,
+        1779.1999998092651
+      ],
+      "debug": {
+        "cells": 100,
+        "identity": "fresh",
+        "frame": 0
+      }
+    },
+    "current": {
+      "coldMs": [
+        130.40000009536743,
+        123.80000019073486,
+        120.5
+      ],
+      "distantDryEditMs": [
+        0.8000001907348633,
+        0.6999998092651367,
+        0.5
+      ],
+      "debug": {
+        "cells": 100,
+        "identity": "fresh",
+        "frame": 0,
+        "components": 1,
+        "compiledComponents": 0,
+        "fieldPixels": 159744
+      }
+    },
+    "coldSpeedup": 14.216478168727157,
+    "dryEditSpeedup": 2529.4292605071096,
+    "pixels": {
+      "overrides": [
+        {
+          "feature": "bridge",
+          "blocked": false,
+          "differences": 0
+        },
+        {
+          "feature": "fence",
+          "blocked": false,
+          "differences": 0
+        },
+        {
+          "feature": "ledge-down",
+          "blocked": false,
+          "differences": 0
+        },
+        {
+          "feature": "stairs",
+          "blocked": false,
+          "differences": 0
+        },
+        {
+          "feature": "cave",
+          "blocked": false,
+          "differences": 0
+        },
+        {
+          "feature": "flowers",
+          "blocked": false,
+          "differences": 0
+        },
+        {
+          "feature": "bridge",
+          "blocked": true,
+          "differences": 0
+        },
+        {
+          "feature": "fence",
+          "blocked": true,
+          "differences": 0
+        },
+        {
+          "feature": "ledge-down",
+          "blocked": true,
+          "differences": 0
+        },
+        {
+          "feature": "stairs",
+          "blocked": true,
+          "differences": 0
+        },
+        {
+          "feature": "cave",
+          "blocked": true,
+          "differences": 0
+        },
+        {
+          "feature": "flowers",
+          "blocked": true,
+          "differences": 0
+        }
+      ],
+      "margins": [
+        {
+          "ground": "path",
+          "actual": [
+            231,
+            204,
+            152,
+            255
+          ],
+          "expected": [
+            231,
+            204,
+            152,
+            255
+          ]
+        },
+        {
+          "ground": "soil",
+          "actual": [
+            172,
+            146,
+            107,
+            255
+          ],
+          "expected": [
+            172,
+            146,
+            107,
+            255
+          ]
+        },
+        {
+          "ground": "paving",
+          "actual": [
+            189,
+            194,
+            168,
+            255
+          ],
+          "expected": [
+            189,
+            194,
+            168,
+            255
+          ]
+        },
+        {
+          "ground": "sand",
+          "actual": [
+            230,
+            202,
+            140,
+            255
+          ],
+          "expected": [
+            230,
+            202,
+            140,
+            255
+          ]
+        }
+      ],
+      "independentPoolDifferences": 0,
+      "exactWaterOverrideDifferences": 0,
+      "water": {
+        "cells": 20,
+        "identity": "fresh",
+        "frame": 0,
+        "components": 2,
+        "compiledComponents": 1,
+        "fieldPixels": 63488
+      }
+    }
+  },
+  "physicalSafariTested": false
+}

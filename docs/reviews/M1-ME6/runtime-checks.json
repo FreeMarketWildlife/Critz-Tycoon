@@ -1,0 +1,41 @@
+{
+  "baseline": "f0a6b31a39a58b752e365ab921da4f14e2d18a87",
+  "ownedRuntimeFiles": [
+    {
+      "path": "map-editor/editor.css",
+      "sha256": "6aee4b13da6cd3548a6d387fad59af3bbffde34d9dc78dd5187705f1cc15f719",
+      "testedDistMatches": true
+    },
+    {
+      "path": "map-editor/editor.js",
+      "sha256": "1bcec6abbebc880719ea60316156e78a8b83f33a7e5e48c3799f04b1ac3c4409",
+      "testedDistMatches": true
+    },
+    {
+      "path": "map-editor/index.html",
+      "sha256": "1bfe4bec6e5d2285e88bb099826a96d1dad39421ba8d56e88a7895b9a2db5326",
+      "testedDistMatches": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "sha256": "5b520cbe73c2e32c44c54037aca4d089dc0b4ca172078fc439a5e7c5912cd56c",
+      "testedDistMatches": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "sha256": "4b547da3de6ab7f2832f5a16fb8e03a673c47c9c3d7eaaa3d0c3dae4d7c83698",
+      "testedDistMatches": true
+    },
+    {
+      "path": "src/world-water.js",
+      "sha256": "5f6de75695a89c03bafa6c62c753ae80f439a04b21573d865c842431fde62249",
+      "testedDistMatches": true
+    },
+    {
+      "path": "src/water-map.js",
+      "sha256": "f48c611a3dc788ea68227055b887c343e84e5563f91d3e0fad1708a05419d5a9",
+      "testedDistMatches": true
+    }
+  ],
+  "artAndAdventureFilesExcludedFromTaskCommit": true
+}

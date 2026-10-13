@@ -1,11 +1,12 @@
+import {isWater,waterSurface,mapWaterSurface,waterComponents} from '../src/water-map.js';
+import {validateWaterLayout} from '../src/water-layout.js';
+export {isWater,waterSurface} from '../src/water-map.js';
 import {crossesFence} from '../src/fence-crossing.js';
 import {sliverCells} from '../src/coastal-format.js';
 // Authoring semantics are independent of pixels and adventure saves.
 export const FORMAT='critz-map-project';
 export const SAVE_KEY='critz.map-editor.v1';
 export const MATERIALS=['grass','path','paving','soil','water','cliff','sand',...['fresh','ocean'].flatMap(i=>['still','moving','shallow-still','shallow-moving'].map(t=>`water-${i}-${t}`))];
-export const isWater=k=>k==='water'||k?.startsWith('water-');
-export const waterSurface=k=>k==='water'?{identity:'fresh',type:'moving'}:{identity:k.split('-')[1],type:k.split('-').slice(2).join('-')};
 export const materialBase=k=>isWater(k)?'water':k==='sand'?'grass':k;
 export const FEATURES=['','fence','fence-picket','fence-barbed','tallgrass','flowers','bridge','stairs','cave','ledge-down','ledge-up','ledge-left','ledge-right'];
 export const isFence=f=>['fence','fence-picket','fence-barbed'].includes(f);
@@ -30,36 +31,134 @@ for(const type of ['cottage','garden','shop'])STAMPS[type+'-open']={...STAMPS[ty
 export const clone=o=>JSON.parse(JSON.stringify(o));
 export const inside=(m,x,y)=>Number.isInteger(x)&&Number.isInteger(y)&&x>=0&&y>=0&&x<m.w&&y<m.h;
 export const at=(m,x,y)=>inside(m,x,y)?y*m.w+x:-1;
+// An exact override replaces the feature's traversal and artwork together.
+export const effectiveFeature=(m,x,y)=>m.raw[at(m,x,y)]?'':m.features[at(m,x,y)]||'';
 export function newMap(id='map-1',name='My Rootport',w=20,h=20){if(!Number.isInteger(w)||!Number.isInteger(h)||w<8||h<8||w>128||h>128)throw Error('Map dimensions must be whole numbers from 8 to 128.');return{id,name,w,h,terrain:Array(w*h).fill('grass'),features:Array(w*h).fill(''),raw:{},objects:[],spawn:{x:Math.floor(w/2),y:Math.floor(h/2)},warps:[],connections:[]};}
 export function newProject(){return{format:FORMAT,version:1,tileSize:32,name:'My little world',maps:[newMap()],active:'map-1',notes:''};}
 export function maskAt(m,x,y,predicate){let mask=0;for(const [dx,dy,b]of [[0,-1,1],[1,0,2],[0,1,4],[-1,0,8],[1,-1,16],[1,1,32],[-1,1,64],[-1,-1,128]])if(predicate(x+dx,y+dy))mask|=b;for(const[b,a,c]of [[16,1,2],[32,2,4],[64,4,8],[128,8,1]])if(!(mask&a)||!(mask&c))mask&=~b;return mask;}
 export function cellRecipe(m,x,y){const i=at(m,x,y),kind=materialBase(m.terrain[i]),rank=MATERIALS.indexOf(kind);const neighbor=(a,b)=>at(m,a,b)<0?kind:materialBase(m.terrain[at(m,a,b)]);const mask=maskAt(m,x,y,(a,b)=>MATERIALS.indexOf(neighbor(a,b))>=rank);const quadrants=[[-1,-1],[1,-1],[-1,1],[1,1]].map(([dx,dy])=>{const sides=[neighbor(x+dx,y),neighbor(x,y+dy)].filter(k=>MATERIALS.indexOf(k)<rank);const candidates=sides.length?sides:[neighbor(x+dx,y+dy)].filter(k=>MATERIALS.indexOf(k)<rank);const base=candidates.sort((a,b)=>MATERIALS.indexOf(b)-MATERIALS.indexOf(a))[0]||'grass';return kind==='grass'?'meadow.grass.'+((x*7+y*11)%16):`blend.${kind}.${base}.${mask}`;});
- const feature=m.features[i];return{quadrants,ledge:feature.startsWith('ledge-')?ledgeMask(m,x,y,feature):null,feature:isFence(feature)?`fence.${fenceStyle(feature)}.${maskAt(m,x,y,(a,b)=>isFence(m.features[at(m,a,b)]))&15}`:feature,raw:m.raw[i]||null};}
+ const feature=effectiveFeature(m,x,y);return{quadrants,ledge:feature.startsWith('ledge-')?ledgeMask(m,x,y,feature):null,feature:isFence(feature)?`fence.${fenceStyle(feature)}.${maskAt(m,x,y,(a,b)=>isFence(effectiveFeature(m,a,b)))&15}`:feature,raw:m.raw[i]||null};}
 export function objectAt(m,x,y){return m.objects.find(o=>{const s=STAMPS[o.type];return x>=o.x&&x<o.x+s.w&&y>=o.y&&y<o.y+s.h;});}
 export function objectBlocks(o,x,y){const s=STAMPS[o.type],[a,b,w,h]=s.footprint;if(s.door&&x===o.x+s.door[0]&&y===o.y+s.door[1])return false;return x>=o.x+a&&y>=o.y+b&&x<o.x+a+w&&y<o.y+b+h;}
-export function fenceCrossing(m,from,to){return crossesFence(from,to,(a,b)=>isFence(m.features[at(m,a,b)])&&!m.raw[at(m,a,b)]?maskAt(m,a,b,(xx,yy)=>isFence(m.features[at(m,xx,yy)]))&15:null);}
+export function fenceCrossing(m,from,to){return crossesFence(from,to,(a,b)=>isFence(effectiveFeature(m,a,b))&&!m.raw[at(m,a,b)]?maskAt(m,a,b,(xx,yy)=>isFence(effectiveFeature(m,xx,yy)))&15:null);}
 export function blocked(m,x,y,{ignoreObject=null}={}){const i=at(m,x,y);if(i<0)return true;const f=m.features[i];if(m.objects.some(o=>o!==ignoreObject&&objectBlocks(o,x,y)))return true;if(m.raw[i])return m.raw[i].blocked; if(f==='bridge'||['stairs','cave'].includes(f)&&!isWater(m.terrain[i]))return false;return (isWater(m.terrain[i])&&!m.terrain[i].includes('shallow')||m.terrain[i]==='cliff')||f.startsWith('ledge-');}
 export function placeObject(m,type,x,y){const s=STAMPS[type];if(!s||!inside(m,x,y)||!inside(m,x+s.w-1,y+s.h-1))return 'The whole stamp needs to fit inside the map.';for(let yy=y;yy<y+s.h;yy++)for(let xx=x;xx<x+s.w;xx++)if(objectAt(m,xx,yy))return 'That footprint overlaps another stamp. Erase or move it first.';for(let yy=y+s.footprint[1];yy<y+s.footprint[1]+s.footprint[3];yy++)for(let xx=x;xx<x+s.w;xx++)if(blocked(m,xx,yy))return 'Place this stamp on clear ground.';if(s.door&&blocked(m,x+s.door[0],y+s.h))return 'Leave a clear approach in front of the door.';const o={id:`obj-${Date.now()}-${m.objects.length}`,type,x,y,name:s.name};m.objects.push(o);return o;}
 export function paint(m,x,y,brush){const i=at(m,x,y);if(i<0)return;if(MATERIALS.includes(brush)){m.terrain[i]=brush;m.features[i]='';delete m.raw[i];}else if(FEATURES.includes(brush)){m.features[i]=brush;delete m.raw[i];}else if(brush==='erase'){m.features[i]='';delete m.raw[i];m.objects=m.objects.filter(o=>o!==objectAt(m,x,y));m.warps=m.warps.filter(w=>w.x!==x||w.y!==y);}}
 export function flood(m,x,y,brush){const i=at(m,x,y);if(i<0||!MATERIALS.includes(brush))return;const old=m.terrain[i];if(old===brush)return;const queue=[[x,y]],seen=new Set();for(let n=0;n<queue.length;n++){const[a,b]=queue[n],j=at(m,a,b);if(j<0||seen.has(j)||m.terrain[j]!==old)continue;seen.add(j);paint(m,a,b,brush);for(const[dx,dy]of Object.values(DIRS))queue.push([a+dx,b+dy]);}}
-export function resizeMap(m,w,h){const n=newMap(m.id,m.name,w,h);for(let y=0;y<Math.min(h,m.h);y++)for(let x=0;x<Math.min(w,m.w);x++){const a=at(m,x,y),b=at(n,x,y);n.terrain[b]=m.terrain[a];n.features[b]=m.features[a];if(m.raw[a])n.raw[b]=clone(m.raw[a]);}n.objects=m.objects.filter(o=>o.x+STAMPS[o.type].w<=w&&o.y+STAMPS[o.type].h<=h);n.warps=m.warps.filter(o=>inside(n,o.x,o.y));n.connections=clone(m.connections);n.spawn=inside(n,m.spawn.x,m.spawn.y)?clone(m.spawn):n.spawn;Object.assign(m,n);}
+export function removePassage(project,mapId,w){
+ const m=project.maps.find(m=>m.id===mapId);if(!m)return;
+ m.warps=m.warps.filter(a=>a!==w);
+ const target=project.maps.find(m=>m.id===w.target),[dx,dy]=DIRS[w.direction];
+ if(target)target.warps=target.warps.filter(r=>{
+  const [rx,ry]=DIRS[r.direction];
+  return !(r.target===mapId&&r.tx===w.x-dx&&r.ty===w.y-dy&&r.x-rx===w.tx&&r.y-ry===w.ty);
+ });
+}
+function removeDoorLinks(project,mapId,o){
+ const m=project.maps.find(t=>t.id===mapId),d=doorCell(o);if(!d)return;
+ m.warps=m.warps.filter(w=>w.x!==d.x||w.y!==d.y);
+ for(const t of project.maps)t.warps=t.warps.filter(w=>!(w.target===m.id&&w.tx===d.x&&w.ty===d.y+1));
+}
+export function resizeMap(m,w,h,project=null){
+ const n=newMap(m.id,m.name,w,h);
+ if(project){
+  for(const o of m.objects)if(o.x+STAMPS[o.type].w>w||o.y+STAMPS[o.type].h>h)removeDoorLinks(project,m.id,o);
+  for(const warp of [...m.warps])if(!inside(n,warp.x,warp.y))removePassage(project,m.id,warp);
+  for(const t of project.maps)t.warps=t.warps.filter(a=>a.target!==m.id||inside(n,a.tx,a.ty));
+ }
+ for(let y=0;y<Math.min(h,m.h);y++)for(let x=0;x<Math.min(w,m.w);x++){
+  const a=at(m,x,y),b=at(n,x,y);n.terrain[b]=m.terrain[a];n.features[b]=m.features[a];if(m.raw[a])n.raw[b]=clone(m.raw[a]);
+ }
+ n.objects=m.objects.filter(o=>o.x+STAMPS[o.type].w<=w&&o.y+STAMPS[o.type].h<=h);
+ n.warps=m.warps.filter(a=>inside(n,a.x,a.y));n.connections=clone(m.connections);
+ n.spawn=inside(n,m.spawn.x,m.spawn.y)?clone(m.spawn):n.spawn;Object.assign(m,n);
+}
 export function move(project,mapId,player,dir,{push=true}={}){const m=project.maps.find(m=>m.id===mapId),[dx,dy]=DIRS[dir];let x=player.x+dx,y=player.y+dy,jump=false;
  if(fenceCrossing(m,player,{x,y}))return null;
  if(!inside(m,x,y)){const c=m.connections.find(c=>c.direction===dir);if(!c)return null;const target=project.maps.find(m=>m.id===c.target);if(!target)return null;let tx=dir==='left'?target.w-1:dir==='right'?0:x-c.offset,ty=dir==='up'?target.h-1:dir==='down'?0:y-c.offset;if(blocked(target,tx,ty))return null;return{map:target.id,x:tx,y:ty,facing:dir,transition:true};}
- const f=m.features[at(m,x,y)];if(f.startsWith('ledge-')){if(m.objects.some(o=>objectBlocks(o,x,y))||m.raw[at(m,x,y)]?.blocked||f!==`ledge-${dir}`)return null;if(fenceCrossing(m,{x,y},{x:x+dx,y:y+dy}))return null;x+=dx;y+=dy;jump=true;}
+ const f=effectiveFeature(m,x,y);if(f.startsWith('ledge-')){if(isWater(m.terrain[at(m,x,y)])||m.objects.some(o=>objectBlocks(o,x,y))||m.raw[at(m,x,y)]?.blocked||f!==`ledge-${dir}`)return null;if(fenceCrossing(m,{x,y},{x:x+dx,y:y+dy}))return null;x+=dx;y+=dy;jump=true;}
  const b=m.objects.find(o=>STAMPS[o.type].kind==='boulder'&&o.x===x&&o.y===y);if(b&&push&&!jump){if(blocked(m,x+dx,y+dy)||fenceCrossing(m,{x,y},{x:x+dx,y:y+dy}))return null;b.x+=dx;b.y+=dy;}
  if(blocked(m,x,y))return null;
  const doorway=m.objects.find(o=>{const s=STAMPS[o.type];return s.door&&x===o.x+s.door[0]&&y===o.y+s.door[1];});if(doorway&&dir!=='up')return null;
  const warp=m.warps.find(w=>w.x===x&&w.y===y&&w.direction===dir);if(warp){const target=project.maps.find(t=>t.id===warp.target);if(!target||blocked(target,warp.tx,warp.ty))return null;const arrival={map:target.id,x:warp.tx,y:warp.ty,facing:dir,transition:true};return jump?{map:mapId,x,y,facing:dir,jump:true,arrival}:arrival;}
  return{map:mapId,x,y,facing:dir,jump};}
-export function validate(project){const issues=[];for(const m of project.maps){for(let y=0;y<m.h;y++)for(let x=0;x<m.w;x++){const i=at(m,x,y),f=m.features[i];if(isFence(f)&&['path','paving'].includes(m.terrain[i]))issues.push(`${m.name}: fence blocks the road at ${x},${y}. Leave a gate gap.`);if(f==='stairs'&&isWater(m.terrain[i]))issues.push(`${m.name}: stairs at ${x},${y} cannot cross water. Use a bridge.`);if(f==='stairs'&&m.terrain[i]!=='cliff'&&![[0,-1],[0,1]].some(([dx,dy])=>m.terrain[at(m,x+dx,y+dy)]==='cliff'))issues.push(`${m.name}: stairs at ${x},${y} need a cliff approach.`);if(f.startsWith('ledge-')){const [dx,dy]=DIRS[f.slice(6)];if(blocked(m,x+dx,y+dy))issues.push(`${m.name}: ledge at ${x},${y} has a blocked landing.`);}}const water=[];for(let y=0;y<m.h;y++)for(let x=0;x<m.w;x++)if(isWater(m.terrain[at(m,x,y)]))water.push({x,y});const thin=sliverCells(water);if(thin.length)issues.push(`${m.name}: ${thin.length} water cells need a full 2×2 water block. Widen the pool or channel.`);if(blocked(m,m.spawn.x,m.spawn.y))issues.push(`${m.name}: Hero start is blocked.`);for(const o of m.objects){const s=STAMPS[o.type];if(s.door){const d=doorCell(o);if(blocked(m,d.x,d.y+1))issues.push(`${m.name}: ${o.name} needs a clear door approach.`);if(!m.warps.some(w=>w.x===d.x&&w.y===d.y&&w.direction==='up'))issues.push(`${m.name}: ${o.name} has no linked doorway. Use Passage → Create room & return exit.`);}}for(const w of m.warps){const t=project.maps.find(m=>m.id===w.target);if(t&&!t.warps.some(r=>r.target===m.id)&&!t.connections.some(r=>r.target===m.id))issues.push(`${m.name}: passage to ${t.name} has no return route. Add an exit if this is not intentionally one-way.`);if(!t||blocked(t,w.tx,w.ty))issues.push(`${m.name}: passage at ${w.x},${w.y} has no clear destination.`);if(blocked(m,w.x,w.y))issues.push(`${m.name}: passage at ${w.x},${w.y} is blocked.`);}for(const c of m.connections){if(!project.maps.some(t=>t.id===c.target)){issues.push(`${m.name}: missing connected map.`);continue;}const vertical=['up','down'].includes(c.direction),length=vertical?m.w:m.h;let clear=false;for(let i=0;i<length;i++){const x=vertical?i:c.direction==='left'?0:m.w-1,y=vertical?(c.direction==='up'?0:m.h-1):i;if(!blocked(m,x,y)&&move(project,m.id,{x,y},c.direction,{push:false})){clear=true;break;}}if(!clear)issues.push(`${m.name}: ${c.direction} connection has no clear aligned crossing.`);}}return issues;}
+export function reachableMap(project,m){
+ const cells=new Set(),warps=new Set(),connections=new Set(),queue=[];
+ if(!blocked(m,m.spawn.x,m.spawn.y)){queue.push({...m.spawn});cells.add(at(m,m.spawn.x,m.spawn.y));}
+ for(let n=0;n<queue.length;n++){
+  const from=queue[n];
+  for(const [dir,[dx,dy]]of Object.entries(DIRS)){
+   const step=move(project,m.id,from,dir,{push:false});if(!step)continue;
+   let x=from.x+dx,y=from.y+dy;
+   if(!inside(m,x,y)){connections.add(dir);continue;}
+   if(effectiveFeature(m,x,y).startsWith('ledge-')){x+=dx;y+=dy;}
+   const w=m.warps.find(w=>w.x===x&&w.y===y&&w.direction===dir);
+   if(w)warps.add(w);
+   if(step.map===m.id&&inside(m,step.x,step.y)){
+    const i=at(m,step.x,step.y);if(!cells.has(i)){cells.add(i);queue.push({x:step.x,y:step.y});}
+   }
+  }
+ }
+ return {cells,warps,connections};
+}
+export function validationIssues(project){
+ const issues=[];
+ for(const m of project.maps){
+  const add=(code,x,y,text)=>issues.push({mapId:m.id,x,y,code,message:`${m.name}: ${text}`});
+  for(let y=0;y<m.h;y++)for(let x=0;x<m.w;x++){
+   const i=at(m,x,y),f=effectiveFeature(m,x,y);
+   if(isFence(f)&&['path','paving'].includes(m.terrain[i]))add('fence-road',x,y,`fence blocks the road at ${x},${y}. Leave a gate gap.`);
+   if(f==='stairs'&&isWater(m.terrain[i]))add('stairs-water',x,y,`stairs at ${x},${y} cannot cross water. Use a bridge.`);
+   if(f==='stairs'&&m.terrain[i]!=='cliff'&&![[0,-1],[0,1]].some(([dx,dy])=>m.terrain[at(m,x+dx,y+dy)]==='cliff'))add('stairs-approach',x,y,`stairs at ${x},${y} need a cliff approach.`);
+   if(f.startsWith('ledge-')){
+    const [dx,dy]=DIRS[f.slice(6)];
+    if(isWater(m.terrain[i]))add('ledge-water',x,y,`ledge at ${x},${y} cannot grant a hop through water.`);
+    if(blocked(m,x+dx,y+dy))add('ledge-landing',x,y,`ledge at ${x},${y} has a blocked landing.`);
+   }
+  }
+  const water=waterComponents(m).cells,thin=sliverCells(water);
+  if(thin.length)add('water-width',thin[0].x,thin[0].y,`${thin.length} water cells need a full 2×2 water block. Widen the pool or channel.`);
+  const mixed=validateWaterLayout(m.w,m.h,(x,y)=>mapWaterSurface(m,x,y));
+  if(mixed.length){const {x,y}=mixed[0].deep;add('water-border',x,y,`mixed-depth water at ${x},${y} needs a complete shallow border, including diagonal corners (${mixed.length} exposed contacts).`);}
+  const reach=reachableMap(project,m);
+  if(blocked(m,m.spawn.x,m.spawn.y))add('spawn-blocked',m.spawn.x,m.spawn.y,'Hero start is blocked.');
+  else if(reach.cells.size===1&&!reach.warps.size&&!reach.connections.size)add('spawn-trapped',m.spawn.x,m.spawn.y,'Hero start has no traversable exit. Clear a path from this cell.');
+  for(const o of m.objects){
+   const stamp=STAMPS[o.type];if(!stamp.door)continue;
+   const d=doorCell(o);
+   if(blocked(m,d.x,d.y+1))add('door-approach',d.x,d.y+1,`${o.name} needs a clear door approach.`);
+   const w=m.warps.find(w=>w.x===d.x&&w.y===d.y&&w.direction==='up');
+   if(!w)add('door-unlinked',d.x,d.y,`${o.name} has no linked doorway. Use Passage → Create room & return exit.`);
+  }
+  for(const w of m.warps){
+   const t=project.maps.find(m=>m.id===w.target);
+   if(t&&!t.warps.some(r=>r.target===m.id)&&!t.connections.some(r=>r.target===m.id))add('passage-return',w.x,w.y,`passage to ${t.name} has no return route. Add an exit if this is not intentionally one-way.`);
+   if(!t||blocked(t,w.tx,w.ty))add('passage-destination',w.x,w.y,`passage at ${w.x},${w.y} has no clear destination.`);
+   if(blocked(m,w.x,w.y))add('passage-blocked',w.x,w.y,`passage at ${w.x},${w.y} is blocked.`);
+   else if(!reach.warps.has(w))add('passage-unreachable',w.x,w.y,`passage at ${w.x},${w.y} is not reachable from this map's Hero start in direction ${w.direction}. Clear its approach or move the start.`);
+  }
+  for(const c of m.connections){
+   if(!project.maps.some(t=>t.id===c.target)){add('connection-missing',m.spawn.x,m.spawn.y,'missing connected map.');continue;}
+   const vertical=['up','down'].includes(c.direction),length=vertical?m.w:m.h;
+   let clear=null;
+   for(let i=0;i<length;i++){
+    const x=vertical?i:c.direction==='left'?0:m.w-1,y=vertical?(c.direction==='up'?0:m.h-1):i;
+    if(!blocked(m,x,y)&&move(project,m.id,{x,y},c.direction,{push:false})){clear={x,y};break;}
+   }
+   if(!clear)add('connection-crossing',vertical?Math.floor(m.w/2):c.direction==='left'?0:m.w-1,vertical?(c.direction==='up'?0:m.h-1):Math.floor(m.h/2),`${c.direction} connection has no clear aligned crossing.`);
+   else if(!reach.connections.has(c.direction))add('connection-unreachable',clear.x,clear.y,`${c.direction} connection is not reachable from this map's Hero start. Clear a path to the edge.`);
+  }
+ }
+ return issues;
+}
+export function validate(project){return validationIssues(project).map(i=>i.message);}
 export function importProject(text,tileIds){if(typeof text!=='string'||text.length>6000000)throw Error('Map file is too large (6 MB maximum).');let p;try{p=JSON.parse(text);}catch{throw Error('Paste a complete map project JSON.');}if(p?.format!==FORMAT||p.version!==1||p.tileSize!==32||!Array.isArray(p.maps)||!p.maps.length||p.maps.length>16)throw Error('Unsupported map project. Expected Critz map version 1, up to 16 maps.');if(p.encoding==='rle-v1'){for(const m of p.maps){for(const key of ['terrain','features']){const runs=m[key];if(!Array.isArray(runs)||runs.length>16384)throw Error('Invalid terrain runs.');const values=[];for(const run of runs){if(!Array.isArray(run)||run.length!==2||!Number.isInteger(run[1])||run[1]<1||values.length+run[1]>16384)throw Error('Invalid terrain runs.');values.push(...Array(run[1]).fill(run[0]));}m[key]=values;}}}const clean=newProject();clean.name=String(p.name||'My world').slice(0,100);clean.notes=String(p.notes||'').slice(0,10000);clean.maps=[];let total=0;const ids=new Set();for(const old of p.maps){if(typeof old.id!=='string'||!/^[a-zA-Z0-9_-]{1,80}$/.test(old.id)||ids.has(old.id))throw Error('Map IDs must be unique.');ids.add(old.id);const m=newMap(old.id,String(old.name||old.id).slice(0,100),old.w,old.h);total+=m.w*m.h;if(total>65536)throw Error('Project limit: 65,536 cells.');for(const key of ['terrain','features']){if(!Array.isArray(old[key])||old[key].length!==m.w*m.h||old[key].some(v=>!(key==='terrain'?MATERIALS:FEATURES).includes(v)))throw Error(`Invalid ${key} in ${m.name}.`);m[key]=[...old[key]];}if(!old.spawn||!inside(m,old.spawn.x,old.spawn.y))throw Error('Invalid Hero start.');m.spawn={x:old.spawn.x,y:old.spawn.y};if(!Array.isArray(old.objects)||old.objects.length>4096)throw Error('Invalid objects.');for(const o of old.objects){const s=STAMPS[o.type];if(!s||!inside(m,o.x,o.y)||!inside(m,o.x+s.w-1,o.y+s.h-1)||m.objects.some(a=>a.id===o.id)||objectAt(m,o.x,o.y))throw Error('Invalid or overlapping stamp.');for(let y=o.y;y<o.y+s.h;y++)for(let x=o.x;x<o.x+s.w;x++)if(objectAt(m,x,y))throw Error('Overlapping stamps.');m.objects.push({id:String(o.id).slice(0,100),type:o.type,x:o.x,y:o.y,name:String(o.name||s.name).slice(0,100)});}for(const [k,v]of Object.entries(old.raw||{})){if(!/^\d+$/.test(k)||+k>=m.w*m.h||!v||typeof v.id!=='string'||tileIds&&!tileIds.has(v.id)||typeof v.blocked!=='boolean')throw Error('Unknown raw tile or collision.');m.raw[k]={id:v.id,blocked:v.blocked};}for(const w of old.warps||[]){if(!inside(m,w.x,w.y)||!Object.hasOwn(DIRS,w.direction)||!Number.isInteger(w.tx)||!Number.isInteger(w.ty))throw Error('Invalid passage.');m.warps.push({x:w.x,y:w.y,target:String(w.target),tx:w.tx,ty:w.ty,direction:w.direction});}for(const c of old.connections||[]){if(!Object.hasOwn(DIRS,c.direction)||!Number.isInteger(c.offset)||Math.abs(c.offset)>128||m.connections.some(a=>a.direction===c.direction))throw Error('Invalid edge connection.');m.connections.push({direction:c.direction,target:String(c.target),offset:c.offset});}clean.maps.push(m);}clean.active=ids.has(p.active)?p.active:clean.maps[0].id;return clean;}
 export function exportProject(project){return JSON.stringify({...project,compiler:'critz-metatile-v1',contactRule:{id:'B',structurePixels:16,groundPixels:16,axes:'horizontal and vertical'},semantics:{shore:'Deep water cells are blocked; explicitly shallow water cells are walkable. Shared B shoreline geometry and 3.2-second surface/wash loops.',cliff:'Solid raised terrain; stairs and cave openings override',ledge:'Directed two-cell hop with clear landing',building:'Solid footprint, rear overlap and explicit door; link entrance using passage tool'}},null,2);}
 export function exportChat(project){const p=JSON.parse(exportProject(project));p.encoding='rle-v1';for(const m of p.maps)for(const key of ['terrain','features']){const runs=[];for(const v of m[key]){const last=runs.at(-1);if(last&&last[0]===v)last[1]++;else runs.push([v,1]);}m[key]=runs;}return JSON.stringify(p);}
 export function demoProject(){const p=newProject(),m=p.maps[0];m.name='Your first clearing';for(let x=2;x<18;x++)for(let y=10;y<13;y++)paint(m,x,y,'path');for(let x=12;x<18;x++)for(let y=3;y<8;y++)paint(m,x,y,'water');for(let x=2;x<8;x++)for(let y=2;y<7;y++)paint(m,x,y,'cliff');for(let x=3;x<7;x++)for(let y=3;y<6;y++)paint(m,x,y,'grass');paint(m,4,6,'stairs');paint(m,4,5,'stairs');for(let x=10;x<18;x++)paint(m,x,15,'fence');for(let x=3;x<8;x++)paint(m,x,16,'ledge-down');placeObject(m,'cottage',2,7);placeObject(m,'tree',8,3);placeObject(m,'planter',8,10);m.spawn={x:9,y:12};connectBuilding(p,m.id,m.objects.find(o=>o.type==='cottage'));return p;}
 
 // Ledge neighbors follow the same direction and tangent axis, never perpendicular faces.
-export function ledgeMask(m,x,y,feature){const horizontal=['ledge-down','ledge-up'].includes(feature),[dx,dy]=horizontal?[1,0]:[0,1];return(m.features[at(m,x-dx,y-dy)]===feature?1:0)|(m.features[at(m,x+dx,y+dy)]===feature?2:0);}
+export function ledgeMask(m,x,y,feature){const horizontal=['ledge-down','ledge-up'].includes(feature),[dx,dy]=horizontal?[1,0]:[0,1];return(effectiveFeature(m,x-dx,y-dy)===feature?1:0)|(effectiveFeature(m,x+dx,y+dy)===feature?2:0);}
 export function doorCell(o){const s=STAMPS[o.type];return s?.door?{x:o.x+s.door[0],y:o.y+s.door[1]}:null;}
 export function connectBuilding(project,mapId,o){
  const m=project.maps.find(m=>m.id===mapId),d=doorCell(o);if(!m||!d||!m.objects.includes(o))throw Error('Select a building doorway.');if(project.maps.length>=16)throw Error('Project limit: 16 maps. Link an existing room instead.');if(blocked(m,d.x,d.y+1)||isFence(m.features[at(m,d.x,d.y+1)]))throw Error('Clear the doorway approach first.');if(m.warps.some(w=>w.x===d.x&&w.y===d.y))throw Error('This doorway is already linked. Remove its passage first.');
@@ -73,7 +172,12 @@ export function reviewProject(revision='me3'){const p=newProject(),m=newMap('rev
 // Sand has its own surface identity, between turf and constructed ground.
 export function groundRecipe(m,x,y){const order=['grass','sand','path','paving','soil','water','cliff'],kind=isWater(m.terrain[at(m,x,y)])?'water':m.terrain[at(m,x,y)],rank=order.indexOf(kind),neighbor=(a,b)=>at(m,a,b)<0?kind:isWater(m.terrain[at(m,a,b)])?'water':m.terrain[at(m,a,b)],mask=maskAt(m,x,y,(a,b)=>order.indexOf(neighbor(a,b))>=rank);return[[-1,-1],[1,-1],[-1,1],[1,1]].map(([dx,dy])=>{const sides=[neighbor(x+dx,y),neighbor(x,y+dy)].filter(k=>order.indexOf(k)<rank),candidates=sides.length?sides:[neighbor(x+dx,y+dy)].filter(k=>order.indexOf(k)<rank),base=candidates.sort((a,b)=>order.indexOf(b)-order.indexOf(a))[0]||'grass';if(kind==='grass')return 'meadow.grass.'+((x*7+y*11)%16);if(kind==='sand'||base==='sand'&&['path','paving','soil'].includes(kind))return `ME3.blend.${kind}.${base}.${mask}`;return `blend.${kind}.${base==='sand'?'grass':base}.${mask}`;});}
 
-export function eraseAt(project,mapId,x,y){const m=project.maps.find(t=>t.id===mapId),o=objectAt(m,x,y),d=o&&doorCell(o);if(d){m.warps=m.warps.filter(w=>w.x!==d.x||w.y!==d.y);for(const t of project.maps)t.warps=t.warps.filter(w=>!(w.target===m.id&&w.tx===d.x&&w.ty===d.y+1));}paint(m,x,y,'erase');}
+export function eraseAt(project,mapId,x,y){
+ const m=project.maps.find(t=>t.id===mapId),o=objectAt(m,x,y);
+ if(o)removeDoorLinks(project,mapId,o);
+ for(const w of [...m.warps])if(w.x===x&&w.y===y)removePassage(project,mapId,w);
+ paint(m,x,y,'erase');
+}
 
 export function exitPresentation(project,m,w){if(w.direction!=='down')return null;const outside=project.maps.find(t=>t.id===w.target);const o=outside?.objects.find(o=>{const d=doorCell(o);return d&&w.tx===d.x&&w.ty===d.y+1&&outside.warps.some(r=>r.x===d.x&&r.y===d.y&&r.target===m.id);});return o?{open:STAMPS[o.type].entrance==='open'}:null;}
 
@@ -94,5 +198,25 @@ export function groveReviewProject(){
  placeObject(m,'bench',11,13);m.spawn={x:8,y:13};
  connectBuilding(p,m.id,m.objects.find(o=>o.type==='cottage'));
  p.notes='Original M1.OV1 composition. Trees share exact transparent TR2 pixels and retain explicit two-cell ground footprints. Walk behind crowns, approach roots from four sides, and use the placement preview to inspect overhang. New appearance awaits morning review.';
+ return p;
+}
+
+export function editorRepairReviewProject(){
+ const p=newProject(),m=newMap('editor-repair','Water bodies & exact tiles · repair 6',32,28);
+ p.maps=[m];p.active=m.id;p.name='M1.ME6 editor repair review';
+ const cases=[['grass','water-fresh-still'],['path','water-fresh-still'],['sand','water-ocean-shallow-moving'],['soil','water-fresh-shallow-still'],['paving','water-fresh-shallow-moving'],['grass','water-ocean-moving']];
+ for(const [n,[ground,water]]of cases.entries()){
+  const x=2+n%3*10,y=n<3?2:15;
+  for(let b=y;b<y+8;b++)for(let a=x;a<x+8;a++)paint(m,a,b,ground);
+  for(let b=y+2;b<y+6;b++)for(let a=x+2;a<x+6;a++)paint(m,a,b,water);
+  if(n===4)for(let b=y+3;b<y+5;b++)for(let a=x+3;a<x+5;a++)paint(m,a,b,'water-fresh-moving');
+ }
+ for(let y=12;y<=13;y++)for(let x=1;x<31;x++)paint(m,x,y,'path');
+ for(const [n,type]of ['tree','cypress','willow','palm'].entries())placeObject(m,type,2+n*8,23);
+ for(const [n,feature]of ['bridge','fence','ledge-down'].entries()){
+  paint(m,14+n,12,feature);m.raw[at(m,14+n,12)]={id:'meadow.grass.0',blocked:false};
+ }
+ m.spawn={x:16,y:13};
+ p.notes='Top row: deep freshwater on grass, deep freshwater on path, shallow moving ocean on sand. Bottom row: shallow freshwater on quiet soil, a shallow-ring/deep-center pond on paving, and a separate deep ocean pool. Exact grass overrides on the central path suppress a bridge, fence and ledge. Four unchanged native tree styles remain below. New appearance awaits morning review. This sandbox never overwrites your draft.';
  return p;
 }

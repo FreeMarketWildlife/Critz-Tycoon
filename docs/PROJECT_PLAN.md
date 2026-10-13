@@ -1,5 +1,9 @@
 # Visual foundation production plan
 
+## M1.ME6 — Exact tiles, independent water and useful validation
+
+**Implemented and checked; scoped checkpoint push in progress; parent publication pending.** User explicitly assigns the overnight audit repairs after OV1. [Deliverable/evidence](reviews/M1-ME6/README.md): consistent raw overrides, per-body water depth/materials, bounded cached compilation, canonical enclosure plus directional reachability, actionable cell selection and resize/paired-link integrity. Preserve completed tree/soil work, source assets, story/economy and v1 saves.259 unit and86 isolated release-browser checks pass; local cold-render median improves14.2×. Native/phone appearance awaits user review. Parent owns combined integration and exact tested Sites publication. Subsequent catalogue/compiler, overlap-aware placement, selection tools, oriented stairs/bridge junctions and shared Hero/terrain-animation work remain planned; universal readiness is not claimed.
+
 ## M1.OV1 — First overnight world/editor visual slice
 
 Implemented under the user's expanded overnight redesign authorization. Selected native TR2 trees enter adventure/editor using existing footprints; all four editor styles have separate canopy/ground placement previews. Shared quiet soil replaces board-like garden rows. Button gains native personality actions and an isolated observation review. [Batch deliverable and checks](reviews/M1-OV1/README.md). Morning visual feedback remains pending. Next implementation ownership passes to parent/editor audit for raw override semantics, water underlays/performance, passage validation, resize return links and footprint-only object placement. No new adventure roster, tank rules or persistent quest system is claimed.

@@ -1,0 +1,117 @@
+{
+  "suites": [
+    {
+      "suite": "editor",
+      "checks": [
+        "Desktop editor opens all original and extension art without missing files",
+        "Pointer painting, undo and redo preserve exact cells",
+        "Rectangle drag fills inclusive cells and recomputes corners",
+        "Flood changes a connected material region",
+        "Connected fences and collision overlay render",
+        "Building stamps place and move as whole semantic footprints",
+        "Native desktop drag-and-drop places an entire stamp",
+        "Searchable full tilesheet supplies exact overrides with explicit collision",
+        "Copy-to-chat clipboard data reimports losslessly",
+        "Malformed imports show an inline error and retain the draft",
+        "Draft autosave/reload is isolated from adventure storage",
+        "Project JSON and native map PNG downloads work",
+        "Measured route preset and reciprocal edge connections are editable",
+        "Hero walks actual test cells, stops at shore, and leaves the draft untouched",
+        "Actual Hero test jumps a ledge in one direction and cannot climb back",
+        "Hero pushes a boulder in a disposable test copy",
+        "Actual walking traverses edge connections and directional entrance warps",
+        "Blocked Hero starts prevent testing with actionable validation",
+        "Tablet project panel keeps save/import available",
+        "390px phone has no horizontal overflow; touch painting and Hero controls work",
+        "Corrupt saved draft is retained for recovery",
+        "No browser exceptions or missing assets"
+      ],
+      "errors": []
+    },
+    {
+      "suite": "buildings-r3",
+      "checks": [
+        "Search finds houses, water and native modules across categories, and explains empty results",
+        "Passage creates a real room and reciprocal exit in one action",
+        "Game movement turns, commits the entrance step, then travels to the room",
+        "Walking south through the room exit returns to the clear exterior approach",
+        "Dedicated building/ledge review retains the saved draft and exposes all three connected buildings",
+        "Review playtest does not save over the real map draft",
+        "390px review and toolbox search fit the phone layout",
+        "No missing review assets or browser exceptions"
+      ],
+      "errors": []
+    },
+    {
+      "suite": "buildings-r4",
+      "checks": [
+        "cottage enters and returns; indoor cue visible",
+        "garden enters and returns; indoor cue visible",
+        "shop enters and returns; indoor cue visible",
+        "cottage-open enters and returns; indoor cue visible",
+        "garden-open enters and returns; indoor cue visible",
+        "shop-open enters and returns; indoor cue visible",
+        "up uses animated hop and landing dust",
+        "right uses animated hop and landing dust",
+        "down uses animated hop and landing dust",
+        "left uses animated hop and landing dust",
+        "Explicit raw overrides preserve their collision choice",
+        "Fence row is walkable sideways, rail crossing blocked both ways",
+        "Review demonstrates open/closed entrances and preserves existing draft",
+        "All open entrance variants are searchable on the phone",
+        "Actual adventure walks behind a fence and blocks crossing its rail",
+        "Native pixel proof: fence overlaps Hero and all five dust poses differ with binary alpha",
+        "No browser errors or missing assets"
+      ],
+      "errors": []
+    },
+    {
+      "suite": "fences-r5",
+      "checks": [
+        "fence retains walk-behind/lateral movement and crossing barrier",
+        "fence-picket retains walk-behind/lateral movement and crossing barrier",
+        "fence-barbed retains walk-behind/lateral movement and crossing barrier",
+        "All three actual editor renders paint only middle halves of two tiles",
+        "Projected bottom half stays visible when its anchor is above the viewport",
+        "Three-style review and playtest preserve the saved map draft",
+        "Phone layout fits and searches find wood, white picket and barbed wire",
+        "No browser exceptions or missing fence assets"
+      ],
+      "errors": []
+    },
+    {
+      "suite": "adventure-integration",
+      "checks": [
+        "Phone greenhouse opens inside the game with actual savings, no free review money",
+        "Payment subtracts exactly $100, cents survive, one caught fish persists, review save retained",
+        "Leaving before catching refunds the unused $100",
+        "Failed adventure storage rolls back both wallet and collection",
+        "Play my map loads the saved autotiling project with passages, collisions and Hero movement",
+        "Main menu opens all six coastal landscapes, animated water and wildlife",
+        "Adventure reload retains greenhouse fish and exact savings",
+        "Rootport uses latest animated shared coast renderer with freshwater reflections",
+        "Main tile walking enters the native greenhouse from its garden with shared savings"
+      ],
+      "errors": []
+    },
+    {
+      "suite": "preserved-overnight-art",
+      "task": "M1.OV1",
+      "checks": [
+        "Observation vignette completes through three distinct behavior actions",
+        "Accepted Button cue unlocks on click and toggle stops it without repeated MIDI requests",
+        "Art and music review preserve game and map storage byte-for-byte",
+        "All four native tree styles are searchable; placement shows full canopy and separate two-cell blocker",
+        "Garden walking review opens with actual shared controller and never overwrites saved draft",
+        "Eight actual editor renders match independent front/behind native-pixel composites",
+        "Actual adventure loads all four transparent tree sprites on the unchanged yard map",
+        "Before/after yard captures use the same synthetic state, viewport and clock",
+        "Button and Map Studio fit 320px/390px portrait and 844px landscape viewports",
+        "No browser exceptions or missing assets across review, editor and adventure"
+      ],
+      "errors": [],
+      "physicalSafariTested": false
+    }
+  ],
+  "totalScenarios": 74
+}
