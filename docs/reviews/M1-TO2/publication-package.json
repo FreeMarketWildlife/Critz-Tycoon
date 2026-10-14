@@ -1,0 +1,14 @@
+{
+  "sourceSHA": "d3745e915476d2c211dc6e93a005bb4894cf5988",
+  "archivePath": "/tmp/critz-to2-d3745e9-public.tar.gz",
+  "archiveBytes": 116598025,
+  "archiveSHA256": "fd8eba9ddbee01f6a696e3b0562533ced94fe4b98450a0ffc76042665cad592c",
+  "packageFiles": 3143,
+  "staticFiles": 3142,
+  "allStaticFilesEqualVerifiedBuild": true,
+  "additionalFile": "dist/.openai/hosting.json",
+  "additionalFileParsedEqualSource": true,
+  "unexpectedFiles": [],
+  "forbiddenCachesOrResourceForks": [],
+  "testProductionPathsEqual": 1797
+}

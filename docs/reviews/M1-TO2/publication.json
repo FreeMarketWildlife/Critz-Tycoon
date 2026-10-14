@@ -1,0 +1,77 @@
+{
+  "publishedAt": "2026-10-14T09:45:06.745404+00:00",
+  "recordedAt": "2026-10-14T09:50:24.311Z",
+  "task": "M1.TO2 publication",
+  "parentReview": "Explicit parent approval of final technical changes/test scope and public publication received in this delegated task.",
+  "projectId": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "sourceSHA": "d3745e915476d2c211dc6e93a005bb4894cf5988",
+  "sourceHelper": {
+    "checkout": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon",
+    "normalPushVerified": true,
+    "credentialPassedThroughHiddenStdin": true,
+    "credentialPrinted": false,
+    "credentialPersisted": false,
+    "publishOnPushAccepted": false
+  },
+  "version": {
+    "id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_eeb1f51f527081919f7490b45e263e1d",
+    "number": 50,
+    "sourceSHA": "d3745e915476d2c211dc6e93a005bb4894cf5988",
+    "archiveStorage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000000cf4820d8a41b7d92c32bab8",
+      "content_hash": "sha256:c393c3dfc668f842a6e94e71a8ded01d81bf40c70ea87b158c25f716d0de8fbf",
+      "size_bytes": 177674240,
+      "file_count": 3143
+    }
+  },
+  "deployment": {
+    "id": "appgdep_6acf4f1192148191bdb2b0fee2b01042",
+    "status": "succeeded",
+    "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_eeb1f51f527081919f7490b45e263e1d",
+    "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "failureMessage": null
+  },
+  "audienceBefore": "public",
+  "audienceAfter": "public",
+  "publicURLPreserved": true,
+  "authenticationAdded": false,
+  "rollback": {
+    "version": 49,
+    "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_710a7760170481918c4baa533a0051f7",
+    "sourceSHA": "7d73a6c524217543dc83df11c5c646d1fd3fb683",
+    "archiveStorage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_000000005dd08230a51d6c1bb9ccc667",
+      "content_hash": "sha256:9735578e0fe838f317ef006ce1625ff01fd8cd2a512073d857eb81186ec1a7c2",
+      "size_bytes": 179343360,
+      "file_count": 3058
+    },
+    "priorDeploymentId": "appgdep_6ace27db40888191b6ffc5b124cc9565",
+    "stillRetrievableAfterPublication": true,
+    "instruction": "If needed, deploy this retained saved version with deploy_site_version in the same project; preserve public audience. No rollback executed."
+  },
+  "localSuiteEvidence": {
+    "unitTests": 290,
+    "productionBrowserGroups": 217,
+    "productionBrowserSuites": 20,
+    "syntaxModules": 72,
+    "allPassed": true
+  },
+  "liveQA": {
+    "phoneChromeEmulation": true,
+    "physicalSafariTested": false,
+    "report": "live-checks.json",
+    "inspectedCaptures": [
+      "live-play-390.png",
+      "live-editor-play-390.png",
+      "live-editor-390.png"
+    ]
+  },
+  "limitations": [
+    "Physical iPhone/Safari and OS suspension untested",
+    "No hosted performance comparison or total process/GPU memory claim",
+    "One soundtrack request cancelled by actual navigation, retained separately from failures"
+  ],
+  "finalReceipt": "Repository changes after publication are documentation/QA evidence only; no runtime or approved pixels modified. This published source remains d3745e9."
+}

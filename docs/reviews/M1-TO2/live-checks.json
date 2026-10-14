@@ -1,0 +1,86 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "browser": "155.0.8059.40",
+  "scope": "Live public URL, fresh isolated Chrome touch context,320x568 and390x844. Actual new-game UI and synthetic QA-created saves only. No physical Safari, OS suspension or speed claim.",
+  "checks": [
+    "Anonymous fresh390px context reaches the hosted title without an account or existing storage",
+    "Nine live runtime/contact/Hero resources return200 and match approved build bytes exactly",
+    "Actual hosted new-boy opening completes with named players, surviving animals and25-gallon gift",
+    "Real Chrome touch input moves the live Hero and releases normally",
+    "Live320px/390px game fills its viewport without overflow and keeps44px controls reachable",
+    "Hosted Start→Town guide→Map Studio navigation loads the editor and full catalogue at phone size",
+    "Hosted phone touch painting, undo/redo and draft autosave work",
+    "Hosted Map Studio playtest loads Hero, accepts touch movement and returns to unchanged draft",
+    "Game save survives editor navigation; Start→Play my map loads the saved map through its live iframe route",
+    "Observed live routes have no script exceptions, failed non-cancelled requests or HTTP asset errors"
+  ],
+  "errors": [],
+  "badResponses": [],
+  "failedRequests": [],
+  "assets": [
+    {
+      "path": "src/main.js",
+      "status": 200,
+      "bytes": 63846,
+      "sha256": "fd3509109825eff484c08b5d851f9c7eae4a2356c7ff0c78884b750d559671d7",
+      "contentType": "text/javascript"
+    },
+    {
+      "path": "src/world-water.js",
+      "status": 200,
+      "bytes": 6256,
+      "sha256": "2d7c7dd47b0722305e37971644765c56b4d2836765c48377a1c529c520aeab51",
+      "contentType": "text/javascript"
+    },
+    {
+      "path": "src/coastal-drawing.js",
+      "status": 200,
+      "bytes": 2715,
+      "sha256": "3fc9d8656d7d1688de6299f10f52959b646e93999ce4af4c43b4301ad0985a43",
+      "contentType": "text/javascript"
+    },
+    {
+      "path": "src/held-input.js",
+      "status": 200,
+      "bytes": 1226,
+      "sha256": "1c71545c7c649d61296d42f8bb97510b3ac046753ee863c0ade102bfa97a6594",
+      "contentType": "text/javascript"
+    },
+    {
+      "path": "src/asset-urls.js",
+      "status": 200,
+      "bytes": 109,
+      "sha256": "6afc7c7c8d58fb780cb4815f4078b1e35dbcacc0b9c4dcae3bd632f8354cedb1",
+      "contentType": "text/javascript"
+    },
+    {
+      "path": "map-editor/editor.js",
+      "status": 200,
+      "bytes": 40317,
+      "sha256": "a1e4521028fe8283d803df2ef11e025f7a59d4ffd8b08ee19caadf5a53762a02",
+      "contentType": "text/javascript"
+    },
+    {
+      "path": "assets/playable/contact/runtime.json",
+      "status": 200,
+      "bytes": 331625,
+      "sha256": "6f67743fc0a47b72ded11b30895521eeeccefa9db02b4b7e595f28623f7590f3",
+      "contentType": "application/json"
+    },
+    {
+      "path": "assets/playable/contact/catalogue.json",
+      "status": 200,
+      "bytes": 784267,
+      "sha256": "f610f9b9cd4b76a22a6c17c1c00dd5e596267be71e10ef7526fecd8e5661e860",
+      "contentType": "application/json"
+    },
+    {
+      "path": "assets/characters/hero-boy-v1/idle-south.png",
+      "status": 200,
+      "bytes": 546,
+      "sha256": "0099dd331ae2c2d995663328e52763e8b10b1df0d36854d59676ee0ac52f7883",
+      "contentType": "image/png"
+    }
+  ],
+  "initialProbeCorrection": "The first touch-paint target was above the scrolled viewport at y=-55.5. Added scrollIntoViewIfNeeded and visible-target assertion, then reran the complete live flow. Final mobile captures wait200ms after resize and assert full viewport/controller geometry. No game/editor code changed."
+}
