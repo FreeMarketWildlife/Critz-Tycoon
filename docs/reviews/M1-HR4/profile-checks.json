@@ -1,0 +1,301 @@
+{
+  "referenceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "referenceFrame": 2,
+  "sourceOnly": true,
+  "fullRows46To61": [
+    {
+      "targetRow": 46,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 26,
+        "occupied": 16
+      },
+      "HR3": {
+        "left": 12,
+        "rightExclusive": 25,
+        "occupied": 13
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 25,
+        "occupied": 15
+      }
+    },
+    {
+      "targetRow": 47,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 26,
+        "occupied": 16
+      },
+      "HR3": {
+        "left": 11,
+        "rightExclusive": 26,
+        "occupied": 15
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 26,
+        "occupied": 16
+      }
+    },
+    {
+      "targetRow": 48,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 28,
+        "occupied": 20
+      },
+      "HR3": {
+        "left": 10,
+        "rightExclusive": 26,
+        "occupied": 16
+      },
+      "HR4": {
+        "left": 9,
+        "rightExclusive": 27,
+        "occupied": 18
+      }
+    },
+    {
+      "targetRow": 49,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 28,
+        "occupied": 20
+      },
+      "HR3": {
+        "left": 10,
+        "rightExclusive": 27,
+        "occupied": 17
+      },
+      "HR4": {
+        "left": 8,
+        "rightExclusive": 28,
+        "occupied": 20
+      }
+    },
+    {
+      "targetRow": 50,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 28,
+        "occupied": 20
+      },
+      "HR3": {
+        "left": 10,
+        "rightExclusive": 27,
+        "occupied": 17
+      },
+      "HR4": {
+        "left": 8,
+        "rightExclusive": 28,
+        "occupied": 20
+      }
+    },
+    {
+      "targetRow": 51,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 28,
+        "occupied": 20
+      },
+      "HR3": {
+        "left": 10,
+        "rightExclusive": 27,
+        "occupied": 17
+      },
+      "HR4": {
+        "left": 8,
+        "rightExclusive": 28,
+        "occupied": 20
+      }
+    },
+    {
+      "targetRow": 52,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 26,
+        "occupied": 18
+      },
+      "HR3": {
+        "left": 10,
+        "rightExclusive": 27,
+        "occupied": 17
+      },
+      "HR4": {
+        "left": 8,
+        "rightExclusive": 27,
+        "occupied": 19
+      }
+    },
+    {
+      "targetRow": 53,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 26,
+        "occupied": 18
+      },
+      "HR3": {
+        "left": 11,
+        "rightExclusive": 27,
+        "occupied": 16
+      },
+      "HR4": {
+        "left": 9,
+        "rightExclusive": 26,
+        "occupied": 17
+      }
+    },
+    {
+      "targetRow": 54,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 24,
+        "occupied": 14
+      },
+      "HR3": {
+        "left": 11,
+        "rightExclusive": 26,
+        "occupied": 15
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 24,
+        "occupied": 14
+      }
+    },
+    {
+      "targetRow": 55,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 24,
+        "occupied": 14
+      },
+      "HR3": {
+        "left": 11,
+        "rightExclusive": 24,
+        "occupied": 13
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 23,
+        "occupied": 13
+      }
+    },
+    {
+      "targetRow": 56,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 22,
+        "occupied": 12
+      },
+      "HR3": {
+        "left": 11,
+        "rightExclusive": 24,
+        "occupied": 13
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 23,
+        "occupied": 13
+      }
+    },
+    {
+      "targetRow": 57,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 22,
+        "occupied": 12
+      },
+      "HR3": {
+        "left": 11,
+        "rightExclusive": 23,
+        "occupied": 12
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 22,
+        "occupied": 12
+      }
+    },
+    {
+      "targetRow": 58,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 22,
+        "occupied": 14
+      },
+      "HR3": {
+        "left": 10,
+        "rightExclusive": 24,
+        "occupied": 14
+      },
+      "HR4": {
+        "left": 8,
+        "rightExclusive": 22,
+        "occupied": 14
+      }
+    },
+    {
+      "targetRow": 59,
+      "reference2x": {
+        "left": 8,
+        "rightExclusive": 22,
+        "occupied": 14
+      },
+      "HR3": {
+        "left": 10,
+        "rightExclusive": 25,
+        "occupied": 15
+      },
+      "HR4": {
+        "left": 8,
+        "rightExclusive": 22,
+        "occupied": 14
+      }
+    },
+    {
+      "targetRow": 60,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 20,
+        "occupied": 10
+      },
+      "HR3": {
+        "left": 9,
+        "rightExclusive": 25,
+        "occupied": 16
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 20,
+        "occupied": 10
+      }
+    },
+    {
+      "targetRow": 61,
+      "reference2x": {
+        "left": 10,
+        "rightExclusive": 20,
+        "occupied": 10
+      },
+      "HR3": {
+        "left": 11,
+        "rightExclusive": 24,
+        "occupied": 13
+      },
+      "HR4": {
+        "left": 10,
+        "rightExclusive": 20,
+        "occupied": 10
+      }
+    }
+  ],
+  "finalFourFootRowsEqualMeasuredReferenceEnvelope": true,
+  "facePixelsAbove46Unchanged": true,
+  "frontBackExact": true,
+  "noseCorrectionRetained": true,
+  "oppositeLowerBodyMasksReflect": true,
+  "styleApproval": "awaiting user"
+}

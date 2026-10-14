@@ -1,0 +1,75 @@
+{
+  "approval": "awaiting user visual review",
+  "animation": "not authored; directional-idle construction review only",
+  "frames": {
+    "south": {
+      "boundsExclusive": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "opaqueColors": 15,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "86a860f70195aa52950be331e754b9db176f47367906db720843e0d4237f6ffa"
+    },
+    "north": {
+      "boundsExclusive": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "opaqueColors": 15,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "09b1c5f2fc7dded6b92b7f5e7083e62ec97ebda3dff7677f1e4d8da8330a93c6"
+    },
+    "west": {
+      "boundsExclusive": [
+        5,
+        21,
+        28,
+        62
+      ],
+      "opaqueColors": 15,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "20ab1633f91cdcdffe832e811fb628a8bcb659de4fe46f5b09f028f554207259"
+    },
+    "east": {
+      "boundsExclusive": [
+        4,
+        21,
+        27,
+        62
+      ],
+      "opaqueColors": 15,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "4d33bfbdf4a1800be78c0eec68682e7f991933908d8b6285e94b271102388106"
+    }
+  },
+  "pairedAnatomyMasks": true
+}

@@ -1,3 +1,7 @@
+# M1.HR4 — Compact profile feet and limb overlap
+
+User rejects long profile shoes/leg shapes and asks for direct Emerald comparison. Correct near/far foot overlap, shoe contact rows, arm placement and backpack bottom in both profiles; retain HR3’s corrected faces and exact front/back. Deliver focused native/enlarged before/after, external reference, measured row intervals and editable sources. **Implemented and checked; awaiting visual review.** Static review only, no gameplay integration or wider self-approval. [Review](reviews/M1-HR4/README.md).
+
 # M1.TN3 — Thicker Tanoshi and grizzly outlines
 
 ## M1.WA10 — Widen brown water banks toward land
