@@ -1,6 +1,10 @@
+# M1.HR2 — Reference-led Hero reconstruction
+
+User rejects HR1 and authorizes actual-frame analysis/reconstruction on boy Hero. Deliver original front/back/both-profile idles, matched external Emerald comparison, independently measured visible bands, editable native sources/masks and export proof. State: **awaiting review**; directional-idle deliverable complete. No game replacement or artistic self-approval. Walking follows this accepted construction. [Review](reviews/M1-HR2/README.md).
+
 # M1.HR1 — Boy Hero redesign review
 
-User authorizes creative liberty and repeatable construction, focused only on boy Hero. Deliver original native south idle, clean old/new comparison, full-frame pixel grid, editable source/masks and evidence. State: **awaiting review**. Front deliverable complete; profile/back and walking follow accepted construction. No gameplay replacement or wider gate acceptance. See [review](reviews/M1-HR1/README.md).
+User authorizes creative liberty and repeatable construction, focused only on boy Hero. Deliver original native south idle, clean old/new comparison, full-frame pixel grid, editable source/masks and evidence. State: **rejected/superseded by M1.HR2**. Front deliverable retained as history; do not reuse this construction. No gameplay replacement or wider gate acceptance. See [review](reviews/M1-HR1/README.md).
 
 # Visual foundation production plan
 

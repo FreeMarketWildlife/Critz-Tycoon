@@ -1,5 +1,15 @@
 # Critz: Tycoon — art bible
 
+## Reference-led Hero reconstruction — M1.HR2
+
+User rejects HR1 as still missing Emerald’s construction and explicitly requests actual-frame analysis, original reconstruction and persistence on boy Hero. HR1 is superseded/rejected review history, never a cast standard. The former approved gameplay Hero remains until a replacement is accepted. [HR2 native directions, measured deviations and independent checks](reviews/M1-HR2/README.md).
+
+Inspect the pinned PNG itself, verify its hash, define visible annotation windows and compare at exact matched scale before authoring. The front source eye rectangles double to x12–13/x18–19 rows38–41; chin band ends45, shoulder band starts46, central torso window ends55, lower-body band56–61. The bands include garments/outlines; do not describe their occupied-window bounds as identical anatomy. Hair/headwear and hidden skull are separate. HR2’s short twists and smaller ears explicitly differ from the hat-inclusive envelope.
+
+Draw all four idle views in the same pass to expose inconsistent volumes early: profile nose/ear and tucked neck, shoulder-to-hand overlap, rear costume features and foot stance. Original Critz identity/palette/pixels remain distinct; production drawing code never ingests reference rasters or their masks. Keep reference composite images outside the repository/build. Use a separate read-only reference analyzer to write numeric evidence and an external matched-scale comparison.
+
+Inspect the clean native/nearest-neighbor comparison first, then anatomy/eye masks and countable grid. Preserve failed iterations as labeled review history. Check the visible eye pixels after adding hair, not just a hidden symmetric scaffold. Validate saved exported pixels independently of the generator and run the actual Sprite Editor validator. Correct proportions and overlaps before surface detail. No automated ratio or successful export can self-approve the result. New animation or cast reuse follows accepted directional construction; exact source cadence remains the existing animation contract.
+
 ## Boy Hero redraw — M1.HR1, 2026-10-13
 
 The user rejects the current cast construction relative to Gen 3 and authorizes creative liberty on boy Hero only, including a repeatable process. This authorizes revising the old approved boy as a separate front-idle proposal; preserve the accepted gameplay bank until this new appearance is reviewed. Use the existing Emerald 2× frame/anchor and pinned reference ledger. Regional anatomy remains unresolved where not actually measured; label original adaptations. [Native review, measurements and checks](reviews/M1-HR1/README.md).
