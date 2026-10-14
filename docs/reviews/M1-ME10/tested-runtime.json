@@ -151,7 +151,7 @@
   "map-editor/areas.js": "1109e193f098c96da601809aaddc057673c777cbd2ba4f9fcfa379b0fa4d51d0",
   "map-editor/play.html": "468a928b3295d356baa1f914ed769f5ce41f46ab5b1410119d28553d52333fe4",
   "map-editor/index.html": "a1d453131b5fcef49fed3e9f27d3d592d39e0216cd2e4cba7ac66312c5534cc3",
-  "map-editor/editor.css": "330119a2888dfbd3fb7c04d341406bebf427579a43145e704b15467c56dd889c",
+  "map-editor/editor.css": "a4a65ee03dcb29d9950f54f8bb7396d0bd27c81f4daad97b2782e6ec048d5c62",
   "map-editor/render.js": "8c7bd2fe035fb1c901b318d18a5c717fdf25f61fd1f8595bba81072c84607766",
   "map-editor/test-motion.js": "a84e20c3484c3b831327567d57f9c49f6e1701e711e2bd499e21d87a24bce05f",
   "map-editor/tool-search.js": "89a6c7fd8bb0a69ac0a2dbd240d4ddc4ffa94d2e8b632666604a8585c40d9ea0",
@@ -1509,5 +1509,5 @@
   "src/audio/synth.js": "50465fc9e48de6f9404474d6210d04f54992c846a5be838eb8f170891daff16e",
   "src/audio/cues.js": "33ff833625e6b40b6efa3ebcd77894e3406eb412e1cb83129c31b0bd1db3ad16",
   "src/audio/director.js": "89d89e9e776ccca8292a40b6806c85d984c26e9de1df315fb450e1f917464bcc",
-  "map-editor/ui.js": "36e5b74b45589fcdb5bc1b417738d7fc066e245532eb183ee94455e1f99f1beb"
+  "map-editor/ui.js": "7b96e0d936591c81bc7abd4e28c93e33fcbebae27782f427390bb336feddfc8c"
 }

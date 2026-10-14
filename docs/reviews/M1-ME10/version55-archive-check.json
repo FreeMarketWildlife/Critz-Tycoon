@@ -1,0 +1,19 @@
+{
+  "source": "17730fef36c7ca4a404a9f0d00b05301d597df28",
+  "testedRuntimeFiles": 1511,
+  "matchedBuildFiles": 3798,
+  "archiveFiles": 3799,
+  "extras": [
+    {
+      "path": "dist/.openai/hosting.json",
+      "data": {
+        "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+        "static": {
+          "directory": "dist"
+        }
+      }
+    }
+  ],
+  "metadataFiles": 0,
+  "sha256": "b01dff8e1f0a0f26d1f868bb987bd98911b1ae8f77fb6a5e2abdce50cc5f4f2c"
+}

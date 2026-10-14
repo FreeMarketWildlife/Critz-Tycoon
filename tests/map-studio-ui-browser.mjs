@@ -33,8 +33,8 @@ try{
  await page.locator('#help').click();await page.keyboard.press('Escape');assert.equal(await page.locator('#help-dialog').isVisible(),false);pass('Help is discoverable and dismisses with Escape');
  for(const size of [{width:390,height:844},{width:320,height:640},{width:844,height:390},{width:1024,height:768}]){
   await page.setViewportSize(size);await page.locator('#fit').click();assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth&&document.documentElement.scrollHeight<=innerHeight),true);
-  const v=await page.locator('#viewport').boundingBox();assert.ok(v.width>250&&v.height>100);
-  if(size.width<=760){
+  const v=await page.locator('#viewport').boundingBox();assert.ok(v.width>250&&v.height>100);if(size.height<=500)assert.ok(v.width>=800&&v.height>=190,'Short landscape keeps a useful canvas');
+  if(size.width<=760||(size.height<=500&&size.width<=1100)){
    assert.equal(await page.locator('#build-drawer').isVisible(),false);await page.locator('#open-build').click();assert.equal(await page.locator('#build-drawer').evaluate(d=>d.matches(':modal')),true);
    await page.locator('#toolbox-search').fill('bench');assert.equal(await page.locator('[data-stamp]:visible').count(),4);await page.screenshot({path:out+'/build-'+size.width+'.png'});await page.locator('[data-stamp=bench]').click();assert.equal(await page.locator('#build-drawer').isVisible(),false);assert.equal((await inspect()).stamp,'bench');
    await page.locator('#project-panel').click();await page.locator('#project-copy').click();assert.equal(await page.locator('#data-dialog').isVisible(),true);await page.locator('#data-dialog [data-close]').click();

@@ -29,7 +29,7 @@ All browser tests use fresh isolated Playwright contexts with synthetic storage;
 -6 bench groups: hop/seated lock/front-only exit in all four directions, searchable phone props, no errors.
 -15 usability groups: collapse/reopen, search categories, exact painting/history, keyboard editing with open desktop palette, ARIA tabs, View/layers, Focus, single-modal share/download/test/help,320/390 phone,844×390 landscape,1024 tablet, actual touch placement and no browser exceptions.
 
-The first new test exposed a hidden Fit button at320px; it is now retained. The older general drag test used a fixed screen location that became outside the map under the larger canvas; it now targets an actual free map cell. These repairs were followed by passing runs.
+The first new test exposed a hidden Fit button at320px; it is now retained. The final screenshot review caught a cramped desktop palette in844×390 landscape after the initial version55 publication; the follow-up uses the modal tray and a compact toolbar there, with an explicit minimum800×190 canvas assertion. The older general drag test used a fixed screen location that became outside the map under the larger canvas; it now targets an actual free map cell. These repairs were followed by passing runs.
 
 Screenshots: [before](before.png), [desktop](desktop.png), [phone](viewport-390x844.png), [phone Build](build-390.png), [320px](viewport-320x640.png), [landscape](viewport-844x390.png), [touch](phone-touch.png). Reports under `general/`, `areas/`, `benches/`, and `ui-checks.json`; source and production runs pass all50 browser groups (15+22+7+6). Hosted receipts are recorded separately.
 

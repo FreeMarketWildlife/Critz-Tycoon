@@ -147,7 +147,7 @@ dialog h2{font-size:25px;margin:0 0 18px}
 .focus-mode .tool-bar{display:none}
 .focus-mode .canvas-hint{display:none}
 
-@media(min-width:761px){#project-drawer{position:fixed;margin:0 0 0 auto;top:0;right:0;height:100dvh;max-height:100dvh;width:370px;max-width:90vw;border-radius:18px 0 0 18px;border-right:0}
+@media(min-width:761px) and (min-height:501px){#project-drawer{position:fixed;margin:0 0 0 auto;top:0;right:0;height:100dvh;max-height:100dvh;width:370px;max-width:90vw;border-radius:18px 0 0 18px;border-right:0}
 .palette::backdrop{display:none}
 }
 
@@ -162,7 +162,7 @@ dialog h2{font-size:25px;margin:0 0 18px}
 #copy{display:none}
 }
 
-@media(max-width:760px){header{height:64px;padding:0 10px;gap:10px}
+@media(max-width:760px), (max-height:500px) and (max-width:1100px){header{height:64px;padding:0 10px;gap:10px}
 .brand-icon{width:30px;height:34px;font-size:21px}
 .brand{gap:6px;font-size:7px}
 .brand b{font-size:13px}
@@ -234,4 +234,18 @@ dialog:not(.palette){padding:20px;max-height:90dvh}
 }
 
 @media(prefers-reduced-motion:reduce){button{transition:none}
+}
+
+/* Short landscape windows use the tray and retain room for the map. */
+@media(max-height:500px) and (min-width:600px) and (max-width:1100px){
+ header{height:52px}main{height:calc(100dvh - 52px)}
+ .map-bar{padding:4px 8px}.map-select{max-width:360px}
+ .tool-bar{flex-wrap:nowrap;padding:4px 8px;gap:6px}
+ .segmented{display:flex;width:auto;gap:4px}
+ .segmented button{flex-direction:row;gap:4px;min-height:40px;padding:6px 10px}
+ .segmented button span{font-size:14px}
+ .bottom-bar{min-height:34px;padding:0 8px}
+ .canvas-label{bottom:8px}
+ .palette{max-height:88dvh}
+ .palette .panel-heading{padding:0}.palette .panel-heading h1{font-size:19px}
 }

@@ -6,7 +6,7 @@ export function organizePalette(){
 }
 function syncTabs(){document.querySelectorAll('[data-tab]').forEach(b=>b.tabIndex=b.getAttribute('aria-selected')==='true'?0:-1);}
 export function setupStudioUI(){
- const palette=$('build-drawer'),project=$('project-drawer'),phone=matchMedia('(max-width: 760px)');
+ const palette=$('build-drawer'),project=$('project-drawer'),phone=matchMedia('(max-width: 760px), (max-height: 500px) and (max-width: 1100px)');
  const syncBuild=()=>$('open-build').setAttribute('aria-expanded',String(palette.open));
  function closeBuild(){palette.close();syncBuild();}
  function openBuild(){if(palette.open)return;if(phone.matches)palette.showModal();else palette.show();syncBuild();}
