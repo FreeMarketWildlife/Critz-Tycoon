@@ -9,7 +9,9 @@ try{
   const s=createState('Ari','boy','River');startMorning(s,true);s.scene='town';s.player={x:21,y:26,facing:'up'};s.lukeGreenhouse=pay(initialState(),2468);
   await context.addInitScript(({s,worldZoom,key})=>{localStorage.setItem(key,JSON.stringify(s));localStorage.setItem('critz-tycoon.ui.v1',JSON.stringify({frame:'leaf',calm:true,worldZoom}));localStorage.setItem('critz-tycoon.audio.v1',JSON.stringify({enabled:false,volume:0}));},{s,worldZoom,key:SAVE_KEY});
   await page.goto(url);await page.locator('[data-action=continue]').click();await page.locator('#start').click();await page.locator('[data-action=greenhouse]').click();await page.locator('iframe.game-room').waitFor();
-  let f;for(let i=0;i<100;i++){f=page.frames().find(f=>f.url().includes('/art-review/greenhouse.html'));if(f)break;await page.waitForTimeout(20);}assert.ok(f);
+  // The hosted HTML page redirects to /art-review/greenhouse; local retains
+  // .html. Both identify this same room, including slower cold navigation.
+  let f;for(let i=0;i<1500;i++){f=page.frames().find(f=>f!==page.mainFrame()&&f.url().includes('/art-review/greenhouse'));if(f)break;await page.waitForTimeout(20);}assert.ok(f);
   const snapshot=()=>f.evaluate(async()=> (await import('/art-review/greenhouse.js')).getReviewSnapshot());
   const until=async fn=>{for(let i=0;i<250;i++){const d=await snapshot();if(fn(d))return d;await page.waitForTimeout(20);}throw Error('Greenhouse state wait failed');};
   await f.locator('#begin').waitFor();await f.waitForFunction(()=>!!document.querySelector('#begin')&&!document.querySelector('#begin').disabled);await f.locator('#begin').click();await f.locator('#choices button').first().click();await until(d=>d.mode==='walk');

@@ -1,0 +1,53 @@
+{
+  "groups": 64,
+  "suites": [
+    {
+      "suite": "main",
+      "groups": 14,
+      "errors": 0
+    },
+    {
+      "suite": "discovery",
+      "groups": 10,
+      "errors": 0
+    },
+    {
+      "suite": "bench",
+      "groups": 6,
+      "errors": 0
+    },
+    {
+      "suite": "subviews",
+      "groups": 4,
+      "errors": 0
+    },
+    {
+      "suite": "greenhouse",
+      "groups": 5,
+      "errors": 0
+    },
+    {
+      "suite": "coast",
+      "groups": 8,
+      "errors": 0
+    },
+    {
+      "suite": "original-story-and-both-loans",
+      "groups": 17,
+      "errors": 0
+    }
+  ],
+  "rendererEdgeCases": 720,
+  "nativeCoastAliases": 4070,
+  "syntheticContextsOnly": true,
+  "physicalSafari": false,
+  "inspectedImages": [
+    "main/blush-phone.png",
+    "main/mint-phone.png",
+    "main/apricot-phone.png",
+    "main/lilac-phone.png",
+    "main/bear-aside-zoom3.png",
+    "bench/review-phone.png",
+    "greenhouse/reveal-zoom3-844.png"
+  ]
+}

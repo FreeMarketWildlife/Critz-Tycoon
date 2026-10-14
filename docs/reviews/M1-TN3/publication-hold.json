@@ -9,5 +9,8 @@
   "sitesMutationCalled": false,
   "pendingParentReview": true,
   "liveScope": "Separate bench/fence/shore version52; excludes pending TN2/TN3.",
-  "version51ArchiveRetained": true
+  "version51ArchiveRetained": true,
+  "historicalCheckpoint": true,
+  "supersededBy": "publication.json",
+  "currentPublicationVersion": 53
 }

@@ -1,0 +1,10 @@
+PASS Opening greeting/revisit/Notebook/reload and stable44px dialogue at 320×568
+PASS Opening greeting/revisit/Notebook/reload and stable44px dialogue at 390×844
+PASS Opening greeting/revisit/Notebook/reload and stable44px dialogue at 844×390
+PASS Opening greeting/revisit/Notebook/reload and stable44px dialogue at 1280×900
+PASS Mint Tanoshi visible/interactable in town; story/economy preserved
+PASS Apricot Tanoshi visible/interactable in forest; story/economy preserved
+PASS Lilac Tanoshi visible/interactable in yard; story/economy preserved
+PASS Failed discovery save preserves prior bytes, reports failure, and retries through existing Save
+PASS Actual new-game opening contains Tanoshi; native atlas/anchors/binary alpha loaded
+PASS No runtime exceptions or missing assets

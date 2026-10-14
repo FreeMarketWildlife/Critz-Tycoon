@@ -17,7 +17,9 @@ try{
   await page.goto(url);await page.locator('[data-action=continue]').click();
   for(const action of ['greenhouse','coast','map-player']){
    await page.locator('#start').click();await page.locator(`[data-action=${action}]`).click();await page.locator('iframe.game-room').waitFor();
-   let frame;for(let i=0;i<100;i++){frame=page.frames().find(f=>f!==page.mainFrame()&&f.url().includes(action==='map-player'?'/map-editor/':`/art-review/${action}.html`));if(frame)break;await page.waitForTimeout(20);}assert.ok(frame);
+   // Sites canonicalizes HTML URLs without the suffix; wait for navigation
+   // by page path rather than requiring the local server's exact URL spelling.
+   let frame;for(let i=0;i<1500;i++){frame=page.frames().find(f=>f!==page.mainFrame()&&f.url().includes(action==='map-player'?'/map-editor/':`/art-review/${action}`));if(frame)break;await page.waitForTimeout(20);}assert.ok(frame);
    if(action==='greenhouse'){
     await frame.locator('#begin').waitFor();await frame.waitForFunction(()=>!document.querySelector('#begin').disabled);
     const check=async()=>{const d=await frame.evaluate(async()=>{const s=(await import('/art-review/greenhouse.js')).getReviewSnapshot(),c=document.querySelector('#world');return {...s,width:c.width,height:c.height};});assert.equal(Math.round(d.player.x*32+16)-d.camera.x,d.width/2);assert.equal(Math.round(d.player.y*32+32)-23-d.camera.y,d.height/2);return d;};

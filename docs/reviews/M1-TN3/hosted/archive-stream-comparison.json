@@ -1,0 +1,17 @@
+{
+  "localTarStreamSize": 217988608,
+  "localTarStreamSHA256": "9c3c02b811e9c57cb5e485c73012a045a073b6532ffaa56ab9c30f02e689fc20",
+  "backendArchiveSize": 213872640,
+  "backendContentHash": "sha256:a308fef212c44849487ebe2815aa89bae9e919c0d9d88f1795202317960d79de",
+  "fileCountMatches": 3614,
+  "localArchiveFilesMatchTestedBuild": true,
+  "rawTarStreamsDiffer": true,
+  "localPaxHeaderCounts": {
+    "mtime": 3885,
+    "LIBARCHIVE.xattr.com.apple.provenance": 3885,
+    "SCHILY.xattr.com.apple.provenance": 3885
+  },
+  "normalizedUSTARSize": 213872640,
+  "normalizedUSTARSHA256": "29074ae4078f907072b4ac8042ed36a0177316d726810dd594691efa27c396d1",
+  "backendTarSizeEqualsNormalizedUSTAR": true
+}

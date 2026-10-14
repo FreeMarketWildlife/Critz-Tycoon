@@ -1,0 +1,8 @@
+PASS All 74 unique combinations load without touching adventure saves
+PASS Filters expose every shore, ground direction and ordered water pair
+PASS All four assembled corner orientations and their mirrors render
+PASS Every water/sand/grass bank exposes all 15 shared shapes plus useful beach returns
+PASS Curved water-to-water bank remains independently inspectable
+PASS All 4070 colored native transition references match the browser renderer pixel-for-pixel
+PASS Complete review fits phone width
+PASS Updated playable demo and complete review have no runtime errors

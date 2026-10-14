@@ -23,5 +23,8 @@
   "publicPhoneURL": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
   "localTestServerStopped": true,
   "remainingBlocker": "Parent updated visual review response required before publication.",
-  "nextAction": "Parent reviews the revised native Library sheet and playable captures, then authorizes publishing the accepted source to the existing PUBLIC Sites project."
+  "nextAction": "Parent reviews the revised native Library sheet and playable captures, then authorizes publishing the accepted source to the existing PUBLIC Sites project.",
+  "historicalCheckpoint": true,
+  "supersededBy": "publication.json",
+  "currentPublicationVersion": 53
 }

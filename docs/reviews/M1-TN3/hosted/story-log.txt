@@ -1,0 +1,17 @@
+PASS Girl Hero and opposite-gender rival can be named.
+PASS Opening completes, animals survive, 25-gallon gift and $100 loan arrive.
+PASS All four groups found by walking through bedroom, house, and yard.
+PASS Professor Nugget gives notebook and the $15 search reward.
+PASS Critz shop is enterable; purchases debit money and the free kit is claimable.
+PASS Vet, Drug Store, Bike Shop, and Glow n’ Blow open; medicine, skateboard, and hide purchases work.
+PASS Both neighboring homes and character dialogue are reachable.
+PASS Management changes live conditions, inventory, and stats.
+PASS Framed tank photo posts to Critter and earns money; reach grows with time.
+PASS Six-second simulated video records and posts.
+PASS Paused save/reload preserves complete nonposition state, including tank, inventory, flags and Critter records, plus completed player tile.
+PASS 320px and 390px portrait, 844px landscape, and desktop layouts keep panels and controls onscreen.
+PASS D-pad release finishes exactly one committed step and starts no further step.
+PASS Pointer cancellation clears held direction and pressed styling before physical release.
+PASS A synthetic window blur clears a held keyboard direction; its committed step settles without another step.
+PASS A separate boy-Hero context declines the loan, receives the 25-gallon gift, keeps $12/no debt, and reloads unchanged progress.
+PASS No uncaught browser errors.
