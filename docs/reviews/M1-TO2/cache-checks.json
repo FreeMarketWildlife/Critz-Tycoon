@@ -1,0 +1,97 @@
+{
+  "report": {
+    "checks": [
+      "Nine lifecycle mutations match fresh full-map pixels and exact component recompilation counts",
+      "Moving-to-still and deleted pools release inappropriate wave caches",
+      "All32 packed phases reuse identical canvases on the next loop",
+      "Oversized phase atlases respect the16MiB component budget"
+    ],
+    "rows": [
+      {
+        "label": "cold-two-pools",
+        "compiledComponents": 2,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 0,
+        "sha256": "ee1d262112d16dde3b1cb24271b35cf69f937ca5e7d0bc92e181838468d0aebe"
+      },
+      {
+        "label": "unchanged-warm-frame",
+        "compiledComponents": 0,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 0,
+        "sha256": "ee1d262112d16dde3b1cb24271b35cf69f937ca5e7d0bc92e181838468d0aebe"
+      },
+      {
+        "label": "distant-dry-edit",
+        "compiledComponents": 0,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 0,
+        "sha256": "19537b544d6995ae7792dbddf1044da096a72e3b6a5a0f583a964d53ef3e2459"
+      },
+      {
+        "label": "one-shore-material-edit",
+        "compiledComponents": 1,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 8192,
+        "sha256": "8f1747e46e600e1f39afd947b57726cee739717352558e3620874d1ae8cc5f79"
+      },
+      {
+        "label": "raw-override-removes-wet-cell",
+        "compiledComponents": 1,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 0,
+        "sha256": "7b50e1a2e03dddee44904596ab8d86ed338d60f01af20cc7ce87533c712c73b8"
+      },
+      {
+        "label": "raw-removal-restores-water",
+        "compiledComponents": 1,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 8192,
+        "sha256": "8f1747e46e600e1f39afd947b57726cee739717352558e3620874d1ae8cc5f79"
+      },
+      {
+        "label": "resize-retains-unchanged-component-bounds",
+        "compiledComponents": 0,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 8192,
+        "sha256": "13fa39961c82c9f5059c0e8cbb5a84e9cc781203522016f5f83f29b29e07b81f"
+      },
+      {
+        "label": "moving-to-still-invalidates-shore-phase-cache",
+        "compiledComponents": 1,
+        "components": 2,
+        "fieldPixels": 86016,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 0,
+        "sha256": "37f291d8dc5f3b995ebf6a47d0437536602d60204fa3343e153ad15e7b50f2f3"
+      },
+      {
+        "label": "deleted-pool-leaves-no-ghost-components",
+        "compiledComponents": 0,
+        "components": 1,
+        "fieldPixels": 43008,
+        "retainedFieldBytes": 0,
+        "cachedWaveBytes": 0,
+        "sha256": "659a9109b033b46d5ed5cccf0d4f5b69ba44238d3c101e2b16d92f910db2ae89"
+      }
+    ],
+    "reusedPhaseBytes": 786432,
+    "cappedPhaseBytes": 15728640,
+    "cappedPhaseCount": 6
+  },
+  "errors": []
+}

@@ -15,7 +15,7 @@ export function drawSand(c,x,y,variant=0){const a=sand.manifest.assets.find(a=>a
 function drawing(map){
  const signature=map.w+':'+map.h+'|'+map.terrain.join(',')+'|'+Object.keys(map.raw||{}).join(',');
  const previous=cache.get(map);
- if(previous?.signature===signature)return previous;
+ if(previous?.signature===signature){previous.compiledComponents=0;return previous;}
  const layout=waterComponents(map), old=new Map(previous?.components.map(d=>[d.key,d])||[]);
  let compiled=0;
  const components=layout.components.map(body=>{
@@ -31,6 +31,10 @@ function drawing(map){
   const fresh=local.filter(a=>a.surface.identity==='fresh');
   d.freshPath=fresh.length===local.length?d.path:fresh.length?coastalFieldPath(compileCoastalField(fresh,w,h)):new Path2D();
   d.deepPath=body.mixed?coastalFieldPath(compileCoastalField(local.filter(a=>!a.surface.shallow),w,h,{sideInset:5,verticalInset:5})):null;
+  // Runtime drawing needs the compiled paths, bank bitmap and packed shore
+  // points. Keep dimensions for diagnostics; let construction masks/distances
+  // leave the cache after all three paths have been compiled.
+  d.field={width:field.width,height:field.height};
   return Object.assign(d,body);
  });
  const d={...layout,components,signature,compiledComponents:compiled,ripples:previous?.ripples||[],lastPositions:previous?.lastPositions||[]};
@@ -61,5 +65,5 @@ export function drawWorldWater(c,map,state,time,actors,character,{bounds=null}={
   c.restore();c.restore();
   c.save();c.translate(b.x,b.y);drawCoastalBoundary(c,body,f,{bounds:bounds?{...bounds,x:bounds.x-b.x,y:bounds.y-b.y}:null});c.restore();
  }
- return {cells:d.cells.length,identity,frame:f,components:d.components.length,compiledComponents:d.compiledComponents,fieldPixels:d.components.reduce((n,a)=>n+a.field.width*a.field.height,0),cachedWaveBytes:d.components.reduce((n,a)=>n+[...a.waves.values()].reduce((n,cv)=>n+cv.width*cv.height*4,0),0)};
+ return {cells:d.cells.length,identity,frame:f,components:d.components.length,compiledComponents:d.compiledComponents,fieldPixels:d.components.reduce((n,a)=>n+a.field.width*a.field.height,0),retainedFieldBytes:d.components.reduce((n,a)=>n+(a.field.wet?.byteLength||0)+(a.field.signed?.byteLength||0),0),cachedWaveBytes:d.components.reduce((n,a)=>n+[...a.waves.values()].reduce((n,cv)=>n+cv.width*cv.height*4,0),0)};
 }

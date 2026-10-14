@@ -1,5 +1,5 @@
 import test from 'node:test';import assert from 'node:assert/strict';
-import {HeldDirections} from '../src/held-input.js';
+import {HeldDirections,directionForKey,keyInputSource} from '../src/held-input.js';
 import {createMotion,advanceMotion,getMotionView} from '../src/movement.js';
 test('Keys, aliases and separate fingers retain independent direction ownership',()=>{
  const down=new HeldDirections();down.press('key:ArrowRight','right');down.press('key:d','right');down.press('pointer:1','right');down.press('pointer:2','right');
@@ -18,4 +18,12 @@ test('Editor input restores an older held direction and ignores repeat priority 
  const down=new HeldDirections();down.press('pointer:1','right');down.press('key:ArrowUp','up');down.press('pointer:1','right');assert.equal(down.latest(),'up');
  down.release('key:ArrowUp');assert.equal(down.latest(),'right');down.clear();assert.equal(down.latest(),null);down.release('pointer:1');assert.equal(down.size,0);
  down.press('pointer:1','left');assert.equal(down.latest(),'left');
+});
+test('Shift/Caps Lock WASD maps consistently and physical release retains exact ownership',()=>{
+ for(const [lower,upper,direction]of [['w','W','up'],['s','S','down'],['a','A','left'],['d','D','right']]){
+  assert.equal(directionForKey(lower),direction);assert.equal(directionForKey(upper),direction);
+  const down=new HeldDirections();down.press(keyInputSource({key:lower,code:'Key'+upper}),direction);down.release(keyInputSource({key:upper,code:'Key'+upper}));assert.equal(down.size,0);
+  assert.equal(keyInputSource({key:lower}),keyInputSource({key:upper}));
+ }
+ assert.equal(directionForKey('ArrowRight'),'right');assert.equal(directionForKey('__proto__'),null);
 });

@@ -37,7 +37,7 @@ import { renderTank, renderSpecimen } from "./tank-render.js";
 import { initWorldArt, renderWorld, character } from "./render.js";
 import { migrateGridState } from "./grid-save.js";
 import { createMotion, getMotionView, advanceMotion, createMotionClock, advanceMotionClock, resetMotionClock } from "./movement.js";
-import {HeldDirections} from './held-input.js';
+import {HeldDirections,directionForKey,keyInputSource} from './held-input.js';
 const $ = (id) => document.getElementById(id);
 const esc = (s) =>
   String(s).replace(
@@ -69,6 +69,8 @@ let gender = "boy",
   simAccumulator = 0,
   lastTime = performance.now(),
   visualTime = 0,
+  pageActive = true,
+  artworkReady = false,
   capture = null,
   recording = 0;
 let camera = { kind: "photo", frame: 50, zoom: 1 },
@@ -1045,6 +1047,7 @@ function bindPress(el, onDown, onUp = () => {}) {
   const pointers=new Set();
   el.addEventListener("pointerdown", (e) => {
     e.preventDefault();
+    if(!artworkReady)return;
     el.setPointerCapture(e.pointerId);
     pointers.add(e.pointerId);
     el.classList.add("pressed");
@@ -1070,26 +1073,19 @@ for (const b of document.querySelectorAll("[data-dir]"))
 bindPress($("a-button"), interact);
 bindPress($("b-button"), back);
 $("start").addEventListener("click", () => {
+  if(!artworkReady)return;
   if (dialogue || ["title", "setup", "loan", "confirm-new"].includes(panelName))
     return;
   panelName === "pause" ? closePanel() : pause();
 });
 $("run").addEventListener("click", () => {
+  if(!artworkReady)return;
   running = !running;
   $("run").setAttribute("aria-pressed", running);
 });
 $("dialogue-next").addEventListener("click", nextDialogue);
-const keyDirs = {
-  ArrowUp: "up",
-  w: "up",
-  ArrowDown: "down",
-  s: "down",
-  ArrowLeft: "left",
-  a: "left",
-  ArrowRight: "right",
-  d: "right",
-};
 document.addEventListener("keydown", (e) => {
+  if(!artworkReady)return;
   const textInput = e.target.tagName === "INPUT";
   if (textInput) {
     if (e.key === "Escape") {
@@ -1115,12 +1111,12 @@ document.addEventListener("keydown", (e) => {
     }
     return;
   }
-  const dir = keyDirs[e.key];
+  const dir = directionForKey(e.key);
   if (dir) {
     e.preventDefault();
     if (panelName) {
       if (!e.repeat) moveMenu(dir);
-    } else down.press('key:'+e.key,dir);
+    } else down.press(keyInputSource(e),dir);
     return;
   }
   if (["z", "Z", "Enter", " "].includes(e.key)) {
@@ -1143,10 +1139,10 @@ document.addEventListener("keydown", (e) => {
 });
 let shift = false;
 document.addEventListener("keydown", (e) => {
-  if (e.key === "Shift") shift = true;
+  if (e.key === "Shift") shift = artworkReady;
 });
 document.addEventListener("keyup", (e) => {
-  if (keyDirs[e.key]) down.release('key:'+e.key);
+  down.release(keyInputSource(e));
   if (e.key === "Shift") shift = false;
 });
 function clearInput() {
@@ -1166,14 +1162,16 @@ document.addEventListener("visibilitychange", () => {
   music.setVisible(!document.hidden);
   clearInput();
   lastTime = performance.now();
-  if (document.hidden && !["title", "setup", "confirm-new"].includes(panelName))
+  if (artworkReady && document.hidden && !["title", "setup", "confirm-new", "asset-error"].includes(panelName))
     persist();
 });
 window.addEventListener("pagehide", () => {
+  pageActive=false;
+  clearInput();
   music.setVisible(false);
-  if (!["title", "setup", "confirm-new"].includes(panelName)) persist();
+  if (artworkReady && !["title", "setup", "confirm-new", "asset-error"].includes(panelName)) persist();
 });
-window.addEventListener("pageshow", () => music.setVisible(!document.hidden));
+window.addEventListener("pageshow", () => {pageActive=true;clearInput();music.setVisible(!document.hidden);});
 function finishDay(passedOut) {
   if(transitioning)return;
   transitioning=true;closePanel();clearInput();$('fade').classList.add('on');
@@ -1191,7 +1189,7 @@ function frame(now) {
   const elapsed = Math.max(0, (now - lastTime) / 1000);
   const dt = Math.min(0.05, elapsed);
   lastTime = now;
-  if (!document.hidden) {
+  if (!document.hidden && pageActive) {
     visualTime += dt;
     updateText(dt);
     initializeActors(state,scenes[state.scene].entities);
@@ -1273,6 +1271,7 @@ function frame(now) {
 }
 try {
   await initWorldArt();
+  artworkReady=true;
   fitWorld();
   document.documentElement.dataset.gameReady = 'true';
 

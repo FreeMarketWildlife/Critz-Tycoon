@@ -1,0 +1,26 @@
+{
+  "browser": "155.0.8059.40",
+  "samplesPerRoute": 1,
+  "scope": "Final-byte confirmation only; cold cache disabled, local uncompressed production preview,390x844,80ms/200000 bytes-per-second down/93750 up, no CPU throttle.",
+  "samples": {
+    "game": {
+      "readyMs": 11156.843625,
+      "requests": 72,
+      "decodedBytes": 1956477,
+      "transferBytes": 1978077
+    },
+    "editor": {
+      "readyMs": 13424.672374999998,
+      "requests": 54,
+      "decodedBytes": 2494463,
+      "transferBytes": 2510663
+    }
+  },
+  "moduleHashes": {
+    "src/main.js": "fd3509109825eff484c08b5d851f9c7eae4a2356c7ff0c78884b750d559671d7",
+    "src/world-water.js": "2d7c7dd47b0722305e37971644765c56b4d2836765c48377a1c529c520aeab51",
+    "src/coastal-drawing.js": "3fc9d8656d7d1688de6299f10f52959b646e93999ce4af4c43b4301ad0985a43",
+    "src/held-input.js": "1c71545c7c649d61296d42f8bb97510b3ac046753ee863c0ade102bfa97a6594",
+    "map-editor/editor.js": "a1e4521028fe8283d803df2ef11e025f7a59d4ffd8b08ee19caadf5a53762a02"
+  }
+}

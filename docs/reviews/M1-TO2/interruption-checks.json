@@ -1,0 +1,44 @@
+{
+  "checks": [
+    "Shift+uppercase WASD runs and releases correctly",
+    "Persisted pagehide freezes the game step; pageshow clears owners and resumes without catch-up",
+    "Save, reload and three game/editor navigation cycles preserve exact progress and both input lifecycles",
+    "Editor pagehide freezes its clock and pageshow resumes only the committed tile",
+    "A completed editor edit is saved synchronously before immediate navigation",
+    "Recovered editor content supports new edits, undo/redo and another save/reload",
+    "Interrupted atlas delivery reaches the recoverable error screen and reload preserves exact save bytes",
+    "Failed editor delivery cannot alter a draft; recovery and untouched navigation preserve original raw bytes",
+    "Interruption fixtures have no uncaught browser errors"
+  ],
+  "errors": [],
+  "measurements": {
+    "shiftWasd": {
+      "moves": true,
+      "trace": [
+        {
+          "type": "keydown",
+          "key": "Shift",
+          "code": "ShiftLeft",
+          "shift": true
+        },
+        {
+          "type": "keydown",
+          "key": "D",
+          "code": "KeyD",
+          "shift": true
+        }
+      ]
+    },
+    "gamePagehide": {
+      "beforeTick": 1,
+      "duringTick": 1
+    },
+    "editorPagehide": {
+      "beforeTick": 9,
+      "duringTick": 9
+    },
+    "immediateNavigationSave": true
+  },
+  "fixed": true,
+  "scope": "Synthetic persisted pagehide/pageshow events plus actual browser navigation; Chrome touch emulation, not OS suspension or physical Safari."
+}

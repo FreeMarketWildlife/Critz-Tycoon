@@ -12,13 +12,14 @@ export function createCoastalDrawing(field,styleAt){
   const tx=Math.floor(x/32)*32,ty=Math.floor(y/32)*32,key=tx+','+ty;
   let patch=byTile.get(key);
   if(!patch){patch={x:tx,y:ty,index:patches.length,points:[]};patches.push(patch);byTile.set(key,patch);}
-  patch.points.push({x:x-tx,y:y-ty,distance});
+  patch.points.push(x-tx,y-ty,distance);
  }
+ for(const patch of patches)patch.points=Float32Array.from(patch.points);
  return{field,path:coastalFieldPath(field),bank:nativeCanvas(field,coastalBankPixels(field,styleAt)),waves:new Map(),enabledAt,patches};
 }
 function washAtlas(d,f){
  const columns=Math.min(8,d.patches.length),width=columns*32,height=Math.ceil(d.patches.length/columns)*32,pixels=new Uint8ClampedArray(width*height*4),advance=2*Math.sin(f*2*Math.PI/32);
- for(const patch of d.patches){const px=patch.index%columns*32,py=Math.floor(patch.index/columns)*32;for(const p of patch.points){const color=coastalWashColor(p.distance,advance);if(color)pixels.set(color,((py+p.y)*width+px+p.x)*4);}}
+ for(const patch of d.patches){const px=patch.index%columns*32,py=Math.floor(patch.index/columns)*32;for(let i=0;i<patch.points.length;i+=3){const color=coastalWashColor(patch.points[i+2],advance);if(color)pixels.set(color,((py+patch.points[i+1])*width+px+patch.points[i])*4);}}
  return nativeCanvas({width,height},pixels);
 }
 export function drawCoastalBoundary(c,d,f,{bank=true,wash=true,bounds=null}={}){

@@ -1,0 +1,13 @@
+{
+  "scope": "Independent route503 plus pagehide retry check against first-pass2b47231 and current. Unrelated backup field omitted because that probe used the wrong literal backup key.",
+  "results": [
+    {
+      "version": "firstPass",
+      "rawPreserved": false
+    },
+    {
+      "version": "current",
+      "rawPreserved": true
+    }
+  ]
+}

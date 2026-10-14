@@ -1,0 +1,133 @@
+{
+  "url": "http://127.0.0.1:5221",
+  "results": [
+    {
+      "suite": "interruption-browser",
+      "exitCode": 0,
+      "ms": 5570,
+      "printedPassGroups": 9
+    },
+    {
+      "suite": "cache-invalidation-browser",
+      "exitCode": 0,
+      "ms": 1077,
+      "printedPassGroups": 4
+    },
+    {
+      "suite": "technical-browser",
+      "exitCode": 0,
+      "ms": 7692,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "editor-view-browser",
+      "exitCode": 0,
+      "ms": 3914,
+      "printedPassGroups": 0
+    },
+    {
+      "suite": "browser",
+      "exitCode": 0,
+      "ms": 122528,
+      "printedPassGroups": 17
+    },
+    {
+      "suite": "lifecycle-browser",
+      "exitCode": 0,
+      "ms": 7574,
+      "printedPassGroups": 9
+    },
+    {
+      "suite": "screen-browser",
+      "exitCode": 0,
+      "ms": 2337,
+      "printedPassGroups": 9
+    },
+    {
+      "suite": "home-care-browser",
+      "exitCode": 0,
+      "ms": 4297,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "all-integration-browser",
+      "exitCode": 0,
+      "ms": 4293,
+      "printedPassGroups": 9
+    },
+    {
+      "suite": "map-editor-browser",
+      "exitCode": 0,
+      "ms": 15365,
+      "printedPassGroups": 22
+    },
+    {
+      "suite": "map-studio-r3-browser",
+      "exitCode": 0,
+      "ms": 3675,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "map-studio-r4-browser",
+      "exitCode": 0,
+      "ms": 24864,
+      "printedPassGroups": 17
+    },
+    {
+      "suite": "map-studio-r6-browser",
+      "exitCode": 0,
+      "ms": 8342,
+      "printedPassGroups": 12
+    },
+    {
+      "suite": "map-studio-r7-browser",
+      "exitCode": 0,
+      "ms": 7329,
+      "printedPassGroups": 21
+    },
+    {
+      "suite": "map-studio-r8-browser",
+      "exitCode": 0,
+      "ms": 23548,
+      "printedPassGroups": 17
+    },
+    {
+      "suite": "fence-r5-browser",
+      "exitCode": 0,
+      "ms": 10768,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "coastal-browser",
+      "exitCode": 0,
+      "ms": 11597,
+      "printedPassGroups": 14
+    },
+    {
+      "suite": "coast-complete-browser",
+      "exitCode": 0,
+      "ms": 6465,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "ui-browser",
+      "exitCode": 0,
+      "ms": 11183,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "stairs-browser",
+      "exitCode": 0,
+      "ms": 7174,
+      "printedPassGroups": 6
+    }
+  ],
+  "allPassed": true,
+  "editorViewChecks": [
+    "Pan and zoom preserve all native map pixels and authored data",
+    "Thirty-six pan events and six zoom events issue zero map redraws",
+    "Large-map coordinate picking, painting, undo and overlay changes remain correct on phone"
+  ],
+  "totalPassedGroups": 217,
+  "scope": "Final runtime production bytes;214 printed PASS groups plus3 JSON editor-view groups. Counts overlap across suites. Isolated Chrome/synthetic storage only. Initial recovery connection-refused run was discarded after task preview servers had exited; all20 suites rerun after restart."
+}

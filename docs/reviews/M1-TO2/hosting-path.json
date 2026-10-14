@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-14T09:31:32.258Z",
+  "projectId": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "status": "active",
+  "accessMode": "public",
+  "currentUserRole": "owner",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "latestVersion": 49,
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_710a7760170481918c4baa533a0051f7",
+  "sourceCommit": "7d73a6c524217543dc83df11c5c646d1fd3fb683",
+  "deploymentId": "appgdep_6ace27db40888191b6ffc5b124cc9565",
+  "deploymentStatus": "succeeded",
+  "deploymentUpdatedAt": "2026-10-13T12:46:15.897831+00:00",
+  "operations": "Read-only get_site/get_site_version/get_deployment_status. No save, deployment or audience mutation.",
+  "existingPublicAsset": {
+    "date": "2026-10-14T06:33:27Z",
+    "httpStatus": 200,
+    "contentEncoding": "gzip",
+    "encodedBytes": 83492,
+    "decodedBytes": 2662783,
+    "etag": "W/\"1422a2a9c77907d018f9c48cc4f52ef0\"",
+    "cacheControl": "public, max-age=0, must-revalidate"
+  },
+  "publicationPath": {
+    "sourceHelper": "/Users/tanoshi/.codex/plugins/cache/openai-curated-remote/sites/1.0.2-remix-a.1/scripts/site-workflow.mjs",
+    "sourceRemote": "https://git.chatgpt-team.site/9303cbf1-9434-47c0-b413-4959cc666ac1/appgprj_6ab5dd1e11ac8191937254280d6ba196.git",
+    "branch": "main",
+    "publishOnPushAccepted": false,
+    "credentialPersisted": false,
+    "credentialPrinted": false,
+    "credentialExpired": true,
+    "next": "Parent approval, fresh credential through hidden tty input to helper, synchronize exact tested source/build with normal push, save_site_version with matching commit_sha, deploy saved version, verify succeeded/public/same phone URL."
+  }
+}

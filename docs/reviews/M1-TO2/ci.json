@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-14T09:32:14.411Z",
+  "repository": "FreeMarketWildlife/Critz-Tycoon",
+  "sha": "2b4723173d1f7c1ba2efe7b0438e7ef23144e6ab",
+  "combinedStatus": {
+    "state": "pending",
+    "total_count": 0
+  },
+  "checkRuns": 0,
+  "actionsRuns": 0,
+  "interpretation": "No remote CI result exists for this SHA; pending with zero statuses is not a passing run. Local production checks are the evidence. Recheck final pushed SHA in checkpoint receipt."
+}

@@ -3,7 +3,7 @@
 import {spawn} from 'node:child_process';import {mkdir,writeFile} from 'node:fs/promises';import {join} from 'node:path';
 const base=process.env.TEST_URL||'http://127.0.0.1:5221',out=process.env.TEST_OUTPUT_DIR||'test-results/production';
 await mkdir(out,{recursive:true});
-const suites=['technical-browser','editor-view-browser','browser','lifecycle-browser','screen-browser','home-care-browser','all-integration-browser','map-editor-browser','map-studio-r3-browser','map-studio-r4-browser','map-studio-r6-browser','map-studio-r7-browser','map-studio-r8-browser','fence-r5-browser','coastal-browser','coast-complete-browser','ui-browser','stairs-browser'];
+const suites=['interruption-browser','cache-invalidation-browser','technical-browser','editor-view-browser','browser','lifecycle-browser','screen-browser','home-care-browser','all-integration-browser','map-editor-browser','map-studio-r3-browser','map-studio-r4-browser','map-studio-r6-browser','map-studio-r7-browser','map-studio-r8-browser','fence-r5-browser','coastal-browser','coast-complete-browser','ui-browser','stairs-browser'];
 const results=[];
 for(const suite of suites){
  const directory=join(out,suite);await mkdir(directory,{recursive:true});const start=Date.now();

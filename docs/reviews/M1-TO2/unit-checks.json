@@ -1,0 +1,32 @@
+{
+  "unitTests": 290,
+  "passed": 290,
+  "failed": 0,
+  "skipped": 0,
+  "cancelled": 0,
+  "runtimeSyntaxModules": 72,
+  "canonicalMidiAssets": 30,
+  "standardCheck": true,
+  "productionBuild": true,
+  "diffCheck": true,
+  "completePackageBeforeReceipt": {
+    "exactFiles": 3039,
+    "equalAssetJson": 83,
+    "generatedFiles": [
+      "src/asset-urls.js",
+      "assets/playable/contact/runtime.json",
+      "assets/playable/contact/catalogue.json"
+    ]
+  },
+  "protectedHeroSHA256": "0099dd331ae2c2d995663328e52763e8b10b1df0d36854d59676ee0ac52f7883",
+  "protectedFilesEqualOpeningCommit": {
+    "src/state.js": true,
+    "src/world.js": true,
+    "src/movement.js": true,
+    "src/grid-save.js": true,
+    "src/overworld.js": true,
+    "assets/characters/hero-boy-v1/idle-south.png": true
+  },
+  "finalBrowserGroups": 217,
+  "finalBrowserSuites": 20
+}

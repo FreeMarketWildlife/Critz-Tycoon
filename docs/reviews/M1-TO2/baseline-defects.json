@@ -1,0 +1,40 @@
+{
+  "checks": [
+    "Baseline reproduces Shift+uppercase WASD failing to move",
+    "Baseline reproduces pagehide-only interruption retaining input and advancing movement",
+    "Baseline reproduces editor pagehide-only motion continuing",
+    "Baseline reproduces the last completed edit being lost before autosave debounce",
+    "Interruption fixtures have no uncaught browser errors"
+  ],
+  "errors": [],
+  "measurements": {
+    "shiftWasd": {
+      "moves": false,
+      "trace": [
+        {
+          "type": "keydown",
+          "key": "Shift",
+          "code": "ShiftLeft",
+          "shift": true
+        },
+        {
+          "type": "keydown",
+          "key": "D",
+          "code": "KeyD",
+          "shift": true
+        }
+      ]
+    },
+    "gamePagehide": {
+      "beforeTick": 1,
+      "duringTick": 25
+    },
+    "editorPagehide": {
+      "beforeTick": 9,
+      "duringTick": 33
+    },
+    "immediateNavigationSave": false
+  },
+  "fixed": false,
+  "scope": "Synthetic persisted pagehide/pageshow events plus actual browser navigation; Chrome touch emulation, not OS suspension or physical Safari."
+}
