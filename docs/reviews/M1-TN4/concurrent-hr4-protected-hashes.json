@@ -1,0 +1,29 @@
+{
+  "heroCommit": "4ad42818173319bf2768c58d03250658a14af8df",
+  "files": {
+    "art/source/hero-redesign-r4/build.py": "67b444d6aa30afa67662b06fe582b20c81d28d0c4d55aab107f2a4afdd4b7476",
+    "art/source/hero-redesign-r4/hero-boy.sprite.json": "0ec771050de811f3b4441f8de0f3b06881f604b9fbca1b34b05b8074d24d1ade",
+    "art/source/hero-redesign-r4/hero-boy.rle.json": "619aa207ca93f8d19c62144e14692479ca24534afba64d030d4463bdd9d6f275",
+    "art/source/hero-redesign-r4/masks.json": "047dc51ec2151799e83d3b02bb58a7f39d9f67d7ab99231060bf4ccbf3a9b23a",
+    "art/source/hero-redesign-r4/verify.py": "293155176d64cd716bc365263fd68fd60ad4466710f36f2c94e0b6c569e48300",
+    "art/source/hero-redesign-r4/compare-reference.py": "59762877f6fc7706b2d277e2d39282da7484e3d65183ba01289cf063afc26f51",
+    "art/source/hero-redesign-r4/check-profiles.py": "1504c6302f70376ca889d05305e9599dea0aa68169aa55a1547e9ffa5ae5df1d",
+    "docs/reviews/M1-HR4/native-profile-check.png": "90a35b751e12f6f7d93d7da367f872daa4e5e0e0e785575b5c21706148ff5367",
+    "docs/reviews/M1-HR4/hero-north.png": "09b1c5f2fc7dded6b92b7f5e7083e62ec97ebda3dff7677f1e4d8da8330a93c6",
+    "docs/reviews/M1-HR4/anatomy-proof.png": "9da4bb0b3d0f599671f3b36197638c6b4f3815d0fbfbe4466f8886f0bb9722ff",
+    "docs/reviews/M1-HR4/hero-south.png": "86a860f70195aa52950be331e754b9db176f47367906db720843e0d4237f6ffa",
+    "docs/reviews/M1-HR4/iteration-a.png": "44dee89ec0917a492fa8f1c842cc79dc20ee0177f001aa1fd39ced33eb6c445f",
+    "docs/reviews/M1-HR4/independent-checks.json": "69297f19ca0149e9d231b94bcf6f47615dbe3a98f47a920244d6564818ac0ecb",
+    "docs/reviews/M1-HR4/README.md": "1eeee9d750575c148d48d85bffe3194e34f4a33142302855b80eae8eaf69f13a",
+    "docs/reviews/M1-HR4/hero-east.png": "4d33bfbdf4a1800be78c0eec68682e7f991933908d8b6285e94b271102388106",
+    "docs/reviews/M1-HR4/profile-before-after.png": "45b8453c99099f6a36721ef8b949a8b12689054f62cbc64ae46d400557f4b0da",
+    "docs/reviews/M1-HR4/validation.json": "e9952ee2c460d0df06a17c300867de452474361a9dd737c069458896630232de",
+    "docs/reviews/M1-HR4/reference-measurements.json": "5eeffd9cf9985997d64583b9cd3338ec48aba1ecb0165245741db62279b9968c",
+    "docs/reviews/M1-HR4/hero-grid.png": "8c4f78b0739da2898d7d8bb8122ca9594e9c7da67af2fbce9299f753237a3789",
+    "docs/reviews/M1-HR4/editor-validation.json": "8985b7437848f09e27c41ee8b20ffa7eeaaada4712174d7f139c02c26166b984",
+    "docs/reviews/M1-HR4/directional-review.png": "cdfc89cb1d09ba501df221f314e59de564912cc93c1aa8cb7e4227fd516f5e45",
+    "docs/reviews/M1-HR4/hero-west.png": "20ab1633f91cdcdffe832e811fb628a8bcb659de4fe46f5b09f028f554207259",
+    "docs/reviews/M1-HR4/profile-checks.json": "73b1ddd420cb5634eed1969920230216ff15a4d96b73b84d0db120ffc7846c71"
+  },
+  "preservedPlanBlock": "# M1.HR4 \u2014 Compact profile feet and limb overlap\n\nUser rejects long profile shoes/leg shapes and asks for direct Emerald comparison. Correct near/far foot overlap, shoe contact rows, arm placement and backpack bottom in both profiles; retain HR3\u2019s corrected faces and exact front/back. Deliver focused native/enlarged before/after, external reference, measured row intervals and editable sources. **Implemented and checked; awaiting visual review.** Static review only, no gameplay integration or wider self-approval. [Review](reviews/M1-HR4/README.md).\n\n"
+}

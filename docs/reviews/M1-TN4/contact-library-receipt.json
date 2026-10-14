@@ -2,24 +2,25 @@
   "operation": "replace_library_file",
   "status": "succeeded",
   "path": "/Tanoshi-sizes-and-route-bear-8x.png",
-  "file_id": "file_00000000d4e081fd9d7a803ddfbc1d28",
+  "file_id": "file_00000000c22081fd99897bf0650a0513",
   "library_file_id": "libfile_a72a44ac99508191a57caf20e993b45f",
   "file_name": "Tanoshi-sizes-and-route-bear-8x.png",
-  "current_version_number": 2,
+  "current_version_number": 3,
   "restored_from_version_number": null,
   "xattrs": [
     {
       "name": "user.library-file-version",
-      "value": "2"
+      "value": "3"
     }
   ],
   "directory_id": "libdir_03d8e954414481918d43f967379ec182",
   "mime_type": "image/png",
   "library_artifact_type": "image",
-  "file_size_bytes": 71649,
+  "file_size_bytes": 93037,
   "external_connectors_accessed": false,
   "identityAndVersionVerified": true,
   "previousAcceptedVersionRetained": 1,
   "onlyNativeArtUploaded": true,
-  "parentVisualReviewPending": true
+  "parentVisualReviewPending": true,
+  "sha256": "dfe87522699db5cd8ec48263914090dd27d36942b4990a5b42a310d9c7c59e9b"
 }

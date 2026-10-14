@@ -1,6 +1,10 @@
 # M1.TN4 — Tanoshi eye readability and bear refinement
 
-**Concrete review and priority Library GIF delivered; parent visual response pending before publication.** Latest Hero update located at HR3/source3fa3a59, four corrected idles not yet integrated; both Heroes untouched. Proposed aligned transparent eye pairs and clearer original sleeping bear preserve all current contracts. [Review/GIF/owner evidence](reviews/M1-TN4/README.md).316 units,7 native/195 protection checks,62 exact reproductions,18 browser groups/720 boundaries and12 zoom views pass. GIFs use true PNG alpha with moving game tiles and exact8×/1× pixels; Library IDs/receipts recorded. Existing public version57 remains unchanged. Scoped review commit a0e7ddc is pushed with matching origin/main SHA verified. Next: parent reviews GIF/eyes/bear/HR3 direction; no broader gate is self-approved.
+**Concrete review and priority Library GIF delivered; parent visual response pending before publication.** Latest Hero update is now concurrent HR4/source4ad4281: compact profile feet/limb overlap; front/back remain exact HR3 and gameplay is unchanged. Both Hero sources untouched. Proposed aligned transparent eye pairs and clearer original sleeping bear preserve all current contracts. [Review/GIF/owner evidence](reviews/M1-TN4/README.md).316 units,7 native/195 protection checks,62 exact reproductions,18 browser groups/720 boundaries and12 zoom views pass. GIFs use true PNG alpha with moving game tiles and exact8×/1× pixels; Library IDs/receipts recorded. Existing public version57 remains unchanged. Scoped review commit a0e7ddc is pushed with matching origin/main SHA verified. Next: parent reviews GIF/eyes/bear/latest HR4 direction; no broader gate is self-approved.
+
+# M1.HR4 — Compact profile feet and limb overlap
+
+User rejects long profile shoes/leg shapes and asks for direct Emerald comparison. Correct near/far foot overlap, shoe contact rows, arm placement and backpack bottom in both profiles; retain HR3’s corrected faces and exact front/back. Deliver focused native/enlarged before/after, external reference, measured row intervals and editable sources. **Implemented and checked; awaiting visual review.** Static review only, no gameplay integration or wider self-approval. [Review](reviews/M1-HR4/README.md).
 
 # M1.TN3 — Thicker Tanoshi and grizzly outlines
 

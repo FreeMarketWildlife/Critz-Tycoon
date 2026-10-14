@@ -18,8 +18,8 @@
   "enlargedGifLibraryId": "libfile_95fc83b589ec8191893f62231614f39b",
   "nativeGifLibraryId": "libfile_03c9c16a7d948191a85b3755fd7a2ac2",
   "contactLibraryId": "libfile_a72a44ac99508191a57caf20e993b45f",
-  "contactLibraryVersion": 2,
-  "heroLatestSource": "3fa3a593a948cdb34ae97aa12abc0f402eb77386",
+  "contactLibraryVersion": 3,
+  "heroLatestSource": "4ad42818173319bf2768c58d03250658a14af8df",
   "heroOwner": "Review game progress and feel",
   "heroFilesEdited": false,
   "chatGPTPetEdited": false,
@@ -28,6 +28,9 @@
   "publicationHeldForParentReview": true,
   "localReviewServerStopped": true,
   "physicalSafari": false,
-  "nextAction": "Parent inspects/delivers Library GIFs and contact, returns specific eye/bear feedback and HR3 direction; integrate/publish only after explicit response.",
-  "checkedAtUTC": "2026-10-14T23:52:04.419003+00:00"
+  "nextAction": "Parent inspects/delivers Library GIFs and updated contact, returns specific eye/bear feedback and latest HR4 direction; integrate/publish only after explicit response.",
+  "checkedAtUTC": "2026-10-14T23:52:04.419003+00:00",
+  "heroOwnerStatus": "idle",
+  "additionalConcurrentHR4FilesExact": 23,
+  "concurrentHR4PlanBlockPreserved": true
 }
