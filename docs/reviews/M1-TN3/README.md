@@ -1,6 +1,6 @@
 # M1.TN3 — Thicker Tanoshi and resting grizzly outlines
 
-Implemented and technically checked; awaiting the parent's updated visual review before publication. This packet supersedes the TN2 outline appearance only. The existing public phone site currently serves version52, the separately published bench/fence/shore work, without TN2/TN3. No Sites version was saved or deployed by this task.
+Implemented and technically checked; parent inspected Library version1 and accepted this specific appearance checkpoint, authorizing publication after version52 reconciliation. This packet supersedes the TN2 outline appearance only. The existing public phone site currently serves version52, the separately published bench/fence/shore work, without TN2/TN3. No Sites version was saved or deployed by this task.
 
 [Updated native Library sheet](https://chatgpt.com/api/library/files/libfile_a72a44ac99508191a57caf20e993b45f/download) retains the same file identity and version0 history. Version1 contains all four active sizes, the sleeping bear and unchanged Hero for scale. Only native art was uploaded; browser captures remain local. [Verified replacement receipt](library-checkpoint.json).
 
@@ -23,4 +23,4 @@ The existing discovery suite passes10 groups; size/zoom suite passes14 groups in
 
 Synthetic storage and fresh Chrome contexts only. Physical Safari, real device suspension, hosted readiness and total process/GPU RAM remain unmeasured. Warm local renderer diagnostic medians0.9/0.4/0.1ms are recorded in the subview evidence; they do not establish physical-phone FPS.
 
-Work stays on main. Scoped runtime/review commit94551cbfd343e597878bc79eede2e735fe097ae1 is pushed with matching origin/main SHA verified; [receipt](checkpoint.json). Working tree was clean at that checkpoint; the final receipt update changes documentation only. no branch/worktree or new site was created. Exact next action: parent reviews version1 native sheet and these playable captures, then authorizes the revised source for publication to the existing PUBLIC project. Keep the live audience and saves unchanged.
+Work stays on main. Scoped runtime/review commit94551cbfd343e597878bc79eede2e735fe097ae1 is pushed with matching origin/main SHA verified; [receipt](checkpoint.json). Working tree was clean at that checkpoint; the final receipt update changes documentation only. no branch/worktree or new site was created. Exact next action: publish the parent-accepted union to the existing PUBLIC project after the recorded version52 preservation proof, then verify hosted source and feature flows. Keep the live audience and saves unchanged.

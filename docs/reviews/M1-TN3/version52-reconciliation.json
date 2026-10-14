@@ -1,0 +1,176 @@
+{
+  "version52Source": "424e0a4d36eb3117b0595460c9c966a9584fa8ff",
+  "acceptedSource": "4af269a0b412b91b4b5eb046cefada038d124609",
+  "version52RuntimePaths": 1487,
+  "version52RuntimePathsByteIdentical": 1467,
+  "allVersion52AssetsByteIdentical": true,
+  "noVersion52RuntimeFilesDeleted": true,
+  "allOtherRuntimeDifferencesAreExistingTN2Paths": true,
+  "changedRuntimePaths": [
+    "art-review/coast.js",
+    "art-review/greenhouse.css",
+    "art-review/greenhouse.js",
+    "map-editor/authoring.js",
+    "map-editor/editor.css",
+    "map-editor/editor.js",
+    "map-editor/model.js",
+    "map-editor/render.js",
+    "src/environment-render.js",
+    "src/greenhouse-grounds.js",
+    "src/grid-save.js",
+    "src/main.js",
+    "src/render.js",
+    "src/state.js",
+    "src/tanoshi-art.js",
+    "src/tanoshi.js",
+    "src/ui-settings.js",
+    "src/world-space.js",
+    "src/world.js",
+    "style.css"
+  ],
+  "benchInsertedSegmentsVerbatim": [
+    {
+      "path": "map-editor/editor.js",
+      "characters": 19,
+      "sha256": "e497676f71654ba52b2a08278519cbd4126d7c1bb72bbd629e57b887824e95e5",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/editor.js",
+      "characters": 8,
+      "sha256": "9aa39bee90d26e35919aaa56d9eed8fcd946a0dc218da0ce5869b1bb72e6501c",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/editor.js",
+      "characters": 40,
+      "sha256": "e1b0b30527bd2b911c8db49e991a058053250c3464569aa2f115b20155e23baa",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/editor.js",
+      "characters": 180,
+      "sha256": "a1894b07d6b3a04c648934f77c69ea2713e506068c9d6bef3ad13bafb3974454",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/editor.js",
+      "characters": 44,
+      "sha256": "5d42cb62dd71e8af9c7c2f48a3f5edd5e1e9c1d2f3cae39144eff96dbe314f8d",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "characters": 63,
+      "sha256": "f40c950b5d460135f7352b0f50e0ba582e86b626cb8cbcff1abcffb6f6943d03",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "characters": 16,
+      "sha256": "7099d166937c1545ad8d6fbdb0175661f0ae89ed788b2490795e307422287c67",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "characters": 358,
+      "sha256": "ab021c3b94851b24e9f1d63530528b660a2e18550a006f2b92dd9d4913f60f0e",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "characters": 53,
+      "sha256": "fa2ff3b39dc88d4d633dee97ec302bb7611ed5ad4cfa36c85d2800d2aa90252e",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "characters": 810,
+      "sha256": "bd13f412d7a84a7e0b1a9892c069d5dd56757832a7bfb63caf757d0aafafcacc",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "characters": 16,
+      "sha256": "2fb450c57773d9a73120d3067a52d60ce470338801008433da1aa60c002b3778",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/model.js",
+      "characters": 595,
+      "sha256": "b1d49db1ad7683afc1c82e60ba6d936ad795e328e923006d06591fee31e4817c",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "characters": 75,
+      "sha256": "2070d40bf330003760bfa634cfb138b6f9c0c5e6fdfc09fdf78d95cbbddaddb3",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "characters": 15,
+      "sha256": "761dbc552dfc40a48628f49c7cd2c8761bf520f9691c9ff579fecf9c213a021d",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "characters": 67,
+      "sha256": "9196dfb90dceb8145756afd53328e03ec52160098fdc63029131ab3c9779b67f",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "characters": 57,
+      "sha256": "5c6047a9dbdd0276b3af35f93d0b8fb6259cd7277b74dfd7a3b8f8419600b0f5",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "characters": 157,
+      "sha256": "c54f3b0313fb5abdc5cc9fbdf33d588133f8176acbde5a41f80c69b35c8779ed",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/render.js",
+      "characters": 124,
+      "sha256": "c720836cf2356d66cbf2581c3da3758ec57e12030bc551ec7c8b0df3a8a2bddb",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/test-motion.js",
+      "characters": 320,
+      "sha256": "01e0952f551904deb8efe4913ba45d02c72e983e3c16121a60ac9bb38259cb3c",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/test-motion.js",
+      "characters": 173,
+      "sha256": "74fe54cff2e1ceb1cfd6cc1cc58a6c0980b50249d3e1c1c29f901825dd4e463c",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/test-motion.js",
+      "characters": 17,
+      "sha256": "5704d759d04624598dabc31caebd8359c9c750a8b271454fb069c5512b7b3abc",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "map-editor/test-motion.js",
+      "characters": 165,
+      "sha256": "6a7b0cd145c207f04a9566c0f3317fa46fe67d92e4c14b98173427934eed918d",
+      "retainedVerbatim": true
+    },
+    {
+      "path": "tests/contact-approved.test.mjs",
+      "characters": 132,
+      "sha256": "055cac3a324be3855649b38787e7bcc06524e07a7895c8404e9c7eba5e4a7629",
+      "retainedVerbatim": true
+    }
+  ],
+  "docsResolution": "Current HEAD already records all version52 corrections and publication receipts, plus accepted TN2/TN3 evidence. Incoming history retains older documentation that omits these later checkpoints.",
+  "conflictsResolvedToVerifiedUnion": true,
+  "discardedPublishedRuntimeFiles": 0,
+  "discardedPublishedAssetFiles": 0,
+  "automaticReviewRejection": "Initial restore/commit/push was rejected as insufficiently supported preservation. Read-only exact asset/runtime/23 bench insertion checks proved preservation; the bounded restore-only retry was approved."
+}
