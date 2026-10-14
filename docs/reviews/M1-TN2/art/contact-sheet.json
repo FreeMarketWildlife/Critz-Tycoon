@@ -1,0 +1,20 @@
+{
+  "file": "docs/reviews/M1-TN2/art/Tanoshi-sizes-and-route-bear-8x.png",
+  "size": [
+    1024,
+    1024
+  ],
+  "sha256": "578c751d8f2f623ce3ba7e1bda2118c849265bd4076f7c23197fc2a5344ebe2a",
+  "bytes": 13467,
+  "composition": "Mechanical QA contact sheet; four existing32px Tanoshi frames above96px bear plus unchanged gameplay Hero for native scale. All pixels at exact8x; no creative raster edits.",
+  "nativePixelsUnchanged": true,
+  "topOrder": [
+    "tiny-blush",
+    "small-mint",
+    "accepted regular apricot",
+    "large-lilac"
+  ],
+  "heroSource": "assets/playable/living/atlas.png",
+  "heroId": "hero-boy.1",
+  "appearanceStatus": "awaiting parent visual/playable review"
+}

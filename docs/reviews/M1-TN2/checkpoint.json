@@ -77,5 +77,32 @@
   "communication": {
     "directParentMessage": "thread not found",
     "finalReport": "Platform automatically notifies parent when this turn ends"
+  },
+  "libraryArtContactSheet": {
+    "status": "succeeded",
+    "libraryFileId": "libfile_a72a44ac99508191a57caf20e993b45f",
+    "fileId": "file_00000000005881fab0c876d46c0ef2c7",
+    "version": 0,
+    "fileName": "Tanoshi-sizes-and-route-bear-8x.png",
+    "mimeType": "image/png",
+    "bytes": 13467,
+    "sha256": "578c751d8f2f623ce3ba7e1bda2118c849265bd4076f7c23197fc2a5344ebe2a",
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "downloadUrl": "https://chatgpt.com/api/library/files/libfile_a72a44ac99508191a57caf20e993b45f/download",
+    "localFile": "docs/reviews/M1-TN2/art/Tanoshi-sizes-and-route-bear-8x.png",
+    "readBack": "Native Library metadata and1024\u00d71024 image asset pointer confirmed; no warnings",
+    "clientXattrsApplied": {
+      "user.library-file-version": "0"
+    },
+    "browserScreenshotsUploaded": false,
+    "composition": "Exact8x mechanical contact sheet with fourTanoshi and originalbear plus unchanged gameplayHero for scale. No raster designs altered.",
+    "runtimeCommit": "7cef38eb157dd947d005dbf02ccf270fecb80c4b",
+    "reviewCommitBeforeLibraryReceipt": "18ab561c5794a6972362c0f65d4cdd8de597bf88",
+    "deploymentPerformed": false,
+    "liveVersion": 51,
+    "publicationGate": "Parent visual/playable checkpoint response required"
   }
 }
