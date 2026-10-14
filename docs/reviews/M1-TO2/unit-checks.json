@@ -28,5 +28,11 @@
     "assets/characters/hero-boy-v1/idle-south.png": true
   },
   "finalBrowserGroups": 217,
-  "finalBrowserSuites": 20
+  "finalBrowserSuites": 20,
+  "finalReceiptPackage": {
+    "exactFiles": 3056,
+    "equalAssetJson": 83,
+    "generatedFiles": 3,
+    "totalFiles": 3142
+  }
 }

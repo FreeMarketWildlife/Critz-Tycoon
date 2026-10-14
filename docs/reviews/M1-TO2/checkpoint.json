@@ -1,0 +1,53 @@
+{
+  "verifiedAt": "2026-10-14T09:38:01.609Z",
+  "branch": "main",
+  "openingCommit": "2b4723173d1f7c1ba2efe7b0438e7ef23144e6ab",
+  "runtimeCommit": "68aeb2419019120fae1bc4543c7bd5157a68efef",
+  "githubRemote": "origin/main",
+  "verifiedRemoteSHA": "68aeb2419019120fae1bc4543c7bd5157a68efef",
+  "remoteMatched": true,
+  "cleanAtRuntimeCheckpoint": true,
+  "unrelatedOpeningEdits": [],
+  "receiptScope": "Documentation only. Exact final runtime/art/source-download/music hashes remain unchanged after rebuilding this receipt.",
+  "testedProductionPaths": 1797,
+  "testedContentFingerprint": "f7270ceff626d6b997f648fa19e61b766af938fbdd0fce7e33a9a6b31c5165da",
+  "unitTests": 290,
+  "browserSuites": 20,
+  "browserGroups": 217,
+  "remoteCI": {
+    "checkedAt": "2026-10-14T09:36:52.494Z",
+    "repository": "FreeMarketWildlife/Critz-Tycoon",
+    "sha": "68aeb2419019120fae1bc4543c7bd5157a68efef",
+    "combinedStatus": {
+      "state": "pending",
+      "total_count": 0
+    },
+    "checkRuns": 0,
+    "actionsRuns": 0,
+    "interpretation": "No remote CI run/result exists for this exact runtime SHA. Pending with zero statuses is not a passing run. Local final production evidence is290 units and217 groups/20 suites."
+  },
+  "publication": "Held for parent review; no Sites source synchronization/save/deploy/access mutation.",
+  "phoneURL": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "phoneVersion": 49,
+  "phoneSourceCommit": "7d73a6c524217543dc83df11c5c646d1fd3fb683",
+  "phoneAudience": "public",
+  "phoneExistingDeployment": "succeeded",
+  "remainingImplementationBlockers": [],
+  "remainingWork": "Parent reviews, rebuilds/verifies committed package, mints fresh ephemeral source credential, synchronizes exact source, saves and deploys through the existing public Sites project, verifies successful publication and physical phone behavior.",
+  "ownedPreviewTeardown": {
+    "ports": [
+      5221,
+      5222
+    ],
+    "bothServersStopped": true,
+    "taskIdleSleepInhibitorStopped": true,
+    "persistentPowerSettingsChanged": false
+  },
+  "remainingMeasurementLimits": [
+    "Physical iPhone/Safari and OS suspension",
+    "Hosted readiness timing",
+    "Audible output",
+    "Total process/GPU RAM",
+    "Peak temporary coast compilation memory and full-map repaint"
+  ]
+}
