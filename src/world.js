@@ -1,6 +1,7 @@
 import {crossesFence} from './fence-crossing.js';
 import {FRUIT_TREES,fruitCells} from './fruit-trees.js';
 import {actorEntity} from './actors.js';
+import {routeBear,northOfBear} from './route-bear.js';
 import {TANOSHI} from './tanoshi.js';
 import {buildings, liarsBuildings, overworldMaps} from './overworld.js';
 // Coordinates are integer grid cells at actors' feet, rendered at x*16,y*16.
@@ -184,6 +185,7 @@ for (const scene of Object.values(scenes)) for (const e of scene.entities) {
 export function getEntities(state) {
   const list = scenes[state.scene].entities.filter(entity => entity.type !== "rescue" || (state.stage === "morning" && !state.flags.rescued.includes(entity.id)));
   const visible = state.scene === "bedroom" && state.stage === "night" ? list.filter(entity => entity.type==='tanoshi' || ["tank", "desk", "sleep"].includes(entity.id)) : list;
+  const bear=routeBear(state);if(bear)visible.push(bear);
   return visible.map(entity => actorEntity(state, entity.id === "rival" ? { ...entity, name: state.rival } : entity.id === "tank" && state.stage === "night" ? { ...entity, name: "Feed Pebble the gecko" } : entity));
 }
 
@@ -217,7 +219,7 @@ export function isBlocked(sceneId, x, y, state) {
   if (scene.entities.some(e => e.stair && contains(e.stair.footprint, x, y) &&
       (x !== e.x || y !== e.y || (sceneId === 'bedroom' && state?.stage === 'night')))) return true;
   if (scene.style === "town" && buildings.some(building => contains(building.collision, x, y))) return true;
-  return !!state && getEntities(state.scene===sceneId?state:{ ...state, scene: sceneId }).some(entity => entity.type === "npc" && (contains(entity.collision, x, y) || (entity.reserved?.[0]===x && entity.reserved?.[1]===y)));
+  return !!state && getEntities(state.scene===sceneId?state:{ ...state, scene: sceneId }).some(entity => ['npc','routeBlocker'].includes(entity.type) && (contains(entity.collision, x, y) || (entity.reserved?.[0]===x && entity.reserved?.[1]===y)));
 }
 
 export function fenceCrossing(sceneId,from,to){const map=scenes[sceneId]?.map;return !!map&&crossesFence(from,to,(x,y)=>{const o=map.objects.find(o=>o.kind==='fence'&&o.x===x&&o.y===y);return o?Number(o.id.split('.')[1]):null;});}
@@ -263,6 +265,7 @@ export function safeGridPosition(sceneId, x, y, state) {
 export function transition(state, entity) {
   if (entity.type !== "door" || !scenes[entity.to]) throw new Error("Invalid scene transition.");
   const previous = state.scene;
+  if(northOfBear(state))state.liarsvilleBearAccess=true;
   state.scene = entity.to;
   let [x, y] = entity.spawn;
   // Every Rootport exterior has one explicit centered threshold. Returning

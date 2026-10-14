@@ -45,6 +45,7 @@ export function createState(hero = "Hero", gender = "boy", rival = "Rowan") {
     version: SCHEMA,
     gridVersion: 1,
     worldVersion: 2,
+    liarsvilleBearAccess: false,
     hero: hero.trim().slice(0, 16) || "Hero",
     gender,
     rival: rival.trim().slice(0, 16) || "Rowan",
@@ -382,7 +383,7 @@ function validNumber(n, min, max) {
   return typeof n === "number" && Number.isFinite(n) && n >= min && n <= max;
 }
 export function validateState(s) {
-  if(!validTanoshiSave(s))return false;
+  if(!validTanoshiSave(s)||s?.liarsvilleBearAccess!==undefined&&typeof s.liarsvilleBearAccess!=='boolean')return false;
   if(s?.lukeGreenhouse!==undefined){try{normalizeGreenhouse(s.lukeGreenhouse);}catch{return false;}}
   if(s?.dayClock!==undefined&&!validDayClock(s.dayClock))return false;
   if (

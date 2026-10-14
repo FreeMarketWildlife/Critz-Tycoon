@@ -1,0 +1,36 @@
+{
+  "checks": [
+    "Releasing a real touch leaves the independently held keyboard direction active",
+    "Static Map Studio schedules no animation frames while idle",
+    "Hidden editor playtest freezes a committed step and resumes without lost time or continued held input",
+    "Releasing an editor touch restores the independently held keyboard direction",
+    "Hidden editor hops freeze their animation clock and land once after resume",
+    "640 pre-optimization water composites match exactly across all32 phases, day/night, moving/still sand, mixed depths, raw overrides, reflected actors and clipped viewports",
+    "All32 packed shoreline frames match the full native mask exactly and remain reusable",
+    "Isolated phone and native compositor checks have no browser exceptions"
+  ],
+  "errors": [],
+  "measurements": {
+    "gameAfterTouchRelease": {
+      "tileX": 6,
+      "heldKeyboardStillMoves": true
+    },
+    "editorIdleCallbacks300ms": 0,
+    "editorHidden": {
+      "beforeTick": 9,
+      "duringTick": 9
+    },
+    "waterMismatches": [],
+    "pixelDifferences": {
+      "264": [],
+      "384": []
+    },
+    "nativeWaterPixelComparisons": 640,
+    "packedWater": {
+      "waveFrames": 32,
+      "waveBytes": 786432
+    }
+  },
+  "fixed": true,
+  "physicalSafariTested": false
+}

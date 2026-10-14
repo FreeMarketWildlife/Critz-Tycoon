@@ -28,7 +28,7 @@ test('roof depth leaves wall rows and attached chimneys draw above actors behind
 });
 test('saves behind every building retain their position and all progress',()=>{
  for(const id of ['town','liarsville'])for(const b of scenes[id].map.objects.filter(o=>o.kind==='building')){
-  const s=createState('Ari','girl','River');startMorning(s,true);s.scene=id;s.player={x:b.x+1,y:b.y+b.rearDepth-1,facing:'right'};
+  const s=createState('Ari','girl','River');startMorning(s,true);s.scene=id;s.liarsvilleBearAccess=id==='liarsville';s.player={x:b.x+1,y:b.y+b.rearDepth-1,facing:'right'};
   assert.deepEqual(migrateGridState(s),s);
  }
 });

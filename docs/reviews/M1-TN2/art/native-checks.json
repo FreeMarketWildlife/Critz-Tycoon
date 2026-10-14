@@ -1,0 +1,312 @@
+{
+  "task": "M1.TN2",
+  "nativeAssets": [
+    {
+      "id": "tiny-blush",
+      "size": [
+        32,
+        32
+      ],
+      "paintedBounds": [
+        8,
+        12,
+        24,
+        30
+      ],
+      "opaquePixels": 150,
+      "opaqueColors": 3,
+      "binaryAlpha": true,
+      "pngIndexedSourceExact": true,
+      "sourceCropMaterialEncodingExact": true,
+      "sourceSha256": "f88c05e97af9c910eed42c765b8ac5fd772638d4f9de5138e173dc200473b9a1",
+      "nativeSha256": "a54a43e9685796293f2d74255a817ce190f5c742afdf5dc418f5ee3d7c504cdb",
+      "opaqueComponents8": [
+        {
+          "bounds": [
+            8,
+            12,
+            24,
+            30
+          ],
+          "pixels": 150,
+          "touchesCanvasEdge": false
+        }
+      ],
+      "atlasPixelsExact": true,
+      "twoEmptyFootRows": true,
+      "faceRegion": [
+        12,
+        18,
+        20,
+        25
+      ],
+      "faceHoles8": [
+        {
+          "bounds": [
+            14,
+            20,
+            15,
+            22
+          ],
+          "pixels": 2,
+          "touchesCanvasEdge": false
+        },
+        {
+          "bounds": [
+            17,
+            20,
+            18,
+            22
+          ],
+          "pixels": 2,
+          "touchesCanvasEdge": false
+        }
+      ],
+      "otherEnclosedCutouts8": [],
+      "rayContactLimit": "All occupied pixels form one eight-connected component; native diagonal ray/head contact is preserved rather than procedurally removed."
+    },
+    {
+      "id": "small-mint",
+      "size": [
+        32,
+        32
+      ],
+      "paintedBounds": [
+        6,
+        8,
+        26,
+        30
+      ],
+      "opaquePixels": 228,
+      "opaqueColors": 3,
+      "binaryAlpha": true,
+      "pngIndexedSourceExact": true,
+      "sourceCropMaterialEncodingExact": true,
+      "sourceSha256": "a0a5d6e174fb69de717fab10bf6da44b3c76cf6a0827ebf64ad9df7243f9612c",
+      "nativeSha256": "4649d77bf582cf5e2cd8c15410f9a425f7b6074f562b1da4e2fda6736145674f",
+      "opaqueComponents8": [
+        {
+          "bounds": [
+            6,
+            8,
+            26,
+            30
+          ],
+          "pixels": 228,
+          "touchesCanvasEdge": false
+        }
+      ],
+      "atlasPixelsExact": true,
+      "twoEmptyFootRows": true,
+      "faceRegion": [
+        12,
+        15,
+        20,
+        23
+      ],
+      "faceHoles8": [
+        {
+          "bounds": [
+            14,
+            18,
+            15,
+            20
+          ],
+          "pixels": 2,
+          "touchesCanvasEdge": false
+        },
+        {
+          "bounds": [
+            17,
+            19,
+            18,
+            20
+          ],
+          "pixels": 1,
+          "touchesCanvasEdge": false
+        }
+      ],
+      "otherEnclosedCutouts8": [],
+      "rayContactLimit": "All occupied pixels form one eight-connected component; native diagonal ray/head contact is preserved rather than procedurally removed."
+    },
+    {
+      "id": "large-lilac",
+      "size": [
+        32,
+        32
+      ],
+      "paintedBounds": [
+        1,
+        0,
+        31,
+        30
+      ],
+      "opaquePixels": 461,
+      "opaqueColors": 3,
+      "binaryAlpha": true,
+      "pngIndexedSourceExact": true,
+      "sourceCropMaterialEncodingExact": true,
+      "sourceSha256": "851b41c71b47896f1784955e70bcb773b9e253884313b9fdef27e8f1df92e480",
+      "nativeSha256": "fbb33664df5334239d9da6fa9598290646687df0fe0409e58ebd01642ebcdbac",
+      "opaqueComponents8": [
+        {
+          "bounds": [
+            1,
+            0,
+            31,
+            30
+          ],
+          "pixels": 461,
+          "touchesCanvasEdge": true
+        }
+      ],
+      "atlasPixelsExact": true,
+      "twoEmptyFootRows": true,
+      "faceRegion": [
+        10,
+        12,
+        21,
+        21
+      ],
+      "faceHoles8": [
+        {
+          "bounds": [
+            13,
+            15,
+            15,
+            18
+          ],
+          "pixels": 5,
+          "touchesCanvasEdge": false
+        },
+        {
+          "bounds": [
+            17,
+            15,
+            19,
+            18
+          ],
+          "pixels": 5,
+          "touchesCanvasEdge": false
+        }
+      ],
+      "otherEnclosedCutouts8": [
+        {
+          "bounds": [
+            21,
+            25,
+            23,
+            26
+          ],
+          "pixels": 2,
+          "touchesCanvasEdge": false
+        }
+      ],
+      "rayContactLimit": "All occupied pixels form one eight-connected component; native diagonal ray/head contact is preserved rather than procedurally removed."
+    },
+    {
+      "id": "bear",
+      "size": [
+        96,
+        96
+      ],
+      "paintedBounds": [
+        16,
+        44,
+        80,
+        80
+      ],
+      "opaquePixels": 1740,
+      "opaqueColors": 6,
+      "binaryAlpha": true,
+      "pngIndexedSourceExact": true,
+      "sourceCropMaterialEncodingExact": true,
+      "sourceSha256": "95f5e0a044ec38344ec1fcd1c654cedd0ac4f82d3d5e58984130e05c1e899716",
+      "nativeSha256": "b8122d2bd918e74e70d6232bbc4a651424bece9f4f42cbcb05d4bad0ae97d350",
+      "opaqueComponents8": [
+        {
+          "bounds": [
+            16,
+            44,
+            80,
+            80
+          ],
+          "pixels": 1740,
+          "touchesCanvasEdge": false
+        }
+      ],
+      "footprintMetadataExact": true,
+      "twoEmptyOuterHalfRows": true,
+      "lowerSideContact16Pixels": true,
+      "finalPaintedPawRow": 79,
+      "groundEdge": 80,
+      "sortEdge": 64,
+      "aspectError": 0.007480386790731708
+    }
+  ],
+  "comparisonIncludesExactRegularApricot": true,
+  "exactEightTimesEnlargement": true,
+  "protectedTN1FilesUnchanged": [
+    {
+      "path": "art/source/tanoshi/apricot.pixels.json",
+      "sha256": "db843656610a0fe7c547f73bc6e43b68e133946c74edc24e03a9fcd7aa1c8431"
+    },
+    {
+      "path": "art/source/tanoshi/blush.pixels.json",
+      "sha256": "2e2e10f935918cfc6fc59e4e1393884f81320775001ebc5635e79eceec6f4bbb"
+    },
+    {
+      "path": "art/source/tanoshi/export.py",
+      "sha256": "09b5d982320d9bbcbae90f6d6ac344ba98002b25b60b91d6d018a1192f8d277e"
+    },
+    {
+      "path": "art/source/tanoshi/generated-apricot.png",
+      "sha256": "72c464e97c9e095fa39288cc44b7d148a420ede4890c5405f08c9e629ce054c1"
+    },
+    {
+      "path": "art/source/tanoshi/generated-blush.png",
+      "sha256": "762c45ce1947ed93f4f303224679ab44e029ed38f0c06163486f513bd9003ffe"
+    },
+    {
+      "path": "art/source/tanoshi/generated-mint.png",
+      "sha256": "4606670944d10a72509bc677e527a1f4ca55944a02b5ec01fbd063a3ead13655"
+    },
+    {
+      "path": "art/source/tanoshi/mint.pixels.json",
+      "sha256": "148a85421917533adf6be8b854455a3eae5265871c91558acde20aee16729507"
+    },
+    {
+      "path": "assets/playable/tanoshi/apricot.png",
+      "sha256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5"
+    },
+    {
+      "path": "assets/playable/tanoshi/atlas.json",
+      "sha256": "1e9276aa35d93b84f12039602d84ccdf791609221436c01c3484e9850b743646"
+    },
+    {
+      "path": "assets/playable/tanoshi/atlas.png",
+      "sha256": "c13d6625f100249075da53becd222d08ddebb22dc8e22eab80083584e3144e54"
+    },
+    {
+      "path": "assets/playable/tanoshi/blush.png",
+      "sha256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9"
+    },
+    {
+      "path": "assets/playable/tanoshi/mint.png",
+      "sha256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3"
+    }
+  ],
+  "allSixOriginalReferencesUnchanged": true,
+  "originalGeneratedSourcesUnchanged": {
+    "generated-tiny-blush.png": "f88c05e97af9c910eed42c765b8ac5fd772638d4f9de5138e173dc200473b9a1",
+    "generated-small-mint.png": "a0a5d6e174fb69de717fab10bf6da44b3c76cf6a0827ebf64ad9df7243f9612c",
+    "generated-large-lilac.png": "851b41c71b47896f1784955e70bcb773b9e253884313b9fdef27e8f1df92e480",
+    "generated-bear.png": "95f5e0a044ec38344ec1fcd1c654cedd0ac4f82d3d5e58984130e05c1e899716"
+  },
+  "visualInspection": [
+    "original four inputs",
+    "native/light/dark",
+    "integer grids and registration"
+  ],
+  "appearanceAcceptance": "pending user checkpoint; not self-approved"
+}

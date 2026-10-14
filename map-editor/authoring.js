@@ -1,3 +1,4 @@
+import {centeredCamera} from '../src/world-space.js';
 import {STAMPS,MATERIALS,FEATURES,clone,inside,at,objectFootprint,objectBlocks,objectsAt,blocked,placementError,placeObject,relocateDoorLinks,paint,eraseAt,eraseObject,DIRS} from './model.js';
 
 export const EDIT_LAYERS=['ground','features','raw','objects'];
@@ -96,6 +97,5 @@ export function floodLayer(project,mapId,x,y,brush,layer='auto'){
 }
 
 export function mapCamera(m,p,width=480,height=320){
- const axis=(size,field,focus)=>size<field?Math.floor((size-field)/2):Math.max(0,Math.min(size-field,focus));
- return {x:axis(m.w*32,width,Math.round((p.px??p.x*32)+16-width/2)),y:axis(m.h*32,height,Math.round((p.py??p.y*32)+32-height*176/320))};
+ return centeredCamera({x:Math.round(p.px??p.x*32)+16,y:Math.round(p.py??p.y*32)+32},width,height);
 }

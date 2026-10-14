@@ -964,3 +964,10 @@ footer a {color:#a9c5b0;}
 /* Paper-window body copy keeps its contrast at phone scale. */
 #panel p{color:var(--muted);}
 #panel .tank-caption{color:#5b6a58;}
+
+/* Native world scales independently from fixed controls and menus. */
+#world {position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);}
+.world-zoom {display:flex;align-items:center;gap:8px;margin:0 0 10px;font-size:13px;}
+.world-zoom > span {margin-right:auto;}
+.world-zoom button {min-width:44px;min-height:44px;font-size:22px;padding:0;}
+.world-zoom output {min-width:44px;text-align:center;}

@@ -1,0 +1,27 @@
+{
+  "task": "M1.TN2",
+  "exactRepeat": true,
+  "files": {
+    "assets/playable/tanoshi-sizes/tiny-blush.png": "a54a43e9685796293f2d74255a817ce190f5c742afdf5dc418f5ee3d7c504cdb",
+    "assets/playable/tanoshi-sizes/small-mint.png": "4649d77bf582cf5e2cd8c15410f9a425f7b6074f562b1da4e2fda6736145674f",
+    "assets/playable/tanoshi-sizes/large-lilac.png": "fbb33664df5334239d9da6fa9598290646687df0fe0409e58ebd01642ebcdbac",
+    "assets/playable/tanoshi-sizes/atlas.png": "13e284edd2f7a5c46056ca2f9d79c24b57ad7d343d3bbbfa53d79cce29ea044d",
+    "assets/playable/tanoshi-sizes/atlas.json": "70fa5686cc474e16d2dc896309f42fff7f4e687b6cde102c7c246b1059bc6578",
+    "assets/playable/tanoshi-sizes/bear.png": "b8122d2bd918e74e70d6232bbc4a651424bece9f4f42cbcb05d4bad0ae97d350",
+    "assets/playable/tanoshi-sizes/bear.json": "a61a98e5192dcd99cbe0cb74c82b5ec1c087e432736c082e983cab44603b733b",
+    "art/source/tanoshi-sizes/bear.pixels.json": "c580c22369e789f0e922b8c4acd8042d797c8f06914a127e7e84311d3733c1b9",
+    "art/source/tanoshi-sizes/tiny-blush.pixels.json": "c84b5021b5dd013472644ea6a388833ceb8a26f34f94750545cfd5a61372c4f0",
+    "art/source/tanoshi-sizes/small-mint.pixels.json": "e8a545319cdeaf9006776e432cff1be84468d668b6b66fc11e8e77439c2ea525",
+    "art/source/tanoshi-sizes/large-lilac.pixels.json": "5c39716a2befce4b5ed7cd04bfdb461eb434df1fca028c19caf6ed2cb722b678",
+    "docs/reviews/M1-TN2/art/clean-light-8x.png": "bea6be5f4fd0343b4055f13ae2fd25b6e3fc8fb72a56348822f5857ec6390b89",
+    "docs/reviews/M1-TN2/art/bear-native.png": "b8122d2bd918e74e70d6232bbc4a651424bece9f4f42cbcb05d4bad0ae97d350",
+    "docs/reviews/M1-TN2/art/bear-dark-8x.png": "95f3a9d287844e10c3dc3ae8f297c8f9152ce6a80987f7862aa46dc9a9672c22",
+    "docs/reviews/M1-TN2/art/native.png": "efbf68881a12316fac9973c111e053d35d35a1577e901ed8f58e3743fac03872",
+    "docs/reviews/M1-TN2/art/clean-8x.png": "c32a08c96f948da50d2160943f7b93525cf842d53485df71119258635bbc293a",
+    "docs/reviews/M1-TN2/art/bear-grid-8x.png": "1fbb6158daa793bb80e602fecadc10e66ceb6c9bfef643a781ec4d62e9e27676",
+    "docs/reviews/M1-TN2/art/bear-light-8x.png": "82afdd36f089ede67204edd027ed6bbe57ba30918aafcea3476750084682267f",
+    "docs/reviews/M1-TN2/art/grid-8x.png": "72e238e3a57c0b927a83adca9583cbcf5152abda3316e9b933626de87b95d700",
+    "docs/reviews/M1-TN2/art/clean-dark-8x.png": "3cacc62714c5e63ad844b9b664ba70ba139c11b7296bb543d879eabb69db5290",
+    "docs/reviews/M1-TN2/art/asset-provenance.json": "8ebecf28e8f57858de09b24d4d5f33ed6e71756d46ba072910c6ed89282bbe4d"
+  }
+}

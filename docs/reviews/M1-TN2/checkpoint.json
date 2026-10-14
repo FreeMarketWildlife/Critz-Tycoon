@@ -1,0 +1,66 @@
+{
+  "task": "M1.TN2",
+  "state": "awaiting review",
+  "branch": "main",
+  "baseCommit": "85f3627e067d6b260d592800d0d5f27f8088af7d",
+  "runtimeCommit": null,
+  "push": "pending scoped checkpoint",
+  "deployment": {
+    "performed": false,
+    "reason": "Explicit parent native/playable review required before next publication",
+    "liveVersion": 51,
+    "liveUrl": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "projectId": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "audience": "PUBLIC, unchanged"
+  },
+  "units": 302,
+  "syntaxModules": 76,
+  "browserGroups": 87,
+  "renderBoundaryCases": 720,
+  "checks": {
+    "new-game-camera": {
+      "groups": 14,
+      "errors": [],
+      "evidence": "browser/browser-checks.json"
+    },
+    "discovery": {
+      "groups": 10,
+      "errors": [],
+      "evidence": "regression-discovery/browser-checks.json"
+    },
+    "subviews": {
+      "groups": 4,
+      "errors": [],
+      "evidence": "subviews/browser-checks.json"
+    },
+    "greenhouse-closeups": {
+      "groups": 5,
+      "errors": [],
+      "evidence": "greenhouse-zoom/browser-checks.json"
+    },
+    "menus": {
+      "groups": 8,
+      "errors": [],
+      "evidence": "regression-ui/browser-report.json"
+    },
+    "editor": {
+      "groups": 21,
+      "errors": [],
+      "evidence": "regression-editor/browser-checks.json"
+    },
+    "technical": {
+      "groups": 8,
+      "errors": [],
+      "evidence": "regression-technical/technical-checks.json"
+    },
+    "original-story": {
+      "groups": 17,
+      "errors": [],
+      "evidence": "regression-story/browser-report.json"
+    }
+  },
+  "syntheticStorageOnly": true,
+  "physicalSafariTested": false,
+  "remainingBlockers": [],
+  "nextAction": "Parent reviews native/playable checkpoint, then authorizes existing-project publication."
+}

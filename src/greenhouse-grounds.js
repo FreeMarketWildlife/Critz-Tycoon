@@ -1,11 +1,11 @@
 import {drawContactSprite} from './contact-rules.js';
-import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
+import {worldFoot,centeredCamera} from './world-space.js';
 import {drawEnvironmentTile} from './environment-render.js';
 import {applyLighting} from './lighting.js';
 let greenhouse;
 export async function loadGreenhouseGrounds(){greenhouse=new Image();greenhouse.src=new URL('../assets/review/luke-greenhouse-r2/greenhouse.png',import.meta.url);await greenhouse.decode();}
 export function renderGreenhouseGrounds(c,state,time,view,character){
- const foot=worldFoot(view.x,view.y),camera={x:foot.x-Math.floor(c.canvas.width/2),y:foot.y-Math.round(c.canvas.height*CAMERA_FOCUS_Y/320)};
+ const foot=worldFoot(view.x,view.y),camera=centeredCamera(foot,c.canvas.width,c.canvas.height,state.gender);
  c.imageSmoothingEnabled=false;c.fillStyle='#426c43';c.fillRect(0,0,c.canvas.width,c.canvas.height);c.save();c.translate(-camera.x,-camera.y);
  for(let y=0;y<13;y++)for(let x=0;x<13;x++)drawEnvironmentTile(c,x>=5&&x<=7&&y>=8?'meadow.path.255.0':`meadow.grass.${(x*7+y*11)%16}`,x*32,y*32);
  const contact=drawContactSprite(c,greenhouse,[0,0,320,192],[48,64,320,192],[1,2,11,6],{kind:'building',key:'luke-greenhouse',overheadRows:2});

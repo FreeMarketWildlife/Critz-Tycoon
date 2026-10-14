@@ -19,3 +19,5 @@ canvas{image-rendering:pixelated;touch-action:none}#world{width:100%;height:100%
 @media(max-height:500px) and (min-width:600px){#game{grid-template-columns:minmax(0,1fr) 158px;grid-template-rows:minmax(0,1fr)}#controls{border-top:0;border-left:4px solid #0e2f2b;flex-direction:column;gap:5px;padding:8px}.ab button{width:48px;height:48px}.paper{padding:12px}.paper h1{font-size:28px;margin:8px}#cover-fish{height:38px}#cover-fish canvas{width:40px;height:40px}.paper p{margin:8px 0;font-size:13px}.paper .subtle{font-size:11px}}
 @media(prefers-reduced-motion:reduce){button:active{transform:none}}
 @media(max-height:700px){#speech{top:10px;bottom:auto}}
+
+#world {position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:none;}

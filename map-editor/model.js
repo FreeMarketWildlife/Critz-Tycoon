@@ -1,3 +1,4 @@
+import {BEAR_ART} from '../src/route-bear.js';
 import {isWater,waterSurface,mapWaterSurface,waterComponents} from '../src/water-map.js';
 import {validateWaterLayout} from '../src/water-layout.js';
 export {isWater,waterSurface} from '../src/water-map.js';
@@ -14,6 +15,7 @@ export const fenceStyle=f=>f==='fence-picket'?'picket':f==='fence-barbed'?'barbe
 export const DIRS={up:[0,-1],right:[1,0],down:[0,1],left:[-1,0]};
 export const PRESETS=[['Small town · Littleroot',20,20],['Horizontal route · Route 102',50,20],['Compact city · Petalburg',30,30],['Wide town · Mauville',40,20],['Large city · Rustboro',40,60],['Tall route · Route 104',40,80],['Long route · Route 103',80,22],['Bedroom',9,8],['House interior',11,9]];
 export const STAMPS={
+ bear:{name:'Resting route bear',w:3,h:1,bearArt:true,kind:'scenery',footprint:[...BEAR_ART.footprint]},
  cottage:{name:'Cottage',w:5,h:5,assembly:'house.cottage',kind:'building',footprint:[0,1,5,4],door:[2,4]},
  garden:{name:'Garden house',w:5,h:5,assembly:'house.garden',kind:'building',footprint:[0,1,5,4],door:[2,4]},
  shop:{name:'Critz shop',w:7,h:5,assembly:'house.shop',kind:'building',footprint:[0,1,7,4],door:[3,4]},
@@ -43,6 +45,7 @@ export function footprintFits(m,o){const r=objectFootprint(o);return inside(m,r.
 export function objectDepth(o){const r=objectFootprint(o);return r.y+r.h;}
 export function objectArtBounds(o){
  const s=STAMPS[o.type];
+ if(s.bearArt)return {x:o.x,y:o.y-1,w:3,h:3};
  if(s.treeArt){const wide=['old-grove','soft-willow'].includes(s.treeArt);return {x:o.x+s.footprint[0]-(wide?.5:0),y:o.y+s.footprint[1]-1,w:wide?3:2,h:3};}
  return {x:o.x,y:o.y,w:s.w,h:s.h};
 }

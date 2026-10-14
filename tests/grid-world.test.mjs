@@ -28,7 +28,7 @@ const requiredIds = {
   greenhouseGrounds:['greenhouse','exit'],
   bedroom: ["tank", "sleep", "desk", "gecko", "stairs", "tanoshi-blush"],
   house: ["mom", "snail", "stairs", "exit"],
-  yard: ["home", "gate", "isopods", "springtails", "forage", "apple-yard"],
+  yard: ["home", "gate", "isopods", "springtails", "forage", "apple-yard", "tanoshi-lilac"],
   town: ["yard", "kaidHome", "rivalHome", "critz", "vet", "pharmacy", "bike", "glass", "nugget", "rival", "kaid", "route", "townSign", "spring", "apple-rootport", "tanoshi-mint"],
   forest: ["south","north","hollowLog","spillway","milepost","apple-mossway","tanoshi-apricot"],
   liarsville: ["south","waterworks","millHouse","cottage","seeds","townStory","apple-liarsville"],
@@ -56,7 +56,7 @@ test("grid world preserves original scene IDs and adds the connected northern wo
 
 test("every interaction is reachable from its safe spawn by cardinal steps, including NPC occupancy", () => {
   for (const id of Object.keys(scenes)) {
-    const state = ready(id), cells = reachable(state);
+    const state = ready(id);state.liarsvilleBearAccess=true;const cells = reachable(state);
     for (const entity of getEntities(state)) {
       const approaches = [[entity.x, entity.y], ...directions.map(([dx, dy]) => [entity.x + dx, entity.y + dy])];
       assert.ok(approaches.some(([x, y]) => cells.has(`${x},${y}`)), `${id}/${entity.id} has no reachable approach`);
@@ -172,6 +172,7 @@ function progressFixture(scene,loan) {
 }
 function withoutPosition(state) {
   const copy=structuredClone(state);
+  delete copy.liarsvilleBearAccess;
   delete copy.gridVersion;
   delete copy.worldVersion;
   delete copy.player.x;

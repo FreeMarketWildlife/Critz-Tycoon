@@ -65,9 +65,10 @@ test('eyedropper prioritizes props or an explicit layer and preserves raw collis
  const p=newProject(),m=p.maps[0];placeObject(m,'tree',4,4);placeObject(m,'bench',4,4);paint(m,4,4,'soil');paint(m,4,4,'flowers');m.raw[at(m,4,4)]={id:'meadow.grass.0',blocked:false};const before=clone(p);
  assert.deepEqual(sampleCell(m,4,4),{kind:'stamp',value:'bench'});assert.deepEqual(sampleCell(m,4,4,'ground'),{kind:'brush',value:'soil'});assert.deepEqual(sampleCell(m,4,4,'features'),{kind:'brush',value:'flowers'});assert.deepEqual(sampleCell(m,4,4,'raw'),{kind:'raw',id:'meadow.grass.0',blocked:false});assert.deepEqual(p,before);
 });
-test('playtest camera clamps large maps and centers undersized interiors',()=>{
- const m=newMap();assert.deepEqual(mapCamera(m,{x:0,y:0}),{x:0,y:0});assert.deepEqual(mapCamera(m,{x:19,y:19}),{x:160,y:320});
- assert.deepEqual(mapCamera(newMap('room','Room',11,9),{x:5,y:7}),{x:-64,y:-16});
+test('playtest camera centers Hero at every map edge and in undersized interiors',()=>{
+ const m=newMap();assert.deepEqual(mapCamera(m,{x:0,y:0}),{x:-224,y:-149});assert.deepEqual(mapCamera(m,{x:19,y:19}),{x:384,y:459});
+ assert.deepEqual(mapCamera(newMap('room','Room',11,9),{x:5,y:7}),{x:-64,y:75});
+ for(const [px,py]of [[33.25,64.7],[-.5,19.49],[257.8,321.3]]){const c=mapCamera(m,{px,py});assert.ok(Number.isInteger(c.x)&&Number.isInteger(c.y));assert.equal(Math.round(px)+16-c.x,240);assert.equal(Math.round(py)+32-21-c.y,160);}
 });
 test('repeat authoring cannot create a project exceeding its v1 imported prop limit',()=>{
  const p=newProject(),m=newMap('map-1','Limit',128,128);p.maps=[m];

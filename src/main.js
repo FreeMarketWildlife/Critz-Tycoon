@@ -4,6 +4,7 @@ import {MusicDirector} from './audio/director.js';
 import {harvestFruit,cueFruitShake,fruitTreeView} from './fruit-trees.js';
 import {TANOSHI,discoverTanoshi,foundTanoshi} from './tanoshi.js';
 import {createPrinter,advancePrinter,printerComplete,finishPrinter,paginate} from './dialogue.js';
+import {worldViewport} from './world-space.js';
 import {readSettings,writeSettings,FRAME_STYLES} from './ui-settings.js';
 import {initializeActors,updateActors,facePlayer,releaseActors,cueActor,actorDebug} from './actors.js';
 import {approachesDoor} from './lighting.js';
@@ -117,15 +118,13 @@ function persist(quiet = true) {
 function fitWorld() {
   const viewport = $('viewport');
   const {width, height} = viewport.getBoundingClientRect();
-  const fit = Math.min(width / 480, height / 320);
-  const scale = fit >= 1 ? Math.floor(fit) : fit;
-  if (!scale) return;
-  // Grow the field of view to fill the space; preserve square native pixels.
-  const w = Math.ceil(width / scale), h = Math.ceil(height / scale);
-  if (canvas.width !== w) canvas.width = w;
-  if (canvas.height !== h) canvas.height = h;
-  canvas.style.width = `${w * scale}px`;
-  canvas.style.height = `${h * scale}px`;
+  const field=worldViewport(width,height,settings.worldZoom);
+  if(!field)return;
+  const {width:w,height:h,scale}=field;
+  if(canvas.width!==w)canvas.width=w;
+  if(canvas.height!==h)canvas.height=h;
+  canvas.style.width=`${w*scale}px`;
+  canvas.style.height=`${h*scale}px`;
 }
 function fitOverlay() {
   const controls = $("controller").getBoundingClientRect();
@@ -716,7 +715,15 @@ function shop(type) {
 }
 function pause() {
   const commands=[...(state.stage==='morning'?[['greenhouse','Luke’s Greenhouse','Eight tubs, one scoop. Your adventure wallet and goldfish.'],['coast','Visit the coast','Beaches, shallows, turtles and reflections.'],['map-player','Play my map','Explore the map saved in Map Studio.'] ]:[]),['notebook','Notebook','Your finds, notes and next step.'],['bag','Bag','Supplies, savings and Kaid’s loan.'],['critter','Critter','Your photos, clips and earnings.'],['directory','Town guide','Places to visit and how to play.'],['options','Options','Music, window colors and quieter reactions.'],['save','Save','Save your progress on this device.'],['resume','Close','Back to your little world.']];
-  showPanel('pause','Menu',`<p class="menu-status">${esc(state.scene === "bedroom" ? `${state.hero}’s room` : scenes[state.scene].name)} · ${state.stage === "night" ? "Night 01" : `Day ${Math.floor(state.time / 24) + 1} · ${String(state.time % 24).padStart(2,"0")}:00`}</p><div class="command-list">${commands.map(([id,label,help])=>button(id,label,'command',`data-help="${help}"`)).join('')}</div><p id="menu-help" class="menu-help">Your finds, notes and next step.</p><div class="window-controls"><b>A</b> Choose <b>B</b> Back</div>`,{back:false,eyebrow:`${esc(state.hero)} · ${dollars(state.money)}`});
+  showPanel('pause','Menu',`<p class="menu-status">${esc(state.scene === "bedroom" ? `${state.hero}’s room` : scenes[state.scene].name)} · ${state.stage === "night" ? "Night 01" : `Day ${Math.floor(state.time / 24) + 1} · ${String(state.time % 24).padStart(2,"0")}:00`}</p>${zoomControls()}<div class="command-list">${commands.map(([id,label,help])=>button(id,label,'command',`data-help="${help}"`)).join('')}</div><p id="menu-help" class="menu-help">Your finds, notes and next step.</p><div class="window-controls"><b>A</b> Choose <b>B</b> Back</div>`,{back:false,eyebrow:`${esc(state.hero)} · ${dollars(state.money)}`});
+}
+function zoomControls(){return `<div class="world-zoom" role="group" aria-label="World zoom"><span>World zoom</span><button data-action="zoom-out" aria-label="Zoom out" ${settings.worldZoom===0?'disabled':''}>−</button><output id="world-zoom-level" aria-live="polite">${settings.worldZoom+1} / 3</output><button data-action="zoom-in" aria-label="Zoom in" ${settings.worldZoom===2?'disabled':''}>+</button></div>`;}
+function changeWorldZoom(delta){
+ settings.worldZoom=Math.max(0,Math.min(2,settings.worldZoom+delta));fitWorld();
+ const output=$('world-zoom-level');if(output)output.textContent=`${settings.worldZoom+1} / 3`;
+ for(const [action,limit]of [['zoom-out',0],['zoom-in',2]]){const b=panel.querySelector(`[data-action="${action}"]`);if(b)b.disabled=settings.worldZoom===limit;}
+ const saved=writeSettings({setItem:(k,v)=>localStorage.setItem(k,v)},settings);
+ reportStatus(saved?'World zoom saved on this device.':'World zoom could not be saved on this browser.');
 }
 function optionsPanel(){
   const returnTo=panelName==='options'?panelOrigin:panelName;
@@ -770,7 +777,7 @@ function directory() {
   showPanel(
     "directory",
     "Welcome to Rootport",
-    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span><span><b>Town square</b>Luke’s Greenhouse · beside the directory</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Stand beside a red apple tree and press A to shake fruit into your Bag. Head north past the spring to Mossway. Cross the tall-grass meadow and follow the spillway to Liarsville. Walk through the signed ends of the route to travel.</p><details class="studio-links"><summary>Studio & credits</summary><a href="sprite-editor/">Sprite Editor</a> · <a href="map-editor/">Map Studio</a> · <a href="art-review/walking.html">Art reviews</a> · <a href="music/">Listening room</a></details>`,
+    `<p>From home: bedroom stairs → downstairs → yard gate. Follow the cottage lanes to the spring fountain, garden beds and riverside workshops.</p><div class="map-grid"><span><b>Northwest</b>Your home & yard</span><span><b>North center</b>Kaid’s home</span><span><b>Northeast</b>Your rival’s home</span><span><b>Middle west</b>Critz · moss & litter</span><span><b>Middle center</b>Vet · Professor Nugget nearby</span><span><b>Middle east</b>Drug Store · medicine</span><span><b>Southwest</b>Bike Shop · skateboard</span><span><b>Southeast</b>Glow n’ Blow · glass & decor</span><span><b>Town square</b>Luke’s Greenhouse · beside the directory</span></div><h3>Make yourself at home</h3><p>D-pad / arrows / WASD: walk.<br>A / Z / Enter: interact or confirm.<br>B / X / Escape: go back.<br>Start / P: pause. RUN / Shift: move faster.<br>In menus, tap choices or use ↑ ↓ and A.</p><p class="hint">Walk into a doorway to enter or leave. No button press is needed. Look for sparkles when searching. Stand beside a red apple tree and press A to shake fruit into your Bag. Head north past the spring to Mossway. ${state.liarsvilleBearAccess?'Cross the tall-grass meadow and follow the spillway to Liarsville.':'A big resting bear blocks the Mossway path to Liarsville for now.'} Walk through the signed ends of the route to travel.</p><details class="studio-links"><summary>Studio & credits</summary><a href="sprite-editor/">Sprite Editor</a> · <a href="map-editor/">Map Studio</a> · <a href="art-review/walking.html">Art reviews</a> · <a href="music/">Listening room</a></details>`,
   );
 }
 function bag() {
@@ -827,6 +834,7 @@ function moveMenu(dir) {
   ].focus();
 }
 function doAction(action, el, delta=1) {
+  if(action==='zoom-in'||action==='zoom-out'){changeWorldZoom(action==='zoom-in'?1:-1);return;}
   if(action==='music-toggle'){music.setEnabled(!music.settings.enabled);return;}
   if(action==='options'){optionsPanel();return;}
   if(action==='frame-style'||action==='calm-motion'){
@@ -1119,6 +1127,7 @@ document.addEventListener("keydown", (e) => {
     }
     return;
   }
+  if(panelName==='pause'&&['+','=','-','_'].includes(e.key)){e.preventDefault();if(!e.repeat)changeWorldZoom(['+','='].includes(e.key)?1:-1);return;}
   const dir = directionForKey(e.key);
   if (dir) {
     e.preventDefault();

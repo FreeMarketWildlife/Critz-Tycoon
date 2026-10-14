@@ -29,7 +29,7 @@ try{
     assert.deepEqual((await snapshot()).tanoshiDiscoveries,['tanoshi-blush']);
     await page.reload();await page.locator('[data-action=continue]').click();assert.deepEqual((await snapshot()).tanoshiDiscoveries,['tanoshi-blush']);await dismiss();await approachBlush();
     await page.locator('#a-button').click();assert.equal(await page.locator('#speaker').textContent(),'Blush Tanoshi');await dismiss();
-    await page.keyboard.press('p');await page.locator('[data-action=notebook]').click();assert.ok((await page.locator('#panel').textContent()).includes('Tanoshi greetings · 1/3'));assert.ok((await page.locator('#panel').textContent()).includes('Blush Tanoshi · Shy'));
+    await page.keyboard.press('p');await page.locator('[data-action=notebook]').click();assert.ok((await page.locator('#panel').textContent()).includes(`Tanoshi greetings · 1/${TANOSHI.length}`));assert.ok((await page.locator('#panel').textContent()).includes('Blush Tanoshi · Shy'));
     if(w===390){await page.locator('#panel h3').filter({hasText:'Tanoshi greetings'}).scrollIntoViewIfNeeded();await page.screenshot({path:`${out}/notebook-phone.png`});}
     pass(`Opening greeting/revisit/Notebook/reload and stable44px dialogue at ${w}×${h}`);
   }

@@ -1,8 +1,9 @@
 import {loadGreenhouseGrounds,renderGreenhouseGrounds} from './greenhouse-grounds.js';
+import {loadBearArt} from './bear-art.js';
 import {loadTanoshiArt,drawTanoshi} from './tanoshi-art.js';
 import {loadHomeArt,hasHomeArt,homeEntry,drawHomeArt,drawHomeProp,drawRoomBackdrop} from './home-art.js';
 import {drawContactSprite} from './contact-rules.js';
-import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
+import {worldFoot,centeredCamera} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
 import {loadEnvironment,renderEnvironment,drawEnvironmentTile} from './environment-render.js';
 // Native, appearance-only exploration renderer. Collision and interaction live
@@ -21,7 +22,7 @@ export async function initWorldArt() {
   [atlas,correctedCast] = await Promise.all([
     loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url)),
     loadAtlas(new URL('../assets/playable/characters/atlas.json', import.meta.url)),
-    loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds(),loadHomeArt(),loadTanoshiArt(),
+    loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds(),loadHomeArt(),loadTanoshiArt(),loadBearArt(),
   ]);
   entries = new Map(atlas.manifest.assets.map(a => [a.id, a]));
 }
@@ -46,7 +47,7 @@ export function renderWorld(canvas, state, time, view) {
   const scene = scenes[state.scene], outside = ['town','yard'].includes(scene.style);
   // Camera tracks the integer rendered foot position directly, without easing.
   const foot=worldFoot(view.x,view.y);
-  const camera = {x:foot.x-Math.floor(canvas.width/2),y:foot.y-Math.round(canvas.height*CAMERA_FOCUS_Y/320)};
+  const camera = centeredCamera(foot,canvas.width,canvas.height,state.gender);
   debug = {camera, playerFoot:foot, width:canvas.width,height:canvas.height, scene:state.scene, atlas:atlas.manifest.image};
   c.fillStyle = outside ? '#446749' : '#223038'; c.fillRect(0,0,canvas.width,canvas.height);
   c.save(); c.translate(-camera.x,-camera.y);

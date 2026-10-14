@@ -9,7 +9,7 @@ test('Tanoshi greetings are exactly once, durable, and do not affect protected p
     const state=createState('Ari','girl','River');startMorning(state,loan);
     const before=structuredClone(state);
     for(const t of TANOSHI){state.scene=t.scene;state.player={x:t.x+1,y:t.y,facing:'left'};assert.equal(discoverTanoshi(state,t.id).first,true);assert.equal(discoverTanoshi(state,t.id).first,false);}
-    assert.equal(foundTanoshi(state).length,3);
+    assert.equal(foundTanoshi(state).length,TANOSHI.length);
     for(const key of ['hero','gender','rival','money','debt','flags','inventory','tank','posts','notebookEntries'])assert.deepEqual(state[key],before[key],key);
     const store=storage();assert.ok(save(state,store));assert.deepEqual(load(store).state.tanoshiDiscoveries,TANOSHI.map(t=>t.id));
   }

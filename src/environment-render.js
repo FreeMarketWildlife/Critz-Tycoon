@@ -1,8 +1,9 @@
+import {drawBear} from './bear-art.js';
 import {loadBuildingArt,drawBuilding,loadFenceArt} from './passage-art.js';
 import {loadWorldWater,drawWorldWater} from './world-water.js';
 import {loadContactArt,drawContactArt,contactArtInfo,contactEntry,contactFrontiers} from './contact-art.js';
 import {fruitTreeView,APPLE_POSITIONS} from './fruit-trees.js';
-import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
+import {worldFoot,centeredCamera} from './world-space.js';
 import {actorView,drawReaction} from './actors.js';
 import {drawCritter,RESCUES} from './living-art.js';
 import {applyLighting} from './lighting.js';
@@ -42,8 +43,7 @@ export function animationFrame(id,time,phase=0){
 export function renderEnvironment(c,state,time,view,character,npcLook){
  const map=scenes[state.scene].map,foot=worldFoot(view.x,view.y);
  const {width,height}=c.canvas;
- const axis=(size,field,focus)=>size<field?Math.floor((size-field)/2):Math.max(0,Math.min(size-field,focus));
- const camera={x:axis(map.w*32,width,foot.x-Math.floor(width/2)),y:axis(map.h*32,height,foot.y-Math.round(height*CAMERA_FOCUS_Y/320))};
+ const camera=centeredCamera(foot,width,height,state.gender);
  c.imageSmoothingEnabled=false;c.fillStyle='#487b59';c.fillRect(0,0,width,height);c.save();c.translate(-camera.x,-camera.y);
  const visible=(x,y,w=1,h=1)=>x*32<camera.x+width+32&&(x+w)*32>camera.x-32&&y*32<camera.y+height+32&&(y+h)*32>camera.y-64;
  const draw=(id,x,y,phase=0)=>{const a=tiles.get(animationFrame(id,time,phase));if(!a)throw Error('Missing environment tile '+id);c.drawImage(a.img||sheet,a.x,a.y,32,32,Math.round(x),Math.round(y),32,32);};
@@ -74,6 +74,7 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  const effects=[],sorted=[];for(const o of contactFrontiers(state.scene))if(visible(o.x,o.y))sorted.push({depth:(o.y+1)*32,draw:()=>drawContactArt(c,o.id,o.x*32,o.y*32)});for(const o of map.objects)if(visible(o.x,o.y,o.w,o.h))sorted.push({depth:o.depth*32,draw:()=>{if(o.fruitId)drawFruitTree(o);else assembly(o);if(o.id==='fountain.jet'){const parent=map.objects.find(b=>b.id==='fountain.small'&&o.x===b.x+1&&o.y===b.y),dy=parent?contactEntry(`${state.scene}:${map.objects.indexOf(parent)}`).dy:0;draw(`water.spray.${Math.floor(time/.18)%4}`,o.x*32,(o.y+1)*32+dy);}}});
  for(const e of getEntities(state)){
   if(e.type==='npc'){const v=actorView(state,e.id),x=(v.x===null?e.x*16:v.x)*2+16,y=(v.y===null?e.y*16:v.y)*2+32;sorted.push({depth:y,draw:()=>drawActor(x,y-v.hop,{look:npcLook(e,state.gender),facing:v.facing,pose:v.pose})});effects.push(()=>drawReaction(c,x,y,v));}
+  else if(e.type==='routeBlocker')sorted.push({depth:(e.y+1)*32,draw:()=>drawBear(c,e.x,e.y)});
   else if(e.type==='tanoshi')sorted.push({depth:(e.y+1)*32,draw:()=>drawTanoshi(c,e)});
   else if(e.id==='lukeGreenhouse')sorted.push({depth:(e.y+1)*32,draw:()=>{c.fillStyle='#294f40';c.fillRect(e.x*32-12,e.y*32-20,56,18);c.fillStyle='#fff0c6';c.font='bold 10px monospace';c.textAlign='center';c.fillText('LUKE ↑',e.x*32+16,e.y*32-7);}});
   else if(e.type==='rescue')sorted.push({depth:(e.y+1)*32,draw:()=>{drawCritter(c,RESCUES[e.id],e.x*32,e.y*32,time);const x=e.x*32+16,y=e.y*32+18-Math.floor(time*3)%2;c.fillStyle='#fff3bb';c.fillRect(x-1,y-5,2,10);c.fillRect(x-5,y-1,10,2);}});

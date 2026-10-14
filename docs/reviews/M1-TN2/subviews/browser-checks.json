@@ -1,0 +1,38 @@
+{
+  "task": "M1.TN2",
+  "url": "http://127.0.0.1:5228",
+  "checks": [
+    "Adventure greenhouse outside/inside,coast and Map Studio centered atzoom1;editor/native bear pixels exact",
+    "Adventure greenhouse outside/inside,coast and Map Studio centered atzoom2;editor/native bear pixels exact",
+    "Adventure greenhouse outside/inside,coast and Map Studio centered atzoom3;editor/native bear pixels exact",
+    "No subview runtime errors or missing assets"
+  ],
+  "errors": [],
+  "measurements": [
+    {
+      "worldZoom": 0,
+      "median": 0.9000000953674316,
+      "p95": 1.0999999046325684,
+      "width": 480,
+      "height": 826,
+      "scope": "120 synchronous warm renderer calls on host Chrome; not physical phone FPS"
+    },
+    {
+      "worldZoom": 1,
+      "median": 0.39999961853027344,
+      "p95": 0.5,
+      "width": 390,
+      "height": 670,
+      "scope": "120 synchronous warm renderer calls on host Chrome; not physical phone FPS"
+    },
+    {
+      "worldZoom": 2,
+      "median": 0.10000038146972656,
+      "p95": 0.3000001907348633,
+      "width": 196,
+      "height": 336,
+      "scope": "120 synchronous warm renderer calls on host Chrome; not physical phone FPS"
+    }
+  ],
+  "physicalSafari": false
+}
