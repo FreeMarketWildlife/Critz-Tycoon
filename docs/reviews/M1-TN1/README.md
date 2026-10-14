@@ -1,0 +1,20 @@
+# M1.TN1 — Tanoshi discovery checkpoint
+
+Implementation and tests complete; **parent visual checkpoint required before deployment**. New native appearance is a proposal under Phil's explicit Tanoshi request, not self-approved M1/M2 artwork. Existing public version50 is unchanged.
+
+Three individuals share the reference-derived master: blush/shy by the bedroom bed, mint/curious by Rootport's spring bench, apricot/easygoing by Mossway's hollow log. The blush individual is visible as soon as the opening scene appears. Stand beside one and press A; first greetings are saved immediately and appear in Start → Notebook. Revisits remember the greeting. No reward, capture or ownership is added. Save failures preserve the old bytes, explain the failure and use the existing Save retry. Old saves need no migration for the optional ID list.
+
+Review [the actual new-game opening](actual-new-game.png), [readable phone greeting](greeting-390.png), [Rootport](mint-phone.png), [Mossway](apricot-phone.png), [landscape](opening-844.png) and [Notebook](notebook-phone.png). Native art: [32px lineup](native.png), [clean light8×](clean-light-8x.png), [clean dark8×](clean-dark-8x.png), [countable Y-up grid](grid-8x.png). Canonical dimensions, construction, deviations and identity boundaries live in [ART_BIBLE](../../ART_BIBLE.md#tanoshi-discovery-adaptation--m1tn1-2026-10-14).
+
+Art was created/edited with the built-in imagegen tool using the original final atlas/motion stills, then the generated blush master for both variants. Unchanged generated inputs and indexed editable native rows are in `art/source/tanoshi/`; `export.py` performs disclosed fixed-crop nearest sampling and material-ramp encoding rather than procedural silhouette generation. No smoothed artwork or original reference media is registered in runtime. The original packet remains unchanged outside the build roots. Three PNGs and the lossless atlas are in `assets/playable/tanoshi/`. They are stills, not an authored wave/walk animation; the brief friendly observations describe personality. The four short rays remain recognizable, but native sampling merges the lower-right ray into the head contour; this fidelity limit needs visual feedback.
+
+Actual evidence:
+
+- [294 passing unit checks](unit-results.txt), including exactly-once discovery/both loan paths/legacy load/exact backup/no new blocked cells/reachability/malformed-field preservation.
+- [9 focused production browser groups](browser-checks.json):320×568,390×844,844×390,1280×900; opening/revisit/Notebook/reload; three encounters; unchanged protected state; failed-save feedback/retry; actual new game; no missing assets/exceptions.
+- [17 original end-to-end regression groups](story-regression.json): both named Hero/loan paths, compassionate opening, all surviving rescues/gift, notebook/reward, shops/neighbors, care, Critter photo/video/revenue, complete save equality and interruption/input/layout behavior.
+- [Independent saved-pixel checks](native-checks.json), [generation/native provenance and hashes](asset-check.json). All six approved originals remain byte-identical. Native source/PNG/atlas equality, binary alpha, two true enclosed eye holes per sprite, padding and exact8× enlargement verified.
+
+Initial unit failures were stale exact entity rosters; the roster assertions now include the authorized three IDs while retaining every preceding ID. Initial focused-browser failures were the harness's async wait/continuation assumptions; it now follows actual opening reset and polls settled movement. All final checks pass. Physical Safari/hardware/backgrounding is not claimed.
+
+Publication is intentionally held for this checkpoint. Prepare/synchronize/package the exact tested source via the existing Sites project while retaining its public audience. The parent should review this packet, deploy the prepared saved version, confirm terminal success and check the three live encounters at https://critz-tycoon.freemarketwildlife.chatgpt.site . A GitHub push alone does not update that phone URL.

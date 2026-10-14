@@ -1,0 +1,71 @@
+{
+  "task": "M1.TN1",
+  "method": "Imagegen creation/edits; fixed-crop nearest sampling and flat palette encoding, no procedural silhouette authoring",
+  "sourceCrop": [
+    230,
+    270,
+    1040,
+    1136
+  ],
+  "sampleSize": [
+    26,
+    28
+  ],
+  "placement": [
+    3,
+    2
+  ],
+  "assets": [
+    {
+      "variant": "blush",
+      "generatedSha256": "762c45ce1947ed93f4f303224679ab44e029ed38f0c06163486f513bd9003ffe",
+      "nativeSha256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9",
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "opaquePixels": 348,
+      "opaqueColors": 3,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "variant": "mint",
+      "generatedSha256": "4606670944d10a72509bc677e527a1f4ca55944a02b5ec01fbd063a3ead13655",
+      "nativeSha256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3",
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "opaquePixels": 355,
+      "opaqueColors": 3,
+      "alphaValues": [
+        0,
+        255
+      ]
+    },
+    {
+      "variant": "apricot",
+      "generatedSha256": "72c464e97c9e095fa39288cc44b7d148a420ede4890c5405f08c9e629ce054c1",
+      "nativeSha256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5",
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "opaquePixels": 355,
+      "opaqueColors": 3,
+      "alphaValues": [
+        0,
+        255
+      ]
+    }
+  ]
+}

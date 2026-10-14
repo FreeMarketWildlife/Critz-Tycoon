@@ -1,6 +1,7 @@
 import {crossesFence} from './fence-crossing.js';
 import {FRUIT_TREES,fruitCells} from './fruit-trees.js';
 import {actorEntity} from './actors.js';
+import {TANOSHI} from './tanoshi.js';
 import {buildings, liarsBuildings, overworldMaps} from './overworld.js';
 // Coordinates are integer grid cells at actors' feet, rendered at x*16,y*16.
 // Appearance bounds never determine collision: every solid has an explicit
@@ -170,6 +171,7 @@ scenes.waterworks = {
 scenes.greenhouseGrounds={name:'Luke’s Greenhouse · garden',w:13,h:13,style:'greenhouse',safeSpawn:[6,10],objects:[{kind:'greenhouse',sprite:'luke-greenhouse',x:1,y:2,w:11,h:6,collision:[1,2,11,6]}],entities:[{...item('greenhouse',"Luke’s Greenhouse · enter",6,8,'greenhouse'),entryFacing:'up'},door('exit','Rootport',6,12,'town',[15,26])]};
 
 for(const t of FRUIT_TREES)scenes[t.scene].entities.push({...item(t.id,'Shake apple tree',t.x,t.y+1,'fruitTree'),interactionCells:fruitCells(t)});
+for(const t of TANOSHI)scenes[t.scene].entities.push({...t,type:'tanoshi'});
 
 // Every entrance declares its travel direction, including outdoor gates.
 for (const scene of Object.values(scenes)) for (const e of scene.entities) {
@@ -181,7 +183,7 @@ for (const scene of Object.values(scenes)) for (const e of scene.entities) {
 
 export function getEntities(state) {
   const list = scenes[state.scene].entities.filter(entity => entity.type !== "rescue" || (state.stage === "morning" && !state.flags.rescued.includes(entity.id)));
-  const visible = state.scene === "bedroom" && state.stage === "night" ? list.filter(entity => ["tank", "desk", "sleep"].includes(entity.id)) : list;
+  const visible = state.scene === "bedroom" && state.stage === "night" ? list.filter(entity => entity.type==='tanoshi' || ["tank", "desk", "sleep"].includes(entity.id)) : list;
   return visible.map(entity => actorEntity(state, entity.id === "rival" ? { ...entity, name: state.rival } : entity.id === "tank" && state.stage === "night" ? { ...entity, name: "Feed Pebble the gecko" } : entity));
 }
 

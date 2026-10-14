@@ -2,6 +2,7 @@ import {initialState as greenhouseInitial,normalize as normalizeGreenhouse} from
 import {ensureDayClock,advanceDayClock,endDay,paintClock} from './day-clock.js';
 import {MusicDirector} from './audio/director.js';
 import {harvestFruit,cueFruitShake,fruitTreeView} from './fruit-trees.js';
+import {TANOSHI,discoverTanoshi,foundTanoshi} from './tanoshi.js';
 import {createPrinter,advancePrinter,printerComplete,finishPrinter,paginate} from './dialogue.js';
 import {readSettings,writeSettings,FRAME_STYLES} from './ui-settings.js';
 import {initializeActors,updateActors,facePlayer,releaseActors,cueActor,actorDebug} from './actors.js';
@@ -348,6 +349,13 @@ function interact() {
     return;
   }
   if(e.type==='greenhouse'){openGreenhouse();return;}
+  if(e.type==='tanoshi'){
+    const result=discoverTanoshi(state,e.id);
+    if(!result)return;
+    const saved=!result.first||persist();
+    say([[result.first?'Found a Tanoshi!':e.name,result.first?e.greeting:e.revisit],['',result.first?(saved?'Tanoshi are a type of yokai. This hello is saved in your Notebook.':'Your Notebook remembers this hello for now. Saving failed; open Start to try again.'):'A familiar little hello.']]);
+    return;
+  }
   if(e.type==='fruitTree'){
     if(fruitTreeView(state,e.id,visualTime).active)return;
     const result=harvestFruit(state,e.id);
@@ -729,7 +737,7 @@ function notebook() {
       )
       .join(
         "",
-      )}<h3>Today’s notes</h3>${state.notebookEntries.length ? state.notebookEntries.map((n) => `<div class="journal-entry"><p>${esc(n)}</p></div>`).join("") : "<p>A fresh page. A new beginning.</p>"}<p class="hint">This chapter uses a compressed, simplified ecosystem. Later chapters will add richer study, sketches, and species-specific habitats.</p>`,
+      )}<h3>Tanoshi greetings · ${foundTanoshi(state).length}/${TANOSHI.length}</h3><p>Little yokai hide around familiar places. Stand beside one and press A to say hello.</p>${foundTanoshi(state).map(t=>`<div class="journal-entry"><strong>✓ ${esc(t.name)} · ${esc(t.personality)}</strong><p>${esc(t.greeting)}</p></div>`).join('')}<h3>Today’s notes</h3>${state.notebookEntries.length ? state.notebookEntries.map((n) => `<div class="journal-entry"><p>${esc(n)}</p></div>`).join("") : "<p>A fresh page. A new beginning.</p>"}<p class="hint">This chapter uses a compressed, simplified ecosystem. Later chapters will add richer study, sketches, and species-specific habitats.</p>`,
     {
       eyebrow: state.flags.notebook
         ? "PROFESSOR NUGGET’S FIELD NOTEBOOK"

@@ -1,0 +1,77 @@
+{
+  "task": "M1.TN1",
+  "nativeExports": [
+    {
+      "variant": "blush",
+      "holes": [
+        [
+          13,
+          15,
+          15,
+          18,
+          6
+        ],
+        [
+          17,
+          15,
+          19,
+          18,
+          6
+        ]
+      ],
+      "pngSourceAtlasExact": true,
+      "binaryAlpha": true,
+      "twoEmptyFootRows": true,
+      "sha256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9"
+    },
+    {
+      "variant": "mint",
+      "holes": [
+        [
+          14,
+          15,
+          15,
+          18,
+          3
+        ],
+        [
+          17,
+          16,
+          18,
+          18,
+          2
+        ]
+      ],
+      "pngSourceAtlasExact": true,
+      "binaryAlpha": true,
+      "twoEmptyFootRows": true,
+      "sha256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3"
+    },
+    {
+      "variant": "apricot",
+      "holes": [
+        [
+          13,
+          16,
+          15,
+          18,
+          4
+        ],
+        [
+          17,
+          16,
+          18,
+          18,
+          2
+        ]
+      ],
+      "pngSourceAtlasExact": true,
+      "binaryAlpha": true,
+      "twoEmptyFootRows": true,
+      "sha256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5"
+    }
+  ],
+  "exact8x": true,
+  "allSixOriginalReferencesUnchanged": true,
+  "visualAcceptance": "pending user/parent checkpoint"
+}

@@ -1,6 +1,7 @@
 import {normalize as normalizeGreenhouse} from '../art-review/greenhouse-state.js';
 import {validDayClock} from './day-clock.js';
 import {validFruitSave} from './fruit-trees.js';
+import {validTanoshiSave} from './tanoshi.js';
 export const SAVE_KEY = "critz-tycoon.save.v1";
 export const PRE_WORLD_KEY = SAVE_KEY + ".pre-world-2";
 export const PRE_WORLD_BACKUP_KEY = SAVE_KEY + ".pre-world-2.backup";
@@ -381,6 +382,7 @@ function validNumber(n, min, max) {
   return typeof n === "number" && Number.isFinite(n) && n >= min && n <= max;
 }
 export function validateState(s) {
+  if(!validTanoshiSave(s))return false;
   if(s?.lukeGreenhouse!==undefined){try{normalizeGreenhouse(s.lukeGreenhouse);}catch{return false;}}
   if(s?.dayClock!==undefined&&!validDayClock(s.dayClock))return false;
   if (

@@ -1,4 +1,5 @@
 import {loadGreenhouseGrounds,renderGreenhouseGrounds} from './greenhouse-grounds.js';
+import {loadTanoshiArt,drawTanoshi} from './tanoshi-art.js';
 import {loadHomeArt,hasHomeArt,homeEntry,drawHomeArt,drawHomeProp,drawRoomBackdrop} from './home-art.js';
 import {drawContactSprite} from './contact-rules.js';
 import {worldFoot,CAMERA_FOCUS_Y} from './world-space.js';
@@ -20,7 +21,7 @@ export async function initWorldArt() {
   [atlas,correctedCast] = await Promise.all([
     loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url)),
     loadAtlas(new URL('../assets/playable/characters/atlas.json', import.meta.url)),
-    loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds(),loadHomeArt(),
+    loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds(),loadHomeArt(),loadTanoshiArt(),
   ]);
   entries = new Map(atlas.manifest.assets.map(a => [a.id, a]));
 }
@@ -93,6 +94,7 @@ export function renderWorld(canvas, state, time, view) {
   if(scene.visualHouse) add((scene.visualHouse.y+scene.visualHouse.h)*32,()=>prop(scene.visualHouse));
   for(const e of getEntities(state)) {
     if(e.type==='npc') {const v=actorView(state,e.id),{x,y}=worldFoot(v.x===null?e.x*16:v.x,v.y===null?e.y*16:v.y);add(y,()=>{character(c,x,y-v.hop,{look:npcIdentity(e,state.gender),facing:v.facing,pose:v.pose});});effects.push(()=>drawReaction(c,x,y,v));}
+    else if(e.type==='tanoshi') add((e.y+1)*32,()=>drawTanoshi(c,e));
     else if(e.type==='rescue') add((e.y+1)*32,()=>drawCritter(c,RESCUES[e.id],e.x*32,e.y*32,time));
     else if(e.id==='townSign'||e.type==='route') add(e.y*32,()=>oldSprite(e.type==='route'?'sign.route':'sign.town',e.x*32,e.y*32));
     else if(e.type==='door'&&!outside) {

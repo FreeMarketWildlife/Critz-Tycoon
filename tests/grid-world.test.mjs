@@ -26,11 +26,11 @@ function reachable(state, start = state.player) {
 }
 const requiredIds = {
   greenhouseGrounds:['greenhouse','exit'],
-  bedroom: ["tank", "sleep", "desk", "gecko", "stairs"],
+  bedroom: ["tank", "sleep", "desk", "gecko", "stairs", "tanoshi-blush"],
   house: ["mom", "snail", "stairs", "exit"],
   yard: ["home", "gate", "isopods", "springtails", "forage", "apple-yard"],
-  town: ["yard", "kaidHome", "rivalHome", "critz", "vet", "pharmacy", "bike", "glass", "nugget", "rival", "kaid", "route", "townSign", "spring", "apple-rootport"],
-  forest: ["south","north","hollowLog","spillway","milepost","apple-mossway"],
+  town: ["yard", "kaidHome", "rivalHome", "critz", "vet", "pharmacy", "bike", "glass", "nugget", "rival", "kaid", "route", "townSign", "spring", "apple-rootport", "tanoshi-mint"],
+  forest: ["south","north","hollowLog","spillway","milepost","apple-mossway","tanoshi-apricot"],
   liarsville: ["south","waterworks","millHouse","cottage","seeds","townStory","apple-liarsville"],
   waterworks: ["exit","ledger","model","bell"],
   critz: ["shop-critz", "exit"], vet: ["shop-vet", "exit"], pharmacy: ["shop-pharmacy", "exit"],
@@ -132,7 +132,7 @@ test("cardinal interaction cannot reach through a diagonal furniture corner and 
   state.player = { x: 8, y: 6, facing: "up" };
   assert.equal(nearestEntity(state).id,"tank");
   state.stage="night";
-  assert.deepEqual(getEntities(state).map(entity=>entity.id),["tank","sleep","desk"]);
+  assert.deepEqual(getEntities(state).map(entity=>entity.id),["tank","sleep","desk","tanoshi-blush"]);
   assert.equal(nearestEntity(state).name,"Feed Pebble the gecko");
   state.stage="morning";
   state.flags.rescued=["gecko"];
