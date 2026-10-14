@@ -1,5 +1,9 @@
 # M1.TN3 — Thicker Tanoshi and grizzly outlines
 
+## M1.ME9 — Named Rootport starting base
+
+**Implemented and tested; publication preparation in progress.** Store the user's exact RLE layout as the named Rootport base, preserve cottage links and v1 data, provide area loading and revision-isolated draft persistence. [Guide and future update workflow](reviews/M1-ME9/README.md). Next: publish the scoped version52-based release, open Rootport without replacing the existing Grove tab, then user edits or submits a future full export. This is authoring content, not an adventure compiler or world replacement.
+
 ## M1.BN1 / M1.ME8 / M1.WA9 — Bench seating, vertical fences and water edges
 
 **Implemented, checked and published as public version52; appearance/feel awaits user review.** Complete the bench seating/art change, then the explicit vertical-fence correction, then¾-water north/left/right shore correction with south boundary preserved. [Packet](reviews/M1-BN1/README.md) records native/collision/browser evidence. Publish only these scoped corrections from the existing live source; preserve pending TN2/TN3 work and all saves. Version52 deployment succeeded; exact source/clean archive are recorded in the packet. Next: user feedback and the separate named-Rootport loader request.
