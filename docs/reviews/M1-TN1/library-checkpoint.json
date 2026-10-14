@@ -1,0 +1,43 @@
+{
+  "task": "M1.TN1",
+  "status": "one requested artwork image saved; browser screenshots remain local; version51 undeployed",
+  "library": {
+    "file_name": "clean-light-8x.png",
+    "library_file_id": "libfile_17b54a4ed4f8819183594de224bc5ade",
+    "file_id": "file_00000000c79c81fd8dc5d7dbe385fe4b",
+    "current_version_number": 0,
+    "path": "/clean-light-8x.png",
+    "size_bytes": 3559,
+    "dimensions": [768,256],
+    "sha256": "4baa1ebaf244f0d9a37b4574a2fe9840794be7f29af232ab137b0252d205175f",
+    "local_path": "docs/reviews/M1-TN1/clean-light-8x.png",
+    "local_identity_metadata_persisted": true,
+    "local_png_bytes_unchanged": true,
+    "contact_view_scale": "8x nearest-neighbor; three32x32 native sprites side by side on a light background",
+    "browser_screenshots_uploaded": 0
+  },
+  "native_confirmation": {
+    "frame_dimensions_each": [32,32],
+    "opaque_palette_colors_each": 3,
+    "transparent_palette_entry_each": 1,
+    "alpha_values_each": [0,255],
+    "enclosed_alpha_zero_eye_holes_each": 2,
+    "all_three_face_masks_distinct": true,
+    "eye_hole_areas": {"blush":[6,6],"mint":[3,2],"apricot":[4,2]},
+    "all_six_approved_reference_files_byte_identical": true,
+    "native_pixels_changed_this_followup": false
+  },
+  "local_screenshot_findings": {
+    "opening": "Blush Tanoshi is visible beside the bed on the actual new-game opening; Hero and touch controls remain visible.",
+    "390px_greeting": "Readable two-line paper dialogue; Hero/Tanoshi remain above the window. PNG-level checks prove full controls despite some image previews appearing incomplete.",
+    "runtime_ui_defect": "None established; actual control geometry and interaction checks pass.",
+    "physical_iphone_safari": "unverified"
+  },
+  "sites": {
+    "version_number": 51,
+    "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_d1c35ae5c0108191a777fa4c038371e8",
+    "deployment_id": null,
+    "audience": "public",
+    "next_action": "Parent inspects the Library native image and this local screenshot report before deployment."
+  }
+}

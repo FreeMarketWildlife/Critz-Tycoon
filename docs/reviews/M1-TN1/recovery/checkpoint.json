@@ -58,7 +58,8 @@
     "originals": "All four PNGs, all57 motion GIF frames and all16 gaze GIF frames inspected; source media remains unchanged.",
     "adaptation": "Native/light/dark/grid, opening and three in-world individuals inspected.",
     "ray_fidelity_limit": "Native sampling joins the lower-right head ray to the contour; documented in ART_BIBLE and pending visual feedback.",
-    "capture_limit": "Some whole-page Chrome147/155 captures intermittently omit the controller layer despite visible onscreen DOM state. Separate controller crops render correctly, actions succeed for all three encounters, and retained opening/blush/apricot greeting captures visibly include controls. No runtime fix or physical-device assurance is inferred.",
+    "capture_limit": "Some image previews appeared to omit the controller, but independent PNG-pixel checks confirm full controls in every retained capture and all ten additionally sampled prior captures. The preview omissions cannot be attributed to the saved PNGs or game UI. DOM geometry, controller crops and actual A interactions also pass; no runtime defect or fix is inferred.",
+    "retained_capture_pixel_check": {"images":["actual-new-game.png","blush-greeting-390.png","apricot-greeting-390.png"],"A_center_rgb":[238,172,114],"Dpad_center_rgb":[46,76,84],"controller_region_rgb_colors":439,"controls_present_in_saved_pixels":true},
     "acceptance": "Pending required parent/user checkpoint; no wider M1/M2 approval claimed."
   },
   "sites": {
