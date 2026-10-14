@@ -1,0 +1,58 @@
+[
+  {
+    "facing": "down",
+    "benchPixels": [
+      64,
+      64
+    ],
+    "HeroPixels": [
+      32,
+      64
+    ],
+    "binaryAlpha": true,
+    "sourceExact": true,
+    "heroSha256": "9b43d3897298d7c141b12dc1abd2bc02452f86ea56c8c8c5bf627b8bdb0f17bd"
+  },
+  {
+    "facing": "up",
+    "benchPixels": [
+      64,
+      64
+    ],
+    "HeroPixels": [
+      32,
+      64
+    ],
+    "binaryAlpha": true,
+    "sourceExact": true,
+    "heroSha256": "148f3cdff03bb2b78e80837c153cd01e4b82c0a4ad0dfd8fcc5a767b6908d17a"
+  },
+  {
+    "facing": "left",
+    "benchPixels": [
+      32,
+      96
+    ],
+    "HeroPixels": [
+      32,
+      64
+    ],
+    "binaryAlpha": true,
+    "sourceExact": true,
+    "heroSha256": "1ba64556c1c8beb60efd575c387497af5d6364d3bbea6ad13de29a5cb668f19f"
+  },
+  {
+    "facing": "right",
+    "benchPixels": [
+      32,
+      96
+    ],
+    "HeroPixels": [
+      32,
+      64
+    ],
+    "binaryAlpha": true,
+    "sourceExact": true,
+    "heroSha256": "2c517b4a6a80ded51b52c30e0a4efecb3c22d910605b9c271ea19ef5dba13055"
+  }
+]

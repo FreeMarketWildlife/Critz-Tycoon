@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "fence retains walk-behind/lateral movement and crossing barrier",
+    "fence-picket retains walk-behind/lateral movement and crossing barrier",
+    "fence-barbed retains walk-behind/lateral movement and crossing barrier",
+    "All three actual editor renders paint only middle halves of two tiles",
+    "Projected bottom half stays visible when its anchor is above the viewport",
+    "Three-style review and playtest preserve the saved map draft",
+    "Phone layout fits and searches find wood, white picket and barbed wire",
+    "No browser exceptions or missing fence assets"
+  ],
+  "errors": []
+}

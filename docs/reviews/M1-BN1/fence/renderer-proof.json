@@ -1,0 +1,20 @@
+[
+  {
+    "style": "fence",
+    "min": 144,
+    "max": 175,
+    "pixels": 192
+  },
+  {
+    "style": "fence-picket",
+    "min": 144,
+    "max": 175,
+    "pixels": 208
+  },
+  {
+    "style": "fence-barbed",
+    "min": 144,
+    "max": 175,
+    "pixels": 192
+  }
+]
