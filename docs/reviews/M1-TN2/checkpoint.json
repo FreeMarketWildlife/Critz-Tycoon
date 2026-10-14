@@ -3,8 +3,14 @@
   "state": "awaiting review",
   "branch": "main",
   "baseCommit": "85f3627e067d6b260d592800d0d5f27f8088af7d",
-  "runtimeCommit": null,
-  "push": "pending scoped checkpoint",
+  "runtimeCommit": "7cef38eb157dd947d005dbf02ccf270fecb80c4b",
+  "push": {
+    "state": "succeeded",
+    "remote": "origin/main",
+    "verifiedRemoteSha": "7cef38eb157dd947d005dbf02ccf270fecb80c4b",
+    "localSha": "7cef38eb157dd947d005dbf02ccf270fecb80c4b",
+    "cleanAtRuntimeCheckpoint": true
+  },
   "deployment": {
     "performed": false,
     "reason": "Explicit parent native/playable review required before next publication",
@@ -62,5 +68,14 @@
   "syntheticStorageOnly": true,
   "physicalSafariTested": false,
   "remainingBlockers": [],
-  "nextAction": "Parent reviews native/playable checkpoint, then authorizes existing-project publication."
+  "nextAction": "Parent reviews the native/playable checkpoint, then authorizes publication through the existing PUBLIC Sites project.",
+  "reviewPreview": {
+    "url": "http://127.0.0.1:5228",
+    "ownedPid": 46136,
+    "scope": "Supplementary local production preview; public phone link remains version51"
+  },
+  "communication": {
+    "directParentMessage": "thread not found",
+    "finalReport": "Platform automatically notifies parent when this turn ends"
+  }
 }
