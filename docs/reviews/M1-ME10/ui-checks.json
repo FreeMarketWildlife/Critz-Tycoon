@@ -1,0 +1,21 @@
+{
+  "url": "http://localhost:5240",
+  "checks": [
+    "Rootport opens unchanged with a1152×706 desktop canvas",
+    "Toolbox collapses and reopens without changing the project",
+    "Global search reveals collapsed water tools and restores category state",
+    "Actual pointer paint, undo and redo retain exact Rootport content",
+    "Canvas keyboard tools and Enter painting work with the desktop palette open",
+    "Palette tabs support arrow navigation and roving focus",
+    "View options retain collision and explicit layer controls",
+    "Focus mode reclaims canvas space and reverses cleanly",
+    "Project share opens a single export dialog with full editable data",
+    "Project backup download works from the drawer",
+    "Quick Hero test returns to the same authored map",
+    "Help is discoverable and dismisses with Escape",
+    "320/390px phone, short landscape and tablet fit; modal Build returns selected props to canvas",
+    "Actual touch selection paints the intended cell after the tray closes",
+    "No browser exceptions"
+  ],
+  "errors": []
+}

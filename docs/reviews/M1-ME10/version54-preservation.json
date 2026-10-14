@@ -1,0 +1,15 @@
+{
+  "baselineVersion": 54,
+  "checkedRuntimeFiles": 1510,
+  "unchanged": 1507,
+  "changed": [
+    "map-editor/index.html",
+    "map-editor/editor.css",
+    "map-editor/editor.js"
+  ],
+  "added": [
+    "map-editor/ui.js"
+  ],
+  "deleted": [],
+  "note": "Only editor presentation/interaction wiring changed; all accepted art, maps, model, renderer and adventure assets match version54 tested production fingerprints."
+}

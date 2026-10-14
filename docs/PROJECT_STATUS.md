@@ -1,5 +1,12 @@
 # Project status
 
+## M1.ME10 — Map Studio usability redesign
+
+**Implemented and verified on source and production; publication in progress.** User requests research-led removal of clutter and a fun, understandable collapsible map editor. Deliverable: [UI redesign, primary references and browser evidence](reviews/M1-ME10/README.md). Large canvas, collapsible visual Build palette/categories, phone modal tool tray, Project drawer, compact drawing tools, contextual selection controls, map/View menus, Focus mode, keyboard tools and on-demand help replace the permanent notebook and implementation/reference clutter. Exact tile editing remains under Advanced. Global search exposes matching collapsed categories; water variants now have explicit human-readable depth/motion labels. Rootport v1 data, revision-isolated drafts, ordinary saves, all art/rendering/collision and disposable Hero/bench behavior are preserved. This changes authoring UI, not accepted world art or M1/M2 approval gates.
+
+Main baseline9f5bd901.313 unit checks, standard syntax checks,22 general browser groups,7 named-area groups,6 directional bench groups and15 new usability groups pass on local source and production after correcting a320px Fit visibility issue and adapting old tests to the new menus. All1,510 previous runtime files are retained:1,507 byte-identical, only three editor presentation files changed, with one new UI module. Final hosted evidence and exact release receipt follow. Exact next action: commit/push and publish the tested production build through the existing PUBLIC Sites project, then hand the user Rootport for UI review.
+
+
 ## M1.ME9 — Named Rootport starting base
 
 **Complete, pushed and published as PUBLIC version54.** User-provided v1 RLE export becomes loadable Rootport with only the project/outdoor names changed; all supplied cells, object/map IDs, cottage/return links and notes are preserved. [Loader/guide](reviews/M1-ME9/README.md). Named area revisions have independent autosaved drafts; generic/adventure keys and old revision slots remain unchanged. Corrupt/unknown/failed loads fail closed. Future full exports replace the base and increment its revision. Main/publication-source313 units and7 browser groups each on source, production and actual hosted URLs pass; earlier version52-based rehearsal passed305 units. Synthetic contexts only; desktop/390px and actual new in-app Ready state verified. Physical Safari remains unverified. Check map retains the supplied3 narrow-water-cell warning without modifying the map.
