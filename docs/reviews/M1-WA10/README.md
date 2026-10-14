@@ -14,4 +14,10 @@ The existing water mask and wet-side bank stay exact. The shared coast construct
 -8 complete-coast browser groups pass:74 material pairs, all15 masks/55 raw contexts, orientations/mirrors, shallow/sand/grass returns, phone layout and actual playable coast. All4,070 colored aliases match the browser renderer pixel-for-pixel.
 -Native bank inventory becomes450 tiles/350 unique frames, with100 wash sequences. The colored bank remains1,918 unique tiles. Exact count assertions were updated only after regeneration and native/browser proof.
 
-Reports and screenshots live alongside this file. [Pixel proof](rootport-pixel-check.json), [native proof](native-check.json), [browser](browser/bank-browser-check.json), [complete coast](coast/complete-check.json). Production/release receipts follow. Visual review remains with the user; no physical Safari testing or wider M1/M2 approval is claimed.
+Reports and screenshots live alongside this file. [Pixel proof](rootport-pixel-check.json), [native proof](native-check.json), [browser](browser/bank-browser-check.json), [complete coast](coast/complete-check.json). Source and production runs both pass. Visual review remains with the user; no physical Safari testing or wider M1/M2 approval is claimed.
+
+## Release
+
+Published as PUBLIC version57 from source `54ed7b5ec51353a40ffb38c32d8b5f77ffeb9cdb`, matching GitHub origin/main at publication. Deployment `appgdep_6acff7f2df008191956a770a4ee1d680` succeeded2026-10-14 21:45:52UTC. All1,511 tested runtime and3,844 build files match the clean3,845-file archive, with normalized hosting metadata the sole addition. Audience/saves remain unchanged. [Receipt](deployment.json), [archive proof](archive-check.json), [version56 preservation](version56-preservation.json).
+
+The actual hosted Rootport canvas independently reports2,857 changed land pixels and zero changed water pixels. [Live proof](hosted/bank-browser-check.json), [desktop](hosted/rootport-desktop.png), [phone](hosted/rootport-phone.png). [Edit Rootport](https://critz-tycoon.freemarketwildlife.chatgpt.site/map-editor/?area=rootport). The final receipt is documentation/evidence only and requires no additional deployment. Next action is user visual review, with no broader gate self-approved.

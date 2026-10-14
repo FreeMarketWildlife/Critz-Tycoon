@@ -1,0 +1,17 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "changed": 2857,
+  "changedWater": 0,
+  "projectName": "Rootport",
+  "mapSize": [
+    22,
+    16
+  ],
+  "errors": [],
+  "checks": [
+    "Actual Rootport canvas differs only outside the previous water mask",
+    "Rootport project and dimensions retained",
+    "Phone canvas fits",
+    "No browser exceptions"
+  ]
+}
