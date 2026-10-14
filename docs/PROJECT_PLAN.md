@@ -1,5 +1,9 @@
 # M1.TN1 — Tanoshi discovery slice
 
+## M1.BN1 / M1.ME8 / M1.WA9 — Bench seating, vertical fences and water edges
+
+**Implemented and checked; publication preparation in progress; appearance/feel awaits user review.** Complete the bench seating/art change, then the explicit vertical-fence correction, then¾-water north/left/right shore correction with south boundary preserved. [Packet](reviews/M1-BN1/README.md) records native/collision/browser evidence. Publish only these scoped corrections from the existing live source; preserve pending TN2/TN3 work and all saves. Exact next action: publish matched production archive, verify the deployed review and collect user feedback.
+
 **Implemented and checked; awaiting parent visual checkpoint before publication.** Explicit October14 request authorizes three individuals adapted from the saved approved Tanoshi pet master, with color/expression/personality variations in existing areas. Visible bedroom opening, Rootport spring and Mossway log greetings use A and the existing Notebook. Optional durable discovered IDs preserve v1 keys, coordinates and old saves; no new lore, world, economy, capture or movement system. [Native art, phone screenshots and evidence](reviews/M1-TN1/README.md).294 units,9 focused discovery/browser groups and17 original story/shop/care/Critter groups pass; native PNG/source/atlas/eye-hole and unchanged-original checks pass. User visual acceptance remains pending. Next action: parent reviews the concrete screenshots/build and publishes the exact prepared version through the existing public Sites project after acceptance of this checkpoint; then verifies live phone encounters. Physical Safari remains untested. No broader gate is self-approved.
 
 # M1.TO2 — Review, repeatability and mobile interruption

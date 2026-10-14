@@ -1,3 +1,4 @@
+import {benchFacing,seatApproach} from '../src/bench-seat.js';
 import {isWater,waterSurface,mapWaterSurface,waterComponents} from '../src/water-map.js';
 import {validateWaterLayout} from '../src/water-layout.js';
 export {isWater,waterSurface} from '../src/water-map.js';
@@ -24,9 +25,10 @@ export const STAMPS={
  fountain:{name:'Fountain',w:3,h:3,assembly:'fountain.small',kind:'scenery',footprint:[0,0,3,3]},
  planter:{name:'Planter',w:1,h:1,tile:'planter.center',kind:'object',footprint:[0,0,1,1]},
  boulder:{name:'Pushable boulder',w:1,h:1,tile:'rock.2',kind:'boulder',footprint:[0,0,1,1]},
- bench:{name:'Bench',w:2,h:1,assembly:'bench',kind:'object',footprint:[0,0,2,1]},
+ bench:{name:'Bench · faces south / front',w:2,h:1,assembly:'bench',benchArt:'down',kind:'seat',footprint:[0,0,2,1]},
  log:{name:'Hollow log',w:3,h:1,assembly:'log.hollow',kind:'object',footprint:[0,0,3,1]},
 };
+for(const direction of ['up','left','right'])STAMPS['bench-'+direction]={...STAMPS.bench,name:'Bench · faces '+({up:'north / back',left:'west / left',right:'east / right'}[direction]),benchArt:direction,w:['left','right'].includes(direction)?1:2,h:['left','right'].includes(direction)?2:1,footprint:['left','right'].includes(direction)?[0,0,1,2]:[0,0,2,1]};
 for(const type of ['cottage','garden','shop'])STAMPS[type+'-open']={...STAMPS[type],name:STAMPS[type].name+' · open entrance',artType:type,entrance:'open'};
 export const clone=o=>JSON.parse(JSON.stringify(o));
 export const inside=(m,x,y)=>Number.isInteger(x)&&Number.isInteger(y)&&x>=0&&y>=0&&x<m.w&&y<m.h;
@@ -43,6 +45,7 @@ export function footprintFits(m,o){const r=objectFootprint(o);return inside(m,r.
 export function objectDepth(o){const r=objectFootprint(o);return r.y+r.h;}
 export function objectArtBounds(o){
  const s=STAMPS[o.type];
+ if(s.benchArt)return {x:o.x,y:o.y-1,w:s.w,h:s.h+1};
  if(s.treeArt){const wide=['old-grove','soft-willow'].includes(s.treeArt);return {x:o.x+s.footprint[0]-(wide?.5:0),y:o.y+s.footprint[1]-1,w:wide?3:2,h:3};}
  return {x:o.x,y:o.y,w:s.w,h:s.h};
 }
@@ -117,6 +120,19 @@ export function resizeMap(m,w,h,project=null){
  n.spawn=inside(n,m.spawn.x,m.spawn.y)?clone(m.spawn):n.spawn;Object.assign(m,n);
 }
 export function move(project,mapId,player,dir,{push=true}={}){const m=project.maps.find(m=>m.id===mapId),[dx,dy]=DIRS[dir];let x=player.x+dx,y=player.y+dy,jump=false;
+ if(player.sitting){
+  const seat=player.seat;if(!seat||dir!==seat.facing)return null;
+  const o=m.objects.find(o=>o.id===seat.id&&benchFacing(o.type)===seat.facing);
+  if(!o||x!==seat.exit.x||y!==seat.exit.y||blocked(m,x,y)||fenceCrossing(m,player,{x,y}))return null;
+  return {map:mapId,x,y,facing:seat.facing,benchJump:'exit'};
+ }
+ const seatObject=m.objects.find(o=>STAMPS[o.type].benchArt&&objectBlocks(o,x,y));
+ if(seatObject){
+  const seat=seatApproach(seatObject,objectFootprint(seatObject),player,{x,y},dir);
+  const ground={...m,objects:m.objects.filter(o=>o!==seatObject)};
+  if(!seat||blocked(ground,x,y)||blocked(m,player.x,player.y)||fenceCrossing(m,player,{x,y})||m.warps.some(w=>w.x===x&&w.y===y))return null;
+  return {map:mapId,x,y,facing:seat.facing,sitting:true,seat,benchJump:'enter'};
+ }
  if(fenceCrossing(m,player,{x,y}))return null;
  if(!inside(m,x,y)){const c=m.connections.find(c=>c.direction===dir);if(!c)return null;const target=project.maps.find(m=>m.id===c.target);if(!target)return null;let tx=dir==='left'?target.w-1:dir==='right'?0:x-c.offset,ty=dir==='up'?target.h-1:dir==='down'?0:y-c.offset;if(blocked(target,tx,ty))return null;return{map:target.id,x:tx,y:ty,facing:dir,transition:true};}
  const f=effectiveFeature(m,x,y);if(f.startsWith('ledge-')){if(isWater(m.terrain[at(m,x,y)])||m.objects.some(o=>objectBlocks(o,x,y))||m.raw[at(m,x,y)]?.blocked||f!==`ledge-${dir}`)return null;if(fenceCrossing(m,{x,y},{x:x+dx,y:y+dy}))return null;x+=dx;y+=dy;jump=true;}
@@ -131,7 +147,7 @@ export function reachableMap(project,m){
  for(let n=0;n<queue.length;n++){
   const from=queue[n];
   for(const [dir,[dx,dy]]of Object.entries(DIRS)){
-   const step=move(project,m.id,from,dir,{push:false});if(!step)continue;
+   const step=move(project,m.id,from,dir,{push:false});if(!step||step.benchJump)continue;
    let x=from.x+dx,y=from.y+dy;
    if(!inside(m,x,y)){connections.add(dir);continue;}
    if(effectiveFeature(m,x,y).startsWith('ledge-')){x+=dx;y+=dy;}
@@ -275,4 +291,10 @@ export function authoringReviewProject(){
  placeObject(m,'bench',3,8);
  p.notes='Reuse the existing garden to try Select, Copy selection, Paste and Pick. The bench at3,8 sits behind the Grove canopy while its occupied cells stay separate from the tree roots. Picking prioritizes occupied ground. Copy Props to include an entire footprint; Ground/Features/Exact tiles copy independently. Copied buildings need their own Passage links. Escape cancels previews and incomplete strokes. This sandbox never reads or replaces your saved draft. Existing native art remains for morning feedback.';
  return p;
+}
+
+export function benchReviewProject(){
+ const p=newProject(),m=newMap('bench-review','Benches · four directions',20,18);p.maps=[m];p.active=m.id;p.name='M1.BN1 directional seat review';
+ for(const [type,x,y] of [['bench',4,5],['bench-up',11,5],['bench-left',4,11],['bench-right',11,11]])placeObject(m,type,x,y);
+ m.spawn={x:4,y:6};p.notes='Walk into each seat through its front edge. Hop to sit; facing is locked. Release direction, then move outward through the same front edge to exit. Side/rear entry and walking along seats are blocked. This review does not replace your draft.';return p;
 }

@@ -43,7 +43,7 @@ function drawing(map){
 function clipComponent(c,d,path=d.path){c.translate(d.bounds.x,d.bounds.y);c.clip(path);c.translate(-d.bounds.x,-d.bounds.y);}
 export function drawWorldWater(c,map,state,time,actors,character,{bounds=null}={}){
  const d=drawing(map),f=Math.floor(time/.1)%32,minute=displayedMinute(state.dayClock),identity=map.waterIdentity||'fresh';
- const visible=a=>!bounds||(a.x*32<bounds.x+bounds.w&&(a.x+1)*32>bounds.x&&a.y*32+16<bounds.y+bounds.h&&a.y*32+48>bounds.y);
+ const visible=a=>!bounds||(a.x*32<bounds.x+bounds.w&&(a.x+1)*32>bounds.x&&a.y*32+2<bounds.y+bounds.h&&a.y*32+48>bounds.y);
  if(!d.cells.length)return {cells:0,identity,frame:f,components:0,compiledComponents:d.compiledComponents,fieldPixels:0};
  for(const [i,a]of actors.entries()){
   const x=Math.floor(a.x/32),y=Math.floor((a.y-1)/32),key=`${x},${y}`;
@@ -55,7 +55,12 @@ export function drawWorldWater(c,map,state,time,actors,character,{bounds=null}={
   const b=body.bounds;
   if(bounds&&(b.x>=bounds.x+bounds.w||b.y>=bounds.y+bounds.h||b.x+b.w<=bounds.x||b.y+b.h<=bounds.y))continue;
   c.save();clipComponent(c,body);
-  for(const a of body.cells)if(visible(a))water.draw(c,`${a.surface.identity}.${(body.mixed&&!a.surface.shallow?'shallow-'+a.surface.type:a.surface.type)}.${f}`,a.x*32,a.y*32+16);
+  for(const a of body.cells)if(visible(a)){
+   const id=`${a.surface.identity}.${(body.mixed&&!a.surface.shallow?'shallow-'+a.surface.type:a.surface.type)}.${f}`;
+   // Cover the newly exposed north half without shifting existing interior or south texture.
+   if(!d.byCell.has(`${a.x},${a.y-1}`))water.draw(c,id,a.x*32,a.y*32-16);
+   water.draw(c,id,a.x*32,a.y*32+16);
+  }
   if(body.deepPath){c.save();clipComponent(c,body,body.deepPath);for(const a of body.cells)if(!a.surface.shallow&&visible(a))water.draw(c,`${a.surface.identity}.${a.surface.type}.${f}`,a.x*32,a.y*32+16);c.restore();}
   if(minute>=1260){for(let i=0;i<70;i++){c.fillStyle=i%3?'#acd5da':'#e5eacb';c.fillRect((i*83+31)%(map.w*32),(i*57+126)%(map.h*32),2,2);}}
   else if(cloudsVisible(minute,'sunny')){c.save();c.globalAlpha=.52;for(let i=0;i<6;i++)cloud.draw(c,i%3,minute,Math.round(((map.w*32+i*181-time*9)%(map.w*32+200)))-96,140+i*66);c.restore();}
