@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "Area control opens exact named Rootport and preserves existing draft",
+    "Rootport edits persist and reload in their own revision slot",
+    "Copy for chat exports the edited named project for future base updates",
+    "Named area controls and actual map render fit390px",
+    "Unreadable area draft retained without destructive fallback writes",
+    "Unknown area fails closed and cannot replace generic draft",
+    "Clean first load exactly matches submitted base after the two Rootport name changes"
+  ],
+  "errors": []
+}

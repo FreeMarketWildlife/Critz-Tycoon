@@ -15,3 +15,5 @@ Verification:313 main/current-publication-source unit tests pass; the earlier ve
 The unrelated screenshot question was traced to `art/source/overworld-live/terrain.mjs`'s connected `sward` ground patches, selected by `src/overworld.js`'s `turf` regions. The dark marks are decorative grass texture, not actual cast shadows or extra collision. No grass-art change was requested or included.
 
 Next action: user opens the named Rootport draft, edits it, and sends a new complete export when ready to replace the published starting base.
+
+Published as PUBLIC version54 from source9940129 with native deployment success and matching origin/main SHA. All seven hosted browser groups pass; the separate app tab reached Ready with the exact Rootport/Cottage maps. [Receipt](deployment.json) · [Archive proof](archive-check.json) · [Hosted checks](hosted/browser-checks.json). The original Grove tab was not navigated or edited. Final receipt changes are documentation only.

@@ -1,0 +1,43 @@
+{
+  "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "savedVersion": {
+    "id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_2b66e1ed60e081918d547b7b3452dcbe",
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "version_number": 54,
+    "source": {
+      "commit_sha": "9940129b3471ecc31c285969e639c16fe3852603"
+    },
+    "archive_storage": {
+      "archive_format": "tar",
+      "sediment_file_id": "file_0000000007ec81fd82dc910d283deaff",
+      "content_hash": "sha256:23c1bfc76b0dd6f6e9bef1e88beec7c706c935c257a039c2be1e81a44cf06d07",
+      "size_bytes": 220712960,
+      "file_count": 3727
+    },
+    "screenshot_url": null,
+    "deployment_id": null
+  },
+  "deployment": {
+    "id": "appgdep_6acff12377cc8191be17e9b5299ebf09",
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "title": "Critz: Tycoon",
+    "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_2b66e1ed60e081918d547b7b3452dcbe",
+    "type": "publish",
+    "status": "succeeded",
+    "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+    "has_mcp": false,
+    "screenshot_asset_pointer": null,
+    "provider_deployment_id": "site---6ab5dd1e11ac8191937254280d6ba196",
+    "failure_message": null,
+    "env_set_revision": 0,
+    "updated_at": "2026-10-14T21:16:33.495247+00:00"
+  },
+  "sourceCommit": "9940129b3471ecc31c285969e639c16fe3852603",
+  "preservedLiveSource": "1ecda238d96013e71cfe4485624b2bf9d6cc7041",
+  "audience": "public, unchanged",
+  "rootportUrl": "https://critz-tycoon.freemarketwildlife.chatgpt.site/map-editor/?area=rootport",
+  "inAppHandoff": "New tab reached Ready, Rootport22×16 and Cottage interior present; Rootport base revision1. Existing Grove tab not navigated or edited.",
+  "localArchiveRuntimeFiles": 1510,
+  "localArchiveBuildFiles": 3726,
+  "localArchiveFiles": 3727
+}
