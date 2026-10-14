@@ -1,0 +1,18 @@
+{
+  "archiveFiles": 3309,
+  "buildFilesExact": 3308,
+  "testedRuntimeFilesExact": 1489,
+  "releaseCommit": "424e0a4d36eb3117b0595460c9c966a9584fa8ff",
+  "baseLiveCommit": "6f8198856ebde6b9e31724d97eb83d81c31be232",
+  "srcChanges": [
+    "src/bench-art.js",
+    "src/bench-seat.js",
+    "src/coastal-format.js",
+    "src/world-water.js"
+  ],
+  "pendingTN2TN3Excluded": true,
+  "publicAudiencePreserved": true,
+  "macMetadata": false,
+  "cleanArchiveResubmittedBeforeDeployment": true,
+  "savedVersionNumber": 52
+}
