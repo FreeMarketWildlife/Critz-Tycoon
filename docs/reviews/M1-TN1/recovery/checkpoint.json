@@ -1,0 +1,86 @@
+{
+  "task": "M1.TN1",
+  "checked_at": "2026-10-14T16:38:02Z",
+  "status": "implementation and preparation complete; required parent visual checkpoint before deployment",
+  "access": {
+    "executor": "working",
+    "agents_directory": "absent",
+    "dependency_locator_error": "Workspace dependency tools are only supported for local threads.",
+    "sandbox_network_error": "Could not resolve host: github.com",
+    "sandbox_preview_error": "listen EPERM: operation not permitted 0.0.0.0:5228",
+    "resolution": "Authorized escalation allowed GitHub verification and the local production preview; directly located cached Python/Node and Chrome1217. The runtime requested absent Chrome1234. Stable Chrome155 also ran isolated UI checks.",
+    "remaining_executor_blockers": []
+  },
+  "git": {
+    "branch": "main",
+    "opening_head": "5b11e4bee834245864b11c9c64d16eddab732ef1",
+    "verified_origin_main": "5b11e4bee834245864b11c9c64d16eddab732ef1",
+    "opening_worktree_clean": true,
+    "implementation_commit": "6f8198856ebde6b9e31724d97eb83d81c31be232",
+    "new_runtime_or_art_changes": false,
+    "recovery_changes": "Documentation and verification evidence only; final recovery commit and remote verification are reported in the handoff."
+  },
+  "prior_jobs": {
+    "thread": "01a13b09-7d01-71ff-914a-27eb814d00d0",
+    "imagegen": [
+      {"id": "exec-dd0324cd-9dff-4fc9-ad97-5e908ef125dd", "status": "completed"},
+      {"id": "exec-f622a8df-29cf-4ce8-a466-4cbfc98353de", "status": "completed"},
+      {"id": "exec-6f74c6e1-8efd-4ae6-940c-71f97d30e95a", "status": "completed"}
+    ],
+    "duplicate_edits_or_generation": false
+  },
+  "canon": {
+    "repository": "Critz-Dragex",
+    "commit": "f0e906b9dbd7dc285e954e1849598c18aae0dcaa",
+    "path": "world/tanoshi.md",
+    "exact_committed_text_read": true,
+    "other_repository_edited": false
+  },
+  "fresh_checks": {
+    "unit_passed": 294,
+    "unit_failed": 0,
+    "discovery_browser_groups": 9,
+    "story_care_critter_groups": 17,
+    "stable_chrome_control_encounters": 3,
+    "browser_errors": [],
+    "syntax_build_source_package_and_diff": "pass",
+    "native_source_png_atlas_alpha_eye_holes_foot_rows_and_8x": "pass",
+    "all_six_reference_hashes_unchanged": true,
+    "legacy_load_and_exact_backup": "pass",
+    "failed_save_preservation_and_retry": "pass",
+    "mobile_viewports": [[320,568],[390,844],[844,390]],
+    "desktop_viewport": [1280,900],
+    "new_game_visibility_revisit_notebook_reload": "pass",
+    "existing_movement_grid_clock_map_collision_and_optimization_modules": "unchanged from pre-Tanoshi checkpoint",
+    "new_runtime_atlas_and_manifest_total_bytes": 2042
+  },
+  "visual_inspection": {
+    "originals": "All four PNGs, all57 motion GIF frames and all16 gaze GIF frames inspected; source media remains unchanged.",
+    "adaptation": "Native/light/dark/grid, opening and three in-world individuals inspected.",
+    "ray_fidelity_limit": "Native sampling joins the lower-right head ray to the contour; documented in ART_BIBLE and pending visual feedback.",
+    "capture_limit": "Some whole-page Chrome147/155 captures intermittently omit the controller layer despite visible onscreen DOM state. Separate controller crops render correctly, actions succeed for all three encounters, and retained opening/blush/apricot greeting captures visibly include controls. No runtime fix or physical-device assurance is inferred.",
+    "acceptance": "Pending required parent/user checkpoint; no wider M1/M2 approval claimed."
+  },
+  "sites": {
+    "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+    "audience": "public",
+    "access_revision": 2,
+    "live_version_number": 50,
+    "live_deployment_id": "appgdep_6acf4f1192148191bdb2b0fee2b01042",
+    "live_deployment_status": "succeeded",
+    "prepared_version_number": 51,
+    "prepared_version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_d1c35ae5c0108191a777fa4c038371e8",
+    "prepared_source_commit": "6f8198856ebde6b9e31724d97eb83d81c31be232",
+    "prepared_deployment_id": null,
+    "prepared_archive_backed": true,
+    "archive_files": 3193,
+    "local_archive_sha256": "e53b9fc64cd738c8b08bd5e947d5b5b6cc109a9dcbf9bb02f7bd2b678f763834",
+    "fresh_runtime_files_compared": 1304,
+    "all_tested_runtime_bytes_equal_prepared_archive": true,
+    "reference_media_and_caches_excluded": true,
+    "new_deployment_performed": false,
+    "phone_url": "https://critz-tycoon.freemarketwildlife.chatgpt.site"
+  },
+  "limits": ["Physical iPhone/Safari and real OS backgrounding remain unverified.", "This recovery adds no new animation or timing/performance benchmark."],
+  "next_action": "Parent reviews native art and phone captures; then deploy the exact archive-backed saved version51 on the existing public project, verify terminal success and isolated live encounters."
+}

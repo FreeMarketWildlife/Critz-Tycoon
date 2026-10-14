@@ -1,0 +1,287 @@
+{
+  "browserVersion": "155.0.8059.40",
+  "checks": [
+    {
+      "variant": "blush",
+      "controls": [
+        {
+          "text": "▲",
+          "box": [
+            56,
+            690,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "◀",
+          "box": [
+            12,
+            734,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "▶",
+          "box": [
+            100,
+            734,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "▼",
+          "box": [
+            56,
+            778,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "RUN",
+          "box": [
+            187,
+            708,
+            52,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "START",
+          "box": [
+            187,
+            760,
+            52,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "B",
+          "box": [
+            284,
+            750,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "A",
+          "box": [
+            332,
+            688,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        }
+      ],
+      "actionSucceeded": true
+    },
+    {
+      "variant": "mint",
+      "controls": [
+        {
+          "text": "▲",
+          "box": [
+            56,
+            690,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "◀",
+          "box": [
+            12,
+            734,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "▶",
+          "box": [
+            100,
+            734,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "▼",
+          "box": [
+            56,
+            778,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "RUN",
+          "box": [
+            187,
+            708,
+            52,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "START",
+          "box": [
+            187,
+            760,
+            52,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "B",
+          "box": [
+            284,
+            750,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "A",
+          "box": [
+            332,
+            688,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        }
+      ],
+      "actionSucceeded": true
+    },
+    {
+      "variant": "apricot",
+      "controls": [
+        {
+          "text": "▲",
+          "box": [
+            56,
+            690,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "◀",
+          "box": [
+            12,
+            734,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "▶",
+          "box": [
+            100,
+            734,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "▼",
+          "box": [
+            56,
+            778,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "RUN",
+          "box": [
+            187,
+            708,
+            52,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "START",
+          "box": [
+            187,
+            760,
+            52,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "B",
+          "box": [
+            284,
+            750,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        },
+        {
+          "text": "A",
+          "box": [
+            332,
+            688,
+            44,
+            44
+          ],
+          "display": "block",
+          "visibility": "visible"
+        }
+      ],
+      "actionSucceeded": true
+    }
+  ]
+}
