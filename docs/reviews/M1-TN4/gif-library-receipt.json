@@ -1,0 +1,51 @@
+{
+  "task": "M1.TN4",
+  "results": [
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/Tanoshi-transparent-eyes-moving-backgrounds.gif",
+      "file_id": "file_00000000dad081f5909bdf2937f1e987",
+      "library_file_id": "libfile_95fc83b589ec8191893f62231614f39b",
+      "file_name": "Tanoshi-transparent-eyes-moving-backgrounds.gif",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/gif",
+      "library_artifact_type": "image",
+      "file_size_bytes": 858453
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/Tanoshi-transparent-eyes-native.gif",
+      "file_id": "file_00000000027081f58c599d4c1fdd24e0",
+      "library_file_id": "libfile_03c9c16a7d948191a85b3755fd7a2ac2",
+      "file_name": "Tanoshi-transparent-eyes-native.gif",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/gif",
+      "library_artifact_type": "image",
+      "file_size_bytes": 67226
+    }
+  ],
+  "onlyNativeArtGIFsUploaded": true,
+  "noBrowserScreenshotsUploaded": true,
+  "PNGOriginalsPreserved": true,
+  "localLibraryIdentityAndVersionVerified": true,
+  "currentSkillLookup": "Cloud Library skill package returned unavailable; used the current native Library file API and its documented direct xattrs protocol.",
+  "publicationHeld": true
+}

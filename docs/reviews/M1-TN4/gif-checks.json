@@ -1,0 +1,76 @@
+{
+  "task": "M1.TN4",
+  "purpose": "User-authorized GIF demonstrates real saved PNG alpha against moving scenery; no browser screenshots.",
+  "file": "Tanoshi-transparent-eyes-moving-backgrounds.gif",
+  "nativeFile": "Tanoshi-transparent-eyes-native.gif",
+  "frames": 32,
+  "durationEachMs": 160,
+  "loopMs": 5120,
+  "size": [
+    768,
+    736
+  ],
+  "nativeSize": [
+    192,
+    32
+  ],
+  "exactPaletteColors": 27,
+  "pngAlphaComposite": true,
+  "nearestEnlargement": 8,
+  "nativeAndEnlargedPixelsExact": true,
+  "decodedFramesExact": true,
+  "opaqueSpriteChecks": 59936,
+  "transparentBackgroundChecks": 136672,
+  "eyeBackdropColors": {
+    "blush": 10,
+    "mint": 10,
+    "apricot": 9,
+    "tiny-blush": 10,
+    "small-mint": 9,
+    "large-lilac": 10
+  },
+  "backdropSources": [
+    {
+      "manifest": "assets/playable/overworld",
+      "tile": "ground.grass.0",
+      "rect": [
+        0,
+        0,
+        32,
+        32
+      ]
+    },
+    {
+      "manifest": "assets/playable/overworld",
+      "tile": "path.255",
+      "rect": [
+        448,
+        64,
+        32,
+        32
+      ]
+    },
+    {
+      "manifest": "assets/playable/overworld",
+      "tile": "paving.0",
+      "rect": [
+        0,
+        160,
+        32,
+        32
+      ]
+    },
+    "generated checkerboard contrast only, not new game art"
+  ],
+  "spritePNGHashes": {
+    "blush": "773f22be6e6c1f5e31b47f0c157c20f1cdb09bb84b87c75762f7c45a8da816a7",
+    "mint": "be8639e3500e943213dbc49c23125f7225cd4d95633bbb65a1711ea0a830b23c",
+    "apricot": "fcd15643ee8595a3fac8d14821b7bdb43c5dda8fca94b093626e7f4d6256003c",
+    "tiny-blush": "819ce0df8e5cdb9d8ccd4dc65c2533cdde2273eea72fd40a314af67592c07e6a",
+    "small-mint": "71bfab716605c6ce0abfd2aff7818c68fbd4f166a55188553cc9553816a15fc7",
+    "large-lilac": "d71dc280ca25ff44faf096b395725589bb088fd9a816676bae7596d3d1a07e4f"
+  },
+  "gifSHA256": "3405158ce2e9f153ce5b23f94a0999a58122e7f608d722e88400ae61e717693f",
+  "nativeGifSHA256": "49b218eb46c9d6b082d79fc2556ca02a64ea6197222cd2d0209b1363b4bcab78",
+  "sourcePNGsPreserved": true
+}

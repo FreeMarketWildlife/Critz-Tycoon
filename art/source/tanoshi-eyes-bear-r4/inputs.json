@@ -1,0 +1,107 @@
+{
+  "blush": {
+    "source": "assets/playable/tanoshi-outline/blush.png",
+    "sha256": "773f22be6e6c1f5e31b47f0c157c20f1cdb09bb84b87c75762f7c45a8da816a7",
+    "frame": [
+      32,
+      32
+    ],
+    "bounds": [
+      3,
+      2,
+      29,
+      30
+    ],
+    "editInput": "art/source/tanoshi-eyes-bear-r4/blush-input-8x.png"
+  },
+  "mint": {
+    "source": "assets/playable/tanoshi-outline/mint.png",
+    "sha256": "ea0377efee8779c9610752109537bdd951d458df6ba62da2782aaf779056fb93",
+    "frame": [
+      32,
+      32
+    ],
+    "bounds": [
+      3,
+      2,
+      29,
+      30
+    ],
+    "editInput": "art/source/tanoshi-eyes-bear-r4/mint-input-8x.png"
+  },
+  "apricot": {
+    "source": "assets/playable/tanoshi-outline/apricot.png",
+    "sha256": "c4db1a3d38fab3cb3a84bee83deed31accfdd9c53e936454be778b1f81175041",
+    "frame": [
+      32,
+      32
+    ],
+    "bounds": [
+      3,
+      2,
+      29,
+      30
+    ],
+    "editInput": "art/source/tanoshi-eyes-bear-r4/apricot-input-8x.png"
+  },
+  "tiny-blush": {
+    "source": "assets/playable/tanoshi-outline/tiny-blush.png",
+    "sha256": "3d6fd1ec1019584b8ee26675b23d9e6acf218e6da3a95bf4006bb811ceb97745",
+    "frame": [
+      32,
+      32
+    ],
+    "bounds": [
+      8,
+      12,
+      24,
+      30
+    ],
+    "editInput": "art/source/tanoshi-eyes-bear-r4/tiny-blush-input-8x.png"
+  },
+  "small-mint": {
+    "source": "assets/playable/tanoshi-outline/small-mint.png",
+    "sha256": "0559887e35ad48479476ab7e966dfc72b6c8deed4eac383fde036391d5f26798",
+    "frame": [
+      32,
+      32
+    ],
+    "bounds": [
+      6,
+      8,
+      26,
+      30
+    ],
+    "editInput": "art/source/tanoshi-eyes-bear-r4/small-mint-input-8x.png"
+  },
+  "large-lilac": {
+    "source": "assets/playable/tanoshi-outline/large-lilac.png",
+    "sha256": "be5cc83108b2c98fcb441f2f29d8df19bc836c4e350c0082cfb6d4305080c5e6",
+    "frame": [
+      32,
+      32
+    ],
+    "bounds": [
+      1,
+      0,
+      31,
+      30
+    ],
+    "editInput": "art/source/tanoshi-eyes-bear-r4/large-lilac-input-8x.png"
+  },
+  "bear": {
+    "source": "assets/playable/tanoshi-outline/bear.png",
+    "sha256": "8b4e055ab92175c2562a82d6cc379b058d554f9d3794a922705ff71df6105c10",
+    "frame": [
+      96,
+      96
+    ],
+    "bounds": [
+      16,
+      44,
+      80,
+      80
+    ],
+    "editInput": "art/source/tanoshi-eyes-bear-r4/bear-input-8x.png"
+  }
+}

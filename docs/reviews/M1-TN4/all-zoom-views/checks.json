@@ -1,0 +1,161 @@
+{
+  "task": "M1.TN3",
+  "checks": [
+    {
+      "id": "tanoshi-blush",
+      "size": "tiny-blush",
+      "zoom": 1,
+      "scene": "bedroom",
+      "width": 480,
+      "height": 826,
+      "camera": {
+        "x": -32,
+        "y": -210
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-mint",
+      "size": "small-mint",
+      "zoom": 1,
+      "scene": "town",
+      "width": 480,
+      "height": 826,
+      "camera": {
+        "x": 416,
+        "y": 110
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-apricot",
+      "zoom": 1,
+      "scene": "forest",
+      "width": 480,
+      "height": 826,
+      "camera": {
+        "x": 32,
+        "y": 366
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-lilac",
+      "size": "large-lilac",
+      "zoom": 1,
+      "scene": "yard",
+      "width": 480,
+      "height": 826,
+      "camera": {
+        "x": 160,
+        "y": -114
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-blush",
+      "size": "tiny-blush",
+      "zoom": 2,
+      "scene": "bedroom",
+      "width": 390,
+      "height": 670,
+      "camera": {
+        "x": 13,
+        "y": -132
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-mint",
+      "size": "small-mint",
+      "zoom": 2,
+      "scene": "town",
+      "width": 390,
+      "height": 670,
+      "camera": {
+        "x": 461,
+        "y": 188
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-apricot",
+      "zoom": 2,
+      "scene": "forest",
+      "width": 390,
+      "height": 670,
+      "camera": {
+        "x": 77,
+        "y": 444
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-lilac",
+      "size": "large-lilac",
+      "zoom": 2,
+      "scene": "yard",
+      "width": 390,
+      "height": 670,
+      "camera": {
+        "x": 205,
+        "y": -36
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-blush",
+      "size": "tiny-blush",
+      "zoom": 3,
+      "scene": "bedroom",
+      "width": 196,
+      "height": 336,
+      "camera": {
+        "x": 110,
+        "y": 35
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-mint",
+      "size": "small-mint",
+      "zoom": 3,
+      "scene": "town",
+      "width": 196,
+      "height": 336,
+      "camera": {
+        "x": 558,
+        "y": 355
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-apricot",
+      "zoom": 3,
+      "scene": "forest",
+      "width": 196,
+      "height": 336,
+      "camera": {
+        "x": 174,
+        "y": 611
+      },
+      "smoothing": false
+    },
+    {
+      "id": "tanoshi-lilac",
+      "size": "large-lilac",
+      "zoom": 3,
+      "scene": "yard",
+      "width": 196,
+      "height": 336,
+      "camera": {
+        "x": 302,
+        "y": 131
+      },
+      "smoothing": false
+    }
+  ],
+  "errors": [],
+  "syntheticOnly": true,
+  "physicalSafari": false
+}

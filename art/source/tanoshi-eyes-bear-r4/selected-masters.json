@@ -1,0 +1,9 @@
+{
+  "task": "M1.TN4",
+  "tall": "Existing regular Blush has the clean paired2x3 construction; imagegen r1 reproduces it exactly in the protected native face.",
+  "short": "Same authored tall8x5 face band nearest resized to8x4, yielding paired2x2 openings without painting alpha.",
+  "otherAttempts": "Retained as iteration evidence; first-pass holes shrank/shifted. Face-crop trials added unwanted header gaps or dark bridges. Reuse one coherent intact authored face master and existing material correspondence.",
+  "noAlphaCarving": true,
+  "palettes": "Existing material correspondence; only permitted interior cells changed.",
+  "bear": "Imagegen bear r1 aspect-preserving envelope, unchanged registration."
+}

@@ -1,0 +1,22 @@
+{
+  "task": "M1.TN2",
+  "url": "http://127.0.0.1:5268",
+  "checks": [
+    "Three bounded minus/plus settings,44px touch targets,keyboard,paused clock/fixed controls,reload and rotation at320×568",
+    "Three bounded minus/plus settings,44px touch targets,keyboard,paused clock/fixed controls,reload and rotation at390×844",
+    "Three bounded minus/plus settings,44px touch targets,keyboard,paused clock/fixed controls,reload and rotation at844×390",
+    "Three bounded minus/plus settings,44px touch targets,keyboard,paused clock/fixed controls,reload and rotation at1280×900",
+    "720 actual renderer edge/corner checks across every scene,both genders and all levels;opaque intentional backdrops",
+    "Blush Tanoshi native-visible,first/repeat personality greeting and protected progress",
+    "Mint Tanoshi native-visible,first/repeat personality greeting and protected progress",
+    "Apricot Tanoshi native-visible,first/repeat personality greeting and protected progress",
+    "Lilac Tanoshi native-visible,first/repeat personality greeting and protected progress",
+    "Closed bear collision/dialogue,northern legacy access/backup and both Liarsville transitions atzoom1",
+    "Closed bear collision/dialogue,northern legacy access/backup and both Liarsville transitions atzoom2",
+    "Closed bear collision/dialogue,northern legacy access/backup and both Liarsville transitions atzoom3",
+    "Failed zoom persistence reports inline,preserves exact adventure bytes and clears on successful preference retry",
+    "No runtime errors or missing assets"
+  ],
+  "errors": [],
+  "physicalSafari": false
+}
