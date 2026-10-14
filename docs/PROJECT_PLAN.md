@@ -2,7 +2,7 @@
 
 ## M1.ME9 — Named Rootport starting base
 
-**Implemented and tested; publication preparation in progress.** Store the user's exact RLE layout as the named Rootport base, preserve cottage links and v1 data, provide area loading and revision-isolated draft persistence. [Guide and future update workflow](reviews/M1-ME9/README.md). Next: publish the scoped version52-based release, open Rootport without replacing the existing Grove tab, then user edits or submits a future full export. This is authoring content, not an adventure compiler or world replacement.
+**Implemented and tested; publication preparation in progress.** Store the user's exact RLE layout as the named Rootport base, preserve cottage links and v1 data, provide area loading and revision-isolated draft persistence. [Guide and future update workflow](reviews/M1-ME9/README.md). Next: publish on the accepted reconciled version53 source, open Rootport without replacing the existing Grove tab, then user edits or submits a future full export. This is authoring content, not an adventure compiler or world replacement.
 
 ## M1.BN1 / M1.ME8 / M1.WA9 — Bench seating, vertical fences and water edges
 
