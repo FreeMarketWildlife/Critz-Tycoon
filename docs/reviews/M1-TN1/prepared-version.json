@@ -1,0 +1,31 @@
+{
+  "task": "M1.TN1",
+  "status": "awaiting parent visual checkpoint",
+  "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "version_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_d1c35ae5c0108191a777fa4c038371e8",
+  "version_number": 51,
+  "source": {
+    "commit_sha": "6f8198856ebde6b9e31724d97eb83d81c31be232"
+  },
+  "archive_storage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000007b288211a801e48775f63fed",
+    "content_hash": "sha256:bae88b4439f5322f8b69ce0c163330e1392fce20bad2fa437c23620e2955844f",
+    "size_bytes": 180326400,
+    "file_count": 3193
+  },
+  "deployment_id": null,
+  "published": false,
+  "audience": "public",
+  "phone_url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "live_version_unchanged": 50,
+  "clean_local_archive": "/tmp/critz-tanoshi-6f81988-clean.tar.gz",
+  "checks": {
+    "unit": 294,
+    "discovery_browser": 9,
+    "story_regression": 17,
+    "build_files": 3192,
+    "tested_production_hashes": 1304
+  },
+  "next_action": "Parent reviews native art/screenshots, deploys this saved version through the public Sites operation, verifies terminal success and live phone encounters."
+}

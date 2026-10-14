@@ -1,0 +1,18 @@
+{
+  "task": "M1.TN1",
+  "project_id": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "source_sha": "6f8198856ebde6b9e31724d97eb83d81c31be232",
+  "archive": "/tmp/critz-tanoshi-6f81988-clean.tar.gz",
+  "archiveBytes": 118535447,
+  "archiveSHA256": "e53b9fc64cd738c8b08bd5e947d5b5b6cc109a9dcbf9bb02f7bd2b678f763834",
+  "buildFiles": 3192,
+  "archiveFiles": 3193,
+  "hostingManifest": "dist/.openai/hosting.json",
+  "testedProductionHashes": 1304,
+  "allBuildFilesExact": true,
+  "testedProductionBytesExact": true,
+  "originalReferenceMediaExcluded": true,
+  "cacheMetadataExcluded": true,
+  "publicAccessUnchanged": true,
+  "deployed": false
+}
