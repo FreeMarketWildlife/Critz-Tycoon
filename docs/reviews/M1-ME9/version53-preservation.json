@@ -1,0 +1,13 @@
+{
+  "acceptedSource": "1ecda238d96013e71cfe4485624b2bf9d6cc7041",
+  "preservedFingerprints": 1506,
+  "changedFingerprints": [
+    "map-editor/editor.js",
+    "map-editor/index.html"
+  ],
+  "newRuntimeFiles": [
+    "map-editor/areas.js",
+    "map-editor/areas/rootport.json"
+  ],
+  "testedRuntimeCount": 1510
+}
