@@ -1,0 +1,24 @@
+{
+  "task": "M1.TN1",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "viewport": [
+    390,
+    844
+  ],
+  "isMobile": true,
+  "hasTouch": true,
+  "browserVersion": "155.0.8059.40",
+  "checks": [
+    "Blush Tanoshi: legacy/cumulative first greeting, exact previous-byte backup, repeat greeting, protected progress retained",
+    "Mint Tanoshi: legacy/cumulative first greeting, exact previous-byte backup, repeat greeting, protected progress retained",
+    "Apricot Tanoshi: legacy/cumulative first greeting, exact previous-byte backup, repeat greeting, protected progress retained",
+    "Phone Notebook shows all three saved names/personalities and3/3",
+    "All three discoveries and3/3 Notebook survive live reload",
+    "No hosted runtime errors; isolated synthetic storage only"
+  ],
+  "errors": [],
+  "isolatedStorage": true,
+  "syntheticPositions": true,
+  "userStorageAccessed": false,
+  "physicalSafari": false
+}

@@ -1,0 +1,206 @@
+{
+  "task": "M1.TN1",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "checkedAt": "2026-10-14T16:59:05.333Z",
+  "source": "6f8198856ebde6b9e31724d97eb83d81c31be232",
+  "checks": [
+    {
+      "path": "index.html",
+      "bytes": 4119,
+      "rawSHA256": "e40e50eb4e2a06fcce15d53221e05aaf0b5dd6d3717de336a5370201353f902d",
+      "normalizedBytes": 3181,
+      "sha256": "91dd485b83b26395a1fbb3a6af4b48e63d83fb9e30ba726a73071ee3775f3d33",
+      "status": 200,
+      "equalsTestedBytes": false,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": "Observed appended Cloudflare challenge-platform script; normalized only this block"
+    },
+    {
+      "path": "src/main.js",
+      "bytes": 64689,
+      "rawSHA256": "97c808ce5daf0e7e980f6f6ae9661526f7f62e1171f2c318ec0d3a0da1926db6",
+      "normalizedBytes": 64689,
+      "sha256": "97c808ce5daf0e7e980f6f6ae9661526f7f62e1171f2c318ec0d3a0da1926db6",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/state.js",
+      "bytes": 18113,
+      "rawSHA256": "39ed2ba7893372f40547b95eefb55126d1b7004930c7dbe21387a854f131d72a",
+      "normalizedBytes": 18113,
+      "sha256": "39ed2ba7893372f40547b95eefb55126d1b7004930c7dbe21387a854f131d72a",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/world.js",
+      "bytes": 16402,
+      "rawSHA256": "2ade21496ac4ad17480ba5fdd89ee24cc05271ad514b51bc12305b1c681f67f1",
+      "normalizedBytes": 16402,
+      "sha256": "2ade21496ac4ad17480ba5fdd89ee24cc05271ad514b51bc12305b1c681f67f1",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/render.js",
+      "bytes": 9590,
+      "rawSHA256": "232bc8bbae4e5ae179dc7f65cbbdf8a9829919bdbba052839a1f3cae12ec40a2",
+      "normalizedBytes": 9590,
+      "sha256": "232bc8bbae4e5ae179dc7f65cbbdf8a9829919bdbba052839a1f3cae12ec40a2",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/environment-render.js",
+      "bytes": 10126,
+      "rawSHA256": "4090b89ee183e939ad4be451034dcfba8000a7a8beb11f5b89d1e06fce1884b4",
+      "normalizedBytes": 10126,
+      "sha256": "4090b89ee183e939ad4be451034dcfba8000a7a8beb11f5b89d1e06fce1884b4",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/tanoshi.js",
+      "bytes": 1771,
+      "rawSHA256": "4b72c6ebbee438371092094e04c01eeb9e0fa3644b932e20cc41feaf40fc8ff5",
+      "normalizedBytes": 1771,
+      "sha256": "4b72c6ebbee438371092094e04c01eeb9e0fa3644b932e20cc41feaf40fc8ff5",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/tanoshi-art.js",
+      "bytes": 450,
+      "rawSHA256": "48c02e5d1acf841e31f80336cadf8e6f77f60122d0c6ff6834310df19120cd7c",
+      "normalizedBytes": 450,
+      "sha256": "48c02e5d1acf841e31f80336cadf8e6f77f60122d0c6ff6834310df19120cd7c",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/atlas.js",
+      "bytes": 1599,
+      "rawSHA256": "b0a4049e7cab40a222a2d6712769aae367041924d965ca17636bc9d8d5b24231",
+      "normalizedBytes": 1599,
+      "sha256": "b0a4049e7cab40a222a2d6712769aae367041924d965ca17636bc9d8d5b24231",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "assets/playable/tanoshi/atlas.png",
+      "bytes": 1246,
+      "rawSHA256": "c13d6625f100249075da53becd222d08ddebb22dc8e22eab80083584e3144e54",
+      "normalizedBytes": 1246,
+      "sha256": "c13d6625f100249075da53becd222d08ddebb22dc8e22eab80083584e3144e54",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "assets/playable/tanoshi/atlas.json",
+      "bytes": 349,
+      "rawSHA256": "f4bf50af90116c05a9c9e294eae861fbc8cf0af098687bd4da3c53e8ab97b1b7",
+      "normalizedBytes": 349,
+      "sha256": "f4bf50af90116c05a9c9e294eae861fbc8cf0af098687bd4da3c53e8ab97b1b7",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "assets/playable/tanoshi/blush.png",
+      "bytes": 490,
+      "rawSHA256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9",
+      "normalizedBytes": 490,
+      "sha256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "assets/playable/tanoshi/mint.png",
+      "bytes": 519,
+      "rawSHA256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3",
+      "normalizedBytes": 519,
+      "sha256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "assets/playable/tanoshi/apricot.png",
+      "bytes": 496,
+      "rawSHA256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5",
+      "normalizedBytes": 496,
+      "sha256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "assets/characters/hero-boy-v1/idle-south.png",
+      "bytes": 546,
+      "rawSHA256": "0099dd331ae2c2d995663328e52763e8b10b1df0d36854d59676ee0ac52f7883",
+      "normalizedBytes": 546,
+      "sha256": "0099dd331ae2c2d995663328e52763e8b10b1df0d36854d59676ee0ac52f7883",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/movement.js",
+      "bytes": 8042,
+      "rawSHA256": "ff2096bf06b35d2251a04e75fea12ed6e8ac30d444c972f2d6962fa550e88ac2",
+      "normalizedBytes": 8042,
+      "sha256": "ff2096bf06b35d2251a04e75fea12ed6e8ac30d444c972f2d6962fa550e88ac2",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/grid-save.js",
+      "bytes": 1735,
+      "rawSHA256": "0ba9135d99685670a190584416bd62f8af01e827ee7f4d2ea14bd865d3108183",
+      "normalizedBytes": 1735,
+      "sha256": "0ba9135d99685670a190584416bd62f8af01e827ee7f4d2ea14bd865d3108183",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    },
+    {
+      "path": "src/contact-rules.js",
+      "bytes": 4107,
+      "rawSHA256": "f7d0ac30282c15b606a4674f9d53adf2f81450040d93e6fe532d298339d99a79",
+      "normalizedBytes": 4107,
+      "sha256": "f7d0ac30282c15b606a4674f9d53adf2f81450040d93e6fe532d298339d99a79",
+      "status": 200,
+      "equalsTestedBytes": true,
+      "normalizedSourceEqualsTestedBytes": true,
+      "hostingAddition": null
+    }
+  ]
+}
