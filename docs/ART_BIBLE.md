@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Minimal Hero face — M1.HR3, user correction
+
+The user accepts the HR2 direction but rejects the projecting nose and requests sustained checking. Remove explicit nose projection in both profiles and separate frontal nose marks. Keep the Black child Hero’s identity, skin ramp, hairstyle and reference-led body construction. Direction comes from eye position, smooth forehead-to-cheek contour, ear, collar and costume overlap; do not add a protruding nose merely to indicate profile. This new user direction supersedes HR2’s nose-point proposal. [Corrected faces, native directions and checks](reviews/M1-HR3/README.md).
+
+Start small overworld faces with quiet skin planes and readable eyes. Introduce additional face marks only for an intended native-scale design need; review silhouette and shading from every direction. Remove accidental muzzle-like projections, isolated central nose stripes and heavy lip clusters. Skin identity is preserved by the palette and original character design, not exaggerated anatomy. Check clean1×/2×, enlarged faces, background contrast, matched reference and countable grid. Save/export checks should prove the specific defect is removed while protected pixels stay intact; they cannot certify artistic acceptance.
+
 ## Reference-led Hero reconstruction — M1.HR2
 
 User rejects HR1 as still missing Emerald’s construction and explicitly requests actual-frame analysis, original reconstruction and persistence on boy Hero. HR1 is superseded/rejected review history, never a cast standard. The former approved gameplay Hero remains until a replacement is accepted. [HR2 native directions, measured deviations and independent checks](reviews/M1-HR2/README.md).

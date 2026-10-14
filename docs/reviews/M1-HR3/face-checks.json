@@ -1,0 +1,25 @@
+{
+  "westContourRows35To41": [
+    6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    7
+  ],
+  "eastContourRows35To41": [
+    25,
+    25,
+    25,
+    25,
+    25,
+    25,
+    24
+  ],
+  "noLocalNoseProjection": true,
+  "noCentralFrontNoseCluster": true,
+  "bodyBelowRow46Unchanged": true,
+  "northExactUnchanged": true,
+  "colorAndIdentityPreserved": true
+}

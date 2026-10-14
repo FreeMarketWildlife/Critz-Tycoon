@@ -1,3 +1,7 @@
+# M1.HR3 — Hero facial-shape correction
+
+User requests removal of the projecting nose and sustained checking of the boy Hero. Correct front/both-profile facial shapes; retain body, palette, anchor and north; deliver native directions, matched before/after face and background inspections, editable sources and saved-pixel checks. Correction implementation/checks **complete; awaiting visual review**. No wider self-approval or gameplay change. [Review](reviews/M1-HR3/README.md).
+
 # M1.HR2 — Reference-led Hero reconstruction
 
 User rejects HR1 and authorizes actual-frame analysis/reconstruction on boy Hero. Deliver original front/back/both-profile idles, matched external Emerald comparison, independently measured visible bands, editable native sources/masks and export proof. State: **awaiting review**; directional-idle deliverable complete. No game replacement or artistic self-approval. Walking follows this accepted construction. [Review](reviews/M1-HR2/README.md).
