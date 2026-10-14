@@ -1,5 +1,12 @@
 # M1.TN3 — Thicker Tanoshi and grizzly outlines
 
+## M1.WA10 — Widen brown water banks toward land
+
+**Implemented and verified on source and production; publication in progress.** User explicitly requests a wider, less-steep brown slope toward the land without erasing any water. ART_BIBLE owns the exact dry-side shoulder contract. Shared continuous bank construction and exports add only dry-side earth; existing wet masks/water-side bank pixels are byte-exact in all rotations. Rootport changes2,857 rendered pixels, all on land, with zero water pixels changed. North-projection depth/material resolves only the new shoulder; shallow/sand/depth transitions stay excluded. Map layouts, explicit collision, loops, surface textures, props, v1 saves and the new Map Studio UI remain unchanged. [Evidence and visual comparison](reviews/M1-WA10/README.md).
+
+316 unit tests, syntax checks,1,936 native assembled comparisons and8 complete-coast browser groups pass; all4,070 colored references match browser pixels. Actual Rootport desktop/phone preservation test passes on source and production with synthetic storage. All1,511 prior runtime files are retained;1,504 are byte-identical and only seven shared-bank/native-export files differ. Native inventory becomes450 tiles/350 unique frames with100 wash sequences;55 contexts/15 masks/74 pairs/1,918 colored tiles remain. No art or movement gate is self-approved. Exact next action: production-build preservation checks, commit/push and publish the exact tested update through the existing PUBLIC Site, then user visual review.
+
+
 ## M1.ME10 — Map Studio usability redesign
 
 **Complete, pushed and published as PUBLIC version56; user UI review pending.** User requests research-led removal of clutter and a fun, understandable collapsible map editor. Deliverable: [UI redesign, primary references and browser evidence](reviews/M1-ME10/README.md). Large canvas, collapsible visual Build palette/categories, phone modal tool tray, Project drawer, compact drawing tools, contextual selection controls, map/View menus, Focus mode, keyboard tools and on-demand help replace the permanent notebook and implementation/reference clutter. Exact tile editing remains under Advanced. Global search exposes matching collapsed categories; water variants now have explicit human-readable depth/motion labels. Rootport v1 data, revision-isolated drafts, ordinary saves, all art/rendering/collision and disposable Hero/bench behavior are preserved. This changes authoring UI, not accepted world art or M1/M2 approval gates.

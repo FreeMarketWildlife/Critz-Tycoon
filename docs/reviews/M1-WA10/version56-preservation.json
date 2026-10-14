@@ -1,0 +1,15 @@
+{
+  "baselineVersion": 56,
+  "checked": 1511,
+  "unchanged": 1504,
+  "changed": [
+    "assets/review/coastal-format/colored.png",
+    "assets/review/coastal-format/surface.tsj",
+    "assets/review/coastal-format/atlas.png",
+    "assets/review/coastal-format/format.tsj",
+    "assets/review/coastal-format/atlas.json",
+    "src/coastal-format.js",
+    "src/world-water.js"
+  ],
+  "note": "Only shared bank rendering and corresponding native exports differ. All UI, Rootport, explicit collision, character, story, texture/wave and save code remains exact."
+}

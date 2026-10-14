@@ -26,7 +26,10 @@ function drawing(map){
   const field=compileCoastalField(local,w,h);
   const d=createCoastalDrawing(field,(px,py)=>{
    const wx=px+x,wy=py+y,a=byCell.get(`${Math.floor(wx/32)},${Math.floor((wy-16)/32)}`);
-   return {ground:nearestShoreGround(a?.grounds||[],wx,wy),shallow:!!a?.surface.shallow,moving:!!a?.surface.moving};
+   // The north projection may sit above the registered cell. Resolve its
+   // source depth for the new dry-side shoulder without changing wet pixels.
+   const projected=a||byCell.get(`${Math.floor(wx/32)},${Math.floor(wy/32)}`);
+   return {ground:nearestShoreGround(a?.grounds||[],wx,wy),shallow:!!a?.surface.shallow,landwardGround:nearestShoreGround(projected?.grounds||[],wx,wy),landwardShallow:projected?!!projected.surface.shallow:body.cells.every(a=>a.surface.shallow),moving:!!a?.surface.moving};
   });
   const fresh=local.filter(a=>a.surface.identity==='fresh');
   d.freshPath=fresh.length===local.length?d.path:fresh.length?coastalFieldPath(compileCoastalField(fresh,w,h)):new Path2D();
