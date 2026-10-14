@@ -1,0 +1,27 @@
+{
+  "frame": [
+    32,
+    64
+  ],
+  "paintedBoundsExclusive": [
+    4,
+    21,
+    28,
+    62
+  ],
+  "paintedSize": [
+    24,
+    41
+  ],
+  "opaqueColors": 15,
+  "binaryAlpha": true,
+  "sourceEqualsPNG": true,
+  "connectedSilhouette": true,
+  "pairedAnatomyMasks": true,
+  "anchor": [
+    16,
+    64
+  ],
+  "approval": "awaiting user review",
+  "pngSha256": "e3c57a5b618a69bcdcfb0e3d1eac141027418c13d7f8ea239aa1f455621dadad"
+}

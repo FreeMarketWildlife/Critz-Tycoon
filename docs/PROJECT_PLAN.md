@@ -1,3 +1,7 @@
+# M1.HR1 — Boy Hero redesign review
+
+User authorizes creative liberty and repeatable construction, focused only on boy Hero. Deliver original native south idle, clean old/new comparison, full-frame pixel grid, editable source/masks and evidence. State: **awaiting review**. Front deliverable complete; profile/back and walking follow accepted construction. No gameplay replacement or wider gate acceptance. See [review](reviews/M1-HR1/README.md).
+
 # Visual foundation production plan
 
 ## M1.OV2 — Tank-care and home visual slice

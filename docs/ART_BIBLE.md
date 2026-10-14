@@ -1,5 +1,21 @@
 # Critz: Tycoon — art bible
 
+## Boy Hero redraw — M1.HR1, 2026-10-13
+
+The user rejects the current cast construction relative to Gen 3 and authorizes creative liberty on boy Hero only, including a repeatable process. This authorizes revising the old approved boy as a separate front-idle proposal; preserve the accepted gameplay bank until this new appearance is reviewed. Use the existing Emerald 2× frame/anchor and pinned reference ledger. Regional anatomy remains unresolved where not actually measured; label original adaptations. [Native review, measurements and checks](reviews/M1-HR1/README.md).
+
+Repeatable construction process:
+
+1. Record identity, camera convention, reference family, frame and foot registration. Separate hair/headwear envelope from exposed face and hidden skull. Compare at matched world scale.
+2. Draw a connected silhouette and separate anatomical masks before colors: crown, cheek/chin, tucked collar, shaped sleeves, hands, tapering torso, hips and short grounded shoes. Front/back paired anatomy mirrors; hair and directional shading can differ.
+3. Establish overlaps before detail. Hair covers upper face; chin overlaps collar; sleeves wrap arms; hands separate from torso; shorts divide at crotch; feet share a baseline. Dark accents mark these contacts rather than outlining every interior plane.
+4. Add short material ramps and connected light/shadow clusters. Preserve Black skin identity. Use individual target-grid cells, one-pixel contour edges, selective colored outlines and quiet cloth. No scattered texture to simulate complexity.
+5. Review clean at native size and exact enlargement before the grid. Identify the weakest feature, change its construction, and inspect the same comparison again. A shape must read before adding surface detail.
+6. Export editable indexed pixels and anatomical masks. Check source equality, connectivity, alpha, anchor and paired anatomy. Record actual bounds and deviations. Technical checks are not visual approval.
+7. Once front construction is accepted, independently author profiles/back with consistent volumes and costume overlap; only then build the gait. Do not generate the whole cast from a generic doll template.
+
+HR1 proposes short sculpted twists, compact cheeks, shaped coral/cream sleeves, blue shorts and small sneakers. The 24×41 painted silhouette differs from Brendan’s doubled 28×42 headwear-inclusive guide intentionally. This proposal has no profile, walking or reference-exact anatomy claim.
+
 ## M1.OV2 — Tank care, native home furniture and orchard consistency
 
 The user's next overnight slice prioritizes actual tank management. Tank entry has exactly **Manage / Stats / View**, all visible together at phone scale. The living collection remains a secondary View destination and stays available at Glow n’ Blow; B returns to its originating View/shop. Everyday mist/litter/moss/clean actions precede advanced light/airflow settings. Keep44px targets, visible inventory/cost/disabled states, clear paper-window text and original care/save/economy behavior. Smaller entry previews do not change the authored habitat budget; View retains the detailed close-up and framing controls.

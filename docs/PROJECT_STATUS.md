@@ -1,5 +1,10 @@
 # Project status
 
+## M1.HR1 — Boy Hero construction redraw
+
+**Awaiting user visual review; native front deliverable complete.** User authorizes creative liberty on boy Hero and a repeatable process. Original32×64 south idle,24×41 painted bounds, clean matched4×/native before-after, full8× target grid, editable Sprite Editor source, anatomical masks and reproducible authoring script delivered. Source/export equality,15 opaque colors, binary alpha, connected silhouette, paired anatomy and(16,64) registration pass. Native/clean/grid views inspected; eye highlights and sneaker corners revised after inspection. Exact regional Emerald anatomy remains unresolved; original adaptation and deviations explicitly recorded. [Review](reviews/M1-HR1/README.md). Main; task-only commit/push verification recorded in final handoff. Static review only: gameplay assets/maps/saves unchanged, no deployment required; phone site continues its existing build. Exact next action: user reviews the front direction before profile/back, animation or gameplay replacement. No artistic acceptance self-claimed.
+
+
 ## M1.OV2 — Three tank actions, everyday care and native home/orchard art
 
 **Implemented and verified; scoped commit blocked by automatic approval review.** User authorizes this next ambitious gameplay-facing slice and reserves editor/water work to another task. Manage/Stats/View are visible together at320/390px portrait,844px landscape and desktop; collection/gallery remains available through View and Glow n’ Blow with correct B return. Four ordinary care actions precede advanced settings, preserve stock/cost/care behavior and have readable text.33 original native exports cover consistent furniture/floors/walls/rug/fern, world/live tank presentation, small decomposer poses, UI icons and Grove-family bare/ripe orchards. Original collision/source maps, fruit/care rules, save schema and approved Hero stay intact.
