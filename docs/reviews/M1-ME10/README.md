@@ -31,6 +31,14 @@ All browser tests use fresh isolated Playwright contexts with synthetic storage;
 
 The first new test exposed a hidden Fit button at320px; it is now retained. The final screenshot review caught a cramped desktop palette in844×390 landscape after the initial version55 publication; the follow-up uses the modal tray and a compact toolbar there, with an explicit minimum800×190 canvas assertion. The older general drag test used a fixed screen location that became outside the map under the larger canvas; it now targets an actual free map cell. These repairs were followed by passing runs.
 
-Screenshots: [before](before.png), [desktop](desktop.png), [phone](viewport-390x844.png), [phone Build](build-390.png), [320px](viewport-320x640.png), [landscape](viewport-844x390.png), [touch](phone-touch.png). Reports under `general/`, `areas/`, `benches/`, and `ui-checks.json`; source and production runs pass all50 browser groups (15+22+7+6). Hosted receipts are recorded separately.
+Screenshots: [before](before.png), [desktop](desktop.png), [phone](viewport-390x844.png), [phone Build](build-390.png), [320px](viewport-320x640.png), [landscape](production/ui/viewport-844x390.png), [touch](phone-touch.png). Reports under `general/`, `areas/`, `benches/`, and `ui-checks.json`; source and production runs pass all50 browser groups (15+22+7+6). Hosted receipts are recorded separately.
 
 Visual usability is for the user to judge. No physical iPhone/Safari testing is claimed. No new game art, terrain geometry, collision, saved-world format or approval gate changes.
+
+## Publication and final handoff
+
+Published PUBLIC version56 from source `7680b6fe8882dbc7d330bb01e439a445caf3a5f3`, identical to GitHub origin/main at publication. Deployment `appgdep_6acff5ce8f588191b7890f172aac2df5` succeeded at2026-10-14 21:36:38UTC. Version55 remains retained and documents the initial publication before the short-landscape correction. All1,511 tested runtime and3,801 build files match the final clean3,802-file archive; normalized hosting metadata is the sole addition. Short-lived source credentials were renewed once before the final push; no token was saved in source.
+
+All15 UI groups and7 named-area groups pass against the actual host in synthetic browser contexts. [Hosted desktop](hosted/ui/desktop.png), [phone](hosted/ui/viewport-390x844.png), [landscape](hosted/ui/viewport-844x390.png), [UI report](hosted/ui/ui-checks.json), [area report](hosted/areas/browser-checks.json), [release receipt](deployment.json), [archive proof](archive-check.json). Native in-app browser shows Rootport and Ready in a new preserved deliverable tab; existing draft tabs were not reloaded. Audience remains PUBLIC and no user's real storage was used for testing.
+
+[Edit Rootport](https://critz-tycoon.freemarketwildlife.chatgpt.site/map-editor/?area=rootport). Final receipt changes documentation/evidence only; no additional runtime publication is needed. Next action is the user's editing/UI review, with no visual or movement gate self-approved.
