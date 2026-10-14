@@ -1,6 +1,6 @@
 # M1.TO1 — Overnight technical optimization
 
-Technical implementation and checks are complete. Parent deployment review is pending. No Sites operation was performed; these changes are not yet on the phone game. Existing link: https://critz-tycoon.freemarketwildlife.chatgpt.site . Main was clean at `ee2a3cf67ead72385b64170003addf9c28fd9442`, newer than the delegated `7d73a6c` checkpoint. The later commits contain static Hero review; accepted gameplay Hero remains unchanged. Commit/push evidence is in [checkpoint.json](checkpoint.json).
+Technical implementation and checks are complete. Parent deployment review is pending. No Sites operation was performed; these changes are not yet on the phone game. Existing link: https://critz-tycoon.freemarketwildlife.chatgpt.site . Main was clean at `ee2a3cf67ead72385b64170003addf9c28fd9442`, newer than the delegated `7d73a6c` checkpoint. The later commits contain static Hero review; accepted gameplay Hero remains unchanged. Tested runtime checkpoint [`3755a2f`](https://github.com/FreeMarketWildlife/Critz-Tycoon/commit/3755a2f44b3107425ee0b8658a04d4ff2d8edb6a) is pushed to origin/main with identical remote SHA verified2026-10-14 at06:06UTC and a clean working tree. This final receipt is documentation only. [Checkpoint](checkpoint.json).
 
 ## Measured result
 

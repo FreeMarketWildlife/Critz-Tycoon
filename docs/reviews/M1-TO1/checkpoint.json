@@ -2,11 +2,17 @@
   "task": "M1.TO1",
   "branch": "main",
   "openingCommit": "ee2a3cf67ead72385b64170003addf9c28fd9442",
-  "state": "Validated; git checkpoint and push pending",
+  "state": "Implementation, tests, source commit and push verified; parent deployment review pending",
   "unitTests": 289,
   "browserGroups": 204,
   "browserSuites": 18,
   "deployment": "Held for parent review; no Sites operation",
   "phoneUrl": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
-  "unrelatedOpeningEdits": 0
+  "unrelatedOpeningEdits": 0,
+  "runtimeCommit": "3755a2f44b3107425ee0b8658a04d4ff2d8edb6a",
+  "verifiedRemoteRuntimeSHA": "3755a2f44b3107425ee0b8658a04d4ff2d8edb6a",
+  "sourcePushVerifiedAtUtc": "2026-10-14 06:06:01 UTC",
+  "workingTreeAtSourcePush": "clean",
+  "finalReceipt": "Documentation only; final HEAD/remote receipt is reported in task outcome",
+  "localPreviewPort": 5221
 }
