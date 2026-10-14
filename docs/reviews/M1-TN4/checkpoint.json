@@ -1,8 +1,8 @@
 {
   "task": "M1.TN4",
   "branch": "main",
-  "reviewSourceCommit": "a0e7ddc351a49eb0184110d0407f65c7a5ec4cc2",
-  "verifiedOriginMainSHA": "a0e7ddc351a49eb0184110d0407f65c7a5ec4cc2",
+  "reviewSourceCommit": "9ea076abb3e6e28987e61969bb16e3564151bb61",
+  "verifiedOriginMainSHA": "9ea076abb3e6e28987e61969bb16e3564151bb61",
   "pushSucceeded": true,
   "workingTreeCleanAtReviewPush": true,
   "nativeAssets": 7,
@@ -29,7 +29,7 @@
   "localReviewServerStopped": true,
   "physicalSafari": false,
   "nextAction": "Parent inspects/delivers Library GIFs and updated contact, returns specific eye/bear feedback and latest HR4 direction; integrate/publish only after explicit response.",
-  "checkedAtUTC": "2026-10-14T23:52:04.419003+00:00",
+  "checkedAtUTC": "2026-10-14T23:57:59.645276+00:00",
   "heroOwnerStatus": "idle",
   "additionalConcurrentHR4FilesExact": 23,
   "concurrentHR4PlanBlockPreserved": true
