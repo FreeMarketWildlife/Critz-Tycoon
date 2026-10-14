@@ -1,0 +1,11 @@
+{
+  "exactFiles": 3426,
+  "equalAssetJson": 88,
+  "generatedFiles": [
+    "src/asset-urls.js",
+    "assets/playable/contact/runtime.json",
+    "assets/playable/contact/catalogue.json"
+  ],
+  "packageFingerprint": "6842f6a332b5afb943f5fa28fa57c1461dfab6ab303e2e3f8b839f0d4ab18531",
+  "protectedHeroSHA256": "0099dd331ae2c2d995663328e52763e8b10b1df0d36854d59676ee0ac52f7883"
+}

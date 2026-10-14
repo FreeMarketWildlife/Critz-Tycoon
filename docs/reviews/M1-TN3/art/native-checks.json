@@ -1,0 +1,190 @@
+{
+  "task": "M1.TN3",
+  "checks": [
+    {
+      "id": "tiny-blush",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "bounds": [
+        8,
+        12,
+        24,
+        30
+      ],
+      "binaryAlpha": true,
+      "alphaSilhouetteAndEveryEyeHoleExact": true,
+      "paletteExact": true,
+      "onlyExistingFillToDarkChanges": true,
+      "generatedSourceHashAndEveryChangedMaterialCueVerified": true,
+      "darkPixelsBefore": 65,
+      "darkPixelsAfter": 102,
+      "addedInkPixels": 37,
+      "sha256": "3d6fd1ec1019584b8ee26675b23d9e6acf218e6da3a95bf4006bb811ceb97745"
+    },
+    {
+      "id": "small-mint",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "bounds": [
+        6,
+        8,
+        26,
+        30
+      ],
+      "binaryAlpha": true,
+      "alphaSilhouetteAndEveryEyeHoleExact": true,
+      "paletteExact": true,
+      "onlyExistingFillToDarkChanges": true,
+      "generatedSourceHashAndEveryChangedMaterialCueVerified": true,
+      "darkPixelsBefore": 80,
+      "darkPixelsAfter": 121,
+      "addedInkPixels": 41,
+      "sha256": "0559887e35ad48479476ab7e966dfc72b6c8deed4eac383fde036391d5f26798"
+    },
+    {
+      "id": "blush",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "binaryAlpha": true,
+      "alphaSilhouetteAndEveryEyeHoleExact": true,
+      "paletteExact": true,
+      "onlyExistingFillToDarkChanges": true,
+      "generatedSourceHashAndEveryChangedMaterialCueVerified": true,
+      "darkPixelsBefore": 99,
+      "darkPixelsAfter": 194,
+      "addedInkPixels": 95,
+      "sha256": "773f22be6e6c1f5e31b47f0c157c20f1cdb09bb84b87c75762f7c45a8da816a7"
+    },
+    {
+      "id": "mint",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "binaryAlpha": true,
+      "alphaSilhouetteAndEveryEyeHoleExact": true,
+      "paletteExact": true,
+      "onlyExistingFillToDarkChanges": true,
+      "generatedSourceHashAndEveryChangedMaterialCueVerified": true,
+      "darkPixelsBefore": 110,
+      "darkPixelsAfter": 182,
+      "addedInkPixels": 72,
+      "sha256": "ea0377efee8779c9610752109537bdd951d458df6ba62da2782aaf779056fb93"
+    },
+    {
+      "id": "apricot",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "binaryAlpha": true,
+      "alphaSilhouetteAndEveryEyeHoleExact": true,
+      "paletteExact": true,
+      "onlyExistingFillToDarkChanges": true,
+      "generatedSourceHashAndEveryChangedMaterialCueVerified": true,
+      "darkPixelsBefore": 103,
+      "darkPixelsAfter": 179,
+      "addedInkPixels": 76,
+      "sha256": "c4db1a3d38fab3cb3a84bee83deed31accfdd9c53e936454be778b1f81175041"
+    },
+    {
+      "id": "large-lilac",
+      "nativeSize": [
+        32,
+        32
+      ],
+      "bounds": [
+        1,
+        0,
+        31,
+        30
+      ],
+      "binaryAlpha": true,
+      "alphaSilhouetteAndEveryEyeHoleExact": true,
+      "paletteExact": true,
+      "onlyExistingFillToDarkChanges": true,
+      "generatedSourceHashAndEveryChangedMaterialCueVerified": true,
+      "darkPixelsBefore": 124,
+      "darkPixelsAfter": 228,
+      "addedInkPixels": 104,
+      "sha256": "be5cc83108b2c98fcb441f2f29d8df19bc836c4e350c0082cfb6d4305080c5e6"
+    },
+    {
+      "id": "bear",
+      "nativeSize": [
+        96,
+        96
+      ],
+      "bounds": [
+        16,
+        44,
+        80,
+        80
+      ],
+      "binaryAlpha": true,
+      "alphaSilhouetteAndEveryEyeHoleExact": true,
+      "paletteExact": true,
+      "onlyExistingFillToDarkChanges": true,
+      "generatedSourceHashAndEveryChangedMaterialCueVerified": true,
+      "darkPixelsBefore": 350,
+      "darkPixelsAfter": 582,
+      "addedInkPixels": 232,
+      "sha256": "8b4e055ab92175c2562a82d6cc379b058d554f9d3794a922705ff71df6105c10"
+    }
+  ],
+  "unchangedProtectedFiles": [
+    "assets/playable/tanoshi/apricot.png",
+    "assets/playable/tanoshi/mint.png",
+    "assets/playable/tanoshi/blush.png",
+    "assets/playable/tanoshi/atlas.png",
+    "assets/playable/tanoshi/atlas.json",
+    "assets/playable/tanoshi-sizes/tiny-blush.png",
+    "assets/playable/tanoshi-sizes/small-mint.png",
+    "assets/playable/tanoshi-sizes/large-lilac.png",
+    "assets/playable/tanoshi-sizes/atlas.png",
+    "assets/playable/tanoshi-sizes/atlas.json",
+    "assets/playable/tanoshi-sizes/bear.png",
+    "assets/playable/tanoshi-sizes/bear.json",
+    "assets/playable/living/atlas.png",
+    "assets/playable/living/atlas.json",
+    "assets/playable/characters/atlas.png",
+    "assets/playable/characters/atlas.json",
+    "references/tanoshi/README.md",
+    "references/tanoshi/manifest.json",
+    "references/tanoshi/originals/Tanoshi-all-states.gif",
+    "references/tanoshi/originals/Tanoshi-spritesheet.png",
+    "references/tanoshi/originals/Tanoshi-look-loop.gif",
+    "references/tanoshi/originals/Tanoshi-motion-stills.png",
+    "references/tanoshi/originals/Tanoshi-contact-sheet.png",
+    "references/tanoshi/originals/Tanoshi-pixel-preview-12x.png"
+  ],
+  "bearFootprintAndRegistrationExact": true,
+  "bothContactSheetsExactNativeAssemblyAndEightfoldPixels": true,
+  "heroAndOriginalPetReferencesUnchanged": true,
+  "chatGPTPetToolsCalled": false,
+  "note": "Alpha equality proves every prior eye-hole cell and contour exact. Outline changes are only generated dark-material additions, never alpha edits."
+}

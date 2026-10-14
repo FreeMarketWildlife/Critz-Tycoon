@@ -1,0 +1,893 @@
+{
+  "task": "M1.TN3",
+  "method": "imagegen outline edits, disclosed alpha/palette-preserving material encoding",
+  "assets": [
+    {
+      "id": "blush",
+      "size": [
+        32,
+        32
+      ],
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "nativeSha256": "59363ed8099fbbbb04def04b1feeaaf7431b7c78b2b5a2e8bbe401538befda2d",
+      "original": "assets/playable/tanoshi/blush.png",
+      "originalSha256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9",
+      "generated": "art/source/tanoshi-outline/generated-blush.png",
+      "generatedSha256": "1cc828be7a25de0d01542577e352d40f1fda26f91fc62e74f2d788115630a0c9",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "sampling": "whole-frame Pillow nearest; fixed native registration",
+      "encoding": "accept imagegen darkest-material additions only on original occupied cells; preserve all original alpha, ink and other colors",
+      "geometryEdits": false,
+      "darkPixelsBefore": 99,
+      "darkPixelsAfter": 107,
+      "changedCells": [
+        [
+          26,
+          6
+        ],
+        [
+          24,
+          7
+        ],
+        [
+          24,
+          8
+        ],
+        [
+          24,
+          9
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          25,
+          15
+        ],
+        [
+          25,
+          16
+        ],
+        [
+          26,
+          17
+        ]
+      ]
+    },
+    {
+      "id": "mint",
+      "size": [
+        32,
+        32
+      ],
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "nativeSha256": "fb10ff8ffc094dd5d4e3c723b3b13436d12f949dbdc5db806d33f5cc2272b017",
+      "original": "assets/playable/tanoshi/mint.png",
+      "originalSha256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3",
+      "generated": "art/source/tanoshi-outline/generated-mint.png",
+      "generatedSha256": "d97c9ac6bef2e9927cfb5324efc1223b184cca9d2dfaf4dd67d0518a06d1453a",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "sampling": "whole-frame Pillow nearest; fixed native registration",
+      "encoding": "accept imagegen darkest-material additions only on original occupied cells; preserve all original alpha, ink and other colors",
+      "geometryEdits": false,
+      "darkPixelsBefore": 110,
+      "darkPixelsAfter": 131,
+      "changedCells": [
+        [
+          15,
+          3
+        ],
+        [
+          18,
+          5
+        ],
+        [
+          26,
+          6
+        ],
+        [
+          24,
+          7
+        ],
+        [
+          24,
+          8
+        ],
+        [
+          24,
+          9
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          6,
+          14
+        ],
+        [
+          7,
+          14
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          25,
+          14
+        ],
+        [
+          4,
+          16
+        ],
+        [
+          10,
+          16
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          11,
+          26
+        ],
+        [
+          10,
+          27
+        ],
+        [
+          10,
+          28
+        ]
+      ]
+    },
+    {
+      "id": "apricot",
+      "size": [
+        32,
+        32
+      ],
+      "bounds": [
+        3,
+        2,
+        29,
+        30
+      ],
+      "nativeSha256": "026763d96f4ac720104a80d0f20b9121c6f130f960f58e1387e47723cc566c5a",
+      "original": "assets/playable/tanoshi/apricot.png",
+      "originalSha256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5",
+      "generated": "art/source/tanoshi-outline/generated-apricot.png",
+      "generatedSha256": "de3cce6fe594f33881ea5e7d81471b7924b0eb83b56b75cf7b952daf636b1ff8",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "sampling": "whole-frame Pillow nearest; fixed native registration",
+      "encoding": "accept imagegen darkest-material additions only on original occupied cells; preserve all original alpha, ink and other colors",
+      "geometryEdits": false,
+      "darkPixelsBefore": 103,
+      "darkPixelsAfter": 122,
+      "changedCells": [
+        [
+          14,
+          6
+        ],
+        [
+          26,
+          6
+        ],
+        [
+          14,
+          7
+        ],
+        [
+          24,
+          7
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          24,
+          8
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          24,
+          9
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          22,
+          11
+        ],
+        [
+          14,
+          20
+        ],
+        [
+          8,
+          21
+        ],
+        [
+          14,
+          21
+        ],
+        [
+          21,
+          21
+        ],
+        [
+          9,
+          22
+        ],
+        [
+          14,
+          23
+        ],
+        [
+          19,
+          23
+        ]
+      ]
+    },
+    {
+      "id": "tiny-blush",
+      "size": [
+        32,
+        32
+      ],
+      "bounds": [
+        8,
+        12,
+        24,
+        30
+      ],
+      "nativeSha256": "8c52b8e37f024b4ec0d0d87d015015e16f4ce1b4b0a426f7f787de60442936f5",
+      "original": "assets/playable/tanoshi-sizes/tiny-blush.png",
+      "originalSha256": "a54a43e9685796293f2d74255a817ce190f5c742afdf5dc418f5ee3d7c504cdb",
+      "generated": "art/source/tanoshi-outline/generated-tiny-blush.png",
+      "generatedSha256": "944ff3f36b5467f527e765b3920b558d92d104d95ca4d6a68788ccd58e596a81",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "sampling": "whole-frame Pillow nearest; fixed native registration",
+      "encoding": "accept imagegen darkest-material additions only on original occupied cells; preserve all original alpha, ink and other colors",
+      "geometryEdits": false,
+      "darkPixelsBefore": 65,
+      "darkPixelsAfter": 72,
+      "changedCells": [
+        [
+          17,
+          14
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          18,
+          15
+        ],
+        [
+          22,
+          15
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          12,
+          28
+        ]
+      ]
+    },
+    {
+      "id": "small-mint",
+      "size": [
+        32,
+        32
+      ],
+      "bounds": [
+        6,
+        8,
+        26,
+        30
+      ],
+      "nativeSha256": "059ca10b0bd6e12e47845d1047cbf4539c5b06740b36f61126d31ef6c8bec026",
+      "original": "assets/playable/tanoshi-sizes/small-mint.png",
+      "originalSha256": "4649d77bf582cf5e2cd8c15410f9a425f7b6074f562b1da4e2fda6736145674f",
+      "generated": "art/source/tanoshi-outline/generated-small-mint.png",
+      "generatedSha256": "e5cf8ace2ecc6027b31cafad0d3e08b58d00dee64529e85ea0345c24496d706d",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "sampling": "whole-frame Pillow nearest; fixed native registration",
+      "encoding": "accept imagegen darkest-material additions only on original occupied cells; preserve all original alpha, ink and other colors",
+      "geometryEdits": false,
+      "darkPixelsBefore": 80,
+      "darkPixelsAfter": 101,
+      "changedCells": [
+        [
+          15,
+          9
+        ],
+        [
+          17,
+          10
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          23,
+          12
+        ],
+        [
+          22,
+          13
+        ],
+        [
+          22,
+          14
+        ],
+        [
+          8,
+          18
+        ],
+        [
+          23,
+          18
+        ],
+        [
+          23,
+          19
+        ],
+        [
+          10,
+          23
+        ],
+        [
+          11,
+          23
+        ],
+        [
+          12,
+          23
+        ],
+        [
+          20,
+          23
+        ],
+        [
+          21,
+          23
+        ],
+        [
+          13,
+          24
+        ],
+        [
+          18,
+          24
+        ],
+        [
+          19,
+          24
+        ],
+        [
+          12,
+          27
+        ],
+        [
+          20,
+          27
+        ],
+        [
+          21,
+          27
+        ]
+      ]
+    },
+    {
+      "id": "large-lilac",
+      "size": [
+        32,
+        32
+      ],
+      "bounds": [
+        1,
+        0,
+        31,
+        30
+      ],
+      "nativeSha256": "0a842e12657896a0be3bea2e92f6a0711ab6068cad74e87bc88f702ba4393c07",
+      "original": "assets/playable/tanoshi-sizes/large-lilac.png",
+      "originalSha256": "fbb33664df5334239d9da6fa9598290646687df0fe0409e58ebd01642ebcdbac",
+      "generated": "art/source/tanoshi-outline/generated-large-lilac.png",
+      "generatedSha256": "51bce52515969f9f3a9f36e8fea70f05cb20f471cc6ab7c33fa675b13a466223",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "sampling": "whole-frame Pillow nearest; fixed native registration",
+      "encoding": "accept imagegen darkest-material additions only on original occupied cells; preserve all original alpha, ink and other colors",
+      "geometryEdits": false,
+      "darkPixelsBefore": 124,
+      "darkPixelsAfter": 190,
+      "changedCells": [
+        [
+          10,
+          1
+        ],
+        [
+          11,
+          1
+        ],
+        [
+          12,
+          1
+        ],
+        [
+          13,
+          1
+        ],
+        [
+          14,
+          1
+        ],
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          3
+        ],
+        [
+          18,
+          3
+        ],
+        [
+          13,
+          4
+        ],
+        [
+          18,
+          4
+        ],
+        [
+          19,
+          4
+        ],
+        [
+          14,
+          5
+        ],
+        [
+          19,
+          5
+        ],
+        [
+          27,
+          5
+        ],
+        [
+          28,
+          5
+        ],
+        [
+          14,
+          6
+        ],
+        [
+          19,
+          6
+        ],
+        [
+          20,
+          6
+        ],
+        [
+          15,
+          7
+        ],
+        [
+          20,
+          7
+        ],
+        [
+          21,
+          7
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          15,
+          8
+        ],
+        [
+          21,
+          8
+        ],
+        [
+          9,
+          9
+        ],
+        [
+          15,
+          9
+        ],
+        [
+          22,
+          9
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          22,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          14,
+          11
+        ],
+        [
+          23,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          23,
+          12
+        ],
+        [
+          24,
+          13
+        ],
+        [
+          24,
+          14
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          24,
+          15
+        ],
+        [
+          23,
+          17
+        ],
+        [
+          7,
+          20
+        ],
+        [
+          8,
+          20
+        ],
+        [
+          6,
+          21
+        ],
+        [
+          25,
+          21
+        ],
+        [
+          10,
+          22
+        ],
+        [
+          11,
+          22
+        ],
+        [
+          12,
+          22
+        ],
+        [
+          13,
+          22
+        ],
+        [
+          18,
+          22
+        ],
+        [
+          19,
+          22
+        ],
+        [
+          20,
+          22
+        ],
+        [
+          21,
+          22
+        ],
+        [
+          11,
+          25
+        ],
+        [
+          10,
+          26
+        ],
+        [
+          11,
+          26
+        ],
+        [
+          20,
+          26
+        ],
+        [
+          21,
+          26
+        ],
+        [
+          22,
+          26
+        ],
+        [
+          23,
+          26
+        ],
+        [
+          8,
+          27
+        ],
+        [
+          9,
+          27
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          23,
+          27
+        ],
+        [
+          8,
+          28
+        ],
+        [
+          22,
+          28
+        ]
+      ]
+    },
+    {
+      "id": "bear",
+      "size": [
+        96,
+        96
+      ],
+      "bounds": [
+        16,
+        44,
+        80,
+        80
+      ],
+      "nativeSha256": "7b3ff333d93d920381e9b622af25fc0e908fc26c70fa65c9e286619c43348a89",
+      "original": "assets/playable/tanoshi-sizes/bear.png",
+      "originalSha256": "b8122d2bd918e74e70d6232bbc4a651424bece9f4f42cbcb05d4bad0ae97d350",
+      "generated": "art/source/tanoshi-outline/generated-bear.png",
+      "generatedSha256": "f1a88a9ba357f3fda5370bba04c9fac49760dcb7b1a41e58cf9c00bfabe972df",
+      "generatedSize": [
+        1254,
+        1254
+      ],
+      "sampling": "whole-frame Pillow nearest; fixed native registration",
+      "encoding": "accept imagegen darkest-material additions only on original occupied cells; preserve all original alpha, ink and other colors",
+      "geometryEdits": false,
+      "darkPixelsBefore": 350,
+      "darkPixelsAfter": 379,
+      "changedCells": [
+        [
+          40,
+          45
+        ],
+        [
+          48,
+          45
+        ],
+        [
+          49,
+          45
+        ],
+        [
+          56,
+          45
+        ],
+        [
+          62,
+          45
+        ],
+        [
+          38,
+          46
+        ],
+        [
+          51,
+          46
+        ],
+        [
+          52,
+          46
+        ],
+        [
+          53,
+          46
+        ],
+        [
+          54,
+          46
+        ],
+        [
+          64,
+          46
+        ],
+        [
+          65,
+          46
+        ],
+        [
+          37,
+          47
+        ],
+        [
+          33,
+          50
+        ],
+        [
+          31,
+          51
+        ],
+        [
+          32,
+          51
+        ],
+        [
+          70,
+          51
+        ],
+        [
+          72,
+          52
+        ],
+        [
+          22,
+          55
+        ],
+        [
+          77,
+          60
+        ],
+        [
+          22,
+          62
+        ],
+        [
+          21,
+          63
+        ],
+        [
+          21,
+          64
+        ],
+        [
+          60,
+          67
+        ],
+        [
+          19,
+          68
+        ],
+        [
+          58,
+          75
+        ],
+        [
+          23,
+          77
+        ],
+        [
+          53,
+          77
+        ],
+        [
+          54,
+          77
+        ]
+      ]
+    }
+  ]
+}

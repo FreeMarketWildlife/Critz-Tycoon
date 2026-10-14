@@ -1,0 +1,9 @@
+{
+  "baseCommit": "b8413f2c3579ff4bac288140e6e205ce019bf427",
+  "reviewOverlay": [
+    "src/tanoshi-art.js",
+    "src/bear-art.js",
+    "assets/playable/tanoshi-outline"
+  ],
+  "unrelatedChangesAtStart": " M docs/ART_BIBLE.md\n M docs/PROJECT_PLAN.md\n M docs/PROJECT_STATUS.md\n M src/bear-art.js\n M src/tanoshi-art.js\n?? art/source/tanoshi-outline/\n?? assets/playable/tanoshi-outline/\n?? docs/reviews/M1-TN3/\n"
+}

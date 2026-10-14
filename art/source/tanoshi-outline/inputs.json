@@ -1,0 +1,114 @@
+{
+  "tiny-blush": {
+    "original": "assets/playable/tanoshi-sizes/tiny-blush.png",
+    "size": [
+      32,
+      32
+    ],
+    "bounds": [
+      8,
+      12,
+      24,
+      30
+    ],
+    "sha256": "a54a43e9685796293f2d74255a817ce190f5c742afdf5dc418f5ee3d7c504cdb",
+    "editInput": "art/source/tanoshi-outline/tiny-blush-edit-input-8x.png",
+    "inputSha256": "13b020091a925fab474861df81dc3fe34da1d64c5a7450fd83cfb51badee43a9"
+  },
+  "small-mint": {
+    "original": "assets/playable/tanoshi-sizes/small-mint.png",
+    "size": [
+      32,
+      32
+    ],
+    "bounds": [
+      6,
+      8,
+      26,
+      30
+    ],
+    "sha256": "4649d77bf582cf5e2cd8c15410f9a425f7b6074f562b1da4e2fda6736145674f",
+    "editInput": "art/source/tanoshi-outline/small-mint-edit-input-8x.png",
+    "inputSha256": "8bbcfce20030e5868ac2d8b2300777fa21f5649ee1a07eefdccce2ff299a0b95"
+  },
+  "blush": {
+    "original": "assets/playable/tanoshi/blush.png",
+    "size": [
+      32,
+      32
+    ],
+    "bounds": [
+      3,
+      2,
+      29,
+      30
+    ],
+    "sha256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9",
+    "editInput": "art/source/tanoshi-outline/blush-edit-input-8x.png",
+    "inputSha256": "d53bce9622a1a3762778ec68e567873f941a051803c0d5a381a41d2e6b23a368"
+  },
+  "mint": {
+    "original": "assets/playable/tanoshi/mint.png",
+    "size": [
+      32,
+      32
+    ],
+    "bounds": [
+      3,
+      2,
+      29,
+      30
+    ],
+    "sha256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3",
+    "editInput": "art/source/tanoshi-outline/mint-edit-input-8x.png",
+    "inputSha256": "f7b0be3034092899db1897d16a1d88963a34ee2c3611337860d425d84c7c2010"
+  },
+  "apricot": {
+    "original": "assets/playable/tanoshi/apricot.png",
+    "size": [
+      32,
+      32
+    ],
+    "bounds": [
+      3,
+      2,
+      29,
+      30
+    ],
+    "sha256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5",
+    "editInput": "art/source/tanoshi-outline/apricot-edit-input-8x.png",
+    "inputSha256": "43d7d0770ca255105c9776a7cdfe27c378eb2adaead1d855a512abc9d2d9dae1"
+  },
+  "large-lilac": {
+    "original": "assets/playable/tanoshi-sizes/large-lilac.png",
+    "size": [
+      32,
+      32
+    ],
+    "bounds": [
+      1,
+      0,
+      31,
+      30
+    ],
+    "sha256": "fbb33664df5334239d9da6fa9598290646687df0fe0409e58ebd01642ebcdbac",
+    "editInput": "art/source/tanoshi-outline/large-lilac-edit-input-8x.png",
+    "inputSha256": "77917210bca1d59cd495cc058b585cd93904095d54864fb40895bfe486971bdb"
+  },
+  "bear": {
+    "original": "assets/playable/tanoshi-sizes/bear.png",
+    "size": [
+      96,
+      96
+    ],
+    "bounds": [
+      16,
+      44,
+      80,
+      80
+    ],
+    "sha256": "b8122d2bd918e74e70d6232bbc4a651424bece9f4f42cbcb05d4bad0ae97d350",
+    "editInput": "art/source/tanoshi-outline/bear-edit-input-8x.png",
+    "inputSha256": "f518652f541974d3ee27cfd43794a9307784a3ca7e78688af41e099978bfd815"
+  }
+}

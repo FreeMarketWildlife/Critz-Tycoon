@@ -1,0 +1,11 @@
+{
+  "task": "M1.TN3",
+  "recoveredCorrections": {
+    "blush": "exec-e915db22-656e-47f0-ac4f-c7926d1d4941.png",
+    "apricot": "exec-7b5d2d81-9c36-44f3-9505-a80cdff900e3.png",
+    "tiny-blush": "exec-7b36d1ec-dd5c-4da2-8039-91768c6218f6.png"
+  },
+  "newGenerationAfterReconnect": false,
+  "smallMintSelection": "Completed first-round exec-a354c3b0-59ab-483d-bd5c-abd28ca93096 reused; later inline correction had no local output path after executor loss. No regeneration.",
+  "promptEvidence": "Exact first-round prompts in generation.json; correction requested clearly heavier inward two-to-three-pixel bands, original alpha/palette/expressions retained."
+}

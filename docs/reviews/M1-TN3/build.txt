@@ -1,0 +1,7 @@
+
+> critz-tycoon@0.1.0 build
+> node scripts/build.mjs
+
+Soundtrack manifest: 30 verified canonical MIDI assets
+Compacted 90 asset JSON files without changing their data; contact catalogue loads only in authoring tools.
+Built Critz: Tycoon. Entry: 3181 bytes. No runtime dependencies.
