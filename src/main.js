@@ -37,6 +37,7 @@ import { renderTank, renderSpecimen } from "./tank-render.js";
 import { initWorldArt, renderWorld, character } from "./render.js";
 import { migrateGridState } from "./grid-save.js";
 import { createMotion, getMotionView, advanceMotion, createMotionClock, advanceMotionClock, resetMotionClock } from "./movement.js";
+import {HeldDirections} from './held-input.js';
 const $ = (id) => document.getElementById(id);
 const esc = (s) =>
   String(s).replace(
@@ -71,7 +72,7 @@ let gender = "boy",
   capture = null,
   recording = 0;
 let camera = { kind: "photo", frame: 50, zoom: 1 },
-  down = new Set(),
+  down = new HeldDirections(),
   lastSaved = 0;
 const settings=readSettings({getItem:key=>localStorage.getItem(key)},matchMedia('(prefers-reduced-motion: reduce)').matches);
 function applySettings(){document.documentElement.dataset.frame=settings.frame;document.documentElement.dataset.calm=String(settings.calm);}
@@ -1041,15 +1042,18 @@ panel.addEventListener("input", (e) => {
   cameraScores();
 });
 function bindPress(el, onDown, onUp = () => {}) {
+  const pointers=new Set();
   el.addEventListener("pointerdown", (e) => {
     e.preventDefault();
     el.setPointerCapture(e.pointerId);
+    pointers.add(e.pointerId);
     el.classList.add("pressed");
     onDown(e);
   });
   for (const name of ["pointerup", "pointercancel", "lostpointercapture"])
     el.addEventListener(name, (e) => {
-      el.classList.remove("pressed");
+      pointers.delete(e.pointerId);
+      if(!pointers.size)el.classList.remove("pressed");
       onUp(e);
     });
   el.addEventListener("contextmenu", (e) => e.preventDefault());
@@ -1057,11 +1061,11 @@ function bindPress(el, onDown, onUp = () => {}) {
 for (const b of document.querySelectorAll("[data-dir]"))
   bindPress(
     b,
-    () => {
+    e => {
       if (panelName) moveMenu(b.dataset.dir);
-      else down.add(b.dataset.dir);
+      else down.press('pointer:'+e.pointerId,b.dataset.dir);
     },
-    () => down.delete(b.dataset.dir),
+    e => down.release('pointer:'+e.pointerId),
   );
 bindPress($("a-button"), interact);
 bindPress($("b-button"), back);
@@ -1116,7 +1120,7 @@ document.addEventListener("keydown", (e) => {
     e.preventDefault();
     if (panelName) {
       if (!e.repeat) moveMenu(dir);
-    } else down.add(dir);
+    } else down.press('key:'+e.key,dir);
     return;
   }
   if (["z", "Z", "Enter", " "].includes(e.key)) {
@@ -1142,7 +1146,7 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Shift") shift = true;
 });
 document.addEventListener("keyup", (e) => {
-  if (keyDirs[e.key]) down.delete(keyDirs[e.key]);
+  if (keyDirs[e.key]) down.release('key:'+e.key);
   if (e.key === "Shift") shift = false;
 });
 function clearInput() {

@@ -1,0 +1,139 @@
+{
+  "allPassed": true,
+  "suites": [
+    {
+      "suite": "technical-browser",
+      "exitCode": 0,
+      "ms": 8053,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "editor-view-browser",
+      "exitCode": 0,
+      "ms": 30784,
+      "printedPassGroups": 3,
+      "rerun": "editor-view.json",
+      "initialFailure": "Large pretty-JSON fill timed out; canonical compact RLE import passes. No runtime change required."
+    },
+    {
+      "suite": "browser",
+      "exitCode": 0,
+      "ms": 122593,
+      "printedPassGroups": 17
+    },
+    {
+      "suite": "lifecycle-browser",
+      "exitCode": 0,
+      "ms": 8414,
+      "printedPassGroups": 9,
+      "rerunChecks": [
+        "Synthetic visibility hide freezes committed motion and habitat time; resume retains the step, clears held input and produces no catch-up ticks.",
+        "Pause menu freezes an in-flight step and its pose; resume completes exactly that tile without restoring held input.",
+        "A pressed mid-step waits for the completed adjacent tile before opening the tank interaction.",
+        "A pressed mid-step completes the source tile before fade and warp, then arrives at the authored safe destination.",
+        "All four scene-edge directions retain the held 32-tick cadence, stop promptly on release and never change position.",
+        "Legacy fractional primary loads without nonposition changes or initial writes; UI save retains both exact pre-grid raw archives across repeated saves.",
+        "Corrupt-primary recovery loads the valid legacy backup unchanged, and UI save preserves its exact pre-grid archive and normal backup.",
+        "Synthetic quota failure keeps Save/Title in the paused current grid state with unsaved care changes; old bytes remain exact and reload/Continue still migrates and moves without writes.",
+        "No uncaught browser errors in isolated lifecycle, migration or quota-failure contexts."
+      ],
+      "initialFailure": "Old stair direction/rail fixtures, released-collision expectation, live-clock save comparison, title route and broad notice selector were stale. Updated harness against existing contracts; runtime movement/state/save modules unchanged."
+    },
+    {
+      "suite": "screen-browser",
+      "exitCode": 0,
+      "ms": 2383,
+      "printedPassGroups": 9
+    },
+    {
+      "suite": "home-care-browser",
+      "exitCode": 0,
+      "ms": 4286,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "all-integration-browser",
+      "exitCode": 0,
+      "ms": 4355,
+      "printedPassGroups": 9
+    },
+    {
+      "suite": "map-editor-browser",
+      "exitCode": 0,
+      "ms": 15475,
+      "printedPassGroups": 22
+    },
+    {
+      "suite": "map-studio-r3-browser",
+      "exitCode": 0,
+      "ms": 3729,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "map-studio-r4-browser",
+      "exitCode": 0,
+      "ms": 25341,
+      "printedPassGroups": 17
+    },
+    {
+      "suite": "map-studio-r6-browser",
+      "exitCode": 0,
+      "ms": 8636,
+      "printedPassGroups": 12
+    },
+    {
+      "suite": "map-studio-r7-browser",
+      "exitCode": 0,
+      "ms": 7442,
+      "printedPassGroups": 21
+    },
+    {
+      "suite": "map-studio-r8-browser",
+      "exitCode": 0,
+      "ms": 23745,
+      "printedPassGroups": 17
+    },
+    {
+      "suite": "fence-r5-browser",
+      "exitCode": 0,
+      "ms": 10853,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "coastal-browser",
+      "exitCode": 0,
+      "ms": 11140,
+      "printedPassGroups": 14
+    },
+    {
+      "suite": "coast-complete-browser",
+      "exitCode": 0,
+      "ms": 6461,
+      "printedPassGroups": 8
+    },
+    {
+      "suite": "ui-browser",
+      "exitCode": 0,
+      "ms": 987,
+      "printedPassGroups": 8,
+      "rerunChecks": [
+        "Current morning menu supports D-pad/keyboard, A confirm, B return and remembered cursor",
+        "Fast-only options, left/right setting changes, preview and separate preference persistence",
+        "Fast text visibly types; first A reveals the page, subsequent A advances without skipping",
+        "Opening uses question/exclamation reactions and birthday hop, then reaches the unchanged loan choice",
+        "All three outdoor NPCs walk their loops and freeze in menus",
+        "NPC conversation faces the player and pauses the patrol",
+        "320px portrait through desktop and landscape retain panels and controls without overflow",
+        "No missing assets or uncaught browser exceptions"
+      ],
+      "initialFailure": "Older seven-command assertion omitted the three already-integrated morning destinations. Exact current command identities now checked."
+    },
+    {
+      "suite": "stairs-browser",
+      "exitCode": 0,
+      "printedPassGroups": 6
+    }
+  ],
+  "browserGroups": 204,
+  "scope": "18 production-build suites, isolated Chrome contexts and synthetic storage. Groups include overlapping regression coverage; no unique-test or physical-Safari claim."
+}

@@ -96,7 +96,9 @@ const rawSaves = page => page.evaluate(keys => Object.fromEntries(keys.map(key =
   [SAVE_KEY, BACKUP_KEY, PRE_GRID_KEY, PRE_GRID_BACKUP_KEY]);
 async function saveViaUI(page) {
   await page.locator("#start").click();
+  const paused=await snapshot(page);
   await page.locator('[data-action="save"]').click();
+  return paused;
 }
 const hash = bytes => createHash("sha256").update(bytes).digest("hex");
 async function fingerprints() {
@@ -162,9 +164,9 @@ try {
   });
   pass("A pressed mid-step waits for the completed adjacent tile before opening the tank interaction.");
 
-  await withFixture(fixture("bedroom", 14, 9, "down"), async page => {
+  await withFixture(fixture("bedroom", 14, 11, "up"), async page => {
     await begin(page);
-    await startStep(page, "ArrowDown");
+    await startStep(page, "ArrowUp");
     await page.keyboard.press("z");
     assert.equal((await snapshot(page)).scene, "bedroom");
     assert.equal((await motion(page)).settled, false);
@@ -177,15 +179,15 @@ try {
     const destination = await snapshot(page);
     assert.deepEqual([destination.player.x, destination.player.y], [14, 4]);
     assert.equal(isBlocked(destination.scene, destination.player.x, destination.player.y, destination), false);
-    await page.keyboard.up("ArrowDown");
+    await page.keyboard.up("ArrowUp");
   });
   pass("A pressed mid-step completes the source tile before fade and warp, then arrives at the authored safe destination.");
 
-  for (const [x, y, facing, key] of [[1, 10, "left", "ArrowLeft"], [15, 10, "right", "ArrowRight"], [8, 11, "down", "ArrowDown"], [5, 3, "up", "ArrowUp"]]) {
+  for (const [x, y, facing, key] of [[1, 10, "left", "ArrowLeft"], [15, 8, "right", "ArrowRight"], [8, 11, "down", "ArrowDown"], [5, 3, "up", "ArrowUp"]]) {
     await withFixture(fixture("bedroom", x, y, facing), async page => {
       await begin(page);
       await page.keyboard.down(key);
-      const blocked = await until(() => motion(page), value => value.action === "blocked");
+      const blocked = await until(() => motion(page), value => value.action === "blocked" && value.actionTick < 8);
       assert.equal(blocked.actionTicks, 32);
       await page.keyboard.up(key);
       const stop = await until(async () => {
@@ -194,10 +196,10 @@ try {
         assert.deepEqual([view.tileX, view.tileY], [x, y]);
         return view;
       }, value => value.action === "idle");
-      assert.ok(stop.tick - blocked.tick >= 32 - blocked.actionTick);
+      assert.ok(stop.tick - blocked.tick < 16, 'Released collision must not finish another 32-tick shuffle.');
     });
   }
-  pass("All four scene-edge directions use a 32-tick blocked action, finish after release and never change position.");
+  pass("All four scene-edge directions retain the held 32-tick cadence, stop promptly on release and never change position.");
 
   const legacy = fixture("house", 5.2, 6.4, "left");
   delete legacy.gridVersion;
@@ -215,12 +217,12 @@ try {
     assert.equal(isBlocked(migrated.scene, migrated.player.x, migrated.player.y, migrated), false);
     assert.deepEqual(await rawSaves(page), { [SAVE_KEY]: primaryRaw, [BACKUP_KEY]: backupRaw, [PRE_GRID_KEY]: null, [PRE_GRID_BACKUP_KEY]: null });
     await begin(page);
-    await saveViaUI(page);
+    const paused=await saveViaUI(page);
     let stored = await rawSaves(page);
     assert.equal(stored[PRE_GRID_KEY], primaryRaw);
     assert.equal(stored[PRE_GRID_BACKUP_KEY], backupRaw);
     assert.equal(JSON.parse(stored[SAVE_KEY]).gridVersion, 1);
-    assert.deepEqual(progress(JSON.parse(stored[SAVE_KEY]), { savedAt: false }), progress(legacy, { savedAt: false }));
+    assert.deepEqual(progress(JSON.parse(stored[SAVE_KEY]), { savedAt: false }), progress(paused, { savedAt: false }));
     await page.locator('[data-action="save"]').click();
     stored = await rawSaves(page);
     assert.equal(stored[PRE_GRID_KEY], primaryRaw);
@@ -233,15 +235,15 @@ try {
     assert.deepEqual(progress(recovered), progress(backup));
     assert.equal(recovered.gridVersion, 1);
     assert.equal(isBlocked(recovered.scene, recovered.player.x, recovered.player.y, recovered), false);
-    assert.match(await page.locator(".notice").textContent(), /recovered/i);
+    assert.match(await page.locator(".notice").filter({hasText:"previous backup was recovered"}).textContent(), /recovered/i);
     assert.equal((await rawSaves(page))[BACKUP_KEY], backupRaw);
     await begin(page);
-    await saveViaUI(page);
+    const paused=await saveViaUI(page);
     const stored = await rawSaves(page);
     assert.equal(stored[PRE_GRID_KEY], null);
     assert.equal(stored[PRE_GRID_BACKUP_KEY], backupRaw);
     assert.equal(stored[BACKUP_KEY], backupRaw);
-    assert.deepEqual(progress(JSON.parse(stored[SAVE_KEY]), { savedAt: false }), progress(backup, { savedAt: false }));
+    assert.deepEqual(progress(JSON.parse(stored[SAVE_KEY]), { savedAt: false }), progress(paused, { savedAt: false }));
   });
   pass("Corrupt-primary recovery loads the valid legacy backup unchanged, and UI save preserves its exact pre-grid archive and normal backup.");
   const quotaLegacy = fixture("bedroom", 8.2, 6.4, "right");
@@ -260,7 +262,10 @@ try {
     const unsaved = await snapshot(page);
     await page.locator('[data-action="save"]').click();
     assert.match(await page.locator("#panel-status").textContent(), /Could not save/i);
+    await page.locator('[data-action="options"]').click();
     await page.locator('[data-action="title"]').click();
+    assert.equal((await page.evaluate(async()=>(await import('/src/main.js')).getDebugUI())).panel,'options');
+    await page.locator('#b-button').click();
     assert.equal(await page.locator('[data-action="resume"]').isVisible(), true);
     assert.equal(await page.locator('[data-action="continue"]').count(), 0);
     const retained = await snapshot(page);

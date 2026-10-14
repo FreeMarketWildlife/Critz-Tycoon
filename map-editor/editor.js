@@ -1,3 +1,4 @@
+import {HeldDirections} from '../src/held-input.js';
 import {EDIT_LAYERS,sameProjectContent,rectBetween,copySelection,pasteSelection,moveStamp,sampleCell,paintLayer,floodLayer,mapCamera} from './authoring.js';
 import {tickMapTest,finishMapJump} from './test-motion.js';
 import {createMotion,advanceMotion,getMotionView,TICK_SECONDS} from '../src/movement.js';
@@ -6,20 +7,22 @@ import{SAVE_KEY,MATERIALS,FEATURES,PRESETS,STAMPS,DIRS,connectBuilding,doorCell,
 import{MapRenderer}from'./render.js';
 const $=id=>document.getElementById(id),renderer=new MapRenderer(),canvas=$('map'),ctx=canvas.getContext('2d'),viewport=$('viewport');
 const reviewId=new URLSearchParams(location.search).get('review'),review=['me3','me4','me5','me6','me7','grove'].includes(reviewId);
-let project=review?(reviewId==='me7'?authoringReviewProject():reviewId==='me6'?editorRepairReviewProject():reviewId==='grove'?groveReviewProject():reviewId==='me5'?fenceReviewProject():reviewProject(reviewId)):demoProject(),undo=[],redo=[],mode='paint',brush='grass',stamp=null,raw=null,zoom=1,ox=40,oy=40,point={x:0,y:0},drag=null,settingsAdd=false,connectionPoint=null,testState=null,held=null,space=false,loaded=false,saveTimer,tileLimit=100,recovery=false,selection=null,selectionAnchor=null,clipboard=null,editLayer='auto',pasteOffset={x:0,y:0};
+let project=review?(reviewId==='me7'?authoringReviewProject():reviewId==='me6'?editorRepairReviewProject():reviewId==='grove'?groveReviewProject():reviewId==='me5'?fenceReviewProject():reviewProject(reviewId)):demoProject(),undo=[],redo=[],mode='paint',brush='grass',stamp=null,raw=null,zoom=1,ox=40,oy=40,point={x:0,y:0},drag=null,settingsAdd=false,connectionPoint=null,testState=null,space=false,loaded=false,saveTimer,tileLimit=100,recovery=false,selection=null,selectionAnchor=null,clipboard=null,editLayer='auto',pasteOffset={x:0,y:0};
 const layerLabels={auto:'all content',ground:'Ground',features:'Features',raw:'Exact tiles',objects:'Props'};
 const labels={grass:'Grass',path:'Dirt path',paving:'Concrete',soil:'Garden soil',water:'Water',sand:'Sand beach',cliff:'Mountain',fence:'Wood fence','fence-picket':'White picket fence','fence-barbed':'Barbed wire fence',tallgrass:'Tall grass',flowers:'Flowers',bridge:'Bridge',stairs:'Cliff stairs',cave:'Cliff opening','ledge-down':'Ledge ↓','ledge-up':'Ledge ↑','ledge-left':'Ledge ←','ledge-right':'Ledge →'};
 const map=()=>project.maps.find(m=>m.id===project.active);
+let renderedMap=null;
+function positionCanvas(){canvas.style.transform=`translate(${ox}px,${oy}px) scale(${zoom})`;$('zoom-label').textContent=Math.round(zoom*100)+'%';updateCursor();}
 function status(s){$('status').textContent=s;}
 function snapshot(){return JSON.stringify(project);}
 function remember(){undo.push(snapshot());if(undo.length>80)undo.shift();redo=[];}
 function save(){if(review){$('saved').textContent='Review sandbox · your saved draft is untouched';return;}clearTimeout(saveTimer);saveTimer=setTimeout(()=>{if(recovery){$('saved').textContent='Unreadable draft retained. Download or import to recover.';return;}try{localStorage.setItem(SAVE_KEY,exportProject(project));$('saved').textContent='● Draft saved on this device';}catch{$('saved').textContent='Draft could not save. Download a project backup.';status('Storage is unavailable or full. Use Save project.');}},150);}
-function refresh(){const m=map();canvas.width=m.w*32;canvas.height=m.h*32;renderer.draw(ctx,m,{project,grid:$('grid').checked,collision:$('collision').checked});canvas.style.transform=`translate(${ox}px,${oy}px) scale(${zoom})`;$('zoom-label').textContent=Math.round(zoom*100)+'%';$('map-dimensions').textContent=`${m.w} × ${m.h} cells · 32px`;$('undo').disabled=!undo.length;$('redo').disabled=!redo.length;$('world-name').textContent=project.name;updateCursor();}
+function refresh(){const m=map();canvas.width=m.w*32;canvas.height=m.h*32;renderer.draw(ctx,m,{project,grid:$('grid').checked,collision:$('collision').checked});renderedMap=m;positionCanvas();$('map-dimensions').textContent=`${m.w} × ${m.h} cells · 32px`;$('undo').disabled=!undo.length;$('redo').disabled=!redo.length;$('world-name').textContent=project.name;updateCursor();}
 function changed(message){refresh();save();if(message)status(message);}
 function normalizeInteraction(){const m=map();point.x=Math.max(0,Math.min(m.w-1,point.x));point.y=Math.max(0,Math.min(m.h-1,point.y));if(selection&&(selection.mapId!==project.active||!inside(m,selection.rect.x,selection.rect.y)||!inside(m,selection.rect.x+selection.rect.w-1,selection.rect.y+selection.rect.h-1))){selection=null;selectionAnchor=null;}if(selectionAnchor&&!inside(m,selectionAnchor.x,selectionAnchor.y))selectionAnchor=null;}
 function sync(){normalizeInteraction();const select=$('maps');select.replaceChildren();for(const m of project.maps)select.add(new Option(m.name,m.id));select.value=project.active;$('notes').value=project.notes;refresh();}
-function fit(){const m=map();zoom=Math.min(2,Math.max(.125,Math.min((viewport.clientWidth-48)/(m.w*32),(viewport.clientHeight-50)/(m.h*32))));ox=Math.round((viewport.clientWidth-m.w*32*zoom)/2);oy=Math.round((viewport.clientHeight-m.h*32*zoom)/2);refresh();}
-function setZoom(z,x=viewport.clientWidth/2,y=viewport.clientHeight/2){z=Math.max(.125,Math.min(4,z));ox=x-(x-ox)*z/zoom;oy=y-(y-oy)*z/zoom;zoom=z;refresh();}
+function fit(){const m=map();zoom=Math.min(2,Math.max(.125,Math.min((viewport.clientWidth-48)/(m.w*32),(viewport.clientHeight-50)/(m.h*32))));ox=Math.round((viewport.clientWidth-m.w*32*zoom)/2);oy=Math.round((viewport.clientHeight-m.h*32*zoom)/2);if(renderedMap!==m)refresh();else positionCanvas();}
+function setZoom(z,x=viewport.clientWidth/2,y=viewport.clientHeight/2){z=Math.max(.125,Math.min(4,z));ox=x-(x-ox)*z/zoom;oy=y-(y-oy)*z/zoom;zoom=z;positionCanvas();}
 function setMode(value){
  if(drag)cancelStroke();if(['rectangle','fill','select','eyedropper','paste'].includes(value))stamp=null;
  mode=value;document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.mode===mode));$('move-stamp').setAttribute('aria-pressed',mode==='move');
@@ -93,7 +96,7 @@ function cancelStroke(){
  if(!drag)return;const old=drag;drag=null;
  if(old.before){project=JSON.parse(old.before);save();}
  if(old.kind==='select'){selection=old.selection;selectionAnchor=old.anchor;}
- if(old.kind==='pan'){ox=old.ox;oy=old.oy;}
+ if(old.kind==='pan'){ox=old.ox;oy=old.oy;positionCanvas();return;}
  refresh();
 }
 function undoAction(forward=false){cancelStroke();const context={id:map().id,w:map().w,h:map().h},from=forward?redo:undo,to=forward?undo:redo;if(!from.length)return;to.push(snapshot());project=JSON.parse(from.pop());sync();if(map().id!==context.id||map().w!==context.w||map().h!==context.h)fit();save();status(forward?'Redone.':'Undone.');}
@@ -101,6 +104,7 @@ function finishStroke(){
  if(!drag)return;const old=drag;
  if(old.kind==='rectangle'){for(let y=Math.max(0,Math.min(old.start.y,point.y));y<=Math.min(map().h-1,Math.max(old.start.y,point.y));y++)for(let x=Math.max(0,Math.min(old.start.x,point.x));x<=Math.min(map().w-1,Math.max(old.start.x,point.x));x++)apply(x,y);}
  drag=null;
+ if(old.kind==='pan'){positionCanvas();return;}
  if(old.before&&snapshot()!==old.before){undo.push(old.before);if(undo.length>80)undo.shift();redo=[];changed('Map updated. Undo restores this whole stroke.');}else {refresh();if(old.before)save();}
 }
 viewport.addEventListener('pointerdown',e=>{
@@ -118,7 +122,7 @@ viewport.addEventListener('pointerdown',e=>{
 });
 viewport.addEventListener('pointermove',e=>{
  point=locationOf(e);
- if(drag?.kind==='pan'){ox=drag.ox+e.clientX-drag.x;oy=drag.oy+e.clientY-drag.y;refresh();}
+ if(drag?.kind==='pan'){ox=drag.ox+e.clientX-drag.x;oy=drag.oy+e.clientY-drag.y;positionCanvas();}
  else if(drag?.kind==='paint'){line(drag.last,point);drag.last={...point};refresh();}
  else if(drag?.kind==='select'){const end={x:Math.max(0,Math.min(map().w-1,point.x)),y:Math.max(0,Math.min(map().h-1,point.y))};selection={mapId:project.active,rect:rectBetween(drag.start,end)};updateCursor();}
  else updateCursor();
@@ -128,7 +132,7 @@ viewport.addEventListener('pointerup',e=>{
  else finishStroke();
 });
 viewport.addEventListener('pointercancel',cancelStroke);viewport.addEventListener('lostpointercapture',cancelStroke);viewport.addEventListener('contextmenu',e=>e.preventDefault());
-viewport.addEventListener('wheel',e=>{e.preventDefault();if(e.ctrlKey||e.metaKey){const r=viewport.getBoundingClientRect();setZoom(zoom*Math.exp(-e.deltaY*.008),e.clientX-r.left,e.clientY-r.top);}else{ox-=e.deltaX;oy-=e.deltaY;refresh();}},{passive:false});
+viewport.addEventListener('wheel',e=>{e.preventDefault();if(e.ctrlKey||e.metaKey){const r=viewport.getBoundingClientRect();setZoom(zoom*Math.exp(-e.deltaY*.008),e.clientX-r.left,e.clientY-r.top);}else{ox-=e.deltaX;oy-=e.deltaY;positionCanvas();}},{passive:false});
 viewport.addEventListener('dragover',e=>{e.preventDefault();point=locationOf(e);updateCursor();});viewport.addEventListener('drop',e=>{e.preventDefault();const type=e.dataTransfer.getData('application/x-critz-stamp');if(!STAMPS[type])return;point=locationOf(e);placeStamp(type,point.x,point.y);});
 for(const i of ['fresh','ocean'])for(const t of ['still','moving','shallow-still','shallow-moving'])labels[`water-${i}-${t}`]=`${i==='fresh'?'Freshwater':'Ocean'} · ${t.replaceAll('-',' ')}`;
 function buildPalette(){for(const kind of [...MATERIALS,...FEATURES.filter(f=>f)]){const b=document.createElement('button');b.className='brush';b.dataset.brush=kind;b.setAttribute('aria-pressed',kind==='grass');const c=document.createElement('canvas');c.width=c.height=32;const m=newMap();m.terrain.fill(kind==='cliff'?'cliff':'grass');if(MATERIALS.includes(kind))m.terrain[0]=kind;else m.features[0]=kind;c.getContext('2d').drawImage(renderer.preview(m,0,0),0,0);b.append(c,document.createTextNode(labels[kind]));b.onclick=()=>selectBrush(kind);$(MATERIALS.includes(kind)?'materials':'features').append(b);}for(const[type,s]of Object.entries(STAMPS)){const b=document.createElement('button'),c=document.createElement('canvas');renderer.thumbnail(type,c);b.dataset.stamp=type;b.draggable=true;b.title=`${s.name} · ${s.w} × ${s.h} placement cells · ${s.footprint[2]} × ${s.footprint[3]} solid cells${s.treeArt?" · transparent canopy overhang":""}`;b.append(c,document.createTextNode(s.name));b.onclick=()=>selectStamp(type);b.ondragstart=e=>{selectStamp(type);e.dataTransfer.setData('application/x-critz-stamp',type);};$('stamps').append(b);}renderTiles();}
@@ -184,16 +188,16 @@ $('validate').onclick=()=>{
  }
  $('check-dialog').showModal();
 };document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>b.closest('dialog').close());
-const play=$('play'),pc=play.getContext('2d');let lastTick=0;
-function startTest(){cancelStroke();const m=map();if(blocked(m,m.spawn.x,m.spawn.y)){status('Move Hero start to a clear walking cell before testing.');$('validate').click();return;}testState={project:clone(project),map:m.id,player:{...m.spawn,facing:'down'},animation:null};testState.motion=createMotion(testState.player);testState.pendingTime=0;held=null;lastTick=performance.now();$('test-dialog').showModal();play.focus();drawTest(performance.now());}
+const play=$('play'),pc=play.getContext('2d'),testInput=new HeldDirections();let lastTick=0,frameId=null;
+function startTest(){cancelStroke();const m=map();if(blocked(m,m.spawn.x,m.spawn.y)){status('Move Hero start to a clear walking cell before testing.');$('validate').click();return;}testState={project:clone(project),map:m.id,player:{...m.spawn,facing:'down'},animation:null};testState.motion=createMotion(testState.player);testState.pendingTime=0;testInput.clear();lastTick=performance.now();testState.time=lastTick;$('test-dialog').showModal();play.focus();drawTest(testState.time);if(frameId===null&&!document.hidden)frameId=requestAnimationFrame(frame);}
 function drawTest(now){if(!testState)return;const t=testState,m=t.project.maps.find(m=>m.id===t.map),p={...t.player};if(t.motion&&!t.animation){const v=getMotionView(t.motion);Object.assign(p,{px:v.x*2,py:v.y*2,pose:v.pose,moving:v.moving,actionTick:v.actionTick});}if(t.animation){const a=t.animation,u=Math.min(1,(now-a.start)/a.duration);p.px=a.x*32+((a.tx??p.x)-a.x)*32*u;p.py=a.y*32+((a.ty??p.y)-a.y)*32*u;p.moving=true;p.jump=a.jump;p.progress=u;if(u===1){finishMapJump(t,now);}}pc.imageSmoothingEnabled=false;pc.fillStyle='#253d34';pc.fillRect(0,0,480,320);const {x:camX,y:camY}=mapCamera(m,p);pc.save();pc.translate(-camX,-camY);renderer.draw(pc,m,{project:t.project,player:p,dust:t.dust,time:now,markers:false,bounds:{x:camX,y:camY,w:480,h:320}});pc.restore();$('test-map-name').textContent=m.name;}
-function tickTest(now){const t=testState;if(!t)return;const event=tickMapTest(t,held,now);if(event==='jump')$('test-status').textContent='One-way ledge · hopping to clear ground.';if(event==='transition'){held=null;$('test-status').textContent='Entered '+t.project.maps.find(m=>m.id===t.map).name;}}
+function tickTest(now){const t=testState;if(!t)return;const event=tickMapTest(t,testInput.latest(),now);if(event==='jump')$('test-status').textContent='One-way ledge · hopping to clear ground.';if(event==='transition'){testInput.clear();$('test-status').textContent='Entered '+t.project.maps.find(m=>m.id===t.map).name;}}
 
-function frame(now){if(testState){testState.pendingTime+=Math.min(100,Math.max(0,now-lastTick));lastTick=now;while(testState.pendingTime>=TICK_SECONDS*1000){testState.pendingTime-=TICK_SECONDS*1000;tickTest(now);}drawTest(now);}requestAnimationFrame(frame);}
-$('test').onclick=startTest;$('exit-test').onclick=()=>$('test-dialog').close();$('test-dialog').addEventListener('close',()=>{testState=null;held=null;status('Back to your draft. Test movements and pushed boulders were discarded.');});document.querySelectorAll('[data-dir]').forEach(b=>{b.onpointerdown=e=>{e.preventDefault();held=b.dataset.dir;b.setPointerCapture(e.pointerId);};b.onpointerup=b.onpointercancel=b.onlostpointercapture=()=>held=null;});
+function frame(now){frameId=null;if(!testState||document.hidden)return;const elapsed=Math.min(100,Math.max(0,now-lastTick));lastTick=now;testState.pendingTime+=elapsed;testState.time+=elapsed;while(testState.pendingTime>=TICK_SECONDS*1000){testState.pendingTime-=TICK_SECONDS*1000;tickTest(testState.time);}drawTest(testState.time);frameId=requestAnimationFrame(frame);}
+$('test').onclick=startTest;$('exit-test').onclick=()=>$('test-dialog').close();$('test-dialog').addEventListener('close',()=>{testState=null;testInput.clear();if(frameId!==null)cancelAnimationFrame(frameId);frameId=null;status('Back to your draft. Test movements and pushed boulders were discarded.');});document.querySelectorAll('[data-dir]').forEach(b=>{b.onpointerdown=e=>{e.preventDefault();testInput.press('pointer:'+e.pointerId,b.dataset.dir);b.setPointerCapture(e.pointerId);};b.onpointerup=b.onpointercancel=b.onlostpointercapture=e=>testInput.release('pointer:'+e.pointerId);});
 const keys={ArrowUp:'up',ArrowDown:'down',ArrowLeft:'left',ArrowRight:'right',w:'up',s:'down',a:'left',d:'right'};
 window.addEventListener('keydown',e=>{
- if(testState){if(keys[e.key]){e.preventDefault();held=keys[e.key];}return;}
+ if(testState){if(keys[e.key]){e.preventDefault();testInput.press('key:'+e.key,keys[e.key]);}return;}
  if(e.target.matches('input,textarea,select')||e.target.isContentEditable||document.querySelector('dialog[open]'))return;
  const key=e.key.toLowerCase(),modifier=e.ctrlKey||e.metaKey,onMap=document.activeElement===viewport;
  if(modifier&&key==='z'){e.preventDefault();undoAction(e.shiftKey);return;}
@@ -218,9 +222,9 @@ window.addEventListener('keydown',e=>{
   transaction(p=>paintLayer(p,p.active,point.x,point.y,brush,editLayer,{erase:mode==='erase',raw:raw?{id:raw,blocked:$('raw-block').checked}:null}),'Cell updated.');
  }
 });
-window.addEventListener('keyup',e=>{if(e.code==='Space')space=false;if(keys[e.key]===held)held=null;});
-window.addEventListener('blur',()=>{space=false;held=null;cancelStroke();});document.addEventListener('visibilitychange',()=>{held=null;if(document.hidden)cancelStroke();});
-new ResizeObserver(()=>{if(loaded)refresh();}).observe(viewport);
+window.addEventListener('keyup',e=>{if(e.code==='Space')space=false;if(keys[e.key])testInput.release('key:'+e.key);});
+window.addEventListener('blur',()=>{space=false;testInput.clear();cancelStroke();});document.addEventListener('visibilitychange',()=>{testInput.clear();lastTick=performance.now();if(document.hidden){cancelStroke();if(frameId!==null)cancelAnimationFrame(frameId);frameId=null;}else if(testState&&frameId===null)frameId=requestAnimationFrame(frame);});
+new ResizeObserver(()=>{if(loaded)positionCanvas();}).observe(viewport);
 // Read-only inspection hook for isolated browser QA; game state is never imported.
-export function inspect(){return{project:clone(project),mode,brush,stamp,raw,zoom,ox,oy,editLayer,point:{...point},selection:clone(selection),clipboard:clipboard?{w:clipboard.w,h:clipboard.h,layers:[...clipboard.layers],objects:clipboard.objects?.length||0}:null,history:{undo:undo.length,redo:redo.length},test:testState?clone({map:testState.map,player:testState.player,motion:getMotionView(testState.motion),animation:testState.animation,dust:testState.dust,hops:testState.hops||0,landings:testState.landings||0}):null};}
-try{await renderer.load();try{const saved=review?null:localStorage.getItem(SAVE_KEY);if(saved){project=importProject(saved,new Set(renderer.tiles.keys()));$('saved').textContent='● Saved draft restored';}else $('saved').textContent=review?'Review sandbox · your saved draft is untouched':'Example clearing · make it yours';}catch(e){recovery=true;$('saved').textContent='Unreadable draft retained. Import a backup to recover.';status(e.message);}buildPalette();sync();loaded=true;fit();status(recovery?'Your stored draft was not overwritten. Import a backup or start a new blank world.':'Ready. Paint terrain, drop a building, then take Hero for a walk.');requestAnimationFrame(frame);if(new URLSearchParams(location.search).get('play')==='1'&&!recovery){startTest();$('exit-test').textContent='Edit this map';document.title='Your world · Critz';}}catch(e){status('Editor could not load: '+e.message);$('saved').textContent='Reload to retry loading the tiles.';console.error(e);}
+export function inspect(){return{project:clone(project),mode,brush,stamp,raw,zoom,ox,oy,editLayer,point:{...point},selection:clone(selection),clipboard:clipboard?{w:clipboard.w,h:clipboard.h,layers:[...clipboard.layers],objects:clipboard.objects?.length||0}:null,history:{undo:undo.length,redo:redo.length},test:testState?clone({map:testState.map,player:testState.player,motion:getMotionView(testState.motion),animation:testState.animation,dust:testState.dust,time:testState.time,hops:testState.hops||0,landings:testState.landings||0}):null};}
+try{await renderer.load();try{const saved=review?null:localStorage.getItem(SAVE_KEY);if(saved){project=importProject(saved,new Set(renderer.tiles.keys()));$('saved').textContent='● Saved draft restored';}else $('saved').textContent=review?'Review sandbox · your saved draft is untouched':'Example clearing · make it yours';}catch(e){recovery=true;$('saved').textContent='Unreadable draft retained. Import a backup to recover.';status(e.message);}buildPalette();sync();loaded=true;fit();status(recovery?'Your stored draft was not overwritten. Import a backup or start a new blank world.':'Ready. Paint terrain, drop a building, then take Hero for a walk.');if(new URLSearchParams(location.search).get('play')==='1'&&!recovery){startTest();$('exit-test').textContent='Edit this map';document.title='Your world · Critz';}}catch(e){status('Editor could not load: '+e.message);$('saved').textContent='Reload to retry loading the tiles.';console.error(e);}

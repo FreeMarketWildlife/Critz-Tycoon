@@ -1,3 +1,7 @@
+# M1.TO1 — Measured technical optimization
+
+**Implementation/checks complete; parent deployment review pending.** Delivered reduced asset/startup cost, exact faster shoreline compilation and packed phase caches, camera culling, independent input ownership, paused editor playtests and bitmap reuse for pan/zoom.289 units and204 production-browser groups pass, with preserved native pixels, story and v1 saves. [Morning report and exact evidence](reviews/M1-TO1/README.md). Parent reviews before publishing the tested build. Hosted/physical-phone timing and total memory profiling remain subsequent measurement; large-map partial content repaint remains future technical work. No creative feature, art redesign or wider milestone gate change.
+
 # M1.HR3 — Hero facial-shape correction
 
 User requests removal of the projecting nose and sustained checking of the boy Hero. Correct front/both-profile facial shapes; retain body, palette, anchor and north; deliver native directions, matched before/after face and background inspections, editable sources and saved-pixel checks. Correction implementation/checks **complete; awaiting visual review**. No wider self-approval or gameplay change. [Review](reviews/M1-HR3/README.md).

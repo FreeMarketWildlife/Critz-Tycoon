@@ -17,9 +17,12 @@ function contactSource(id,draw,w,h){
  return contactSources.get(id);
 }
 export async function initWorldArt() {
-  atlas = await loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url));
+  [atlas,correctedCast] = await Promise.all([
+    loadAtlas(new URL('../assets/playable/atlas.json', import.meta.url)),
+    loadAtlas(new URL('../assets/playable/characters/atlas.json', import.meta.url)),
+    loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds(),loadHomeArt(),
+  ]);
   entries = new Map(atlas.manifest.assets.map(a => [a.id, a]));
-  [correctedCast] = await Promise.all([loadAtlas(new URL('../assets/playable/characters/atlas.json', import.meta.url)),loadEnvironment(),loadLivingArt(),loadGreenhouseGrounds(),loadHomeArt()]);
 }
 function sprite(c, id, x, y) {
   const a = entries.get(id);

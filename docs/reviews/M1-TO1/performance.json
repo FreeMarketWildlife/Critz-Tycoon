@@ -1,0 +1,2793 @@
+{
+  "scope": "Local production preview, desktop Chrome on this host; 390x844 viewport. Cold network: 80ms latency, 1.6Mbps down, 750kbps up; no CPU throttle. Timings are diagnostics, not physical-phone claims. Local server sends uncompressed responses. Hosted compression/routing and physical phones are not measured.",
+  "startup": {
+    "game": {
+      "samples": [
+        {
+          "readyMs": 10825.255667000001,
+          "requestCount": 72,
+          "decodedBytes": 1955198,
+          "resources": [
+            {
+              "path": "/style.css",
+              "startMs": 96.90000009536743,
+              "durationMs": 369,
+              "bytes": 28257,
+              "transferBytes": 28557
+            },
+            {
+              "path": "/src/main.js",
+              "startMs": 103.90000009536743,
+              "durationMs": 549.3000001907349,
+              "bytes": 63643,
+              "transferBytes": 63943
+            },
+            {
+              "path": "/art-review/greenhouse-state.js",
+              "startMs": 654.7000002861023,
+              "durationMs": 193.19999980926514,
+              "bytes": 5207,
+              "transferBytes": 5507
+            },
+            {
+              "path": "/src/day-clock.js",
+              "startMs": 654.8000001907349,
+              "durationMs": 149.09999990463257,
+              "bytes": 2304,
+              "transferBytes": 2604
+            },
+            {
+              "path": "/src/fruit-trees.js",
+              "startMs": 654.9000000953674,
+              "durationMs": 160.90000009536743,
+              "bytes": 2402,
+              "transferBytes": 2702
+            },
+            {
+              "path": "/src/dialogue.js",
+              "startMs": 654.9000000953674,
+              "durationMs": 169.19999980926514,
+              "bytes": 1464,
+              "transferBytes": 1764
+            },
+            {
+              "path": "/src/audio/director.js",
+              "startMs": 654.9000000953674,
+              "durationMs": 207.40000009536743,
+              "bytes": 7134,
+              "transferBytes": 7434
+            },
+            {
+              "path": "/src/ui-settings.js",
+              "startMs": 655,
+              "durationMs": 136.09999990463257,
+              "bytes": 545,
+              "transferBytes": 845
+            },
+            {
+              "path": "/src/lighting.js",
+              "startMs": 655.2000002861023,
+              "durationMs": 252.2999997138977,
+              "bytes": 1643,
+              "transferBytes": 1943
+            },
+            {
+              "path": "/src/actors.js",
+              "startMs": 655.2000002861023,
+              "durationMs": 265.8999996185303,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/src/living-art.js",
+              "startMs": 655.3000001907349,
+              "durationMs": 281.90000009536743,
+              "bytes": 2057,
+              "transferBytes": 2357
+            },
+            {
+              "path": "/src/state.js",
+              "startMs": 655.3000001907349,
+              "durationMs": 627.1999998092651,
+              "bytes": 18026,
+              "transferBytes": 18326
+            },
+            {
+              "path": "/src/tank-render.js",
+              "startMs": 655.4000000953674,
+              "durationMs": 348.40000009536743,
+              "bytes": 3937,
+              "transferBytes": 4237
+            },
+            {
+              "path": "/src/world.js",
+              "startMs": 655.4000000953674,
+              "durationMs": 610.5,
+              "bytes": 16260,
+              "transferBytes": 16560
+            },
+            {
+              "path": "/src/grid-save.js",
+              "startMs": 655.5,
+              "durationMs": 415.59999990463257,
+              "bytes": 1735,
+              "transferBytes": 2035
+            },
+            {
+              "path": "/src/held-input.js",
+              "startMs": 655.5,
+              "durationMs": 460.59999990463257,
+              "bytes": 675,
+              "transferBytes": 975
+            },
+            {
+              "path": "/src/render.js",
+              "startMs": 655.5,
+              "durationMs": 560.4000000953674,
+              "bytes": 9442,
+              "transferBytes": 9742
+            },
+            {
+              "path": "/src/movement.js",
+              "startMs": 655.5,
+              "durationMs": 573.4000000953674,
+              "bytes": 8042,
+              "transferBytes": 8342
+            },
+            {
+              "path": "/src/audio/cues.js",
+              "startMs": 862.8000001907349,
+              "durationMs": 358.2999997138977,
+              "bytes": 1550,
+              "transferBytes": 1850
+            },
+            {
+              "path": "/src/passage-art.js",
+              "startMs": 908.2000002861023,
+              "durationMs": 351.2999997138977,
+              "bytes": 2613,
+              "transferBytes": 2913
+            },
+            {
+              "path": "/src/atlas.js",
+              "startMs": 937.8000001907349,
+              "durationMs": 382.19999980926514,
+              "bytes": 1599,
+              "transferBytes": 1899
+            },
+            {
+              "path": "/src/home-art.js",
+              "startMs": 1004.5999999046326,
+              "durationMs": 307.90000009536743,
+              "bytes": 1255,
+              "transferBytes": 1555
+            },
+            {
+              "path": "/src/greenhouse-grounds.js",
+              "startMs": 1216.8000001907349,
+              "durationMs": 119.09999990463257,
+              "bytes": 1703,
+              "transferBytes": 2003
+            },
+            {
+              "path": "/src/contact-rules.js",
+              "startMs": 1216.9000000953674,
+              "durationMs": 161.90000009536743,
+              "bytes": 4107,
+              "transferBytes": 4407
+            },
+            {
+              "path": "/src/world-space.js",
+              "startMs": 1217,
+              "durationMs": 140.59999990463257,
+              "bytes": 306,
+              "transferBytes": 606
+            },
+            {
+              "path": "/src/environment-render.js",
+              "startMs": 1217,
+              "durationMs": 236.90000009536743,
+              "bytes": 9992,
+              "transferBytes": 10292
+            },
+            {
+              "path": "/src/fence-crossing.js",
+              "startMs": 1266.9000000953674,
+              "durationMs": 136.09999990463257,
+              "bytes": 646,
+              "transferBytes": 946
+            },
+            {
+              "path": "/src/overworld.js",
+              "startMs": 1267,
+              "durationMs": 240.59999990463257,
+              "bytes": 14508,
+              "transferBytes": 14808
+            },
+            {
+              "path": "/src/world-water.js",
+              "startMs": 1454.5,
+              "durationMs": 157.7000002861023,
+              "bytes": 5843,
+              "transferBytes": 6143
+            },
+            {
+              "path": "/src/contact-art.js",
+              "startMs": 1454.5999999046326,
+              "durationMs": 119.5,
+              "bytes": 2128,
+              "transferBytes": 2428
+            },
+            {
+              "path": "/src/tree-art.js",
+              "startMs": 1454.7000002861023,
+              "durationMs": 136.09999990463257,
+              "bytes": 2125,
+              "transferBytes": 2425
+            },
+            {
+              "path": "/src/contact-catalogue.js",
+              "startMs": 1574.8000001907349,
+              "durationMs": 99.69999980926514,
+              "bytes": 362,
+              "transferBytes": 662
+            },
+            {
+              "path": "/src/asset-urls.js",
+              "startMs": 1574.9000000953674,
+              "durationMs": 104.19999980926514,
+              "bytes": 109,
+              "transferBytes": 409
+            },
+            {
+              "path": "/src/water-map.js",
+              "startMs": 1612.9000000953674,
+              "durationMs": 157.69999980926514,
+              "bytes": 3202,
+              "transferBytes": 3502
+            },
+            {
+              "path": "/src/coastal-format.js",
+              "startMs": 1612.9000000953674,
+              "durationMs": 173.80000019073486,
+              "bytes": 5503,
+              "transferBytes": 5803
+            },
+            {
+              "path": "/src/coastal-drawing.js",
+              "startMs": 1613,
+              "durationMs": 119.5,
+              "bytes": 2603,
+              "transferBytes": 2903
+            },
+            {
+              "path": "/src/water-surfaces.js",
+              "startMs": 1613.0999999046326,
+              "durationMs": 140.7000002861023,
+              "bytes": 1831,
+              "transferBytes": 2131
+            },
+            {
+              "path": "/src/water-clouds.js",
+              "startMs": 1613.0999999046326,
+              "durationMs": 163,
+              "bytes": 880,
+              "transferBytes": 1180
+            },
+            {
+              "path": "/assets/playable/characters/atlas.json",
+              "startMs": 1803.5,
+              "durationMs": 3034,
+              "bytes": 101677,
+              "transferBytes": 101977
+            },
+            {
+              "path": "/assets/playable/atlas.json",
+              "startMs": 1803.5,
+              "durationMs": 3408.7000002861023,
+              "bytes": 116101,
+              "transferBytes": 116401
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.json",
+              "startMs": 1803.8000001907349,
+              "durationMs": 237.09999990463257,
+              "bytes": 5216,
+              "transferBytes": 5516
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.json",
+              "startMs": 1803.8000001907349,
+              "durationMs": 2757.4000000953674,
+              "bytes": 90921,
+              "transferBytes": 91221
+            },
+            {
+              "path": "/assets/playable/overworld/master.json",
+              "startMs": 1803.9000000953674,
+              "durationMs": 4578.699999809265,
+              "bytes": 159255,
+              "transferBytes": 159555
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.json",
+              "startMs": 1804,
+              "durationMs": 1645.2000002861023,
+              "bytes": 50835,
+              "transferBytes": 51135
+            },
+            {
+              "path": "/assets/playable/contact/runtime.json",
+              "startMs": 1804.2000002861023,
+              "durationMs": 7848.89999961853,
+              "bytes": 331625,
+              "transferBytes": 331925
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1804.3000001907349,
+              "durationMs": 1899.5999999046326,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/review/coastal-format/water.json",
+              "startMs": 1804.4000000953674,
+              "durationMs": 2741.199999809265,
+              "bytes": 24939,
+              "transferBytes": 25239
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.json",
+              "startMs": 1804.4000000953674,
+              "durationMs": 4119.800000190735,
+              "bytes": 46719,
+              "transferBytes": 47019
+            },
+            {
+              "path": "/assets/review/coastal-format/props.json",
+              "startMs": 1804.5,
+              "durationMs": 2882.800000190735,
+              "bytes": 999,
+              "transferBytes": 1299
+            },
+            {
+              "path": "/assets/review/trees-r2/objects.json",
+              "startMs": 1804.5999999046326,
+              "durationMs": 3048.7000002861023,
+              "bytes": 1985,
+              "transferBytes": 2285
+            },
+            {
+              "path": "/assets/playable/button-v2/atlas.json",
+              "startMs": 1804.7000002861023,
+              "durationMs": 3257.5,
+              "bytes": 3365,
+              "transferBytes": 3665
+            },
+            {
+              "path": "/assets/playable/living/atlas.json",
+              "startMs": 1804.7000002861023,
+              "durationMs": 4877.89999961853,
+              "bytes": 67172,
+              "transferBytes": 67472
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1804.9000000953674,
+              "durationMs": 3498.199999809265,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/review/luke-greenhouse-r2/greenhouse.png",
+              "startMs": 1804.9000000953674,
+              "durationMs": 3602.5999999046326,
+              "bytes": 3684,
+              "transferBytes": 3984
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.png",
+              "startMs": 2041.3000001907349,
+              "durationMs": 3456.4000000953674,
+              "bytes": 3000,
+              "transferBytes": 3300
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.png",
+              "startMs": 3450.300000190735,
+              "durationMs": 2511.7999997138977,
+              "bytes": 14893,
+              "transferBytes": 15193
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.png",
+              "startMs": 3704.5999999046326,
+              "durationMs": 2228,
+              "bytes": 10561,
+              "transferBytes": 10861
+            },
+            {
+              "path": "/assets/review/coastal-format/water.png",
+              "startMs": 4546.300000190735,
+              "durationMs": 1649.2999997138977,
+              "bytes": 6191,
+              "transferBytes": 6491
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.png",
+              "startMs": 4562,
+              "durationMs": 2175.2000002861023,
+              "bytes": 28278,
+              "transferBytes": 28578
+            },
+            {
+              "path": "/assets/review/coastal-format/props.png",
+              "startMs": 4687.900000095367,
+              "durationMs": 1437.9000000953674,
+              "bytes": 1335,
+              "transferBytes": 1635
+            },
+            {
+              "path": "/assets/playable/characters/atlas.png",
+              "startMs": 4838.800000190735,
+              "durationMs": 2046.0999999046326,
+              "bytes": 28113,
+              "transferBytes": 28413
+            },
+            {
+              "path": "/assets/review/trees-r2/tiered-cedar.png",
+              "startMs": 4853.900000095367,
+              "durationMs": 1462.1999998092651,
+              "bytes": 1225,
+              "transferBytes": 1525
+            },
+            {
+              "path": "/assets/review/trees-r2/soft-willow.png",
+              "startMs": 4854,
+              "durationMs": 1611.9000000953674,
+              "bytes": 1408,
+              "transferBytes": 1708
+            },
+            {
+              "path": "/assets/review/trees-r2/old-grove.png",
+              "startMs": 4854,
+              "durationMs": 1687.2000002861023,
+              "bytes": 1642,
+              "transferBytes": 1942
+            },
+            {
+              "path": "/assets/review/trees-r2/coastal-palm.png",
+              "startMs": 4854,
+              "durationMs": 1769,
+              "bytes": 1486,
+              "transferBytes": 1786
+            },
+            {
+              "path": "/assets/playable/button-v2/atlas.png",
+              "startMs": 5062.800000190735,
+              "durationMs": 1632.7999997138977,
+              "bytes": 1461,
+              "transferBytes": 1761
+            },
+            {
+              "path": "/assets/playable/atlas.png",
+              "startMs": 5213.5,
+              "durationMs": 3111,
+              "bytes": 65732,
+              "transferBytes": 66032
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.png",
+              "startMs": 5925.099999904633,
+              "durationMs": 3590.9000000953674,
+              "bytes": 140664,
+              "transferBytes": 140964
+            },
+            {
+              "path": "/assets/playable/overworld/master.png",
+              "startMs": 6383.800000190735,
+              "durationMs": 2301.7999997138977,
+              "bytes": 78147,
+              "transferBytes": 78447
+            },
+            {
+              "path": "/assets/playable/living/atlas.png",
+              "startMs": 6683.400000095367,
+              "durationMs": 2662.0999999046326,
+              "bytes": 119974,
+              "transferBytes": 120274
+            },
+            {
+              "path": "/icon.svg",
+              "startMs": 9518.400000095367,
+              "durationMs": 89.19999980926514,
+              "bytes": 342,
+              "transferBytes": 642
+            },
+            {
+              "path": "/assets/playable/contact/atlas.png",
+              "startMs": 9654.700000286102,
+              "durationMs": 1077.8999996185303,
+              "bytes": 196374,
+              "transferBytes": 196674
+            }
+          ]
+        },
+        {
+          "readyMs": 10834.845708,
+          "requestCount": 72,
+          "decodedBytes": 1955198,
+          "resources": [
+            {
+              "path": "/style.css",
+              "startMs": 105.60000038146973,
+              "durationMs": 367.8999996185303,
+              "bytes": 28257,
+              "transferBytes": 28557
+            },
+            {
+              "path": "/src/main.js",
+              "startMs": 111.60000038146973,
+              "durationMs": 549.8999996185303,
+              "bytes": 63643,
+              "transferBytes": 63943
+            },
+            {
+              "path": "/src/day-clock.js",
+              "startMs": 663,
+              "durationMs": 148.7000002861023,
+              "bytes": 2304,
+              "transferBytes": 2604
+            },
+            {
+              "path": "/art-review/greenhouse-state.js",
+              "startMs": 663,
+              "durationMs": 193.5,
+              "bytes": 5207,
+              "transferBytes": 5507
+            },
+            {
+              "path": "/src/fruit-trees.js",
+              "startMs": 663.1000003814697,
+              "durationMs": 168.69999980926514,
+              "bytes": 2402,
+              "transferBytes": 2702
+            },
+            {
+              "path": "/src/audio/director.js",
+              "startMs": 663.1000003814697,
+              "durationMs": 206.69999980926514,
+              "bytes": 7134,
+              "transferBytes": 7434
+            },
+            {
+              "path": "/src/ui-settings.js",
+              "startMs": 663.2000002861023,
+              "durationMs": 131.69999980926514,
+              "bytes": 545,
+              "transferBytes": 845
+            },
+            {
+              "path": "/src/dialogue.js",
+              "startMs": 663.2000002861023,
+              "durationMs": 163.09999990463257,
+              "bytes": 1464,
+              "transferBytes": 1764
+            },
+            {
+              "path": "/src/actors.js",
+              "startMs": 663.2000002861023,
+              "durationMs": 243.59999990463257,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/src/lighting.js",
+              "startMs": 663.3000001907349,
+              "durationMs": 251.09999990463257,
+              "bytes": 1643,
+              "transferBytes": 1943
+            },
+            {
+              "path": "/src/living-art.js",
+              "startMs": 663.3000001907349,
+              "durationMs": 275.69999980926514,
+              "bytes": 2057,
+              "transferBytes": 2357
+            },
+            {
+              "path": "/src/world.js",
+              "startMs": 663.3000001907349,
+              "durationMs": 604.4000000953674,
+              "bytes": 16260,
+              "transferBytes": 16560
+            },
+            {
+              "path": "/src/state.js",
+              "startMs": 663.3000001907349,
+              "durationMs": 619.0999999046326,
+              "bytes": 18026,
+              "transferBytes": 18326
+            },
+            {
+              "path": "/src/tank-render.js",
+              "startMs": 663.4000000953674,
+              "durationMs": 356.40000009536743,
+              "bytes": 3937,
+              "transferBytes": 4237
+            },
+            {
+              "path": "/src/grid-save.js",
+              "startMs": 663.5,
+              "durationMs": 401.6000003814697,
+              "bytes": 1735,
+              "transferBytes": 2035
+            },
+            {
+              "path": "/src/render.js",
+              "startMs": 663.5,
+              "durationMs": 566.6000003814697,
+              "bytes": 9442,
+              "transferBytes": 9742
+            },
+            {
+              "path": "/src/held-input.js",
+              "startMs": 663.6000003814697,
+              "durationMs": 468.3999996185303,
+              "bytes": 675,
+              "transferBytes": 975
+            },
+            {
+              "path": "/src/movement.js",
+              "startMs": 663.6000003814697,
+              "durationMs": 572.7999997138977,
+              "bytes": 8042,
+              "transferBytes": 8342
+            },
+            {
+              "path": "/src/audio/cues.js",
+              "startMs": 870.4000000953674,
+              "durationMs": 344.80000019073486,
+              "bytes": 1550,
+              "transferBytes": 1850
+            },
+            {
+              "path": "/src/passage-art.js",
+              "startMs": 915,
+              "durationMs": 360.90000009536743,
+              "bytes": 2613,
+              "transferBytes": 2913
+            },
+            {
+              "path": "/src/atlas.js",
+              "startMs": 940.1000003814697,
+              "durationMs": 371.3999996185303,
+              "bytes": 1599,
+              "transferBytes": 1899
+            },
+            {
+              "path": "/src/home-art.js",
+              "startMs": 1020.4000000953674,
+              "durationMs": 298.7000002861023,
+              "bytes": 1255,
+              "transferBytes": 1555
+            },
+            {
+              "path": "/src/greenhouse-grounds.js",
+              "startMs": 1230.9000000953674,
+              "durationMs": 105.59999990463257,
+              "bytes": 1703,
+              "transferBytes": 2003
+            },
+            {
+              "path": "/src/world-space.js",
+              "startMs": 1231,
+              "durationMs": 134.30000019073486,
+              "bytes": 306,
+              "transferBytes": 606
+            },
+            {
+              "path": "/src/contact-rules.js",
+              "startMs": 1231,
+              "durationMs": 156.60000038146973,
+              "bytes": 4107,
+              "transferBytes": 4407
+            },
+            {
+              "path": "/src/environment-render.js",
+              "startMs": 1231.1000003814697,
+              "durationMs": 240.09999990463257,
+              "bytes": 9992,
+              "transferBytes": 10292
+            },
+            {
+              "path": "/src/fence-crossing.js",
+              "startMs": 1268.5,
+              "durationMs": 133.5,
+              "bytes": 646,
+              "transferBytes": 946
+            },
+            {
+              "path": "/src/overworld.js",
+              "startMs": 1268.7000002861023,
+              "durationMs": 246.5,
+              "bytes": 14508,
+              "transferBytes": 14808
+            },
+            {
+              "path": "/src/world-water.js",
+              "startMs": 1472.8000001907349,
+              "durationMs": 156.5,
+              "bytes": 5843,
+              "transferBytes": 6143
+            },
+            {
+              "path": "/src/contact-art.js",
+              "startMs": 1472.9000000953674,
+              "durationMs": 125.5,
+              "bytes": 2128,
+              "transferBytes": 2428
+            },
+            {
+              "path": "/src/tree-art.js",
+              "startMs": 1473,
+              "durationMs": 118.80000019073486,
+              "bytes": 2125,
+              "transferBytes": 2425
+            },
+            {
+              "path": "/src/contact-catalogue.js",
+              "startMs": 1599.2000002861023,
+              "durationMs": 96.59999990463257,
+              "bytes": 362,
+              "transferBytes": 662
+            },
+            {
+              "path": "/src/asset-urls.js",
+              "startMs": 1599.2000002861023,
+              "durationMs": 104.09999990463257,
+              "bytes": 109,
+              "transferBytes": 409
+            },
+            {
+              "path": "/src/water-map.js",
+              "startMs": 1630.1000003814697,
+              "durationMs": 156.39999961853027,
+              "bytes": 3202,
+              "transferBytes": 3502
+            },
+            {
+              "path": "/src/coastal-drawing.js",
+              "startMs": 1630.2000002861023,
+              "durationMs": 139.59999990463257,
+              "bytes": 2603,
+              "transferBytes": 2903
+            },
+            {
+              "path": "/src/coastal-format.js",
+              "startMs": 1630.2000002861023,
+              "durationMs": 171.2999997138977,
+              "bytes": 5503,
+              "transferBytes": 5803
+            },
+            {
+              "path": "/src/water-surfaces.js",
+              "startMs": 1630.3000001907349,
+              "durationMs": 131.19999980926514,
+              "bytes": 1831,
+              "transferBytes": 2131
+            },
+            {
+              "path": "/src/water-clouds.js",
+              "startMs": 1630.3000001907349,
+              "durationMs": 163.40000009536743,
+              "bytes": 880,
+              "transferBytes": 1180
+            },
+            {
+              "path": "/assets/playable/atlas.json",
+              "startMs": 1822,
+              "durationMs": 3421.800000190735,
+              "bytes": 116101,
+              "transferBytes": 116401
+            },
+            {
+              "path": "/assets/playable/characters/atlas.json",
+              "startMs": 1822.1000003814697,
+              "durationMs": 3031.0999999046326,
+              "bytes": 101677,
+              "transferBytes": 101977
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.json",
+              "startMs": 1822.3000001907349,
+              "durationMs": 2752.5,
+              "bytes": 90921,
+              "transferBytes": 91221
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.json",
+              "startMs": 1822.6000003814697,
+              "durationMs": 263.8999996185303,
+              "bytes": 5216,
+              "transferBytes": 5516
+            },
+            {
+              "path": "/assets/playable/overworld/master.json",
+              "startMs": 1822.6000003814697,
+              "durationMs": 4575.89999961853,
+              "bytes": 159255,
+              "transferBytes": 159555
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.json",
+              "startMs": 1822.7000002861023,
+              "durationMs": 1650.7999997138977,
+              "bytes": 50835,
+              "transferBytes": 51135
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1822.9000000953674,
+              "durationMs": 1905.2000002861023,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/playable/contact/runtime.json",
+              "startMs": 1822.9000000953674,
+              "durationMs": 7854.099999904633,
+              "bytes": 331625,
+              "transferBytes": 331925
+            },
+            {
+              "path": "/assets/review/coastal-format/water.json",
+              "startMs": 1823.1000003814697,
+              "durationMs": 2745.2999997138977,
+              "bytes": 24939,
+              "transferBytes": 25239
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.json",
+              "startMs": 1823.2000002861023,
+              "durationMs": 4131.400000095367,
+              "bytes": 46719,
+              "transferBytes": 47019
+            },
+            {
+              "path": "/assets/review/coastal-format/props.json",
+              "startMs": 1823.3000001907349,
+              "durationMs": 2871.5999999046326,
+              "bytes": 999,
+              "transferBytes": 1299
+            },
+            {
+              "path": "/assets/review/trees-r2/objects.json",
+              "startMs": 1823.3000001907349,
+              "durationMs": 3036.5,
+              "bytes": 1985,
+              "transferBytes": 2285
+            },
+            {
+              "path": "/assets/playable/living/atlas.json",
+              "startMs": 1823.4000000953674,
+              "durationMs": 4875.200000286102,
+              "bytes": 67172,
+              "transferBytes": 67472
+            },
+            {
+              "path": "/assets/playable/button-v2/atlas.json",
+              "startMs": 1823.5,
+              "durationMs": 3246.300000190735,
+              "bytes": 3365,
+              "transferBytes": 3665
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1823.8000001907349,
+              "durationMs": 3492.699999809265,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/review/luke-greenhouse-r2/greenhouse.png",
+              "startMs": 1823.8000001907349,
+              "durationMs": 3606.4000000953674,
+              "bytes": 3684,
+              "transferBytes": 3984
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.png",
+              "startMs": 2087.1000003814697,
+              "durationMs": 3424.3999996185303,
+              "bytes": 3000,
+              "transferBytes": 3300
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.png",
+              "startMs": 3474.1000003814697,
+              "durationMs": 2512.2999997138977,
+              "bytes": 14893,
+              "transferBytes": 15193
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.png",
+              "startMs": 3728.6000003814697,
+              "durationMs": 2219.8999996185303,
+              "bytes": 10561,
+              "transferBytes": 10861
+            },
+            {
+              "path": "/assets/review/coastal-format/water.png",
+              "startMs": 4569.200000286102,
+              "durationMs": 1649,
+              "bytes": 6191,
+              "transferBytes": 6491
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.png",
+              "startMs": 4575.700000286102,
+              "durationMs": 2175.699999809265,
+              "bytes": 28278,
+              "transferBytes": 28578
+            },
+            {
+              "path": "/assets/review/coastal-format/props.png",
+              "startMs": 4695.5,
+              "durationMs": 1456.9000000953674,
+              "bytes": 1335,
+              "transferBytes": 1635
+            },
+            {
+              "path": "/assets/playable/characters/atlas.png",
+              "startMs": 4854.200000286102,
+              "durationMs": 2082.4000000953674,
+              "bytes": 28113,
+              "transferBytes": 28413
+            },
+            {
+              "path": "/assets/review/trees-r2/tiered-cedar.png",
+              "startMs": 4860.400000095367,
+              "durationMs": 1476.0999999046326,
+              "bytes": 1225,
+              "transferBytes": 1525
+            },
+            {
+              "path": "/assets/review/trees-r2/soft-willow.png",
+              "startMs": 4860.400000095367,
+              "durationMs": 1626.0999999046326,
+              "bytes": 1408,
+              "transferBytes": 1708
+            },
+            {
+              "path": "/assets/review/trees-r2/old-grove.png",
+              "startMs": 4860.5,
+              "durationMs": 1693.4000000953674,
+              "bytes": 1642,
+              "transferBytes": 1942
+            },
+            {
+              "path": "/assets/review/trees-r2/coastal-palm.png",
+              "startMs": 4860.5,
+              "durationMs": 1776,
+              "bytes": 1486,
+              "transferBytes": 1786
+            },
+            {
+              "path": "/assets/playable/button-v2/atlas.png",
+              "startMs": 5070.200000286102,
+              "durationMs": 1641.2999997138977,
+              "bytes": 1461,
+              "transferBytes": 1761
+            },
+            {
+              "path": "/assets/playable/atlas.png",
+              "startMs": 5244.800000190735,
+              "durationMs": 3103.800000190735,
+              "bytes": 65732,
+              "transferBytes": 66032
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.png",
+              "startMs": 5955.10000038147,
+              "durationMs": 3587.0999999046326,
+              "bytes": 140664,
+              "transferBytes": 140964
+            },
+            {
+              "path": "/assets/playable/overworld/master.png",
+              "startMs": 6399.200000286102,
+              "durationMs": 2307.699999809265,
+              "bytes": 78147,
+              "transferBytes": 78447
+            },
+            {
+              "path": "/assets/playable/living/atlas.png",
+              "startMs": 6699.200000286102,
+              "durationMs": 2669.199999809265,
+              "bytes": 119974,
+              "transferBytes": 120274
+            },
+            {
+              "path": "/icon.svg",
+              "startMs": 9543.700000286102,
+              "durationMs": 92.90000009536743,
+              "bytes": 342,
+              "transferBytes": 642
+            },
+            {
+              "path": "/assets/playable/contact/atlas.png",
+              "startMs": 9679.200000286102,
+              "durationMs": 1075.6999998092651,
+              "bytes": 196374,
+              "transferBytes": 196674
+            }
+          ]
+        },
+        {
+          "readyMs": 10821.247666999996,
+          "requestCount": 72,
+          "decodedBytes": 1955198,
+          "resources": [
+            {
+              "path": "/style.css",
+              "startMs": 107.09999990463257,
+              "durationMs": 366.40000009536743,
+              "bytes": 28257,
+              "transferBytes": 28557
+            },
+            {
+              "path": "/src/main.js",
+              "startMs": 111.5,
+              "durationMs": 550.0999999046326,
+              "bytes": 63643,
+              "transferBytes": 63943
+            },
+            {
+              "path": "/art-review/greenhouse-state.js",
+              "startMs": 663.4000000953674,
+              "durationMs": 191.5,
+              "bytes": 5207,
+              "transferBytes": 5507
+            },
+            {
+              "path": "/src/day-clock.js",
+              "startMs": 663.5,
+              "durationMs": 148.09999990463257,
+              "bytes": 2304,
+              "transferBytes": 2604
+            },
+            {
+              "path": "/src/audio/director.js",
+              "startMs": 663.5,
+              "durationMs": 206.40000009536743,
+              "bytes": 7134,
+              "transferBytes": 7434
+            },
+            {
+              "path": "/src/ui-settings.js",
+              "startMs": 663.5999999046326,
+              "durationMs": 131.40000009536743,
+              "bytes": 545,
+              "transferBytes": 845
+            },
+            {
+              "path": "/src/fruit-trees.js",
+              "startMs": 663.5999999046326,
+              "durationMs": 164,
+              "bytes": 2402,
+              "transferBytes": 2702
+            },
+            {
+              "path": "/src/dialogue.js",
+              "startMs": 663.5999999046326,
+              "durationMs": 168.19999980926514,
+              "bytes": 1464,
+              "transferBytes": 1764
+            },
+            {
+              "path": "/src/lighting.js",
+              "startMs": 663.5999999046326,
+              "durationMs": 250.5,
+              "bytes": 1643,
+              "transferBytes": 1943
+            },
+            {
+              "path": "/src/actors.js",
+              "startMs": 663.5999999046326,
+              "durationMs": 268.19999980926514,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/src/living-art.js",
+              "startMs": 663.6999998092651,
+              "durationMs": 281.2000002861023,
+              "bytes": 2057,
+              "transferBytes": 2357
+            },
+            {
+              "path": "/src/state.js",
+              "startMs": 663.6999998092651,
+              "durationMs": 626.4000000953674,
+              "bytes": 18026,
+              "transferBytes": 18326
+            },
+            {
+              "path": "/src/tank-render.js",
+              "startMs": 663.7999997138977,
+              "durationMs": 350.1000003814697,
+              "bytes": 3937,
+              "transferBytes": 4237
+            },
+            {
+              "path": "/src/world.js",
+              "startMs": 663.7999997138977,
+              "durationMs": 604.6000003814697,
+              "bytes": 16260,
+              "transferBytes": 16560
+            },
+            {
+              "path": "/src/grid-save.js",
+              "startMs": 663.9000000953674,
+              "durationMs": 416.5,
+              "bytes": 1735,
+              "transferBytes": 2035
+            },
+            {
+              "path": "/src/held-input.js",
+              "startMs": 663.9000000953674,
+              "durationMs": 463.09999990463257,
+              "bytes": 675,
+              "transferBytes": 975
+            },
+            {
+              "path": "/src/render.js",
+              "startMs": 663.9000000953674,
+              "durationMs": 559.6999998092651,
+              "bytes": 9442,
+              "transferBytes": 9742
+            },
+            {
+              "path": "/src/movement.js",
+              "startMs": 663.9000000953674,
+              "durationMs": 572.5999999046326,
+              "bytes": 8042,
+              "transferBytes": 8342
+            },
+            {
+              "path": "/src/audio/cues.js",
+              "startMs": 870.5,
+              "durationMs": 359.40000009536743,
+              "bytes": 1550,
+              "transferBytes": 1850
+            },
+            {
+              "path": "/src/passage-art.js",
+              "startMs": 914.9000000953674,
+              "durationMs": 361.09999990463257,
+              "bytes": 2613,
+              "transferBytes": 2913
+            },
+            {
+              "path": "/src/atlas.js",
+              "startMs": 945.5,
+              "durationMs": 382.7999997138977,
+              "bytes": 1599,
+              "transferBytes": 1899
+            },
+            {
+              "path": "/src/home-art.js",
+              "startMs": 1014.5,
+              "durationMs": 305.5,
+              "bytes": 1255,
+              "transferBytes": 1555
+            },
+            {
+              "path": "/src/greenhouse-grounds.js",
+              "startMs": 1224.5999999046326,
+              "durationMs": 120.30000019073486,
+              "bytes": 1703,
+              "transferBytes": 2003
+            },
+            {
+              "path": "/src/world-space.js",
+              "startMs": 1224.6999998092651,
+              "durationMs": 140.59999990463257,
+              "bytes": 306,
+              "transferBytes": 606
+            },
+            {
+              "path": "/src/contact-rules.js",
+              "startMs": 1224.6999998092651,
+              "durationMs": 162.2000002861023,
+              "bytes": 4107,
+              "transferBytes": 4407
+            },
+            {
+              "path": "/src/environment-render.js",
+              "startMs": 1224.6999998092651,
+              "durationMs": 236.80000019073486,
+              "bytes": 9992,
+              "transferBytes": 10292
+            },
+            {
+              "path": "/src/fence-crossing.js",
+              "startMs": 1269.5999999046326,
+              "durationMs": 141.59999990463257,
+              "bytes": 646,
+              "transferBytes": 946
+            },
+            {
+              "path": "/src/overworld.js",
+              "startMs": 1269.5999999046326,
+              "durationMs": 245.59999990463257,
+              "bytes": 14508,
+              "transferBytes": 14808
+            },
+            {
+              "path": "/src/contact-art.js",
+              "startMs": 1462.2999997138977,
+              "durationMs": 136.10000038146973,
+              "bytes": 2128,
+              "transferBytes": 2428
+            },
+            {
+              "path": "/src/world-water.js",
+              "startMs": 1462.2999997138977,
+              "durationMs": 157.5,
+              "bytes": 5843,
+              "transferBytes": 6143
+            },
+            {
+              "path": "/src/tree-art.js",
+              "startMs": 1462.4000000953674,
+              "durationMs": 119.5,
+              "bytes": 2125,
+              "transferBytes": 2425
+            },
+            {
+              "path": "/src/contact-catalogue.js",
+              "startMs": 1599.0999999046326,
+              "durationMs": 104.09999990463257,
+              "bytes": 362,
+              "transferBytes": 662
+            },
+            {
+              "path": "/src/asset-urls.js",
+              "startMs": 1599.1999998092651,
+              "durationMs": 95.90000009536743,
+              "bytes": 109,
+              "transferBytes": 409
+            },
+            {
+              "path": "/src/water-map.js",
+              "startMs": 1620.5,
+              "durationMs": 149.2999997138977,
+              "bytes": 3202,
+              "transferBytes": 3502
+            },
+            {
+              "path": "/src/coastal-format.js",
+              "startMs": 1620.5,
+              "durationMs": 172.40000009536743,
+              "bytes": 5503,
+              "transferBytes": 5803
+            },
+            {
+              "path": "/src/coastal-drawing.js",
+              "startMs": 1620.5999999046326,
+              "durationMs": 136.09999990463257,
+              "bytes": 2603,
+              "transferBytes": 2903
+            },
+            {
+              "path": "/src/water-surfaces.js",
+              "startMs": 1620.5999999046326,
+              "durationMs": 143.40000009536743,
+              "bytes": 1831,
+              "transferBytes": 2131
+            },
+            {
+              "path": "/src/water-clouds.js",
+              "startMs": 1620.6999998092651,
+              "durationMs": 166,
+              "bytes": 880,
+              "transferBytes": 1180
+            },
+            {
+              "path": "/assets/playable/atlas.json",
+              "startMs": 1811.5,
+              "durationMs": 3432.5,
+              "bytes": 116101,
+              "transferBytes": 116401
+            },
+            {
+              "path": "/assets/playable/characters/atlas.json",
+              "startMs": 1811.5999999046326,
+              "durationMs": 3012,
+              "bytes": 101677,
+              "transferBytes": 101977
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.json",
+              "startMs": 1811.7999997138977,
+              "durationMs": 2748.6000003814697,
+              "bytes": 90921,
+              "transferBytes": 91221
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.json",
+              "startMs": 1811.9000000953674,
+              "durationMs": 253,
+              "bytes": 5216,
+              "transferBytes": 5516
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.json",
+              "startMs": 1812,
+              "durationMs": 1644.9000000953674,
+              "bytes": 50835,
+              "transferBytes": 51135
+            },
+            {
+              "path": "/assets/playable/overworld/master.json",
+              "startMs": 1812,
+              "durationMs": 4569.900000095367,
+              "bytes": 159255,
+              "transferBytes": 159555
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1812.1999998092651,
+              "durationMs": 1900.8000001907349,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/playable/contact/runtime.json",
+              "startMs": 1812.1999998092651,
+              "durationMs": 7848.900000095367,
+              "bytes": 331625,
+              "transferBytes": 331925
+            },
+            {
+              "path": "/assets/review/coastal-format/water.json",
+              "startMs": 1812.4000000953674,
+              "durationMs": 2742.199999809265,
+              "bytes": 24939,
+              "transferBytes": 25239
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.json",
+              "startMs": 1812.5,
+              "durationMs": 4114.400000095367,
+              "bytes": 46719,
+              "transferBytes": 47019
+            },
+            {
+              "path": "/assets/review/coastal-format/props.json",
+              "startMs": 1812.5999999046326,
+              "durationMs": 2868.9000000953674,
+              "bytes": 999,
+              "transferBytes": 1299
+            },
+            {
+              "path": "/assets/review/trees-r2/objects.json",
+              "startMs": 1812.6999998092651,
+              "durationMs": 3032.2000002861023,
+              "bytes": 1985,
+              "transferBytes": 2285
+            },
+            {
+              "path": "/assets/playable/living/atlas.json",
+              "startMs": 1812.6999998092651,
+              "durationMs": 4855.5,
+              "bytes": 67172,
+              "transferBytes": 67472
+            },
+            {
+              "path": "/assets/playable/button-v2/atlas.json",
+              "startMs": 1812.7999997138977,
+              "durationMs": 3244,
+              "bytes": 3365,
+              "transferBytes": 3665
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1813,
+              "durationMs": 3498.5999999046326,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/review/luke-greenhouse-r2/greenhouse.png",
+              "startMs": 1813,
+              "durationMs": 3626.2999997138977,
+              "bytes": 3684,
+              "transferBytes": 3984
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.png",
+              "startMs": 2065.5,
+              "durationMs": 3449.0999999046326,
+              "bytes": 3000,
+              "transferBytes": 3300
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.png",
+              "startMs": 3457.7999997138977,
+              "durationMs": 2520.4000000953674,
+              "bytes": 14893,
+              "transferBytes": 15193
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.png",
+              "startMs": 3713.699999809265,
+              "durationMs": 2240.4000000953674,
+              "bytes": 10561,
+              "transferBytes": 10861
+            },
+            {
+              "path": "/assets/review/coastal-format/water.png",
+              "startMs": 4555.199999809265,
+              "durationMs": 1648,
+              "bytes": 6191,
+              "transferBytes": 6491
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.png",
+              "startMs": 4561.299999713898,
+              "durationMs": 2182.7000002861023,
+              "bytes": 28278,
+              "transferBytes": 28578
+            },
+            {
+              "path": "/assets/review/coastal-format/props.png",
+              "startMs": 4682.199999809265,
+              "durationMs": 1461.8000001907349,
+              "bytes": 1335,
+              "transferBytes": 1635
+            },
+            {
+              "path": "/assets/playable/characters/atlas.png",
+              "startMs": 4824.699999809265,
+              "durationMs": 2098.9000000953674,
+              "bytes": 28113,
+              "transferBytes": 28413
+            },
+            {
+              "path": "/assets/review/trees-r2/tiered-cedar.png",
+              "startMs": 4845.599999904633,
+              "durationMs": 1478.3000001907349,
+              "bytes": 1225,
+              "transferBytes": 1525
+            },
+            {
+              "path": "/assets/review/trees-r2/soft-willow.png",
+              "startMs": 4845.699999809265,
+              "durationMs": 1627.8000001907349,
+              "bytes": 1408,
+              "transferBytes": 1708
+            },
+            {
+              "path": "/assets/review/trees-r2/old-grove.png",
+              "startMs": 4845.799999713898,
+              "durationMs": 1694.4000000953674,
+              "bytes": 1642,
+              "transferBytes": 1942
+            },
+            {
+              "path": "/assets/review/trees-r2/coastal-palm.png",
+              "startMs": 4845.799999713898,
+              "durationMs": 1777.6000003814697,
+              "bytes": 1486,
+              "transferBytes": 1786
+            },
+            {
+              "path": "/assets/playable/button-v2/atlas.png",
+              "startMs": 5057.400000095367,
+              "durationMs": 1641.0999999046326,
+              "bytes": 1461,
+              "transferBytes": 1761
+            },
+            {
+              "path": "/assets/playable/atlas.png",
+              "startMs": 5245,
+              "durationMs": 3103.5999999046326,
+              "bytes": 65732,
+              "transferBytes": 66032
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.png",
+              "startMs": 5927.299999713898,
+              "durationMs": 3590.800000190735,
+              "bytes": 140664,
+              "transferBytes": 140964
+            },
+            {
+              "path": "/assets/playable/overworld/master.png",
+              "startMs": 6383.5,
+              "durationMs": 2310.5,
+              "bytes": 78147,
+              "transferBytes": 78447
+            },
+            {
+              "path": "/assets/playable/living/atlas.png",
+              "startMs": 6669,
+              "durationMs": 2692.5999999046326,
+              "bytes": 119974,
+              "transferBytes": 120274
+            },
+            {
+              "path": "/icon.svg",
+              "startMs": 9523.099999904633,
+              "durationMs": 92.30000019073486,
+              "bytes": 342,
+              "transferBytes": 642
+            },
+            {
+              "path": "/assets/playable/contact/atlas.png",
+              "startMs": 9663.699999809265,
+              "durationMs": 1076.5999999046326,
+              "bytes": 196374,
+              "transferBytes": 196674
+            }
+          ]
+        }
+      ],
+      "medianReadyMs": 10825.255667000001
+    },
+    "editor": {
+      "samples": [
+        {
+          "readyMs": 13424.530666999999,
+          "requestCount": 54,
+          "decodedBytes": 2492722,
+          "resources": [
+            {
+              "path": "/map-editor/editor.css",
+              "startMs": 90.30000019073486,
+              "durationMs": 166.09999990463257,
+              "bytes": 11434,
+              "transferBytes": 11734
+            },
+            {
+              "path": "/map-editor/editor.js",
+              "startMs": 129,
+              "durationMs": 307.59999990463257,
+              "bytes": 39652,
+              "transferBytes": 39952
+            },
+            {
+              "path": "/src/held-input.js",
+              "startMs": 437.90000009536743,
+              "durationMs": 103.90000009536743,
+              "bytes": 675,
+              "transferBytes": 975
+            },
+            {
+              "path": "/map-editor/authoring.js",
+              "startMs": 437.90000009536743,
+              "durationMs": 253.90000009536743,
+              "bytes": 8523,
+              "transferBytes": 8823
+            },
+            {
+              "path": "/map-editor/test-motion.js",
+              "startMs": 438,
+              "durationMs": 153.7000002861023,
+              "bytes": 1829,
+              "transferBytes": 2129
+            },
+            {
+              "path": "/src/movement.js",
+              "startMs": 438,
+              "durationMs": 259.5,
+              "bytes": 8042,
+              "transferBytes": 8342
+            },
+            {
+              "path": "/map-editor/tool-search.js",
+              "startMs": 438.09999990463257,
+              "durationMs": 124.2000002861023,
+              "bytes": 922,
+              "transferBytes": 1222
+            },
+            {
+              "path": "/map-editor/render.js",
+              "startMs": 438.09999990463257,
+              "durationMs": 343.90000009536743,
+              "bytes": 11296,
+              "transferBytes": 11596
+            },
+            {
+              "path": "/map-editor/model.js",
+              "startMs": 438.09999990463257,
+              "durationMs": 432.30000019073486,
+              "bytes": 32664,
+              "transferBytes": 32964
+            },
+            {
+              "path": "/src/water-map.js",
+              "startMs": 782.7000002861023,
+              "durationMs": 162.69999980926514,
+              "bytes": 3202,
+              "transferBytes": 3502
+            },
+            {
+              "path": "/src/fence-crossing.js",
+              "startMs": 782.8000001907349,
+              "durationMs": 94.09999990463257,
+              "bytes": 646,
+              "transferBytes": 946
+            },
+            {
+              "path": "/src/passage-art.js",
+              "startMs": 782.8000001907349,
+              "durationMs": 134,
+              "bytes": 2613,
+              "transferBytes": 2913
+            },
+            {
+              "path": "/src/tree-art.js",
+              "startMs": 782.8000001907349,
+              "durationMs": 149.09999990463257,
+              "bytes": 2125,
+              "transferBytes": 2425
+            },
+            {
+              "path": "/src/world-water.js",
+              "startMs": 782.8000001907349,
+              "durationMs": 208.90000009536743,
+              "bytes": 5843,
+              "transferBytes": 6143
+            },
+            {
+              "path": "/src/contact-art.js",
+              "startMs": 782.9000000953674,
+              "durationMs": 214,
+              "bytes": 2128,
+              "transferBytes": 2428
+            },
+            {
+              "path": "/src/contact-rules.js",
+              "startMs": 782.9000000953674,
+              "durationMs": 223.59999990463257,
+              "bytes": 4107,
+              "transferBytes": 4407
+            },
+            {
+              "path": "/src/water-layout.js",
+              "startMs": 871.4000000953674,
+              "durationMs": 158,
+              "bytes": 2040,
+              "transferBytes": 2340
+            },
+            {
+              "path": "/src/coastal-format.js",
+              "startMs": 871.4000000953674,
+              "durationMs": 194.80000019073486,
+              "bytes": 5503,
+              "transferBytes": 5803
+            },
+            {
+              "path": "/src/water-surfaces.js",
+              "startMs": 946,
+              "durationMs": 112.40000009536743,
+              "bytes": 1831,
+              "transferBytes": 2131
+            },
+            {
+              "path": "/src/coastal-drawing.js",
+              "startMs": 992.4000000953674,
+              "durationMs": 103.09999990463257,
+              "bytes": 2603,
+              "transferBytes": 2903
+            },
+            {
+              "path": "/src/water-clouds.js",
+              "startMs": 992.5,
+              "durationMs": 97.40000009536743,
+              "bytes": 880,
+              "transferBytes": 1180
+            },
+            {
+              "path": "/src/day-clock.js",
+              "startMs": 992.5,
+              "durationMs": 119.09999990463257,
+              "bytes": 2304,
+              "transferBytes": 2604
+            },
+            {
+              "path": "/src/atlas.js",
+              "startMs": 997.2000002861023,
+              "durationMs": 127.89999961853027,
+              "bytes": 1599,
+              "transferBytes": 1899
+            },
+            {
+              "path": "/src/contact-catalogue.js",
+              "startMs": 997.3000001907349,
+              "durationMs": 149.7999997138977,
+              "bytes": 362,
+              "transferBytes": 662
+            },
+            {
+              "path": "/src/asset-urls.js",
+              "startMs": 997.4000000953674,
+              "durationMs": 160.19999980926514,
+              "bytes": 109,
+              "transferBytes": 409
+            },
+            {
+              "path": "/assets/playable/overworld/master.json",
+              "startMs": 1164.4000000953674,
+              "durationMs": 4535.599999904633,
+              "bytes": 159255,
+              "transferBytes": 159555
+            },
+            {
+              "path": "/assets/review/map-editor/master.json",
+              "startMs": 1164.5,
+              "durationMs": 3217.5999999046326,
+              "bytes": 110555,
+              "transferBytes": 110855
+            },
+            {
+              "path": "/assets/playable/living/atlas.json",
+              "startMs": 1164.5999999046326,
+              "durationMs": 2024.1000003814697,
+              "bytes": 67172,
+              "transferBytes": 67472
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.json",
+              "startMs": 1164.7000002861023,
+              "durationMs": 252.09999990463257,
+              "bytes": 5216,
+              "transferBytes": 5516
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.json",
+              "startMs": 1164.7000002861023,
+              "durationMs": 2735.3999996185303,
+              "bytes": 90921,
+              "transferBytes": 91221
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.json",
+              "startMs": 1164.8000001907349,
+              "durationMs": 1634.0999999046326,
+              "bytes": 50835,
+              "transferBytes": 51135
+            },
+            {
+              "path": "/assets/review/trees-r2/objects.json",
+              "startMs": 1165.0999999046326,
+              "durationMs": 419.1000003814697,
+              "bytes": 1985,
+              "transferBytes": 2285
+            },
+            {
+              "path": "/assets/playable/contact/runtime.json",
+              "startMs": 1165.4000000953674,
+              "durationMs": 7032.199999809265,
+              "bytes": 331625,
+              "transferBytes": 331925
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1165.5999999046326,
+              "durationMs": 1888.2000002861023,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/review/coastal-format/water.json",
+              "startMs": 1165.8000001907349,
+              "durationMs": 2713.699999809265,
+              "bytes": 24939,
+              "transferBytes": 25239
+            },
+            {
+              "path": "/assets/review/coastal-format/props.json",
+              "startMs": 1165.9000000953674,
+              "durationMs": 2826.0999999046326,
+              "bytes": 999,
+              "transferBytes": 1299
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.json",
+              "startMs": 1165.9000000953674,
+              "durationMs": 3357.0999999046326,
+              "bytes": 46719,
+              "transferBytes": 47019
+            },
+            {
+              "path": "/favicon.ico",
+              "startMs": 1169.2000002861023,
+              "durationMs": 2851.2999997138977,
+              "bytes": 9,
+              "transferBytes": 309
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.png",
+              "startMs": 1417.4000000953674,
+              "durationMs": 2769.5,
+              "bytes": 3000,
+              "transferBytes": 3300
+            },
+            {
+              "path": "/assets/review/trees-r2/tiered-cedar.png",
+              "startMs": 1585.8000001907349,
+              "durationMs": 2555.5999999046326,
+              "bytes": 1225,
+              "transferBytes": 1525
+            },
+            {
+              "path": "/assets/review/trees-r2/soft-willow.png",
+              "startMs": 1586,
+              "durationMs": 2705.7000002861023,
+              "bytes": 1408,
+              "transferBytes": 1708
+            },
+            {
+              "path": "/assets/review/trees-r2/old-grove.png",
+              "startMs": 1586.0999999046326,
+              "durationMs": 2764,
+              "bytes": 1642,
+              "transferBytes": 1942
+            },
+            {
+              "path": "/assets/review/trees-r2/coastal-palm.png",
+              "startMs": 1586.0999999046326,
+              "durationMs": 2847.6000003814697,
+              "bytes": 1486,
+              "transferBytes": 1786
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.png",
+              "startMs": 2799.800000190735,
+              "durationMs": 2061.699999809265,
+              "bytes": 14893,
+              "transferBytes": 15193
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.png",
+              "startMs": 3054.4000000953674,
+              "durationMs": 1737.3000001907349,
+              "bytes": 10561,
+              "transferBytes": 10861
+            },
+            {
+              "path": "/assets/playable/living/atlas.png",
+              "startMs": 3189.800000190735,
+              "durationMs": 4235.299999713898,
+              "bytes": 119974,
+              "transferBytes": 120274
+            },
+            {
+              "path": "/assets/review/coastal-format/water.png",
+              "startMs": 3880.5,
+              "durationMs": 942.4000000953674,
+              "bytes": 6191,
+              "transferBytes": 6491
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.png",
+              "startMs": 3901.2000002861023,
+              "durationMs": 1769.0999999046326,
+              "bytes": 28278,
+              "transferBytes": 28578
+            },
+            {
+              "path": "/assets/review/coastal-format/props.png",
+              "startMs": 3992.800000190735,
+              "durationMs": 979,
+              "bytes": 1335,
+              "transferBytes": 1635
+            },
+            {
+              "path": "/assets/review/map-editor/master.png",
+              "startMs": 4383.300000190735,
+              "durationMs": 2083.2999997138977,
+              "bytes": 55368,
+              "transferBytes": 55668
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.png",
+              "startMs": 4523.800000190735,
+              "durationMs": 3330.0999999046326,
+              "bytes": 140664,
+              "transferBytes": 140964
+            },
+            {
+              "path": "/assets/playable/overworld/master.png",
+              "startMs": 5700.800000190735,
+              "durationMs": 1790.9000000953674,
+              "bytes": 78147,
+              "transferBytes": 78447
+            },
+            {
+              "path": "/assets/playable/contact/atlas.png",
+              "startMs": 8200.099999904633,
+              "durationMs": 1078.7000002861023,
+              "bytes": 196374,
+              "transferBytes": 196674
+            },
+            {
+              "path": "/assets/playable/contact/catalogue.json",
+              "startMs": 9291.800000190735,
+              "durationMs": 4005.2999997138977,
+              "bytes": 784267,
+              "transferBytes": 784567
+            }
+          ]
+        },
+        {
+          "readyMs": 13438.736791999996,
+          "requestCount": 53,
+          "decodedBytes": 2492713,
+          "resources": [
+            {
+              "path": "/map-editor/editor.css",
+              "startMs": 104.59999990463257,
+              "durationMs": 179.30000019073486,
+              "bytes": 11434,
+              "transferBytes": 11734
+            },
+            {
+              "path": "/map-editor/editor.js",
+              "startMs": 142.40000009536743,
+              "durationMs": 315.80000019073486,
+              "bytes": 39652,
+              "transferBytes": 39952
+            },
+            {
+              "path": "/src/held-input.js",
+              "startMs": 459.59999990463257,
+              "durationMs": 94,
+              "bytes": 675,
+              "transferBytes": 975
+            },
+            {
+              "path": "/map-editor/tool-search.js",
+              "startMs": 459.7000002861023,
+              "durationMs": 124.2999997138977,
+              "bytes": 922,
+              "transferBytes": 1222
+            },
+            {
+              "path": "/map-editor/test-motion.js",
+              "startMs": 459.7000002861023,
+              "durationMs": 148.5,
+              "bytes": 1829,
+              "transferBytes": 2129
+            },
+            {
+              "path": "/map-editor/authoring.js",
+              "startMs": 459.7000002861023,
+              "durationMs": 253,
+              "bytes": 8523,
+              "transferBytes": 8823
+            },
+            {
+              "path": "/src/movement.js",
+              "startMs": 459.7000002861023,
+              "durationMs": 265.8999996185303,
+              "bytes": 8042,
+              "transferBytes": 8342
+            },
+            {
+              "path": "/map-editor/render.js",
+              "startMs": 459.80000019073486,
+              "durationMs": 340.90000009536743,
+              "bytes": 11296,
+              "transferBytes": 11596
+            },
+            {
+              "path": "/map-editor/model.js",
+              "startMs": 459.80000019073486,
+              "durationMs": 469.5,
+              "bytes": 32664,
+              "transferBytes": 32964
+            },
+            {
+              "path": "/src/passage-art.js",
+              "startMs": 801.3000001907349,
+              "durationMs": 144.40000009536743,
+              "bytes": 2613,
+              "transferBytes": 2913
+            },
+            {
+              "path": "/src/water-map.js",
+              "startMs": 801.3000001907349,
+              "durationMs": 166,
+              "bytes": 3202,
+              "transferBytes": 3502
+            },
+            {
+              "path": "/src/fence-crossing.js",
+              "startMs": 801.5,
+              "durationMs": 96.7000002861023,
+              "bytes": 646,
+              "transferBytes": 946
+            },
+            {
+              "path": "/src/tree-art.js",
+              "startMs": 801.5,
+              "durationMs": 149.09999990463257,
+              "bytes": 2125,
+              "transferBytes": 2425
+            },
+            {
+              "path": "/src/world-water.js",
+              "startMs": 801.5,
+              "durationMs": 194.40000009536743,
+              "bytes": 5843,
+              "transferBytes": 6143
+            },
+            {
+              "path": "/src/contact-rules.js",
+              "startMs": 801.5,
+              "durationMs": 208.30000019073486,
+              "bytes": 4107,
+              "transferBytes": 4407
+            },
+            {
+              "path": "/src/contact-art.js",
+              "startMs": 801.5,
+              "durationMs": 224.09999990463257,
+              "bytes": 2128,
+              "transferBytes": 2428
+            },
+            {
+              "path": "/src/water-layout.js",
+              "startMs": 930.0999999046326,
+              "durationMs": 117.60000038146973,
+              "bytes": 2040,
+              "transferBytes": 2340
+            },
+            {
+              "path": "/src/coastal-format.js",
+              "startMs": 930.2000002861023,
+              "durationMs": 156.59999990463257,
+              "bytes": 5503,
+              "transferBytes": 5803
+            },
+            {
+              "path": "/src/water-surfaces.js",
+              "startMs": 967.5999999046326,
+              "durationMs": 111.7000002861023,
+              "bytes": 1831,
+              "transferBytes": 2131
+            },
+            {
+              "path": "/src/water-clouds.js",
+              "startMs": 996.2000002861023,
+              "durationMs": 106.19999980926514,
+              "bytes": 880,
+              "transferBytes": 1180
+            },
+            {
+              "path": "/src/coastal-drawing.js",
+              "startMs": 996.2000002861023,
+              "durationMs": 111.09999990463257,
+              "bytes": 2603,
+              "transferBytes": 2903
+            },
+            {
+              "path": "/src/day-clock.js",
+              "startMs": 996.2000002861023,
+              "durationMs": 126.7999997138977,
+              "bytes": 2304,
+              "transferBytes": 2604
+            },
+            {
+              "path": "/src/atlas.js",
+              "startMs": 1025.9000000953674,
+              "durationMs": 111.80000019073486,
+              "bytes": 1599,
+              "transferBytes": 1899
+            },
+            {
+              "path": "/src/contact-catalogue.js",
+              "startMs": 1026,
+              "durationMs": 152.80000019073486,
+              "bytes": 362,
+              "transferBytes": 662
+            },
+            {
+              "path": "/src/asset-urls.js",
+              "startMs": 1026,
+              "durationMs": 158,
+              "bytes": 109,
+              "transferBytes": 409
+            },
+            {
+              "path": "/assets/playable/overworld/master.json",
+              "startMs": 1188.5999999046326,
+              "durationMs": 4562.10000038147,
+              "bytes": 159255,
+              "transferBytes": 159555
+            },
+            {
+              "path": "/assets/review/map-editor/master.json",
+              "startMs": 1188.7000002861023,
+              "durationMs": 3182.2999997138977,
+              "bytes": 110555,
+              "transferBytes": 110855
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.json",
+              "startMs": 1188.8000001907349,
+              "durationMs": 236,
+              "bytes": 5216,
+              "transferBytes": 5516
+            },
+            {
+              "path": "/assets/playable/living/atlas.json",
+              "startMs": 1188.8000001907349,
+              "durationMs": 2028.4000000953674,
+              "bytes": 67172,
+              "transferBytes": 67472
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.json",
+              "startMs": 1188.8000001907349,
+              "durationMs": 2740.5,
+              "bytes": 90921,
+              "transferBytes": 91221
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.json",
+              "startMs": 1188.9000000953674,
+              "durationMs": 1623.6999998092651,
+              "bytes": 50835,
+              "transferBytes": 51135
+            },
+            {
+              "path": "/assets/review/trees-r2/objects.json",
+              "startMs": 1189.0999999046326,
+              "durationMs": 398.5,
+              "bytes": 1985,
+              "transferBytes": 2285
+            },
+            {
+              "path": "/assets/playable/contact/runtime.json",
+              "startMs": 1189.3000001907349,
+              "durationMs": 7024.299999713898,
+              "bytes": 331625,
+              "transferBytes": 331925
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1189.5,
+              "durationMs": 1883.5999999046326,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/review/coastal-format/water.json",
+              "startMs": 1189.5999999046326,
+              "durationMs": 2709.1000003814697,
+              "bytes": 24939,
+              "transferBytes": 25239
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.json",
+              "startMs": 1189.7000002861023,
+              "durationMs": 3391,
+              "bytes": 46719,
+              "transferBytes": 47019
+            },
+            {
+              "path": "/assets/review/coastal-format/props.json",
+              "startMs": 1189.8000001907349,
+              "durationMs": 2822.699999809265,
+              "bytes": 999,
+              "transferBytes": 1299
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.png",
+              "startMs": 1425.2000002861023,
+              "durationMs": 2698.2999997138977,
+              "bytes": 3000,
+              "transferBytes": 3300
+            },
+            {
+              "path": "/assets/review/trees-r2/tiered-cedar.png",
+              "startMs": 1588.0999999046326,
+              "durationMs": 2544.1000003814697,
+              "bytes": 1225,
+              "transferBytes": 1525
+            },
+            {
+              "path": "/assets/review/trees-r2/soft-willow.png",
+              "startMs": 1588.0999999046326,
+              "durationMs": 2693.9000000953674,
+              "bytes": 1408,
+              "transferBytes": 1708
+            },
+            {
+              "path": "/assets/review/trees-r2/old-grove.png",
+              "startMs": 1588.2000002861023,
+              "durationMs": 2708.3999996185303,
+              "bytes": 1642,
+              "transferBytes": 1942
+            },
+            {
+              "path": "/assets/review/trees-r2/coastal-palm.png",
+              "startMs": 1588.2000002861023,
+              "durationMs": 2843.7999997138977,
+              "bytes": 1486,
+              "transferBytes": 1786
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.png",
+              "startMs": 2813,
+              "durationMs": 1999.7000002861023,
+              "bytes": 14893,
+              "transferBytes": 15193
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.png",
+              "startMs": 3073.4000000953674,
+              "durationMs": 1702.1999998092651,
+              "bytes": 10561,
+              "transferBytes": 10861
+            },
+            {
+              "path": "/assets/playable/living/atlas.png",
+              "startMs": 3217.7000002861023,
+              "durationMs": 4199.699999809265,
+              "bytes": 119974,
+              "transferBytes": 120274
+            },
+            {
+              "path": "/assets/review/coastal-format/water.png",
+              "startMs": 3899,
+              "durationMs": 959.4000000953674,
+              "bytes": 6191,
+              "transferBytes": 6491
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.png",
+              "startMs": 3929.9000000953674,
+              "durationMs": 1731.4000000953674,
+              "bytes": 28278,
+              "transferBytes": 28578
+            },
+            {
+              "path": "/assets/review/coastal-format/props.png",
+              "startMs": 4012.800000190735,
+              "durationMs": 949.7999997138977,
+              "bytes": 1335,
+              "transferBytes": 1635
+            },
+            {
+              "path": "/assets/review/map-editor/master.png",
+              "startMs": 4371.5,
+              "durationMs": 2076.9000000953674,
+              "bytes": 55368,
+              "transferBytes": 55668
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.png",
+              "startMs": 4581.099999904633,
+              "durationMs": 3278,
+              "bytes": 140664,
+              "transferBytes": 140964
+            },
+            {
+              "path": "/assets/playable/overworld/master.png",
+              "startMs": 5752.300000190735,
+              "durationMs": 1760.4000000953674,
+              "bytes": 78147,
+              "transferBytes": 78447
+            },
+            {
+              "path": "/assets/playable/contact/atlas.png",
+              "startMs": 8216.599999904633,
+              "durationMs": 1075.8000001907349,
+              "bytes": 196374,
+              "transferBytes": 196674
+            },
+            {
+              "path": "/assets/playable/contact/catalogue.json",
+              "startMs": 9304,
+              "durationMs": 4007,
+              "bytes": 784267,
+              "transferBytes": 784567
+            }
+          ]
+        },
+        {
+          "readyMs": 13426.327167000003,
+          "requestCount": 53,
+          "decodedBytes": 2492713,
+          "resources": [
+            {
+              "path": "/map-editor/editor.css",
+              "startMs": 106.59999990463257,
+              "durationMs": 171.09999990463257,
+              "bytes": 11434,
+              "transferBytes": 11734
+            },
+            {
+              "path": "/map-editor/editor.js",
+              "startMs": 144.09999990463257,
+              "durationMs": 314.59999990463257,
+              "bytes": 39652,
+              "transferBytes": 39952
+            },
+            {
+              "path": "/src/held-input.js",
+              "startMs": 459.8999996185303,
+              "durationMs": 96.60000038146973,
+              "bytes": 675,
+              "transferBytes": 975
+            },
+            {
+              "path": "/map-editor/authoring.js",
+              "startMs": 459.8999996185303,
+              "durationMs": 252.90000009536743,
+              "bytes": 8523,
+              "transferBytes": 8823
+            },
+            {
+              "path": "/map-editor/tool-search.js",
+              "startMs": 460,
+              "durationMs": 126.09999990463257,
+              "bytes": 922,
+              "transferBytes": 1222
+            },
+            {
+              "path": "/map-editor/test-motion.js",
+              "startMs": 460,
+              "durationMs": 146.2999997138977,
+              "bytes": 1829,
+              "transferBytes": 2129
+            },
+            {
+              "path": "/src/movement.js",
+              "startMs": 460,
+              "durationMs": 267.69999980926514,
+              "bytes": 8042,
+              "transferBytes": 8342
+            },
+            {
+              "path": "/map-editor/render.js",
+              "startMs": 460.09999990463257,
+              "durationMs": 342.59999990463257,
+              "bytes": 11296,
+              "transferBytes": 11596
+            },
+            {
+              "path": "/map-editor/model.js",
+              "startMs": 460.09999990463257,
+              "durationMs": 471.2999997138977,
+              "bytes": 32664,
+              "transferBytes": 32964
+            },
+            {
+              "path": "/src/water-map.js",
+              "startMs": 803.2999997138977,
+              "durationMs": 165.59999990463257,
+              "bytes": 3202,
+              "transferBytes": 3502
+            },
+            {
+              "path": "/src/passage-art.js",
+              "startMs": 803.3999996185303,
+              "durationMs": 141.10000038146973,
+              "bytes": 2613,
+              "transferBytes": 2913
+            },
+            {
+              "path": "/src/fence-crossing.js",
+              "startMs": 803.5,
+              "durationMs": 98.19999980926514,
+              "bytes": 646,
+              "transferBytes": 946
+            },
+            {
+              "path": "/src/tree-art.js",
+              "startMs": 803.5,
+              "durationMs": 149.2999997138977,
+              "bytes": 2125,
+              "transferBytes": 2425
+            },
+            {
+              "path": "/src/world-water.js",
+              "startMs": 803.5,
+              "durationMs": 194.59999990463257,
+              "bytes": 5843,
+              "transferBytes": 6143
+            },
+            {
+              "path": "/src/contact-rules.js",
+              "startMs": 803.5999999046326,
+              "durationMs": 210.09999990463257,
+              "bytes": 4107,
+              "transferBytes": 4407
+            },
+            {
+              "path": "/src/contact-art.js",
+              "startMs": 803.5999999046326,
+              "durationMs": 224.09999990463257,
+              "bytes": 2128,
+              "transferBytes": 2428
+            },
+            {
+              "path": "/src/water-layout.js",
+              "startMs": 932.3999996185303,
+              "durationMs": 118.7000002861023,
+              "bytes": 2040,
+              "transferBytes": 2340
+            },
+            {
+              "path": "/src/coastal-format.js",
+              "startMs": 932.3999996185303,
+              "durationMs": 156,
+              "bytes": 5503,
+              "transferBytes": 5803
+            },
+            {
+              "path": "/src/water-surfaces.js",
+              "startMs": 969.1999998092651,
+              "durationMs": 112.09999990463257,
+              "bytes": 1831,
+              "transferBytes": 2131
+            },
+            {
+              "path": "/src/coastal-drawing.js",
+              "startMs": 998.7999997138977,
+              "durationMs": 111.7000002861023,
+              "bytes": 2603,
+              "transferBytes": 2903
+            },
+            {
+              "path": "/src/water-clouds.js",
+              "startMs": 998.8999996185303,
+              "durationMs": 103.90000009536743,
+              "bytes": 880,
+              "transferBytes": 1180
+            },
+            {
+              "path": "/src/day-clock.js",
+              "startMs": 999,
+              "durationMs": 127.39999961853027,
+              "bytes": 2304,
+              "transferBytes": 2604
+            },
+            {
+              "path": "/src/atlas.js",
+              "startMs": 1028.0999999046326,
+              "durationMs": 119.90000009536743,
+              "bytes": 1599,
+              "transferBytes": 1899
+            },
+            {
+              "path": "/src/contact-catalogue.js",
+              "startMs": 1028.1999998092651,
+              "durationMs": 141.30000019073486,
+              "bytes": 362,
+              "transferBytes": 662
+            },
+            {
+              "path": "/src/asset-urls.js",
+              "startMs": 1028.1999998092651,
+              "durationMs": 149.59999990463257,
+              "bytes": 109,
+              "transferBytes": 409
+            },
+            {
+              "path": "/assets/playable/living/atlas.json",
+              "startMs": 1182.8999996185303,
+              "durationMs": 2036,
+              "bytes": 67172,
+              "transferBytes": 67472
+            },
+            {
+              "path": "/assets/review/map-editor/master.json",
+              "startMs": 1182.8999996185303,
+              "durationMs": 3181.800000190735,
+              "bytes": 110555,
+              "transferBytes": 110855
+            },
+            {
+              "path": "/assets/playable/overworld/master.json",
+              "startMs": 1182.8999996185303,
+              "durationMs": 4548.5,
+              "bytes": 159255,
+              "transferBytes": 159555
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.json",
+              "startMs": 1183.0999999046326,
+              "durationMs": 243.09999990463257,
+              "bytes": 5216,
+              "transferBytes": 5516
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.json",
+              "startMs": 1183.0999999046326,
+              "durationMs": 1630.5,
+              "bytes": 50835,
+              "transferBytes": 51135
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.json",
+              "startMs": 1183.0999999046326,
+              "durationMs": 2748.2999997138977,
+              "bytes": 90921,
+              "transferBytes": 91221
+            },
+            {
+              "path": "/assets/review/trees-r2/objects.json",
+              "startMs": 1183.3999996185303,
+              "durationMs": 409.1000003814697,
+              "bytes": 1985,
+              "transferBytes": 2285
+            },
+            {
+              "path": "/assets/playable/contact/runtime.json",
+              "startMs": 1183.5999999046326,
+              "durationMs": 7022.900000095367,
+              "bytes": 331625,
+              "transferBytes": 331925
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.json",
+              "startMs": 1183.7999997138977,
+              "durationMs": 1885.5,
+              "bytes": 4747,
+              "transferBytes": 5047
+            },
+            {
+              "path": "/assets/review/coastal-format/water.json",
+              "startMs": 1184,
+              "durationMs": 2709.8999996185303,
+              "bytes": 24939,
+              "transferBytes": 25239
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.json",
+              "startMs": 1184.0999999046326,
+              "durationMs": 3397.2999997138977,
+              "bytes": 46719,
+              "transferBytes": 47019
+            },
+            {
+              "path": "/assets/review/coastal-format/props.json",
+              "startMs": 1184.1999998092651,
+              "durationMs": 2822.800000190735,
+              "bytes": 999,
+              "transferBytes": 1299
+            },
+            {
+              "path": "/assets/review/fence-r5/atlas.png",
+              "startMs": 1426.7999997138977,
+              "durationMs": 2692.0999999046326,
+              "bytes": 3000,
+              "transferBytes": 3300
+            },
+            {
+              "path": "/assets/review/trees-r2/tiered-cedar.png",
+              "startMs": 1593.1999998092651,
+              "durationMs": 2532.5999999046326,
+              "bytes": 1225,
+              "transferBytes": 1525
+            },
+            {
+              "path": "/assets/review/trees-r2/soft-willow.png",
+              "startMs": 1593.1999998092651,
+              "durationMs": 2683.0999999046326,
+              "bytes": 1408,
+              "transferBytes": 1708
+            },
+            {
+              "path": "/assets/review/trees-r2/old-grove.png",
+              "startMs": 1593.1999998092651,
+              "durationMs": 2697.199999809265,
+              "bytes": 1642,
+              "transferBytes": 1942
+            },
+            {
+              "path": "/assets/review/trees-r2/coastal-palm.png",
+              "startMs": 1593.2999997138977,
+              "durationMs": 2831.7000002861023,
+              "bytes": 1486,
+              "transferBytes": 1786
+            },
+            {
+              "path": "/assets/playable/soil-v2/atlas.png",
+              "startMs": 2814.7999997138977,
+              "durationMs": 1992.3000001907349,
+              "bytes": 14893,
+              "transferBytes": 15193
+            },
+            {
+              "path": "/assets/playable/home-v2/atlas.png",
+              "startMs": 3070.3999996185303,
+              "durationMs": 1699,
+              "bytes": 10561,
+              "transferBytes": 10861
+            },
+            {
+              "path": "/assets/playable/living/atlas.png",
+              "startMs": 3219.5999999046326,
+              "durationMs": 4199.199999809265,
+              "bytes": 119974,
+              "transferBytes": 120274
+            },
+            {
+              "path": "/assets/review/coastal-format/water.png",
+              "startMs": 3894.3999996185303,
+              "durationMs": 966.6000003814697,
+              "bytes": 6191,
+              "transferBytes": 6491
+            },
+            {
+              "path": "/assets/review/map-studio-r3/atlas.png",
+              "startMs": 3932.0999999046326,
+              "durationMs": 1724.4000000953674,
+              "bytes": 28278,
+              "transferBytes": 28578
+            },
+            {
+              "path": "/assets/review/coastal-format/props.png",
+              "startMs": 4007.699999809265,
+              "durationMs": 950.3000001907349,
+              "bytes": 1335,
+              "transferBytes": 1635
+            },
+            {
+              "path": "/assets/review/map-editor/master.png",
+              "startMs": 4365.89999961853,
+              "durationMs": 2090.9000000953674,
+              "bytes": 55368,
+              "transferBytes": 55668
+            },
+            {
+              "path": "/assets/review/water-clouds/atlas.png",
+              "startMs": 4582.299999713898,
+              "durationMs": 3262.2000002861023,
+              "bytes": 140664,
+              "transferBytes": 140964
+            },
+            {
+              "path": "/assets/playable/overworld/master.png",
+              "startMs": 5732.799999713898,
+              "durationMs": 1774.2000002861023,
+              "bytes": 78147,
+              "transferBytes": 78447
+            },
+            {
+              "path": "/assets/playable/contact/atlas.png",
+              "startMs": 8209.099999904633,
+              "durationMs": 1077.0999999046326,
+              "bytes": 196374,
+              "transferBytes": 196674
+            },
+            {
+              "path": "/assets/playable/contact/catalogue.json",
+              "startMs": 9298.799999713898,
+              "durationMs": 4007.4000000953674,
+              "bytes": 784267,
+              "transferBytes": 784567
+            }
+          ]
+        }
+      ],
+      "medianReadyMs": 13426.327167000003
+    }
+  },
+  "rendering": {
+    "grass": {
+      "coldMs": 134.30000019073486,
+      "warmMs": [
+        0.19999980926513672,
+        0.10000038146972656,
+        0,
+        0.19999980926513672,
+        0,
+        0.09999990463256836,
+        0.20000028610229492,
+        0,
+        0.09999990463256836,
+        0.09999990463256836,
+        0,
+        0.09999990463256836,
+        0.09999990463256836,
+        0.10000038146972656,
+        0.09999990463256836,
+        0,
+        0.19999980926513672,
+        0,
+        0.09999990463256836,
+        0.10000038146972656,
+        0,
+        0.19999980926513672,
+        0,
+        0.09999990463256836,
+        0.09999990463256836,
+        0.10000038146972656,
+        0.09999990463256836,
+        0,
+        0.19999980926513672,
+        0,
+        0.20000028610229492,
+        0
+      ],
+      "medianWarmMs": 0.09999990463256836,
+      "debug": {
+        "cells": 520,
+        "identity": "fresh",
+        "frame": 0,
+        "components": 1,
+        "compiledComponents": 1,
+        "fieldPixels": 659456,
+        "cachedWaveBytes": 0
+      },
+      "allocatedCanvasCount": 1,
+      "allocatedCanvasBytes": 2637824,
+      "warmDrawImageCalls": 157
+    },
+    "sand": {
+      "coldMs": 134.59999990463257,
+      "warmMs": [
+        0.40000009536743164,
+        0.5,
+        0.5,
+        0.39999961853027344,
+        0.3000001907348633,
+        0.40000009536743164,
+        0.5,
+        0.40000009536743164,
+        0.2999997138977051,
+        0.5,
+        0.40000009536743164,
+        0.3000001907348633,
+        0.39999961853027344,
+        0.3000001907348633,
+        0.40000009536743164,
+        0.40000009536743164,
+        0.2999997138977051,
+        0.40000009536743164,
+        0.3000001907348633,
+        0.2999997138977051,
+        0.40000009536743164,
+        0.3000001907348633,
+        0.19999980926513672,
+        0.3000001907348633,
+        0.2999997138977051,
+        0.3000001907348633,
+        0.40000009536743164,
+        0.2999997138977051,
+        0.20000028610229492,
+        0.39999961853027344,
+        0.3000001907348633,
+        0.09999990463256836
+      ],
+      "medianWarmMs": 0.39999961853027344,
+      "debug": {
+        "cells": 520,
+        "identity": "fresh",
+        "frame": 0,
+        "components": 1,
+        "compiledComponents": 1,
+        "fieldPixels": 659456,
+        "cachedWaveBytes": 393216
+      },
+      "allocatedCanvasCount": 33,
+      "allocatedCanvasBytes": 15220736
+    }
+  },
+  "errors": [],
+  "baseCommit": "ee2a3cf67ead72385b64170003addf9c28fd9442",
+  "commitNote": "Commit is the opening base. Baseline runtime is unchanged; current runtime was measured before the checkpoint commit. See checkpoint.json and runtime-proof.json."
+}

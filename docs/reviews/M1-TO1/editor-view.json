@@ -1,0 +1,60 @@
+{
+  "baseline": {
+    "pan": [
+      {
+        "ms": 516.9000000953674,
+        "drawImageCalls": 196608
+      },
+      {
+        "ms": 604.7000002861023,
+        "drawImageCalls": 196608
+      },
+      {
+        "ms": 518.5999999046326,
+        "drawImageCalls": 196608
+      }
+    ],
+    "zoom": {
+      "ms": 315.09999990463257,
+      "drawImageCalls": 98304
+    },
+    "pixelsRetained": true,
+    "projectRetained": true,
+    "nativeSize": [
+      4096,
+      4096
+    ]
+  },
+  "current": {
+    "pan": [
+      {
+        "ms": 0.39999961853027344,
+        "drawImageCalls": 0
+      },
+      {
+        "ms": 0.20000028610229492,
+        "drawImageCalls": 0
+      },
+      {
+        "ms": 0.09999990463256836,
+        "drawImageCalls": 0
+      }
+    ],
+    "zoom": {
+      "ms": 0.5,
+      "drawImageCalls": 0
+    },
+    "pixelsRetained": true,
+    "projectRetained": true,
+    "nativeSize": [
+      4096,
+      4096
+    ]
+  },
+  "checks": [
+    "Pan and zoom preserve all native map pixels and authored data",
+    "Thirty-six pan events and six zoom events issue zero map redraws",
+    "Large-map coordinate picking, painting, undo and overlay changes remain correct on phone"
+  ],
+  "errors": []
+}

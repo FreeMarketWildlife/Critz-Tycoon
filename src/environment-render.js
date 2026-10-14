@@ -11,12 +11,18 @@ import {TICK_SECONDS} from './movement.js';
 import {loadTreeArt,drawTree,treeStyle,treeArtInfo} from './tree-art.js';
 let sheet,manifest,tiles,buildingArt,fenceArt;
 export async function loadEnvironment(){
- [buildingArt,fenceArt]=await Promise.all([loadBuildingArt(),loadFenceArt(),loadContactArt(),loadWorldWater(),loadTreeArt()]);
- const url=new URL('../assets/playable/overworld/master.json',import.meta.url),response=await fetch(url);
- if(!response.ok)throw Error('Overworld manifest failed to load');manifest=await response.json();
- sheet=new Image();sheet.src=new URL(manifest.image,url).href;await sheet.decode();
+ const load=async path=>{
+  const url=new URL(path,import.meta.url),response=await fetch(url);
+  if(!response.ok)throw Error('Environment manifest failed to load');
+  const m=await response.json(),img=new Image();img.src=new URL(m.image,url).href;await img.decode();return {m,img};
+ };
+ const [buildings,fences,world,soil]=await Promise.all([
+  loadBuildingArt(),loadFenceArt(),load('../assets/playable/overworld/master.json'),
+  load('../assets/playable/soil-v2/atlas.json'),loadContactArt(),loadWorldWater(),loadTreeArt(),
+ ]);
+ buildingArt=buildings;fenceArt=fences;manifest=world.m;sheet=world.img;
  if(sheet.width!==manifest.imageWidth||sheet.height!==manifest.imageHeight)throw Error('Overworld sheet dimensions do not match');
- tiles=new Map(manifest.tiles.map(t=>[t.id,t]));const soilUrl=new URL('../assets/playable/soil-v2/atlas.json',import.meta.url),soil=await(await fetch(soilUrl)).json(),soilImage=new Image();soilImage.src=new URL(soil.image,soilUrl).href;await soilImage.decode();for(const t of soil.tiles)tiles.set(t.id,{...t,img:soilImage});
+ tiles=new Map(manifest.tiles.map(t=>[t.id,t]));for(const t of soil.m.tiles)tiles.set(t.id,{...t,img:soil.img});
  for(const [sceneId,scene]of Object.entries(scenes)){if(!scene.map)continue;const map=scene.map;
   for(const id of [...map.ground,...map.decals.map(d=>d.id),...map.objects.flatMap(o=>o.tiles?o.tiles.flat():manifest.assemblies[o.id]?.flat()||[o.id])])if(!tiles.has(id))throw Error(`Missing tile ${id} in ${sceneId}`);
  }
@@ -53,7 +59,7 @@ export function renderEnvironment(c,state,time,view,character,npcLook){
  for(let y=Math.max(0,Math.floor(camera.y/32));y<Math.min(map.h,Math.ceil((camera.y+height)/32));y++)for(let x=Math.max(0,Math.floor(camera.x/32));x<Math.min(map.w,Math.ceil((camera.x+width)/32));x++)draw(map.terrain[y*map.w+x]==='water'?'meadow.grass.0':map.ground[y*map.w+x],x*32,y*32);
  const waterActors=[{x:foot.x,y:foot.y,options:{gender:state.gender,facing:view.facing,pose:view.pose,mode:view.action==='run'?'run':'walk'}}];
  for(const e of getEntities(state).filter(e=>e.type==='npc')){const v=actorView(state,e.id);waterActors.push({x:(v.x===null?e.x*16:v.x)*2+16,y:(v.y===null?e.y*16:v.y)*2+32,options:{look:npcLook(e,state.gender),facing:v.facing,pose:v.pose}});}
- const waterInfo=drawWorldWater(c,map,state,time,waterActors,character);
+ const waterInfo=drawWorldWater(c,map,state,time,waterActors,character,{bounds:{x:camera.x,y:camera.y,w:width,h:height}});
  const actorCell={x:Math.floor(foot.x/32),y:Math.floor((foot.y-1)/32)};
  const activeGrass=map.grass.has(`${actorCell.x},${actorCell.y}`),grassFrame=view.moving?[1,3,2,3][Math.floor((view.actionTick||0)/3)%4]:0;
  for(const d of map.decals){if(!visible(d.x,d.y))continue;let id=d.id;if(id==='grass.living.0'&&d.x===actorCell.x&&d.y===actorCell.y)id=`grass.living.${grassFrame}`;draw(id,d.x*32,d.y*32,d.id.startsWith('flowers.')?(d.x+d.y)%4:0);}
