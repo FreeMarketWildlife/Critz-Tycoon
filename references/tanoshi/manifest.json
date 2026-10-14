@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "name": "Tanoshi",
+  "task": "REF.TANOSHI",
+  "saved_date": "2026-10-14",
+  "purpose": "Original pet references for a later Critz adaptation; no gameplay integration or recreation.",
+  "source_thread_id": "01a13367-797e-76ac-bf75-adc4b35a7027",
+  "original_bytes_total": 742107,
+  "original_bytes_preserved": true,
+  "files": [
+    {
+      "path": "originals/Tanoshi-spritesheet.png",
+      "source": {
+        "kind": "ChatGPT Library",
+        "library_file_id": "libfile_28d6ed3e22d08191b430ddc05a5f92bd",
+        "file_id": "file_000000005458820cad065e08f967721f",
+        "version": 0,
+        "filename": "spritesheet-extended(1).png"
+      },
+      "size_bytes": 57695,
+      "sha256": "455e8a6a5664e8cf4104b9a9c5872d03b77cbc00126be09cddc6a5beb46f4701",
+      "format": "PNG",
+      "width": 1536,
+      "height": 2288,
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "originals/Tanoshi-all-states.gif",
+      "source": {
+        "kind": "ChatGPT Library",
+        "library_file_id": "libfile_40ffcfac8ea881919884f8d8449a831c",
+        "file_id": "file_00000000d6a8820c8c0cbc3caceae126",
+        "version": 1,
+        "filename": "Tanoshi-all-states.gif"
+      },
+      "size_bytes": 234507,
+      "sha256": "a732ab987c965ad25d78d0d08da8a5271c1d0ca3374f72cfc871983124cb588b",
+      "format": "GIF",
+      "width": 384,
+      "height": 448,
+      "frame_count": 57,
+      "duration_ms": 9690,
+      "loop_count": 0
+    },
+    {
+      "path": "originals/Tanoshi-look-loop.gif",
+      "source": {
+        "kind": "ChatGPT Library",
+        "library_file_id": "libfile_3dc2fd2e05188191b4f2373abef6adcb",
+        "file_id": "file_00000000206c81f8ab301e6b2a25d5b5",
+        "version": 1,
+        "filename": "Tanoshi-look-loop.gif"
+      },
+      "size_bytes": 64288,
+      "sha256": "e29f3a05131fd09d3e76fbb6a4b19b9e7b5a4b1a9ca374593df829dd0dba330a",
+      "format": "GIF",
+      "width": 384,
+      "height": 448,
+      "frame_count": 16,
+      "duration_ms": 3360,
+      "loop_count": 0
+    },
+    {
+      "path": "originals/Tanoshi-contact-sheet.png",
+      "source": {
+        "kind": "ChatGPT Library",
+        "library_file_id": "libfile_4cafcd654e388191b0aa8be89a557497",
+        "file_id": "file_000000003774820eb1f3629439d54fcd",
+        "version": 1,
+        "filename": "Tanoshi-contact-sheet.png"
+      },
+      "size_bytes": 370225,
+      "sha256": "17b953a1cc799078f5933e75957baec558129116248a360423dbbcc9a3c8a05b",
+      "format": "PNG",
+      "width": 768,
+      "height": 1386,
+      "mode": "RGB"
+    },
+    {
+      "path": "originals/Tanoshi-motion-stills.png",
+      "source": {
+        "kind": "ChatGPT Library",
+        "library_file_id": "libfile_702b3efdf9e48191bf19c99b07887517",
+        "file_id": "file_000000005a7c81f593036b8d908df3a9",
+        "version": 1,
+        "filename": "Tanoshi-motion-stills.png"
+      },
+      "size_bytes": 8939,
+      "sha256": "73df1e70a30a0295ffd76f2ab4f777492a77989d92fc8110c07d27409f307caa",
+      "format": "PNG",
+      "width": 1536,
+      "height": 448,
+      "mode": "RGB"
+    },
+    {
+      "path": "originals/Tanoshi-pixel-preview-12x.png",
+      "source": {
+        "kind": "ChatGPT Library",
+        "library_file_id": "libfile_d18edfae71008191b21f1595722c49c0",
+        "file_id": "file_0000000038c88206ad688156b5ec63a1",
+        "version": 0,
+        "filename": "Tanoshi-pixel-preview-12x(1).png"
+      },
+      "size_bytes": 6453,
+      "sha256": "4f7e98c778963458feef78740c8432eeb9abe60444e130c1cf8d25822eb3246f",
+      "format": "PNG",
+      "width": 768,
+      "height": 768,
+      "mode": "RGBA",
+      "alpha_values": [
+        0,
+        255
+      ]
+    }
+  ],
+  "sprite_layout": {
+    "spriteVersionNumber": 2,
+    "columns": 8,
+    "rows": 11,
+    "cell_width": 192,
+    "cell_height": 208,
+    "coordinate_origin": "top-left",
+    "used_cells": 73,
+    "rows_detail": [
+      {
+        "row": 0,
+        "state": "idle",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "row": 1,
+        "state": "running-right",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "row": 2,
+        "state": "running-left",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "row": 3,
+        "state": "waving",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "row": 4,
+        "state": "jumping",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "row": 5,
+        "state": "failed",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "row": 6,
+        "state": "waiting",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "row": 7,
+        "state": "running",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "row": 8,
+        "state": "review",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "row": 9,
+        "state": "gaze-a",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "gaze_degrees": [
+          0.0,
+          22.5,
+          45.0,
+          67.5,
+          90.0,
+          112.5,
+          135.0,
+          157.5
+        ]
+      },
+      {
+        "row": 10,
+        "state": "gaze-b",
+        "used_columns": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "gaze_degrees": [
+          180.0,
+          202.5,
+          225.0,
+          247.5,
+          270.0,
+          292.5,
+          315.0,
+          337.5
+        ]
+      }
+    ],
+    "gaze_zero": "up / 12 oclock",
+    "gaze_rotation": "clockwise"
+  },
+  "verification": {
+    "expected_sprite_sha256": "455e8a6a5664e8cf4104b9a9c5872d03b77cbc00126be09cddc6a5beb46f4701",
+    "expected_sprite_bytes": 57695,
+    "sprite_hash_and_size_match": true,
+    "all_source_sizes_and_library_identity_attributes_match": true,
+    "png_crc_and_full_scanline_decode_pass": true,
+    "gif_structure_and_frame_dimensions_pass": true,
+    "sprite_binary_alpha_pass": true,
+    "row_occupancy_and_unused_transparent_cells_pass": true,
+    "idle_frame_0_transparent_eye_interiors": [
+      {
+        "bbox": [
+          87,
+          129,
+          90,
+          141
+        ],
+        "area": 36
+      },
+      {
+        "bbox": [
+          105,
+          129,
+          111,
+          141
+        ],
+        "area": 72
+      }
+    ],
+    "visual_inspection": "Final atlas, labeled contact sheet, four stills, earlier static preview and both GIF first frames inspected. No new game-art approval claimed."
+  },
+  "production": {
+    "reference_only": true,
+    "runtime_registered": false,
+    "build_copy_list": "scripts/build.mjs",
+    "excluded_root": "references",
+    "build_exclusion_verified": true,
+    "art_direction": "../../docs/ART_BIBLE.md",
+    "next_action": "Await a separate request to author a native Critz adaptation under the current art bible and its review gates.",
+    "verification_date": "2026-10-14",
+    "build_output_reference_paths": 0,
+    "build_output_matching_original_media": 0,
+    "runtime_asset_registrations": 0,
+    "verified_build_files": 3152,
+    "build_package_fingerprint_before_status_receipt": "83389a0d828d262eab7fe069af177594db922e3bbf6186883ff73bff04bbe5ec"
+  }
+}
