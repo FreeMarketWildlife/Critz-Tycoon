@@ -1,0 +1,135 @@
+{
+  "task": "M1.NET3",
+  "approval": "review candidate",
+  "flightFrame": [
+    32,
+    32
+  ],
+  "grassFrame": [
+    32,
+    48
+  ],
+  "grassAnchor": [
+    16,
+    48
+  ],
+  "sourceBeetleSHA256": "15a152b1a76f24897b14ee3e0184894f97f55dc4027a46740c3601fa90e96b85",
+  "files": {
+    "beetle-flight-0.png": {
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "a83752fcf21ec3bae2b38390fd628a04136c1c62eb15a19e120668dc6e467931"
+    },
+    "beetle-flight-1.png": {
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "0121dba8812a4e8efc51709edf27b06a0ee250a812d24f3e99a3edaebb266cae"
+    },
+    "beetle-flight-2.png": {
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "a83752fcf21ec3bae2b38390fd628a04136c1c62eb15a19e120668dc6e467931"
+    },
+    "beetle-flight-3.png": {
+      "size": [
+        32,
+        32
+      ],
+      "sha256": "0121dba8812a4e8efc51709edf27b06a0ee250a812d24f3e99a3edaebb266cae"
+    },
+    "grass-back-0.png": {
+      "size": [
+        32,
+        48
+      ],
+      "sha256": "5b64f07da2d52057d5cd6ef9fe0d86b0a87ea67680a6b491340b578377ffe291"
+    },
+    "grass-back-1.png": {
+      "size": [
+        32,
+        48
+      ],
+      "sha256": "a11f7d34bfca28b060a9999b5ff09d7bde43a5ca0128390f2b909d4258f68ed1"
+    },
+    "grass-back-2.png": {
+      "size": [
+        32,
+        48
+      ],
+      "sha256": "28229027eb786dc0a705f80e67e086521f5edf5116889c45b3ea4dbe28db96c2"
+    },
+    "grass-front-0.png": {
+      "size": [
+        32,
+        48
+      ],
+      "sha256": "ddf73b46727a8679f7ac215855ea19b98ef50521983f957a7214b726210eed8c"
+    },
+    "grass-front-1.png": {
+      "size": [
+        32,
+        48
+      ],
+      "sha256": "e9107b5b7311be1c77f95e9a3c0a4c7306a7a3361698ef0f5004672d9cef7312"
+    },
+    "grass-front-2.png": {
+      "size": [
+        32,
+        48
+      ],
+      "sha256": "671e81519faacbb2217ab1afe30f9d4d61909da8dffc26ff7805df2f565036a0"
+    },
+    "net-prepared-down.png": {
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "933fe07cdef7a0a69e4c7b023f12be8ee377b77f2aa7e51963a3f4c96057c7b1"
+    },
+    "net-prepared-left.png": {
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "af8ea98faf887fcfeaeebd657b4d32a55d03b9d3e979fc936bfcd2cc1f8ebe35"
+    },
+    "net-prepared-right.png": {
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "20486a7411d35e9f1d5574c260283cc142765990fb0e5519ea01f92954901d94"
+    },
+    "net-prepared-up.png": {
+      "size": [
+        128,
+        128
+      ],
+      "sha256": "ed6250388019b1d1c57dea6e9c7fec9210ed7faf19b944da3ec073a843f07811"
+    }
+  },
+  "preparedSources": {
+    "net-prepared-down.png": {
+      "source": "assets/review/net-r1/net-down-windup.png",
+      "sha256": "933fe07cdef7a0a69e4c7b023f12be8ee377b77f2aa7e51963a3f4c96057c7b1"
+    },
+    "net-prepared-up.png": {
+      "source": "assets/review/net-r1/net-up-ready.png",
+      "sha256": "ed6250388019b1d1c57dea6e9c7fec9210ed7faf19b944da3ec073a843f07811"
+    },
+    "net-prepared-left.png": {
+      "source": "assets/review/net-r1/net-left-windup.png",
+      "sha256": "af8ea98faf887fcfeaeebd657b4d32a55d03b9d3e979fc936bfcd2cc1f8ebe35"
+    },
+    "net-prepared-right.png": {
+      "source": "assets/review/net-r1/net-right-windup.png",
+      "sha256": "20486a7411d35e9f1d5574c260283cc142765990fb0e5519ea01f92954901d94"
+    }
+  }
+}
