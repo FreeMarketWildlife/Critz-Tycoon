@@ -1,5 +1,13 @@
 # Critz: Tycoon — art bible
 
+## Girl Hero first-front adaptation — M1.GH1
+
+Preserve selected R11/C6 identity: ten-year-old Black child, twin natural puffs/coral ties, short temple locks/fringe, coral/cream shirt, blue shorts and burgundy shoes. C6 native front and C7 passing still are identical; separate24×32 G1/v3 is not this design baseline. Enlarged generated concept is design intent, never a native measurement or resampling input. [First-front proofs and source](reviews/M1-GH1/README.md).
+
+First deliver ONE front idle before other views/walks. Apply current checked HR14 front body/registration/material method only as declared shared construction, not girl-specific observed anatomy/gait or a gendered narrow/tall body. C6's authored skull annotation includes neck/collar rows45–46; preserve visible face through44 and omit that legacy neck block. Do not mirror the whole head/fringe to fix ears. Separate actual hair, puff, tie, eye, ear and hand masks; validate visible rounded ears in final RGBA, paired2×4 eyes, unchanged identity pixels and no default mouth/nose. Restore deliberately selected burgundy at existing near-sole material sites without lengthening feet. Preserve unresolved hidden joints/nulls and keep old authored scaffold distinct from observed bones.
+
+Repeatable review: pin native identity/body sources; declare adaptation; protect visible identity outside bounded feature edits; composite head over torso; inspect actual masks, whole character at native/integer nearest on light/dark and existing-world mock; check source/PNG equality, palette/alpha/anchor/connectivity and body protection. Technical consistency is not appearance approval. Eutychus/independent first-front review precedes any expansion; review art stays outside gameplay.
+
 ## Character-study application — M1.HR14
 
 Tutorial lessons guide workflow, not new anatomy or budgets: keep source registration, independent layers and exact palette changes; inspect every distinct pose at native scale and enlarged nearest pixels, then actual normal/labelled-slow motion. Preserve observed shade relationships and correct missed features across the full pose set. Thundaga17:00 demonstrates exact-color selection, not proportions; Revolation later corrects missed eyes and earlier frame-count shortcuts. Both complete automatic transcripts and selected actual frames are studied; neither continuous full watch is complete. [Attributed source findings, access limits and proposed review checklist](character-study/README.md). Canonical character/contact rules here control all applications; tutorial examples never override them.

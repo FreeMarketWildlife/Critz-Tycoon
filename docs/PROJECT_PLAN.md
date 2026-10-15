@@ -1,3 +1,7 @@
+# M1.GH1 — Girl Hero first front idle
+
+**Awaiting visual review after technical checks.** Preserve selected R11/C6 identity, native C6/C7 front head and selected burgundy shoes. One bounded front idle adapts HR14's checked original body as a declared shared construction. Inspect final visible mirrored ears, retained puffs/fringe/eyes, head-over-torso join, compact lower material and native/context balance. [Review deliverable](reviews/M1-GH1/README.md). Other Girl directions/walks wait for Eutychus/independent first-front review; no automatic M1/M2 acceptance, runtime installation or deployment. Original parked HR11 edits preserved.
+
 # M1.HR14 — Source-visible construction, rigid pack, featured dummy
 
 **Bounded material pass checked; overall UNAPPROVED, final root/user review pending.** Preserve exact silhouette/footwidth/head/lowerHero pixels; restore distinct existing lower-material planes in dummy, label frontpale versus near-tipcolor and ambiguous blackpants/shoe join without new anatomy. Unique/all8 actualmask/cue proofs carry16,64 crosshairs; quietercreamchest is coloronly, packgeometry unchanged/attached. [Currentproofs and actualrendered-cycle coverage](reviews/M1-HR14/README.md). Automatedrendered trace+visualtransitions passes12/13normal+2slow cycles each; no uninterruptedhumanwatch claimed. Root handles versionedLibrary/construction-quality decision; writer holds. Study/full-watch limits retained; HR11 parked; no roster/UI/runtime/save/deployment/TN4 or self-approval.

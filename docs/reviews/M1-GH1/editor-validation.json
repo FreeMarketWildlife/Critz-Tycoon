@@ -1,0 +1,19 @@
+{
+  "tool": "Actual Sprite Editor validateProject",
+  "results": [
+    {
+      "name": "girl-front-idle",
+      "width": 32,
+      "height": 64,
+      "frames": 1,
+      "validated": true
+    },
+    {
+      "name": "girl-front-construction",
+      "width": 32,
+      "height": 64,
+      "frames": 1,
+      "validated": true
+    }
+  ]
+}

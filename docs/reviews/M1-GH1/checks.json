@@ -1,0 +1,148 @@
+{
+  "task": "M1.GH1",
+  "result": "PASS technical checks; visual approval pending",
+  "checks": [
+    {
+      "name": "girl 32x64 binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl editable exact PNG",
+      "pass": true
+    },
+    {
+      "name": "girl single static frame",
+      "pass": true
+    },
+    {
+      "name": "construction 32x64 binary alpha",
+      "pass": true
+    },
+    {
+      "name": "construction editable exact PNG",
+      "pass": true
+    },
+    {
+      "name": "construction single static frame",
+      "pass": true
+    },
+    {
+      "name": "head 32x64 binary alpha",
+      "pass": true
+    },
+    {
+      "name": "body 32x64 binary alpha",
+      "pass": true
+    },
+    {
+      "name": "shared frame-edge anchor",
+      "pass": true
+    },
+    {
+      "name": "girl <=15 colors",
+      "pass": true
+    },
+    {
+      "name": "original C6 equals C7 front still",
+      "pass": true
+    },
+    {
+      "name": "protected original head pixels exact",
+      "pass": true
+    },
+    {
+      "name": "no inherited neck/collar rows45-46",
+      "pass": true
+    },
+    {
+      "name": "26 actual mirrored ear cells",
+      "pass": true
+    },
+    {
+      "name": "cleared old outer ear columns",
+      "pass": true
+    },
+    {
+      "name": "two 2x4 eyes exact and unoccluded",
+      "pass": true
+    },
+    {
+      "name": "no new face nose/mouth pixels",
+      "pass": true
+    },
+    {
+      "name": "puffMask source pixels exact",
+      "pass": true
+    },
+    {
+      "name": "tieMask source pixels exact",
+      "pass": true
+    },
+    {
+      "name": "composite equals declared layers",
+      "pass": true
+    },
+    {
+      "name": "body silhouette unchanged from HR14",
+      "pass": true
+    },
+    {
+      "name": "all final rows45+ retain HR14 silhouette",
+      "pass": true
+    },
+    {
+      "name": "construction exactly matches final silhouette",
+      "pass": true
+    },
+    {
+      "name": "no exposed central neck column45-48",
+      "pass": true
+    },
+    {
+      "name": "all actual body skin matches hand mask",
+      "pass": true
+    },
+    {
+      "name": "selected burgundy restored only near soles",
+      "pass": true
+    },
+    {
+      "name": "no skin lower legs",
+      "pass": true
+    },
+    {
+      "name": "hidden anatomy unresolved",
+      "pass": true
+    },
+    {
+      "name": "single 4-connected visible character",
+      "pass": true
+    }
+  ],
+  "nativeBounds": [
+    3,
+    21,
+    29,
+    62
+  ],
+  "paintedLastRow": 61,
+  "edgeAnchor": [
+    16,
+    64
+  ],
+  "colors": 14,
+  "protectedHeadPixels": 481,
+  "burgundyPixels": 14,
+  "limits": [
+    "One FRONT idle only; no girl-specific observed gait or directional reference.",
+    "Old C6 skull is authored scaffold, not observed bones.",
+    "HR14 shared body is declared adaptation; no hidden anatomy inferred.",
+    "Pixel checks are not independent review or user approval."
+  ],
+  "hashes": {
+    "art/source/hero-girl-r1/girl-front-construction.sprite.json": "26ca88a5e84e3511da376541e50359965553c96f683981a3697d139a25198a4a",
+    "art/source/hero-girl-r1/girl-front-idle.sprite.json": "9275a455d0c9859ec660b2f75fe4633af0889e4e4f93ce04afff661579472cd9",
+    "docs/reviews/M1-GH1/girl-front-construction.png": "0a651fd0b7791fa4b09f1ddb0aac3a9a516a3ef9cab175aa20f53cf70ea3fa11",
+    "docs/reviews/M1-GH1/girl-front-idle.png": "f2f85f88d92f4085cc7d59799b9600e366d7324906c36e7525e50c2fdbc31fda"
+  }
+}
