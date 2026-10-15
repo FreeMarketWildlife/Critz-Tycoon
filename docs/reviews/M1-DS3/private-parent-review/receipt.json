@@ -1,0 +1,33 @@
+{
+  "sourceCommit": "effc804f6e7189fec8ad511170544cd78b6bbebc",
+  "scope": "One native16x32Westidle construction; two frozen INTERNAL plates for parent inspection only",
+  "state": "Parent construction review pending; no main user delivery or expansion",
+  "files": [
+    {
+      "library_file_id": "libfile_8def3944807c8191bcf807ed9c623bb9",
+      "file_id": "file_000000005e0881f79305e1298f5ff573",
+      "file_name": "critz-DS3-compact-source-landmarks-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "702eee1d42c572c2bbb204d993283fcd7f3278d9d99da6da5a10cd24ed4a11aa",
+      "dimensions": [
+        1400,
+        630
+      ],
+      "metadataApplied": true,
+      "downloadBytesPixelsExact": true
+    },
+    {
+      "library_file_id": "libfile_f157ad3ac7008191aa1a7ea1fed29707",
+      "file_id": "file_00000000dfd482309c08ea4695ab33a8",
+      "file_name": "critz-DS3-compact-side-construction-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "7622b50d582415e6c0fedc02dc42308cbd118dbeceb3f33bde07541a1ec484f6",
+      "dimensions": [
+        960,
+        410
+      ],
+      "metadataApplied": true,
+      "downloadBytesPixelsExact": true
+    }
+  ]
+}
