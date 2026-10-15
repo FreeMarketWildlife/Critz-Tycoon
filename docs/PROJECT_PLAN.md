@@ -2,7 +2,7 @@
 
 ## Active M1.DS1 — Hero and dummy art first; creator stopped
 
-Blocked on actual NPC sheet pixels. Follow the latest [canonical two-resolution art direction](ART_BIBLE.md#isolated-two-resolution-bald-template-study--m1ds1), not the superseded creator-readiness notes below. Study actual reference before drawing; deliver the first idle/side-gait comparison, then iterate through user visual review toward all directions/existing walks. Preserve creator files, but perform no creator implementation, tests, polish or exports. Explicit user Hero/dummy acceptance is the prerequisite for reopening it. No roster/runtime/publication work. [Access evidence and next action](reviews/M1-DS1/README.md).
+Proceed with actually inspected primary Brendan/Man1 strips and verified ordinary-human dimensions; parent authorized these while the exact webpage sheet remains inaccessible. Follow the latest [canonical two-resolution art direction](ART_BIBLE.md#isolated-two-resolution-bald-template-study--m1ds1), not the superseded creator-readiness notes below. Study actual reference before drawing; deliver the first idle/side-gait comparison, then iterate through user visual review toward all directions/existing walks. Preserve creator files, but perform no creator implementation, tests, polish or exports. Explicit user Hero/dummy acceptance is the prerequisite for reopening it. No roster/runtime/publication work. [Access evidence and next action](reviews/M1-DS1/README.md).
 
 ## Active M1.CC1 — Bounded customization review prototype
 
