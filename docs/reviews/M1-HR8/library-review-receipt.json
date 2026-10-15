@@ -1,0 +1,94 @@
+{
+  "task": "M1.HR8",
+  "state": "narrow parent lower-body trial",
+  "sourceCommit": "ca86e22b9063aed88953680ae8fdad3e4d1e6659",
+  "ownerReceiptCommit": "7077bade40a1fe550046215ab74433e220f23a98",
+  "ownerIdle": true,
+  "earsComponentAccepted": true,
+  "feetAccepted": false,
+  "wholeBodyAccepted": false,
+  "libraryExportSucceeded": true,
+  "localMetadataApplied": true,
+  "items": [
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/lower-body-local-before-after.png",
+      "file_id": "file_0000000093d08230b20af97816850368",
+      "library_file_id": "libfile_7a26a445e64481918158e863159363fa",
+      "file_name": "lower-body-local-before-after.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 10047,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR8/lower-body-local-before-after.png",
+      "sha256": "3e1bb90927790b7ce86dfd45797d609d5ad7778b37ddb028d8bbad09c4456f85"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/whole-body-local-before-after.png",
+      "file_id": "file_0000000053288230935444519799c922",
+      "library_file_id": "libfile_24c98b7f99848191af9f71ff8e5a7b1b",
+      "file_name": "whole-body-local-before-after.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 9803,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR8/whole-body-local-before-after.png",
+      "sha256": "cf68247d796a331dee972deb39a797f5bbc3e25459997d6c046ee10bdcf1a36d"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/lower-body-reference-local.png",
+      "file_id": "file_00000000f078823087b9048405d5a41e",
+      "library_file_id": "libfile_36b9e06ed994819185e255148bedaab8",
+      "file_name": "lower-body-reference-local.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 20790,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/14/hero-hr8-reference/lower-body-reference-local.png",
+      "sha256": "f1017f59a20a1fafaea1aa4853ef2524c2bbd29b6898568ca0a1eb44be7943a8"
+    }
+  ],
+  "localReview": {
+    "rejectedLocalA": "Calves were separated, but near/far soles still joined into a continuous low horizontal bar.",
+    "localB": "Near sole and smaller raised visible rear heel create a contour notch; compact shoe and calf transitions distinguish this from HR7 wedge.",
+    "remaining": "Rear-heel occlusion, foot weight, calf proportions and narrower stance need parent judgment; no artistic acceptance from masks or numeric checks.",
+    "independentPreservation": "All four32x64 PNGs have exact rows0\u201353 versusHR7; rows62\u201363 remain transparent."
+  },
+  "holds": {
+    "fullBodyAcceptance": true,
+    "variants": true,
+    "featureSwapping": true,
+    "gameplayReplacement": true,
+    "deployment": true,
+    "TN4": true
+  }
+}
