@@ -1,3 +1,7 @@
+# Active M1.NB1 — South-first independent neutral mannequin
+
+**Initial checkpoint awaiting independent critique; foundation remains open.** HR14 material dummy is retained as historical material evidence, not accepted anatomy. [New independent South body/skin/costume layers, removal views and exact recomposition](reviews/M1-NB1/README.md) preserve selected Hero/Girl inputs. Review compact rounded body, supported visible skin, limb/foot attachment and true garment ownership before extending directions/walks. No creator, broad roster, runtime or deployment work in this checkpoint.
+
 # M1.GH1 — Girl Hero first front idle
 
 **Awaiting visual review after technical checks.** Preserve selected R11/C6 identity, native C6/C7 front head and selected burgundy shoes. One bounded front idle adapts HR14's checked original body as a declared shared construction. Inspect final visible mirrored ears, retained puffs/fringe/eyes, head-over-torso join, compact lower material and native/context balance. [Review deliverable](reviews/M1-GH1/README.md). Other Girl directions/walks wait for Eutychus/independent first-front review; no automatic M1/M2 acceptance, runtime installation or deployment. Original parked HR11 edits preserved.

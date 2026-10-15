@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Independent neutral-body reconstruction — M1.NB1 foundation reopened
+
+A recolored shirt/shorts/shoe silhouette is a material map, not a reusable anatomical base. First return a bounded South idle proposal with independent actual RGBA head/torso/pelvis/arms/hands/legs/feet layers, then separate skin/face appearance and removable garment/hair/pack layers. Under-clothes contours/joints are authored reconstruction, never measured from clothing. Maintain projected head/torso overlap, compact height/contact/frame registration and exact selected dressed Hero. No collar/fringe/sideburn silhouette may be smuggled into the bald base via old head-mask names.
+
+Prove real body contribution after dressing: exposed face/ears/hands are body-owned, clothing excludes them, masks match stored pixels, saved composites reproduce selected art, and body-only/single-garment removal views remain meaningful. Disclose every occlusion/coverage cell; never hide an unused mannequin under a full opaque Hero image called clothing. Current initial South proposal has167 visible body cells/zero clipping; rejected27-cell dark-only jaw/collar extension removed. Rounded feet must overlap their legs coherently; initial current8-cell feet overlap4/2cells. [Actual initial masks, toggles and reconstruction limits](reviews/M1-NB1/README.md). No approval inferred from exact recomposition; body proportion/contour and ownership need independent review before other directions/walk packaging or creator implementation.
+
 ## Bald reusable dummy and front hand ownership — HR14 foundation checkpoint
 
 Reusable dummy is BALD in every direction and existing animation frame. Hair/fringe/headwear must be separate optional overlays, not a base silhouette. Verify actual pixels and contours; current16 distinct heads are already smooth/bald, so preserve them with zero gratuitous head edits. Head contour is authored reconstruction, not a hidden-skull reference measurement. Preserve dressed Hero selected hair, eyes/ears/no-mouth default, projected head/torso occlusion and frame/contact/gait registration. [All-direction dressed/bald proof](reviews/M1-HR14/wrist-correction/README.md).

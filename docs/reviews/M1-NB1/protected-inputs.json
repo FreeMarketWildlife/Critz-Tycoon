@@ -1,0 +1,40 @@
+{
+  "protectedFileCount": 277,
+  "allTrackedHeroGirlInputsExactHEAD": true,
+  "savedRGBALayersRecomposeExact": true,
+  "neutralClippingCells": [],
+  "actualBodyContributionCells": 167,
+  "headSurfaceExtensionCells": 0,
+  "footLegOverlaps": {
+    "0": [
+      [
+        11,
+        59
+      ],
+      [
+        12,
+        59
+      ],
+      [
+        12,
+        60
+      ],
+      [
+        13,
+        60
+      ]
+    ],
+    "1": [
+      [
+        20,
+        59
+      ],
+      [
+        21,
+        59
+      ]
+    ]
+  },
+  "neutralEditorValidated": true,
+  "sourceHEAD": "5a5dfc6d14b4a3d0c59f5256a99aa94fea32c7b5"
+}
