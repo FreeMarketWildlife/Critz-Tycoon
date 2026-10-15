@@ -1,0 +1,682 @@
+{
+  "dummy-1x-south-idle.png": {
+    "sha256": "4cd3697e4df8c63cf77e3a161041ab6d4713d92e463947817cfa8ec83051b801",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-south-A.png": {
+    "sha256": "e05adcef3363df69d628ea66457ac78fd2ee483487dc92ab82bee856b8a196c7",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-south-P.png": {
+    "sha256": "26702270555aaeac55c579e77d9e49500203696c92381e9ff06be7ef0ee156ac",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      10,
+      14,
+      31
+    ],
+    "headCrownRow": 10,
+    "headChinRow": 20,
+    "eyeRows": [
+      16,
+      17
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 18,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-south-C.png": {
+    "sha256": "5dce2aab7e50ba4f156d6bd6c0c7aaeccc792fd03519a855c63e9f4e6fcbb09f",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-north-idle.png": {
+    "sha256": "97b83217240ef2c0cfba3660b4fc942f8d3a57adfa4be9cb98341ad3d9c1320a",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": null,
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-north-A.png": {
+    "sha256": "b083d0cf5ec31be10cb318c20846b8ff205e90c614a1c07d16fb76bd145b46f8",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": null,
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-north-P.png": {
+    "sha256": "bf03809da880a1526a7811e763f26f996537ed7ab016206b5b647ae3bdb7b846",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      10,
+      14,
+      31
+    ],
+    "headCrownRow": 10,
+    "headChinRow": 20,
+    "eyeRows": null,
+    "headHeight": 11,
+    "shoulderHiddenStart": 18,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-north-C.png": {
+    "sha256": "795fe19bf1f592c3fa7327d9430ac23ee3c9c3f2997873be8ed4150126140992",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": null,
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-west-idle.png": {
+    "sha256": "10f5ce04cee79163a22b53c0d1c80d2ae71089da0b06bbc422e15e7fe405295f",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      3,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-west-A.png": {
+    "sha256": "118a9914f9bef4c93dd1b04335ae3c6abe0b777e0207d2361223af28934ea527",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      3,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-west-P.png": {
+    "sha256": "44db7f93d00348a2fe0908c59afa498214ced4ca47533e586698b0636cfae4ef",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      3,
+      10,
+      14,
+      31
+    ],
+    "headCrownRow": 10,
+    "headChinRow": 20,
+    "eyeRows": [
+      16,
+      17
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 18,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-west-C.png": {
+    "sha256": "02b633d010278661b87d8ccf2d0536ea10b0101547c1655410bd2e87933e6676",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      3,
+      11,
+      14,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-east-idle.png": {
+    "sha256": "a392a81e1436d290338dfd1486ef30be50e0429ad78cf17b1ff52676fd08961e",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      13,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-east-A.png": {
+    "sha256": "ccf1bccac67ce7ecdc7dd52e833601d138bfe1fc927063a5d0108fe42fb12596",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      13,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-east-P.png": {
+    "sha256": "dd71e3849becc978f664c15c5353a397dba04318e6ca885844c7b34149041d0f",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      10,
+      13,
+      31
+    ],
+    "headCrownRow": 10,
+    "headChinRow": 20,
+    "eyeRows": [
+      16,
+      17
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 18,
+    "soleMaxRow": 30
+  },
+  "dummy-1x-east-C.png": {
+    "sha256": "8b46e7f4c0d193a680dcac9eae6d75b28111b698b7688ba6070fe37af7a1869e",
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      13,
+      31
+    ],
+    "headCrownRow": 11,
+    "headChinRow": 21,
+    "eyeRows": [
+      17,
+      18
+    ],
+    "headHeight": 11,
+    "shoulderHiddenStart": 19,
+    "soleMaxRow": 30
+  },
+  "dummy-2x-south-idle.png": {
+    "sha256": "c00926c436e45ca86fd28fa3c46ca36e8a56632644068df1f88df7a1fbe4f0c1",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-south-A.png": {
+    "sha256": "1d9a2175e0b750048a0fe9c6b4e94bc56328544f3fc24cedba41becf48ef7eec",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-south-P.png": {
+    "sha256": "372721426ab59d0a132c8d6976d591826eca6ec3d8520e60d894b403e8391dfb",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      20,
+      28,
+      62
+    ],
+    "headCrownRow": 20,
+    "headChinRow": 41,
+    "eyeRows": [
+      32,
+      35
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 36,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-south-C.png": {
+    "sha256": "a2e8a600f19c5ac46acfc316494ab55b581be7995fe10e3fe420dbb1fdb7d0b6",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-north-idle.png": {
+    "sha256": "acda7554cb89b498a5062f5a4cc54790da08ff369a261a4a2b3aaec467a81a10",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": null,
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-north-A.png": {
+    "sha256": "4ae0e81f687a4b365913e0d9bfad38a83e882efb9cdb18b3b9b3e5a8f9465f00",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": null,
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-north-P.png": {
+    "sha256": "9f26a130f5a7f6795b04d399121bbe5a6cd6f39de5d3c805b2842a9e5af950f6",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      20,
+      28,
+      62
+    ],
+    "headCrownRow": 20,
+    "headChinRow": 41,
+    "eyeRows": null,
+    "headHeight": 22,
+    "shoulderHiddenStart": 36,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-north-C.png": {
+    "sha256": "5dcfb22779bbc19a7f6eda1e08f62c32c595c66b044445dc63a0b11cafae5b20",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": null,
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-west-idle.png": {
+    "sha256": "68b91ffcc404cc9907c9f3458e5f0554299703b089ff15e2249c6735852c0497",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      6,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-west-A.png": {
+    "sha256": "c123a6727264f919b7622b3f2099958f1ff9127d5880f4e5f7a986cd77deb163",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      6,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-west-P.png": {
+    "sha256": "ebf47eb7aa86f58ff6e40dab1b9ee6572d59420c4fc6aaf083b56a47e83170c7",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      6,
+      20,
+      28,
+      62
+    ],
+    "headCrownRow": 20,
+    "headChinRow": 41,
+    "eyeRows": [
+      32,
+      35
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 36,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-west-C.png": {
+    "sha256": "d00813cd53838c9f5fcad8c64b7adf9eb5325a21ffab81c6dd430f02106d3643",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      6,
+      22,
+      28,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-east-idle.png": {
+    "sha256": "0f0653b16d8573c366b016e7ea07ab904184bb7150bd12e527d38d9558f8ba58",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      26,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-east-A.png": {
+    "sha256": "0073c312e8e13f62b89c3abf842342e72cbb6c28d329c575b7b0dffb95bbd765",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      26,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-east-P.png": {
+    "sha256": "f613bb64b4ddd8eeaf85d28488b6fd4a9d3b41e282d1ffaf06830d856ccb4893",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      20,
+      26,
+      62
+    ],
+    "headCrownRow": 20,
+    "headChinRow": 41,
+    "eyeRows": [
+      32,
+      35
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 36,
+    "soleMaxRow": 61
+  },
+  "dummy-2x-east-C.png": {
+    "sha256": "c6fc1185a13b70b645a582bb4ed117a7c09b611ee4e063ba799798956e80ccc0",
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      26,
+      62
+    ],
+    "headCrownRow": 22,
+    "headChinRow": 43,
+    "eyeRows": [
+      34,
+      37
+    ],
+    "headHeight": 22,
+    "shoulderHiddenStart": 38,
+    "soleMaxRow": 61
+  }
+}

@@ -1,5 +1,9 @@
 # Project status
 
+## DS4 coherent native/refined art candidate — internal review
+
+Parent actually accepted DS3's compact head/shoulder construction for coherent INTERNAL expansion only. [DS4 complete candidate and source basis](reviews/M1-DS4/README.md) includes16 native16×32 poses inspected before independently authored16 refined32×64 counterparts, four-direction/equal-display and all-pose plates, and16 art-only loops. Writer actually viewed every pose and refreshed exact numbered primary-source comparison; source7/8 contact ordering is not mislabeled as the same phase across Brendan/Man1. Allheadmaps retain11/22 rows; P translates rather than stretches. NativeWestidleexactDS3.32connected frame/palette checks and128decoded logical GIF slots pass;800ms reviewcadence is original, not emulator evidence. Frozen for Eutychus independent actual full-set/temporal critique and authorized private parent transfer. No main-user draft delivery or appearance approval; creator remains fully stopped pending explicitUSER Hero/dummy acceptance. Main; source/docs commit/push follows with selective staging, oldhistories/creator/parked edits preserved. Runtime/saves/hosting unchanged; no deployment.
+
 ## DS3 compact-head side idle — private parent inspection pending
 
 Parent's actual DS2 inspection rejected the elongated head: extending face rows did not establish projected shoulder overlap. Root marked DS2 private receipt/index rejected, preserving its identities and artwork. Separate DS3 restores compact DS1 head extent11..21, keeps eyes17..18 and sole30, and raises the shoulder behind it at19/visible beside jaw21. Palm/lower pixels23 onward are exact DS2. Root actually inspected the native side silhouette, original comparison and baseline-aligned primary-source crop; these are construction evidence, not appearance acceptance.

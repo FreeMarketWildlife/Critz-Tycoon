@@ -1,0 +1,210 @@
+[
+  {
+    "path": "dummy-1x-south-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-1x-south-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-1x-north-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-1x-north-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-1x-west-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-1x-west-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-1x-east-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-1x-east-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-south-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-south-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-north-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-north-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-west-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-west-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-east-walk-1display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  },
+  {
+    "path": "dummy-2x-east-walk-4display.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "decodedPixelsExact": true,
+    "logicalSlots": 8
+  }
+]
