@@ -1,0 +1,775 @@
+{
+  "task": "M1.NCR1",
+  "poses": {
+    "south": {
+      "idle": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            9,
+            13
+          ],
+          [
+            19,
+            23
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            4,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "A": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            17,
+            21
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            9,
+            11
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            1,
+            1
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "P": {
+        "masterLastContactRow": 59,
+        "nativeLastContactRow": 29,
+        "masterContactRuns": [
+          [
+            9,
+            13
+          ],
+          [
+            19,
+            23
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            4,
+            6
+          ],
+          [
+            10,
+            12
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            -1,
+            -1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          46
+        ],
+        "torsoAnchor16": [
+          8,
+          23
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "C": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            11,
+            15
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            5,
+            7
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            -1,
+            -1
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      }
+    },
+    "north": {
+      "idle": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            8,
+            14
+          ],
+          [
+            18,
+            24
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            4,
+            7
+          ],
+          [
+            9,
+            12
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "A": {
+        "masterLastContactRow": 63,
+        "nativeLastContactRow": 31,
+        "masterContactRuns": [
+          [
+            10,
+            16
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            5,
+            8
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "P": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            8,
+            14
+          ],
+          [
+            18,
+            24
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            4,
+            7
+          ],
+          [
+            9,
+            12
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          46
+        ],
+        "torsoAnchor16": [
+          8,
+          23
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "C": {
+        "masterLastContactRow": 63,
+        "nativeLastContactRow": 31,
+        "masterContactRuns": [
+          [
+            16,
+            22
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            8,
+            11
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      }
+    },
+    "west": {
+      "idle": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            10,
+            20
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            5,
+            10
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "A": {
+        "masterLastContactRow": 63,
+        "nativeLastContactRow": 31,
+        "masterContactRuns": [
+          [
+            20,
+            24
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            10,
+            12
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "P": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            10,
+            20
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            5,
+            10
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          46
+        ],
+        "torsoAnchor16": [
+          8,
+          23
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "C": {
+        "masterLastContactRow": 63,
+        "nativeLastContactRow": 31,
+        "masterContactRuns": [
+          [
+            8,
+            12
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            4,
+            6
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      }
+    },
+    "east": {
+      "idle": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            12,
+            22
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            6,
+            11
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "A": {
+        "masterLastContactRow": 63,
+        "nativeLastContactRow": 31,
+        "masterContactRuns": [
+          [
+            8,
+            12
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            4,
+            6
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "P": {
+        "masterLastContactRow": 61,
+        "nativeLastContactRow": 30,
+        "masterContactRuns": [
+          [
+            12,
+            22
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            6,
+            11
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          46
+        ],
+        "torsoAnchor16": [
+          8,
+          23
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      },
+      "C": {
+        "masterLastContactRow": 63,
+        "nativeLastContactRow": 31,
+        "masterContactRuns": [
+          [
+            20,
+            24
+          ]
+        ],
+        "nativeContactRuns": [
+          [
+            10,
+            12
+          ]
+        ],
+        "contactEdgeOffsetsMasterPixels": [
+          [
+            0,
+            0
+          ]
+        ],
+        "torsoAnchor32": [
+          16,
+          48
+        ],
+        "torsoAnchor16": [
+          8,
+          24
+        ],
+        "canonicalPackAnchor32": [
+          16,
+          48
+        ],
+        "canonicalPackAnchor16": [
+          8,
+          24
+        ],
+        "nativeSoleCompression": "short pale edge retained one native row above dark contact; some sole-material cells shift2master pixels relative to a literal inverse, explicitly authored for readability",
+        "notLosslessInverse": true
+      }
+    }
+  },
+  "actualNativeObservedPack": {
+    "south": {
+      "idle": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "A": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "P": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "C": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      }
+    },
+    "north": {
+      "idle": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "A": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "P": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "C": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      }
+    },
+    "west": {
+      "idle": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "A": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "P": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "C": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      }
+    },
+    "east": {
+      "idle": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "A": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "P": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      },
+      "C": {
+        "normalizedObservedDifference": [],
+        "qualification": "observed coarse visibility/material mask, not complete reconstructed rigid native backpack"
+      }
+    }
+  }
+}

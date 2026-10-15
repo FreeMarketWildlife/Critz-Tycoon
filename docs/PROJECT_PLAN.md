@@ -1,3 +1,7 @@
+## Active M1.NCR1 — native cleanup with bounded master consistency
+
+Parent reopened sampled native16 appearance and specifically authorized NWE32 footwear/rear-join material consistency, retaining exact South32/front and source anatomy/footprints/contacts/anchors. [Complete existing-pose candidate](reviews/M1-NCR1/README.md) now has authored native contours/materials, before bald+Hero, exact shared-body attachments, matching shoe hierarchy and actual pack corner stabilization. Writer normal-speed/native/static checks complete; frozen for root independent/private actual visual review. Source main commit/push verification follows; no automatic final art acceptance, creator restart or runtime/deployment expansion. H4R1/history and parked work remain preserved.
+
 # M1.NET3 — Restore normal movement; A handling and escapes
 
 **Published as version60; awaiting user feel review.** User rejects NET2 movement slowdown and specifies tapA→longer-windup swing, holdA→ready, release→quick swing. Keep ordinary game movement, committed steps and prior catch target; remove sticky READY/slow cadence. Add visible scared-beetle takeoff and crawler scuttle/grass hiding using existing critters. [Prototype and checks](reviews/M1-NET3/README.md). Preserve NET1 and private character work; the scoped review is now published over the prior live source; user judges the action rhythm and escape feedback before integration.

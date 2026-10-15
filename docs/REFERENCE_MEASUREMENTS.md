@@ -1,5 +1,9 @@
 # Reference measurements — Emerald exploration
 
+## NCR1 source-visible rear join and native quantization
+
+Actual H4R1 North master idle inspection: hair/ink ends around41, exposed rear skin/shadow42..44, full dark collar45, visible pack beginning46. These are existing Critz visible pixels, not measured Emerald neck anatomy. Parent-authorized optional hair/shadow changes and precise source deltas are recorded in [NCR1 diagnosis](reviews/M1-NCR1/DIAGNOSIS.md) and [cell evidence](../art/source/native-cleanup-r1/changes.json). Native contacts retain exact half-width and<=1master-pixel edge rounding; eyes remain1×2 at19..20 (P18..19). Short sole material is deliberately compressed above dark contact, sometimes2master pixels away from a literal inverse; do not generalize contact rounding into a lossless color/part mapping claim. Primary Brendan/Man1 source basis remains pinned731ad5bfd6e6f265508d0efcca0ba42f9dcf5881 with index0 excluded; no new emulator observation.
+
 ## H4R1 actual North source and attachment inspection
 
 Primary Brendan walking/Man1 indexed PNG strips at731ad5bfd6e6f265508d0efcca0ba42f9dcf5881 were actually inspected at North1/5/6 with index0 excluded. [Hashes, dimensions, occupied bounds and contacts](../art/source/four-direction-refinement-r1/primary-reference-audit.json) record selected source facts, without copying source pixels. Compact head/garment overlap and short material clusters inform original Critz decisions; no hidden bones/skull or emulator observation claimed. Actual archived Critz HR14 pack PNGs normalize byte-exact RGBA to idle after undoing torsoTransform: canonical16,48 is torso-local and P renders up2 with torso, not an absolute-frame-fixed raster. [Actual raster, source/native landmarks and quantified contact rounding](../art/source/four-direction-refinement-r1/correspondence.json) distinguish observations from new lossy16×32 choices. Master/frame/source preservation is separate from visual acceptance.

@@ -1,0 +1,31 @@
+# M1.NCR1 — native cluster cleanup and coherent footwear family
+
+**Internal candidate, awaiting independent/private visual judgment.** Parent reopened H4R1's sampled native16 appearance, then explicitly authorized bounded NWE32 footwear and dressed rear hair/collar consistency. South32 remains exact. No creator, runtime/save/deployment work or main-user draft delivery. Root owns independent/private review and Library transfer.
+
+[Diagnosis and scope amendment recorded before edits](DIAGNOSIS.md) distinguish actual reference/source facts from proposed original changes. Re-inspected primary Brendan/Man1 frames0..8 at pinned731ad5bfd6e6f265508d0efcca0ba42f9dcf5881, paletteindex0 transparent; no copied reference pixels or emulator claim.
+
+## What changed
+
+Native16 is now authored through explicit editable contour/feature/body/material cells in `art/source/native-cleanup-r1/author.py` and `native-body-maps.json`, with221 deliberate changes recorded. H4R1 is the rejected correspondence trace, not a new reduction/sampling pipeline. Complete front/back/profile head rows enclose ears in dark rims, keep registered1×2eyes, pair idle contour geometry and clean the chin. Native source-registered hand skin lost to costume voting is restored in the existing envelope. Side trouser planes use connected short diagonals; compact dark/cool shoe uppers, short pale edges and tiny warm accents replace broad red bars. Original source contact widths/locations and full below-head alpha are unchanged. Native Hero/bald contribute ONE identical body; real separate hair/shadow/cutout recomposes Hero exactly without a full dressed-body overlay.
+
+Parent's later amendment permits specific NWE32 material changes, superseding the initial blanket master freeze. Front footwear controls the hierarchy: dark upper, cool gray highlight, restrained warm accent, short pale sole edge and dark underside. All NWE shoe alpha/exterior/full footprints/last-contact colors/waist/head features/hands/visible pack pixels remain exact. There is no shin lengthening, anatomical split, shrink or continuous pale rail. All8 South32 Hero/bald PNGs are byte-exact H4R1.
+
+North dressed rear join is an optional hairstyle change over actual exposed rear scalp, not a neck reconstruction: lower original hair overlaps existing42/43skin, tapered within unchanged full Hero alpha; a short44cast shadow quiets the remaining stripe. P retains the same -2master bob. Smooth bald scalp is exact; collar/pack/hands stay exact. Actual separate original hair/shadow recomposes revised Hero; source visible eye/ear/hand sites are preserved. Native optional rear overlap/shadow is deliberately matched on its own grid.
+
+The three actual native pack differences were color-only navy/ink corners, not spatial motion. WestA(12,26), EastA/EastC(3,26) now retain idle navy. All16 observed masks normalize pixel-exact to idle after torso bob. This concerns source-visible coarse material/occlusion, **not a complete reconstructed rigid native backpack**.
+
+## Compact evidence
+
+- [Complete four-direction before/after](four-direction-before-after.png): actual H4R1 Hero AND bald before, new Hero AND bald after, corrected master. Before bald makes the original bare-ear defect visible. Native6× and master3× both occupy96×192; true-native thumbnails accompany every panel.
+- [All16pose comparisons](all-direction-poses.png), [master family before/after](master-family-before-after.png). The master-only plate uses the same2× scale for every column.
+- Eight `{direction}-paired-existing-walk-{normal,slow}.gif` files compare the same appearances at existing cadence. Source orderA,A,P,P,C,C,P,P; South8×100ms/800ms, NWE70,60,70,70,70,60,70,70ms/540ms. Slow4×. All64decoded frames/holds/loops exactly match rendered source panels; no new controller/timing design.
+- [Art-only normal-speed/step review](motion-review.html), no game/creator/storage imports. Original transparent per-pose master/native PNGs and real hair/shadow/cutout parts accompany this review.
+- `changes.json` records input/output hashes, exact master pixel changes and source torso/canonical pack registrations; `correspondence.json` records actual contacts/rounding and observed-pack masks. `authored-changes.json` records native decisions/reasons.
+
+## Quantization and verification limits
+
+Contacts retain exact half master widths and<=1master-pixel edge rounding; same native last-contact RGBA as H4R1. Source2×4eyes at38..41 remain native1×2 at19..20 (P18..19). Frame anchor16,64→8,32 and original torso-relative pack bob are unchanged. Thin sole and dark underside cannot occupy separate halves of a native cell: short pale material edges are intentionally compressed one native row above dark contact. Some material cells therefore shift2master pixels relative to a literal inverse; this is explicitly authored cluster readability, **not a claimed<=1pixel bound on all materials**. Fine ear/hair/sole detail remains coarser, and broad inherited passing overlap remains. No new hidden anatomy, source-equivalence or final Emerald-feel claim.
+
+940 saved writer guards pass: pinned H4R1 master inputs, protected master alpha/exterior/contacts/features/visible pack/front, native dimensions/eyes/ear rims/shared body/real hair recomposition/contact half-width/rounding, all16 observed-pack normalizations and64actualGIFframes. Separate audit verifies all205 historical H4R1 owned source/review files byte-exact to2c8fa4f. Writer actually inspected all16static comparisons and revised master idles; Chrome normal native/enlarged playback yielded60DOM observations covering all8slots in all4directions,32image elements loaded and no observed warnings/errors. This is sampled live playback plus complete static/GIF decode review, not an uninterrupted personal watch, physical-phone test or independent screenshot-per-slot proof. Root checks independently.
+
+Artwork frozen for root audit. Owned source/docs main commit/push receipt follows in handoff; existing parked NET-grid/docs/HR11/NB1/SV1 edits preserved. Exact next: root independent source/browser review, compact private transfer and actual parent's appearance/motion judgment. Creator/runtime/deployment remain stopped; playable build unchanged.

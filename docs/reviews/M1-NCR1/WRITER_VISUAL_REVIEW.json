@@ -1,0 +1,74 @@
+{
+  "task": "M1.NCR1",
+  "actualStatic": "all16 directions/poses with before Hero+bald, after Hero+bald, corrected32master; equal native6x/master3x plus true native thumbnails",
+  "actualBrowser": "Chrome CUA art-only127.0.0.1:8800, normal existing source cadence",
+  "normalDOMObservations": 60,
+  "observedNormalSlots": {
+    "south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "west": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "east": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "all32ImagesLoaded": true,
+  "actualCSS": {
+    "masterNative": [
+      32,
+      64
+    ],
+    "smallNative": [
+      16,
+      32
+    ],
+    "equalEnlarged": [
+      96,
+      192
+    ]
+  },
+  "consoleWarningsErrors": [],
+  "observedPackColorBlink": "all16 normalized observed masks pixel-identical to idle; actual normal-speed samples inspected, no spatial/hidden-part claim",
+  "South32PNGsByteExact": 8,
+  "historicalH4R1OwnedFilesExact": 205,
+  "scopeLimitations": [
+    "retained broad passing/overlap silhouette",
+    "coarse16 loses fine ear/hair/sole information; material-cell compression explicitly authored",
+    "normal DOM coverage not screenshot-per-slot pixel audit or uninterrupted personal watch",
+    "not physical iPhone test or user appearance approval"
+  ],
+  "next": "root independent/browser audit + private actual parent judgment"
+}

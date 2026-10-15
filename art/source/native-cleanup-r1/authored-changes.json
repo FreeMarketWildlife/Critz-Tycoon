@@ -1,0 +1,2437 @@
+{
+  "task": "M1.NCR1",
+  "basis": "manually authored native grid, H4R1 trace for correspondence only, master untouched",
+  "changes": [
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        2,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        13,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        4,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        3,
+        21
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        5,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        11,
+        21
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        12,
+        21
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        2,
+        26
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "dark lower hand rim; preserve warm inner hand and existing alpha"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        13,
+        26
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "dark lower hand rim; preserve warm inner hand and existing alpha"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        11,
+        25
+      ],
+      "from": "v",
+      "to": "s",
+      "reason": "restore right inner hand from actual projected source skin, matching left three-cell hand"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        2,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        13,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        4,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        3,
+        21
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        5,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        11,
+        21
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        12,
+        21
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        2,
+        18
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        13,
+        18
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        4,
+        19
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        3,
+        20
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        5,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        11,
+        20
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        12,
+        20
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        2,
+        25
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "dark lower hand rim; preserve warm inner hand and existing alpha"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        13,
+        25
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "dark lower hand rim; preserve warm inner hand and existing alpha"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        11,
+        24
+      ],
+      "from": "v",
+      "to": "s",
+      "reason": "restore right inner hand from actual projected source skin, matching left three-cell hand"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        2,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        13,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        4,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        3,
+        21
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        5,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        11,
+        21
+      ],
+      "from": "s",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        12,
+        21
+      ],
+      "from": "o",
+      "to": "_",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        12,
+        19
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        4,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        11,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        5,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        10,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        4,
+        25
+      ],
+      "from": "n",
+      "to": "s",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        11,
+        25
+      ],
+      "from": "n",
+      "to": "s",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        12,
+        19
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        4,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        11,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        5,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        10,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        11,
+        25
+      ],
+      "from": "v",
+      "to": "s",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        12,
+        25
+      ],
+      "from": "s",
+      "to": "d",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        12,
+        18
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        4,
+        19
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        11,
+        19
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        5,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        10,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        4,
+        24
+      ],
+      "from": "n",
+      "to": "s",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        11,
+        24
+      ],
+      "from": "n",
+      "to": "s",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        12,
+        19
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        4,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        11,
+        20
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        5,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        10,
+        21
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        3,
+        25
+      ],
+      "from": "s",
+      "to": "d",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        4,
+        25
+      ],
+      "from": "v",
+      "to": "s",
+      "reason": "recover source-registered exposed hand cluster from coarse costume vote; retain frame bounds"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        11,
+        18
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        2,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        11,
+        18
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        2,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        11,
+        17
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        2,
+        18
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        11,
+        18
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        2,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        4,
+        15
+      ],
+      "from": "s",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        11,
+        15
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        4,
+        18
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        5,
+        19
+      ],
+      "from": "s",
+      "to": "d",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        6,
+        19
+      ],
+      "from": "d",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        13,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        5,
+        20
+      ],
+      "from": "d",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        4,
+        15
+      ],
+      "from": "s",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        11,
+        15
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        4,
+        18
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        5,
+        19
+      ],
+      "from": "s",
+      "to": "d",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        6,
+        19
+      ],
+      "from": "d",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        13,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        5,
+        20
+      ],
+      "from": "d",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        4,
+        14
+      ],
+      "from": "s",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        11,
+        14
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        4,
+        17
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        5,
+        18
+      ],
+      "from": "s",
+      "to": "d",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        6,
+        18
+      ],
+      "from": "d",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        13,
+        18
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        5,
+        19
+      ],
+      "from": "d",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        4,
+        15
+      ],
+      "from": "s",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        11,
+        15
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        4,
+        18
+      ],
+      "from": "S",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        5,
+        19
+      ],
+      "from": "s",
+      "to": "d",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        6,
+        19
+      ],
+      "from": "d",
+      "to": "S",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        13,
+        19
+      ],
+      "from": "S",
+      "to": "o",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        5,
+        20
+      ],
+      "from": "d",
+      "to": "s",
+      "reason": "authored connected native contour/outlined ear/registered eyes; original head/body envelope correspondence"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        10,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        11,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        8,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        9,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        10,
+        28
+      ],
+      "from": "b",
+      "to": "o",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        8,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        4,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        5,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        5,
+        28
+      ],
+      "from": "b",
+      "to": "o",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        6,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        7,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        7,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        8,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        9,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        10,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        7,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        8,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        9,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        10,
+        28
+      ],
+      "from": "b",
+      "to": "o",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        8,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        5,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        6,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        7,
+        27
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        5,
+        28
+      ],
+      "from": "b",
+      "to": "o",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        6,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        7,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        8,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        7,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        5,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "b",
+      "to": "v",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "n",
+      "to": "v",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "b",
+      "to": "r",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        10,
+        28
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "b",
+      "to": "r",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "n",
+      "to": "v",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "b",
+      "to": "v",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "b",
+      "to": "r",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "b",
+      "to": "v",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "b",
+      "to": "v",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        12,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "curved connected blue trouser plane/compact warm near shoe and cooler smaller far cue; no hidden leg split"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        3,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "b",
+      "to": "v",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "b",
+      "to": "v",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "b",
+      "to": "r",
+      "reason": "same authored side lower geometry/materials reflected at native centerline"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        12,
+        26
+      ],
+      "from": "o",
+      "to": "n",
+      "reason": "stabilize actual visible navy pack corner; remove ink/navy color blink"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        3,
+        26
+      ],
+      "from": "o",
+      "to": "n",
+      "reason": "stabilize actual visible navy pack corner; remove ink/navy color blink"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        3,
+        26
+      ],
+      "from": "o",
+      "to": "n",
+      "reason": "stabilize actual visible navy pack corner; remove ink/navy color blink"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        5,
+        28
+      ],
+      "from": "n",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        10,
+        28
+      ],
+      "from": "n",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "C",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "C",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        5,
+        27
+      ],
+      "from": "n",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        10,
+        27
+      ],
+      "from": "n",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        5,
+        28
+      ],
+      "from": "C",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "xy": [
+        10,
+        28
+      ],
+      "from": "C",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        9,
+        28
+      ],
+      "from": "g",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "C",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        6,
+        28
+      ],
+      "from": "g",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "C",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "n",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        7,
+        29
+      ],
+      "from": "n",
+      "to": "b",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        5,
+        30
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        6,
+        30
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "xy": [
+        7,
+        30
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        8,
+        29
+      ],
+      "from": "n",
+      "to": "b",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "n",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        8,
+        30
+      ],
+      "from": "b",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        9,
+        30
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "xy": [
+        10,
+        30
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        6,
+        28
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "r",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        7,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        6,
+        28
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        7,
+        28
+      ],
+      "from": "n",
+      "to": "b",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "r",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        7,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "v",
+      "to": "b",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "v",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "r",
+      "to": "v",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        10,
+        30
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "xy": [
+        11,
+        30
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "r",
+      "to": "v",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "v",
+      "to": "C",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "v",
+      "to": "b",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        4,
+        30
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "xy": [
+        5,
+        30
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same dark upper/cool highlight/short pale edge/tiny warm cue as corrected master; material cluster compressed above dark contact"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        9,
+        28
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        8,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "r",
+      "to": "c",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "r",
+      "to": "v",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        5,
+        29
+      ],
+      "from": "v",
+      "to": "C",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "v",
+      "to": "b",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        4,
+        30
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "xy": [
+        5,
+        30
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        8,
+        28
+      ],
+      "from": "n",
+      "to": "b",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        9,
+        28
+      ],
+      "from": "b",
+      "to": "C",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        6,
+        29
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        8,
+        29
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "xy": [
+        9,
+        29
+      ],
+      "from": "r",
+      "to": "c",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        4,
+        29
+      ],
+      "from": "v",
+      "to": "b",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        10,
+        29
+      ],
+      "from": "v",
+      "to": "C",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        11,
+        29
+      ],
+      "from": "r",
+      "to": "v",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        10,
+        30
+      ],
+      "from": "v",
+      "to": "c",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "xy": [
+        11,
+        30
+      ],
+      "from": "v",
+      "to": "n",
+      "reason": "same final side footwear hierarchy reflected; full original contact width retained"
+    }
+  ]
+}

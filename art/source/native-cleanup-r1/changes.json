@@ -1,0 +1,7265 @@
+{
+  "task": "M1.NCR1",
+  "inputs": {
+    "docs/reviews/M1-H4R1/south-idle/master-hero.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "docs/reviews/M1-H4R1/south-idle/master-bald.png": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+    "docs/reviews/M1-H4R1/south-idle/master-hair.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-H4R1/south-idle/master-hair-shadow.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-H4R1/south-idle/native-hair.png": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+    "docs/reviews/M1-H4R1/south-idle/native-hair-shadow.png": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+    "docs/reviews/M1-H4R1/south-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/south-idle/native-hero.png": "363a76ba302fbb34a64e33fe214f5f78ddcd162e95489e7a6eb08140409d5a0e",
+    "docs/reviews/M1-H4R1/south-idle/native-bald.png": "ca8390d2f4355661b2f72aa87392e62214ce8d81ae632376ea3a503f71d850ea",
+    "docs/reviews/M1-H4R1/south-A/master-hero.png": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+    "docs/reviews/M1-H4R1/south-A/master-bald.png": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+    "docs/reviews/M1-H4R1/south-A/master-hair.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-H4R1/south-A/master-hair-shadow.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-H4R1/south-A/native-hair.png": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+    "docs/reviews/M1-H4R1/south-A/native-hair-shadow.png": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+    "docs/reviews/M1-H4R1/south-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/south-A/native-hero.png": "42662f3af6767002fc5cb0b89df7b54d63745bc90f59b34b9b67e3dd1e7848ce",
+    "docs/reviews/M1-H4R1/south-A/native-bald.png": "7da8d3b47d305ec619d29ce1fd80f52a7b688ee43ec91930ba09f33cbe9ab4e4",
+    "docs/reviews/M1-H4R1/south-P/master-hero.png": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+    "docs/reviews/M1-H4R1/south-P/master-bald.png": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+    "docs/reviews/M1-H4R1/south-P/master-hair.png": "8f2971313b13f60742419d5971ded9660888b4990b0382488de740b6f23ef38d",
+    "docs/reviews/M1-H4R1/south-P/master-hair-shadow.png": "e128c048a3e5182df6d25d837ae44e6bf870b30036cb40de3241aa2ca12ce01b",
+    "docs/reviews/M1-H4R1/south-P/native-hair.png": "c0e4b04729b58f324f2f6ed10a49ebbdaaff0623af29459a43d04e12d4dbb291",
+    "docs/reviews/M1-H4R1/south-P/native-hair-shadow.png": "6bc83c010df370caee202735e92a3f679228e30b330145bda1c1f6f5ffa3176d",
+    "docs/reviews/M1-H4R1/south-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/south-P/native-hero.png": "5e5b7c61d7536c6fd39f38a4dcf3bba8bf6df0ea2bade6838b62617244bcfd54",
+    "docs/reviews/M1-H4R1/south-P/native-bald.png": "c3c09b380b5cf8936fe5654765835d63d5754f71e0e53388ef3e537fa64117d4",
+    "docs/reviews/M1-H4R1/south-C/master-hero.png": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+    "docs/reviews/M1-H4R1/south-C/master-bald.png": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+    "docs/reviews/M1-H4R1/south-C/master-hair.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-H4R1/south-C/master-hair-shadow.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-H4R1/south-C/native-hair.png": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+    "docs/reviews/M1-H4R1/south-C/native-hair-shadow.png": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+    "docs/reviews/M1-H4R1/south-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/south-C/native-hero.png": "7ef70f64c0de735621bba6d5b47eeda743095b132ec8c384b23a6979b2db6272",
+    "docs/reviews/M1-H4R1/south-C/native-bald.png": "18387b51f53385e9b7536a95ff209897d5b05adef72339e4a642e1bd8b34c9e7",
+    "docs/reviews/M1-H4R1/north-idle/master-hero.png": "61553967ac7a2782514d6279ae717f981e7891bdbba5ba7054ed7f16d9321103",
+    "docs/reviews/M1-H4R1/north-idle/master-bald.png": "3d0e3551c4d62e63f1131ce79c335a1844627b2efd204a9efdcdc0864d404872",
+    "docs/reviews/M1-H4R1/north-idle/master-hair.png": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+    "docs/reviews/M1-H4R1/north-idle/master-hair-shadow.png": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+    "docs/reviews/M1-H4R1/north-idle/native-hair.png": "8af580ab5d883a133dfa5a887a2f7fbe1e886147e12bf185b893fc18665e768d",
+    "docs/reviews/M1-H4R1/north-idle/native-hair-shadow.png": "622287ee79c4e7b9dac3e6a99db2b4065eeae3ddcf5f03094687feb3f89b8f8f",
+    "docs/reviews/M1-H4R1/north-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/north-idle/native-hero.png": "9dafb3a12d70054a69863bd8043a474dbed3d865ad33d81aa8d67d835fa8205f",
+    "docs/reviews/M1-H4R1/north-idle/native-bald.png": "db990ae2ea49d542af622d2063eb5ce8d8769d76032c042cf8b473e7fd83eba9",
+    "docs/reviews/M1-H4R1/north-A/master-hero.png": "7a753e6f27fc48921339f581486abb4a62910804f379e7bfdd677bee1a201c2d",
+    "docs/reviews/M1-H4R1/north-A/master-bald.png": "ed0c824faa140aab16561a7aba3b7858bae7def0a9687337b4dd8ae99df210bb",
+    "docs/reviews/M1-H4R1/north-A/master-hair.png": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+    "docs/reviews/M1-H4R1/north-A/master-hair-shadow.png": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+    "docs/reviews/M1-H4R1/north-A/native-hair.png": "8af580ab5d883a133dfa5a887a2f7fbe1e886147e12bf185b893fc18665e768d",
+    "docs/reviews/M1-H4R1/north-A/native-hair-shadow.png": "622287ee79c4e7b9dac3e6a99db2b4065eeae3ddcf5f03094687feb3f89b8f8f",
+    "docs/reviews/M1-H4R1/north-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/north-A/native-hero.png": "c19de2cf9a40e8d0c656dcd6173559bf6e426dc6746907bbca1fd4994cc6fb72",
+    "docs/reviews/M1-H4R1/north-A/native-bald.png": "a14f972050e055628bb632403fa28c46dd9ac2f05109b8b3ba8a1186431b1d35",
+    "docs/reviews/M1-H4R1/north-P/master-hero.png": "5d002cb3ccd3194a0e991a34f955275b70900783e6417aec85c14133d16fcf5f",
+    "docs/reviews/M1-H4R1/north-P/master-bald.png": "2152915b52c12c74fb3f296dc4422212e18652ab668a647965d3808834b0246c",
+    "docs/reviews/M1-H4R1/north-P/master-hair.png": "4681d80bd5c75997ec19b5bb43e94ec32aacbd4748e742302c323b3c7b536f24",
+    "docs/reviews/M1-H4R1/north-P/master-hair-shadow.png": "312db936dd59b001e66341c7a94c3b275ad867f9b5736e165d9291f6b1293e6c",
+    "docs/reviews/M1-H4R1/north-P/native-hair.png": "e46967a06093efa8eb031cb3be7aea4ceca466fe5f0b8aa9ead33c8fdc628989",
+    "docs/reviews/M1-H4R1/north-P/native-hair-shadow.png": "136bd7f110f725aaf34d8a175e37f8eecba4ae528ed4ff8df47746fac4b8dd6f",
+    "docs/reviews/M1-H4R1/north-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/north-P/native-hero.png": "3ab83b7e36b78ca6225a38dccc34d06b2f2ba7964fb0a2b02f891feb00dec9d6",
+    "docs/reviews/M1-H4R1/north-P/native-bald.png": "59dfd5fc1ebc38ec339f3a6e65f998ca0651ba43c5f6abd8bed90b17da047e12",
+    "docs/reviews/M1-H4R1/north-C/master-hero.png": "28c82322c819d0bc75d115317efa40deb4633cfcafb3b2bf76171f7a06cd576f",
+    "docs/reviews/M1-H4R1/north-C/master-bald.png": "e8ffc6c3b39dd2969a4eaef992ba730e46fa8a173ff41329203cf573204f4d6c",
+    "docs/reviews/M1-H4R1/north-C/master-hair.png": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+    "docs/reviews/M1-H4R1/north-C/master-hair-shadow.png": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+    "docs/reviews/M1-H4R1/north-C/native-hair.png": "8af580ab5d883a133dfa5a887a2f7fbe1e886147e12bf185b893fc18665e768d",
+    "docs/reviews/M1-H4R1/north-C/native-hair-shadow.png": "622287ee79c4e7b9dac3e6a99db2b4065eeae3ddcf5f03094687feb3f89b8f8f",
+    "docs/reviews/M1-H4R1/north-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/north-C/native-hero.png": "6aa28b286b56342e34ddcd0938557800dc5678b2038398fba1cb69b1702a286e",
+    "docs/reviews/M1-H4R1/north-C/native-bald.png": "04d552386ba595fc2b35a5ff6cae087c60a999a988004fd098c6eddd280575d2",
+    "docs/reviews/M1-H4R1/west-idle/master-hero.png": "5d411e0e98d8bdf0640ce06cbe4eb734b61d9a3c5b7bf1d2541240d51fd41525",
+    "docs/reviews/M1-H4R1/west-idle/master-bald.png": "9a41b63b133a5ae7353ebf9bc9d0cdf2c21f70908fc5cb97d2e140460eb35979",
+    "docs/reviews/M1-H4R1/west-idle/master-hair.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-H4R1/west-idle/master-hair-shadow.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-H4R1/west-idle/native-hair.png": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+    "docs/reviews/M1-H4R1/west-idle/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-idle/native-hero.png": "3141b14860553c1392b71f6113e402e7d7e155890ab87ffbcc9842db9184bf26",
+    "docs/reviews/M1-H4R1/west-idle/native-bald.png": "17907b53b1ac2b26ff4806d44714ebc8b0eec80d9cd56197c48058854c1f6a05",
+    "docs/reviews/M1-H4R1/west-A/master-hero.png": "d6f7cbc07ab7f2d2291f9a6cfd051b383dc6ea92389853b4c09a8ab146d19bea",
+    "docs/reviews/M1-H4R1/west-A/master-bald.png": "3df568b17954d049bb3594e3ba720df2fd1054e894682de598ec89a24336e5bf",
+    "docs/reviews/M1-H4R1/west-A/master-hair.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-H4R1/west-A/master-hair-shadow.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-H4R1/west-A/native-hair.png": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+    "docs/reviews/M1-H4R1/west-A/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-A/native-hero.png": "039c0f3cd8888c5368713852e22e34af6241f073d944a918d5675296d2adcebe",
+    "docs/reviews/M1-H4R1/west-A/native-bald.png": "9305894e4dfd58a5bc8fbfadc2b42707e9fc1db04086db7ed85ed07a8b15a197",
+    "docs/reviews/M1-H4R1/west-P/master-hero.png": "45bed3db13ceca2b0004494a3be2432a6e2cb92c657dfdb3e53d14f4e4d3ed9f",
+    "docs/reviews/M1-H4R1/west-P/master-bald.png": "bb3559ccc49f85bb6507f3ce04c850b172300aad569317c508978687d4bbe1a5",
+    "docs/reviews/M1-H4R1/west-P/master-hair.png": "e68652155571c207258028564e9724c84ece3e51f96d659747a5e11bdf7615e1",
+    "docs/reviews/M1-H4R1/west-P/master-hair-shadow.png": "946ffda75f3ed1f15f03eb8ac7965d0cacf34662e64718c59613d225e81bbf45",
+    "docs/reviews/M1-H4R1/west-P/native-hair.png": "143045a55272e16a60714ec3ab04ca7a63cac688de75cb2c8796d25b108105c8",
+    "docs/reviews/M1-H4R1/west-P/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-P/native-hero.png": "bb38346cd60af0d2d9dd90c2f4019efd709cbae11db3d9ea7a115c7e12fa6ea3",
+    "docs/reviews/M1-H4R1/west-P/native-bald.png": "4fae546d4124f4bf12f9af9eae90ba84bc6c2f07745fef5577bffa715df11653",
+    "docs/reviews/M1-H4R1/west-C/master-hero.png": "8e3d089c24e75c3fc5f2fae71943d9782d44af1e4350d06fab2a49f61dc1ef9d",
+    "docs/reviews/M1-H4R1/west-C/master-bald.png": "df6f010053cdf03861fafc5bed310fc72b081e928c3b71efde7a4bc8a20328f4",
+    "docs/reviews/M1-H4R1/west-C/master-hair.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-H4R1/west-C/master-hair-shadow.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-H4R1/west-C/native-hair.png": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+    "docs/reviews/M1-H4R1/west-C/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/west-C/native-hero.png": "156f7f1f19bc43e7319c704dc985e5a817b2c44ab532e813e1a6a91ab187feec",
+    "docs/reviews/M1-H4R1/west-C/native-bald.png": "1056edd391de02aa6a12023d471c37a7317336f69b7dc65aeb407a78fcffe300",
+    "docs/reviews/M1-H4R1/east-idle/master-hero.png": "c115ac5f55b7cb66e9b112021989e7e63346823ba846af5c952eb70d233ccd44",
+    "docs/reviews/M1-H4R1/east-idle/master-bald.png": "fb541299f6731a319ba281b47a3a921c73b10142b2ef5ec224091b17fd43b8d4",
+    "docs/reviews/M1-H4R1/east-idle/master-hair.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-H4R1/east-idle/master-hair-shadow.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-H4R1/east-idle/native-hair.png": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+    "docs/reviews/M1-H4R1/east-idle/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-idle/native-hero.png": "9a02d62ccd031ab379ad2026558596040290c39b8206ec0e7396a6bdf8965a03",
+    "docs/reviews/M1-H4R1/east-idle/native-bald.png": "7f908808cd68d779f38ab8cab484777bfd9778782a807eb017b777f96634ca14",
+    "docs/reviews/M1-H4R1/east-A/master-hero.png": "f269ab9ab6041cfed2a585ace9205f052790913256d5cf98be9ac53fb26a2ba6",
+    "docs/reviews/M1-H4R1/east-A/master-bald.png": "8ad31b6c41dc557d877086a40aad69abaae00d9314b2e4cdbeaa5daa1270f783",
+    "docs/reviews/M1-H4R1/east-A/master-hair.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-H4R1/east-A/master-hair-shadow.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-H4R1/east-A/native-hair.png": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+    "docs/reviews/M1-H4R1/east-A/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-A/native-hero.png": "22635e36bd77ac5c67c4821c969bc79839a8869f9be4e7d51b80c8d5e664fa8d",
+    "docs/reviews/M1-H4R1/east-A/native-bald.png": "ca276a5462eead8987a08260d1ada783c28f631e9c5e9ace97994a8a2b922ab3",
+    "docs/reviews/M1-H4R1/east-P/master-hero.png": "16f4dd4b3b2d962da993a3d5386bc1c74a3c69de538b2f9137b04d11f3895919",
+    "docs/reviews/M1-H4R1/east-P/master-bald.png": "7540713f4e96e2e9d1147da49b5e3f0c98d69e606ac22ee4ff831e4623de31c4",
+    "docs/reviews/M1-H4R1/east-P/master-hair.png": "e79a635bdce397e52b0077423bbb85dc775164d55e01614f15439f8553d81cd6",
+    "docs/reviews/M1-H4R1/east-P/master-hair-shadow.png": "f4903eeafb13278fd908f05c9cceee747382366a4550887f165c29e7a3212e40",
+    "docs/reviews/M1-H4R1/east-P/native-hair.png": "d52b307fb1e871b5e753b75a734444ef61fa04795cafa033056d56a176cd1818",
+    "docs/reviews/M1-H4R1/east-P/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-P/native-hero.png": "254b7f6966be352b16ea479a9c6f0dd1b0a9d6696b057eab80084b6ea0631cd4",
+    "docs/reviews/M1-H4R1/east-P/native-bald.png": "0fac82aeee0d2a4251736e8b6688ea8abba36a57a7cb14794a7953c41dfe1f2a",
+    "docs/reviews/M1-H4R1/east-C/master-hero.png": "27085013d9fc2abaf1b49112894995381dc3c7a9fa17d34c5ea6a17f2941daa4",
+    "docs/reviews/M1-H4R1/east-C/master-bald.png": "d54bbcd95071b0cdc9cb3d5285b01bc1c78868d466b7b71293acea33b374f7e3",
+    "docs/reviews/M1-H4R1/east-C/master-hair.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-H4R1/east-C/master-hair-shadow.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-H4R1/east-C/native-hair.png": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+    "docs/reviews/M1-H4R1/east-C/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/east-C/native-hero.png": "1eac5e9a6a350349472a2626dc72a9f176342f501a5a19cb40bb42a9b4017946",
+    "docs/reviews/M1-H4R1/east-C/native-bald.png": "71be0d39d53a72e68070e1a9434db667b1fe5d1369fca0dc98a5e8f1410f951e",
+    "docs/reviews/M1-H4R1/south-idle/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/south-A/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/south-P/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/south-C/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-H4R1/north-idle/native-observed-pack.png": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94",
+    "docs/reviews/M1-H4R1/north-A/native-observed-pack.png": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94",
+    "docs/reviews/M1-H4R1/north-P/native-observed-pack.png": "2f648741ecfe14153a01160c8a3823d6949ee6154c6f0c5a1898cdd4d35b392f",
+    "docs/reviews/M1-H4R1/north-C/native-observed-pack.png": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94",
+    "docs/reviews/M1-H4R1/west-idle/native-observed-pack.png": "953a40b03d740181ca018692724ba1d1cb9cba005b5a5b18eef1a9c8b9579250",
+    "docs/reviews/M1-H4R1/west-A/native-observed-pack.png": "fea38b0aaf02ba05c07edb32d7c5cb58685aa3d0cce3b9bf25e5e8de8a242529",
+    "docs/reviews/M1-H4R1/west-P/native-observed-pack.png": "6246d2407e86f29c8a0af193567cba6c2edb812c5a658f2035001c4e898d40fe",
+    "docs/reviews/M1-H4R1/west-C/native-observed-pack.png": "953a40b03d740181ca018692724ba1d1cb9cba005b5a5b18eef1a9c8b9579250",
+    "docs/reviews/M1-H4R1/east-idle/native-observed-pack.png": "a478c933eb217e17047c26dbc504b0027c6598f7408d095f54dd4fff5fb8d23b",
+    "docs/reviews/M1-H4R1/east-A/native-observed-pack.png": "ad58cc3d1cccb04cde73881ce59bb3329e0cf00f6a890257ac6820c053990be8",
+    "docs/reviews/M1-H4R1/east-P/native-observed-pack.png": "2c7d13f5421c5623d8d9cf618b3d6cab0529df7b60c24a8a2a741f561efca102",
+    "docs/reviews/M1-H4R1/east-C/native-observed-pack.png": "ad58cc3d1cccb04cde73881ce59bb3329e0cf00f6a890257ac6820c053990be8"
+  },
+  "poses": {
+    "south": {
+      "idle": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+            "rgbaSHA256": "9718a20199b9aa493c4e4873a469cbaacb92d3c60d791adbdf530043524c0d69",
+            "bounds": [
+              3,
+              21,
+              29,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+            "rgbaSHA256": "10ce43bd08aab01bbc7d6b7eb14165fbad0edc2a3a9b655db72538aed158d92e",
+            "bounds": [
+              3,
+              27,
+              29,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+            "rgbaSHA256": "cc4d5443b856318635046941db3214ef930c15eefc0f532bae4a38b12c6234c6",
+            "bounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+            "rgbaSHA256": "703e7ece74abbfa66d7a109be465329eddc358d173db4d2bd4051f5101661d13",
+            "bounds": [
+              7,
+              37,
+              25,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "4f93443acf2928973c889763c824dec48d72ac3872b335eb7c2f7775ab730b85",
+            "rgbaSHA256": "3ee9aaf6976d7bb10f35440bc30c6b4115a472fda1aa364cc315c6da7fbcdcec",
+            "bounds": [
+              1,
+              11,
+              15,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "c9070e7eafc959332aea6f48c873f0f698a9a900797cb86a99dab153d320b119",
+            "rgbaSHA256": "ce545c6e17d735ca20f42474baf21d9ea9a7cd27311d81259c5ee3405ba44f5e",
+            "bounds": [
+              1,
+              13,
+              15,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+            "rgbaSHA256": "f05112e0fe0b1b4e2acae57c26661760ef469e3f4535246b73d2986cb7868d5c",
+            "bounds": [
+              2,
+              11,
+              14,
+              21
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+            "rgbaSHA256": "3dbf218eaf43e3e06f750c2c4ac8dcc36f47122d5a767fbe9a4094734b53aee3",
+            "bounds": [
+              5,
+              18,
+              6,
+              19
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "4f93443acf2928973c889763c824dec48d72ac3872b335eb7c2f7775ab730b85",
+            "rgbaSHA256": "3ee9aaf6976d7bb10f35440bc30c6b4115a472fda1aa364cc315c6da7fbcdcec",
+            "bounds": [
+              1,
+              11,
+              15,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [],
+        "masterBaldChanges": [],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "A": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+            "rgbaSHA256": "7683356471801b3f7eb39682e4a2ed951fd22b12e4262f11de50434e8a10d1c4",
+            "bounds": [
+              4,
+              21,
+              28,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+            "rgbaSHA256": "4772f710a4b4bfdcc9ead34dcf89afb8f2c11f2421c661141e4755cbc32b665a",
+            "bounds": [
+              5,
+              27,
+              28,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+            "rgbaSHA256": "cc4d5443b856318635046941db3214ef930c15eefc0f532bae4a38b12c6234c6",
+            "bounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+            "rgbaSHA256": "703e7ece74abbfa66d7a109be465329eddc358d173db4d2bd4051f5101661d13",
+            "bounds": [
+              7,
+              37,
+              25,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "c696d2572ce4532629f567328688586f15dfed995c25df363842c51b47a0ab92",
+            "rgbaSHA256": "3c521e8401a61588c494755bdabdae4b4dae0054d78709d70c19c7d13db23873",
+            "bounds": [
+              2,
+              11,
+              14,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "2f757d212199ac9ffcefdfa50398c3b5349b43a6897e69a9b0018276ba09d3d0",
+            "rgbaSHA256": "b92de741011ba49906af0f8bc341f90f9ff4596543c16bb6756b2fc29e212481",
+            "bounds": [
+              2,
+              13,
+              14,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+            "rgbaSHA256": "f05112e0fe0b1b4e2acae57c26661760ef469e3f4535246b73d2986cb7868d5c",
+            "bounds": [
+              2,
+              11,
+              14,
+              21
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+            "rgbaSHA256": "3dbf218eaf43e3e06f750c2c4ac8dcc36f47122d5a767fbe9a4094734b53aee3",
+            "bounds": [
+              5,
+              18,
+              6,
+              19
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "c696d2572ce4532629f567328688586f15dfed995c25df363842c51b47a0ab92",
+            "rgbaSHA256": "3c521e8401a61588c494755bdabdae4b4dae0054d78709d70c19c7d13db23873",
+            "bounds": [
+              2,
+              11,
+              14,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [],
+        "masterBaldChanges": [],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "P": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+            "rgbaSHA256": "5d89e862f973a0768f5953a9ed14063ec7004b5b9b4ec321bd372178ad874d6a",
+            "bounds": [
+              3,
+              19,
+              29,
+              60
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+            "rgbaSHA256": "dc527ae708c9acf8cddb9a193492415ea0f856b085068071dd6010b4137b27cd",
+            "bounds": [
+              3,
+              25,
+              29,
+              60
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "8f2971313b13f60742419d5971ded9660888b4990b0382488de740b6f23ef38d",
+            "rgbaSHA256": "030a4b16e233efef858947a0d3a84302742f548b3653c2930d09f5d95e4656a3",
+            "bounds": [
+              4,
+              19,
+              28,
+              41
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "e128c048a3e5182df6d25d837ae44e6bf870b30036cb40de3241aa2ca12ce01b",
+            "rgbaSHA256": "814ca781418d566567b0d0aaed988aae12464e98a3f64f9160d251edfa5f3afc",
+            "bounds": [
+              7,
+              35,
+              25,
+              36
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "63e38bc697da7eac701158dcde790d1d1455fae395850b2c4c7ecb7b197762e1",
+            "rgbaSHA256": "d9bc4be0ecc9a4129a4474bc62e39d2fe85742b13af1fcedd66a0d61c86c7933",
+            "bounds": [
+              1,
+              10,
+              15,
+              30
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "9c661d0270f420cf860931f5c80b558db620cf971f20183c235d96a3ecc6cc8a",
+            "rgbaSHA256": "ff65b0f91fff363a69c17abd35e96356a305162f670e53545712c22f24d2835d",
+            "bounds": [
+              1,
+              12,
+              15,
+              30
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "c0e4b04729b58f324f2f6ed10a49ebbdaaff0623af29459a43d04e12d4dbb291",
+            "rgbaSHA256": "b718230755717a2e8ab19a9eeb89ac484fea4c41a9c8c7276790095f869b8e50",
+            "bounds": [
+              2,
+              10,
+              14,
+              20
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "6bc83c010df370caee202735e92a3f679228e30b330145bda1c1f6f5ffa3176d",
+            "rgbaSHA256": "4548153df4e0cbe1c961d86eb710ba5a5d2ae2adff7dce48c70675361e592f95",
+            "bounds": [
+              5,
+              17,
+              6,
+              18
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "63e38bc697da7eac701158dcde790d1d1455fae395850b2c4c7ecb7b197762e1",
+            "rgbaSHA256": "d9bc4be0ecc9a4129a4474bc62e39d2fe85742b13af1fcedd66a0d61c86c7933",
+            "bounds": [
+              1,
+              10,
+              15,
+              30
+            ]
+          }
+        },
+        "masterHeroChanges": [],
+        "masterBaldChanges": [],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "C": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+            "rgbaSHA256": "960e26c080f97c235d05d15acb1a8668df4fc31e8084cb24abd5f861c502cf4d",
+            "bounds": [
+              4,
+              21,
+              28,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+            "rgbaSHA256": "09d2e56af4c50452ecf28a29571145f489f620b560d51ca482ad1871e8c681ce",
+            "bounds": [
+              4,
+              27,
+              27,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+            "rgbaSHA256": "cc4d5443b856318635046941db3214ef930c15eefc0f532bae4a38b12c6234c6",
+            "bounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+            "rgbaSHA256": "703e7ece74abbfa66d7a109be465329eddc358d173db4d2bd4051f5101661d13",
+            "bounds": [
+              7,
+              37,
+              25,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "2b914f2fcdddbf9c1a02db833bd640af88e4acac13b035251d96e87f022e3534",
+            "rgbaSHA256": "d0c8d679aee7468fcc7a76b02e5e03718db6f7330c84a3261d90b436b4061bd5",
+            "bounds": [
+              2,
+              11,
+              14,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "62c37c5c688dd28f9c0b93db1ad1f7b404dad835bec633cff1a5d17b6152cea4",
+            "rgbaSHA256": "fb536ac71db41ce2b8826984a2d49fd54ec84bc5986dd70e7f99c42f72188e5f",
+            "bounds": [
+              2,
+              13,
+              14,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+            "rgbaSHA256": "f05112e0fe0b1b4e2acae57c26661760ef469e3f4535246b73d2986cb7868d5c",
+            "bounds": [
+              2,
+              11,
+              14,
+              21
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+            "rgbaSHA256": "3dbf218eaf43e3e06f750c2c4ac8dcc36f47122d5a767fbe9a4094734b53aee3",
+            "bounds": [
+              5,
+              18,
+              6,
+              19
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "2b914f2fcdddbf9c1a02db833bd640af88e4acac13b035251d96e87f022e3534",
+            "rgbaSHA256": "d0c8d679aee7468fcc7a76b02e5e03718db6f7330c84a3261d90b436b4061bd5",
+            "bounds": [
+              2,
+              11,
+              14,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [],
+        "masterBaldChanges": [],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      }
+    },
+    "north": {
+      "idle": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "2785a2d8b3010cfb0959e4a9960f19c9fbc8c7c4c53f4b13c93b0b7d7e6940f2",
+            "rgbaSHA256": "7ab312a71d8e7b5c42847aad3635f0b413c2ef15090fd7e5e27463d2c07a1324",
+            "bounds": [
+              2,
+              21,
+              30,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "d181b95f31988b33f6ce8da39f1371250820a971e3153e5ab7271f077f055828",
+            "rgbaSHA256": "ea37b0080d0018ba45d6c5e1de18d823e2e9ddbd9724411af9c42e601b631d2f",
+            "bounds": [
+              2,
+              27,
+              30,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "aed14d8b9f2052b51df01cde3178df6f5264e731c0cf14d51a38d08401b1373b",
+            "rgbaSHA256": "6fef8bd3a874adc238295510405066aad9e23572fb71bba67d9671449eb014df",
+            "bounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "e22ca110e1dfabf3f3184b92e6dfad8e0a2799e97fda8b93aaa3d0e1fe4dfa8d",
+            "rgbaSHA256": "262ce9436eb9c777d5faf54269be3167e8c6425a71b1d0f215c7273509df11e5",
+            "bounds": [
+              9,
+              42,
+              23,
+              45
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "157cb66018a4bdd1d5a02638fdc667313b7d8665e9b7a6d9c633023db87e5232",
+            "rgbaSHA256": "9408e61ce191e81a33cbfa1175d5fdac86b276f9802aef929260ee4331b78d5b",
+            "bounds": [
+              1,
+              11,
+              15,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "6531505f9008f6179564c288556a60d07446368310e918631eae06ab592e55ac",
+            "rgbaSHA256": "6beb286a030d3804ce67582077e55ee4cf570cbee0b7907fd50d04ea4ed958b6",
+            "bounds": [
+              1,
+              13,
+              15,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "b6dccc0f0181911f5cf2304f94c16e6ccdb3ea1afd6687baaed9ae679e66817e",
+            "rgbaSHA256": "5f13240b84f4428ad049b5c14fa655898e85aeb0547f3c8ce41448d29701fc7a",
+            "bounds": [
+              2,
+              11,
+              14,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "15ceeeca5885e1fb3b2803b424448725493d04e0a351732d8b0b62cd6368e803",
+            "rgbaSHA256": "ae8f34104bc26491c508f02e35063c53773834e76d2f45018f6753f6a506cf28",
+            "bounds": [
+              5,
+              21,
+              11,
+              23
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "157cb66018a4bdd1d5a02638fdc667313b7d8665e9b7a6d9c633023db87e5232",
+            "rgbaSHA256": "9408e61ce191e81a33cbfa1175d5fdac86b276f9802aef929260ee4331b78d5b",
+            "bounds": [
+              1,
+              11,
+              15,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              8,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              9,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              22,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              23,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              43
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              43
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              12,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              13,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              14,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              15,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              16,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              17,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              18,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              19,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              20,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              21,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              8,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              8,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "A": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "81a5b805c2e3c25b87f232471c1d9a4f3dfc6bff5f55754604e0f7ae5a0841e6",
+            "rgbaSHA256": "08937e0c6d5bce5eed2824953fc9956bd79de974c4fd14c92a2ac2c29ac99076",
+            "bounds": [
+              4,
+              21,
+              28,
+              64
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "e4195a6844d159a3621a56c44abcfc8c3ef15403972f3894fb10a52501bc262d",
+            "rgbaSHA256": "12c176cd0a7dc6be75be6b46597621635f35d647e945a0947862d19769eff126",
+            "bounds": [
+              5,
+              27,
+              28,
+              64
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "aed14d8b9f2052b51df01cde3178df6f5264e731c0cf14d51a38d08401b1373b",
+            "rgbaSHA256": "6fef8bd3a874adc238295510405066aad9e23572fb71bba67d9671449eb014df",
+            "bounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "e22ca110e1dfabf3f3184b92e6dfad8e0a2799e97fda8b93aaa3d0e1fe4dfa8d",
+            "rgbaSHA256": "262ce9436eb9c777d5faf54269be3167e8c6425a71b1d0f215c7273509df11e5",
+            "bounds": [
+              9,
+              42,
+              23,
+              45
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "577831c7e19438d30d4082e3f0b68ab54c66ecbe6408ad52864500491cebe8ea",
+            "rgbaSHA256": "4027f4693de7c6a169391b5ebe37a22f11cb6d21d784ad7dc9e24b509bcae0b9",
+            "bounds": [
+              2,
+              11,
+              14,
+              32
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "c442ef88360f348d17279cf249382a41de596cf7a250fd4abb301c673c013cf8",
+            "rgbaSHA256": "80885094b00cc4d833dee45c28102f73c99b74db832a5eb5973f25253ca2e4be",
+            "bounds": [
+              2,
+              13,
+              14,
+              32
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "b6dccc0f0181911f5cf2304f94c16e6ccdb3ea1afd6687baaed9ae679e66817e",
+            "rgbaSHA256": "5f13240b84f4428ad049b5c14fa655898e85aeb0547f3c8ce41448d29701fc7a",
+            "bounds": [
+              2,
+              11,
+              14,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "15ceeeca5885e1fb3b2803b424448725493d04e0a351732d8b0b62cd6368e803",
+            "rgbaSHA256": "ae8f34104bc26491c508f02e35063c53773834e76d2f45018f6753f6a506cf28",
+            "bounds": [
+              5,
+              21,
+              11,
+              23
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "577831c7e19438d30d4082e3f0b68ab54c66ecbe6408ad52864500491cebe8ea",
+            "rgbaSHA256": "4027f4693de7c6a169391b5ebe37a22f11cb6d21d784ad7dc9e24b509bcae0b9",
+            "bounds": [
+              2,
+              11,
+              14,
+              32
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              8,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              9,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              22,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              23,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              43
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              43
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              12,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              13,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              14,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              15,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              16,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              17,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              18,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              19,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              20,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              21,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              13,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              13,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              13,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              13,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "P": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "f043fb80f7229817df93ca279cd4605c80ec27b64cc5990553a60c47816806ee",
+            "rgbaSHA256": "1c92af684888741d99748548dd4ea798d0c47333167e0a41ada9794c918db50e",
+            "bounds": [
+              2,
+              19,
+              30,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "3df2017dfec01d0c27949082487319b995a9d6a7f9921884377e76c0240d5b78",
+            "rgbaSHA256": "e6b843afcdaafdff8cca025f132ef6c1b0c790bcb6c808fc4f15d2508aed4830",
+            "bounds": [
+              2,
+              25,
+              30,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "25bbb461136f816688141fe9c30342b263c3ff5a5625f88fcee29ffdba6628e8",
+            "rgbaSHA256": "1d998e7fd73930570862681c939e53a35fbf5d58d2cf22aa87ecfb2c4f143bca",
+            "bounds": [
+              4,
+              19,
+              28,
+              43
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "2436422fe94a8f5ca4e73f8af6540315c90d2416171283a39cfb0a1d7ef044b9",
+            "rgbaSHA256": "072b6c3a90402566f7f8481dde73ad780af8069ddcffabf2c6318c74a1b6edf0",
+            "bounds": [
+              9,
+              40,
+              23,
+              43
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "650d02f517a0fcaec12e1f7eb4cd476d9148e32e16fd4dc8c52163813f43f63e",
+            "rgbaSHA256": "e01c12782fe9e5554e517c81f5ff43c978882c8bbecf433508b0a3ec18031b0a",
+            "bounds": [
+              1,
+              10,
+              15,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "a44e8b510b29a23118dec4f274aa91440e92e0bba1fff1e23ff658e77397d011",
+            "rgbaSHA256": "d12831e1a01ecfff39580390a8b9c6088f66bcd2edef23a08b5bcc32d0cc6322",
+            "bounds": [
+              1,
+              12,
+              15,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "b9f49791b5a70b79b35d2db3c4e7c0337f917f80b27b553ea7ca33e2926eaa8a",
+            "rgbaSHA256": "36ae9cd68791ab3939e1cac57d4f07accdaaf7f23af68a7b19b3e2c0c5507f75",
+            "bounds": [
+              2,
+              10,
+              14,
+              21
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "5bb105ab4780bb335c394f293eced5c8af4d2b012104b08e088558a3fc6ffc64",
+            "rgbaSHA256": "8a0de270ead9d3c656770a997d0b98ac34b1116de4090c0d7e29af1fed22ef19",
+            "bounds": [
+              5,
+              20,
+              11,
+              22
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "650d02f517a0fcaec12e1f7eb4cd476d9148e32e16fd4dc8c52163813f43f63e",
+            "rgbaSHA256": "e01c12782fe9e5554e517c81f5ff43c978882c8bbecf433508b0a3ec18031b0a",
+            "bounds": [
+              1,
+              10,
+              15,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              8,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              9,
+              40
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              40
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              40
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              22,
+              40
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              23,
+              40
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              41
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              41
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              41
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              12,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              13,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              14,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              15,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              16,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              17,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              18,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              19,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              20,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              21,
+              42
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              8,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              8,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              58
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              60
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "C": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "8825bf0a6cb14813469f9185032e9c0f0828c6bb2295ad56007c24bbee48dbad",
+            "rgbaSHA256": "c9dbd1ba59cb38eff09b0815f2ece2410dc712cead5a2b778852f37ad69b6a64",
+            "bounds": [
+              4,
+              21,
+              28,
+              64
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "9b256b254a81fcfd3fa44534c36a1f23587ef258c6317b22353eb22e3bec9328",
+            "rgbaSHA256": "e954e323779f9820e94a5c29ec8ca1acf070c2a3e5df44c2d08c70d0e652793f",
+            "bounds": [
+              4,
+              27,
+              27,
+              64
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "aed14d8b9f2052b51df01cde3178df6f5264e731c0cf14d51a38d08401b1373b",
+            "rgbaSHA256": "6fef8bd3a874adc238295510405066aad9e23572fb71bba67d9671449eb014df",
+            "bounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "e22ca110e1dfabf3f3184b92e6dfad8e0a2799e97fda8b93aaa3d0e1fe4dfa8d",
+            "rgbaSHA256": "262ce9436eb9c777d5faf54269be3167e8c6425a71b1d0f215c7273509df11e5",
+            "bounds": [
+              9,
+              42,
+              23,
+              45
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "2b9c40762f3bad12b4bb853d0049aa8cef789ffe27fc1c913398e3bd12d4271b",
+            "rgbaSHA256": "b99bcf6ad3edee33421ccaab5588a9846afc12a028dd7386d281d9d77094b601",
+            "bounds": [
+              2,
+              11,
+              14,
+              32
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "2c4c7e2e7b632134ad4711e344a6d447b7cb51d2d8cb3fe76c2f170ce1e5776c",
+            "rgbaSHA256": "7e926aab23feb87655febd3f217a5d02ad73359d01073870d24bbd89359c65fd",
+            "bounds": [
+              2,
+              13,
+              14,
+              32
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "b6dccc0f0181911f5cf2304f94c16e6ccdb3ea1afd6687baaed9ae679e66817e",
+            "rgbaSHA256": "5f13240b84f4428ad049b5c14fa655898e85aeb0547f3c8ce41448d29701fc7a",
+            "bounds": [
+              2,
+              11,
+              14,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "15ceeeca5885e1fb3b2803b424448725493d04e0a351732d8b0b62cd6368e803",
+            "rgbaSHA256": "ae8f34104bc26491c508f02e35063c53773834e76d2f45018f6753f6a506cf28",
+            "bounds": [
+              5,
+              21,
+              11,
+              23
+            ]
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "2b9c40762f3bad12b4bb853d0049aa8cef789ffe27fc1c913398e3bd12d4271b",
+            "rgbaSHA256": "b99bcf6ad3edee33421ccaab5588a9846afc12a028dd7386d281d9d77094b601",
+            "bounds": [
+              2,
+              11,
+              14,
+              32
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              8,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              9,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              22,
+              42
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              23,
+              42
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              10,
+              43
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              12,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              13,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              14,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              15,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              16,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              17,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              18,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              19,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              20,
+              43
+            ],
+            "from": "d",
+            "to": "h"
+          },
+          {
+            "xy": [
+              21,
+              43
+            ],
+            "from": "s",
+            "to": "h"
+          },
+          {
+            "xy": [
+              11,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              12,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              13,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              14,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              15,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              16,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              17,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              18,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              19,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              20,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              21,
+              44
+            ],
+            "from": "s",
+            "to": "d"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              16,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              16,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              62
+            ],
+            "from": "n",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      }
+    },
+    "west": {
+      "idle": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "4e8129ae49466d90f2dd83e9161010edd177eb0bbc66e91a3a0389d4f7caadec",
+            "rgbaSHA256": "adb65bdf6e566d1b6b72cc13d3b17fc1e2a70ed9adee25cec77946b5470059f9",
+            "bounds": [
+              4,
+              21,
+              30,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "ea0c528d6f7ba166118dc8bc37755646e0614e31ec1716d3d7c3979ab8a39b2a",
+            "rgbaSHA256": "e2f03e16daa8868d30d30c2373261ad6c15ba0c09c52888452f82083ce750c01",
+            "bounds": [
+              5,
+              27,
+              28,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+            "rgbaSHA256": "eebba5b381ed60f08ea9c5ae0ff2dd753e1cfaecadbdd86cfeb3c9886456a100",
+            "bounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+            "rgbaSHA256": "b859a113875e16a5dfbea00c9873ca6f5052dfc0abf0158b10d8e3601ac0702c",
+            "bounds": [
+              19,
+              37,
+              21,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "7906cf47251e7f83c1098810b25cb83041143ba4375a5885a3cb05448307c8f0",
+            "rgbaSHA256": "fed8f6f2e9f2c1e3470fb384422271c49fb8e55f44b946bfcf42711204ccd13d",
+            "bounds": [
+              2,
+              10,
+              15,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "1e3067aaeb9c12bf57338ced7c18f42cb4a6326c62c99774d88b0ad011b8b84b",
+            "rgbaSHA256": "154ccb7c65c6fdfcad8382da669f36779b235ba230039241e37d5f198d3deae2",
+            "bounds": [
+              2,
+              13,
+              14,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+            "rgbaSHA256": "cd7c39cad2eff3891767f1b378d352ff35d82203021dd8b7f4a989c7cb64d658",
+            "bounds": [
+              2,
+              10,
+              15,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "7906cf47251e7f83c1098810b25cb83041143ba4375a5885a3cb05448307c8f0",
+            "rgbaSHA256": "fed8f6f2e9f2c1e3470fb384422271c49fb8e55f44b946bfcf42711204ccd13d",
+            "bounds": [
+              2,
+              10,
+              15,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "A": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "0a556200a48a01dc1b3fa10b9c9678edf6cb5264a3f8ff080aea7544391e4bd5",
+            "rgbaSHA256": "af722c8d32807fcd16dd55ebe289ca5bca17ac5d6ef93e78581aefdb891cce8e",
+            "bounds": [
+              4,
+              21,
+              30,
+              64
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "226d0c191c6d1f3b8e57d8a1ff10a61eaf2d3b782db2bec2323107e25e3ea575",
+            "rgbaSHA256": "088e4840808308fccee75303a50c54487e4e4e6fd37a0509f132184dfbaaa03f",
+            "bounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+            "rgbaSHA256": "eebba5b381ed60f08ea9c5ae0ff2dd753e1cfaecadbdd86cfeb3c9886456a100",
+            "bounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+            "rgbaSHA256": "b859a113875e16a5dfbea00c9873ca6f5052dfc0abf0158b10d8e3601ac0702c",
+            "bounds": [
+              19,
+              37,
+              21,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "106a0f6a72cba004f59a3b45c650f6dba5b18688e2905e58aad6200271cb10ef",
+            "rgbaSHA256": "c9a5990e769850877abcf50ef2a6a80a8d1e2eed826d190af2f94acbdd273c06",
+            "bounds": [
+              2,
+              10,
+              15,
+              32
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "b5a40867d1e8591a7ecb0a58339d0358f959cd4ac887f9018459263116a36b6c",
+            "rgbaSHA256": "c4e60320aa20b2796e0195fe04e3e315ef5549a460f5f20932bea23087dda07c",
+            "bounds": [
+              2,
+              13,
+              14,
+              32
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+            "rgbaSHA256": "cd7c39cad2eff3891767f1b378d352ff35d82203021dd8b7f4a989c7cb64d658",
+            "bounds": [
+              2,
+              10,
+              15,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "106a0f6a72cba004f59a3b45c650f6dba5b18688e2905e58aad6200271cb10ef",
+            "rgbaSHA256": "c9a5990e769850877abcf50ef2a6a80a8d1e2eed826d190af2f94acbdd273c06",
+            "bounds": [
+              2,
+              10,
+              15,
+              32
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "P": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "c787d86b2ab85b4988755a38d2802b97ec94a70dd8a0d3be770f6108db5d818c",
+            "rgbaSHA256": "157ae763be57ea6f8ab5992e9ba227eb3329b66d28cecf257247a9714f89902d",
+            "bounds": [
+              4,
+              19,
+              30,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "c859a376b93138ac6759dd0ef536f550727ff393f153e4fcc90f4f6f4f5ee63b",
+            "rgbaSHA256": "17fb846bd347d315b1f148172f46ccd7426c40a6365908c73030efb21137f3e2",
+            "bounds": [
+              5,
+              25,
+              28,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "e68652155571c207258028564e9724c84ece3e51f96d659747a5e11bdf7615e1",
+            "rgbaSHA256": "252d4546657cb70ceeb4874836d20a7863fbbd6568555569cfab5e7280aaec09",
+            "bounds": [
+              4,
+              19,
+              30,
+              42
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "946ffda75f3ed1f15f03eb8ac7965d0cacf34662e64718c59613d225e81bbf45",
+            "rgbaSHA256": "df570329db7991bfd191f18c6bc64c218a8b3a6bc5f13d5eb53becedbe7b5dd7",
+            "bounds": [
+              19,
+              35,
+              21,
+              36
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "ff7ddfab41d155cad9f9000fbfebbe6093b219655848781c1f60bb2601275c47",
+            "rgbaSHA256": "b10643bbf08b82d90a5a52d9ba363c405dfed5140caf1f8ff20ce158fad47d43",
+            "bounds": [
+              2,
+              9,
+              15,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "31b55095927bb5d827b1233cd12af0733d7946b81d253fba78adb39c5cd0167d",
+            "rgbaSHA256": "526ac4c40b6b11c871bac5aa302111b3b3c1daafb8a0bc48fd329048a7d3e10a",
+            "bounds": [
+              2,
+              12,
+              14,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "143045a55272e16a60714ec3ab04ca7a63cac688de75cb2c8796d25b108105c8",
+            "rgbaSHA256": "c4f2ec62101683764d0a3bb2d18bb578a7cac444a51709690a9277cb112ffdde",
+            "bounds": [
+              2,
+              9,
+              15,
+              21
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "ff7ddfab41d155cad9f9000fbfebbe6093b219655848781c1f60bb2601275c47",
+            "rgbaSHA256": "b10643bbf08b82d90a5a52d9ba363c405dfed5140caf1f8ff20ce158fad47d43",
+            "bounds": [
+              2,
+              9,
+              15,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "C": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "262c31026629cebe436408d48fc0c6ed94ad2fb75c1437ebed93bee56a1dcb9d",
+            "rgbaSHA256": "c2cd8b27e60746063c68a30808af2cce05e5ad49ec93df922b3af45c4acac786",
+            "bounds": [
+              4,
+              21,
+              30,
+              64
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "e7f149b7a1774262d149aa4c191eb8a435310afd240bb5f8ceb2c24a7f90a68b",
+            "rgbaSHA256": "038e4df987f40843b355397667b5f77f8de5e9bbab3e3257b6b36ab33c6b9ecf",
+            "bounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+            "rgbaSHA256": "eebba5b381ed60f08ea9c5ae0ff2dd753e1cfaecadbdd86cfeb3c9886456a100",
+            "bounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+            "rgbaSHA256": "b859a113875e16a5dfbea00c9873ca6f5052dfc0abf0158b10d8e3601ac0702c",
+            "bounds": [
+              19,
+              37,
+              21,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "448d522ff479f68e2652cf6c6a69e25b75fbd20b5743eb614bea64cb21fc11a8",
+            "rgbaSHA256": "0352cf31ed78117e61d70641c38bfbc57f57e2224bb6884d33429a5fb4a5b894",
+            "bounds": [
+              2,
+              10,
+              15,
+              32
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "0e42f5c4946609f144554c42dd3d9518ceb7629fbca7186d78b7837efdb7e320",
+            "rgbaSHA256": "3cd7743089b6e063f22620c16232d53185db0eb083477d08a83a849ef77b16f4",
+            "bounds": [
+              2,
+              13,
+              14,
+              32
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+            "rgbaSHA256": "cd7c39cad2eff3891767f1b378d352ff35d82203021dd8b7f4a989c7cb64d658",
+            "bounds": [
+              2,
+              10,
+              15,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "448d522ff479f68e2652cf6c6a69e25b75fbd20b5743eb614bea64cb21fc11a8",
+            "rgbaSHA256": "0352cf31ed78117e61d70641c38bfbc57f57e2224bb6884d33429a5fb4a5b894",
+            "bounds": [
+              2,
+              10,
+              15,
+              32
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              24,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              25,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              8,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              24,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              8,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              24,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              25,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              8,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              24,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              8,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      }
+    },
+    "east": {
+      "idle": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "01b06ace69398050581fdbf977ee3839d3349c405ba154fef9ca55a6b5be3e2c",
+            "rgbaSHA256": "dc8d568dd981e0526c90fa7b1b6a98f177b8a9fca9bc3d03776c82ed4b4be5bf",
+            "bounds": [
+              2,
+              21,
+              28,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "c2d1bdc49b2ce9f160645ccb88eb941b63f685ad8ac5909056fb5ee346605e47",
+            "rgbaSHA256": "cf344930340fafcf72bbde2215a2995826fd2a379cfbc9f703e80f657441b421",
+            "bounds": [
+              4,
+              27,
+              27,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+            "rgbaSHA256": "a9559b4fbebf9853b7d636d6c2cef0e7144eb89e7ca8064c219436828a1534c9",
+            "bounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+            "rgbaSHA256": "f6ecb5963d8848b4e19b2f18c2cb02a34eafbd963a79c5650c027a7e650514c5",
+            "bounds": [
+              11,
+              37,
+              13,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "9278d987502ef3a04ec6d0ce1ad139055a3812e2651f0b81b1a894a01e22fe64",
+            "rgbaSHA256": "8baef8a7e7fbbffaed53d3c12da0b04b6526b1fcfe5356d7e4266b4b45ee92d5",
+            "bounds": [
+              1,
+              10,
+              14,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "8077c55e642175d702f6d57de4e0eef4cde4c9281fcd20b03025e99259874edf",
+            "rgbaSHA256": "edd428c3cdd90da42cee3847f169879aeff80f280c65f1a13617c67b1c54fa65",
+            "bounds": [
+              2,
+              13,
+              14,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+            "rgbaSHA256": "a0debdb4200bd8d8d5781a26e925c0a1de351558c55261fd0ff00b2338262a0a",
+            "bounds": [
+              1,
+              10,
+              14,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "9278d987502ef3a04ec6d0ce1ad139055a3812e2651f0b81b1a894a01e22fe64",
+            "rgbaSHA256": "8baef8a7e7fbbffaed53d3c12da0b04b6526b1fcfe5356d7e4266b4b45ee92d5",
+            "bounds": [
+              1,
+              10,
+              14,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "A": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "90141e9ebb4f4acac223964def8370e65fcf560081b7bff0363857902c2b4357",
+            "rgbaSHA256": "151841c96d3ad54a20453310f6a1ec6b0ec2f188fd5c1f08a9b7ade8fe1fd370",
+            "bounds": [
+              2,
+              21,
+              28,
+              64
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "0629599dc57a6b6a14f4b4a4a5311c025e552bb2e6a68c241fe83e77ec7193b2",
+            "rgbaSHA256": "2ff7fe93d1d9ca5b34b35665e8860617b1fb9ef41d14b65e184e6b82c2a3d199",
+            "bounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+            "rgbaSHA256": "a9559b4fbebf9853b7d636d6c2cef0e7144eb89e7ca8064c219436828a1534c9",
+            "bounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+            "rgbaSHA256": "f6ecb5963d8848b4e19b2f18c2cb02a34eafbd963a79c5650c027a7e650514c5",
+            "bounds": [
+              11,
+              37,
+              13,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "e28a0cdedeb58bf429fe7d3c1c4ba1b60eef3b4b63065818a1fd39525ef142be",
+            "rgbaSHA256": "5fc7785be5c4f41b25cf92cd51be5bdcfd88b98d153ede071abce2955495eb6f",
+            "bounds": [
+              1,
+              10,
+              14,
+              32
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "13c49f4427459aa085aad41eefb50c77bb27ba61195cc1c238b936f77d0838e2",
+            "rgbaSHA256": "7fc8316e8ed5f3b9139ff50129e59e78817778d6313c72c3670b112edd409c8d",
+            "bounds": [
+              2,
+              13,
+              14,
+              32
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+            "rgbaSHA256": "a0debdb4200bd8d8d5781a26e925c0a1de351558c55261fd0ff00b2338262a0a",
+            "bounds": [
+              1,
+              10,
+              14,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "e28a0cdedeb58bf429fe7d3c1c4ba1b60eef3b4b63065818a1fd39525ef142be",
+            "rgbaSHA256": "5fc7785be5c4f41b25cf92cd51be5bdcfd88b98d153ede071abce2955495eb6f",
+            "bounds": [
+              1,
+              10,
+              14,
+              32
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              9,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              9,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              9,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              10,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "P": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "b170b07d2c8550df98b96606251cbbccb831e8c7436add56973aeb863c10a9e8",
+            "rgbaSHA256": "acd48a140aff4e8eaac8a350fe27cee76fc878641a58ff8698886b7ee6876768",
+            "bounds": [
+              2,
+              19,
+              28,
+              62
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "54b5fbff6c5af96e528bac0760cca62ac988633775ad3734664f11afe6c3f71f",
+            "rgbaSHA256": "c2e9311fcd60886c555e111e3169a11a1cc72d93732484fdd9501bd3d8094cc1",
+            "bounds": [
+              4,
+              25,
+              27,
+              62
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "e79a635bdce397e52b0077423bbb85dc775164d55e01614f15439f8553d81cd6",
+            "rgbaSHA256": "65bf60d915899234f14546009cc3f7f6d995bf24b1d9caadcfe565217dd4b703",
+            "bounds": [
+              2,
+              19,
+              28,
+              42
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "f4903eeafb13278fd908f05c9cceee747382366a4550887f165c29e7a3212e40",
+            "rgbaSHA256": "305fddfed6e2ede6ac6846d92c09a1f01bfa4fba02df78fb3bf8825999735c9c",
+            "bounds": [
+              11,
+              35,
+              13,
+              36
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "82f4e26a8b5fc8c4a497f1878788c302389a605488b596899c16ff256be25eda",
+            "rgbaSHA256": "11b164837608f9b504052516d022b9c53019135a0f67ba1526cf172cf91900d6",
+            "bounds": [
+              1,
+              9,
+              14,
+              31
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "abdc2389c495a4329a8876a71251ada1c56825e8b5d5db95582a3678571997b5",
+            "rgbaSHA256": "ec6cce71c76f22c06d153f483392defeaf246e2fb1daf684e2cbe9da5dfba625",
+            "bounds": [
+              2,
+              12,
+              14,
+              31
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "d52b307fb1e871b5e753b75a734444ef61fa04795cafa033056d56a176cd1818",
+            "rgbaSHA256": "4c98d5716a20cf99d145db68418aecf1ce8c2b31e5433a3ba15b75f8aa2bde98",
+            "bounds": [
+              1,
+              9,
+              14,
+              21
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "82f4e26a8b5fc8c4a497f1878788c302389a605488b596899c16ff256be25eda",
+            "rgbaSHA256": "11b164837608f9b504052516d022b9c53019135a0f67ba1526cf172cf91900d6",
+            "bounds": [
+              1,
+              9,
+              14,
+              31
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "from": "g",
+            "to": "b"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      },
+      "C": {
+        "files": {
+          "master-hero.png": {
+            "fileSHA256": "6711d33be52b47b3e449ab82edc729f17b424a019d4a2afcf6805bd755348f64",
+            "rgbaSHA256": "4904f1f660cb73469ec488866ca9e930207c51ee3bb00e3fcd6dbc14b21d7df7",
+            "bounds": [
+              2,
+              21,
+              28,
+              64
+            ]
+          },
+          "master-bald.png": {
+            "fileSHA256": "7aa47dafaa8b7ebbc1496313a9691592666d10a6df828fe271bf4a63a9431558",
+            "rgbaSHA256": "bc05f48ea049b1b2af1d657166c50f9cf33fe0f59e8d5904930f8ff20a022b37",
+            "bounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "master-hair.png": {
+            "fileSHA256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+            "rgbaSHA256": "a9559b4fbebf9853b7d636d6c2cef0e7144eb89e7ca8064c219436828a1534c9",
+            "bounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "master-hair-shadow.png": {
+            "fileSHA256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+            "rgbaSHA256": "f6ecb5963d8848b4e19b2f18c2cb02a34eafbd963a79c5650c027a7e650514c5",
+            "bounds": [
+              11,
+              37,
+              13,
+              38
+            ]
+          },
+          "native-hero.png": {
+            "fileSHA256": "3c89d183ae62a4bc9c0ad00e02d815a2f7d7ba731f59d2a311bc28bd590fc83b",
+            "rgbaSHA256": "6ff08d18b26e1c90b35dbf0ac44dff9bb868ef0c13d3b97b788143fc9edcb14e",
+            "bounds": [
+              1,
+              10,
+              14,
+              32
+            ]
+          },
+          "native-bald.png": {
+            "fileSHA256": "54b776b0541efb73f372c8d1fba675fe0febd0266389168358c44d7ee0050fe3",
+            "rgbaSHA256": "bbc2fd29e4f38854d55f2a687b5f0e42b25d08ddc225af4efbc74c4ebc6f72ea",
+            "bounds": [
+              2,
+              13,
+              14,
+              32
+            ]
+          },
+          "native-hair.png": {
+            "fileSHA256": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+            "rgbaSHA256": "a0debdb4200bd8d8d5781a26e925c0a1de351558c55261fd0ff00b2338262a0a",
+            "bounds": [
+              1,
+              10,
+              14,
+              22
+            ]
+          },
+          "native-hair-shadow.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-scalp-cutout.png": {
+            "fileSHA256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+            "rgbaSHA256": "e5a00aa9991ac8a5ee3109844d84a55583bd20572ad3ffcd42792f3c36b183ad",
+            "bounds": null
+          },
+          "native-recomposed-hero.png": {
+            "fileSHA256": "3c89d183ae62a4bc9c0ad00e02d815a2f7d7ba731f59d2a311bc28bd590fc83b",
+            "rgbaSHA256": "6ff08d18b26e1c90b35dbf0ac44dff9bb868ef0c13d3b97b788143fc9edcb14e",
+            "bounds": [
+              1,
+              10,
+              14,
+              32
+            ]
+          }
+        },
+        "masterHeroChanges": [
+          {
+            "xy": [
+              6,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              7,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              7,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              23,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "masterBaldChanges": [
+          {
+            "xy": [
+              6,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              7,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "from": "r",
+            "to": "b"
+          },
+          {
+            "xy": [
+              7,
+              60
+            ],
+            "from": "v",
+            "to": "C"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "from": "r",
+            "to": "C"
+          },
+          {
+            "xy": [
+              23,
+              60
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "from": "v",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              22,
+              61
+            ],
+            "from": "v",
+            "to": "b"
+          },
+          {
+            "xy": [
+              23,
+              61
+            ],
+            "from": "b",
+            "to": "n"
+          },
+          {
+            "xy": [
+              21,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          },
+          {
+            "xy": [
+              22,
+              62
+            ],
+            "from": "v",
+            "to": "c"
+          }
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalTorsoLocalPackAnchor": [
+          16,
+          48
+        ]
+      }
+    }
+  },
+  "gifs": [
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loopMs": 800,
+      "actualFramesExact": true,
+      "sha256": "4144f0daa420d05c1ce293fa3b5b797d3c78236e694a911638506f23465fcf33"
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loopMs": 3200,
+      "actualFramesExact": true,
+      "sha256": "154aa940970312d85fc4be3f06e057b01941fb79ca58eab6c39ce3049f348393"
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loopMs": 540,
+      "actualFramesExact": true,
+      "sha256": "0939b08bb3e86d7d38c2cdb38aa9eb9b2d8842962dd02b17a05b5125d88908f6"
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loopMs": 2160,
+      "actualFramesExact": true,
+      "sha256": "b87bd23ad9fd3d24beef888d5fb3e7445d3e5b1b6bc9d197dda48c19e3bf3dcd"
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loopMs": 540,
+      "actualFramesExact": true,
+      "sha256": "b041c660b8b8ea8bc32a25f765abb558c7abed08b2cd391cdb612c96e6932b50"
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loopMs": 2160,
+      "actualFramesExact": true,
+      "sha256": "8ed75b534ab116721569ce9bbab996cc7ab11597420c08a7c2ac5639b746bd9e"
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loopMs": 540,
+      "actualFramesExact": true,
+      "sha256": "13d99b870428fe6555ca86ada7066e9a70e9b643d68775d3f4e419d5246ff65f"
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "order": [
+        "A",
+        "A",
+        "P",
+        "P",
+        "C",
+        "C",
+        "P",
+        "P"
+      ],
+      "holdsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loopMs": 2160,
+      "actualFramesExact": true,
+      "sha256": "68b8d38eb92fb7ce836495e5b0ad0cad3fd26c4c0200d46b956f3932b20ba7b6"
+    }
+  ]
+}
