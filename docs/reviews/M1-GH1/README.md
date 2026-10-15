@@ -1,6 +1,6 @@
 # M1.GH1 — Girl Hero first front idle
 
-**One front idle candidate, technically checked; awaiting Eutychus/independent visual review.** No other direction or walk has been authored. Review-only original art; existing game assets, saves and deployment are unchanged.
+**One front idle candidate, independently checked and saved to Library; scoped front-construction pass only.** No other direction or walk has been authored. Review-only original art; existing game assets, saves and deployment are unchanged.
 
 ![Front head, ears and body join](front-head-ears-join.png)
 
@@ -34,3 +34,18 @@ Owner inspected the saved head/join, native/light/dark, material masks, design c
 Eutychus reviews this **first front** before any four-direction idles or walks. Broader M1 appearance and M2 movement gates remain open. Do not silently install this candidate or extend the roster. The completed HR14 boy construction/delivery does not grant Girl appearance approval.
 
 Rebuild with the bundled Pillow Python: run `art/source/hero-girl-r1/build.py`, then `present.py` with an external review directory, then `verify.py`. Validate both `.sprite.json` projects with `sprite-editor/model.js`'s `validateProject`.
+
+## Independent review and Library checkpoint — 2026-10-15
+
+Root and the independent reviewer inspected the actual native PNG, enlarged head/body join, light/dark plates, feature/material masks, R11/C6/current/HR14 source-decision comparison and grass/path mock. The old brown row45 and dark row46 bars are absent; the head ends44 and the shirt owns45–46. Selected puffs, ties, fringe and visible eye clusters remain intact outside the bounded mirrored ear patch. Body/contact alpha matches frozen HR14. Burgundy material adds no shoe pixels or sole tiers. No blocking front-construction defect was found. The broad puff silhouette and bright cuffs/hands remain human appearance judgments, not grounds for speculative changes or overall acceptance.
+
+Six Library files at version0 were downloaded and verified byte-for-byte, dimension-for-dimension and RGBA-for-RGBA against their originals. [Exact IDs, hashes and findings](library-review-receipt.json).
+
+- [Native candidate](https://chatgpt.com/api/library/files/libfile_ee812e7232b4819184f51bb2162386b7/download)
+- [Selected design/source comparison](https://chatgpt.com/api/library/files/libfile_119966889cac8191b5259a73df76b3ad/download)
+- [Head, ears and join](https://chatgpt.com/api/library/files/libfile_ab8c508b93f88191bc2597a26c504560/download)
+- [Native/light/dark/context colors](https://chatgpt.com/api/library/files/libfile_7dc7b739250c81919e835407fe705a72/download)
+- [Feature/material masks](https://chatgpt.com/api/library/files/libfile_601d2d75dd60819189b2cb007791c8b8/download)
+- [Grass/path shared-body mock](https://chatgpt.com/api/library/files/libfile_047ff9adde2c8191aef2e7a9b18ebe01/download)
+
+Automatic approval review rejected the next writer message for three additional directional idle proposals twice. It found that the verified direct human correction authorization did not clearly cover that extension. No new directions were started. Direct approval to message the writer for those three review-only idles is the next dependency; walks, runtime replacement and deployment remain held. This block is distinct from the completed front construction and Library delivery.

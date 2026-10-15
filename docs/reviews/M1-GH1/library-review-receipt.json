@@ -1,0 +1,124 @@
+{
+  "task": "M1.GH1",
+  "scope": "First front idle review only",
+  "source_commit": "3a94f482e6b6d152b58e4e90e371ee314731feb8",
+  "publication_commit": "3e138e7",
+  "identity": "Selected R11 design intent and exact C6/C7 front native identity; separate G1 excluded. HR14 body is declared shared adaptation.",
+  "review": "Root and independent reviewer inspected actual saved native/enlarged join, light/dark, source decision and world-context mock. Scoped front-construction pass; no runtime or overall appearance approval.",
+  "findings": [
+    "Old C6 brown row45 and dark row46 neck bars excluded; head ends44 and shirt owns45\u201346.",
+    "Puffs, ties, fringe and visible eye cells preserved outside bounded mirrored ear edit.",
+    "Frozen HR14 body alpha and contact registration retained; burgundy footwear changes material only.",
+    "Broad puffed silhouette and bright cuffs/hands remain human appearance judgments; no blocking front construction defect found."
+  ],
+  "checks": {
+    "actual_pixel_checks": 29,
+    "sprite_editor_validations": 2,
+    "library_downloads_byte_and_rgba_exact": 6
+  },
+  "files": [
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/girl-front-idle.png",
+      "download": "/tmp/gh1-library-BZveKm/verified-downloads/girl-front-idle.png",
+      "library_file_id": "libfile_ee812e7232b4819184f51bb2162386b7",
+      "file_id": "file_00000000339c81f69a04d7d16115009d",
+      "file_name": "girl-front-idle.png",
+      "version": 0,
+      "dimensions": [
+        32,
+        64
+      ],
+      "sha256": "f2f85f88d92f4085cc7d59799b9600e366d7324906c36e7525e50c2fdbc31fda",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/.codex/visualizations/2026/10/15/girl-hero-preflight/front-identity-comparison.png",
+      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-identity-comparison.png",
+      "library_file_id": "libfile_119966889cac8191b5259a73df76b3ad",
+      "file_id": "file_000000004c0c8243bb068995e4078b9d",
+      "file_name": "front-identity-comparison.png",
+      "version": 0,
+      "dimensions": [
+        1440,
+        560
+      ],
+      "sha256": "6409e39ff9c11127c0448a1ee37ec43f9787c886534c904af35c8802506f718f",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-head-ears-join.png",
+      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-head-ears-join.png",
+      "library_file_id": "libfile_ab8c508b93f88191bc2597a26c504560",
+      "file_id": "file_000000006a5c821082ead1c9fc359274",
+      "file_name": "front-head-ears-join.png",
+      "version": 0,
+      "dimensions": [
+        1120,
+        440
+      ],
+      "sha256": "bf22dc67607cdb12a5728f8a59bc112a3a8395d1d3a06b2949483bc3a5381696",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-native-light-dark.png",
+      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-native-light-dark.png",
+      "library_file_id": "libfile_7dc7b739250c81919e835407fe705a72",
+      "file_id": "file_0000000058e081f58741167dae47355c",
+      "file_name": "front-native-light-dark.png",
+      "version": 0,
+      "dimensions": [
+        1280,
+        620
+      ],
+      "sha256": "53f3e535578ecb8cde9ca88ac40d479edb8e6bbf9befffb614e1909978bde499",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-feature-material-masks.png",
+      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-feature-material-masks.png",
+      "library_file_id": "libfile_601d2d75dd60819189b2cb007791c8b8",
+      "file_id": "file_00000000cae48230b35415a3a3f768fa",
+      "file_name": "front-feature-material-masks.png",
+      "version": 0,
+      "dimensions": [
+        1500,
+        680
+      ],
+      "sha256": "718eab71193e0e3220caca5f080f490ac370702bbea1abc87abfc52a5b69061e",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-world-context.png",
+      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-world-context.png",
+      "library_file_id": "libfile_047ff9adde2c8191aef2e7a9b18ebe01",
+      "file_id": "file_00000000639081f9a4f1482790f23a53",
+      "file_name": "front-world-context.png",
+      "version": 0,
+      "dimensions": [
+        1280,
+        690
+      ],
+      "sha256": "dc771a341b9d523d4bbc93e8ea2cea4cbdf3ed8aff18fc682d8b45ae988a5c74",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    }
+  ],
+  "next_action": "Blocked: obtain direct approval to message writer to create the other three directional idle proposals. No walks or runtime/deployment changes.",
+  "continuation_blocker": {
+    "source": "automatic approval review of send_message_to_thread",
+    "attempts": 2,
+    "reason": "Verified human authorization covers backpack, ear, shoe-pixel and anatomy-template corrections, but does not clearly cover three additional directional idle proposals.",
+    "new_direction_work_started": false
+  }
+}
