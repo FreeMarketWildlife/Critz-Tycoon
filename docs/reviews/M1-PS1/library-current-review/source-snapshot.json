@@ -1,0 +1,77 @@
+{
+  "reviewedArtSource": "8726c9af6b8304148d2ff1e84b149bcfdc2785a6",
+  "packagedHEAD": "7a870a57cf3c36121d9e6672a70cb20e02720753",
+  "state": "Review candidate; not user M1/gameplay acceptance",
+  "files": [
+    {
+      "source": "docs/reviews/M1-PS1/native-scale-before-after.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-native-scale-before-after.png",
+      "sha256": "cc1558a275817226ab66f431dd7a3c33093e8d3377a298198337414b2ed26509"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/south-unique-review.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-south-unique-review.png",
+      "sha256": "04c6bf68ec0830624697e7fe860927ba3f391f20eb25ea1b25b295f7c0a083d5"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/north-unique-review.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-north-unique-review.png",
+      "sha256": "06b9edbb2818675df2d9c0698e44313c9f4c6cdb1af6d39ed6a067e5e272b91d"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/west-unique-review.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-west-unique-review.png",
+      "sha256": "c63522793aea337f0368ad6e001902d0c14249ffdb239a5208bcab049ae8037e"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/east-unique-review.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-east-unique-review.png",
+      "sha256": "cd2bb8987f20a3484416bbb5b176acdd55cc53caf38873b24a1295d68be2dcdb"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/south-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-south-normal-4x.gif",
+      "sha256": "39a2bc62f01d7a7c6aa88fe5642b7b4004dd8c4223d774abdc1e95fe7126404c"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/south-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-south-slow-4x.gif",
+      "sha256": "0cf8a03de301d1a61840830f6fdfd06d16b845c10a397862d9bfe6547653ae10"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/north-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-north-normal-4x.gif",
+      "sha256": "347250bc91642fae28a097dc23763339992b1fbed55c50cf889706fb35e63432"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/north-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-north-slow-4x.gif",
+      "sha256": "3c58a825b8c49251d69f78d643b0c27abb1683dba4465935a2fad9cc2a4db8fc"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/west-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-west-normal-4x.gif",
+      "sha256": "5ec1fe2223db00bf843e62fd6d7ac6d56a4b70552c16fef9cdd8db8a5501fe56"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/west-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-west-slow-4x.gif",
+      "sha256": "c43651157a2fd370600db8bac0d7104e48c11e6342e8d29f5150d63becb8ac47"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/east-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-east-normal-4x.gif",
+      "sha256": "ac1557a1e08651699a74540729a66ce08404e2a1f2dd71e3522580f9904fecf6"
+    },
+    {
+      "source": "docs/reviews/M1-PS1/east-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-east-slow-4x.gif",
+      "sha256": "1ea8ba7dfc4a64e65c5bfc867acdbc585b2c139c1ddb71034f846faea05425fd"
+    },
+    {
+      "source": "Current native-grid QA composition; no art edits",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/library-current-review/critz-ps1-current-native-grid-lower-before-after.png",
+      "sha256": "b58490f8f536f593292698934d11500d7a9bac5e037096d5e11c3c2c6dcbcd87"
+    }
+  ]
+}
