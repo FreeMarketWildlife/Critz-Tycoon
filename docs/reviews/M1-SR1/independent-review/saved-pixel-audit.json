@@ -1,0 +1,716 @@
+{
+  "task": "M1.SR1",
+  "pass": true,
+  "count": 132,
+  "method": "Independent saved PNG audit; no builder import or rerun. End-exclusive horizontal runs.",
+  "checks": [
+    {
+      "name": "west idle actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "west idle native32x64",
+      "pass": true
+    },
+    {
+      "name": "west idle exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "west idle exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "west idle only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "west idle same template delta",
+      "pass": true
+    },
+    {
+      "name": "west idle upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "west idle full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "west idle bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "west idle exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "west idle recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "west idle palette subset",
+      "pass": true
+    },
+    {
+      "name": "west idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west idle last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "west idle actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "west idle actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "west A actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "west A native32x64",
+      "pass": true
+    },
+    {
+      "name": "west A exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "west A exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "west A only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "west A same template delta",
+      "pass": true
+    },
+    {
+      "name": "west A upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "west A full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "west A bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "west A exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "west A recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "west A palette subset",
+      "pass": true
+    },
+    {
+      "name": "west A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west A last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "west A actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "west A actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "west P actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "west P native32x64",
+      "pass": true
+    },
+    {
+      "name": "west P exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "west P exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "west P only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "west P same template delta",
+      "pass": true
+    },
+    {
+      "name": "west P upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "west P full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "west P bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "west P exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "west P recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "west P palette subset",
+      "pass": true
+    },
+    {
+      "name": "west P binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west P last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "west P actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "west P actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "west C actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "west C native32x64",
+      "pass": true
+    },
+    {
+      "name": "west C exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "west C exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "west C only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "west C same template delta",
+      "pass": true
+    },
+    {
+      "name": "west C upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "west C full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "west C bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "west C exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "west C recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "west C palette subset",
+      "pass": true
+    },
+    {
+      "name": "west C binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west C last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "west C actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "west C actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "east idle actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "east idle native32x64",
+      "pass": true
+    },
+    {
+      "name": "east idle exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "east idle exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "east idle only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "east idle same template delta",
+      "pass": true
+    },
+    {
+      "name": "east idle upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "east idle full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "east idle bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "east idle exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "east idle recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "east idle palette subset",
+      "pass": true
+    },
+    {
+      "name": "east idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east idle last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "east idle actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "east idle actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "east A actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "east A native32x64",
+      "pass": true
+    },
+    {
+      "name": "east A exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "east A exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "east A only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "east A same template delta",
+      "pass": true
+    },
+    {
+      "name": "east A upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "east A full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "east A bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "east A exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "east A recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "east A palette subset",
+      "pass": true
+    },
+    {
+      "name": "east A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east A last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "east A actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "east A actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "east P actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "east P native32x64",
+      "pass": true
+    },
+    {
+      "name": "east P exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "east P exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "east P only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "east P same template delta",
+      "pass": true
+    },
+    {
+      "name": "east P upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "east P full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "east P bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "east P exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "east P recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "east P palette subset",
+      "pass": true
+    },
+    {
+      "name": "east P binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east P last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "east P actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "east P actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "east C actual source baseline",
+      "pass": true
+    },
+    {
+      "name": "east C native32x64",
+      "pass": true
+    },
+    {
+      "name": "east C exact recorded change sites",
+      "pass": true
+    },
+    {
+      "name": "east C exact recorded before after colors",
+      "pass": true
+    },
+    {
+      "name": "east C only55 through57 edited",
+      "pass": true
+    },
+    {
+      "name": "east C same template delta",
+      "pass": true
+    },
+    {
+      "name": "east C upper head hands waist exact",
+      "pass": true
+    },
+    {
+      "name": "east C full shoe region58plus exact",
+      "pass": true
+    },
+    {
+      "name": "east C bounds unchanged",
+      "pass": true
+    },
+    {
+      "name": "east C exact two declared alpha changes",
+      "pass": true
+    },
+    {
+      "name": "east C recorded row runs match saved PNG",
+      "pass": true
+    },
+    {
+      "name": "east C palette subset",
+      "pass": true
+    },
+    {
+      "name": "east C binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east C last occupied contact exact",
+      "pass": true
+    },
+    {
+      "name": "east C actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "name": "east C actual delta mask sites",
+      "pass": true
+    },
+    {
+      "name": "idle saved lower East mirror",
+      "pass": true
+    },
+    {
+      "name": "A saved lower East mirror",
+      "pass": true
+    },
+    {
+      "name": "P saved lower East mirror",
+      "pass": true
+    },
+    {
+      "name": "C saved lower East mirror",
+      "pass": true
+    }
+  ],
+  "poses": [
+    {
+      "pose": "west idle",
+      "rgbaChanges": 6,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          9,
+          56
+        ],
+        [
+          22,
+          56
+        ]
+      ],
+      "contactRow": 61,
+      "contactSpans": [
+        [
+          10,
+          20
+        ]
+      ]
+    },
+    {
+      "pose": "west A",
+      "rgbaChanges": 7,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          4,
+          55
+        ],
+        [
+          25,
+          57
+        ]
+      ],
+      "contactRow": 63,
+      "contactSpans": [
+        [
+          20,
+          24
+        ]
+      ]
+    },
+    {
+      "pose": "west P",
+      "rgbaChanges": 6,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          9,
+          56
+        ],
+        [
+          22,
+          56
+        ]
+      ],
+      "contactRow": 61,
+      "contactSpans": [
+        [
+          10,
+          20
+        ]
+      ]
+    },
+    {
+      "pose": "west C",
+      "rgbaChanges": 10,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          4,
+          56
+        ],
+        [
+          27,
+          57
+        ]
+      ],
+      "contactRow": 63,
+      "contactSpans": [
+        [
+          8,
+          12
+        ]
+      ]
+    },
+    {
+      "pose": "east idle",
+      "rgbaChanges": 6,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          9,
+          56
+        ],
+        [
+          22,
+          56
+        ]
+      ],
+      "contactRow": 61,
+      "contactSpans": [
+        [
+          12,
+          22
+        ]
+      ]
+    },
+    {
+      "pose": "east A",
+      "rgbaChanges": 7,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          6,
+          57
+        ],
+        [
+          27,
+          55
+        ]
+      ],
+      "contactRow": 63,
+      "contactSpans": [
+        [
+          8,
+          12
+        ]
+      ]
+    },
+    {
+      "pose": "east P",
+      "rgbaChanges": 6,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          9,
+          56
+        ],
+        [
+          22,
+          56
+        ]
+      ],
+      "contactRow": 61,
+      "contactSpans": [
+        [
+          12,
+          22
+        ]
+      ]
+    },
+    {
+      "pose": "east C",
+      "rgbaChanges": 10,
+      "alphaChanges": 2,
+      "alphaSites": [
+        [
+          4,
+          57
+        ],
+        [
+          27,
+          56
+        ]
+      ],
+      "contactRow": 63,
+      "contactSpans": [
+        [
+          20,
+          24
+        ]
+      ]
+    }
+  ],
+  "visualAcceptance": false,
+  "remainingConcern": "Modest curve improvement; broad dark lower mass remains. Exact praised historical artifact unresolved."
+}
