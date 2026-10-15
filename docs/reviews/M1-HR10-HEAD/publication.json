@@ -1,0 +1,32 @@
+{
+  "task": "M1.HR10H",
+  "state": "awaiting user visual review",
+  "branch": "main",
+  "sourceCommit": "fb4a66b9dcfbadfa264f0d022dc03021d322d7b4",
+  "sourcePushedToOriginMain": true,
+  "sourceRemoteSHAEqualsHEAD": true,
+  "scope": "isolated forward head; body-only HR10 remains unfulfilled",
+  "gameplayChanged": false,
+  "deployed": false,
+  "artAccepted": false,
+  "checks": "source/PNG, protected body/face/ears/eyes, hair-only region, connected binary-alpha15-color, four exact eight-frame100ms GIFs, actual editor validation, git diff --check",
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-HEAD/head-before-after.png",
+      "sha256": "4a8d245b5b95e16a05e22a132855a3e62e0a9d049711cb97fa2aa986cd101cbf"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-HEAD/hero-forward-walk-native.gif",
+      "sha256": "3fb3bd3e79d575c968be596692e31fb140a52674df531d42a818726689da31c8"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-HEAD/hero-forward-walk-4x.gif",
+      "sha256": "0140c465837115ae1ad274e055d5f41bc5c63199eb4587e3ed33d62043d2d251"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-HEAD/independent-checks.json",
+      "sha256": "d0c6062386981cba240aefaddf5dd80f6006a00a7076c9e9611c6a93be610e85"
+    }
+  ],
+  "nextAction": "user reviews actual fixed-registration head overlay; no broader self-approval"
+}
