@@ -1,5 +1,7 @@
 # DS5 current four-direction private review packet
 
+**Shared-body requirement failed:** subsequent SB1 audit proves this DS study is an independently redesigned silhouette, not the archived Hero's shared template. Preserve these files as study history, without promoting the earlier scoped arm/overlap review to body-preservation acceptance. [Current source-preserving proof](../../M1-SB1/private-parent-review/README.md) records the correction and remaining praise-artifact identity limit.
+
 Parent inspected the corrected side PNGs and found a visible arm/torso improvement, without granting final acceptance. This packet supports the requested actual full-direction and temporal review. Source pixels stay frozen: DS4 South/North `2f4e39dabfecb601ced507209056b2da12576334`, corrected DS5 West/East `fe3cdf94d410ba63738428326b2298551ab1805c`. No new sprite drawing or creator/runtime work.
 
 - [Current four-direction idle comparison](https://chatgpt.com/api/library/files/libfile_0978e2942e98819185439c156119ba54/download)

@@ -1,0 +1,25 @@
+{
+  "sourceCommit": "bae462fd18d45d4d2c84883245e185a6eb18c45c",
+  "files": [
+    {
+      "pose": "idle",
+      "currentEqualsPreserveFrontArchive": true,
+      "sha256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae"
+    },
+    {
+      "pose": "A",
+      "currentEqualsPreserveFrontArchive": true,
+      "sha256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565"
+    },
+    {
+      "pose": "P",
+      "currentEqualsPreserveFrontArchive": true,
+      "sha256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4"
+    },
+    {
+      "pose": "C",
+      "currentEqualsPreserveFrontArchive": true,
+      "sha256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4"
+    }
+  ]
+}

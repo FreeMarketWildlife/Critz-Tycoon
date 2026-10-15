@@ -1,5 +1,7 @@
 # DS5 private parent review — current full-direction packet available
 
+**Shared-body requirement failed:** subsequent SB1 audit proves this DS study is an independently redesigned silhouette, not the archived Hero's shared template. Preserve these files as study history, without promoting the earlier scoped arm/overlap review to body-preservation acceptance. [Current source-preserving proof](../../M1-SB1/private-parent-review/README.md) records the correction and remaining praise-artifact identity limit.
+
 **Current request complete:** [four-direction idle, timed eight-slot sheet and all eight paired normal/slow loops](four-direction-review.md). Six new files plus four verified existing South/North files; source remains frozen and actual parent consistency/motion judgment is pending. Earlier two-PNG delivery and failed-batch history follow.
 
 The two PNGs requested after reconciliation are now saved once at version zero, with exact-byte and RGBA download verification:

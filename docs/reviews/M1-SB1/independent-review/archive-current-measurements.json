@@ -1,0 +1,1553 @@
+{
+  "scope": "Read-only comparison; current DS is independently authored, not shared Hero preservation",
+  "praisedArtifactIdentified": false,
+  "preservationMessageId": "msg_01a13fcd-a1c7-70a3-a1e4-3ba83126fc35",
+  "preservedSouthSHA256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+  "anchorLegend": "C visible crown,E eyes,J lowest visible face skin,S shirt upper,W shorts upper,H hand skin bounds,F last painted contact; no hidden anatomy claims",
+  "poses": [
+    {
+      "direction": "south",
+      "pose": "idle",
+      "heroPath": "docs/reviews/M1-PS1/hero-south-idle.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-south-idle.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+      "dummySHA256": "c00926c436e45ca86fd28fa3c46ca36e8a56632644068df1f88df7a1fbe4f0c1",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 314,
+      "sharedVisibleBodyAlphaXOR": 45,
+      "lower54plusAlphaXOR": 21,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            38,
+            20,
+            42
+          ],
+          "dummyBounds": [
+            8,
+            34,
+            22,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            4,
+            49,
+            28,
+            54
+          ],
+          "dummyBounds": [
+            4,
+            50,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "heroPath": "docs/reviews/M1-PS1/hero-south-A.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-south-A.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+      "dummySHA256": "1d9a2175e0b750048a0fe9c6b4e94bc56328544f3fc24cedba41becf48ef7eec",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 314,
+      "sharedVisibleBodyAlphaXOR": 102,
+      "lower54plusAlphaXOR": 65,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            38,
+            20,
+            42
+          ],
+          "dummyBounds": [
+            8,
+            34,
+            22,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            50,
+            10,
+            54
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              17,
+              21
+            ]
+          ],
+          "dummySpans": [
+            [
+              6,
+              13
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "heroPath": "docs/reviews/M1-PS1/hero-south-P.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-south-P.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+      "dummySHA256": "372721426ab59d0a132c8d6976d591826eca6ec3d8520e60d894b403e8391dfb",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 314,
+      "sharedVisibleBodyAlphaXOR": 60,
+      "lower54plusAlphaXOR": 36,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            36,
+            20,
+            40
+          ],
+          "dummyBounds": [
+            8,
+            32,
+            22,
+            36
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 42,
+          "dummyRow": 41,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 41,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            4,
+            47,
+            28,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            53
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 59,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "heroPath": "docs/reviews/M1-PS1/hero-south-C.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-south-C.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+      "dummySHA256": "a2e8a600f19c5ac46acfc316494ab55b581be7995fe10e3fe420dbb1fdb7d0b6",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 314,
+      "sharedVisibleBodyAlphaXOR": 104,
+      "lower54plusAlphaXOR": 67,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            38,
+            20,
+            42
+          ],
+          "dummyBounds": [
+            8,
+            34,
+            22,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            22,
+            50,
+            26,
+            54
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              11,
+              15
+            ]
+          ],
+          "dummySpans": [
+            [
+              18,
+              25
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "heroPath": "docs/reviews/M1-PS1/hero-north-idle.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-north-idle.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "e2d525548354ef6761a3de646aab4cc89f3e652b033c6b7f020bd61137ac0e08",
+      "dummySHA256": "acda7554cb89b498a5062f5a4cc54790da08ff369a261a4a2b3aaec467a81a10",
+      "comparisonBodyStartRow": 45,
+      "hairPackStrapExcludedCells": 510,
+      "sharedVisibleBodyAlphaXOR": 67,
+      "lower54plusAlphaXOR": 35,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 45,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            49,
+            26,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            50,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "heroPath": "docs/reviews/M1-PS1/hero-north-A.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-north-A.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "9bc7019e2347bf50d4d607b4610b29fc08474cbad8208cd11ea6e29d5bf28453",
+      "dummySHA256": "4ae0e81f687a4b365913e0d9bfad38a83e882efb9cdb18b3b9b3e5a8f9465f00",
+      "comparisonBodyStartRow": 45,
+      "hairPackStrapExcludedCells": 510,
+      "sharedVisibleBodyAlphaXOR": 73,
+      "lower54plusAlphaXOR": 45,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 45,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            23,
+            50,
+            26,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              10,
+              16
+            ]
+          ],
+          "dummySpans": [
+            [
+              6,
+              13
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "heroPath": "docs/reviews/M1-PS1/hero-north-P.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-north-P.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "c79d662c9c82b098683802336c22f9e5b7d868ab26eb67251eca574030165d8f",
+      "dummySHA256": "9f26a130f5a7f6795b04d399121bbe5a6cd6f39de5d3c805b2842a9e5af950f6",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 510,
+      "sharedVisibleBodyAlphaXOR": 72,
+      "lower54plusAlphaXOR": 30,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            47,
+            26,
+            50
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            53
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "heroPath": "docs/reviews/M1-PS1/hero-north-C.png",
+      "dummyPath": "docs/reviews/M1-DS4/dummy-2x-north-C.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "9490297cb5128d5718b4a278cb6d78f62cbed7c62fdb4a7f3ca02e893491beee",
+      "dummySHA256": "5dcfb22779bbc19a7f6eda1e08f62c32c595c66b044445dc63a0b11cafae5b20",
+      "comparisonBodyStartRow": 45,
+      "hairPackStrapExcludedCells": 510,
+      "sharedVisibleBodyAlphaXOR": 76,
+      "lower54plusAlphaXOR": 48,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 45,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            50,
+            9,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              16,
+              22
+            ]
+          ],
+          "dummySpans": [
+            [
+              18,
+              25
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "heroPath": "docs/reviews/M1-PS1/hero-west-idle.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-west-idle.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+      "dummySHA256": "206523b402fe675e318c306542b576ce299433e8bd544f96f9a5cdd0f067602b",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 369,
+      "sharedVisibleBodyAlphaXOR": 62,
+      "lower54plusAlphaXOR": 29,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            38,
+            12,
+            42
+          ],
+          "dummyBounds": [
+            12,
+            34,
+            14,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            16,
+            50,
+            18,
+            53
+          ],
+          "dummyBounds": [
+            15,
+            48,
+            21,
+            54
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              10,
+              20
+            ]
+          ],
+          "dummySpans": [
+            [
+              12,
+              21
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "heroPath": "docs/reviews/M1-PS1/hero-west-A.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-west-A.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "b147a3726d52bfe4d282dfeb3e0e0058ece11f9a30635ac6cff6e268e5bd0b71",
+      "dummySHA256": "15c3ccf8a0d54d719762bb1cc3d57b3d2db2fd5ce04f356d65602fcc673fce25",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 369,
+      "sharedVisibleBodyAlphaXOR": 73,
+      "lower54plusAlphaXOR": 47,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            38,
+            12,
+            42
+          ],
+          "dummyBounds": [
+            12,
+            34,
+            14,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            13,
+            49,
+            16,
+            53
+          ],
+          "dummyBounds": [
+            9,
+            48,
+            26,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              20,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              20,
+              25
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "heroPath": "docs/reviews/M1-PS1/hero-west-P.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-west-P.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+      "dummySHA256": "f68ea77db4d0ed33d4af7ea62f5e83ca36aa394805200477b423027c5e950e75",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 369,
+      "sharedVisibleBodyAlphaXOR": 63,
+      "lower54plusAlphaXOR": 22,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            36,
+            12,
+            40
+          ],
+          "dummyBounds": [
+            12,
+            32,
+            14,
+            36
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 42,
+          "dummyRow": 41,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 42,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            16,
+            48,
+            18,
+            51
+          ],
+          "dummyBounds": [
+            15,
+            46,
+            21,
+            52
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              10,
+              20
+            ]
+          ],
+          "dummySpans": [
+            [
+              12,
+              21
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "heroPath": "docs/reviews/M1-PS1/hero-west-C.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-west-C.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "9f022f5b4936fa957c51db15c39737abb40a3b5f2f5648ecee029bd11b3eb723",
+      "dummySHA256": "89a7ce831e75e7ad22fb1825d2330237c85a047e39d5b055683901dab9c8a205",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 368,
+      "sharedVisibleBodyAlphaXOR": 79,
+      "lower54plusAlphaXOR": 57,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            38,
+            12,
+            42
+          ],
+          "dummyBounds": [
+            12,
+            34,
+            14,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            18,
+            50,
+            20,
+            53
+          ],
+          "dummyBounds": [
+            9,
+            49,
+            26,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              12
+            ]
+          ],
+          "dummySpans": [
+            [
+              10,
+              15
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "heroPath": "docs/reviews/M1-PS1/hero-east-idle.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-east-idle.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e",
+      "dummySHA256": "12538f199abd1dfb9630a48f1e63d9c6893b2c6ed7d0d8873fdaf9d52b67e9a9",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 369,
+      "sharedVisibleBodyAlphaXOR": 62,
+      "lower54plusAlphaXOR": 29,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            38,
+            22,
+            42
+          ],
+          "dummyBounds": [
+            18,
+            34,
+            20,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            14,
+            50,
+            16,
+            53
+          ],
+          "dummyBounds": [
+            11,
+            48,
+            17,
+            54
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              12,
+              22
+            ]
+          ],
+          "dummySpans": [
+            [
+              11,
+              20
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "heroPath": "docs/reviews/M1-PS1/hero-east-A.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-east-A.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "89e98ee54eab362e192f88bfcc743292a3d5f183cb8fb6958318792bac9998d4",
+      "dummySHA256": "db35ff73026205163748f1093077bb08e920d44ee94667fe54e9b93b1e702e21",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 369,
+      "sharedVisibleBodyAlphaXOR": 73,
+      "lower54plusAlphaXOR": 47,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            38,
+            22,
+            42
+          ],
+          "dummyBounds": [
+            18,
+            34,
+            20,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            16,
+            49,
+            19,
+            53
+          ],
+          "dummyBounds": [
+            6,
+            48,
+            23,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              12
+            ]
+          ],
+          "dummySpans": [
+            [
+              7,
+              12
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "heroPath": "docs/reviews/M1-PS1/hero-east-P.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-east-P.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c",
+      "dummySHA256": "1807c579a83f76dfd4805e811c24ddd097801040dbd2dcad0cddbc70791f504f",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 369,
+      "sharedVisibleBodyAlphaXOR": 63,
+      "lower54plusAlphaXOR": 22,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            36,
+            22,
+            40
+          ],
+          "dummyBounds": [
+            18,
+            32,
+            20,
+            36
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 42,
+          "dummyRow": 41,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 42,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            14,
+            48,
+            16,
+            51
+          ],
+          "dummyBounds": [
+            11,
+            46,
+            17,
+            52
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              12,
+              22
+            ]
+          ],
+          "dummySpans": [
+            [
+              11,
+              20
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "heroPath": "docs/reviews/M1-PS1/hero-east-C.png",
+      "dummyPath": "docs/reviews/M1-DS5/dummy-2x-east-C.png",
+      "frame": [
+        32,
+        64
+      ],
+      "registration": "Same top-left0,0 and bottom-center16,64; no resampling or per-pose fitting",
+      "sourceSelection": "Explicit preserve-front archive lineage; separate amazing-praise artifact unresolved",
+      "heroSHA256": "e842dce5b34b9dd2334ecac5251e1a19e61b4b6110f9b127abdd76531d64feac",
+      "dummySHA256": "7ec87ed92257019dd585f400325ab783cecb1a7d7da368dd569e2d933aae31bc",
+      "comparisonBodyStartRow": 44,
+      "hairPackStrapExcludedCells": 368,
+      "sharedVisibleBodyAlphaXOR": 79,
+      "lower54plusAlphaXOR": 57,
+      "anchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            38,
+            22,
+            42
+          ],
+          "dummyBounds": [
+            18,
+            34,
+            20,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            12,
+            50,
+            14,
+            53
+          ],
+          "dummyBounds": [
+            6,
+            49,
+            23,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              20,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              17,
+              22
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      }
+    }
+  ]
+}

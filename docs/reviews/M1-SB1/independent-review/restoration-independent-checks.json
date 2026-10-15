@@ -1,0 +1,3653 @@
+{
+  "pass": true,
+  "count": 213,
+  "sourceSelection": "Direct preserve-front lineage, not proven amazing-praise image",
+  "scope": "16 static poses; no acceptance or new animation",
+  "poses": [
+    {
+      "direction": "south",
+      "pose": "idle",
+      "selectedSourceSHA256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+      "restoredFileSHA256": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 475,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            38,
+            20,
+            42
+          ],
+          "dummyBounds": [
+            8,
+            34,
+            22,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            4,
+            49,
+            28,
+            54
+          ],
+          "dummyBounds": [
+            4,
+            50,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          9,
+          13
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            13,
+            40
+          ],
+          [
+            13,
+            41
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            41
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            5,
+            38
+          ],
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "hands": [
+          [
+            4,
+            50
+          ],
+          [
+            4,
+            51
+          ],
+          [
+            4,
+            52
+          ],
+          [
+            5,
+            50
+          ],
+          [
+            5,
+            51
+          ],
+          [
+            5,
+            52
+          ],
+          [
+            5,
+            53
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            6,
+            52
+          ],
+          [
+            6,
+            53
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            7,
+            52
+          ],
+          [
+            8,
+            50
+          ],
+          [
+            8,
+            51
+          ],
+          [
+            23,
+            49
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            24,
+            52
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            25,
+            52
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            26,
+            50
+          ],
+          [
+            26,
+            51
+          ],
+          [
+            26,
+            52
+          ],
+          [
+            26,
+            53
+          ],
+          [
+            27,
+            50
+          ],
+          [
+            27,
+            51
+          ],
+          [
+            27,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "selectedSourceSHA256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+      "restoredFileSHA256": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 401,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            38,
+            20,
+            42
+          ],
+          "dummyBounds": [
+            8,
+            34,
+            22,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            50,
+            10,
+            54
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              17,
+              21
+            ]
+          ],
+          "dummySpans": [
+            [
+              6,
+              13
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          17,
+          21
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            13,
+            40
+          ],
+          [
+            13,
+            41
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            41
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            5,
+            38
+          ],
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "hands": [
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            6,
+            52
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            7,
+            52
+          ],
+          [
+            7,
+            53
+          ],
+          [
+            8,
+            50
+          ],
+          [
+            8,
+            51
+          ],
+          [
+            8,
+            52
+          ],
+          [
+            8,
+            53
+          ],
+          [
+            9,
+            51
+          ],
+          [
+            9,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "selectedSourceSHA256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+      "restoredFileSHA256": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 475,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "handRows": [
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "sourceCrownIncludesHair": 19,
+      "baldScalpCrown": 25,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            36,
+            20,
+            40
+          ],
+          "dummyBounds": [
+            8,
+            32,
+            22,
+            36
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 42,
+          "dummyRow": 41,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 41,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            4,
+            47,
+            28,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            53
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 59,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 59,
+      "fullContactSpans": [
+        [
+          9,
+          13
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            12,
+            36
+          ],
+          [
+            12,
+            37
+          ],
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            13,
+            36
+          ],
+          [
+            13,
+            37
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            18,
+            36
+          ],
+          [
+            18,
+            37
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            19,
+            36
+          ],
+          [
+            19,
+            37
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ]
+        ],
+        "ears": [
+          [
+            5,
+            36
+          ],
+          [
+            5,
+            37
+          ],
+          [
+            5,
+            38
+          ],
+          [
+            26,
+            36
+          ],
+          [
+            26,
+            37
+          ],
+          [
+            26,
+            38
+          ]
+        ],
+        "hands": [
+          [
+            4,
+            48
+          ],
+          [
+            4,
+            49
+          ],
+          [
+            4,
+            50
+          ],
+          [
+            5,
+            48
+          ],
+          [
+            5,
+            49
+          ],
+          [
+            5,
+            50
+          ],
+          [
+            5,
+            51
+          ],
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            8,
+            48
+          ],
+          [
+            8,
+            49
+          ],
+          [
+            23,
+            47
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            23,
+            49
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            26,
+            48
+          ],
+          [
+            26,
+            49
+          ],
+          [
+            26,
+            50
+          ],
+          [
+            26,
+            51
+          ],
+          [
+            27,
+            48
+          ],
+          [
+            27,
+            49
+          ],
+          [
+            27,
+            50
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "selectedSourceSHA256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+      "restoredFileSHA256": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 401,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        50,
+        51,
+        52,
+        53
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            12,
+            38,
+            20,
+            42
+          ],
+          "dummyBounds": [
+            8,
+            34,
+            22,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            22,
+            50,
+            26,
+            54
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              11,
+              15
+            ]
+          ],
+          "dummySpans": [
+            [
+              18,
+              25
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          11,
+          15
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            13,
+            40
+          ],
+          [
+            13,
+            41
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            41
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            5,
+            38
+          ],
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "hands": [
+          [
+            22,
+            51
+          ],
+          [
+            22,
+            52
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            23,
+            51
+          ],
+          [
+            23,
+            52
+          ],
+          [
+            23,
+            53
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            24,
+            52
+          ],
+          [
+            24,
+            53
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            25,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "selectedSourceSHA256": "e2d525548354ef6761a3de646aab4cc89f3e652b033c6b7f020bd61137ac0e08",
+      "restoredFileSHA256": "8ae0a6537e9c926531c03062d284b7ea9bb1da539c1a151dc08117109424ff38",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 293,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [],
+      "handRows": [
+        49,
+        50,
+        51
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 45,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            49,
+            26,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            50,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          8,
+          14
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [],
+        "ears": [
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "hands": [
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            50
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "selectedSourceSHA256": "9bc7019e2347bf50d4d607b4610b29fc08474cbad8208cd11ea6e29d5bf28453",
+      "restoredFileSHA256": "6c356e65c54a6692bfc171970f368aacd3b0e4c6d29f569300a33dbe162592b0",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 238,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [],
+      "handRows": [
+        50,
+        51
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 45,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            23,
+            50,
+            26,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              10,
+              16
+            ]
+          ],
+          "dummySpans": [
+            [
+              6,
+              13
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 63,
+      "fullContactSpans": [
+        [
+          10,
+          16
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [],
+        "ears": [
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "hands": [
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "selectedSourceSHA256": "c79d662c9c82b098683802336c22f9e5b7d868ab26eb67251eca574030165d8f",
+      "restoredFileSHA256": "5d00ebe84bdcf8bccc9d9446589abeae38efd710f285bf00ae9323a4bc57bd07",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 333,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [],
+      "handRows": [
+        47,
+        48,
+        49
+      ],
+      "sourceCrownIncludesHair": 19,
+      "baldScalpCrown": 25,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 43,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            47,
+            26,
+            50
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            53
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              8,
+              13
+            ],
+            [
+              18,
+              23
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          8,
+          14
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [],
+        "ears": [
+          [
+            5,
+            37
+          ],
+          [
+            5,
+            38
+          ],
+          [
+            26,
+            37
+          ],
+          [
+            26,
+            38
+          ]
+        ],
+        "hands": [
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            8,
+            48
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "selectedSourceSHA256": "9490297cb5128d5718b4a278cb6d78f62cbed7c62fdb4a7f3ca02e893491beee",
+      "restoredFileSHA256": "4ec46eed88f01d57b4d9029986ae74d48e142be118e1e6aad0b4271ec511a9bb",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 241,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [],
+      "handRows": [
+        50,
+        51
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": null,
+          "dummyBounds": null,
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": null,
+          "dummyRow": null,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 45,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 52,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            6,
+            50,
+            9,
+            52
+          ],
+          "dummyBounds": [
+            4,
+            48,
+            28,
+            55
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              16,
+              22
+            ]
+          ],
+          "dummySpans": [
+            [
+              18,
+              25
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 63,
+      "fullContactSpans": [
+        [
+          16,
+          22
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [],
+        "ears": [
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "hands": [
+          [
+            6,
+            50
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            51
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "selectedSourceSHA256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+      "restoredFileSHA256": "67877a6ced629c03b7865572b1c021f127cfb93265eba4f75b198c6c0ec71a73",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 379,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        50,
+        51,
+        52
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            38,
+            12,
+            42
+          ],
+          "dummyBounds": [
+            12,
+            34,
+            14,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            16,
+            50,
+            18,
+            53
+          ],
+          "dummyBounds": [
+            15,
+            48,
+            21,
+            54
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              10,
+              20
+            ]
+          ],
+          "dummySpans": [
+            [
+              12,
+              21
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          10,
+          20
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            41
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ]
+        ],
+        "hands": [
+          [
+            16,
+            50
+          ],
+          [
+            16,
+            51
+          ],
+          [
+            16,
+            52
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "selectedSourceSHA256": "b147a3726d52bfe4d282dfeb3e0e0058ece11f9a30635ac6cff6e268e5bd0b71",
+      "restoredFileSHA256": "3c95cddf08ade8908b8687aec4f5305332faefbe0aaa34d9b6aa857d56e1bd05",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 420,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            38,
+            12,
+            42
+          ],
+          "dummyBounds": [
+            12,
+            34,
+            14,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            13,
+            49,
+            16,
+            53
+          ],
+          "dummyBounds": [
+            9,
+            48,
+            26,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              20,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              20,
+              25
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 63,
+      "fullContactSpans": [
+        [
+          20,
+          24
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            41
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ]
+        ],
+        "hands": [
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            49
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "selectedSourceSHA256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+      "restoredFileSHA256": "c6f0fbdcee468919e5f31a88a436568d0e477a032d8dac0571074cb7504227e0",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 406,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "handRows": [
+        48,
+        49,
+        50
+      ],
+      "sourceCrownIncludesHair": 19,
+      "baldScalpCrown": 25,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            36,
+            12,
+            40
+          ],
+          "dummyBounds": [
+            12,
+            32,
+            14,
+            36
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 42,
+          "dummyRow": 41,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 42,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            16,
+            48,
+            18,
+            51
+          ],
+          "dummyBounds": [
+            15,
+            46,
+            21,
+            52
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              10,
+              20
+            ]
+          ],
+          "dummySpans": [
+            [
+              12,
+              21
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          10,
+          20
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            10,
+            36
+          ],
+          [
+            10,
+            37
+          ],
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            11,
+            36
+          ],
+          [
+            11,
+            37
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ]
+        ],
+        "ears": [
+          [
+            19,
+            37
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            20,
+            37
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ]
+        ],
+        "hands": [
+          [
+            16,
+            48
+          ],
+          [
+            16,
+            49
+          ],
+          [
+            16,
+            50
+          ],
+          [
+            17,
+            48
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "selectedSourceSHA256": "9f022f5b4936fa957c51db15c39737abb40a3b5f2f5648ecee029bd11b3eb723",
+      "restoredFileSHA256": "00ad61eca7e979dc96f16b45d1de17dc1e443b45b6c191d3e8938704c21ea87c",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 432,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        50,
+        51,
+        52
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            10,
+            38,
+            12,
+            42
+          ],
+          "dummyBounds": [
+            12,
+            34,
+            14,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            18,
+            50,
+            20,
+            53
+          ],
+          "dummyBounds": [
+            9,
+            49,
+            26,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              12
+            ]
+          ],
+          "dummySpans": [
+            [
+              10,
+              15
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 63,
+      "fullContactSpans": [
+        [
+          8,
+          12
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            41
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ]
+        ],
+        "hands": [
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ],
+          [
+            19,
+            50
+          ],
+          [
+            19,
+            51
+          ],
+          [
+            19,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "selectedSourceSHA256": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e",
+      "restoredFileSHA256": "8326982b5803d46bb84f46612fdc9b9b1379438640c832ddbf9bf3c3cb259209",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 379,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        50,
+        51,
+        52
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            38,
+            22,
+            42
+          ],
+          "dummyBounds": [
+            18,
+            34,
+            20,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            14,
+            50,
+            16,
+            53
+          ],
+          "dummyBounds": [
+            11,
+            48,
+            17,
+            54
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              12,
+              22
+            ]
+          ],
+          "dummySpans": [
+            [
+              11,
+              20
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          12,
+          22
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            40
+          ],
+          [
+            21,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ]
+        ],
+        "hands": [
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            50
+          ],
+          [
+            15,
+            51
+          ],
+          [
+            15,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "selectedSourceSHA256": "89e98ee54eab362e192f88bfcc743292a3d5f183cb8fb6958318792bac9998d4",
+      "restoredFileSHA256": "8e99794ac76a2f2e89209d14e278944410ebd0f666a888651e2140c82aef0d64",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 420,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            38,
+            22,
+            42
+          ],
+          "dummyBounds": [
+            18,
+            34,
+            20,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            16,
+            49,
+            19,
+            53
+          ],
+          "dummyBounds": [
+            6,
+            48,
+            23,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              8,
+              12
+            ]
+          ],
+          "dummySpans": [
+            [
+              7,
+              12
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 63,
+      "fullContactSpans": [
+        [
+          8,
+          12
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            40
+          ],
+          [
+            21,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ]
+        ],
+        "hands": [
+          [
+            16,
+            49
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "selectedSourceSHA256": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c",
+      "restoredFileSHA256": "51740ad8976bfe0efc5b64bfcee21013426523ce7854bdf7aab3cf4291bfc1b7",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 406,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        36,
+        37,
+        38,
+        39
+      ],
+      "handRows": [
+        48,
+        49,
+        50
+      ],
+      "sourceCrownIncludesHair": 19,
+      "baldScalpCrown": 25,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            19
+          ],
+          "dummy": [
+            16,
+            20
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            36,
+            22,
+            40
+          ],
+          "dummyBounds": [
+            18,
+            32,
+            20,
+            36
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 42,
+          "dummyRow": 41,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 42,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 51,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            14,
+            48,
+            16,
+            51
+          ],
+          "dummyBounds": [
+            11,
+            46,
+            17,
+            52
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 61,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              12,
+              22
+            ]
+          ],
+          "dummySpans": [
+            [
+              11,
+              20
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 61,
+      "fullContactSpans": [
+        [
+          12,
+          22
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            20,
+            36
+          ],
+          [
+            20,
+            37
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            21,
+            36
+          ],
+          [
+            21,
+            37
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ]
+        ],
+        "ears": [
+          [
+            11,
+            37
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            12,
+            37
+          ],
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ]
+        ],
+        "hands": [
+          [
+            14,
+            48
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            15,
+            48
+          ],
+          [
+            15,
+            49
+          ],
+          [
+            15,
+            50
+          ]
+        ]
+      }
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "selectedSourceSHA256": "e842dce5b34b9dd2334ecac5251e1a19e61b4b6110f9b127abdd76531d64feac",
+      "restoredFileSHA256": "faa7b6af68bfca7bab1363ce25b4d618b081d6bc142ff1a1f613496b0293e358",
+      "outsideAppearanceRGBADifferences": 0,
+      "observedBodyComparedCells": 432,
+      "observedBodyRGBADifferences": 0,
+      "below46AllRGBADifferences": 0,
+      "eyeRows": [
+        38,
+        39,
+        40,
+        41
+      ],
+      "handRows": [
+        50,
+        51,
+        52
+      ],
+      "sourceCrownIncludesHair": 21,
+      "baldScalpCrown": 27,
+      "sourceVisibleAnchors": {
+        "crown": {
+          "hero": [
+            16,
+            21
+          ],
+          "dummy": [
+            16,
+            22
+          ],
+          "status": "Visible hair crown versus authored bald scalp; NOT a shared skull measurement"
+        },
+        "eyes": {
+          "heroBounds": [
+            20,
+            38,
+            22,
+            42
+          ],
+          "dummyBounds": [
+            18,
+            34,
+            20,
+            38
+          ],
+          "status": "Actual visible registered feature cells; north occluded"
+        },
+        "chin": {
+          "heroRow": 44,
+          "dummyRow": 43,
+          "status": "Lowest visible face-skin row, not hidden skeletal chin; North chin is occluded"
+        },
+        "shoulder": {
+          "heroRow": 44,
+          "dummyRow": 44,
+          "status": "First visible shirt-material row, not a hidden shoulder joint"
+        },
+        "waist": {
+          "heroRow": 53,
+          "dummyRow": 50,
+          "status": "First visible shorts-material row, not anatomical waist"
+        },
+        "hands": {
+          "heroBounds": [
+            12,
+            50,
+            14,
+            53
+          ],
+          "dummyBounds": [
+            6,
+            49,
+            23,
+            56
+          ],
+          "status": "Actual visible skin cells below face; no hidden arm bones"
+        },
+        "foot": {
+          "heroRow": 63,
+          "dummyRow": 61,
+          "heroSpans": [
+            [
+              20,
+              24
+            ]
+          ],
+          "dummySpans": [
+            [
+              17,
+              22
+            ]
+          ],
+          "edgeAnchor": [
+            16,
+            64
+          ],
+          "status": "Lowest painted costume/contact, not measured anatomical feet"
+        }
+      },
+      "contactRow": 63,
+      "fullContactSpans": [
+        [
+          20,
+          24
+        ]
+      ],
+      "registeredVisibleFeatures": {
+        "eyes": [
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            40
+          ],
+          [
+            21,
+            41
+          ]
+        ],
+        "ears": [
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ]
+        ],
+        "hands": [
+          [
+            12,
+            50
+          ],
+          [
+            12,
+            51
+          ],
+          [
+            12,
+            52
+          ],
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ]
+        ]
+      }
+    }
+  ],
+  "checks": [
+    "south-idlenative frames",
+    "south-idlebinary alpha",
+    "south-idleactual independent hair reconstruction",
+    "south-idleall appearance exceptions confined above body",
+    "south-idleall waist hands legs shoe RGBA46onward exact",
+    "south-idleevery pixel outside appearance exact",
+    "south-idlebald geometry reuses BS2 without new body drawing",
+    "south-idlecutout removes only otherwise empty source sites",
+    "south-idleeyessource-visible pixels exact",
+    "south-idleearssource-visible pixels exact",
+    "south-idlehandssource-visible pixels exact",
+    "south-idlefull actual contact spans equal",
+    "south-idleactual visible body includes same full RGBA",
+    "south-Anative frames",
+    "south-Abinary alpha",
+    "south-Aactual independent hair reconstruction",
+    "south-Aall appearance exceptions confined above body",
+    "south-Aall waist hands legs shoe RGBA46onward exact",
+    "south-Aevery pixel outside appearance exact",
+    "south-Abald geometry reuses BS2 without new body drawing",
+    "south-Acutout removes only otherwise empty source sites",
+    "south-Aeyessource-visible pixels exact",
+    "south-Aearssource-visible pixels exact",
+    "south-Ahandssource-visible pixels exact",
+    "south-Afull actual contact spans equal",
+    "south-Aactual visible body includes same full RGBA",
+    "south-Pnative frames",
+    "south-Pbinary alpha",
+    "south-Pactual independent hair reconstruction",
+    "south-Pall appearance exceptions confined above body",
+    "south-Pall waist hands legs shoe RGBA46onward exact",
+    "south-Pevery pixel outside appearance exact",
+    "south-Pbald geometry reuses BS2 without new body drawing",
+    "south-Pcutout removes only otherwise empty source sites",
+    "south-Peyessource-visible pixels exact",
+    "south-Pearssource-visible pixels exact",
+    "south-Phandssource-visible pixels exact",
+    "south-Pfull actual contact spans equal",
+    "south-Pactual visible body includes same full RGBA",
+    "south-Cnative frames",
+    "south-Cbinary alpha",
+    "south-Cactual independent hair reconstruction",
+    "south-Call appearance exceptions confined above body",
+    "south-Call waist hands legs shoe RGBA46onward exact",
+    "south-Cevery pixel outside appearance exact",
+    "south-Cbald geometry reuses BS2 without new body drawing",
+    "south-Ccutout removes only otherwise empty source sites",
+    "south-Ceyessource-visible pixels exact",
+    "south-Cearssource-visible pixels exact",
+    "south-Chandssource-visible pixels exact",
+    "south-Cfull actual contact spans equal",
+    "south-Cactual visible body includes same full RGBA",
+    "north-idlenative frames",
+    "north-idlebinary alpha",
+    "north-idleactual independent hair reconstruction",
+    "north-idleall appearance exceptions confined above body",
+    "north-idleall waist hands legs shoe RGBA46onward exact",
+    "north-idleevery pixel outside appearance exact",
+    "north-idlebald geometry reuses BS2 without new body drawing",
+    "north-idlecutout removes only otherwise empty source sites",
+    "north-idleeyessource-visible pixels exact",
+    "north-idleearssource-visible pixels exact",
+    "north-idlehandssource-visible pixels exact",
+    "north-idlefull actual contact spans equal",
+    "north-idleactual visible body includes same full RGBA",
+    "north-Anative frames",
+    "north-Abinary alpha",
+    "north-Aactual independent hair reconstruction",
+    "north-Aall appearance exceptions confined above body",
+    "north-Aall waist hands legs shoe RGBA46onward exact",
+    "north-Aevery pixel outside appearance exact",
+    "north-Abald geometry reuses BS2 without new body drawing",
+    "north-Acutout removes only otherwise empty source sites",
+    "north-Aeyessource-visible pixels exact",
+    "north-Aearssource-visible pixels exact",
+    "north-Ahandssource-visible pixels exact",
+    "north-Afull actual contact spans equal",
+    "north-Aactual visible body includes same full RGBA",
+    "north-Pnative frames",
+    "north-Pbinary alpha",
+    "north-Pactual independent hair reconstruction",
+    "north-Pall appearance exceptions confined above body",
+    "north-Pall waist hands legs shoe RGBA46onward exact",
+    "north-Pevery pixel outside appearance exact",
+    "north-Pbald geometry reuses BS2 without new body drawing",
+    "north-Pcutout removes only otherwise empty source sites",
+    "north-Peyessource-visible pixels exact",
+    "north-Pearssource-visible pixels exact",
+    "north-Phandssource-visible pixels exact",
+    "north-Pfull actual contact spans equal",
+    "north-Pactual visible body includes same full RGBA",
+    "north-Cnative frames",
+    "north-Cbinary alpha",
+    "north-Cactual independent hair reconstruction",
+    "north-Call appearance exceptions confined above body",
+    "north-Call waist hands legs shoe RGBA46onward exact",
+    "north-Cevery pixel outside appearance exact",
+    "north-Cbald geometry reuses BS2 without new body drawing",
+    "north-Ccutout removes only otherwise empty source sites",
+    "north-Ceyessource-visible pixels exact",
+    "north-Cearssource-visible pixels exact",
+    "north-Chandssource-visible pixels exact",
+    "north-Cfull actual contact spans equal",
+    "north-Cactual visible body includes same full RGBA",
+    "west-idlenative frames",
+    "west-idlebinary alpha",
+    "west-idleactual independent hair reconstruction",
+    "west-idleall appearance exceptions confined above body",
+    "west-idleall waist hands legs shoe RGBA46onward exact",
+    "west-idleevery pixel outside appearance exact",
+    "west-idlebald geometry reuses BS2 without new body drawing",
+    "west-idlecutout removes only otherwise empty source sites",
+    "west-idleeyessource-visible pixels exact",
+    "west-idleearssource-visible pixels exact",
+    "west-idlehandssource-visible pixels exact",
+    "west-idlefull actual contact spans equal",
+    "west-idleactual visible body includes same full RGBA",
+    "west-Anative frames",
+    "west-Abinary alpha",
+    "west-Aactual independent hair reconstruction",
+    "west-Aall appearance exceptions confined above body",
+    "west-Aall waist hands legs shoe RGBA46onward exact",
+    "west-Aevery pixel outside appearance exact",
+    "west-Abald geometry reuses BS2 without new body drawing",
+    "west-Acutout removes only otherwise empty source sites",
+    "west-Aeyessource-visible pixels exact",
+    "west-Aearssource-visible pixels exact",
+    "west-Ahandssource-visible pixels exact",
+    "west-Afull actual contact spans equal",
+    "west-Aactual visible body includes same full RGBA",
+    "west-Pnative frames",
+    "west-Pbinary alpha",
+    "west-Pactual independent hair reconstruction",
+    "west-Pall appearance exceptions confined above body",
+    "west-Pall waist hands legs shoe RGBA46onward exact",
+    "west-Pevery pixel outside appearance exact",
+    "west-Pbald geometry reuses BS2 without new body drawing",
+    "west-Pcutout removes only otherwise empty source sites",
+    "west-Peyessource-visible pixels exact",
+    "west-Pearssource-visible pixels exact",
+    "west-Phandssource-visible pixels exact",
+    "west-Pfull actual contact spans equal",
+    "west-Pactual visible body includes same full RGBA",
+    "west-Cnative frames",
+    "west-Cbinary alpha",
+    "west-Cactual independent hair reconstruction",
+    "west-Call appearance exceptions confined above body",
+    "west-Call waist hands legs shoe RGBA46onward exact",
+    "west-Cevery pixel outside appearance exact",
+    "west-Cbald geometry reuses BS2 without new body drawing",
+    "west-Ccutout removes only otherwise empty source sites",
+    "west-Ceyessource-visible pixels exact",
+    "west-Cearssource-visible pixels exact",
+    "west-Chandssource-visible pixels exact",
+    "west-Cfull actual contact spans equal",
+    "west-Cactual visible body includes same full RGBA",
+    "east-idlenative frames",
+    "east-idlebinary alpha",
+    "east-idleactual independent hair reconstruction",
+    "east-idleall appearance exceptions confined above body",
+    "east-idleall waist hands legs shoe RGBA46onward exact",
+    "east-idleevery pixel outside appearance exact",
+    "east-idlebald geometry reuses BS2 without new body drawing",
+    "east-idlecutout removes only otherwise empty source sites",
+    "east-idleeyessource-visible pixels exact",
+    "east-idleearssource-visible pixels exact",
+    "east-idlehandssource-visible pixels exact",
+    "east-idlefull actual contact spans equal",
+    "east-idleactual visible body includes same full RGBA",
+    "east-Anative frames",
+    "east-Abinary alpha",
+    "east-Aactual independent hair reconstruction",
+    "east-Aall appearance exceptions confined above body",
+    "east-Aall waist hands legs shoe RGBA46onward exact",
+    "east-Aevery pixel outside appearance exact",
+    "east-Abald geometry reuses BS2 without new body drawing",
+    "east-Acutout removes only otherwise empty source sites",
+    "east-Aeyessource-visible pixels exact",
+    "east-Aearssource-visible pixels exact",
+    "east-Ahandssource-visible pixels exact",
+    "east-Afull actual contact spans equal",
+    "east-Aactual visible body includes same full RGBA",
+    "east-Pnative frames",
+    "east-Pbinary alpha",
+    "east-Pactual independent hair reconstruction",
+    "east-Pall appearance exceptions confined above body",
+    "east-Pall waist hands legs shoe RGBA46onward exact",
+    "east-Pevery pixel outside appearance exact",
+    "east-Pbald geometry reuses BS2 without new body drawing",
+    "east-Pcutout removes only otherwise empty source sites",
+    "east-Peyessource-visible pixels exact",
+    "east-Pearssource-visible pixels exact",
+    "east-Phandssource-visible pixels exact",
+    "east-Pfull actual contact spans equal",
+    "east-Pactual visible body includes same full RGBA",
+    "east-Cnative frames",
+    "east-Cbinary alpha",
+    "east-Cactual independent hair reconstruction",
+    "east-Call appearance exceptions confined above body",
+    "east-Call waist hands legs shoe RGBA46onward exact",
+    "east-Cevery pixel outside appearance exact",
+    "east-Cbald geometry reuses BS2 without new body drawing",
+    "east-Ccutout removes only otherwise empty source sites",
+    "east-Ceyessource-visible pixels exact",
+    "east-Cearssource-visible pixels exact",
+    "east-Chandssource-visible pixels exact",
+    "east-Cfull actual contact spans equal",
+    "east-Cactual visible body includes same full RGBA",
+    "art/source/dummy-resolution-r4unchanged",
+    "art/source/dummy-resolution-r5unchanged",
+    "docs/reviews/M1-PS1unchanged",
+    "docs/reviews/M1-HR14unchanged",
+    "character-creatorunchanged"
+  ]
+}
