@@ -1,0 +1,803 @@
+{
+  "task": "M1.LIB2",
+  "state": "Saved and verified; review candidates, no appearance/creator/gameplay approval",
+  "sourceArt": "ecd4f4e7729f52c8358537c1035c5db9865dcf05",
+  "walkSource": "73434fcf42aa4fcaa8ef52b6a73d342a5391832c",
+  "count": 36,
+  "GIFframesVerified": 128,
+  "privacy": "Personal Library and authorized private chat links only; no public share/access change",
+  "files": [
+    {
+      "library_file_id": "libfile_7c55862c90148191a5ef3e349a8c8881",
+      "file_id": "file_000000000a10820bb8aa2b515cda77f4",
+      "file_name": "critz-CHT1-south-idle-aligned.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-south-idle-aligned.png",
+      "source": "docs/reviews/M1-CHT1/south-idle-aligned.png",
+      "sha256": "7dde2c69343e2a3fc999eacf8f023de355dd785c7e9c7a42149e9fc16a93bfd6",
+      "dimensions": [
+        1180,
+        550
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_d57c9c95d6e48191a06f2bb6d03ada58",
+      "file_id": "file_00000000e6bc81fd85829d3f9cab663c",
+      "file_name": "critz-CHT1-south-idle-lower-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-south-idle-lower-grid.png",
+      "source": "docs/reviews/M1-CHT1/south-idle-lower-grid.png",
+      "sha256": "7fc3931e47f25c822db1d79d59f8d3a66dc1501a931e79535ac6e40934bb45d8",
+      "dimensions": [
+        1050,
+        380
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_b8427e2eba308191946004e9d6c5d240",
+      "file_id": "file_000000008f5c822fa3a9c3ebf17de9da",
+      "file_name": "critz-CHT1-north-P-aligned.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-north-P-aligned.png",
+      "source": "docs/reviews/M1-CHT1/north-P/north-P-aligned.png",
+      "sha256": "243b38a04f76ad96d4266d63a85e164cda5719c6ce9f8b5307752efb72efe668",
+      "dimensions": [
+        1180,
+        550
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_7606baf15208819194c6a2150e46492f",
+      "file_id": "file_00000000b22482308535116258e87848",
+      "file_name": "critz-CHT1-north-P-lower-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-north-P-lower-grid.png",
+      "source": "docs/reviews/M1-CHT1/north-P/north-P-lower-grid.png",
+      "sha256": "2813919476a88bb8fe28360c0f723bd13ca4e445b6725e930b3549a245538e23",
+      "dimensions": [
+        1050,
+        380
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_68b86623368c81918879a6dbeb3c612b",
+      "file_id": "file_0000000063f48230a62fdaaf6593462f",
+      "file_name": "critz-CHT1-west-idle-aligned.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-west-idle-aligned.png",
+      "source": "docs/reviews/M1-CHT1/west-idle/west-idle-aligned.png",
+      "sha256": "7787eef8b316ac903514a583fb9ef091891bca557ce29a3fe621767da028079f",
+      "dimensions": [
+        1180,
+        550
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_fdfc937734588191a6906240c46d2dc8",
+      "file_id": "file_00000000031881f89fd761f93a8142be",
+      "file_name": "critz-CHT1-west-idle-lower-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-west-idle-lower-grid.png",
+      "source": "docs/reviews/M1-CHT1/west-idle/west-idle-lower-grid.png",
+      "sha256": "a1c57c16da6c356f477deb8fb94aa768ec545f7d4de47e30e66ec584746c91e8",
+      "dimensions": [
+        1050,
+        380
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_64c6c3f9107081918ce42fbfd2eaade0",
+      "file_id": "file_00000000cd7c81f587aa943884e5989e",
+      "file_name": "critz-CHT1-south-static-native-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-south-static-native-grid.png",
+      "source": "docs/reviews/M1-CHT1/south-static-native-grid.png",
+      "sha256": "1bffd6e3499a44fbd7a7c90cb21bb7074d2f1a981f5316dae1c2af715bcd58fe",
+      "dimensions": [
+        1010,
+        660
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_8677b1ae80dc8191abe0ee0ac521c17f",
+      "file_id": "file_000000001c4481fdb85b8ba8dfbcf13f",
+      "file_name": "critz-CHT1-north-static-native-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-north-static-native-grid.png",
+      "source": "docs/reviews/M1-CHT1/north-static-native-grid.png",
+      "sha256": "089ad54c4c0ff91b772156929af39cc6420a58c6457364ad3c2e9ca71eb3d2c7",
+      "dimensions": [
+        1010,
+        660
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_ea803bcb6e9081919f17db03d12754e4",
+      "file_id": "file_00000000287c81f4a40a465c9548409e",
+      "file_name": "critz-CHT1-west-static-native-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-west-static-native-grid.png",
+      "source": "docs/reviews/M1-CHT1/west-static-native-grid.png",
+      "sha256": "057613f7439928289447d49b5570cac711b0c7d47521b09870e3fa1d2c6b4855",
+      "dimensions": [
+        1010,
+        660
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_ca7729aa1ae08191af3bca7b5b22458e",
+      "file_id": "file_00000000133081fda03d5deaf352831d",
+      "file_name": "critz-CHT1-east-static-native-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-east-static-native-grid.png",
+      "source": "docs/reviews/M1-CHT1/east-static-native-grid.png",
+      "sha256": "88bc8398faf1e0c6aedc2f9be891159a994297b2beecf1e3c58c4d613807f5af",
+      "dimensions": [
+        1010,
+        660
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_5cc248f320e48191820723e10c5ca0ba",
+      "file_id": "file_000000008b5882309dc2fe947d4c888e",
+      "file_name": "critz-FM1-west-idle-P-material-trial.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM1-west-idle-P-material-trial.png",
+      "source": "docs/reviews/M1-FM1/west-idle-P-material-trial.png",
+      "sha256": "89d522cdc259695ff4529585e485c02485fc00c498a88d730be0cf4e6ea64f3b",
+      "dimensions": [
+        1160,
+        620
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_d8569a98e0708191a857621d89005811",
+      "file_id": "file_000000003f8081f58349250728c29ebb",
+      "file_name": "critz-FM1-west-idle-P-native-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM1-west-idle-P-native-grid.png",
+      "source": "docs/reviews/M1-FM1/west-idle-P-native-grid.png",
+      "sha256": "72e49c15ab8904ec60388d359835c8db34c00a4368a40fbb60a3667d0dfd36b7",
+      "dimensions": [
+        1120,
+        470
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_9bacd403fea081919e726aca041b17cf",
+      "file_id": "file_000000003b10820c86135526a17b03f6",
+      "file_name": "critz-FM2-LATEST-south-static-full.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-static-full.png",
+      "source": "docs/reviews/M1-FM2/south-static-full.png",
+      "sha256": "ee1522f3edd4ee7df462273bcaec0d27807b26fabf677e162d9379ff9a49e824",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_61fcc7f78a9c8191aa2e9bab5ade2fc0",
+      "file_id": "file_0000000042a081f4b232a50c92fa49ca",
+      "file_name": "critz-FM2-LATEST-south-static-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-static-grid.png",
+      "source": "docs/reviews/M1-FM2/south-static-grid.png",
+      "sha256": "b03dc1c894da75b803f2cc23c592cf4c5737d831419adf816890c68c54fbeed2",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_e8785fd0e9908191b2443b392628b6e0",
+      "file_id": "file_00000000e350823081b07268d8481a9c",
+      "file_name": "critz-FM2-LATEST-south-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-normal-1x.gif",
+      "source": "docs/reviews/M1-FM2/south-walk-normal-1x.gif",
+      "sha256": "584767a6f7bacbc2cd9ccd84266f6f1402de7ad42bbd6a3f119f90b81742ca49",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_12081c6e7c9881919255ed2849b8aa5f",
+      "file_id": "file_00000000f44481f590d874eab1b8bc50",
+      "file_name": "critz-FM2-LATEST-south-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-normal-4x.gif",
+      "source": "docs/reviews/M1-FM2/south-walk-normal-4x.gif",
+      "sha256": "ce37bbb626366a98ac5402aa75b5db47737401996265f63ef9642753096042ad",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_cdb00a48274081918ffbe42e8e50b8a3",
+      "file_id": "file_000000008514820c8591d6b777a4a803",
+      "file_name": "critz-FM2-LATEST-south-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-slow-1x.gif",
+      "source": "docs/reviews/M1-FM2/south-walk-slow-1x.gif",
+      "sha256": "f606d079a1471c7bb327eb4a139eb0db8f2112046cee73deb3d6a47645ab7b20",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_dd73235e85e48191840e352060891f6e",
+      "file_id": "file_00000000c1848230b6967f696f86cf62",
+      "file_name": "critz-FM2-LATEST-south-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-slow-4x.gif",
+      "source": "docs/reviews/M1-FM2/south-walk-slow-4x.gif",
+      "sha256": "988f51c43109a7e667b38c9cc4014a2d966e9f754b05d9c9749c80673ca965d2",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_0b83d0cb19a881918af88fd1a2ebbb7e",
+      "file_id": "file_0000000094b082308367bd9ca623d18a",
+      "file_name": "critz-FM2-LATEST-north-static-full.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-static-full.png",
+      "source": "docs/reviews/M1-FM2/north-static-full.png",
+      "sha256": "48e6f4904441a12ca462648cfc22f579afebb4636aedc3f6a20da8c0c5fe094b",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_3cd118dfee6881918502661bb139859d",
+      "file_id": "file_000000001e6482308e74bb150ebd638a",
+      "file_name": "critz-FM2-LATEST-north-static-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-static-grid.png",
+      "source": "docs/reviews/M1-FM2/north-static-grid.png",
+      "sha256": "862bf758d3ebdd68d6b121d12a602b4f3cb9486f7ce67161f98fbd24c5c7ec75",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_9241479382bc8191897d81f22c08607c",
+      "file_id": "file_0000000065ac81fd9c971149526e036a",
+      "file_name": "critz-FM2-LATEST-north-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-normal-1x.gif",
+      "source": "docs/reviews/M1-FM2/north-walk-normal-1x.gif",
+      "sha256": "d2c90f2d04b9c7397769b869208856d4dd04174335e569a9c75587eb5c21e71b",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_1467bd8d270481918bbad0cb44f43a42",
+      "file_id": "file_000000005fec8230b905657b76056418",
+      "file_name": "critz-FM2-LATEST-north-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-normal-4x.gif",
+      "source": "docs/reviews/M1-FM2/north-walk-normal-4x.gif",
+      "sha256": "7ad6c275176b55f920ab6fcc24f7f8aaf04793a858be98dff0d3e2f3e32c47ee",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_42a8262bab888191b91de9a5a8d04a8b",
+      "file_id": "file_00000000faac823092611cc1b0801b8b",
+      "file_name": "critz-FM2-LATEST-north-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-slow-1x.gif",
+      "source": "docs/reviews/M1-FM2/north-walk-slow-1x.gif",
+      "sha256": "99ed55be5edf4f8e927821e43b731b99bcbd5833edcc98d6ab8f389c23407234",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_d54793787f4c8191a90a8c0f5c18c1d5",
+      "file_id": "file_0000000028c081f6bc80ed85598e44c4",
+      "file_name": "critz-FM2-LATEST-north-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-slow-4x.gif",
+      "source": "docs/reviews/M1-FM2/north-walk-slow-4x.gif",
+      "sha256": "059dd246e2f0f4068bebb67f0c5cc38e18d8d85c5a50ea811159c47e9753434e",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_c0f148f3963481918fb5bc479e6bdc0c",
+      "file_id": "file_00000000236c8230ab7b99419bb6d1b8",
+      "file_name": "critz-FM2-LATEST-west-static-full.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-static-full.png",
+      "source": "docs/reviews/M1-FM2/west-static-full.png",
+      "sha256": "779d08fb157fa04cb29a0a589005ea38aabefd461c3ca3c8e5dad3da4ba7c424",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_c2e2e0a1b3148191b48227b37a2b5635",
+      "file_id": "file_00000000998c81fd96c360698b016d77",
+      "file_name": "critz-FM2-LATEST-west-static-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-static-grid.png",
+      "source": "docs/reviews/M1-FM2/west-static-grid.png",
+      "sha256": "f5801f9847bffb827f7060140ca774e1d1173614af19cbd855fe093ec4835bc2",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_915d113150d48191aacc21446d5757da",
+      "file_id": "file_00000000dca481fbb5829a867865d5ce",
+      "file_name": "critz-FM2-LATEST-west-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-normal-1x.gif",
+      "source": "docs/reviews/M1-FM2/west-walk-normal-1x.gif",
+      "sha256": "3a68d321823dff4016b7694805f522c5d91d9a3da8c1e2ea1fb405040a70c9ca",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_48a1234e6f0c81918baf7e880200bc65",
+      "file_id": "file_0000000049488230b241acd3bf5700d8",
+      "file_name": "critz-FM2-LATEST-west-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-normal-4x.gif",
+      "source": "docs/reviews/M1-FM2/west-walk-normal-4x.gif",
+      "sha256": "9d360b345ac4bd041c22875b3b7b1d6b9a2636adbf1a367cf3394c5227854a21",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_3551394d92f481918800b156ed91e704",
+      "file_id": "file_00000000c8b482099792a7818a52f5ba",
+      "file_name": "critz-FM2-LATEST-west-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-slow-1x.gif",
+      "source": "docs/reviews/M1-FM2/west-walk-slow-1x.gif",
+      "sha256": "11ed11e80bea48ed00db10b51421b9d3b696fb63d54d983085a9c42d84027e4b",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_4ee7831b07448191b8f70fe91bcf7290",
+      "file_id": "file_00000000e58c81fd97a9f58c0ec0f049",
+      "file_name": "critz-FM2-LATEST-west-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-slow-4x.gif",
+      "source": "docs/reviews/M1-FM2/west-walk-slow-4x.gif",
+      "sha256": "33ca87e5f0c75ef6954a80b22995e205faa8123fb3301b932b72b976f8178482",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_3785f98d5be4819195ef83a054ffaa5c",
+      "file_id": "file_00000000c94081f7b6c5145be339e90d",
+      "file_name": "critz-FM2-LATEST-east-static-full.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-static-full.png",
+      "source": "docs/reviews/M1-FM2/east-static-full.png",
+      "sha256": "f37d677f0948f602d8c13f45d3f0d4b472869f09df508f4246767ee5efeaac90",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_12fa691407a88191b257961a59894373",
+      "file_id": "file_00000000b2d881fd9405b86a1f8c9bc4",
+      "file_name": "critz-FM2-LATEST-east-static-grid.png",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-static-grid.png",
+      "source": "docs/reviews/M1-FM2/east-static-grid.png",
+      "sha256": "089b95d43a4fb533fd9caba6bc2e9adb5fbdff8305fa726a63242c7d3db0b915",
+      "dimensions": [
+        1120,
+        710
+      ],
+      "frames": 1,
+      "durationsMs": null,
+      "loop": null,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_90e560f0d6fc8191ac9223618d7839db",
+      "file_id": "file_000000000460823099bbb8eb59928b3c",
+      "file_name": "critz-FM2-LATEST-east-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-normal-1x.gif",
+      "source": "docs/reviews/M1-FM2/east-walk-normal-1x.gif",
+      "sha256": "9f1c5349e614f1ab6bc12a304135d15552a952cba63bb5aaa5be85f554743afb",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_a02afe093c48819183593c22bf7efd0e",
+      "file_id": "file_0000000084b481fdbb36ba0a720421b9",
+      "file_name": "critz-FM2-LATEST-east-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-normal-4x.gif",
+      "source": "docs/reviews/M1-FM2/east-walk-normal-4x.gif",
+      "sha256": "0b6a11a1f7054d9c697503bb388e7cbadbff2ee9920dabc462a51ed0a74216b7",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_ec21d3938a288191bac6efe6871ef5e1",
+      "file_id": "file_000000006964823088e1eb6687279e4d",
+      "file_name": "critz-FM2-LATEST-east-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-slow-1x.gif",
+      "source": "docs/reviews/M1-FM2/east-walk-slow-1x.gif",
+      "sha256": "74e65a4fe8dd04754ad72baa0be5eaa083da227e1d0740700f68aa755b23c118",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_c86f0cadb260819184980dc324ac1ff8",
+      "file_id": "file_00000000ba648230ab7b86355bc7e78a",
+      "file_name": "critz-FM2-LATEST-east-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-slow-4x.gif",
+      "source": "docs/reviews/M1-FM2/east-walk-slow-4x.gif",
+      "sha256": "1681da43f7fe716d2e21b0a798c8704b978d4d123806a85bfef37816cfdf738d",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesAndRGBAExact": true,
+      "metadataApplied": true
+    }
+  ]
+}

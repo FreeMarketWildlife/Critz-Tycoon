@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "files": 36,
+  "verifiedSourceCommit": "73434fcf42aa4fcaa8ef52b6a73d342a5391832c",
+  "checks": [
+    "All36 frozen copies byteexact to current source, recorded SHA256 and corresponding committed original sprite review artifacts",
+    "No pixel/color/frame/timing conversion or browser screenshot included"
+  ],
+  "uploadOwner": "Eutychus coordinator thread01a13b3b-a35c-77fd-8576-96c421a0b0db; writer creates no duplicate uploads"
+}

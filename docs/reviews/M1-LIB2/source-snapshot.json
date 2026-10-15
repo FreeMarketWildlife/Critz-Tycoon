@@ -1,0 +1,301 @@
+{
+  "task": "M1.LIB2",
+  "sourceHEAD": "91a165ee2e3c487e17a6a44120d16f77f8e12664",
+  "sourceArt": "FM2 pose ecd4f4e / existingwalk73434fc / independentmotionreceipt217eba3",
+  "authorization": {
+    "directHumanRequest": "I authorize saving the Critz Tycoon CHT1, FM1, and FM2 review images and animations, plus subsequent sprite and character-creator review previews produced for this project, to my ChatGPT Library and sharing them with Eutychus and me in our private chat without asking me again for each version. Please upload the latest corrected previews now so Eutychus can visually review them before proceeding with the character creator.",
+    "scope": "Private personal ChatGPT Library; links in user privatechat and Eutychus coordination thread; includes future project sprite/creator review previews without per-version confirmation",
+    "date": "2026-10-15"
+  },
+  "state": "PREPARED; NOT UPLOADED; currentcontext Librarytools unavailable; no identities allocated",
+  "files": [
+    {
+      "source": "docs/reviews/M1-CHT1/south-idle-aligned.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-south-idle-aligned.png",
+      "file_name": "critz-CHT1-south-idle-aligned.png",
+      "kind": "Shape-preserving template focused proof; prior material checkpoint",
+      "sha256": "7dde2c69343e2a3fc999eacf8f023de355dd785c7e9c7a42149e9fc16a93bfd6",
+      "bytes": 7580
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/south-idle-lower-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-south-idle-lower-grid.png",
+      "file_name": "critz-CHT1-south-idle-lower-grid.png",
+      "kind": "Shape-preserving template focused proof; prior material checkpoint",
+      "sha256": "7fc3931e47f25c822db1d79d59f8d3a66dc1501a931e79535ac6e40934bb45d8",
+      "bytes": 11612
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/north-P/north-P-aligned.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-north-P-aligned.png",
+      "file_name": "critz-CHT1-north-P-aligned.png",
+      "kind": "Shape-preserving template focused proof; prior material checkpoint",
+      "sha256": "243b38a04f76ad96d4266d63a85e164cda5719c6ce9f8b5307752efb72efe668",
+      "bytes": 7398
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/north-P/north-P-lower-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-north-P-lower-grid.png",
+      "file_name": "critz-CHT1-north-P-lower-grid.png",
+      "kind": "Shape-preserving template focused proof; prior material checkpoint",
+      "sha256": "2813919476a88bb8fe28360c0f723bd13ca4e445b6725e930b3549a245538e23",
+      "bytes": 11731
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/west-idle/west-idle-aligned.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-west-idle-aligned.png",
+      "file_name": "critz-CHT1-west-idle-aligned.png",
+      "kind": "Shape-preserving template focused proof; prior material checkpoint",
+      "sha256": "7787eef8b316ac903514a583fb9ef091891bca557ce29a3fe621767da028079f",
+      "bytes": 7262
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/west-idle/west-idle-lower-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-west-idle-lower-grid.png",
+      "file_name": "critz-CHT1-west-idle-lower-grid.png",
+      "kind": "Shape-preserving template focused proof; prior material checkpoint",
+      "sha256": "a1c57c16da6c356f477deb8fb94aa768ec545f7d4de47e30e66ec584746c91e8",
+      "bytes": 11609
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/south-static-native-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-south-static-native-grid.png",
+      "file_name": "critz-CHT1-south-static-native-grid.png",
+      "kind": "Existing4pose shape-preserving template proof; prior material checkpoint",
+      "sha256": "1bffd6e3499a44fbd7a7c90cb21bb7074d2f1a981f5316dae1c2af715bcd58fe",
+      "bytes": 20665
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/north-static-native-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-north-static-native-grid.png",
+      "file_name": "critz-CHT1-north-static-native-grid.png",
+      "kind": "Existing4pose shape-preserving template proof; prior material checkpoint",
+      "sha256": "089ad54c4c0ff91b772156929af39cc6420a58c6457364ad3c2e9ca71eb3d2c7",
+      "bytes": 18919
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/west-static-native-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-west-static-native-grid.png",
+      "file_name": "critz-CHT1-west-static-native-grid.png",
+      "kind": "Existing4pose shape-preserving template proof; prior material checkpoint",
+      "sha256": "057613f7439928289447d49b5570cac711b0c7d47521b09870e3fa1d2c6b4855",
+      "bytes": 19189
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/east-static-native-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-CHT1-east-static-native-grid.png",
+      "file_name": "critz-CHT1-east-static-native-grid.png",
+      "kind": "Existing4pose shape-preserving template proof; prior material checkpoint",
+      "sha256": "88bc8398faf1e0c6aedc2f9be891159a994297b2beecf1e3c58c4d613807f5af",
+      "bytes": 19683
+    },
+    {
+      "source": "docs/reviews/M1-FM1/west-idle-P-material-trial.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM1-west-idle-P-material-trial.png",
+      "file_name": "critz-FM1-west-idle-P-material-trial.png",
+      "kind": "Focused side shoe material proposal; retained exactly in FM2 idle/P",
+      "sha256": "89d522cdc259695ff4529585e485c02485fc00c498a88d730be0cf4e6ea64f3b",
+      "bytes": 10622
+    },
+    {
+      "source": "docs/reviews/M1-FM1/west-idle-P-native-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM1-west-idle-P-native-grid.png",
+      "file_name": "critz-FM1-west-idle-P-native-grid.png",
+      "kind": "Focused side shoe material proposal; retained exactly in FM2 idle/P",
+      "sha256": "72e49c15ab8904ec60388d359835c8db34c00a4368a40fbb60a3667d0dfd36b7",
+      "bytes": 6932
+    },
+    {
+      "source": "docs/reviews/M1-FM2/south-static-full.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-static-full.png",
+      "file_name": "critz-FM2-LATEST-south-static-full.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "ee1522f3edd4ee7df462273bcaec0d27807b26fabf677e162d9379ff9a49e824",
+      "bytes": 15753
+    },
+    {
+      "source": "docs/reviews/M1-FM2/south-static-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-static-grid.png",
+      "file_name": "critz-FM2-LATEST-south-static-grid.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "b03dc1c894da75b803f2cc23c592cf4c5737d831419adf816890c68c54fbeed2",
+      "bytes": 12837
+    },
+    {
+      "source": "docs/reviews/M1-FM2/south-walk-normal-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-normal-1x.gif",
+      "file_name": "critz-FM2-LATEST-south-walk-normal-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "584767a6f7bacbc2cd9ccd84266f6f1402de7ad42bbd6a3f119f90b81742ca49",
+      "bytes": 11575
+    },
+    {
+      "source": "docs/reviews/M1-FM2/south-walk-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-normal-4x.gif",
+      "file_name": "critz-FM2-LATEST-south-walk-normal-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "ce37bbb626366a98ac5402aa75b5db47737401996265f63ef9642753096042ad",
+      "bytes": 64319
+    },
+    {
+      "source": "docs/reviews/M1-FM2/south-walk-slow-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-slow-1x.gif",
+      "file_name": "critz-FM2-LATEST-south-walk-slow-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "f606d079a1471c7bb327eb4a139eb0db8f2112046cee73deb3d6a47645ab7b20",
+      "bytes": 11931
+    },
+    {
+      "source": "docs/reviews/M1-FM2/south-walk-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-south-walk-slow-4x.gif",
+      "file_name": "critz-FM2-LATEST-south-walk-slow-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "988f51c43109a7e667b38c9cc4014a2d966e9f754b05d9c9749c80673ca965d2",
+      "bytes": 67604
+    },
+    {
+      "source": "docs/reviews/M1-FM2/north-static-full.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-static-full.png",
+      "file_name": "critz-FM2-LATEST-north-static-full.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "48e6f4904441a12ca462648cfc22f579afebb4636aedc3f6a20da8c0c5fe094b",
+      "bytes": 14485
+    },
+    {
+      "source": "docs/reviews/M1-FM2/north-static-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-static-grid.png",
+      "file_name": "critz-FM2-LATEST-north-static-grid.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "862bf758d3ebdd68d6b121d12a602b4f3cb9486f7ce67161f98fbd24c5c7ec75",
+      "bytes": 12241
+    },
+    {
+      "source": "docs/reviews/M1-FM2/north-walk-normal-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-normal-1x.gif",
+      "file_name": "critz-FM2-LATEST-north-walk-normal-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "d2c90f2d04b9c7397769b869208856d4dd04174335e569a9c75587eb5c21e71b",
+      "bytes": 11196
+    },
+    {
+      "source": "docs/reviews/M1-FM2/north-walk-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-normal-4x.gif",
+      "file_name": "critz-FM2-LATEST-north-walk-normal-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "7ad6c275176b55f920ab6fcc24f7f8aaf04793a858be98dff0d3e2f3e32c47ee",
+      "bytes": 62127
+    },
+    {
+      "source": "docs/reviews/M1-FM2/north-walk-slow-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-slow-1x.gif",
+      "file_name": "critz-FM2-LATEST-north-walk-slow-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "99ed55be5edf4f8e927821e43b731b99bcbd5833edcc98d6ab8f389c23407234",
+      "bytes": 11550
+    },
+    {
+      "source": "docs/reviews/M1-FM2/north-walk-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-north-walk-slow-4x.gif",
+      "file_name": "critz-FM2-LATEST-north-walk-slow-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "059dd246e2f0f4068bebb67f0c5cc38e18d8d85c5a50ea811159c47e9753434e",
+      "bytes": 65471
+    },
+    {
+      "source": "docs/reviews/M1-FM2/west-static-full.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-static-full.png",
+      "file_name": "critz-FM2-LATEST-west-static-full.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "779d08fb157fa04cb29a0a589005ea38aabefd461c3ca3c8e5dad3da4ba7c424",
+      "bytes": 15341
+    },
+    {
+      "source": "docs/reviews/M1-FM2/west-static-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-static-grid.png",
+      "file_name": "critz-FM2-LATEST-west-static-grid.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "f5801f9847bffb827f7060140ca774e1d1173614af19cbd855fe093ec4835bc2",
+      "bytes": 12829
+    },
+    {
+      "source": "docs/reviews/M1-FM2/west-walk-normal-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-normal-1x.gif",
+      "file_name": "critz-FM2-LATEST-west-walk-normal-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "3a68d321823dff4016b7694805f522c5d91d9a3da8c1e2ea1fb405040a70c9ca",
+      "bytes": 11440
+    },
+    {
+      "source": "docs/reviews/M1-FM2/west-walk-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-normal-4x.gif",
+      "file_name": "critz-FM2-LATEST-west-walk-normal-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "9d360b345ac4bd041c22875b3b7b1d6b9a2636adbf1a367cf3394c5227854a21",
+      "bytes": 64318
+    },
+    {
+      "source": "docs/reviews/M1-FM2/west-walk-slow-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-slow-1x.gif",
+      "file_name": "critz-FM2-LATEST-west-walk-slow-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "11ed11e80bea48ed00db10b51421b9d3b696fb63d54d983085a9c42d84027e4b",
+      "bytes": 11792
+    },
+    {
+      "source": "docs/reviews/M1-FM2/west-walk-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-west-walk-slow-4x.gif",
+      "file_name": "critz-FM2-LATEST-west-walk-slow-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "33ca87e5f0c75ef6954a80b22995e205faa8123fb3301b932b72b976f8178482",
+      "bytes": 67431
+    },
+    {
+      "source": "docs/reviews/M1-FM2/east-static-full.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-static-full.png",
+      "file_name": "critz-FM2-LATEST-east-static-full.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "f37d677f0948f602d8c13f45d3f0d4b472869f09df508f4246767ee5efeaac90",
+      "bytes": 15767
+    },
+    {
+      "source": "docs/reviews/M1-FM2/east-static-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-static-grid.png",
+      "file_name": "critz-FM2-LATEST-east-static-grid.png",
+      "kind": "LATEST corrected Hero/template shoe materials; current review candidate",
+      "sha256": "089b95d43a4fb533fd9caba6bc2e9adb5fbdff8305fa726a63242c7d3db0b915",
+      "bytes": 12991
+    },
+    {
+      "source": "docs/reviews/M1-FM2/east-walk-normal-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-normal-1x.gif",
+      "file_name": "critz-FM2-LATEST-east-walk-normal-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "9f1c5349e614f1ab6bc12a304135d15552a952cba63bb5aaa5be85f554743afb",
+      "bytes": 11438
+    },
+    {
+      "source": "docs/reviews/M1-FM2/east-walk-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-normal-4x.gif",
+      "file_name": "critz-FM2-LATEST-east-walk-normal-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "0b6a11a1f7054d9c697503bb388e7cbadbff2ee9920dabc462a51ed0a74216b7",
+      "bytes": 64088
+    },
+    {
+      "source": "docs/reviews/M1-FM2/east-walk-slow-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-slow-1x.gif",
+      "file_name": "critz-FM2-LATEST-east-walk-slow-1x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "74e65a4fe8dd04754ad72baa0be5eaa083da227e1d0740700f68aa755b23c118",
+      "bytes": 11780
+    },
+    {
+      "source": "docs/reviews/M1-FM2/east-walk-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-LIB2/critz-FM2-LATEST-east-walk-slow-4x.gif",
+      "file_name": "critz-FM2-LATEST-east-walk-slow-4x.gif",
+      "kind": "LATEST existing walk verification; corrected Hero and standardized template; NOT rejected NB anatomy",
+      "sha256": "1681da43f7fe716d2e21b0a798c8704b978d4d123806a85bfef37816cfdf738d",
+      "bytes": 67321
+    }
+  ]
+}
