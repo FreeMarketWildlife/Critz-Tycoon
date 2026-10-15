@@ -84,7 +84,7 @@
     },
     "north/idle": {
       "connected": true,
-      "heroColors": 13,
+      "heroColors": 14,
       "dummyVisibleEyeCells": 0,
       "dummyHandPixels": 11,
       "headExactHR13": true,
@@ -103,7 +103,7 @@
     },
     "north/A": {
       "connected": true,
-      "heroColors": 14,
+      "heroColors": 13,
       "dummyVisibleEyeCells": 0,
       "dummyHandPixels": 4,
       "headExactHR13": true,
@@ -122,7 +122,7 @@
     },
     "north/P": {
       "connected": true,
-      "heroColors": 13,
+      "heroColors": 14,
       "dummyVisibleEyeCells": 0,
       "dummyHandPixels": 11,
       "headExactHR13": true,
@@ -141,7 +141,7 @@
     },
     "north/C": {
       "connected": true,
-      "heroColors": 14,
+      "heroColors": 13,
       "dummyVisibleEyeCells": 0,
       "dummyHandPixels": 4,
       "headExactHR13": true,
@@ -331,7 +331,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "c400f959aa8f5adc70ec34ea8da50a7182aae04d67e4f4f38acf8e76f7c7e97d"
+      "sha256": "ea6bc59585a36db73614befe4e7ac88e532cb2c27260a9bbbd6f89febda19dd7"
     },
     "source-hero-template-south-4x.gif": {
       "frames": 8,
@@ -352,7 +352,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "33baf8a4c4a57bae5d6cf02be0739949e50c3e9c2db6d41982f541924c7b1966"
+      "sha256": "65361e8dc4e088080bdaa88cf3d6eda545c1dcff25aea686b73a31352503200a"
     },
     "hero-south-native.gif": {
       "frames": 8,
@@ -373,7 +373,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "3d1d98bfb57f71e5c68122e70923e357c6a950f7b95e7ab83ce7b8bd54526ec2"
+      "sha256": "efeed3b87b8d1f39cb73d06e39954ed0599946f565b3006f1730dd0e7d212129"
     },
     "dummy-south-native.gif": {
       "frames": 8,
@@ -394,7 +394,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "d5f71d6760f895fc61660914e1885abcb00e5f3a6bb221c42d6046558aa968cb"
+      "sha256": "80f0f229469af2f7d4b39f865a885a3691aa3d6524c1186ed231ef5b3b452b83"
     },
     "source-hero-template-south-SLOW4x-native.gif": {
       "frames": 8,
@@ -415,7 +415,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "f7d75998b2cfaddbee7768e8c39c03e65a92bfe2ef95f5b12c1179218f723bb4"
+      "sha256": "11539fa0ad5c084d284f91f201d5c58daf0603fb114dc9636f5e882dfce3ce87"
     },
     "source-hero-template-south-SLOW4x-4x.gif": {
       "frames": 8,
@@ -436,7 +436,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "91723785ba287a4c14df09b41703dbda5e330cd15274d1fc6c8aa171b77ee58d"
+      "sha256": "84341679b1d4a86e82bb30c5004c18454c93d59375340ca7aed3952294b38db3"
     },
     "source-hero-template-north-native.gif": {
       "frames": 8,
@@ -457,7 +457,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "3f5173a4fa0cf94e5435c6d2cc34fa6f2d4fa5a95432bc512be334370f80c79e"
+      "sha256": "6af8cd2a6f9133f26b935d34ef3f51a82076d02d6a963227ad44186cae331252"
     },
     "source-hero-template-north-4x.gif": {
       "frames": 8,
@@ -478,7 +478,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "f26d28768b001f85a314c02c2190c4363fe2e8cc257f3afed5f17ff6a3067d52"
+      "sha256": "a3cf65e873445497c9abe7f393fddbee2ce4999417022c1bc56a0565c8337d86"
     },
     "hero-north-native.gif": {
       "frames": 8,
@@ -499,7 +499,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "2df42bdae82eeebc47212c00a0d3536e2ea4cc18e4abf21b9483686d358db8bf"
+      "sha256": "a445e4571b9aceced6ae8fc09b3c86a7b1aec41b4c673469edff9d299acc1647"
     },
     "dummy-north-native.gif": {
       "frames": 8,
@@ -520,7 +520,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "ef200abb585c8162d1ebb47bad05dcfc3b25a5ca40508dcf215ab2a3d00cf5ef"
+      "sha256": "44e22e2085dcd6000ebf4c92e6f6da07cd15b4e93aff2d2d480f71c7c4013729"
     },
     "source-hero-template-north-SLOW4x-native.gif": {
       "frames": 8,
@@ -541,7 +541,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "0fa12b6b7806c3efc0c01251f9569b1c7bf822da4c9ae676c8f1df5cb61f6d8d"
+      "sha256": "4cb8061e5d75b770a0a6b8d66601e4cdb1f0984db37daf2172114ba29573b861"
     },
     "source-hero-template-north-SLOW4x-4x.gif": {
       "frames": 8,
@@ -562,7 +562,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "3d87cf58cfdad464ab874f4abba5edef94256944910470cacac0ef1e5a8ab2c7"
+      "sha256": "1bddc3b0562b169a561bbdb3f256ad11aa255a06c36153967b3c6132171c7079"
     },
     "source-hero-template-west-native.gif": {
       "frames": 8,
@@ -583,7 +583,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "6aacc0d72c07074f7dbce74e408b00ceff436bef65b710d68ab2657574974e94"
+      "sha256": "6c2ad67453d698a3427f4551a335d540b252122d5ffb3ff96647628d82ac25ca"
     },
     "source-hero-template-west-4x.gif": {
       "frames": 8,
@@ -604,7 +604,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "b5d00ac41f5209b694d6f0f30a355da3bd2488ef6a7874f448f87dc52697379e"
+      "sha256": "2c71a574d767a3fd15e6638fe5ff0a50a966aec996c475494a1d3110d5a6eaaf"
     },
     "hero-west-native.gif": {
       "frames": 8,
@@ -625,7 +625,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "78287d485d62d7f5534c55bfff605812da75e236449955bb7c0000d967b2d5b2"
+      "sha256": "f9e6ee5f7a538f5809c5abea09ab8f20ef9bf40600575f38fcaee852212baec8"
     },
     "dummy-west-native.gif": {
       "frames": 8,
@@ -646,7 +646,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "8c055fb32260f7bfa2a254fb7baadfbf037284bb22c80a70c358661a477d6e84"
+      "sha256": "d909ca9886b6149b1ccf80ba05881de0a623f78d53ba63bf3ec0d4e18c1d2c5f"
     },
     "source-hero-template-west-SLOW4x-native.gif": {
       "frames": 8,
@@ -667,7 +667,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "e8dd25672a0129fffdce58728e57472f19b4692ea5188c2740d2e3d463f6df92"
+      "sha256": "9f6412ec22db3034feb76e2c64890652fbe1d78f059330727c0a14d082ad1099"
     },
     "source-hero-template-west-SLOW4x-4x.gif": {
       "frames": 8,
@@ -688,7 +688,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "93ca803d9204d5d53709d9120363ed99d206eb908efbada9d2b287f1b44cdfcc"
+      "sha256": "660cd3518ab66c72f9444483b27b47711933c88958887b543f87d2449c0b0846"
     },
     "source-hero-template-east-native.gif": {
       "frames": 8,
@@ -709,7 +709,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "b52d0b367b660d068013b659125ee5962c10f5d267419314dd60a003fe9941fc"
+      "sha256": "dd67c4b77273d3784b7d6230e3eae5b596cb2b99d5ec813927dd6feae4887cb3"
     },
     "source-hero-template-east-4x.gif": {
       "frames": 8,
@@ -730,7 +730,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "31415e346cf0fbb49996f1b02bef24b6b5fd2ffdc347d0587b781f3bd355235f"
+      "sha256": "c2a01777220c79d260fdb5f4c283fd1c9fb315fcf0d2226b8056a0742180be57"
     },
     "hero-east-native.gif": {
       "frames": 8,
@@ -751,7 +751,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "52e6e39c6ef5741f1d93882a05101c0de0677cd1f4a5375033df1e2da54f78ea"
+      "sha256": "79239fd59d8362e9fe46ea6d43b3a6f11ba3f87f35b62a35b7741c4ffbdbcd25"
     },
     "dummy-east-native.gif": {
       "frames": 8,
@@ -772,7 +772,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "1bb70e55fedb7d68ec97830ba86c011772a1a6b9bde3313a692cc0d7d55b2acf"
+      "sha256": "6f4e561251bb3b76922334306604a056ede5be6c25c25c386db30ebeb3f377fe"
     },
     "source-hero-template-east-SLOW4x-native.gif": {
       "frames": 8,
@@ -793,7 +793,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "ea9ff36cbd8de0f87a61e08f3604d344ca35894a73264d317f4f771128fa9e7d"
+      "sha256": "6c1760caf650d356367d8d49ab9f6b3760d6f64469d578d405d380031fc52317"
     },
     "source-hero-template-east-SLOW4x-4x.gif": {
       "frames": 8,
@@ -814,7 +814,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "839ba0e108ea5e31ada3829b5e04087b9b1638e6b0425b14be3a5be1b16934a0"
+      "sha256": "7eb0a0ec278830ea0e251e718d93397ff9dd5b1ea45e562dfa72d781a5724c1b"
     },
     "four-direction-PHASE-source-hero-template-native.gif": {
       "frames": 8,
@@ -835,7 +835,7 @@
         192
       ],
       "exactPixels": true,
-      "sha256": "1e0a6781b48807d5940437ed4c36123823fafda4e60aa7c9fdb02f4317208f99"
+      "sha256": "1ef0e83a97b40684d6113d41ee20a2331389cee7ebbfeba0fbcc8506954cd250"
     },
     "four-direction-PHASE-source-hero-template-4x.gif": {
       "frames": 8,
@@ -856,7 +856,7 @@
         768
       ],
       "exactPixels": true,
-      "sha256": "dec1eedbc72d62c922fc9f8423057b13b17877386a44d119cd8cef1c8555181b"
+      "sha256": "9633e31d28a2fa30d3f5fffe76d202c0ad8fad1642122de3223954736af1de07"
     },
     "four-direction-PHASE-source-hero-template-SLOW4x-native.gif": {
       "frames": 8,
@@ -877,7 +877,7 @@
         192
       ],
       "exactPixels": true,
-      "sha256": "b52b843d073dcfb46c51ab31b1f32617ccb534fc53eb9f63842a2ad5a62d169b"
+      "sha256": "234d4629b916df07bf6b7f0175d5aaa9d7f629efc6807fac929176240aab25fb"
     },
     "four-direction-PHASE-source-hero-template-SLOW4x-4x.gif": {
       "frames": 8,
@@ -898,7 +898,7 @@
         768
       ],
       "exactPixels": true,
-      "sha256": "c16652b2516b611e197ded6afc72c48a48fff99f6ff226aa3c4ef4116d5b65e5"
+      "sha256": "805a42c453dba8d096d3d3304a1649b2a1a9ae5a949567074faa8a9e947f82c9"
     }
   },
   "limits": [
@@ -912,182 +912,43 @@
     "records": 16,
     "hiddenHipKneeAnkleFootAttachments": null,
     "observedLowestContourSpansChecked": true,
-    "noSpritePixelsChanged": true
+    "guideChangesNoSpritePixels": true,
+    "actualHeroDummyAndGuideHandCellSetsExact": true
   },
-  "additionalExactPassingSeam": {
-    "direction": "south",
-    "pose": "P",
-    "row": 53,
-    "sourceAlphaSpans": [
-      [
-        7,
-        25
-      ]
-    ],
-    "alphaMismatchCells": 0,
-    "materialMismatchCells": 0,
-    "sourceVisibleClasses": [
-      "black/dark plane",
-      "brown hem/shadow plane"
-    ],
-    "CritzMaterials": [
-      "ink/navy",
-      "slate shadow"
-    ],
-    "anatomicalWaistCoordinate": null,
-    "protectedOutsideSouthPassingRow53": true,
-    "retainedUpperSeamDifferences": {
-      "A": {
-        "52": {
-          "sourceSpans": [
-            [
-              5,
-              24
-            ]
-          ],
-          "heroSpans": [
-            [
-              7,
-              9
-            ],
-            [
-              10,
-              23
-            ]
-          ],
-          "missingXs": [
-            5,
-            6,
-            9,
-            23
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        },
-        "53": {
-          "sourceSpans": [
-            [
-              5,
-              24
-            ]
-          ],
-          "heroSpans": [
-            [
-              10,
-              23
-            ]
-          ],
-          "missingXs": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            23
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        }
-      },
-      "P": {
-        "52": {
-          "sourceSpans": [
-            [
-              5,
-              27
-            ]
-          ],
-          "heroSpans": [
-            [
-              10,
-              23
-            ]
-          ],
-          "missingXs": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            23,
-            24,
-            25,
-            26
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        },
-        "53": {
-          "sourceSpans": [
-            [
-              7,
-              25
-            ]
-          ],
-          "heroSpans": [
-            [
-              7,
-              25
-            ]
-          ],
-          "missingXs": [],
-          "extraXs": [],
-          "status": "EXACT source-visible interface"
-        }
-      },
-      "C": {
-        "52": {
-          "sourceSpans": [
-            [
-              8,
-              27
-            ]
-          ],
-          "heroSpans": [
-            [
-              9,
-              22
-            ],
-            [
-              23,
-              25
-            ]
-          ],
-          "missingXs": [
-            8,
-            22,
-            25,
-            26
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        },
-        "53": {
-          "sourceSpans": [
-            [
-              8,
-              27
-            ]
-          ],
-          "heroSpans": [
-            [
-              9,
-              22
-            ]
-          ],
-          "missingXs": [
-            8,
-            22,
-            23,
-            24,
-            25,
-            26
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        }
-      }
-    }
+  "upperInterfaceReview": {
+    "report": "interface-checks.json",
+    "taper": {
+      "row51": [
+        [
+          4,
+          28
+        ]
+      ],
+      "row52": [
+        [
+          5,
+          27
+        ]
+      ],
+      "row53": [
+        [
+          7,
+          25
+        ]
+      ],
+      "narrowsLeftBy": 2,
+      "narrowsRightBy": 2,
+      "referenceEnvelopeExact": true,
+      "hiddenWaistOrBoneCoordinate": null
+    },
+    "idleWalkContinuity": {
+      "all4Directions": "Actual Hero,dummy and underlying body-layer upper RGBA/materials equal under2px torso translation; contact geometry belowidle56/walk54 protected",
+      "newAnatomy": false
+    },
+    "headsAndLiteralLowerContactsProtected": true,
+    "canonicalPackStrapsUnchanged": true,
+    "upperMaterials": "Original palette adaptation, not full reference RGB/anatomy match",
+    "profileOriginalBagOverhang": "Explicit source-envelope differences in interface report"
   },
   "packChecks": {
     "south/idle": {
@@ -1185,7 +1046,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
       "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     },
@@ -1196,7 +1057,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
       "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     },
@@ -1207,7 +1068,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
       "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     },
@@ -1218,7 +1079,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
       "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     },
@@ -1229,7 +1090,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
       "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     },
@@ -1240,7 +1101,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
       "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     },
@@ -1251,7 +1112,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
       "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     },
@@ -1262,7 +1123,7 @@
       ],
       "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
       "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
-      "visiblePackPixels": 30,
+      "visiblePackPixels": 35,
       "rigid": true,
       "compositeChecked": true
     }

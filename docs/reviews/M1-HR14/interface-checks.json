@@ -1,0 +1,3124 @@
+{
+  "task": "M1.HR14 bounded torso/hem taper pass",
+  "baseline": "2c03bc6",
+  "directObservedEnvelopeRows": [
+    48,
+    54
+  ],
+  "materialStatus": "Original coral/cream/slate adaptation; upper RGB/material roles NOT exact source claims. Existing visible hand sites retained; Only retained original visible hands supply skin; source glove/peach blocks are not added as duplicate hands.",
+  "protection": {
+    "south/idle/hero": {
+      "changedInterfaceCells": 98,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            23,
+            49
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ]
+        ],
+        [
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "south/idle/dummy": {
+      "changedInterfaceCells": 69,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            23,
+            49
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ]
+        ],
+        [
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "south/A/hero": {
+      "changedInterfaceCells": 69,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            50
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            51
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "south/A/dummy": {
+      "changedInterfaceCells": 31,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            50
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            51
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "south/P/hero": {
+      "changedInterfaceCells": 83,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            8,
+            48
+          ]
+        ],
+        [
+          [
+            23,
+            47
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "south/P/dummy": {
+      "changedInterfaceCells": 71,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            8,
+            48
+          ]
+        ],
+        [
+          [
+            23,
+            47
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "south/C/hero": {
+      "changedInterfaceCells": 69,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "south/C/dummy": {
+      "changedInterfaceCells": 31,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/idle/hero": {
+      "changedInterfaceCells": 96,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            50
+          ]
+        ],
+        [
+          [
+            23,
+            50
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/idle/dummy": {
+      "changedInterfaceCells": 106,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            50
+          ]
+        ],
+        [
+          [
+            23,
+            50
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/A/hero": {
+      "changedInterfaceCells": 51,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/A/dummy": {
+      "changedInterfaceCells": 42,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/P/hero": {
+      "changedInterfaceCells": 105,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            8,
+            48
+          ]
+        ],
+        [
+          [
+            23,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/P/dummy": {
+      "changedInterfaceCells": 99,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            8,
+            48
+          ]
+        ],
+        [
+          [
+            23,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/C/hero": {
+      "changedInterfaceCells": 52,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            50
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            51
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "north/C/dummy": {
+      "changedInterfaceCells": 43,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            6,
+            50
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            51
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/idle/hero": {
+      "changedInterfaceCells": 78,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            16,
+            50
+          ],
+          [
+            16,
+            51
+          ],
+          [
+            16,
+            52
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/idle/dummy": {
+      "changedInterfaceCells": 82,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            16,
+            50
+          ],
+          [
+            16,
+            51
+          ],
+          [
+            16,
+            52
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/A/hero": {
+      "changedInterfaceCells": 76,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            49
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/A/dummy": {
+      "changedInterfaceCells": 69,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            49
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/P/hero": {
+      "changedInterfaceCells": 83,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            16,
+            48
+          ],
+          [
+            16,
+            49
+          ],
+          [
+            16,
+            50
+          ],
+          [
+            17,
+            48
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/P/dummy": {
+      "changedInterfaceCells": 68,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            16,
+            48
+          ],
+          [
+            16,
+            49
+          ],
+          [
+            16,
+            50
+          ],
+          [
+            17,
+            48
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/C/hero": {
+      "changedInterfaceCells": 74,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ],
+          [
+            19,
+            50
+          ],
+          [
+            19,
+            51
+          ],
+          [
+            19,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "west/C/dummy": {
+      "changedInterfaceCells": 62,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ],
+          [
+            19,
+            50
+          ],
+          [
+            19,
+            51
+          ],
+          [
+            19,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/idle/hero": {
+      "changedInterfaceCells": 78,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            50
+          ],
+          [
+            15,
+            51
+          ],
+          [
+            15,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/idle/dummy": {
+      "changedInterfaceCells": 82,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": true,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            50
+          ],
+          [
+            15,
+            51
+          ],
+          [
+            15,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/A/hero": {
+      "changedInterfaceCells": 76,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            16,
+            49
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/A/dummy": {
+      "changedInterfaceCells": 69,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            16,
+            49
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/P/hero": {
+      "changedInterfaceCells": 83,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            14,
+            48
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            15,
+            48
+          ],
+          [
+            15,
+            49
+          ],
+          [
+            15,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/P/dummy": {
+      "changedInterfaceCells": 68,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            14,
+            48
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            15,
+            48
+          ],
+          [
+            15,
+            49
+          ],
+          [
+            15,
+            50
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/C/hero": {
+      "changedInterfaceCells": 74,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            12,
+            50
+          ],
+          [
+            12,
+            51
+          ],
+          [
+            12,
+            52
+          ],
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    },
+    "east/C/dummy": {
+      "changedInterfaceCells": 62,
+      "profileBagForegroundOcclusionCells": [],
+      "headsAndLowerRowsExact": true,
+      "idleInterfaceFromPassingPlus2": false,
+      "canonicalPackAndStrapsExact": true,
+      "visibleHandClusters": [
+        [
+          [
+            12,
+            50
+          ],
+          [
+            12,
+            51
+          ],
+          [
+            12,
+            52
+          ],
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ]
+        ]
+      ],
+      "actualHandSitesRetained": true
+    }
+  },
+  "interfaces": {
+    "south/A": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            5,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            5,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            5,
+            25
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            25
+          ]
+        ],
+        "dummySpans": [
+          [
+            5,
+            25
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "south/P": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "heroSpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "dummySpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "heroSpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "dummySpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "heroSpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "dummySpans": [
+          [
+            3,
+            29
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            5,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            5,
+            27
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            7,
+            25
+          ]
+        ],
+        "heroSpans": [
+          [
+            7,
+            25
+          ]
+        ],
+        "dummySpans": [
+          [
+            7,
+            25
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "south/C": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            4,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            27
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            7,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            7,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            7,
+            27
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "north/A": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "north/P": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "heroSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "dummySpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "heroSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "dummySpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "heroSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "dummySpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "heroSpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "dummySpans": [
+          [
+            2,
+            30
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "north/C": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "west/A": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            10,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          26
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            10,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          26
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "west/P": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            8,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            8,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "west/C": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            10,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          26
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            10,
+            27
+          ]
+        ],
+        "dummySpans": [
+          [
+            10,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          26
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "heroSpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "dummySpans": [
+          [
+            8,
+            28
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "east/A": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            22
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          5
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            22
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          5
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            26
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "east/P": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            6,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            6,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            6,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ],
+    "east/C": [
+      {
+        "row": 48,
+        "sourceSpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            22
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          5
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 49,
+        "sourceSpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "heroSpans": [
+          [
+            5,
+            22
+          ]
+        ],
+        "dummySpans": [
+          [
+            6,
+            22
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [
+          5
+        ],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 50,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 51,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 52,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      },
+      {
+        "row": 53,
+        "sourceSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "dummySpans": [
+          [
+            4,
+            24
+          ]
+        ],
+        "missingCells": [],
+        "originalPackOverhangCells": [],
+        "dummyAlphaExact": true
+      }
+    ]
+  },
+  "fullWatch": "Not established by this pixel report",
+  "visualApproval": false,
+  "idleWalkContinuity": {
+    "all4Directions": "Actual Hero,dummy and underlying body-layer upper RGBA/materials equal under2px torso translation; contact geometry belowidle56/walk54 protected",
+    "newAnatomy": false
+  },
+  "southPassingTaper": {
+    "row51": [
+      [
+        4,
+        28
+      ]
+    ],
+    "row52": [
+      [
+        5,
+        27
+      ]
+    ],
+    "row53": [
+      [
+        7,
+        25
+      ]
+    ],
+    "narrowsLeftBy": 2,
+    "narrowsRightBy": 2,
+    "referenceEnvelopeExact": true,
+    "hiddenWaistOrBoneCoordinate": null
+  },
+  "allInterfaceChecksPass": true
+}

@@ -5,6 +5,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 import json,copy
 from lower import LOWER,PASSING_SEAM_ROW53
+from upper import UPPER
 root=Path(__file__).resolve().parents[3];src=Path(__file__).parent;out=root/'docs/reviews/M1-HR14';old=root/'docs/reviews/M1-HR13'
 P={'O':'#242330','h':'#322a31','m':'#4c3739','l':'#705044','s':'#a66845','S':'#c38a58','d':'#744539','r':'#ed745c','R':'#ffad7a','v':'#ae454a','c':'#f9edc8','C':'#bfc0aa','b':'#465671','B':'#748894','n':'#2a344a'}
 D={'O':'#253340','head':'#b8dce0','ear':'#ed8ccd','torso':'#4ac2b0','arms':'#f1a566','hands':'#ffd4a1','pants':'#9b83d4','cuff':'#65a6de','sole':'#f1d171'}
@@ -87,20 +88,38 @@ for d in directions:
   if pose=='idle' and d=='south':lower=shift(lower,2);semantic={k:[[x,y+2] for x,y in v] for k,v in semantic.items()}
   for y in range(56 if pose=='idle' and d=='south' else 54,64):
    for x in range(32):body.putpixel((x,y),lower.getpixel((x,y)))
-  # One bounded source-supported passing seam row. Stride row53 contains
-  # source arm/upper-costume clusters and intentionally remains original;
-  # row52 is also retained original upper costume. These differences are shown.
-  if d=='south' and pose=='P':
-   for x,key in enumerate(PASSING_SEAM_ROW53):
-    if key=='.':body.putpixel((x,53),(0,0,0,0));continue
-    col=P['b'] if key=='h' else P['O'] if x in (7,24) else P['n']
-    body.putpixel((x,53),tuple(bytes.fromhex(col[1:]))+(255,))
-    semantic['slateShadow' if key=='h' else 'darkPlane'].append([x,53])
+  # One bounded upper-costume interface pass across all walking views. Native
+  # rows54..63 and all heads are protected. Upper shade placement is an original
+  # material adaptation, NOT an exact reference RGB or anatomical-part claim.
+  previous=body.copy();rows=UPPER[d]['P' if pose=='idle' else pose]
+  interfaceY=50 if pose=='idle' else 48
+  for iy,row in enumerate(rows):
+   y=interfaceY+iy
+   for x,key in enumerate(row):
+    if key=='.':body.putpixel((x,y),(0,0,0,0));continue
+    color=P['n'] if key=='p' else P['c'] if key in ('s','S','d') and d=='north' else P['r'] if key in ('s','S','d') else P[key]
+    if key=='p':
+     neighbors=[(x-1,iy),(x+1,iy),(x,iy+1)]+([(x,iy-1)] if iy else [])
+     if any(xx<0 or xx>=32 or (not previous.getpixel((xx,interfaceY+6))[3] if yy>=6 else rows[yy][xx]=='.') for xx,yy in neighbors):color=P['O']
+    # Preserve the original coral shirt and its cream band instead of
+    # carrying a checkerwork of recolored source glove/chest accent planes.
+    if d=='south' and 10<=x<=21 and key in ('c','C'):color=P['r']
+    stripeY=49+dy
+    if d=='south' and y==stripeY and 11<=x<=20 and key!='p':color=P['c']
+    body.putpixel((x,y),tuple(bytes.fromhex(color[1:]))+(255,))
+    # Retained original visible hand sites remain authored hand evidence;
+    # colored source glove/costume planes never create extra bare hands.
+    oldpx=previous.getpixel((x,y))
+    if y<interfaceY+5 and oldpx[3] and oldpx[:3] in [tuple(bytes.fromhex(P[k][1:])) for k in ('s','S','d')]:body.putpixel((x,y),oldpx)
+  # The overwritten idle hem rows now belong to the same upper-costume
+  # material layer as P+2. Do not let stale lower-plane classifications
+  # recolor the dummy's idle torso purple while its passing torso is teal.
+  semantic={name:[[x,y] for x,y in cells if not interfaceY<=y<interfaceY+6] for name,cells in semantic.items()}
   # Pack follows torso/head bounce; no lateral bob or per-pose shape redraw.
   bag0,straps0=pack_layers(d);bag=shift(bag0,dy);straps=shift(straps0,dy);anchor=[16,48+dy]
   # Visible torso occludes rear bag in front/profile; back bag is on torso.
   torsoNoPack=body.copy();composite=blank()
-  if d=='north':composite.alpha_composite(body);composite.alpha_composite(bag)
+  if d in ('north','west','east'):composite.alpha_composite(body);composite.alpha_composite(bag)
   else:composite.alpha_composite(bag);composite.alpha_composite(body)
   # Straps are fixed canonical slots, clipped by actual opaque upper torso;
   # sleeve/hand occlusion is explicit instead of dragging the pack with arms.
@@ -114,7 +133,7 @@ for d in directions:
   visible=blank()
   for i,px in enumerate(bag.get_flattened_data()):
    x,y=i%32,i//32
-   if px[3] and composite.getpixel((x,y))==px and not head.getpixel((x,y))[3] and (d=='north' or not body.getpixel((x,y))[3]):visible.putpixel((x,y),px)
+   if px[3] and composite.getpixel((x,y))==px and not head.getpixel((x,y))[3] and (d in ('north','west','east') or not body.getpixel((x,y))[3]):visible.putpixel((x,y),px)
   dummy=blank()
   # Color-coded visible construction, with no invented exposed calf or neck.
   lowerCoords={tuple(pt):k for k,v in semantic.items() for pt in v}
@@ -135,8 +154,8 @@ for d in directions:
    if on and 0<=y<64 and dh.getpixel((x,y))[3]:dh.putpixel((x,y),tuple(bytes.fromhex(D['O'][1:]))+(255,))
   dummy.alpha_composite(dh)
   frames['hero'][d][pose]=composite;frames['dummy'][d][pose]=dummy
-  for kind,im in [('hero',composite),('dummy',dummy),('pack-layer',bag),('strap-layer',straps),('pack-visible',visible)]:im.save(out/f'{kind}-{d}-{pose}.png')
-  records[d][pose]={'torsoAnchor':anchor,'torsoTransform':[0,dy],'canonicalPackAnchor':[16,48],'canonicalPackMask':bits(bag0),'canonicalStrapMask':bits(straps0),'packMask':bits(bag),'strapMask':bits(straps),'visiblePackMask':bits(visible),'visibleMaterialPlanes':semantic,'headMaskHero':e['headMaskHero'],'headMaskDummy':e['headMaskDummy'],'headTorsoProjection':'Retained head/torso overlap; neck remains fully occluded; no visible bone positions inferred','hiddenAnatomy':'inferred/occluded; no visible knees/calves created','frontIdle':'proposed P+2, not source observed' if d=='south' and pose=='idle' else None}
+  for kind,im in [('hero',composite),('dummy',dummy),('pack-layer',bag),('strap-layer',straps),('pack-visible',visible),('body-layer',body)]:im.save(out/f'{kind}-{d}-{pose}.png')
+  records[d][pose]={'interfaceBodyRows':[interfaceY,interfaceY+6],'idleUpperConstruction':'same passing upper interface translated2px with retained head/torso/pack; original idle contacts retained' if pose=='idle' else None,'torsoAnchor':anchor,'torsoTransform':[0,dy],'canonicalPackAnchor':[16,48],'canonicalPackMask':bits(bag0),'canonicalStrapMask':bits(straps0),'packMask':bits(bag),'strapMask':bits(straps),'visiblePackMask':bits(visible),'visibleMaterialPlanes':semantic,'headMaskHero':e['headMaskHero'],'headMaskDummy':e['headMaskDummy'],'headTorsoProjection':'Retained head/torso overlap; neck remains fully occluded; no visible bone positions inferred','hiddenAnatomy':'inferred/occluded; no visible knees/calves created','frontIdle':'proposed passing upper+2, original contacts retained; not source observed' if d=='south' and pose=='idle' else None}
 def export(name,ims,ticks=6):
  colors=[];lookup={}
  for _,im in ims:
@@ -148,5 +167,5 @@ def export(name,ims,ticks=6):
 for kind,views in frames.items():
  (src/f'{kind}-idles.sprite.json').write_text(json.dumps(export('HR14 '+kind+' idles',[(d,views[d]['idle']) for d in directions]),separators=(',',':'))+'\n')
  for d in directions:(src/f'{kind}-{d}-walk.sprite.json').write_text(json.dumps(export('HR14 '+kind+' '+d,[(str(i)+' '+p,views[d][p]) for i,p in enumerate(order)],6 if d=='south' else 4),separators=(',',':'))+'\n')
-(src/'construction.json').write_text(json.dumps({'task':'M1.HR14','status':'UNAPPROVED checkpoint','base':'HR13 identity and projection only; rejected legs/pack replaced; HR11 not consumed','canvas':[32,64],'anchor':[16,64],'lowerRows':[54,64],'additionalExactSeam':{'direction':'south','pose':'P','row':53,'role':'visible hem/dark-costume interface, not measured waist anatomy'},'retainedUpperSeamDifferences':'Row52 and A/C row53 retain original shirt/arm costume; exact full pants/waist boundary not claimed','directions':records,'order':order},separators=(',',':'))+'\n')
+(src/'construction.json').write_text(json.dumps({'task':'M1.HR14','status':'UNAPPROVED checkpoint','base':'HR13 identity and projection only; rejected legs/pack replaced; HR11 not consumed','canvas':[32,64],'anchor':[16,64],'lowerRows':[54,64],'additionalExactSeam':{'direction':'south','pose':'P','row':53,'role':'visible hem/dark-costume interface, not measured waist anatomy'},'upperInterfaceRows':[48,54],'upperInterfaceStatus':'source-observed visible envelope; original material/hand adaptation and rigid profile bag foreground. Not measured anatomy or exact upper reference RGB.','directions':records,'order':order},separators=(',',':'))+'\n')
 print('Authored four directions,32 Hero/dummy poses; rigid canonical pack/strap layers and observed lower construction.')

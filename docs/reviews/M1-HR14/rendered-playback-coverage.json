@@ -1,0 +1,43 @@
+{
+  "task": "M1.HR14 interface rendered-playback coverage",
+  "method": "Chrome via CUA; discrete screenshots of actual animatedGIF images; not continuous video observation",
+  "url": "http://127.0.0.1:8771/preview.html",
+  "writerChromeTab": "1219040675",
+  "parentChromeTab": "1219040667",
+  "parentServerSession": 16570,
+  "firstSampleUTC": "2026-10-15T06:07:25.882Z",
+  "lastSampleUTC": "2026-10-15T06:08:43.146Z",
+  "sampleSpanSeconds": 77.264,
+  "sampleSpanIsContinuousWatch": false,
+  "completedContinuousCyclesObserved": 0,
+  "continuousPlaybackSecondsVerified": null,
+  "coverage": {
+    "south": {
+      "normalNativeAnd4x": "2026-10-15T06:07:25.882Z",
+      "slowNativeAnd4x": "2026-10-15T06:08:03.313Z"
+    },
+    "north": {
+      "normalNativeAnd4x": "2026-10-15T06:08:03.313Z",
+      "slowNativeAnd4x": "2026-10-15T06:08:14.430Z"
+    },
+    "west": {
+      "normalNativeAnd4x": "2026-10-15T06:08:29.135Z",
+      "slowNativeAnd4x": "2026-10-15T06:08:32.671Z"
+    },
+    "east": {
+      "normalNativeAnd4x": "2026-10-15T06:08:39.633Z",
+      "slowNativeAnd4x": "2026-10-15T06:08:43.146Z"
+    }
+  },
+  "observations": [
+    "FrontP52->53 now narrows throughwaist; pose sheets establish allphases, not samples alone",
+    "No duplicate upperback bare-hand block visible; actualHero/dummy/guide skin masks checked independently",
+    "Canonical pack remains attached; sampled visible profiles retaincompactbag with declared small source-envelope overhang",
+    "Broad/angular lowerread and final motion quality remain visual judgment, UNAPPROVED"
+  ],
+  "limitations": [
+    "Only discrete samples possible in this tool interface; normal/slow complete cycles not watched continuously",
+    "Do not convert decodedGIFtiming or77.264s sampling span into a full motion pass",
+    "Both full tutorial watches remain incomplete; transcripts/sampledframes only; Thundaga17:00 is exactcolorselection, not anatomy"
+  ]
+}

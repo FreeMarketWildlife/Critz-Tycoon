@@ -93,17 +93,22 @@ for d in dirs:
   assert all(v['xy'] is None for v in e['hiddenAttachments'].values())
   assert e['feet']['edgeAnchor']==[16,64]
   assert e['legs']['anatomicalCoordinates'] is None and 'Occluded/inferred' in e['legs']['status']
+  hero=Image.open(out/f'hero-{d}-{po}.png').convert('RGBA');dummy=Image.open(out/f'dummy-{d}-{po}.png').convert('RGBA');info=meta['directions'][d][po]
+  actualDummyHands={(x,y) for y in range(64) for x in range(32) if dummy.getpixel((x,y))[:3]==(255,212,161)}
+  guideHands={tuple(pt) for pt in e['hands']['cells']};assert guideHands==actualDummyHands
+  actualHeroHands={(x,y) for y in range(64) for x in range(32) if hero.getpixel((x,y))[3] and hero.getpixel((x,y))[:3] in [(166,104,69),(195,138,88),(116,69,57)] and not info['headMaskHero'][y*32+x] and not info['headMaskDummy'][y*32+x]}
+  assert actualHeroHands==actualDummyHands,(d,po,'actual hand/guide mask mismatch')
   h=Image.open(out/f'hero-{d}-{po}.png').convert('RGBA');last=h.getbbox()[3]-1
   assert last==record['lastPaintedRow']==e['feet']['lastPaintedRow']
   expected={x for x in range(32) if h.getpixel((x,last))[3]};declared={x for a,b in record['lastPaintedSpans'] for x in range(a,b)};assert expected==declared
   for kind in ('hero','dummy'):
    im=Image.open(out/f'{kind}-{d}-{po}.png').convert('RGBA');assert hashlib.sha256(im.tobytes()).hexdigest()==record[kind+'PixelSHA256']
-r['commonFeatureRegistration']={'records':16,'hiddenHipKneeAnkleFootAttachments':None,'observedLowestContourSpansChecked':True,'noSpritePixelsChanged':True}
-seam=json.loads((out/'waist-seam-checks.json').read_text());assert seam['allSeamChecksPass']
+r['commonFeatureRegistration']={'records':16,'hiddenHipKneeAnkleFootAttachments':None,'observedLowestContourSpansChecked':True,'guideChangesNoSpritePixels':True,'actualHeroDummyAndGuideHandCellSetsExact':True}
+interface=json.loads((out/'interface-checks.json').read_text());assert interface['allInterfaceChecksPass']
 ref=Image.open(ext/'reference-south-P.png').convert('RGBA');h=Image.open(out/'hero-south-P.png').convert('RGBA')
 for x in range(32):
  sp=ref.getpixel((x,53));hp=h.getpixel((x,53));assert bool(sp[3])==bool(hp[3])
  if sp[3]:assert hp[:3] in colors[refclass(sp,'south',53)]
-r['additionalExactPassingSeam']={**seam['sourceClassProof'],'protectedOutsideSouthPassingRow53':True,'retainedUpperSeamDifferences':seam['retainedSeamDifferences']}
+r['upperInterfaceReview']={'report':'interface-checks.json','taper':interface['southPassingTaper'],'idleWalkContinuity':interface['idleWalkContinuity'],'headsAndLiteralLowerContactsProtected':True,'canonicalPackStrapsUnchanged':True,'upperMaterials':'Original palette adaptation, not full reference RGB/anatomy match','profileOriginalBagOverhang':'Explicit source-envelope differences in interface report'}
 checks=json.loads((out/'first-checkpoint-checks.json').read_text());assert checks['allCheckpointChecksPass'];r['packChecks']=checks['packChecks'];r['allChecksPass']=True
 (out/'independent-checks.json').write_text(json.dumps(r,indent=2)+'\n');print('PASS:32 poses connected;12 unique loweralpha+material maps exact;head protected;dummyeyes/hands;16 rigid pack checks;10 editable sources equal;28 GIFs decode exactpixels/holds/nearest4x.')
