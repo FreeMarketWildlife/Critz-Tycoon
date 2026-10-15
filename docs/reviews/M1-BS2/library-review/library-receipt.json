@@ -1,0 +1,430 @@
+{
+  "scope": "BS2 all sixteen clean bald templates; FM2 outfit; PM1 excluded",
+  "newFiles": [
+    {
+      "library_file_id": "libfile_58e99e64584481918d6bd3c244f2d94e",
+      "file_id": "file_0000000055ec82308c782866100e0402",
+      "file_name": "critz-BS2-four-direction-current-template.png",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-four-direction-current-template.png",
+      "sha256": "92732c4d7911138e931b251ad7c7e529bc1d9e2813c32b0c7bc723b6b26066bf",
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_58ed63fc501c8191b03eb99fe48edd4c",
+      "file_id": "file_00000000716082308edbf968279e78d6",
+      "file_name": "critz-BS2-four-direction-existing-walk-contact.png",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-four-direction-existing-walk-contact.png",
+      "sha256": "67d92adc67c8c0b21b20a4cb1e0a2af7f137cde4be7f8446502c63afc0ff2966",
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_3ce9d99e8294819189e4901829550311",
+      "file_id": "file_0000000077e882308cdd28ddbaa668ac",
+      "file_name": "critz-BS2-east-existing-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-east-existing-walk-normal-1x.gif",
+      "sha256": "293b1d372f825e4eeefa8a3f43ef2d3244312a98408fdea2dc73e9691ea3445d",
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_c76dd130a74c8191a1c2b7af534f022e",
+      "file_id": "file_0000000047a482308091f5111c6aa07a",
+      "file_name": "critz-BS2-east-existing-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-east-existing-walk-normal-4x.gif",
+      "sha256": "cd33451df0d3e54bf7768b9eb8ba25cca4ab16d7a84d5becc7ce83703e3d262f",
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_523ba18de6e48191b42ef9febd94c159",
+      "file_id": "file_000000003d908230975a7e860f4cf137",
+      "file_name": "critz-BS2-east-existing-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-east-existing-walk-slow-1x.gif",
+      "sha256": "beb2ce06dde7659124820a3adff45e1a3ef243f5ec9c41cabf6be241afe47933",
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_9ac1ed3be1ec8191b589f5b2a17d5a31",
+      "file_id": "file_0000000094d0823087f94b6ac265f712",
+      "file_name": "critz-BS2-east-existing-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-east-existing-walk-slow-4x.gif",
+      "sha256": "e3ee2faf65647f0954fc23d23921e38cc1c48e84490e21ffdf74efbf5415790c",
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_b69d405639008191a14c8915e58cf1ce",
+      "file_id": "file_00000000f95c820c880f0ef0d0afd7ba",
+      "file_name": "critz-BS2-north-existing-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-north-existing-walk-normal-1x.gif",
+      "sha256": "d1d9a184828d14bd0c2685becec075e19f5eb0d059bea0dfcc6268ef38ce6847",
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_0f2c842a8f708191aee44e7dd5431e83",
+      "file_id": "file_000000003ffc8230a7cde978173b7979",
+      "file_name": "critz-BS2-north-existing-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-north-existing-walk-normal-4x.gif",
+      "sha256": "d427ae25b32d525288131bf063e982dc136bfe137001280fadd7d247cfc5e00c",
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_80b843f747408191a46bb25b6af74933",
+      "file_id": "file_00000000c6f88230b5a5f0289d524057",
+      "file_name": "critz-BS2-north-existing-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-north-existing-walk-slow-1x.gif",
+      "sha256": "8134f8e8856e7b0de33e85beed3bb392a16961f2b284598161e7f5627bb9c4e7",
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_6697ccf49b3c8191a28108ff1e8a7b04",
+      "file_id": "file_0000000072c4820e9c2816ba41543cfc",
+      "file_name": "critz-BS2-north-existing-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "source": "docs/reviews/M1-BS2/library-review/critz-BS2-north-existing-walk-slow-4x.gif",
+      "sha256": "09a5b68b774ac648684696619571887e7bd4fa431f2bee71cf72ae64497ad0ea",
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    }
+  ],
+  "unchangedBS1FilesReused": [
+    {
+      "library_file_id": "libfile_ef1ae1d512388191a56fbb03ff5291d8",
+      "file_id": "file_000000004b788230af279385e0071675",
+      "file_name": "critz-BS1-south-existing-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-normal-1x.gif",
+      "source": "docs/reviews/M1-BS1/south-existing-walk-normal-1x.gif",
+      "sha256": "7a8bfeda67a14a994ddbb1bdcf6a00ee7ae09ef499b34714d728759c68fbb61e",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_6cf9ee8c1be88191a6f190c1fbee40dc",
+      "file_id": "file_00000000463c81fdbe4f816be69fe598",
+      "file_name": "critz-BS1-south-existing-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-normal-4x.gif",
+      "source": "docs/reviews/M1-BS1/south-existing-walk-normal-4x.gif",
+      "sha256": "9399a07774bbbb7d7547bc23e67014f6f36fc12f3ff55c44c8ff037cf26c5554",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_34e1093ce17481918fc5180f23327554",
+      "file_id": "file_000000008ec48230ad62ec19521cd260",
+      "file_name": "critz-BS1-south-existing-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-slow-1x.gif",
+      "source": "docs/reviews/M1-BS1/south-existing-walk-slow-1x.gif",
+      "sha256": "1c9c24d84534ac6cbb9a4c26ecdd721f39cfbe3286e7552af8c091cc9da6e6ae",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_bba983725c488191a883b640d3f43a50",
+      "file_id": "file_00000000d3fc820dbfc86755bb54818c",
+      "file_name": "critz-BS1-south-existing-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-slow-4x.gif",
+      "source": "docs/reviews/M1-BS1/south-existing-walk-slow-4x.gif",
+      "sha256": "30cb6723772a0db72f8db58e416295cd8d92536f76cc76d146a82ff88546e7dc",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_7b47e03e4e2481918fa428acdff350a2",
+      "file_id": "file_000000003d4c8230af996574b3632e57",
+      "file_name": "critz-BS1-west-existing-walk-normal-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-normal-1x.gif",
+      "source": "docs/reviews/M1-BS1/west-existing-walk-normal-1x.gif",
+      "sha256": "168d8bab2d2c6f39b0344288d64314deb7f02e7044d6e8c2d7cdf92154551501",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_0302c35985608191b0c2be18f3912773",
+      "file_id": "file_0000000095d081f586c31a46682d41d1",
+      "file_name": "critz-BS1-west-existing-walk-normal-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-normal-4x.gif",
+      "source": "docs/reviews/M1-BS1/west-existing-walk-normal-4x.gif",
+      "sha256": "f24561bf07ce76a81a7d431dc2853d1bea5a5e2eadbab19c2c3b0d8333cd99ca",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_f3022ea01b108191b6a58041da3af929",
+      "file_id": "file_0000000045008230937046537a844b1e",
+      "file_name": "critz-BS1-west-existing-walk-slow-1x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-slow-1x.gif",
+      "source": "docs/reviews/M1-BS1/west-existing-walk-slow-1x.gif",
+      "sha256": "b29f51875655445e8d3b5cb2473104d2eb2ba2ef3989723690cb54392e83f8a9",
+      "dimensions": [
+        144,
+        100
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    },
+    {
+      "library_file_id": "libfile_e53468be37fc819199a3c5c979f1e7f8",
+      "file_id": "file_000000006a7c8230b1289716512f5530",
+      "file_name": "critz-BS1-west-existing-walk-slow-4x.gif",
+      "current_version_number": 0,
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-slow-4x.gif",
+      "source": "docs/reviews/M1-BS1/west-existing-walk-slow-4x.gif",
+      "sha256": "3f1af979e0755f82d63e9bcc3328f45934c0f4eebef0a5319323021f7c94e7da",
+      "dimensions": [
+        576,
+        400
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "downloadBytesRGBAAndTimingExact": true,
+      "metadataApplied": true
+    }
+  ],
+  "state": "verified private delivery; user appearance/creator gate pending"
+}
