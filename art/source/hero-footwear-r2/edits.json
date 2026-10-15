@@ -1,0 +1,2571 @@
+{
+  "task": "M1.FM2",
+  "scope": "EXISTING STATIC16 / NWE materials only / South unchanged",
+  "state": "REVIEW PENDING; NO ANIMATIONS OR CREATOR",
+  "poses": {
+    "south": {
+      "idle": {
+        "changedCells": [],
+        "contactRow": 61,
+        "sourceHeroSHA256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+        "projection": "protected original, unchanged"
+      },
+      "A": {
+        "changedCells": [],
+        "contactRow": 61,
+        "sourceHeroSHA256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+        "projection": "protected original, unchanged"
+      },
+      "P": {
+        "changedCells": [],
+        "contactRow": 59,
+        "sourceHeroSHA256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+        "projection": "protected original, unchanged"
+      },
+      "C": {
+        "changedCells": [],
+        "contactRow": 61,
+        "sourceHeroSHA256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+        "projection": "protected original, unchanged"
+      }
+    },
+    "north": {
+      "idle": {
+        "changedCells": [
+          {
+            "xy": [
+              9,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              22,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 61,
+        "sourceHeroSHA256": "e2d525548354ef6761a3de646aab4cc89f3e652b033c6b7f020bd61137ac0e08",
+        "projection": "heel only; no inferred far foot"
+      },
+      "A": {
+        "changedCells": [
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              13,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              12,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              13,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              14,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 63,
+        "sourceHeroSHA256": "9bc7019e2347bf50d4d607b4610b29fc08474cbad8208cd11ea6e29d5bf28453",
+        "projection": "heel only; no inferred far foot"
+      },
+      "P": {
+        "changedCells": [
+          {
+            "xy": [
+              9,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              22,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 61,
+        "sourceHeroSHA256": "c79d662c9c82b098683802336c22f9e5b7d868ab26eb67251eca574030165d8f",
+        "projection": "heel only; no inferred far foot"
+      },
+      "C": {
+        "changedCells": [
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              18,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              19,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              18,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              17,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 63,
+        "sourceHeroSHA256": "9490297cb5128d5718b4a278cb6d78f62cbed7c62fdb4a7f3ca02e893491beee",
+        "projection": "heel only; no inferred far foot"
+      }
+    },
+    "west": {
+      "idle": {
+        "changedCells": [
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "before": "#ae454a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 61,
+        "sourceHeroSHA256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+        "projection": "visible side upper/sole; source overlap kept"
+      },
+      "A": {
+        "changedCells": [
+          {
+            "xy": [
+              7,
+              57
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              8,
+              57
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              57
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              57
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              7,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "before": "#465671",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              9,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              61
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              22,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 63,
+        "sourceHeroSHA256": "b147a3726d52bfe4d282dfeb3e0e0058ece11f9a30635ac6cff6e268e5bd0b71",
+        "projection": "visible side upper/sole; source overlap kept"
+      },
+      "P": {
+        "changedCells": [
+          {
+            "xy": [
+              10,
+              58
+            ],
+            "before": "#ae454a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              11,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 61,
+        "sourceHeroSHA256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+        "projection": "visible side upper/sole; source overlap kept"
+      },
+      "C": {
+        "changedCells": [
+          {
+            "xy": [
+              6,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              7,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              7,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              8,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              10,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              23,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              24,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              25,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              26,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              24,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              25,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              24,
+              60
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 63,
+        "sourceHeroSHA256": "9f022f5b4936fa957c51db15c39737abb40a3b5f2f5648ecee029bd11b3eb723",
+        "projection": "visible side upper/sole; source overlap kept"
+      }
+    },
+    "east": {
+      "idle": {
+        "changedCells": [
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "before": "#ae454a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 61,
+        "sourceHeroSHA256": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e",
+        "projection": "visible side upper/sole; source overlap kept"
+      },
+      "A": {
+        "changedCells": [
+          {
+            "xy": [
+              24,
+              57
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              23,
+              57
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              57
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              57
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              24,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "before": "#465671",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              22,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              11,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              11,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              11,
+              61
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              61
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              61
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              10,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              9,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 63,
+        "sourceHeroSHA256": "89e98ee54eab362e192f88bfcc743292a3d5f183cb8fb6958318792bac9998d4",
+        "projection": "visible side upper/sole; source overlap kept"
+      },
+      "P": {
+        "changedCells": [
+          {
+            "xy": [
+              21,
+              58
+            ],
+            "before": "#ae454a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              20,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              19,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              16,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              58
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              12,
+              58
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              17,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              16,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              15,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              14,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              13,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              12,
+              59
+            ],
+            "before": "#465671",
+            "after": "#2a344a"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#f9edc8"
+          },
+          {
+            "xy": [
+              18,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              17,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              16,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              15,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              14,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              13,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 61,
+        "sourceHeroSHA256": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c",
+        "projection": "visible side upper/sole; source overlap kept"
+      },
+      "C": {
+        "changedCells": [
+          {
+            "xy": [
+              25,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              24,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              18,
+              59
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              24,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              23,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              60
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              19,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              23,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              21,
+              61
+            ],
+            "before": "#748894",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              20,
+              61
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              22,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              21,
+              62
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              8,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              7,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              6,
+              58
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              5,
+              58
+            ],
+            "before": "#2a344a",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              9,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ed745c"
+          },
+          {
+            "xy": [
+              8,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              7,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              6,
+              59
+            ],
+            "before": "#465671",
+            "after": "#ae454a"
+          },
+          {
+            "xy": [
+              8,
+              60
+            ],
+            "before": "#2a344a",
+            "after": "#bfc0aa"
+          },
+          {
+            "xy": [
+              7,
+              60
+            ],
+            "before": "#465671",
+            "after": "#bfc0aa"
+          }
+        ],
+        "contactRow": 63,
+        "sourceHeroSHA256": "e842dce5b34b9dd2334ecac5251e1a19e61b4b6110f9b127abdd76531d64feac",
+        "projection": "visible side upper/sole; source overlap kept"
+      }
+    }
+  }
+}
