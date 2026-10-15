@@ -1,0 +1,37 @@
+[
+  {
+    "path": "src/tanoshi.js",
+    "sha256": "32c6c2dc4923a9815ff2c546ba0b4e4f887457011444116f1c74234e775084e3",
+    "byteExact": true
+  },
+  {
+    "path": "src/state.js",
+    "sha256": "0de23923c85ee0aa69b175c82373c476a11e0c9e68cd3f7bb90b6532cb2dfd57",
+    "byteExact": true
+  },
+  {
+    "path": "src/main.js",
+    "sha256": "4121ff76d4c9f237dd2d9f662629c8aa30796f09ea7b53b5bbeff8dcdb859b62",
+    "byteExact": true
+  },
+  {
+    "path": "src/tanoshi-art.js",
+    "sha256": "9787e67fe56c8e512e603aa3e8fb32e70817c2167c2edf9117cbc87bc1826d1c",
+    "byteExact": true
+  },
+  {
+    "path": "assets/playable/tanoshi/blush.png",
+    "sha256": "9b330c5883b9fcda3e08411b0dae5292fff9b08061349e7e0f96964d3184c2c9",
+    "byteExact": true
+  },
+  {
+    "path": "assets/playable/tanoshi/mint.png",
+    "sha256": "cff2229b7c8b5bb1026d0616e4a9c237277eac152df4acede02a8fa8bdfac5d3",
+    "byteExact": true
+  },
+  {
+    "path": "assets/playable/tanoshi/apricot.png",
+    "sha256": "4ca30eb7d60eb20e24629c9c0ac193f93ebc335bb5dc422b81f3f146829b3cf5",
+    "byteExact": true
+  }
+]
