@@ -1,0 +1,595 @@
+{
+  "task": "M1.HR14 common feature/registration supplement",
+  "changesCharacterPixels": false,
+  "edgeAnchor": [
+    16,
+    64
+  ],
+  "anatomicalLimit": "All hidden hip/knee/ankle/anatomical-foot attachments unresolved/null; visible costume contour is not measured bone anatomy",
+  "directions": {
+    "south": {
+      "idle": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            9,
+            13
+          ],
+          [
+            19,
+            23
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 16,
+        "visibleHandCount": 12,
+        "heroPixelSHA256": "db98c7508617efd9d1ac2453e3024a55f5b07880676a85df1e85568c40f205d9",
+        "dummyPixelSHA256": "6c6b1728f12c6f23dceb98f4c0515ee3f31e760bdd721c7555b50761cc9aa19e"
+      },
+      "A": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            17,
+            21
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 16,
+        "visibleHandCount": 4,
+        "heroPixelSHA256": "69937c8451c9d0d25aeaaccaed85bbe841e283df6aa6455d5346f56f4a7283b8",
+        "dummyPixelSHA256": "81f8482c1b74a403e2812dd79d80379707331bba5fd45f3830b08a580e25f406"
+      },
+      "P": {
+        "lastPaintedRow": 59,
+        "lastPaintedSpans": [
+          [
+            9,
+            13
+          ],
+          [
+            19,
+            23
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 16,
+        "visibleHandCount": 12,
+        "heroPixelSHA256": "c0b7aad039a03669cda2ba747a6ce6591e180c8d8b48e74f4797a3f486fa937e",
+        "dummyPixelSHA256": "b3b973c50c093e6c8298ec56b5bd676b0d242b2df49bd161189a419fa696a587"
+      },
+      "C": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            11,
+            15
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 16,
+        "visibleHandCount": 4,
+        "heroPixelSHA256": "ec1cbd285e07279c61096d30e5c94a9a4aecce1f45517bd01b6778c2ef0b4d30",
+        "dummyPixelSHA256": "c29f536fe1867102a6ee9d456deb1b140cd5f7c9b70dba2eb26e08ef72a23bc8"
+      }
+    },
+    "north": {
+      "idle": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            8,
+            14
+          ],
+          [
+            18,
+            24
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 0,
+        "visibleHandCount": 11,
+        "heroPixelSHA256": "eced8019a2fa5a0986da0a05f599437a5fed2171c077fe43f2d1d2054d4da545",
+        "dummyPixelSHA256": "03dcca6fa83efc498937fd48f230b902d141c79c38ab8b0201b906b2ff2f686a"
+      },
+      "A": {
+        "lastPaintedRow": 63,
+        "lastPaintedSpans": [
+          [
+            10,
+            16
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 0,
+        "visibleHandCount": 4,
+        "heroPixelSHA256": "b4c4a9b9dfc770092d5004f8a2a3e312fac29025cc47600931dadfe85f090d03",
+        "dummyPixelSHA256": "f9c1c01a91cfdf07363b788b302c8b5715632518e0fb8561db5eb68d07010ddc"
+      },
+      "P": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            8,
+            14
+          ],
+          [
+            18,
+            24
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 0,
+        "visibleHandCount": 11,
+        "heroPixelSHA256": "f452ada8f7d26a194c53cf6a6ae9274ab8417daa781869777a65a4e905a3989b",
+        "dummyPixelSHA256": "2f606b9379ba6a92871b0f212531832b0d0620604479156d456630a92f539dbc"
+      },
+      "C": {
+        "lastPaintedRow": 63,
+        "lastPaintedSpans": [
+          [
+            16,
+            22
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 0,
+        "visibleHandCount": 4,
+        "heroPixelSHA256": "85d9bf03e3ddac4ec47dba060bb51873ecc99a2139c50a2a7caff96792bf53d4",
+        "dummyPixelSHA256": "aa8b26dd8d51721d1dad9f9457bb09fa1d3c359697663ed355ddd08264be7e7c"
+      }
+    },
+    "west": {
+      "idle": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            10,
+            20
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 6,
+        "heroPixelSHA256": "a29155d1055db8321ac69b2ca3f3f4f4b636948d990c77651c7662a8ff429aef",
+        "dummyPixelSHA256": "773a228d39a400a2c59c2ad4e3d92d573842a73459d32d2f46748d309ca23936"
+      },
+      "A": {
+        "lastPaintedRow": 63,
+        "lastPaintedSpans": [
+          [
+            20,
+            24
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 8,
+        "heroPixelSHA256": "64682394f977a3ccc95aa70d2e5196110fdf6ce5ced57bf11a19b751f6248d8c",
+        "dummyPixelSHA256": "543c93c8eefd7b0d23d5555d4b516076afe74685566b30b0ead06648a0a03152"
+      },
+      "P": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            10,
+            20
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 6,
+        "heroPixelSHA256": "058c7fd176a8c1356dcf712ad425ff2483790a2efbc58043a1a81ee71d99f64f",
+        "dummyPixelSHA256": "668aeaf4dae091c16fc1f385b041d4d9a4c5cce074601d4937ffe1bb53610e4f"
+      },
+      "C": {
+        "lastPaintedRow": 63,
+        "lastPaintedSpans": [
+          [
+            8,
+            12
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 6,
+        "heroPixelSHA256": "2949b6350a45bc8ae3e977b76673562a0cc23fc00b3577cd2ffa257b1e90e21b",
+        "dummyPixelSHA256": "f0fc76560211d0943d7755f6bc023ec65481aa7a513d67a1061a5908426b99fb"
+      }
+    },
+    "east": {
+      "idle": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            12,
+            22
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 6,
+        "heroPixelSHA256": "66a9002108e44085f58068d704d82305c04f808a67cb2c1dbe019a0b585ce49b",
+        "dummyPixelSHA256": "e5fd5c53bfbcc04d7f3f4998b41ead975387d9dd6d50470920ced04810ff6561"
+      },
+      "A": {
+        "lastPaintedRow": 63,
+        "lastPaintedSpans": [
+          [
+            8,
+            12
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 8,
+        "heroPixelSHA256": "ebc8f5d1c7fb7315b2f42b9804a6517e53cba1f1e515b11d4fde19a5c7c12066",
+        "dummyPixelSHA256": "c0c32dfa36f0f141fcf9ebdcdc4cc9201cd54fadb8a1d53d7cb2d46b38bb8eb6"
+      },
+      "P": {
+        "lastPaintedRow": 61,
+        "lastPaintedSpans": [
+          [
+            12,
+            22
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 6,
+        "heroPixelSHA256": "61dad47eff3ccc186b175e9b6468a57c7c26e8d5647514ebad62ce84e22e2636",
+        "dummyPixelSHA256": "6020de1ffb24ab7a373f84e6a2de61dc44d636655f0e42099b435b8f9e988ce0"
+      },
+      "C": {
+        "lastPaintedRow": 63,
+        "lastPaintedSpans": [
+          [
+            20,
+            24
+          ]
+        ],
+        "edgeAnchor": [
+          16,
+          64
+        ],
+        "hiddenAttachments": {
+          "hip": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "knee": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "ankle": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          },
+          "anatomicalFoot": {
+            "status": "UNRESOLVED / occluded; no source bone measurement",
+            "xy": null
+          }
+        },
+        "visibleEyeCount": 8,
+        "visibleHandCount": 6,
+        "heroPixelSHA256": "0a196d9f3eaa13289ed92f8a78a9fcb5073d4d0003ab31029f5a2bb4be39dcf3",
+        "dummyPixelSHA256": "af97f75308b972565f9b81c672196a98a633558861f1756922084662e0cc0f30"
+      }
+    }
+  }
+}

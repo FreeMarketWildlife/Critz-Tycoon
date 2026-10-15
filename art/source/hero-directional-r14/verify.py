@@ -85,5 +85,18 @@ for d in dirs:
  # Actual normal and slow panels retain spritepixels despite titlelabels.
  a=Image.open(ext/f'source-hero-template-{d}-native.gif');b=Image.open(ext/f'source-hero-template-{d}-SLOW4x-native.gif')
  for i in range(8):a.seek(i);b.seek(i);assert a.convert('RGBA').crop((0,12,112,96)).tobytes()==b.convert('RGBA').crop((0,12,112,96)).tobytes()
+features=json.loads((out/'common-feature-registration.json').read_text())
+for d in dirs:
+ for po in ('idle','A','P','C'):
+  record=features['directions'][d][po];e=meta['directions'][d][po]['commonFeatureRegistration']
+  assert set(e)=={'head','ears','eyes','arms','hands','torso','feet','hiddenAttachments'}
+  assert all(v['xy'] is None for v in e['hiddenAttachments'].values())
+  assert e['feet']['edgeAnchor']==[16,64]
+  h=Image.open(out/f'hero-{d}-{po}.png').convert('RGBA');last=h.getbbox()[3]-1
+  assert last==record['lastPaintedRow']==e['feet']['lastPaintedRow']
+  expected={x for x in range(32) if h.getpixel((x,last))[3]};declared={x for a,b in record['lastPaintedSpans'] for x in range(a,b)};assert expected==declared
+  for kind in ('hero','dummy'):
+   im=Image.open(out/f'{kind}-{d}-{po}.png').convert('RGBA');assert hashlib.sha256(im.tobytes()).hexdigest()==record[kind+'PixelSHA256']
+r['commonFeatureRegistration']={'records':16,'hiddenHipKneeAnkleFootAttachments':None,'observedLowestContourSpansChecked':True,'noSpritePixelsChanged':True}
 checks=json.loads((out/'first-checkpoint-checks.json').read_text());assert checks['allCheckpointChecksPass'];r['packChecks']=checks['packChecks'];r['allChecksPass']=True
 (out/'independent-checks.json').write_text(json.dumps(r,indent=2)+'\n');print('PASS:32 poses connected;12 unique loweralpha+material maps exact;head protected;dummyeyes/hands;16 rigid pack checks;10 editable sources equal;28 GIFs decode exactpixels/holds/nearest4x.')

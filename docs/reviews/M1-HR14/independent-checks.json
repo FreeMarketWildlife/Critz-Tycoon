@@ -908,6 +908,12 @@
     "Combined PHASE board uses100ms matched phase slots, not stock engine playback",
     "Head/hair and upper body remain original Critz design, not a full source silhouette match"
   ],
+  "commonFeatureRegistration": {
+    "records": 16,
+    "hiddenHipKneeAnkleFootAttachments": null,
+    "observedLowestContourSpansChecked": true,
+    "noSpritePixelsChanged": true
+  },
   "packChecks": {
     "south/idle": {
       "torsoAnchor": [
