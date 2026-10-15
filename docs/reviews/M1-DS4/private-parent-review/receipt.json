@@ -1,0 +1,279 @@
+{
+  "sourceCommit": "2f4e39dabfecb601ced507209056b2da12576334",
+  "scope": "Complete native16x32/refined32x64 INTERNAL construction candidate and synchronized normal/slow loops for parent inspection only",
+  "state": "Parent motion/appearance review pending; no main-user delivery or creator approval",
+  "files": [
+    {
+      "library_file_id": "libfile_d4a7ee1460648191b0ecc42e354cd0c5",
+      "file_id": "file_0000000092cc820d8247f03c875b6bc5",
+      "file_name": "critz-DS4-four-direction-idle-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "39f552fd52ec4210d4970ecd25f27513022df2918439b08105eb40440202a5bc",
+      "dimensions": [
+        960,
+        880
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_87c6f1d78f508191a39de7009362b21e",
+      "file_id": "file_00000000e8008206aa15d4050da9fc84",
+      "file_name": "critz-DS4-all-poses-native-refined-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "54fcad0c975def1a8d2a1e2c72237ca06f0a66e6fe86ad89982919128d856f18",
+      "dimensions": [
+        960,
+        1120
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_d5cc8c9b2a5c81918c6cd4e1a0d56c81",
+      "file_id": "file_000000008d8881f58846fc7425305a10",
+      "file_name": "critz-DS4-west-gait-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "664978d6809ca7601b35034be83318310d96c6583eadece4777cd6f6fa474605",
+      "dimensions": [
+        960,
+        880
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_9241761b40e481918acff607edccdd59",
+      "file_id": "file_00000000d0e48230a76bd9011d71d18b",
+      "file_name": "critz-DS4-paired-east-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "bb2146ea1bbcce4e93146ad121de38154c975d8364de5660ffa3e243187e433d",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_35c78da08d1c8191aaeaa8eee983c53c",
+      "file_id": "file_00000000417481f594739d8dbf27e81c",
+      "file_name": "critz-DS4-paired-east-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "d62a3102c4bc9222950a1e2e2ef2f231e910fa5e2e36152dbea2f2deae4dab49",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_3ef236a012d48191a6544bbb8dcf2fc4",
+      "file_id": "file_00000000b02481f5abf8b683fd215eae",
+      "file_name": "critz-DS4-paired-north-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "24599650adf69ca217d15ee4c505b4b35a2460d931c476ce0a68c161bd9ca0b3",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_eb0ff5029a6c8191974d9c2a2cd91bd5",
+      "file_id": "file_000000007bc8820d95ac77f93cfa9650",
+      "file_name": "critz-DS4-paired-north-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "0e6ef926800e7f97269b8f84fb649a797beda8763f375b140d1009d57b49a2ba",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_2b143fde608c819184f3b2f6af6e329c",
+      "file_id": "file_00000000a7888230a4d090bf4aae0a4b",
+      "file_name": "critz-DS4-paired-south-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "9221f5ced25782f629cd2faa0e74a75c3e09d6d1431a2cde6e9f7592eeb6f32c",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_9b43598faae0819182a05317f7972709",
+      "file_id": "file_0000000078c48230b30191bd8092890f",
+      "file_name": "critz-DS4-paired-south-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "42a177e28a404379f17ce219089190a1105db9044689ddcf7051240229396953",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_4d4ae984797c8191be36909f157dab13",
+      "file_id": "file_00000000dca081f8ae8cd977b049ef2f",
+      "file_name": "critz-DS4-paired-west-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "7caeef364e19ebac93e8934a4f3481f6b8ece4224eb21a1eefa23976e417e58d",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_09af4d87d5708191809c0a8bf997d581",
+      "file_id": "file_00000000453c81f5a0ed2a08d270383d",
+      "file_name": "critz-DS4-paired-west-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "b5ffce725dae62efee0e4ee65f9fcd9a98bf39dda8f094bc3e35aa71fd0b2d28",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    },
+    {
+      "library_file_id": "libfile_437ab7225d7081919538d98205aadbdb",
+      "file_id": "file_00000000339481f5af5fffa49ea995c4",
+      "file_name": "critz-DS4-numbered-primary-source-gait-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "1b6d655d8e17337b67b8b4d504ec7623c6a02a740e5ab5620635f220ee6cef13",
+      "dimensions": [
+        960,
+        720
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true
+    }
+  ]
+}
