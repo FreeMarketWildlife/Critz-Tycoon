@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "checks": {
+    "exact lower silhouette row 44": true,
+    "exact lower silhouette row 45": true,
+    "exact lower silhouette row 46": true,
+    "exact lower silhouette row 47": true,
+    "exact lower silhouette row 48": true,
+    "exact lower silhouette row 49": true,
+    "exact lower silhouette row 50": true,
+    "exact lower silhouette row 51": true,
+    "exact lower silhouette row 52": true,
+    "exact lower silhouette row 53": true,
+    "exact lower silhouette row 54": true,
+    "exact lower silhouette row 55": true,
+    "exact lower silhouette row 56": true,
+    "exact lower silhouette row 57": true,
+    "exact lower silhouette row 58": true,
+    "exact lower silhouette row 59": true,
+    "exact lower silhouette row 60": true,
+    "exact lower silhouette row 61": true,
+    "exact lower silhouette row 62": true,
+    "exact lower silhouette row 63": true,
+    "below-head RGBA exact": true,
+    "shoe mask unchanged": true,
+    "waist rows51to55 exact": true,
+    "selected dressed source exact": true
+  },
+  "approval": false
+}

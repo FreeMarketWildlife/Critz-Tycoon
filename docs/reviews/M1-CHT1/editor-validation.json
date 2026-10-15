@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "projects": [
+    "south-idle.sprite.json",
+    "south-A/south-A.sprite.json",
+    "south-P/south-P.sprite.json",
+    "south-C/south-C.sprite.json",
+    "north-idle/north-idle.sprite.json",
+    "north-A/north-A.sprite.json",
+    "north-P/north-P.sprite.json",
+    "north-C/north-C.sprite.json",
+    "west-idle/west-idle.sprite.json",
+    "west-A/west-A.sprite.json",
+    "west-P/west-P.sprite.json",
+    "west-C/west-C.sprite.json",
+    "east-idle/east-idle.sprite.json",
+    "east-A/east-A.sprite.json",
+    "east-P/east-P.sprite.json",
+    "east-C/east-C.sprite.json"
+  ],
+  "scope": "16 existing static projects only; not animation, appearance approval or creator release"
+}
