@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Bald template must remove hairstyle-dependent shading — M1.BS1
+
+Parent's actual Library review rejects a skin-colored cap/jagged fringe in the bald template. A bald surface must have continuous forehead shading following the retained scalp form, rather than the removed hairstyle's boundary or cast shadows. Correct shading only; preserve the existing scalp silhouette, eyes, ears, body, full shoe/waist shapes, registration and all selected dressed artwork. Original hair stays separate. Sparse original exposed fringe/cast-shadow skin cells can belong to a documented hair-dependent shading attachment applied only with the optional hair, so the dressed original still recomposes exactly without a full opaque Hero overlay. [Focused original South/West proposal and exact masks](reviews/M1-BS1/README.md). Keep creator held for actual visual review; technical equality does not approve bald appearance.
+
 ## M1.NET1 — Pixel net and catching playground
 
 Direct user authorization on2026-10-15 requests carry/walk, held-ready slow walk, swing and actual critter-catching tests. Deliver a separate clearly labelled playable review, using the existing original FM2 Hero candidate and existing C7 snail/isopod/stag-beetle art; no adventure adoption, new roster or implied visual acceptance. Animal Crossing is the confirmed catching direction, not a measured animation/range specification.
