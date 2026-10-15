@@ -1,13 +1,11 @@
 {
   "task": "M1.HR14",
-  "state": "SUPERSEDED pre-seam snapshot; current bounded seam proof/receipt refresh pending",
+  "state": "stable UNAPPROVED bounded seam correction; parent seam review before Library export",
   "branch": "main",
-  "sourceCommit": "52399af91052c60ad2cf06d4c917c086794a750d",
-  "verifiedOriginMain": "52399af91052c60ad2cf06d4c917c086794a750d",
-  "geometrySourceCommit": "6bd8105",
-  "spriteAndGIFPixelsUnchangedSinceGeometryCommit": true,
-  "independentReview": "Parent/read-only confirms corrected12loweralpha/material maps, no lower skin,eyes/hands,rigidpack/straps,timing; separatecontactguide honest/no extra geometry. Requested explicit occluded/inferred legs entry/label completed with16records checked. Broad/angularlowerread remains subjective/unapproved.",
-  "checks": "32native poses;12unique lower alpha/material maps exact;16rigid pack/strap/composite cases;16commonfeature/contact records withnullhiddenjoints;10editable projects;28decoded8frameGIFs exact pixels/holds/nearest4x",
+  "sourceCommit": "d80a5b27cb7f52bdd78d832a529a4bf49a99a5a1",
+  "verifiedOriginMain": "d80a5b27cb7f52bdd78d832a529a4bf49a99a5a1",
+  "independentReview": "Prior independent corepixel/guide review confirmed corrected lower maps,eyes/hands,rigidpack/timing and no added anatomy. Parent final seam audit identified omittedrow53interface. Current boundedP53 correction and explicitly retained row52/A,C53 differences await parent seam response before Library upload; no wholepants/waist literal-match claim.",
+  "checks": "32connected native poses;12unique54..63 alpha/material maps exact + SouthP53 exactinterface; allothernativepixels protected;16rigidpack/strap/composite;16commonfeature/contact records/nullhiddenjoints;10editable projects;28decoded8frameGIFs exactpixels/holds/nearest4x",
   "timing": {
     "frontNormalMs": 800,
     "frontSlowMs": 3200,
@@ -21,33 +19,33 @@
   "artifacts": [
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/first-native-aligned-boundary-checkpoint.png",
-      "bytes": 70299,
-      "sha256": "2088166c4ec8b31a08ead6c3adca4f65c8f46b1cac185020505859b36d648fa5"
+      "bytes": 70348,
+      "sha256": "b9f4892f92bf52005d858fb9ebdf6337410e4c65fe6fb9adf062d96d5580504a"
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-common-feature-registration.png",
-      "bytes": 57305,
-      "sha256": "467710fe4c600354b4b8a6b26f37e09fd99a948c642146f2dc6c451909d8cc82"
+      "bytes": 57337,
+      "sha256": "71d83e823958de26af0994a5aec5151ebe919d8f5b53c7a8cba289c090e5f279"
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-featured-dummy-sheet.png",
-      "bytes": 74659,
-      "sha256": "4f71de53cdc72de56f8059efcc5fbb386660ab2a3452ef4e401fc282c03ff2f5"
+      "bytes": 74712,
+      "sha256": "5d03aabb5daa0689c5f9fb87967ac1d813241d3160410b20a84c5ac3059f64d4"
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/torso-registered-pack-all-eight.png",
-      "bytes": 30584,
-      "sha256": "f9198aa0590be2980130145fcaf8e38c9117ce301a2418a6c503f1d7b6297b98"
+      "bytes": 30577,
+      "sha256": "4b2074450a41f124f0b367e5191bea6860eac0d813c579cf5eebc6f7cc6c9b9d"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
       "bytes": 1563113,
-      "sha256": "71b73ee03fc809ea6c0bd9b0f78a7db5a9ed2f60a1e3d0f9a27b5e7c2b008bb6"
+      "sha256": "33baf8a4c4a57bae5d6cf02be0739949e50c3e9c2db6d41982f541924c7b1966"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-4x.gif",
       "bytes": 1563113,
-      "sha256": "a0c79f1a439cc293df330d9e5db4203e0c5625ba51102199e1fc1ed2276d4a05"
+      "sha256": "91723785ba287a4c14df09b41703dbda5e330cd15274d1fc6c8aa171b77ee58d"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-aligned-lower-boundary-grid.png",
@@ -56,8 +54,8 @@
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-all-eight-source-hero-template.png",
-      "bytes": 31300,
-      "sha256": "e708b89992e78ae4d13f4c874aee568b1adb477fb45baee34db55d6a09b66b5d"
+      "bytes": 31375,
+      "sha256": "efb2d3314744ef7e47f3aba91dce455640d37f2a38f24e2857f2830e38dd1886"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-4x.gif",
@@ -122,17 +120,198 @@
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-4x.gif",
       "bytes": 6249513,
-      "sha256": "2465b570a41f01eed6cc5467a28698e3af6ceda5bb88f4ed3e8d796a53dfaa27"
+      "sha256": "dec1eedbc72d62c922fc9f8423057b13b17877386a44d119cd8cef1c8555181b"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
       "bytes": 6249513,
-      "sha256": "72cf5564098aaacf38aa32e476f134f7924cd825b0716225e76c965fcc36bf2a"
+      "sha256": "c16652b2516b611e197ded6afc72c48a48fff99f6ff226aa3c4ef4116d5b65e5"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/front-waist-seam-context.png",
+      "bytes": 45503,
+      "sha256": "d76ef6b4d0b88febe31bec697e6f2c11c11ed2673692b34ecdf75d2059e22278"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/passing-seam-before-after.png",
+      "bytes": 9371,
+      "sha256": "e41ac8cb34082d4833811146472f70eb02a5c404401a54ce6656e433ed3f26dd"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/waist-seam-checks.json",
+      "bytes": 8329,
+      "sha256": "86abcb908f31b6093aafa2900cd022666183190136833614f2893997a9e530cd"
     }
   ],
   "library": "Eutychus/root handles export and downloaded-pixel/timing checks; no owner export performed",
   "deployment": "None; acceptedgame/UI/save/editor unchanged",
   "remainingChanges": "ParkedHR11 source/review and original four shared-document change lines retained unstaged; index/context shifts do not change their edits.",
-  "nextAction": "Eutychus Library delivery and human review; owner holds further artwork",
-  "supersededBy": "waist-seam-checks.json; SouthP53 correction. Do not export old artifact hashes as current."
+  "nextAction": "Eutychus reviews current seam context and scoped claims before Library export/download verification; human visual approval pending; owner holds further artwork.",
+  "initialLowerSourceCommit": "6bd8105",
+  "boundedSeamCorrection": {
+    "baseline": "f4403d0",
+    "onlyChangedNativeRegion": "SouthP row53;15Hero/18dummy cells",
+    "protectedNativePixelsOutsideRegionExact": true,
+    "sourceVisibleRow53Span": [
+      7,
+      25
+    ],
+    "alphaAndMaterialMismatches": 0,
+    "exactScope": "all walking54..63 + SouthP53 only",
+    "retainedUpperCostumeDifferences": {
+      "A": {
+        "52": {
+          "sourceSpans": [
+            [
+              5,
+              24
+            ]
+          ],
+          "heroSpans": [
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              23
+            ]
+          ],
+          "missingXs": [
+            5,
+            6,
+            9,
+            23
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        },
+        "53": {
+          "sourceSpans": [
+            [
+              5,
+              24
+            ]
+          ],
+          "heroSpans": [
+            [
+              10,
+              23
+            ]
+          ],
+          "missingXs": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            23
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        }
+      },
+      "P": {
+        "52": {
+          "sourceSpans": [
+            [
+              5,
+              27
+            ]
+          ],
+          "heroSpans": [
+            [
+              10,
+              23
+            ]
+          ],
+          "missingXs": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            23,
+            24,
+            25,
+            26
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        },
+        "53": {
+          "sourceSpans": [
+            [
+              7,
+              25
+            ]
+          ],
+          "heroSpans": [
+            [
+              7,
+              25
+            ]
+          ],
+          "missingXs": [],
+          "extraXs": [],
+          "status": "EXACT source-visible interface"
+        }
+      },
+      "C": {
+        "52": {
+          "sourceSpans": [
+            [
+              8,
+              27
+            ]
+          ],
+          "heroSpans": [
+            [
+              9,
+              22
+            ],
+            [
+              23,
+              25
+            ]
+          ],
+          "missingXs": [
+            8,
+            22,
+            25,
+            26
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        },
+        "53": {
+          "sourceSpans": [
+            [
+              8,
+              27
+            ]
+          ],
+          "heroSpans": [
+            [
+              9,
+              22
+            ]
+          ],
+          "missingXs": [
+            8,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        }
+      }
+    },
+    "anatomicalWaistOrLegOrigin": null,
+    "freshAll8SourceGIFDecoded": true,
+    "normalSlowAndPhaseGIFsRegeneratedAndChecked": true
+  }
 }
