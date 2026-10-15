@@ -1,5 +1,11 @@
 # Project status
 
+## DS5 full-direction private motion packet — delivered, parent review pending
+
+Parent actually opened the two corrected side PNGs and found improved hanging idle arm/shoulder-based swing, explicitly withholding final acceptance. [Requested current full-direction packet](reviews/M1-DS5/private-parent-review/four-direction-review.md) is available: assembled idle comparison, compact all32direction/slot timing sheet, and normal/slow paired loops for all four directions. Six files saved once at version zero and downloaded exact (including32side GIF frames/holds/loops); four unchanged South/North loops reuse their verified existing identities. Fresh exact-name reconciliation preceded uncertain side-loop retries. No duplicates or changed source pixels. The timing sheet comes from actual decoded GIF frames;176additional saved panel/hold checks pass and root inspected both new sheets. Source remains DS4 front/back `2f4e39d`, corrected DS5 sides `fe3cdf9`; actual existing playback sampling limits remain explicit.
+
+Exact next action: parent views the full-direction idle, labelled contact sheet and normal/slow animations to assess consistency and temporal sequence. This is private review transfer, not final appearance acceptance, main-user draft delivery, creator restart or deployment. Game/saves and prior art/creator source remain unchanged; unrelated parked edits preserved. Receipt/presentation-only main checkpoint; final report records push verification.
+
 ## DS5 requested private PNG transfer — verified, parent inspection pending
 
 The transfer blocker is resolved for the two PNGs parent requested first. Fresh Library listing and all-eight exact-filename searches found no prior DS5 entries; local packet copies had no Library identity or success receipt. Two ordered supported single-file saves succeeded at version zero, with complete local metadata and exact-byte/RGBA download verification. [Current private links and receipt](reviews/M1-DS5/private-parent-review/README.md): corrected native/refined side gait `libfile_c7027a735e748191b77e87c945f369bd`, contact-aligned primary-source comparison `libfile_6e67050c4b508191b9b4e609fc1e6f9f`. Earlier failed eight-file attempt is retained as history; six other packet files were not retried or claimed delivered.

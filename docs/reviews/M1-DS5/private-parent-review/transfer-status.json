@@ -1,7 +1,7 @@
 {
   "sourceCommit": "fe3cdf94d410ba63738428326b2298551ab1805c",
   "scope": "Private parent internal review only; no main-user draft delivery or appearance approval",
-  "state": "Two requested PNGs saved at version zero and exact-download verified; six other packet files not retried",
+  "state": "Current full-direction request delivered: six new verified files plus four existing verified South/North loop identities; prior two PNGs remain available",
   "attempts": [
     {
       "route": "current Library prepared helper",
@@ -240,5 +240,11 @@
       "metadataApplied": true,
       "exactDownload": true
     }
-  ]
+  ],
+  "currentFourDirectionPacket": {
+    "receipt": "four-direction-library-receipt.json",
+    "newFiles": 6,
+    "reusedFiles": 4,
+    "scope": "Private parent consistency/motion review only; not acceptance"
+  }
 }

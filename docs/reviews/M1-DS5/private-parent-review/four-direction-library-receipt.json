@@ -1,0 +1,275 @@
+{
+  "sources": {
+    "southNorth": "2f4e39dabfecb601ced507209056b2da12576334",
+    "westEast": "fe3cdf94d410ba63738428326b2298551ab1805c"
+  },
+  "scope": "Private parent motion/consistency review only; no final acceptance, creator or deployment",
+  "newFiles": 6,
+  "reusedFiles": 4,
+  "newGIFFramesExact": 32,
+  "state": "Requested four-direction idle, timed32-slot contact sheet and all8normal/slow paired loops available",
+  "files": [
+    {
+      "library_file_id": "libfile_0978e2942e98819185439c156119ba54",
+      "file_id": "file_00000000437081f5b1c642081d490f39",
+      "file_name": "critz-DS5-current-four-direction-idle-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "4a4fefb0c13173a12078f2357aee9b55808cc5b5ef3bd4234ad849806bd57576",
+      "dimensions": [
+        960,
+        288
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "exactDownload": true,
+      "reused": false
+    },
+    {
+      "library_file_id": "libfile_8a774c7340708191b6b2cc5881ae8ec0",
+      "file_id": "file_0000000059648230acae395e32ed3d98",
+      "file_name": "critz-DS5-all-directions-eight-slot-timings-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "c1d749c1356181b9c4a90b1fb0dcfda4b5f757b5eb8e7501a0153713610d7988",
+      "dimensions": [
+        1176,
+        904
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "exactDownload": true,
+      "reused": false
+    },
+    {
+      "library_file_id": "libfile_34d33f1d779c8191a484ce1fbabc4d96",
+      "file_id": "file_000000009e3c81fdba7c880e10750b13",
+      "file_name": "critz-DS5-paired-west-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "94567454f7eca72b80cd90da16353b71ba4997672d5f6030485469c86f257a0e",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "exactDownload": true,
+      "reused": false
+    },
+    {
+      "library_file_id": "libfile_d94f6f6fa5e481918f5e101c76c7a65b",
+      "file_id": "file_00000000df50820c803b235f7f18bc2c",
+      "file_name": "critz-DS5-paired-west-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "0d681a22a4f978f7295e59df827d796cb11e8b69c6c9e79624b76632ca28de3f",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "exactDownload": true,
+      "reused": false
+    },
+    {
+      "library_file_id": "libfile_5021449caaa08191b57b1fd86473101b",
+      "file_id": "file_00000000554481f5965151c19491cd4a",
+      "file_name": "critz-DS5-paired-east-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "bc5e88fc9c0414fc4fdb941664297c5e67774fb03a2179ee2eb6f82c92d186dd",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "exactDownload": true,
+      "reused": false
+    },
+    {
+      "library_file_id": "libfile_45bccc163ab88191b6d26815d3842091",
+      "file_id": "file_00000000e9e082308509e9e8372c7e40",
+      "file_name": "critz-DS5-paired-east-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "c502d6d7169b0869113dde703fadd2c10acd1ae7bae54b5f25d3ef5188f4c326",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "exactDownload": true,
+      "reused": false
+    },
+    {
+      "library_file_id": "libfile_2b143fde608c819184f3b2f6af6e329c",
+      "file_id": "file_00000000a7888230a4d090bf4aae0a4b",
+      "file_name": "critz-DS4-paired-south-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "9221f5ced25782f629cd2faa0e74a75c3e09d6d1431a2cde6e9f7592eeb6f32c",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true,
+      "direction": "south",
+      "speed": "normal",
+      "reused": true,
+      "exactDownload": true,
+      "existingSourceHashMatches": true
+    },
+    {
+      "library_file_id": "libfile_9b43598faae0819182a05317f7972709",
+      "file_id": "file_0000000078c48230b30191bd8092890f",
+      "file_name": "critz-DS4-paired-south-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "42a177e28a404379f17ce219089190a1105db9044689ddcf7051240229396953",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true,
+      "direction": "south",
+      "speed": "slow",
+      "reused": true,
+      "exactDownload": true,
+      "existingSourceHashMatches": true
+    },
+    {
+      "library_file_id": "libfile_3ef236a012d48191a6544bbb8dcf2fc4",
+      "file_id": "file_00000000b02481f5abf8b683fd215eae",
+      "file_name": "critz-DS4-paired-north-normal-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "24599650adf69ca217d15ee4c505b4b35a2460d931c476ce0a68c161bd9ca0b3",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true,
+      "direction": "north",
+      "speed": "normal",
+      "reused": true,
+      "exactDownload": true,
+      "existingSourceHashMatches": true
+    },
+    {
+      "library_file_id": "libfile_eb0ff5029a6c8191974d9c2a2cd91bd5",
+      "file_id": "file_000000007bc8820d95ac77f93cfa9650",
+      "file_name": "critz-DS4-paired-north-slow-INTERNAL.gif",
+      "current_version_number": 0,
+      "sha256": "0e6ef926800e7f97269b8f84fb649a797beda8763f375b140d1009d57b49a2ba",
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesPixelsTimingExact": true,
+      "direction": "north",
+      "speed": "slow",
+      "reused": true,
+      "exactDownload": true,
+      "existingSourceHashMatches": true
+    }
+  ]
+}

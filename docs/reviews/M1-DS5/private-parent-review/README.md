@@ -1,4 +1,6 @@
-# DS5 private parent review — two requested PNGs delivered
+# DS5 private parent review — current full-direction packet available
+
+**Current request complete:** [four-direction idle, timed eight-slot sheet and all eight paired normal/slow loops](four-direction-review.md). Six new files plus four verified existing South/North files; source remains frozen and actual parent consistency/motion judgment is pending. Earlier two-PNG delivery and failed-batch history follow.
 
 The two PNGs requested after reconciliation are now saved once at version zero, with exact-byte and RGBA download verification:
 
