@@ -63,5 +63,8 @@
   "libraryExportByOwner": false,
   "TN4HoldPreserved": true,
   "nextAction": "Local/parent review of HR7 checkpoint before variants/swaps/UI or further revisions",
-  "stableImagesReadyForLocalRelay": true
+  "stableImagesReadyForLocalRelay": true,
+  "sourceCommit": "adeed157686d0f91d9c99a1d8db5601cf868217b",
+  "sourcePushedToOriginMain": true,
+  "matchingRemoteShaVerified": true
 }
