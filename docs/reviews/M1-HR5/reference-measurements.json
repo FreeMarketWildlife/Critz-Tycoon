@@ -1,0 +1,236 @@
+{
+  "referenceSha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+  "sourceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "framesInspected": [
+    0,
+    1,
+    2
+  ],
+  "sourceOnly": true,
+  "bands": {
+    "headwear_band": {
+      "referenceWindow": [
+        0,
+        10,
+        16,
+        18
+      ],
+      "referenceBounds": [
+        2,
+        10,
+        14,
+        18
+      ],
+      "doubleTarget": [
+        4,
+        20,
+        28,
+        36
+      ],
+      "actualBoundsWithinWindow": [
+        4,
+        21,
+        28,
+        36
+      ],
+      "deviation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    "face_ear_band": {
+      "referenceWindow": [
+        0,
+        18,
+        16,
+        23
+      ],
+      "referenceBounds": [
+        1,
+        18,
+        15,
+        23
+      ],
+      "doubleTarget": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "actualBoundsWithinWindow": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "shoulder_band": {
+      "referenceWindow": [
+        0,
+        23,
+        16,
+        24
+      ],
+      "referenceBounds": [
+        2,
+        23,
+        14,
+        24
+      ],
+      "doubleTarget": [
+        4,
+        46,
+        28,
+        48
+      ],
+      "actualBoundsWithinWindow": [
+        5,
+        46,
+        27,
+        48
+      ],
+      "deviation": [
+        1,
+        0,
+        -1,
+        0
+      ]
+    },
+    "torso_window": {
+      "referenceWindow": [
+        5,
+        23,
+        11,
+        28
+      ],
+      "referenceBounds": [
+        5,
+        23,
+        11,
+        28
+      ],
+      "doubleTarget": [
+        10,
+        46,
+        22,
+        56
+      ],
+      "actualBoundsWithinWindow": [
+        10,
+        46,
+        22,
+        56
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "left_arm_window": {
+      "referenceWindow": [
+        1,
+        23,
+        5,
+        27
+      ],
+      "referenceBounds": [
+        1,
+        23,
+        5,
+        27
+      ],
+      "doubleTarget": [
+        2,
+        46,
+        10,
+        54
+      ],
+      "actualBoundsWithinWindow": [
+        3,
+        46,
+        10,
+        54
+      ],
+      "deviation": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "right_arm_window": {
+      "referenceWindow": [
+        11,
+        23,
+        15,
+        27
+      ],
+      "referenceBounds": [
+        11,
+        23,
+        15,
+        27
+      ],
+      "doubleTarget": [
+        22,
+        46,
+        30,
+        54
+      ],
+      "actualBoundsWithinWindow": [
+        22,
+        46,
+        29,
+        54
+      ],
+      "deviation": [
+        0,
+        0,
+        -1,
+        0
+      ]
+    },
+    "lower_body_band": {
+      "referenceWindow": [
+        3,
+        28,
+        13,
+        31
+      ],
+      "referenceBounds": [
+        3,
+        28,
+        13,
+        31
+      ],
+      "doubleTarget": [
+        6,
+        56,
+        26,
+        62
+      ],
+      "actualBoundsWithinWindow": [
+        6,
+        56,
+        26,
+        62
+      ],
+      "deviation": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+}

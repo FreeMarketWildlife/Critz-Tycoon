@@ -1,5 +1,15 @@
 # Critz: Tycoon — art bible
 
+## Actual head overlay — M1.HR5, user correction
+
+User explicitly rejects the HR4 head mismatch and requests superimposing Hero on Brendan to check it. A side-by-side, frame/bounds check or eye/foot guide alone does not satisfy this instruction. [Actual aligned overlays, revised heads and independent evidence](reviews/M1-HR5/README.md).
+
+Before delivery, overlay original Hero at50% over exact2× native reference with full frames and common anchor aligned; never translate the sprites independently to conceal a mismatch. Inspect the combined head contour and difference map row by row, including crown width distribution, sweep/crest position, ear/cheek/jaw taper, face/hair occlusion and visible eye placement. Compare front/back/profile together. Label headwear versus original hair and hidden anatomy; do not blindly fill a cap shape as a bare skull.
+
+HR5 replaces the centered dome with swept short twists and a small offset crest, broadens the lower profile head, moves the visible profile eye to x10–11 rows38–41, retains the nose-free contour and keeps all pixels from row46 down exact HR4. Front/back visible eyes stay on their existing measured guides. Dark jaw/collar contact supplies overlap without inventing a wider bare chin. Head shape corrections remain original Critz artwork under the user's latest reconstruction direction.
+
+Use numeric occupied-row/set differences to locate and verify a specific silhouette mismatch; do not present overlap percentages as a beauty score or overall reference equivalence. Show the actual overlay in the user-facing delivery, alongside clean original pixels. Reference composites stay outside the build. Repeat the full-head check after each meaningful edit rather than treating a solved local foot/face issue as finished character design.
+
 ## Compact profile feet — M1.HR4, user correction
 
 The user rejects HR3’s long, flat profile feet and mismatched leg/body shapes. Correct both profiles using the actual pinned frame2 visible row contours and limb overlaps; frame/anchor or a whole-region bounding box alone cannot establish the reference construction. HR4 is a review proposal, not accepted gameplay art. [Profile diagnosis, native before/after and exact evidence](reviews/M1-HR4/README.md).

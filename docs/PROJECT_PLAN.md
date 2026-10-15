@@ -1,3 +1,7 @@
+# M1.HR5 — Head overlay and silhouette correction
+
+User explicitly requests an actual Hero-over-Brendan overlay and correction of the head, superseding HR4's unchanged head. Deliver registered50% overlays/difference maps, original corrected four-direction heads, native/enlarged comparison, row-by-row evidence and editable sources. **Implemented and checked; awaiting visual review.** Full bodies from row46 down stay exact HR4, including corrected feet. Static review only; no wider self-approval or gameplay replacement. [Review](reviews/M1-HR5/README.md).
+
 # M1.TN4 — Tanoshi eye readability and bear refinement
 
 **Concrete review and priority Library GIF delivered; parent visual response pending before publication.** Latest Hero update is now concurrent HR4/source4ad4281: compact profile feet/limb overlap; front/back remain exact HR3 and gameplay is unchanged. Both Hero sources untouched. Proposed aligned transparent eye pairs and clearer original sleeping bear preserve all current contracts. [Review/GIF/owner evidence](reviews/M1-TN4/README.md).316 units,7 native/195 protection checks,62 exact reproductions,18 browser groups/720 boundaries and12 zoom views pass. GIFs use true PNG alpha with moving game tiles and exact8×/1× pixels; Library IDs/receipts recorded. Existing public version57 remains unchanged. Scoped review/contact source commit9ea076a is pushed with matching origin/main SHA verified. Next: parent reviews GIF/eyes/bear/latest HR4 direction; no broader gate is self-approved.
