@@ -1,5 +1,9 @@
 # M1.NET1 — User-authorized net catching test
 
+## Active M1.CC1 — Bounded customization review prototype
+
+Parent's actual BS2 four-direction/walk review accepts that foundation for the isolated creator, superseding the prior foundation hold for this tool only. Replace the old NB3 draft with BS2-backed separate appearance metadata; same starter clothes/body/full-shoe footprint, no anatomy or roster expansion, PM1 excluded. Current [reviewable prototype and evidence](reviews/M1-CC1/README.md) includes three hair styles including bald, registered ear/eye/shoe/skin and optional face marks, real play/pause/rotate/step/reset, native/integer previews and scoped exports. Finish meaningful combination checks and actual phone/desktop screenshot/download validation, then private review through Eutychus. Do not deploy/adopt into gameplay or treat technical readiness as M1/user appearance acceptance.
+
 ## Active M1.BS2 — Finish current all-direction template proof, then bounded creator
 
 Parent's actual downloaded BS1 South/West bald correction is accepted for those shown poses. Apply and verify the same clean scalp in all four existing directions/idle/A/P/C, including coherent rear scalp/nape shading without a facing-eye cutoff. Keep all dressed output, body/waist/full shoes, eyes/ears, silhouette and registration exact. [Current concise sheet/contact sheet/loops](reviews/M1-BS2/README.md). PM1 remains separate and excluded. Eutychus owns private review delivery; creator stays held until scoped all-direction proof succeeds. Thereafter progress toward the already authorized bounded review-only creator using the accepted standard character template; replace the existing paused draft's rejected NB3 dependency. No new anatomy, roster or endless cluster refinement, no deployment.

@@ -1,0 +1,17 @@
+✔ BS2 default is exact selected dressed art, bald is exact clean foundation, all sixteen poses (4.955792ms)
+✔ every named appearance category visibly changes the front at registered sites (1.539625ms)
+✔ shoe choices change only current FM2 material cells and preserve all silhouettes/contact pixels (8.402708ms)
+✔ eyes, ears, nose and mouth stay on their own registered cells, including each walk phase (14.691542ms)
+✔ hairstyles respect registered feature visibility and original ear occlusion, body/footprint unchanged (9.654333ms)
+✔ alternate skins recolor base and exposed hair-dependent shadows without original-color fringe (6.959292ms)
+✔ meaningful paired appearance combinations keep fixed body alpha and finite binary-color cells (714.0805ms)
+✔ original hold schedules and repeated passing slots survive boundaries and negative time (0.259666ms)
+✔ static collection is honest and editable; exported direction walks use eight real slots/ticks (27.582083ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 840.802125

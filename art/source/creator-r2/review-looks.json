@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Original Hero",
+    "settings": {
+      "hair": "twists",
+      "hairColor": "original",
+      "skin": "original",
+      "eyes": "classic",
+      "ears": "folded",
+      "shoes": "trail",
+      "nose": "none",
+      "mouth": "none"
+    }
+  },
+  {
+    "name": "Clean bald",
+    "settings": {
+      "hair": "bald"
+    }
+  },
+  {
+    "name": "Close crop / deep / forest",
+    "settings": {
+      "hair": "crop",
+      "hairColor": "black",
+      "skin": "deep",
+      "eyes": "short",
+      "ears": "soft",
+      "shoes": "forest"
+    }
+  },
+  {
+    "name": "Warm twists / amber / smile",
+    "settings": {
+      "hair": "twists",
+      "hairColor": "warm",
+      "skin": "warm",
+      "eyes": "amber",
+      "shoes": "midnight",
+      "nose": "small",
+      "mouth": "smile"
+    }
+  },
+  {
+    "name": "Warm crop / small line",
+    "settings": {
+      "hair": "crop",
+      "hairColor": "warm",
+      "mouth": "line"
+    }
+  },
+  {
+    "name": "Bald / warm / soft / smile",
+    "settings": {
+      "hair": "bald",
+      "skin": "warm",
+      "eyes": "amber",
+      "ears": "soft",
+      "shoes": "midnight",
+      "nose": "small",
+      "mouth": "smile"
+    }
+  }
+]
