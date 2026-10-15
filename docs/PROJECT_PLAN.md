@@ -1,3 +1,7 @@
+# M1.HR14 — Source-visible construction, rigid pack, featured dummy
+
+**Implemented/checked; final parent/user visual review pending, UNAPPROVED.** HR13 lower body and pack swing rejected. Replace lower visible alpha/material-plane construction literally from supplied frontGIF and pinned ROM directions; no invented visible leg anatomy/stride. Rigid torso-local compact pack and fixed straps; separate canonical shape from final occlusion. Add dummy eyes/ears/clear upper hands with hidden joints inferred/occluded. [First checkpoint, final directional proofs and checks](reviews/M1-HR14/README.md). Final review must precede Library export. HR11 parked; no variants/UI/runtime/editor/gameplay/deployment/TN4 expansion or automatic acceptance.
+
 # M1.HR13 — Four-direction projection and construction review
 
 **Implemented/checked, UNAPPROVED; awaiting user visual review.** Eutychus directs elevated-camera head/torso occlusion in Hero and neutral template, four idle directions then matching walk proofs. Preserve liked front design, mirrored ears, small feet, starter outfit/pack and proposed joint sites. [Stable comparison/anatomy/overlay deliverable](reviews/M1-HR13/README.md). Twenty-eight GIF checks and ten editable validations pass; independent static/phase review leaves profile weight/stride concerns. Hidden anatomy/camera pitch remain proposed/unresolved. Hold stable for Eutychus's review/Library relay. HR11 parked; no gameplay/UI/deployment/TN4 or visual acceptance.

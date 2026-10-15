@@ -1,0 +1,264 @@
+{
+  "task": "M1.HR14 first aligned boundary/pack checkpoint",
+  "lowerComparedRows": [
+    54,
+    64
+  ],
+  "sourceGIFFact": "8x100ms;SHA pinned;fixed14top/2bottom32x64;front only",
+  "boundaryChecks": {
+    "south/A": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 61,
+      "paintedBottomSource": 61,
+      "lowerAlphaExact": true
+    },
+    "south/P": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 59,
+      "paintedBottomSource": 59,
+      "lowerAlphaExact": true
+    },
+    "south/C": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 61,
+      "paintedBottomSource": 61,
+      "lowerAlphaExact": true
+    },
+    "north/A": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 63,
+      "paintedBottomSource": 63,
+      "lowerAlphaExact": true
+    },
+    "north/P": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 61,
+      "paintedBottomSource": 61,
+      "lowerAlphaExact": true
+    },
+    "north/C": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 63,
+      "paintedBottomSource": 63,
+      "lowerAlphaExact": true
+    },
+    "west/A": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 63,
+      "paintedBottomSource": 63,
+      "lowerAlphaExact": true
+    },
+    "west/P": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 61,
+      "paintedBottomSource": 61,
+      "lowerAlphaExact": true
+    },
+    "west/C": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 63,
+      "paintedBottomSource": 63,
+      "lowerAlphaExact": true
+    },
+    "east/A": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 63,
+      "paintedBottomSource": 63,
+      "lowerAlphaExact": true
+    },
+    "east/P": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 61,
+      "paintedBottomSource": 61,
+      "lowerAlphaExact": true
+    },
+    "east/C": {
+      "alphaMismatchCells": 0,
+      "paintedBottomHero": 63,
+      "paintedBottomSource": 63,
+      "lowerAlphaExact": true
+    }
+  },
+  "packChecks": {
+    "south/idle": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 0,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "south/A": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 0,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "south/P": {
+      "torsoAnchor": [
+        16,
+        46
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 0,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "south/C": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 0,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "north/idle": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 80,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "north/A": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 80,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "north/P": {
+      "torsoAnchor": [
+        16,
+        46
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 80,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "north/C": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "d5f6649fe0307119b4c83a542ff8a961038b122099e88e9fdbd7971db5e83be2",
+      "torsoLocalStrapRGBAsha256": "380507e5a2b8019f8f559512419453632424d929b1c4c30837a5cc52347bc268",
+      "visiblePackPixels": 80,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "west/idle": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
+      "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "west/A": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
+      "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "west/P": {
+      "torsoAnchor": [
+        16,
+        46
+      ],
+      "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
+      "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "west/C": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "fda7e20e1e703968dc205fd3cc76248898bdb25be15463eba0ccc674f808598e",
+      "torsoLocalStrapRGBAsha256": "249d77b5105c65bdb6aab3baefee91bd93cde3d6fb9103c41bc3826d12baf8b7",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "east/idle": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
+      "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "east/A": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
+      "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "east/P": {
+      "torsoAnchor": [
+        16,
+        46
+      ],
+      "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
+      "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    },
+    "east/C": {
+      "torsoAnchor": [
+        16,
+        48
+      ],
+      "torsoLocalLayerRGBAsha256": "e27d498905067a52bc6720fe7f82b324ca2b34f17bec426312d8ba757d2e8b89",
+      "torsoLocalStrapRGBAsha256": "237b285176b5d83a2b38e14c7f69aafc3efe5fe0e4c6435d0c417695b7ee8e94",
+      "visiblePackPixels": 30,
+      "rigid": true,
+      "compositeChecked": true
+    }
+  },
+  "projection": "head unchanged from HR13, no visible neck column introduced",
+  "hiddenBones": "UNRESOLVED / inferred and occluded; no added visible calf",
+  "visualApproval": false,
+  "allCheckpointChecksPass": true
+}
