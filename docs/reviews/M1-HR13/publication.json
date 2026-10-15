@@ -1,0 +1,66 @@
+{
+  "task": "M1.HR13",
+  "state": "stable UNAPPROVED; awaiting visual review",
+  "sourceCommit": "294963438cdb7d373a2c498fa2fe93d0d6d8f4a9",
+  "verifiedOriginMain": "294963438cdb7d373a2c498fa2fe93d0d6d8f4a9",
+  "checks": "32 native poses;10 editable projects;28 decoded eight-frame GIFs; exact timing/pixels/nearest4x; registration/occlusion and bounded protected regions pass",
+  "artifactPixelsStable": true,
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-idle-source-hero-template.png",
+      "bytes": 21019,
+      "sha256": "c2cf33f9101ace015ce8a14fbea01f0746d842f73f19fb7227a9a5e445b87581"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-native.gif",
+      "bytes": 391521,
+      "sha256": "8da974d1095a448bedc1faf8693ec89aed6a31944cd3248951391a8561e40750"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-4x.gif",
+      "bytes": 6249513,
+      "sha256": "094eccaf6db1eb4c2ce99edf984fbb0c8b0ee3210bfb171a1e8a2f27f60e1573"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-SLOW4x-native.gif",
+      "bytes": 391521,
+      "sha256": "f371479e90721425958b324e57e6a2ce6633711de72835bfc2a5a8bed4065cfc"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-SLOW4x-4x.gif",
+      "bytes": 6249513,
+      "sha256": "b55950cdfbf8b9e394fcf5598d7f317c9dc3f97f4184bf65968eafeea4c7cc1c"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/four-direction-idle-hero-template.png",
+      "bytes": 14993,
+      "sha256": "7ff6260de0df1db504a30c2d2a97eecbb3b9275e1a285a0f031cba2d7414fa86"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/four-direction-anatomy-contact.png",
+      "bytes": 42227,
+      "sha256": "19168202514fc6ffa98b50abe6a07576db6c4cbf29701c60eaad8228b3e0c70c"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/four-direction-outfit-registration.png",
+      "bytes": 36453,
+      "sha256": "ceabfe52a10af0a1c2b85ee7b2a7a10ebd7b86ba79605aa1fc51383ff2846917"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/projection-before-after.png",
+      "bytes": 6978,
+      "sha256": "644294df621ceba201a2d04bfc74497002a2e9d607343a871ff0baabd3c124fe"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/projection-occlusion-map.png",
+      "bytes": 19624,
+      "sha256": "ee80c4f8b333845177fec1175f755083f76fd3a207ce27d93379349d368d166e"
+    }
+  ],
+  "independentReview": "Parent static/phase review confirms correction and bounded cleanup; final combined panels exact4x/fast-slow verified separately",
+  "residual": "Profile angular/heavy read and potentially wide stride; numeric camera pitch/world bones unresolved; no continuous browser-playback evidence from independent reviewer",
+  "library": "Parent handles export; receipt pending",
+  "deployment": "None: review-only; accepted gameplay unchanged",
+  "remainingChanges": "Parked HR11 source/review and four original shared-document diffs preserved byte-exact as an unstaged patch",
+  "nextAction": "Parent/Eutychus visual review and Library relay; sole owner holds artwork"
+}
