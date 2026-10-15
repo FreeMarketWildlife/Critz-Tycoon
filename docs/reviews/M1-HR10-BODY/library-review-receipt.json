@@ -1,0 +1,156 @@
+{
+  "task": "M1.HR10-BODY",
+  "scope": "Single focused forward-only cuff/shoe/hand refinement from HR9 after chronology reconciliation",
+  "scopeEvidence": "scope-reconciliation.json",
+  "appearanceApproved": false,
+  "motionApproved": false,
+  "adoptsHeadDetour": false,
+  "HR9HeadPreserved": true,
+  "libraryExportSucceeded": true,
+  "localMetadataApplied": true,
+  "items": [
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/source-hero-all-eight-contact(1).png",
+      "file_id": "file_00000000737481f5beed35b964de4679",
+      "library_file_id": "libfile_6ecb3efe23b081918e1cd9376daa5ad6",
+      "file_name": "source-hero-all-eight-contact(1).png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 19067,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-all-eight-contact.png",
+      "sha256": "5de72b60071dbc6064756e94d2551a8fd0f0c506d474a7f65bfa5153c3abd52d"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/source-hero-native(1).gif",
+      "file_id": "file_00000000c21c81fdb5695c099591ae3a",
+      "library_file_id": "libfile_ac8c78a8094481918394a3ff5b5d77d1",
+      "file_name": "source-hero-native(1).gif",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/gif",
+      "library_artifact_type": "image",
+      "file_size_bytes": 66513,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-native.gif",
+      "sha256": "f1c2857fccc68cb3af4e23723a52cf85ead70362a68ab83c9d0e3fbc8a4c591b"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/source-hero-4x(1).gif",
+      "file_id": "file_0000000078908230ac8a101de3bf72ea",
+      "library_file_id": "libfile_43747ef2df2081918a6c32bd64e71a33",
+      "file_name": "source-hero-4x(1).gif",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/gif",
+      "library_artifact_type": "image",
+      "file_size_bytes": 1049377,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-4x.gif",
+      "sha256": "9fd1d4ddd48d1135477b379dbc5b04e1a47fface2db6228417ea5de829a49f21"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/source-hero-SLOW4x-4x.gif",
+      "file_id": "file_000000008bcc8230a8f96c5d0822e151",
+      "library_file_id": "libfile_e9ff272449f88191ac1eaeb50ed800a9",
+      "file_name": "source-hero-SLOW4x-4x.gif",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/gif",
+      "library_artifact_type": "image",
+      "file_size_bytes": 1628201,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-SLOW4x-4x.gif",
+      "sha256": "a6b50247e3d1b8abed6babe96e69a018f442d430b93093f4e98435179d60f6a3"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/body-clusters-source-before-after.png",
+      "file_id": "file_000000007ddc823093af90f12dab0fa1",
+      "library_file_id": "libfile_6434e31f2538819187ff1e8931644888",
+      "file_name": "body-clusters-source-before-after.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 16094,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/body-clusters-source-before-after.png",
+      "sha256": "d9637cee41157d64966b8d3b1f0503caac782991eae9433f28134a20ed2821fe"
+    }
+  ],
+  "review": {
+    "observations": [
+      "Repeated ankle/sole bands reduced with overlapping foot clusters.",
+      "Hand/cuff grouping and shirt noise simplified.",
+      "Native/source-speed and slow contact-to-pass phases inspected in isolated browser context."
+    ],
+    "remaining": [
+      "Passing feet still read more solid/boot-like than source tiny integrated clusters.",
+      "Hero shirt and hem/cuffs remain visually heavier than source.",
+      "Exact motion/foot weight and overall appearance remain for parent judgment."
+    ]
+  },
+  "verification": {
+    "downloadedLibraryGIFsExactBytes": true,
+    "allGIFsEightFrames": true,
+    "sourceSpeedLoopMs": 800,
+    "slowLoopMs": 3200,
+    "fastEnlargementExact4x": true,
+    "slowSpritePixelsExactlyFast": true,
+    "detail": "library-animation-verification.json",
+    "browserCapturesInternalOnly": true,
+    "noRealGameStorage": true
+  },
+  "holds": {
+    "otherDirections": true,
+    "bodyVariants": true,
+    "customizationUI": true,
+    "gameplayReplacement": true,
+    "deployment": true,
+    "TN4": true
+  },
+  "bodySourceCommit": "d158c3ecceaddaf1a0919f01ef75eac47f367cc5",
+  "ownerReceiptCommit": "b3d5d3963625a826483ba169d2104e1293a3931c"
+}

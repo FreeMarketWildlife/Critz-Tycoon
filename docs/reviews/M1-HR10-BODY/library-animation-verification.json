@@ -1,0 +1,78 @@
+{
+  "LibraryAnimationPreserved": true,
+  "enlargedExactly4xNativeEveryFrame": true,
+  "slowSourceAndHeroSpritePixelsExactlySourceSpeed": true,
+  "sourceSpeedMs": 800,
+  "slowLoopMs": 3200,
+  "artifacts": [
+    {
+      "libraryId": "libfile_ac8c78a8094481918394a3ff5b5d77d1",
+      "file": "/tmp/hr10-body-library-verification/source-hero-native(1).gif",
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "sha256": "f1c2857fccc68cb3af4e23723a52cf85ead70362a68ab83c9d0e3fbc8a4c591b",
+      "exactUploadedBytes": true,
+      "format": "GIF",
+      "size": [
+        88,
+        82
+      ]
+    },
+    {
+      "libraryId": "libfile_43747ef2df2081918a6c32bd64e71a33",
+      "file": "/tmp/hr10-body-library-verification/source-hero-4x(1).gif",
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "sha256": "9fd1d4ddd48d1135477b379dbc5b04e1a47fface2db6228417ea5de829a49f21",
+      "exactUploadedBytes": true,
+      "format": "GIF",
+      "size": [
+        352,
+        328
+      ]
+    },
+    {
+      "libraryId": "libfile_e9ff272449f88191ac1eaeb50ed800a9",
+      "file": "/tmp/hr10-body-library-verification/source-hero-SLOW4x-4x.gif",
+      "frames": 8,
+      "durationMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "sha256": "a6b50247e3d1b8abed6babe96e69a018f442d430b93093f4e98435179d60f6a3",
+      "exactUploadedBytes": true,
+      "format": "GIF",
+      "size": [
+        448,
+        400
+      ]
+    }
+  ]
+}
