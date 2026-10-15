@@ -26,6 +26,27 @@
 - Watch normal timing first and explicitly labelled slow timing for diagnosis. Slow motion and a common-clock phase board cannot establish native cadence.
 - Retain every unique phase/all-frame plate to locate defects, while recording that static inspection alone does not complete motion review.
 
+## Recommended turn-in-place loop — PENDING, not executed
+
+This is proposed QA from the supplemental study, not new art authorization. Use only already authorized, available views; missing views stay unavailable. Do not create additional assets to complete this checklist while the directional action is denied.
+
+- [ ] Pin every pose/hash, invariant frame anchor, painted contact, viewing order and hold duration. Do not recenter or fit each sprite independently.
+- [ ] Play a registered clockwise loop through available neutral directions and back to the first. Also inspect the reverse transitions at native size and exact nearest enlargement.
+- [ ] Inspect crown/hair mass, face/eye height, head-over-torso occlusion, shoulders, hand placement, costume thickness and visible contacts for jumps. Distinguish hairstyle volume from skull or hidden anatomy.
+- [ ] Check asymmetrical hair, ties, clothing and accessories rather than assuming every view may be mirrored.
+- [ ] Record actual directions, complete cycles, timing and method observed. A static directional strip or decoded frame order alone does not pass this check. Record defects at specific transitions; preserve the failed revision.
+
+## Recommended synchronized gait comparison — PENDING, not executed
+
+Keep this diagnostic separate from actual source-speed playback. Supplemental examples supply a method, not our frame count, anatomy or engine timing.
+
+- [ ] Isolate one complete stride for each pinned reference and record unique phases, duplicate holds, original timing and loop seam.
+- [ ] Use a declared phase mapping for fixed-anchor source/Hero/dummy comparisons. Mark unobserved poses and timing differences; a common clock must be labelled phase comparison.
+- [ ] Compare related directional phases for head bob, shoulder pivot, opposing arm/leg motion, torso/costume overlap, visible contact changes and accessory attachment. Keep occluded joints unresolved.
+- [ ] Inspect skin/cuff/material ownership independently from silhouette, then simplify only documented noisy details. Verify identity and protected pixels after each bounded change.
+- [ ] Watch complete repeated normal/source-speed and labelled-slow cycles separately, at native and nearest enlargement. Log observed cycles and coverage gaps; phase alignment does not establish native cadence.
+- [ ] Decide on both character and dummy from actual rendered motion; retain per-phase plates to locate defects. No pass is recorded by adding this checklist. Existing HR14 rendered-cycle evidence remains separate; these new rotational/synchronized-study checks are pending.
+
 ## Context and technical checks
 
 - Test scene sorting, counter overlap and door approach separately from sprite canvas/painted bounds and explicit collision/ground footprint. Apply canonical contact rules in both axes and independent renderers where relevant.
@@ -47,6 +68,8 @@ Native still review: pending | pass | fail — evidence and limits
 Enlarged pose review: pending | pass | fail — evidence and limits
 Actual normal playback: pending | pass | fail — directions, cycles, method
 Actual slow playback: pending | pass | fail — directions, cycles, method
+Turn-in-place QA: pending | pass | fail | unavailable — directions, cycles, method
+Synchronized gait QA: pending | pass | fail | unavailable — phase mapping and clock limits
 Hero result: pending | pass | fail — unresolved defects
 Reusable dummy result: pending | pass | fail — unresolved defects
 Context/contact result: pending | pass | fail | outside this review — scope

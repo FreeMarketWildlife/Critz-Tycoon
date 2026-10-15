@@ -40,3 +40,17 @@ Transcript evidence is local outside the repository: first video `youtube-vUr7Sc
 ## Coordinator targeted transcript reading
 
 During the material pass the coordinator directly read local transcript ranges around Revolation7:25,15:43,22:30,34:39 and44:33, and Thundaga4:21,17:00 and19:55. This confirms the previously attributed text findings about compatible bodies, shade relationships, patient iteration, copied head/foot registration, missed-eye corrections, exact-color selection and backups. It adds targeted text access only, not new visual footage or a full watch. Existing source coverage limits remain unchanged.
+
+## Supplemental article access — 2026-10-15 coordinator update
+
+Direct web text retrieval succeeded for the three artist-authored articles below. Their HTML text was read; no embedded GIF animation or illustration was visually inspected. The article findings are summarized in the [digest](STUDY_DIGEST.md#supplemental-artist-authored-study--article-text-verified-illustrations-unviewed). No copied art, new reference geometry or production assets were created.
+
+| Source | Verified access | Unavailable/unviewed evidence |
+| --- | --- | --- |
+| [SLYNYRD Pixelblog 22](https://www.slynyrd.com/blog/2019/10/21/pixelblog-22-top-down-character-sprites) | Direct article text: neutral views, simple dummy and reusable matching-proportion base | All illustrations and animated examples unviewed; four-frame example is not an Emerald requirement |
+| [SLYNYRD Pixelblog 55](https://www.slynyrd.com/blog/2025/3/24/pixelblog-55-top-down-character-animation) | Direct article text: rotation alignment, synchronized phase QA and detail economy | All illustrations/GIFs unviewed; longer limbs and six-frame run are not Critz specifications |
+| [SLYNYRD Pixelblog 50](https://www.slynyrd.com/blog/2024/5/24/pixelblog-50-human-walk-cycle) | Direct article text: complete stride selection, dummy, timing and opposing limbs | All illustrations/GIFs unviewed; realistic side-view anatomy is not the Emerald template |
+
+**Latest video limitation, parent-reported:** renewed exact-ID searches found no captions; direct pages failed, including the requested17:00 access. Neither requested video was viewed in this renewed research pass. Neither full continuous video viewing is complete. This does not erase the older attributed transcript exports and sampled-frame observations above, nor does it establish new visual access to those segments. No new attempt was made in this documentation-only update.
+
+**GH1 visual receipt:** parent now confirms independent inspection of the corrected wrist plate: coherent brown hands and clear sleeve trim. This is scoped to the current front wrist correction at `5f452ef` / `5597115`. It grants no new directional scope. The automatic-review messaging denial remains in force; no retry or workaround.
