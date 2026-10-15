@@ -1,0 +1,194 @@
+{
+  "task": "M1.NET1",
+  "approval": "review only",
+  "frame": [
+    128,
+    128
+  ],
+  "anchor": [
+    64,
+    80
+  ],
+  "heroFrame": [
+    32,
+    64
+  ],
+  "heroOrigin": [
+    48,
+    16
+  ],
+  "directions": [
+    "down",
+    "up",
+    "left",
+    "right"
+  ],
+  "poses": [
+    "carry",
+    "ready",
+    "windup",
+    "sweep",
+    "strike",
+    "follow",
+    "recover"
+  ],
+  "grips": {
+    "down": [
+      10,
+      -14
+    ],
+    "up": [
+      10,
+      -14
+    ],
+    "left": [
+      -8,
+      -14
+    ],
+    "right": [
+      8,
+      -14
+    ]
+  },
+  "centers": {
+    "down": [
+      [
+        22,
+        -51
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        17,
+        -54
+      ],
+      [
+        17,
+        -12
+      ],
+      [
+        0,
+        22
+      ],
+      [
+        -7,
+        22
+      ],
+      [
+        8,
+        7
+      ]
+    ],
+    "up": [
+      [
+        22,
+        -51
+      ],
+      [
+        9,
+        -60
+      ],
+      [
+        16,
+        -12
+      ],
+      [
+        10,
+        -26
+      ],
+      [
+        0,
+        -52
+      ],
+      [
+        -7,
+        -52
+      ],
+      [
+        9,
+        -53
+      ]
+    ],
+    "left": [
+      [
+        -20,
+        -51
+      ],
+      [
+        -34,
+        -23
+      ],
+      [
+        10,
+        -48
+      ],
+      [
+        -24,
+        -27
+      ],
+      [
+        -34,
+        -12
+      ],
+      [
+        -37,
+        -5
+      ],
+      [
+        -28,
+        -18
+      ]
+    ],
+    "right": [
+      [
+        20,
+        -51
+      ],
+      [
+        34,
+        -23
+      ],
+      [
+        -10,
+        -48
+      ],
+      [
+        24,
+        -27
+      ],
+      [
+        34,
+        -12
+      ],
+      [
+        37,
+        -5
+      ],
+      [
+        28,
+        -18
+      ]
+    ]
+  },
+  "sourceHeroRevision": "73434fcf42aa4fcaa8ef52b6a73d342a5391832c",
+  "heroHashes": {
+    "hero-down-idle.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "hero-down-A.png": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+    "hero-down-P.png": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+    "hero-down-C.png": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+    "hero-up-idle.png": "55702a24a3811bb502c3c733818cdc734557d42ee9905121542e1026216b89cc",
+    "hero-up-A.png": "d0e2d2ce50e483d2d1a3498cffd314ded4d9ae8b5629a3a05cf8ee009f24155c",
+    "hero-up-P.png": "13d82263e2a30161f26187a45631dd19e05a7cf751e26b3fc0294a844e608443",
+    "hero-up-C.png": "00625870e1814ff313965472a94f26e7b1a32814c24dcd00fb86eee24fc74616",
+    "hero-left-idle.png": "b9ff1747b65602e805e97ee69a4974b4b850793ae8325c1f3d8c378426555631",
+    "hero-left-A.png": "11c5d4025d582a00abeba01e8d1113c6c6d12874e48bd813289220090e5faf2d",
+    "hero-left-P.png": "803f4feaf570580df5009dc638b22e81eca179974fd9c8ca543e8e144c04a2aa",
+    "hero-left-C.png": "ad642a0113b3d99ef92b86929fa15ff1aba48148b4e1dfce3d66825d86fd649b",
+    "hero-right-idle.png": "7b3d8dde73174657da8d83535d3e053dbb09e125290fedf8e3dbf6376012506b",
+    "hero-right-A.png": "f470a50d15291a76b900f3a46d8f76278e3751f352c74162c39d37b7e6c7518d",
+    "hero-right-P.png": "4eab449fed93618a7b0a9b6e7c850f89f89077a0a65253620fa7de3e26960248",
+    "hero-right-C.png": "d27a11163465c279810a8447c0c792ae9a2c2ef775acb8e295b8f05cf7ed5a9a"
+  }
+}
