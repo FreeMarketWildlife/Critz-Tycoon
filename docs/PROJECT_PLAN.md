@@ -1,5 +1,9 @@
 # M1.NET1 — User-authorized net catching test
 
+## Active M1.SB1 — restore the selected shared Hero, static proof first
+
+Parent selected a preservation-grounded PS1 family after read-only provenance/mismatch diagnosis; do not claim unresolved 'amazing' praise approval. Restore all16existingSTATIC32×64 poses from exact source body/material/feature pixels and valid BS2 bald/hair-shadow separation. No DS redesign, palette/style/arm changes,16×32 downsampling or new animation gate. [Source/visible-mask proof](reviews/M1-SB1/README.md) is complete for root independent audit and actual parent judgment. Preserve all archives/currentcreator; source selection and technical equality do not reopen creator or approve broader art/runtime. Root owns independent/private review transfer; no main-user rough drafts or deployment.
+
 ## Active M1.DS1 — Hero and dummy art first; creator stopped
 
 Proceed with actually inspected primary Brendan/Man1 strips and verified ordinary-human dimensions; parent authorized these while the exact webpage sheet remains inaccessible. Follow the latest [canonical two-resolution art direction](ART_BIBLE.md#isolated-two-resolution-bald-template-study--m1ds1), not the superseded creator-readiness notes below. Study actual reference before drawing; deliver the first idle/side-gait comparison, then iterate through user visual review toward all directions/existing walks. Preserve creator files, but perform no creator implementation, tests, polish or exports. Explicit user Hero/dummy acceptance is the prerequisite for reopening it. No roster/runtime/publication work. [Access evidence and next action](reviews/M1-DS1/README.md).

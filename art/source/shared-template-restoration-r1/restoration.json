@@ -1,0 +1,8103 @@
+{
+  "task": "M1.SB1",
+  "baselineStatus": "preservation-selected from direct human instruction; earlier praise-selection unresolved; NWE approval unverified",
+  "selectedFamily": "PS1 native32x64",
+  "selectedRevision": "8726c9af6b8304148d2ff1e84b149bcfdc2785a6",
+  "poses": {
+    "south": {
+      "idle": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-south-idle.png",
+        "selectedSourceSHA256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [],
+        "hairCells": 304,
+        "hairDependentShadeCells": 6,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 0,
+        "actualMatchingVisiblePackCells": 0,
+        "observedBodyComparedCells": 475,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 113,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            6,
+            38
+          ],
+          [
+            6,
+            39
+          ],
+          [
+            6,
+            40
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            25,
+            39
+          ],
+          [
+            25,
+            40
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            4,
+            50
+          ],
+          [
+            4,
+            51
+          ],
+          [
+            4,
+            52
+          ],
+          [
+            5,
+            38
+          ],
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            5,
+            50
+          ],
+          [
+            5,
+            51
+          ],
+          [
+            5,
+            52
+          ],
+          [
+            5,
+            53
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            6,
+            52
+          ],
+          [
+            6,
+            53
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            7,
+            52
+          ],
+          [
+            8,
+            50
+          ],
+          [
+            8,
+            51
+          ],
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            13,
+            40
+          ],
+          [
+            13,
+            41
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            41
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            23,
+            49
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            24,
+            52
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            25,
+            52
+          ],
+          [
+            25,
+            53
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ],
+          [
+            26,
+            50
+          ],
+          [
+            26,
+            51
+          ],
+          [
+            26,
+            52
+          ],
+          [
+            26,
+            53
+          ],
+          [
+            27,
+            50
+          ],
+          [
+            27,
+            51
+          ],
+          [
+            27,
+            52
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              12,
+              38
+            ],
+            [
+              13,
+              38
+            ],
+            [
+              18,
+              38
+            ],
+            [
+              19,
+              38
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              13,
+              39
+            ],
+            [
+              18,
+              39
+            ],
+            [
+              19,
+              39
+            ],
+            [
+              12,
+              40
+            ],
+            [
+              13,
+              40
+            ],
+            [
+              18,
+              40
+            ],
+            [
+              19,
+              40
+            ],
+            [
+              12,
+              41
+            ],
+            [
+              13,
+              41
+            ],
+            [
+              18,
+              41
+            ],
+            [
+              19,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ],
+            [
+              5,
+              39
+            ],
+            [
+              6,
+              39
+            ],
+            [
+              25,
+              39
+            ],
+            [
+              26,
+              39
+            ],
+            [
+              5,
+              40
+            ],
+            [
+              6,
+              40
+            ],
+            [
+              25,
+              40
+            ],
+            [
+              26,
+              40
+            ]
+          ],
+          "hands": [
+            [
+              6,
+              49
+            ],
+            [
+              23,
+              49
+            ],
+            [
+              4,
+              50
+            ],
+            [
+              5,
+              50
+            ],
+            [
+              6,
+              50
+            ],
+            [
+              7,
+              50
+            ],
+            [
+              8,
+              50
+            ],
+            [
+              23,
+              50
+            ],
+            [
+              24,
+              50
+            ],
+            [
+              25,
+              50
+            ],
+            [
+              26,
+              50
+            ],
+            [
+              27,
+              50
+            ],
+            [
+              4,
+              51
+            ],
+            [
+              5,
+              51
+            ],
+            [
+              6,
+              51
+            ],
+            [
+              7,
+              51
+            ],
+            [
+              8,
+              51
+            ],
+            [
+              23,
+              51
+            ],
+            [
+              24,
+              51
+            ],
+            [
+              25,
+              51
+            ],
+            [
+              26,
+              51
+            ],
+            [
+              27,
+              51
+            ],
+            [
+              4,
+              52
+            ],
+            [
+              5,
+              52
+            ],
+            [
+              6,
+              52
+            ],
+            [
+              7,
+              52
+            ],
+            [
+              24,
+              52
+            ],
+            [
+              25,
+              52
+            ],
+            [
+              26,
+              52
+            ],
+            [
+              27,
+              52
+            ],
+            [
+              5,
+              53
+            ],
+            [
+              6,
+              53
+            ],
+            [
+              25,
+              53
+            ],
+            [
+              26,
+              53
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+            "rgbaSHA256": "10ce43bd08aab01bbc7d6b7eb14165fbad0edc2a3a9b655db72538aed158d92e",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              27,
+              29,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+            "rgbaSHA256": "cc4d5443b856318635046941db3214ef930c15eefc0f532bae4a38b12c6234c6",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+            "rgbaSHA256": "703e7ece74abbfa66d7a109be465329eddc358d173db4d2bd4051f5101661d13",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              7,
+              37,
+              25,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "22ed388e699f43100c05ea41bcc9a4d4957d6f155bb1163c4827c661d67e8907",
+            "rgbaSHA256": "bae2bce2ef1bd20df49a9f0bef6a3fd57272d2f7dc8b2e47c76e9399a04b7e1b",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-observed-body.png": {
+            "sha256": "8dbfd8bf7f96a0f03120b960e70dcb66fc8eae2a07b732f863d722b2b1a639b7",
+            "rgbaSHA256": "967cafb9bc5f8885ff91084647144027ca182edeb3d033089c81d276f2081f00",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              36,
+              29,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "8dbfd8bf7f96a0f03120b960e70dcb66fc8eae2a07b732f863d722b2b1a639b7",
+            "rgbaSHA256": "967cafb9bc5f8885ff91084647144027ca182edeb3d033089c81d276f2081f00",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              36,
+              29,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+            "rgbaSHA256": "9718a20199b9aa493c4e4873a469cbaacb92d3c60d791adbdf530043524c0d69",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              21,
+              29,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "af0bbd94952f2d16018c7e6e3a752b392d5f80b031a93c5cf96c399595429e3d",
+            "rgbaSHA256": "9f3dd8e724b95afe408224957fef4f7413e711cc193d7b66fa4e8150d318170e",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "A": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-south-A.png",
+        "selectedSourceSHA256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [],
+        "hairCells": 304,
+        "hairDependentShadeCells": 6,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 0,
+        "actualMatchingVisiblePackCells": 0,
+        "observedBodyComparedCells": 401,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 113,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            6,
+            38
+          ],
+          [
+            6,
+            39
+          ],
+          [
+            6,
+            40
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            25,
+            39
+          ],
+          [
+            25,
+            40
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            5,
+            38
+          ],
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            6,
+            52
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            7,
+            52
+          ],
+          [
+            7,
+            53
+          ],
+          [
+            8,
+            50
+          ],
+          [
+            8,
+            51
+          ],
+          [
+            8,
+            52
+          ],
+          [
+            8,
+            53
+          ],
+          [
+            9,
+            51
+          ],
+          [
+            9,
+            52
+          ],
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            13,
+            40
+          ],
+          [
+            13,
+            41
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            41
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              12,
+              38
+            ],
+            [
+              13,
+              38
+            ],
+            [
+              18,
+              38
+            ],
+            [
+              19,
+              38
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              13,
+              39
+            ],
+            [
+              18,
+              39
+            ],
+            [
+              19,
+              39
+            ],
+            [
+              12,
+              40
+            ],
+            [
+              13,
+              40
+            ],
+            [
+              18,
+              40
+            ],
+            [
+              19,
+              40
+            ],
+            [
+              12,
+              41
+            ],
+            [
+              13,
+              41
+            ],
+            [
+              18,
+              41
+            ],
+            [
+              19,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ],
+            [
+              5,
+              39
+            ],
+            [
+              6,
+              39
+            ],
+            [
+              25,
+              39
+            ],
+            [
+              26,
+              39
+            ],
+            [
+              5,
+              40
+            ],
+            [
+              6,
+              40
+            ],
+            [
+              25,
+              40
+            ],
+            [
+              26,
+              40
+            ]
+          ],
+          "hands": [
+            [
+              6,
+              50
+            ],
+            [
+              7,
+              50
+            ],
+            [
+              8,
+              50
+            ],
+            [
+              6,
+              51
+            ],
+            [
+              7,
+              51
+            ],
+            [
+              8,
+              51
+            ],
+            [
+              9,
+              51
+            ],
+            [
+              6,
+              52
+            ],
+            [
+              7,
+              52
+            ],
+            [
+              8,
+              52
+            ],
+            [
+              9,
+              52
+            ],
+            [
+              7,
+              53
+            ],
+            [
+              8,
+              53
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+            "rgbaSHA256": "4772f710a4b4bfdcc9ead34dcf89afb8f2c11f2421c661141e4755cbc32b665a",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              27,
+              28,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+            "rgbaSHA256": "cc4d5443b856318635046941db3214ef930c15eefc0f532bae4a38b12c6234c6",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+            "rgbaSHA256": "703e7ece74abbfa66d7a109be465329eddc358d173db4d2bd4051f5101661d13",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              7,
+              37,
+              25,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "22ed388e699f43100c05ea41bcc9a4d4957d6f155bb1163c4827c661d67e8907",
+            "rgbaSHA256": "bae2bce2ef1bd20df49a9f0bef6a3fd57272d2f7dc8b2e47c76e9399a04b7e1b",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-observed-body.png": {
+            "sha256": "15f183d49c27c7136c8f0c7bf3ed9a73f38927c23f2e4919308e86446c730ada",
+            "rgbaSHA256": "443a894953c8e3241e93dccf4ec1a776380e01a52e481b08badab0317cd6a895",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              36,
+              28,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "15f183d49c27c7136c8f0c7bf3ed9a73f38927c23f2e4919308e86446c730ada",
+            "rgbaSHA256": "443a894953c8e3241e93dccf4ec1a776380e01a52e481b08badab0317cd6a895",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              36,
+              28,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+            "rgbaSHA256": "7683356471801b3f7eb39682e4a2ed951fd22b12e4262f11de50434e8a10d1c4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "af0bbd94952f2d16018c7e6e3a752b392d5f80b031a93c5cf96c399595429e3d",
+            "rgbaSHA256": "9f3dd8e724b95afe408224957fef4f7413e711cc193d7b66fa4e8150d318170e",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "P": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-south-P.png",
+        "selectedSourceSHA256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [],
+        "hairCells": 304,
+        "hairDependentShadeCells": 6,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 0,
+        "actualMatchingVisiblePackCells": 0,
+        "observedBodyComparedCells": 475,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 113,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            6,
+            36
+          ],
+          [
+            6,
+            37
+          ],
+          [
+            6,
+            38
+          ],
+          [
+            25,
+            36
+          ],
+          [
+            25,
+            37
+          ],
+          [
+            25,
+            38
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            4,
+            48
+          ],
+          [
+            4,
+            49
+          ],
+          [
+            4,
+            50
+          ],
+          [
+            5,
+            36
+          ],
+          [
+            5,
+            37
+          ],
+          [
+            5,
+            38
+          ],
+          [
+            5,
+            48
+          ],
+          [
+            5,
+            49
+          ],
+          [
+            5,
+            50
+          ],
+          [
+            5,
+            51
+          ],
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            8,
+            48
+          ],
+          [
+            8,
+            49
+          ],
+          [
+            12,
+            36
+          ],
+          [
+            12,
+            37
+          ],
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            13,
+            36
+          ],
+          [
+            13,
+            37
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            18,
+            36
+          ],
+          [
+            18,
+            37
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            19,
+            36
+          ],
+          [
+            19,
+            37
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            23,
+            47
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            23,
+            49
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            26,
+            36
+          ],
+          [
+            26,
+            37
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            26,
+            48
+          ],
+          [
+            26,
+            49
+          ],
+          [
+            26,
+            50
+          ],
+          [
+            26,
+            51
+          ],
+          [
+            27,
+            48
+          ],
+          [
+            27,
+            49
+          ],
+          [
+            27,
+            50
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              12,
+              36
+            ],
+            [
+              13,
+              36
+            ],
+            [
+              18,
+              36
+            ],
+            [
+              19,
+              36
+            ],
+            [
+              12,
+              37
+            ],
+            [
+              13,
+              37
+            ],
+            [
+              18,
+              37
+            ],
+            [
+              19,
+              37
+            ],
+            [
+              12,
+              38
+            ],
+            [
+              13,
+              38
+            ],
+            [
+              18,
+              38
+            ],
+            [
+              19,
+              38
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              13,
+              39
+            ],
+            [
+              18,
+              39
+            ],
+            [
+              19,
+              39
+            ]
+          ],
+          "ears": [
+            [
+              5,
+              36
+            ],
+            [
+              6,
+              36
+            ],
+            [
+              25,
+              36
+            ],
+            [
+              26,
+              36
+            ],
+            [
+              5,
+              37
+            ],
+            [
+              6,
+              37
+            ],
+            [
+              25,
+              37
+            ],
+            [
+              26,
+              37
+            ],
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ]
+          ],
+          "hands": [
+            [
+              6,
+              47
+            ],
+            [
+              23,
+              47
+            ],
+            [
+              4,
+              48
+            ],
+            [
+              5,
+              48
+            ],
+            [
+              6,
+              48
+            ],
+            [
+              7,
+              48
+            ],
+            [
+              8,
+              48
+            ],
+            [
+              23,
+              48
+            ],
+            [
+              24,
+              48
+            ],
+            [
+              25,
+              48
+            ],
+            [
+              26,
+              48
+            ],
+            [
+              27,
+              48
+            ],
+            [
+              4,
+              49
+            ],
+            [
+              5,
+              49
+            ],
+            [
+              6,
+              49
+            ],
+            [
+              7,
+              49
+            ],
+            [
+              8,
+              49
+            ],
+            [
+              23,
+              49
+            ],
+            [
+              24,
+              49
+            ],
+            [
+              25,
+              49
+            ],
+            [
+              26,
+              49
+            ],
+            [
+              27,
+              49
+            ],
+            [
+              4,
+              50
+            ],
+            [
+              5,
+              50
+            ],
+            [
+              6,
+              50
+            ],
+            [
+              7,
+              50
+            ],
+            [
+              24,
+              50
+            ],
+            [
+              25,
+              50
+            ],
+            [
+              26,
+              50
+            ],
+            [
+              27,
+              50
+            ],
+            [
+              5,
+              51
+            ],
+            [
+              6,
+              51
+            ],
+            [
+              25,
+              51
+            ],
+            [
+              26,
+              51
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+            "rgbaSHA256": "dc527ae708c9acf8cddb9a193492415ea0f856b085068071dd6010b4137b27cd",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              25,
+              29,
+              60
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "8f2971313b13f60742419d5971ded9660888b4990b0382488de740b6f23ef38d",
+            "rgbaSHA256": "030a4b16e233efef858947a0d3a84302742f548b3653c2930d09f5d95e4656a3",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              28,
+              41
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "e128c048a3e5182df6d25d837ae44e6bf870b30036cb40de3241aa2ca12ce01b",
+            "rgbaSHA256": "814ca781418d566567b0d0aaed988aae12464e98a3f64f9160d251edfa5f3afc",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              7,
+              35,
+              25,
+              36
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "b6a052d6006e4a19600af080c3d66c8149b1dd5d5a3741dfc94175f2c476deeb",
+            "rgbaSHA256": "2ebc912b4a13e8384f0a4b1034dfbd17b49f936c10a1faba7e612e731a6093a9",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              28,
+              41
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-observed-body.png": {
+            "sha256": "060fc690d0253021c0e456da21ba34cf79e56a193e518261d9354216f11da4f6",
+            "rgbaSHA256": "8ef366fb2559401a401a9bbd2452f497da0daffe29caabf0d133b31f7c92ab2f",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              34,
+              29,
+              60
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "060fc690d0253021c0e456da21ba34cf79e56a193e518261d9354216f11da4f6",
+            "rgbaSHA256": "8ef366fb2559401a401a9bbd2452f497da0daffe29caabf0d133b31f7c92ab2f",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              34,
+              29,
+              60
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+            "rgbaSHA256": "5d89e862f973a0768f5953a9ed14063ec7004b5b9b4ec321bd372178ad874d6a",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              3,
+              19,
+              29,
+              60
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "7cd03ebca75e33702d188508a562e78e07ece347c6a33a94e44641caadbb8f30",
+            "rgbaSHA256": "6f33ebce4b743bf169c5497153b42b2efa479c7075ef0654e251415616a4a56d",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              28,
+              41
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "C": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-south-C.png",
+        "selectedSourceSHA256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [],
+        "hairCells": 304,
+        "hairDependentShadeCells": 6,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 0,
+        "actualMatchingVisiblePackCells": 0,
+        "observedBodyComparedCells": 401,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 113,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            6,
+            38
+          ],
+          [
+            6,
+            39
+          ],
+          [
+            6,
+            40
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            25,
+            39
+          ],
+          [
+            25,
+            40
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            5,
+            38
+          ],
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            13,
+            38
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            13,
+            40
+          ],
+          [
+            13,
+            41
+          ],
+          [
+            18,
+            38
+          ],
+          [
+            18,
+            39
+          ],
+          [
+            18,
+            40
+          ],
+          [
+            18,
+            41
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            22,
+            51
+          ],
+          [
+            22,
+            52
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            23,
+            51
+          ],
+          [
+            23,
+            52
+          ],
+          [
+            23,
+            53
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            24,
+            52
+          ],
+          [
+            24,
+            53
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            25,
+            52
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              12,
+              38
+            ],
+            [
+              13,
+              38
+            ],
+            [
+              18,
+              38
+            ],
+            [
+              19,
+              38
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              13,
+              39
+            ],
+            [
+              18,
+              39
+            ],
+            [
+              19,
+              39
+            ],
+            [
+              12,
+              40
+            ],
+            [
+              13,
+              40
+            ],
+            [
+              18,
+              40
+            ],
+            [
+              19,
+              40
+            ],
+            [
+              12,
+              41
+            ],
+            [
+              13,
+              41
+            ],
+            [
+              18,
+              41
+            ],
+            [
+              19,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ],
+            [
+              5,
+              39
+            ],
+            [
+              6,
+              39
+            ],
+            [
+              25,
+              39
+            ],
+            [
+              26,
+              39
+            ],
+            [
+              5,
+              40
+            ],
+            [
+              6,
+              40
+            ],
+            [
+              25,
+              40
+            ],
+            [
+              26,
+              40
+            ]
+          ],
+          "hands": [
+            [
+              23,
+              50
+            ],
+            [
+              24,
+              50
+            ],
+            [
+              25,
+              50
+            ],
+            [
+              22,
+              51
+            ],
+            [
+              23,
+              51
+            ],
+            [
+              24,
+              51
+            ],
+            [
+              25,
+              51
+            ],
+            [
+              22,
+              52
+            ],
+            [
+              23,
+              52
+            ],
+            [
+              24,
+              52
+            ],
+            [
+              25,
+              52
+            ],
+            [
+              23,
+              53
+            ],
+            [
+              24,
+              53
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+            "rgbaSHA256": "09d2e56af4c50452ecf28a29571145f489f620b560d51ca482ad1871e8c681ce",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              27,
+              27,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+            "rgbaSHA256": "cc4d5443b856318635046941db3214ef930c15eefc0f532bae4a38b12c6234c6",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+            "rgbaSHA256": "703e7ece74abbfa66d7a109be465329eddc358d173db4d2bd4051f5101661d13",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              7,
+              37,
+              25,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "22ed388e699f43100c05ea41bcc9a4d4957d6f155bb1163c4827c661d67e8907",
+            "rgbaSHA256": "bae2bce2ef1bd20df49a9f0bef6a3fd57272d2f7dc8b2e47c76e9399a04b7e1b",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-observed-body.png": {
+            "sha256": "f0556dee161011b347747710cc2a0b5f1cdf742af053df0ea7dba88631592e62",
+            "rgbaSHA256": "6886efa93b09f3145d5a659df1e940ebbc15be54ee4d107732d8e704d8f32aab",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              27,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "f0556dee161011b347747710cc2a0b5f1cdf742af053df0ea7dba88631592e62",
+            "rgbaSHA256": "6886efa93b09f3145d5a659df1e940ebbc15be54ee4d107732d8e704d8f32aab",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              27,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+            "rgbaSHA256": "960e26c080f97c235d05d15acb1a8668df4fc31e8084cb24abd5f861c502cf4d",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "af0bbd94952f2d16018c7e6e3a752b392d5f80b031a93c5cf96c399595429e3d",
+            "rgbaSHA256": "9f3dd8e724b95afe408224957fef4f7413e711cc193d7b66fa4e8150d318170e",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              43
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      }
+    },
+    "north": {
+      "idle": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-north-idle.png",
+        "selectedSourceSHA256": "e2d525548354ef6761a3de646aab4cc89f3e652b033c6b7f020bd61137ac0e08",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            8,
+            59
+          ],
+          [
+            9,
+            58
+          ],
+          [
+            9,
+            59
+          ],
+          [
+            9,
+            60
+          ],
+          [
+            10,
+            58
+          ],
+          [
+            10,
+            59
+          ],
+          [
+            10,
+            60
+          ],
+          [
+            11,
+            58
+          ],
+          [
+            11,
+            59
+          ],
+          [
+            11,
+            60
+          ],
+          [
+            12,
+            58
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            13,
+            59
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            19,
+            58
+          ],
+          [
+            19,
+            59
+          ],
+          [
+            19,
+            60
+          ],
+          [
+            20,
+            58
+          ],
+          [
+            20,
+            59
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            21,
+            58
+          ],
+          [
+            21,
+            59
+          ],
+          [
+            21,
+            60
+          ],
+          [
+            22,
+            58
+          ],
+          [
+            22,
+            59
+          ],
+          [
+            22,
+            60
+          ],
+          [
+            23,
+            59
+          ]
+        ],
+        "hairCells": 420,
+        "hairDependentShadeCells": 35,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 80,
+        "actualMatchingVisiblePackCells": 80,
+        "observedBodyComparedCells": 293,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 141,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            5,
+            38
+          ],
+          [
+            6,
+            38
+          ],
+          [
+            6,
+            39
+          ],
+          [
+            6,
+            40
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            25,
+            39
+          ],
+          [
+            25,
+            40
+          ],
+          [
+            26,
+            38
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            6,
+            51
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            50
+          ],
+          [
+            23,
+            50
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            25,
+            51
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [],
+          "ears": [
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ],
+            [
+              5,
+              39
+            ],
+            [
+              6,
+              39
+            ],
+            [
+              25,
+              39
+            ],
+            [
+              26,
+              39
+            ],
+            [
+              5,
+              40
+            ],
+            [
+              6,
+              40
+            ],
+            [
+              25,
+              40
+            ],
+            [
+              26,
+              40
+            ]
+          ],
+          "hands": [
+            [
+              6,
+              49
+            ],
+            [
+              6,
+              50
+            ],
+            [
+              7,
+              50
+            ],
+            [
+              8,
+              50
+            ],
+            [
+              23,
+              50
+            ],
+            [
+              24,
+              50
+            ],
+            [
+              25,
+              50
+            ],
+            [
+              6,
+              51
+            ],
+            [
+              7,
+              51
+            ],
+            [
+              24,
+              51
+            ],
+            [
+              25,
+              51
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "8ae0a6537e9c926531c03062d284b7ea9bb1da539c1a151dc08117109424ff38",
+            "rgbaSHA256": "6661176f53d231c023ed7f20da2575e0e39c9a84d12740b61c654fb7aff008a7",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              27,
+              30,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+            "rgbaSHA256": "773bfe59df0f835b5a484133a30181531bdde3ebf365963e4c2c4fb0d4e8b391",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+            "rgbaSHA256": "ba60f2addd4404a1d461f6beef0c67d65eec19e19a3a4fc22ad3cd41672c72a2",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              9,
+              42,
+              23,
+              45
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "ae6fb2c65f989112977458910a35825974b9a3ba19c3159cc89f44af18337b54",
+            "rgbaSHA256": "03d0abb2e08ce02609500dc002526b69fe566274e6ac68a0cf318711ecbba4bf",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "952b1685f71f4705fe362972b6e458594e50376357aebca77cd4f0bba138b5d9",
+            "rgbaSHA256": "46d744d7db5a2d22b56bafb6079bec1425956d2a0df3d4bda0910e44bd5b61d4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              10,
+              46,
+              22,
+              54
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "54d06a9ccbd617c32728662b09ef1486b2e5be9513e5851efefd0ad931711979",
+            "rgbaSHA256": "6cd769d2277388eb01ceb4387f9457524f4cd423b924b4df52c71e8836d764bc",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              39,
+              30,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "54d06a9ccbd617c32728662b09ef1486b2e5be9513e5851efefd0ad931711979",
+            "rgbaSHA256": "6cd769d2277388eb01ceb4387f9457524f4cd423b924b4df52c71e8836d764bc",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              39,
+              30,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "e2d525548354ef6761a3de646aab4cc89f3e652b033c6b7f020bd61137ac0e08",
+            "rgbaSHA256": "b91642db98b6bd603cd4be88716676066a63a39bc37ef7dad302f80b305b7f8d",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              30,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "fb7e718d9e9e63ae684ff98fe1157e20e8c019102bc57089c14f4994a1793246",
+            "rgbaSHA256": "036801f86050e9a9f70a3792a70e93dae464653e3130159c2e70e68829374803",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "A": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-north-A.png",
+        "selectedSourceSHA256": "9bc7019e2347bf50d4d607b4610b29fc08474cbad8208cd11ea6e29d5bf28453",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            11,
+            62
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            12,
+            61
+          ],
+          [
+            12,
+            62
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            13,
+            61
+          ],
+          [
+            13,
+            62
+          ],
+          [
+            14,
+            60
+          ],
+          [
+            14,
+            61
+          ],
+          [
+            14,
+            62
+          ],
+          [
+            15,
+            60
+          ],
+          [
+            15,
+            61
+          ],
+          [
+            16,
+            60
+          ]
+        ],
+        "hairCells": 420,
+        "hairDependentShadeCells": 35,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 80,
+        "actualMatchingVisiblePackCells": 80,
+        "observedBodyComparedCells": 238,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 141,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            5,
+            38
+          ],
+          [
+            6,
+            38
+          ],
+          [
+            6,
+            39
+          ],
+          [
+            6,
+            40
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            25,
+            39
+          ],
+          [
+            25,
+            40
+          ],
+          [
+            26,
+            38
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            23,
+            51
+          ],
+          [
+            24,
+            50
+          ],
+          [
+            24,
+            51
+          ],
+          [
+            25,
+            50
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [],
+          "ears": [
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ],
+            [
+              5,
+              39
+            ],
+            [
+              6,
+              39
+            ],
+            [
+              25,
+              39
+            ],
+            [
+              26,
+              39
+            ],
+            [
+              5,
+              40
+            ],
+            [
+              6,
+              40
+            ],
+            [
+              25,
+              40
+            ],
+            [
+              26,
+              40
+            ]
+          ],
+          "hands": [
+            [
+              24,
+              50
+            ],
+            [
+              25,
+              50
+            ],
+            [
+              23,
+              51
+            ],
+            [
+              24,
+              51
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "6c356e65c54a6692bfc171970f368aacd3b0e4c6d29f569300a33dbe162592b0",
+            "rgbaSHA256": "238fcbe30bac4f5132f40742a5287999338e9a6329a106e95c409c23c353ea60",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              27,
+              28,
+              64
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+            "rgbaSHA256": "773bfe59df0f835b5a484133a30181531bdde3ebf365963e4c2c4fb0d4e8b391",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+            "rgbaSHA256": "ba60f2addd4404a1d461f6beef0c67d65eec19e19a3a4fc22ad3cd41672c72a2",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              9,
+              42,
+              23,
+              45
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "ae6fb2c65f989112977458910a35825974b9a3ba19c3159cc89f44af18337b54",
+            "rgbaSHA256": "03d0abb2e08ce02609500dc002526b69fe566274e6ac68a0cf318711ecbba4bf",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "952b1685f71f4705fe362972b6e458594e50376357aebca77cd4f0bba138b5d9",
+            "rgbaSHA256": "46d744d7db5a2d22b56bafb6079bec1425956d2a0df3d4bda0910e44bd5b61d4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              10,
+              46,
+              22,
+              54
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "ca6f5aa8c56bcdca83a337dc88c8334a447d03d28ccb51108e4accf319b2e680",
+            "rgbaSHA256": "5699928416dc2803a4d5a2f69b55776fa4a95bdf4ec2343280848213f33e3172",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              39,
+              28,
+              64
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "ca6f5aa8c56bcdca83a337dc88c8334a447d03d28ccb51108e4accf319b2e680",
+            "rgbaSHA256": "5699928416dc2803a4d5a2f69b55776fa4a95bdf4ec2343280848213f33e3172",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              39,
+              28,
+              64
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "9bc7019e2347bf50d4d607b4610b29fc08474cbad8208cd11ea6e29d5bf28453",
+            "rgbaSHA256": "2b12df6e4041c2bb309a7f2eb8f2badf4c7c6eddd7611e21331dfe693cd29c16",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              64
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "fb7e718d9e9e63ae684ff98fe1157e20e8c019102bc57089c14f4994a1793246",
+            "rgbaSHA256": "036801f86050e9a9f70a3792a70e93dae464653e3130159c2e70e68829374803",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "P": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-north-P.png",
+        "selectedSourceSHA256": "c79d662c9c82b098683802336c22f9e5b7d868ab26eb67251eca574030165d8f",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            8,
+            59
+          ],
+          [
+            9,
+            58
+          ],
+          [
+            9,
+            59
+          ],
+          [
+            9,
+            60
+          ],
+          [
+            10,
+            58
+          ],
+          [
+            10,
+            59
+          ],
+          [
+            10,
+            60
+          ],
+          [
+            11,
+            58
+          ],
+          [
+            11,
+            59
+          ],
+          [
+            11,
+            60
+          ],
+          [
+            12,
+            58
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            13,
+            59
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            19,
+            58
+          ],
+          [
+            19,
+            59
+          ],
+          [
+            19,
+            60
+          ],
+          [
+            20,
+            58
+          ],
+          [
+            20,
+            59
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            21,
+            58
+          ],
+          [
+            21,
+            59
+          ],
+          [
+            21,
+            60
+          ],
+          [
+            22,
+            58
+          ],
+          [
+            22,
+            59
+          ],
+          [
+            22,
+            60
+          ],
+          [
+            23,
+            59
+          ]
+        ],
+        "hairCells": 420,
+        "hairDependentShadeCells": 35,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 80,
+        "actualMatchingVisiblePackCells": 80,
+        "observedBodyComparedCells": 333,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 141,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            5,
+            36
+          ],
+          [
+            6,
+            36
+          ],
+          [
+            6,
+            37
+          ],
+          [
+            6,
+            38
+          ],
+          [
+            25,
+            36
+          ],
+          [
+            25,
+            37
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            26,
+            36
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            5,
+            37
+          ],
+          [
+            5,
+            38
+          ],
+          [
+            6,
+            47
+          ],
+          [
+            6,
+            48
+          ],
+          [
+            6,
+            49
+          ],
+          [
+            7,
+            48
+          ],
+          [
+            7,
+            49
+          ],
+          [
+            8,
+            48
+          ],
+          [
+            23,
+            48
+          ],
+          [
+            24,
+            48
+          ],
+          [
+            24,
+            49
+          ],
+          [
+            25,
+            48
+          ],
+          [
+            25,
+            49
+          ],
+          [
+            26,
+            37
+          ],
+          [
+            26,
+            38
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [],
+          "ears": [
+            [
+              5,
+              36
+            ],
+            [
+              6,
+              36
+            ],
+            [
+              25,
+              36
+            ],
+            [
+              26,
+              36
+            ],
+            [
+              5,
+              37
+            ],
+            [
+              6,
+              37
+            ],
+            [
+              25,
+              37
+            ],
+            [
+              26,
+              37
+            ],
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ]
+          ],
+          "hands": [
+            [
+              6,
+              47
+            ],
+            [
+              6,
+              48
+            ],
+            [
+              7,
+              48
+            ],
+            [
+              8,
+              48
+            ],
+            [
+              23,
+              48
+            ],
+            [
+              24,
+              48
+            ],
+            [
+              25,
+              48
+            ],
+            [
+              6,
+              49
+            ],
+            [
+              7,
+              49
+            ],
+            [
+              24,
+              49
+            ],
+            [
+              25,
+              49
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "5d00ebe84bdcf8bccc9d9446589abeae38efd710f285bf00ae9323a4bc57bd07",
+            "rgbaSHA256": "ff498ecd7fd15737d962559d70b6ebfffbcb14fa93a728b44b7918c1771a2353",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              25,
+              30,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "4681d80bd5c75997ec19b5bb43e94ec32aacbd4748e742302c323b3c7b536f24",
+            "rgbaSHA256": "d0083fe0d5f9bb6ed07fb6347644ceb330520fd9014812d97718b8a25a7d65be",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              28,
+              43
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "312db936dd59b001e66341c7a94c3b275ad867f9b5736e165d9291f6b1293e6c",
+            "rgbaSHA256": "1eaec2bbbba6d0b5959824b300f326c40e7f165b4c9b0aab9dd59ca61e5f9376",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              9,
+              40,
+              23,
+              43
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "04e2b5fd7ba0c80dbc96225ef974e1268285b5ccbbf8bb5a8e1796f3c513b3d5",
+            "rgbaSHA256": "3268e89fb5ee50968fd42177449cf9264b0fdf5cfec2df2950cc2e6471eb7358",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              28,
+              43
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "39722eb6df66e6c89b435655354154932074a5c3c7d0c738f7aebd7381a802ce",
+            "rgbaSHA256": "78b8c757a6257e593e5a629884f682b2becda47f6778d0a82f6f02db359638c8",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              10,
+              44,
+              22,
+              52
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "a0263f0a6b99329a2bd8873d38f50690566aa587111576de62966f1b826db62d",
+            "rgbaSHA256": "658ed6a3cb18740e41fc586c87a7743ef56e4b324df1a605718a03752e6bcd0c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              37,
+              30,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "a0263f0a6b99329a2bd8873d38f50690566aa587111576de62966f1b826db62d",
+            "rgbaSHA256": "658ed6a3cb18740e41fc586c87a7743ef56e4b324df1a605718a03752e6bcd0c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              37,
+              30,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "c79d662c9c82b098683802336c22f9e5b7d868ab26eb67251eca574030165d8f",
+            "rgbaSHA256": "cdc6749bbfaea7aa38bc0e9e60e92c7bda78d5fe1ca741fdc0e94555ae76dd3f",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              19,
+              30,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "0790fce1c54cfb9dcce21225c01a2f089daa87ce29487ab6d8460fab9b0de0dd",
+            "rgbaSHA256": "15502f6091f89bbe549c79bae6122536640c983850e2b6a94847c3e9036cc7ad",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              28,
+              43
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "C": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-north-C.png",
+        "selectedSourceSHA256": "9490297cb5128d5718b4a278cb6d78f62cbed7c62fdb4a7f3ca02e893491beee",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            15,
+            60
+          ],
+          [
+            16,
+            60
+          ],
+          [
+            16,
+            61
+          ],
+          [
+            17,
+            60
+          ],
+          [
+            17,
+            61
+          ],
+          [
+            17,
+            62
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            18,
+            61
+          ],
+          [
+            18,
+            62
+          ],
+          [
+            19,
+            60
+          ],
+          [
+            19,
+            61
+          ],
+          [
+            19,
+            62
+          ],
+          [
+            20,
+            62
+          ]
+        ],
+        "hairCells": 420,
+        "hairDependentShadeCells": 35,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 80,
+        "actualMatchingVisiblePackCells": 80,
+        "observedBodyComparedCells": 241,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 141,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [
+          [
+            5,
+            38
+          ],
+          [
+            6,
+            38
+          ],
+          [
+            6,
+            39
+          ],
+          [
+            6,
+            40
+          ],
+          [
+            25,
+            38
+          ],
+          [
+            25,
+            39
+          ],
+          [
+            25,
+            40
+          ],
+          [
+            26,
+            38
+          ]
+        ],
+        "visibleRegisteredFeatureCells": [
+          [
+            5,
+            39
+          ],
+          [
+            5,
+            40
+          ],
+          [
+            6,
+            50
+          ],
+          [
+            7,
+            50
+          ],
+          [
+            7,
+            51
+          ],
+          [
+            8,
+            51
+          ],
+          [
+            26,
+            39
+          ],
+          [
+            26,
+            40
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [],
+          "ears": [
+            [
+              5,
+              38
+            ],
+            [
+              6,
+              38
+            ],
+            [
+              25,
+              38
+            ],
+            [
+              26,
+              38
+            ],
+            [
+              5,
+              39
+            ],
+            [
+              6,
+              39
+            ],
+            [
+              25,
+              39
+            ],
+            [
+              26,
+              39
+            ],
+            [
+              5,
+              40
+            ],
+            [
+              6,
+              40
+            ],
+            [
+              25,
+              40
+            ],
+            [
+              26,
+              40
+            ]
+          ],
+          "hands": [
+            [
+              6,
+              50
+            ],
+            [
+              7,
+              50
+            ],
+            [
+              7,
+              51
+            ],
+            [
+              8,
+              51
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "4ec46eed88f01d57b4d9029986ae74d48e142be118e1e6aad0b4271ec511a9bb",
+            "rgbaSHA256": "c2c407dd228c8c13ab6de865f4205bf9ee78b85b7ed5fd7f9fc56e7aca278b22",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              27,
+              27,
+              64
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+            "rgbaSHA256": "773bfe59df0f835b5a484133a30181531bdde3ebf365963e4c2c4fb0d4e8b391",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+            "rgbaSHA256": "ba60f2addd4404a1d461f6beef0c67d65eec19e19a3a4fc22ad3cd41672c72a2",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              9,
+              42,
+              23,
+              45
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "ae6fb2c65f989112977458910a35825974b9a3ba19c3159cc89f44af18337b54",
+            "rgbaSHA256": "03d0abb2e08ce02609500dc002526b69fe566274e6ac68a0cf318711ecbba4bf",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "952b1685f71f4705fe362972b6e458594e50376357aebca77cd4f0bba138b5d9",
+            "rgbaSHA256": "46d744d7db5a2d22b56bafb6079bec1425956d2a0df3d4bda0910e44bd5b61d4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              10,
+              46,
+              22,
+              54
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "b48d8a21a942cf86ac42cad9f55f120fa4c0ace063553ab42b1f157ab91eb857",
+            "rgbaSHA256": "738b8eabf962087cbc75d8978bb0f8123945e15c7e2a454c2ae707613347e441",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              39,
+              27,
+              64
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "b48d8a21a942cf86ac42cad9f55f120fa4c0ace063553ab42b1f157ab91eb857",
+            "rgbaSHA256": "738b8eabf962087cbc75d8978bb0f8123945e15c7e2a454c2ae707613347e441",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              39,
+              27,
+              64
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "9490297cb5128d5718b4a278cb6d78f62cbed7c62fdb4a7f3ca02e893491beee",
+            "rgbaSHA256": "56b571a74a7f2fb0b28d82f78c1ac63f347e2c74d7b15e4a07c69dca522e00c7",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              64
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "fb7e718d9e9e63ae684ff98fe1157e20e8c019102bc57089c14f4994a1793246",
+            "rgbaSHA256": "036801f86050e9a9f70a3792a70e93dae464653e3130159c2e70e68829374803",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              28,
+              45
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      }
+    },
+    "west": {
+      "idle": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-west-idle.png",
+        "selectedSourceSHA256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            10,
+            58
+          ],
+          [
+            10,
+            59
+          ],
+          [
+            11,
+            58
+          ],
+          [
+            11,
+            59
+          ],
+          [
+            11,
+            60
+          ],
+          [
+            12,
+            58
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            13,
+            58
+          ],
+          [
+            13,
+            59
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            14,
+            58
+          ],
+          [
+            14,
+            59
+          ],
+          [
+            14,
+            60
+          ],
+          [
+            15,
+            58
+          ],
+          [
+            15,
+            59
+          ],
+          [
+            15,
+            60
+          ],
+          [
+            16,
+            58
+          ],
+          [
+            16,
+            59
+          ],
+          [
+            16,
+            60
+          ],
+          [
+            17,
+            58
+          ],
+          [
+            17,
+            59
+          ],
+          [
+            17,
+            60
+          ],
+          [
+            18,
+            58
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            19,
+            58
+          ],
+          [
+            19,
+            59
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 379,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            41
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            16,
+            50
+          ],
+          [
+            16,
+            51
+          ],
+          [
+            16,
+            52
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              10,
+              38
+            ],
+            [
+              11,
+              38
+            ],
+            [
+              10,
+              39
+            ],
+            [
+              11,
+              39
+            ],
+            [
+              10,
+              40
+            ],
+            [
+              11,
+              40
+            ],
+            [
+              10,
+              41
+            ],
+            [
+              11,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              19,
+              39
+            ],
+            [
+              20,
+              39
+            ],
+            [
+              19,
+              40
+            ],
+            [
+              20,
+              40
+            ],
+            [
+              19,
+              41
+            ],
+            [
+              20,
+              41
+            ]
+          ],
+          "hands": [
+            [
+              16,
+              50
+            ],
+            [
+              17,
+              50
+            ],
+            [
+              16,
+              51
+            ],
+            [
+              17,
+              51
+            ],
+            [
+              16,
+              52
+            ],
+            [
+              17,
+              52
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "67877a6ced629c03b7865572b1c021f127cfb93265eba4f75b198c6c0ec71a73",
+            "rgbaSHA256": "a4c03a46fb2c06939cc22fef67afb066e499fdfc04c010dbc7ed7094bff41457",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              27,
+              28,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+            "rgbaSHA256": "eebba5b381ed60f08ea9c5ae0ff2dd753e1cfaecadbdd86cfeb3c9886456a100",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+            "rgbaSHA256": "b859a113875e16a5dfbea00c9873ca6f5052dfc0abf0158b10d8e3601ac0702c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              19,
+              37,
+              21,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "23f3b85eec81a0837c00010301fd34ceb1d9f2878144f96642f0751bc9ca729d",
+            "rgbaSHA256": "dc6b9fa55aa855f920955aeaf79442da74346a50379129d9c6eae54e5f87ec77",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "f4a952f883f2c100df67571816f24158a3943f8d082197ebb9f2c3bf11851dd7",
+            "rgbaSHA256": "b4f2f6072c03cfab4c4dc951526252817c3ecb6588a8854b63c86c6a69238b10",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              22,
+              44,
+              27,
+              53
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "d9f396ee993df793e5e855ca67db8d74295e283683d70182e3521019fc7c3bd4",
+            "rgbaSHA256": "f07838b8d95676883262377586038e1cb2a0a3cc15d96db070c859936b7c54de",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              36,
+              28,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "d9f396ee993df793e5e855ca67db8d74295e283683d70182e3521019fc7c3bd4",
+            "rgbaSHA256": "f07838b8d95676883262377586038e1cb2a0a3cc15d96db070c859936b7c54de",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              36,
+              28,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+            "rgbaSHA256": "952135f6d2efbb7598091f62b8f43e86f83f547a6ce0e58c1b3a8334d151e0bd",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "dd729507c0d76e38bb1c20fcd7de51e3f44e709cc97d9f60fd8a9570a8736a62",
+            "rgbaSHA256": "8236e5ef2cea85746c6bc1c5c2407da57794ecd3e6caf1690b6b50f5cd59b6bc",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "A": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-west-A.png",
+        "selectedSourceSHA256": "b147a3726d52bfe4d282dfeb3e0e0058ece11f9a30635ac6cff6e268e5bd0b71",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            7,
+            57
+          ],
+          [
+            7,
+            58
+          ],
+          [
+            8,
+            57
+          ],
+          [
+            8,
+            58
+          ],
+          [
+            8,
+            59
+          ],
+          [
+            9,
+            57
+          ],
+          [
+            9,
+            58
+          ],
+          [
+            9,
+            59
+          ],
+          [
+            9,
+            60
+          ],
+          [
+            10,
+            57
+          ],
+          [
+            10,
+            58
+          ],
+          [
+            10,
+            59
+          ],
+          [
+            10,
+            60
+          ],
+          [
+            11,
+            58
+          ],
+          [
+            11,
+            59
+          ],
+          [
+            19,
+            60
+          ],
+          [
+            20,
+            59
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            20,
+            61
+          ],
+          [
+            21,
+            59
+          ],
+          [
+            21,
+            60
+          ],
+          [
+            21,
+            61
+          ],
+          [
+            21,
+            62
+          ],
+          [
+            22,
+            59
+          ],
+          [
+            22,
+            61
+          ],
+          [
+            22,
+            62
+          ],
+          [
+            23,
+            59
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 420,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            41
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            49
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              10,
+              38
+            ],
+            [
+              11,
+              38
+            ],
+            [
+              10,
+              39
+            ],
+            [
+              11,
+              39
+            ],
+            [
+              10,
+              40
+            ],
+            [
+              11,
+              40
+            ],
+            [
+              10,
+              41
+            ],
+            [
+              11,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              19,
+              39
+            ],
+            [
+              20,
+              39
+            ],
+            [
+              19,
+              40
+            ],
+            [
+              20,
+              40
+            ],
+            [
+              19,
+              41
+            ],
+            [
+              20,
+              41
+            ]
+          ],
+          "hands": [
+            [
+              14,
+              49
+            ],
+            [
+              15,
+              49
+            ],
+            [
+              13,
+              50
+            ],
+            [
+              14,
+              50
+            ],
+            [
+              13,
+              51
+            ],
+            [
+              14,
+              51
+            ],
+            [
+              13,
+              52
+            ],
+            [
+              14,
+              52
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "3c95cddf08ade8908b8687aec4f5305332faefbe0aaa34d9b6aa857d56e1bd05",
+            "rgbaSHA256": "1d93377c7b016a9cd8c8ed6f1f955b0296752f4cf8104bc4e1d19d20dfae2848",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+            "rgbaSHA256": "eebba5b381ed60f08ea9c5ae0ff2dd753e1cfaecadbdd86cfeb3c9886456a100",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+            "rgbaSHA256": "b859a113875e16a5dfbea00c9873ca6f5052dfc0abf0158b10d8e3601ac0702c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              19,
+              37,
+              21,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "23f3b85eec81a0837c00010301fd34ceb1d9f2878144f96642f0751bc9ca729d",
+            "rgbaSHA256": "dc6b9fa55aa855f920955aeaf79442da74346a50379129d9c6eae54e5f87ec77",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "f4a952f883f2c100df67571816f24158a3943f8d082197ebb9f2c3bf11851dd7",
+            "rgbaSHA256": "b4f2f6072c03cfab4c4dc951526252817c3ecb6588a8854b63c86c6a69238b10",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              22,
+              44,
+              27,
+              53
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "eb3564475866f231445fe8107c73ce4e6e0e9a0148146e652cd45cb024ee14d9",
+            "rgbaSHA256": "688727c57e7db9cde5317c1924612c455e0ac071885459e8c8c3357dda86d4e4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "eb3564475866f231445fe8107c73ce4e6e0e9a0148146e652cd45cb024ee14d9",
+            "rgbaSHA256": "688727c57e7db9cde5317c1924612c455e0ac071885459e8c8c3357dda86d4e4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "b147a3726d52bfe4d282dfeb3e0e0058ece11f9a30635ac6cff6e268e5bd0b71",
+            "rgbaSHA256": "375ad8b7c48ad3d9154cf9a7892ef15b2e685e1d8553016355ea8994f86de954",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              64
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "dd729507c0d76e38bb1c20fcd7de51e3f44e709cc97d9f60fd8a9570a8736a62",
+            "rgbaSHA256": "8236e5ef2cea85746c6bc1c5c2407da57794ecd3e6caf1690b6b50f5cd59b6bc",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "P": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-west-P.png",
+        "selectedSourceSHA256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            10,
+            58
+          ],
+          [
+            10,
+            59
+          ],
+          [
+            11,
+            58
+          ],
+          [
+            11,
+            59
+          ],
+          [
+            11,
+            60
+          ],
+          [
+            12,
+            58
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            13,
+            58
+          ],
+          [
+            13,
+            59
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            14,
+            58
+          ],
+          [
+            14,
+            59
+          ],
+          [
+            14,
+            60
+          ],
+          [
+            15,
+            58
+          ],
+          [
+            15,
+            59
+          ],
+          [
+            15,
+            60
+          ],
+          [
+            16,
+            58
+          ],
+          [
+            16,
+            59
+          ],
+          [
+            16,
+            60
+          ],
+          [
+            17,
+            58
+          ],
+          [
+            17,
+            59
+          ],
+          [
+            17,
+            60
+          ],
+          [
+            18,
+            58
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            19,
+            58
+          ],
+          [
+            19,
+            59
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 406,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            10,
+            36
+          ],
+          [
+            10,
+            37
+          ],
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            11,
+            36
+          ],
+          [
+            11,
+            37
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            16,
+            48
+          ],
+          [
+            16,
+            49
+          ],
+          [
+            16,
+            50
+          ],
+          [
+            17,
+            48
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            19,
+            37
+          ],
+          [
+            19,
+            38
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            20,
+            37
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              10,
+              36
+            ],
+            [
+              11,
+              36
+            ],
+            [
+              10,
+              37
+            ],
+            [
+              11,
+              37
+            ],
+            [
+              10,
+              38
+            ],
+            [
+              11,
+              38
+            ],
+            [
+              10,
+              39
+            ],
+            [
+              11,
+              39
+            ]
+          ],
+          "ears": [
+            [
+              19,
+              37
+            ],
+            [
+              20,
+              37
+            ],
+            [
+              19,
+              38
+            ],
+            [
+              20,
+              38
+            ],
+            [
+              19,
+              39
+            ],
+            [
+              20,
+              39
+            ]
+          ],
+          "hands": [
+            [
+              16,
+              48
+            ],
+            [
+              17,
+              48
+            ],
+            [
+              16,
+              49
+            ],
+            [
+              17,
+              49
+            ],
+            [
+              16,
+              50
+            ],
+            [
+              17,
+              50
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "c6f0fbdcee468919e5f31a88a436568d0e477a032d8dac0571074cb7504227e0",
+            "rgbaSHA256": "b3cafa368d4f91bd7bc3efa95fe8e1901e888a3ec19e3103fc73e282c238f0f3",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              25,
+              28,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "e68652155571c207258028564e9724c84ece3e51f96d659747a5e11bdf7615e1",
+            "rgbaSHA256": "252d4546657cb70ceeb4874836d20a7863fbbd6568555569cfab5e7280aaec09",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              30,
+              42
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "946ffda75f3ed1f15f03eb8ac7965d0cacf34662e64718c59613d225e81bbf45",
+            "rgbaSHA256": "df570329db7991bfd191f18c6bc64c218a8b3a6bc5f13d5eb53becedbe7b5dd7",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              19,
+              35,
+              21,
+              36
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "b3af395d26d396ef81b0c781f16f909c3c0a705deca399ef3d40d79c43c6fed3",
+            "rgbaSHA256": "2cf0bd34501cdda559f98dc5bf5a7a6db1bc312c0e46c1223ac10fc778666c14",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              30,
+              42
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "030c348c8f810b7004a6cf6276b5e47b15e54f9e97acc78c466a282d4a23ae98",
+            "rgbaSHA256": "f6fa0f7e70a644ab61011b614436e7e59a426df99cc15d96da2b0389f57f399d",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              22,
+              42,
+              27,
+              51
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "a5b60cd7af43044dbda6285a737c8f99dae6e0caefd24afd6e2e4f30ea10715a",
+            "rgbaSHA256": "a1fc82fd33e3628201244bfbf3ff0f67d41a68cab76673e68d4552d0ada73075",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              34,
+              28,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "a5b60cd7af43044dbda6285a737c8f99dae6e0caefd24afd6e2e4f30ea10715a",
+            "rgbaSHA256": "a1fc82fd33e3628201244bfbf3ff0f67d41a68cab76673e68d4552d0ada73075",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              34,
+              28,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+            "rgbaSHA256": "752fd63e2b13b4e97ca4ca2f6147487032de7fe49e36da63783b09fd70174196",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              30,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "cfc6a792b5473a1fa61c26b863d5abaefdfbbe2794e7c5eb8ca932331b9939a0",
+            "rgbaSHA256": "04ff50290ad559dca8ea36c35e42b7ddb75d943f4cfed26388602633dd2ea97a",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              19,
+              30,
+              42
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "C": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-west-C.png",
+        "selectedSourceSHA256": "9f022f5b4936fa957c51db15c39737abb40a3b5f2f5648ecee029bd11b3eb723",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            6,
+            59
+          ],
+          [
+            7,
+            59
+          ],
+          [
+            7,
+            60
+          ],
+          [
+            8,
+            59
+          ],
+          [
+            8,
+            60
+          ],
+          [
+            8,
+            61
+          ],
+          [
+            9,
+            59
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            9,
+            62
+          ],
+          [
+            10,
+            59
+          ],
+          [
+            10,
+            60
+          ],
+          [
+            10,
+            61
+          ],
+          [
+            10,
+            62
+          ],
+          [
+            11,
+            59
+          ],
+          [
+            11,
+            60
+          ],
+          [
+            11,
+            61
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            13,
+            59
+          ],
+          [
+            22,
+            59
+          ],
+          [
+            23,
+            58
+          ],
+          [
+            23,
+            59
+          ],
+          [
+            23,
+            60
+          ],
+          [
+            24,
+            58
+          ],
+          [
+            24,
+            59
+          ],
+          [
+            24,
+            60
+          ],
+          [
+            25,
+            58
+          ],
+          [
+            25,
+            59
+          ],
+          [
+            26,
+            58
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 432,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            10,
+            38
+          ],
+          [
+            10,
+            39
+          ],
+          [
+            10,
+            40
+          ],
+          [
+            10,
+            41
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ],
+          [
+            19,
+            39
+          ],
+          [
+            19,
+            40
+          ],
+          [
+            19,
+            41
+          ],
+          [
+            19,
+            50
+          ],
+          [
+            19,
+            51
+          ],
+          [
+            19,
+            52
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              10,
+              38
+            ],
+            [
+              11,
+              38
+            ],
+            [
+              10,
+              39
+            ],
+            [
+              11,
+              39
+            ],
+            [
+              10,
+              40
+            ],
+            [
+              11,
+              40
+            ],
+            [
+              10,
+              41
+            ],
+            [
+              11,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              19,
+              39
+            ],
+            [
+              20,
+              39
+            ],
+            [
+              19,
+              40
+            ],
+            [
+              20,
+              40
+            ],
+            [
+              19,
+              41
+            ],
+            [
+              20,
+              41
+            ]
+          ],
+          "hands": [
+            [
+              18,
+              50
+            ],
+            [
+              19,
+              50
+            ],
+            [
+              18,
+              51
+            ],
+            [
+              19,
+              51
+            ],
+            [
+              18,
+              52
+            ],
+            [
+              19,
+              52
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "00ad61eca7e979dc96f16b45d1de17dc1e443b45b6c191d3e8938704c21ea87c",
+            "rgbaSHA256": "e54c25c61f54e7582ac07c75bf50f8069398919bc4a2960f20f4f1185bf89d86",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+            "rgbaSHA256": "eebba5b381ed60f08ea9c5ae0ff2dd753e1cfaecadbdd86cfeb3c9886456a100",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+            "rgbaSHA256": "b859a113875e16a5dfbea00c9873ca6f5052dfc0abf0158b10d8e3601ac0702c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              19,
+              37,
+              21,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "23f3b85eec81a0837c00010301fd34ceb1d9f2878144f96642f0751bc9ca729d",
+            "rgbaSHA256": "dc6b9fa55aa855f920955aeaf79442da74346a50379129d9c6eae54e5f87ec77",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "f4a952f883f2c100df67571816f24158a3943f8d082197ebb9f2c3bf11851dd7",
+            "rgbaSHA256": "b4f2f6072c03cfab4c4dc951526252817c3ecb6588a8854b63c86c6a69238b10",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              22,
+              44,
+              27,
+              53
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "37baacebf0533f0632f639f69a1d27b886de2e5d915b0caf008c55926808249f",
+            "rgbaSHA256": "83ea7f01118b4bab4a7da099d4426174d6734d30e4edd71c0a2e01b07461e583",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "37baacebf0533f0632f639f69a1d27b886de2e5d915b0caf008c55926808249f",
+            "rgbaSHA256": "83ea7f01118b4bab4a7da099d4426174d6734d30e4edd71c0a2e01b07461e583",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "9f022f5b4936fa957c51db15c39737abb40a3b5f2f5648ecee029bd11b3eb723",
+            "rgbaSHA256": "baeb53a5a4a69a7275411b3784476f615a7362af33df7e1aba604279f4136698",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              64
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "dd729507c0d76e38bb1c20fcd7de51e3f44e709cc97d9f60fd8a9570a8736a62",
+            "rgbaSHA256": "8236e5ef2cea85746c6bc1c5c2407da57794ecd3e6caf1690b6b50f5cd59b6bc",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              21,
+              30,
+              44
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      }
+    },
+    "east": {
+      "idle": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-east-idle.png",
+        "selectedSourceSHA256": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            12,
+            58
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            13,
+            58
+          ],
+          [
+            13,
+            59
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            14,
+            58
+          ],
+          [
+            14,
+            59
+          ],
+          [
+            14,
+            60
+          ],
+          [
+            15,
+            58
+          ],
+          [
+            15,
+            59
+          ],
+          [
+            15,
+            60
+          ],
+          [
+            16,
+            58
+          ],
+          [
+            16,
+            59
+          ],
+          [
+            16,
+            60
+          ],
+          [
+            17,
+            58
+          ],
+          [
+            17,
+            59
+          ],
+          [
+            17,
+            60
+          ],
+          [
+            18,
+            58
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            19,
+            58
+          ],
+          [
+            19,
+            59
+          ],
+          [
+            19,
+            60
+          ],
+          [
+            20,
+            58
+          ],
+          [
+            20,
+            59
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            21,
+            58
+          ],
+          [
+            21,
+            59
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 379,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            14,
+            51
+          ],
+          [
+            14,
+            52
+          ],
+          [
+            15,
+            50
+          ],
+          [
+            15,
+            51
+          ],
+          [
+            15,
+            52
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            40
+          ],
+          [
+            21,
+            41
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              20,
+              38
+            ],
+            [
+              21,
+              38
+            ],
+            [
+              20,
+              39
+            ],
+            [
+              21,
+              39
+            ],
+            [
+              20,
+              40
+            ],
+            [
+              21,
+              40
+            ],
+            [
+              20,
+              41
+            ],
+            [
+              21,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              11,
+              39
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              11,
+              40
+            ],
+            [
+              12,
+              40
+            ],
+            [
+              11,
+              41
+            ],
+            [
+              12,
+              41
+            ]
+          ],
+          "hands": [
+            [
+              14,
+              50
+            ],
+            [
+              15,
+              50
+            ],
+            [
+              14,
+              51
+            ],
+            [
+              15,
+              51
+            ],
+            [
+              14,
+              52
+            ],
+            [
+              15,
+              52
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "8326982b5803d46bb84f46612fdc9b9b1379438640c832ddbf9bf3c3cb259209",
+            "rgbaSHA256": "7ce9e7cbd2a8e941b966ed33d5317847818f4e3e0f30979b4e6057246fbc65d4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              27,
+              27,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+            "rgbaSHA256": "a9559b4fbebf9853b7d636d6c2cef0e7144eb89e7ca8064c219436828a1534c9",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+            "rgbaSHA256": "f6ecb5963d8848b4e19b2f18c2cb02a34eafbd963a79c5650c027a7e650514c5",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              11,
+              37,
+              13,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "ff16ac6573ff4cd3102ced6f22a86da5d7707d97890a4448ed15adcb179e0f7b",
+            "rgbaSHA256": "9ae4039f75f4baed84213da8e83b1c345cb9599ad76899ce2e82384cf410bb2b",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "fd39c7be0cb72bff6839f2169e001656206ef8f4f51b5084b0923876fc3efc1b",
+            "rgbaSHA256": "3a9a83b0333837d88b1aed490c80539fabfc44bbd7b8a50207a1bf1de6f7bc5e",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              44,
+              10,
+              53
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "3682072f50859512ca3ad20660749fd93c0924a96f4185683b2d23c264173caa",
+            "rgbaSHA256": "2d3659d3255adf24052116de1c6937ea392687079ec1f0a2d927ccff8c4f91eb",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              27,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "3682072f50859512ca3ad20660749fd93c0924a96f4185683b2d23c264173caa",
+            "rgbaSHA256": "2d3659d3255adf24052116de1c6937ea392687079ec1f0a2d927ccff8c4f91eb",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              27,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e",
+            "rgbaSHA256": "c57a809e61e40c5ec60da55dbfc45c32c32d5929b8292bc8d4295e0bf7d41aeb",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "1fb8f87c7bae6e183de1fb5d1252eb88686bb1540f0347b071dc589f071e6a6b",
+            "rgbaSHA256": "b5764bbe278c024698f287f2e1419f0af954b929183e1f30c3ed337a7bc5eed5",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "A": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-east-A.png",
+        "selectedSourceSHA256": "89e98ee54eab362e192f88bfcc743292a3d5f183cb8fb6958318792bac9998d4",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            8,
+            59
+          ],
+          [
+            9,
+            59
+          ],
+          [
+            9,
+            61
+          ],
+          [
+            9,
+            62
+          ],
+          [
+            10,
+            59
+          ],
+          [
+            10,
+            60
+          ],
+          [
+            10,
+            61
+          ],
+          [
+            10,
+            62
+          ],
+          [
+            11,
+            59
+          ],
+          [
+            11,
+            60
+          ],
+          [
+            11,
+            61
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            20,
+            58
+          ],
+          [
+            20,
+            59
+          ],
+          [
+            21,
+            57
+          ],
+          [
+            21,
+            58
+          ],
+          [
+            21,
+            59
+          ],
+          [
+            21,
+            60
+          ],
+          [
+            22,
+            57
+          ],
+          [
+            22,
+            58
+          ],
+          [
+            22,
+            59
+          ],
+          [
+            22,
+            60
+          ],
+          [
+            23,
+            57
+          ],
+          [
+            23,
+            58
+          ],
+          [
+            23,
+            59
+          ],
+          [
+            24,
+            57
+          ],
+          [
+            24,
+            58
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 420,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            16,
+            49
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            17,
+            50
+          ],
+          [
+            17,
+            51
+          ],
+          [
+            17,
+            52
+          ],
+          [
+            18,
+            50
+          ],
+          [
+            18,
+            51
+          ],
+          [
+            18,
+            52
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            40
+          ],
+          [
+            21,
+            41
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              20,
+              38
+            ],
+            [
+              21,
+              38
+            ],
+            [
+              20,
+              39
+            ],
+            [
+              21,
+              39
+            ],
+            [
+              20,
+              40
+            ],
+            [
+              21,
+              40
+            ],
+            [
+              20,
+              41
+            ],
+            [
+              21,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              11,
+              39
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              11,
+              40
+            ],
+            [
+              12,
+              40
+            ],
+            [
+              11,
+              41
+            ],
+            [
+              12,
+              41
+            ]
+          ],
+          "hands": [
+            [
+              16,
+              49
+            ],
+            [
+              17,
+              49
+            ],
+            [
+              17,
+              50
+            ],
+            [
+              18,
+              50
+            ],
+            [
+              17,
+              51
+            ],
+            [
+              18,
+              51
+            ],
+            [
+              17,
+              52
+            ],
+            [
+              18,
+              52
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "8e99794ac76a2f2e89209d14e278944410ebd0f666a888651e2140c82aef0d64",
+            "rgbaSHA256": "1702e5b7f9637bd87dd4462917f6b9298955ce056fe301cea65c51b9a0a92f3c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+            "rgbaSHA256": "a9559b4fbebf9853b7d636d6c2cef0e7144eb89e7ca8064c219436828a1534c9",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+            "rgbaSHA256": "f6ecb5963d8848b4e19b2f18c2cb02a34eafbd963a79c5650c027a7e650514c5",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              11,
+              37,
+              13,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "ff16ac6573ff4cd3102ced6f22a86da5d7707d97890a4448ed15adcb179e0f7b",
+            "rgbaSHA256": "9ae4039f75f4baed84213da8e83b1c345cb9599ad76899ce2e82384cf410bb2b",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "fd39c7be0cb72bff6839f2169e001656206ef8f4f51b5084b0923876fc3efc1b",
+            "rgbaSHA256": "3a9a83b0333837d88b1aed490c80539fabfc44bbd7b8a50207a1bf1de6f7bc5e",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              44,
+              10,
+              53
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "6b1fe80ac50990c15a4d817d6c659ae63b3bc1eb4d4e2f021b9739b2255b44e7",
+            "rgbaSHA256": "60c018e9beaa1a71f4f3278a9d4eb8d5a2a8c47a9a570fd22daabe06936381e4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "6b1fe80ac50990c15a4d817d6c659ae63b3bc1eb4d4e2f021b9739b2255b44e7",
+            "rgbaSHA256": "60c018e9beaa1a71f4f3278a9d4eb8d5a2a8c47a9a570fd22daabe06936381e4",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "89e98ee54eab362e192f88bfcc743292a3d5f183cb8fb6958318792bac9998d4",
+            "rgbaSHA256": "b1b279a7b5e6fcea599f48a7c55961652a4ff0bf7d659dc6f5a7703466667294",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              64
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "1fb8f87c7bae6e183de1fb5d1252eb88686bb1540f0347b071dc589f071e6a6b",
+            "rgbaSHA256": "b5764bbe278c024698f287f2e1419f0af954b929183e1f30c3ed337a7bc5eed5",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "P": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-east-P.png",
+        "selectedSourceSHA256": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          46
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            12,
+            58
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            13,
+            58
+          ],
+          [
+            13,
+            59
+          ],
+          [
+            13,
+            60
+          ],
+          [
+            14,
+            58
+          ],
+          [
+            14,
+            59
+          ],
+          [
+            14,
+            60
+          ],
+          [
+            15,
+            58
+          ],
+          [
+            15,
+            59
+          ],
+          [
+            15,
+            60
+          ],
+          [
+            16,
+            58
+          ],
+          [
+            16,
+            59
+          ],
+          [
+            16,
+            60
+          ],
+          [
+            17,
+            58
+          ],
+          [
+            17,
+            59
+          ],
+          [
+            17,
+            60
+          ],
+          [
+            18,
+            58
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            18,
+            60
+          ],
+          [
+            19,
+            58
+          ],
+          [
+            19,
+            59
+          ],
+          [
+            19,
+            60
+          ],
+          [
+            20,
+            58
+          ],
+          [
+            20,
+            59
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            21,
+            58
+          ],
+          [
+            21,
+            59
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 406,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            11,
+            37
+          ],
+          [
+            11,
+            38
+          ],
+          [
+            11,
+            39
+          ],
+          [
+            12,
+            37
+          ],
+          [
+            12,
+            38
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            14,
+            48
+          ],
+          [
+            14,
+            49
+          ],
+          [
+            14,
+            50
+          ],
+          [
+            15,
+            48
+          ],
+          [
+            15,
+            49
+          ],
+          [
+            15,
+            50
+          ],
+          [
+            20,
+            36
+          ],
+          [
+            20,
+            37
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            21,
+            36
+          ],
+          [
+            21,
+            37
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              20,
+              36
+            ],
+            [
+              21,
+              36
+            ],
+            [
+              20,
+              37
+            ],
+            [
+              21,
+              37
+            ],
+            [
+              20,
+              38
+            ],
+            [
+              21,
+              38
+            ],
+            [
+              20,
+              39
+            ],
+            [
+              21,
+              39
+            ]
+          ],
+          "ears": [
+            [
+              11,
+              37
+            ],
+            [
+              12,
+              37
+            ],
+            [
+              11,
+              38
+            ],
+            [
+              12,
+              38
+            ],
+            [
+              11,
+              39
+            ],
+            [
+              12,
+              39
+            ]
+          ],
+          "hands": [
+            [
+              14,
+              48
+            ],
+            [
+              15,
+              48
+            ],
+            [
+              14,
+              49
+            ],
+            [
+              15,
+              49
+            ],
+            [
+              14,
+              50
+            ],
+            [
+              15,
+              50
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "51740ad8976bfe0efc5b64bfcee21013426523ce7854bdf7aab3cf4291bfc1b7",
+            "rgbaSHA256": "94f06672db38057b2a360efbb08c8778ec09d31f55c0d017bb4a1b6a95f90b4d",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              25,
+              27,
+              62
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "e79a635bdce397e52b0077423bbb85dc775164d55e01614f15439f8553d81cd6",
+            "rgbaSHA256": "65bf60d915899234f14546009cc3f7f6d995bf24b1d9caadcfe565217dd4b703",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              19,
+              28,
+              42
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "f4903eeafb13278fd908f05c9cceee747382366a4550887f165c29e7a3212e40",
+            "rgbaSHA256": "305fddfed6e2ede6ac6846d92c09a1f01bfa4fba02df78fb3bf8825999735c9c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              11,
+              35,
+              13,
+              36
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "b3a02481de54c458017ae986afc3009dd9d4f84d6b3c6c16f6e12390bdc84e16",
+            "rgbaSHA256": "5e218359c8f6a93b0bf97fe90e3d4238393472642216616b63557be0ab3f93e1",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              19,
+              28,
+              42
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "9082c2dfbdb61deb0e3dbf68d4e3040e858bdf3d7ac48adcfe8325ea49e0a478",
+            "rgbaSHA256": "523757ca452b858a2c8cea27ed27f80652a2c208477545dce1a204e7cc29fc7f",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              42,
+              10,
+              51
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "a7f5c92242fba609b6dc166e83975e46e323f6c151afb3f1ea470a2516c744d6",
+            "rgbaSHA256": "ee1360cbd1cb473895f17d39db820d4914205eefa4018fce827b0f2ab5b4a9ef",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              34,
+              27,
+              62
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "a7f5c92242fba609b6dc166e83975e46e323f6c151afb3f1ea470a2516c744d6",
+            "rgbaSHA256": "ee1360cbd1cb473895f17d39db820d4914205eefa4018fce827b0f2ab5b4a9ef",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              34,
+              27,
+              62
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c",
+            "rgbaSHA256": "a1812feea250b1daea49cd10fcc97f4856ae7bdd7806c13d2de52024a4415422",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              19,
+              28,
+              62
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "300631cb8ff9e52daf95cacd57c423c77229106a48d19d756c86b8e699db1c95",
+            "rgbaSHA256": "17399fe21cb7514c9605903cad90a0d94e5e3f2bf7c8470cf6d4e0e5602cca26",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              19,
+              28,
+              42
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      },
+      "C": {
+        "selectedHero": "docs/reviews/M1-PS1/hero-east-C.png",
+        "selectedSourceSHA256": "e842dce5b34b9dd2334ecac5251e1a19e61b4b6110f9b127abdd76531d64feac",
+        "frame": [
+          32,
+          64
+        ],
+        "anchor": [
+          16,
+          64
+        ],
+        "sourceTorsoAnchor": [
+          16,
+          48
+        ],
+        "sourceCanonicalPackAnchor": [
+          16,
+          48
+        ],
+        "anchorStatus": "existing image/source registration, not observed hidden joints",
+        "materialRestoreCells": [
+          [
+            5,
+            58
+          ],
+          [
+            6,
+            58
+          ],
+          [
+            6,
+            59
+          ],
+          [
+            7,
+            58
+          ],
+          [
+            7,
+            59
+          ],
+          [
+            7,
+            60
+          ],
+          [
+            8,
+            58
+          ],
+          [
+            8,
+            59
+          ],
+          [
+            8,
+            60
+          ],
+          [
+            9,
+            59
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            19,
+            59
+          ],
+          [
+            19,
+            60
+          ],
+          [
+            20,
+            59
+          ],
+          [
+            20,
+            60
+          ],
+          [
+            20,
+            61
+          ],
+          [
+            21,
+            59
+          ],
+          [
+            21,
+            60
+          ],
+          [
+            21,
+            61
+          ],
+          [
+            21,
+            62
+          ],
+          [
+            22,
+            59
+          ],
+          [
+            22,
+            61
+          ],
+          [
+            22,
+            62
+          ],
+          [
+            23,
+            59
+          ],
+          [
+            23,
+            60
+          ],
+          [
+            23,
+            61
+          ],
+          [
+            24,
+            59
+          ],
+          [
+            24,
+            60
+          ],
+          [
+            25,
+            59
+          ]
+        ],
+        "hairCells": 329,
+        "hairDependentShadeCells": 2,
+        "hairHiddenScalpCutoutCells": [],
+        "visiblePackCandidateCells": 35,
+        "actualMatchingVisiblePackCells": 35,
+        "observedBodyComparedCells": 432,
+        "observedBodyRGBADifferenceCells": 0,
+        "outsideAppearanceRGBADifferenceCells": 0,
+        "baldAlphaDifferenceCells": 146,
+        "recompositionRGBADifferenceCells": 0,
+        "hairOccludedRegisteredFeatureCells": [],
+        "visibleRegisteredFeatureCells": [
+          [
+            11,
+            39
+          ],
+          [
+            11,
+            40
+          ],
+          [
+            11,
+            41
+          ],
+          [
+            12,
+            39
+          ],
+          [
+            12,
+            40
+          ],
+          [
+            12,
+            41
+          ],
+          [
+            12,
+            50
+          ],
+          [
+            12,
+            51
+          ],
+          [
+            12,
+            52
+          ],
+          [
+            13,
+            50
+          ],
+          [
+            13,
+            51
+          ],
+          [
+            13,
+            52
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            20,
+            39
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            20,
+            41
+          ],
+          [
+            21,
+            38
+          ],
+          [
+            21,
+            39
+          ],
+          [
+            21,
+            40
+          ],
+          [
+            21,
+            41
+          ]
+        ],
+        "registeredFeatureSites": {
+          "eyes": [
+            [
+              20,
+              38
+            ],
+            [
+              21,
+              38
+            ],
+            [
+              20,
+              39
+            ],
+            [
+              21,
+              39
+            ],
+            [
+              20,
+              40
+            ],
+            [
+              21,
+              40
+            ],
+            [
+              20,
+              41
+            ],
+            [
+              21,
+              41
+            ]
+          ],
+          "ears": [
+            [
+              11,
+              39
+            ],
+            [
+              12,
+              39
+            ],
+            [
+              11,
+              40
+            ],
+            [
+              12,
+              40
+            ],
+            [
+              11,
+              41
+            ],
+            [
+              12,
+              41
+            ]
+          ],
+          "hands": [
+            [
+              12,
+              50
+            ],
+            [
+              13,
+              50
+            ],
+            [
+              12,
+              51
+            ],
+            [
+              13,
+              51
+            ],
+            [
+              12,
+              52
+            ],
+            [
+              13,
+              52
+            ]
+          ]
+        },
+        "files": {
+          "restored-bald.png": {
+            "sha256": "faa7b6af68bfca7bab1363ce25b4d618b081d6bc142ff1a1f613496b0293e358",
+            "rgbaSHA256": "13cbc61ee37f7e93989521cef3df9081205f5f13f2f565447bd8019b1f15fd4a",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              27,
+              28,
+              64
+            ]
+          },
+          "original-hair.png": {
+            "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+            "rgbaSHA256": "a9559b4fbebf9853b7d636d6c2cef0e7144eb89e7ca8064c219436828a1534c9",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "hair-dependent-shading.png": {
+            "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+            "rgbaSHA256": "f6ecb5963d8848b4e19b2f18c2cb02a34eafbd963a79c5650c027a7e650514c5",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              11,
+              37,
+              13,
+              38
+            ]
+          },
+          "hair-scalp-cutout-mask.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "source-hair-mask.png": {
+            "sha256": "ff16ac6573ff4cd3102ced6f22a86da5d7707d97890a4448ed15adcb179e0f7b",
+            "rgbaSHA256": "9ae4039f75f4baed84213da8e83b1c345cb9599ad76899ce2e82384cf410bb2b",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "source-visible-pack-mask.png": {
+            "sha256": "fd39c7be0cb72bff6839f2169e001656206ef8f4f51b5084b0923876fc3efc1b",
+            "rgbaSHA256": "3a9a83b0333837d88b1aed490c80539fabfc44bbd7b8a50207a1bf1de6f7bc5e",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              5,
+              44,
+              10,
+              53
+            ]
+          },
+          "source-observed-body.png": {
+            "sha256": "9cbd11d6575ac3a27998c0517b52ad58b5c84610ccadf641fcc9fe20c8c05396",
+            "rgbaSHA256": "3c1de1e65ecb84784b7789f024fe669e67794d494a3849fdeab78e7bc20bd647",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "restored-observed-body.png": {
+            "sha256": "9cbd11d6575ac3a27998c0517b52ad58b5c84610ccadf641fcc9fe20c8c05396",
+            "rgbaSHA256": "3c1de1e65ecb84784b7789f024fe669e67794d494a3849fdeab78e7bc20bd647",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              4,
+              36,
+              28,
+              64
+            ]
+          },
+          "recomposed-hero.png": {
+            "sha256": "e842dce5b34b9dd2334ecac5251e1a19e61b4b6110f9b127abdd76531d64feac",
+            "rgbaSHA256": "2040c52fad970e7be6a81b8f2249074d2a5045b590ae9c0074b6512fe5a8102c",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              64
+            ]
+          },
+          "source-vs-bald-alpha-diff.png": {
+            "sha256": "1fb8f87c7bae6e183de1fb5d1252eb88686bb1540f0347b071dc589f071e6a6b",
+            "rgbaSHA256": "b5764bbe278c024698f287f2e1419f0af954b929183e1f30c3ed337a7bc5eed5",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": [
+              2,
+              21,
+              28,
+              44
+            ]
+          },
+          "source-vs-recomposed-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          },
+          "outside-appearance-diff.png": {
+            "sha256": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+            "rgbaSHA256": "9f1dcbc35c350d6027f98be0f5c8b43b42ca52b7604459c0c42be3aa88913d47",
+            "size": [
+              32,
+              64
+            ],
+            "paintedBounds": null
+          }
+        }
+      }
+    }
+  },
+  "inputs": {
+    "docs/reviews/M1-PS1/hero-south-idle.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "docs/reviews/M1-BS2/south-idle/dressed-exact.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "docs/reviews/M1-BS2/south-idle/bald-template.png": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+    "docs/reviews/M1-BS2/south-idle/hair-art.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-BS2/south-idle/hair-dependent-shading.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-BS2/south-idle/optional-hair-attachment.png": "c35d76ea13cde7735b50703c2386361a8a4ccef3484e29934c80d286f1d8f71e",
+    "docs/reviews/M1-HR14/pack-layer-south-idle.png": "bce962697620030dffa2713f0f43b79d1bc44d597b5ca77fb098e45e1261ae26",
+    "docs/reviews/M1-PS1/hero-south-A.png": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+    "docs/reviews/M1-BS2/south-A/dressed-exact.png": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+    "docs/reviews/M1-BS2/south-A/bald-template.png": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+    "docs/reviews/M1-BS2/south-A/hair-art.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-BS2/south-A/hair-dependent-shading.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-BS2/south-A/optional-hair-attachment.png": "c35d76ea13cde7735b50703c2386361a8a4ccef3484e29934c80d286f1d8f71e",
+    "docs/reviews/M1-HR14/pack-layer-south-A.png": "bce962697620030dffa2713f0f43b79d1bc44d597b5ca77fb098e45e1261ae26",
+    "docs/reviews/M1-PS1/hero-south-P.png": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+    "docs/reviews/M1-BS2/south-P/dressed-exact.png": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+    "docs/reviews/M1-BS2/south-P/bald-template.png": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+    "docs/reviews/M1-BS2/south-P/hair-art.png": "8f2971313b13f60742419d5971ded9660888b4990b0382488de740b6f23ef38d",
+    "docs/reviews/M1-BS2/south-P/hair-dependent-shading.png": "e128c048a3e5182df6d25d837ae44e6bf870b30036cb40de3241aa2ca12ce01b",
+    "docs/reviews/M1-BS2/south-P/optional-hair-attachment.png": "ec1aaae17ec21e9526af7536adacee222f1eb41b313707a435d5e9e37ac5640e",
+    "docs/reviews/M1-HR14/pack-layer-south-P.png": "58313c91e8e840eeb8d2388ef17385ebe802d923845a7093191cbdd64930c25a",
+    "docs/reviews/M1-PS1/hero-south-C.png": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+    "docs/reviews/M1-BS2/south-C/dressed-exact.png": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+    "docs/reviews/M1-BS2/south-C/bald-template.png": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+    "docs/reviews/M1-BS2/south-C/hair-art.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-BS2/south-C/hair-dependent-shading.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-BS2/south-C/optional-hair-attachment.png": "c35d76ea13cde7735b50703c2386361a8a4ccef3484e29934c80d286f1d8f71e",
+    "docs/reviews/M1-HR14/pack-layer-south-C.png": "bce962697620030dffa2713f0f43b79d1bc44d597b5ca77fb098e45e1261ae26",
+    "docs/reviews/M1-PS1/hero-north-idle.png": "e2d525548354ef6761a3de646aab4cc89f3e652b033c6b7f020bd61137ac0e08",
+    "docs/reviews/M1-BS2/north-idle/dressed-exact.png": "55702a24a3811bb502c3c733818cdc734557d42ee9905121542e1026216b89cc",
+    "docs/reviews/M1-BS2/north-idle/bald-template.png": "2919e7d22d1d4ee5c2ecd964b45cb3cbf55fc78eb3e028870e44080240118823",
+    "docs/reviews/M1-BS2/north-idle/hair-art.png": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+    "docs/reviews/M1-BS2/north-idle/hair-dependent-shading.png": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+    "docs/reviews/M1-BS2/north-idle/optional-hair-attachment.png": "864a79c9b84f40ba997305554c3f33e5ae4dd6536ad5e625b876a19b211e2395",
+    "docs/reviews/M1-HR14/pack-layer-north-idle.png": "bce962697620030dffa2713f0f43b79d1bc44d597b5ca77fb098e45e1261ae26",
+    "docs/reviews/M1-PS1/hero-north-A.png": "9bc7019e2347bf50d4d607b4610b29fc08474cbad8208cd11ea6e29d5bf28453",
+    "docs/reviews/M1-BS2/north-A/dressed-exact.png": "d0e2d2ce50e483d2d1a3498cffd314ded4d9ae8b5629a3a05cf8ee009f24155c",
+    "docs/reviews/M1-BS2/north-A/bald-template.png": "c3e6759f05825de1940dfe31a6261768d442a6b483696f1c506e54a368af2dd1",
+    "docs/reviews/M1-BS2/north-A/hair-art.png": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+    "docs/reviews/M1-BS2/north-A/hair-dependent-shading.png": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+    "docs/reviews/M1-BS2/north-A/optional-hair-attachment.png": "864a79c9b84f40ba997305554c3f33e5ae4dd6536ad5e625b876a19b211e2395",
+    "docs/reviews/M1-HR14/pack-layer-north-A.png": "bce962697620030dffa2713f0f43b79d1bc44d597b5ca77fb098e45e1261ae26",
+    "docs/reviews/M1-PS1/hero-north-P.png": "c79d662c9c82b098683802336c22f9e5b7d868ab26eb67251eca574030165d8f",
+    "docs/reviews/M1-BS2/north-P/dressed-exact.png": "13d82263e2a30161f26187a45631dd19e05a7cf751e26b3fc0294a844e608443",
+    "docs/reviews/M1-BS2/north-P/bald-template.png": "9346a0ee881dc627c86c71dfb96646945c63e6a562186b47d6fc71901d3d5db4",
+    "docs/reviews/M1-BS2/north-P/hair-art.png": "4681d80bd5c75997ec19b5bb43e94ec32aacbd4748e742302c323b3c7b536f24",
+    "docs/reviews/M1-BS2/north-P/hair-dependent-shading.png": "312db936dd59b001e66341c7a94c3b275ad867f9b5736e165d9291f6b1293e6c",
+    "docs/reviews/M1-BS2/north-P/optional-hair-attachment.png": "1a4177417f2b7a9d10ee852fd378c3479d7ac71f31ef2a6f4df7cccf1dbea3bd",
+    "docs/reviews/M1-HR14/pack-layer-north-P.png": "58313c91e8e840eeb8d2388ef17385ebe802d923845a7093191cbdd64930c25a",
+    "docs/reviews/M1-PS1/hero-north-C.png": "9490297cb5128d5718b4a278cb6d78f62cbed7c62fdb4a7f3ca02e893491beee",
+    "docs/reviews/M1-BS2/north-C/dressed-exact.png": "00625870e1814ff313965472a94f26e7b1a32814c24dcd00fb86eee24fc74616",
+    "docs/reviews/M1-BS2/north-C/bald-template.png": "99518346028ce9eb7a38bcbf5e93d5566d9a29076d08691aaf3eb0d84cfa8944",
+    "docs/reviews/M1-BS2/north-C/hair-art.png": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0",
+    "docs/reviews/M1-BS2/north-C/hair-dependent-shading.png": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649",
+    "docs/reviews/M1-BS2/north-C/optional-hair-attachment.png": "864a79c9b84f40ba997305554c3f33e5ae4dd6536ad5e625b876a19b211e2395",
+    "docs/reviews/M1-HR14/pack-layer-north-C.png": "bce962697620030dffa2713f0f43b79d1bc44d597b5ca77fb098e45e1261ae26",
+    "docs/reviews/M1-PS1/hero-west-idle.png": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+    "docs/reviews/M1-BS2/west-idle/dressed-exact.png": "b9ff1747b65602e805e97ee69a4974b4b850793ae8325c1f3d8c378426555631",
+    "docs/reviews/M1-BS2/west-idle/bald-template.png": "d672dd48da61b1b83cd9a3de5ca1c8f27e0e468cd621a14cf9389aa4c85a941e",
+    "docs/reviews/M1-BS2/west-idle/hair-art.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-BS2/west-idle/hair-dependent-shading.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-BS2/west-idle/optional-hair-attachment.png": "dccb57387c8ef0184adc0f923a4d5af8eae63ab8d0887ab58165c34d8f744280",
+    "docs/reviews/M1-HR14/pack-layer-west-idle.png": "67beb6ab2b865c0a833968d4ddfaccfc7eb0c973730e9742f58a210547362656",
+    "docs/reviews/M1-PS1/hero-west-A.png": "b147a3726d52bfe4d282dfeb3e0e0058ece11f9a30635ac6cff6e268e5bd0b71",
+    "docs/reviews/M1-BS2/west-A/dressed-exact.png": "11c5d4025d582a00abeba01e8d1113c6c6d12874e48bd813289220090e5faf2d",
+    "docs/reviews/M1-BS2/west-A/bald-template.png": "36cfa8278ab82e3de7dd6ade42087c53d83da60a36ab63fbbcc0fd69e9b6eb1f",
+    "docs/reviews/M1-BS2/west-A/hair-art.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-BS2/west-A/hair-dependent-shading.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-BS2/west-A/optional-hair-attachment.png": "dccb57387c8ef0184adc0f923a4d5af8eae63ab8d0887ab58165c34d8f744280",
+    "docs/reviews/M1-HR14/pack-layer-west-A.png": "67beb6ab2b865c0a833968d4ddfaccfc7eb0c973730e9742f58a210547362656",
+    "docs/reviews/M1-PS1/hero-west-P.png": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+    "docs/reviews/M1-BS2/west-P/dressed-exact.png": "803f4feaf570580df5009dc638b22e81eca179974fd9c8ca543e8e144c04a2aa",
+    "docs/reviews/M1-BS2/west-P/bald-template.png": "316d0061aaa3b5df967689b5434531cc08cf58d598f9d72bb66027a5cf021cf8",
+    "docs/reviews/M1-BS2/west-P/hair-art.png": "e68652155571c207258028564e9724c84ece3e51f96d659747a5e11bdf7615e1",
+    "docs/reviews/M1-BS2/west-P/hair-dependent-shading.png": "946ffda75f3ed1f15f03eb8ac7965d0cacf34662e64718c59613d225e81bbf45",
+    "docs/reviews/M1-BS2/west-P/optional-hair-attachment.png": "c0506e3e64e26ef7b809646378dfeee181b2a6563d20557f82fff1b52a7429ac",
+    "docs/reviews/M1-HR14/pack-layer-west-P.png": "9cb383b00ecf8679226a6c69c98d947da09bc657346bddf9105ffe1e5d741f50",
+    "docs/reviews/M1-PS1/hero-west-C.png": "9f022f5b4936fa957c51db15c39737abb40a3b5f2f5648ecee029bd11b3eb723",
+    "docs/reviews/M1-BS2/west-C/dressed-exact.png": "ad642a0113b3d99ef92b86929fa15ff1aba48148b4e1dfce3d66825d86fd649b",
+    "docs/reviews/M1-BS2/west-C/bald-template.png": "2a61a027337778413907202042d9417a48a4944beae9d8f25be3f5e2f7cbddd7",
+    "docs/reviews/M1-BS2/west-C/hair-art.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-BS2/west-C/hair-dependent-shading.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-BS2/west-C/optional-hair-attachment.png": "dccb57387c8ef0184adc0f923a4d5af8eae63ab8d0887ab58165c34d8f744280",
+    "docs/reviews/M1-HR14/pack-layer-west-C.png": "67beb6ab2b865c0a833968d4ddfaccfc7eb0c973730e9742f58a210547362656",
+    "docs/reviews/M1-PS1/hero-east-idle.png": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e",
+    "docs/reviews/M1-BS2/east-idle/dressed-exact.png": "7b3d8dde73174657da8d83535d3e053dbb09e125290fedf8e3dbf6376012506b",
+    "docs/reviews/M1-BS2/east-idle/bald-template.png": "b2c8987cea8de5361caa0d825420bc0f7dee5f95ff49093bbe7deaabcce3f5e5",
+    "docs/reviews/M1-BS2/east-idle/hair-art.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-BS2/east-idle/hair-dependent-shading.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-BS2/east-idle/optional-hair-attachment.png": "33ea9daf58e063bb940575cf05d37082f50e94a55e6e9be358452633873490bf",
+    "docs/reviews/M1-HR14/pack-layer-east-idle.png": "86c4db3cba6aaba0a36c38df25f2caca6fdf71c0c619cf58d21f8e35a4f6aa4e",
+    "docs/reviews/M1-PS1/hero-east-A.png": "89e98ee54eab362e192f88bfcc743292a3d5f183cb8fb6958318792bac9998d4",
+    "docs/reviews/M1-BS2/east-A/dressed-exact.png": "f470a50d15291a76b900f3a46d8f76278e3751f352c74162c39d37b7e6c7518d",
+    "docs/reviews/M1-BS2/east-A/bald-template.png": "e542d8a52e01692d89d24ca5eb5f7201ebe4bb8798112a17624d9f333faf9694",
+    "docs/reviews/M1-BS2/east-A/hair-art.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-BS2/east-A/hair-dependent-shading.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-BS2/east-A/optional-hair-attachment.png": "33ea9daf58e063bb940575cf05d37082f50e94a55e6e9be358452633873490bf",
+    "docs/reviews/M1-HR14/pack-layer-east-A.png": "86c4db3cba6aaba0a36c38df25f2caca6fdf71c0c619cf58d21f8e35a4f6aa4e",
+    "docs/reviews/M1-PS1/hero-east-P.png": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c",
+    "docs/reviews/M1-BS2/east-P/dressed-exact.png": "4eab449fed93618a7b0a9b6e7c850f89f89077a0a65253620fa7de3e26960248",
+    "docs/reviews/M1-BS2/east-P/bald-template.png": "b18fc353247a8b9c8b2f3e8d1b82297f9f57a0404b2870e7646ee6fe773a74c7",
+    "docs/reviews/M1-BS2/east-P/hair-art.png": "e79a635bdce397e52b0077423bbb85dc775164d55e01614f15439f8553d81cd6",
+    "docs/reviews/M1-BS2/east-P/hair-dependent-shading.png": "f4903eeafb13278fd908f05c9cceee747382366a4550887f165c29e7a3212e40",
+    "docs/reviews/M1-BS2/east-P/optional-hair-attachment.png": "694a4ebf5b280d68f5fc765b8be9cb263782b09a3a1ecf08862aa16102206056",
+    "docs/reviews/M1-HR14/pack-layer-east-P.png": "a0ac41427d7794b46e66a4b64efd24039301e52308af7e116745b4762acb07ec",
+    "docs/reviews/M1-PS1/hero-east-C.png": "e842dce5b34b9dd2334ecac5251e1a19e61b4b6110f9b127abdd76531d64feac",
+    "docs/reviews/M1-BS2/east-C/dressed-exact.png": "d27a11163465c279810a8447c0c792ae9a2c2ef775acb8e295b8f05cf7ed5a9a",
+    "docs/reviews/M1-BS2/east-C/bald-template.png": "9a1b71c50b05543ec0384ecbab50b5f7b55d94328b884e950e3fb099607539b0",
+    "docs/reviews/M1-BS2/east-C/hair-art.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-BS2/east-C/hair-dependent-shading.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-BS2/east-C/optional-hair-attachment.png": "33ea9daf58e063bb940575cf05d37082f50e94a55e6e9be358452633873490bf",
+    "docs/reviews/M1-HR14/pack-layer-east-C.png": "86c4db3cba6aaba0a36c38df25f2caca6fdf71c0c619cf58d21f8e35a4f6aa4e"
+  },
+  "animationWork": "not part of current static shared-body checkpoint"
+}
