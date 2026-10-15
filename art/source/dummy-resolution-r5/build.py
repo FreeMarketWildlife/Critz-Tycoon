@@ -35,6 +35,7 @@ for po in ['idle','A','P','C']:
  for xy in shoe:im.putpixel(xy,old.getpixel(xy))
  assert im.crop((0,0,16,cut)).tobytes()==old.crop((0,0,16,cut)).tobytes()
  assert all(im.getpixel(xy)==old.getpixel(xy) for xy in shoe)
+ assert im.crop((0,28,16,32)).tobytes()==old.crop((0,28,16,32)).tobytes()
  frames[1]['west'][po]=im;frames[1]['east'][po]=im.transpose(Image.Transpose.FLIP_LEFT_RIGHT);records[po]={'protectedAboveRow':cut,'headExactDS4':True,'shoePixelsExactDS4':True,'nearShoulder':[8,22+dy],'nativeShirtVisibleRows':[22+dy,24+dy],'sourceContactPair':{'A':[7,8],'P':[2,2],'C':[8,7],'idle':[2,2]}[po]}
 fnt=ImageFont.truetype('/System/Library/Fonts/Menlo.ttc',13)
 def save(s):
@@ -89,6 +90,9 @@ for po in ['idle','A','P','C']:
  else:
   up([(16,44),(18,44),(20,46),(23,49),(23,51),(20,51),(18,48),(16,47)],'g');up([(16,44),(17,44),(18,46),(19,47),(17,47),(16,46)],'w');up([(21,50),(23,50),(25,51),(25,53),(23,55),(21,54),(20,52)],'s');ur((21,50,23,53),'m');ur((21,50,22,51),'l')
  for xy in shoe:im.putpixel(xy,old.getpixel(xy))
+ # Lower gait is outside the shoulder/torso edit, including navy join cells.
+ im.paste(old.crop((0,56,32,64)),(0,56))
+ assert im.crop((0,56,32,64)).tobytes()==old.crop((0,56,32,64)).tobytes()
  assert im.crop((0,0,32,cut)).tobytes()==old.crop((0,0,32,cut)).tobytes()
  assert all(im.getpixel(xy)==old.getpixel(xy) for xy in shoe)
  frames[2]['west'][po]=im;frames[2]['east'][po]=im.transpose(Image.Transpose.FLIP_LEFT_RIGHT)
