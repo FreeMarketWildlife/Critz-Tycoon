@@ -1,0 +1,146 @@
+[
+  {
+    "direction": "south",
+    "pose": "idle",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "south",
+    "pose": "A",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 6
+  },
+  {
+    "direction": "south",
+    "pose": "P",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "south",
+    "pose": "C",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 9
+  },
+  {
+    "direction": "north",
+    "pose": "idle",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "north",
+    "pose": "A",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 11
+  },
+  {
+    "direction": "north",
+    "pose": "P",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "north",
+    "pose": "C",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 32,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 8
+  },
+  {
+    "direction": "west",
+    "pose": "idle",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "west",
+    "pose": "A",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 4
+  },
+  {
+    "direction": "west",
+    "pose": "P",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "west",
+    "pose": "C",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 7
+  },
+  {
+    "direction": "east",
+    "pose": "idle",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "east",
+    "pose": "A",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 3
+  },
+  {
+    "direction": "east",
+    "pose": "P",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 0
+  },
+  {
+    "direction": "east",
+    "pose": "C",
+    "actualPartsComposeExactly": true,
+    "limbJointsOverlap": true,
+    "headTorsoOverlap": 46,
+    "dressingClipsExposedFeatures": false,
+    "clipCount": 7
+  }
+]
