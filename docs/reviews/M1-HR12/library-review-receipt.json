@@ -1,0 +1,101 @@
+{
+  "task": "M1.HR12 Library delivery",
+  "sourceCommit": "3b947e8b9588e3b18a64da068403900230de27be",
+  "sourceReceiptCommit": "cc6099e175928225889083f8ee4edc827d50beaf",
+  "items": [
+    {
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-4x.gif",
+      "library_file_id": "libfile_10bcdbfa3dd48191bcdafeec94e3ad95",
+      "file_id": "file_00000000dea881fd94b60ca774e181f0",
+      "file_name": "source-hero-mannequin-4x.gif",
+      "version": 0,
+      "bytes": 1563113,
+      "sha256": "3393c69e20c6f4f569e049d8e5ac9eed47f42364296b865a2ff2475bb826a96d",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "exactDecodedPixels": true,
+      "loop": 0
+    },
+    {
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-SLOW4x-4x.gif",
+      "library_file_id": "libfile_3caabafb35648191b1c21addde73d182",
+      "file_id": "file_0000000081348230a72662c28c0e74aa",
+      "file_name": "source-hero-mannequin-SLOW4x-4x.gif",
+      "version": 0,
+      "bytes": 1563113,
+      "sha256": "0c0a04e3af3e33cc1dbe680a5cc96e64a5fd963814881562142763878f4d0f60",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "exactDecodedPixels": true,
+      "loop": 0
+    },
+    {
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/anatomy-contact.png",
+      "library_file_id": "libfile_f1e8a027bcf481918ec6fa78193c6b6d",
+      "file_id": "file_000000008e14823086558c7c6f95903d",
+      "file_name": "anatomy-contact.png",
+      "version": 0,
+      "bytes": 42847,
+      "sha256": "8ce5329a0d7b769ba1333f321e3f0d48c6a0e5da03f053f39006f5e229370a31",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        1400,
+        560
+      ],
+      "exactDecodedPixels": true
+    },
+    {
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/outfit-registration.png",
+      "library_file_id": "libfile_9f01ff8ff0008191adad9e4df47cbe37",
+      "file_id": "file_00000000e68081f78dc05ce00e11abd1",
+      "file_name": "outfit-registration.png",
+      "version": 0,
+      "bytes": 33981,
+      "sha256": "a7f708f5b2b92687bad356f9dbcc15119fd93096f812a0a325d1492324e1aa57",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        1040,
+        390
+      ],
+      "exactDecodedPixels": true
+    }
+  ],
+  "artworkChanged": false,
+  "deployed": false,
+  "approval": "Review delivery only; no appearance approval inferred",
+  "uploadRoute": "Prepared helper reported prepare_uploads unavailable before upload; supported ordered direct batch succeeded. Current helper persisted metadata and materialized downloaded copies."
+}
