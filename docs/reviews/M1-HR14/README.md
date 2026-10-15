@@ -1,3 +1,5 @@
+> **Current bald foundation and front-hand checkpoint:** [Independent review, exact changes, native Library previews and current source](wrist-correction/README.md). It supersedes earlier wrist colors and affected Library versions below. Hero hair and bald dummy heads are unchanged; creator remains unstarted pending this parent checkpoint. Earlier render traces/material receipts remain historical evidence, not proof of current wrist pixels.
+
 # M1.HR14 — Source-derived material contrast and visible foot landmarks
 
 **Current checkpoint:** [Bald reusable dummy audit and bounded front hand/cuff correction](wrist-correction/README.md) supersede the front wrist pixels described below. Dummy already bald in all16 distinct combinations; zero head edits. Corrected south native/export hashes differ; earlier render traces/Library receipts below remain historical evidence, not current south-motion approval. Independent foundation review pending.

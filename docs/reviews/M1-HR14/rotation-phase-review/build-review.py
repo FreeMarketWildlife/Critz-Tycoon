@@ -1,7 +1,7 @@
 """Review composition only: existing HR14 pixels, no new character poses."""
 from pathlib import Path
 from PIL import Image, ImageDraw
-import hashlib, json
+import hashlib, json, subprocess
 
 ROOT = Path(__file__).resolve().parents[4]
 OUT = Path(__file__).parent
@@ -72,6 +72,9 @@ for scale in (1,4):
     idle.resize((idle.width*scale,idle.height*scale),Image.Resampling.NEAREST).save(OUT/f'idle-directions-{scale}x.png')
     contact.resize((contact.width*scale,contact.height*scale),Image.Resampling.NEAREST).save(OUT/f'unique-phase-contact-{scale}x.png')
 
-report={'task':'HR14 existing-frame rotation/phase review','source_commit':'c98a8cbd8d85e160e9080d6690964c3c3deb3ef1','frozen_receipt_commit':'d5dc45838c1ee5bc4ea9f402e73edd2e8ebcce87','rotation_order':ROTATION,'rotation_role_order':['hero','dummy'],'phase_direction_order':DIRECTIONS,'phase_role_rows':['hero','dummy'],'phase_order':PHASES,'phase_clock':'100ms per source slot; common phase comparison, NOT ROM native timing','slow_clock':'400ms per source slot; diagnosis only','source_pixels':'All source rectangles exact alpha-composited pixels; fixed32x64 frame/16,64 anchor; markers outside source rectangle','input_hashes':inputs,'exports':exports,'output_hashes':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.iterdir() if p.suffix in ('.png','.gif')}}
+source_commit=subprocess.check_output(['git','log','-1','--format=%H','--',*inputs],cwd=ROOT,text=True).strip()
+for name in inputs:
+    assert (ROOT/name).read_bytes()==subprocess.check_output(['git','show',source_commit+':'+name],cwd=ROOT)
+report={'task':'HR14 existing-frame rotation/phase review','source_commit':source_commit,'previous_material_source':'c98a8cbd8d85e160e9080d6690964c3c3deb3ef1','input_frozen_check':'All32 PNGs exact to current source commit','rotation_order':ROTATION,'rotation_role_order':['hero','dummy'],'phase_direction_order':DIRECTIONS,'phase_role_rows':['hero','dummy'],'phase_order':PHASES,'phase_clock':'100ms per source slot; common phase comparison, NOT ROM native timing','slow_clock':'400ms per source slot; diagnosis only','source_pixels':'All source rectangles exact alpha-composited pixels; fixed32x64 frame/16,64 anchor; markers outside source rectangle','input_hashes':inputs,'exports':exports,'output_hashes':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in OUT.iterdir() if p.suffix in ('.png','.gif')}}
 (OUT/'composition-checks.json').write_text(json.dumps(report,indent=2)+'\n')
 print(f'Composed {len(inputs)} unchanged source PNGs; six exact GIF schedules and four nearest PNG plates.')

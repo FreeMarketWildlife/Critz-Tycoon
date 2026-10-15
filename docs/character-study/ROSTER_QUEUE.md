@@ -40,8 +40,8 @@ This is an operational **proposal**, based on C6's explicit table order, followe
 
 | Order | Review target | State / dependency |
 | --- | --- | --- |
-| 0 | HR14 Hero boy **and reusable dummy** | Scoped construction-quality pass atd5dc458: material/cue/anchor/contact/chest/pack plus complete rendered cycles/visual transitions checked. BroaderM1/runtime/userappearance remains UNAPPROVED. |
-| 1 | Girl Hero | M1.GH1 front wrist correction: scoped material/construction pass at5f452ef/5597115; six previews updated tov1 plus two newv0 proofs, all8 verified. Directional continuation blocked by automatic approval review pending direct trusted messaging/scope authorization; no runtime promotion |
+| 0 | HR14 Hero boy **and bald reusable dummy** | Scoped bald/hand foundation pass at `bae462f` / `3e0937c8`; current Library gate delivered before creator. Broader M1/runtime appearance remains unapproved. |
+| 1 | Girl Hero | Corrected front remains verified. Latest priority holds further directions and roster work while the bald foundation is reviewed, then the bounded creator prototype. Earlier handoff denials are historical; the specific HR14 correction retry succeeded. |
 | 2 | Professor Nugget | Planned, after previous character's review/fixes |
 | 3 | Mom | Planned, after previous character's review/fixes |
 | 4 | Kaid | Planned, after previous character's review/fixes; explicit asymmetric feature review |

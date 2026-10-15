@@ -215,5 +215,8 @@
   "verification": "10 Library downloads exact bytes, dimensions, all RGBA frames, GIF durations/loop. All32 existing source PNGs unchanged from frozen material source.",
   "visual_scope": "Actual native/4x idle and all12 distinct gait pose pairs inspected; existing reference material/contact sheet inspected externally. Three actual browser screenshots sample rotation/normal/slow playback; no uninterrupted continuous watch claimed.",
   "continuous_watch_cycles_claimed": 0,
-  "not_approved": "No runtime acceptance, art alteration, new Girl directions or writer message."
+  "not_approved": "No runtime acceptance, art alteration, new Girl directions or writer message.",
+  "historical_before_front_wrist_correction": true,
+  "superseded_by": "docs/reviews/M1-HR14/wrist-correction/library-review-receipt.json",
+  "version_note": "Some identities now serve corrected versions. This receipt records their earlier content; use current wrist receipt for updated IDs/versions/hashes."
 }

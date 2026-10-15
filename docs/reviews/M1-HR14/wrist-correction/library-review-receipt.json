@@ -1,0 +1,519 @@
+{
+  "task": "HR14 front hand clarity and bald reusable dummy foundation",
+  "source_commit": "bae462fd18d45d4d2c84883245e185a6eb18c45c",
+  "frozen_receipt_commit": "3e0937c8bf7aa81f2f081929a804cca447aa65d9",
+  "result": "Independent scoped foundation construction pass; creator not started pending parent checkpoint. No M1/runtime acceptance.",
+  "changes": {
+    "Hero_color_cells_by_pose": {
+      "idle": 27,
+      "A": 10,
+      "P": 27,
+      "C": 10
+    },
+    "bald_head_edits": 0,
+    "dummy_head": "Already bald in all16 distinct direction/pose combinations. No hair-shaped contour; reconstructed skull is authored, not observed hidden anatomy.",
+    "protected": "All alpha/anchors/timing/head/hair/feet/pack/NWE/Girl exact."
+  },
+  "checks": {
+    "writer_assertions": 4697,
+    "editable_projects": 10,
+    "existing_gifs": 28,
+    "new_diagnostic_gifs": 18,
+    "actual_render_screenshots": 179,
+    "normal_complete_cycles": 16,
+    "slow_complete_cycles": 3,
+    "unmatched_panels": 0,
+    "human_uninterrupted_cycles": 0,
+    "verified_Library_downloads": 22
+  },
+  "files": [
+    {
+      "original": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
+      "library_file_id": "libfile_461edb9f0e1c819192014f251e4d31ba",
+      "file_id": "file_00000000e85481f4bd85746b40bac82c",
+      "file_name": "source-hero-template-south-4x.gif",
+      "version": 2,
+      "sha256": "ccb20b4f3ee4df039b633d866643265733213ca01ca6ffc81e1afef6c89f35f7",
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "delays_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-4x.gif",
+      "library_file_id": "libfile_e4b45983a4a481919b6c2e6e93fd680d",
+      "file_id": "file_00000000e7308230b7aac3f323a722d1",
+      "file_name": "source-hero-template-south-SLOW4x-4x.gif",
+      "version": 2,
+      "sha256": "8fd0e6c5802b410c3935ca6bd43f2628d271f5457ebfec7cf3506d7dfa1f1086",
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "delays_ms": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-native.gif",
+      "library_file_id": "libfile_8b0e764f7b3881919eda223c4a4c35fd",
+      "file_id": "file_00000000f45481f5995efe1eca7e5e8a",
+      "file_name": "source-hero-template-south-native.gif",
+      "version": 2,
+      "sha256": "d4ec70e2fb6f9a0b6124fd38056b47487946e0c40fb02aba49e85b657e6e456b",
+      "dimensions": [
+        112,
+        96
+      ],
+      "frames": 8,
+      "delays_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-4x.gif",
+      "library_file_id": "libfile_33f75b69776c8191b767d3dfa5baeafd",
+      "file_id": "file_00000000046482308c4661f06f2b511d",
+      "file_name": "four-direction-PHASE-source-hero-template-4x.gif",
+      "version": 2,
+      "sha256": "ac67598d184a6f734106616b30c6319f7613bb5471bf3312cd73678037694362",
+      "dimensions": [
+        896,
+        768
+      ],
+      "frames": 8,
+      "delays_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
+      "library_file_id": "libfile_4b547acc51b88191a6a13976c4bdf283",
+      "file_id": "file_0000000066688230b2a7b108b552126f",
+      "file_name": "four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
+      "version": 2,
+      "sha256": "071e88f8b10d367d053dcc6b6dabfbba0887dbb734cb92f71d32f486062cf828",
+      "dimensions": [
+        896,
+        768
+      ],
+      "frames": 8,
+      "delays_ms": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-featured-dummy-sheet.png",
+      "library_file_id": "libfile_8ccc04fafdc881918e5ada6281b448e6",
+      "file_id": "file_00000000e1a881f882d649de8e10c9aa",
+      "file_name": "four-direction-featured-dummy-sheet.png",
+      "version": 2,
+      "sha256": "8e0637912942aeb02eb45fd7bed1a88b5ff321740572cf2eaff133bf35a30dab",
+      "dimensions": [
+        1440,
+        1280
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-common-feature-registration.png",
+      "library_file_id": "libfile_e45aa6705ea0819188691f2ecea2254c",
+      "file_id": "file_00000000f78c81f9b8d937947794f31f",
+      "file_name": "four-direction-common-feature-registration.png",
+      "version": 2,
+      "sha256": "83227976351fa4f1dde4769e9ce3c7162602629a9e432e077f1f346bcba8b1ae",
+      "dimensions": [
+        1600,
+        920
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/turn-in-place-1x.gif",
+      "library_file_id": "libfile_49255296fb388191aa631fbef101b88c",
+      "file_id": "file_00000000734881fdae8959737245c676",
+      "file_name": "turn-in-place-1x.gif",
+      "version": 1,
+      "sha256": "95ced1588bc53c6d746bc705ea04c173db46f24429f8bbdc01e45a0a8c08e5ab",
+      "dimensions": [
+        80,
+        72
+      ],
+      "frames": 4,
+      "delays_ms": [
+        500,
+        500,
+        500,
+        500
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/turn-in-place-4x.gif",
+      "library_file_id": "libfile_e088333253488191842bfd9c26d31309",
+      "file_id": "file_00000000026c81f8aaf30600692d58ae",
+      "file_name": "turn-in-place-4x.gif",
+      "version": 1,
+      "sha256": "243fc2e942560dbabfce58ba4dbde56602fd5906b29ccdce81f530fd58be9f94",
+      "dimensions": [
+        320,
+        288
+      ],
+      "frames": 4,
+      "delays_ms": [
+        500,
+        500,
+        500,
+        500
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-1x.gif",
+      "library_file_id": "libfile_9cf56acdcab081919facd35975864287",
+      "file_id": "file_00000000823882308b09e1e45fc510d7",
+      "file_name": "synchronized-PHASE-1x.gif",
+      "version": 1,
+      "sha256": "745fdc39c748f8e00ff6d23d8419b66ed3e9694e8654cc17404928ba4cf7476a",
+      "dimensions": [
+        160,
+        144
+      ],
+      "frames": 4,
+      "delays_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-4x.gif",
+      "library_file_id": "libfile_8d68c152a1d481919a781bb5d94d4428",
+      "file_id": "file_00000000966c81f5bfae2efd6fcd0c29",
+      "file_name": "synchronized-PHASE-4x.gif",
+      "version": 1,
+      "sha256": "fc51ad7f81696753c432981532152f3661ce519b03670a80191fde564554b945",
+      "dimensions": [
+        640,
+        576
+      ],
+      "frames": 4,
+      "delays_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-SLOW-1x.gif",
+      "library_file_id": "libfile_8f327d14675481918311f7d338524356",
+      "file_id": "file_00000000d31081fd822bbe980cd5c31c",
+      "file_name": "synchronized-PHASE-SLOW-1x.gif",
+      "version": 1,
+      "sha256": "0f2007f23b6689dd26c8847460f7b1a83c9090b2905415c140e8c527932df176",
+      "dimensions": [
+        160,
+        144
+      ],
+      "frames": 4,
+      "delays_ms": [
+        800,
+        800,
+        800,
+        800
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-SLOW-4x.gif",
+      "library_file_id": "libfile_cb607ee42480819194ac164160a9d9df",
+      "file_id": "file_00000000283c81f88957fd79114f860b",
+      "file_name": "synchronized-PHASE-SLOW-4x.gif",
+      "version": 1,
+      "sha256": "a26addf3aea62697a79e4c8a056bd73f3fdb4200c9480ecb59a77e7854069a58",
+      "dimensions": [
+        640,
+        576
+      ],
+      "frames": 4,
+      "delays_ms": [
+        800,
+        800,
+        800,
+        800
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/idle-directions-1x.png",
+      "library_file_id": "libfile_ddbe314092388191b0b34dbf9affebba",
+      "file_id": "file_00000000b8348230840100e0141f12fa",
+      "file_name": "idle-directions-1x.png",
+      "version": 1,
+      "sha256": "801073b6666282832529a2d90ac3cf02aa983d6897fc3d206b5829842d229748",
+      "dimensions": [
+        160,
+        144
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/idle-directions-4x.png",
+      "library_file_id": "libfile_510ec6b661408191a2328463b437d70d",
+      "file_id": "file_000000004a1c81f58bf05f9adfe097bf",
+      "file_name": "idle-directions-4x.png",
+      "version": 1,
+      "sha256": "a81f94efcbad336211229a5efd2f704da98f88e3bcda066a820867368e435ede",
+      "dimensions": [
+        640,
+        576
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/unique-phase-contact-1x.png",
+      "library_file_id": "libfile_5923e5099bd88191bcbc6e9e040ee960",
+      "file_id": "file_0000000097d481f59e5ce269db057124",
+      "file_name": "unique-phase-contact-1x.png",
+      "version": 1,
+      "sha256": "22ce41b091e7c8e400820a3d002df4f8ff60bccd1b0f3454d087a8737902092f",
+      "dimensions": [
+        240,
+        288
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/unique-phase-contact-4x.png",
+      "library_file_id": "libfile_e08acd3b13288191a6a7360162fb0f1a",
+      "file_id": "file_000000008dcc81f5aa2f4e58616abf2f",
+      "file_name": "unique-phase-contact-4x.png",
+      "version": 1,
+      "sha256": "808ee0c3ead12189efdbdbe4a8b3512169864ff1941f5d76bd365cc147979f9c",
+      "dimensions": [
+        960,
+        1152
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/wrist-correction/all-directions-allunique-dressed-bald.png",
+      "library_file_id": "libfile_61a274d45a408191a8abdc568fd1d672",
+      "file_id": "file_000000008c4882309f3ec7d82c475755",
+      "file_name": "all-directions-allunique-dressed-bald.png",
+      "version": 0,
+      "sha256": "95d3b00ae5948ccd7bc26be615c7649d4c7b3e0086994f5c351978949c7b9acb",
+      "dimensions": [
+        1600,
+        1500
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/wrist-correction/south-before-after-allunique.png",
+      "library_file_id": "libfile_dc1ee3cefff48191ab87c3ba3d835b5f",
+      "file_id": "file_0000000078c481f58d5f63d37e75808f",
+      "file_name": "south-before-after-allunique.png",
+      "version": 0,
+      "sha256": "121b38ae2c0ec446623f69aac6ddc62bbf8d7d317261fc19556c55a2075e7cb5",
+      "dimensions": [
+        1600,
+        1500
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/wrist-correction/south-actual-skin-trim-highlight-edge-masks.png",
+      "library_file_id": "libfile_75aea12115408191b6fc0ef0f86ee010",
+      "file_id": "file_0000000073548230bc2b3b9876eb87ac",
+      "file_name": "south-actual-skin-trim-highlight-edge-masks.png",
+      "version": 0,
+      "sha256": "5d34588418efc5b78f5d2be23b0d4128c18948eb72ac8a4831ca4ef64c558464",
+      "dimensions": [
+        1280,
+        1190
+      ],
+      "frames": 1,
+      "delays_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/wrist-correction/south-dressed-bald-normal-1x.gif",
+      "library_file_id": "libfile_3ec4c60f83fc819191bb2d24582d7088",
+      "file_id": "file_0000000008e081f4bd8826f555874607",
+      "file_name": "south-dressed-bald-normal-1x.gif",
+      "version": 0,
+      "sha256": "20d6a21d89e7f88ec12e8b457be2ea1d8931d8223df4a1533e8e2cbafd3f1911",
+      "dimensions": [
+        80,
+        96
+      ],
+      "frames": 8,
+      "delays_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/wrist-correction/south-before-after-1x.gif",
+      "library_file_id": "libfile_4aabe43cf64881919b1dab09c43fe053",
+      "file_id": "file_0000000043e482309ef59f04bc4d7468",
+      "file_name": "south-before-after-1x.gif",
+      "version": 0,
+      "sha256": "58c376ae8072cb74e90bf16e5e153133f5fde669d5587ebc47839b5ca72283e1",
+      "dimensions": [
+        160,
+        96
+      ],
+      "frames": 8,
+      "delays_ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    }
+  ],
+  "history": "17 guarded same-ID replacements (7 material checkpoint,10 rotation/phase) plus5newv0 foundation proofs. Other earlier material sheets remain historical before-correction evidence.",
+  "next_action": "Parent inspects bald foundation checkpoint before any bounded creator prototype; no broad roster/Girl expansion.",
+  "runtime_save_deployment": "unchanged"
+}

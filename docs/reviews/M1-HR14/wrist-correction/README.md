@@ -1,6 +1,6 @@
 # HR14 bald foundation and bounded front wrist correction
 
-**Concrete foundation checkpoint, awaiting independent visual review.** Existing poses only; no creator, new direction, roster, runtime/save or deployment change. All Girl files remain byte-exact during this pass. The user's later direct Girl-continuation authorization remains recorded in the chat; Eutychus sequences further expansion after the separate dummy foundation review.
+**Independent scoped bald/hand foundation construction pass; concrete parent checkpoint delivered.** Existing poses only; no creator, new direction, roster, runtime/save or deployment change. All Girl files remain byte-exact during this pass. The user's later direct Girl-continuation authorization remains recorded in the chat; Eutychus sequences further expansion after the separate dummy foundation review.
 
 ## Bald reusable dummy: already correct, zero head edits
 
@@ -41,3 +41,20 @@ All alpha/ink/navy edges, dressed Hero heads, bald dummy heads, lower RGBA54+, P
 Owner inspected saved material/all-unique/bald plates and two actual browser screenshots of current normal/slow playback. This is sampled browser evidence, **not an uninterrupted human full-watch claim**. The prior rendered-cycle trace and Library receipts remain historical c98a8cb/frozen-before evidence; they do not establish the corrected south export SHA or current appearance acceptance. Root retains Library identities and performs guarded replacements/regenerates derived rotation QA after independent review. No Library write was performed here.
 
 Exact next action: independent **bald dummy foundation and corrected front hand** gate review. Keep creator and broad roster/Girl directional expansion unstarted until that sequencing checkpoint is confirmed; no final art or movement approval is inferred from tests.
+
+## Independent frozen gate and Library delivery
+
+Source `bae462f` / frozen receipt `3e0937c8` match the independently inspected pixels and current normal/slow GIF hashes. The reviewer found coherent brown hand clusters with actual sleeve trim kept above them; no new alpha/head/foot/edge/pack defect. All16 bald heads remain exact, with no spikes/fringe/puffs or headwear; their contours are authored reconstructions. Dressed Hero hair stays protected. This is a scoped foundation result, not automatic appearance/runtime acceptance.
+
+A fresh independent native `<img>` browser trace captured179screenshots over14seconds, all exact current exported pixels, with16complete normal and3slow A→P→C→P→A cycles and zero unmatched panels. Root and independent reviewer inspected both actual captured-cycle contact plates. [Current trace](current-render-trace.json). Captures stay external under `/tmp/hr14-bald-motion-2KXAoF`; no browser captures were uploaded. This is rendered-cycle evidence plus visual phase/transition inspection, **not uninterrupted human watching**. N/W/E art and timing are byte-exact to the previously traced source; the new trace covers changed South only.
+
+Twenty-two Library downloads match bytes, dimensions, every RGBA frame and GIF timing/loop. Seventeen existing identities received guarded replacements: seven affected prior Hero/dummy proofs and all ten rotation/phase comparisons. Five new version0 plates/loops provide the bald foundation and before/after decision. [Authoritative current IDs/versions/hashes](library-review-receipt.json). Earlier source-material sheets that were not regenerated remain explicitly historical before-correction evidence; they cannot establish current wrist colors.
+
+- [All directions/poses: dressed Hero versus bald dummy](https://chatgpt.com/api/library/files/libfile_61a274d45a408191a8abdc568fd1d672/download)
+- [Front idle/A/P/C before and after](https://chatgpt.com/api/library/files/libfile_dc1ee3cefff48191ab87c3ba3d835b5f/download)
+- [Actual exposed-skin / sleeve-trim / clothing-highlight / edge masks](https://chatgpt.com/api/library/files/libfile_75aea12115408191b6fc0ef0f86ee010/download)
+- [Native dressed/bald walking](https://chatgpt.com/api/library/files/libfile_3ec4c60f83fc819191bb2d24582d7088/download)
+- [Native before/after walking](https://chatgpt.com/api/library/files/libfile_4aabe43cf64881919b1dab09c43fe053/download)
+- [Updated four-direction native phase comparison](https://chatgpt.com/api/library/files/libfile_9cf56acdcab081919facd35975864287/download) / [nearest4×](https://chatgpt.com/api/library/files/libfile_8d68c152a1d481919a781bb5d94d4428/download)
+
+The renewed user authorization resolved the specific writer handoff blocker; it is no longer accurate to say that hand correction cannot proceed. The latest user priority is dummy foundation first, then a bounded registered character-creator prototype. **Creator implementation has not started**: parent receives this gate evidence before expansion. Future optional hair/headwear must be independent overlays outside the bald base; no-mouth default and starter clothing remain. No body-type expansion, broad roster work, runtime/save change or deployment occurred. Parked edits preserved.

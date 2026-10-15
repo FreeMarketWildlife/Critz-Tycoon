@@ -1,5 +1,7 @@
 # HR14 existing-frame rotation and synchronized phase review
 
+**Current versions:** the front wrist correction below supersedes this initial review. All ten Library identities now serve version1 with corrected hands; the bald dummy heads and original geometry remain unchanged. [Current source/Library receipt](../wrist-correction/library-review-receipt.json). The original findings and old hashes below are historical before-correction evidence.
+
 Review visualization only, 2026-10-15. No original frame, editable character source, runtime asset or save was changed. All 32 input PNGs are byte-exact to material source `c98a8cbd8d85e160e9080d6690964c3c3deb3ef1`, frozen by receipt `d5dc45838c1ee5bc4ea9f402e73edd2e8ebcce87`. [Composition checks](composition-checks.json) and [Library verification](library-receipt.json) pin every input/output.
 
 ## Layout and clocks
@@ -43,3 +45,7 @@ No new geometric correction to feet, stride, head placement or pack is establish
 - [All unique phases · native](https://chatgpt.com/api/library/files/libfile_5923e5099bd88191bcbc6e9e040ee960/download) · [nearest 4×](https://chatgpt.com/api/library/files/libfile_e08acd3b13288191a6a7360162fb0f1a/download)
 
 All ten files are version0 and match downloaded bytes, dimensions, every RGBA frame and GIF holds/loop. These are source-derived review compositions, not browser screenshots. The original frames and parked edits remain untouched. No Girl directions, denied-scope messages, runtime change or deployment. Next: parent inspects these previews; decide on the specific hand/cuff concern and complete continuous playback judgment without inferring permission to create new assets.
+
+## Current foundation result
+
+Corrected source `bae462f` resolves the front wrist material-read concern without changing head, silhouette, feet, gait or pack. The root and independent reviewer pass the scoped bald/hand foundation construction. All16 dummy heads were already bald: zero head edits. Root's fresh actual native image-element trace matches current GIF pixels in179screenshots,16normal/3slow complete observed cycles. Both actual cycle-contact boards were visually inspected. Zero uninterrupted human-watch cycles are claimed. These new findings supersede the wrist recommendation above; overall M1/runtime appearance acceptance remains separate. All ten regenerated native/4× comparison files download exact at version1; original version0 remains in Library history. No creator, new Girl direction or runtime change here.

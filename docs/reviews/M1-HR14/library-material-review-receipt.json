@@ -662,5 +662,8 @@
     "Both full continuous tutorial watches incomplete; full automatic transcripts plus sampled frames only"
   ],
   "nextReviewOnlyTarget": "existing Girl Hero, conditional overnight roster sequence; no runtime integration",
-  "independentFrozenReview": "All48publication hashes and source/trace exports correlate with inspected snapshot; all26Librarydownloads independently match originals/receipt. No further concrete construction blocker; GirlHero review-only may proceed. BroaderM1/runtime/userappearance acceptance not claimed."
+  "independentFrozenReview": "All48publication hashes and source/trace exports correlate with inspected snapshot; all26Librarydownloads independently match originals/receipt. No further concrete construction blocker; GirlHero review-only may proceed. BroaderM1/runtime/userappearance acceptance not claimed.",
+  "historical_before_front_wrist_correction": true,
+  "superseded_by": "docs/reviews/M1-HR14/wrist-correction/library-review-receipt.json",
+  "version_note": "Some identities now serve corrected versions. This receipt records their earlier content; use current wrist receipt for updated IDs/versions/hashes."
 }
