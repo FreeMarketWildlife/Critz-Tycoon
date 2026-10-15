@@ -1,0 +1,76 @@
+{
+  "earsComponent": "accepted by parent HR6 review",
+  "wholeNormalBody": "pending review",
+  "canvas": [
+    32,
+    64
+  ],
+  "groundAnchor": [
+    16,
+    64
+  ],
+  "directions": {
+    "south": {
+      "headRows0To45ExactHR6": true,
+      "acceptedEarsAndHairMasksExact": true,
+      "defaultMouthNoseEmpty": true,
+      "changedPixels": 155,
+      "changedBounds": [
+        3,
+        46,
+        29,
+        62
+      ],
+      "sha256": "357097c1a882435bc7b8f2537225c428422e4841ebfed04bed899982b179e00f"
+    },
+    "north": {
+      "headRows0To45ExactHR6": true,
+      "acceptedEarsAndHairMasksExact": true,
+      "defaultMouthNoseEmpty": true,
+      "changedPixels": 125,
+      "changedBounds": [
+        3,
+        46,
+        29,
+        62
+      ],
+      "sha256": "6a24e961619ef9485280b2231363dd42c07cc65642db28bfad05b4c917182150"
+    },
+    "west": {
+      "headRows0To45ExactHR6": true,
+      "acceptedEarsAndHairMasksExact": true,
+      "defaultMouthNoseEmpty": true,
+      "changedPixels": 139,
+      "changedBounds": [
+        8,
+        46,
+        28,
+        62
+      ],
+      "sha256": "437b2519f73723ec2e9e50ddcb0f2b16177f9765d842b0e55e3559d7985fb869",
+      "forearmBoundsUnderSleeve": true,
+      "noDanglingCreamFrontStrip": true,
+      "sleeveArmMasksTouch": true,
+      "internalAnkleRailsRemoved": true
+    },
+    "east": {
+      "headRows0To45ExactHR6": true,
+      "acceptedEarsAndHairMasksExact": true,
+      "defaultMouthNoseEmpty": true,
+      "changedPixels": 139,
+      "changedBounds": [
+        4,
+        46,
+        24,
+        62
+      ],
+      "sha256": "1eb31aff4ff84fd6021291cfbd4af7e43d39158a55c47d0ccc5b2d5621799283",
+      "forearmBoundsUnderSleeve": true,
+      "noDanglingCreamFrontStrip": true,
+      "sleeveArmMasksTouch": true,
+      "internalAnkleRailsRemoved": true
+    }
+  },
+  "laterStagesStarted": false,
+  "brightSoleRailsRemoved": true
+}

@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "frames": [
+    "south idle",
+    "north idle",
+    "west idle",
+    "east idle"
+  ],
+  "width": 32,
+  "height": 64,
+  "body": "normal",
+  "mouth": null,
+  "nose": null,
+  "earsAcceptance": "HR6 parent component only"
+}

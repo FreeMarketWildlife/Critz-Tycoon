@@ -1,0 +1,67 @@
+{
+  "task": "M1.HR7",
+  "state": "awaiting normal-body review",
+  "earsComponentAccepted": true,
+  "wholeBaseAppearanceAccepted": false,
+  "headRows0To45ExactHR6": true,
+  "mouthDefault": null,
+  "noseDefault": null,
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/directional-review.png",
+      "bytes": 11577,
+      "sha256": "2c9da1cc7cc43f7dd3ae1ea5744c9121319e5811b39b0b8f3faf44f91700922b"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/body-before-after.png",
+      "bytes": 17640,
+      "sha256": "5da9faf56645cfb08e6d48bb87506f6ae9f2b231ecacf2946eb85120da9e144b"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/body-detail-6x.png",
+      "bytes": 4438,
+      "sha256": "7f4f5a5b485e24f62b8a55bbfcdf6a0c5c7f84b654103a10ffdde286aa8beda5"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/native-light-dark.png",
+      "bytes": 12720,
+      "sha256": "c8786b16688834505866faea490abcf630b0a0f07350c8a431600e2cd72e778a"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/visible-landmark-guides.png",
+      "bytes": 8647,
+      "sha256": "e91d6b949e9d123e509ab098d105afc08125303ff9b2bab06540183919523428"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/body-checks.json",
+      "bytes": 1895,
+      "sha256": "d2680e6cfec9e382759a81e468fd0a95af442a2152246e2741d79ce4c9072aff"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-redesign-r7/hero-boy.sprite.json",
+      "bytes": 17579,
+      "sha256": "4a7796427c0acb478c224b2a0b905c911b21a6099aa647b336b1092f9c6e89fb"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-redesign-r7/body-landmarks.proposed.json",
+      "bytes": 6028,
+      "sha256": "ff54490301d5ae6edc8c419f9f49a51244c0d626e970ce243ec2d972222007f3"
+    }
+  ],
+  "referenceOverlay": "/Users/tanoshi/.codex/visualizations/2026/10/14/hero-hr7-reference/normal-body-reference-overlay.png",
+  "referenceBeforeAfterOverlay": "/Users/tanoshi/.codex/visualizations/2026/10/14/hero-hr7-reference/body-overlay-before-after.png",
+  "critique": [
+    "First-pass pale chest edge and ankle rail ambiguities corrected after local review",
+    "Profile arm now descends; new whole-body appearance still requires review",
+    "At actual native size profile shorts and sneakers still merge into a broad low-contrast dark mass; do not call feet solved. Any follow-up should separate material planes, not restore outlined rails.",
+    "Quiet dark shoe mass has reduced contrast on dark backdrop",
+    "Short original torso and retained large daypack need whole-silhouette judgment"
+  ],
+  "laterStagesStarted": false,
+  "runtimeIntegration": false,
+  "publication": false,
+  "libraryExportByOwner": false,
+  "TN4HoldPreserved": true,
+  "nextAction": "Local/parent review of HR7 checkpoint before variants/swaps/UI or further revisions",
+  "stableImagesReadyForLocalRelay": true
+}

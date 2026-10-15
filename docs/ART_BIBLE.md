@@ -1,5 +1,13 @@
 # Critz: Tycoon — art bible
 
+## Normal-body revision — M1.HR7, parent checkpoint
+
+Parent review accepts **HR6 rounded human ears as a component only**. The whole normal body is not accepted. Parent explicitly authorizes revising rows46+ to correct forward-folded profile arms, hunched/compact torso reading, thick layered soles and splayed/heavy front feet. Preserve every HR6 head pixel, including accepted ears/hair/face, Black child identity and no-mouth default. Maintain the same starter coral/cream shirt, blue shorts, slate daypack and dark sneaker design/material identity,32×64 canvas and `(16,64)` ground anchor. HR6's prior body-preservation constraint is superseded for this targeted normal-body review only. [Body/reference checkpoint and critique](reviews/M1-HR7/README.md).
+
+Make the profile arm descend visibly from its shoulder/sleeve to elbow and hand at the side; avoid hands meeting ahead of the abdomen. Keep torso/hip placement upright, shoulders and waist connected, and shoes compact with quiet material accents. Internal pant/shoe boundaries do not require full horizontal outlines. Do not let a projected cream chest panel read as a dangling second arm; HR7's second pass uses a small cloth inset and distinct attached sleeve. Preserve the outer foot contour without bright parallel sole rails. Same starter clothes must remain recognizable across directions; this does not authorize a new wardrobe.
+
+Review complete native light/dark and enlarged four-direction silhouettes plus actual registered full-body/reference overlays before/after. Record shoulder/sleeve, elbow, hip, knee and sole guides honestly: hidden knee/bone locations are not visible-source measurements. Numeric vertical bounds and silhouette checks cannot substitute for the visible connected-arm/body read. Stage2 body variants, stage3 swapping, customization UI, gameplay replacement/publication and TN4 remain held until the next concrete review. Ears component acceptance does not promote the whole base or G1/G2 gates.
+
 ## Human ears and modular player base — M1.HR6, user correction
 
 Phil rejects HR5's elf-like default ears. His screenshot, Library ID `libfile_080be8fde4348191b287febe559b4aa4`, was materialized and inspected on the Mac:53,414 bytes, SHA256 `f00f56517c51f2f53ea0c9a01699b031d5e4c0dd2ccacf12151a6c61d6d1b5f9`. South clean shows wide horizontal wedges tapering diagonally into the cheeks; west has a much smaller ear. HR5 is **visually rejected**, irrespective of silhouette-overlap scores. Keep the evidence/ear correction distinct from prior foot and registration checks.

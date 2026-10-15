@@ -1,5 +1,7 @@
 # Decision log
 
+- **2026-10-14 / HR6 component review and HR7 scope:** Parent inspection accepts the small rounded human **ears component only**. Whole normal body is not accepted; this does not promote G1/G2 or full-base appearance. Parent explicitly authorizes revising rows46+ for relaxed profile arm/torso and simple leg/shoe mass while preserving every HR6 head pixel, same starter outfit, no-mouth default and registration. Next normal-body checkpoint precedes variants/swaps/UI or gameplay replacement. Evidence: HR7 scoped parent handoff in this chat; [HR7 review](reviews/M1-HR7/README.md). This entry records delegated component feedback, not a user-wide milestone acceptance.
+
 - **D014 / 2026-09-27 — explicit combined implementation authorization:** user directs M1.I2: complete all missing original art needed by existing scenes, use B1/G1 provisionally, integrate new PNG visuals and Emerald-style tile movement in the normal playable URL. No intermediate art approval pauses or another gallery-only delivery. Final art/feel acceptance remains pending user review. This supersedes D013's implementation boundary and the unanswered scope question. Preserve v1 progress/recoverability; commit/push and publish the exact tested build with existing audience.
 
 Only user approvals promote visual/feel proposals into approved standards. Technical choices below are labeled separately.

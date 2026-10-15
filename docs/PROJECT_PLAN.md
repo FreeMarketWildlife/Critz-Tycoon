@@ -1,3 +1,7 @@
+# M1.HR7 — Upright normal-body checkpoint
+
+**Implemented and checked; awaiting parent review.** HR6 ears component accepted; whole body pending. Explicitly revise body below46 while keeping head/ears exact, same starter outfit/frame/anchor/no-mouth default. Deliver relaxed connected profile arm, upright torso/hip and quieter compact shoes, whole-body native/enlarged and actual registered before/after/reference overlays, proposed visible landmarks and critique. [Review](reviews/M1-HR7/README.md). No variants, swaps, UI, gameplay replacement/publication or TN4 release.
+
 # M1.HR6 — Corrected human-ear default and modular player base
 
 **Stage1 normal default implemented/checked; awaiting review.** [ART_BIBLE](ART_BIBLE.md#human-ears-and-modular-player-base--m1hr6-user-correction) owns human-ear/default/body/clothing requirements. Owner handoff received; original corrected ear/head/body four-direction comparisons and proposed shared normal landmarks delivered in [HR6](reviews/M1-HR6/README.md). No mouth by default. Normal checkpoint first; stage2 same-outfit body variants and stage3 limited swapping proof remain unstarted. No customization UI, gameplay publication or TN4 release. Prior handoff/export rejection is historical, not a new authoring blocker. The local relay exported four stable review plates to Library version0; coordinator receipt included, no appearance approval inferred. No owner-side cross-chat send/export or gameplay publication.

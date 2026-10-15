@@ -1,0 +1,327 @@
+{
+  "status": "Proposed visible costume/pose landmarks for HR7 review; no hidden-anatomy measurement",
+  "canvas": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "directions": {
+    "south": {
+      "visibleRegionBounds": {
+        "shirt": [
+          5,
+          46,
+          27,
+          56
+        ],
+        "leftArm": [
+          4,
+          48,
+          10,
+          56
+        ],
+        "rightArm": [
+          22,
+          48,
+          28,
+          56
+        ],
+        "shorts": [
+          9,
+          54,
+          23,
+          59
+        ],
+        "leftFoot": [
+          8,
+          57,
+          14,
+          62
+        ],
+        "rightFoot": [
+          18,
+          57,
+          24,
+          62
+        ]
+      },
+      "shoulderGuideRow": 46,
+      "sleeveToForearmGuideRow": 50,
+      "hipGarmentGuideRow": 54,
+      "knee": "not separately visible; shorts/shoe overlap is not a measured knee",
+      "soleLastPaintedRow": 61,
+      "feetAnchor": [
+        16,
+        64
+      ],
+      "proposedConstructionGuidePoints": {
+        "shoulder": [
+          [
+            7,
+            47
+          ],
+          [
+            25,
+            47
+          ]
+        ],
+        "elbow": [
+          [
+            6,
+            51
+          ],
+          [
+            26,
+            51
+          ]
+        ],
+        "hipCenter": [
+          16,
+          54
+        ],
+        "knee": null,
+        "soleBaselineY": 62
+      },
+      "guidePointStatus": "Original drawing guide edge coordinates; shoulder/elbow/knee anatomy is partly hidden by clothing. Not measured reference bones."
+    },
+    "north": {
+      "visibleRegionBounds": {
+        "shirt": [
+          5,
+          46,
+          27,
+          56
+        ],
+        "leftArm": [
+          4,
+          48,
+          10,
+          56
+        ],
+        "rightArm": [
+          22,
+          48,
+          28,
+          56
+        ],
+        "shorts": [
+          9,
+          54,
+          23,
+          59
+        ],
+        "leftFoot": [
+          8,
+          57,
+          14,
+          62
+        ],
+        "rightFoot": [
+          18,
+          57,
+          24,
+          62
+        ],
+        "pack": [
+          10,
+          46,
+          22,
+          56
+        ]
+      },
+      "shoulderGuideRow": 46,
+      "sleeveToForearmGuideRow": 50,
+      "hipGarmentGuideRow": 54,
+      "knee": "not separately visible; shorts/shoe overlap is not a measured knee",
+      "soleLastPaintedRow": 61,
+      "feetAnchor": [
+        16,
+        64
+      ],
+      "proposedConstructionGuidePoints": {
+        "shoulder": [
+          [
+            7,
+            47
+          ],
+          [
+            25,
+            47
+          ]
+        ],
+        "elbow": [
+          [
+            6,
+            51
+          ],
+          [
+            26,
+            51
+          ]
+        ],
+        "hipCenter": [
+          16,
+          54
+        ],
+        "knee": null,
+        "soleBaselineY": 62
+      },
+      "guidePointStatus": "Original drawing guide edge coordinates; shoulder/elbow/knee anatomy is partly hidden by clothing. Not measured reference bones."
+    },
+    "west": {
+      "visibleRegionBounds": {
+        "shirt": [
+          11,
+          46,
+          23,
+          56
+        ],
+        "sleeve": [
+          14,
+          46,
+          21,
+          51
+        ],
+        "nearArm": [
+          14,
+          48,
+          20,
+          56
+        ],
+        "shorts": [
+          11,
+          54,
+          23,
+          59
+        ],
+        "nearFoot": [
+          9,
+          58,
+          21,
+          62
+        ],
+        "farFoot": [
+          16,
+          57,
+          22,
+          61
+        ],
+        "pack": [
+          22,
+          46,
+          27,
+          55
+        ]
+      },
+      "shoulderGuideRow": 46,
+      "sleeveToForearmGuideRow": 50,
+      "hipGarmentGuideRow": 54,
+      "knee": "not separately visible; shorts/shoe overlap is not a measured knee",
+      "soleLastPaintedRow": 61,
+      "feetAnchor": [
+        16,
+        64
+      ],
+      "proposedConstructionGuidePoints": {
+        "shoulder": [
+          [
+            17,
+            47
+          ]
+        ],
+        "elbow": [
+          [
+            17,
+            51
+          ]
+        ],
+        "hipCenter": [
+          17,
+          54
+        ],
+        "knee": null,
+        "soleBaselineY": 62
+      },
+      "guidePointStatus": "Original drawing guide edge coordinates; shoulder/elbow/knee anatomy is partly hidden by clothing. Not measured reference bones."
+    },
+    "east": {
+      "visibleRegionBounds": {
+        "shirt": [
+          9,
+          46,
+          21,
+          56
+        ],
+        "sleeve": [
+          11,
+          46,
+          18,
+          51
+        ],
+        "nearArm": [
+          12,
+          48,
+          18,
+          56
+        ],
+        "shorts": [
+          9,
+          54,
+          21,
+          59
+        ],
+        "nearFoot": [
+          11,
+          58,
+          23,
+          62
+        ],
+        "farFoot": [
+          10,
+          57,
+          16,
+          61
+        ],
+        "pack": [
+          5,
+          46,
+          10,
+          55
+        ]
+      },
+      "shoulderGuideRow": 46,
+      "sleeveToForearmGuideRow": 50,
+      "hipGarmentGuideRow": 54,
+      "knee": "not separately visible; shorts/shoe overlap is not a measured knee",
+      "soleLastPaintedRow": 61,
+      "feetAnchor": [
+        16,
+        64
+      ],
+      "proposedConstructionGuidePoints": {
+        "shoulder": [
+          [
+            15,
+            47
+          ]
+        ],
+        "elbow": [
+          [
+            15,
+            51
+          ]
+        ],
+        "hipCenter": [
+          15,
+          54
+        ],
+        "knee": null,
+        "soleBaselineY": 62
+      },
+      "guidePointStatus": "Original drawing guide edge coordinates; shoulder/elbow/knee anatomy is partly hidden by clothing. Not measured reference bones."
+    }
+  }
+}
