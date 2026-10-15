@@ -1,124 +1,158 @@
 {
   "task": "M1.GH1",
-  "scope": "First front idle review only",
-  "source_commit": "3a94f482e6b6d152b58e4e90e371ee314731feb8",
-  "publication_commit": "3e138e7",
-  "identity": "Selected R11 design intent and exact C6/C7 front native identity; separate G1 excluded. HR14 body is declared shared adaptation.",
-  "review": "Root and independent reviewer inspected actual saved native/enlarged join, light/dark, source decision and world-context mock. Scoped front-construction pass; no runtime or overall appearance approval.",
+  "scope": "Front wrist skin/cuff material correction; other directions remain blocked",
+  "source_commit": "5f452efc24b0402f9f986aaa228b955dfa0f4f47",
+  "publication_commit": "5597115",
+  "identity": "Selected R11/C6 front identity with declared frozen HR14 body adaptation; G1 excluded.",
+  "review": "Root and independent reviewer inspected actual source-before-after, separate skin/arm/cuff/highlight/edge masks, native and enlarged join. Scoped material/construction pass only; no overall appearance acceptance.",
   "findings": [
-    "Old C6 brown row45 and dark row46 neck bars excluded; head ends44 and shirt owns45\u201346.",
-    "Puffs, ties, fringe and visible eye cells preserved outside bounded mirrored ear edit.",
-    "Frozen HR14 body alpha and contact registration retained; burgundy footwear changes material only.",
-    "Broad puffed silhouette and bright cuffs/hands remain human appearance judgments; no blocking front construction defect found."
+    "Existing skin ramp was already C6; cream/coral cloth islands dominated the wrist read.",
+    "27 color-cell edits confined to x3..9 and22..28, rows47..53; all alpha, head, ink/navy edges and lower54+ exact.",
+    "Exposed skin now forms two attached17-cell clusters:32 palm plus2 arm material sites. Cream sleeve trim remains10cells above hands at47\u201348.",
+    "Two inward pale clothing cells at22,53 and23,53 become coral; no global cream recolor or altered complexion."
   ],
   "checks": {
-    "actual_pixel_checks": 29,
+    "baseline_pixel": 29,
+    "bounded_correction_assertions": 6,
     "sprite_editor_validations": 2,
-    "library_downloads_byte_and_rgba_exact": 6
+    "library_downloads_byte_dimension_rgba_exact": 8
   },
   "files": [
     {
       "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/girl-front-idle.png",
-      "download": "/tmp/gh1-library-BZveKm/verified-downloads/girl-front-idle.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/girl-front-idle.png",
       "library_file_id": "libfile_ee812e7232b4819184f51bb2162386b7",
-      "file_id": "file_00000000339c81f69a04d7d16115009d",
+      "file_id": "file_000000005c3482308baa5b6a9e259f60",
       "file_name": "girl-front-idle.png",
-      "version": 0,
+      "version": 1,
       "dimensions": [
         32,
         64
       ],
-      "sha256": "f2f85f88d92f4085cc7d59799b9600e366d7324906c36e7525e50c2fdbc31fda",
+      "sha256": "18c60508c6bfc176bd880df42324a1a1227df41a34bb40e383782ea8bb56f14d",
       "byte_exact": true,
       "rgba_exact": true,
       "local_identity_applied": true
     },
     {
       "original": "/Users/tanoshi/.codex/visualizations/2026/10/15/girl-hero-preflight/front-identity-comparison.png",
-      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-identity-comparison.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/front-identity-comparison.png",
       "library_file_id": "libfile_119966889cac8191b5259a73df76b3ad",
-      "file_id": "file_000000004c0c8243bb068995e4078b9d",
+      "file_id": "file_000000004cfc8230a84d2547104ebcea",
       "file_name": "front-identity-comparison.png",
-      "version": 0,
+      "version": 1,
       "dimensions": [
         1440,
         560
       ],
-      "sha256": "6409e39ff9c11127c0448a1ee37ec43f9787c886534c904af35c8802506f718f",
+      "sha256": "8bda0ff58fe3febc0c0a3cef07da8076f01701d90a4c1b74e2707b5cce305515",
       "byte_exact": true,
       "rgba_exact": true,
       "local_identity_applied": true
     },
     {
       "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-head-ears-join.png",
-      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-head-ears-join.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/front-head-ears-join.png",
       "library_file_id": "libfile_ab8c508b93f88191bc2597a26c504560",
-      "file_id": "file_000000006a5c821082ead1c9fc359274",
+      "file_id": "file_000000003f5081f4bf570497ba453431",
       "file_name": "front-head-ears-join.png",
-      "version": 0,
+      "version": 1,
       "dimensions": [
         1120,
         440
       ],
-      "sha256": "bf22dc67607cdb12a5728f8a59bc112a3a8395d1d3a06b2949483bc3a5381696",
+      "sha256": "355371f596c44b9e3c36d785d9a528cf04ec1e6adb452ebd3a3d6047fc05960d",
       "byte_exact": true,
       "rgba_exact": true,
       "local_identity_applied": true
     },
     {
       "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-native-light-dark.png",
-      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-native-light-dark.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/front-native-light-dark.png",
       "library_file_id": "libfile_7dc7b739250c81919e835407fe705a72",
-      "file_id": "file_0000000058e081f58741167dae47355c",
+      "file_id": "file_00000000a6e88230a673c7169aa041b0",
       "file_name": "front-native-light-dark.png",
-      "version": 0,
+      "version": 1,
       "dimensions": [
         1280,
         620
       ],
-      "sha256": "53f3e535578ecb8cde9ca88ac40d479edb8e6bbf9befffb614e1909978bde499",
+      "sha256": "aa1097c0e636ac4ad1766c3d09df2385ed6592c729100a3c60840330e069af24",
       "byte_exact": true,
       "rgba_exact": true,
       "local_identity_applied": true
     },
     {
       "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-feature-material-masks.png",
-      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-feature-material-masks.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/front-feature-material-masks.png",
       "library_file_id": "libfile_601d2d75dd60819189b2cb007791c8b8",
-      "file_id": "file_00000000cae48230b35415a3a3f768fa",
+      "file_id": "file_00000000eff481f7893cd117911eaf26",
       "file_name": "front-feature-material-masks.png",
-      "version": 0,
+      "version": 1,
       "dimensions": [
         1500,
         680
       ],
-      "sha256": "718eab71193e0e3220caca5f080f490ac370702bbea1abc87abfc52a5b69061e",
+      "sha256": "ac5c06a5d41b4447e4ec6a9e64bae9cd3346cb6c0c2877977c2c5079194b5af0",
       "byte_exact": true,
       "rgba_exact": true,
       "local_identity_applied": true
     },
     {
       "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/front-world-context.png",
-      "download": "/tmp/gh1-library-BZveKm/verified-downloads/front-world-context.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/front-world-context.png",
       "library_file_id": "libfile_047ff9adde2c8191aef2e7a9b18ebe01",
-      "file_id": "file_00000000639081f9a4f1482790f23a53",
+      "file_id": "file_0000000006f48230897aef30d635ea51",
       "file_name": "front-world-context.png",
-      "version": 0,
+      "version": 1,
       "dimensions": [
         1280,
         690
       ],
-      "sha256": "dc771a341b9d523d4bbc93e8ea2cea4cbdf3ed8aff18fc682d8b45ae988a5c74",
+      "sha256": "0139fa055f7994093c568d9077e85bfe4871f6b7990fca3fc7e97e9ad1bf7a2a",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/wrist-correction/source-before-after-actual-masks.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/source-before-after-actual-masks.png",
+      "library_file_id": "libfile_c3ff92d4ccb08191a2db650b1a05c5ce",
+      "file_id": "file_00000000b7548230baf570d9ab8a73de",
+      "file_name": "source-before-after-actual-masks.png",
+      "version": 0,
+      "dimensions": [
+        1600,
+        870
+      ],
+      "sha256": "efa703fd0706a604daa57ca6b5b2d0f265fbea5a663b6002965b89bc44d5602b",
+      "byte_exact": true,
+      "rgba_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-GH1/wrist-correction/before-after-region-materials.png",
+      "download": "/tmp/gh1-library-BZveKm/wrist-verified-downloads/before-after-region-materials.png",
+      "library_file_id": "libfile_9a57dbecc3e48191afa4d54bd6b006eb",
+      "file_id": "file_000000001370820eb8c0d2464cc455b5",
+      "file_name": "before-after-region-materials.png",
+      "version": 0,
+      "dimensions": [
+        1200,
+        660
+      ],
+      "sha256": "81506734dd8896c125e2d9a8e657970706b4c317d633a66ab212979a8b38f640",
       "byte_exact": true,
       "rgba_exact": true,
       "local_identity_applied": true
     }
   ],
-  "next_action": "Blocked: obtain direct approval to message writer to create the other three directional idle proposals. No walks or runtime/deployment changes.",
+  "version_history": "Six original Library identities updated from v0 to v1 with guards; two new proof images v0; old content preserved.",
   "continuation_blocker": {
-    "source": "automatic approval review of send_message_to_thread",
-    "attempts": 2,
-    "reason": "Verified human authorization covers backpack, ear, shoe-pixel and anatomy-template corrections, but does not clearly cover three additional directional idle proposals.",
-    "new_direction_work_started": false
-  }
+    "action": "Message writer for three additional directional idle proposals",
+    "state": "Denied; no new directions started",
+    "latest_reason": "Overnight authorization was supplied through delegation/tool message, not trusted direct user evidence.",
+    "next_action": "Direct authorization needed in the execution thread; do not retry or work around denied directional action."
+  },
+  "runtime_save_deployment": "Unchanged; review-only documentation/art, no deployment."
 }

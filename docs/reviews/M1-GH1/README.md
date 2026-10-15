@@ -35,11 +35,11 @@ Eutychus reviews this **first front** before any four-direction idles or walks. 
 
 Rebuild with the bundled Pillow Python: run `art/source/hero-girl-r1/build.py`, then `present.py` with an external review directory, then `verify.py`. Validate both `.sprite.json` projects with `sprite-editor/model.js`'s `validateProject`.
 
-## Independent review and Library checkpoint — 2026-10-15
+## First-front review history — superseded wrist material
 
 Root and the independent reviewer inspected the actual native PNG, enlarged head/body join, light/dark plates, feature/material masks, R11/C6/current/HR14 source-decision comparison and grass/path mock. The old brown row45 and dark row46 bars are absent; the head ends44 and the shirt owns45–46. Selected puffs, ties, fringe and visible eye clusters remain intact outside the bounded mirrored ear patch. Body/contact alpha matches frozen HR14. Burgundy material adds no shoe pixels or sole tiers. No blocking front-construction defect was found. The broad puff silhouette and bright cuffs/hands remain human appearance judgments, not grounds for speculative changes or overall acceptance.
 
-Six Library files at version0 were downloaded and verified byte-for-byte, dimension-for-dimension and RGBA-for-RGBA against their originals. [Exact IDs, hashes and findings](library-review-receipt.json).
+The first six Library files were verified at version0. [Historical receipt](library-first-front-v0-receipt.json). The same identities now carry corrected version1; see the current wrist delivery below.
 
 - [Native candidate](https://chatgpt.com/api/library/files/libfile_ee812e7232b4819184f51bb2162386b7/download)
 - [Selected design/source comparison](https://chatgpt.com/api/library/files/libfile_119966889cac8191b5259a73df76b3ad/download)
@@ -63,3 +63,14 @@ Exactly27 final RGBA cells change, all in the bounded outer region. Every alpha 
 [Before/after actual region materials](wrist-correction/before-after-region-materials.png) · [Exact27 cells, counts, material ownership and protections](wrist-correction/material-decision.json) · [Frozen original first-front PNG](wrist-correction/before.png).
 
 **Awaiting independent review.** Retained outward arm stance/geometry is protected in this color-only correction, not newly approved. No directional continuation, walks, roster, runtime, saves or deployment. Root retains the six Library identities at version0 and will perform guarded replacement after review; the prior Library receipt describes the superseded first-front pixels.
+
+## Current wrist review and Library delivery — 2026-10-15
+
+The root and independent reviewer inspected the frozen correction at source `5f452efc24b0402f9f986aaa228b955dfa0f4f47`, receipt `5597115`. Both17-cell exposed skin clusters are orthogonally connected; the two upper arm cells directly touch their palms. They use the selected C6 brown ramp. Ten cream sleeve-trim cells remain above the hands at47–48, with no cream/coral islands in the palms. The revised wrists read brown and coherent at native and enlarged scales. All27 changes stay in the bounded material region; alpha, head/ears, ink/navy edges and lower54+ pixels remain exact. No new blocking regression was found. This scoped correction pass is not overall appearance or runtime approval.
+
+Six existing previews are now version1 with version0 retained. Two new proof plates are version0. All eight downloads match their original bytes, dimensions and RGBA pixels. [Current authoritative IDs/versions/hashes](library-review-receipt.json).
+
+- [Source, before, corrected front and actual skin/cuff masks](https://chatgpt.com/api/library/files/libfile_c3ff92d4ccb08191a2db650b1a05c5ce/download)
+- [Wrist before/after material ownership](https://chatgpt.com/api/library/files/libfile_9a57dbecc3e48191afa4d54bd6b006eb/download)
+
+The single directional permission retry after the parent supplied overnight transcript evidence was also denied: automatic approval review treated that evidence as delegation/tool content rather than direct trusted user authorization. No additional direction or walk was started. The specific front correction was separately accepted and completed. Direct authorization for the directional writer message remains the exact next dependency. Playable build unchanged; no deployment.
