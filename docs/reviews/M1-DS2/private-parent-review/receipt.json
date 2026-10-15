@@ -1,0 +1,32 @@
+{
+  "sourceCommit": "1b8314ddfd9ff12fecd92bc372dada2a512191e2",
+  "scope": "Two frozen internal construction plates for parent inspection only; no main user delivery or progression approval",
+  "files": [
+    {
+      "library_file_id": "libfile_ed8ce6f0844c8191b45aa12e91b057fe",
+      "file_id": "file_00000000d0ec820aa6b92e2eb142f6d4",
+      "file_name": "critz-DS2-native-source-baseline-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "dd5f1d9f13577032a7b60e9392e7c9ffc76736fa1aa8af21d8f40e4da6fb39e1",
+      "dimensions": [
+        1120,
+        580
+      ],
+      "metadataApplied": true,
+      "downloadBytesPixelsExact": true
+    },
+    {
+      "library_file_id": "libfile_7e6682a24a8081919b7fc63a0760421e",
+      "file_id": "file_000000005e9c8230804258090fa4ed9e",
+      "file_name": "critz-DS2-native-front-back-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "25144d408c2bec80f715c161c291d79b7b679e8c40b84852a76771642b5c1342",
+      "dimensions": [
+        900,
+        660
+      ],
+      "metadataApplied": true,
+      "downloadBytesPixelsExact": true
+    }
+  ]
+}

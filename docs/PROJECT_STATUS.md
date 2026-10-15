@@ -1,5 +1,9 @@
 # Project status
 
+## DS2 private parent transfer — construction review pending
+
+Parent clarified that withholding rough drafts from main user delivery does not cancel authorized private review transfer. [Two frozen INTERNAL construction plates](reviews/M1-DS2/private-parent-review/README.md) are saved to Library once at version zero and downloaded byte/RGBA exact, for parent's actual inspection. Source `1b8314ddfd9ff12fecd92bc372dada2a512191e2` remains frozen: only native16×32 West/South/North idles, no refinement or pose rollout. The credited source crop remains outside Git. Exact next action: parent inspects these actual Library files and gives construction feedback. No main-user draft delivery, new artwork, creator work or public deployment is authorized by this transfer. Prior rejected DS1 copies/identities, existing Hero/creator files, live game and saves unchanged. Root receipt-only commit/push; parked edits preserved.
+
 ## DS2 restricted native-idle checkpoint — awaiting parent internal review
 
 Parent rejected DS1 presentation readiness; existing22 Library files are superseded rejected internal history. [Separate revision2 source/native proof](reviews/M1-DS2/README.md) preserves all prior assets and contains ONLY three16×32 West/South/North idles. Clothes draw behind the head; jaw overlaps shoulders, rear-head occlusion differs from front, idle palm sits beside torso with a connected skin area and warm boundary. Writer and Eutychus actually inspected the final baseline-aligned source crop and front/back proof. Eutychus permits returning this restricted checkpoint to parent, not artwork acceptance or further production. Frozen; no32×64, East, poses, Library/user delivery, creator or deployment. Main; task-owned source/docs commit and push follow, external Nintendo-colored comparison outside Git and parked edits preserved. Exact next action: actual PARENT construction judgment; no automatic progression.
