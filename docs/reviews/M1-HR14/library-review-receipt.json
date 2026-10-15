@@ -1,0 +1,545 @@
+{
+  "task": "M1.HR14 corrected passing interface",
+  "reviewState": "Scoped independent pass; overall artwork UNAPPROVED, parent independent inspection pending",
+  "files": [
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-south-4x.gif",
+      "library_file_id": "libfile_461edb9f0e1c819192014f251e4d31ba",
+      "file_id": "file_00000000e7d482308c3f47274d681c67",
+      "file_name": "source-hero-template-south-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "65361e8dc4e088080bdaa88cf3d6eda545c1dcff25aea686b73a31352503200a",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-south-SLOW4x-4x.gif",
+      "library_file_id": "libfile_e4b45983a4a481919b6c2e6e93fd680d",
+      "file_id": "file_0000000043e88230a2c55e878c236f03",
+      "file_name": "source-hero-template-south-SLOW4x-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "84341679b1d4a86e82bb30c5004c18454c93d59375340ca7aed3952294b38db3",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-native.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-south-native.gif",
+      "library_file_id": "libfile_8b0e764f7b3881919eda223c4a4c35fd",
+      "file_id": "file_00000000a3ac823084a066b97b7a75fc",
+      "file_name": "source-hero-template-south-native.gif",
+      "current_version_number": 0,
+      "bytes": 98609,
+      "sha256": "ea6bc59585a36db73614befe4e7ac88e532cb2c27260a9bbbd6f89febda19dd7",
+      "byteExact": true,
+      "dimensions": [
+        112,
+        96
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-north-4x.gif",
+      "library_file_id": "libfile_b93a3d26cbcc8191aeea350b731de73f",
+      "file_id": "file_00000000024c82309db1101d3f348158",
+      "file_name": "source-hero-template-north-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "a3cf65e873445497c9abe7f393fddbee2ce4999417022c1bc56a0565c8337d86",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "cycleMs": 540,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-SLOW4x-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-north-SLOW4x-4x.gif",
+      "library_file_id": "libfile_6458256378648191b3b0b1212ad4c8f9",
+      "file_id": "file_00000000acb4823094a14cefbf0e3cf5",
+      "file_name": "source-hero-template-north-SLOW4x-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "1bddc3b0562b169a561bbdb3f256ad11aa255a06c36153967b3c6132171c7079",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "cycleMs": 2160,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-native.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-north-native.gif",
+      "library_file_id": "libfile_49074013ad48819184cd3ba2f3127ae9",
+      "file_id": "file_000000001c688230b68967030ba5b353",
+      "file_name": "source-hero-template-north-native.gif",
+      "current_version_number": 0,
+      "bytes": 98609,
+      "sha256": "6af8cd2a6f9133f26b935d34ef3f51a82076d02d6a963227ad44186cae331252",
+      "byteExact": true,
+      "dimensions": [
+        112,
+        96
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "cycleMs": 540,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-west-4x.gif",
+      "library_file_id": "libfile_aaf901ec12a88191999d4b64ccf0e836",
+      "file_id": "file_000000005b288230b6d47fbebdf04ec6",
+      "file_name": "source-hero-template-west-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "2c71a574d767a3fd15e6638fe5ff0a50a966aec996c475494a1d3110d5a6eaaf",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "cycleMs": 540,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-SLOW4x-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-west-SLOW4x-4x.gif",
+      "library_file_id": "libfile_d96ce398a6f88191be3a4211c2c606ae",
+      "file_id": "file_0000000084ec81fd97246131b88c9b49",
+      "file_name": "source-hero-template-west-SLOW4x-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "660cd3518ab66c72f9444483b27b47711933c88958887b543f87d2449c0b0846",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "cycleMs": 2160,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-native.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-west-native.gif",
+      "library_file_id": "libfile_8131170006d8819191ba548c8590392a",
+      "file_id": "file_00000000cd2881fd97fb1f73e2be8738",
+      "file_name": "source-hero-template-west-native.gif",
+      "current_version_number": 0,
+      "bytes": 98609,
+      "sha256": "6c2ad67453d698a3427f4551a335d540b252122d5ffb3ff96647628d82ac25ca",
+      "byteExact": true,
+      "dimensions": [
+        112,
+        96
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "cycleMs": 540,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-east-4x.gif",
+      "library_file_id": "libfile_d82225526b408191a0c40f6cd596be30",
+      "file_id": "file_0000000092c8820ca0ef48bff1eeee55",
+      "file_name": "source-hero-template-east-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "c2a01777220c79d260fdb5f4c283fd1c9fb315fcf0d2226b8056a0742180be57",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "cycleMs": 540,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-SLOW4x-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-east-SLOW4x-4x.gif",
+      "library_file_id": "libfile_e604b6598f7881918f98e7a18aad901d",
+      "file_id": "file_00000000139881f7a5025b8daee7660a",
+      "file_name": "source-hero-template-east-SLOW4x-4x.gif",
+      "current_version_number": 0,
+      "bytes": 1563113,
+      "sha256": "7eb0a0ec278830ea0e251e718d93397ff9dd5b1ea45e562dfa72d781a5724c1b",
+      "byteExact": true,
+      "dimensions": [
+        448,
+        384
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "cycleMs": 2160,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-native.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/source-hero-template-east-native.gif",
+      "library_file_id": "libfile_47c1350147ac819191edbfc557d3cf36",
+      "file_id": "file_0000000033f081fda5e365f1a040d835",
+      "file_name": "source-hero-template-east-native.gif",
+      "current_version_number": 0,
+      "bytes": 98609,
+      "sha256": "dd67c4b77273d3784b7d6230e3eae5b596cb2b99d5ec813927dd6feae4887cb3",
+      "byteExact": true,
+      "dimensions": [
+        112,
+        96
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "cycleMs": 540,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/four-direction-PHASE-source-hero-template-4x.gif",
+      "library_file_id": "libfile_33f75b69776c8191b767d3dfa5baeafd",
+      "file_id": "file_0000000089788230bfb943bda1a686f4",
+      "file_name": "four-direction-PHASE-source-hero-template-4x.gif",
+      "current_version_number": 0,
+      "bytes": 6249513,
+      "sha256": "9633e31d28a2fa30d3f5fffe76d202c0ad8fad1642122de3223954736af1de07",
+      "byteExact": true,
+      "dimensions": [
+        896,
+        768
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
+      "library_file_id": "libfile_4b547acc51b88191a6a13976c4bdf283",
+      "file_id": "file_00000000619482309b94b7098eee2729",
+      "file_name": "four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
+      "current_version_number": 0,
+      "bytes": 6249513,
+      "sha256": "805a42c453dba8d096d3d3304a1649b2a1a9ae5a949567074faa8a9e947f82c9",
+      "byteExact": true,
+      "dimensions": [
+        896,
+        768
+      ],
+      "frames": 8,
+      "pixelExact": true,
+      "delaysMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0
+    },
+    {
+      "original_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-featured-dummy-sheet.png",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/four-direction-featured-dummy-sheet.png",
+      "library_file_id": "libfile_8ccc04fafdc881918e5ada6281b448e6",
+      "file_id": "file_000000002e6c81f6a376a4ac2239e865",
+      "file_name": "four-direction-featured-dummy-sheet.png",
+      "current_version_number": 0,
+      "bytes": 74640,
+      "sha256": "c3b328ea80f79c603ab9c32a6663247e266f08742624b75bbce9a4c426e1be4b",
+      "byteExact": true,
+      "dimensions": [
+        1440,
+        1280
+      ],
+      "frames": 1,
+      "pixelExact": true
+    },
+    {
+      "original_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-common-feature-registration.png",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/four-direction-common-feature-registration.png",
+      "library_file_id": "libfile_e45aa6705ea0819188691f2ecea2254c",
+      "file_id": "file_000000003f3482308ce355a14765ff8d",
+      "file_name": "four-direction-common-feature-registration.png",
+      "current_version_number": 0,
+      "bytes": 57685,
+      "sha256": "8a21246b9b125518b085cf6f37cdeb4a0eb2bf452ab3958010941c2aabc4f160",
+      "byteExact": true,
+      "dimensions": [
+        1600,
+        920
+      ],
+      "frames": 1,
+      "pixelExact": true
+    },
+    {
+      "original_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/torso-registered-pack-all-eight.png",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/torso-registered-pack-all-eight.png",
+      "library_file_id": "libfile_55e4a26cdda48191968f4a8cab3d2ef9",
+      "file_id": "file_00000000626c823080a32153ba6ef94e",
+      "file_name": "torso-registered-pack-all-eight.png",
+      "current_version_number": 0,
+      "bytes": 30887,
+      "sha256": "b1f1e74daabf9f0a492a1c4dcac3dc71866b72622aa56d4ea9c0359925f52b88",
+      "byteExact": true,
+      "dimensions": [
+        1280,
+        760
+      ],
+      "frames": 1,
+      "pixelExact": true
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-interface-source-before-current.png",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/four-direction-interface-source-before-current.png",
+      "library_file_id": "libfile_9edd41c888608191b87f743dc3510df2",
+      "file_id": "file_000000002744822f9d32356c6ed3aeb5",
+      "file_name": "four-direction-interface-source-before-current.png",
+      "current_version_number": 0,
+      "bytes": 88708,
+      "sha256": "dca232d6827c50640c84def8f030c7cf95beeb51ce7f761163eafce6e073ee74",
+      "byteExact": true,
+      "dimensions": [
+        1440,
+        1480
+      ],
+      "frames": 1,
+      "pixelExact": true
+    },
+    {
+      "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/passing-interface-taper-grid.png",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/passing-interface-taper-grid.png",
+      "library_file_id": "libfile_f3be76fbb0e881919f69a97554423c9a",
+      "file_id": "file_0000000069c88230bb4e72d2a31ac49a",
+      "file_name": "passing-interface-taper-grid.png",
+      "current_version_number": 0,
+      "bytes": 23207,
+      "sha256": "f7e5d7ad8575e58b94ae21dc7d85922f62ac52a03201e727df7c8fed63d9edda",
+      "byteExact": true,
+      "dimensions": [
+        1440,
+        570
+      ],
+      "frames": 1,
+      "pixelExact": true
+    },
+    {
+      "original_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/idle-walk-interface-continuity.png",
+      "download_path": "/tmp/hr14-library-ES7c1t/verified-downloads/idle-walk-interface-continuity.png",
+      "library_file_id": "libfile_9e8278cbcef08191af2605639f04996b",
+      "file_id": "file_000000004c9881f587adf10eca2e0f78",
+      "file_name": "idle-walk-interface-continuity.png",
+      "current_version_number": 0,
+      "bytes": 38047,
+      "sha256": "280abcb03f7702fee9f06d6316867c0f70ef84ce990ca8f5728bcec726be6b3a",
+      "byteExact": true,
+      "dimensions": [
+        1600,
+        900
+      ],
+      "frames": 1,
+      "pixelExact": true
+    }
+  ],
+  "screenshotsUploaded": false,
+  "deployment": false,
+  "preparedUploadLimit": "Current helper returned Library prepare_uploads is not available before upload; supported ordered create batch used.",
+  "all20ByteAndPixelExact": true,
+  "sourceCommit": "925dd77ea754d5c2e5ab690804528dae984c2c48",
+  "frozenCheckpoint": "9ad6b62dacc25e47c0265287d813fce1959a16f5",
+  "formatChecks": {
+    "GIFs": 14,
+    "PNGs": 6,
+    "allGIFs8framesLoop0ExactHolds": true,
+    "frontNormalSlowMs": [
+      800,
+      3200
+    ],
+    "ROMdirectionNormalSlowMs": [
+      540,
+      2160
+    ],
+    "PHASEboardNormalSlowMs": [
+      800,
+      3200
+    ],
+    "phaseClockIsNotROMCadence": true
+  },
+  "independentReview": "Final all4 idleRGBA50\u201355=P48\u201353+2, hand/taper fixes, protectedhead/walkinglower54\u201363 and32canonicalpack/strapPNGs;42publication hashes/sizes exact; first19Librarydownloads independently byte-exact, rootverified20th also.",
+  "remainingIssues": [
+    "Broad/angular lower-foot mass and overall style require human judgment",
+    "Profile bag one extra column W x26/y48\u201349 A,C; E x5;two native cells perpose, original source-envelope difference unapproved, attachment rigid",
+    "Zero complete continuous cycles observed; browser playback sampled only; all8plates/decoded timing checked",
+    "Both tutorial full continuous watches incomplete; full automatic transcripts and sampled frames only"
+  ]
+}

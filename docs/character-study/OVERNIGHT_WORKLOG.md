@@ -59,3 +59,31 @@ A replayed Tanoshi recovery was independently reconciled: its version50 premise 
 Read-only reviewer decoded all32 native PNGs againstf4403d0: only SouthP changes,15Hero and18dummyRGBAcells onrow53x7–24; other30poses exact. All10editableprojects agree with duplicatedPframes only, and all25publication artifacts match bytes/hashes. Reviewer inspected actual seam context, passing before/after, common-feature guide and torso pack plate. Source interface P53[7,25) matches. Residual visible HeroP52[10,23)→P53[7,25) widens3left/2right, whereas sourceP52[5,27) tapers. This retained upper-costume interface is exposed, not a full-waist solution or art acceptance. No additional scoped regression blocks delivering unapproved proofs. Coordinator also inspected the actual seam-context image.
 
 Next unfinished step: current HR14 Library export and actual continuous native/normal/slow motion review, then determine a bounded interface correction if needed. Hero/dummy remain UNAPPROVED and roster held. No scheduler work; parent resumes.
+
+## 2026-10-15 — Parent-directed passing-interface correction in progress
+
+Parent explicitly requests the visible passing-waist flare be fixed, full directional/motion and dummy-feature/rigid-pack checks, then current proofs exported to Library for independent inspection. Sole existing Hero writer remains gpt-6.1-sol medium; independent read-only reviewer retained. No runtime/deployment or roster promotion. Source inspection identifies retained upper-costume narrowing before the broader observed lower mass in several directions; a bounded six-row interface pass is underway, preserving head/lower rows/pack geometry. Final exact changes and checks remain pending.
+
+Root created a local external-proof review server at127.0.0.1:8771 and opened a dedicated Chrome review tab. Actual normal/slow comparison GIFs render; screenshots are discrete samples, not continuous viewing. Final corrected assets have not yet been reviewed/exported at this entry.
+
+Tutorial retry: worker rebound the existing research tab, sought Revolation34:35 with chapter “Copying and aligning sprites”, but screenshot immediately failed after browser connection disappeared. No additional visual coverage verified. Both continuous full watches remain incomplete. No scheduler work.
+
+## 2026-10-15 — Draft interface review catches duplicated hand clusters
+
+Independent reviewer confirms new South passing contour tapers inward; current idle source now agrees with P shifted down2 across its interface. The initial report still had stale idle-unchanged metadata and must be refreshed. Draft NorthA exposed a separate upper skin blockx22–23/y48–49 and retained lower handx23–25/y50–51, with mirrored NorthC defect; dummy also colored both as hands. Root sent exact cells for bounded costume reclassification before export. Profiles have one contiguous skin cluster; SouthP diagonal hand tips remain a checkered cloth/hand readability concern. This is a draft failure caught before acceptance, not a completed quality gate.
+
+Root sampled actual browser normal/labelledslow comparison rendering in all four directions; source/Hero/dummy frames and compact back/profile pack attachment were visible. These were discrete screenshots over several page observations, not a continuous watch or emulator playback. All-frame pixel sheets and decoded GIF timing are separate evidence. Final corrected-loop review/export remains pending.
+
+## 2026-10-15 — Repaired candidate scoped visual pass; dummy idle material check
+
+Independent current all-four/all-eight native/enlarged plate review passes corrected inward taper and repaired hand clusters: NorthA/C one contiguous4-cell skin cluster, SouthP two contiguous6-cell hands; extra blocks/singletons removed and creamshirt simplified. All28 GIF schedules verified; heads/no-mouth/eyes, walkinglower54–63 and canonicalpack/strapPNGs remain protected. No overall artwork approval or continuous watch. Broad/angular lower-foot mass remains an aesthetic review question.
+
+Reviewer identifies north/west/east dummyidle rows54–55 retaining purple lower-plane colors where P translated+2 uses turquoise (40/28/28 cells). Silhouette/anchor agree; root requests bounded material consistency before export, no geometry change. Hero idle interface already agrees under translation. Writer reports rendered normal/slow native/4× samples for all four directions and records timestamp limits; samples are not a full uninterrupted cycle watch.
+
+## 2026-10-15 — Frozen interface correction and Library delivery
+
+Sole writer completed source925dd77 and froze/pushed receipt9ad6b62; exact origin/main matched before delivery. Final independent review rechecks all4Hero/dummyidleRGBA50–55=P48–53+2, hand/taper fixes, walkinghead/lower54–63 protection and32canonicalpack/strapPNGs; all42publication hashes/sizes exact. All4all8native/enlarged plates inspected. Pack exception is one extra column W x26/y48–49 in A/C, E x5, two cells/pose; source-envelope difference unapproved, attachment retained.
+
+Root saved20newversion0Libraryfiles:14GIF/6PNG, every download exactbytes/pixels, allGIF8frames/loop0/holds exact. First19downloads independently byte-checked; root verified finalidlecontinuityproof too. Currenthelper reported prepare_uploads unavailable beforeupload; supportedorderedcreate route succeeded. Earlier reviews preserved, no browser screenshots uploaded. AuthoritativeIDs/versions inM1-HR14/library-review-receipt.json.
+
+Remaining: broad/angularfootmass, smallprofileoverhang, overallartjudgment andcompletecontinuousmotionreview. Browsercoverage sampled only; bothfulltutorialwatchesincomplete. No overallHero/dummyapproval or roster advance. Exact next unfinished step: parent inspect saved normal/slow/native directional loops andcomparisonproofs, judge completecycles/appearance, then boundedfixes or scopedqualityresult before sequentialexistingcast. No live deployment. Rootcommits deliveryreceipt/README/worklog/scopedstatus only; parkedshared-doc/HR11 edits preserved. Finalhandoff recordsverifiedSHA.
