@@ -1,5 +1,9 @@
 # Project status
 
+## DS2 restricted native-idle checkpoint — awaiting parent internal review
+
+Parent rejected DS1 presentation readiness; existing22 Library files are superseded rejected internal history. [Separate revision2 source/native proof](reviews/M1-DS2/README.md) preserves all prior assets and contains ONLY three16×32 West/South/North idles. Clothes draw behind the head; jaw overlaps shoulders, rear-head occlusion differs from front, idle palm sits beside torso with a connected skin area and warm boundary. Writer and Eutychus actually inspected the final baseline-aligned source crop and front/back proof. Eutychus permits returning this restricted checkpoint to parent, not artwork acceptance or further production. Frozen; no32×64, East, poses, Library/user delivery, creator or deployment. Main; task-owned source/docs commit and push follow, external Nintendo-colored comparison outside Git and parked edits preserved. Exact next action: actual PARENT construction judgment; no automatic progression.
+
 ## DS2 internal construction revision — DS1 delivery readiness withdrawn
 
 Parent inspected the actual DS1 plates and rejected them for user delivery: perched head/narrow pale neck, near-circular refined skull, insufficient front/back camera overlap, and forward-jutting idle hand. Root's previous readiness judgment was too permissive and is withdrawn. The 22 existing private Library files are frozen superseded INTERNAL candidates; no more sharing/upload or identity changes. [Corrected historical index](reviews/M1-DS1/library-review/README.md) and independent review record state the rejection. Links had already been relayed before this rejection arrived; they are not accepted art.

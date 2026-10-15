@@ -1,0 +1,29 @@
+{
+  "south": {
+    "sha256": "9ff67d10603ffab1c8505d9bd830bb92ae078092ee405a726134f549bc0bba55",
+    "bounds": [
+      2,
+      11,
+      14,
+      31
+    ]
+  },
+  "north": {
+    "sha256": "0392f92b2b0c79dc9a2e9e65f2d43bb4a1de074298fe9b5084e7273583bda9cd",
+    "bounds": [
+      2,
+      11,
+      14,
+      31
+    ]
+  },
+  "west": {
+    "sha256": "e38b6ada201160f7f6b1ff7590f617b8ad848a6e902b5fd6831d880f297d3ddc",
+    "bounds": [
+      3,
+      11,
+      13,
+      31
+    ]
+  }
+}
