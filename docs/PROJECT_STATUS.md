@@ -1,5 +1,10 @@
 # Project status
 
+## HR14 front hand/cuff correction — blocked before implementation
+
+**Writer message denied; no art changes.** The single attempt to send the bounded existing-front idle/walk hand/cuff correction to the established writer was rejected by automatic approval review: trusted user evidence did not explicitly authorize that message, and claimed existing scope appeared only in delegation context. Stopped without retry or alternate route. Existing source frames, ten rotation/phase Library previews, Girl scope, saves and runtime remain unchanged. No correction/check/visual pass claimed. Exact next dependency: direct trusted authorization for this specific writer message. [Existing visual findings](reviews/M1-HR14/rotation-phase-review/README.md) remain the evidence for the wrist concern. Documentation-only blocker record pushed with remote verification in final handoff; no deployment. Parked edits preserved.
+
+
 ## HR14 existing-frame rotation/phase QA — review delivered
 
 **Independent visualization complete; continuous-watch acceptance pending.** All32 frozen Hero/dummy PNGs unchanged. Root inspected native/4x idles and all12distinct gait-pose pairs plus the external source/material comparison. Actual browser rotation/normal/slow playback sampled in3screenshots; zero uninterrupted cycles claimed. Ten Libraryv0 previews download byte/RGBA/timing exact. [Native previews and specific findings](reviews/M1-HR14/rotation-phase-review/README.md). No exposed neck block, independent head drift, detached pack or new geometric foot/stride defect found. Profile P remains a broad joined source-visible costume mass, not measured anatomy. Recommend bounded front hand/cuff material clarification before appearance acceptance; no art correction or writer message performed. All idle contacts end61; walking directional contour differences explicitly recorded. Next: parent reviews previews and hand/cuff concern, then complete continuous-motion judgment. Girl directional denial unchanged; no retry/new assets/runtime/save/deployment. Owned preview stopped; parked edits preserved. Commit/push and remote match reported in final handoff.
