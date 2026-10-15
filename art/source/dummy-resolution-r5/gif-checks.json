@@ -1,0 +1,106 @@
+[
+  {
+    "file": "dummy-1x-west-walk-normal.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  },
+  {
+    "file": "dummy-1x-west-walk-slow.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      800,
+      800,
+      800,
+      800
+    ],
+    "loopMs": 3200,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  },
+  {
+    "file": "dummy-1x-east-walk-normal.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  },
+  {
+    "file": "dummy-1x-east-walk-slow.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      800,
+      800,
+      800,
+      800
+    ],
+    "loopMs": 3200,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  },
+  {
+    "file": "dummy-2x-west-walk-normal.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  },
+  {
+    "file": "dummy-2x-west-walk-slow.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      800,
+      800,
+      800,
+      800
+    ],
+    "loopMs": 3200,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  },
+  {
+    "file": "dummy-2x-east-walk-normal.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "loopMs": 800,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  },
+  {
+    "file": "dummy-2x-east-walk-slow.gif",
+    "savedFrames": 4,
+    "holdsMs": [
+      800,
+      800,
+      800,
+      800
+    ],
+    "loopMs": 3200,
+    "logicalSlots": 8,
+    "actualDecodedPixelsExact": true
+  }
+]

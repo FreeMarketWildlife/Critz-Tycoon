@@ -1,5 +1,9 @@
 # Reference measurements — Emerald exploration
 
+## DS5 actual side contact correspondence — primary source inspection
+
+Indexed PNG strips Brendan walking/Man1 at pinned731ad5bfd6e6f265508d0efcca0ba42f9dcf5881, backgroundindex0 excluded. Actual bottom painted rows: both sideidle2 end atrow30 x5..9; Brendan7/Man1 8 end atrow31 x10..11; Brendan8/Man1 7 end atrow31 x4..5. Therefore compare these opposite stride indices when matching visible planted-contact side, not same-index assumptions. [Current evidence/scope](reviews/M1-DS5/DIAGNOSIS.md). Displaying source strides one whole native row upward aligns their last contact with Critz30; this is a declared comparison translation, not source modification/fitting. Source2 against proposed P is idle/overlap evidence, not a matched motion phase. Arm pivot, bob, labels and800ms/3200ms reviewcadence are original Critz decisions; no emulator timing or hidden-joint observation claimed.
+
 ## HR9 supplied custom animation — primary for current forward art/motion review
 
 Confirmed user input is [refined left sprite animation](https://i.redd.it/01agijgmbz561.gif), SHA256 `5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e`. Actual8×100ms GIF with3 unique left poses,800ms loop, exact4-display-pixel grid. Fixed14-top/2-bottom registration is a declared comparison proposal, not anatomy or original artist intent. Source face/eye moves2 logical pixels, while cap top moves4 including contour change. Bottom-clipped source extent/padding, hidden bone lengths and a true idle remain unobserved. [Full actual observations](reviews/M1-HR9/REFERENCE_OBSERVATIONS.md) / [per-frame data](reviews/M1-HR9/reference-observations.json). This user-supplied custom redraw is not new ROM/emulator evidence and does not rewrite the historical pinned measurements below. It supersedes their use as a substitute for Phil's intended current forward design/motion reference.

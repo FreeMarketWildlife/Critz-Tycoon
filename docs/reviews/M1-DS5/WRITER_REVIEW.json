@@ -1,0 +1,28 @@
+{
+  "nativeFirst": true,
+  "staticNativePosesViewed": 8,
+  "staticNativeRefinedPosesViewed": 16,
+  "sourcePhasePairs": {
+    "rearContact": [
+      7,
+      8
+    ],
+    "frontContact": [
+      8,
+      7
+    ],
+    "idleOverlap": [
+      2,
+      2
+    ]
+  },
+  "sourceWholeFrameStrideDisplayShiftY": -1,
+  "browser": "Chrome art-only native cycle and synchronized paired slow-cycle screenshots",
+  "observedPoses": [
+    "A",
+    "P",
+    "C"
+  ],
+  "limitations": "Sampled actual playback and framewise review, not a continuous uninterrupted human watch or emulator observation. Final appearance not approved.",
+  "sourceFactsVsProposal": "P source frame2 is idle overlap reference, not proof of our bob/passing motion;800ms review cadence and projected arm pivot are original choices."
+}

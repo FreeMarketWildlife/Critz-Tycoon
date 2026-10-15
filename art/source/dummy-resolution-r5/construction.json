@@ -1,0 +1,94 @@
+{
+  "idle": {
+    "protectedAboveRow": 22,
+    "headExactDS4": true,
+    "shoePixelsExactDS4": true,
+    "nearShoulder": [
+      8,
+      22
+    ],
+    "nativeShirtVisibleRows": [
+      22,
+      24
+    ],
+    "sourceContactPair": [
+      2,
+      2
+    ],
+    "refinedProtectedAbove": 44,
+    "refinedShoeExactDS4": true,
+    "refinedShoulder": [
+      16,
+      44
+    ]
+  },
+  "A": {
+    "protectedAboveRow": 22,
+    "headExactDS4": true,
+    "shoePixelsExactDS4": true,
+    "nearShoulder": [
+      8,
+      22
+    ],
+    "nativeShirtVisibleRows": [
+      22,
+      24
+    ],
+    "sourceContactPair": [
+      7,
+      8
+    ],
+    "refinedProtectedAbove": 44,
+    "refinedShoeExactDS4": true,
+    "refinedShoulder": [
+      16,
+      44
+    ]
+  },
+  "P": {
+    "protectedAboveRow": 21,
+    "headExactDS4": true,
+    "shoePixelsExactDS4": true,
+    "nearShoulder": [
+      8,
+      21
+    ],
+    "nativeShirtVisibleRows": [
+      21,
+      23
+    ],
+    "sourceContactPair": [
+      2,
+      2
+    ],
+    "refinedProtectedAbove": 42,
+    "refinedShoeExactDS4": true,
+    "refinedShoulder": [
+      16,
+      42
+    ]
+  },
+  "C": {
+    "protectedAboveRow": 22,
+    "headExactDS4": true,
+    "shoePixelsExactDS4": true,
+    "nearShoulder": [
+      8,
+      22
+    ],
+    "nativeShirtVisibleRows": [
+      22,
+      24
+    ],
+    "sourceContactPair": [
+      8,
+      7
+    ],
+    "refinedProtectedAbove": 44,
+    "refinedShoeExactDS4": true,
+    "refinedShoulder": [
+      16,
+      44
+    ]
+  }
+}
