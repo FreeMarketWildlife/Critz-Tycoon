@@ -331,7 +331,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "9572d515b524ab4f63c56b4055adf4eb548dd5f69e488a372815121e3b6453d3"
+      "sha256": "c400f959aa8f5adc70ec34ea8da50a7182aae04d67e4f4f38acf8e76f7c7e97d"
     },
     "source-hero-template-south-4x.gif": {
       "frames": 8,
@@ -352,7 +352,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "71b73ee03fc809ea6c0bd9b0f78a7db5a9ed2f60a1e3d0f9a27b5e7c2b008bb6"
+      "sha256": "33baf8a4c4a57bae5d6cf02be0739949e50c3e9c2db6d41982f541924c7b1966"
     },
     "hero-south-native.gif": {
       "frames": 8,
@@ -373,7 +373,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "70b64e055c194c86e64a30ecf5e5ad6b9eb40eca90dfadf02b5c1ca9b27713de"
+      "sha256": "3d1d98bfb57f71e5c68122e70923e357c6a950f7b95e7ab83ce7b8bd54526ec2"
     },
     "dummy-south-native.gif": {
       "frames": 8,
@@ -394,7 +394,7 @@
         64
       ],
       "exactPixels": true,
-      "sha256": "18757ad4b286b7afe084030a4b51052ac9616ee9aee9d8d93a321bda6b5e0b72"
+      "sha256": "d5f71d6760f895fc61660914e1885abcb00e5f3a6bb221c42d6046558aa968cb"
     },
     "source-hero-template-south-SLOW4x-native.gif": {
       "frames": 8,
@@ -415,7 +415,7 @@
         96
       ],
       "exactPixels": true,
-      "sha256": "220f524066f351ba598e4ff6aedaff0662b91c24cfe7afc2db3b0b8995041257"
+      "sha256": "f7d75998b2cfaddbee7768e8c39c03e65a92bfe2ef95f5b12c1179218f723bb4"
     },
     "source-hero-template-south-SLOW4x-4x.gif": {
       "frames": 8,
@@ -436,7 +436,7 @@
         384
       ],
       "exactPixels": true,
-      "sha256": "a0c79f1a439cc293df330d9e5db4203e0c5625ba51102199e1fc1ed2276d4a05"
+      "sha256": "91723785ba287a4c14df09b41703dbda5e330cd15274d1fc6c8aa171b77ee58d"
     },
     "source-hero-template-north-native.gif": {
       "frames": 8,
@@ -835,7 +835,7 @@
         192
       ],
       "exactPixels": true,
-      "sha256": "b6afff98ff5bacbd2f707c2d2a4d9268517a244e11948797fd4fa919f2d40eda"
+      "sha256": "1e0a6781b48807d5940437ed4c36123823fafda4e60aa7c9fdb02f4317208f99"
     },
     "four-direction-PHASE-source-hero-template-4x.gif": {
       "frames": 8,
@@ -856,7 +856,7 @@
         768
       ],
       "exactPixels": true,
-      "sha256": "2465b570a41f01eed6cc5467a28698e3af6ceda5bb88f4ed3e8d796a53dfaa27"
+      "sha256": "dec1eedbc72d62c922fc9f8423057b13b17877386a44d119cd8cef1c8555181b"
     },
     "four-direction-PHASE-source-hero-template-SLOW4x-native.gif": {
       "frames": 8,
@@ -877,7 +877,7 @@
         192
       ],
       "exactPixels": true,
-      "sha256": "7118c6ce2ab05da47a9ad54f1e3e22b10ab84a46ff7deec88cb72cf99d483732"
+      "sha256": "b52b843d073dcfb46c51ab31b1f32617ccb534fc53eb9f63842a2ad5a62d169b"
     },
     "four-direction-PHASE-source-hero-template-SLOW4x-4x.gif": {
       "frames": 8,
@@ -898,7 +898,7 @@
         768
       ],
       "exactPixels": true,
-      "sha256": "72cf5564098aaacf38aa32e476f134f7924cd825b0716225e76c965fcc36bf2a"
+      "sha256": "c16652b2516b611e197ded6afc72c48a48fff99f6ff226aa3c4ef4116d5b65e5"
     }
   },
   "limits": [
@@ -913,6 +913,181 @@
     "hiddenHipKneeAnkleFootAttachments": null,
     "observedLowestContourSpansChecked": true,
     "noSpritePixelsChanged": true
+  },
+  "additionalExactPassingSeam": {
+    "direction": "south",
+    "pose": "P",
+    "row": 53,
+    "sourceAlphaSpans": [
+      [
+        7,
+        25
+      ]
+    ],
+    "alphaMismatchCells": 0,
+    "materialMismatchCells": 0,
+    "sourceVisibleClasses": [
+      "black/dark plane",
+      "brown hem/shadow plane"
+    ],
+    "CritzMaterials": [
+      "ink/navy",
+      "slate shadow"
+    ],
+    "anatomicalWaistCoordinate": null,
+    "protectedOutsideSouthPassingRow53": true,
+    "retainedUpperSeamDifferences": {
+      "A": {
+        "52": {
+          "sourceSpans": [
+            [
+              5,
+              24
+            ]
+          ],
+          "heroSpans": [
+            [
+              7,
+              9
+            ],
+            [
+              10,
+              23
+            ]
+          ],
+          "missingXs": [
+            5,
+            6,
+            9,
+            23
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        },
+        "53": {
+          "sourceSpans": [
+            [
+              5,
+              24
+            ]
+          ],
+          "heroSpans": [
+            [
+              10,
+              23
+            ]
+          ],
+          "missingXs": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            23
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        }
+      },
+      "P": {
+        "52": {
+          "sourceSpans": [
+            [
+              5,
+              27
+            ]
+          ],
+          "heroSpans": [
+            [
+              10,
+              23
+            ]
+          ],
+          "missingXs": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            23,
+            24,
+            25,
+            26
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        },
+        "53": {
+          "sourceSpans": [
+            [
+              7,
+              25
+            ]
+          ],
+          "heroSpans": [
+            [
+              7,
+              25
+            ]
+          ],
+          "missingXs": [],
+          "extraXs": [],
+          "status": "EXACT source-visible interface"
+        }
+      },
+      "C": {
+        "52": {
+          "sourceSpans": [
+            [
+              8,
+              27
+            ]
+          ],
+          "heroSpans": [
+            [
+              9,
+              22
+            ],
+            [
+              23,
+              25
+            ]
+          ],
+          "missingXs": [
+            8,
+            22,
+            25,
+            26
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        },
+        "53": {
+          "sourceSpans": [
+            [
+              8,
+              27
+            ]
+          ],
+          "heroSpans": [
+            [
+              9,
+              22
+            ]
+          ],
+          "missingXs": [
+            8,
+            22,
+            23,
+            24,
+            25,
+            26
+          ],
+          "extraXs": [],
+          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+        }
+      }
+    }
   },
   "packChecks": {
     "south/idle": {

@@ -99,5 +99,11 @@ for d in dirs:
   for kind in ('hero','dummy'):
    im=Image.open(out/f'{kind}-{d}-{po}.png').convert('RGBA');assert hashlib.sha256(im.tobytes()).hexdigest()==record[kind+'PixelSHA256']
 r['commonFeatureRegistration']={'records':16,'hiddenHipKneeAnkleFootAttachments':None,'observedLowestContourSpansChecked':True,'noSpritePixelsChanged':True}
+seam=json.loads((out/'waist-seam-checks.json').read_text());assert seam['allSeamChecksPass']
+ref=Image.open(ext/'reference-south-P.png').convert('RGBA');h=Image.open(out/'hero-south-P.png').convert('RGBA')
+for x in range(32):
+ sp=ref.getpixel((x,53));hp=h.getpixel((x,53));assert bool(sp[3])==bool(hp[3])
+ if sp[3]:assert hp[:3] in colors[refclass(sp,'south',53)]
+r['additionalExactPassingSeam']={**seam['sourceClassProof'],'protectedOutsideSouthPassingRow53':True,'retainedUpperSeamDifferences':seam['retainedSeamDifferences']}
 checks=json.loads((out/'first-checkpoint-checks.json').read_text());assert checks['allCheckpointChecksPass'];r['packChecks']=checks['packChecks'];r['allChecksPass']=True
 (out/'independent-checks.json').write_text(json.dumps(r,indent=2)+'\n');print('PASS:32 poses connected;12 unique loweralpha+material maps exact;head protected;dummyeyes/hands;16 rigid pack checks;10 editable sources equal;28 GIFs decode exactpixels/holds/nearest4x.')

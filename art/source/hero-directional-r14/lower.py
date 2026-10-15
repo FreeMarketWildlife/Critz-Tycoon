@@ -97,3 +97,8 @@ LOWER={'south': {'A': ['......ppppppphhhhhppppnn........',
                 '........pppp....................']}}
 LOWER['east']={p:[row[::-1] for row in rows] for p,rows in LOWER['west'].items()}
 assert all(len(rows)==10 and all(len(row)==32 for row in rows) for poses in LOWER.values() for rows in poses.values())
+
+# Additional observed front passing hem/dark-costume interface, row53.
+# This is visible costume geometry, not a measured anatomical waist.
+PASSING_SEAM_ROW53=".......phpppphhhhhhpppphp......."
+assert len(PASSING_SEAM_ROW53)==32

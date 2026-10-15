@@ -1,6 +1,6 @@
 {
   "task": "M1.HR14",
-  "state": "stable UNAPPROVED; awaiting human visual review",
+  "state": "SUPERSEDED pre-seam snapshot; current bounded seam proof/receipt refresh pending",
   "branch": "main",
   "sourceCommit": "52399af91052c60ad2cf06d4c917c086794a750d",
   "verifiedOriginMain": "52399af91052c60ad2cf06d4c917c086794a750d",
@@ -133,5 +133,6 @@
   "library": "Eutychus/root handles export and downloaded-pixel/timing checks; no owner export performed",
   "deployment": "None; acceptedgame/UI/save/editor unchanged",
   "remainingChanges": "ParkedHR11 source/review and original four shared-document change lines retained unstaged; index/context shifts do not change their edits.",
-  "nextAction": "Eutychus Library delivery and human review; owner holds further artwork"
+  "nextAction": "Eutychus Library delivery and human review; owner holds further artwork",
+  "supersededBy": "waist-seam-checks.json; SouthP53 correction. Do not export old artifact hashes as current."
 }

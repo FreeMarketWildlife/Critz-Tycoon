@@ -1,0 +1,446 @@
+{
+  "task": "M1.HR14 bounded front passing seam correction",
+  "baseline": "f4403d0",
+  "exactScope": "all walking lowerrows54..63 plus SOUTH P row53 only",
+  "interpretation": "Row53P is a connected hem/dark-costume interface; observed alpha/material pattern does not locate an anatomical waist or leg origin. Row52 and stride row53 include source upper-costume/arm clusters; original Hero shirt/arm design retained there with differences disclosed.",
+  "sourceClassProof": {
+    "direction": "south",
+    "pose": "P",
+    "row": 53,
+    "sourceAlphaSpans": [
+      [
+        7,
+        25
+      ]
+    ],
+    "alphaMismatchCells": 0,
+    "materialMismatchCells": 0,
+    "sourceVisibleClasses": [
+      "black/dark plane",
+      "brown hem/shadow plane"
+    ],
+    "CritzMaterials": [
+      "ink/navy",
+      "slate shadow"
+    ],
+    "anatomicalWaistCoordinate": null
+  },
+  "retainedSeamDifferences": {
+    "A": {
+      "52": {
+        "sourceSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            7,
+            9
+          ],
+          [
+            10,
+            23
+          ]
+        ],
+        "missingXs": [
+          5,
+          6,
+          9,
+          23
+        ],
+        "extraXs": [],
+        "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+      },
+      "53": {
+        "sourceSpans": [
+          [
+            5,
+            24
+          ]
+        ],
+        "heroSpans": [
+          [
+            10,
+            23
+          ]
+        ],
+        "missingXs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          23
+        ],
+        "extraXs": [],
+        "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+      }
+    },
+    "P": {
+      "52": {
+        "sourceSpans": [
+          [
+            5,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            10,
+            23
+          ]
+        ],
+        "missingXs": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extraXs": [],
+        "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+      },
+      "53": {
+        "sourceSpans": [
+          [
+            7,
+            25
+          ]
+        ],
+        "heroSpans": [
+          [
+            7,
+            25
+          ]
+        ],
+        "missingXs": [],
+        "extraXs": [],
+        "status": "EXACT source-visible interface"
+      }
+    },
+    "C": {
+      "52": {
+        "sourceSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            9,
+            22
+          ],
+          [
+            23,
+            25
+          ]
+        ],
+        "missingXs": [
+          8,
+          22,
+          25,
+          26
+        ],
+        "extraXs": [],
+        "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+      },
+      "53": {
+        "sourceSpans": [
+          [
+            8,
+            27
+          ]
+        ],
+        "heroSpans": [
+          [
+            9,
+            22
+          ]
+        ],
+        "missingXs": [
+          8,
+          22,
+          23,
+          24,
+          25,
+          26
+        ],
+        "extraXs": [],
+        "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
+      }
+    }
+  },
+  "protectedNativePoses": {
+    "south/idle/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "south/idle/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "south/A/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "south/A/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "south/P/hero": {
+      "changedCells": [
+        [
+          7,
+          53
+        ],
+        [
+          8,
+          53
+        ],
+        [
+          10,
+          53
+        ],
+        [
+          11,
+          53
+        ],
+        [
+          12,
+          53
+        ],
+        [
+          13,
+          53
+        ],
+        [
+          14,
+          53
+        ],
+        [
+          15,
+          53
+        ],
+        [
+          16,
+          53
+        ],
+        [
+          17,
+          53
+        ],
+        [
+          18,
+          53
+        ],
+        [
+          19,
+          53
+        ],
+        [
+          20,
+          53
+        ],
+        [
+          23,
+          53
+        ],
+        [
+          24,
+          53
+        ]
+      ],
+      "protectedOutsidePassingRow53": true
+    },
+    "south/P/dummy": {
+      "changedCells": [
+        [
+          7,
+          53
+        ],
+        [
+          8,
+          53
+        ],
+        [
+          9,
+          53
+        ],
+        [
+          10,
+          53
+        ],
+        [
+          11,
+          53
+        ],
+        [
+          12,
+          53
+        ],
+        [
+          13,
+          53
+        ],
+        [
+          14,
+          53
+        ],
+        [
+          15,
+          53
+        ],
+        [
+          16,
+          53
+        ],
+        [
+          17,
+          53
+        ],
+        [
+          18,
+          53
+        ],
+        [
+          19,
+          53
+        ],
+        [
+          20,
+          53
+        ],
+        [
+          21,
+          53
+        ],
+        [
+          22,
+          53
+        ],
+        [
+          23,
+          53
+        ],
+        [
+          24,
+          53
+        ]
+      ],
+      "protectedOutsidePassingRow53": true
+    },
+    "south/C/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "south/C/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/idle/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/idle/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/A/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/A/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/P/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/P/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/C/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "north/C/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/idle/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/idle/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/A/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/A/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/P/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/P/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/C/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "west/C/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/idle/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/idle/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/A/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/A/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/P/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/P/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/C/hero": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    },
+    "east/C/dummy": {
+      "changedCells": [],
+      "protectedOutsidePassingRow53": true
+    }
+  },
+  "visualApproval": false,
+  "allSeamChecksPass": true
+}

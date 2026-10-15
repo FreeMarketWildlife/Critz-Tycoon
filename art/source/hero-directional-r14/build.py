@@ -4,7 +4,7 @@ Authoring reads only Critz source assets. Reference comparison lives separately.
 from pathlib import Path
 from PIL import Image,ImageDraw
 import json,copy
-from lower import LOWER
+from lower import LOWER,PASSING_SEAM_ROW53
 root=Path(__file__).resolve().parents[3];src=Path(__file__).parent;out=root/'docs/reviews/M1-HR14';old=root/'docs/reviews/M1-HR13'
 P={'O':'#242330','h':'#322a31','m':'#4c3739','l':'#705044','s':'#a66845','S':'#c38a58','d':'#744539','r':'#ed745c','R':'#ffad7a','v':'#ae454a','c':'#f9edc8','C':'#bfc0aa','b':'#465671','B':'#748894','n':'#2a344a'}
 D={'O':'#253340','head':'#b8dce0','ear':'#ed8ccd','torso':'#4ac2b0','arms':'#f1a566','hands':'#ffd4a1','pants':'#9b83d4','cuff':'#65a6de','sole':'#f1d171'}
@@ -87,6 +87,15 @@ for d in directions:
   if pose=='idle' and d=='south':lower=shift(lower,2);semantic={k:[[x,y+2] for x,y in v] for k,v in semantic.items()}
   for y in range(56 if pose=='idle' and d=='south' else 54,64):
    for x in range(32):body.putpixel((x,y),lower.getpixel((x,y)))
+  # One bounded source-supported passing seam row. Stride row53 contains
+  # source arm/upper-costume clusters and intentionally remains original;
+  # row52 is also retained original upper costume. These differences are shown.
+  if d=='south' and pose=='P':
+   for x,key in enumerate(PASSING_SEAM_ROW53):
+    if key=='.':body.putpixel((x,53),(0,0,0,0));continue
+    col=P['b'] if key=='h' else P['O'] if x in (7,24) else P['n']
+    body.putpixel((x,53),tuple(bytes.fromhex(col[1:]))+(255,))
+    semantic['slateShadow' if key=='h' else 'darkPlane'].append([x,53])
   # Pack follows torso/head bounce; no lateral bob or per-pose shape redraw.
   bag0,straps0=pack_layers(d);bag=shift(bag0,dy);straps=shift(straps0,dy);anchor=[16,48+dy]
   # Visible torso occludes rear bag in front/profile; back bag is on torso.
@@ -139,5 +148,5 @@ def export(name,ims,ticks=6):
 for kind,views in frames.items():
  (src/f'{kind}-idles.sprite.json').write_text(json.dumps(export('HR14 '+kind+' idles',[(d,views[d]['idle']) for d in directions]),separators=(',',':'))+'\n')
  for d in directions:(src/f'{kind}-{d}-walk.sprite.json').write_text(json.dumps(export('HR14 '+kind+' '+d,[(str(i)+' '+p,views[d][p]) for i,p in enumerate(order)],6 if d=='south' else 4),separators=(',',':'))+'\n')
-(src/'construction.json').write_text(json.dumps({'task':'M1.HR14','status':'UNAPPROVED checkpoint','base':'HR13 identity and projection only; rejected legs/pack replaced; HR11 not consumed','canvas':[32,64],'anchor':[16,64],'lowerRows':[54,64],'directions':records,'order':order},separators=(',',':'))+'\n')
+(src/'construction.json').write_text(json.dumps({'task':'M1.HR14','status':'UNAPPROVED checkpoint','base':'HR13 identity and projection only; rejected legs/pack replaced; HR11 not consumed','canvas':[32,64],'anchor':[16,64],'lowerRows':[54,64],'additionalExactSeam':{'direction':'south','pose':'P','row':53,'role':'visible hem/dark-costume interface, not measured waist anatomy'},'retainedUpperSeamDifferences':'Row52 and A/C row53 retain original shirt/arm costume; exact full pants/waist boundary not claimed','directions':records,'order':order},separators=(',',':'))+'\n')
 print('Authored four directions,32 Hero/dummy poses; rigid canonical pack/strap layers and observed lower construction.')

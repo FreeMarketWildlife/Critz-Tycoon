@@ -4,7 +4,7 @@
 
 ## What changed
 
-The lower visible costume on rows54–63 is reconstructed from the actual registered reference: same occupied spans, gaps, colored-plane positions, overlap and phase, with Critz's original palette. No exposed calf or hidden bone length is invented. Front P remains joined through56 and first opens57; A/C retain the source's connected mass rather than the HR13 early split. North/west/east retain the actual pinned ROM lower boundaries, including stride bottoms63 and passing bottoms61. Front uses the supplied custom GIF's59/61 bottoms under its fixed registration. No per-pose fitting hides these differences.
+**Exact scope is rows54–63 in every walking pose, plus front P row53. This does not mean the full pants/waist or whole body matches the source.** The lower visible costume on rows54–63 is reconstructed from the actual registered reference: same occupied spans, gaps, colored-plane positions, overlap and phase, with Critz's original palette. No exposed calf or hidden bone length is invented. Front P remains joined through56 and first opens57; A/C retain the source's connected mass rather than the HR13 early split. North/west/east retain the actual pinned ROM lower boundaries, including stride bottoms63 and passing bottoms61. Front uses the supplied custom GIF's59/61 bottoms under its fixed registration. No per-pose fitting hides these differences.
 
 The back and profile pack has one compact canonical shape per direction and one torso-local attachment. South's rear bag is occluded by the torso/head; its fixed straps remain visible. A/C never mirror the bag with the arms. The pack and straps translate only with the declared torso transform `[0,0]` or `[0,-2]`; normalized RGBA hashes are identical across all poses. Actual visible pack coverage is checked separately against the final composite, since occlusion is not deformation. [All-eight torso registration proof](torso-registered-pack-all-eight.png).
 
@@ -12,11 +12,29 @@ Dummy now shows aligned eyes (back eyes naturally occluded), rounded ears and cl
 
 Independent checkpoint review caught a mistaken interpretation of a red side costume rectangle as a hand. That extra skin was removed before final checks; the region is now an original coral costume plane. Existing upper hands supply the dummy's hand features. Lower masks are named visible material planes, not asserted anatomical pants/cuff/foot roles. Colored garment shading does not establish where a hidden leg, knee, hand or foot begins.
 
+## Upper seam scope audit and bounded correction
+
+Final boundary review correctly found that a proof starting54 omitted the passing pose's connected hem/dark-costume interface at53. Actual sourceP row53 is[7,25), with black/dark planes and brown hem/shadow at x8,13–18,23. The previous Hero was[9,23). A bounded correction now matches that row's alpha and visible material positions in original ink/navy/slate colors; no anatomical waist or hidden leg start is asserted. Only SouthP row53 changes relative to `f4403d0`:15 Hero cells and18 dummy cells. All other32-pose pixels—including all heads/upper costume above53, pack pixels and rows54–63—remain exact. [Bounded before/after](passing-seam-before-after.png) and [fresh source/protection checks](waist-seam-checks.json).
+
+The retained upper seam differences are explicit, not hidden by the lower crop:
+
+| Front pose/row | Actual source alpha | Current Hero alpha | Scope |
+| --- | --- | --- | --- |
+| P52 | [5,27) | [10,23) | Original upper shirt/arm costume retained; not exact |
+| P53 | [7,25) | [7,25) | Corrected visible hem/dark interface, exact alpha/material planes |
+| A52 | [5,24) | [7,9)+[10,23) | Original upper shirt/arm design retained; not exact |
+| A53 | [5,24) | [10,23) | Original shirt/arm costume retained; not exact |
+| C52 | [8,27) | [9,22)+[23,25) | Original upper shirt/arm design retained; not exact |
+| C53 | [8,27) | [9,22) | Original shirt/arm costume retained; not exact |
+
+Stride53 includes red arm/costume clusters and central colored upper-costume planes; copying its entire span as “pants” would mislabel observed costume as anatomy. Row52 likewise contains mixed upper costume/arm regions. Their colors/alpha alone cannot establish a precise body/leg anatomical boundary. Those original Hero shirt/arm differences remain intentionally retained and visible in `front-waist-seam-context.png` externally. All8 normal/slow proofs were regenerated and decoded after the one-row correction. Broad/angular lower read and upper-costume seam differences remain for human judgment; no full-waist/whole-pants literal-match claim is made.
+
 ## Exact review deliverables
 
 Reference-bearing artifacts remain outside the repository/build at:
 `/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/`
 
+- `front-waist-seam-context.png`: source/before/current native/frame crops with true row grids, row53 occupancy and disclosed row52/stride53 differences. This supplements the exact lower proof.
 - `first-native-aligned-boundary-checkpoint.png`: all four directions and three unique walking poses; source/Hero/dummy at3x and native, aligned lower alpha overlap/difference.
 - `{south,north,west,east}-aligned-lower-boundary-grid.png`: true lower pixel grids, source/Hero and aligned difference (white both, red missing, blue excess).
 - `{direction}-all-eight-source-hero-template.png`: every actual paired pose/hold at3x and native.
