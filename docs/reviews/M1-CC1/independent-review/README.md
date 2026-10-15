@@ -1,0 +1,13 @@
+# Independent creator review
+
+Reviewed source: `29f3b9cfb6f1b86fd16342f1b567180d7868f2d3`, independently matched to `origin/main`. The final slot-caption change is included in the current desktop/phone screenshots. Same Library screenshot identities were updated to version1; nineteen other preview files remain version0. Every download matches exact frozen bytes/pixels, including128 GIF frames/holds/loops. [Private Library index](../library-review/README.md).
+
+Root's pure-model audit passes13,988 checks over217 representative and pairwise settings across all16 poses. A separate comparison against32 actual saved source PNGs proves all16 default dressed outputs equal FM2 and all16 bald outputs equal accepted BS2. Saved source equality is separate from the writer's internal expected arrays.
+
+Root inspected six mixed looks in all directions at idle/P; a second independent reviewer found no concrete clipping, misregistration, retained hair-shadow seam, or altered footwear extent in that sample. Root additionally inspected the six-look four-direction sheet and both crop/twists full16pose sheets, including A/C. No concrete appearance/registration blocker was found for this bounded prototype. New crop, optional face marks and palettes remain original review proposals, not broad M1 or roster acceptance.
+
+Actual isolated Chrome interactions pass25 checks at1280×900,390×844 and844×390: controls, true paused-frame/time persistence, rotation slot preservation, next-slot stepping, slow, reset to original/front/idle/no nose/no mouth, no page errors or horizontal overflow, and no storage writes while a synthetic fixture remains exact. Native canvas32×64, main nearest4× desktop/3× phone and lineup2× preserve the grid. Final screenshot captures were repeated after the mobile2× correction and final slot caption. Physical iPhone Safari was not tested.
+
+Actual browser downloads independently decode to an exact selected East passing PNG, eight exact GIF frames with `[70,60,70,70,70,60,70,70]`ms holds/infinite loop, and an exact honestly labeled16-static-pose collection with separate walk metadata. The earlier generic encoder hold mismatch was observed, corrected by the writer's local structural adapter, and retested. No continuous human playback watch is claimed.
+
+The isolated prototype is available locally at `http://127.0.0.1:8823/character-creator/` while the root-owned review server runs. Production packaging excludes this route. No deployment, game-state import, real player storage access, save change or roster adoption. Exact next action: user reviews customization appearance and behavior; any gameplay adoption/publication requires the applicable later gate.

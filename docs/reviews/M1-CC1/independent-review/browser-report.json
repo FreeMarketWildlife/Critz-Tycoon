@@ -1,0 +1,30 @@
+{
+  "checks": [
+    "no horizontal overflow 1280x900",
+    "native frame32x64",
+    "pause freezes current pose/time",
+    "rotation preserves slot",
+    "step advances one original slot",
+    "slow toggle",
+    "reset defaults and idle",
+    "zero storage writes; synthetic fixture retained",
+    "no horizontal overflow 390x844",
+    "native frame32x64",
+    "pause freezes current pose/time",
+    "rotation preserves slot",
+    "step advances one original slot",
+    "slow toggle",
+    "reset defaults and idle",
+    "zero storage writes; synthetic fixture retained",
+    "no horizontal overflow 844x390",
+    "native frame32x64",
+    "pause freezes current pose/time",
+    "rotation preserves slot",
+    "step advances one original slot",
+    "slow toggle",
+    "reset defaults and idle",
+    "zero storage writes; synthetic fixture retained",
+    "no browser page errors"
+  ],
+  "errors": []
+}
