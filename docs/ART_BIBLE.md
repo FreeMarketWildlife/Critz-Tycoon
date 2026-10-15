@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Character template correction — M1.CHT1
+
+Latest user direction supersedes NB anatomical reconstruction for ALL dummies, including South. “Dummy” means a standardized CHARACTER TEMPLATE preserving the finished dressed character's waist width, hand masses, full shoe size/footprint, body proportions and each pose's projected silhouette. Only hair becomes interchangeable over a bald scalp; appearance/material regions stay separately editable. Keep the same starter clothes and protected South dressed Hero. Do not seed from the rejected skeletal dummy, shrink to bare feet/skinny waist, infer hidden leg bones or use connectivity as visual approval. Start with one aligned South dressed/template frame and countable native-grid crops, then apply the same shape-preserving method to NWE; animations follow the single-frame review. The initial creator draft stays paused/unpublished. [Current South proof and source](reviews/M1-CHT1/README.md). Older NB anatomy/readiness sections below are historical and superseded.
+
 ## Native-grid side/back refinement — M1.PS1
 
 Latest direct user direction: fix side/back mixed scale while preserving the front, finish bald base first, then creator under Eutychus. Avoid extending the anatomy study. Prior NWE source tables repeat row pairs; inspect actual rendered boundaries/materials rather than assuming every dark fill is outline or every solid cluster is forbidden. Refine original contour steps, one-native boundary/separation weight and sleeve/near-tip cues at native pixels; never resample the whole sprite or force every fill to vary. Preserve selected front/head/hand identity, fixed frame/anchor/phase/contact registration and rigid attachments. [Actual current source changes and complete existing-pose review](reviews/M1-PS1/README.md).

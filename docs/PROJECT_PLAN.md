@@ -1,5 +1,9 @@
 # Creator — authorized next phase after bald foundation review
 
+## Active M1.CHT1 — Character template before creator
+
+Direct user correction supersedes the anatomical NB plan and its former scoped readiness, including South. First review one aligned South dressed-Hero/bald-template frame preserving actual waist, clothes, hands, shoe footprint, native grid and pose. Then extend the same exact-shape method to existing NWE poses; only animate after the single frame is right. Creator draft stays paused, out of build and unpublished. No naked body, tiny bare feet, thinner waist or inferred limb skeleton. Existing South dressed art remains protected. [Current concrete proof](reviews/M1-CHT1/README.md).
+
 **Planned; no creator code yet.** Direct user authorization sequences the corrected bald dummy before the character creator, under Eutychus. Existing current work is PS1/NB3 review. The bounded next creator review should demonstrate registered hair, ears, eyes, skin, shoe, optional nose/mouth changes across existing directions/walks; default no mouth/nose and same starter coral/cream shirt/blue shorts. Body types and broad roster work remain later under the current Eutychus sequence. Reuse actual body/costume/feature ownership, no flat full-Hero overlay and no anatomy-study expansion. Preserve selected default front pixels, player canon and real saves. A review tool/export is separate from gameplay installation; later acceptance/publication follows project gates. Require real native render/feature isolation/default preservation, existing phase/anchor checks and phone/desktop browser verification before delivery.
 
 # Active M1.NB1 — South-first independent neutral mannequin
