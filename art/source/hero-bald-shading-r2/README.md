@@ -1,0 +1,3 @@
+# BS2 source
+
+Run `build.py` with Pillow. All four directions, existing idle/A/P/C only. Same accepted BS1 skin treatment, with North's existing rear scalp shaded continuously through the nape instead of using a facing-eye cutoff. Actual eyes/ears, alpha, below-skin outfit/body, full shoes/contact and all dressed recompositions remain exact. South/West are pixel-exact to accepted BS1. Original hair and sparse hair-dependent skin/nape shading remain separate editable PNGs and recorded cells. No PM1 is included; FM2 outfit remains fixed. [Concise proofs, loops, checks and review limits](../../../docs/reviews/M1-BS2/README.md).

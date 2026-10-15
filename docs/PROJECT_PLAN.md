@@ -1,5 +1,9 @@
 # M1.NET1 — User-authorized net catching test
 
+## Active M1.BS2 — Finish current all-direction template proof, then bounded creator
+
+Parent's actual downloaded BS1 South/West bald correction is accepted for those shown poses. Apply and verify the same clean scalp in all four existing directions/idle/A/P/C, including coherent rear scalp/nape shading without a facing-eye cutoff. Keep all dressed output, body/waist/full shoes, eyes/ears, silhouette and registration exact. [Current concise sheet/contact sheet/loops](reviews/M1-BS2/README.md). PM1 remains separate and excluded. Eutychus owns private review delivery; creator stays held until scoped all-direction proof succeeds. Thereafter progress toward the already authorized bounded review-only creator using the accepted standard character template; replace the existing paused draft's rejected NB3 dependency. No new anatomy, roster or endless cluster refinement, no deployment.
+
 **Published as version58; awaiting user art/feel review.** Latest direct request authorizes a separate playable pixel-net playground: carry/walk, held-ready slow movement, directional swing and catching existing critters. [Deliverable and checks](reviews/M1-NET1/README.md). No adventure integration or broader character/creator gate acceptance. The isolated review is published through the existing site; collect user feedback on hold, creep, swing and catches; fishing and other tools remain future work. Existing creator/art foundation work remains preserved.
 
 # Creator — authorized next phase after bald foundation review

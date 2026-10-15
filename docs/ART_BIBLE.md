@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## All-direction bald continuity — M1.BS2
+
+Parent accepted the actual downloaded BS1 South/West clean scalp. Extend the same skin treatment across existing directions/poses with exact shared character/body/full-shoe shape and dressed recomposition. North has no facing forehead/eye line: inspect its existing full rear scalp/nape surface and avoid a light-cap/dark-nape stripe from blindly copying a front cutoff. Retain actual ears and scalp alpha; original hair-dependent nape shading belongs to the optional hair attachment. Do not add North clothing divisions, narrow geometry or introduce noise. [Current concise template/walk proof](reviews/M1-BS2/README.md) excludes PM1 explicitly; PM1 remains a separate subtle pants-material proposal, not evidence of an overall Emerald match. After successful scoped review, proceed toward the requested bounded review-only creator rather than unsolicited cluster adjustments. Overall user/M1/gameplay gates remain separate.
+
 ## Bald template must remove hairstyle-dependent shading — M1.BS1
 
 Parent's actual Library review rejects a skin-colored cap/jagged fringe in the bald template. A bald surface must have continuous forehead shading following the retained scalp form, rather than the removed hairstyle's boundary or cast shadows. Correct shading only; preserve the existing scalp silhouette, eyes, ears, body, full shoe/waist shapes, registration and all selected dressed artwork. Original hair stays separate. Sparse original exposed fringe/cast-shadow skin cells can belong to a documented hair-dependent shading attachment applied only with the optional hair, so the dressed original still recomposes exactly without a full opaque Hero overlay. [Focused original South/West proposal and exact masks](reviews/M1-BS1/README.md). Keep creator held for actual visual review; technical equality does not approve bald appearance.
