@@ -1,0 +1,11 @@
+# M1.DS1 — two-resolution bald dressed-template study
+
+Blocked; reference pixel inspection unavailable on2026-10-15. Latest direct user scope relayed by Eutychus: study the actual Emerald NPC sheet, author an original32×32 bald dressed-body template first, then a deliberate64×64 refinement with the same perspective and pose landmarks. Four directions and existing walk poses; first checkpoint idles and side gait. Native and equal-display-size comparison. No hair, anatomical nude reconstruction, creator expansion, gameplay or public deployment. Preserve the existing South Hero archived exactly.
+
+Source page: https://www.spriters-resource.com/game_boy_advance/pokemonemerald/asset/8329/
+Actual image link exposed by the page: https://www.spriters-resource.com/media/assets/8/8329.png?updated=1755472449
+The page reports856×695 PNG. Page metadata is not pixel inspection. Ordinary shell transfer failed; Chrome showed persistent Cloudflare verification on both the page and its published image link. No CAPTCHA solved or verification bypass attempted. No DS1 artwork has been drawn, and no NPC shape measurements are claimed. The pinned Brendan ROM remains available but does not substitute for the user-requested NPC sheet.
+
+Next action: obtain the actual sheet through ordinary permitted source access, inspect/crop representative standard-bodied front/back/side NPCs externally, record visual lessons before drawing. Root independently confirms HTTP403Forbidden from web and Python for the published PNG; ordinary browser access produced no image pixels. The legacy published sheet URL was also unavailable. Actual source image materialization/attachment is required before study can proceed. The unfinished SV1 West draft is preserved as superseded history. Creator work is fully stopped until explicit user visual acceptance of Hero and shared-shape bald template.
+
+Library delivery already complete for existing CHT1/FM1/FM2, BS1/BS2 and CC1: see their receipts. Existing baseline links were re-shared privately with Eutychus under standing human authorization. No new corrected side/template art exists to upload yet; do not duplicate Library IDs or present baseline artwork as a new correction.

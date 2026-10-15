@@ -1,5 +1,9 @@
 # M1.NET1 — User-authorized net catching test
 
+## Active M1.DS1 — Hero and dummy art first; creator stopped
+
+Blocked on actual NPC sheet pixels. Follow the latest [canonical two-resolution art direction](ART_BIBLE.md#isolated-two-resolution-bald-template-study--m1ds1), not the superseded creator-readiness notes below. Study actual reference before drawing; deliver the first idle/side-gait comparison, then iterate through user visual review toward all directions/existing walks. Preserve creator files, but perform no creator implementation, tests, polish or exports. Explicit user Hero/dummy acceptance is the prerequisite for reopening it. No roster/runtime/publication work. [Access evidence and next action](reviews/M1-DS1/README.md).
+
 ## Active M1.CC1 — Bounded customization review prototype
 
 Parent's actual BS2 four-direction/walk review accepts that foundation for the isolated creator, superseding the prior foundation hold for this tool only. Replace the old NB3 draft with BS2-backed separate appearance metadata; same starter clothes/body/full-shoe footprint, no anatomy or roster expansion, PM1 excluded. Current [reviewable prototype and evidence](reviews/M1-CC1/README.md) includes three hair styles including bald, registered ear/eye/shoe/skin and optional face marks, real play/pause/rotate/step/reset, native/integer previews and scoped exports. Finish meaningful combination checks and actual phone/desktop screenshot/download validation, then private review through Eutychus. Do not deploy/adopt into gameplay or treat technical readiness as M1/user appearance acceptance.
