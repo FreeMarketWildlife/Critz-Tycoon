@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "checks": {
+    "west-idle exact alpha": true,
+    "west-idle exact contact row61": true,
+    "west-idle all other pixels exact": true,
+    "west-idle original shared palette only": true,
+    "west-idle template same material cells": true,
+    "west-idle template alpha exact": true,
+    "west-P exact alpha": true,
+    "west-P exact contact row61": true,
+    "west-P all other pixels exact": true,
+    "west-P original shared palette only": true,
+    "west-P template same material cells": true,
+    "west-P template alpha exact": true
+  },
+  "approval": false
+}

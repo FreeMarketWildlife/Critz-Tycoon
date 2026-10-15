@@ -1,0 +1,11 @@
+# M1.FM1 — Focused West shoe material trial
+
+**Unapproved West idle/P only.** Eutychus's independent critique identifies legitimate profile overlap but insufficient shoe/pants material distinction. This candidate changes28 color cells in each of the two existing poses, retaining every alpha/outline, waist, body, shoe footprint and contact position. The28-cell edit set is identical for idle/P because their existing lower surfaces coincide.
+
+[Current / trial Hero and standardized template, native and nearest4×](west-idle-P-material-trial.png) · [Countable native grid and protected South shoe style](west-idle-P-native-grid.png) · [Actual changed cells/source hashes](../../../art/source/hero-footwear-r1/edits.json) · [12 exact saved-pixel checks](checks.json).
+
+The original Critz side-view proposal gives the visible shoe surface a coherent burgundy/coral upper and restrained side sole/toe edge. It reuses South's original shoe ramp, including pale `#bfc0aa`; this raises West's used colors13→14 but introduces no new color to the selected Hero's existing14-color palette. No smoothing, invented far foot, bones, geometry narrowing, new ankle length or footprint change. The lowest contact row61 and all original exterior ink remain unchanged. Every other source pixel is exact, as is the template silhouette. This is view-specific original material design, not source-recovered anatomy.
+
+All original PS1/CHT1 files and all four South dressed sprites remain unchanged. Pinned Emerald source/front-style/current/trial comparison is external at `/Users/tanoshi/.codex/visualizations/2026/10/15/fm1-material-trial/external-pinned-reference-current-trial.png`, revision `5eff78649e7170a877b961ef0b3da13b81a16038`. It supports legitimate overlap/context only; no reference art is copied into this review or claimed as emulator observation.
+
+No other direction/pose receives this treatment until the focused material trial is reviewed. The16 static shape-preserving templates at CHT1 remain historical source checkpoint `c600c29`. Creator, animation and gameplay/save/hosting work stay paused. Exact next action: Eutychus critiques the two native/full/grid material comparisons before any wider application. A check pass is not visual approval.

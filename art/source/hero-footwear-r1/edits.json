@@ -1,0 +1,492 @@
+{
+  "task": "M1.FM1",
+  "state": "ONE WEST IDLE/P MATERIAL TRIAL; UNAPPROVED",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "source": "PS1 8726c9a; template CHT1 c600c29",
+  "poses": {
+    "idle": {
+      "sourceSHA256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+      "changedCells": [
+        {
+          "xy": [
+            10,
+            58
+          ],
+          "before": "#ae454a",
+          "after": "#ed745c"
+        },
+        {
+          "xy": [
+            11,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ed745c"
+        },
+        {
+          "xy": [
+            12,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            13,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            14,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            15,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            16,
+            58
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            17,
+            58
+          ],
+          "before": "#748894",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            18,
+            58
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            19,
+            58
+          ],
+          "before": "#465671",
+          "after": "#2a344a"
+        },
+        {
+          "xy": [
+            10,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            11,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            12,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            13,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            14,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            15,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            16,
+            59
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            17,
+            59
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            18,
+            59
+          ],
+          "before": "#465671",
+          "after": "#2a344a"
+        },
+        {
+          "xy": [
+            19,
+            59
+          ],
+          "before": "#465671",
+          "after": "#2a344a"
+        },
+        {
+          "xy": [
+            11,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#f9edc8"
+        },
+        {
+          "xy": [
+            12,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#f9edc8"
+        },
+        {
+          "xy": [
+            13,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            14,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            15,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            16,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            17,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            18,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        }
+      ],
+      "contactRow": 61,
+      "scope": "Existing source-visible shoe material surface, not recovered hidden foot anatomy"
+    },
+    "P": {
+      "sourceSHA256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+      "changedCells": [
+        {
+          "xy": [
+            10,
+            58
+          ],
+          "before": "#ae454a",
+          "after": "#ed745c"
+        },
+        {
+          "xy": [
+            11,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ed745c"
+        },
+        {
+          "xy": [
+            12,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            13,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            14,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            15,
+            58
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            16,
+            58
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            17,
+            58
+          ],
+          "before": "#748894",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            18,
+            58
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            19,
+            58
+          ],
+          "before": "#465671",
+          "after": "#2a344a"
+        },
+        {
+          "xy": [
+            10,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            11,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            12,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            13,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            14,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            15,
+            59
+          ],
+          "before": "#2a344a",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            16,
+            59
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            17,
+            59
+          ],
+          "before": "#465671",
+          "after": "#ae454a"
+        },
+        {
+          "xy": [
+            18,
+            59
+          ],
+          "before": "#465671",
+          "after": "#2a344a"
+        },
+        {
+          "xy": [
+            19,
+            59
+          ],
+          "before": "#465671",
+          "after": "#2a344a"
+        },
+        {
+          "xy": [
+            11,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#f9edc8"
+        },
+        {
+          "xy": [
+            12,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#f9edc8"
+        },
+        {
+          "xy": [
+            13,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            14,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            15,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            16,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            17,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        },
+        {
+          "xy": [
+            18,
+            60
+          ],
+          "before": "#2a344a",
+          "after": "#bfc0aa"
+        }
+      ],
+      "contactRow": 61,
+      "scope": "Existing source-visible shoe material surface, not recovered hidden foot anatomy"
+    }
+  },
+  "checks": {
+    "west-idle exact alpha": true,
+    "west-idle exact contact row61": true,
+    "west-idle all other pixels exact": true,
+    "west-idle original shared palette only": true,
+    "west-idle template same material cells": true,
+    "west-idle template alpha exact": true,
+    "west-P exact alpha": true,
+    "west-P exact contact row61": true,
+    "west-P all other pixels exact": true,
+    "west-P original shared palette only": true,
+    "west-P template same material cells": true,
+    "west-P template alpha exact": true
+  },
+  "appearanceApproval": false
+}
