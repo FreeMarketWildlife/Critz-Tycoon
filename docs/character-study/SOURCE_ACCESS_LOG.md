@@ -36,3 +36,7 @@ Evidence path:
 ## Final browser worker handoff
 
 Transcript evidence is local outside the repository: first video `youtube-vUr7ScDjx5o-af1b7c01-1393-4d98-bb28-541886bc1dda.txt` and second `youtube-0QqHmQdq_Dk-7a7f3316-7261-4de5-88b3-e8123fee0666.txt`, both under the browser-use temporary exports directory. Thundaga’s character hat example at 17:23–19:17 is transcript-verified only; sampled visual coverage remains the four Bulbasaur frames listed above. Normal Chrome playback worked before the native-pipe error. Do not substitute transcript reading for full video viewing.
+
+## Coordinator targeted transcript reading
+
+During the material pass the coordinator directly read local transcript ranges around Revolation7:25,15:43,22:30,34:39 and44:33, and Thundaga4:21,17:00 and19:55. This confirms the previously attributed text findings about compatible bodies, shade relationships, patient iteration, copied head/foot registration, missed-eye corrections, exact-color selection and backups. It adds targeted text access only, not new visual footage or a full watch. Existing source coverage limits remain unchanged.

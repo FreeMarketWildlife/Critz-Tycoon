@@ -40,8 +40,8 @@ This is an operational **proposal**, based on C6's explicit table order, followe
 
 | Order | Review target | State / dependency |
 | --- | --- | --- |
-| 0 | HR14 Hero boy **and reusable dummy** | Awaiting rigorous visual pass; UNAPPROVED. Owner holds current art. |
-| 1 | Girl Hero | Planned, held behind both results at order 0 |
+| 0 | HR14 Hero boy **and reusable dummy** | Scoped construction-quality pass atd5dc458: material/cue/anchor/contact/chest/pack plus complete rendered cycles/visual transitions checked. BroaderM1/runtime/userappearance remains UNAPPROVED. |
+| 1 | Girl Hero | In progress: read-only M1.GH1 preflight under conditional overnight authorization; isolated review candidate next, no runtime promotion |
 | 2 | Professor Nugget | Planned, after previous character's review/fixes |
 | 3 | Mom | Planned, after previous character's review/fixes |
 | 4 | Kaid | Planned, after previous character's review/fixes; explicit asymmetric feature review |

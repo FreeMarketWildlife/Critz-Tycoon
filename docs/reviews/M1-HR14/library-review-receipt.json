@@ -1,6 +1,6 @@
 {
   "task": "M1.HR14 corrected passing interface",
-  "reviewState": "Scoped independent pass; overall artwork UNAPPROVED, parent independent inspection pending",
+  "reviewState": "HISTORICAL version0 interface checkpoint; currentmaterial versions in library-material-review-receipt.json",
   "files": [
     {
       "original_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
@@ -541,5 +541,7 @@
     "Profile bag one extra column W x26/y48\u201349 A,C; E x5;two native cells perpose, original source-envelope difference unapproved, attachment rigid",
     "Zero complete continuous cycles observed; browser playback sampled only; all8plates/decoded timing checked",
     "Both tutorial full continuous watches incomplete; full automatic transcripts and sampled frames only"
-  ]
+  ],
+  "supersededBy": "library-material-review-receipt.json",
+  "historicalLibraryVersionsPreserved": true
 }
