@@ -1,5 +1,9 @@
 # Project status
 
+## Active M1.FM2 — Existing walk verification
+
+**Existing motion review in progress; creator held.** Eutychus's two static reviews and root saved-pixel audit confirm scoped CHT1shape/FM2material direction at sourceecd4f4e, with no static material blocker; user/M1appearance acceptance remains pending. He directed existing walks only. [Native/enlarged normal and labelledslow existing-frame viewer](reviews/M1-FM2/walk.html) uses originalA,A,P,P,C,C,P,P and sourceexportholds (South800ms,NWE540ms,slow4x), fixed frame/anchor, no newpose/gait/geometry.288 actualGIFframe/hold/loop checks pass; separate722 savedPNG/site/component checks pass. Owner browser samples all4directions including laterphases at1x/nearest3x; no uninterruptedhumanwatch or emulatorcadence claim. Exact next action: Eutychus/second motion critique of shoeidentity/perceivedsize before creator continuation. Main; staticsourceecd4f4e pushed/remoteSHAexact. Local review only; runtime/saves/hosting unchanged, creator draft paused, root/parked work preserved. Libraryfollowup remains root-owned and denied; writer made no upload/retry.
+
 ## DOC.CATCH1 — Animal-catching reference recorded (2026-10-15)
 
 **Complete — documentation only.** GAME_VISION records the user's confirmed Animal Crossing reference for catching bugs, critters, fish and other animals, primarily with bug nets and fishing poles. Keep it simple; other tools/methods remain undecided. Validation: reviewed the wording against the request and checked the scoped diff for whitespace errors. Existing M1 art review gates and sequencing remain unchanged. Branch: main; commit/push verification is reported in the delivery receipt. No runtime, save or playable-build changes; no deployment required. Next action: retain this direction for future catching design within the milestone gates. Unrelated existing edits remain preserved.
