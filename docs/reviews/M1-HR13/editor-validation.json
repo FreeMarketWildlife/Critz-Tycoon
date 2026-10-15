@@ -1,0 +1,357 @@
+{
+  "tool": "Actual Sprite Editor validateProject/gifBytes",
+  "previews": [
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-south-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-south-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-south-SLOW4x-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-south-SLOW4x-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/hero-south-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/dummy-south-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-north-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-north-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-north-SLOW4x-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-north-SLOW4x-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/hero-north-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/dummy-north-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-west-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-west-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-west-SLOW4x-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-west-SLOW4x-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/hero-west-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/dummy-west-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-east-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-east-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-east-SLOW4x-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/source-hero-template-east-SLOW4x-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/hero-east-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/dummy-east-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-native.gif",
+      "width": 224,
+      "height": 192,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-4x.gif",
+      "width": 896,
+      "height": 768,
+      "frames": 8,
+      "delayMs": 100,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 4,
+      "editorCanvasNote": "Export-only expansion from validated224x192 native panel; not an oversized editable Sprite Editor project"
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-SLOW4x-native.gif",
+      "width": 224,
+      "height": 192,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 1,
+      "editorCanvasNote": null
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-SLOW4x-4x.gif",
+      "width": 896,
+      "height": 768,
+      "frames": 8,
+      "delayMs": 400,
+      "nativeProjectValidated": true,
+      "derivedNearestScale": 4,
+      "editorCanvasNote": "Export-only expansion from validated224x192 native panel; not an oversized editable Sprite Editor project"
+    }
+  ],
+  "editable": [
+    {
+      "name": "hero-idles",
+      "width": 32,
+      "height": 64,
+      "frames": 4,
+      "validated": true
+    },
+    {
+      "name": "hero-south-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "hero-north-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "hero-west-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "hero-east-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "dummy-idles",
+      "width": 32,
+      "height": 64,
+      "frames": 4,
+      "validated": true
+    },
+    {
+      "name": "dummy-south-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "dummy-north-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "dummy-west-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "dummy-east-walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    }
+  ]
+}

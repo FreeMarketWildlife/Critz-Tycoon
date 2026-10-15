@@ -1,3 +1,7 @@
+# M1.HR13 — Four-direction projection and construction review
+
+**Implemented/checked, UNAPPROVED; awaiting user visual review.** Eutychus directs elevated-camera head/torso occlusion in Hero and neutral template, four idle directions then matching walk proofs. Preserve liked front design, mirrored ears, small feet, starter outfit/pack and proposed joint sites. [Stable comparison/anatomy/overlay deliverable](reviews/M1-HR13/README.md). Twenty-eight GIF checks and ten editable validations pass; independent static/phase review leaves profile weight/stride concerns. Hidden anatomy/camera pitch remain proposed/unresolved. Hold stable for Eutychus's review/Library relay. HR11 parked; no gameplay/UI/deployment/TN4 or visual acceptance.
+
 # M1.HR12 — Backpack, mirrored ears, shoe spur and neutral construction template
 
 **Implemented/checked; awaiting independent/user visual review.** Follow direct user-authorized Eutychus handoff from latest delivered HR10-BODY; preserve liked proportions/head/hair, park unshared HR11. Correct bounded final ear layering, compact attached pack/straps and shoe spur. Deliver source/clothed/neutral-mannequin native/4x/all8/source-speed/labelled-slow comparisons, labelled anatomy and registered outfit/attachment scaffold. [Review](reviews/M1-HR12/README.md). Hidden joints remain proposed; no types/UI/directions/gameplay/deployment/TN4.

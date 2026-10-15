@@ -1,0 +1,1253 @@
+{
+  "task": "M1.HR13",
+  "status": "UNAPPROVED visual review; technical checks do not accept art",
+  "frames": [
+    {
+      "direction": "south",
+      "pose": "idle",
+      "heroBounds": [
+        4,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        4,
+        27,
+        28,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "heroBounds": [
+        4,
+        21,
+        29,
+        62
+      ],
+      "dummyBounds": [
+        4,
+        27,
+        28,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "heroBounds": [
+        4,
+        19,
+        28,
+        60
+      ],
+      "dummyBounds": [
+        4,
+        25,
+        28,
+        60
+      ],
+      "paintedFootBottom": 59,
+      "hiddenNeckSite": [
+        16,
+        43
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "heroBounds": [
+        3,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        4,
+        27,
+        28,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "heroBounds": [
+        4,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        4,
+        27,
+        28,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "heroBounds": [
+        4,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        4,
+        27,
+        28,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "heroBounds": [
+        4,
+        19,
+        28,
+        60
+      ],
+      "dummyBounds": [
+        4,
+        25,
+        28,
+        60
+      ],
+      "paintedFootBottom": 59,
+      "hiddenNeckSite": [
+        16,
+        43
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "heroBounds": [
+        4,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        4,
+        27,
+        28,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "heroBounds": [
+        4,
+        21,
+        30,
+        62
+      ],
+      "dummyBounds": [
+        6,
+        27,
+        26,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "heroBounds": [
+        4,
+        21,
+        30,
+        62
+      ],
+      "dummyBounds": [
+        6,
+        27,
+        26,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "heroBounds": [
+        4,
+        19,
+        30,
+        60
+      ],
+      "dummyBounds": [
+        6,
+        25,
+        26,
+        60
+      ],
+      "paintedFootBottom": 59,
+      "hiddenNeckSite": [
+        16,
+        43
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "heroBounds": [
+        4,
+        21,
+        30,
+        62
+      ],
+      "dummyBounds": [
+        6,
+        27,
+        26,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        16,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "heroBounds": [
+        2,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        6,
+        27,
+        26,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        15,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "heroBounds": [
+        2,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        6,
+        27,
+        26,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        15,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "heroBounds": [
+        2,
+        19,
+        28,
+        60
+      ],
+      "dummyBounds": [
+        6,
+        25,
+        26,
+        60
+      ],
+      "paintedFootBottom": 59,
+      "hiddenNeckSite": [
+        15,
+        43
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "heroBounds": [
+        2,
+        21,
+        28,
+        62
+      ],
+      "dummyBounds": [
+        6,
+        27,
+        26,
+        62
+      ],
+      "paintedFootBottom": 61,
+      "hiddenNeckSite": [
+        15,
+        45
+      ],
+      "headCoversNeck": true,
+      "headOverlapsTorso": true,
+      "intendedClothingSlotMembership": true,
+      "connected": true,
+      "canvas": [
+        32,
+        64
+      ],
+      "groundAnchor": [
+        16,
+        64
+      ]
+    }
+  ],
+  "GIFs": {
+    "source-hero-template-south-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "17aba2228c54cbd510b09efdb5f6b2018e0fe4f970bccc9d093e554d8dc1b350"
+    },
+    "source-hero-template-south-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "1c89a15c606fd9bbd81e3d5f3426805eb3a99f94a1946dd74c8d327cb25d0b5d"
+    },
+    "source-hero-template-south-SLOW4x-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "bddef2a3f0b693e35be522e7e53e748bdced9e07c64e2b3cfc1b2bc670b27b35"
+    },
+    "source-hero-template-south-SLOW4x-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "93777205342584f177ae1879eb05b20f051d95b16dd73da42cffd7b75c64fb96"
+    },
+    "hero-south-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "dd9c01970acd392d1097b6cab5b16e67ccf396c0358f9ed3bf8d09641821efe2"
+    },
+    "dummy-south-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "b7d2ae15850061b407adefc6537f67d1a973e1dd567c45487e6e9aeb5f5666e2"
+    },
+    "source-hero-template-north-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "91b3a26af99ad6dcb50415c7233920299aa120eb518a4888626ef5979b929df8"
+    },
+    "source-hero-template-north-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "fea8e9a1ae8b8d64a53babad5b1fbdc4bf6a0af7068f8c6115b25da546571215"
+    },
+    "source-hero-template-north-SLOW4x-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "f86e923f5b89f9d430c969177f42d78593e666e4340e023f0d282fdee1efbc41"
+    },
+    "source-hero-template-north-SLOW4x-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "1055e705442dbc6887473e024d3ca7fc482bfbc3d0d7e4bff6f723fb8024597c"
+    },
+    "hero-north-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "0566cd3d35e72a8d1644d486602c0fcb074e34f6a23afe024d2f0c3577f90cee"
+    },
+    "dummy-north-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "d19e230841e31d5af9cc2d82df9f886ce814c368208eaa14d68066253cd49ca8"
+    },
+    "source-hero-template-west-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "da5ab03deec87a31b92958ceff0d7d3c790b639948d9cfb9fcb1554204c2d3cb"
+    },
+    "source-hero-template-west-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "488218b22362f926a11edc0e3280609f72d78c3c80e854ec39b16f32db0b286a"
+    },
+    "source-hero-template-west-SLOW4x-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "12529c69c354edb9fe9239caac21cc3f17850b07ae4be2645a09fc22c16d98de"
+    },
+    "source-hero-template-west-SLOW4x-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "c0e3bf71edb414bf0a6cef03bfb0a248c572344f69f0d1843bfa93d44e2254f6"
+    },
+    "hero-west-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "8c8fca9a3a942a223f7c84ef9f33ae2ad46b48a3a73879456e54e1f62b84aad7"
+    },
+    "dummy-west-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "143e86eae793263d180a7d2667ffc118c5dafcc1298acc6797d10476a7333a92"
+    },
+    "source-hero-template-east-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "3ef58018a50de2c172e1c7eb854414bca1f84218cb0a05aa4e590bb2301c6fba"
+    },
+    "source-hero-template-east-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "83d149f1935106bc1294410a06f9c4efe4e86bcff7f3b291b389191c3314b1c0"
+    },
+    "source-hero-template-east-SLOW4x-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        112,
+        96
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "771a80b340359ae9e8b80e2c6c05ff3af8e37f38a4a71fe70c76c9682f96bf11"
+    },
+    "source-hero-template-east-SLOW4x-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        448,
+        384
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "e7164897997ad22b43ccdac1e1eeba687161916f30cb73acca5ede4e3582ce10"
+    },
+    "hero-east-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "1102c7eb3a25c084c78c1c87f4d780e381209f947502a7f4a4ebf70964c8ecfc"
+    },
+    "dummy-east-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        32,
+        64
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "90b00ea73f7acb1171fc1c309bc6080523653c9a02361e2d052c3370228a2379"
+    },
+    "four-direction-source-hero-template-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        224,
+        192
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "8da974d1095a448bedc1faf8693ec89aed6a31944cd3248951391a8561e40750"
+    },
+    "four-direction-source-hero-template-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        896,
+        768
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 4,
+      "sha256": "094eccaf6db1eb4c2ce99edf984fbb0c8b0ee3210bfb171a1e8a2f27f60e1573"
+    },
+    "four-direction-source-hero-template-SLOW4x-native.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        224,
+        192
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 1,
+      "sha256": "f371479e90721425958b324e57e6a2ce6633711de72835bfc2a5a8bed4065cfc"
+    },
+    "four-direction-source-hero-template-SLOW4x-4x.gif": {
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "loop": 0,
+      "exactPixels": true,
+      "size": [
+        896,
+        768
+      ],
+      "nativeProjectValidated": true,
+      "deriveNearestScale": 4,
+      "sha256": "b55950cdfbf8b9e394fcf5598d7f317c9dc3f97f4184bf65968eafeea4c7cc1c"
+    }
+  },
+  "profileCleanup": {
+    "west/idle": {
+      "changedCells": 23,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    },
+    "west/A": {
+      "changedCells": 27,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    },
+    "west/P": {
+      "changedCells": 23,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    },
+    "west/C": {
+      "changedCells": 24,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    },
+    "east/idle": {
+      "changedCells": 23,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    },
+    "east/A": {
+      "changedCells": 27,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    },
+    "east/P": {
+      "changedCells": 23,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    },
+    "east/C": {
+      "changedCells": 24,
+      "allAlphaAndExtentUnchanged": true,
+      "jointsRetained": true,
+      "region": "lower garment overlaps shoe top; no silhouette/size change"
+    }
+  },
+  "referenceFacts": {
+    "sourcePNGAndTablePinned": true,
+    "sourceIndex0TransparencyUsed": true,
+    "ROMWalkHoldsTicks": [
+      8,
+      8,
+      8,
+      8
+    ],
+    "customGIFFacts": "8x100ms, front only",
+    "previewProposal": "All Critz directional proofs8x100ms; referenceROMpose images synchronized at this review clock, not engine cadence",
+    "nativeReferenceRowsUntouched": true
+  },
+  "limitations": [
+    "No emulator or continuous-frame gameplay capture",
+    "Numeric camera angle/world skeleton remains unresolved",
+    "Side heads/bodies and hidden joints are original construction proposals",
+    "Critz100ms preview cadence differs from pinned ROM8-engine-tick phase holds",
+    "ROM strides end63 while inherited Critz contacts end61; sharedframe anchor does not equate painted feet"
+  ],
+  "allChecksPass": true,
+  "cameraAngle": "UNRESOLVED, no numeric pitch claimed",
+  "worldBoneCoordinates": "UNRESOLVED; only proposed2D projected guides supplied"
+}

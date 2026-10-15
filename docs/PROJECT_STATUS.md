@@ -1,5 +1,9 @@
 # Project status
 
+## M1.HR13 — Four-direction elevated-view Hero checkpoint
+
+**Stable/checks passed; UNAPPROVED, awaiting user visual review.** Follow user-authorized Eutychus corrections: head occludes neck and overlaps upper torso in all four Hero/template views; existing front head/joints/lower body protected. Compact pack, rounded mirrored visible ears and small feet retained. One bounded profile overlap cleanup changes internal bands only, preserving alpha/extent/joints. Ten editable projects and28 decoded eight-frame native/4x/labelled-slow GIFs pass source/pixel/registration/occlusion/timing checks. Independent static/phase review confirms projection and cleanup; profiles still angular/heavier with potentially wide stride. Numeric camera pitch/world bones unresolved; ROM source cadence differs from proposed100ms preview. [Stable proofs, limits and exact paths](reviews/M1-HR13/README.md). Main; scoped commit/push receipt follows. HR11 source/review/doc edits remain parked/unstaged. Playable build unchanged; no deployment, UI, save changes or acceptance. Exact next action: Eutychus presents stable proofs and handles Library export; owner holds further artwork.
+
 ## M1.HR12 — Bounded Hero corrections and construction template
 
 **Library delivery verified.** Four review files saved as new version0 items: native-pixel source/Hero/mannequin normal/labelled-slow4x GIFs, labelled anatomy contact and registered outfit overlay. Downloaded copies of all four are byte/pixel exact; both GIFs retain8frames,100ms/400ms holds and800ms/3200ms cycles. [Exact IDs and download checks](reviews/M1-HR12/library-review-receipt.json). Delivery changes no artwork or playable build; no deployment or appearance approval. Final export receipt is scoped separately; parked HR11 edits remain untouched. Exact next action: parent presents the four Library files for Phil’s review.

@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Elevated-view Hero and four-direction scaffold — M1.HR13
+
+User-authorized Eutychus handoff directs the head to fully hide the neck and overlap upper torso, in both clothed Hero and neutral template. Retain existing front head/hair/ears, no nose/mouth, compact child proportions, small feet, starter outfit/pack and underlying proposed joint sites. Establish all four idles before matching walks. Near profile ear is visible and far ear occluded; front visible ears are mirrored. Shoes sit beneath continuous cuff/leg clusters without stacked internal contour bands; bounded cleanup must preserve existing foot silhouette/extent/joints. [HR13 stable review and proofs](reviews/M1-HR13/README.md).
+
+Repeatable procedure: pin source revision and actual phase tables; register full canvases without per-pose fitting; build color-coded featureless head/torso/limb/foot scaffold with explicit hidden proposed joint sites; composite torso and neck behind head; register clothing/ear/pack masks to intended parts; inspect native, nearest enlargement, every unique pose/all8frames and labelled slower playback. Verify final visible pixels, alpha, contact extent, layering and editable-source equality. Compare source facts separately from construction decisions: supplied100ms GIF is front-only, other ROMposes synchronized at Critz preview cadence do not prove engine timing. Shared anchor does not equate painted foot contact. Numeric camera pitch and world bones remain unresolved. Technical tests cannot accept profile weight/stride or overall art; preserve stable UNAPPROVED deliverable until user review. No UI/runtime replacement or deployment.
+
 ## Bounded Hero corrections and neutral scaffold — M1.HR12
 
 Phil directly authorizes Eutychus's backpack/mirrored-ear/shoe/anatomy-template handoff and continuation. Eutychus selects latest delivered HR10-BODY source d158c3e as the best-supported base; exact viewed artifact is unverified, and unshared HR11 remains parked/unadopted. Preserve liked proportions, hair/head design, starter outfit and no-mouth default. Only bounded ear layering may alter head colors; no restyle. [HR12 review, actual pixels and scaffold](reviews/M1-HR12/README.md).
