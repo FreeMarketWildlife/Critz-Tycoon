@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Character-study application — M1.HR14
+
+Tutorial lessons guide workflow, not new anatomy or budgets: keep source registration, independent layers and exact palette changes; inspect every distinct pose at native scale and enlarged nearest pixels, then actual normal/labelled-slow motion. Preserve observed shade relationships and correct missed features across the full pose set. Thundaga17:00 demonstrates exact-color selection, not proportions; Revolation later corrects missed eyes and earlier frame-count shortcuts. Both complete automatic transcripts and selected actual frames are studied; neither continuous full watch is complete. [Attributed source findings, access limits and proposed review checklist](character-study/README.md). Canonical character/contact rules here control all applications; tutorial examples never override them.
+
 ## Source-visible lower construction and torso-local pack — M1.HR14
 
 Phil rejects HR13 legs and cape-like bag swing. User-authorized Eutychus correction supersedes prior leg/body proposals while preserving original Black child identity, hair, rounded ears, no-mouth/nose default and accepted elevated head-over-torso projection. Match observed lower costume image-plane boundaries, placement, overlap and gait within declared proof scope54–63 plus frontP53 from the supplied frontGIF and pinned ROM otherdirections at invariant registration; no invented longer calf, wider stride, hidden bone coordinate or per-pose fitting. SourceP53 hem/dark-costume interface is now matched[7,25); row52 and stride53 retain original shirt/arm design with exposed differences. Never extend a cropped exact-match claim to the full pants/waist or infer an anatomical leg origin from this seam. HR11 remains parked, not a new base. [HR14 concrete boundary/pack checkpoint and final proofs](reviews/M1-HR14/README.md).
