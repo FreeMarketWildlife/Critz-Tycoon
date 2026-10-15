@@ -1,11 +1,32 @@
 {
-  "task": "M1.HR14",
-  "state": "SUPERSEDED prior seam-only artifact snapshot; bounded interface source/push receipt refresh pending",
+  "task": "M1.HR14 bounded torso/hem interface pass",
+  "state": "pixels stable UNAPPROVED; final parent review/Library export next",
   "branch": "main",
-  "sourceCommit": "d80a5b27cb7f52bdd78d832a529a4bf49a99a5a1",
-  "verifiedOriginMain": "d80a5b27cb7f52bdd78d832a529a4bf49a99a5a1",
-  "independentReview": "Prior independent corepixel/guide review confirmed corrected lower maps,eyes/hands,rigidpack/timing and no added anatomy. Parent final seam audit identified omittedrow53interface. Current boundedP53 correction and explicitly retained row52/A,C53 differences await parent seam response before Library upload; no wholepants/waist literal-match claim.",
-  "checks": "32connected native poses;12unique54..63 alpha/material maps exact + SouthP53 exactinterface; allothernativepixels protected;16rigidpack/strap/composite;16commonfeature/contact records/nullhiddenjoints;10editable projects;28decoded8frameGIFs exactpixels/holds/nearest4x",
+  "sourceCommit": "925dd77ea754d5c2e5ab690804528dae984c2c48",
+  "verifiedOriginMain": "925dd77ea754d5c2e5ab690804528dae984c2c48",
+  "baseline": "2c03bc6",
+  "exactScope": {
+    "walkingUpperEnvelopeRows": [
+      48,
+      54
+    ],
+    "upperMaterials": "Original coral/cream/slate and existing hands; not exact sourceRGB/anatomy",
+    "walkingLowerProtectedRows": [
+      54,
+      64
+    ],
+    "frontPassingRow53": "Observed alpha/material planes retained exact",
+    "idleUpper": "ActualHero/dummy/body-layer RGBA50..55 equal P48..53 under2px torso translation",
+    "idleContactProtectedRows": [
+      56,
+      64
+    ],
+    "headsAndCanonicalPackStraps": "exact prior nativeRGBA; profile foreground bag depth/occlusion updated underhead",
+    "originalProfileBagOverhang": "W A/C x26 on48/49; E mirroredx5:2cells perpose, source-envelope difference disclosed",
+    "hands": "Only original visible sites; actualHero/dummy/guide cell sets exact, expected visible8connectedclusters checked; no duplicate north blocks"
+  },
+  "checks": "32native poses;12source upper-envelope/retained lower alpha/material checks;16canonicalpack/strap/composite+guide/contact cases;4idle/P+2 exactRGBA;10actualeditable validations+sourcePNG equality;28decoded8frame GIFs exactpixel/clock/loop/nearest4x",
+  "independentReview": "Draft scopedPASS for taper/lower/head/pack/all8/handfix. SubsequentNWE dummyidle hem material mismatch corrected; actualHero/dummy/body-layer RGBA now exactP+2 all4. Final parent recheck/appearance acceptance pending.",
   "timing": {
     "frontNormalMs": 800,
     "frontSlowMs": 3200,
@@ -16,36 +37,84 @@
     "additionalPHASEboardSlowMs": 3200,
     "phaseBoardNotEnginePlayback": true
   },
+  "renderedPlaybackCoverage": {
+    "task": "M1.HR14 interface rendered-playback coverage",
+    "method": "Chrome via CUA; discrete screenshots of actual animatedGIF images; not continuous video observation",
+    "url": "http://127.0.0.1:8771/preview.html",
+    "writerChromeTab": "1219040675",
+    "parentChromeTab": "1219040667",
+    "parentServerSession": 16570,
+    "firstSampleUTC": "2026-10-15T06:07:25.882Z",
+    "lastSampleUTC": "2026-10-15T06:08:43.146Z",
+    "sampleSpanSeconds": 77.264,
+    "sampleSpanIsContinuousWatch": false,
+    "completedContinuousCyclesObserved": 0,
+    "continuousPlaybackSecondsVerified": null,
+    "coverage": {
+      "south": {
+        "normalNativeAnd4x": "2026-10-15T06:07:25.882Z",
+        "slowNativeAnd4x": "2026-10-15T06:08:03.313Z"
+      },
+      "north": {
+        "normalNativeAnd4x": "2026-10-15T06:08:03.313Z",
+        "slowNativeAnd4x": "2026-10-15T06:08:14.430Z"
+      },
+      "west": {
+        "normalNativeAnd4x": "2026-10-15T06:08:29.135Z",
+        "slowNativeAnd4x": "2026-10-15T06:08:32.671Z"
+      },
+      "east": {
+        "normalNativeAnd4x": "2026-10-15T06:08:39.633Z",
+        "slowNativeAnd4x": "2026-10-15T06:08:43.146Z"
+      }
+    },
+    "observations": [
+      "FrontP52->53 now narrows throughwaist; pose sheets establish allphases, not samples alone",
+      "No duplicate upperback bare-hand block visible; actualHero/dummy/guide skin masks checked independently",
+      "Canonical pack remains attached; sampled visible profiles retaincompactbag with declared small source-envelope overhang",
+      "Broad/angular lowerread and final motion quality remain visual judgment, UNAPPROVED"
+    ],
+    "limitations": [
+      "Only discrete samples possible in this tool interface; normal/slow complete cycles not watched continuously",
+      "Do not convert decodedGIFtiming or77.264s sampling span into a full motion pass",
+      "Both full tutorial watches remain incomplete; transcripts/sampledframes only; Thundaga17:00 is exactcolorselection, not anatomy"
+    ]
+  },
   "artifacts": [
     {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/first-native-aligned-boundary-checkpoint.png",
-      "bytes": 70348,
-      "sha256": "b9f4892f92bf52005d858fb9ebdf6337410e4c65fe6fb9adf062d96d5580504a"
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-interface-source-before-current.png",
+      "bytes": 88708,
+      "sha256": "dca232d6827c50640c84def8f030c7cf95beeb51ce7f761163eafce6e073ee74"
     },
     {
-      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-common-feature-registration.png",
-      "bytes": 57337,
-      "sha256": "71d83e823958de26af0994a5aec5151ebe919d8f5b53c7a8cba289c090e5f279"
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/passing-interface-taper-grid.png",
+      "bytes": 23207,
+      "sha256": "f7e5d7ad8575e58b94ae21dc7d85922f62ac52a03201e727df7c8fed63d9edda"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/idle-walk-interface-continuity.png",
+      "bytes": 38047,
+      "sha256": "280abcb03f7702fee9f06d6316867c0f70ef84ce990ca8f5728bcec726be6b3a"
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-featured-dummy-sheet.png",
-      "bytes": 74712,
-      "sha256": "5d03aabb5daa0689c5f9fb87967ac1d813241d3160410b20a84c5ac3059f64d4"
+      "bytes": 74640,
+      "sha256": "c3b328ea80f79c603ab9c32a6663247e266f08742624b75bbce9a4c426e1be4b"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-common-feature-registration.png",
+      "bytes": 57685,
+      "sha256": "8a21246b9b125518b085cf6f37cdeb4a0eb2bf452ab3958010941c2aabc4f160"
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/torso-registered-pack-all-eight.png",
-      "bytes": 30577,
-      "sha256": "4b2074450a41f124f0b367e5191bea6860eac0d813c579cf5eebc6f7cc6c9b9d"
+      "bytes": 30887,
+      "sha256": "b1f1e74daabf9f0a492a1c4dcac3dc71866b72622aa56d4ea9c0359925f52b88"
     },
     {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
-      "bytes": 1563113,
-      "sha256": "33baf8a4c4a57bae5d6cf02be0739949e50c3e9c2db6d41982f541924c7b1966"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-4x.gif",
-      "bytes": 1563113,
-      "sha256": "91723785ba287a4c14df09b41703dbda5e330cd15274d1fc6c8aa171b77ee58d"
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-all-eight-source-hero-template.png",
+      "bytes": 31871,
+      "sha256": "32c7beab9c5b4e22cdc3471c5765c8b86db5ea5cfa8f57c1e9f666543631d219"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-aligned-lower-boundary-grid.png",
@@ -53,19 +122,9 @@
       "sha256": "7788c37edde208c38ab3b7df2513ccb4773d93df6b26e58937462ca95e3cacd1"
     },
     {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-all-eight-source-hero-template.png",
-      "bytes": 31375,
-      "sha256": "efb2d3314744ef7e47f3aba91dce455640d37f2a38f24e2857f2830e38dd1886"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-4x.gif",
-      "bytes": 1563113,
-      "sha256": "f26d28768b001f85a314c02c2190c4363fe2e8cc257f3afed5f17ff6a3067d52"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-SLOW4x-4x.gif",
-      "bytes": 1563113,
-      "sha256": "3d87cf58cfdad464ab874f4abba5edef94256944910470cacac0ef1e5a8ab2c7"
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-all-eight-source-hero-template.png",
+      "bytes": 25620,
+      "sha256": "e5a3d80d3f851d33df3177d77d4ef5fc44a3f161ae42f723d1575f021fce7dee"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-aligned-lower-boundary-grid.png",
@@ -73,19 +132,9 @@
       "sha256": "3bab2f807282f76daef3e2777bb9ebd7de2c6f192e8162bd2c3fd3ea139fa8ec"
     },
     {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-all-eight-source-hero-template.png",
-      "bytes": 25665,
-      "sha256": "6306587f2deb6b005f9f6595cea4d375e44bdc8ea1d2cd431dacf84e6e4656cd"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-4x.gif",
-      "bytes": 1563113,
-      "sha256": "b5d00ac41f5209b694d6f0f30a355da3bd2488ef6a7874f448f87dc52697379e"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-SLOW4x-4x.gif",
-      "bytes": 1563113,
-      "sha256": "93ca803d9204d5d53709d9120363ed99d206eb908efbada9d2b287f1b44cdfcc"
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-all-eight-source-hero-template.png",
+      "bytes": 25962,
+      "sha256": "3a9eadf5b9c5ff450c4ebd12f2469ce7a43f5193377aed608aa2a8e880348bab"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-aligned-lower-boundary-grid.png",
@@ -93,19 +142,9 @@
       "sha256": "000efc6d8a9c6383c333947e4ff44115a6886c1aff1e18fd8b41456bb1b1b289"
     },
     {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-all-eight-source-hero-template.png",
-      "bytes": 26048,
-      "sha256": "8f9c30e047045e21b9a8395026a4de4802f8e1d3ebf2530206ff918631f906fb"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-4x.gif",
-      "bytes": 1563113,
-      "sha256": "31415e346cf0fbb49996f1b02bef24b6b5fd2ffdc347d0587b781f3bd355235f"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-SLOW4x-4x.gif",
-      "bytes": 1563113,
-      "sha256": "839ba0e108ea5e31ada3829b5e04087b9b1638e6b0425b14be3a5be1b16934a0"
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-all-eight-source-hero-template.png",
+      "bytes": 25976,
+      "sha256": "7a8c553c4ff67681cb5011583512fdd5212331e889baba1404d9bdd2b648590b"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-aligned-lower-boundary-grid.png",
@@ -113,205 +152,158 @@
       "sha256": "9c490a49c48d9ca81462ac872a63054a2f1241498e218470f8d41e32ff0c68ac"
     },
     {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-all-eight-source-hero-template.png",
-      "bytes": 26017,
-      "sha256": "407df0f8f955b66d80f8f3e680216f0564ec8f9c6b02ec1e6458a8be63221a1d"
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-native.gif",
+      "bytes": 98609,
+      "sha256": "ea6bc59585a36db73614befe4e7ac88e532cb2c27260a9bbbd6f89febda19dd7"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
+      "bytes": 1563113,
+      "sha256": "65361e8dc4e088080bdaa88cf3d6eda545c1dcff25aea686b73a31352503200a"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-south-native.gif",
+      "bytes": 19585,
+      "sha256": "efeed3b87b8d1f39cb73d06e39954ed0599946f565b3006f1730dd0e7d212129"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-south-native.gif",
+      "bytes": 19585,
+      "sha256": "80f0f229469af2f7d4b39f865a885a3691aa3d6524c1186ed231ef5b3b452b83"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-native.gif",
+      "bytes": 98609,
+      "sha256": "11539fa0ad5c084d284f91f201d5c58daf0603fb114dc9636f5e882dfce3ce87"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "84341679b1d4a86e82bb30c5004c18454c93d59375340ca7aed3952294b38db3"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-native.gif",
+      "bytes": 98609,
+      "sha256": "6af8cd2a6f9133f26b935d34ef3f51a82076d02d6a963227ad44186cae331252"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-4x.gif",
+      "bytes": 1563113,
+      "sha256": "a3cf65e873445497c9abe7f393fddbee2ce4999417022c1bc56a0565c8337d86"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-north-native.gif",
+      "bytes": 19585,
+      "sha256": "a445e4571b9aceced6ae8fc09b3c86a7b1aec41b4c673469edff9d299acc1647"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-north-native.gif",
+      "bytes": 19585,
+      "sha256": "44e22e2085dcd6000ebf4c92e6f6da07cd15b4e93aff2d2d480f71c7c4013729"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-SLOW4x-native.gif",
+      "bytes": 98609,
+      "sha256": "4cb8061e5d75b770a0a6b8d66601e4cdb1f0984db37daf2172114ba29573b861"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "1bddc3b0562b169a561bbdb3f256ad11aa255a06c36153967b3c6132171c7079"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-native.gif",
+      "bytes": 98609,
+      "sha256": "6c2ad67453d698a3427f4551a335d540b252122d5ffb3ff96647628d82ac25ca"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-4x.gif",
+      "bytes": 1563113,
+      "sha256": "2c71a574d767a3fd15e6638fe5ff0a50a966aec996c475494a1d3110d5a6eaaf"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-west-native.gif",
+      "bytes": 19585,
+      "sha256": "f9e6ee5f7a538f5809c5abea09ab8f20ef9bf40600575f38fcaee852212baec8"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-west-native.gif",
+      "bytes": 19585,
+      "sha256": "d909ca9886b6149b1ccf80ba05881de0a623f78d53ba63bf3ec0d4e18c1d2c5f"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-SLOW4x-native.gif",
+      "bytes": 98609,
+      "sha256": "9f6412ec22db3034feb76e2c64890652fbe1d78f059330727c0a14d082ad1099"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "660cd3518ab66c72f9444483b27b47711933c88958887b543f87d2449c0b0846"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-native.gif",
+      "bytes": 98609,
+      "sha256": "dd67c4b77273d3784b7d6230e3eae5b596cb2b99d5ec813927dd6feae4887cb3"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-4x.gif",
+      "bytes": 1563113,
+      "sha256": "c2a01777220c79d260fdb5f4c283fd1c9fb315fcf0d2226b8056a0742180be57"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-east-native.gif",
+      "bytes": 19585,
+      "sha256": "79239fd59d8362e9fe46ea6d43b3a6f11ba3f87f35b62a35b7741c4ffbdbcd25"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-east-native.gif",
+      "bytes": 19585,
+      "sha256": "6f4e561251bb3b76922334306604a056ede5be6c25c25c386db30ebeb3f377fe"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-SLOW4x-native.gif",
+      "bytes": 98609,
+      "sha256": "6c1760caf650d356367d8d49ab9f6b3760d6f64469d578d405d380031fc52317"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "7eb0a0ec278830ea0e251e718d93397ff9dd5b1ea45e562dfa72d781a5724c1b"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-native.gif",
+      "bytes": 391521,
+      "sha256": "1ef0e83a97b40684d6113d41ee20a2331389cee7ebbfeba0fbcc8506954cd250"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-4x.gif",
       "bytes": 6249513,
-      "sha256": "dec1eedbc72d62c922fc9f8423057b13b17877386a44d119cd8cef1c8555181b"
+      "sha256": "9633e31d28a2fa30d3f5fffe76d202c0ad8fad1642122de3223954736af1de07"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-native.gif",
+      "bytes": 391521,
+      "sha256": "234d4629b916df07bf6b7f0175d5aaa9d7f629efc6807fac929176240aab25fb"
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
       "bytes": 6249513,
-      "sha256": "c16652b2516b611e197ded6afc72c48a48fff99f6ff226aa3c4ef4116d5b65e5"
-    },
-    {
-      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/front-waist-seam-context.png",
-      "bytes": 45503,
-      "sha256": "d76ef6b4d0b88febe31bec697e6f2c11c11ed2673692b34ecdf75d2059e22278"
-    },
-    {
-      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/passing-seam-before-after.png",
-      "bytes": 9371,
-      "sha256": "e41ac8cb34082d4833811146472f70eb02a5c404401a54ce6656e433ed3f26dd"
-    },
-    {
-      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/waist-seam-checks.json",
-      "bytes": 8329,
-      "sha256": "86abcb908f31b6093aafa2900cd022666183190136833614f2893997a9e530cd"
+      "sha256": "805a42c453dba8d096d3d3304a1649b2a1a9ae5a949567074faa8a9e947f82c9"
     }
   ],
-  "library": "Eutychus/root handles export and downloaded-pixel/timing checks; no owner export performed",
-  "deployment": "None; acceptedgame/UI/save/editor unchanged",
-  "remainingChanges": "ParkedHR11 source/review and original four shared-document change lines retained unstaged; index/context shifts do not change their edits.",
-  "nextAction": "Eutychus reviews current seam context and scoped claims before Library export/download verification; human visual approval pending; owner holds further artwork.",
-  "initialLowerSourceCommit": "6bd8105",
-  "boundedSeamCorrection": {
-    "baseline": "f4403d0",
-    "onlyChangedNativeRegion": "SouthP row53;15Hero/18dummy cells",
-    "protectedNativePixelsOutsideRegionExact": true,
-    "sourceVisibleRow53Span": [
-      7,
-      25
-    ],
-    "alphaAndMaterialMismatches": 0,
-    "exactScope": "all walking54..63 + SouthP53 only",
-    "retainedUpperCostumeDifferences": {
-      "A": {
-        "52": {
-          "sourceSpans": [
-            [
-              5,
-              24
-            ]
-          ],
-          "heroSpans": [
-            [
-              7,
-              9
-            ],
-            [
-              10,
-              23
-            ]
-          ],
-          "missingXs": [
-            5,
-            6,
-            9,
-            23
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        },
-        "53": {
-          "sourceSpans": [
-            [
-              5,
-              24
-            ]
-          ],
-          "heroSpans": [
-            [
-              10,
-              23
-            ]
-          ],
-          "missingXs": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            23
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        }
-      },
-      "P": {
-        "52": {
-          "sourceSpans": [
-            [
-              5,
-              27
-            ]
-          ],
-          "heroSpans": [
-            [
-              10,
-              23
-            ]
-          ],
-          "missingXs": [
-            5,
-            6,
-            7,
-            8,
-            9,
-            23,
-            24,
-            25,
-            26
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        },
-        "53": {
-          "sourceSpans": [
-            [
-              7,
-              25
-            ]
-          ],
-          "heroSpans": [
-            [
-              7,
-              25
-            ]
-          ],
-          "missingXs": [],
-          "extraXs": [],
-          "status": "EXACT source-visible interface"
-        }
-      },
-      "C": {
-        "52": {
-          "sourceSpans": [
-            [
-              8,
-              27
-            ]
-          ],
-          "heroSpans": [
-            [
-              9,
-              22
-            ],
-            [
-              23,
-              25
-            ]
-          ],
-          "missingXs": [
-            8,
-            22,
-            25,
-            26
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        },
-        "53": {
-          "sourceSpans": [
-            [
-              8,
-              27
-            ]
-          ],
-          "heroSpans": [
-            [
-              9,
-              22
-            ]
-          ],
-          "missingXs": [
-            8,
-            22,
-            23,
-            24,
-            25,
-            26
-          ],
-          "extraXs": [],
-          "status": "RETAINED original upper shirt/arm design; NOT an exact source match"
-        }
-      }
-    },
-    "anatomicalWaistOrLegOrigin": null,
-    "freshAll8SourceGIFDecoded": true,
-    "normalSlowAndPhaseGIFsRegeneratedAndChecked": true
-  }
+  "remainingIssues": [
+    "Broad/angular foot/lower mass and overall aesthetic remain parent/human judgment",
+    "Profile original pack2cell overhang remains intentionally disclosed",
+    "0complete continuous cycles observed; screenshotsamples only, continuous watch unverified",
+    "Both full tutorial watches remain incomplete; transcripts/sampledframes only"
+  ],
+  "library": "Root/Eutychus exports and checks actualdownloads; no writer export",
+  "deployment": "None; acceptedgame/runtime/save/editor unchanged",
+  "preservedChanges": [
+    "Originalfourparked shared-document edits and untrackedHR11 source/review retained",
+    "2c03bc6 sharedstudy sections byte-exact in stagedHR14 doc updates",
+    "Root-owned docs/character-study/OVERNIGHT_WORKLOG.md remainsdirty/excluded"
+  ],
+  "nextAction": "Root final review and Library export/download verification, then human visual response; sole writer holds further art."
 }
