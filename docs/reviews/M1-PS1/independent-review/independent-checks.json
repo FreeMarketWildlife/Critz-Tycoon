@@ -1,0 +1,234 @@
+{
+  "poses": [
+    {
+      "direction": "south",
+      "pose": "idle",
+      "changedCells": 0,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "changedCells": 0,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "changedCells": 0,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "changedCells": 0,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "changedCells": 40,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "changedCells": 33,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "changedCells": 40,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "changedCells": 31,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "changedCells": 46,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "changedCells": 65,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "changedCells": 47,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "changedCells": 59,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "changedCells": 46,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "changedCells": 65,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "changedCells": 47,
+      "frontHeadHandContactAndRecompositionChecks": true
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "changedCells": 59,
+      "frontHeadHandContactAndRecompositionChecks": true
+    }
+  ],
+  "GIFchecks": [
+    {
+      "direction": "south",
+      "speed": "normal",
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "fourXExact": true
+    },
+    {
+      "direction": "south",
+      "speed": "slow",
+      "frames": 8,
+      "durationMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "fourXExact": true
+    },
+    {
+      "direction": "north",
+      "speed": "normal",
+      "frames": 8,
+      "durationMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "fourXExact": true
+    },
+    {
+      "direction": "north",
+      "speed": "slow",
+      "frames": 8,
+      "durationMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "fourXExact": true
+    },
+    {
+      "direction": "west",
+      "speed": "normal",
+      "frames": 8,
+      "durationMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "fourXExact": true
+    },
+    {
+      "direction": "west",
+      "speed": "slow",
+      "frames": 8,
+      "durationMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "fourXExact": true
+    },
+    {
+      "direction": "east",
+      "speed": "normal",
+      "frames": 8,
+      "durationMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "fourXExact": true
+    },
+    {
+      "direction": "east",
+      "speed": "slow",
+      "frames": 8,
+      "durationMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "fourXExact": true
+    }
+  ],
+  "actualBrowserSamples": "/tmp/ps1-browser-review/report.json",
+  "continuousHumanWatch": false,
+  "visualGate": "OPEN: profile idle/P broad dark wedge; no creator approval",
+  "libraryUpload": "Auto-review rejected before execution; no Library identities created"
+}

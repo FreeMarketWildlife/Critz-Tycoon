@@ -1,0 +1,76 @@
+{
+  "state": "UNAPPROVED; profile passing judgment open",
+  "buildSHA256": "6b8d90ea5dce3505711b21eea45db5c1a7b74185817ad009ff5b8adf59bfa765",
+  "files": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-native-scale-before-after.png",
+      "source": "docs/reviews/M1-PS1/native-scale-before-after.png",
+      "sha256": "ccf7d4bab9804a1008bab5633d75d27f3552d9f66d92d27ddbb3a7b210710752"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-south-unique-review.png",
+      "source": "docs/reviews/M1-PS1/south-unique-review.png",
+      "sha256": "04c6bf68ec0830624697e7fe860927ba3f391f20eb25ea1b25b295f7c0a083d5"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-north-unique-review.png",
+      "source": "docs/reviews/M1-PS1/north-unique-review.png",
+      "sha256": "06b9edbb2818675df2d9c0698e44313c9f4c6cdb1af6d39ed6a067e5e272b91d"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-west-unique-review.png",
+      "source": "docs/reviews/M1-PS1/west-unique-review.png",
+      "sha256": "85f9dc9f6d3b26510d29b30d4fbf7dc42502c0d01a5d9ce3f3b4cd21df557909"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-east-unique-review.png",
+      "source": "docs/reviews/M1-PS1/east-unique-review.png",
+      "sha256": "dc84c161e1f8a9fe819d30ecb0494b265bf00ee0571eb702e21bb9b70d211c89"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-south-normal-4x.gif",
+      "source": "docs/reviews/M1-PS1/south-normal-4x.gif",
+      "sha256": "39a2bc62f01d7a7c6aa88fe5642b7b4004dd8c4223d774abdc1e95fe7126404c"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-south-slow-4x.gif",
+      "source": "docs/reviews/M1-PS1/south-slow-4x.gif",
+      "sha256": "0cf8a03de301d1a61840830f6fdfd06d16b845c10a397862d9bfe6547653ae10"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-north-normal-4x.gif",
+      "source": "docs/reviews/M1-PS1/north-normal-4x.gif",
+      "sha256": "347250bc91642fae28a097dc23763339992b1fbed55c50cf889706fb35e63432"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-north-slow-4x.gif",
+      "source": "docs/reviews/M1-PS1/north-slow-4x.gif",
+      "sha256": "3c58a825b8c49251d69f78d643b0c27abb1683dba4465935a2fad9cc2a4db8fc"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-west-normal-4x.gif",
+      "source": "docs/reviews/M1-PS1/west-normal-4x.gif",
+      "sha256": "01be86b1be145b8b91b970cd1ec168bce4fc247745627467ca5ead5c025f0f2a"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-west-slow-4x.gif",
+      "source": "docs/reviews/M1-PS1/west-slow-4x.gif",
+      "sha256": "70127def2d73d8486e72a0061feddb03aa14678c1ab15a7cff54127fe625ef55"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-east-normal-4x.gif",
+      "source": "docs/reviews/M1-PS1/east-normal-4x.gif",
+      "sha256": "6f24cb8be06a1a864b7db825f141fa3f2d8840811f94e3d52f864332d0a5f2a2"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-review-east-slow-4x.gif",
+      "source": "docs/reviews/M1-PS1/east-slow-4x.gif",
+      "sha256": "3c411c3a094501f333bccaea9425ed69aa139d9f1d2afd2b932d72342b851f70"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-PS1/independent-review/ps1-native-grid-lower-before-after.png",
+      "source": "Independent native-grid QA composition, no art edits",
+      "sha256": "c47c130c108362ba6c0a43c4ba304ce026c22670a1b26edeb5a397a8eac745c5"
+    }
+  ]
+}

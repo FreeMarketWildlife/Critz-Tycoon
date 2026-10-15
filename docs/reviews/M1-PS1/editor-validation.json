@@ -1,0 +1,152 @@
+{
+  "tool": "Actual Sprite Editor validateProject",
+  "results": [
+    {
+      "file": "art/source/hero-scale-r1/hero-east-walk.sprite.json",
+      "frames": 8,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-scale-r1/hero-idles.sprite.json",
+      "frames": 4,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-scale-r1/hero-north-walk.sprite.json",
+      "frames": 8,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-scale-r1/hero-south-walk.sprite.json",
+      "frames": 8,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-scale-r1/hero-west-walk.sprite.json",
+      "frames": 8,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/east-A.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/east-C.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/east-P.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/east-idle.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/north-A.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/north-C.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/north-P.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/north-idle.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/south-A.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/south-C.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/south-P.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/south-idle.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/west-A.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/west-C.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/west-P.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    },
+    {
+      "file": "art/source/hero-neutral-r3/west-idle.sprite.json",
+      "frames": 1,
+      "width": 32,
+      "height": 64,
+      "pass": true
+    }
+  ]
+}

@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Native-grid side/back refinement — M1.PS1
+
+Latest direct user direction: fix side/back mixed scale while preserving the front, finish bald base first, then creator under Eutychus. Avoid extending the anatomy study. Prior NWE source tables repeat row pairs; inspect actual rendered boundaries/materials rather than assuming every dark fill is outline or every solid cluster is forbidden. Refine original contour steps, one-native boundary/separation weight and sleeve/near-tip cues at native pixels; never resample the whole sprite or force every fill to vary. Preserve selected front/head/hand identity, fixed frame/anchor/phase/contact registration and rigid attachments. [Actual current source changes and complete existing-pose review](reviews/M1-PS1/README.md).
+
+Matching bald base uses real separate parts/skin/costume ownership, per-view visible features and explicit pose occlusion. Hidden contours remain reconstruction; no new anatomy/bodytypes/roster scope. Saved-pixel/export success is not full visual approval. Current profile passing weight and bald limb-depth/gait require independent review before creator starts; creator authorization does not silently accept unfinished sprites into gameplay.
+
 ## Compact reference-adjacent body diagnostic — M1.NB2
 
 Before broad pose packaging when profile projection remains disputed, return a small South/West native/nearest comparison with actual removable clothes and pinned source art adjacent externally. Show head-over-torso overlap and isolated arm/hand and pelvis/leg/foot layers; a large roster sheet must not hide a neck-post, merged arm or copied costume contour. Keep accepted South construction exact. Profile source-visible brown face support can inform a declared reconstructed surface; dark collar/hair-edge pixels cannot manufacture anatomy. Retain actual per-view eye/ear/face/garment ownership and protected selected Hero art. [Current two-view proposal, mask/overlap records and limits](reviews/M1-NB2/README.md). Compact torso/limb/foot mass remains an independent visual decision, not a test-derived gate pass. Resume existing-pose proofs only after this diagnostic response; no creator or runtime work.
