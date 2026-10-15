@@ -1,0 +1,191 @@
+{
+  "scope": "forward only, unapproved motion/art review",
+  "sourceFrameCount": 8,
+  "candidateFrameCount": 8,
+  "candidateUniquePoseCount": 3,
+  "allPNGsEqualEditableSource": true,
+  "allWalkHeadsExactlyTranslatedHR6": true,
+  "idleHeadExactHR6": true,
+  "defaultMouthNoseEmpty": true,
+  "visibleEyeBandsMatchConfirmedReference": true,
+  "allCandidatePosesConnected": true,
+  "originalPosePaletteLimit": 15,
+  "idleAnatomyPaired": true,
+  "registration": {
+    "leftCropDisplay": [
+      0,
+      0,
+      128,
+      192
+    ],
+    "uniformDisplayBlocks": [
+      4,
+      4
+    ],
+    "logicalCrop": [
+      32,
+      48
+    ],
+    "targetFrame": [
+      32,
+      64
+    ],
+    "fixedTopPadding": 14,
+    "fixedBottomPadding": 2,
+    "mapping": "target x=display x/4; target y=display y/4+14, identical every frame",
+    "groundAnchorConvention": [
+      16,
+      64
+    ],
+    "limitations": "Bottom edge is visible occupied in stride frames. Unknown uncropped extent/padding; 14top+2bottom is a fixed registration proposal; chosen target anchor is comparison convention, not measured artist anchor. No per-frame fits."
+  },
+  "gifs": {
+    "hero-forward-walk-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "b419820c784d315a88c79e7f4cd30e40c73311e3f8f82a2969a5a7d06fbdd5c9"
+    },
+    "hero-forward-walk-4x.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "a87be9ade5f6daee585e11858c16be87259bb17db4f2510eeb2cab36d1f80c2e"
+    },
+    "source-hero-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "f1c2857fccc68cb3af4e23723a52cf85ead70362a68ab83c9d0e3fbc8a4c591b"
+    },
+    "source-hero-4x.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "9fd1d4ddd48d1135477b379dbc5b04e1a47fface2db6228417ea5de829a49f21"
+    },
+    "source-hero-SLOW4x-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "3f7f179c5293642b69653150b889aee11c16f9a995d88176f46868a45485e0b0"
+    },
+    "source-hero-SLOW4x-4x.gif": {
+      "frames": 8,
+      "durationMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "a6b50247e3d1b8abed6babe96e69a018f442d430b93093f4e98435179d60f6a3"
+    },
+    "hero-light-dark-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "80d641eac9415f09d578f716ca600e5fbb36ef0d9e31249e1d023a9d75634c69"
+    }
+  },
+  "comparisonReferencePixelsExact": true,
+  "HR9BaselineCommitVerified": "9d1d1595329004829082ebe6fd44ea33208a3e06",
+  "allHeadEarFaceEyeMasksExactlyHR9": true,
+  "slowLoopMs": 3200,
+  "sourceSpeedLoopMs": 800,
+  "slowPixelsExactlySourceSpeedPixels": true,
+  "nativeLightDarkSpritePixelsExact": true,
+  "referenceRecheckedAgainstOriginalGIF": true,
+  "shoeMaskAreaBeforeAfter": {
+    "P/leftShoe": [
+      17,
+      17
+    ],
+    "P/rightShoe": [
+      17,
+      17
+    ],
+    "A/leadingShoe": [
+      14,
+      13
+    ],
+    "A/trailingShoe": [
+      14,
+      10
+    ],
+    "C/leadingShoe": [
+      14,
+      13
+    ],
+    "C/trailingShoe": [
+      14,
+      10
+    ]
+  },
+  "timingCaveat": "GIFs exactly100ms/frame/800ms loop; editor6 ticks imply100.45623779296875ms. No gameplay timing integration."
+}

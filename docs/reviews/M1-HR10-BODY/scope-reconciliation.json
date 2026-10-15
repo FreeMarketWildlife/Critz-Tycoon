@@ -1,0 +1,38 @@
+{
+  "task": "M1.HR10-BODY",
+  "historicalHeadInstruction": {
+    "userMessageId": "01a13cd9-e57e-7730-bffd-9df79b315b17",
+    "turnId": "01a13cd9-e566-79c1-9981-342ce11a7879",
+    "turnStartedAtUTC": "2026-10-14T23:57:55Z",
+    "context": "Historical HR5 request to overlay Hero on Brendan and correct head."
+  },
+  "laterAuthorizedBodyHandoff": {
+    "turnId": "01a13d23-2f5f-7b02-bedd-9be1a2397399",
+    "turnStartedAtUTC": "2026-10-15T01:17:58Z",
+    "scope": "Single cuff/shoe/hand refinement preserving established HR9 head; forward only."
+  },
+  "chronologyEvidence": "Supported local read_thread10-turn chronology found nine later turns without a new userMessage after historical HR5 request; current body handoff followed HR9.",
+  "ownerAcknowledgment": {
+    "turnId": "01a13d2a-164e-7202-b24b-901a95983c02",
+    "startedAtUTC": "2026-10-15T01:25:30Z",
+    "paused": true,
+    "newerAuthenticatedHeadRequestIdentified": false,
+    "acknowledgment": "I incorrectly treated the historical head request surfaced after compaction as current authorization. That was a scope error."
+  },
+  "preservedHeadReview": {
+    "sourceCommit": "fb4a66b9dcfbadfa264f0d022dc03021d322d7b4",
+    "receiptCommit": "e598fbc3d2297f8e061aa846967d53d279cedeba",
+    "accepted": false,
+    "adoptedAsBodyBase": false,
+    "deletedOrReverted": false
+  },
+  "result": {
+    "activeScope": "Interrupted single HR9 cuff/shoe/hand-cluster refinement resumed as HR10-BODY after evidence reconciliation.",
+    "baseCommit": "9d1d1595329004829082ebe6fd44ea33208a3e06",
+    "soleWriterThread": "01a1377e-074d-75d3-8341-25b912e25de0",
+    "preserveHR9Head": true,
+    "canProceed": true,
+    "competingWriter": false,
+    "liveDeployment": false
+  }
+}

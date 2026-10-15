@@ -1,3 +1,7 @@
+# M1.HR10-BODY — Single focused body-cluster trial
+
+**Implemented and checked; awaiting local/parent review.** Preserve exact HR9 head/ears and translations; revise cuff/ankle/shoe silhouettes and hand/sleeve clusters only. Confirmed source, native/all8, source-speed800ms and explicitly labelled slow3200ms comparisons delivered. Passing feet remain heavy/boot-like; no self-approval or further automatic revision. [Review](reviews/M1-HR10-BODY/README.md). HEAD detour below is preserved unapproved history caused by stale HR5 chronology, not current authorized scope. No directions/variants/UI/gameplay/deployment/TN4 expansion.
+
 # M1.HR10H — Isolated head-overlay review
 
 **Implemented and checked; awaiting user visual review.** Answer the direct visible head request with actual aligned before/after overlays and original corrected forward hair. Preserve face/ears/eyes/body and motion. Separate namespace from disputed coordination HR10 body-only scope; no claim that body refinement is complete. [Review and residual critique](reviews/M1-HR10-HEAD/README.md). No gameplay integration/deployment or expanded directions.
