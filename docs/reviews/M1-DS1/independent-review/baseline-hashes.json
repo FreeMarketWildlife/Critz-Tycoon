@@ -1,0 +1,566 @@
+[
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-south-idle.png",
+    "sha256": "a32f0743d80051ab0f66463b22100b7f0678ba1e3b3e075fd2ef62483317e097"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-east-A.png",
+    "sha256": "29fa4103300c1f8619db0c5807709849814946123d58fcd967b7e9a58304047d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-north-A.png",
+    "sha256": "d0e2d2ce50e483d2d1a3498cffd314ded4d9ae8b5629a3a05cf8ee009f24155c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-north-C.png",
+    "sha256": "00625870e1814ff313965472a94f26e7b1a32814c24dcd00fb86eee24fc74616"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-east-C.png",
+    "sha256": "874080f86b5861b8ba63bcfaaac92ee03f1ae26ea499691e459b64319c495d17"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/east-static-full.png",
+    "sha256": "f37d677f0948f602d8c13f45d3f0d4b472869f09df508f4246767ee5efeaac90"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-east-P.png",
+    "sha256": "5ff506a6c9cc34d391b211be46bef93861f461c2b0b893c60ef48ccf6feae1ea"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-north-P.png",
+    "sha256": "13d82263e2a30161f26187a45631dd19e05a7cf751e26b3fc0294a844e608443"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-south-P.png",
+    "sha256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-east-P.png",
+    "sha256": "4eab449fed93618a7b0a9b6e7c850f89f89077a0a65253620fa7de3e26960248"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-south-idle.png",
+    "sha256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-west-idle.png",
+    "sha256": "b9ff1747b65602e805e97ee69a4974b4b850793ae8325c1f3d8c378426555631"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-east-idle.png",
+    "sha256": "7b3d8dde73174657da8d83535d3e053dbb09e125290fedf8e3dbf6376012506b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/south-static-full.png",
+    "sha256": "ee1522f3edd4ee7df462273bcaec0d27807b26fabf677e162d9379ff9a49e824"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/west-static-full.png",
+    "sha256": "779d08fb157fa04cb29a0a589005ea38aabefd461c3ca3c8e5dad3da4ba7c424"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-south-A.png",
+    "sha256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-east-A.png",
+    "sha256": "f470a50d15291a76b900f3a46d8f76278e3751f352c74162c39d37b7e6c7518d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-east-C.png",
+    "sha256": "d27a11163465c279810a8447c0c792ae9a2c2ef775acb8e295b8f05cf7ed5a9a"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/north-static-full.png",
+    "sha256": "48e6f4904441a12ca462648cfc22f579afebb4636aedc3f6a20da8c0c5fe094b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-south-C.png",
+    "sha256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-west-A.png",
+    "sha256": "fa41d1a5697de803821f029992ed05be51991a8558b1429305337d32699605b7"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-north-idle.png",
+    "sha256": "f8cd752e6de5c78da5d0c932b8fba0d19d3903e55f5d5c734cf5687646d2ddf9"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/east-static-grid.png",
+    "sha256": "089b95d43a4fb533fd9caba6bc2e9adb5fbdff8305fa726a63242c7d3db0b915"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-west-C.png",
+    "sha256": "f007e6045d6ad720f527c1c4ba1f38004bdf31aba6d3229f2a48f8e2421e897c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-north-P.png",
+    "sha256": "4842f3fe16151af3037bbbf1df6554fe259c4efcd5be81df266c9d75063d2d28"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-north-C.png",
+    "sha256": "b19f7aae8be7e75e0b0a885ed09b4750d9967db0c9202ef04fc0b54e96112060"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-west-P.png",
+    "sha256": "28794b477d4537dd3dc43e3f2e86128d81499cc5d1453741a7def8517c269b4b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-north-A.png",
+    "sha256": "9bf0635226967dcb97c1b9d6ce18bb2c99c9c8b1f8861bc373f20e4379a0d3a4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-south-C.png",
+    "sha256": "d57fe17d834c59fd257f3ee7e78064e2e541a37e849ff275a1097737034e19a5"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-north-idle.png",
+    "sha256": "55702a24a3811bb502c3c733818cdc734557d42ee9905121542e1026216b89cc"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-west-P.png",
+    "sha256": "803f4feaf570580df5009dc638b22e81eca179974fd9c8ca543e8e144c04a2aa"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-east-idle.png",
+    "sha256": "0bde22c50252e0b8140ebec77235da7c67c01687df8a4b88de1baa1acce14b6c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-west-idle.png",
+    "sha256": "2def72588ad9c43dbf38e58eec5125e5926cde2bce2123fd1e6584d61457f343"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/south-static-grid.png",
+    "sha256": "b03dc1c894da75b803f2cc23c592cf4c5737d831419adf816890c68c54fbeed2"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-south-A.png",
+    "sha256": "20373846cd5a91321e2d1829d9d8fc3669472b4b9b1a12a7b1ccfbfeb5d1fed9"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/west-static-grid.png",
+    "sha256": "f5801f9847bffb827f7060140ca774e1d1173614af19cbd855fe093ec4835bc2"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-west-A.png",
+    "sha256": "11c5d4025d582a00abeba01e8d1113c6c6d12874e48bd813289220090e5faf2d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/north-static-grid.png",
+    "sha256": "862bf758d3ebdd68d6b121d12a602b4f3cb9486f7ce67161f98fbd24c5c7ec75"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/hero-west-C.png",
+    "sha256": "ad642a0113b3d99ef92b86929fa15ff1aba48148b4e1dfce3d66825d86fd649b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-FM2/template-south-P.png",
+    "sha256": "a754c6d66a35bb0e40999fe846e3d3ac6c112086eddaf9e00ec2c01f006e75ea"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/four-direction-existing-walk-contact.png",
+    "sha256": "67d92adc67c8c0b21b20a4cb1e0a2af7f137cde4be7f8446502c63afc0ff2966"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/four-direction-current-template.png",
+    "sha256": "92732c4d7911138e931b251ad7c7e529bc1d9e2813c32b0c7bc723b6b26066bf"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-idle/hair-art.png",
+    "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-idle/dressed-exact.png",
+    "sha256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-idle/optional-hair-attachment.png",
+    "sha256": "c35d76ea13cde7735b50703c2386361a8a4ccef3484e29934c80d286f1d8f71e"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-idle/hair-dependent-shading.png",
+    "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-idle/before-template.png",
+    "sha256": "a32f0743d80051ab0f66463b22100b7f0678ba1e3b3e075fd2ef62483317e097"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-idle/bald-template.png",
+    "sha256": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-C/hair-art.png",
+    "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-C/dressed-exact.png",
+    "sha256": "ad642a0113b3d99ef92b86929fa15ff1aba48148b4e1dfce3d66825d86fd649b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-C/optional-hair-attachment.png",
+    "sha256": "dccb57387c8ef0184adc0f923a4d5af8eae63ab8d0887ab58165c34d8f744280"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-C/hair-dependent-shading.png",
+    "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-C/before-template.png",
+    "sha256": "f007e6045d6ad720f527c1c4ba1f38004bdf31aba6d3229f2a48f8e2421e897c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-C/bald-template.png",
+    "sha256": "2a61a027337778413907202042d9417a48a4944beae9d8f25be3f5e2f7cbddd7"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-P/hair-art.png",
+    "sha256": "e68652155571c207258028564e9724c84ece3e51f96d659747a5e11bdf7615e1"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-P/dressed-exact.png",
+    "sha256": "803f4feaf570580df5009dc638b22e81eca179974fd9c8ca543e8e144c04a2aa"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-P/optional-hair-attachment.png",
+    "sha256": "c0506e3e64e26ef7b809646378dfeee181b2a6563d20557f82fff1b52a7429ac"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-P/hair-dependent-shading.png",
+    "sha256": "946ffda75f3ed1f15f03eb8ac7965d0cacf34662e64718c59613d225e81bbf45"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-P/before-template.png",
+    "sha256": "28794b477d4537dd3dc43e3f2e86128d81499cc5d1453741a7def8517c269b4b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-P/bald-template.png",
+    "sha256": "316d0061aaa3b5df967689b5434531cc08cf58d598f9d72bb66027a5cf021cf8"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-idle/hair-art.png",
+    "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-idle/dressed-exact.png",
+    "sha256": "7b3d8dde73174657da8d83535d3e053dbb09e125290fedf8e3dbf6376012506b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-idle/optional-hair-attachment.png",
+    "sha256": "33ea9daf58e063bb940575cf05d37082f50e94a55e6e9be358452633873490bf"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-idle/hair-dependent-shading.png",
+    "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-idle/before-template.png",
+    "sha256": "0bde22c50252e0b8140ebec77235da7c67c01687df8a4b88de1baa1acce14b6c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-idle/bald-template.png",
+    "sha256": "b2c8987cea8de5361caa0d825420bc0f7dee5f95ff49093bbe7deaabcce3f5e5"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-idle/hair-art.png",
+    "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-idle/dressed-exact.png",
+    "sha256": "55702a24a3811bb502c3c733818cdc734557d42ee9905121542e1026216b89cc"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-idle/optional-hair-attachment.png",
+    "sha256": "864a79c9b84f40ba997305554c3f33e5ae4dd6536ad5e625b876a19b211e2395"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-idle/hair-dependent-shading.png",
+    "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-idle/before-template.png",
+    "sha256": "f8cd752e6de5c78da5d0c932b8fba0d19d3903e55f5d5c734cf5687646d2ddf9"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-idle/bald-template.png",
+    "sha256": "2919e7d22d1d4ee5c2ecd964b45cb3cbf55fc78eb3e028870e44080240118823"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-A/hair-art.png",
+    "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-A/dressed-exact.png",
+    "sha256": "d0e2d2ce50e483d2d1a3498cffd314ded4d9ae8b5629a3a05cf8ee009f24155c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-A/optional-hair-attachment.png",
+    "sha256": "864a79c9b84f40ba997305554c3f33e5ae4dd6536ad5e625b876a19b211e2395"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-A/hair-dependent-shading.png",
+    "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-A/before-template.png",
+    "sha256": "9bf0635226967dcb97c1b9d6ce18bb2c99c9c8b1f8861bc373f20e4379a0d3a4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-A/bald-template.png",
+    "sha256": "c3e6759f05825de1940dfe31a6261768d442a6b483696f1c506e54a368af2dd1"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-A/hair-art.png",
+    "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-A/dressed-exact.png",
+    "sha256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-A/optional-hair-attachment.png",
+    "sha256": "c35d76ea13cde7735b50703c2386361a8a4ccef3484e29934c80d286f1d8f71e"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-A/hair-dependent-shading.png",
+    "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-A/before-template.png",
+    "sha256": "20373846cd5a91321e2d1829d9d8fc3669472b4b9b1a12a7b1ccfbfeb5d1fed9"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-A/bald-template.png",
+    "sha256": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-P/hair-art.png",
+    "sha256": "e79a635bdce397e52b0077423bbb85dc775164d55e01614f15439f8553d81cd6"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-P/dressed-exact.png",
+    "sha256": "4eab449fed93618a7b0a9b6e7c850f89f89077a0a65253620fa7de3e26960248"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-P/optional-hair-attachment.png",
+    "sha256": "694a4ebf5b280d68f5fc765b8be9cb263782b09a3a1ecf08862aa16102206056"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-P/hair-dependent-shading.png",
+    "sha256": "f4903eeafb13278fd908f05c9cceee747382366a4550887f165c29e7a3212e40"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-P/before-template.png",
+    "sha256": "5ff506a6c9cc34d391b211be46bef93861f461c2b0b893c60ef48ccf6feae1ea"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-P/bald-template.png",
+    "sha256": "b18fc353247a8b9c8b2f3e8d1b82297f9f57a0404b2870e7646ee6fe773a74c7"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-C/hair-art.png",
+    "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-C/dressed-exact.png",
+    "sha256": "d27a11163465c279810a8447c0c792ae9a2c2ef775acb8e295b8f05cf7ed5a9a"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-C/optional-hair-attachment.png",
+    "sha256": "33ea9daf58e063bb940575cf05d37082f50e94a55e6e9be358452633873490bf"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-C/hair-dependent-shading.png",
+    "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-C/before-template.png",
+    "sha256": "874080f86b5861b8ba63bcfaaac92ee03f1ae26ea499691e459b64319c495d17"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-C/bald-template.png",
+    "sha256": "9a1b71c50b05543ec0384ecbab50b5f7b55d94328b884e950e3fb099607539b0"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-idle/hair-art.png",
+    "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-idle/dressed-exact.png",
+    "sha256": "b9ff1747b65602e805e97ee69a4974b4b850793ae8325c1f3d8c378426555631"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-idle/optional-hair-attachment.png",
+    "sha256": "dccb57387c8ef0184adc0f923a4d5af8eae63ab8d0887ab58165c34d8f744280"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-idle/hair-dependent-shading.png",
+    "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-idle/before-template.png",
+    "sha256": "2def72588ad9c43dbf38e58eec5125e5926cde2bce2123fd1e6584d61457f343"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-idle/bald-template.png",
+    "sha256": "d672dd48da61b1b83cd9a3de5ca1c8f27e0e468cd621a14cf9389aa4c85a941e"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-A/hair-art.png",
+    "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-A/dressed-exact.png",
+    "sha256": "11c5d4025d582a00abeba01e8d1113c6c6d12874e48bd813289220090e5faf2d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-A/optional-hair-attachment.png",
+    "sha256": "dccb57387c8ef0184adc0f923a4d5af8eae63ab8d0887ab58165c34d8f744280"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-A/hair-dependent-shading.png",
+    "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-A/before-template.png",
+    "sha256": "fa41d1a5697de803821f029992ed05be51991a8558b1429305337d32699605b7"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/west-A/bald-template.png",
+    "sha256": "36cfa8278ab82e3de7dd6ade42087c53d83da60a36ab63fbbcc0fd69e9b6eb1f"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-C/hair-art.png",
+    "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-C/dressed-exact.png",
+    "sha256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-C/optional-hair-attachment.png",
+    "sha256": "c35d76ea13cde7735b50703c2386361a8a4ccef3484e29934c80d286f1d8f71e"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-C/hair-dependent-shading.png",
+    "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-C/before-template.png",
+    "sha256": "d57fe17d834c59fd257f3ee7e78064e2e541a37e849ff275a1097737034e19a5"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-C/bald-template.png",
+    "sha256": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-C/hair-art.png",
+    "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-C/dressed-exact.png",
+    "sha256": "00625870e1814ff313965472a94f26e7b1a32814c24dcd00fb86eee24fc74616"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-C/optional-hair-attachment.png",
+    "sha256": "864a79c9b84f40ba997305554c3f33e5ae4dd6536ad5e625b876a19b211e2395"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-C/hair-dependent-shading.png",
+    "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-C/before-template.png",
+    "sha256": "b19f7aae8be7e75e0b0a885ed09b4750d9967db0c9202ef04fc0b54e96112060"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-C/bald-template.png",
+    "sha256": "99518346028ce9eb7a38bcbf5e93d5566d9a29076d08691aaf3eb0d84cfa8944"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-P/hair-art.png",
+    "sha256": "4681d80bd5c75997ec19b5bb43e94ec32aacbd4748e742302c323b3c7b536f24"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-P/dressed-exact.png",
+    "sha256": "13d82263e2a30161f26187a45631dd19e05a7cf751e26b3fc0294a844e608443"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-P/optional-hair-attachment.png",
+    "sha256": "1a4177417f2b7a9d10ee852fd378c3479d7ac71f31ef2a6f4df7cccf1dbea3bd"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-P/hair-dependent-shading.png",
+    "sha256": "312db936dd59b001e66341c7a94c3b275ad867f9b5736e165d9291f6b1293e6c"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-P/before-template.png",
+    "sha256": "4842f3fe16151af3037bbbf1df6554fe259c4efcd5be81df266c9d75063d2d28"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/north-P/bald-template.png",
+    "sha256": "9346a0ee881dc627c86c71dfb96646945c63e6a562186b47d6fc71901d3d5db4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-P/hair-art.png",
+    "sha256": "8f2971313b13f60742419d5971ded9660888b4990b0382488de740b6f23ef38d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-P/dressed-exact.png",
+    "sha256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-P/optional-hair-attachment.png",
+    "sha256": "ec1aaae17ec21e9526af7536adacee222f1eb41b313707a435d5e9e37ac5640e"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-P/hair-dependent-shading.png",
+    "sha256": "e128c048a3e5182df6d25d837ae44e6bf870b30036cb40de3241aa2ca12ce01b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-P/before-template.png",
+    "sha256": "a754c6d66a35bb0e40999fe846e3d3ac6c112086eddaf9e00ec2c01f006e75ea"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/south-P/bald-template.png",
+    "sha256": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-A/hair-art.png",
+    "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-A/dressed-exact.png",
+    "sha256": "f470a50d15291a76b900f3a46d8f76278e3751f352c74162c39d37b7e6c7518d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-A/optional-hair-attachment.png",
+    "sha256": "33ea9daf58e063bb940575cf05d37082f50e94a55e6e9be358452633873490bf"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-A/hair-dependent-shading.png",
+    "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-A/before-template.png",
+    "sha256": "29fa4103300c1f8619db0c5807709849814946123d58fcd967b7e9a58304047d"
+  },
+  {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS2/east-A/bald-template.png",
+    "sha256": "e542d8a52e01692d89d24ca5eb5f7201ebe4bb8798112a17624d9f333faf9694"
+  },
+  {
+    "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/ROM-02.png",
+    "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6"
+  },
+  {
+    "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/ROM-07.png",
+    "sha256": "5f992b29a85f8f3bfd4a08254e1661966e6f25749b23f86803a34b0275510069"
+  },
+  {
+    "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/ROM-08.png",
+    "sha256": "015e1423824df009aa0921d73cc723c0b9e2b91c06323b87b0508a92bcf839a9"
+  }
+]

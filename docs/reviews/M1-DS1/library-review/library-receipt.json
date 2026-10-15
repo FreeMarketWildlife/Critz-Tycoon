@@ -1,0 +1,496 @@
+{
+  "sourceCommit": "30225d182e2fbfea3569c3300f78cbd2fece7d97",
+  "task": "M1.DS1",
+  "scope": "Original native16x32 and deliberately refined32x64 bald clothed template; user visual acceptance pending",
+  "referenceBasis": "Actual primary Brendan and Man1 at731ad5bfd6e6f265508d0efcca0ba42f9dcf5881; exactTSR8329 image not inspected here",
+  "files": [
+    {
+      "library_file_id": "libfile_9aa79c07ffe4819195fe70c87c433a42",
+      "file_id": "file_000000009b5481f59f3fca12b4e25d65",
+      "file_name": "critz-DS1-dummy-1x-south-idle.png",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-south-idle.png",
+      "sha256": "21a5cdb117487ebac2996b6acb6c3a7f89db6e1e50de115ecd69aa292fe77ec6",
+      "dimensions": [
+        16,
+        32
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_caecb6074170819189c6004be473ae90",
+      "file_id": "file_00000000ebcc82308dec299f3645afa7",
+      "file_name": "critz-DS1-dummy-2x-south-idle.png",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-south-idle.png",
+      "sha256": "24fb215d6c2d488ff2d5cceab42912b6c4f4bc5d0c00e3cc60ead07f4861e995",
+      "dimensions": [
+        32,
+        64
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_a8bbac9db55481918bfc5391128f0361",
+      "file_id": "file_00000000300c820c9e2b30cb9af0a0c4",
+      "file_name": "critz-DS1-four-direction-resolution-comparison.png",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-four-direction-resolution-comparison.png",
+      "sha256": "c12e6258dfef9afeab6c01759f17cd5a2f4612a24c15e6e3cee22680bf2707f5",
+      "dimensions": [
+        960,
+        880
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_a85134812ed48191b0c3b16923f66e77",
+      "file_id": "file_00000000534c8210908a808a8318b18a",
+      "file_name": "critz-DS1-west-gait-resolution-comparison.png",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-west-gait-resolution-comparison.png",
+      "sha256": "d795868cf5d5ce834b52f6402d7349e2a94068f00662147521995b072e614610",
+      "dimensions": [
+        960,
+        880
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_aca05a83118c8191a1e02484d6d2c5e2",
+      "file_id": "file_0000000025b8823095058d8fa3d9cf69",
+      "file_name": "critz-DS1-all-poses-reviewed.png",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-all-poses-reviewed.png",
+      "sha256": "f5ab599511231369842081d4af736c8158cc54ccd114b6b89c44635194d85c6d",
+      "dimensions": [
+        960,
+        1000
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_f80a77614d888191ad1bc60b8e90e4e7",
+      "file_id": "file_00000000dce081f5aca42fff48674a1a",
+      "file_name": "critz-DS1-dummy-1x-east-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-east-walk-1display.gif",
+      "sha256": "d4861f12a95811cc8e3481888e6b02ba1c77f14ffddff1fdc464bc3455e4711d",
+      "dimensions": [
+        16,
+        32
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_0c13e9986cbc81919994567c780ff389",
+      "file_id": "file_0000000017f481f7bf1d4a739d1316d9",
+      "file_name": "critz-DS1-dummy-1x-east-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-east-walk-4display.gif",
+      "sha256": "7e5302764618740901d8743dd034fec49f1da78619dc9ebb00f3b7ae061ec610",
+      "dimensions": [
+        64,
+        128
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_51ad571cb1a48191b5008c5a5e392e06",
+      "file_id": "file_000000005a7081f5b9bc2e00cef9d1b6",
+      "file_name": "critz-DS1-dummy-1x-north-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-north-walk-1display.gif",
+      "sha256": "86946e5ad92dc2ce525affc512735c21b13320f767750d4be300874378d4cd70",
+      "dimensions": [
+        16,
+        32
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_31195cc112c081918157fe847a17b24b",
+      "file_id": "file_0000000083c081f5ad8ea4634a22e17d",
+      "file_name": "critz-DS1-dummy-1x-north-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-north-walk-4display.gif",
+      "sha256": "7ee0cf9371b3034e44b314b4215e89ba8f60b1bd5f4f7cedc63d175dd791a46a",
+      "dimensions": [
+        64,
+        128
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_efb73dffa724819199788b941e4e9415",
+      "file_id": "file_00000000e91c82309c0ca379f02cf70c",
+      "file_name": "critz-DS1-dummy-1x-south-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-south-walk-1display.gif",
+      "sha256": "874099ebaba07954b105a9549e93b8c468ab41b05792306759fc9d0d2f13fa46",
+      "dimensions": [
+        16,
+        32
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_b38fb61afbd4819186e5c3ffff9fda65",
+      "file_id": "file_0000000004c0823089845aad5bcc89ee",
+      "file_name": "critz-DS1-dummy-1x-south-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-south-walk-4display.gif",
+      "sha256": "4389b0d3c4de0acb205a9f4a592637fc883ec64ff0786bb557b9bc4e9e611d60",
+      "dimensions": [
+        64,
+        128
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_731160bf38f8819180ad3cd8fb0453dc",
+      "file_id": "file_000000008eac81f58e82793189faa7be",
+      "file_name": "critz-DS1-dummy-1x-west-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-west-walk-1display.gif",
+      "sha256": "fd54c1b8d9cc5e1ebbca5a208589d606d64a8c6c91305f1f883869ab25f4a934",
+      "dimensions": [
+        16,
+        32
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_6748ee14789881919b6e53c4b389772f",
+      "file_id": "file_00000000d3748230973e35d78f0dfb43",
+      "file_name": "critz-DS1-dummy-1x-west-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-1x-west-walk-4display.gif",
+      "sha256": "c3b2f1b4e4d38e8de0f3bfa608e798a5f6632688b5ec645eab3135ef28c518fc",
+      "dimensions": [
+        64,
+        128
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_fd9ce2e51f208191b3cad908d69d12d3",
+      "file_id": "file_0000000042c88230aa54af68101bae4c",
+      "file_name": "critz-DS1-dummy-2x-east-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-east-walk-1display.gif",
+      "sha256": "c52fe5e0d6bf78f3657ffc80c473ad3dd9f0c81ca437949a8505c5f44cd1606b",
+      "dimensions": [
+        32,
+        64
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_0a1c029aeff88191960a7af3f9169a27",
+      "file_id": "file_00000000de548230bca49433f75a170f",
+      "file_name": "critz-DS1-dummy-2x-east-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-east-walk-4display.gif",
+      "sha256": "ef08bfcaecc3f119d77722465c05b020e57b70a82c57627198af4e25c11fccca",
+      "dimensions": [
+        128,
+        256
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_858d9f89ac1081919a9e0f1f19c15bbd",
+      "file_id": "file_00000000c8808230b849757bc6828ea9",
+      "file_name": "critz-DS1-dummy-2x-north-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-north-walk-1display.gif",
+      "sha256": "72c1e28acbe2f2968f2a7f71f0f060283d2e6b68190e272eeecdf11f8bfdd3b4",
+      "dimensions": [
+        32,
+        64
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_755605c66008819197b75fffe1324c5f",
+      "file_id": "file_00000000cc1081fdb7bb05342002bedf",
+      "file_name": "critz-DS1-dummy-2x-north-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-north-walk-4display.gif",
+      "sha256": "472ce98c320cfc9265ef2cbfe30e716a3f7463af9c7b4c12e53a3a2bdd1dea9d",
+      "dimensions": [
+        128,
+        256
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_93e737132598819199517e127bbe98e5",
+      "file_id": "file_000000006ee881f8a5a8f7d5d5499319",
+      "file_name": "critz-DS1-dummy-2x-south-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-south-walk-1display.gif",
+      "sha256": "075652762a94e41c7c421f0ac20b670e20069c7f8802c46552eb4568fe48d891",
+      "dimensions": [
+        32,
+        64
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_acf66eff0ed081918033797b8efa2f56",
+      "file_id": "file_00000000223881f490ecc366e75af9fb",
+      "file_name": "critz-DS1-dummy-2x-south-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-south-walk-4display.gif",
+      "sha256": "e1496cd68fced60a8f2a88791433dcbd0e5e70fd0763f060fa08b9ab87430479",
+      "dimensions": [
+        128,
+        256
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_85483f733c1081919a792f0e3a7cb6e9",
+      "file_id": "file_00000000a0448230b89fae1b07c562b2",
+      "file_name": "critz-DS1-dummy-2x-west-walk-1display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-west-walk-1display.gif",
+      "sha256": "efa30d2631068205397779fa1e1de645de231cbeb17320ccbe9db88412bf2bfa",
+      "dimensions": [
+        32,
+        64
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_fcf54e2aaee48191a02fee1a0dd58ac4",
+      "file_id": "file_0000000054d481fd838299bcda541e2d",
+      "file_name": "critz-DS1-dummy-2x-west-walk-4display.gif",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-DS1/library-review/critz-DS1-dummy-2x-west-walk-4display.gif",
+      "sha256": "62c47a56a34755c597a0d0b3d61b29cdb513d704d02063eb4d02ea8cf5657ffa",
+      "dimensions": [
+        128,
+        256
+      ],
+      "frames": 4,
+      "durationsMs": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": false
+    },
+    {
+      "library_file_id": "libfile_d4dc72ce67b881919d413f8339378cb2",
+      "file_id": "file_0000000020ac81f7a309410f2684747c",
+      "file_name": "critz-DS1-primary-reference-comparison.png",
+      "current_version_number": 0,
+      "localPath": "/tmp/critz-DS1-primary-reference-comparison.png",
+      "sha256": "9575afb886f64af575dbb7ef9271793ab03d9f19af5fe261d2121aad8aeda932",
+      "dimensions": [
+        960,
+        1100
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataApplied": true,
+      "downloadBytesRGBAAndTimingExact": true,
+      "referenceContent": true
+    }
+  ]
+}
