@@ -2,13 +2,21 @@
   "task": "M1.SR2",
   "sourceCommit": "3b6270e93c8cead6a9d450c603697094741c4967",
   "baselineCommit": "73eb6c102e3ac928bd013360dfd2c076fdb93bfb",
-  "audience": "Private parent visual inspection; no main-user draft delivery or public sharing.",
-  "librarySaves": 7,
-  "uniqueIDs": 7,
-  "versions": "all0",
+  "audience": "Private parent visual inspection only; no public or main-user draft delivery.",
+  "libraryIdentities": 7,
+  "unchangedVersion0": 2,
+  "correctedVersion1": 5,
   "decodedAnimationFrames": 32,
   "allDownloadsExact": true,
   "allMetadataVerified": true,
+  "correction": {
+    "reason": "First five derived comparisons used pre-SR1 before files. Renderers/compositor now use frozen SR1 trial-hero/trial-template; candidate art and two writer plates unchanged.",
+    "identityPreserved": true,
+    "newIdentitiesCreated": 0,
+    "expectedVersionGuard": 0,
+    "finalVersion": 1,
+    "independentBaselineChecks": 16
+  },
   "items": [
     {
       "file_id": "file_0000000084c481f7b2b70ecca739dda3",
@@ -57,14 +65,14 @@
       "downloadMetadataVerified": true
     },
     {
-      "file_id": "file_0000000014f481f59bd06667f1d802c7",
+      "file_id": "file_000000002cc8820ca324d7b8c11309d2",
       "library_file_id": "libfile_c5c2ddaf146c8191a9ed62fa21c7df90",
       "file_name": "SR2-INTERNAL-game-scale-artwork-1x.png",
-      "current_version_number": 0,
+      "current_version_number": 1,
       "sourcePath": "docs/reviews/M1-SR2/independent-review/game-scale-artwork-1x.png",
-      "sha256": "76c4691fca25ec3916385fb80a4fadbb501c788bfcf14aa7dfa23099d077d80e",
+      "sha256": "536e99b587ba6a47f38472e17698954bcf86f7eacb12ccff25c103c4e9fde4e8",
       "metadataApplied": true,
-      "bytes": 26276,
+      "bytes": 26089,
       "dimensions": [
         704,
         848
@@ -80,14 +88,14 @@
       "downloadMetadataVerified": true
     },
     {
-      "file_id": "file_00000000f128823093d4005619f01c1f",
+      "file_id": "file_000000006b9082309853f38053862df2",
       "library_file_id": "libfile_c95f1fa459b081919a1bd607f3706bf8",
       "file_name": "SR2-INTERNAL-west-paired-normal-3x.gif",
-      "current_version_number": 0,
+      "current_version_number": 1,
       "sourcePath": "docs/reviews/M1-SR2/independent-review/west-paired-normal-3x.gif",
-      "sha256": "da195345d194a97b463906eaa3ef1e2b89de511dcc518c641b8ffe575ae97b53",
+      "sha256": "b1c3f73adcb10e8f3a0a76c4d5497e63e5a4d3359797a5db221013c3e95c0052",
       "metadataApplied": true,
-      "bytes": 67881,
+      "bytes": 67923,
       "dimensions": [
         1056,
         312
@@ -110,14 +118,14 @@
       "downloadMetadataVerified": true
     },
     {
-      "file_id": "file_00000000f9f081f7b17ba991d509c391",
+      "file_id": "file_0000000086c08230b3f4213b6f846025",
       "library_file_id": "libfile_f0fc80ba92a48191ac7680f528e12a66",
       "file_name": "SR2-INTERNAL-west-paired-slow-3x.gif",
-      "current_version_number": 0,
+      "current_version_number": 1,
       "sourcePath": "docs/reviews/M1-SR2/independent-review/west-paired-slow-3x.gif",
-      "sha256": "eed7ddceb4adb408a9f6849943a44c1327764b8783a349a1edd9e797a1f3be43",
+      "sha256": "ae10a3d606bc4ef742cf2dbaf492f3ddb4b8494afb35b83cea426d0c04295448",
       "metadataApplied": true,
-      "bytes": 67905,
+      "bytes": 67918,
       "dimensions": [
         1056,
         312
@@ -140,14 +148,14 @@
       "downloadMetadataVerified": true
     },
     {
-      "file_id": "file_000000007a348230be361439e12b5fd5",
+      "file_id": "file_0000000070d08230b325805347aa5f5b",
       "library_file_id": "libfile_96d56a70c4dc81919fb792ff926fd63c",
       "file_name": "SR2-INTERNAL-east-paired-normal-3x.gif",
-      "current_version_number": 0,
+      "current_version_number": 1,
       "sourcePath": "docs/reviews/M1-SR2/independent-review/east-paired-normal-3x.gif",
-      "sha256": "a11c78ac9b25702d8cf41a927ed96778a9ff6ab0339418e1c7f241f92f9d9c74",
+      "sha256": "e48ee6dab6df0d2a52b6d40e5e67f9b5d54133f612d24a21a1b1cb201b667cc2",
       "metadataApplied": true,
-      "bytes": 68082,
+      "bytes": 68120,
       "dimensions": [
         1056,
         312
@@ -170,14 +178,14 @@
       "downloadMetadataVerified": true
     },
     {
-      "file_id": "file_00000000526c82308a80143714a99503",
+      "file_id": "file_00000000f6d4823082c2fdaf42e41088",
       "library_file_id": "libfile_cd93559228388191b75a3c16cc3cf59d",
       "file_name": "SR2-INTERNAL-east-paired-slow-3x.gif",
-      "current_version_number": 0,
+      "current_version_number": 1,
       "sourcePath": "docs/reviews/M1-SR2/independent-review/east-paired-slow-3x.gif",
-      "sha256": "2df2ddb39e790b2922309b4ca5fecaf40edc2c911d7747e7378350d17df7c18b",
+      "sha256": "e90c4cc9dc60377dce9d0e05b4d06957804e7b24f41dc77353750f979c17b25a",
       "metadataApplied": true,
-      "bytes": 68155,
+      "bytes": 68180,
       "dimensions": [
         1056,
         312

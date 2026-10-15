@@ -1,7 +1,7 @@
 """Compose existing saved sprites for review, without authoring sprite pixels."""
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
-import json,hashlib
+import json,hashlib,subprocess,io
 root=Path(__file__).resolve().parents[4];out=Path(__file__).parent
 order=['A','A','P','P','C','C','P','P'];holds=[70,60,70,70,70,60,70,70]
 keys=['before-hero','final-hero','before-template','final-template'];labels=['SR1 HERO','SR2 HERO','SR1 BALD','SR2 BALD'];font=ImageFont.truetype('/System/Library/Fonts/Menlo.ttc',9)
@@ -12,9 +12,11 @@ def ck(name,value):
 for dr in ['west','east']:
  for po in ['idle','A','P','C']:
   for key in keys:
-   p=root/(f'docs/reviews/M1-SR1/{dr}-{po}/{key}.png' if key.startswith('before') else f'docs/reviews/M1-SR2/{dr}-{po}/{key}.png')
+   p=root/(f'docs/reviews/M1-SR1/{dr}-{po}/{"trial-hero" if key=="before-hero" else "trial-template"}.png' if key.startswith('before') else f'docs/reviews/M1-SR2/{dr}-{po}/{key}.png')
    images[dr,po,key]=Image.open(p).convert('RGBA')
    files.append({'path':str(p.relative_to(root)),'sha256':hashlib.sha256(p.read_bytes()).hexdigest()})
+   if key.startswith('before'):
+    expectedPath=f'docs/reviews/M1-SR1/{dr}-{po}/{"trial-hero" if key=="before-hero" else "trial-template"}.png';expected=Image.open(io.BytesIO(subprocess.check_output(['git','show','73eb6c1:'+expectedPath],cwd=root))).convert('RGBA');ck(dr+po+key+' actual frozen SR1 baseline',images[dr,po,key].tobytes()==expected.tobytes())
 def strip(dr,po,bg,header):
  b=Image.new('RGB',(352,104),bg);d=ImageDraw.Draw(b);d.fontmode='1';d.text((4,2),header,font=font,fill='#242330')
  for col,key in enumerate(keys):
@@ -35,4 +37,4 @@ for dr in ['west','east']:
   q=Image.open(dest);ck(dest.name+' eight actual frames',q.n_frames==8);ck(dest.name+' infinite loop',q.info.get('loop')==0)
   for i,expected in enumerate(frames):
    q.seek(i);ck(dest.name+f' frame{i} full composed RGB exact',q.convert('RGB').tobytes()==expected.tobytes());ck(dest.name+f' frame{i} exact original hold',q.info.get('duration')==holds[i]*speed)
-(out/'composition-checks.json').write_text(json.dumps({'task':'M1.SR2','pass':True,'count':len(checks),'checks':checks,'sourceFiles':files,'order':order,'recordedHoldsMs':holds,'cadenceMeaning':'Existing selected Hero exports; not measured NPC/emulator timing.','visualAcceptance':False,'gameScalePlateMeaning':'Direct unmodified sprite composition on existing meadow grass/path colors; not a browser screenshot or runtime adoption.'},indent=2)+'\n');print('PASS',len(checks),'actual saved paired-GIF frame/RGB/hold/loop checks; no sprite author pixels changed.')
+(out/'composition-checks.json').write_text(json.dumps({'task':'M1.SR2','pass':True,'count':len(checks),'baselineChecks':16,'pairedGIFChecks':72,'checks':checks,'sourceFiles':files,'order':order,'recordedHoldsMs':holds,'cadenceMeaning':'Existing selected Hero exports; not measured NPC/emulator timing.','visualAcceptance':False,'gameScalePlateMeaning':'Direct unmodified sprite composition on existing meadow grass/path colors; not a browser screenshot or runtime adoption.'},indent=2)+'\n');print('PASS',len(checks),'checks:16frozen-baseline and72paired-GIF checks; no sprite author pixels changed.')
