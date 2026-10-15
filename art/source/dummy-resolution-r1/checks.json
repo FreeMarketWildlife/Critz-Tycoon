@@ -1,0 +1,230 @@
+{
+  "poseChecks": [
+    {
+      "scale": 1,
+      "direction": "south",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "south",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "south",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "south",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "north",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "north",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "north",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "north",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "west",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "west",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "west",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "west",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "east",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "east",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "east",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 1,
+      "direction": "east",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "south",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "south",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "south",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "south",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "north",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "north",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "north",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "north",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "west",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "west",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "west",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "west",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "east",
+      "pose": "idle",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "east",
+      "pose": "A",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "east",
+      "pose": "P",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    },
+    {
+      "scale": 2,
+      "direction": "east",
+      "pose": "C",
+      "singleConnectedClothedSilhouette": true,
+      "frameAndPaletteCorrect": true
+    }
+  ],
+  "appearanceApproval": false,
+  "scope": "original art review only; no creator/runtime modifications"
+}

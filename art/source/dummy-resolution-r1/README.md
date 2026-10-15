@@ -1,0 +1,9 @@
+# DS1 native two-resolution source
+
+Original bald dressed Black child template. Run `build.py` with the bundled Pillow Python. Independent integer-grid head contours and feature/body maps are authored for16×32 and32×64; only review presentations/GIF displays are nearest-neighbor enlarged. No existing Hero, creator or runtime asset is read or overwritten. No hair, nose or mouth; no hidden anatomical template. East mirrors the actual authored West sprite, including its visible eye/ear/hand placement.
+
+`REFERENCE_STUDY.md` records actual primary-source observations made before drawing. All appearance is proposed Critz art. Source frames' generous empty top margin is retained. Two resolutions share pose intent and corresponding head/eye/shoulder/waist/contact landmarks; higher resolution deliberately refines boundaries and material shapes rather than claiming exact2× pixels.
+
+First actual visual review rejected merged1× side eye, blank roundness, buried hand and striped side stack. The revision gives the eye a skin-separated matching landmark at both sizes, steps the side cheek/chin inward, draws a compact edge hand below its sleeve, shortens the idle shoe and repairs a floating C-stride connection. Parent/user appearance review remains pending; this is not an adopted gameplay or creator foundation.
+
+`native-checks.json` freezes bytes/bounds. `checks.json` verifies32 frame sizes/palettes/connected silhouettes and exact mirrored East. `gif-checks.json` decodes16 actual art-only GIFs and verifies all128100ms timeline slots,800ms loops and pixels against authored poses. The800ms cadence is a presentation choice, not a new measured NPC/emulator timing claim. Static and framewise review is not a continuous playback watch. Native/equal-display plates plus all-pose sheet are generated reproducibly. Reference-colored comparison stays outside the repository and is not uploaded as original art.

@@ -1,0 +1,418 @@
+{
+  "dummy-1x-south-idle.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "21a5cdb117487ebac2996b6acb6c3a7f89db6e1e50de115ecd69aa292fe77ec6"
+  },
+  "dummy-1x-south-A.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "cfea276b3051e1fe174c2052d88d00a9ba60aae5678f48eec358ff4b6e5de704"
+  },
+  "dummy-1x-south-P.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      10,
+      14,
+      31
+    ],
+    "sha256": "a6b33a2aafabb080cbd148ab6cac4bf9aaa112c4650c5efe8cb86bdca286de0d"
+  },
+  "dummy-1x-south-C.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "2d75f3b7bc77bb848d7772b6a4bb88903b6aaf66b81fa89d000157ac2c43f495"
+  },
+  "dummy-1x-north-idle.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "5bf115ba082e2d900dcb6bd0fcc873e379b1bd17df74cab5238db85ba3291f3b"
+  },
+  "dummy-1x-north-A.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "893de4ebc0c8d6299fb5207f0e78c1d3b4766fda25dffd72cfeeff5e15d19d4b"
+  },
+  "dummy-1x-north-P.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      10,
+      14,
+      31
+    ],
+    "sha256": "89204f5205131e99b3d8575d09a5f0a94cc6d5c676b0ae4f50668e8e953a53ca"
+  },
+  "dummy-1x-north-C.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "8dafa12d83f2ff401e77c164f114fc00474d4ef6d41e699e4efd7f73e17a4a66"
+  },
+  "dummy-1x-west-idle.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      3,
+      11,
+      14,
+      31
+    ],
+    "sha256": "27ad23c874ed5f4ae403ffa6e370547f2c408045847a4e9fff30e1368e6ddaee"
+  },
+  "dummy-1x-west-A.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "ae92db8c4c995e554115a47bcabe45b5ee935f161b6ed701ec145f2b07d7941e"
+  },
+  "dummy-1x-west-P.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      3,
+      10,
+      14,
+      31
+    ],
+    "sha256": "6d3cba9d06fb1c99ebec852e93cd6ac93828c3d0026e786cc59e1ec99aae75ee"
+  },
+  "dummy-1x-west-C.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      3,
+      11,
+      14,
+      31
+    ],
+    "sha256": "a280c8f3097fcf52de00adf77ca25d7efba9833603d53ce2c243bf0596ae5b0c"
+  },
+  "dummy-1x-east-idle.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      13,
+      31
+    ],
+    "sha256": "633a26cba8aac6d21d91c7902e5ce128d55af1a761fc62fdc6eab467cf209371"
+  },
+  "dummy-1x-east-A.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      14,
+      31
+    ],
+    "sha256": "73ab1d2104e95f59752bf85b0ab8bee930eee2a1ff01d285fb43917f88e97d61"
+  },
+  "dummy-1x-east-P.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      10,
+      13,
+      31
+    ],
+    "sha256": "8c76b26d2c0fb4ef44b5f537bd0ebdfe232782720df12165234953d5cda1b8b0"
+  },
+  "dummy-1x-east-C.png": {
+    "size": [
+      16,
+      32
+    ],
+    "paintedBounds": [
+      2,
+      11,
+      13,
+      31
+    ],
+    "sha256": "dcef5b7dc2924f6469c437746d99316e17a0d464670e68ea3a5390916e49a6ee"
+  },
+  "dummy-2x-south-idle.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "sha256": "24fb215d6c2d488ff2d5cceab42912b6c4f4bc5d0c00e3cc60ead07f4861e995"
+  },
+  "dummy-2x-south-A.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      63
+    ],
+    "sha256": "0690bf287d435360eb8ef91d8e30a3ab70ffadeb0843007e3a8bc69d3225d396"
+  },
+  "dummy-2x-south-P.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      20,
+      28,
+      62
+    ],
+    "sha256": "4d93f12dfe3b4bb4b88cf0e4edd6076133d72cb52293971b7e84992c480617e8"
+  },
+  "dummy-2x-south-C.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      63
+    ],
+    "sha256": "8d6556a2a524123fc9e39558ae53be131cfc5d09f6bd6ebf4723139a15d0329c"
+  },
+  "dummy-2x-north-idle.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      62
+    ],
+    "sha256": "7d56d0a704a39c99880cf93182526b309c0709a70f5a2769581383ec4acb32e5"
+  },
+  "dummy-2x-north-A.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      63
+    ],
+    "sha256": "eb3a78dbe02bf6a4bb41451739f4c89386c4670594436e3eb020509dd83b0237"
+  },
+  "dummy-2x-north-P.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      20,
+      28,
+      62
+    ],
+    "sha256": "a7af45bbc65fa052fbdc152b58df334fbd4ea258c11d20880479717626fe9144"
+  },
+  "dummy-2x-north-C.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      28,
+      63
+    ],
+    "sha256": "c6366dc07f35589b6c4406764964efe899815a89f88a81747814890a3b4a7160"
+  },
+  "dummy-2x-west-idle.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      6,
+      22,
+      28,
+      62
+    ],
+    "sha256": "1f57820ab7ec5d89320c9c530f2fd22cafcde067c281540fb1414ef1eb76dd25"
+  },
+  "dummy-2x-west-A.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      5,
+      22,
+      28,
+      63
+    ],
+    "sha256": "4b92ff1f9f4507771e12fb35ed55c7342850b24e53ddc35edc786d1088557d97"
+  },
+  "dummy-2x-west-P.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      6,
+      20,
+      28,
+      62
+    ],
+    "sha256": "817ccd11a33e66267d59b8dd6ca7cd925fdfbe99b4c80070040c9b398ef5b288"
+  },
+  "dummy-2x-west-C.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      6,
+      22,
+      28,
+      63
+    ],
+    "sha256": "bf23e10224f1a099905cbc3adc98df9cde7f0594affe9c189040f1d7daa8113d"
+  },
+  "dummy-2x-east-idle.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      26,
+      62
+    ],
+    "sha256": "da3dcf5b9c85428a4f5b171ff10ec347cb934c5bd0de3bfb0814f2be26c1613f"
+  },
+  "dummy-2x-east-A.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      27,
+      63
+    ],
+    "sha256": "a7276e397f5d50a00aadab5302248810dfdaa6a200283a4aeb932306914e55c0"
+  },
+  "dummy-2x-east-P.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      20,
+      26,
+      62
+    ],
+    "sha256": "8e1bf30130f55a180e44ca3ee0923c8f0cc1437fa4556b8ddb8ae589b46a93e9"
+  },
+  "dummy-2x-east-C.png": {
+    "size": [
+      32,
+      64
+    ],
+    "paintedBounds": [
+      4,
+      22,
+      26,
+      63
+    ],
+    "sha256": "e53ef13d85857b0d3625965e29746041ecf6166be01aaa2f800083b9946c2c2b"
+  }
+}
