@@ -16,6 +16,11 @@ export async function prepareAssetDelivery(root) {
   const {runtime,catalogue}=splitContactManifest(JSON.parse(await readFile(contact,'utf8')));
   await writeFile(join(root,'playable/contact/runtime.json'),JSON.stringify(runtime));
   await writeFile(join(root,'playable/contact/catalogue.json'),JSON.stringify(catalogue));
+  return compactJsonDelivery(root);
+}
+
+// Lossless formatting only. Used on copied delivery trees; never authored files.
+export async function compactJsonDelivery(root) {
   let files=0,beforeBytes=0,afterBytes=0;
   async function compact(directory) {
     for(const entry of await readdir(directory,{withFileTypes:true})){

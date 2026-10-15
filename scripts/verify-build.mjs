@@ -1,4 +1,4 @@
-// Check the complete static package, including preserved source downloads.
+// Check every delivered file: JSON values are exact; all other bytes stay exact.
 import assert from 'node:assert/strict';import {readFile,readdir,writeFile} from 'node:fs/promises';
 import {join} from 'node:path';import {createHash} from 'node:crypto';
 import {expandContactCatalogue} from '../src/contact-catalogue.js';
@@ -9,7 +9,7 @@ async function verify(path){
  const source=await readFile(path),built=await readFile('dist/'+path);
  if(path==='src/asset-urls.js'){
   assert.equal(built.toString(),"// Generated production asset URLs.\nexport const CONTACT_MANIFEST='../assets/playable/contact/runtime.json';\n");result.generatedFiles.push(path);
- }else if(path.startsWith('assets/')&&path.endsWith('.json')){
+ }else if(/^(assets|docs|art)\//.test(path)&&path.endsWith('.json')){
   assert.deepEqual(JSON.parse(built),JSON.parse(source),path);result.equalAssetJson++;
  }else{assert.ok(source.equals(built),path+' differs from source');result.exactFiles++;}
  result.files.push({path,bytes:built.length,sha256:hash(built)});
