@@ -1,309 +1,471 @@
 {
-  "task": "M1.HR14 bounded torso/hem interface pass",
-  "state": "SUPERSEDED interface Library snapshot; current material/foot-landmark/native and automatedrendertrace receipt refresh pending",
+  "task": "M1.HR14 source-derived material/visible-landmark bounded pass",
+  "state": "stable/frozen for rootLibrary versions and quality receipt; overallM1/user art approval not claimed",
   "branch": "main",
-  "sourceCommit": "925dd77ea754d5c2e5ab690804528dae984c2c48",
-  "verifiedOriginMain": "925dd77ea754d5c2e5ab690804528dae984c2c48",
-  "baseline": "2c03bc6",
-  "exactScope": {
-    "walkingUpperEnvelopeRows": [
-      48,
-      54
-    ],
-    "upperMaterials": "Original coral/cream/slate and existing hands; not exact sourceRGB/anatomy",
-    "walkingLowerProtectedRows": [
-      54,
-      64
-    ],
-    "frontPassingRow53": "Observed alpha/material planes retained exact",
-    "idleUpper": "ActualHero/dummy/body-layer RGBA50..55 equal P48..53 under2px torso translation",
-    "idleContactProtectedRows": [
-      56,
-      64
-    ],
-    "headsAndCanonicalPackStraps": "exact prior nativeRGBA; profile foreground bag depth/occlusion updated underhead",
-    "originalProfileBagOverhang": "W A/C x26 on48/49; E mirroredx5:2cells perpose, source-envelope difference disclosed",
-    "hands": "Only original visible sites; actualHero/dummy/guide cell sets exact, expected visible8connectedclusters checked; no duplicate north blocks"
+  "sourceCommit": "c98a8cbd8d85e160e9080d6690964c3c3deb3ef1",
+  "verifiedOriginMain": "c98a8cbd8d85e160e9080d6690964c3c3deb3ef1",
+  "baseline": "2750f65",
+  "scope": {
+    "Hero": "Allalpha/head/lowerRGBA exact; only existingcream\u2192coral12cellsA/C,20P/idle quietchest; collar/stripe/cuffs retained",
+    "dummy": "Alphaexact; sixdistinctexistingobserved lower-material classes, actualsourceplanes preserved; no new leg/shoe outline",
+    "contactContours": "Source/Hero/dummy lowestcostume spans exact: South4each,North6each,ProfileP10pxsingle ambiguouscostumemass\u2014not anatomicalfootwidth",
+    "footCues": "Frontpale band only; NWEnear-tipcoloredaccents, no forcedpalesole; blackpants/shoe join ambiguous, hiddenbonesNULL",
+    "registrationProof": "Eachsource/Hero/dummy native/enlarged unique+all8 has16,64framebaseline/redcross; separateactual material mask+cue/ambiguitykey",
+    "pack": "CanonicalRGBA/shape/torso-local anchorunchanged; oneextraWcolumnx26/y48\u201349A,C/E x5 attached, no capeisland/no newgeometry",
+    "idleWalk": "All4Hero/dummy/body-layerRGBA idle50\u201355=P48\u201353+2; lowercontacts/hand/guide sites protected"
   },
-  "checks": "32native poses;12source upper-envelope/retained lower alpha/material checks;16canonicalpack/strap/composite+guide/contact cases;4idle/P+2 exactRGBA;10actualeditable validations+sourcePNG equality;28decoded8frame GIFs exactpixel/clock/loop/nearest4x",
-  "independentReview": "Draft scopedPASS for taper/lower/head/pack/all8/handfix. SubsequentNWE dummyidle hem material mismatch corrected; actualHero/dummy/body-layer RGBA now exactP+2 all4. Final parent recheck/appearance acceptance pending.",
-  "timing": {
-    "frontNormalMs": 800,
-    "frontSlowMs": 3200,
-    "ROMdirectionNormalGIFms": 540,
-    "ROMdirectionSlowGIFms": 2160,
-    "ROMengineSourceDerivedApproxMs": 535.77,
-    "additionalPHASEboardNormalMs": 800,
-    "additionalPHASEboardSlowMs": 3200,
-    "phaseBoardNotEnginePlayback": true
-  },
-  "renderedPlaybackCoverage": {
-    "task": "M1.HR14 interface rendered-playback coverage",
-    "method": "Chrome via CUA; discrete screenshots of actual animatedGIF images; not continuous video observation",
-    "url": "http://127.0.0.1:8771/preview.html",
-    "writerChromeTab": "1219040675",
-    "parentChromeTab": "1219040667",
-    "parentServerSession": 16570,
-    "firstSampleUTC": "2026-10-15T06:07:25.882Z",
-    "lastSampleUTC": "2026-10-15T06:08:43.146Z",
-    "sampleSpanSeconds": 77.264,
-    "sampleSpanIsContinuousWatch": false,
-    "completedContinuousCyclesObserved": 0,
-    "continuousPlaybackSecondsVerified": null,
-    "coverage": {
-      "south": {
-        "normalNativeAnd4x": "2026-10-15T06:07:25.882Z",
-        "slowNativeAnd4x": "2026-10-15T06:08:03.313Z"
-      },
+  "checks": "10actualeditable projects/32native poses/28exportGIFs exactsourcePNG/palette/alpha/head/lowerHero/materialplanes/handclusters/guide/pack/idle/clock/loop/nearestscaling; current exportSHA pins actualrender trace",
+  "renderedTrace": {
+    "method": "Isolated actualimg screenshots, no canvas shortcut/userstorage; continuous automatedcapture window +visualtransition inspection, NOT uninterruptedhumanwatch",
+    "completeCycles": {
       "north": {
-        "normalNativeAnd4x": "2026-10-15T06:08:03.313Z",
-        "slowNativeAnd4x": "2026-10-15T06:08:14.430Z"
+        "normal": 13,
+        "slow": 2
       },
-      "west": {
-        "normalNativeAnd4x": "2026-10-15T06:08:29.135Z",
-        "slowNativeAnd4x": "2026-10-15T06:08:32.671Z"
+      "south": {
+        "normal": 12,
+        "slow": 2
       },
       "east": {
-        "normalNativeAnd4x": "2026-10-15T06:08:39.633Z",
-        "slowNativeAnd4x": "2026-10-15T06:08:43.146Z"
+        "normal": 13,
+        "slow": 2
+      },
+      "west": {
+        "normal": 13,
+        "slow": 2
       }
     },
-    "observations": [
-      "FrontP52->53 now narrows throughwaist; pose sheets establish allphases, not samples alone",
-      "No duplicate upperback bare-hand block visible; actualHero/dummy/guide skin masks checked independently",
-      "Canonical pack remains attached; sampled visible profiles retaincompactbag with declared small source-envelope overhang",
-      "Broad/angular lowerread and final motion quality remain visual judgment, UNAPPROVED"
-    ],
-    "limitations": [
-      "Only discrete samples possible in this tool interface; normal/slow complete cycles not watched continuously",
-      "Do not convert decodedGIFtiming or77.264s sampling span into a full motion pass",
-      "Both full tutorial watches remain incomplete; transcripts/sampledframes only; Thundaga17:00 is exactcolorselection, not anatomy"
-    ]
+    "unmatchedOrUnpaintedCapturedPixels": 0,
+    "humanUninterruptedWatchCycles": 0,
+    "timingResolution": "Measured screenshotgap/capture tolerance approx147\u2013161ms; raw phase/cycle estimates recorded, not highprecisionframeclock",
+    "report": "rendered-cycle-trace.json",
+    "actualCapturedGIFRLEpixelTimingVerified": true
   },
+  "independentReview": "Final independent scoped reviewer finds no furtherconcrete constructionfix. Root inspected all4normal/all4slow actualtransition boards; sourcewidths/materialread/chestidentity/packattachment pass. Root records construction-quality scope and handles Library; no broadM1/runtime acceptance by writer.",
   "artifacts": [
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-interface-source-before-current.png",
-      "bytes": 88708,
-      "sha256": "dca232d6827c50640c84def8f030c7cf95beeb51ce7f761163eafce6e073ee74"
+      "bytes": 88785,
+      "sha256": "7ce11b959cb6e27948670e41dc5cab5604f58370703d47552737fbcdf5314edc",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/passing-interface-taper-grid.png",
-      "bytes": 23207,
-      "sha256": "f7e5d7ad8575e58b94ae21dc7d85922f62ac52a03201e727df7c8fed63d9edda"
+      "bytes": 23272,
+      "sha256": "9cfef37adff7f0c8f6e1233889204bfb25970ca1b8985206be98e6f7520bf6ae",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/idle-walk-interface-continuity.png",
-      "bytes": 38047,
-      "sha256": "280abcb03f7702fee9f06d6316867c0f70ef84ce990ca8f5728bcec726be6b3a"
+      "bytes": 38559,
+      "sha256": "13f6f7763a71806718a396d0e01cdfacc2d798d84222bd4b8316460e12d18c19",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-featured-dummy-sheet.png",
-      "bytes": 74640,
-      "sha256": "c3b328ea80f79c603ab9c32a6663247e266f08742624b75bbce9a4c426e1be4b"
+      "bytes": 75668,
+      "sha256": "94ca4d07a71d778c0e31662f96e49d58385700d36822c6adf7f91beea871acb2",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-common-feature-registration.png",
-      "bytes": 57685,
-      "sha256": "8a21246b9b125518b085cf6f37cdeb4a0eb2bf452ab3958010941c2aabc4f160"
+      "bytes": 57834,
+      "sha256": "a993c4625558d9ae3d6027cc9b0ed8a0ac452736cf383aa10eccdc641afefba0",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/torso-registered-pack-all-eight.png",
       "bytes": 30887,
-      "sha256": "b1f1e74daabf9f0a492a1c4dcac3dc71866b72622aa56d4ea9c0359925f52b88"
+      "sha256": "b1f1e74daabf9f0a492a1c4dcac3dc71866b72622aa56d4ea9c0359925f52b88",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-all-eight-source-hero-template.png",
-      "bytes": 31871,
-      "sha256": "32c7beab9c5b4e22cdc3471c5765c8b86db5ea5cfa8f57c1e9f666543631d219"
+      "bytes": 32322,
+      "sha256": "1fdc0c4afd39a08675b92513f8d8f76ce554f2365473ba12ccfaa61ffed26c89",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-aligned-lower-boundary-grid.png",
       "bytes": 19965,
-      "sha256": "7788c37edde208c38ab3b7df2513ccb4773d93df6b26e58937462ca95e3cacd1"
+      "sha256": "7788c37edde208c38ab3b7df2513ccb4773d93df6b26e58937462ca95e3cacd1",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-all-eight-source-hero-template.png",
-      "bytes": 25620,
-      "sha256": "e5a3d80d3f851d33df3177d77d4ef5fc44a3f161ae42f723d1575f021fce7dee"
+      "bytes": 25872,
+      "sha256": "64013ffccfe01d95af90e8936c92b18325a63ec54251011ccee36b47587c86d6",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-aligned-lower-boundary-grid.png",
       "bytes": 20021,
-      "sha256": "3bab2f807282f76daef3e2777bb9ebd7de2c6f192e8162bd2c3fd3ea139fa8ec"
+      "sha256": "3bab2f807282f76daef3e2777bb9ebd7de2c6f192e8162bd2c3fd3ea139fa8ec",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-all-eight-source-hero-template.png",
-      "bytes": 25962,
-      "sha256": "3a9eadf5b9c5ff450c4ebd12f2469ce7a43f5193377aed608aa2a8e880348bab"
+      "bytes": 26205,
+      "sha256": "fef316a200537d33ca9a8430c80713ad778ac5623347632eacdc6999d1bb36f0",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-aligned-lower-boundary-grid.png",
       "bytes": 20425,
-      "sha256": "000efc6d8a9c6383c333947e4ff44115a6886c1aff1e18fd8b41456bb1b1b289"
+      "sha256": "000efc6d8a9c6383c333947e4ff44115a6886c1aff1e18fd8b41456bb1b1b289",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-all-eight-source-hero-template.png",
-      "bytes": 25976,
-      "sha256": "7a8c553c4ff67681cb5011583512fdd5212331e889baba1404d9bdd2b648590b"
+      "bytes": 26209,
+      "sha256": "03f9e67918c70e0416611def7d28e32f34e73bd75d82567e031d6dd1b149a3a1",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-aligned-lower-boundary-grid.png",
       "bytes": 20457,
-      "sha256": "9c490a49c48d9ca81462ac872a63054a2f1241498e218470f8d41e32ff0c68ac"
+      "sha256": "9c490a49c48d9ca81462ac872a63054a2f1241498e218470f8d41e32ff0c68ac",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-native.gif",
       "bytes": 98609,
-      "sha256": "ea6bc59585a36db73614befe4e7ac88e532cb2c27260a9bbbd6f89febda19dd7"
+      "sha256": "1f5201d752874301f1c22b0fe80b42636f1fe72ee5d986ecd3b813f6dc9636f0",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
       "bytes": 1563113,
-      "sha256": "65361e8dc4e088080bdaa88cf3d6eda545c1dcff25aea686b73a31352503200a"
+      "sha256": "f0191c059f17e4a056080430ff3391a52677d19ad4f6384d7e29a12352612bd1",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-south-native.gif",
       "bytes": 19585,
-      "sha256": "efeed3b87b8d1f39cb73d06e39954ed0599946f565b3006f1730dd0e7d212129"
+      "sha256": "306b8df97ad13bca57fd194b7c90d03386ce772334c416f45c1dab2378708b0e",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-south-native.gif",
       "bytes": 19585,
-      "sha256": "80f0f229469af2f7d4b39f865a885a3691aa3d6524c1186ed231ef5b3b452b83"
+      "sha256": "57ef856acf101044c04efa396b3e3d059bb95384c6d1dfb03c2ce69c728ab19b",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-native.gif",
       "bytes": 98609,
-      "sha256": "11539fa0ad5c084d284f91f201d5c58daf0603fb114dc9636f5e882dfce3ce87"
+      "sha256": "9497eab12905a3686f7b9ca0f20b24ad8ddcfa36726ea00d8039b6615984c4c2",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-4x.gif",
       "bytes": 1563113,
-      "sha256": "84341679b1d4a86e82bb30c5004c18454c93d59375340ca7aed3952294b38db3"
+      "sha256": "183b3e895a4a4eb6f7ca04ca1fdcd5201c7243f5d593d2863c3ee5c17f2322d8",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-native.gif",
       "bytes": 98609,
-      "sha256": "6af8cd2a6f9133f26b935d34ef3f51a82076d02d6a963227ad44186cae331252"
+      "sha256": "7efc029ab891533af26b7b6fc54ee74b289470c6b59d63470c94fdacea97a1c4",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-4x.gif",
       "bytes": 1563113,
-      "sha256": "a3cf65e873445497c9abe7f393fddbee2ce4999417022c1bc56a0565c8337d86"
+      "sha256": "46675a99a84e4ecfa2d9a34103137a4d4968be90c9c487324663fc01e81874db",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-north-native.gif",
       "bytes": 19585,
-      "sha256": "a445e4571b9aceced6ae8fc09b3c86a7b1aec41b4c673469edff9d299acc1647"
+      "sha256": "a445e4571b9aceced6ae8fc09b3c86a7b1aec41b4c673469edff9d299acc1647",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-north-native.gif",
       "bytes": 19585,
-      "sha256": "44e22e2085dcd6000ebf4c92e6f6da07cd15b4e93aff2d2d480f71c7c4013729"
+      "sha256": "df7b2b28a9c99bf3a67ec1676119ce082d6241ec4df7d5ded0bcddfba3b6f78b",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-SLOW4x-native.gif",
       "bytes": 98609,
-      "sha256": "4cb8061e5d75b770a0a6b8d66601e4cdb1f0984db37daf2172114ba29573b861"
+      "sha256": "93955729d9e61ec9c8ef18911e70d2c7a0e56170a083742b870160d9a8113ea9",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-SLOW4x-4x.gif",
       "bytes": 1563113,
-      "sha256": "1bddc3b0562b169a561bbdb3f256ad11aa255a06c36153967b3c6132171c7079"
+      "sha256": "5670652067e504f5a1526d42b73dec6e39468ecbc62134386498a0b55bfd9d43",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-native.gif",
       "bytes": 98609,
-      "sha256": "6c2ad67453d698a3427f4551a335d540b252122d5ffb3ff96647628d82ac25ca"
+      "sha256": "e457f73f39f58c7414be65cf3bd2a2e9b12853449ef7a2794e68d25308bab236",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-4x.gif",
       "bytes": 1563113,
-      "sha256": "2c71a574d767a3fd15e6638fe5ff0a50a966aec996c475494a1d3110d5a6eaaf"
+      "sha256": "d0c3ccf35a4062465e456b9ef6c4a38db0a8d174c14c5fcb82bd5c9444034bfa",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-west-native.gif",
       "bytes": 19585,
-      "sha256": "f9e6ee5f7a538f5809c5abea09ab8f20ef9bf40600575f38fcaee852212baec8"
+      "sha256": "f9e6ee5f7a538f5809c5abea09ab8f20ef9bf40600575f38fcaee852212baec8",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-west-native.gif",
       "bytes": 19585,
-      "sha256": "d909ca9886b6149b1ccf80ba05881de0a623f78d53ba63bf3ec0d4e18c1d2c5f"
+      "sha256": "f5fba9fc305b4933e464d345e8219db4af1edeb813077f205ec320dd79686fe5",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-SLOW4x-native.gif",
       "bytes": 98609,
-      "sha256": "9f6412ec22db3034feb76e2c64890652fbe1d78f059330727c0a14d082ad1099"
+      "sha256": "448bf2b221b86df9583a636af69553377f1549369612da0daa5d0e9c3e7a2688",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-SLOW4x-4x.gif",
       "bytes": 1563113,
-      "sha256": "660cd3518ab66c72f9444483b27b47711933c88958887b543f87d2449c0b0846"
+      "sha256": "a126a5a81b2e616d95ec37c62829af0b103940d3f63d818232e3b2647d368877",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-native.gif",
       "bytes": 98609,
-      "sha256": "dd67c4b77273d3784b7d6230e3eae5b596cb2b99d5ec813927dd6feae4887cb3"
+      "sha256": "8183f6f9eb7bf3d434dbc520dfb418ce514d934e9620695ef1ebc2805d3b250a",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-4x.gif",
       "bytes": 1563113,
-      "sha256": "c2a01777220c79d260fdb5f4c283fd1c9fb315fcf0d2226b8056a0742180be57"
+      "sha256": "96f732908f00427308de927108ee1b2a0abbe142df7ec1d40b17078f89f5c082",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/hero-east-native.gif",
       "bytes": 19585,
-      "sha256": "79239fd59d8362e9fe46ea6d43b3a6f11ba3f87f35b62a35b7741c4ffbdbcd25"
+      "sha256": "79239fd59d8362e9fe46ea6d43b3a6f11ba3f87f35b62a35b7741c4ffbdbcd25",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/dummy-east-native.gif",
       "bytes": 19585,
-      "sha256": "6f4e561251bb3b76922334306604a056ede5be6c25c25c386db30ebeb3f377fe"
+      "sha256": "db69e3e2285aee48f09b17f881de9e0fe5537d74700e5c7ae3a181ff28500739",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-SLOW4x-native.gif",
       "bytes": 98609,
-      "sha256": "6c1760caf650d356367d8d49ab9f6b3760d6f64469d578d405d380031fc52317"
+      "sha256": "af0ec5203caaca8bbe4426221c50cb563ecca022596b0aca6d72b27a2ecda153",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-SLOW4x-4x.gif",
       "bytes": 1563113,
-      "sha256": "7eb0a0ec278830ea0e251e718d93397ff9dd5b1ea45e562dfa72d781a5724c1b"
+      "sha256": "1c4e1e89659b55d6218e09596af6eb20c7598f06e91be768fc0eb00ceb4339dd",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-native.gif",
       "bytes": 391521,
-      "sha256": "1ef0e83a97b40684d6113d41ee20a2331389cee7ebbfeba0fbcc8506954cd250"
+      "sha256": "448e1f31220af6697973ef04c70b74b00939e8246f3cab6c6704d9e55471bc08",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-4x.gif",
       "bytes": 6249513,
-      "sha256": "9633e31d28a2fa30d3f5fffe76d202c0ad8fad1642122de3223954736af1de07"
+      "sha256": "c3e9a6d44ad3f359125ac27b3e92d1ac4e0ebf9bce228384cb0e7e99f3469da2",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-native.gif",
       "bytes": 391521,
-      "sha256": "234d4629b916df07bf6b7f0175d5aaa9d7f629efc6807fac929176240aab25fb"
+      "sha256": "e072ae7f7db484d278ccb95032ec5764c56074bf1cfba62264ba1b5fabf37a55",
+      "LibraryEligibleNativeArt": true
     },
     {
       "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
       "bytes": 6249513,
-      "sha256": "805a42c453dba8d096d3d3304a1649b2a1a9ae5a949567074faa8a9e947f82c9"
+      "sha256": "c27bf068748e59a64d1b270ac54b47520507888093ce7734102efe3a4d1c41d2",
+      "LibraryEligibleNativeArt": true
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-material-source-hero-dummy.png",
+      "bytes": 136081,
+      "sha256": "284349fb3fb2e801b3ebd39cb6631823fedca76b6bed2f40655bc793f2f93306",
+      "LibraryEligibleNativeArt": true
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/chest-source-before-quiet.png",
+      "bytes": 15629,
+      "sha256": "e795ebcf16644fbce0f5097731c4056bf0d73f13f2c93732244e1aea46e9f25c",
+      "LibraryEligibleNativeArt": true
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-all-eight-material-source-hero-dummy.png",
+      "bytes": 41670,
+      "sha256": "2f941d324dd964805117c1f80dbeabb8d936d1790c5d5544ce4eef8e724ae93b",
+      "LibraryEligibleNativeArt": true
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-all-eight-material-source-hero-dummy.png",
+      "bytes": 35527,
+      "sha256": "d1d1192475529eea1f1c247ba2cddc4630d4af0840213521f201efef482c43a0",
+      "LibraryEligibleNativeArt": true
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-all-eight-material-source-hero-dummy.png",
+      "bytes": 35863,
+      "sha256": "e2b9c6975073885a085a2194ab8fcfe617b6f47ef2225a9d809319f6bba567bf",
+      "LibraryEligibleNativeArt": true
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-all-eight-material-source-hero-dummy.png",
+      "bytes": 35601,
+      "sha256": "afb92da479233547bc6b01d58730643015059a57cab6e8cee26e35ffc8b1743e",
+      "LibraryEligibleNativeArt": true
     }
   ],
-  "remainingIssues": [
-    "Broad/angular foot/lower mass and overall aesthetic remain parent/human judgment",
-    "Profile original pack2cell overhang remains intentionally disclosed",
-    "0complete continuous cycles observed; screenshotsamples only, continuous watch unverified",
-    "Both full tutorial watches remain incomplete; transcripts/sampledframes only"
+  "qaExternalEvidence": [
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-south.gif",
+      "bytes": 241857,
+      "sha256": "7aa0cbd06cbe6027adf6db818bb84e2cb23042f103de5b5365e0e052f8141435",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-north.gif",
+      "bytes": 243332,
+      "sha256": "11a307de74e730c70f310f3e981401cae10bd2e324e0b9ead0bc3fe94ff9c5aa",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-west.gif",
+      "bytes": 244067,
+      "sha256": "caf080dd702b7f5424ff4226b44a682649447d5268350c3080430ec2a341887e",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-east.gif",
+      "bytes": 243758,
+      "sha256": "ee9d3f8a99cd5a4db50c02d9b6362ad5e495da9c19a8031be9a81a95efc252bb",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-south-normal.png",
+      "bytes": 29628,
+      "sha256": "54a712a3faa54450083b486a92f12b5a4eb4aebfef0d77721d55b62adf6146f1",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-south-normal.png",
+      "bytes": 15803,
+      "sha256": "dcfba8ec77a39809994cb9f35bfa97686144db5fea035f1d26efdf173e9cf1a6",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-south-slow.png",
+      "bytes": 29811,
+      "sha256": "7bc9437b513d9a847785e70a7e7d0420be52701c0efe6e6c554621c48bc513b9",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-south-slow.png",
+      "bytes": 16140,
+      "sha256": "bf70643aa1a8889596d84643f636dfb6f311e7f8ba15c46de407162f5985f78e",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-north-normal.png",
+      "bytes": 26285,
+      "sha256": "6857961e489665a682f6b4e40a7a70ff4c58e93859ea4040745bb7bd0e310815",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-north-normal.png",
+      "bytes": 14114,
+      "sha256": "d7500f1a6469ab53597fff4b36563cf3dfe3c9f00573af0ab226ed424f1ab4f7",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-north-slow.png",
+      "bytes": 26338,
+      "sha256": "3980bd8461fc7f3134366921ce8ec1dee237ef50a9bd58d2502b06bc383fe678",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-north-slow.png",
+      "bytes": 14251,
+      "sha256": "b9c0818e6f1491a13f273765e7c6c06eeb6e6220d807ec3cb30c3f1de71f0365",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-west-normal.png",
+      "bytes": 26130,
+      "sha256": "499abf9d23d4ab71e131901dcd0f5b83c5ff3b64051920ea777eb7387cce6dfa",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-west-normal.png",
+      "bytes": 14132,
+      "sha256": "99cc966ba93c718f6c11bb5da14ca5f76b3344de69565545be70a053f1e0915f",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-west-slow.png",
+      "bytes": 26079,
+      "sha256": "f7edbed8c276d802d0f28567838a62d4bc676ac6124a19a9671f8911edf8c9e8",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-west-slow.png",
+      "bytes": 14071,
+      "sha256": "7a0d58588f686fd1d6cea0cf184d232aa04502129c855dbf5fe9e3b682b211a9",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-east-normal.png",
+      "bytes": 25972,
+      "sha256": "681f5fece7027c399cc6dcd03a678710d063c4568e197154f169640209c82bae",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-east-normal.png",
+      "bytes": 14051,
+      "sha256": "b2ac45897b632023215c2ef0bdc7eaffb07e31915e90287c86a93a6412169832",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-phase-contact-east-slow.png",
+      "bytes": 25855,
+      "sha256": "da22a4d10752687dfc40ff4cb2676b8ea25d4a809d2efb3bbaa1f91aa139c078",
+      "LibraryEligibleNativeArt": false
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/rendered-transition-pairs-east-slow.png",
+      "bytes": 14179,
+      "sha256": "467acc881a5e69813b3279454966511202b77121a0a10f9c34b5ad007d156170",
+      "LibraryEligibleNativeArt": false
+    }
   ],
-  "library": "Root/Eutychus exports and checks actualdownloads; no writer export",
-  "deployment": "None; acceptedgame/runtime/save/editor unchanged",
+  "qaPolicy": "Browser-derived screenshots/traceGIFs remainexternal QA, NOT Libraryuploads. Native-art contact/mask proofs eligible; root alone versions existingIDs withguards/newIDs fornewproofs.",
+  "remainingLimits": [
+    "N/W/E blackcostume/shoe internal boundary remains ambiguous; no invented anatomy",
+    "Source envelope has original attachedone-column/two-rowpack difference, notdetached/cape",
+    "Human uninterruptedcycle/twofulltutorial watches not claimed; actualautomatedcycles+visualtransitions documented",
+    "OverallHero/dummyM1 and runtime/user acceptance remain separate gates"
+  ],
+  "observedConcreteDefectsRemainingWithinBoundedScope": [],
+  "deployment": "None; game/runtime/save/editor/roster unchanged",
   "preservedChanges": [
-    "Originalfourparked shared-document edits and untrackedHR11 source/review retained",
-    "2c03bc6 sharedstudy sections byte-exact in stagedHR14 doc updates",
-    "Root-owned docs/character-study/OVERNIGHT_WORKLOG.md remainsdirty/excluded"
+    "Originalfourparked shared-doc edits and untrackedHR11source/review preserved",
+    "Parentstudy/Library sections retained; rootLibraryreceipt/worklog excluded"
   ],
-  "nextAction": "Root final review and Library export/download verification, then human visual response; sole writer holds further art."
+  "nextAction": "Root verifies frozen hashes, versions19changedexistingLibraryfiles/reusesunchangedpackproof/adds6newnative-artproofs, then records qualityscope before any conditional nextcast; writer holds furtherart."
 }
