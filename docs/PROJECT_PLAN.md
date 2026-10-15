@@ -1,3 +1,7 @@
+# Creator — authorized next phase after bald foundation review
+
+**Planned; no creator code yet.** Direct user authorization sequences the corrected bald dummy before the character creator, under Eutychus. Existing current work is PS1/NB3 review. The bounded next creator review should demonstrate registered hair, ears, eyes, skin, shoe, optional nose/mouth changes across existing directions/walks; default no mouth/nose and same starter coral/cream shirt/blue shorts. Body types and broad roster work remain later under the current Eutychus sequence. Reuse actual body/costume/feature ownership, no flat full-Hero overlay and no anatomy-study expansion. Preserve selected default front pixels, player canon and real saves. A review tool/export is separate from gameplay installation; later acceptance/publication follows project gates. Require real native render/feature isolation/default preservation, existing phase/anchor checks and phone/desktop browser verification before delivery.
+
 # Active M1.NB1 — South-first independent neutral mannequin
 
 **Initial checkpoint awaiting independent critique; foundation remains open.** HR14 material dummy is retained as historical material evidence, not accepted anatomy. [New independent South body/skin/costume layers, removal views and exact recomposition](reviews/M1-NB1/README.md) preserve selected Hero/Girl inputs. Review compact rounded body, supported visible skin, limb/foot attachment and true garment ownership before extending directions/walks. No creator, broad roster, runtime or deployment work in this checkpoint.
