@@ -1,3 +1,7 @@
+# M1.HR12 — Backpack, mirrored ears, shoe spur and neutral construction template
+
+**Implemented/checked; awaiting independent/user visual review.** Follow direct user-authorized Eutychus handoff from latest delivered HR10-BODY; preserve liked proportions/head/hair, park unshared HR11. Correct bounded final ear layering, compact attached pack/straps and shoe spur. Deliver source/clothed/neutral-mannequin native/4x/all8/source-speed/labelled-slow comparisons, labelled anatomy and registered outfit/attachment scaffold. [Review](reviews/M1-HR12/README.md). Hidden joints remain proposed; no types/UI/directions/gameplay/deployment/TN4.
+
 # M1.HR10-BODY — Single focused body-cluster trial
 
 **Implemented and checked; local review complete, awaiting parent judgment.** Preserve exact HR9 head/ears and translations; revise cuff/ankle/shoe silhouettes and hand/sleeve clusters only. Confirmed source, native/all8, source-speed800ms and explicitly labelled slow3200ms comparisons delivered. Passing feet remain heavy/boot-like; no self-approval or further automatic revision. [Review](reviews/M1-HR10-BODY/README.md). HEAD detour below is preserved unapproved history caused by stale HR5 chronology, not current authorized scope. No directions/variants/UI/gameplay/deployment/TN4 expansion.

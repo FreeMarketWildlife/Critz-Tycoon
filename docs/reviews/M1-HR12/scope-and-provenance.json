@@ -1,0 +1,50 @@
+{
+  "task": "M1.HR12",
+  "authorization": "Direct human user in this chat: authorize Eutychus to send you the backpack, mirrored-ear, shoe-pixel, and anatomy-template corrections. Please proceed.",
+  "handoff": "Eutychus recovery instructions read from accessible thread01a13b3b-a35c-77fd-8576-96c421a0b0db; base explicitly selected as latest delivered HR10-BODY, proceed without indefinite viewed-artifact-ID block",
+  "baseCommit": "d158c3ecceaddaf1a0919f01ef75eac47f367cc5",
+  "baseLibraryItems": [
+    {
+      "id": "libfile_6ecb3efe23b081918e1cd9376daa5ad6",
+      "sha256": "5de72b60071dbc6064756e94d2551a8fd0f0c506d474a7f65bfa5153c3abd52d"
+    },
+    {
+      "id": "libfile_ac8c78a8094481918394a3ff5b5d77d1",
+      "sha256": "f1c2857fccc68cb3af4e23723a52cf85ead70362a68ab83c9d0e3fbc8a4c591b"
+    },
+    {
+      "id": "libfile_43747ef2df2081918a6c32bd64e71a33",
+      "sha256": "9fd1d4ddd48d1135477b379dbc5b04e1a47fface2db6228417ea5de829a49f21"
+    },
+    {
+      "id": "libfile_e9ff272449f88191ac1eaeb50ed800a9",
+      "sha256": "a6b50247e3d1b8abed6babe96e69a018f442d430b93093f4e98435179d60f6a3"
+    },
+    {
+      "id": "libfile_6434e31f2538819187ff1e8931644888",
+      "sha256": "d9637cee41157d64966b8d3b1f0503caac782991eae9433f28134a20ed2821fe"
+    }
+  ],
+  "exactViewedArtifactByPhil": "UNVERIFIED; explicit best-supported base choice, not inferred HR11 approval",
+  "HR11": "Unshared separate draft preserved/unadopted/unstaged; preexisting shared-doc diff saved externally",
+  "headDetour": "Preserved historical unapproved HR10-HEAD; never adopted",
+  "unrelatedRecoveryCommitPreserved": "35df869",
+  "scope": [
+    "compact attached pack and readable straps",
+    "visible mirrored ear anatomy/layering",
+    "identified shoe spur only",
+    "contrasting background",
+    "source/Hero/neutral construction mannequin triples and labels/attachment overlay"
+  ],
+  "jointStatus": "PROPOSED hidden anatomy sites, not reference-measured",
+  "holds": [
+    "new body types",
+    "other directions",
+    "customization UI",
+    "runtime replacement",
+    "Sites deployment",
+    "TN4"
+  ],
+  "appearanceApproved": false,
+  "ownerLibraryUpload": false
+}

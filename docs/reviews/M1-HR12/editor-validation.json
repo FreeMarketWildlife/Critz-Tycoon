@@ -1,0 +1,84 @@
+{
+  "tool": "Actual Sprite Editor validateProject/gifBytes",
+  "previews": [
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-SLOW4x-native.gif",
+      "width": 112,
+      "height": 96,
+      "frames": 8,
+      "delayMs": 400,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-SLOW4x-4x.gif",
+      "width": 448,
+      "height": 384,
+      "frames": 8,
+      "delayMs": 400,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/hero-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/hero-4x.gif",
+      "width": 128,
+      "height": 256,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/mannequin-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    }
+  ],
+  "editable": [
+    {
+      "name": "idle",
+      "width": 32,
+      "height": 64,
+      "frames": 1,
+      "validated": true
+    },
+    {
+      "name": "walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    },
+    {
+      "name": "neutral-mannequin",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    }
+  ]
+}

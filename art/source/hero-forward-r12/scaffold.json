@@ -1,0 +1,397 @@
+{
+  "status": "PROPOSED construction/attachment landmarks, not measured source anatomy",
+  "base": "HR10-BODY d158c3e",
+  "canvas": [
+    32,
+    64
+  ],
+  "groundAnchor": [
+    16,
+    64
+  ],
+  "partColors": {
+    "outline": "#253340",
+    "head": "#b8dce0",
+    "ears": "#ed8ccd",
+    "torso": "#4ac2b0",
+    "pelvis": "#9b83d4",
+    "arms": "#f1a566",
+    "legs": "#65a6de",
+    "feet": "#f1d171",
+    "joint": "#f5f1d9"
+  },
+  "headDy": {
+    "A": 0,
+    "P": -2,
+    "C": 0,
+    "idle": 0
+  },
+  "bodyDy": {
+    "A": -2,
+    "P": -2,
+    "C": -2,
+    "idle": 0
+  },
+  "poses": {
+    "A": {
+      "shoulderL": [
+        10,
+        47
+      ],
+      "shoulderR": [
+        23,
+        47
+      ],
+      "elbowL": [
+        7,
+        49
+      ],
+      "elbowR": [
+        24,
+        48
+      ],
+      "wristL": [
+        7,
+        51
+      ],
+      "wristR": [
+        24,
+        49
+      ],
+      "hipL": [
+        14,
+        53
+      ],
+      "hipR": [
+        19,
+        53
+      ],
+      "kneeL": [
+        12,
+        54
+      ],
+      "kneeR": [
+        18,
+        56
+      ],
+      "ankleL": [
+        12,
+        56
+      ],
+      "ankleR": [
+        18,
+        59
+      ],
+      "footL": [
+        12,
+        56
+      ],
+      "footR": [
+        18,
+        60
+      ],
+      "strapL": [
+        10,
+        47
+      ],
+      "strapR": [
+        24,
+        46
+      ],
+      "packAttach": [
+        27,
+        45
+      ],
+      "earL": [
+        6,
+        39
+      ],
+      "earR": [
+        25,
+        39
+      ],
+      "neck": [
+        16,
+        45
+      ],
+      "headCenter": [
+        16,
+        35
+      ],
+      "torsoCenter": [
+        16,
+        48
+      ]
+    },
+    "P": {
+      "shoulderL": [
+        9,
+        45
+      ],
+      "shoulderR": [
+        22,
+        45
+      ],
+      "elbowL": [
+        7,
+        48
+      ],
+      "elbowR": [
+        24,
+        48
+      ],
+      "wristL": [
+        7,
+        49
+      ],
+      "wristR": [
+        24,
+        49
+      ],
+      "hipL": [
+        13,
+        53
+      ],
+      "hipR": [
+        18,
+        53
+      ],
+      "kneeL": [
+        12,
+        55
+      ],
+      "kneeR": [
+        19,
+        55
+      ],
+      "ankleL": [
+        11,
+        57
+      ],
+      "ankleR": [
+        20,
+        57
+      ],
+      "footL": [
+        11,
+        58
+      ],
+      "footR": [
+        20,
+        58
+      ],
+      "strapL": [
+        10,
+        44
+      ],
+      "strapR": [
+        21,
+        44
+      ],
+      "packAttach": [
+        23,
+        45
+      ],
+      "earL": [
+        6,
+        37
+      ],
+      "earR": [
+        25,
+        37
+      ],
+      "neck": [
+        16,
+        43
+      ],
+      "headCenter": [
+        16,
+        33
+      ],
+      "torsoCenter": [
+        16,
+        48
+      ]
+    },
+    "C": {
+      "shoulderL": [
+        8,
+        47
+      ],
+      "shoulderR": [
+        21,
+        47
+      ],
+      "elbowL": [
+        7,
+        48
+      ],
+      "elbowR": [
+        24,
+        49
+      ],
+      "wristL": [
+        7,
+        49
+      ],
+      "wristR": [
+        24,
+        51
+      ],
+      "hipL": [
+        12,
+        53
+      ],
+      "hipR": [
+        17,
+        53
+      ],
+      "kneeL": [
+        13,
+        56
+      ],
+      "kneeR": [
+        19,
+        54
+      ],
+      "ankleL": [
+        13,
+        59
+      ],
+      "ankleR": [
+        19,
+        56
+      ],
+      "footL": [
+        13,
+        60
+      ],
+      "footR": [
+        19,
+        56
+      ],
+      "strapL": [
+        7,
+        46
+      ],
+      "strapR": [
+        21,
+        47
+      ],
+      "packAttach": [
+        4,
+        45
+      ],
+      "earL": [
+        6,
+        39
+      ],
+      "earR": [
+        25,
+        39
+      ],
+      "neck": [
+        16,
+        45
+      ],
+      "headCenter": [
+        16,
+        35
+      ],
+      "torsoCenter": [
+        16,
+        48
+      ]
+    },
+    "idle": {
+      "shoulderL": [
+        9,
+        47
+      ],
+      "shoulderR": [
+        22,
+        47
+      ],
+      "elbowL": [
+        7,
+        50
+      ],
+      "elbowR": [
+        24,
+        50
+      ],
+      "wristL": [
+        7,
+        51
+      ],
+      "wristR": [
+        24,
+        51
+      ],
+      "hipL": [
+        13,
+        55
+      ],
+      "hipR": [
+        18,
+        55
+      ],
+      "kneeL": [
+        12,
+        57
+      ],
+      "kneeR": [
+        19,
+        57
+      ],
+      "ankleL": [
+        11,
+        59
+      ],
+      "ankleR": [
+        20,
+        59
+      ],
+      "footL": [
+        11,
+        60
+      ],
+      "footR": [
+        20,
+        60
+      ],
+      "strapL": [
+        10,
+        46
+      ],
+      "strapR": [
+        21,
+        46
+      ],
+      "packAttach": [
+        23,
+        47
+      ],
+      "earL": [
+        6,
+        39
+      ],
+      "earR": [
+        25,
+        39
+      ],
+      "neck": [
+        16,
+        45
+      ],
+      "headCenter": [
+        16,
+        35
+      ],
+      "torsoCenter": [
+        16,
+        50
+      ]
+    }
+  }
+}

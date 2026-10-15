@@ -1,5 +1,13 @@
 # Critz: Tycoon — art bible
 
+## Bounded Hero corrections and neutral scaffold — M1.HR12
+
+Phil directly authorizes Eutychus's backpack/mirrored-ear/shoe/anatomy-template handoff and continuation. Eutychus selects latest delivered HR10-BODY source d158c3e as the best-supported base; exact viewed artifact is unverified, and unshared HR11 remains parked/unadopted. Preserve liked proportions, hair/head design, starter outfit and no-mouth default. Only bounded ear layering may alter head colors; no restyle. [HR12 review, actual pixels and scaffold](reviews/M1-HR12/README.md).
+
+Make the visible front ear/separator patches actually mirrored after final rendering, not merely paired nominal masks. Current trial mirrors left visible3×5 ear/seam to right under the existing2px head translations; all head alpha/hair/eyes/face-center remain exact. Compact side pack stays inside its prior region, with visible shoulder/front straps connecting to it. Remove only the identified one-neighbor shoe spur A(16,60)/C(15,60); other lower-body pixels stay HR10 exact.
+
+Deliver three simultaneous fixed-frame columns: confirmed original source, clothed Hero and neutral abstract featureless segmented drawing mannequin. Use contrasting backdrops, native/exact4x, all8frames/source800ms and distinctly labelled slow3200ms. Label arms/legs/torso/feet/ears and proposed joint/attachment sites; include registered outfit overlay and editable scaffold. Hidden skull/joint positions remain PROPOSED, not measured source anatomy or frozen body standards. No literal unclothed-child details, variants or customization UI. Technical checks cannot approve visual read; return stable pack/ears/template for independent review before wider work. No live replacement/deployment/TN4.
+
 ## Body-cluster local trial — M1.HR10-BODY
 
 Resume the single interrupted HR9 cuff/shoe/hand refinement, preserving HR9 head pixels and translations exactly. The HEAD detour below was out of scope: historical HR5 wording resurfaced after compaction, with no newer authenticated human head request. Its committed review remains preserved, unapproved and unadopted. [Reconciled chronology](reviews/M1-HR10-BODY/scope-reconciliation.json) / [body-only trial and critique](reviews/M1-HR10-BODY/README.md).

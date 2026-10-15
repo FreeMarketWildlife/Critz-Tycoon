@@ -1,0 +1,174 @@
+{
+  "baseCommit": "d158c3ecceaddaf1a0919f01ef75eac47f367cc5",
+  "baseChoice": "Eutychus explicitly selected latest delivered HR10-BODY; HR11 draft unadopted",
+  "scope": "bounded ear layering, attached compact pack/straps, shoe spur; neutral construction mannequin",
+  "frames": [
+    {
+      "project": "walk",
+      "frame": 0,
+      "pose": "A",
+      "changedPixels": 25,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "walk",
+      "frame": 1,
+      "pose": "A",
+      "changedPixels": 25,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "walk",
+      "frame": 2,
+      "pose": "P",
+      "changedPixels": 15,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "walk",
+      "frame": 3,
+      "pose": "P",
+      "changedPixels": 15,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "walk",
+      "frame": 4,
+      "pose": "C",
+      "changedPixels": 26,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "walk",
+      "frame": 5,
+      "pose": "C",
+      "changedPixels": 26,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "walk",
+      "frame": 6,
+      "pose": "P",
+      "changedPixels": 15,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "walk",
+      "frame": 7,
+      "pose": "P",
+      "changedPixels": 15,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    },
+    {
+      "project": "idle",
+      "frame": 0,
+      "pose": "idle",
+      "changedPixels": 15,
+      "earFinalRGBAMirrored": true,
+      "protectedHeadExceptEarExact": true,
+      "lowerBodyExceptShoeSpurExact": true,
+      "connected": true,
+      "attachmentSlotsInsideSavedHero": true
+    }
+  ],
+  "GIFs": {
+    "source-hero-mannequin-native.gif": {
+      "frames": 8,
+      "delayMs": 100,
+      "cycleMs": 800,
+      "exactSavedPixels": true,
+      "loop": 0,
+      "sha256": "72323d2bfb4463f3876ee9ef506b742e11c62fd355ef6dfe9a7b043d24eda37c"
+    },
+    "source-hero-mannequin-4x.gif": {
+      "frames": 8,
+      "delayMs": 100,
+      "cycleMs": 800,
+      "exactSavedPixels": true,
+      "loop": 0,
+      "sha256": "3393c69e20c6f4f569e049d8e5ac9eed47f42364296b865a2ff2475bb826a96d"
+    },
+    "source-hero-mannequin-SLOW4x-native.gif": {
+      "frames": 8,
+      "delayMs": 400,
+      "cycleMs": 3200,
+      "exactSavedPixels": true,
+      "loop": 0,
+      "sha256": "3bd3902b14bc580527a1a774e6d5f525c0679ff6de3f26396b0dd3085a1de095"
+    },
+    "source-hero-mannequin-SLOW4x-4x.gif": {
+      "frames": 8,
+      "delayMs": 400,
+      "cycleMs": 3200,
+      "exactSavedPixels": true,
+      "loop": 0,
+      "sha256": "0c0a04e3af3e33cc1dbe680a5cc96e64a5fd963814881562142763878f4d0f60"
+    },
+    "hero-native.gif": {
+      "frames": 8,
+      "delayMs": 100,
+      "cycleMs": 800,
+      "exactSavedPixels": true,
+      "loop": 0,
+      "sha256": "820b854529a620ccbb08f3353fcf701367fcec696813fd666cdfc45f6d027c89"
+    },
+    "hero-4x.gif": {
+      "frames": 8,
+      "delayMs": 100,
+      "cycleMs": 800,
+      "exactSavedPixels": true,
+      "loop": 0,
+      "sha256": "bad92b1470eab930c6f3366688a15e7f8547d06f461700c74102bc9b891a6140"
+    },
+    "mannequin-native.gif": {
+      "frames": 8,
+      "delayMs": 100,
+      "cycleMs": 800,
+      "exactSavedPixels": true,
+      "loop": 0,
+      "sha256": "03d852ff132aa512cbb21929d3f874157acec2ef08a6c2135bc8bae4d0796f6b"
+    }
+  },
+  "artAccepted": false,
+  "allPNGsEqualEditableSource": true,
+  "allPosesConnected": true,
+  "earAnatomyMasksInheritedMirroredHR10": true,
+  "mannequinHeadStableAcrossOpposedPoses": true,
+  "hiddenJointsStatus": "PROPOSED, not source-measured anatomy",
+  "attachmentSlotsInsideIntendedClothingPartMasks": true,
+  "GIFsExactNativeAndNearest4x": true,
+  "thirdColumnIsNeutralFeaturelessConstruction": true,
+  "reviewOnly": true
+}

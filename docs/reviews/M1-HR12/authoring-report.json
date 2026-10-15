@@ -1,0 +1,47 @@
+{
+  "scope": "forward only; original proposed idle plus walk, unapproved",
+  "order": [
+    "A",
+    "A",
+    "P",
+    "P",
+    "C",
+    "C",
+    "P",
+    "P"
+  ],
+  "frameDurationMs": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "cycleMs": 800,
+  "editorTicksPerFrame": 6,
+  "editorActualMsPerFrame": 100.45623779296875,
+  "referenceRegistrationTopPadding": 14,
+  "headWholeTranslationFromHR6": {
+    "P": -2,
+    "A": 0,
+    "C": 0,
+    "idle": 0
+  },
+  "idleStatus": "Original balanced passing-derived body moved to rest height; no idle pose observed in reference",
+  "headReshaped": false,
+  "directionsAdded": false,
+  "connectedOriginalPoses": true,
+  "baseCommit": "d158c3ecceaddaf1a0919f01ef75eac47f367cc5",
+  "baseChoice": "Eutychus explicitly selected latest delivered HR10-BODY; HR11 preserved/unadopted",
+  "boundedCorrections": [
+    "visible right ear mirrors left ear and dark separator",
+    "compact side pack with connected shoulder straps",
+    "single-neighbor shoe spur removed"
+  ],
+  "headRestyled": false,
+  "bodyProportionsPreserved": true,
+  "approval": "awaiting independent/user visual review"
+}
