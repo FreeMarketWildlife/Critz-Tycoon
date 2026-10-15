@@ -1,6 +1,6 @@
-# DS1 private Library comparison
+# SUPERSEDED — rejected internal DS1 comparison
 
-Native **16×32** and deliberately refined **32×64** frames: twice each axis, four times the pixel count. Same original bald Black child and starter clothes, with empty top margin preserved. This is an isolated resolution study for user visual response, not an accepted Hero/creator foundation.
+Native **16×32** and deliberately refined **32×64** frames: twice each axis, four times the pixel count. Same original bald Black child and starter clothes, with empty top margin preserved. Parent actual visual review rejected this rendering for user delivery: perched head/pale neck, round skull, inadequate front/back overlap and forward idle hand. Existing Library copies are frozen internal history. Do not re-share as a current correction; no new upload or identity mutation.
 
 - [critz-DS1-dummy-1x-south-idle.png](https://chatgpt.com/api/library/files/libfile_9aa79c07ffe4819195fe70c87c433a42/download)
 - [critz-DS1-dummy-2x-south-idle.png](https://chatgpt.com/api/library/files/libfile_caecb6074170819189c6004be473ae90/download)

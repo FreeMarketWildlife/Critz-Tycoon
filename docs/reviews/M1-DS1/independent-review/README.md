@@ -1,3 +1,7 @@
+# Superseded visual readiness — parent rejected current DS1
+
+The prior presentation-readiness judgment below is withdrawn. Actual parent review found head/shoulder nesting, round profile/camera overlap and idle-hand placement still insufficient. Opening every pose and saved-file checks did not establish adequate visual quality. Existing source/proofs remain frozen history; do not deliver these as a current correction. A separate native-first revision is required before further internal review. Creator remains fully stopped.
+
 # DS1 independent visual and saved-file review
 
 Reviewed source: `30225d182e2fbfea3569c3300f78cbd2fece7d97`. Root actually inspected primary Brendan and Man1 strips and metadata at revision `731ad5bfd6e6f265508d0efcca0ba42f9dcf5881`, then current four-direction native/equal-display plate, all 32 original poses, West idle/A/P/C plate and refreshed source-adjacent comparison. The exact Spriters Resource NPC image was inaccessible in this workspace; no inspection of its unseen pixels is claimed. Parent explicitly authorized these actual primary references as the study basis.

@@ -1,5 +1,11 @@
 # Project status
 
+## DS2 internal construction revision — DS1 delivery readiness withdrawn
+
+Parent inspected the actual DS1 plates and rejected them for user delivery: perched head/narrow pale neck, near-circular refined skull, insufficient front/back camera overlap, and forward-jutting idle hand. Root's previous readiness judgment was too permissive and is withdrawn. The 22 existing private Library files are frozen superseded INTERNAL candidates; no more sharing/upload or identity changes. [Corrected historical index](reviews/M1-DS1/library-review/README.md) and independent review record state the rejection. Links had already been relayed before this rejection arrived; they are not accepted art.
+
+Active scope is restrained original native16×32 side idle first, with baseline-aligned actual primary-source jaw/shoulder crop and front/back check. Only after this internal construction review can corresponding deliberate32×64 refinement or walking-pose continuation proceed. Draw shoulders beneath an overlapping head, distinguish crown/face/rear-head planes without hair, keep relaxed idle hand beside torso and short full shoes. No nude anatomy, nose/mouth additions, creator or public delivery. Writer's separate DS2 native-only proof preserves DS1/history and every existing Hero/creator file. Exact next action: internally inspect revised native side idle against source plus front/back; no automated test or mere file opening substitutes for visual judgment. Explicit USER Hero/dummy acceptance is still required before creator restart. Main; this root correction is documentation only, no deployment. Parked unrelated/unfinished SV1 edits preserved.
+
 ## DS1 reviewed resolution study — private delivery complete
 
 The original native **16×32** and deliberately refined **32×64** bald dressed-template study is ready for user visual response. Source `30225d182e2fbfea3569c3300f78cbd2fece7d97` independently matches origin/main. Both owners actually studied primary Brendan/Man1 PNGs and metadata at pinned revision `731ad5bfd6e6f265508d0efcca0ba42f9dcf5881`; exact TSR sheet pixels were inaccessible here and are not claimed inspected. The square-plan assumption is superseded. Frame allocation, painted bounds and map tile size remain distinct; upper margins are preserved.
