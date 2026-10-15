@@ -22,11 +22,21 @@ Grass patches are walkable decorations planted only on grass tiles, with separat
 
 ## Validation
 
--13 focused tests cover unchanged movement traces with/without a held net,16-tick steps, tap/hold timing, no auto-repeat/cancel swing, adjacent catches, committed-step swing queuing, reservations, actual fear/escape outcomes, reset and original preservation.
--47 saved native checks verify hard alpha, dimensions, exact PNG hashes, untouched original beetle and exact prepared tool sources. Original Hero/net/creature images remain unchanged. [Native report](native-checks.json), [flight/grass sheet](native-assets-4x.png).
--9 actual-input browser scenarios cover keyboard and two-finger touch, tap versus prepared timing, cancellation, movement/step buffering, a real snail catch, naturally triggered beetle flight and crawler hiding, four layouts, bag/reset and the working original link. Synthetic save/backup markers remain exact, with zero storage writes. [Browser report](browser-report.json), [flight](beetle-flight.png), [scuttle](crawler-scuttle.png), [hiding](crawler-hiding.png), [held net on phone](phone-ready-walking.png).
+- 13 focused tests cover unchanged movement traces with/without a held net,16-tick steps, tap/hold timing, no auto-repeat/cancel swing, adjacent catches, committed-step swing queuing, reservations, actual fear/escape outcomes, reset and original preservation.
+- 47 saved native checks verify hard alpha, dimensions, exact PNG hashes, untouched original beetle and exact prepared tool sources. Original Hero/net/creature images remain unchanged. [Native report](native-checks.json), [flight/grass sheet](native-assets-4x.png).
+- 9 actual-input browser scenarios cover keyboard and two-finger touch, tap versus prepared timing, cancellation, movement/step buffering, a real snail catch, naturally triggered beetle flight and crawler hiding, four layouts, bag/reset and the working original link. Synthetic save/backup markers remain exact, with zero storage writes. [Browser report](browser-report.json), [flight](beetle-flight.png), [scuttle](crawler-scuttle.png), [hiding](crawler-hiding.png), [held net on phone](phone-ready-walking.png).
 - An input-only model observer catches all six in six swings over637 ticks at normal movement speed using the real press/hold/release functions, without teleporting or altering critters. [Model report](catching-model-report.json). This is model evidence, not browser play.
 
 Screens and state checks establish the prototype's behavior, not final art/feel approval. Physical iPhone Safari remains untested. Source, full-suite and scoped publication receipts follow in PROJECT_STATUS. The original free version stays unchanged; private character studies remain outside publication.
 
 Next: user tests the A-button rhythm and actual escape reactions before any broader catching or adventure integration.
+
+## Publication receipt
+
+Version **60** deployed successfully to the [existing phone URL](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net-grid.html). Public JS/model/stylesheet/wing/grass bytes were checked against the tested build after rollout; all nine actual-input browser scenarios then passed on the hosted page without sign-in. [Hosted report](hosted-browser-report.json), [asset proof](hosted-asset-proof.json), [actual flight](hosted-beetle-flight.png), [grass hiding](hosted-crawler-hiding.png).
+
+Root main passed344 unit tests; the scoped public source passed335, existing/new syntax checks, production build and full delivery validation (4617 exact files,1276 equal JSON documents plus generated contact data). Original meadow passed all seven regression scenarios on the same production build, with original source/render/style/viewer hashes exact. [Production report](production-browser-report.json), [original regression](original-regression-report.json), [source/deployment proof](publication.json). Physical iPhone Safari remains untested. A swing still plants the player for its action as before; holding readies the net without changing ordinary movement.
+
+Implementation `b59e81fde308aa94bf64360c797b46630d74c913` was pushed to origin/main and remote-verified. Sites source `bc9f9a54694d67671b60a12fddf05f6b7150699c` adds only NET3 over prior live source `4ecb721b4d9e5152913c93701bd2382990a94dc9`; deployment `appgdep_6ad15d9c0c208191b2b1aecd48bf9fc5` succeeded. Accepted adventure src/root entry/style/playable assets have zero diff. Private character work and unrelated checkout edits remain excluded. This final evidence/status update is documentation only; no redundant deployment is needed.
+
+Next action remains the user's art/feel review of tap/hold/release and natural flight/hiding, before adventure adoption or broader catching work.

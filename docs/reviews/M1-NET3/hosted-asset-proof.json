@@ -1,0 +1,26 @@
+{
+  "ready": true,
+  "attempts": 2,
+  "files": {
+    "/art-review/net-grid.js": {
+      "status": 200,
+      "sha256": "2f041d7180bd8b79722dff061846523ba14e4bdb4484366fb64c054fa93965ea"
+    },
+    "/art-review/net-grid-state.js": {
+      "status": 200,
+      "sha256": "3009fdf6fad0762a88b92b8cf73ffee1257075edd071ea65c514ce382d6e97e1"
+    },
+    "/art-review/net-grid.css": {
+      "status": 200,
+      "sha256": "80a3bb884be52966fbc44f84e35a23eb72e7595e96cf68bb07e3e02f899f061a"
+    },
+    "/assets/review/net-escape-r1/beetle-flight-0.png": {
+      "status": 200,
+      "sha256": "a83752fcf21ec3bae2b38390fd628a04136c1c62eb15a19e120668dc6e467931"
+    },
+    "/assets/review/net-escape-r1/grass-front-0.png": {
+      "status": 200,
+      "sha256": "ddf73b46727a8679f7ac215855ea19b98ef50521983f957a7214b726210eed8c"
+    }
+  }
+}

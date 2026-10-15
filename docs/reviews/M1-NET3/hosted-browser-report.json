@@ -1,0 +1,56 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net-grid.html",
+  "checks": [
+    {
+      "name": "A hold readies without changing the sixteen-tick normal movement step",
+      "pass": true,
+      "normalStepTicks": 16,
+      "readyStepTicks": 16
+    },
+    {
+      "name": "adjacent-tile net catches the actual starting snail exactly once",
+      "pass": true
+    },
+    {
+      "name": "a mid-step release queues the swing until the committed tile boundary",
+      "pass": true,
+      "releaseCell": {
+        "x": 7,
+        "y": 7
+      },
+      "swingCell": {
+        "x": 8,
+        "y": 7
+      }
+    },
+    {
+      "name": "bag freezes in-flight movement; resume finishes it and never writes adventure data",
+      "pass": true
+    },
+    {
+      "name": "tap A has a longer windup, holding never auto-fires, and pointer cancellation fires nothing",
+      "pass": true
+    },
+    {
+      "name": "actual two-finger touch readies while walking normally and releases a prepared swing",
+      "pass": true
+    },
+    {
+      "name": "naturally startled beetle opens wings and flies visibly away without being caught",
+      "pass": true
+    },
+    {
+      "name": "a disturbed crawler scuttles into actual tall grass, disappears and returns on reset",
+      "pass": true
+    },
+    {
+      "name": "tile overlay, four responsive layouts, and original comparison link work",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Chromium desktop and touch emulation; physical iPhone Safari untested.",
+    "Real input, read-only snapshots, isolated synthetic save markers."
+  ]
+}

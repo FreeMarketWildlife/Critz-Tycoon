@@ -1,0 +1,35 @@
+{
+  "task": "M1.NET3",
+  "githubSource": "b59e81fde308aa94bf64360c797b46630d74c913",
+  "sitesBase": "4ecb721b4d9e5152913c93701bd2382990a94dc9",
+  "sitesSource": "bc9f9a54694d67671b60a12fddf05f6b7150699c",
+  "version": 60,
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_65bec314b4cc8191a97a1206768adb89",
+  "deploymentId": "appgdep_6ad15d9c0c208191b2b1aecd48bf9fc5",
+  "deploymentStatus": "succeeded",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net-grid.html",
+  "originalURL": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net.html",
+  "archiveSHA256": "c8c8cb27f64f09d18947c8c29992577abc8efe59908a311e05267c097fa6bb46",
+  "packageFingerprint": "b44476dc50af541176631cc17ef630e7b388459c11f5e5a7949b681c0b08d084",
+  "rootUnitTests": 344,
+  "productionUnitTests": 335,
+  "nativeChecks": 47,
+  "productionBrowserScenarios": 9,
+  "originalBrowserScenarios": 7,
+  "inputOnlyModelCollection": {
+    "caught": 6,
+    "swings": 6,
+    "ticks": 637
+  },
+  "movement": "Actual unchanged movement controller, every ordinary game tick. Prepared and carry trace exact,16ticks/tile.",
+  "scope": "Only NET3 review updates/new assets/tests/doc additions over live version59. Private character work excluded; adventure/src/root entry/accepted assets unchanged.",
+  "originalPreserved": true,
+  "userArtFeelAcceptance": false,
+  "limitations": [
+    "Physical iPhone Safari untested.",
+    "All-six collection is model input evidence, not browser play."
+  ],
+  "hostedBrowserScenariosPassed": 9,
+  "publicNoSignInVerified": true,
+  "publicAssetsByteExact": true
+}

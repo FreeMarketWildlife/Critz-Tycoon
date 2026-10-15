@@ -1,6 +1,6 @@
 # M1.NET3 — Restore normal movement; A handling and escapes
 
-**Implemented/checked; publication and user feel review next.** User rejects NET2 movement slowdown and specifies tapA→longer-windup swing, holdA→ready, release→quick swing. Keep ordinary game movement, committed steps and prior catch target; remove sticky READY/slow cadence. Add visible scared-beetle takeoff and crawler scuttle/grass hiding using existing critters. [Prototype and checks](reviews/M1-NET3/README.md). Preserve NET1 and private character work; publish only this scoped review over the current live source, then user judges the action rhythm and escape feedback before integration.
+**Published as version60; awaiting user feel review.** User rejects NET2 movement slowdown and specifies tapA→longer-windup swing, holdA→ready, release→quick swing. Keep ordinary game movement, committed steps and prior catch target; remove sticky READY/slow cadence. Add visible scared-beetle takeoff and crawler scuttle/grass hiding using existing critters. [Prototype and checks](reviews/M1-NET3/README.md). Preserve NET1 and private character work; the scoped review is now published over the prior live source; user judges the action rhythm and escape feedback before integration.
 
 ## Active M1.H4R1 — complete bounded four-direction shared-body review
 
