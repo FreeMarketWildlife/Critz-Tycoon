@@ -1,0 +1,110 @@
+{
+  "task": "M1.HR6",
+  "stage": 1,
+  "state": "awaiting normal-default visual review",
+  "normalDefault": {
+    "mouth": null,
+    "nose": null,
+    "canvas": [
+      32,
+      64
+    ],
+    "anchor": [
+      16,
+      64
+    ]
+  },
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/ears-head-before-after.png",
+      "bytes": 12310,
+      "sha256": "1626dc36bb7b4a72d2a303bc867f3a2900738d2597e7c40f3883185a77a49160"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/head-neck-native-3x.png",
+      "bytes": 10160,
+      "sha256": "1f5960a7a942b629d92d9b77a5b65b68d8b5d5b1d269f854ada7056897b05f18"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/full-body-before-after.png",
+      "bytes": 13799,
+      "sha256": "68a98a81acc08dcf089e488fa246b88cb967c4e745d4a025b1b29807dcddd944"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/directional-review.png",
+      "bytes": 11978,
+      "sha256": "93eb58d8757a5ea743cf0751adbfe568e8c1cc96f7d73993d58e6558094225d7"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/normal-front-grid.png",
+      "bytes": 9758,
+      "sha256": "95c7a9b4825d0ea616f8600867785ef1de9b3d2edd5d2e06375be5761a40c83b"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/ear-checks.json",
+      "bytes": 4451,
+      "sha256": "7dd3eb1aa957fae2ce7f9f6ca37c5ee5721d6f76cdb137ad062d8aeb3c687edf"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-redesign-r6/hero-boy.sprite.json",
+      "bytes": 17645,
+      "sha256": "d116c447128376465114d41f422771c7c82ef9a9742675a36a9da710732d0907"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-redesign-r6/normal-landmarks.proposed.json",
+      "bytes": 5791,
+      "sha256": "5ce7537682f4667c06d09c5516ebe41bd5582d0e2dce4df77f0a84905566862c"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/head-neck-native-3x.png",
+      "bytes": 10160,
+      "sha256": "1f5960a7a942b629d92d9b77a5b65b68d8b5d5b1d269f854ada7056897b05f18"
+    }
+  ],
+  "externalReferenceOverlay": "/Users/tanoshi/.codex/visualizations/2026/10/14/hero-hr6-reference/normal-reference-overlay.png",
+  "changedPixelCounts": {
+    "south": 44,
+    "north": 37,
+    "west": 16,
+    "east": 16
+  },
+  "outsideAllowedRegionsExact": true,
+  "limits": [
+    "Inherited bent profile forearm",
+    "Unchanged costume compression and strong front-sole accents",
+    "Per-direction landmarks remain proposed until reviewed"
+  ],
+  "nextAction": "Parent reviews normal default before further revisions/stage2/stage3",
+  "laterStagesStarted": false,
+  "runtimeIntegration": false,
+  "publication": false,
+  "libraryExportByOwner": false,
+  "TN4HoldPreserved": true,
+  "libraryExportByLocalRelay": {
+    "succeeded": true,
+    "receipt": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/library-review-receipt.json",
+    "items": [
+      {
+        "name": "ears-head-before-after.png",
+        "libraryId": "libfile_012f4bdd408881919c389912735f4ee9",
+        "version": 0
+      },
+      {
+        "name": "full-body-before-after.png",
+        "libraryId": "libfile_33a0be51cbac819195b6062e71676802",
+        "version": 0
+      },
+      {
+        "name": "directional-review.png",
+        "libraryId": "libfile_2edb47d3d6548191b333d17169b52497",
+        "version": 0
+      },
+      {
+        "name": "normal-reference-overlay.png",
+        "libraryId": "libfile_34c6c648a0cc8191bce9968b378a66de",
+        "version": 0
+      }
+    ],
+    "acceptance": false
+  }
+}

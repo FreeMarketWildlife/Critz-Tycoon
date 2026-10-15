@@ -1,0 +1,111 @@
+{
+  "task": "M1.HR6",
+  "stage": 1,
+  "appearanceApproved": false,
+  "reviewedLocally": true,
+  "libraryExportSucceeded": true,
+  "workflow": "Supported host create after prepare_uploads returned unavailable; no denied action bypass.",
+  "items": [
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/ears-head-before-after.png",
+      "file_id": "file_000000000f5c81fd9ce58e49c31ef751",
+      "library_file_id": "libfile_012f4bdd408881919c389912735f4ee9",
+      "file_name": "ears-head-before-after.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 12310,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/ears-head-before-after.png",
+      "localMetadataApplied": true
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/full-body-before-after.png",
+      "file_id": "file_00000000fd6882309685a825c7c358e0",
+      "library_file_id": "libfile_33a0be51cbac819195b6062e71676802",
+      "file_name": "full-body-before-after.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 13799,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/full-body-before-after.png",
+      "localMetadataApplied": true
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/directional-review.png",
+      "file_id": "file_00000000549482308dc8e628320aa35c",
+      "library_file_id": "libfile_2edb47d3d6548191b333d17169b52497",
+      "file_name": "directional-review.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 11978,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR6/directional-review.png",
+      "localMetadataApplied": true
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/normal-reference-overlay.png",
+      "file_id": "file_0000000075f0820b924371fa8cde9d08",
+      "library_file_id": "libfile_34c6c648a0cc8191bce9968b378a66de",
+      "file_name": "normal-reference-overlay.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 25124,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/14/hero-hr6-reference/normal-reference-overlay.png",
+      "localMetadataApplied": true
+    }
+  ],
+  "critique": {
+    "south": "Broad pointed ear wedges removed; compact lobes read human; no isolated mouth mark.",
+    "north": "Back hair occludes upper ears; visible lobes remain compact and align with front.",
+    "west": "Rounded attached ear reads coherent. Inherited bent forearm appears to hold something, unlike relaxed Brendan idle.",
+    "east": "Reflected ear/body registration coherent; same inherited bent-arm concern.",
+    "wholeBody": "Original hair/costume differ intentionally; torso and strong shoe accents still need user judgment. No full-base or customization acceptance inferred."
+  },
+  "holds": {
+    "gameplayReplacement": true,
+    "publication": true,
+    "TN4": true,
+    "stage2And3": true
+  }
+}

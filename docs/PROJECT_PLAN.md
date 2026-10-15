@@ -1,6 +1,6 @@
 # M1.HR6 — Corrected human-ear default and modular player base
 
-**Specification recorded; correction blocked on sole-owner handoff.** [ART_BIBLE](ART_BIBLE.md#human-ears-and-modular-player-base--m1hr6-user-correction) owns exact feature/body/clothing/default requirements. First review corrected normal default, then structural body variants with the same starter outfit, then limited swappable-feature proof. No UI expansion or gameplay publication before concrete review. HR5 is rejected for elf-like default ears. Existing owner remains sole Hero writer; obtain destination/export authorization required by prior automatic approval rejection. TN4 remains held.
+**Stage1 normal default implemented/checked; awaiting review.** [ART_BIBLE](ART_BIBLE.md#human-ears-and-modular-player-base--m1hr6-user-correction) owns human-ear/default/body/clothing requirements. Owner handoff received; original corrected ear/head/body four-direction comparisons and proposed shared normal landmarks delivered in [HR6](reviews/M1-HR6/README.md). No mouth by default. Normal checkpoint first; stage2 same-outfit body variants and stage3 limited swapping proof remain unstarted. No customization UI, gameplay publication or TN4 release. Prior handoff/export rejection is historical, not a new authoring blocker. The local relay exported four stable review plates to Library version0; coordinator receipt included, no appearance approval inferred. No owner-side cross-chat send/export or gameplay publication.
 
 # M1.HR5 — Head overlay and silhouette correction
 

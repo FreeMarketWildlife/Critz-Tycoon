@@ -1,0 +1,204 @@
+{
+  "stage": 1,
+  "body": "normal",
+  "mouthDefault": null,
+  "noseDefault": null,
+  "canvas": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "directions": {
+    "south": {
+      "ears": {
+        "leftEar": {
+          "scaffoldBounds": [
+            4,
+            37,
+            8,
+            42
+          ],
+          "scaffoldArea": 16,
+          "visibleBoundsAfterFaceHairOcclusion": [
+            4,
+            37,
+            7,
+            42
+          ],
+          "visibleAreaAfterOcclusion": 9
+        },
+        "rightEar": {
+          "scaffoldBounds": [
+            24,
+            37,
+            28,
+            42
+          ],
+          "scaffoldArea": 16,
+          "visibleBoundsAfterFaceHairOcclusion": [
+            25,
+            37,
+            28,
+            42
+          ],
+          "visibleAreaAfterOcclusion": 9
+        }
+      },
+      "bodyBelow46ExactHR5": true,
+      "hairMaskAndVisiblePixelsExactHR5": true,
+      "emptyNoseMouthMasks": true,
+      "pngSha256": "bb2811761b07713c80e1350588e5af3e819cc297526a9914949076532b1bec6c",
+      "allowedChangedRegion": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "actualChangedPixels": 44,
+      "actualChangedBounds": [
+        2,
+        36,
+        30,
+        44
+      ],
+      "outsideAllowedRegionPixelExact": true
+    },
+    "north": {
+      "ears": {
+        "leftEar": {
+          "scaffoldBounds": [
+            4,
+            37,
+            8,
+            42
+          ],
+          "scaffoldArea": 16,
+          "visibleBoundsAfterFaceHairOcclusion": [
+            4,
+            38,
+            7,
+            42
+          ],
+          "visibleAreaAfterOcclusion": 8
+        },
+        "rightEar": {
+          "scaffoldBounds": [
+            24,
+            37,
+            28,
+            42
+          ],
+          "scaffoldArea": 16,
+          "visibleBoundsAfterFaceHairOcclusion": [
+            25,
+            38,
+            28,
+            42
+          ],
+          "visibleAreaAfterOcclusion": 8
+        }
+      },
+      "bodyBelow46ExactHR5": true,
+      "hairMaskAndVisiblePixelsExactHR5": true,
+      "emptyNoseMouthMasks": true,
+      "pngSha256": "14af255a94e6c136b7ad151da99f3d24b346dbc1e0c0000070aaa96cda8111ec",
+      "allowedChangedRegion": [
+        2,
+        36,
+        30,
+        46
+      ],
+      "actualChangedPixels": 37,
+      "actualChangedBounds": [
+        2,
+        36,
+        30,
+        45
+      ],
+      "outsideAllowedRegionPixelExact": true
+    },
+    "west": {
+      "ears": {
+        "nearEar": {
+          "scaffoldBounds": [
+            18,
+            38,
+            22,
+            43
+          ],
+          "scaffoldArea": 16,
+          "visibleBoundsAfterFaceHairOcclusion": [
+            18,
+            38,
+            22,
+            43
+          ],
+          "visibleAreaAfterOcclusion": 16
+        }
+      },
+      "bodyBelow46ExactHR5": true,
+      "hairMaskAndVisiblePixelsExactHR5": true,
+      "emptyNoseMouthMasks": true,
+      "pngSha256": "931641f8840fb3616a2f7f5e186da837553375fe22b9a02aa5d7c0119e3206c2",
+      "allowedChangedRegion": [
+        17,
+        38,
+        22,
+        43
+      ],
+      "actualChangedPixels": 16,
+      "actualChangedBounds": [
+        17,
+        38,
+        22,
+        43
+      ],
+      "outsideAllowedRegionPixelExact": true,
+      "frontFaceNoseMouthAreaExactHR5": true
+    },
+    "east": {
+      "ears": {
+        "nearEar": {
+          "scaffoldBounds": [
+            10,
+            38,
+            14,
+            43
+          ],
+          "scaffoldArea": 16,
+          "visibleBoundsAfterFaceHairOcclusion": [
+            10,
+            38,
+            14,
+            43
+          ],
+          "visibleAreaAfterOcclusion": 16
+        }
+      },
+      "bodyBelow46ExactHR5": true,
+      "hairMaskAndVisiblePixelsExactHR5": true,
+      "emptyNoseMouthMasks": true,
+      "pngSha256": "a4c96779c6e9bfb735644ab481d189fc32e2cf11cc36b210eaa7d4a1103f02f0",
+      "allowedChangedRegion": [
+        10,
+        38,
+        15,
+        43
+      ],
+      "actualChangedPixels": 16,
+      "actualChangedBounds": [
+        10,
+        38,
+        15,
+        43
+      ],
+      "outsideAllowedRegionPixelExact": true,
+      "frontFaceNoseMouthAreaExactHR5": true
+    }
+  },
+  "scope": "Correct normal ears only; no body variants, swapping implementation, UI or runtime integration.",
+  "southCenterFaceNoIsolatedLipOrNoseCluster": true
+}

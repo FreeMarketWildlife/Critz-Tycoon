@@ -1,0 +1,24 @@
+{
+  "fourSavedPNGSourceMatches": true,
+  "binaryAlpha": true,
+  "atMost15OpaqueColors": true,
+  "frontBackPairedAnatomy": true,
+  "visibleEyeMask": true,
+  "visibleEyeBounds": [
+    [
+      12,
+      38,
+      14,
+      42
+    ],
+    [
+      18,
+      38,
+      20,
+      42
+    ]
+  ],
+  "bottomRowsTransparent": true,
+  "referencePixelsInProduction": false,
+  "referenceIngestionByAuthoringScript": false
+}
