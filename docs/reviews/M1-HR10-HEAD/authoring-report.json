@@ -1,0 +1,37 @@
+{
+  "scope": "forward only; original proposed idle plus walk, unapproved",
+  "order": [
+    "A",
+    "A",
+    "P",
+    "P",
+    "C",
+    "C",
+    "P",
+    "P"
+  ],
+  "frameDurationMs": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "cycleMs": 800,
+  "editorTicksPerFrame": 6,
+  "editorActualMsPerFrame": 100.45623779296875,
+  "referenceRegistrationTopPadding": 14,
+  "headTranslationFromNewRestHead": {
+    "P": -2,
+    "A": 0,
+    "C": 0,
+    "idle": 0
+  },
+  "idleStatus": "Original balanced passing-derived body moved to rest height; no idle pose observed in reference",
+  "headReshaped": true,
+  "directionsAdded": false,
+  "connectedOriginalPoses": true
+}

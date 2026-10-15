@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Forward head overlay correction — M1.HR10H
+
+The direct head-overlay request is addressed in an isolated [HR10H review](reviews/M1-HR10-HEAD/README.md), separate from the coordination note's pending body-only HR10 pass. Compare both the supplied custom forward redraw and pinned Emerald south idle, clearly labeled as different sources. Actual 50% superpositions use fixed full-frame registration; no independent fitting. The first too-broad hair draft was rejected locally. The saved original hair narrows the upper sweep, removes the isolated high spike and groups interior color masses while protecting the established face/eyes/rounded ears, empty nose/mouth and all body pixels. This is a forward-only head proposal, not a new head/body acceptance or completion of cuff/shoe work. Cap silhouette is visible headwear, not hidden-skull anatomy. Keep the actual overlay and native light/dark inspection alongside row differences; fewer different cells do not self-approve art. No gameplay integration or deployment.
+
 ## Confirmed forward animation reference — M1.HR9
 
 Phil rejects HR8 proportions and motion interpretation; HR8 stays rejected history. The confirmed primary reference is the refined **left** forward-facing sprite in `https://i.redd.it/01agijgmbz561.gif`,31726 bytes, SHA256 `5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e`. Actual GIF has8×100ms frames,3 unique poses in A,A,P,P,C,C,P,P,800ms loop0. The previously delivered static PNG/older still and pinned ROM walking sheet are not substitutes for this user animation. [Observed facts and candidate review](reviews/M1-HR9/README.md).

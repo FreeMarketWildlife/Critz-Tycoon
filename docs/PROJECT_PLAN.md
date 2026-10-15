@@ -1,3 +1,7 @@
+# M1.HR10H — Isolated head-overlay review
+
+**Implemented and checked; awaiting user visual review.** Answer the direct visible head request with actual aligned before/after overlays and original corrected forward hair. Preserve face/ears/eyes/body and motion. Separate namespace from disputed coordination HR10 body-only scope; no claim that body refinement is complete. [Review and residual critique](reviews/M1-HR10-HEAD/README.md). No gameplay integration/deployment or expanded directions.
+
 # M1.HR9 — Confirmed-user-reference forward motion review
 
 **Analyzed and candidate checked; targeted local shoe critique completed, awaiting parent review.** Exact8-frame GIF is primary; inspect all poses, compact visible clusters, bounce/timing and clipping before drawing. Deliver original forward-only idle/walk, retained head/ear design with documented translation, all-frame source/candidate contact and native/nearest enlarged synchronized animations. [Review](reviews/M1-HR9/README.md). Idle is an original proposal, not observed source pose. No other directions, variants/swaps/UI/live integration/deployment or TN4 release. Walk acceptance is not inferred from checks.
