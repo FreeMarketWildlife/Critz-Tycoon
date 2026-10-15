@@ -1,0 +1,38 @@
+{
+  "input": "Direction/ready/swing model inputs only; observer reads state without teleport or critter mutation",
+  "caught": 6,
+  "swings": 10,
+  "ticks": 4119,
+  "log": [
+    {
+      "tick": 10,
+      "kind": "button-snail",
+      "swings": 1
+    },
+    {
+      "tick": 210,
+      "kind": "isopod",
+      "swings": 2
+    },
+    {
+      "tick": 340,
+      "kind": "stag-beetle",
+      "swings": 3
+    },
+    {
+      "tick": 1670,
+      "kind": "button-snail",
+      "swings": 4
+    },
+    {
+      "tick": 2046,
+      "kind": "stag-beetle",
+      "swings": 5
+    },
+    {
+      "tick": 4118,
+      "kind": "isopod",
+      "swings": 10
+    }
+  ]
+}

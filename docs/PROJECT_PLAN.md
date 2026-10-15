@@ -1,3 +1,7 @@
+# M1.NET2 — Preserve free meadow; test tile-based catching
+
+**Implemented; comparison awaiting user feel review and publication receipt.** Direct user request preserves NET1 and authorizes a second tile-based meadow. Use actual game movement/clock for player and critter cell steps, explicit reservations, slow-ready cadence, adjacent-cell catches and boundary-queued swings. [Deliverable and checks](reviews/M1-NET2/README.md). Publish the scoped comparison over the existing live source while preserving both links; then user compares it with NET1. Unrelated/private character and creator work remains separate and unpublished.
+
 # M1.NET1 — User-authorized net catching test
 
 ## Active M1.SB1 — restore the selected shared Hero, static proof first

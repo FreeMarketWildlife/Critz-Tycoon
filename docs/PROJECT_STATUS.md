@@ -1,5 +1,9 @@
 # Project status
 
+## M1.NET2 — Tile meadow checked; publication next
+
+**Awaiting user comparison.** Latest request preserves the liked NET1 and adds a separate tile-based test using the unchanged game movement controller/clock. Player/critters move and reserve32px cells; ready cadence is3× slower, catches target the adjacent occupied cell, and mid-step swings wait for settlement. [Rules, controls and evidence](reviews/M1-NET2/README.md). Nine focused model tests, six actual-input browser scenarios, all-six input-only model collection and original byte preservation pass. Four viewport/two-finger controls, synthetic save/backup exact and zero storage writes; physical iPhone Safari untested. Main; scoped source commit/push and clean build/deployment receipt follow. Next: publish only NET2 over the prior live source, then user compares both versions. Existing adventure, saves, artwork and private character/creator tasks remain preserved and separate; no broader gate acceptance.
+
 ## SB1 shared-Hero restoration — privately delivered, source-choice review pending
 
 Parent reopened the central requirement after DS5 motion review. The DS4/DS5 dummy WAS an independently redesigned silhouette: actual archived eye sites, outfit/hand/waist geometry and full shoe contacts differ, even after real hair/backpack exclusions. Root's earlier checks compared DS5 against DS4 and did not prove Hero preservation; that broader implication is withdrawn. [Actual provenance and16pose measurements](reviews/M1-SB1/independent-review/PROVENANCE.md) identify a direct human preserve-front message13:43Z and its unchanged South archive. All four South poses remain byte-exact`bae462f`; matching PS1 family is pinned`8726c9a`. The separate earlier “amazing” praise artifact remains UNVERIFIED and requires main-parent history; it is not silently guessed.
