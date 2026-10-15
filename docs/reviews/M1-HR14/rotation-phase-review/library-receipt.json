@@ -1,0 +1,219 @@
+{
+  "task": "HR14 existing-frame independent rotation/phase QA",
+  "source_commit": "c98a8cbd8d85e160e9080d6690964c3c3deb3ef1",
+  "frozen_receipt": "d5dc45838c1ee5bc4ea9f402e73edd2e8ebcce87",
+  "files": [
+    {
+      "file_name": "turn-in-place-1x.gif",
+      "library_file_id": "libfile_49255296fb388191aa631fbef101b88c",
+      "file_id": "file_00000000515082308ccf1a9ab167d395",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/turn-in-place-1x.gif",
+      "sha256": "392b54a34caa376e4a7be753564e060155bc9b9d5782b59894309661350635f3",
+      "dimensions": [
+        80,
+        72
+      ],
+      "decoded_frames": 4,
+      "durations_ms": [
+        500,
+        500,
+        500,
+        500
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "turn-in-place-4x.gif",
+      "library_file_id": "libfile_e088333253488191842bfd9c26d31309",
+      "file_id": "file_0000000066c48230951e9a70753b0705",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/turn-in-place-4x.gif",
+      "sha256": "2471bc42e66fdd9cb6aabdda2e1cdd4860e9643b66baf6b8c33af42435f84419",
+      "dimensions": [
+        320,
+        288
+      ],
+      "decoded_frames": 4,
+      "durations_ms": [
+        500,
+        500,
+        500,
+        500
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "synchronized-PHASE-1x.gif",
+      "library_file_id": "libfile_9cf56acdcab081919facd35975864287",
+      "file_id": "file_0000000045808230b4a2a995225ad119",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-1x.gif",
+      "sha256": "d2cd99782e8f548b9e31ba935554dc75f2f9e7f0843a400fd714ec5c5971c752",
+      "dimensions": [
+        160,
+        144
+      ],
+      "decoded_frames": 4,
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "synchronized-PHASE-4x.gif",
+      "library_file_id": "libfile_8d68c152a1d481919a781bb5d94d4428",
+      "file_id": "file_0000000056d08230b337a099e2e3370f",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-4x.gif",
+      "sha256": "3f576baba3f84055258e72d6a7b97a159c20fe9606c0268acb7308e05bd81960",
+      "dimensions": [
+        640,
+        576
+      ],
+      "decoded_frames": 4,
+      "durations_ms": [
+        200,
+        200,
+        200,
+        200
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "synchronized-PHASE-SLOW-1x.gif",
+      "library_file_id": "libfile_8f327d14675481918311f7d338524356",
+      "file_id": "file_00000000eafc8230b0eeda16d310dc6b",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-SLOW-1x.gif",
+      "sha256": "2eb00fa89578368bfd2c35ef2e97d20541a3011ba577357a0e56a40395f9aa10",
+      "dimensions": [
+        160,
+        144
+      ],
+      "decoded_frames": 4,
+      "durations_ms": [
+        800,
+        800,
+        800,
+        800
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "synchronized-PHASE-SLOW-4x.gif",
+      "library_file_id": "libfile_cb607ee42480819194ac164160a9d9df",
+      "file_id": "file_000000002e7c82308832fbc65280cad5",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/synchronized-PHASE-SLOW-4x.gif",
+      "sha256": "e520f90ddd3a7023c9d3ca790ab497d777600f53824fc58272854528482ce803",
+      "dimensions": [
+        640,
+        576
+      ],
+      "decoded_frames": 4,
+      "durations_ms": [
+        800,
+        800,
+        800,
+        800
+      ],
+      "loop": 0,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "idle-directions-1x.png",
+      "library_file_id": "libfile_ddbe314092388191b0b34dbf9affebba",
+      "file_id": "file_000000002c3881f49e21c85b4063fe18",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/idle-directions-1x.png",
+      "sha256": "143195ba769f92d45eb74ca38e6bb2fe42187abca9c56763ba782680b6b81ce0",
+      "dimensions": [
+        160,
+        144
+      ],
+      "decoded_frames": 1,
+      "durations_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "idle-directions-4x.png",
+      "library_file_id": "libfile_510ec6b661408191a2328463b437d70d",
+      "file_id": "file_0000000087308210ac9b6175559047b5",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/idle-directions-4x.png",
+      "sha256": "e9510083a3518ade7db0b30cc1f256366ac590015e8955803a3ca7113e02d1e8",
+      "dimensions": [
+        640,
+        576
+      ],
+      "decoded_frames": 1,
+      "durations_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "unique-phase-contact-1x.png",
+      "library_file_id": "libfile_5923e5099bd88191bcbc6e9e040ee960",
+      "file_id": "file_00000000bc7481f5bd64b5856de39a27",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/unique-phase-contact-1x.png",
+      "sha256": "05894a71321a05b78d1564184b62707bd1161de2e1126a79c68ae177b40ce556",
+      "dimensions": [
+        240,
+        288
+      ],
+      "decoded_frames": 1,
+      "durations_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    },
+    {
+      "file_name": "unique-phase-contact-4x.png",
+      "library_file_id": "libfile_e08acd3b13288191a6a7360162fb0f1a",
+      "file_id": "file_000000008a8c81f49985700d1286f74c",
+      "version": 0,
+      "original": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/rotation-phase-review/unique-phase-contact-4x.png",
+      "sha256": "9934842ba8b8f7ec93824e2180e731abe60d53446373960901a5751bd1728e6e",
+      "dimensions": [
+        960,
+        1152
+      ],
+      "decoded_frames": 1,
+      "durations_ms": [
+        null
+      ],
+      "loop": null,
+      "byte_rgba_timing_exact": true,
+      "local_identity_applied": true
+    }
+  ],
+  "verification": "10 Library downloads exact bytes, dimensions, all RGBA frames, GIF durations/loop. All32 existing source PNGs unchanged from frozen material source.",
+  "visual_scope": "Actual native/4x idle and all12 distinct gait pose pairs inspected; existing reference material/contact sheet inspected externally. Three actual browser screenshots sample rotation/normal/slow playback; no uninterrupted continuous watch claimed.",
+  "continuous_watch_cycles_claimed": 0,
+  "not_approved": "No runtime acceptance, art alteration, new Girl directions or writer message."
+}

@@ -81,3 +81,7 @@ Publication: not attempted | exact commit/push/deployment evidence
 ```
 
 Only move to the next existing character when **both Hero and reusable dummy** have the rigorous visual pass required by the latest authorization. Such a local pass is not broader M1/M2 approval or permission to promote unapproved art into gameplay. Final user acceptance remains with the user.
+
+## Existing HR14 rotation/phase application — partial visual coverage
+
+[2026-10-15 review and native Library previews](../reviews/M1-HR14/rotation-phase-review/README.md) applies the proposed method to existing assets only. Native/enlarged idle and all distinct gait poses were inspected, and actual browser playback was sampled. Complete uninterrupted rotation/gait watching is **still pending**, not checked off above. Source/export verification passes but does not close that viewing gap. A concrete front hand/cuff material-read concern remains; no new head/foot/stride/pack geometry correction was established. No original character frames or runtime art changed.
