@@ -1,0 +1,53 @@
+{
+  "task": "M1.TN1 recovery verification",
+  "checked_at": "2026-10-15T07:15:08.914160+00:00",
+  "branch": "main",
+  "verified_local_and_remote_sha": "ca3e60d408ccc34d49db255a4c4fa5ae27b8c7fe",
+  "outcome": "Existing requested implementation is complete and already published; no duplicate generation, runtime edits or deployment performed.",
+  "implementation_source": "6f8198856ebde6b9e31724d97eb83d81c31be232",
+  "live_version": 57,
+  "live_source": "54ed7b5ec51353a40ffb38c32d8b5f77ffeb9cdb",
+  "deployment_id": "appgdep_6acff7f2df008191956a770a4ee1d680",
+  "deployment_status": "succeeded",
+  "access": "public",
+  "access_revision": 2,
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "units": {
+    "passed": 316,
+    "failed": 0
+  },
+  "hosted_browser_groups": 10,
+  "hosted_errors": [],
+  "visual_inspection": [
+    "approved original contact sheet",
+    "accepted native TN3 lineup",
+    "fresh hosted opening",
+    "fresh hosted greeting",
+    "fresh hosted Mint, Apricot and Lilac captures"
+  ],
+  "storage": "Fresh isolated synthetic browser contexts only; real player storage untouched.",
+  "remaining_limits": [
+    "Physical Safari and device suspension not tested.",
+    "TN4 revised eyes/bear remain a separate unpublished review, awaiting visual response."
+  ],
+  "preserved_unrelated_changes": [
+    "docs/ART_BIBLE.md",
+    "docs/PROJECT_PLAN.md",
+    "docs/PROJECT_STATUS.md prior edits",
+    "docs/REFERENCE_MEASUREMENTS.md",
+    "art/source/hero-forward-r11/",
+    "docs/reviews/M1-HR11/",
+    "art/source/hero-girl-r1/",
+    "docs/reviews/M1-GH1/"
+  ],
+  "evidence_hashes": {
+    "browser-checks.json": "2a8654fb1dfa88083706af4585b1c9d60e17d80d972f3277c7c855ab6c94dca6",
+    "live-assets.json": "1eff3f15919ac497fe400e53a1d1ab7c5a6277e91480ce7bb24ceb7c287cbb94",
+    "README.md": "ad8018db5806ba41a3e18dc8dc71d8112a6a5873f4fca872336feb9480a1aaae",
+    "unit-results.txt": "35bc379be7baa29364e4eaf85b100f26d6b4fb19890d8fec36423f019d305c13",
+    "actual-new-game.png": "6ab8051e2b786805f8a9ab35aed907698868721cfe0fdcd2b30a3401265743fc",
+    "blush-phone.png": "a8cfcfce8070416cd6ce9f3783da9ff24e89796a7413f73ca00315c34c3d7451",
+    "greeting-390.png": "f5037fd182b3c195aa7e638e5456b9a28152fc4196e9a9c407257ebc40194e7e",
+    "mint-phone.png": "99955eb40f03756695860f51ce86c3127500184b6edba39344ba227885812add"
+  }
+}
