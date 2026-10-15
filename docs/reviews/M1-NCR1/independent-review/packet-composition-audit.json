@@ -1,0 +1,4734 @@
+{
+  "qualification": "Original Critz art compositions, no browser/reference pixels",
+  "inputHashes": {
+    "docs/reviews/M1-H4R1/south-idle/master-hero.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "docs/reviews/M1-H4R1/south-idle/master-bald.png": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+    "docs/reviews/M1-NCR1/south-idle/master-hero.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "docs/reviews/M1-NCR1/south-idle/master-bald.png": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+    "docs/reviews/M1-H4R1/south-idle/native-hero.png": "363a76ba302fbb34a64e33fe214f5f78ddcd162e95489e7a6eb08140409d5a0e",
+    "docs/reviews/M1-H4R1/south-idle/native-bald.png": "ca8390d2f4355661b2f72aa87392e62214ce8d81ae632376ea3a503f71d850ea",
+    "docs/reviews/M1-NCR1/south-idle/native-hero.png": "4f93443acf2928973c889763c824dec48d72ac3872b335eb7c2f7775ab730b85",
+    "docs/reviews/M1-NCR1/south-idle/native-bald.png": "c9070e7eafc959332aea6f48c873f0f698a9a900797cb86a99dab153d320b119",
+    "docs/reviews/M1-H4R1/north-idle/master-hero.png": "61553967ac7a2782514d6279ae717f981e7891bdbba5ba7054ed7f16d9321103",
+    "docs/reviews/M1-H4R1/north-idle/master-bald.png": "3d0e3551c4d62e63f1131ce79c335a1844627b2efd204a9efdcdc0864d404872",
+    "docs/reviews/M1-NCR1/north-idle/master-hero.png": "2785a2d8b3010cfb0959e4a9960f19c9fbc8c7c4c53f4b13c93b0b7d7e6940f2",
+    "docs/reviews/M1-NCR1/north-idle/master-bald.png": "d181b95f31988b33f6ce8da39f1371250820a971e3153e5ab7271f077f055828",
+    "docs/reviews/M1-H4R1/north-idle/native-hero.png": "9dafb3a12d70054a69863bd8043a474dbed3d865ad33d81aa8d67d835fa8205f",
+    "docs/reviews/M1-H4R1/north-idle/native-bald.png": "db990ae2ea49d542af622d2063eb5ce8d8769d76032c042cf8b473e7fd83eba9",
+    "docs/reviews/M1-NCR1/north-idle/native-hero.png": "157cb66018a4bdd1d5a02638fdc667313b7d8665e9b7a6d9c633023db87e5232",
+    "docs/reviews/M1-NCR1/north-idle/native-bald.png": "6531505f9008f6179564c288556a60d07446368310e918631eae06ab592e55ac",
+    "docs/reviews/M1-H4R1/west-idle/master-hero.png": "5d411e0e98d8bdf0640ce06cbe4eb734b61d9a3c5b7bf1d2541240d51fd41525",
+    "docs/reviews/M1-H4R1/west-idle/master-bald.png": "9a41b63b133a5ae7353ebf9bc9d0cdf2c21f70908fc5cb97d2e140460eb35979",
+    "docs/reviews/M1-NCR1/west-idle/master-hero.png": "4e8129ae49466d90f2dd83e9161010edd177eb0bbc66e91a3a0389d4f7caadec",
+    "docs/reviews/M1-NCR1/west-idle/master-bald.png": "ea0c528d6f7ba166118dc8bc37755646e0614e31ec1716d3d7c3979ab8a39b2a",
+    "docs/reviews/M1-H4R1/west-idle/native-hero.png": "3141b14860553c1392b71f6113e402e7d7e155890ab87ffbcc9842db9184bf26",
+    "docs/reviews/M1-H4R1/west-idle/native-bald.png": "17907b53b1ac2b26ff4806d44714ebc8b0eec80d9cd56197c48058854c1f6a05",
+    "docs/reviews/M1-NCR1/west-idle/native-hero.png": "7906cf47251e7f83c1098810b25cb83041143ba4375a5885a3cb05448307c8f0",
+    "docs/reviews/M1-NCR1/west-idle/native-bald.png": "1e3067aaeb9c12bf57338ced7c18f42cb4a6326c62c99774d88b0ad011b8b84b",
+    "docs/reviews/M1-H4R1/east-idle/master-hero.png": "c115ac5f55b7cb66e9b112021989e7e63346823ba846af5c952eb70d233ccd44",
+    "docs/reviews/M1-H4R1/east-idle/master-bald.png": "fb541299f6731a319ba281b47a3a921c73b10142b2ef5ec224091b17fd43b8d4",
+    "docs/reviews/M1-NCR1/east-idle/master-hero.png": "01b06ace69398050581fdbf977ee3839d3349c405ba154fef9ca55a6b5be3e2c",
+    "docs/reviews/M1-NCR1/east-idle/master-bald.png": "c2d1bdc49b2ce9f160645ccb88eb941b63f685ad8ac5909056fb5ee346605e47",
+    "docs/reviews/M1-H4R1/east-idle/native-hero.png": "9a02d62ccd031ab379ad2026558596040290c39b8206ec0e7396a6bdf8965a03",
+    "docs/reviews/M1-H4R1/east-idle/native-bald.png": "7f908808cd68d779f38ab8cab484777bfd9778782a807eb017b777f96634ca14",
+    "docs/reviews/M1-NCR1/east-idle/native-hero.png": "9278d987502ef3a04ec6d0ce1ad139055a3812e2651f0b81b1a894a01e22fe64",
+    "docs/reviews/M1-NCR1/east-idle/native-bald.png": "8077c55e642175d702f6d57de4e0eef4cde4c9281fcd20b03025e99259874edf",
+    "docs/reviews/M1-NCR1/south-A/master-hero.png": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+    "docs/reviews/M1-NCR1/south-A/master-bald.png": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+    "docs/reviews/M1-NCR1/south-A/native-hero.png": "c696d2572ce4532629f567328688586f15dfed995c25df363842c51b47a0ab92",
+    "docs/reviews/M1-NCR1/south-A/native-bald.png": "2f757d212199ac9ffcefdfa50398c3b5349b43a6897e69a9b0018276ba09d3d0",
+    "docs/reviews/M1-NCR1/south-P/master-hero.png": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+    "docs/reviews/M1-NCR1/south-P/master-bald.png": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+    "docs/reviews/M1-NCR1/south-P/native-hero.png": "63e38bc697da7eac701158dcde790d1d1455fae395850b2c4c7ecb7b197762e1",
+    "docs/reviews/M1-NCR1/south-P/native-bald.png": "9c661d0270f420cf860931f5c80b558db620cf971f20183c235d96a3ecc6cc8a",
+    "docs/reviews/M1-NCR1/south-C/master-hero.png": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+    "docs/reviews/M1-NCR1/south-C/master-bald.png": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+    "docs/reviews/M1-NCR1/south-C/native-hero.png": "2b914f2fcdddbf9c1a02db833bd640af88e4acac13b035251d96e87f022e3534",
+    "docs/reviews/M1-NCR1/south-C/native-bald.png": "62c37c5c688dd28f9c0b93db1ad1f7b404dad835bec633cff1a5d17b6152cea4",
+    "docs/reviews/M1-NCR1/north-A/master-hero.png": "81a5b805c2e3c25b87f232471c1d9a4f3dfc6bff5f55754604e0f7ae5a0841e6",
+    "docs/reviews/M1-NCR1/north-A/master-bald.png": "e4195a6844d159a3621a56c44abcfc8c3ef15403972f3894fb10a52501bc262d",
+    "docs/reviews/M1-NCR1/north-A/native-hero.png": "577831c7e19438d30d4082e3f0b68ab54c66ecbe6408ad52864500491cebe8ea",
+    "docs/reviews/M1-NCR1/north-A/native-bald.png": "c442ef88360f348d17279cf249382a41de596cf7a250fd4abb301c673c013cf8",
+    "docs/reviews/M1-NCR1/west-A/master-hero.png": "0a556200a48a01dc1b3fa10b9c9678edf6cb5264a3f8ff080aea7544391e4bd5",
+    "docs/reviews/M1-NCR1/west-A/master-bald.png": "226d0c191c6d1f3b8e57d8a1ff10a61eaf2d3b782db2bec2323107e25e3ea575",
+    "docs/reviews/M1-NCR1/west-A/native-hero.png": "106a0f6a72cba004f59a3b45c650f6dba5b18688e2905e58aad6200271cb10ef",
+    "docs/reviews/M1-NCR1/west-A/native-bald.png": "b5a40867d1e8591a7ecb0a58339d0358f959cd4ac887f9018459263116a36b6c",
+    "docs/reviews/M1-NCR1/east-A/master-hero.png": "90141e9ebb4f4acac223964def8370e65fcf560081b7bff0363857902c2b4357",
+    "docs/reviews/M1-NCR1/east-A/master-bald.png": "0629599dc57a6b6a14f4b4a4a5311c025e552bb2e6a68c241fe83e77ec7193b2",
+    "docs/reviews/M1-NCR1/east-A/native-hero.png": "e28a0cdedeb58bf429fe7d3c1c4ba1b60eef3b4b63065818a1fd39525ef142be",
+    "docs/reviews/M1-NCR1/east-A/native-bald.png": "13c49f4427459aa085aad41eefb50c77bb27ba61195cc1c238b936f77d0838e2",
+    "docs/reviews/M1-NCR1/north-P/master-hero.png": "f043fb80f7229817df93ca279cd4605c80ec27b64cc5990553a60c47816806ee",
+    "docs/reviews/M1-NCR1/north-P/master-bald.png": "3df2017dfec01d0c27949082487319b995a9d6a7f9921884377e76c0240d5b78",
+    "docs/reviews/M1-NCR1/north-P/native-hero.png": "650d02f517a0fcaec12e1f7eb4cd476d9148e32e16fd4dc8c52163813f43f63e",
+    "docs/reviews/M1-NCR1/north-P/native-bald.png": "a44e8b510b29a23118dec4f274aa91440e92e0bba1fff1e23ff658e77397d011",
+    "docs/reviews/M1-NCR1/west-P/master-hero.png": "c787d86b2ab85b4988755a38d2802b97ec94a70dd8a0d3be770f6108db5d818c",
+    "docs/reviews/M1-NCR1/west-P/master-bald.png": "c859a376b93138ac6759dd0ef536f550727ff393f153e4fcc90f4f6f4f5ee63b",
+    "docs/reviews/M1-NCR1/west-P/native-hero.png": "ff7ddfab41d155cad9f9000fbfebbe6093b219655848781c1f60bb2601275c47",
+    "docs/reviews/M1-NCR1/west-P/native-bald.png": "31b55095927bb5d827b1233cd12af0733d7946b81d253fba78adb39c5cd0167d",
+    "docs/reviews/M1-NCR1/east-P/master-hero.png": "b170b07d2c8550df98b96606251cbbccb831e8c7436add56973aeb863c10a9e8",
+    "docs/reviews/M1-NCR1/east-P/master-bald.png": "54b5fbff6c5af96e528bac0760cca62ac988633775ad3734664f11afe6c3f71f",
+    "docs/reviews/M1-NCR1/east-P/native-hero.png": "82f4e26a8b5fc8c4a497f1878788c302389a605488b596899c16ff256be25eda",
+    "docs/reviews/M1-NCR1/east-P/native-bald.png": "abdc2389c495a4329a8876a71251ada1c56825e8b5d5db95582a3678571997b5",
+    "docs/reviews/M1-NCR1/north-C/master-hero.png": "8825bf0a6cb14813469f9185032e9c0f0828c6bb2295ad56007c24bbee48dbad",
+    "docs/reviews/M1-NCR1/north-C/master-bald.png": "9b256b254a81fcfd3fa44534c36a1f23587ef258c6317b22353eb22e3bec9328",
+    "docs/reviews/M1-NCR1/north-C/native-hero.png": "2b9c40762f3bad12b4bb853d0049aa8cef789ffe27fc1c913398e3bd12d4271b",
+    "docs/reviews/M1-NCR1/north-C/native-bald.png": "2c4c7e2e7b632134ad4711e344a6d447b7cb51d2d8cb3fe76c2f170ce1e5776c",
+    "docs/reviews/M1-NCR1/west-C/master-hero.png": "262c31026629cebe436408d48fc0c6ed94ad2fb75c1437ebed93bee56a1dcb9d",
+    "docs/reviews/M1-NCR1/west-C/master-bald.png": "e7f149b7a1774262d149aa4c191eb8a435310afd240bb5f8ceb2c24a7f90a68b",
+    "docs/reviews/M1-NCR1/west-C/native-hero.png": "448d522ff479f68e2652cf6c6a69e25b75fbd20b5743eb614bea64cb21fc11a8",
+    "docs/reviews/M1-NCR1/west-C/native-bald.png": "0e42f5c4946609f144554c42dd3d9518ceb7629fbca7186d78b7837efdb7e320",
+    "docs/reviews/M1-NCR1/east-C/master-hero.png": "6711d33be52b47b3e449ab82edc729f17b424a019d4a2afcf6805bd755348f64",
+    "docs/reviews/M1-NCR1/east-C/master-bald.png": "7aa47dafaa8b7ebbc1496313a9691592666d10a6df828fe271bf4a63a9431558",
+    "docs/reviews/M1-NCR1/east-C/native-hero.png": "3c89d183ae62a4bc9c0ad00e02d815a2f7d7ba731f59d2a311bc28bd590fc83b",
+    "docs/reviews/M1-NCR1/east-C/native-bald.png": "54b776b0541efb73f372c8d1fba675fe0febd0266389168358c44d7ee0050fe3"
+  },
+  "files": [
+    {
+      "file": "NCR1-INTERNAL-four-direction-before-after.png",
+      "panels": [
+        {
+          "src": "docs/reviews/M1-H4R1/south-idle/master-hero.png",
+          "big": [
+            12,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            50,
+            272,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/south-idle/master-bald.png",
+          "big": [
+            152,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            190,
+            272,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/south-idle/master-hero.png",
+          "big": [
+            292,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            330,
+            272,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/south-idle/master-bald.png",
+          "big": [
+            432,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            470,
+            272,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/south-idle/native-hero.png",
+          "big": [
+            572,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            610,
+            272,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/south-idle/native-bald.png",
+          "big": [
+            712,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            750,
+            272,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/south-idle/native-hero.png",
+          "big": [
+            852,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            890,
+            272,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/south-idle/native-bald.png",
+          "big": [
+            992,
+            72,
+            96,
+            192
+          ],
+          "native": [
+            1030,
+            272,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/north-idle/master-hero.png",
+          "big": [
+            12,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            50,
+            592,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/north-idle/master-bald.png",
+          "big": [
+            152,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            190,
+            592,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/north-idle/master-hero.png",
+          "big": [
+            292,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            330,
+            592,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/north-idle/master-bald.png",
+          "big": [
+            432,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            470,
+            592,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/north-idle/native-hero.png",
+          "big": [
+            572,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            610,
+            592,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/north-idle/native-bald.png",
+          "big": [
+            712,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            750,
+            592,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/north-idle/native-hero.png",
+          "big": [
+            852,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            890,
+            592,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/north-idle/native-bald.png",
+          "big": [
+            992,
+            392,
+            96,
+            192
+          ],
+          "native": [
+            1030,
+            592,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/west-idle/master-hero.png",
+          "big": [
+            12,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            50,
+            912,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/west-idle/master-bald.png",
+          "big": [
+            152,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            190,
+            912,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/west-idle/master-hero.png",
+          "big": [
+            292,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            330,
+            912,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/west-idle/master-bald.png",
+          "big": [
+            432,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            470,
+            912,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/west-idle/native-hero.png",
+          "big": [
+            572,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            610,
+            912,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/west-idle/native-bald.png",
+          "big": [
+            712,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            750,
+            912,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/west-idle/native-hero.png",
+          "big": [
+            852,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            890,
+            912,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/west-idle/native-bald.png",
+          "big": [
+            992,
+            712,
+            96,
+            192
+          ],
+          "native": [
+            1030,
+            912,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/east-idle/master-hero.png",
+          "big": [
+            12,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            50,
+            1232,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/east-idle/master-bald.png",
+          "big": [
+            152,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            190,
+            1232,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/east-idle/master-hero.png",
+          "big": [
+            292,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            330,
+            1232,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/east-idle/master-bald.png",
+          "big": [
+            432,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            470,
+            1232,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/east-idle/native-hero.png",
+          "big": [
+            572,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            610,
+            1232,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-H4R1/east-idle/native-bald.png",
+          "big": [
+            712,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            750,
+            1232,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/east-idle/native-hero.png",
+          "big": [
+            852,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            890,
+            1232,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "docs/reviews/M1-NCR1/east-idle/native-bald.png",
+          "big": [
+            992,
+            1032,
+            96,
+            192
+          ],
+          "native": [
+            1030,
+            1232,
+            16,
+            32
+          ]
+        }
+      ]
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "frames": [
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ]
+      ],
+      "holdsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loopMs": 800
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "frames": [
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/south-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          }
+        ]
+      ],
+      "holdsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loopMs": 3200
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "frames": [
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ]
+      ],
+      "holdsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loopMs": 540
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "frames": [
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-A/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-A/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-A/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-C/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-C/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-C/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ],
+        [
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-hero.png",
+            "big": [
+              12,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/master-bald.png",
+            "big": [
+              152,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              272,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-hero.png",
+            "big": [
+              292,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/north-P/native-bald.png",
+            "big": [
+              432,
+              72,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              272,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-hero.png",
+            "big": [
+              12,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/master-bald.png",
+            "big": [
+              152,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              592,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-hero.png",
+            "big": [
+              292,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/west-P/native-bald.png",
+            "big": [
+              432,
+              392,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              592,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-hero.png",
+            "big": [
+              12,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              50,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/master-bald.png",
+            "big": [
+              152,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              190,
+              912,
+              32,
+              64
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-hero.png",
+            "big": [
+              292,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              330,
+              912,
+              16,
+              32
+            ]
+          },
+          {
+            "src": "docs/reviews/M1-NCR1/east-P/native-bald.png",
+            "big": [
+              432,
+              712,
+              96,
+              192
+            ],
+            "native": [
+              470,
+              912,
+              16,
+              32
+            ]
+          }
+        ]
+      ],
+      "holdsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loopMs": 2160
+    }
+  ],
+  "decodedFrames": [
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 1,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 2,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 3,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 4,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 5,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 6,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 7,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-normal.gif",
+      "slot": 8,
+      "allRGBExact": true,
+      "holdMs": 100
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 1,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 2,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 3,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 4,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 5,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 6,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 7,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-south-walk-slow.gif",
+      "slot": 8,
+      "allRGBExact": true,
+      "holdMs": 400
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 1,
+      "allRGBExact": true,
+      "holdMs": 70
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 2,
+      "allRGBExact": true,
+      "holdMs": 60
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 3,
+      "allRGBExact": true,
+      "holdMs": 70
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 4,
+      "allRGBExact": true,
+      "holdMs": 70
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 5,
+      "allRGBExact": true,
+      "holdMs": 70
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 6,
+      "allRGBExact": true,
+      "holdMs": 60
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 7,
+      "allRGBExact": true,
+      "holdMs": 70
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "slot": 8,
+      "allRGBExact": true,
+      "holdMs": 70
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 1,
+      "allRGBExact": true,
+      "holdMs": 280
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 2,
+      "allRGBExact": true,
+      "holdMs": 240
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 3,
+      "allRGBExact": true,
+      "holdMs": 280
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 4,
+      "allRGBExact": true,
+      "holdMs": 280
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 5,
+      "allRGBExact": true,
+      "holdMs": 280
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 6,
+      "allRGBExact": true,
+      "holdMs": 240
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 7,
+      "allRGBExact": true,
+      "holdMs": 280
+    },
+    {
+      "file": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "slot": 8,
+      "allRGBExact": true,
+      "holdMs": 280
+    }
+  ]
+}

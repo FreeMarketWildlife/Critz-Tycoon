@@ -1,0 +1,825 @@
+{
+  "commit": "2c8fa4fef4c6872b05fce294a82b09f873876a6e",
+  "files": [
+    {
+      "path": "art/source/four-direction-refinement-r1/author_native.py",
+      "sha256": "10264e486d412149a58557002ed0e0bf99ca6bfb46d5f412922c08a6fba6b99c"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/build.py",
+      "sha256": "4fa34caebb9d6a799eb24cfb665f85032db0eaa0d3f6efd2f9550da0330e3a9d"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/changes.json",
+      "sha256": "d74af376a7b11fefa5a1bbaa591540aebb8fe9bad2c1f69579a35d30d878f2cf"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/checks.json",
+      "sha256": "9f98cf2f4cc0b9751c2a11cb85cfdd16d3b6a5ebc1eff9b5217b7a52ce9b744f"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/correspondence.json",
+      "sha256": "fe6f6862c7a65cb67d75b1f742678abbc08719bb9134e3187ec7c72745a8d4ee"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/freeze-manifest.json",
+      "sha256": "859077b611e3f63535003e59408396bef9875d6c572d6419000008399dd5f7b4"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/fruit-namespace-preservation.json",
+      "sha256": "bbf1f9f3615a8ae31e5f745865b304bc70b3e521b8f4758f59f56647c21d8bbc"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/native-authored-edits.json",
+      "sha256": "eafd917df119e5ccb03e43a79f73b67adf5c85d192a62d6eeef808e9a0dee84f"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/native-maps.json",
+      "sha256": "e5f51e17cf886854cb2e7366fdd5849b257880d7582b19457579da141d0d9846"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/north-exterior-audit.json",
+      "sha256": "7cff5b0a2d2ee2c73ac0100d2750b058c470f500217c0707fc7077f3c004f546"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/primary-reference-audit.json",
+      "sha256": "a3141c1166c9d129b37f71d7e497d70645e27353a47fc3968ac521b823e347f2"
+    },
+    {
+      "path": "art/source/four-direction-refinement-r1/source-derived-scaffold.json",
+      "sha256": "b12a5a8699ea8b1f063c56297fc84d71e64d6275c7cfb9e352a6b588009ef5f7"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/DIAGNOSIS.md",
+      "sha256": "a0f38741ecd7780089e8193cfd1fee9266c4f803bec91b9b4176fae347b6c9b1"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/README.md",
+      "sha256": "7f8747f0689df45578861e0cf7ddd62ea805603808800d728f7315f945e2e087"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/WRITER_VISUAL_REVIEW.json",
+      "sha256": "a813672a135b64dd6867d98a29d7c70437d7f0bf936c31f2c990237492eafac4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/all-direction-poses.png",
+      "sha256": "53aa0c05d9c9aebd271d5c9b2aec29cece08cb193b22356b8b391b0e3f5b8c06"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/countable-idle-grid.png",
+      "sha256": "35002fa5dbdc12a88bac5dc7034a200f3452b5125d25fa8b21895500f099f0a9"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/master-bald.png",
+      "sha256": "8ad31b6c41dc557d877086a40aad69abaae00d9314b2e4cdbeaa5daa1270f783"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/master-hair-shadow.png",
+      "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/master-hair.png",
+      "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/master-hero.png",
+      "sha256": "f269ab9ab6041cfed2a585ace9205f052790913256d5cf98be9ac53fb26a2ba6"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/native-bald.png",
+      "sha256": "ca276a5462eead8987a08260d1ada783c28f631e9c5e9ace97994a8a2b922ab3"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/native-hair.png",
+      "sha256": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/native-hero.png",
+      "sha256": "22635e36bd77ac5c67c4821c969bc79839a8869f9be4e7d51b80c8d5e664fa8d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/native-observed-pack.png",
+      "sha256": "ad58cc3d1cccb04cde73881ce59bb3329e0cf00f6a890257ac6820c053990be8"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/native-recomposed-hero.png",
+      "sha256": "22635e36bd77ac5c67c4821c969bc79839a8869f9be4e7d51b80c8d5e664fa8d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-A/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/master-bald.png",
+      "sha256": "d54bbcd95071b0cdc9cb3d5285b01bc1c78868d466b7b71293acea33b374f7e3"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/master-hair-shadow.png",
+      "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/master-hair.png",
+      "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/master-hero.png",
+      "sha256": "27085013d9fc2abaf1b49112894995381dc3c7a9fa17d34c5ea6a17f2941daa4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/native-bald.png",
+      "sha256": "71be0d39d53a72e68070e1a9434db667b1fe5d1369fca0dc98a5e8f1410f951e"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/native-hair.png",
+      "sha256": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/native-hero.png",
+      "sha256": "1eac5e9a6a350349472a2626dc72a9f176342f501a5a19cb40bb42a9b4017946"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/native-observed-pack.png",
+      "sha256": "ad58cc3d1cccb04cde73881ce59bb3329e0cf00f6a890257ac6820c053990be8"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/native-recomposed-hero.png",
+      "sha256": "1eac5e9a6a350349472a2626dc72a9f176342f501a5a19cb40bb42a9b4017946"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-C/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/master-bald.png",
+      "sha256": "7540713f4e96e2e9d1147da49b5e3f0c98d69e606ac22ee4ff831e4623de31c4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/master-hair-shadow.png",
+      "sha256": "f4903eeafb13278fd908f05c9cceee747382366a4550887f165c29e7a3212e40"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/master-hair.png",
+      "sha256": "e79a635bdce397e52b0077423bbb85dc775164d55e01614f15439f8553d81cd6"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/master-hero.png",
+      "sha256": "16f4dd4b3b2d962da993a3d5386bc1c74a3c69de538b2f9137b04d11f3895919"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/native-bald.png",
+      "sha256": "0fac82aeee0d2a4251736e8b6688ea8abba36a57a7cb14794a7953c41dfe1f2a"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/native-hair.png",
+      "sha256": "d52b307fb1e871b5e753b75a734444ef61fa04795cafa033056d56a176cd1818"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/native-hero.png",
+      "sha256": "254b7f6966be352b16ea479a9c6f0dd1b0a9d6696b057eab80084b6ea0631cd4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/native-observed-pack.png",
+      "sha256": "2c7d13f5421c5623d8d9cf618b3d6cab0529df7b60c24a8a2a741f561efca102"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/native-recomposed-hero.png",
+      "sha256": "254b7f6966be352b16ea479a9c6f0dd1b0a9d6696b057eab80084b6ea0631cd4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-P/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/master-bald.png",
+      "sha256": "fb541299f6731a319ba281b47a3a921c73b10142b2ef5ec224091b17fd43b8d4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/master-hair-shadow.png",
+      "sha256": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/master-hair.png",
+      "sha256": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/master-hero.png",
+      "sha256": "c115ac5f55b7cb66e9b112021989e7e63346823ba846af5c952eb70d233ccd44"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/native-bald.png",
+      "sha256": "7f908808cd68d779f38ab8cab484777bfd9778782a807eb017b777f96634ca14"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/native-hair.png",
+      "sha256": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/native-hero.png",
+      "sha256": "9a02d62ccd031ab379ad2026558596040290c39b8206ec0e7396a6bdf8965a03"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/native-observed-pack.png",
+      "sha256": "a478c933eb217e17047c26dbc504b0027c6598f7408d095f54dd4fff5fb8d23b"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/native-recomposed-hero.png",
+      "sha256": "9a02d62ccd031ab379ad2026558596040290c39b8206ec0e7396a6bdf8965a03"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-idle/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-paired-existing-walk-normal.gif",
+      "sha256": "dadb6765f33256756d6384a6180cdf48136defccfd7a8f96feba7bdeb0adcdc9"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/east-paired-existing-walk-slow.gif",
+      "sha256": "d65e19e03bc977dcafcbdf9fb476f4c60f27773b8d6ca456fde842eda22a1062"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/four-direction-idles.png",
+      "sha256": "9d82d39c72a8f0a8a854e709b4bbb8811087ad16c694030d9f3233c58ae4fe3a"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/motion-review.html",
+      "sha256": "d6bbdfbe32832367a4d14b4008f1a7ed4c71dcac150535bf04ec3c43c27425c5"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/master-bald.png",
+      "sha256": "ed0c824faa140aab16561a7aba3b7858bae7def0a9687337b4dd8ae99df210bb"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/master-hair-shadow.png",
+      "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/master-hair.png",
+      "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/master-hero.png",
+      "sha256": "7a753e6f27fc48921339f581486abb4a62910804f379e7bfdd677bee1a201c2d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/native-bald.png",
+      "sha256": "a14f972050e055628bb632403fa28c46dd9ac2f05109b8b3ba8a1186431b1d35"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/native-hair-shadow.png",
+      "sha256": "622287ee79c4e7b9dac3e6a99db2b4065eeae3ddcf5f03094687feb3f89b8f8f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/native-hair.png",
+      "sha256": "8af580ab5d883a133dfa5a887a2f7fbe1e886147e12bf185b893fc18665e768d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/native-hero.png",
+      "sha256": "c19de2cf9a40e8d0c656dcd6173559bf6e426dc6746907bbca1fd4994cc6fb72"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/native-observed-pack.png",
+      "sha256": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/native-recomposed-hero.png",
+      "sha256": "c19de2cf9a40e8d0c656dcd6173559bf6e426dc6746907bbca1fd4994cc6fb72"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-A/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/master-bald.png",
+      "sha256": "e8ffc6c3b39dd2969a4eaef992ba730e46fa8a173ff41329203cf573204f4d6c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/master-hair-shadow.png",
+      "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/master-hair.png",
+      "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/master-hero.png",
+      "sha256": "28c82322c819d0bc75d115317efa40deb4633cfcafb3b2bf76171f7a06cd576f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/native-bald.png",
+      "sha256": "04d552386ba595fc2b35a5ff6cae087c60a999a988004fd098c6eddd280575d2"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/native-hair-shadow.png",
+      "sha256": "622287ee79c4e7b9dac3e6a99db2b4065eeae3ddcf5f03094687feb3f89b8f8f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/native-hair.png",
+      "sha256": "8af580ab5d883a133dfa5a887a2f7fbe1e886147e12bf185b893fc18665e768d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/native-hero.png",
+      "sha256": "6aa28b286b56342e34ddcd0938557800dc5678b2038398fba1cb69b1702a286e"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/native-observed-pack.png",
+      "sha256": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/native-recomposed-hero.png",
+      "sha256": "6aa28b286b56342e34ddcd0938557800dc5678b2038398fba1cb69b1702a286e"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-C/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/master-bald.png",
+      "sha256": "2152915b52c12c74fb3f296dc4422212e18652ab668a647965d3808834b0246c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/master-hair-shadow.png",
+      "sha256": "312db936dd59b001e66341c7a94c3b275ad867f9b5736e165d9291f6b1293e6c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/master-hair.png",
+      "sha256": "4681d80bd5c75997ec19b5bb43e94ec32aacbd4748e742302c323b3c7b536f24"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/master-hero.png",
+      "sha256": "5d002cb3ccd3194a0e991a34f955275b70900783e6417aec85c14133d16fcf5f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/native-bald.png",
+      "sha256": "59dfd5fc1ebc38ec339f3a6e65f998ca0651ba43c5f6abd8bed90b17da047e12"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/native-hair-shadow.png",
+      "sha256": "136bd7f110f725aaf34d8a175e37f8eecba4ae528ed4ff8df47746fac4b8dd6f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/native-hair.png",
+      "sha256": "e46967a06093efa8eb031cb3be7aea4ceca466fe5f0b8aa9ead33c8fdc628989"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/native-hero.png",
+      "sha256": "3ab83b7e36b78ca6225a38dccc34d06b2f2ba7964fb0a2b02f891feb00dec9d6"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/native-observed-pack.png",
+      "sha256": "2f648741ecfe14153a01160c8a3823d6949ee6154c6f0c5a1898cdd4d35b392f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/native-recomposed-hero.png",
+      "sha256": "3ab83b7e36b78ca6225a38dccc34d06b2f2ba7964fb0a2b02f891feb00dec9d6"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-P/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-all-poses.png",
+      "sha256": "b4c60106f4e4c3441c321b438b6081bafc354eabc33445e3eaa55c8fb6fa9dcc"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-before-after.png",
+      "sha256": "5ccb0b6a7b004e2619019bc459a1364cdad34777c8d0b1f40254e7390155cab0"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/master-bald.png",
+      "sha256": "3d0e3551c4d62e63f1131ce79c335a1844627b2efd204a9efdcdc0864d404872"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/master-hair-shadow.png",
+      "sha256": "fb2b446cd15531ed013de76c99f47343ef127ce3526b0edee85ffbce11756649"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/master-hair.png",
+      "sha256": "9d6d7e4b2dd212d30279de54c2d82eed26590bc0dc802874ea54d24ba7fb8ba0"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/master-hero.png",
+      "sha256": "61553967ac7a2782514d6279ae717f981e7891bdbba5ba7054ed7f16d9321103"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/native-bald.png",
+      "sha256": "db990ae2ea49d542af622d2063eb5ce8d8769d76032c042cf8b473e7fd83eba9"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/native-hair-shadow.png",
+      "sha256": "622287ee79c4e7b9dac3e6a99db2b4065eeae3ddcf5f03094687feb3f89b8f8f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/native-hair.png",
+      "sha256": "8af580ab5d883a133dfa5a887a2f7fbe1e886147e12bf185b893fc18665e768d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/native-hero.png",
+      "sha256": "9dafb3a12d70054a69863bd8043a474dbed3d865ad33d81aa8d67d835fa8205f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/native-observed-pack.png",
+      "sha256": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/native-recomposed-hero.png",
+      "sha256": "9dafb3a12d70054a69863bd8043a474dbed3d865ad33d81aa8d67d835fa8205f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-idle/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-paired-existing-walk-normal.gif",
+      "sha256": "1efe579a9b04479b2939e4416a7cb8a59263e762886bbb368b1848a6776a4b77"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/north-paired-existing-walk-slow.gif",
+      "sha256": "18c1c5fc3e2e1610cbcf05d8187d706b3e720f9bc0c4f1b319b33bf757824296"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/master-bald.png",
+      "sha256": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/master-hair-shadow.png",
+      "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/master-hair.png",
+      "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/master-hero.png",
+      "sha256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/native-bald.png",
+      "sha256": "7da8d3b47d305ec619d29ce1fd80f52a7b688ee43ec91930ba09f33cbe9ab4e4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/native-hair-shadow.png",
+      "sha256": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/native-hair.png",
+      "sha256": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/native-hero.png",
+      "sha256": "42662f3af6767002fc5cb0b89df7b54d63745bc90f59b34b9b67e3dd1e7848ce"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/native-observed-pack.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/native-recomposed-hero.png",
+      "sha256": "42662f3af6767002fc5cb0b89df7b54d63745bc90f59b34b9b67e3dd1e7848ce"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-A/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/master-bald.png",
+      "sha256": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/master-hair-shadow.png",
+      "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/master-hair.png",
+      "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/master-hero.png",
+      "sha256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/native-bald.png",
+      "sha256": "18387b51f53385e9b7536a95ff209897d5b05adef72339e4a642e1bd8b34c9e7"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/native-hair-shadow.png",
+      "sha256": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/native-hair.png",
+      "sha256": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/native-hero.png",
+      "sha256": "7ef70f64c0de735621bba6d5b47eeda743095b132ec8c384b23a6979b2db6272"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/native-observed-pack.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/native-recomposed-hero.png",
+      "sha256": "7ef70f64c0de735621bba6d5b47eeda743095b132ec8c384b23a6979b2db6272"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-C/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/master-bald.png",
+      "sha256": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/master-hair-shadow.png",
+      "sha256": "e128c048a3e5182df6d25d837ae44e6bf870b30036cb40de3241aa2ca12ce01b"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/master-hair.png",
+      "sha256": "8f2971313b13f60742419d5971ded9660888b4990b0382488de740b6f23ef38d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/master-hero.png",
+      "sha256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/native-bald.png",
+      "sha256": "c3c09b380b5cf8936fe5654765835d63d5754f71e0e53388ef3e537fa64117d4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/native-hair-shadow.png",
+      "sha256": "6bc83c010df370caee202735e92a3f679228e30b330145bda1c1f6f5ffa3176d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/native-hair.png",
+      "sha256": "c0e4b04729b58f324f2f6ed10a49ebbdaaff0623af29459a43d04e12d4dbb291"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/native-hero.png",
+      "sha256": "5e5b7c61d7536c6fd39f38a4dcf3bba8bf6df0ea2bade6838b62617244bcfd54"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/native-observed-pack.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/native-recomposed-hero.png",
+      "sha256": "5e5b7c61d7536c6fd39f38a4dcf3bba8bf6df0ea2bade6838b62617244bcfd54"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-P/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/master-bald.png",
+      "sha256": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/master-hair-shadow.png",
+      "sha256": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/master-hair.png",
+      "sha256": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/master-hero.png",
+      "sha256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/native-bald.png",
+      "sha256": "ca8390d2f4355661b2f72aa87392e62214ce8d81ae632376ea3a503f71d850ea"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/native-hair-shadow.png",
+      "sha256": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/native-hair.png",
+      "sha256": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/native-hero.png",
+      "sha256": "363a76ba302fbb34a64e33fe214f5f78ddcd162e95489e7a6eb08140409d5a0e"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/native-observed-pack.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/native-recomposed-hero.png",
+      "sha256": "363a76ba302fbb34a64e33fe214f5f78ddcd162e95489e7a6eb08140409d5a0e"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-idle/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-paired-existing-walk-normal.gif",
+      "sha256": "29a32fa243360dce30b592731a9c33b51b949777a51f598fd741a3d7a792f734"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/south-paired-existing-walk-slow.gif",
+      "sha256": "aa56edeb9d0dddf783f9edeed9cd4875e5cc5a7bfeadbdf481aecdefd34c3d36"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/master-bald.png",
+      "sha256": "3df568b17954d049bb3594e3ba720df2fd1054e894682de598ec89a24336e5bf"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/master-hair-shadow.png",
+      "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/master-hair.png",
+      "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/master-hero.png",
+      "sha256": "d6f7cbc07ab7f2d2291f9a6cfd051b383dc6ea92389853b4c09a8ab146d19bea"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/native-bald.png",
+      "sha256": "9305894e4dfd58a5bc8fbfadc2b42707e9fc1db04086db7ed85ed07a8b15a197"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/native-hair.png",
+      "sha256": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/native-hero.png",
+      "sha256": "039c0f3cd8888c5368713852e22e34af6241f073d944a918d5675296d2adcebe"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/native-observed-pack.png",
+      "sha256": "fea38b0aaf02ba05c07edb32d7c5cb58685aa3d0cce3b9bf25e5e8de8a242529"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/native-recomposed-hero.png",
+      "sha256": "039c0f3cd8888c5368713852e22e34af6241f073d944a918d5675296d2adcebe"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-A/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/master-bald.png",
+      "sha256": "df6f010053cdf03861fafc5bed310fc72b081e928c3b71efde7a4bc8a20328f4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/master-hair-shadow.png",
+      "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/master-hair.png",
+      "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/master-hero.png",
+      "sha256": "8e3d089c24e75c3fc5f2fae71943d9782d44af1e4350d06fab2a49f61dc1ef9d"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/native-bald.png",
+      "sha256": "1056edd391de02aa6a12023d471c37a7317336f69b7dc65aeb407a78fcffe300"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/native-hair.png",
+      "sha256": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/native-hero.png",
+      "sha256": "156f7f1f19bc43e7319c704dc985e5a817b2c44ab532e813e1a6a91ab187feec"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/native-observed-pack.png",
+      "sha256": "953a40b03d740181ca018692724ba1d1cb9cba005b5a5b18eef1a9c8b9579250"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/native-recomposed-hero.png",
+      "sha256": "156f7f1f19bc43e7319c704dc985e5a817b2c44ab532e813e1a6a91ab187feec"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-C/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/master-bald.png",
+      "sha256": "bb3559ccc49f85bb6507f3ce04c850b172300aad569317c508978687d4bbe1a5"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/master-hair-shadow.png",
+      "sha256": "946ffda75f3ed1f15f03eb8ac7965d0cacf34662e64718c59613d225e81bbf45"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/master-hair.png",
+      "sha256": "e68652155571c207258028564e9724c84ece3e51f96d659747a5e11bdf7615e1"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/master-hero.png",
+      "sha256": "45bed3db13ceca2b0004494a3be2432a6e2cb92c657dfdb3e53d14f4e4d3ed9f"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/native-bald.png",
+      "sha256": "4fae546d4124f4bf12f9af9eae90ba84bc6c2f07745fef5577bffa715df11653"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/native-hair.png",
+      "sha256": "143045a55272e16a60714ec3ab04ca7a63cac688de75cb2c8796d25b108105c8"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/native-hero.png",
+      "sha256": "bb38346cd60af0d2d9dd90c2f4019efd709cbae11db3d9ea7a115c7e12fa6ea3"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/native-observed-pack.png",
+      "sha256": "6246d2407e86f29c8a0af193567cba6c2edb812c5a658f2035001c4e898d40fe"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/native-recomposed-hero.png",
+      "sha256": "bb38346cd60af0d2d9dd90c2f4019efd709cbae11db3d9ea7a115c7e12fa6ea3"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-P/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/master-bald.png",
+      "sha256": "9a41b63b133a5ae7353ebf9bc9d0cdf2c21f70908fc5cb97d2e140460eb35979"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/master-hair-shadow.png",
+      "sha256": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/master-hair.png",
+      "sha256": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/master-hero.png",
+      "sha256": "5d411e0e98d8bdf0640ce06cbe4eb734b61d9a3c5b7bf1d2541240d51fd41525"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/native-bald.png",
+      "sha256": "17907b53b1ac2b26ff4806d44714ebc8b0eec80d9cd56197c48058854c1f6a05"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/native-hair-shadow.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/native-hair.png",
+      "sha256": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/native-hero.png",
+      "sha256": "3141b14860553c1392b71f6113e402e7d7e155890ab87ffbcc9842db9184bf26"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/native-observed-pack.png",
+      "sha256": "953a40b03d740181ca018692724ba1d1cb9cba005b5a5b18eef1a9c8b9579250"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/native-recomposed-hero.png",
+      "sha256": "3141b14860553c1392b71f6113e402e7d7e155890ab87ffbcc9842db9184bf26"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-idle/native-scalp-cutout.png",
+      "sha256": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-paired-existing-walk-normal.gif",
+      "sha256": "c81621d8be16e16dae550c877260dbfe4e04fb8a2912dd290a92d64b6e6d39b1"
+    },
+    {
+      "path": "docs/reviews/M1-H4R1/west-paired-existing-walk-slow.gif",
+      "sha256": "8a15adccc86fb115d2caf2ce0e2875cae68c7b0e20a568950e961f40adc66363"
+    }
+  ]
+}

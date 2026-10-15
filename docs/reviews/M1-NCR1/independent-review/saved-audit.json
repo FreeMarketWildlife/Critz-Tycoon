@@ -1,0 +1,6248 @@
+{
+  "beforeSHA": "2c8fa4fef4c6872b05fce294a82b09f873876a6e",
+  "checks": [
+    {
+      "check": "south-idlehero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-idle master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "south-idle master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-idle native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-idle native body common",
+      "pass": true
+    },
+    {
+      "check": "south-idle native dimensions",
+      "pass": true
+    },
+    {
+      "check": "south-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-idle native palette source family",
+      "pass": true
+    },
+    {
+      "check": "south-idle native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-idle actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "south-idle outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "south-idle contact row half",
+      "pass": true
+    },
+    {
+      "check": "south-idle contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "south-idle contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-Abald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-Abald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-Abald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Abald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Abald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Abald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-Abald protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-A master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "south-A master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-A native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-A native body common",
+      "pass": true
+    },
+    {
+      "check": "south-A native dimensions",
+      "pass": true
+    },
+    {
+      "check": "south-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-A native palette source family",
+      "pass": true
+    },
+    {
+      "check": "south-A native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Abald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-A actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "south-A outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "south-A contact row half",
+      "pass": true
+    },
+    {
+      "check": "south-A contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "south-A contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "south-Phero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-Phero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-Phero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Phero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Phero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Phero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-Phero protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-P master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "south-P master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-P native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-P native body common",
+      "pass": true
+    },
+    {
+      "check": "south-P native dimensions",
+      "pass": true
+    },
+    {
+      "check": "south-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-P native palette source family",
+      "pass": true
+    },
+    {
+      "check": "south-P native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Phero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-P actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "south-P outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "south-P contact row half",
+      "pass": true
+    },
+    {
+      "check": "south-P contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "south-P contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "south-Chero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-Chero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-Chero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Chero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Chero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Chero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-Chero protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald protected front file bytes exact",
+      "pass": true
+    },
+    {
+      "check": "south-C master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "south-C master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-C native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-C native body common",
+      "pass": true
+    },
+    {
+      "check": "south-C native dimensions",
+      "pass": true
+    },
+    {
+      "check": "south-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-C native palette source family",
+      "pass": true
+    },
+    {
+      "check": "south-C native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "south-Chero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "south-C actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "south-C outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "south-C contact row half",
+      "pass": true
+    },
+    {
+      "check": "south-C contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "south-C contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "southidle native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "southA native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "southP native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "southC native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-idle master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "north-idle master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-idle native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-idle native body common",
+      "pass": true
+    },
+    {
+      "check": "north-idle native dimensions",
+      "pass": true
+    },
+    {
+      "check": "north-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-idle native palette source family",
+      "pass": true
+    },
+    {
+      "check": "north-idle native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-idle actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "north-idle outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "north-idle contact row half",
+      "pass": true
+    },
+    {
+      "check": "north-idle contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "north-idle contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-Abald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-Abald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-Abald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Abald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Abald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Abald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-A master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "north-A master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-A native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-A native body common",
+      "pass": true
+    },
+    {
+      "check": "north-A native dimensions",
+      "pass": true
+    },
+    {
+      "check": "north-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-A native palette source family",
+      "pass": true
+    },
+    {
+      "check": "north-A native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Abald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-A actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "north-A outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "north-A contact row half",
+      "pass": true
+    },
+    {
+      "check": "north-A contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "north-A contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "north-Phero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-Phero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-Phero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Phero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Phero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Phero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-P master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "north-P master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-P native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-P native body common",
+      "pass": true
+    },
+    {
+      "check": "north-P native dimensions",
+      "pass": true
+    },
+    {
+      "check": "north-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-P native palette source family",
+      "pass": true
+    },
+    {
+      "check": "north-P native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Phero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-P actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "north-P outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "north-P contact row half",
+      "pass": true
+    },
+    {
+      "check": "north-P contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "north-P contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "north-Chero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-Chero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-Chero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Chero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Chero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Chero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "north-C master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "north-C master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-C native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-C native body common",
+      "pass": true
+    },
+    {
+      "check": "north-C native dimensions",
+      "pass": true
+    },
+    {
+      "check": "north-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-C native palette source family",
+      "pass": true
+    },
+    {
+      "check": "north-C native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "north-Chero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "north-C actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "north-C outlined ear extremities",
+      "pass": true
+    },
+    {
+      "check": "north-C contact row half",
+      "pass": true
+    },
+    {
+      "check": "north-C contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "north-C contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "northidle native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "northA native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "northP native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "northC native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-idle master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "west-idle master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-idle native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-idle native body common",
+      "pass": true
+    },
+    {
+      "check": "west-idle native dimensions",
+      "pass": true
+    },
+    {
+      "check": "west-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-idle native palette source family",
+      "pass": true
+    },
+    {
+      "check": "west-idle native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-idle actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "west-idle contact row half",
+      "pass": true
+    },
+    {
+      "check": "west-idle contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "west-idle contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-Abald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-Abald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-Abald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Abald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Abald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Abald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-A master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "west-A master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-A native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-A native body common",
+      "pass": true
+    },
+    {
+      "check": "west-A native dimensions",
+      "pass": true
+    },
+    {
+      "check": "west-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-A native palette source family",
+      "pass": true
+    },
+    {
+      "check": "west-A native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Abald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-A actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "west-A contact row half",
+      "pass": true
+    },
+    {
+      "check": "west-A contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "west-A contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "west-Phero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-Phero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-Phero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Phero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Phero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Phero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-P master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "west-P master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-P native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-P native body common",
+      "pass": true
+    },
+    {
+      "check": "west-P native dimensions",
+      "pass": true
+    },
+    {
+      "check": "west-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-P native palette source family",
+      "pass": true
+    },
+    {
+      "check": "west-P native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Phero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-P actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "west-P contact row half",
+      "pass": true
+    },
+    {
+      "check": "west-P contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "west-P contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "west-Chero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-Chero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-Chero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Chero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Chero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Chero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "west-C master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "west-C master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-C native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-C native body common",
+      "pass": true
+    },
+    {
+      "check": "west-C native dimensions",
+      "pass": true
+    },
+    {
+      "check": "west-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-C native palette source family",
+      "pass": true
+    },
+    {
+      "check": "west-C native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "west-Chero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "west-C actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "west-C contact row half",
+      "pass": true
+    },
+    {
+      "check": "west-C contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "west-C contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "westidle native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "westA native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "westP native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "westC native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-idle master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "east-idle master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-idle native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-idle native body common",
+      "pass": true
+    },
+    {
+      "check": "east-idle native dimensions",
+      "pass": true
+    },
+    {
+      "check": "east-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-idle native palette source family",
+      "pass": true
+    },
+    {
+      "check": "east-idle native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-idle actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "east-idle contact row half",
+      "pass": true
+    },
+    {
+      "check": "east-idle contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "east-idle contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-Abald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-Abald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-Abald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Abald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Abald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Abald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-A master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "east-A master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-A native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-A native body common",
+      "pass": true
+    },
+    {
+      "check": "east-A native dimensions",
+      "pass": true
+    },
+    {
+      "check": "east-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-A native palette source family",
+      "pass": true
+    },
+    {
+      "check": "east-A native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Abald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-A actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "east-A contact row half",
+      "pass": true
+    },
+    {
+      "check": "east-A contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "east-A contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "east-Phero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-Phero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-Phero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Phero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Phero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Phero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-P master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "east-P master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-P native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-P native body common",
+      "pass": true
+    },
+    {
+      "check": "east-P native dimensions",
+      "pass": true
+    },
+    {
+      "check": "east-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-P native palette source family",
+      "pass": true
+    },
+    {
+      "check": "east-P native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Phero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-P actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "east-P contact row half",
+      "pass": true
+    },
+    {
+      "check": "east-P contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "east-P contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "east-Chero full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-Chero existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-Chero <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Chero exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Chero entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Chero only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald full alpha/footprint",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald existing shared palette",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald exterior RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald entire contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald only authorized shoe/nape regions",
+      "pass": true
+    },
+    {
+      "check": "east-C master upper bald exact",
+      "pass": true
+    },
+    {
+      "check": "east-C master real separate hair exact recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-C native actual separate hair recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-C native body common",
+      "pass": true
+    },
+    {
+      "check": "east-C native dimensions",
+      "pass": true
+    },
+    {
+      "check": "east-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-C native palette source family",
+      "pass": true
+    },
+    {
+      "check": "east-C native <=15 opaque colors",
+      "pass": true
+    },
+    {
+      "check": "east-Chero native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald native lower silhouette preserved",
+      "pass": true
+    },
+    {
+      "check": "east-C actual registered bald eyes readable",
+      "pass": true
+    },
+    {
+      "check": "east-C contact row half",
+      "pass": true
+    },
+    {
+      "check": "east-C contact run widths half",
+      "pass": true
+    },
+    {
+      "check": "east-C contact edge rounding <=1",
+      "pass": true
+    },
+    {
+      "check": "eastidle native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "eastA native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "eastP native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "eastC native observed pack exact normalized",
+      "pass": true
+    },
+    {
+      "check": "idlemasterhero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "idlemasterbald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "idlenativehero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "idlenativebald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Amasterhero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Amasterbald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Anativehero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Anativebald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Pmasterhero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Pmasterbald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Pnativehero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Pnativebald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Cmasterhero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Cmasterbald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Cnativehero intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "Cnativebald intended lower mirror",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/author_native.py",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/build.py",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/changes.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/checks.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/correspondence.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/freeze-manifest.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/fruit-namespace-preservation.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/native-authored-edits.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/native-maps.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/north-exterior-audit.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/primary-reference-audit.json",
+      "pass": true
+    },
+    {
+      "check": "history art/source/four-direction-refinement-r1/source-derived-scaffold.json",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/DIAGNOSIS.md",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/README.md",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/WRITER_VISUAL_REVIEW.json",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/all-direction-poses.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/countable-idle-grid.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-A/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-C/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-P/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-idle/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-paired-existing-walk-normal.gif",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/east-paired-existing-walk-slow.gif",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/four-direction-idles.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/motion-review.html",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-A/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-C/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-P/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-all-poses.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-before-after.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-idle/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-paired-existing-walk-normal.gif",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/north-paired-existing-walk-slow.gif",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-A/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-C/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-P/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-idle/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-paired-existing-walk-normal.gif",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/south-paired-existing-walk-slow.gif",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-A/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-C/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-P/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/master-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/master-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/native-hair-shadow.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/native-hair.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/native-observed-pack.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/native-recomposed-hero.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-idle/native-scalp-cutout.png",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-paired-existing-walk-normal.gif",
+      "pass": true
+    },
+    {
+      "check": "history docs/reviews/M1-H4R1/west-paired-existing-walk-slow.gif",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/south-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/north-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/west-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-idle/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-idle/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-idle/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-idle/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-A/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-A/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-A/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-A/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-P/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-P/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-P/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-P/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-C/master-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-C/master-bald.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-C/native-hero.png",
+      "pass": true
+    },
+    {
+      "check": "before pinned docs/reviews/M1-H4R1/east-C/native-bald.png",
+      "pass": true
+    },
+    {
+      "check": "creator no diff",
+      "pass": true
+    }
+  ],
+  "passed": 734,
+  "facts": {
+    "south-idle": {
+      "masterHeroChangedSites": [],
+      "masterBaldChangedSites": [],
+      "nativeContact": [
+        [
+          4,
+          6
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "masterContact": [
+        [
+          9,
+          13
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          9,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        1,
+        13,
+        15,
+        31
+      ]
+    },
+    "south-A": {
+      "masterHeroChangedSites": [],
+      "masterBaldChangedSites": [],
+      "nativeContact": [
+        [
+          9,
+          11
+        ]
+      ],
+      "masterContact": [
+        [
+          17,
+          21
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          9,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ]
+    },
+    "south-P": {
+      "masterHeroChangedSites": [],
+      "masterBaldChangedSites": [],
+      "nativeContact": [
+        [
+          4,
+          6
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "masterContact": [
+        [
+          9,
+          13
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          6,
+          18
+        ],
+        [
+          6,
+          19
+        ],
+        [
+          9,
+          18
+        ],
+        [
+          9,
+          19
+        ]
+      ],
+      "nativeBaldBounds": [
+        1,
+        12,
+        15,
+        30
+      ]
+    },
+    "south-C": {
+      "masterHeroChangedSites": [],
+      "masterBaldChangedSites": [],
+      "nativeContact": [
+        [
+          5,
+          7
+        ]
+      ],
+      "masterContact": [
+        [
+          11,
+          15
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          6,
+          19
+        ],
+        [
+          6,
+          20
+        ],
+        [
+          9,
+          19
+        ],
+        [
+          9,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ]
+    },
+    "north-idle": {
+      "masterHeroChangedSites": [
+        [
+          8,
+          42
+        ],
+        [
+          9,
+          42
+        ],
+        [
+          10,
+          42
+        ],
+        [
+          11,
+          42
+        ],
+        [
+          12,
+          42
+        ],
+        [
+          13,
+          42
+        ],
+        [
+          14,
+          42
+        ],
+        [
+          15,
+          42
+        ],
+        [
+          16,
+          42
+        ],
+        [
+          17,
+          42
+        ],
+        [
+          18,
+          42
+        ],
+        [
+          19,
+          42
+        ],
+        [
+          20,
+          42
+        ],
+        [
+          21,
+          42
+        ],
+        [
+          22,
+          42
+        ],
+        [
+          23,
+          42
+        ],
+        [
+          10,
+          43
+        ],
+        [
+          11,
+          43
+        ],
+        [
+          12,
+          43
+        ],
+        [
+          13,
+          43
+        ],
+        [
+          14,
+          43
+        ],
+        [
+          15,
+          43
+        ],
+        [
+          16,
+          43
+        ],
+        [
+          17,
+          43
+        ],
+        [
+          18,
+          43
+        ],
+        [
+          19,
+          43
+        ],
+        [
+          20,
+          43
+        ],
+        [
+          21,
+          43
+        ],
+        [
+          11,
+          44
+        ],
+        [
+          12,
+          44
+        ],
+        [
+          13,
+          44
+        ],
+        [
+          14,
+          44
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          18,
+          44
+        ],
+        [
+          19,
+          44
+        ],
+        [
+          20,
+          44
+        ],
+        [
+          21,
+          44
+        ],
+        [
+          8,
+          58
+        ],
+        [
+          10,
+          58
+        ],
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          21,
+          58
+        ],
+        [
+          23,
+          58
+        ],
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          9,
+          60
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          8,
+          58
+        ],
+        [
+          10,
+          58
+        ],
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          21,
+          58
+        ],
+        [
+          23,
+          58
+        ],
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          9,
+          60
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          7
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "masterContact": [
+        [
+          8,
+          14
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "nativeEyeSites": [],
+      "nativeBaldBounds": [
+        1,
+        13,
+        15,
+        31
+      ]
+    },
+    "north-A": {
+      "masterHeroChangedSites": [
+        [
+          8,
+          42
+        ],
+        [
+          9,
+          42
+        ],
+        [
+          10,
+          42
+        ],
+        [
+          11,
+          42
+        ],
+        [
+          12,
+          42
+        ],
+        [
+          13,
+          42
+        ],
+        [
+          14,
+          42
+        ],
+        [
+          15,
+          42
+        ],
+        [
+          16,
+          42
+        ],
+        [
+          17,
+          42
+        ],
+        [
+          18,
+          42
+        ],
+        [
+          19,
+          42
+        ],
+        [
+          20,
+          42
+        ],
+        [
+          21,
+          42
+        ],
+        [
+          22,
+          42
+        ],
+        [
+          23,
+          42
+        ],
+        [
+          10,
+          43
+        ],
+        [
+          11,
+          43
+        ],
+        [
+          12,
+          43
+        ],
+        [
+          13,
+          43
+        ],
+        [
+          14,
+          43
+        ],
+        [
+          15,
+          43
+        ],
+        [
+          16,
+          43
+        ],
+        [
+          17,
+          43
+        ],
+        [
+          18,
+          43
+        ],
+        [
+          19,
+          43
+        ],
+        [
+          20,
+          43
+        ],
+        [
+          21,
+          43
+        ],
+        [
+          11,
+          44
+        ],
+        [
+          12,
+          44
+        ],
+        [
+          13,
+          44
+        ],
+        [
+          14,
+          44
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          18,
+          44
+        ],
+        [
+          19,
+          44
+        ],
+        [
+          20,
+          44
+        ],
+        [
+          21,
+          44
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          10,
+          61
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          61
+        ],
+        [
+          14,
+          61
+        ],
+        [
+          15,
+          61
+        ],
+        [
+          12,
+          62
+        ],
+        [
+          13,
+          62
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          10,
+          61
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          12,
+          61
+        ],
+        [
+          13,
+          61
+        ],
+        [
+          14,
+          61
+        ],
+        [
+          15,
+          61
+        ],
+        [
+          12,
+          62
+        ],
+        [
+          13,
+          62
+        ]
+      ],
+      "nativeContact": [
+        [
+          5,
+          8
+        ]
+      ],
+      "masterContact": [
+        [
+          10,
+          16
+        ]
+      ],
+      "nativeEyeSites": [],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ]
+    },
+    "north-P": {
+      "masterHeroChangedSites": [
+        [
+          8,
+          40
+        ],
+        [
+          9,
+          40
+        ],
+        [
+          10,
+          40
+        ],
+        [
+          11,
+          40
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          14,
+          40
+        ],
+        [
+          15,
+          40
+        ],
+        [
+          16,
+          40
+        ],
+        [
+          17,
+          40
+        ],
+        [
+          18,
+          40
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          20,
+          40
+        ],
+        [
+          21,
+          40
+        ],
+        [
+          22,
+          40
+        ],
+        [
+          23,
+          40
+        ],
+        [
+          10,
+          41
+        ],
+        [
+          11,
+          41
+        ],
+        [
+          12,
+          41
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          14,
+          41
+        ],
+        [
+          15,
+          41
+        ],
+        [
+          16,
+          41
+        ],
+        [
+          17,
+          41
+        ],
+        [
+          18,
+          41
+        ],
+        [
+          19,
+          41
+        ],
+        [
+          20,
+          41
+        ],
+        [
+          21,
+          41
+        ],
+        [
+          11,
+          42
+        ],
+        [
+          12,
+          42
+        ],
+        [
+          13,
+          42
+        ],
+        [
+          14,
+          42
+        ],
+        [
+          15,
+          42
+        ],
+        [
+          16,
+          42
+        ],
+        [
+          17,
+          42
+        ],
+        [
+          18,
+          42
+        ],
+        [
+          19,
+          42
+        ],
+        [
+          20,
+          42
+        ],
+        [
+          21,
+          42
+        ],
+        [
+          8,
+          58
+        ],
+        [
+          10,
+          58
+        ],
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          21,
+          58
+        ],
+        [
+          23,
+          58
+        ],
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          9,
+          60
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          8,
+          58
+        ],
+        [
+          10,
+          58
+        ],
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          21,
+          58
+        ],
+        [
+          23,
+          58
+        ],
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          9,
+          60
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          7
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "masterContact": [
+        [
+          8,
+          14
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "nativeEyeSites": [],
+      "nativeBaldBounds": [
+        1,
+        12,
+        15,
+        31
+      ]
+    },
+    "north-C": {
+      "masterHeroChangedSites": [
+        [
+          8,
+          42
+        ],
+        [
+          9,
+          42
+        ],
+        [
+          10,
+          42
+        ],
+        [
+          11,
+          42
+        ],
+        [
+          12,
+          42
+        ],
+        [
+          13,
+          42
+        ],
+        [
+          14,
+          42
+        ],
+        [
+          15,
+          42
+        ],
+        [
+          16,
+          42
+        ],
+        [
+          17,
+          42
+        ],
+        [
+          18,
+          42
+        ],
+        [
+          19,
+          42
+        ],
+        [
+          20,
+          42
+        ],
+        [
+          21,
+          42
+        ],
+        [
+          22,
+          42
+        ],
+        [
+          23,
+          42
+        ],
+        [
+          10,
+          43
+        ],
+        [
+          11,
+          43
+        ],
+        [
+          12,
+          43
+        ],
+        [
+          13,
+          43
+        ],
+        [
+          14,
+          43
+        ],
+        [
+          15,
+          43
+        ],
+        [
+          16,
+          43
+        ],
+        [
+          17,
+          43
+        ],
+        [
+          18,
+          43
+        ],
+        [
+          19,
+          43
+        ],
+        [
+          20,
+          43
+        ],
+        [
+          21,
+          43
+        ],
+        [
+          11,
+          44
+        ],
+        [
+          12,
+          44
+        ],
+        [
+          13,
+          44
+        ],
+        [
+          14,
+          44
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          18,
+          44
+        ],
+        [
+          19,
+          44
+        ],
+        [
+          20,
+          44
+        ],
+        [
+          21,
+          44
+        ],
+        [
+          16,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          18,
+          62
+        ],
+        [
+          19,
+          62
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          16,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          18,
+          62
+        ],
+        [
+          19,
+          62
+        ]
+      ],
+      "nativeContact": [
+        [
+          8,
+          11
+        ]
+      ],
+      "masterContact": [
+        [
+          16,
+          22
+        ]
+      ],
+      "nativeEyeSites": [],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ]
+    },
+    "west-idle": {
+      "masterHeroChangedSites": [
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "nativeContact": [
+        [
+          5,
+          10
+        ]
+      ],
+      "masterContact": [
+        [
+          10,
+          20
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          5,
+          19
+        ],
+        [
+          5,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ]
+    },
+    "west-A": {
+      "masterHeroChangedSites": [
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          21,
+          62
+        ],
+        [
+          22,
+          62
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          21,
+          62
+        ],
+        [
+          22,
+          62
+        ]
+      ],
+      "nativeContact": [
+        [
+          10,
+          12
+        ]
+      ],
+      "masterContact": [
+        [
+          20,
+          24
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          5,
+          19
+        ],
+        [
+          5,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ]
+    },
+    "west-P": {
+      "masterHeroChangedSites": [
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          11,
+          58
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          13,
+          60
+        ],
+        [
+          14,
+          60
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ]
+      ],
+      "nativeContact": [
+        [
+          5,
+          10
+        ]
+      ],
+      "masterContact": [
+        [
+          10,
+          20
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          5,
+          18
+        ],
+        [
+          5,
+          19
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        12,
+        14,
+        31
+      ]
+    },
+    "west-C": {
+      "masterHeroChangedSites": [
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          24,
+          59
+        ],
+        [
+          25,
+          59
+        ],
+        [
+          8,
+          60
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          24,
+          60
+        ],
+        [
+          8,
+          61
+        ],
+        [
+          9,
+          61
+        ],
+        [
+          10,
+          61
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          9,
+          62
+        ],
+        [
+          10,
+          62
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          24,
+          59
+        ],
+        [
+          25,
+          59
+        ],
+        [
+          8,
+          60
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          24,
+          60
+        ],
+        [
+          8,
+          61
+        ],
+        [
+          9,
+          61
+        ],
+        [
+          10,
+          61
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          9,
+          62
+        ],
+        [
+          10,
+          62
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          6
+        ]
+      ],
+      "masterContact": [
+        [
+          8,
+          12
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          5,
+          19
+        ],
+        [
+          5,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ]
+    },
+    "east-idle": {
+      "masterHeroChangedSites": [
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "nativeContact": [
+        [
+          6,
+          11
+        ]
+      ],
+      "masterContact": [
+        [
+          12,
+          22
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          10,
+          19
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ]
+    },
+    "east-A": {
+      "masterHeroChangedSites": [
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          9,
+          61
+        ],
+        [
+          10,
+          61
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          9,
+          62
+        ],
+        [
+          10,
+          62
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          10,
+          60
+        ],
+        [
+          11,
+          60
+        ],
+        [
+          12,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          9,
+          61
+        ],
+        [
+          10,
+          61
+        ],
+        [
+          11,
+          61
+        ],
+        [
+          9,
+          62
+        ],
+        [
+          10,
+          62
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          6
+        ]
+      ],
+      "masterContact": [
+        [
+          8,
+          12
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          10,
+          19
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ]
+    },
+    "east-P": {
+      "masterHeroChangedSites": [
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          16,
+          58
+        ],
+        [
+          17,
+          58
+        ],
+        [
+          18,
+          58
+        ],
+        [
+          19,
+          58
+        ],
+        [
+          20,
+          58
+        ],
+        [
+          12,
+          59
+        ],
+        [
+          13,
+          59
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ],
+        [
+          16,
+          59
+        ],
+        [
+          17,
+          59
+        ],
+        [
+          18,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          15,
+          60
+        ],
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "nativeContact": [
+        [
+          6,
+          11
+        ]
+      ],
+      "masterContact": [
+        [
+          12,
+          22
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          10,
+          18
+        ],
+        [
+          10,
+          19
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        12,
+        14,
+        31
+      ]
+    },
+    "east-C": {
+      "masterHeroChangedSites": [
+        [
+          6,
+          59
+        ],
+        [
+          7,
+          59
+        ],
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          7,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          21,
+          62
+        ],
+        [
+          22,
+          62
+        ]
+      ],
+      "masterBaldChangedSites": [
+        [
+          6,
+          59
+        ],
+        [
+          7,
+          59
+        ],
+        [
+          8,
+          59
+        ],
+        [
+          9,
+          59
+        ],
+        [
+          19,
+          59
+        ],
+        [
+          20,
+          59
+        ],
+        [
+          21,
+          59
+        ],
+        [
+          22,
+          59
+        ],
+        [
+          23,
+          59
+        ],
+        [
+          7,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          21,
+          62
+        ],
+        [
+          22,
+          62
+        ]
+      ],
+      "nativeContact": [
+        [
+          10,
+          12
+        ]
+      ],
+      "masterContact": [
+        [
+          20,
+          24
+        ]
+      ],
+      "nativeEyeSites": [
+        [
+          10,
+          19
+        ],
+        [
+          10,
+          20
+        ]
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ]
+    }
+  },
+  "candidateInputHashes": {
+    "docs/reviews/M1-NCR1/south-idle/master-hero.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "docs/reviews/M1-NCR1/south-idle/master-bald.png": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+    "docs/reviews/M1-NCR1/south-idle/master-hair-shadow.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-NCR1/south-idle/master-hair.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-NCR1/south-idle/native-hero.png": "4f93443acf2928973c889763c824dec48d72ac3872b335eb7c2f7775ab730b85",
+    "docs/reviews/M1-NCR1/south-idle/native-bald.png": "c9070e7eafc959332aea6f48c873f0f698a9a900797cb86a99dab153d320b119",
+    "docs/reviews/M1-NCR1/south-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/south-idle/native-hair-shadow.png": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+    "docs/reviews/M1-NCR1/south-idle/native-hair.png": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+    "docs/reviews/M1-NCR1/south-idle/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/south-A/master-hero.png": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+    "docs/reviews/M1-NCR1/south-A/master-bald.png": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+    "docs/reviews/M1-NCR1/south-A/master-hair-shadow.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-NCR1/south-A/master-hair.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-NCR1/south-A/native-hero.png": "c696d2572ce4532629f567328688586f15dfed995c25df363842c51b47a0ab92",
+    "docs/reviews/M1-NCR1/south-A/native-bald.png": "2f757d212199ac9ffcefdfa50398c3b5349b43a6897e69a9b0018276ba09d3d0",
+    "docs/reviews/M1-NCR1/south-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/south-A/native-hair-shadow.png": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+    "docs/reviews/M1-NCR1/south-A/native-hair.png": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+    "docs/reviews/M1-NCR1/south-A/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/south-P/master-hero.png": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+    "docs/reviews/M1-NCR1/south-P/master-bald.png": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+    "docs/reviews/M1-NCR1/south-P/master-hair-shadow.png": "e128c048a3e5182df6d25d837ae44e6bf870b30036cb40de3241aa2ca12ce01b",
+    "docs/reviews/M1-NCR1/south-P/master-hair.png": "8f2971313b13f60742419d5971ded9660888b4990b0382488de740b6f23ef38d",
+    "docs/reviews/M1-NCR1/south-P/native-hero.png": "63e38bc697da7eac701158dcde790d1d1455fae395850b2c4c7ecb7b197762e1",
+    "docs/reviews/M1-NCR1/south-P/native-bald.png": "9c661d0270f420cf860931f5c80b558db620cf971f20183c235d96a3ecc6cc8a",
+    "docs/reviews/M1-NCR1/south-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/south-P/native-hair-shadow.png": "6bc83c010df370caee202735e92a3f679228e30b330145bda1c1f6f5ffa3176d",
+    "docs/reviews/M1-NCR1/south-P/native-hair.png": "c0e4b04729b58f324f2f6ed10a49ebbdaaff0623af29459a43d04e12d4dbb291",
+    "docs/reviews/M1-NCR1/south-P/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/south-C/master-hero.png": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+    "docs/reviews/M1-NCR1/south-C/master-bald.png": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+    "docs/reviews/M1-NCR1/south-C/master-hair-shadow.png": "2f9fb520944b16237cc264f4c20ee13bf3883c363179cb89e5a98295bea5d123",
+    "docs/reviews/M1-NCR1/south-C/master-hair.png": "920d08e193aa7b25c5abf8ce2986aa9fbf3414e20da2563e721f291c24be5f4a",
+    "docs/reviews/M1-NCR1/south-C/native-hero.png": "2b914f2fcdddbf9c1a02db833bd640af88e4acac13b035251d96e87f022e3534",
+    "docs/reviews/M1-NCR1/south-C/native-bald.png": "62c37c5c688dd28f9c0b93db1ad1f7b404dad835bec633cff1a5d17b6152cea4",
+    "docs/reviews/M1-NCR1/south-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/south-C/native-hair-shadow.png": "19d6775eef976821c4fd60ba150d610b8103d13b518772c875164aabcfd5855d",
+    "docs/reviews/M1-NCR1/south-C/native-hair.png": "bc1430ba718571d51671455ca7f941a296a05db3eedc347291ca685f81fa3cd0",
+    "docs/reviews/M1-NCR1/south-C/native-observed-pack.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/north-idle/master-hero.png": "2785a2d8b3010cfb0959e4a9960f19c9fbc8c7c4c53f4b13c93b0b7d7e6940f2",
+    "docs/reviews/M1-NCR1/north-idle/master-bald.png": "d181b95f31988b33f6ce8da39f1371250820a971e3153e5ab7271f077f055828",
+    "docs/reviews/M1-NCR1/north-idle/master-hair-shadow.png": "e22ca110e1dfabf3f3184b92e6dfad8e0a2799e97fda8b93aaa3d0e1fe4dfa8d",
+    "docs/reviews/M1-NCR1/north-idle/master-hair.png": "aed14d8b9f2052b51df01cde3178df6f5264e731c0cf14d51a38d08401b1373b",
+    "docs/reviews/M1-NCR1/north-idle/native-hero.png": "157cb66018a4bdd1d5a02638fdc667313b7d8665e9b7a6d9c633023db87e5232",
+    "docs/reviews/M1-NCR1/north-idle/native-bald.png": "6531505f9008f6179564c288556a60d07446368310e918631eae06ab592e55ac",
+    "docs/reviews/M1-NCR1/north-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/north-idle/native-hair-shadow.png": "15ceeeca5885e1fb3b2803b424448725493d04e0a351732d8b0b62cd6368e803",
+    "docs/reviews/M1-NCR1/north-idle/native-hair.png": "b6dccc0f0181911f5cf2304f94c16e6ccdb3ea1afd6687baaed9ae679e66817e",
+    "docs/reviews/M1-NCR1/north-idle/native-observed-pack.png": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94",
+    "docs/reviews/M1-NCR1/north-A/master-hero.png": "81a5b805c2e3c25b87f232471c1d9a4f3dfc6bff5f55754604e0f7ae5a0841e6",
+    "docs/reviews/M1-NCR1/north-A/master-bald.png": "e4195a6844d159a3621a56c44abcfc8c3ef15403972f3894fb10a52501bc262d",
+    "docs/reviews/M1-NCR1/north-A/master-hair-shadow.png": "e22ca110e1dfabf3f3184b92e6dfad8e0a2799e97fda8b93aaa3d0e1fe4dfa8d",
+    "docs/reviews/M1-NCR1/north-A/master-hair.png": "aed14d8b9f2052b51df01cde3178df6f5264e731c0cf14d51a38d08401b1373b",
+    "docs/reviews/M1-NCR1/north-A/native-hero.png": "577831c7e19438d30d4082e3f0b68ab54c66ecbe6408ad52864500491cebe8ea",
+    "docs/reviews/M1-NCR1/north-A/native-bald.png": "c442ef88360f348d17279cf249382a41de596cf7a250fd4abb301c673c013cf8",
+    "docs/reviews/M1-NCR1/north-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/north-A/native-hair-shadow.png": "15ceeeca5885e1fb3b2803b424448725493d04e0a351732d8b0b62cd6368e803",
+    "docs/reviews/M1-NCR1/north-A/native-hair.png": "b6dccc0f0181911f5cf2304f94c16e6ccdb3ea1afd6687baaed9ae679e66817e",
+    "docs/reviews/M1-NCR1/north-A/native-observed-pack.png": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94",
+    "docs/reviews/M1-NCR1/north-P/master-hero.png": "f043fb80f7229817df93ca279cd4605c80ec27b64cc5990553a60c47816806ee",
+    "docs/reviews/M1-NCR1/north-P/master-bald.png": "3df2017dfec01d0c27949082487319b995a9d6a7f9921884377e76c0240d5b78",
+    "docs/reviews/M1-NCR1/north-P/master-hair-shadow.png": "2436422fe94a8f5ca4e73f8af6540315c90d2416171283a39cfb0a1d7ef044b9",
+    "docs/reviews/M1-NCR1/north-P/master-hair.png": "25bbb461136f816688141fe9c30342b263c3ff5a5625f88fcee29ffdba6628e8",
+    "docs/reviews/M1-NCR1/north-P/native-hero.png": "650d02f517a0fcaec12e1f7eb4cd476d9148e32e16fd4dc8c52163813f43f63e",
+    "docs/reviews/M1-NCR1/north-P/native-bald.png": "a44e8b510b29a23118dec4f274aa91440e92e0bba1fff1e23ff658e77397d011",
+    "docs/reviews/M1-NCR1/north-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/north-P/native-hair-shadow.png": "5bb105ab4780bb335c394f293eced5c8af4d2b012104b08e088558a3fc6ffc64",
+    "docs/reviews/M1-NCR1/north-P/native-hair.png": "b9f49791b5a70b79b35d2db3c4e7c0337f917f80b27b553ea7ca33e2926eaa8a",
+    "docs/reviews/M1-NCR1/north-P/native-observed-pack.png": "2f648741ecfe14153a01160c8a3823d6949ee6154c6f0c5a1898cdd4d35b392f",
+    "docs/reviews/M1-NCR1/north-C/master-hero.png": "8825bf0a6cb14813469f9185032e9c0f0828c6bb2295ad56007c24bbee48dbad",
+    "docs/reviews/M1-NCR1/north-C/master-bald.png": "9b256b254a81fcfd3fa44534c36a1f23587ef258c6317b22353eb22e3bec9328",
+    "docs/reviews/M1-NCR1/north-C/master-hair-shadow.png": "e22ca110e1dfabf3f3184b92e6dfad8e0a2799e97fda8b93aaa3d0e1fe4dfa8d",
+    "docs/reviews/M1-NCR1/north-C/master-hair.png": "aed14d8b9f2052b51df01cde3178df6f5264e731c0cf14d51a38d08401b1373b",
+    "docs/reviews/M1-NCR1/north-C/native-hero.png": "2b9c40762f3bad12b4bb853d0049aa8cef789ffe27fc1c913398e3bd12d4271b",
+    "docs/reviews/M1-NCR1/north-C/native-bald.png": "2c4c7e2e7b632134ad4711e344a6d447b7cb51d2d8cb3fe76c2f170ce1e5776c",
+    "docs/reviews/M1-NCR1/north-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/north-C/native-hair-shadow.png": "15ceeeca5885e1fb3b2803b424448725493d04e0a351732d8b0b62cd6368e803",
+    "docs/reviews/M1-NCR1/north-C/native-hair.png": "b6dccc0f0181911f5cf2304f94c16e6ccdb3ea1afd6687baaed9ae679e66817e",
+    "docs/reviews/M1-NCR1/north-C/native-observed-pack.png": "3236fc40568c78394619a208bd5b7e46ea0fea9ab5f80c758025c4178662fd94",
+    "docs/reviews/M1-NCR1/west-idle/master-hero.png": "4e8129ae49466d90f2dd83e9161010edd177eb0bbc66e91a3a0389d4f7caadec",
+    "docs/reviews/M1-NCR1/west-idle/master-bald.png": "ea0c528d6f7ba166118dc8bc37755646e0614e31ec1716d3d7c3979ab8a39b2a",
+    "docs/reviews/M1-NCR1/west-idle/master-hair-shadow.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-NCR1/west-idle/master-hair.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-NCR1/west-idle/native-hero.png": "7906cf47251e7f83c1098810b25cb83041143ba4375a5885a3cb05448307c8f0",
+    "docs/reviews/M1-NCR1/west-idle/native-bald.png": "1e3067aaeb9c12bf57338ced7c18f42cb4a6326c62c99774d88b0ad011b8b84b",
+    "docs/reviews/M1-NCR1/west-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-idle/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-idle/native-hair.png": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+    "docs/reviews/M1-NCR1/west-idle/native-observed-pack.png": "953a40b03d740181ca018692724ba1d1cb9cba005b5a5b18eef1a9c8b9579250",
+    "docs/reviews/M1-NCR1/west-A/master-hero.png": "0a556200a48a01dc1b3fa10b9c9678edf6cb5264a3f8ff080aea7544391e4bd5",
+    "docs/reviews/M1-NCR1/west-A/master-bald.png": "226d0c191c6d1f3b8e57d8a1ff10a61eaf2d3b782db2bec2323107e25e3ea575",
+    "docs/reviews/M1-NCR1/west-A/master-hair-shadow.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-NCR1/west-A/master-hair.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-NCR1/west-A/native-hero.png": "106a0f6a72cba004f59a3b45c650f6dba5b18688e2905e58aad6200271cb10ef",
+    "docs/reviews/M1-NCR1/west-A/native-bald.png": "b5a40867d1e8591a7ecb0a58339d0358f959cd4ac887f9018459263116a36b6c",
+    "docs/reviews/M1-NCR1/west-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-A/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-A/native-hair.png": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+    "docs/reviews/M1-NCR1/west-A/native-observed-pack.png": "953a40b03d740181ca018692724ba1d1cb9cba005b5a5b18eef1a9c8b9579250",
+    "docs/reviews/M1-NCR1/west-P/master-hero.png": "c787d86b2ab85b4988755a38d2802b97ec94a70dd8a0d3be770f6108db5d818c",
+    "docs/reviews/M1-NCR1/west-P/master-bald.png": "c859a376b93138ac6759dd0ef536f550727ff393f153e4fcc90f4f6f4f5ee63b",
+    "docs/reviews/M1-NCR1/west-P/master-hair-shadow.png": "946ffda75f3ed1f15f03eb8ac7965d0cacf34662e64718c59613d225e81bbf45",
+    "docs/reviews/M1-NCR1/west-P/master-hair.png": "e68652155571c207258028564e9724c84ece3e51f96d659747a5e11bdf7615e1",
+    "docs/reviews/M1-NCR1/west-P/native-hero.png": "ff7ddfab41d155cad9f9000fbfebbe6093b219655848781c1f60bb2601275c47",
+    "docs/reviews/M1-NCR1/west-P/native-bald.png": "31b55095927bb5d827b1233cd12af0733d7946b81d253fba78adb39c5cd0167d",
+    "docs/reviews/M1-NCR1/west-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-P/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-P/native-hair.png": "143045a55272e16a60714ec3ab04ca7a63cac688de75cb2c8796d25b108105c8",
+    "docs/reviews/M1-NCR1/west-P/native-observed-pack.png": "6246d2407e86f29c8a0af193567cba6c2edb812c5a658f2035001c4e898d40fe",
+    "docs/reviews/M1-NCR1/west-C/master-hero.png": "262c31026629cebe436408d48fc0c6ed94ad2fb75c1437ebed93bee56a1dcb9d",
+    "docs/reviews/M1-NCR1/west-C/master-bald.png": "e7f149b7a1774262d149aa4c191eb8a435310afd240bb5f8ceb2c24a7f90a68b",
+    "docs/reviews/M1-NCR1/west-C/master-hair-shadow.png": "81df7ac1fb016a81653efb679244576a2e39b7268e4c6969d6a3e28ee9231ad4",
+    "docs/reviews/M1-NCR1/west-C/master-hair.png": "e46c553419fa362eb6a04234b6e682d32c56687bd2a3a7a7f28250e578dcdfc8",
+    "docs/reviews/M1-NCR1/west-C/native-hero.png": "448d522ff479f68e2652cf6c6a69e25b75fbd20b5743eb614bea64cb21fc11a8",
+    "docs/reviews/M1-NCR1/west-C/native-bald.png": "0e42f5c4946609f144554c42dd3d9518ceb7629fbca7186d78b7837efdb7e320",
+    "docs/reviews/M1-NCR1/west-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-C/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/west-C/native-hair.png": "44de7b2ff796bd75f6d74b8136d9da9455e84e9b1c50cc422039290e20ef1bcd",
+    "docs/reviews/M1-NCR1/west-C/native-observed-pack.png": "953a40b03d740181ca018692724ba1d1cb9cba005b5a5b18eef1a9c8b9579250",
+    "docs/reviews/M1-NCR1/east-idle/master-hero.png": "01b06ace69398050581fdbf977ee3839d3349c405ba154fef9ca55a6b5be3e2c",
+    "docs/reviews/M1-NCR1/east-idle/master-bald.png": "c2d1bdc49b2ce9f160645ccb88eb941b63f685ad8ac5909056fb5ee346605e47",
+    "docs/reviews/M1-NCR1/east-idle/master-hair-shadow.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-NCR1/east-idle/master-hair.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-NCR1/east-idle/native-hero.png": "9278d987502ef3a04ec6d0ce1ad139055a3812e2651f0b81b1a894a01e22fe64",
+    "docs/reviews/M1-NCR1/east-idle/native-bald.png": "8077c55e642175d702f6d57de4e0eef4cde4c9281fcd20b03025e99259874edf",
+    "docs/reviews/M1-NCR1/east-idle/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-idle/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-idle/native-hair.png": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+    "docs/reviews/M1-NCR1/east-idle/native-observed-pack.png": "a478c933eb217e17047c26dbc504b0027c6598f7408d095f54dd4fff5fb8d23b",
+    "docs/reviews/M1-NCR1/east-A/master-hero.png": "90141e9ebb4f4acac223964def8370e65fcf560081b7bff0363857902c2b4357",
+    "docs/reviews/M1-NCR1/east-A/master-bald.png": "0629599dc57a6b6a14f4b4a4a5311c025e552bb2e6a68c241fe83e77ec7193b2",
+    "docs/reviews/M1-NCR1/east-A/master-hair-shadow.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-NCR1/east-A/master-hair.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-NCR1/east-A/native-hero.png": "e28a0cdedeb58bf429fe7d3c1c4ba1b60eef3b4b63065818a1fd39525ef142be",
+    "docs/reviews/M1-NCR1/east-A/native-bald.png": "13c49f4427459aa085aad41eefb50c77bb27ba61195cc1c238b936f77d0838e2",
+    "docs/reviews/M1-NCR1/east-A/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-A/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-A/native-hair.png": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+    "docs/reviews/M1-NCR1/east-A/native-observed-pack.png": "a478c933eb217e17047c26dbc504b0027c6598f7408d095f54dd4fff5fb8d23b",
+    "docs/reviews/M1-NCR1/east-P/master-hero.png": "b170b07d2c8550df98b96606251cbbccb831e8c7436add56973aeb863c10a9e8",
+    "docs/reviews/M1-NCR1/east-P/master-bald.png": "54b5fbff6c5af96e528bac0760cca62ac988633775ad3734664f11afe6c3f71f",
+    "docs/reviews/M1-NCR1/east-P/master-hair-shadow.png": "f4903eeafb13278fd908f05c9cceee747382366a4550887f165c29e7a3212e40",
+    "docs/reviews/M1-NCR1/east-P/master-hair.png": "e79a635bdce397e52b0077423bbb85dc775164d55e01614f15439f8553d81cd6",
+    "docs/reviews/M1-NCR1/east-P/native-hero.png": "82f4e26a8b5fc8c4a497f1878788c302389a605488b596899c16ff256be25eda",
+    "docs/reviews/M1-NCR1/east-P/native-bald.png": "abdc2389c495a4329a8876a71251ada1c56825e8b5d5db95582a3678571997b5",
+    "docs/reviews/M1-NCR1/east-P/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-P/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-P/native-hair.png": "d52b307fb1e871b5e753b75a734444ef61fa04795cafa033056d56a176cd1818",
+    "docs/reviews/M1-NCR1/east-P/native-observed-pack.png": "2c7d13f5421c5623d8d9cf618b3d6cab0529df7b60c24a8a2a741f561efca102",
+    "docs/reviews/M1-NCR1/east-C/master-hero.png": "6711d33be52b47b3e449ab82edc729f17b424a019d4a2afcf6805bd755348f64",
+    "docs/reviews/M1-NCR1/east-C/master-bald.png": "7aa47dafaa8b7ebbc1496313a9691592666d10a6df828fe271bf4a63a9431558",
+    "docs/reviews/M1-NCR1/east-C/master-hair-shadow.png": "35a4425718b29469c7094f87c8917c00118bc1f7434e06d3909537330595db6b",
+    "docs/reviews/M1-NCR1/east-C/master-hair.png": "d0e1c84a1b05d82c98099cf949f991302640f24c8447743d583a70f7cd893707",
+    "docs/reviews/M1-NCR1/east-C/native-hero.png": "3c89d183ae62a4bc9c0ad00e02d815a2f7d7ba731f59d2a311bc28bd590fc83b",
+    "docs/reviews/M1-NCR1/east-C/native-bald.png": "54b776b0541efb73f372c8d1fba675fe0febd0266389168358c44d7ee0050fe3",
+    "docs/reviews/M1-NCR1/east-C/native-scalp-cutout.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-C/native-hair-shadow.png": "c8c21f8270b94a967fcea4c0241e82f2c9db7cc18a974da68e97b8c81f3dce9c",
+    "docs/reviews/M1-NCR1/east-C/native-hair.png": "99499237ba8eb71726f2ee48c6b145b8e7d7ab722acbca8e74964ba81a53252f",
+    "docs/reviews/M1-NCR1/east-C/native-observed-pack.png": "a478c933eb217e17047c26dbc504b0027c6598f7408d095f54dd4fff5fb8d23b"
+  },
+  "qualityApproval": false,
+  "sourceSHA": "0bb4ee4293ec2a76a3b8eb77d5d1fca4441bdcc1"
+}

@@ -1,0 +1,906 @@
+{
+  "qualification": "Visible lower-row palette sites, not an anatomical shoe mask or prescribed recolor",
+  "sourceSHA": "2c8fa4fef4c6872b05fce294a82b09f873876a6e",
+  "poses": {
+    "south": {
+      "idle": {
+        "ink": {
+          "count": 22,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 14,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "slate": {
+          "count": 6,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "gray": {
+          "count": 8,
+          "rows": [
+            57
+          ]
+        },
+        "burgundy": {
+          "count": 6,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 8,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "cream": {
+          "count": 8,
+          "rows": [
+            60
+          ]
+        }
+      },
+      "A": {
+        "ink": {
+          "count": 15,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 4,
+          "rows": [
+            57,
+            59
+          ]
+        },
+        "slate": {
+          "count": 6,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "gray": {
+          "count": 2,
+          "rows": [
+            57
+          ]
+        },
+        "burgundy": {
+          "count": 3,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 4,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "cream": {
+          "count": 4,
+          "rows": [
+            60
+          ]
+        }
+      },
+      "P": {
+        "ink": {
+          "count": 16,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "navy": {
+          "count": 4,
+          "rows": [
+            57
+          ]
+        },
+        "slate": {
+          "count": 2,
+          "rows": [
+            57
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 2,
+          "rows": [
+            57
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 4,
+          "rows": [
+            57
+          ]
+        },
+        "cream": {
+          "count": 8,
+          "rows": [
+            58
+          ]
+        }
+      },
+      "C": {
+        "ink": {
+          "count": 15,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 4,
+          "rows": [
+            57,
+            59
+          ]
+        },
+        "slate": {
+          "count": 6,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "gray": {
+          "count": 2,
+          "rows": [
+            57
+          ]
+        },
+        "burgundy": {
+          "count": 3,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 4,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "cream": {
+          "count": 4,
+          "rows": [
+            60
+          ]
+        }
+      }
+    },
+    "north": {
+      "idle": {
+        "ink": {
+          "count": 26,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 24,
+          "rows": [
+            57,
+            58,
+            60
+          ]
+        },
+        "slate": {
+          "count": 16,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 14,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "A": {
+        "ink": {
+          "count": 20,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "navy": {
+          "count": 31,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            62
+          ]
+        },
+        "slate": {
+          "count": 9,
+          "rows": [
+            57,
+            61
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 11,
+          "rows": [
+            60,
+            61
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "P": {
+        "ink": {
+          "count": 26,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 24,
+          "rows": [
+            57,
+            58,
+            60
+          ]
+        },
+        "slate": {
+          "count": 16,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 14,
+          "rows": [
+            58,
+            59
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "C": {
+        "ink": {
+          "count": 21,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "navy": {
+          "count": 30,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            62
+          ]
+        },
+        "slate": {
+          "count": 13,
+          "rows": [
+            57,
+            60,
+            61
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 7,
+          "rows": [
+            60,
+            61
+          ]
+        },
+        "coral": {
+          "count": 0,
+          "rows": []
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      }
+    },
+    "west": {
+      "idle": {
+        "ink": {
+          "count": 18,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 9,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 10,
+          "rows": [
+            57,
+            59
+          ]
+        },
+        "gray": {
+          "count": 1,
+          "rows": [
+            58
+          ]
+        },
+        "burgundy": {
+          "count": 17,
+          "rows": [
+            58,
+            59,
+            60
+          ]
+        },
+        "coral": {
+          "count": 4,
+          "rows": [
+            58
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "A": {
+        "ink": {
+          "count": 27,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "navy": {
+          "count": 24,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 18,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 12,
+          "rows": [
+            59,
+            60,
+            61,
+            62
+          ]
+        },
+        "coral": {
+          "count": 3,
+          "rows": [
+            59,
+            60
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "P": {
+        "ink": {
+          "count": 18,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 9,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 10,
+          "rows": [
+            57,
+            59
+          ]
+        },
+        "gray": {
+          "count": 1,
+          "rows": [
+            58
+          ]
+        },
+        "burgundy": {
+          "count": 17,
+          "rows": [
+            58,
+            59,
+            60
+          ]
+        },
+        "coral": {
+          "count": 4,
+          "rows": [
+            58
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "C": {
+        "ink": {
+          "count": 28,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "navy": {
+          "count": 36,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 17,
+          "rows": [
+            57,
+            58,
+            59,
+            61
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 13,
+          "rows": [
+            59,
+            60,
+            61,
+            62
+          ]
+        },
+        "coral": {
+          "count": 3,
+          "rows": [
+            59,
+            60
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      }
+    },
+    "east": {
+      "idle": {
+        "ink": {
+          "count": 18,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 9,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 10,
+          "rows": [
+            57,
+            59
+          ]
+        },
+        "gray": {
+          "count": 1,
+          "rows": [
+            58
+          ]
+        },
+        "burgundy": {
+          "count": 17,
+          "rows": [
+            58,
+            59,
+            60
+          ]
+        },
+        "coral": {
+          "count": 4,
+          "rows": [
+            58
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "A": {
+        "ink": {
+          "count": 27,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "navy": {
+          "count": 24,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 18,
+          "rows": [
+            57,
+            58,
+            59
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 12,
+          "rows": [
+            59,
+            60,
+            61,
+            62
+          ]
+        },
+        "coral": {
+          "count": 3,
+          "rows": [
+            59,
+            60
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "P": {
+        "ink": {
+          "count": 18,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61
+          ]
+        },
+        "navy": {
+          "count": 9,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 10,
+          "rows": [
+            57,
+            59
+          ]
+        },
+        "gray": {
+          "count": 1,
+          "rows": [
+            58
+          ]
+        },
+        "burgundy": {
+          "count": 17,
+          "rows": [
+            58,
+            59,
+            60
+          ]
+        },
+        "coral": {
+          "count": 4,
+          "rows": [
+            58
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      },
+      "C": {
+        "ink": {
+          "count": 28,
+          "rows": [
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63
+          ]
+        },
+        "navy": {
+          "count": 36,
+          "rows": [
+            57,
+            58,
+            59,
+            60
+          ]
+        },
+        "slate": {
+          "count": 17,
+          "rows": [
+            57,
+            58,
+            59,
+            61
+          ]
+        },
+        "gray": {
+          "count": 0,
+          "rows": []
+        },
+        "burgundy": {
+          "count": 13,
+          "rows": [
+            59,
+            60,
+            61,
+            62
+          ]
+        },
+        "coral": {
+          "count": 3,
+          "rows": [
+            59,
+            60
+          ]
+        },
+        "pale-sole": {
+          "count": 0,
+          "rows": []
+        },
+        "cream": {
+          "count": 0,
+          "rows": []
+        }
+      }
+    }
+  }
+}

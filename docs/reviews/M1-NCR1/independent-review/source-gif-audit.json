@@ -1,0 +1,391 @@
+{
+  "sourceSHA": "0bb4ee4293ec2a76a3b8eb77d5d1fca4441bdcc1",
+  "decodedFrames": 64,
+  "exactSourcePanelComparisons": 640,
+  "checks": [
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 1,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 2,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 3,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 4,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 5,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 6,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 7,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-normal.gif",
+      "frame": 8,
+      "holdMs": 100,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 1,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 2,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 3,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 4,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 5,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 6,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 7,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "south-paired-existing-walk-slow.gif",
+      "frame": 8,
+      "holdMs": 400,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 1,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 2,
+      "holdMs": 60,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 3,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 4,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 5,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 6,
+      "holdMs": 60,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 7,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-normal.gif",
+      "frame": 8,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 1,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 2,
+      "holdMs": 240,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 3,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 4,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 5,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 6,
+      "holdMs": 240,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 7,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "north-paired-existing-walk-slow.gif",
+      "frame": 8,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 1,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 2,
+      "holdMs": 60,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 3,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 4,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 5,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 6,
+      "holdMs": 60,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 7,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-normal.gif",
+      "frame": 8,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 1,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 2,
+      "holdMs": 240,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 3,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 4,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 5,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 6,
+      "holdMs": 240,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 7,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "west-paired-existing-walk-slow.gif",
+      "frame": 8,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 1,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 2,
+      "holdMs": 60,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 3,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 4,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 5,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 6,
+      "holdMs": 60,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 7,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-normal.gif",
+      "frame": 8,
+      "holdMs": 70,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 1,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 2,
+      "holdMs": 240,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 3,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 4,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 5,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 6,
+      "holdMs": 240,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 7,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    },
+    {
+      "file": "east-paired-existing-walk-slow.gif",
+      "frame": 8,
+      "holdMs": 280,
+      "all5NativeAndEnlargedPanelsExact": true
+    }
+  ]
+}

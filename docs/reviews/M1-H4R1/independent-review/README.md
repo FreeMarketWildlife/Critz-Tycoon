@@ -1,5 +1,7 @@
 # H4R1 independent review — private candidate
 
+**Subsequent parent visual judgment:** native16 readiness is rejected. Bare skin ear protrusions, uneven head/eye clusters and flat side material bars require deliberate cleanup. The shared32 Hero/bald match is retained; specific NWE shoe-consistency and rear hair/collar inspection are now authorized under M1.NCR1, with32South exact. These H4R1 files remain immutable before/history evidence; do not re-share as accepted artwork or restart creator. Earlier scoped root quality language below is historical and was too generous.
+
 Frozen source: `2c8fa4fef4c6872b05fce294a82b09f873876a6e`. This is bounded internal review, not user appearance acceptance. No creator, gameplay, saves or deployment changes.
 
 ## Actual visual judgment

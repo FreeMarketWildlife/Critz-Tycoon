@@ -1,5 +1,7 @@
 # H4R1 — private parent visual review
 
+**Subsequent parent visual judgment:** native16 readiness is rejected. Bare skin ear protrusions, uneven head/eye clusters and flat side material bars require deliberate cleanup. The shared32 Hero/bald match is retained; specific NWE shoe-consistency and rear hair/collar inspection are now authorized under M1.NCR1, with32South exact. These H4R1 files remain immutable before/history evidence; do not re-share as accepted artwork or restart creator. Earlier scoped root quality language below is historical and was too generous.
+
 Frozen source `2c8fa4fef4c6872b05fce294a82b09f873876a6e`. **Internal candidate only; no main-user draft relay or appearance approval.** Same Hero/outfit/shared bald body at authoritative32×64 and deliberately coarse16×32. Front and all SR2 side art exact; North changes only lower material colors. Fine native ear/hair/hand/sole details simplify; retained broad side overlap remains. The32 master predates this16 counterpart; no lossless inverse/refinement-history claim.
 
 - [four-direction-idles.png](https://chatgpt.com/api/library/files/libfile_4267a3a838dc8191abc7a0a33bef5ba3/download)

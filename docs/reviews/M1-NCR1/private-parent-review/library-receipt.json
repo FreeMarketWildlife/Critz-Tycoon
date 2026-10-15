@@ -1,0 +1,132 @@
+{
+  "task": "M1.NCR1",
+  "sourceSHA": "0bb4ee4293ec2a76a3b8eb77d5d1fca4441bdcc1",
+  "audience": "PRIVATE parent inspection only; no main-user draft relay",
+  "files": [
+    {
+      "file_name": "NCR1-INTERNAL-four-direction-before-after.png",
+      "file_id": "file_00000000426c823081fb6a10b704a983",
+      "library_file_id": "libfile_c0e71c2f35f08191acdd34452a6aa6b4",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-NCR1/private-parent-review/NCR1-INTERNAL-four-direction-before-after.png",
+      "sha256": "4c2afd55b16f74225fde3616921fcb36387e11aa58c2dd759b7e3daa50b4b991",
+      "dimensions": [
+        1120,
+        1312
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "file_id": "file_00000000ab288230ae72d74e3c690258",
+      "library_file_id": "libfile_945cfda0c250819190d56d31c23864fc",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-NCR1/private-parent-review/NCR1-INTERNAL-north-west-east-walk-normal.gif",
+      "sha256": "8a590f9110d32949688c9888565534aa793ccef8ada3e0d9cca72f35b082860d",
+      "dimensions": [
+        560,
+        992
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "file_id": "file_000000009c408230af3220adeff0fae1",
+      "library_file_id": "libfile_191ea5202ee8819197a5764e1299f9a9",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-NCR1/private-parent-review/NCR1-INTERNAL-north-west-east-walk-slow.gif",
+      "sha256": "3367af09623a54cc356232e913ab42167642999a9c8cf5f4a61eb83332cce0c2",
+      "dimensions": [
+        560,
+        992
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "NCR1-INTERNAL-south-walk-normal.gif",
+      "file_id": "file_00000000d75082308a3c39ad3cea9a0a",
+      "library_file_id": "libfile_aeffe045f6cc819196c0f061131e5a54",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-NCR1/private-parent-review/NCR1-INTERNAL-south-walk-normal.gif",
+      "sha256": "48ab94225f1b1a2ab090d13016eb2539f9b48e8cca554bd0d3a9e15a84a4f4f1",
+      "dimensions": [
+        560,
+        352
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "NCR1-INTERNAL-south-walk-slow.gif",
+      "file_id": "file_00000000bb1c8230bd290f5f068103fe",
+      "library_file_id": "libfile_9de454330f088191b608c161c8040aef",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-NCR1/private-parent-review/NCR1-INTERNAL-south-walk-slow.gif",
+      "sha256": "bd0f5e5de95c0a3e5fc1d9e994682388bd6d1d747ce1059a1069fdf83e4425bc",
+      "dimensions": [
+        560,
+        352
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    }
+  ],
+  "uniqueFiles": 5,
+  "animatedFramesVerified": 32
+}
