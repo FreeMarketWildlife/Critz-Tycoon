@@ -1,0 +1,56 @@
+{
+  "artSource": "fa41e72d51c835f5d1fd70f48da62b35a1b1b278",
+  "state": "Focused South/West bald shading correction; no creator/user appearance acceptance",
+  "files": [
+    {
+      "source": "docs/reviews/M1-BS1/south-west-bald-before-after.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-west-bald-before-after.png",
+      "sha256": "00fd162f70601c21811f47f6eee41dcea139a3c421fbc810797e1279376c2130"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/south-west-head-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-west-head-grid.png",
+      "sha256": "68d7f8d1128956ef3161aa3930bb44b66dbab6bbf4383c382cbbaac339945ac0"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/south-existing-walk-normal-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-normal-1x.gif",
+      "sha256": "7a8bfeda67a14a994ddbb1bdcf6a00ee7ae09ef499b34714d728759c68fbb61e"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/south-existing-walk-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-normal-4x.gif",
+      "sha256": "9399a07774bbbb7d7547bc23e67014f6f36fc12f3ff55c44c8ff037cf26c5554"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/south-existing-walk-slow-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-slow-1x.gif",
+      "sha256": "1c9c24d84534ac6cbb9a4c26ecdd721f39cfbe3286e7552af8c091cc9da6e6ae"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/south-existing-walk-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-south-existing-walk-slow-4x.gif",
+      "sha256": "30cb6723772a0db72f8db58e416295cd8d92536f76cc76d146a82ff88546e7dc"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/west-existing-walk-normal-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-normal-1x.gif",
+      "sha256": "168d8bab2d2c6f39b0344288d64314deb7f02e7044d6e8c2d7cdf92154551501"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/west-existing-walk-normal-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-normal-4x.gif",
+      "sha256": "f24561bf07ce76a81a7d431dc2853d1bea5a5e2eadbab19c2c3b0d8333cd99ca"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/west-existing-walk-slow-1x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-slow-1x.gif",
+      "sha256": "b29f51875655445e8d3b5cb2473104d2eb2ba2ef3989723690cb54392e83f8a9"
+    },
+    {
+      "source": "docs/reviews/M1-BS1/west-existing-walk-slow-4x.gif",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-BS1/library-review/critz-BS1-west-existing-walk-slow-4x.gif",
+      "sha256": "3f1af979e0755f82d63e9bcc3328f45934c0f4eebef0a5319323021f7c94e7da"
+    }
+  ]
+}

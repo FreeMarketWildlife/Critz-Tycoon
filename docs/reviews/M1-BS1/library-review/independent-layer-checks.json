@@ -1,0 +1,66 @@
+[
+  {
+    "direction": "south",
+    "pose": "idle",
+    "changedSkinCells": 139,
+    "sparseHairShadeCells": 6,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  },
+  {
+    "direction": "south",
+    "pose": "A",
+    "changedSkinCells": 139,
+    "sparseHairShadeCells": 6,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  },
+  {
+    "direction": "south",
+    "pose": "P",
+    "changedSkinCells": 139,
+    "sparseHairShadeCells": 6,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  },
+  {
+    "direction": "south",
+    "pose": "C",
+    "changedSkinCells": 139,
+    "sparseHairShadeCells": 6,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  },
+  {
+    "direction": "west",
+    "pose": "idle",
+    "changedSkinCells": 129,
+    "sparseHairShadeCells": 2,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  },
+  {
+    "direction": "west",
+    "pose": "A",
+    "changedSkinCells": 129,
+    "sparseHairShadeCells": 2,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  },
+  {
+    "direction": "west",
+    "pose": "P",
+    "changedSkinCells": 129,
+    "sparseHairShadeCells": 2,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  },
+  {
+    "direction": "west",
+    "pose": "C",
+    "changedSkinCells": 129,
+    "sparseHairShadeCells": 2,
+    "alphaEyesEarsLowerFaceBodyExact": true,
+    "independentHairAndShadeRecomposeExact": true
+  }
+]
