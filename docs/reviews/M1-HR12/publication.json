@@ -1,0 +1,135 @@
+{
+  "task": "M1.HR12",
+  "state": "stable scoped review delivered; awaiting Eutychus independent/user visual review",
+  "sourceCommit": "3b947e8b9588e3b18a64da068403900230de27be",
+  "sourceBranch": "main",
+  "sourcePushed": true,
+  "sourceRemoteSHAEqualsLocalHEAD": true,
+  "baselineCommit": "d158c3ecceaddaf1a0919f01ef75eac47f367cc5",
+  "baseExplicitlyChosenBy": "Eutychus authorized handoff, latest delivered HR10-BODY",
+  "exactViewedArtifactByPhil": "UNVERIFIED; best-supported base selection explicit",
+  "HR11Adopted": false,
+  "headDetourAdopted": false,
+  "protectedPixels": "HR10 exact outside bounded ear/backpack/strap/spur correction regions; all other lower-body and head colors/shape exact",
+  "earFinalRGBAMirrored": true,
+  "strapChainAndPartSlotsVerified": true,
+  "shoeSpurRemovedOnlyAt": {
+    "A": [
+      16,
+      60
+    ],
+    "C": [
+      15,
+      60
+    ]
+  },
+  "constructionMannequin": "neutral featureless segmented color-coded diagram; hidden joints/skull PROPOSED, not source-measured anatomy",
+  "editableProjectsValidated": 3,
+  "previewProjectsValidated": 7,
+  "allGIFs8FramesExactDecodedPixels": true,
+  "sourceSpeedFrameMs": 100,
+  "sourceSpeedLoopMs": 800,
+  "labelledSlowFrameMs": 400,
+  "labelledSlowLoopMs": 3200,
+  "nearest4xExact": true,
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-all-eight.png",
+      "bytes": 32505,
+      "sha256": "1a29c17d4172e6e65fe36acf8ba80a1c31ab8a165ee041971b77e6c91189b6a0"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-native.gif",
+      "bytes": 98609,
+      "sha256": "72323d2bfb4463f3876ee9ef506b742e11c62fd355ef6dfe9a7b043d24eda37c"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-4x.gif",
+      "bytes": 1563113,
+      "sha256": "3393c69e20c6f4f569e049d8e5ac9eed47f42364296b865a2ff2475bb826a96d"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-SLOW4x-native.gif",
+      "bytes": 98609,
+      "sha256": "3bd3902b14bc580527a1a774e6d5f525c0679ff6de3f26396b0dd3085a1de095"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/source-hero-mannequin-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "0c0a04e3af3e33cc1dbe680a5cc96e64a5fd963814881562142763878f4d0f60"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/hero-and-mannequin.png",
+      "bytes": 12816,
+      "sha256": "106c94ff05676cc939e0529ec1373750bc5a9a90e4a2ffd51e8f12562aa07abb"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/bounded-before-after.png",
+      "bytes": 11638,
+      "sha256": "a1330cabea876805315e75474963c86bbdee66dc4177ff5e78959f5febf835f6"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/anatomy-contact.png",
+      "bytes": 42847,
+      "sha256": "8ce5329a0d7b769ba1333f321e3f0d48c6a0e5da03f053f39006f5e229370a31"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/outfit-registration.png",
+      "bytes": 33981,
+      "sha256": "a7f708f5b2b92687bad356f9dbcc15119fd93096f812a0a325d1492324e1aa57"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/independent-checks.json",
+      "bytes": 5053,
+      "sha256": "cd08ea7c585fe940e8b605e5b88bc8b66404447a005078503a1c096815e311b5"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/editor-validation.json",
+      "bytes": 2074,
+      "sha256": "91b90fac34e0595e16d10e36a74f7e96f7a7791a272040917bfcaa93de479d98"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR12/scope-and-provenance.json",
+      "bytes": 2161,
+      "sha256": "004fd861e227254a8c2ab6cfb4375e8e4e328bb8b614ae643684aa41f762ddd2"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-forward-r12/hero-forward-idle.sprite.json",
+      "bytes": 4764,
+      "sha256": "60d72237fadcb89909c9a6241bd7814622b523ab995669a13fb49a352ea60f59"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-forward-r12/hero-forward-walk.sprite.json",
+      "bytes": 34623,
+      "sha256": "ac2c9544a5dc9822d8444aa9ebf343c6b51ecd39cf2e2fe7aa0ed5163990bf80"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-forward-r12/mannequin.sprite.json",
+      "bytes": 33576,
+      "sha256": "0952012b1daae7a9c3c71e9d552f90edece774360f3539807e79acef59e6b040"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-forward-r12/scaffold.json",
+      "bytes": 5064,
+      "sha256": "b9eebd85ec458a8a30434bd1ae661ecb98189efc11bec7dcafd33f9883b2e59b"
+    }
+  ],
+  "appearanceApproved": false,
+  "scaffoldFrozen": false,
+  "independentVisualReview": "pending; no self-approval",
+  "ownerLibraryUpload": false,
+  "libraryRelay": "root/Eutychus handles after stable checkpoint",
+  "gameplayChanged": false,
+  "deployed": false,
+  "unrelatedRecoveryCommitPreserved": "35df869",
+  "parkedWorkRemaining": [
+    "docs/ART_BIBLE.md HR11 preexisting unstaged changes",
+    "docs/PROJECT_PLAN.md HR11 preexisting unstaged changes",
+    "docs/PROJECT_STATUS.md HR11 preexisting unstaged changes",
+    "docs/REFERENCE_MEASUREMENTS.md HR11 preexisting unstaged changes",
+    "art/source/hero-forward-r11/ untracked parked draft",
+    "docs/reviews/M1-HR11/ untracked parked draft"
+  ],
+  "parkedDocumentPatch": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr12-review/parked-HR11-docs.patch",
+  "nextAction": "Eutychus independently reviews stable triples/anatomy/overlay; root handles Library; owner holds wider work"
+}
