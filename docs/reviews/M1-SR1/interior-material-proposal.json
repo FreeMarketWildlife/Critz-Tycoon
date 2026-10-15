@@ -1,0 +1,541 @@
+{
+  "state": "READ-ONLY DIAGNOSIS/PROPOSAL ONLY; no trial PNG or source edit produced",
+  "sourceArtCommit": "73eb6c102e3ac928bd013360dfd2c076fdb93bfb",
+  "proposal": "Connected existing slate/navy plane boundary continuation; no named anatomical separation or new shoe type",
+  "protected": "all alpha/silhouette, full shoe painted footprint/extrema, waist, head/upper/hands/pack, every row60+ RGBA; original non-navy accents unchanged",
+  "poses": {
+    "idle": {
+      "frozenSR1Source": "docs/reviews/M1-SR1/west-idle/trial-hero.png",
+      "sourceSHA256": "f9dff66472faaad787e730a6a94b73e3ac9de2a4c44c55f59f1a0b250779ed16",
+      "proposedCells": [
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ]
+      ],
+      "oldRGBA": [
+        42,
+        52,
+        74,
+        255
+      ],
+      "proposedRGBA": [
+        70,
+        86,
+        113,
+        255
+      ],
+      "pixelCount": 5,
+      "connectsExistingSlateWithoutNewIsland": true,
+      "materialRunsExclusiveEnd": {
+        "58": {
+          "slateBefore": [
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "slateProposed": [
+            [
+              13,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "navyBefore": [
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              16
+            ],
+            [
+              20,
+              21
+            ]
+          ],
+          "navyProposed": [
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              20,
+              21
+            ]
+          ]
+        },
+        "59": {
+          "slateBefore": [
+            [
+              16,
+              20
+            ]
+          ],
+          "slateProposed": [
+            [
+              14,
+              20
+            ]
+          ],
+          "navyBefore": [
+            [
+              10,
+              16
+            ]
+          ],
+          "navyProposed": [
+            [
+              10,
+              14
+            ]
+          ]
+        }
+      },
+      "geometryChanges": 0,
+      "lastContactRowsChanged": false
+    },
+    "P": {
+      "frozenSR1Source": "docs/reviews/M1-SR1/west-P/trial-hero.png",
+      "sourceSHA256": "a07077810f2a9fb3a8801fab85528ae33973d77c0c99ffc8291a503e33d53ed4",
+      "proposedCells": [
+        [
+          13,
+          58
+        ],
+        [
+          14,
+          58
+        ],
+        [
+          15,
+          58
+        ],
+        [
+          14,
+          59
+        ],
+        [
+          15,
+          59
+        ]
+      ],
+      "oldRGBA": [
+        42,
+        52,
+        74,
+        255
+      ],
+      "proposedRGBA": [
+        70,
+        86,
+        113,
+        255
+      ],
+      "pixelCount": 5,
+      "connectsExistingSlateWithoutNewIsland": true,
+      "materialRunsExclusiveEnd": {
+        "58": {
+          "slateBefore": [
+            [
+              16,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "slateProposed": [
+            [
+              13,
+              17
+            ],
+            [
+              18,
+              20
+            ]
+          ],
+          "navyBefore": [
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              16
+            ],
+            [
+              20,
+              21
+            ]
+          ],
+          "navyProposed": [
+            [
+              9,
+              10
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              20,
+              21
+            ]
+          ]
+        },
+        "59": {
+          "slateBefore": [
+            [
+              16,
+              20
+            ]
+          ],
+          "slateProposed": [
+            [
+              14,
+              20
+            ]
+          ],
+          "navyBefore": [
+            [
+              10,
+              16
+            ]
+          ],
+          "navyProposed": [
+            [
+              10,
+              14
+            ]
+          ]
+        }
+      },
+      "geometryChanges": 0,
+      "lastContactRowsChanged": false
+    },
+    "A": {
+      "frozenSR1Source": "docs/reviews/M1-SR1/west-A/trial-hero.png",
+      "sourceSHA256": "cb68b43500737cbbb38f4334a636bb4d460f9768dbad6a894b4a1a38f30873d5",
+      "proposedCells": [
+        [
+          11,
+          56
+        ],
+        [
+          11,
+          57
+        ],
+        [
+          12,
+          57
+        ],
+        [
+          12,
+          58
+        ],
+        [
+          13,
+          58
+        ]
+      ],
+      "oldRGBA": [
+        42,
+        52,
+        74,
+        255
+      ],
+      "proposedRGBA": [
+        70,
+        86,
+        113,
+        255
+      ],
+      "pixelCount": 5,
+      "connectsExistingSlateWithoutNewIsland": true,
+      "materialRunsExclusiveEnd": {
+        "56": {
+          "slateBefore": [
+            [
+              6,
+              11
+            ]
+          ],
+          "slateProposed": [
+            [
+              6,
+              12
+            ]
+          ],
+          "navyBefore": [
+            [
+              5,
+              6
+            ],
+            [
+              11,
+              24
+            ]
+          ],
+          "navyProposed": [
+            [
+              5,
+              6
+            ],
+            [
+              12,
+              24
+            ]
+          ]
+        },
+        "57": {
+          "slateBefore": [
+            [
+              6,
+              11
+            ]
+          ],
+          "slateProposed": [
+            [
+              6,
+              13
+            ]
+          ],
+          "navyBefore": [
+            [
+              11,
+              24
+            ]
+          ],
+          "navyProposed": [
+            [
+              13,
+              24
+            ]
+          ]
+        },
+        "58": {
+          "slateBefore": [
+            [
+              8,
+              12
+            ],
+            [
+              22,
+              24
+            ]
+          ],
+          "slateProposed": [
+            [
+              8,
+              14
+            ],
+            [
+              22,
+              24
+            ]
+          ],
+          "navyBefore": [
+            [
+              7,
+              8
+            ],
+            [
+              12,
+              22
+            ],
+            [
+              24,
+              25
+            ]
+          ],
+          "navyProposed": [
+            [
+              7,
+              8
+            ],
+            [
+              14,
+              22
+            ],
+            [
+              24,
+              25
+            ]
+          ]
+        }
+      },
+      "geometryChanges": 0,
+      "lastContactRowsChanged": false
+    },
+    "C": {
+      "frozenSR1Source": "docs/reviews/M1-SR1/west-C/trial-hero.png",
+      "sourceSHA256": "c6256a546d276b8c43bb8fa19ce20ad1d4923e5e6153e16fc3069c78bd848f16",
+      "proposedCells": [
+        [
+          10,
+          58
+        ],
+        [
+          11,
+          58
+        ],
+        [
+          10,
+          59
+        ],
+        [
+          11,
+          59
+        ],
+        [
+          12,
+          59
+        ]
+      ],
+      "oldRGBA": [
+        42,
+        52,
+        74,
+        255
+      ],
+      "proposedRGBA": [
+        70,
+        86,
+        113,
+        255
+      ],
+      "pixelCount": 5,
+      "connectsExistingSlateWithoutNewIsland": true,
+      "materialRunsExclusiveEnd": {
+        "58": {
+          "slateBefore": [
+            [
+              8,
+              10
+            ],
+            [
+              22,
+              26
+            ]
+          ],
+          "slateProposed": [
+            [
+              8,
+              12
+            ],
+            [
+              22,
+              26
+            ]
+          ],
+          "navyBefore": [
+            [
+              5,
+              8
+            ],
+            [
+              10,
+              22
+            ],
+            [
+              26,
+              27
+            ]
+          ],
+          "navyProposed": [
+            [
+              5,
+              8
+            ],
+            [
+              12,
+              22
+            ],
+            [
+              26,
+              27
+            ]
+          ]
+        },
+        "59": {
+          "slateBefore": [
+            [
+              8,
+              10
+            ],
+            [
+              22,
+              26
+            ]
+          ],
+          "slateProposed": [
+            [
+              8,
+              13
+            ],
+            [
+              22,
+              26
+            ]
+          ],
+          "navyBefore": [
+            [
+              6,
+              8
+            ],
+            [
+              10,
+              14
+            ]
+          ],
+          "navyProposed": [
+            [
+              6,
+              8
+            ],
+            [
+              13,
+              14
+            ]
+          ]
+        }
+      },
+      "geometryChanges": 0,
+      "lastContactRowsChanged": false
+    }
+  },
+  "east": "Mirror only the same proposed material cells x->31-x after validating old material equals navy; preserve source East upper/body/shape.",
+  "uncertainty": "Primary side dark-to-dark costume join does not locate pants/shoe boundary; proposed lighting placement is original Critz treatment, not source-observed hidden anatomy or guaranteed quality fix.",
+  "selectionStatus": "Only the five-site existing-slate continuation is proposed for parent judgment. No artwork has been generated or edited; not a demonstrated pants/shoe separation or full chunkiness fix."
+}

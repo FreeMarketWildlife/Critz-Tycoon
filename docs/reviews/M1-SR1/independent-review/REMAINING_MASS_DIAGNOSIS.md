@@ -1,0 +1,19 @@
+# Remaining side lower-mass diagnosis — actual references, no new art
+
+SR1's two corner sites per pose do not substantially change the overall native read. I re-opened the actual pinned Brendan and Man1 side strips (`/tmp/ds1-primary-reference/primary-native-frames.png`) and all eight registered frames of the originally supplied forward GIF (`registered-all-eight-contact.png` in the external original-reference directory). The GIF SHA256 is `5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e`. Primary strip revision `731ad5bfd6e6f265508d0efcca0ba42f9dcf5881`. These are source-image observations, not emulator or hidden-anatomy measurements.
+
+## What the actual source supports
+
+Brendan's side idle and strides themselves contain a large connected black lower overlap. Thus a joined passing silhouette or a broad bridge across a stride is not, alone, an error. Man1 uses a connected olive trouser plane with warm shoe surfaces emerging beneath it; the supplied forward refinement likewise retains dark cloth overlap while the compact colored footwear makes contacts readable. These references support clarifying visible material planes without inventing a pair of exposed calves, splitting an occluded far foot or reducing the shoe envelope. The forward GIF supplies treatment evidence, not a side pose or transferable anatomical seam.
+
+Actual Brendan index2 non-background contour runs, zero-based and end-exclusive: y27 `[5,12)`, y28 `[5,11)`, y29 `[4,11)`, y30 `[5,10)`. Source stride7 bottom row31 is `[10,12)`; stride8 is `[4,6)`. At doubled frame registration, idle row30 corresponds to60–61, stride31 to62–63. These standard contacts are retained by SR1. Reference occupancy is a scaffold; it does not justify locking each final target contour to2×2 blocks.
+
+## What remains in the Critz image
+
+The current navy/slate mixture continues through the shoe interiors. Its isolated burgundy near-contact cue is a single cell at West idle/P `(10,58)`, A `(22,60)`, C `(9,60)`. At native size these isolated cues do little to clarify where the blue clothed overlap ends and a shoe surface emerges. SR1 changed only55–57 and therefore left most of that ambiguity untouched. The exact source body restoration demonstrated preservation; it did not make the existing lower material pattern an approved target.
+
+## Smallest proposed correction and limits
+
+Keep the exact exterior alpha, waist width, full shoe length, last-contact spans, upper body/hands and separately fixed backpack. Refine one connected cloth/shadow plane into the actual visible lower surface, using existing slate/navy colors and one-target-pixel steps through the formerly protected58+ interior where needed. Preserve the existing shoe envelope; any small connected shoe material cue must follow a recorded visible surface rather than color the whole dark overlap as footwear. Do not add a long pale sole rail or blanket burgundy patch, as in the historical FM2 tradeoff. Do not invent a new highlight texture, fabric design, leg split or pose.
+
+The writer's [exact five-cell-per-pose proposal](../interior-material-proposal.json) records old/new material runs for all four existing side poses with mirrored East implications. Idle/P: `(13,58),(14,58),(15,58),(14,59),(15,59)`; A: `(11,56),(11,57),(12,57),(12,58),(13,58)`; C: `(10,58),(11,58),(10,59),(11,59),(12,59)`. Every proposed site currently uses navy and connects to existing slate; all60+ rows stay exact. The smaller pattern may still leave pants/shoe ownership ambiguous, and has not been rendered or visually assessed. Those coordinates are original Critz shading decisions; the source does not prove their ownership beneath occlusion. This is a proposal for parent assessment, not an instruction to treat numerical preservation as artistic success. No additional sprite pixels have been edited for this diagnosis; source SR1 remains frozen.

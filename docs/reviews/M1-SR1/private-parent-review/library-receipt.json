@@ -1,0 +1,44 @@
+{
+  "task": "M1.SR1",
+  "sourceCommit": "73eb6c102e3ac928bd013360dfd2c076fdb93bfb",
+  "independentAuditCommit": "acb2ef4caabd4c26c0d3812ae4d8c93e0f9af61b",
+  "scope": "Private parent visual inspection only. Unapproved diagnostic trial.",
+  "priorAttempt": "Earlier skill unavailable before mutation; skill subsequently available and supported single-file saves succeeded. No prior SR1 IDs or duplicate uploads.",
+  "items": [
+    {
+      "library_file_id": "libfile_90df32894704819187ec47b6c47c249b",
+      "file_id": "file_00000000045881f5b557b0c5b0ea9906",
+      "file_name": "SR1-INTERNAL-west-before-after.png",
+      "current_version_number": 0,
+      "metadataApplied": true,
+      "filename": "SR1-INTERNAL-west-before-after.png",
+      "bytes": 42759,
+      "sha256": "448f376a295e209bcbf1fdb06bf9441ff12b6e5bc9d5fb6f3baeb0bc1a1d3b0a",
+      "exactDownload": true,
+      "rgbaExact": true,
+      "dimensions": [
+        1040,
+        1040
+      ]
+    },
+    {
+      "library_file_id": "libfile_a11e3ea53a4881918045ec039652f01e",
+      "file_id": "file_0000000091a4823096be105a75ee307a",
+      "file_name": "SR1-INTERNAL-countable-lower-grid.png",
+      "current_version_number": 0,
+      "metadataApplied": true,
+      "filename": "SR1-INTERNAL-countable-lower-grid.png",
+      "bytes": 34885,
+      "sha256": "6b940fdfabfacd4ba2de422ce226ff4778532a171ab95b8ad47e214287c5d2a9",
+      "exactDownload": true,
+      "rgbaExact": true,
+      "dimensions": [
+        1120,
+        760
+      ]
+    }
+  ],
+  "visualAcceptance": false,
+  "creatorRestart": false,
+  "deployment": false
+}
