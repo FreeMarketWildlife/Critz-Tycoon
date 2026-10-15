@@ -1,0 +1,448 @@
+{
+  "task": "M1.SR2",
+  "pass": true,
+  "count": 72,
+  "checks": [
+    {
+      "name": "west-paired-normal-3x.gif eight actual frames",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif infinite loop",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame0 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame0 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame1 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame1 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame2 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame2 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame3 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame3 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame4 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame4 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame5 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame5 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame6 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame6 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame7 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-normal-3x.gif frame7 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif eight actual frames",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif infinite loop",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame0 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame0 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame1 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame1 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame2 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame2 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame3 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame3 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame4 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame4 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame5 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame5 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame6 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame6 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame7 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "west-paired-slow-3x.gif frame7 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif eight actual frames",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif infinite loop",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame0 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame0 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame1 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame1 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame2 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame2 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame3 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame3 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame4 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame4 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame5 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame5 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame6 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame6 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame7 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-normal-3x.gif frame7 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif eight actual frames",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif infinite loop",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame0 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame0 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame1 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame1 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame2 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame2 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame3 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame3 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame4 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame4 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame5 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame5 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame6 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame6 exact original hold",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame7 full composed RGB exact",
+      "pass": true
+    },
+    {
+      "name": "east-paired-slow-3x.gif frame7 exact original hold",
+      "pass": true
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "docs/reviews/M1-SR1/west-idle/before-hero.png",
+      "sha256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-idle/final-hero.png",
+      "sha256": "5d411e0e98d8bdf0640ce06cbe4eb734b61d9a3c5b7bf1d2541240d51fd41525"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/west-idle/before-template.png",
+      "sha256": "67877a6ced629c03b7865572b1c021f127cfb93265eba4f75b198c6c0ec71a73"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-idle/final-template.png",
+      "sha256": "9a41b63b133a5ae7353ebf9bc9d0cdf2c21f70908fc5cb97d2e140460eb35979"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/west-A/before-hero.png",
+      "sha256": "b147a3726d52bfe4d282dfeb3e0e0058ece11f9a30635ac6cff6e268e5bd0b71"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-A/final-hero.png",
+      "sha256": "d6f7cbc07ab7f2d2291f9a6cfd051b383dc6ea92389853b4c09a8ab146d19bea"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/west-A/before-template.png",
+      "sha256": "3c95cddf08ade8908b8687aec4f5305332faefbe0aaa34d9b6aa857d56e1bd05"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-A/final-template.png",
+      "sha256": "3df568b17954d049bb3594e3ba720df2fd1054e894682de598ec89a24336e5bf"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/west-P/before-hero.png",
+      "sha256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-P/final-hero.png",
+      "sha256": "45bed3db13ceca2b0004494a3be2432a6e2cb92c657dfdb3e53d14f4e4d3ed9f"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/west-P/before-template.png",
+      "sha256": "c6f0fbdcee468919e5f31a88a436568d0e477a032d8dac0571074cb7504227e0"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-P/final-template.png",
+      "sha256": "bb3559ccc49f85bb6507f3ce04c850b172300aad569317c508978687d4bbe1a5"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/west-C/before-hero.png",
+      "sha256": "9f022f5b4936fa957c51db15c39737abb40a3b5f2f5648ecee029bd11b3eb723"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-C/final-hero.png",
+      "sha256": "8e3d089c24e75c3fc5f2fae71943d9782d44af1e4350d06fab2a49f61dc1ef9d"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/west-C/before-template.png",
+      "sha256": "00ad61eca7e979dc96f16b45d1de17dc1e443b45b6c191d3e8938704c21ea87c"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/west-C/final-template.png",
+      "sha256": "df6f010053cdf03861fafc5bed310fc72b081e928c3b71efde7a4bc8a20328f4"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-idle/before-hero.png",
+      "sha256": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-idle/final-hero.png",
+      "sha256": "c115ac5f55b7cb66e9b112021989e7e63346823ba846af5c952eb70d233ccd44"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-idle/before-template.png",
+      "sha256": "8326982b5803d46bb84f46612fdc9b9b1379438640c832ddbf9bf3c3cb259209"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-idle/final-template.png",
+      "sha256": "fb541299f6731a319ba281b47a3a921c73b10142b2ef5ec224091b17fd43b8d4"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-A/before-hero.png",
+      "sha256": "89e98ee54eab362e192f88bfcc743292a3d5f183cb8fb6958318792bac9998d4"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-A/final-hero.png",
+      "sha256": "f269ab9ab6041cfed2a585ace9205f052790913256d5cf98be9ac53fb26a2ba6"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-A/before-template.png",
+      "sha256": "8e99794ac76a2f2e89209d14e278944410ebd0f666a888651e2140c82aef0d64"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-A/final-template.png",
+      "sha256": "8ad31b6c41dc557d877086a40aad69abaae00d9314b2e4cdbeaa5daa1270f783"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-P/before-hero.png",
+      "sha256": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-P/final-hero.png",
+      "sha256": "16f4dd4b3b2d962da993a3d5386bc1c74a3c69de538b2f9137b04d11f3895919"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-P/before-template.png",
+      "sha256": "51740ad8976bfe0efc5b64bfcee21013426523ce7854bdf7aab3cf4291bfc1b7"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-P/final-template.png",
+      "sha256": "7540713f4e96e2e9d1147da49b5e3f0c98d69e606ac22ee4ff831e4623de31c4"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-C/before-hero.png",
+      "sha256": "e842dce5b34b9dd2334ecac5251e1a19e61b4b6110f9b127abdd76531d64feac"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-C/final-hero.png",
+      "sha256": "27085013d9fc2abaf1b49112894995381dc3c7a9fa17d34c5ea6a17f2941daa4"
+    },
+    {
+      "path": "docs/reviews/M1-SR1/east-C/before-template.png",
+      "sha256": "faa7b6af68bfca7bab1363ce25b4d618b081d6bc142ff1a1f613496b0293e358"
+    },
+    {
+      "path": "docs/reviews/M1-SR2/east-C/final-template.png",
+      "sha256": "d54bbcd95071b0cdc9cb3d5285b01bc1c78868d466b7b71293acea33b374f7e3"
+    }
+  ],
+  "order": [
+    "A",
+    "A",
+    "P",
+    "P",
+    "C",
+    "C",
+    "P",
+    "P"
+  ],
+  "recordedHoldsMs": [
+    70,
+    60,
+    70,
+    70,
+    70,
+    60,
+    70,
+    70
+  ],
+  "cadenceMeaning": "Existing selected Hero exports; not measured NPC/emulator timing.",
+  "visualAcceptance": false,
+  "gameScalePlateMeaning": "Direct unmodified sprite composition on existing meadow grass/path colors; not a browser screenshot or runtime adoption."
+}

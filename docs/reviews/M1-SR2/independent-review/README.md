@@ -1,0 +1,20 @@
+# SR2 independent final review
+
+Final artwork source `3b6270e93c8cead6a9d450c603697094741c4967`. Before baseline is frozen SR1. [Private review images/loops](../private-parent-review/README.md). This records a scoped material improvement, not full M1/user appearance acceptance.
+
+## Actual visual result
+
+I inspected the complete West and East native/3× static sheets, countable material grid, direct1×grass/path plate and final browser screenshots for idle/A/P/C and390px phone context. The initial five-cell blue continuation did not separate trousers from footwear. The later small warm toe cue also left a blue wedge at1×. The final fuller curved shoe-upper surface now reads as footwear below the blue trouser plane in idle/P; a smaller darker opposite surface gives A/C useful projected depth. This is a visible change in the intended material relationship, not a pixel-count stopping rule.
+
+Specific limits remain: the trouser silhouette is still broad; passing feet remain joined rather than exposing an invented far leg; far surfaces are deliberately subdued at native size. The source supports connected occlusion but does not prove hidden leg anatomy or an exact side pants/shoe seam. Proposed lighting/material boundaries remain original Critz decisions. The separate historical praise-selected artifact remains unverified. No appearance approval or permission to restart the creator is inferred.
+
+## Independent evidence
+
+- [100 saved-PNG checks](saved-pixel-audit.json), produced by [independent reader](verify-saved-candidate.py) without importing/rerunning the writer builder. All alpha/row occupancy/full footprint, source ink, upper/head/hands/waist/pack, last-contact RGBA and selected palette stay exact. Hero/bald have identical lower bodies and deltas; actual separate hair/cast-shadow recomposition reproduces final Hero exactly. East lower pixels mirror West. Actual20/19/20/18RGBA changes per direction idle/A/P/C are recorded, not treated as a quality score.
+- [72 saved paired-GIF checks](composition-checks.json): all32 composed frames, original holds and loops decode exactly. Composition copies saved sprites without changing author pixels. Recorded export cadence is not measured NPC/emulator or installed-controller timing.
+- [Fresh isolated Chrome report](browser-review.json):48 actual playback transitions cover all8slots,896 desktop source-panel comparisons have zero opaque-pixel differences; all source hashes remain stable through review. CSS native384×224/3×1152×672 panels display the same source pixels. A390px mobile Chrome context separately checks native384×224 with no page overflow. Final screenshots are exactly384×224 or1152×672; internal CSS alignment was corrected without touching sprite pixels. Zero storage writes/empty synthetic storage; no real browser profile or game imports.
+- [Protected archives](protected-archives.json): all four South PNGs byte-exact to the pre-task baseline; selected source/PS1/SB1 and character-creator tracked files unchanged.
+
+[Art-only browser comparison](game-scale.html) uses the existing meadow's grass/path colors and synchronized fixed source anchors, with pause/idle/slot controls. [Review composer](compose-review.py) produces the private native-scale plate and paired normal/slow loops. Browser captures remain internal; the Library packet contains only original artwork compositions/proofs.
+
+Playback evidence is sampled and verified across slots. No uninterrupted human-watch, physical iPhone Safari, emulator capture, runtime installation, gameplay/save migration or deployment claim. The playable build remains unchanged. Exact next action: parent judges this coherent side material/depth candidate and its stated limits; creator stays stopped.

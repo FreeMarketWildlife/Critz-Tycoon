@@ -1,0 +1,33 @@
+{
+  "baseline": "73eb6c102e3ac928bd013360dfd2c076fdb93bfb",
+  "south": [
+    {
+      "path": "docs/reviews/M1-PS1/hero-south-idle.png",
+      "sha256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+      "exactPreservedBytes": true
+    },
+    {
+      "path": "docs/reviews/M1-PS1/hero-south-A.png",
+      "sha256": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+      "exactPreservedBytes": true
+    },
+    {
+      "path": "docs/reviews/M1-PS1/hero-south-P.png",
+      "sha256": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+      "exactPreservedBytes": true
+    },
+    {
+      "path": "docs/reviews/M1-PS1/hero-south-C.png",
+      "sha256": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+      "exactPreservedBytes": true
+    }
+  ],
+  "protectedPrefixes": [
+    "art/source/hero-directional-r14",
+    "docs/reviews/M1-PS1",
+    "docs/reviews/M1-SB1",
+    "character-creator"
+  ],
+  "trackedChanges": [],
+  "meaning": "Existing archive/front/creator bytes unchanged; no appearance acceptance."
+}

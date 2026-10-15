@@ -1,0 +1,3311 @@
+{
+  "task": "M1.SR2",
+  "pass": true,
+  "count": 100,
+  "checks": [
+    {
+      "name": "west-idle native32x64",
+      "pass": true
+    },
+    {
+      "name": "west-idle all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "west-idle all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "west-idle upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "west-idle selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "west-idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west-idle full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "west-idle every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "west-idle contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "west-idle exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "west-idle same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "west-idle real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "west-A native32x64",
+      "pass": true
+    },
+    {
+      "name": "west-A all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "west-A all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "west-A upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "west-A selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "west-A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west-A full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "west-A every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "west-A contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "west-A exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "west-A same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "west-A real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "west-P native32x64",
+      "pass": true
+    },
+    {
+      "name": "west-P all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "west-P all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "west-P upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "west-P selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "west-P binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west-P full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "west-P every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "west-P contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "west-P exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "west-P same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "west-P real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "west-C native32x64",
+      "pass": true
+    },
+    {
+      "name": "west-C all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "west-C all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "west-C upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "west-C selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "west-C binary alpha",
+      "pass": true
+    },
+    {
+      "name": "west-C full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "west-C every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "west-C contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "west-C exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "west-C same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "west-C real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "east-idle native32x64",
+      "pass": true
+    },
+    {
+      "name": "east-idle all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "east-idle all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "east-idle upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "east-idle selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "east-idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east-idle full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "east-idle every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "east-idle contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "east-idle exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "east-idle same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "east-idle real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "east-A native32x64",
+      "pass": true
+    },
+    {
+      "name": "east-A all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "east-A all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "east-A upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "east-A selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "east-A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east-A full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "east-A every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "east-A contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "east-A exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "east-A same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "east-A real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "east-P native32x64",
+      "pass": true
+    },
+    {
+      "name": "east-P all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "east-P all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "east-P upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "east-P selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "east-P binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east-P full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "east-P every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "east-P contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "east-P exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "east-P same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "east-P real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "east-C native32x64",
+      "pass": true
+    },
+    {
+      "name": "east-C all alpha exact",
+      "pass": true
+    },
+    {
+      "name": "east-C all source ink exact",
+      "pass": true
+    },
+    {
+      "name": "east-C upper waist head hands and fixed pack exact",
+      "pass": true
+    },
+    {
+      "name": "east-C selected palette retained",
+      "pass": true
+    },
+    {
+      "name": "east-C binary alpha",
+      "pass": true
+    },
+    {
+      "name": "east-C full frame and lower footprint bounds exact",
+      "pass": true
+    },
+    {
+      "name": "east-C every row occupancy exact",
+      "pass": true
+    },
+    {
+      "name": "east-C contact row RGBA exact",
+      "pass": true
+    },
+    {
+      "name": "east-C exact shared Hero bald lower body",
+      "pass": true
+    },
+    {
+      "name": "east-C same Hero bald change sites and colors",
+      "pass": true
+    },
+    {
+      "name": "east-C real separate hair shadow recomposition",
+      "pass": true
+    },
+    {
+      "name": "idle exact saved East lower counterpart",
+      "pass": true
+    },
+    {
+      "name": "A exact saved East lower counterpart",
+      "pass": true
+    },
+    {
+      "name": "P exact saved East lower counterpart",
+      "pass": true
+    },
+    {
+      "name": "C exact saved East lower counterpart",
+      "pass": true
+    }
+  ],
+  "poses": [
+    {
+      "pose": "west-idle",
+      "rgbaChanges": 20,
+      "sourceSHA256": "f9dff66472faaad787e730a6a94b73e3ac9de2a4c44c55f59f1a0b250779ed16",
+      "heroSHA256": "5d411e0e98d8bdf0640ce06cbe4eb734b61d9a3c5b7bf1d2541240d51fd41525",
+      "templateSHA256": "9a41b63b133a5ae7353ebf9bc9d0cdf2c21f70908fc5cb97d2e140460eb35979",
+      "contactRow": 61,
+      "contactSpansExclusiveEnd": [
+        [
+          10,
+          20
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            11,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            14,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            14,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            14,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "west-A",
+      "rgbaChanges": 19,
+      "sourceSHA256": "cb68b43500737cbbb38f4334a636bb4d460f9768dbad6a894b4a1a38f30873d5",
+      "heroSHA256": "d6f7cbc07ab7f2d2291f9a6cfd051b383dc6ea92389853b4c09a8ab146d19bea",
+      "templateSHA256": "3df568b17954d049bb3594e3ba720df2fd1054e894682de598ec89a24336e5bf",
+      "contactRow": 63,
+      "contactSpansExclusiveEnd": [
+        [
+          20,
+          24
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            11,
+            56
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            57
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            57
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            9,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            22,
+            59
+          ],
+          "before": [
+            116,
+            136,
+            148,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            61
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            61
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            22,
+            61
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            22,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "west-P",
+      "rgbaChanges": 20,
+      "sourceSHA256": "a07077810f2a9fb3a8801fab85528ae33973d77c0c99ffc8291a503e33d53ed4",
+      "heroSHA256": "45bed3db13ceca2b0004494a3be2432a6e2cb92c657dfdb3e53d14f4e4d3ed9f",
+      "templateSHA256": "bb3559ccc49f85bb6507f3ce04c850b172300aad569317c508978687d4bbe1a5",
+      "contactRow": 61,
+      "contactSpansExclusiveEnd": [
+        [
+          10,
+          20
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            11,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            14,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            14,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            14,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "west-C",
+      "rgbaChanges": 18,
+      "sourceSHA256": "c6256a546d276b8c43bb8fa19ce20ad1d4923e5e6153e16fc3069c78bd848f16",
+      "heroSHA256": "8e3d089c24e75c3fc5f2fae71943d9782d44af1e4350d06fab2a49f61dc1ef9d",
+      "templateSHA256": "df6f010053cdf03861fafc5bed310fc72b081e928c3b71efde7a4bc8a20328f4",
+      "contactRow": 63,
+      "contactSpansExclusiveEnd": [
+        [
+          8,
+          12
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            10,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            8,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            9,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            23,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            24,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            8,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            24,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            9,
+            61
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            61
+          ],
+          "before": [
+            116,
+            136,
+            148,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            61
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            9,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "east-idle",
+      "rgbaChanges": 20,
+      "sourceSHA256": "88e017495f973adca6a0cf1259fae8bf6d1214e11534e033ef04e8a70e122fb7",
+      "heroSHA256": "c115ac5f55b7cb66e9b112021989e7e63346823ba846af5c952eb70d233ccd44",
+      "templateSHA256": "fb541299f6731a319ba281b47a3a921c73b10142b2ef5ec224091b17fd43b8d4",
+      "contactRow": 61,
+      "contactSpansExclusiveEnd": [
+        [
+          12,
+          22
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            12,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            17,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            17,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            17,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "east-A",
+      "rgbaChanges": 19,
+      "sourceSHA256": "2036bb6105fdabd09708cbb25a6b0b30db101177379fb419908881f15ffab5ad",
+      "heroSHA256": "f269ab9ab6041cfed2a585ace9205f052790913256d5cf98be9ac53fb26a2ba6",
+      "templateSHA256": "8ad31b6c41dc557d877086a40aad69abaae00d9314b2e4cdbeaa5daa1270f783",
+      "contactRow": 63,
+      "contactSpansExclusiveEnd": [
+        [
+          8,
+          12
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            20,
+            56
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            57
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            57
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            9,
+            59
+          ],
+          "before": [
+            116,
+            136,
+            148,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            22,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            12,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            9,
+            61
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            61
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            11,
+            61
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            9,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            10,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "east-P",
+      "rgbaChanges": 20,
+      "sourceSHA256": "0d55bd4c1c79b23982023e51822858687a870d4f737410723ea6f0b4116365af",
+      "heroSHA256": "16f4dd4b3b2d962da993a3d5386bc1c74a3c69de538b2f9137b04d11f3895919",
+      "templateSHA256": "7540713f4e96e2e9d1147da49b5e3f0c98d69e606ac22ee4ff831e4623de31c4",
+      "contactRow": 61,
+      "contactSpansExclusiveEnd": [
+        [
+          12,
+          22
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            12,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            58
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            17,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            13,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            17,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            15,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            16,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            17,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            18,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            60
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    },
+    {
+      "pose": "east-C",
+      "rgbaChanges": 18,
+      "sourceSHA256": "36aaf8fddbf6cd88de8365d0b50ce6ec0b53d49d6e11543f58e0645a0d5178b5",
+      "heroSHA256": "27085013d9fc2abaf1b49112894995381dc3c7a9fa17d34c5ea6a17f2941daa4",
+      "templateSHA256": "d54bbcd95071b0cdc9cb3d5285b01bc1c78868d466b7b71293acea33b374f7e3",
+      "contactRow": 63,
+      "contactSpansExclusiveEnd": [
+        [
+          20,
+          24
+        ]
+      ],
+      "changedCells": [
+        {
+          "xy": [
+            20,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            58
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            7,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            8,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            19,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            70,
+            86,
+            113,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            59
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            22,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            23,
+            59
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            7,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            237,
+            116,
+            92,
+            255
+          ]
+        },
+        {
+          "xy": [
+            23,
+            60
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            20,
+            61
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            61
+          ],
+          "before": [
+            116,
+            136,
+            148,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            22,
+            61
+          ],
+          "before": [
+            70,
+            86,
+            113,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            21,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        },
+        {
+          "xy": [
+            22,
+            62
+          ],
+          "before": [
+            42,
+            52,
+            74,
+            255
+          ],
+          "after": [
+            174,
+            69,
+            74,
+            255
+          ]
+        }
+      ]
+    }
+  ],
+  "appearanceAcceptance": false,
+  "meaning": "Preservation facts only; actual native-scale material/depth review is recorded separately."
+}
