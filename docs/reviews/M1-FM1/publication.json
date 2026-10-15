@@ -1,0 +1,29 @@
+{
+  "task": "M1.FM1",
+  "sourceCommit": "98ea5450647765fa1e1c737f9224c83e1aaec6e7",
+  "branch": "main",
+  "verifiedOriginMain": "98ea5450647765fa1e1c737f9224c83e1aaec6e7",
+  "verifiedAtUTC": "2026-10-15T16:38:49.959279+00:00",
+  "state": "FOCUSED WEST IDLE/P REVIEW CANDIDATE; EUTYCHUS REVIEW PENDING",
+  "frozenFiles": {
+    "docs/reviews/M1-FM1/west-idle-P-material-trial.png": "89d522cdc259695ff4529585e485c02485fc00c498a88d730be0cf4e6ea64f3b",
+    "docs/reviews/M1-FM1/west-idle-current-hero.png": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79",
+    "docs/reviews/M1-FM1/west-idle-P-native-grid.png": "72e49c15ab8904ec60388d359835c8db34c00a4368a40fbb60a3667d0dfd36b7",
+    "docs/reviews/M1-FM1/west-idle-current-template.png": "32e7c511ebe7b63925a57e5b4cec04a0fd4c57ef40fc080e41aff112c4baf188",
+    "docs/reviews/M1-FM1/west-P-trial-hero.png": "803f4feaf570580df5009dc638b22e81eca179974fd9c8ca543e8e144c04a2aa",
+    "docs/reviews/M1-FM1/west-P-trial-template.png": "28794b477d4537dd3dc43e3f2e86128d81499cc5d1453741a7def8517c269b4b",
+    "docs/reviews/M1-FM1/west-P-current-template.png": "518ce3de7e86fdede65d282733e05bdfca6c6859d7fd0211bc94403d1666fa6e",
+    "docs/reviews/M1-FM1/west-P-current-hero.png": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568",
+    "docs/reviews/M1-FM1/west-idle-trial-template.png": "2def72588ad9c43dbf38e58eec5125e5926cde2bce2123fd1e6584d61457f343",
+    "docs/reviews/M1-FM1/west-idle-trial-hero.png": "b9ff1747b65602e805e97ee69a4974b4b850793ae8325c1f3d8c378426555631",
+    "art/source/hero-footwear-r1/edits.json": "109607f64257194551c281317df4f8084691417e29fc0ba3191b4d0d70472fb9"
+  },
+  "checks": "12 saved-pixel geometry/palette/source/template invariants pass",
+  "priorStaticCheckpoint": "c600c290cf965f0c3093962f37586137b0ccbe5f",
+  "appearanceAccepted": false,
+  "creator": "paused; initial draft depends on rejected NB3, not installed",
+  "animation": "held; no new GIFs",
+  "deployment": "none; review/source-only, existing phone build unchanged",
+  "library": "root-owned; no upload by writer",
+  "remainingChanges": "Preserved parked shared-doc/root worklog, HR11 and independent/root review artifacts; not part of writer commit"
+}
