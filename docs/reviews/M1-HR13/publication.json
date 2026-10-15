@@ -61,6 +61,6 @@
   "residual": "Profile angular/heavy read and potentially wide stride; numeric camera pitch/world bones unresolved; no continuous browser-playback evidence from independent reviewer",
   "library": "Parent handles export; receipt pending",
   "deployment": "None: review-only; accepted gameplay unchanged",
-  "remainingChanges": "Parked HR11 source/review and four original shared-document diffs preserved byte-exact as an unstaged patch",
+  "remainingChanges": "Parked HR11 source/review and original shared-document edits retained unstaged; exact added/removed document lines verified against pre-HR13 snapshot. Patch context/index hashes naturally change after inserted HR13 sections.",
   "nextAction": "Parent/Eutychus visual review and Library relay; sole owner holds artwork"
 }
