@@ -89,9 +89,10 @@ features=json.loads((out/'common-feature-registration.json').read_text())
 for d in dirs:
  for po in ('idle','A','P','C'):
   record=features['directions'][d][po];e=meta['directions'][d][po]['commonFeatureRegistration']
-  assert set(e)=={'head','ears','eyes','arms','hands','torso','feet','hiddenAttachments'}
+  assert set(e)=={'head','ears','eyes','arms','hands','torso','feet','legs','hiddenAttachments'}
   assert all(v['xy'] is None for v in e['hiddenAttachments'].values())
   assert e['feet']['edgeAnchor']==[16,64]
+  assert e['legs']['anatomicalCoordinates'] is None and 'Occluded/inferred' in e['legs']['status']
   h=Image.open(out/f'hero-{d}-{po}.png').convert('RGBA');last=h.getbbox()[3]-1
   assert last==record['lastPaintedRow']==e['feet']['lastPaintedRow']
   expected={x for x in range(32) if h.getpixel((x,last))[3]};declared={x for a,b in record['lastPaintedSpans'] for x in range(a,b)};assert expected==declared
