@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Girl front arm/hand material ownership — M1.GH1 correction
+
+Do not treat palette matching as proof of readable skin. Current C6 complexion ramp already matched, while cream/muted-fabric and coral islands surrounded tiny brown wrists. Preserve checked geometry/ink/alpha; explicitly assign the below-sleeve exposed skin region, retain upper cream trim, and keep inward shirt highlights cloth. Current bounded correction changes27 cells, expands actual skin12→34 in the audited region, retains10 cream upper-trim cells and quiets two inward pale fabric sites to coral. [Actual separate material masks and cells](reviews/M1-GH1/wrist-correction/material-decision.json). These arm/hand regions are authored visible-material decisions, not hidden joint measurements. Compare actual saved C6/before/after masks and native/nearest whole characters; preserve head/ears/lower contacts. Independent visual review is required; other directions/walks remain held.
+
 ## Girl Hero first-front adaptation — M1.GH1
 
 Preserve selected R11/C6 identity: ten-year-old Black child, twin natural puffs/coral ties, short temple locks/fringe, coral/cream shirt, blue shorts and burgundy shoes. C6 native front and C7 passing still are identical; separate24×32 G1/v3 is not this design baseline. Enlarged generated concept is design intent, never a native measurement or resampling input. [First-front proofs and source](reviews/M1-GH1/README.md).

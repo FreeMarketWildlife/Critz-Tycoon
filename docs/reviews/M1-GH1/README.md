@@ -29,7 +29,7 @@ The fixed-frame design/C6/C7/current/HR14 comparison, including the generated co
 
 ## Review limits and next action
 
-Owner inspected the saved head/join, native/light/dark, material masks, design comparison and world-context plates. The current front has a narrower silhouette below the retained puffed head than C6, and the front cuffs/hands remain bright; their overall balance needs independent visual judgment. Tests prove protection and source consistency, not artistic acceptance. There is no animation/cycle claim for this static checkpoint.
+Owner inspected the saved head/join, native/light/dark, material masks, design comparison and world-context plates. The current front has a narrower silhouette below the retained puffed head than C6. The first checkpoint bright cuff/hand issue is superseded by the bounded wrist material correction below; overall stance and balance still need independent visual judgment. Tests prove protection and source consistency, not artistic acceptance. There is no animation/cycle claim for this static checkpoint.
 
 Eutychus reviews this **first front** before any four-direction idles or walks. Broader M1 appearance and M2 movement gates remain open. Do not silently install this candidate or extend the roster. The completed HR14 boy construction/delivery does not grant Girl appearance approval.
 
@@ -49,3 +49,17 @@ Six Library files at version0 were downloaded and verified byte-for-byte, dimens
 - [Grass/path shared-body mock](https://chatgpt.com/api/library/files/libfile_047ff9adde2c8191aef2e7a9b18ebe01/download)
 
 Automatic approval review rejected the next writer message for three additional directional idle proposals twice. It found that the verified direct human correction authorization did not clearly cover that extension. No new directions were started. Direct approval to message the writer for those three review-only idles is the next dependency; walks, runtime replacement and deployment remain held. This block is distinct from the completed front construction and Library delivery.
+
+## Bounded front wrist material correction
+
+Eutychus/root identified the visible pale/red wrist rings. The existing mapped brown ramp already matched C6; the defect was material ownership, not an inherited lighter complexion. In the audited outer-arm region (x3–9 and22–28, y47–53), the prior image contained only12 skin cells,22 cream,18 coral/shirt-shade,30 ink/navy. Fifteen original HR14 cream plus seven muted fabric pixels had collapsed to bright cream in the Girl mapping.
+
+The correction deliberately authors exposed arm/hand material below the retained upper sleeve. It is **not a global cream-to-skin substitution**:10 cream upper sleeve/trim pixels remain unchanged, as do collar/stripe highlights. The skin region becomes34 cells (32 hand-region cells plus2 arm-region cells), using the selected C6 ramp: base #a87038, upper light #c48e4a, bottom shade #784820. Arm/hand labels distinguish visible authored material regions; they do not establish hidden bones or wrist joints. Two inward pale fabric cells(22,53)/(23,53) become coral shirt fabric, rather than extra skin or a second cuff.
+
+Exactly27 final RGBA cells change, all in the bounded outer region. Every alpha cell, ink/navy edge, head/ear pixel through44 and lower-body pixel from54 down is exact to first-front source3a94f48. The body contour is not redrawn.29 original protection checks, six correction protection assertions and two actual Sprite Editor validations pass. Source/head/body/context/mask plates are regenerated; Library identities/versions remain root-owned and untouched here.
+
+![Source, before/after and actual separated materials](wrist-correction/source-before-after-actual-masks.png)
+
+[Before/after actual region materials](wrist-correction/before-after-region-materials.png) · [Exact27 cells, counts, material ownership and protections](wrist-correction/material-decision.json) · [Frozen original first-front PNG](wrist-correction/before.png).
+
+**Awaiting independent review.** Retained outward arm stance/geometry is protected in this color-only correction, not newly approved. No directional continuation, walks, roster, runtime, saves or deployment. Root retains the six Library identities at version0 and will perform guarded replacement after review; the prior Library receipt describes the superseded first-front pixels.
