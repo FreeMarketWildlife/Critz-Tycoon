@@ -1,0 +1,120 @@
+{
+  "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+  "method": "actual indexedPNG source pixels; index0 excluded; not emulator observation",
+  "files": {
+    "brendan-walking.png": {
+      "sha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+      "sheetDimensions": [
+        144,
+        32
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "bounds": [
+            1,
+            10,
+            15,
+            31
+          ],
+          "lastPaintedRow": 30,
+          "lastPaintedXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            1,
+            11,
+            15,
+            32
+          ],
+          "lastPaintedRow": 31,
+          "lastPaintedXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "bounds": [
+            1,
+            11,
+            15,
+            32
+          ],
+          "lastPaintedRow": 31,
+          "lastPaintedXs": [
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    "man_1.png": {
+      "sha256": "cd71f4ec4dd2b634cf48d79020be960127434fcfcc56ed536f4e7084d6ffc57c",
+      "sheetDimensions": [
+        144,
+        32
+      ],
+      "frames": [
+        {
+          "index": 1,
+          "bounds": [
+            1,
+            11,
+            15,
+            31
+          ],
+          "lastPaintedRow": 30,
+          "lastPaintedXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "lastPaintedRow": 31,
+          "lastPaintedXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "lastPaintedRow": 31,
+          "lastPaintedXs": [
+            8,
+            9,
+            10
+          ]
+        }
+      ]
+    }
+  }
+}

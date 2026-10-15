@@ -1,0 +1,3509 @@
+{
+  "basis": "actual visual scaffold audit; source-derived cell authoring, master unchanged",
+  "edits": [
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        7,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        9,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        9,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        7,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        5,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        10,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        5,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        10,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        7,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        9,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        9,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        7,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        15
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        3,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        7,
+        13
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        9,
+        13
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        9,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        7,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        12,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        5,
+        29
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        10,
+        29
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        5,
+        29
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        10,
+        29
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        7,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        9,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        9,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        7,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "c",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        8,
+        17
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        5,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        10,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        5,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        10,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        8,
+        17
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        6,
+        31
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        6,
+        31
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        15
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        3,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        8,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        5,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        10,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        5,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        10,
+        30
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        8,
+        17
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        9,
+        31
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "north",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        9,
+        31
+      ],
+      "before": "n",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        2,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        8,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        10,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        7,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        7,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        2,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        8,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        10,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        15
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        2,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        3,
+        19
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        11,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        8,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        10,
+        14
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        8,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        3,
+        19
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        11,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        7,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        7,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        2,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        8,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        10,
+        15
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "west",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        13,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        8,
+        17
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        13,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        8,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        8,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        13,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        8,
+        17
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        13,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        4,
+        27
+      ],
+      "before": "o",
+      "after": "g",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        4,
+        30
+      ],
+      "before": "o",
+      "after": "v",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        4,
+        27
+      ],
+      "before": "o",
+      "after": "g",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "east",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        4,
+        30
+      ],
+      "before": "o",
+      "after": "v",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        15
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        13,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        4,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        12,
+        19
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        8,
+        16
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        13,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        4,
+        19
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        12,
+        19
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        11,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        8,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        8,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "v",
+      "after": "o",
+      "reason": "retain complete source dark contact underside; coarse sole detail loss declared"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        10,
+        27
+      ],
+      "before": "b",
+      "after": "o",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "east",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        10,
+        27
+      ],
+      "before": "b",
+      "after": "o",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        16
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        17
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        13,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "restore source contour lost in coarse color vote; within occupied block"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        8,
+        17
+      ],
+      "before": "o",
+      "after": "h",
+      "reason": "merge sub-grid lock separator into connected darkest-hair cluster"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        13,
+        18
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        4,
+        20
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        12,
+        20
+      ],
+      "before": "S",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        4,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        11,
+        21
+      ],
+      "before": "s",
+      "after": "o",
+      "reason": "same visible source head contour on Hero and bald"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        11,
+        28
+      ],
+      "before": "b",
+      "after": "n",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "east",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        11,
+        28
+      ],
+      "before": "b",
+      "after": "n",
+      "reason": "mirror frozen SR2 lower material geometry; eliminate vote tie handedness"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        6,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        7,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        8,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        6,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        7,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        8,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        3,
+        21
+      ],
+      "before": "_",
+      "after": "o",
+      "reason": "paired jaw contour: resolve sub-grid one-cell occupancy asymmetry, one master-pixel rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        6,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        7,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        8,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        6,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        7,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        8,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        3,
+        21
+      ],
+      "before": "_",
+      "after": "o",
+      "reason": "paired jaw contour: resolve sub-grid one-cell occupancy asymmetry, one master-pixel rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        6,
+        23
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        7,
+        23
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        8,
+        23
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        6,
+        23
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        7,
+        23
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        8,
+        23
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        3,
+        20
+      ],
+      "before": "_",
+      "after": "o",
+      "reason": "paired jaw contour: resolve sub-grid one-cell occupancy asymmetry, one master-pixel rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        6,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        7,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        8,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        6,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        7,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        8,
+        24
+      ],
+      "before": "r",
+      "after": "c",
+      "reason": "preserve actual source row49 central cream shirt motif; three-cell width with declared -1 master-pixel center rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        3,
+        21
+      ],
+      "before": "_",
+      "after": "o",
+      "reason": "paired jaw contour: resolve sub-grid one-cell occupancy asymmetry, one master-pixel rounding"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "bald",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        6,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "idle",
+      "part": "hero",
+      "xy": [
+        9,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "bald",
+      "xy": [
+        8,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "A",
+      "part": "hero",
+      "xy": [
+        8,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        6,
+        29
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "bald",
+      "xy": [
+        9,
+        29
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        6,
+        29
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "P",
+      "part": "hero",
+      "xy": [
+        9,
+        29
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "bald",
+      "xy": [
+        7,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    },
+    {
+      "direction": "south",
+      "pose": "C",
+      "part": "hero",
+      "xy": [
+        7,
+        30
+      ],
+      "before": "o",
+      "after": "_",
+      "reason": "exact half-width South last-contact spans; paired-axis and +/-1 master-pixel edge/center rounding; upper shoe unchanged"
+    }
+  ]
+}

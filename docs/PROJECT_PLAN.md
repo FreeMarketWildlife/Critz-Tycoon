@@ -1,3 +1,7 @@
+## Active M1.H4R1 — complete bounded four-direction shared-body review
+
+Parent retained SR2 material improvement and authorized North audit/refinement plus an explicit source-derived16×32 counterpart beside authoritative32×64. [All16pose pairs and existing walks](reviews/M1-H4R1/README.md) are built and writer-reviewed; master front/SR2 sides exact, North interior material only, shared native body/separate exact hair attachment and contact rounding documented. Await root independent source/all-frame review and private parent judgment; no final user art acceptance, creator restart or runtime/deploy expansion. The historical M1.FR1 fruit namespace and all archives/parked edits are preserved.
+
 # M1.NET2 — Preserve free meadow; test tile-based catching
 
 **Published as version59; awaiting user feel comparison.** Direct user request preserves NET1 and authorizes a second tile-based meadow. Use actual game movement/clock for player and critter cell steps, explicit reservations, slow-ready cadence, adjacent-cell catches and boundary-queued swings. [Deliverable and checks](reviews/M1-NET2/README.md). The scoped comparison is published over the prior live source with both links preserved; user compares it with NET1 next. Unrelated/private character and creator work remains separate and unpublished.

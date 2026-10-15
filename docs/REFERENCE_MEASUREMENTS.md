@@ -1,5 +1,9 @@
 # Reference measurements — Emerald exploration
 
+## H4R1 actual North source and attachment inspection
+
+Primary Brendan walking/Man1 indexed PNG strips at731ad5bfd6e6f265508d0efcca0ba42f9dcf5881 were actually inspected at North1/5/6 with index0 excluded. [Hashes, dimensions, occupied bounds and contacts](../art/source/four-direction-refinement-r1/primary-reference-audit.json) record selected source facts, without copying source pixels. Compact head/garment overlap and short material clusters inform original Critz decisions; no hidden bones/skull or emulator observation claimed. Actual archived Critz HR14 pack PNGs normalize byte-exact RGBA to idle after undoing torsoTransform: canonical16,48 is torso-local and P renders up2 with torso, not an absolute-frame-fixed raster. [Actual raster, source/native landmarks and quantified contact rounding](../art/source/four-direction-refinement-r1/correspondence.json) distinguish observations from new lossy16×32 choices. Master/frame/source preservation is separate from visual acceptance.
+
 ## DS5 actual side contact correspondence — primary source inspection
 
 Indexed PNG strips Brendan walking/Man1 at pinned731ad5bfd6e6f265508d0efcca0ba42f9dcf5881, backgroundindex0 excluded. Actual bottom painted rows: both sideidle2 end atrow30 x5..9; Brendan7/Man1 8 end atrow31 x10..11; Brendan8/Man1 7 end atrow31 x4..5. Therefore compare these opposite stride indices when matching visible planted-contact side, not same-index assumptions. [Current evidence/scope](reviews/M1-DS5/DIAGNOSIS.md). Displaying source strides one whole native row upward aligns their last contact with Critz30; this is a declared comparison translation, not source modification/fitting. Source2 against proposed P is idle/overlap evidence, not a matched motion phase. Arm pivot, bob, labels and800ms/3200ms reviewcadence are original Critz decisions; no emulator timing or hidden-joint observation claimed.
