@@ -1,0 +1,142 @@
+{
+  "task": "M1.HR9",
+  "state": "stable forward-only candidate delivered to Library by relay; awaiting parent review",
+  "primarySource": {
+    "URL": "https://i.redd.it/01agijgmbz561.gif",
+    "sha256": "5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e",
+    "frames": 8,
+    "durationsMs": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "uniqueLeftPoses": 3
+  },
+  "registration": {
+    "logicalSourceWindow": [
+      32,
+      48
+    ],
+    "fixedTopPadding": 14,
+    "fixedBottomPadding": 2,
+    "target": [
+      32,
+      64
+    ],
+    "perFrameFitting": false,
+    "clippingLimit": "Original stride touches source crop bottom; uncropped extent/artist anchor unknown"
+  },
+  "head": "exact HR6 head under rigid Y translation P=-2,A/C=0,idle=0; no reshaping",
+  "mouthDefault": null,
+  "noseDefault": null,
+  "idle": "PROPOSED original rest, source provides no idle",
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/draft-poses.png",
+      "bytes": 5959,
+      "sha256": "a5192eb3716c2f207f5f44a133e7142b574e4b914c05f3e6cf9378a423449bb1"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/brendan-user-reference-original/source-hero-all-eight-contact.png",
+      "bytes": 18943,
+      "sha256": "64cc4820b0650bf5ee0220729e0489c47832674341e9481baa7f70d1b64d1509"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/brendan-user-reference-original/source-hero-native.gif",
+      "bytes": 66513,
+      "sha256": "ad3d1b84d345f0162b30c593bbf50fd2fec6757ac0f704ec964f7066ae657af3"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/brendan-user-reference-original/source-hero-4x.gif",
+      "bytes": 1049377,
+      "sha256": "e72d18081e8dd0d7a2b0f4bd2dd7db6fd984b8fbad43ed8450db05d3e20ac679"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/hero-all-eight-contact.png",
+      "bytes": 7172,
+      "sha256": "9ce20d2276937b946981dd33a78b04dbfee58c85bb3853989f38943e8e56471e"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/hero-forward-walk-native.gif",
+      "bytes": 19585,
+      "sha256": "9645fd9b93440b0e847a70680507f15c15eeb7b0eab7ee133aa688f548abee91"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/hero-forward-walk-4x.gif",
+      "bytes": 298529,
+      "sha256": "44dbada01c25cfbfd968a19996624d419515d27dc6d9f0c115feca2b7040389e"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/independent-checks.json",
+      "bytes": 2620,
+      "sha256": "b35fe0980ce1cc13b11a82604d8fdd7354d320b7e5fcf512634f28de938492c9"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-forward-r9/hero-forward-idle.sprite.json",
+      "bytes": 4885,
+      "sha256": "c3537f61478d4420914aeff3bb40fbf4743cba01e011d018f24e80e88237c693"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-forward-r9/hero-forward-walk.sprite.json",
+      "bytes": 34858,
+      "sha256": "87178d798e992179468fc0f67d8232d20f167b90795c58b430aebabdb59d5729"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/idle-forward.png",
+      "bytes": 893,
+      "sha256": "fedee8fa85fc489533490e1ef587f959e6fd187ed0416677dc68ad1d6250f053"
+    }
+  ],
+  "GIFDecodeChecks": "all four previews retain8frames x100ms=800ms and exact saved pixels; loop0",
+  "editorTimingLimit": "6ticks=100.45623779296875ms; exact100ms GIF timing, no gameplay clock change",
+  "critique": [
+    "Local shoe-wide stripes corrected to local accents/no top rail",
+    "Original cream/coral torso and outlined blue hem/cuffs remain heavier/graphic compared to source costume",
+    "Exact foot weight and arm swing need parent animation judgment",
+    "High source side-costume function uncertain; original daypack edge is an adaptation",
+    "Cap flex is not copied into retained rigid Hero hair",
+    "Idle has no observed source idle counterpart"
+  ],
+  "bodyOrWalkAccepted": false,
+  "otherDirectionsAuthored": false,
+  "variantsSwapsUIStarted": false,
+  "runtimeIntegration": false,
+  "deployment": false,
+  "TN4HoldPreserved": true,
+  "libraryExportByOwner": false,
+  "readyForLocalRelay": true,
+  "nextAction": "Parent judges stable all-frame and actual native/enlarged animation before further art/normal-base acceptance",
+  "libraryExportByLocalRelay": {
+    "succeeded": true,
+    "items": [
+      {
+        "name": "source-hero-all-eight-contact.png",
+        "libraryId": "libfile_c38dfe10ddd08191bb3d36ff1f7dbdea",
+        "version": 0
+      },
+      {
+        "name": "source-hero-native.gif",
+        "libraryId": "libfile_80e4739501fc8191b1793578223f0215",
+        "version": 0
+      },
+      {
+        "name": "source-hero-4x.gif",
+        "libraryId": "libfile_22480f5d8d088191b7d1e6535e169502",
+        "version": 0
+      },
+      {
+        "name": "idle-forward.png",
+        "libraryId": "libfile_21b4195d39148191a0bf708a7185a4ea",
+        "version": 0
+      }
+    ],
+    "downloadedGIFsEight100msFramesVerified": true,
+    "ownerRecheckedDownloadedBytesAndFrames": true,
+    "receipt": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/library-review-receipt.json"
+  }
+}

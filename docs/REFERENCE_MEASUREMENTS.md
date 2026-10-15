@@ -1,5 +1,9 @@
 # Reference measurements — Emerald exploration
 
+## HR9 supplied custom animation — primary for current forward art/motion review
+
+Confirmed user input is [refined left sprite animation](https://i.redd.it/01agijgmbz561.gif), SHA256 `5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e`. Actual8×100ms GIF with3 unique left poses,800ms loop, exact4-display-pixel grid. Fixed14-top/2-bottom registration is a declared comparison proposal, not anatomy or original artist intent. Source face/eye moves2 logical pixels, while cap top moves4 including contour change. Bottom-clipped source extent/padding, hidden bone lengths and a true idle remain unobserved. [Full actual observations](reviews/M1-HR9/REFERENCE_OBSERVATIONS.md) / [per-frame data](reviews/M1-HR9/reference-observations.json). This user-supplied custom redraw is not new ROM/emulator evidence and does not rewrite the historical pinned measurements below. It supersedes their use as a substitute for Phil's intended current forward design/motion reference.
+
 M1.TR2's protruding-object canvas, halfway registration and separate PNG/ground-footprint contract are **user-defined Critz rules**, not new Emerald measurements. See the canonical [art-bible contract](ART_BIBLE.md#protruding-objects--sprite-overhang-and-ground-footprint-m1tr2) and [native checks](reviews/M1-TR2/native-checks.json). Pinned reference evidence below remains unchanged.
 
 ## M1.C4 revision 2 — Selected front-idle anatomy annotation

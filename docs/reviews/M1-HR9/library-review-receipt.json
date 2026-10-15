@@ -1,0 +1,138 @@
+{
+  "task": "M1.HR9",
+  "scope": "Forward-only idle proposal and walk visual/motion review",
+  "appearanceApproved": false,
+  "motionApproved": false,
+  "libraryExportSucceeded": true,
+  "localMetadataApplied": true,
+  "source": {
+    "url": "https://i.redd.it/01agijgmbz561.gif",
+    "bytes": 31726,
+    "sha256": "5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e",
+    "frames": 8,
+    "frameDurationMs": 100,
+    "cycleMs": 800,
+    "distinctPoses": 3,
+    "poseOrder": "A,A,P,P,C,C,P,P",
+    "previousLibraryStaticEqualsOriginalFrame0": true
+  },
+  "items": [
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/source-hero-all-eight-contact.png",
+      "file_id": "file_0000000021cc8230b479fe3364ca5b4c",
+      "library_file_id": "libfile_c38dfe10ddd08191bb3d36ff1f7dbdea",
+      "file_name": "source-hero-all-eight-contact.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 18943,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/brendan-user-reference-original/source-hero-all-eight-contact.png",
+      "sha256": "64cc4820b0650bf5ee0220729e0489c47832674341e9481baa7f70d1b64d1509"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/source-hero-native.gif",
+      "file_id": "file_00000000a984823090b733e5734019cf",
+      "library_file_id": "libfile_80e4739501fc8191b1793578223f0215",
+      "file_name": "source-hero-native.gif",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/gif",
+      "library_artifact_type": "image",
+      "file_size_bytes": 66513,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/brendan-user-reference-original/source-hero-native.gif",
+      "sha256": "ad3d1b84d345f0162b30c593bbf50fd2fec6757ac0f704ec964f7066ae657af3"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/source-hero-4x.gif",
+      "file_id": "file_000000007ed881fdb981de8671a2e847",
+      "library_file_id": "libfile_22480f5d8d088191b7d1e6535e169502",
+      "file_name": "source-hero-4x.gif",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/gif",
+      "library_artifact_type": "image",
+      "file_size_bytes": 1049377,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/brendan-user-reference-original/source-hero-4x.gif",
+      "sha256": "e72d18081e8dd0d7a2b0f4bd2dd7db6fd984b8fbad43ed8450db05d3e20ac679"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/idle-forward.png",
+      "file_id": "file_00000000fc8c81fda4f61a2cddbfde22",
+      "library_file_id": "libfile_21b4195d39148191a0bf708a7185a4ea",
+      "file_name": "idle-forward.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 893,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR9/idle-forward.png",
+      "sha256": "fedee8fa85fc489533490e1ef587f959e6fd187ed0416677dc68ad1d6250f053"
+    }
+  ],
+  "localCritique": {
+    "inspected": "All8 source/candidate saved frame contacts, nearest body crops and decoded native/enlarged GIFs",
+    "improvements": [
+      "Compact higher arm clusters replace rejected low-hanging-arm/long-calf proportions.",
+      "Passing and opposite stride clusters follow supplied3-pose/800ms grammar.",
+      "Whole head translated rather than reshaped; default human ears/no mouth retained.",
+      "First draft shoe-wide stripe rejected locally, replaced with small local accents."
+    ],
+    "remaining": [
+      "Cream/coral shirt and outlined blue cuff/hem clusters remain visually heavier than source costume.",
+      "Arm swing, shoe/foot weight, passing pose and motion feel require parent review.",
+      "Proposed idle is a Critz choice; supplied reference contains no confirmed idle."
+    ]
+  },
+  "verification": {
+    "downloadedLibraryGIFsExactBytes": true,
+    "bothGIFsEightFrames": true,
+    "both100msEach": true,
+    "enlargedEveryFrameExactly4xNative": true,
+    "detail": "library-animation-verification.json"
+  },
+  "holds": {
+    "otherDirections": true,
+    "bodyVariants": true,
+    "featureSwappingUI": true,
+    "gameplayReplacement": true,
+    "deployment": true,
+    "TN4": true
+  }
+}

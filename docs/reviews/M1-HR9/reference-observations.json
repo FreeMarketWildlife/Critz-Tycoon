@@ -1,0 +1,1026 @@
+{
+  "sourceURL": "https://i.redd.it/01agijgmbz561.gif",
+  "sha256": "5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e",
+  "bytes": 31726,
+  "format": "GIF87a",
+  "displayCanvas": [
+    256,
+    192
+  ],
+  "frameCount": 8,
+  "loop": 0,
+  "registration": {
+    "leftCropDisplay": [
+      0,
+      0,
+      128,
+      192
+    ],
+    "uniformDisplayBlocks": [
+      4,
+      4
+    ],
+    "logicalCrop": [
+      32,
+      48
+    ],
+    "targetFrame": [
+      32,
+      64
+    ],
+    "fixedTopPadding": 14,
+    "fixedBottomPadding": 2,
+    "mapping": "target x=display x/4; target y=display y/4+14, identical every frame",
+    "groundAnchorConvention": [
+      16,
+      64
+    ],
+    "limitations": "Bottom edge is visible occupied in stride frames. Unknown uncropped extent/padding; 14top+2bottom is a fixed registration proposal; chosen target anchor is comparison convention, not measured artist anchor. No per-frame fits."
+  },
+  "frames": [
+    {
+      "index": 0,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "A",
+      "rawDisplayBounds": [
+        12,
+        32,
+        116,
+        192
+      ],
+      "rawLogicalBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "occupiedBounds": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "eyeBounds": [
+        12,
+        38,
+        20,
+        42
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          18,
+          40
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          12,
+          41
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          18,
+          41
+        ],
+        [
+          19,
+          41
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          5,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          29,
+          54
+        ],
+        "lowerCostumeFoot": [
+          6,
+          53,
+          24,
+          62
+        ]
+      },
+      "sourceCropBottomOccupied": true,
+      "decodedLeftSha256": "dac3d569ce2615291cdf49946d6d0f7b9b067fa66a7ed5a1e57620c55fd0c8f8"
+    },
+    {
+      "index": 1,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "A",
+      "rawDisplayBounds": [
+        12,
+        32,
+        116,
+        192
+      ],
+      "rawLogicalBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "occupiedBounds": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "eyeBounds": [
+        12,
+        38,
+        20,
+        42
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          18,
+          40
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          12,
+          41
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          18,
+          41
+        ],
+        [
+          19,
+          41
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          5,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          29,
+          54
+        ],
+        "lowerCostumeFoot": [
+          6,
+          53,
+          24,
+          62
+        ]
+      },
+      "sourceCropBottomOccupied": true,
+      "decodedLeftSha256": "dac3d569ce2615291cdf49946d6d0f7b9b067fa66a7ed5a1e57620c55fd0c8f8"
+    },
+    {
+      "index": 2,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "P",
+      "rawDisplayBounds": [
+        12,
+        16,
+        116,
+        184
+      ],
+      "rawLogicalBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "occupiedBounds": [
+        3,
+        18,
+        29,
+        60
+      ],
+      "eyeBounds": [
+        12,
+        36,
+        20,
+        40
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          36
+        ],
+        [
+          13,
+          36
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          19,
+          36
+        ],
+        [
+          12,
+          37
+        ],
+        [
+          13,
+          37
+        ],
+        [
+          18,
+          37
+        ],
+        [
+          19,
+          37
+        ],
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          3,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          29,
+          54
+        ],
+        "lowerCostumeFoot": [
+          7,
+          53,
+          25,
+          60
+        ]
+      },
+      "sourceCropBottomOccupied": false,
+      "decodedLeftSha256": "b344bf52c3a0cea5dba851faff00da157c275b90a8deb1d381b142d55388554b"
+    },
+    {
+      "index": 3,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "P",
+      "rawDisplayBounds": [
+        12,
+        16,
+        116,
+        184
+      ],
+      "rawLogicalBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "occupiedBounds": [
+        3,
+        18,
+        29,
+        60
+      ],
+      "eyeBounds": [
+        12,
+        36,
+        20,
+        40
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          36
+        ],
+        [
+          13,
+          36
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          19,
+          36
+        ],
+        [
+          12,
+          37
+        ],
+        [
+          13,
+          37
+        ],
+        [
+          18,
+          37
+        ],
+        [
+          19,
+          37
+        ],
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          3,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          29,
+          54
+        ],
+        "lowerCostumeFoot": [
+          7,
+          53,
+          25,
+          60
+        ]
+      },
+      "sourceCropBottomOccupied": false,
+      "decodedLeftSha256": "b344bf52c3a0cea5dba851faff00da157c275b90a8deb1d381b142d55388554b"
+    },
+    {
+      "index": 4,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "C",
+      "rawDisplayBounds": [
+        12,
+        32,
+        116,
+        192
+      ],
+      "rawLogicalBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "occupiedBounds": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "eyeBounds": [
+        12,
+        38,
+        20,
+        42
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          18,
+          40
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          12,
+          41
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          18,
+          41
+        ],
+        [
+          19,
+          41
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          3,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          27,
+          54
+        ],
+        "lowerCostumeFoot": [
+          8,
+          53,
+          26,
+          62
+        ]
+      },
+      "sourceCropBottomOccupied": true,
+      "decodedLeftSha256": "45a0a7cf36c257c617fcc95dc437c7a15596f2e1177098396fd1192ae7714e3f"
+    },
+    {
+      "index": 5,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "C",
+      "rawDisplayBounds": [
+        12,
+        32,
+        116,
+        192
+      ],
+      "rawLogicalBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "occupiedBounds": [
+        3,
+        22,
+        29,
+        62
+      ],
+      "eyeBounds": [
+        12,
+        38,
+        20,
+        42
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ],
+        [
+          12,
+          40
+        ],
+        [
+          13,
+          40
+        ],
+        [
+          18,
+          40
+        ],
+        [
+          19,
+          40
+        ],
+        [
+          12,
+          41
+        ],
+        [
+          13,
+          41
+        ],
+        [
+          18,
+          41
+        ],
+        [
+          19,
+          41
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          3,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          27,
+          54
+        ],
+        "lowerCostumeFoot": [
+          8,
+          53,
+          26,
+          62
+        ]
+      },
+      "sourceCropBottomOccupied": true,
+      "decodedLeftSha256": "45a0a7cf36c257c617fcc95dc437c7a15596f2e1177098396fd1192ae7714e3f"
+    },
+    {
+      "index": 6,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "P",
+      "rawDisplayBounds": [
+        12,
+        16,
+        116,
+        184
+      ],
+      "rawLogicalBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "occupiedBounds": [
+        3,
+        18,
+        29,
+        60
+      ],
+      "eyeBounds": [
+        12,
+        36,
+        20,
+        40
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          36
+        ],
+        [
+          13,
+          36
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          19,
+          36
+        ],
+        [
+          12,
+          37
+        ],
+        [
+          13,
+          37
+        ],
+        [
+          18,
+          37
+        ],
+        [
+          19,
+          37
+        ],
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          3,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          29,
+          54
+        ],
+        "lowerCostumeFoot": [
+          7,
+          53,
+          25,
+          60
+        ]
+      },
+      "sourceCropBottomOccupied": false,
+      "decodedLeftSha256": "b344bf52c3a0cea5dba851faff00da157c275b90a8deb1d381b142d55388554b"
+    },
+    {
+      "index": 7,
+      "durationMs": 100,
+      "disposal": 2,
+      "pose": "P",
+      "rawDisplayBounds": [
+        12,
+        16,
+        116,
+        184
+      ],
+      "rawLogicalBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "occupiedBounds": [
+        3,
+        18,
+        29,
+        60
+      ],
+      "eyeBounds": [
+        12,
+        36,
+        20,
+        40
+      ],
+      "eyeCells": 16,
+      "eyeCoordinates": [
+        [
+          12,
+          36
+        ],
+        [
+          13,
+          36
+        ],
+        [
+          18,
+          36
+        ],
+        [
+          19,
+          36
+        ],
+        [
+          12,
+          37
+        ],
+        [
+          13,
+          37
+        ],
+        [
+          18,
+          37
+        ],
+        [
+          19,
+          37
+        ],
+        [
+          12,
+          38
+        ],
+        [
+          13,
+          38
+        ],
+        [
+          18,
+          38
+        ],
+        [
+          19,
+          38
+        ],
+        [
+          12,
+          39
+        ],
+        [
+          13,
+          39
+        ],
+        [
+          18,
+          39
+        ],
+        [
+          19,
+          39
+        ]
+      ],
+      "displayGrid4x4MismatchCells": 0,
+      "observedBands": {
+        "leftArmCostume": [
+          3,
+          43,
+          11,
+          54
+        ],
+        "rightArmCostume": [
+          21,
+          43,
+          29,
+          54
+        ],
+        "lowerCostumeFoot": [
+          7,
+          53,
+          25,
+          60
+        ]
+      },
+      "sourceCropBottomOccupied": false,
+      "decodedLeftSha256": "b344bf52c3a0cea5dba851faff00da157c275b90a8deb1d381b142d55388554b"
+    }
+  ],
+  "observationType": "Actual decoded source GIF; not artist-workflow or hidden-bone inference",
+  "uniqueLeftPoses": 3,
+  "timelineMs": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+  ],
+  "cycleDurationMs": 800,
+  "mainHeadEyeBouncePixels": 2,
+  "crownTopChangePixels": 4,
+  "crownTopIsNotRigidHeadMotion": true,
+  "visibleGrammar": [
+    "Head main face moves down2 in A/C; cap peak additionally changes contour.",
+    "A/C have opposite asymmetric arm/costume clusters; P is bilaterally balanced.",
+    "With fixed14px padding, passing lower-body/foot clusters occupy54\u201359; stride lower clusters extend to61.",
+    "Only one lower/forward foot has full bright sole cluster in A/C; other foot overlaps dark lower costume higher up.",
+    "Weight/contact/lift are interpretations: no floor/shadow and bottom clipping prevents complete anatomical inference.",
+    "High arm/costume clusters must not be interpreted as measured hand/elbow bones or reproduced as longer bare limbs."
+  ]
+}

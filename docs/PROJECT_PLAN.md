@@ -1,3 +1,7 @@
+# M1.HR9 — Confirmed-user-reference forward motion review
+
+**Analyzed and candidate checked; targeted local shoe critique completed, awaiting parent review.** Exact8-frame GIF is primary; inspect all poses, compact visible clusters, bounce/timing and clipping before drawing. Deliver original forward-only idle/walk, retained head/ear design with documented translation, all-frame source/candidate contact and native/nearest enlarged synchronized animations. [Review](reviews/M1-HR9/README.md). Idle is an original proposal, not observed source pose. No other directions, variants/swaps/UI/live integration/deployment or TN4 release. Walk acceptance is not inferred from checks.
+
 # M1.HR8 — Local lower-body critique before full checkpoint
 
 **LocalB sole-defect check passed locally; ready for narrow parent trial, not full delivery.** HR7 feet/leg mass rejected. Retain head/ears/no-mouth and upper body through53; correct lower cuff/leg/shoe shape and near/far occlusion. LocalA joined sole rejected; LocalB rear heel step needs local judgment. [Mini plates/reference](reviews/M1-HR8/README.md). No full checkpoint/Library export, variants/swaps/UI, gameplay integration, deployment or TN4 release before response.

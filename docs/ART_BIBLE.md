@@ -1,5 +1,15 @@
 # Critz: Tycoon — art bible
 
+## Confirmed forward animation reference — M1.HR9
+
+Phil rejects HR8 proportions and motion interpretation; HR8 stays rejected history. The confirmed primary reference is the refined **left** forward-facing sprite in `https://i.redd.it/01agijgmbz561.gif`,31726 bytes, SHA256 `5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e`. Actual GIF has8×100ms frames,3 unique poses in A,A,P,P,C,C,P,P,800ms loop0. The previously delivered static PNG/older still and pinned ROM walking sheet are not substitutes for this user animation. [Observed facts and candidate review](reviews/M1-HR9/README.md).
+
+Analyze all frames before drawing. Left crop0..128×192 consists of exact4×4 display-color blocks in every frame; this is a verified display grid, not artist workflow. Recover32×48 logical crop and use one fixed14-top/2-bottom placement on32×64 for both reference and candidate. No per-frame fitting. Original stride frames touch source bottom; uncropped foot extent/padding and hidden bones remain unknown. Visible eye/face bounce is2 target pixels, whereas cap top changes4 including contour flex. Do not use cap-tip motion as rigid skull bounce.
+
+Forward-only original Hero trial may follow compact high arm/clothing clusters, opposite step overlap and small foot/cuff material groups while preserving Black child identity, accepted rounded human ears, original hair and starter outfit. Head shape is retained with translation only: P−2 from HR6, A/C0 under the chosen registration; any future head reshaping needs explicit review explanation. High green/red source side clusters are not proven bare hands; original daypack/sleeve adaptations must remain honest. Default mouth/nose remain empty. No long bare limbs from static shoe/clothing blocks.
+
+Idle is not present in the supplied source. HR9's balanced P-derived rest is an explicitly original proposal with HR6 head unchanged, separate from the walk's8 frames. Review GIFs match8×100ms; editor6-tick frame holds are approximately100.456ms and are disclosed, not a gameplay-clock change. All-frame source/candidate contact plus native and exact-nearest4× synchronized comparison must be inspected. Source pixels/composites stay outside repo/build. Metadata, masks and overlap checks cannot accept a walk. Other directions, variants/swaps/UI, live integration/deployment and TN4 remain held; local critique precedes parent review/Library relay.
+
 ## Lower-body local correction — M1.HR8
 
 Parent rejects **HR7 feet/leg mass**: merged profile boot/wedge and outward/heavy front/back blocks. Upright arms improve direction but do not approve the body. Retain every HR7 pixel through row53, including accepted HR6 ears/head, no-mouth default and original outfit; revise the lower garment/visible leg/shoe construction. Same32×64 frame and `(16,64)` anchor. [Local A/B critique and source comparison](reviews/M1-HR8/README.md).
