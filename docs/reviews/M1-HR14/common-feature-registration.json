@@ -44,8 +44,8 @@
         },
         "visibleEyeCount": 16,
         "visibleHandCount": 12,
-        "heroPixelSHA256": "fa88f17afc3c21461fe6649ec2f023a6427b0f1b54be7c40556c1e64541791ca",
-        "dummyPixelSHA256": "05f86f8317bf2496953be4b0f522971842ef54985a0f064b3aea39d44fac9f83"
+        "heroPixelSHA256": "b51e43ab313fc3f9ade7e53b003c36e60feaebfac64aa0dafea978ef998b3f6d",
+        "dummyPixelSHA256": "eb8ad90e757c58ad618815776e0a89d4362e0694c0c17574ec4a0479683d07ed"
       },
       "A": {
         "lastPaintedRow": 61,
@@ -79,8 +79,8 @@
         },
         "visibleEyeCount": 16,
         "visibleHandCount": 4,
-        "heroPixelSHA256": "08dfd65e0c77076250cf50fdf7ca58eb17ee3d05ac9ec672c0df103e86ffd8bb",
-        "dummyPixelSHA256": "3bea9acc13119ea6a50d5944916726d4a8680386b10473e82be7443a7ba83de6"
+        "heroPixelSHA256": "0cb5530e0e67405a4c064fac3302839d77e87bc33bf9a319ef932610a385215b",
+        "dummyPixelSHA256": "130d065df890d75c743eed84fac8c934f131c7769ae813d7d8fd7b2282bfa678"
       },
       "P": {
         "lastPaintedRow": 59,
@@ -118,8 +118,8 @@
         },
         "visibleEyeCount": 16,
         "visibleHandCount": 12,
-        "heroPixelSHA256": "acb3232ae0f496e19fb86f1f7c8b565df1e79781fab54355294631b5e590d269",
-        "dummyPixelSHA256": "ce56843893434a8fbe572538f466a89d95cdb57a487b0f94a43f42310fc55bc1"
+        "heroPixelSHA256": "84321f8bc757185cd666488a09f619ef32aa32790a5ebc43795ff82d710799b5",
+        "dummyPixelSHA256": "ed40f47a7ab023ab0f5475814d488ea0113c25ba2f35722bedfa2b518069fb97"
       },
       "C": {
         "lastPaintedRow": 61,
@@ -153,8 +153,8 @@
         },
         "visibleEyeCount": 16,
         "visibleHandCount": 4,
-        "heroPixelSHA256": "4867f9770d21d406244ed4f558f72fdb21382404966d402a3b5efdbe9da20f1f",
-        "dummyPixelSHA256": "4bd8fa190b1d92b3f95792ce3e8b7f69a5fbdfcb0f018835a8495f99da252872"
+        "heroPixelSHA256": "e7c82192dae34c3346ea536d24f3d780bb4c6d81c563c09846a6b8e773d7d627",
+        "dummyPixelSHA256": "f38ad1053cae155e7c02c1c3e5050e3cc453921b26d41587054072cebc363b59"
       }
     },
     "north": {
@@ -195,7 +195,7 @@
         "visibleEyeCount": 0,
         "visibleHandCount": 11,
         "heroPixelSHA256": "0d6e4891a686d64d088929d6c0240c1e4931e71b94833d0ffc031a4855fca81e",
-        "dummyPixelSHA256": "90034f8479b7479756a35b3e8906b0f6356fa3e64a71ec9c15df82bd44cab04f"
+        "dummyPixelSHA256": "35bd4c3f00ef2f397cec2c162f73ccb58c43948349b339ab537b981c76693a25"
       },
       "A": {
         "lastPaintedRow": 63,
@@ -230,7 +230,7 @@
         "visibleEyeCount": 0,
         "visibleHandCount": 4,
         "heroPixelSHA256": "1307b656ecb1d61fd6d1c167708e56b06dded41d5f123980ff91860097c40b09",
-        "dummyPixelSHA256": "c8e16850c7dcb51b906e4d9b24a61cd685fbb8ea09af4e1923a41187f59ddd07"
+        "dummyPixelSHA256": "e2da4e575438cd424f6eb409f5b9036889fb9c51eb7ba44334886f7b92619f0e"
       },
       "P": {
         "lastPaintedRow": 61,
@@ -269,7 +269,7 @@
         "visibleEyeCount": 0,
         "visibleHandCount": 11,
         "heroPixelSHA256": "6c4524a0d9c70434e52a1c281a275f90dc229b50aee8336fae6b5607bc56ed7e",
-        "dummyPixelSHA256": "bb50c7fe8eb3fd0c7359cd8082b490c54743e9d0cd3a882a4265d987dcdd9e73"
+        "dummyPixelSHA256": "8db752152a796a73d477604845e4242b844d43d7038f3c129cef7374cb98a7ed"
       },
       "C": {
         "lastPaintedRow": 63,
@@ -304,7 +304,7 @@
         "visibleEyeCount": 0,
         "visibleHandCount": 4,
         "heroPixelSHA256": "0ee84476e6f10d18edce72a9d93bce3c3a47fd646edde0477e469e7e584f248f",
-        "dummyPixelSHA256": "86f25733b2999c43383d13aaf8315ac3a87b38ff65fc7864bf4891287f9cf251"
+        "dummyPixelSHA256": "906db1f8c4f14eb732d49db68e03b19322c356c7622345dbfbfa8a141e5f51c5"
       }
     },
     "west": {
@@ -341,7 +341,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 6,
         "heroPixelSHA256": "535f03d446061f2f743e5d6958b8e3e39b911796088d6d0bb9431db855d07ce5",
-        "dummyPixelSHA256": "4a0aaf1cbb693e7ca7b0b9bfe5bdc486f0c13cd0ac6d4dab3e6ccccd5c2862e0"
+        "dummyPixelSHA256": "07177a5118ed3f40ab7a2e4728b23d2e5b17d4f4785f1870e53fab63065679ce"
       },
       "A": {
         "lastPaintedRow": 63,
@@ -376,7 +376,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 8,
         "heroPixelSHA256": "36c32a8f3e91efc9ea924a50ece2ea47ad88357eea901c4a8a61b1e9d0c42250",
-        "dummyPixelSHA256": "c04af29df674682448278a0b3a096adf2c58d400fc74a2fb2193bb804cd9b0a9"
+        "dummyPixelSHA256": "4ed8603a7d725053501048dbb8ef57f9cc99ef5cc0b79b52a220b15f142ebc89"
       },
       "P": {
         "lastPaintedRow": 61,
@@ -411,7 +411,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 6,
         "heroPixelSHA256": "2363bfbada2060868d85953f874ef36d7937293a2e911a9975faf1b4f7800203",
-        "dummyPixelSHA256": "9baadcef575ecb5086620f244c86658dc6f6376e4569fb9a336f280814da9456"
+        "dummyPixelSHA256": "a18c63cd8a4cfc79e51d6f9c26f10b3d1b55a4766e4e1f4d871925a64c543b11"
       },
       "C": {
         "lastPaintedRow": 63,
@@ -446,7 +446,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 6,
         "heroPixelSHA256": "20ace93488b28f7fb4e8d50a4197693724765a070adadeacdebf636c9ebbbc2c",
-        "dummyPixelSHA256": "9ff716e2e869966c1d97e0b058f95987ff4e1a6c07cbae9b468b3a3e875dc8a7"
+        "dummyPixelSHA256": "84df736cfbdd28535ee3b70ebee55bcdea332d7e76b997e80f87fd9aa51e00c5"
       }
     },
     "east": {
@@ -483,7 +483,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 6,
         "heroPixelSHA256": "9dbb7c80649a072db93d6a9eb5a1a4fe5f195c6ee357779a1f99e5061ab3c1f3",
-        "dummyPixelSHA256": "8ed80f0e19bed46bf42a7be3302fea98b80e27f65d8cf359aef56ecdcc64e9d0"
+        "dummyPixelSHA256": "704f83a071ac88552aa931275b28c3df59ae39e846ff4ebcee14dda0907eee89"
       },
       "A": {
         "lastPaintedRow": 63,
@@ -518,7 +518,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 8,
         "heroPixelSHA256": "c3e9e7ca209ab7736adc53978486138bd034cbf472ff54c99451aeafe0e8da90",
-        "dummyPixelSHA256": "541ee4f8ed2dda356bc213449eb1e19f419255fc85c7ec29006f31c5f719da6d"
+        "dummyPixelSHA256": "d77406fa603d6169fd168d7813ebdb7781e27771dd1f52c004a0ccca033193da"
       },
       "P": {
         "lastPaintedRow": 61,
@@ -553,7 +553,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 6,
         "heroPixelSHA256": "073a80160ec377b9d955fb39f2953307524ac81523d9e3febeb40d54447e3b19",
-        "dummyPixelSHA256": "cd492cac1f413fafb3d7c2251f0df474e78283113fc2fd7161789469d27b00e8"
+        "dummyPixelSHA256": "3e33a424061055ab19c34507a8d7d3dd2c4065dc3b41a6a319a854216d882886"
       },
       "C": {
         "lastPaintedRow": 63,
@@ -588,7 +588,7 @@
         "visibleEyeCount": 8,
         "visibleHandCount": 6,
         "heroPixelSHA256": "0f11096066db5793bd8a0b9b0f25af83dba536fbd1af7cfe8bfefd636f3fd4d4",
-        "dummyPixelSHA256": "81cf0b551a09ad69efae4b30c3fbbe483dcf94600280f119513917b36c36b1e3"
+        "dummyPixelSHA256": "a45077448bf0a8e4df4835db0a2b279c426fa6a403f9c19b1b78b2166bd38f09"
       }
     }
   }

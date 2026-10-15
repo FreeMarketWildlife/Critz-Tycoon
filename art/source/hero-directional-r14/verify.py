@@ -61,7 +61,7 @@ for d in dirs:
    # Material class masks/diff proof contains only diagram colors, no sourceRGB.
    diagram=Image.new('RGB',(32,10),'#9dbac8');dd=ImageDraw.Draw(diagram);cs={'dark':'#253340','warmGray':'#d2a6df','slateLight':'#65a6de','sole':'#f1d171','coral':'#ed745c','slateShadow':'#9b83d4'}
    for cl,pts in classMasks.items():
-    for x,y in pts:dd.point((x,y-54),fill=cs[cl])
+    for x,y in pts:dd.point((x,y-54),fill=m.getpixel((x,y))[:3])
    diagram.resize((256,80),Image.Resampling.NEAREST).save(out/f'material-boundary-{d}-{p}.png')
   r['frames'][d+'/'+p]={'connected':True,'heroColors':len({px for px in h.get_flattened_data() if px[3]}),'dummyVisibleEyeCells':eyeCount,'dummyHandPixels':handCount,'headExactHR13':True,'neckOccluded':True,'lowerAlphaMismatch':len(alphaDiff),'lowerMaterialMismatch':len(materialDiff),'referenceClasses':{k:len(v) for k,v in classMasks.items()},'paintedBottom':h.getbbox()[3]-1}
 for kind in ('hero','dummy'):
@@ -109,6 +109,13 @@ ref=Image.open(ext/'reference-south-P.png').convert('RGBA');h=Image.open(out/'he
 for x in range(32):
  sp=ref.getpixel((x,53));hp=h.getpixel((x,53));assert bool(sp[3])==bool(hp[3])
  if sp[3]:assert hp[:3] in colors[refclass(sp,'south',53)]
+material=json.loads((out/'material-landmark-checks.json').read_text());assert material['allMaterialChecksPass']
+trace=json.loads((out/'rendered-cycle-trace.json').read_text());assert trace['allRenderTraceChecksPass']
+for d,item in trace['directions'].items():
+ for speed,suffix in [('normal',''),('slow','-SLOW4x')]:
+  assert hashlib.sha256((ext/f'source-hero-template-{d}{suffix}-native.gif').read_bytes()).hexdigest()==item['speeds'][speed]['expectedExportGIFsha256']
+r['materialEvidence']={'report':'material-landmark-checks.json','HeroAlphaHeadAndLowerRGBAProtected':True,'dummyAlphaExactDistinctSourceDerivedPlanes':True,'blackPantsShoeJoinAmbiguous':True,'sourcePaleBandFrontOnly':True}
+r['automatedRenderedCycleTrace']={'report':'rendered-cycle-trace.json','humanUninterruptedWatch':False,'completeCycles':{d:{k:v['completeRenderedCycles'] for k,v in item['speeds'].items()} for d,item in trace['directions'].items()},'actualPixelsOrderAndTimingPass':True,'traceInputsMatchCurrentGIFsha256':True}
 r['upperInterfaceReview']={'report':'interface-checks.json','taper':interface['southPassingTaper'],'idleWalkContinuity':interface['idleWalkContinuity'],'headsAndLiteralLowerContactsProtected':True,'canonicalPackStrapsUnchanged':True,'upperMaterials':'Original palette adaptation, not full reference RGB/anatomy match','profileOriginalBagOverhang':'Explicit source-envelope differences in interface report'}
 checks=json.loads((out/'first-checkpoint-checks.json').read_text());assert checks['allCheckpointChecksPass'];r['packChecks']=checks['packChecks'];r['allChecksPass']=True
 (out/'independent-checks.json').write_text(json.dumps(r,indent=2)+'\n');print('PASS:32 poses connected;12 unique loweralpha+material maps exact;head protected;dummyeyes/hands;16 rigid pack checks;10 editable sources equal;28 GIFs decode exactpixels/holds/nearest4x.')

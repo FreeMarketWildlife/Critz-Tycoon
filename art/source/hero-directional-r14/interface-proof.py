@@ -18,18 +18,21 @@ for d in dirs:
   for k in ('pack-layer','strap-layer'):
    current=Image.open(out/f'{k}-{d}-{p}.png').convert('RGBA');assert current.tobytes()==old(k,d,p).tobytes(),(k,d,p,'canonical pixels changed')
   for kind in ('hero','dummy'):
-   before=old(kind,d,p);h=Image.open(out/f'{kind}-{d}-{p}.png').convert('RGBA');changes=[];bagDepth=[]
+   before=old(kind,d,p);h=Image.open(out/f'{kind}-{d}-{p}.png').convert('RGBA');changes=[];bagDepth=[];materialOnly=[];quietChest=[]
    for y in range(64):
     for x in range(32):
      if h.getpixel((x,y))==before.getpixel((x,y)):continue
      allowedY=(50,56) if p=='idle' else (48,54)
      assert not e['headMaskHero' if kind=='hero' else 'headMaskDummy'][y*32+x],(d,p,kind,'head changed')
+     if kind=='dummy' and y>=(56 if p=='idle' else 54):
+      assert bool(h.getpixel((x,y))[3])==bool(before.getpixel((x,y))[3]);materialOnly.append([x,y]);continue
+     if kind=='hero' and d=='south' and 12<=x<=19 and 46+(-2 if p=='P' else 0)<=y<49+(-2 if p=='P' else 0) and before.getpixel((x,y))[:3]==(249,237,200) and h.getpixel((x,y))[:3]==(237,116,92):quietChest.append([x,y]);continue
      assert y<(56 if p=='idle' else 54),(d,p,kind,'lower contact construction changed')
      if allowedY[0]<=y<allowedY[1]:changes.append([x,y])
      else:
       assert kind=='hero' and d in ('west','east') and bag.getpixel((x,y))[3] and h.getpixel((x,y))==bag.getpixel((x,y)),(d,p,kind,x,y,'unexpected outside-interface change')
       bagDepth.append([x,y])
-   r['protection'][d+'/'+p+'/'+kind]={'changedInterfaceCells':len(changes),'profileBagForegroundOcclusionCells':bagDepth,'headsAndLowerRowsExact':True,'idleInterfaceFromPassingPlus2':p=='idle','canonicalPackAndStrapsExact':True}
+   r['protection'][d+'/'+p+'/'+kind]={'changedInterfaceCells':len(changes),'distinctLowerMaterialCells':materialOnly,'quietCreamChestCells':quietChest,'profileBagForegroundOcclusionCells':bagDepth,'headsAndLowerRowsExact':True,'idleInterfaceFromPassingPlus2':p=='idle','canonicalPackAndStrapsExact':True}
   for kind in ('hero','dummy'):
    def handcells(im):
     return {(x,y) for y in range(64) for x in range(32) if im.getpixel((x,y))[3] and (im.getpixel((x,y))[:3]==(255,212,161) if kind=='dummy' else im.getpixel((x,y))[:3] in [(166,104,69),(195,138,88),(116,69,57)] and not e['headMaskHero'][y*32+x] and not e['headMaskDummy'][y*32+x])}

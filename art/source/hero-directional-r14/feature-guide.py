@@ -18,6 +18,7 @@ for d in directions:
   # Eye mask is authored Critz feature evidence, not source inferred anatomy.
   old=json.loads((root/'art/source/hero-redesign-r6/masks.json').read_text())[d].get('eyes',[0]*2048);dy=-2 if po=='P' else 0
   features['eyes']['cells']=[[i%32,i//32+dy] for i,on in enumerate(old) if on and 0<=i//32+dy<64 and e['headMaskDummy'][(i//32+dy)*32+i%32]]
+  features['feet']['visibleMaterialEvidence']={'report':'material-landmark-checks.json','sourcePaleSole':'front only; no forced pale soles otherdirections','blackToBlackPantsShoeBoundary':'UNRESOLVED/AMBIGUOUS; material color does not locate hidden bones'}
   e['commonFeatureRegistration']=features;report['directions'][d][po]={'lastPaintedRow':bottom,'lastPaintedSpans':ss,'edgeAnchor':[16,64],'hiddenAttachments':features['hiddenAttachments'],'visibleEyeCount':len(features['eyes']['cells']),'visibleHandCount':len(features['hands']['cells']),'heroPixelSHA256':hashlib.sha256(h.tobytes()).hexdigest(),'dummyPixelSHA256':hashlib.sha256(m.tobytes()).hexdigest()}
 p.write_text(json.dumps(meta,separators=(',',':'))+'\n');(out/'common-feature-registration.json').write_text(json.dumps(report,indent=2)+'\n')
 plate=Image.new('RGB',(1600,920),'#bed4d5');dd=ImageDraw.Draw(plate);ink='#253340'

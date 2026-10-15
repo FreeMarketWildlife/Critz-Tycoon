@@ -8,7 +8,7 @@ from lower import LOWER,PASSING_SEAM_ROW53
 from upper import UPPER
 root=Path(__file__).resolve().parents[3];src=Path(__file__).parent;out=root/'docs/reviews/M1-HR14';old=root/'docs/reviews/M1-HR13'
 P={'O':'#242330','h':'#322a31','m':'#4c3739','l':'#705044','s':'#a66845','S':'#c38a58','d':'#744539','r':'#ed745c','R':'#ffad7a','v':'#ae454a','c':'#f9edc8','C':'#bfc0aa','b':'#465671','B':'#748894','n':'#2a344a'}
-D={'O':'#253340','head':'#b8dce0','ear':'#ed8ccd','torso':'#4ac2b0','arms':'#f1a566','hands':'#ffd4a1','pants':'#9b83d4','cuff':'#65a6de','sole':'#f1d171'}
+D={'O':'#253340','head':'#b8dce0','ear':'#ed8ccd','torso':'#4ac2b0','arms':'#f1a566','hands':'#ffd4a1','pants':'#9b83d4','cuff':'#65a6de','sole':'#f1d171','garmentDark':'#465671','materialLight':'#a6d8e2','costumeAccent':'#de8b67'}
 meta13=json.loads((root/'art/source/hero-directional-r13/projection-and-joints.json').read_text());eyeMasks=json.loads((root/'art/source/hero-redesign-r6/masks.json').read_text());order=['A','A','P','P','C','C','P','P'];directions=('south','north','west','east')
 def blank():return Image.new('RGBA',(32,64))
 def shift(im,dy):
@@ -111,6 +111,12 @@ for d in directions:
     # colored source glove/costume planes never create extra bare hands.
     oldpx=previous.getpixel((x,y))
     if y<interfaceY+5 and oldpx[3] and oldpx[:3] in [tuple(bytes.fromhex(P[k][1:])) for k in ('s','S','d')]:body.putpixel((x,y),oldpx)
+  # Bounded material refinement: retain a small cream collar and the lower
+  # cream band/cuffs, quiet the duplicate solid chest bars. No alpha/head edit.
+  if d=='south':
+   for y in range(46+dy,49+dy):
+    for x in range(12,20):
+     if body.getpixel((x,y))[:3]==(249,237,200) and not (y==46+dy and 14<=x<=17):body.putpixel((x,y),tuple(bytes.fromhex(P['r'][1:]))+(255,))
   # The overwritten idle hem rows now belong to the same upper-costume
   # material layer as P+2. Do not let stale lower-plane classifications
   # recolor the dummy's idle torso purple while its passing torso is teal.
@@ -143,7 +149,7 @@ for d in directions:
     if not px[3]:continue
     rgb=px[:3];group=lowerCoords.get((x,y));isHand=rgb in [tuple(bytes.fromhex(P[k][1:])) for k in ('s','S','d')]
     if rgb==tuple(bytes.fromhex(P['O'][1:])):col=D['O']
-    elif group:col=D[{'darkPlane':'pants','slateShadow':'pants','slateLight':'cuff','warmGray':'cuff','coral':'pants','paleBand':'sole'}[group]]
+    elif group:col=D[{'darkPlane':'garmentDark','slateShadow':'pants','slateLight':'cuff','warmGray':'materialLight','coral':'costumeAccent','paleBand':'sole'}[group]]
     elif isHand:col=D['hands']
     else:col=D['torso']
     dummy.putpixel((x,y),tuple(bytes.fromhex(col[1:]))+(255,))

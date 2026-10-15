@@ -1,0 +1,2540 @@
+{
+  "task": "M1.HR14 automated continuous rendered-cycle trace",
+  "method": "Isolated Playwright owned-page automated screenshot trace; not uninterrupted human watch",
+  "actualImgScreenshots": true,
+  "canvasDrawImageUsed": false,
+  "isolatedContextsNoUserStorage": true,
+  "humanUninterruptedWatchCompleted": false,
+  "humanCompleteCyclesClaimed": 0,
+  "identifiabilityLimit": "Duplicated identical GIF holds cannot be distinguished visually. Export decode verifies8slots; render trace verifies observed A->P->C->P->A cycles with allsource/Hero/dummy panel pixels exact.",
+  "timingPrecision": "Capturemidpoint/transition midpoint estimates with measured sampling/capture tolerance; not frame-synchronous highprecision instrumentation.",
+  "directions": {
+    "north": {
+      "startedUTC": "2026-10-15T06:31:59.134Z",
+      "finishedUTC": "2026-10-15T06:32:06.761Z",
+      "elapsedMs": 7624.015625,
+      "actualScreenshotSamples": 123,
+      "maxSampleGapMs": 91.14016700000002,
+      "medianSampleGapMs": 65.36516700000038,
+      "maxCaptureDurationMs": 75.85666700000002,
+      "measuredTimingToleranceMs": 149.06850050000003,
+      "speeds": {
+        "normal": {
+          "expectedExportGIFsha256": "7efc029ab891533af26b7b6fc54ee74b289470c6b59d63470c94fdacea97a1c4",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPA",
+          "completeRenderedCycles": 13,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 534.5705310000001,
+              "expectedGIFms": 540,
+              "errorMs": -5.429468999999926,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 594.77884375,
+              "expectedGIFms": 540,
+              "errorMs": 54.778843749999965,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 12,
+              "lastRun": 16,
+              "estimatedMs": 484.60031249999975,
+              "expectedGIFms": 540,
+              "errorMs": -55.399687500000255,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 16,
+              "lastRun": 20,
+              "estimatedMs": 584.6813227500002,
+              "expectedGIFms": 540,
+              "errorMs": 44.68132275000016,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 20,
+              "lastRun": 24,
+              "estimatedMs": 499.7804065,
+              "expectedGIFms": 540,
+              "errorMs": -40.219593499999974,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 24,
+              "lastRun": 28,
+              "estimatedMs": 533.6148227500003,
+              "expectedGIFms": 540,
+              "errorMs": -6.385177249999742,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 28,
+              "lastRun": 32,
+              "estimatedMs": 565.9200940000001,
+              "expectedGIFms": 540,
+              "errorMs": 25.920094000000063,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 32,
+              "lastRun": 36,
+              "estimatedMs": 516.1791037499988,
+              "expectedGIFms": 540,
+              "errorMs": -23.82089625000117,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 36,
+              "lastRun": 40,
+              "estimatedMs": 583.3197292500008,
+              "expectedGIFms": 540,
+              "errorMs": 43.31972925000082,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 40,
+              "lastRun": 44,
+              "estimatedMs": 499.56147925000005,
+              "expectedGIFms": 540,
+              "errorMs": -40.43852074999995,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 44,
+              "lastRun": 48,
+              "estimatedMs": 533.9298335000003,
+              "expectedGIFms": 540,
+              "errorMs": -6.0701664999996865,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 48,
+              "lastRun": 52,
+              "estimatedMs": 570.2807395,
+              "expectedGIFms": 540,
+              "errorMs": 30.28073949999998,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 52,
+              "lastRun": 56,
+              "estimatedMs": 512.7413230000002,
+              "expectedGIFms": 540,
+              "errorMs": -27.258676999999807,
+              "toleranceMs": 149.06850050000003
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 169.15995825000005,
+              "expectedGIFms": 140,
+              "errorMs": 29.159958250000045,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 121.95007274999995,
+              "expectedGIFms": 130,
+              "errorMs": -8.049927250000053,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 117.96002125000001,
+              "expectedGIFms": 140,
+              "errorMs": -22.03997874999999,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 131.3145310000001,
+              "expectedGIFms": 130,
+              "errorMs": 1.3145310000001018,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 134.34221874999992,
+              "expectedGIFms": 140,
+              "errorMs": -5.657781250000085,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 138.1238750000001,
+              "expectedGIFms": 130,
+              "errorMs": 8.123875000000112,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 130.78990624999994,
+              "expectedGIFms": 140,
+              "errorMs": -9.210093750000055,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 165.6845105000001,
+              "expectedGIFms": 130,
+              "errorMs": 35.6845105000001,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 124.87222899999983,
+              "expectedGIFms": 140,
+              "errorMs": -15.127771000000166,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 129.98953125000003,
+              "expectedGIFms": 130,
+              "errorMs": -0.010468749999972715,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 174.232573,
+              "expectedGIFms": 140,
+              "errorMs": 34.232573,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 87.70730225000011,
+              "expectedGIFms": 130,
+              "errorMs": -42.29269774999989,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 177.49941624999974,
+              "expectedGIFms": 140,
+              "errorMs": 37.49941624999974,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 82.63782325000011,
+              "expectedGIFms": 130,
+              "errorMs": -47.36217674999989,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 136.75577074999978,
+              "expectedGIFms": 140,
+              "errorMs": -3.244229250000217,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 134.16230200000064,
+              "expectedGIFms": 130,
+              "errorMs": 4.162302000000636,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 134.2724167499996,
+              "expectedGIFms": 140,
+              "errorMs": -5.727583250000407,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 140.6456559999997,
+              "expectedGIFms": 130,
+              "errorMs": 10.64565599999969,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 175.60094800000024,
+              "expectedGIFms": 140,
+              "errorMs": 35.600948000000244,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 99.5460834999999,
+              "expectedGIFms": 130,
+              "errorMs": -30.453916500000105,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 153.8341250000003,
+              "expectedGIFms": 140,
+              "errorMs": 13.834125000000313,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 125.74415624999983,
+              "expectedGIFms": 130,
+              "errorMs": -4.255843750000167,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 120.65604174999999,
+              "expectedGIFms": 140,
+              "errorMs": -19.343958250000014,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 133.4478332499998,
+              "expectedGIFms": 130,
+              "errorMs": 3.4478332499998032,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.40074975000016,
+              "expectedGIFms": 140,
+              "errorMs": -6.599250249999841,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 133.19523974999947,
+              "expectedGIFms": 130,
+              "errorMs": 3.195239749999473,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.57100000000082,
+              "expectedGIFms": 140,
+              "errorMs": -6.428999999999178,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 166.8369897499997,
+              "expectedGIFms": 130,
+              "errorMs": 36.8369897499997,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 171.1428434999998,
+              "expectedGIFms": 140,
+              "errorMs": 31.1428434999998,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 69.5587292500004,
+              "expectedGIFms": 130,
+              "errorMs": -60.4412707499996,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 158.38153150000016,
+              "expectedGIFms": 140,
+              "errorMs": 18.381531500000165,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 116.31489574999978,
+              "expectedGIFms": 130,
+              "errorMs": -13.685104250000222,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.01861449999979,
+              "expectedGIFms": 140,
+              "errorMs": -6.981385500000215,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 133.1793227500002,
+              "expectedGIFms": 130,
+              "errorMs": 3.1793227500002104,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.66627074999906,
+              "expectedGIFms": 140,
+              "errorMs": -6.333729250000943,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 132.672469000001,
+              "expectedGIFms": 130,
+              "errorMs": 2.6724690000010014,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.28421875000004,
+              "expectedGIFms": 140,
+              "errorMs": -6.715781249999964,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 166.88530224999977,
+              "expectedGIFms": 130,
+              "errorMs": 36.88530224999977,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 150.47773925,
+              "expectedGIFms": 140,
+              "errorMs": 10.477739250000013,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 99.13134374999936,
+              "expectedGIFms": 130,
+              "errorMs": -30.86865625000064,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 150.47883375000038,
+              "expectedGIFms": 140,
+              "errorMs": 10.478833750000376,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 117.28371874999993,
+              "expectedGIFms": 130,
+              "errorMs": -12.716281250000065,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 132.66758300000038,
+              "expectedGIFms": 140,
+              "errorMs": -7.332416999999623,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 133.35644824999963,
+              "expectedGIFms": 130,
+              "errorMs": 3.35644824999963,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.66235400000096,
+              "expectedGIFms": 140,
+              "errorMs": -6.33764599999904,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 133.07606224999927,
+              "expectedGIFms": 130,
+              "errorMs": 3.076062249999268,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.83496900000046,
+              "expectedGIFms": 140,
+              "errorMs": -6.165030999999544,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 166.41727074999926,
+              "expectedGIFms": 130,
+              "errorMs": 36.41727074999926,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 150.74492700000064,
+              "expectedGIFms": 140,
+              "errorMs": 10.744927000000644,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 98.86442725000052,
+              "expectedGIFms": 130,
+              "errorMs": -31.135572749999483,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 154.25411449999956,
+              "expectedGIFms": 140,
+              "errorMs": 14.25411449999956,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 124.59685399999944,
+              "expectedGIFms": 130,
+              "errorMs": -5.403146000000561,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 120.48957324999992,
+              "expectedGIFms": 140,
+              "errorMs": -19.51042675000008,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 134.77225999999973,
+              "expectedGIFms": 130,
+              "errorMs": 4.772259999999733,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 132.8826357500011,
+              "expectedGIFms": 140,
+              "errorMs": -7.1173642499989,
+              "toleranceMs": 149.06850050000003
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        },
+        "slow": {
+          "expectedExportGIFsha256": "93955729d9e61ec9c8ef18911e70d2c7a0e56170a083742b870160d9a8113ea9",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAPC",
+          "completeRenderedCycles": 2,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 2183.9966460000005,
+              "expectedGIFms": 2160,
+              "errorMs": 23.99664600000051,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 2132.99014575,
+              "expectedGIFms": 2160,
+              "errorMs": -27.00985424999999,
+              "toleranceMs": 149.06850050000003
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 534.5705310000001,
+              "expectedGIFms": 560,
+              "errorMs": -25.429468999999926,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 503.95876024999995,
+              "expectedGIFms": 520,
+              "errorMs": -16.041239750000045,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 575.4203959999998,
+              "expectedGIFms": 560,
+              "errorMs": 15.420395999999755,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 531.1793645000002,
+              "expectedGIFms": 520,
+              "errorMs": 11.179364500000247,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 553.2823647499999,
+              "expectedGIFms": 560,
+              "errorMs": -6.717635250000058,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 533.6148227500003,
+              "expectedGIFms": 520,
+              "errorMs": 13.614822750000258,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 565.9200940000001,
+              "expectedGIFms": 560,
+              "errorMs": 5.920094000000063,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 516.1791037499988,
+              "expectedGIFms": 520,
+              "errorMs": -3.8208962500011694,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 583.3197292500008,
+              "expectedGIFms": 560,
+              "errorMs": 23.31972925000082,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 499.56147925000005,
+              "expectedGIFms": 520,
+              "errorMs": -20.438520749999952,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 533.9298335000003,
+              "expectedGIFms": 560,
+              "errorMs": -26.070166499999686,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 570.2807395,
+              "expectedGIFms": 520,
+              "errorMs": 50.28073949999998,
+              "toleranceMs": 149.06850050000003
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 512.7413230000002,
+              "expectedGIFms": 560,
+              "errorMs": -47.25867699999981,
+              "toleranceMs": 149.06850050000003
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        }
+      },
+      "capturedPlaybackGIF": {
+        "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-north.gif",
+        "kind": "Actual screenshot stack playback; upper normal/lower slow;10ms capture-timingquantization",
+        "includesTraceElapsedMs": 7770,
+        "decodedPixelAndTimingRLEExact": true,
+        "sha256": "11a307de74e730c70f310f3e981401cae10bd2e324e0b9ead0bc3fe94ff9c5aa"
+      }
+    },
+    "south": {
+      "startedUTC": "2026-10-15T06:31:59.144Z",
+      "finishedUTC": "2026-10-15T06:32:10.168Z",
+      "elapsedMs": 11024.439125,
+      "actualScreenshotSamples": 189,
+      "maxSampleGapMs": 101.05345850000049,
+      "medianSampleGapMs": 50.24811449999959,
+      "maxCaptureDurationMs": 79.97383400000035,
+      "measuredTimingToleranceMs": 161.04037550000066,
+      "speeds": {
+        "normal": {
+          "expectedExportGIFsha256": "1f5201d752874301f1c22b0fe80b42636f1fe72ee5d986ecd3b813f6dc9636f0",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCP",
+          "completeRenderedCycles": 12,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 800.4053854999999,
+              "expectedGIFms": 800,
+              "errorMs": 0.4053854999998521,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 816.1129375000003,
+              "expectedGIFms": 800,
+              "errorMs": 16.11293750000027,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 12,
+              "lastRun": 16,
+              "estimatedMs": 799.6274687499999,
+              "expectedGIFms": 800,
+              "errorMs": -0.3725312500000655,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 16,
+              "lastRun": 20,
+              "estimatedMs": 801.4768749999994,
+              "expectedGIFms": 800,
+              "errorMs": 1.4768749999993815,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 20,
+              "lastRun": 24,
+              "estimatedMs": 799.3315937500001,
+              "expectedGIFms": 800,
+              "errorMs": -0.6684062499998618,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 24,
+              "lastRun": 28,
+              "estimatedMs": 800.5646560000005,
+              "expectedGIFms": 800,
+              "errorMs": 0.5646560000004683,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 28,
+              "lastRun": 32,
+              "estimatedMs": 799.4985939999997,
+              "expectedGIFms": 800,
+              "errorMs": -0.5014060000003155,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 32,
+              "lastRun": 36,
+              "estimatedMs": 800.3466457499999,
+              "expectedGIFms": 800,
+              "errorMs": 0.3466457499998796,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 36,
+              "lastRun": 40,
+              "estimatedMs": 747.1418335000008,
+              "expectedGIFms": 800,
+              "errorMs": -52.85816649999924,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 40,
+              "lastRun": 44,
+              "estimatedMs": 845.6613437499991,
+              "expectedGIFms": 800,
+              "errorMs": 45.661343749999105,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 44,
+              "lastRun": 48,
+              "estimatedMs": 743.2683957500012,
+              "expectedGIFms": 800,
+              "errorMs": -56.73160424999878,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 48,
+              "lastRun": 52,
+              "estimatedMs": 801.2550104999991,
+              "expectedGIFms": 800,
+              "errorMs": 1.2550104999991163,
+              "toleranceMs": 161.04037550000066
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 201.09429175000002,
+              "expectedGIFms": 200,
+              "errorMs": 1.0942917500000249,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 198.97807275000002,
+              "expectedGIFms": 200,
+              "errorMs": -1.021927249999976,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.48746875000006,
+              "expectedGIFms": 200,
+              "errorMs": 0.48746875000006185,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 201.13765624999985,
+              "expectedGIFms": 200,
+              "errorMs": 1.13765624999985,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 199.59331250000014,
+              "expectedGIFms": 200,
+              "errorMs": -0.40668749999986176,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 199.57089599999995,
+              "expectedGIFms": 200,
+              "errorMs": -0.4291040000000521,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.10352074999992,
+              "expectedGIFms": 200,
+              "errorMs": 0.103520749999916,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 209.9566247500004,
+              "expectedGIFms": 200,
+              "errorMs": 9.956624750000401,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 205.6285107499998,
+              "expectedGIFms": 200,
+              "errorMs": 5.628510749999805,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 200.15983325000025,
+              "expectedGIFms": 200,
+              "errorMs": 0.15983325000024706,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.36796874999982,
+              "expectedGIFms": 200,
+              "errorMs": 0.3679687499998181,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 200.4755100000002,
+              "expectedGIFms": 200,
+              "errorMs": 0.47551000000021304,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 200.07991700000002,
+              "expectedGIFms": 200,
+              "errorMs": 0.07991700000002311,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 200.3466562499998,
+              "expectedGIFms": 200,
+              "errorMs": 0.3466562499997963,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 198.7253854999999,
+              "expectedGIFms": 200,
+              "errorMs": -1.274614500000098,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 200.7344579999999,
+              "expectedGIFms": 200,
+              "errorMs": 0.7344579999999041,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 199.89421924999988,
+              "expectedGIFms": 200,
+              "errorMs": -0.10578075000012177,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 200.48435375000054,
+              "expectedGIFms": 200,
+              "errorMs": 0.4843537500005368,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.36384399999906,
+              "expectedGIFms": 200,
+              "errorMs": 0.36384399999906236,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 199.45047925000017,
+              "expectedGIFms": 200,
+              "errorMs": -0.5495207499998287,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 199.81925000000047,
+              "expectedGIFms": 200,
+              "errorMs": -0.18074999999953434,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 199.56042700000035,
+              "expectedGIFms": 200,
+              "errorMs": -0.4395729999996547,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.50143749999916,
+              "expectedGIFms": 200,
+              "errorMs": 0.501437499999156,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 199.98347925000053,
+              "expectedGIFms": 200,
+              "errorMs": -0.016520749999472173,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 200.50115625000035,
+              "expectedGIFms": 200,
+              "errorMs": 0.5011562500003492,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 200.12106224999934,
+              "expectedGIFms": 200,
+              "errorMs": 0.12106224999934057,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 199.95895825000025,
+              "expectedGIFms": 200,
+              "errorMs": -0.0410417499997493,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 198.94966699999986,
+              "expectedGIFms": 200,
+              "errorMs": -1.050333000000137,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 199.99568724999972,
+              "expectedGIFms": 200,
+              "errorMs": -0.004312750000281085,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 200.1479377500009,
+              "expectedGIFms": 200,
+              "errorMs": 0.14793775000089227,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.4053019999992,
+              "expectedGIFms": 200,
+              "errorMs": 0.40530199999921024,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 200.28060399999958,
+              "expectedGIFms": 200,
+              "errorMs": 0.28060399999958463,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 199.59112500000083,
+              "expectedGIFms": 200,
+              "errorMs": -0.40887499999917054,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 200.23230225000043,
+              "expectedGIFms": 200,
+              "errorMs": 0.23230225000042992,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.24261449999904,
+              "expectedGIFms": 200,
+              "errorMs": 0.24261449999903562,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 199.82016674999977,
+              "expectedGIFms": 200,
+              "errorMs": -0.17983325000022887,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 199.6480207500008,
+              "expectedGIFms": 200,
+              "errorMs": -0.3519792499992036,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 184.6038440000002,
+              "expectedGIFms": 200,
+              "errorMs": -15.396155999999792,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 163.06980199999998,
+              "expectedGIFms": 200,
+              "errorMs": -36.93019800000002,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 221.72785399999975,
+              "expectedGIFms": 200,
+              "errorMs": 21.727853999999752,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 215.21268774999953,
+              "expectedGIFms": 200,
+              "errorMs": 15.212687749999532,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 185.26458325000021,
+              "expectedGIFms": 200,
+              "errorMs": -14.735416749999786,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 223.4562187499996,
+              "expectedGIFms": 200,
+              "errorMs": 23.456218749999607,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 158.81580200000099,
+              "expectedGIFms": 200,
+              "errorMs": -41.184197999999014,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 196.98648949999915,
+              "expectedGIFms": 200,
+              "errorMs": -3.013510500000848,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 189.3737602500005,
+              "expectedGIFms": 200,
+              "errorMs": -10.626239749999513,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 198.0923440000006,
+              "expectedGIFms": 200,
+              "errorMs": -1.907655999999406,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 200.0522812499985,
+              "expectedGIFms": 200,
+              "errorMs": 0.0522812499984866,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 201.70586449999973,
+              "expectedGIFms": 200,
+              "errorMs": 1.705864499999734,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 199.02248950000285,
+              "expectedGIFms": 200,
+              "errorMs": -0.9775104999971518,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 200.47437524999805,
+              "expectedGIFms": 200,
+              "errorMs": 0.47437524999804737,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 201.07794775000002,
+              "expectedGIFms": 200,
+              "errorMs": 1.0779477500000212,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 198.15183349999825,
+              "expectedGIFms": 200,
+              "errorMs": -1.8481665000017529,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 199.18568725000296,
+              "expectedGIFms": 200,
+              "errorMs": -0.8143127499970433,
+              "toleranceMs": 161.04037550000066
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        },
+        "slow": {
+          "expectedExportGIFsha256": "9497eab12905a3686f7b9ca0f20b24ad8ddcfa36726ea00d8039b6615984c4c2",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAP",
+          "completeRenderedCycles": 2,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 3200.8717187499997,
+              "expectedGIFms": 3200,
+              "errorMs": 0.8717187499996726,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 3136.418218750001,
+              "expectedGIFms": 3200,
+              "errorMs": -63.58178124999904,
+              "toleranceMs": 161.04037550000066
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 800.4053854999999,
+              "expectedGIFms": 800,
+              "errorMs": 0.4053854999998521,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 816.1129375000003,
+              "expectedGIFms": 800,
+              "errorMs": 16.11293750000027,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 799.6274687499999,
+              "expectedGIFms": 800,
+              "errorMs": -0.3725312500000655,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 801.4768749999994,
+              "expectedGIFms": 800,
+              "errorMs": 1.4768749999993815,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 799.3315937500001,
+              "expectedGIFms": 800,
+              "errorMs": -0.6684062499998618,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 800.5646560000005,
+              "expectedGIFms": 800,
+              "errorMs": 0.5646560000004683,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 799.4985939999997,
+              "expectedGIFms": 800,
+              "errorMs": -0.5014060000003155,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 800.3466457499999,
+              "expectedGIFms": 800,
+              "errorMs": 0.3466457499998796,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 747.1418335000008,
+              "expectedGIFms": 800,
+              "errorMs": -52.85816649999924,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 845.6613437499991,
+              "expectedGIFms": 800,
+              "errorMs": 45.661343749999105,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 743.2683957500012,
+              "expectedGIFms": 800,
+              "errorMs": -56.73160424999878,
+              "toleranceMs": 161.04037550000066
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 801.2550104999991,
+              "expectedGIFms": 800,
+              "errorMs": 1.2550104999991163,
+              "toleranceMs": 161.04037550000066
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        }
+      },
+      "capturedPlaybackGIF": {
+        "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-south.gif",
+        "kind": "Actual screenshot stack playback; upper normal/lower slow;10ms capture-timingquantization",
+        "includesTraceElapsedMs": 10980,
+        "decodedPixelAndTimingRLEExact": true,
+        "sha256": "7aa0cbd06cbe6027adf6db818bb84e2cb23042f103de5b5365e0e052f8141435"
+      }
+    },
+    "east": {
+      "startedUTC": "2026-10-15T06:32:10.365Z",
+      "finishedUTC": "2026-10-15T06:32:17.999Z",
+      "elapsedMs": 7634.1108749999985,
+      "actualScreenshotSamples": 124,
+      "maxSampleGapMs": 89.96095849999983,
+      "medianSampleGapMs": 65.36114550000093,
+      "maxCaptureDurationMs": 73.54883399999926,
+      "measuredTimingToleranceMs": 146.73537549999946,
+      "speeds": {
+        "normal": {
+          "expectedExportGIFsha256": "8183f6f9eb7bf3d434dbc520dfb418ce514d934e9620695ef1ebc2805d3b250a",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPA",
+          "completeRenderedCycles": 13,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 533.788562499999,
+              "expectedGIFms": 540,
+              "errorMs": -6.211437500001011,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 571.0385417500001,
+              "expectedGIFms": 540,
+              "errorMs": 31.03854175000015,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 12,
+              "lastRun": 16,
+              "estimatedMs": 512.8550940000005,
+              "expectedGIFms": 540,
+              "errorMs": -27.144905999999537,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 16,
+              "lastRun": 20,
+              "estimatedMs": 584.0327809999999,
+              "expectedGIFms": 540,
+              "errorMs": 44.032780999999886,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 20,
+              "lastRun": 24,
+              "estimatedMs": 500.4015835,
+              "expectedGIFms": 540,
+              "errorMs": -39.598416499999985,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 24,
+              "lastRun": 28,
+              "estimatedMs": 531.6141665000005,
+              "expectedGIFms": 540,
+              "errorMs": -8.385833499999535,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 28,
+              "lastRun": 32,
+              "estimatedMs": 546.6890522499998,
+              "expectedGIFms": 540,
+              "errorMs": 6.689052249999804,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 32,
+              "lastRun": 36,
+              "estimatedMs": 536.1407290000006,
+              "expectedGIFms": 540,
+              "errorMs": -3.859270999999353,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 36,
+              "lastRun": 40,
+              "estimatedMs": 584.1499999999996,
+              "expectedGIFms": 540,
+              "errorMs": 44.149999999999636,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 40,
+              "lastRun": 44,
+              "estimatedMs": 500.1527397500013,
+              "expectedGIFms": 540,
+              "errorMs": -39.847260249998726,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 44,
+              "lastRun": 48,
+              "estimatedMs": 534.0662079999965,
+              "expectedGIFms": 540,
+              "errorMs": -5.93379200000345,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 48,
+              "lastRun": 52,
+              "estimatedMs": 570.8725732500025,
+              "expectedGIFms": 540,
+              "errorMs": 30.87257325000246,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 52,
+              "lastRun": 56,
+              "estimatedMs": 511.9994999999981,
+              "expectedGIFms": 540,
+              "errorMs": -28.00050000000192,
+              "toleranceMs": 146.73537549999946
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 175.24327099999937,
+              "expectedGIFms": 140,
+              "errorMs": 35.24327099999937,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 78.39043750000019,
+              "expectedGIFms": 130,
+              "errorMs": -51.60956249999981,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 138.6947184999999,
+              "expectedGIFms": 140,
+              "errorMs": -1.305281500000092,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 132.52772924999954,
+              "expectedGIFms": 130,
+              "errorMs": 2.5277292499995383,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 135.30479174999982,
+              "expectedGIFms": 140,
+              "errorMs": -4.695208250000178,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 132.87662525000087,
+              "expectedGIFms": 130,
+              "errorMs": 2.8766252500008704,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.07941624999876,
+              "expectedGIFms": 140,
+              "errorMs": -6.920583750001242,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 167.15836475000106,
+              "expectedGIFms": 130,
+              "errorMs": 37.158364750001056,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 149.36727099999916,
+              "expectedGIFms": 140,
+              "errorMs": 9.367270999999164,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 100.9520205000008,
+              "expectedGIFms": 130,
+              "errorMs": -29.0479794999992,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 153.56088549999913,
+              "expectedGIFms": 140,
+              "errorMs": 13.56088549999913,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 124.55193775000043,
+              "expectedGIFms": 130,
+              "errorMs": -5.448062249999566,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 120.11049974999969,
+              "expectedGIFms": 140,
+              "errorMs": -19.88950025000031,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 135.2606772499994,
+              "expectedGIFms": 130,
+              "errorMs": 5.2606772499993895,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 132.93197925000095,
+              "expectedGIFms": 140,
+              "errorMs": -7.06802074999905,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 141.84363525000026,
+              "expectedGIFms": 130,
+              "errorMs": 11.843635250000261,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 125.07803149999927,
+              "expectedGIFms": 140,
+              "errorMs": -14.92196850000073,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 148.54602075000093,
+              "expectedGIFms": 130,
+              "errorMs": 18.546020750000935,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 168.56509349999942,
+              "expectedGIFms": 140,
+              "errorMs": 28.56509349999942,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 99.63356249999924,
+              "expectedGIFms": 130,
+              "errorMs": -30.366437500000757,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 154.54293750000033,
+              "expectedGIFms": 140,
+              "errorMs": 14.542937500000335,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 125.48798950000037,
+              "expectedGIFms": 130,
+              "errorMs": -4.512010499999633,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 120.73709400000007,
+              "expectedGIFms": 140,
+              "errorMs": -19.26290599999993,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 132.09570825000083,
+              "expectedGIFms": 130,
+              "errorMs": 2.0957082500008255,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 132.5138647499998,
+              "expectedGIFms": 140,
+              "errorMs": -7.4861352500001885,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 134.49410399999942,
+              "expectedGIFms": 130,
+              "errorMs": 4.494103999999425,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 132.5104895000004,
+              "expectedGIFms": 140,
+              "errorMs": -7.4895104999995965,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 166.68367699999908,
+              "expectedGIFms": 130,
+              "errorMs": 36.68367699999908,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 171.87579175000064,
+              "expectedGIFms": 140,
+              "errorMs": 31.875791750000644,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 71.22493749999921,
+              "expectedGIFms": 130,
+              "errorMs": -58.775062500000786,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 136.90464600000087,
+              "expectedGIFms": 140,
+              "errorMs": -3.0953539999991335,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 136.3724582499999,
+              "expectedGIFms": 130,
+              "errorMs": 6.372458249999909,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 134.06776050000008,
+              "expectedGIFms": 140,
+              "errorMs": -5.932239499999923,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 133.6051979999993,
+              "expectedGIFms": 130,
+              "errorMs": 3.605197999999291,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 132.09531225000137,
+              "expectedGIFms": 140,
+              "errorMs": -7.904687749998629,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 133.57992724999895,
+              "expectedGIFms": 130,
+              "errorMs": 3.5799272499989456,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 134.5627707499989,
+              "expectedGIFms": 140,
+              "errorMs": -5.43722925000111,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 165.04480225000225,
+              "expectedGIFms": 130,
+              "errorMs": 35.04480225000225,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 150.96249974999955,
+              "expectedGIFms": 140,
+              "errorMs": 10.962499749999552,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 100.50806274999923,
+              "expectedGIFms": 130,
+              "errorMs": -29.491937250000774,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 149.93618724999942,
+              "expectedGIFms": 140,
+              "errorMs": 9.93618724999942,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 116.03446900000199,
+              "expectedGIFms": 130,
+              "errorMs": -13.965530999998009,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.67402075000064,
+              "expectedGIFms": 140,
+              "errorMs": -6.325979249999364,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 133.27644774999862,
+              "expectedGIFms": 130,
+              "errorMs": 3.276447749998624,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 142.1815624999981,
+              "expectedGIFms": 140,
+              "errorMs": 2.1815624999981083,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 125.20220850000078,
+              "expectedGIFms": 130,
+              "errorMs": -4.797791499999221,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.40598924999904,
+              "expectedGIFms": 140,
+              "errorMs": -6.594010750000962,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 166.36052125000424,
+              "expectedGIFms": 130,
+              "errorMs": 36.36052125000424,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 149.6153747499975,
+              "expectedGIFms": 140,
+              "errorMs": 9.6153747499975,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 99.86888524999995,
+              "expectedGIFms": 130,
+              "errorMs": -30.13111475000005,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 155.02779200000077,
+              "expectedGIFms": 140,
+              "errorMs": 15.027792000000773,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 134.51242699999784,
+              "expectedGIFms": 130,
+              "errorMs": 4.512426999997842,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 131.060541750001,
+              "expectedGIFms": 140,
+              "errorMs": -8.939458249999007,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 126.49625000000015,
+              "expectedGIFms": 130,
+              "errorMs": -3.5037499999998545,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 119.9302812499991,
+              "expectedGIFms": 140,
+              "errorMs": -20.069718750000902,
+              "toleranceMs": 146.73537549999946
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        },
+        "slow": {
+          "expectedExportGIFsha256": "af0ec5203caaca8bbe4426221c50cb563ecca022596b0aca6d72b27a2ecda153",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAPC",
+          "completeRenderedCycles": 2,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 2162.73758325,
+              "expectedGIFms": 2160,
+              "errorMs": 2.7375832500001707,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 2154.509676749998,
+              "expectedGIFms": 2160,
+              "errorMs": -5.490323250001893,
+              "toleranceMs": 146.73537549999946
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 533.788562499999,
+              "expectedGIFms": 560,
+              "errorMs": -26.21143750000101,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 571.0385417500001,
+              "expectedGIFms": 520,
+              "errorMs": 51.03854175000015,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 512.8550940000005,
+              "expectedGIFms": 560,
+              "errorMs": -47.14490599999954,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 533.5421562499996,
+              "expectedGIFms": 520,
+              "errorMs": 13.542156249999607,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 550.8922082500003,
+              "expectedGIFms": 560,
+              "errorMs": -9.107791749999706,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 531.6141665000005,
+              "expectedGIFms": 520,
+              "errorMs": 11.614166500000465,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 546.6890522499998,
+              "expectedGIFms": 560,
+              "errorMs": -13.310947750000196,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 536.1407290000006,
+              "expectedGIFms": 520,
+              "errorMs": 16.140729000000647,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 584.1499999999996,
+              "expectedGIFms": 560,
+              "errorMs": 24.149999999999636,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 500.1527397500013,
+              "expectedGIFms": 520,
+              "errorMs": -19.847260249998726,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 534.0662079999965,
+              "expectedGIFms": 560,
+              "errorMs": -25.93379200000345,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 570.8725732500025,
+              "expectedGIFms": 520,
+              "errorMs": 50.87257325000246,
+              "toleranceMs": 146.73537549999946
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 511.9994999999981,
+              "expectedGIFms": 560,
+              "errorMs": -48.00050000000192,
+              "toleranceMs": 146.73537549999946
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        }
+      },
+      "capturedPlaybackGIF": {
+        "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-east.gif",
+        "kind": "Actual screenshot stack playback; upper normal/lower slow;10ms capture-timingquantization",
+        "includesTraceElapsedMs": 7810,
+        "decodedPixelAndTimingRLEExact": true,
+        "sha256": "ee9d3f8a99cd5a4db50c02d9b6362ad5e495da9c19a8031be9a81a95efc252bb"
+      }
+    },
+    "west": {
+      "startedUTC": "2026-10-15T06:32:10.369Z",
+      "finishedUTC": "2026-10-15T06:32:18.014Z",
+      "elapsedMs": 7644.993709000002,
+      "actualScreenshotSamples": 125,
+      "maxSampleGapMs": 91.41079199999876,
+      "medianSampleGapMs": 66.03133350000007,
+      "maxCaptureDurationMs": 75.8414589999993,
+      "measuredTimingToleranceMs": 149.33152149999842,
+      "speeds": {
+        "normal": {
+          "expectedExportGIFsha256": "e457f73f39f58c7414be65cf3bd2a2e9b12853449ef7a2794e68d25308bab236",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPAPCPA",
+          "completeRenderedCycles": 13,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 534.0511147499992,
+              "expectedGIFms": 540,
+              "errorMs": -5.948885250000785,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 571.4087502499997,
+              "expectedGIFms": 540,
+              "errorMs": 31.408750249999684,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 12,
+              "lastRun": 16,
+              "estimatedMs": 512.4978957499998,
+              "expectedGIFms": 540,
+              "errorMs": -27.50210425000023,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 16,
+              "lastRun": 20,
+              "estimatedMs": 583.528426750001,
+              "expectedGIFms": 540,
+              "errorMs": 43.52842675000102,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 20,
+              "lastRun": 24,
+              "estimatedMs": 499.08201075000034,
+              "expectedGIFms": 540,
+              "errorMs": -40.917989249999664,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 24,
+              "lastRun": 28,
+              "estimatedMs": 534.2636562499993,
+              "expectedGIFms": 540,
+              "errorMs": -5.736343750000742,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 28,
+              "lastRun": 32,
+              "estimatedMs": 566.607583,
+              "expectedGIFms": 540,
+              "errorMs": 26.607582999999977,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 32,
+              "lastRun": 36,
+              "estimatedMs": 516.3676459999997,
+              "expectedGIFms": 540,
+              "errorMs": -23.632354000000305,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 36,
+              "lastRun": 40,
+              "estimatedMs": 582.2065522499997,
+              "expectedGIFms": 540,
+              "errorMs": 42.20655224999973,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 40,
+              "lastRun": 44,
+              "estimatedMs": 501.1223645000009,
+              "expectedGIFms": 540,
+              "errorMs": -38.87763549999909,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 44,
+              "lastRun": 48,
+              "estimatedMs": 532.7708332500024,
+              "expectedGIFms": 540,
+              "errorMs": -7.229166749997603,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 48,
+              "lastRun": 52,
+              "estimatedMs": 571.1958332499962,
+              "expectedGIFms": 540,
+              "errorMs": 31.195833249996213,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 52,
+              "lastRun": 56,
+              "estimatedMs": 512.6724585000011,
+              "expectedGIFms": 540,
+              "errorMs": -27.327541499998915,
+              "toleranceMs": 149.33152149999842
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 141.39259349999975,
+              "expectedGIFms": 140,
+              "errorMs": 1.392593499999748,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 136.2753129999992,
+              "expectedGIFms": 130,
+              "errorMs": 6.275312999999187,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.02426000000105,
+              "expectedGIFms": 140,
+              "errorMs": -6.97573999999895,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 134.2899374999988,
+              "expectedGIFms": 130,
+              "errorMs": 4.289937499998814,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.20804175000012,
+              "expectedGIFms": 140,
+              "errorMs": -6.79195824999988,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 132.94801050000115,
+              "expectedGIFms": 130,
+              "errorMs": 2.9480105000011463,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.60512499999913,
+              "expectedGIFms": 140,
+              "errorMs": -6.394875000000866,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 166.3858957499997,
+              "expectedGIFms": 130,
+              "errorMs": 36.38589574999969,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 149.98097925000093,
+              "expectedGIFms": 140,
+              "errorMs": 9.980979250000928,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 100.05460399999993,
+              "expectedGIFms": 130,
+              "errorMs": -29.945396000000073,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 154.98727124999914,
+              "expectedGIFms": 140,
+              "errorMs": 14.98727124999914,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 124.56441650000124,
+              "expectedGIFms": 130,
+              "errorMs": -5.4355834999987565,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 120.32135424999888,
+              "expectedGIFms": 140,
+              "errorMs": -19.678645750001124,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 134.3382499999998,
+              "expectedGIFms": 130,
+              "errorMs": 4.338249999999789,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.27387499999986,
+              "expectedGIFms": 140,
+              "errorMs": -6.726125000000138,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 132.35908325000037,
+              "expectedGIFms": 130,
+              "errorMs": 2.359083250000367,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.51357274999918,
+              "expectedGIFms": 140,
+              "errorMs": -6.4864272500008155,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 141.74421875000098,
+              "expectedGIFms": 130,
+              "errorMs": 11.744218750000982,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 175.91155200000048,
+              "expectedGIFms": 140,
+              "errorMs": 35.91155200000048,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 99.67603150000014,
+              "expectedGIFms": 130,
+              "errorMs": -30.323968499999864,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 153.5730205000009,
+              "expectedGIFms": 140,
+              "errorMs": 13.573020500000894,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 125.36341674999949,
+              "expectedGIFms": 130,
+              "errorMs": -4.636583250000513,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 120.46954199999982,
+              "expectedGIFms": 140,
+              "errorMs": -19.53045800000018,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 134.12281249999978,
+              "expectedGIFms": 130,
+              "errorMs": 4.122812499999782,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.37683325000035,
+              "expectedGIFms": 140,
+              "errorMs": -6.623166749999655,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 133.51070824999897,
+              "expectedGIFms": 130,
+              "errorMs": 3.51070824999897,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.25330225000016,
+              "expectedGIFms": 140,
+              "errorMs": -6.746697749999839,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 165.68819774999974,
+              "expectedGIFms": 130,
+              "errorMs": 35.688197749999745,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 170.93728125000052,
+              "expectedGIFms": 140,
+              "errorMs": 30.937281250000524,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 70.95010424999964,
+              "expectedGIFms": 130,
+              "errorMs": -59.04989575000036,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 159.03199975000007,
+              "expectedGIFms": 140,
+              "errorMs": 19.031999750000068,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 116.26732324999921,
+              "expectedGIFms": 130,
+              "errorMs": -13.732676750000792,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 133.55519775000175,
+              "expectedGIFms": 140,
+              "errorMs": -6.444802249998247,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 133.0586457499994,
+              "expectedGIFms": 130,
+              "errorMs": 3.058645749999414,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.48647924999932,
+              "expectedGIFms": 140,
+              "errorMs": -6.51352075000068,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 133.7303227500015,
+              "expectedGIFms": 130,
+              "errorMs": 3.7303227500015055,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 132.19370850000087,
+              "expectedGIFms": 140,
+              "errorMs": -7.8062914999991335,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 166.76356249999662,
+              "expectedGIFms": 130,
+              "errorMs": 36.763562499996624,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 149.51895850000074,
+              "expectedGIFms": 140,
+              "errorMs": 9.518958500000736,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 100.95044774999951,
+              "expectedGIFms": 130,
+              "errorMs": -29.049552250000488,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 148.77064575000077,
+              "expectedGIFms": 140,
+              "errorMs": 8.770645750000767,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 117.46428150000065,
+              "expectedGIFms": 130,
+              "errorMs": -12.535718499999348,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.93698949999998,
+              "expectedGIFms": 140,
+              "errorMs": -6.0630105000000185,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 151.0033642499984,
+              "expectedGIFms": 130,
+              "errorMs": 21.003364249998413,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 131.67844825000248,
+              "expectedGIFms": 140,
+              "errorMs": -8.321551749997525,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 116.77159374999792,
+              "expectedGIFms": 130,
+              "errorMs": -13.228406250002081,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.3174270000036,
+              "expectedGIFms": 140,
+              "errorMs": -6.68257299999641,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 165.916208249997,
+              "expectedGIFms": 130,
+              "errorMs": 35.916208249997,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 150.5303855000002,
+              "expectedGIFms": 140,
+              "errorMs": 10.530385500000193,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 99.50457300000016,
+              "expectedGIFms": 130,
+              "errorMs": -30.495426999999836,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 155.24466649999886,
+              "expectedGIFms": 140,
+              "errorMs": 15.244666499998857,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 150.3289894999998,
+              "expectedGIFms": 130,
+              "errorMs": 20.328989499999807,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 86.5394377499997,
+              "expectedGIFms": 140,
+              "errorMs": -53.460562250000294,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 141.931645749999,
+              "expectedGIFms": 130,
+              "errorMs": 11.931645749999007,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 133.87238550000257,
+              "expectedGIFms": 140,
+              "errorMs": -6.127614499997435,
+              "toleranceMs": 149.33152149999842
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        },
+        "slow": {
+          "expectedExportGIFsha256": "448bf2b221b86df9583a636af69553377f1549369612da0daa5d0e9c3e7a2688",
+          "unmatchedOrUnpaintedSamples": 0,
+          "observedPhaseSequence": "APCPAPCPAPCPAPC",
+          "completeRenderedCycles": 2,
+          "cycles": [
+            {
+              "firstRun": 4,
+              "lastRun": 8,
+              "estimatedMs": 2183.4816767500006,
+              "expectedGIFms": 2160,
+              "errorMs": 23.481676750000588,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "firstRun": 8,
+              "lastRun": 12,
+              "estimatedMs": 2132.4673960000027,
+              "expectedGIFms": 2160,
+              "errorMs": -27.532603999997264,
+              "toleranceMs": 149.33152149999842
+            }
+          ],
+          "phaseHoldEstimates": [
+            {
+              "phase": "P1",
+              "estimatedMs": 534.0511147499992,
+              "expectedGIFms": 560,
+              "errorMs": -25.948885250000785,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 571.4087502499997,
+              "expectedGIFms": 520,
+              "errorMs": 51.408750249999684,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 512.4978957499998,
+              "expectedGIFms": 560,
+              "errorMs": -47.50210425000023,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 528.3324997500004,
+              "expectedGIFms": 520,
+              "errorMs": 8.332499750000352,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 554.277937750001,
+              "expectedGIFms": 560,
+              "errorMs": -5.722062249998999,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 534.2636562499993,
+              "expectedGIFms": 520,
+              "errorMs": 14.263656249999258,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 566.607583,
+              "expectedGIFms": 560,
+              "errorMs": 6.607582999999977,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 516.3676459999997,
+              "expectedGIFms": 520,
+              "errorMs": -3.632354000000305,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 582.2065522499997,
+              "expectedGIFms": 560,
+              "errorMs": 22.20655224999973,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "C",
+              "estimatedMs": 501.1223645000009,
+              "expectedGIFms": 520,
+              "errorMs": -18.877635499999087,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P2",
+              "estimatedMs": 532.7708332500024,
+              "expectedGIFms": 560,
+              "errorMs": -27.229166749997603,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "A",
+              "estimatedMs": 571.1958332499962,
+              "expectedGIFms": 520,
+              "errorMs": 51.19583324999621,
+              "toleranceMs": 149.33152149999842
+            },
+            {
+              "phase": "P1",
+              "estimatedMs": 512.6724585000011,
+              "expectedGIFms": 560,
+              "errorMs": -47.327541499998915,
+              "toleranceMs": 149.33152149999842
+            }
+          ],
+          "allPanelPixelsExactExport": true
+        }
+      },
+      "capturedPlaybackGIF": {
+        "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/actual-rendered-cycle-trace-west.gif",
+        "kind": "Actual screenshot stack playback; upper normal/lower slow;10ms capture-timingquantization",
+        "includesTraceElapsedMs": 7830,
+        "decodedPixelAndTimingRLEExact": true,
+        "sha256": "caf080dd702b7f5424ff4226b44a682649447d5268350c3080430ec2a341887e"
+      }
+    }
+  },
+  "allRenderTraceChecksPass": true
+}
