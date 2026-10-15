@@ -1,0 +1,118 @@
+{
+  "task": "M1.HR7",
+  "sourceCommit": "adeed157686d0f91d9c99a1d8db5601cf868217b",
+  "ownerReceiptCommit": "5efd963",
+  "earsComponentAccepted": true,
+  "wholeNormalBodyAccepted": false,
+  "libraryExportSucceeded": true,
+  "localMetadataApplied": true,
+  "reviewedLocally": true,
+  "items": [
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/body-before-after.png",
+      "file_id": "file_00000000b79881f89f8ae8c2f04f4651",
+      "library_file_id": "libfile_ca68b18a4fd88191ae83ab97cc5d1cdb",
+      "file_name": "body-before-after.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 17640,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/body-before-after.png",
+      "sha256": "5da9faf56645cfb08e6d48bb87506f6ae9f2b231ecacf2946eb85120da9e144b"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/directional-review(1).png",
+      "file_id": "file_0000000027e88230a2cd734701a45585",
+      "library_file_id": "libfile_e5b89a178b08819192880692f40e6b85",
+      "file_name": "directional-review(1).png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 11577,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/directional-review.png",
+      "sha256": "2c9da1cc7cc43f7dd3ae1ea5744c9121319e5811b39b0b8f3faf44f91700922b"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/native-light-dark.png",
+      "file_id": "file_00000000fef08230b35c7929479325f3",
+      "library_file_id": "libfile_c11693a5eb14819182e5a39c9968b7d1",
+      "file_name": "native-light-dark.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 12720,
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR7/native-light-dark.png",
+      "sha256": "c8786b16688834505866faea490abcf630b0a0f07350c8a431600e2cd72e778a"
+    },
+    {
+      "operation": "create_library_file",
+      "status": "succeeded",
+      "path": "/normal-body-reference-overlay.png",
+      "file_id": "file_00000000c6108230b5eae1389c514d42",
+      "library_file_id": "libfile_5b59182fa7708191aca39fb7f011a35e",
+      "file_name": "normal-body-reference-overlay.png",
+      "current_version_number": 0,
+      "restored_from_version_number": null,
+      "xattrs": [
+        {
+          "name": "user.library-file-version",
+          "value": "0"
+        }
+      ],
+      "directory_id": "libdir_03d8e954414481918d43f967379ec182",
+      "mime_type": "image/png",
+      "library_artifact_type": "image",
+      "file_size_bytes": 25613,
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/14/hero-hr7-reference/normal-body-reference-overlay.png",
+      "sha256": "0425c27e82e0d7173758d2f8349cc494e9030d9e7bbd60c610e2f28e7aebb239"
+    }
+  ],
+  "visualReview": {
+    "improvements": [
+      "Profile arm descends rather than folding in front of abdomen.",
+      "Torso reads more upright; front/back shoes smaller and less splayed.",
+      "Bright sole rails removed; pale profile chest inset reduced after local critique."
+    ],
+    "remainingConcerns": [
+      "Profile shorts/shoes merge into a broad dark mass at native size.",
+      "Lower-body contrast remains subdued on dark backdrop.",
+      "Original torso/costume and daypack still require whole-silhouette parent judgment."
+    ]
+  },
+  "holds": {
+    "laterStages": true,
+    "gameplayReplacement": true,
+    "publication": true,
+    "TN4": true
+  }
+}
