@@ -1,7 +1,7 @@
 {
   "sourceCommit": "fe3cdf94d410ba63738428326b2298551ab1805c",
   "scope": "Private parent internal review only; no main-user draft delivery or appearance approval",
-  "state": "BLOCKED \u2014 Library mutation outcome unconfirmed; no verified DS5 identities or private delivery",
+  "state": "Two requested PNGs saved at version zero and exact-download verified; six other packet files not retried",
   "attempts": [
     {
       "route": "current Library prepared helper",
@@ -18,7 +18,9 @@
     "recentList": "No DS5 files; latest confirmed packet is DS4",
     "exactFilenameSearches": 8,
     "exactDS5Matches": 0,
-    "limitation": "Read-only absence is not treated as a confirmed mutation rollback; no duplicate write attempted"
+    "limitation": "Earlier failed batch history retained; no retry of the six remaining files.",
+    "retryAuthorization": "Parent explicitly requested current-tool reconciliation, then native save of corrected gait PNG and source comparison PNG if absent.",
+    "currentResult": "Fresh recent listing and all-eight exact-name searches found no prior DS5 identities; local packet had no Library metadata or success receipt. Two ordered single-file native saves then succeeded."
   },
   "review": {
     "savedChecks": 126,
@@ -45,7 +47,8 @@
       ],
       "loop": null,
       "library_file_id": null,
-      "uploadVerified": false
+      "uploadVerified": false,
+      "state": "Not retried; no verified Library identity"
     },
     {
       "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/side-gait-native-refined-internal.png",
@@ -61,8 +64,13 @@
         null
       ],
       "loop": null,
-      "library_file_id": null,
-      "uploadVerified": false
+      "library_file_id": "libfile_c7027a735e748191b77e87c945f369bd",
+      "uploadVerified": true,
+      "file_id": "file_00000000c1a48230a70f9c9294ef5477",
+      "file_name": "critz-DS5-complete-side-gait-INTERNAL.png",
+      "current_version_number": 0,
+      "metadataApplied": true,
+      "exactDownload": true
     },
     {
       "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/idle-arm-role-before-after.png",
@@ -79,7 +87,8 @@
       ],
       "loop": null,
       "library_file_id": null,
-      "uploadVerified": false
+      "uploadVerified": false,
+      "state": "Not retried; no verified Library identity"
     },
     {
       "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-west-normal-INTERNAL.gif",
@@ -103,7 +112,8 @@
       ],
       "loop": 0,
       "library_file_id": null,
-      "uploadVerified": false
+      "uploadVerified": false,
+      "state": "Not retried; no verified Library identity"
     },
     {
       "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-west-slow-INTERNAL.gif",
@@ -127,7 +137,8 @@
       ],
       "loop": 0,
       "library_file_id": null,
-      "uploadVerified": false
+      "uploadVerified": false,
+      "state": "Not retried; no verified Library identity"
     },
     {
       "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-east-normal-INTERNAL.gif",
@@ -151,7 +162,8 @@
       ],
       "loop": 0,
       "library_file_id": null,
-      "uploadVerified": false
+      "uploadVerified": false,
+      "state": "Not retried; no verified Library identity"
     },
     {
       "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-east-slow-INTERNAL.gif",
@@ -175,7 +187,8 @@
       ],
       "loop": 0,
       "library_file_id": null,
-      "uploadVerified": false
+      "uploadVerified": false,
+      "state": "Not retried; no verified Library identity"
     },
     {
       "source_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/dummy-ds5/contact-aligned-source-side-gait.png",
@@ -191,8 +204,41 @@
         null
       ],
       "loop": null,
-      "library_file_id": null,
-      "uploadVerified": false
+      "library_file_id": "libfile_6e67050c4b508191b9b4e609fc1e6f9f",
+      "uploadVerified": true,
+      "file_id": "file_00000000536481f7b042dd8f00f63964",
+      "file_name": "critz-DS5-contact-aligned-primary-reference-INTERNAL.png",
+      "current_version_number": 0,
+      "metadataApplied": true,
+      "exactDownload": true
+    }
+  ],
+  "successfulRetryFiles": [
+    {
+      "library_file_id": "libfile_c7027a735e748191b77e87c945f369bd",
+      "file_id": "file_00000000c1a48230a70f9c9294ef5477",
+      "file_name": "critz-DS5-complete-side-gait-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "0cf13a18f3c4835a3f04cee2d833023b9bf60c384108a8ee23c39c89cd0f297d",
+      "dimensions": [
+        960,
+        560
+      ],
+      "metadataApplied": true,
+      "exactDownload": true
+    },
+    {
+      "library_file_id": "libfile_6e67050c4b508191b9b4e609fc1e6f9f",
+      "file_id": "file_00000000536481f7b042dd8f00f63964",
+      "file_name": "critz-DS5-contact-aligned-primary-reference-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "fd293ef56ea55cdc6d91aec287e7f46bdae5e08f8ad0318b284993d2beaf349a",
+      "dimensions": [
+        1100,
+        940
+      ],
+      "metadataApplied": true,
+      "exactDownload": true
     }
   ]
 }

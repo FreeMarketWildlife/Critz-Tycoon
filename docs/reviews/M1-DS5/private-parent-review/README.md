@@ -1,8 +1,17 @@
-# DS5 private parent review — delivery blocked
+# DS5 private parent review — two requested PNGs delivered
+
+The two PNGs requested after reconciliation are now saved once at version zero, with exact-byte and RGBA download verification:
+
+- [Corrected native/refined side gait](https://chatgpt.com/api/library/files/libfile_c7027a735e748191b77e87c945f369bd/download) — `libfile_c7027a735e748191b77e87c945f369bd`
+- [Contact-aligned primary-source comparison](https://chatgpt.com/api/library/files/libfile_6e67050c4b508191b9b4e609fc1e6f9f/download) — `libfile_6e67050c4b508191b9b4e609fc1e6f9f`
+
+[Verified two-file receipt](two-png-library-receipt.json). Current supported native single-file saving succeeded after a fresh recent listing and searches for all eight exact filenames found no prior DS5 identities. Local packet copies contained no Library metadata or success receipt. The six other packet files were not retried. These two files are for actual private parent inspection only; no artwork acceptance, main-user draft delivery or creator restart is inferred.
+
+## Earlier failed batch history
 
 The corrected West/East candidate is frozen at `fe3cdf94d410ba63738428326b2298551ab1805c`, verified against origin/main. The native-first side poses, deliberate larger counterparts and synchronized loops are complete as INTERNAL review candidates. Parent appearance/motion judgment is still required; no main-user draft delivery or creator restart is permitted.
 
-**Library delivery is unconfirmed. No verified DS5 Library links or IDs are available.** The current batch helper reported `Library prepare_uploads is not available`. One supported native eight-file create attempt then returned non-JSON error content beginning `tool call e`; the response could not be parsed into identities. No retry or smaller write was attempted. A subsequent recent-file list and exact-filename searches for all eight items found no DS5 entries; this absence is not a confirmed rollback. Preserve the attempted packet and reconcile the original mutation before another write.
+The earlier eight-file batch had an unconfirmed outcome and no returned identities. That failure did not establish a successful delivery. The current batch helper reported `Library prepare_uploads is not available`. One supported native eight-file create attempt then returned non-JSON error content beginning `tool call e`; the response could not be parsed into identities. No retry or smaller write was attempted. A subsequent recent-file list and exact-filename searches for all eight items found no DS5 entries; this absence is not a confirmed rollback. That original attempt was reconciled before the explicitly requested two-file retry above.
 
 [Transfer status and exact source hashes](transfer-status.json) records all eight prepared files. The temporary frozen packet is `/tmp/ds5-private-parent-packet/`; its manifest pins bytes and source paths. Source-colored reference comparison stays outside Git. Original art and review loops remain in the repository:
 
@@ -14,4 +23,4 @@ The corrected West/East candidate is frozen at `fe3cdf94d410ba63738428326b229855
 
 [Independent review](../independent-review/README.md): 126 saved checks; final Chrome48 snapshots/192 exact panel matches cover all eight slots in normal and slow playback. Root inspected the actual final sequence at both sizes. This is sampled playback and framewise sequence assessment, not uninterrupted human watch or final appearance approval. Compact head/upper projection and entire lower footprint are exact DS4; earlier incidental navy-join deletions were repaired before the final proof.
 
-Next: recover an authoritative outcome for the original Library batch, then finish private parent transfer and exact download verification. Parent must inspect the actual corrected packet before any appearance conclusion. South/North, old Hero, creator, game, saves and hosting remain unchanged. No deployment.
+Next: parent inspects the two actual corrected Library PNGs before any appearance conclusion. The six other files remain locally prepared without verified Library identities. South/North, old Hero, creator, game, saves and hosting remain unchanged. No deployment.

@@ -1,0 +1,32 @@
+{
+  "sourceCommit": "fe3cdf94d410ba63738428326b2298551ab1805c",
+  "state": "Two requested PNGs saved and exact-download verified; remaining six packet files not retried",
+  "files": [
+    {
+      "library_file_id": "libfile_c7027a735e748191b77e87c945f369bd",
+      "file_id": "file_00000000c1a48230a70f9c9294ef5477",
+      "file_name": "critz-DS5-complete-side-gait-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "0cf13a18f3c4835a3f04cee2d833023b9bf60c384108a8ee23c39c89cd0f297d",
+      "dimensions": [
+        960,
+        560
+      ],
+      "metadataApplied": true,
+      "exactDownload": true
+    },
+    {
+      "library_file_id": "libfile_6e67050c4b508191b9b4e609fc1e6f9f",
+      "file_id": "file_00000000536481f7b042dd8f00f63964",
+      "file_name": "critz-DS5-contact-aligned-primary-reference-INTERNAL.png",
+      "current_version_number": 0,
+      "sha256": "fd293ef56ea55cdc6d91aec287e7f46bdae5e08f8ad0318b284993d2beaf349a",
+      "dimensions": [
+        1100,
+        940
+      ],
+      "metadataApplied": true,
+      "exactDownload": true
+    }
+  ]
+}
