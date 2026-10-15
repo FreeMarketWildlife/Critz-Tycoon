@@ -1,0 +1,24 @@
+{
+  "task": "M1.GH1",
+  "state": "first front only, awaiting visual review",
+  "branch": "main",
+  "sourceCommit": "3a94f482e6b6d152b58e4e90e371ee314731feb8",
+  "verifiedOriginMain": "3a94f482e6b6d152b58e4e90e371ee314731feb8",
+  "checks": {
+    "actualPixelChecks": 29,
+    "actualSpriteEditorProjects": 2,
+    "diffCheck": "PASS",
+    "parkedSharedDocumentChangedLinesPreserved": 30
+  },
+  "runtimeChanged": false,
+  "deployment": "none; existing phone build unchanged",
+  "nextAction": "Eutychus independent first-front review before Girl other directions/walks",
+  "remainingUnstaged": [
+    "docs/ART_BIBLE.md",
+    "docs/PROJECT_PLAN.md",
+    "docs/PROJECT_STATUS.md",
+    "docs/REFERENCE_MEASUREMENTS.md",
+    "art/source/hero-forward-r11/",
+    "docs/reviews/M1-HR11/"
+  ]
+}
