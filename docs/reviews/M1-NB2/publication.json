@@ -1,0 +1,31 @@
+{
+  "task": "M1.NB2 compact South/West idle diagnostic",
+  "state": "UNAPPROVED; full existing-pose packaging held for diagnostic response",
+  "sourceCommit": "e0f5bc0054c0d22d7328bfc1cdb56a074b5229c3",
+  "verifiedOriginMain": "e0f5bc0054c0d22d7328bfc1cdb56a074b5229c3",
+  "southPriorPNGCountExact": 32,
+  "southNeutralSHA256": "92c68cd507ab6b1c9311360e6dd119cd2ce2d87945ed5f0c801b3a617aeba571",
+  "bodyContributions": {
+    "south": 167,
+    "west": 144
+  },
+  "headTorsoOverlaps": {
+    "south": 32,
+    "west": 46
+  },
+  "clippedBodyCells": 0,
+  "checks": {
+    "protectedHeroGirlNB1Files": 322,
+    "editorProjects": 2,
+    "savedRecomposition": "both exact",
+    "storedBodyMasks": "both exact"
+  },
+  "hashes": {
+    "docs/reviews/M1-NB2/south-west-part-toggle-diagnostic.png": "60930aadf808b596431c08fe6e9c907763d337f534f6e83066957dd0a127edc0",
+    "docs/reviews/M1-NB2/south-west-small-diagnostic.png": "5f9342165188448c3168a5e0f44d4857fd279f19009e45ae2bb4431521e4cdb8"
+  },
+  "externalReference": "/Users/tanoshi/.codex/visualizations/2026/10/15/nb2-small-diagnostic/pinned-reference-south-west.png",
+  "nextAction": "Independent compact front/profile contour and occlusion critique before complete body-layer review",
+  "runtimeSaveDeployment": "unchanged",
+  "remainingChanges": "Parked four shared docs/HR11, root worklog and untracked NB1 South-gate evidence preserved"
+}
