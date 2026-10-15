@@ -109,6 +109,12 @@ These practical implementation choices are not new immutable canon:
 - Recoverability: free water, a free pet-store kit, free repeatable yard foraging, safe animals, and a nonexpiring rescue quest.
 - Local save version 1 with backup recovery and error notification. No accounts or server state.
 
+## Confirmed animal-catching direction — 2026-10-15
+
+- **Animal Crossing is the reference for how catching bugs, critters, fish and other animals should feel and work.** This is confirmed design direction for future development, not a claim that the system is implemented.
+- **Bug nets and fishing poles are the two main catching tools.** Keep the system simple and build around those first.
+- Other tools or catching methods may come later, but remain undecided; no additional tool roster or detailed catching mechanics are confirmed yet.
+
 ## 9. Planned implementation backlog
 
 Confirmed direction awaiting engineering: species-specific care and habitats; multiple tanks/placement; aquarium and later habitat forms; richer ecosystem relationships; appropriate care automation; animal study and sketches; commissions and home shipping; animal sales; richer town quests; a full weekly family-needs loop; forest route and Liarsville.

@@ -1,5 +1,9 @@
 # Project status
 
+## DOC.CATCH1 — Animal-catching reference recorded (2026-10-15)
+
+**Complete — documentation only.** GAME_VISION records the user's confirmed Animal Crossing reference for catching bugs, critters, fish and other animals, primarily with bug nets and fishing poles. Keep it simple; other tools/methods remain undecided. Validation: reviewed the wording against the request and checked the scoped diff for whitespace errors. Existing M1 art review gates and sequencing remain unchanged. Branch: main; commit/push verification is reported in the delivery receipt. No runtime, save or playable-build changes; no deployment required. Next action: retain this direction for future catching design within the milestone gates. Unrelated existing edits remain preserved.
+
 ## FM2 static material — independent review complete, existing walk verification next
 
 At source ecd4f4e, both independent reviewers inspected all four full/grid plates and found no concrete static material blocker: coherent side uppers/sole edges retain full shoe size; North uses heel detail; A/C near/far surfaces remain registered. Root recovered executor access and separately verified all16 actual edit sets, exact South, alpha/ink/contact/upper body preservation and matching template body pixels. [Static verdict, hashes and limits](reviews/M1-FM2/independent-static-review/README.md). Existing writer received successful scoped handoff: verify only existing walk phases/holds/registration and native/nearest normal/slow material identity next. Motion and parent/user visual gate remain pending; creator, gameplay adoption and deployment held. Library follow-up still denied pending new authorization; no retry/new IDs. Runtime/save/phone unchanged; parked edits preserved.
