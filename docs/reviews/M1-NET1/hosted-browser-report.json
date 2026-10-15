@@ -1,0 +1,404 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net.html",
+  "checks": [
+    {
+      "name": "carry walking, slow ready movement, and continuous gait respond to actual keys",
+      "pass": true,
+      "walkSpeed": 96,
+      "readySpeed": 38
+    },
+    {
+      "name": "hold ready, release swing catches a real moving snail once",
+      "pass": true,
+      "caught": {
+        "id": 0,
+        "kind": "button-snail",
+        "name": "Land snail"
+      }
+    },
+    {
+      "name": "bag pauses simulation and release resets catches without storage writes",
+      "pass": true
+    },
+    {
+      "name": "pointer cancellation and focus loss stop movement without firing a net",
+      "pass": true
+    },
+    {
+      "name": "small phone, phone portrait and landscape retain unobstructed 44px controls",
+      "pass": true,
+      "sizes": [
+        {
+          "width": 320,
+          "height": 568,
+          "geometry": {
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "w": 320,
+              "h": 403,
+              "right": 320,
+              "bottom": 403
+            },
+            "controls": {
+              "x": 0,
+              "y": 403,
+              "w": 320,
+              "h": 165,
+              "right": 320,
+              "bottom": 568
+            },
+            "buttons": [
+              {
+                "id": "up",
+                "x": 50,
+                "y": 420,
+                "w": 44,
+                "h": 44,
+                "right": 94,
+                "bottom": 464
+              },
+              {
+                "id": "left",
+                "x": 6,
+                "y": 464,
+                "w": 44,
+                "h": 44,
+                "right": 50,
+                "bottom": 508
+              },
+              {
+                "id": "right",
+                "x": 94,
+                "y": 464,
+                "w": 44,
+                "h": 44,
+                "right": 138,
+                "bottom": 508
+              },
+              {
+                "id": "down",
+                "x": 50,
+                "y": 508,
+                "w": 44,
+                "h": 44,
+                "right": 94,
+                "bottom": 552
+              },
+              {
+                "id": "bag",
+                "x": 145,
+                "y": 460.203125,
+                "w": 44,
+                "h": 51.578125,
+                "right": 189,
+                "bottom": 511.78125
+              },
+              {
+                "id": "ready",
+                "x": 196,
+                "y": 458.5,
+                "w": 50,
+                "h": 55,
+                "right": 246,
+                "bottom": 513.5
+              },
+              {
+                "id": "swing",
+                "x": 254,
+                "y": 456,
+                "w": 60,
+                "h": 60,
+                "right": 314,
+                "bottom": 516
+              }
+            ],
+            "overflow": false
+          }
+        },
+        {
+          "width": 390,
+          "height": 844,
+          "geometry": {
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "w": 394,
+              "h": 675,
+              "right": 394,
+              "bottom": 675
+            },
+            "controls": {
+              "x": 0,
+              "y": 675,
+              "w": 394,
+              "h": 169,
+              "right": 394,
+              "bottom": 844
+            },
+            "buttons": [
+              {
+                "id": "up",
+                "x": 62,
+                "y": 692,
+                "w": 44,
+                "h": 44,
+                "right": 106,
+                "bottom": 736
+              },
+              {
+                "id": "left",
+                "x": 16,
+                "y": 738,
+                "w": 44,
+                "h": 44,
+                "right": 60,
+                "bottom": 782
+              },
+              {
+                "id": "right",
+                "x": 108,
+                "y": 738,
+                "w": 44,
+                "h": 44,
+                "right": 152,
+                "bottom": 782
+              },
+              {
+                "id": "down",
+                "x": 62,
+                "y": 784,
+                "w": 44,
+                "h": 44,
+                "right": 106,
+                "bottom": 828
+              },
+              {
+                "id": "bag",
+                "x": 164,
+                "y": 732.203125,
+                "w": 58,
+                "h": 55.578125,
+                "right": 222,
+                "bottom": 787.78125
+              },
+              {
+                "id": "ready",
+                "x": 234,
+                "y": 732.5,
+                "w": 60,
+                "h": 55,
+                "right": 294,
+                "bottom": 787.5
+              },
+              {
+                "id": "swing",
+                "x": 306,
+                "y": 724,
+                "w": 72,
+                "h": 72,
+                "right": 378,
+                "bottom": 796
+              }
+            ],
+            "overflow": false
+          }
+        },
+        {
+          "width": 844,
+          "height": 390,
+          "geometry": {
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "w": 682,
+              "h": 390,
+              "right": 682,
+              "bottom": 390
+            },
+            "controls": {
+              "x": 682,
+              "y": 0,
+              "w": 162,
+              "h": 390,
+              "right": 844,
+              "bottom": 390
+            },
+            "buttons": [
+              {
+                "id": "up",
+                "x": 742.5,
+                "y": 58.5,
+                "w": 44,
+                "h": 44,
+                "right": 786.5,
+                "bottom": 102.5
+              },
+              {
+                "id": "left",
+                "x": 698.5,
+                "y": 102.5,
+                "w": 44,
+                "h": 44,
+                "right": 742.5,
+                "bottom": 146.5
+              },
+              {
+                "id": "right",
+                "x": 786.5,
+                "y": 102.5,
+                "w": 44,
+                "h": 44,
+                "right": 830.5,
+                "bottom": 146.5
+              },
+              {
+                "id": "down",
+                "x": 742.5,
+                "y": 146.5,
+                "w": 44,
+                "h": 44,
+                "right": 786.5,
+                "bottom": 190.5
+              },
+              {
+                "id": "bag",
+                "x": 704.5,
+                "y": 287.5,
+                "w": 120,
+                "h": 44,
+                "right": 824.5,
+                "bottom": 331.5
+              },
+              {
+                "id": "ready",
+                "x": 700,
+                "y": 211.5,
+                "w": 54,
+                "h": 55,
+                "right": 754,
+                "bottom": 266.5
+              },
+              {
+                "id": "swing",
+                "x": 764,
+                "y": 206.5,
+                "w": 65,
+                "h": 65,
+                "right": 829,
+                "bottom": 271.5
+              }
+            ],
+            "overflow": false
+          }
+        },
+        {
+          "width": 1280,
+          "height": 900,
+          "geometry": {
+            "viewport": {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 731,
+              "right": 1280,
+              "bottom": 731
+            },
+            "controls": {
+              "x": 0,
+              "y": 731,
+              "w": 1280,
+              "h": 169,
+              "right": 1280,
+              "bottom": 900
+            },
+            "buttons": [
+              {
+                "id": "up",
+                "x": 62,
+                "y": 748,
+                "w": 44,
+                "h": 44,
+                "right": 106,
+                "bottom": 792
+              },
+              {
+                "id": "left",
+                "x": 16,
+                "y": 794,
+                "w": 44,
+                "h": 44,
+                "right": 60,
+                "bottom": 838
+              },
+              {
+                "id": "right",
+                "x": 108,
+                "y": 794,
+                "w": 44,
+                "h": 44,
+                "right": 152,
+                "bottom": 838
+              },
+              {
+                "id": "down",
+                "x": 62,
+                "y": 840,
+                "w": 44,
+                "h": 44,
+                "right": 106,
+                "bottom": 884
+              },
+              {
+                "id": "bag",
+                "x": 607,
+                "y": 788.203125,
+                "w": 58,
+                "h": 55.578125,
+                "right": 665,
+                "bottom": 843.78125
+              },
+              {
+                "id": "ready",
+                "x": 1120,
+                "y": 788.5,
+                "w": 60,
+                "h": 55,
+                "right": 1180,
+                "bottom": 843.5
+              },
+              {
+                "id": "swing",
+                "x": 1192,
+                "y": 780,
+                "w": 72,
+                "h": 72,
+                "right": 1264,
+                "bottom": 852
+              }
+            ],
+            "overflow": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "real emulated two-finger touch can creep while holding net, then release to swing",
+      "pass": true,
+      "touchPointers": 2,
+      "swings": 1
+    },
+    {
+      "name": "adventure save and backup remain exact; no storage writes or runtime errors",
+      "pass": true,
+      "save": "synthetic-save-marker",
+      "backup": "synthetic-backup-marker",
+      "writes": []
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Chromium desktop and emulated touch only; physical iPhone Safari untested.",
+    "Actual input and read-only snapshots; synthetic save markers in isolated contexts."
+  ]
+}

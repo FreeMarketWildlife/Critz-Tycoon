@@ -31,7 +31,7 @@ The net has a screen-space height offset from the catch ground plane, including 
 
 ## Verification
 
-- 321 unit tests passed, including five net model tests for four-direction movement, ready speed, catch timing/range/facing, one catch per swing, misses, startle and boundary clamping.
+- 322 unit tests passed, including five net model tests for four-direction movement, ready speed, catch timing/range/facing, one catch per swing, misses, startle and boundary clamping.
 - Existing syntax checks and new net module syntax checks passed.
 - 172 saved PNG checks passed: exact pinned Hero bytes, native dimensions, binary alpha, sheet equality, unclipped tool pixels and grip registration.
 - Seven browser scenarios passed using actual input and read-only snapshots. Carry/creep, hold/release and a moving snail catch, pause/release, pointer cancellation/focus loss, four viewport layouts and real emulated two-finger touch are covered. All controls are at least 44 CSS pixels; no console/page/asset errors. Synthetic adventure save and backup markers remain exact, with zero storage writes.
@@ -40,3 +40,13 @@ The net has a screen-space height offset from the catch ground plane, including 
 These checks validate the prototype, not user art/movement acceptance. Physical iPhone Safari and real-device touch feel remain untested. Production build, remote commit and deployment evidence are recorded in PROJECT_STATUS and the final delivery receipt.
 
 Next action: user tests carry, ready/creep, directional swing and catches, then gives visual/feel feedback before adventure integration or additional tools.
+
+## Publication receipt
+
+Version **58** deployed successfully through the existing public Sites project. [Public phone test](https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net.html). All seven actual-input browser scenarios then passed on the hosted page, including an isolated emulated phone context without sign-in. An initial phone load timeout is retained in the initial hosted report; a fresh phone load and the complete unchanged suite passed on retry. Physical iPhone Safari remains untested.
+
+All six moving critters were caught in six swings through actual keyboard input on the clean production build, including both beetles and both isopods; no state injection. [All-six report](all-six-report.json) and [bag capture](all-six-bag.png). [Production checks](production-browser-report.json), [hosted checks](hosted-browser-report.json), [publication/source/archive proof](publication.json).
+
+Tested GitHub source `46881c32f6cde130176552a6fb830afb700125a2` was pushed and remote-verified; all6005 committed source files matched the Sites source byte for byte. Published Sites source `bf05494282db4bad3607675eb9f45bb3fa31d48a`, deployment `appgdep_6ad10acf33e48191b1a098f376f0d407`. Build checks verify4577 exact files,1269 equal JSON documents and the generated contact catalogue reconstruction. Two oversized archive attempts were rejected before saving; compacting copied review/source JSON and disabling macOS resource metadata fixed delivery without removing any media/pages or changing JSON values. Original authored files remain unchanged. Adventure `src`, root entry/style and accepted playable/character assets have zero diff against the previously published source.
+
+This receipt and additional QA evidence are documentation-only follow-ups; the exact tested runtime is already deployed. User art/feel review is the next action. Unrelated workspace edits remain preserved.

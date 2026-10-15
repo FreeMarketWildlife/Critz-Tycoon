@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "input": "Actual keyboard; read-only snapshots, no state injection",
+  "catches": [
+    {
+      "id": 0,
+      "kind": "button-snail",
+      "caught": 1,
+      "swings": 1
+    },
+    {
+      "id": 2,
+      "kind": "isopod",
+      "caught": 2,
+      "swings": 2
+    },
+    {
+      "id": 1,
+      "kind": "stag-beetle",
+      "caught": 3,
+      "swings": 3
+    },
+    {
+      "id": 4,
+      "kind": "stag-beetle",
+      "caught": 4,
+      "swings": 4
+    },
+    {
+      "id": 3,
+      "kind": "button-snail",
+      "caught": 5,
+      "swings": 5
+    },
+    {
+      "id": 5,
+      "kind": "isopod",
+      "caught": 6,
+      "swings": 6
+    }
+  ]
+}

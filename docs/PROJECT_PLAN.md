@@ -1,6 +1,6 @@
 # M1.NET1 — User-authorized net catching test
 
-**Implemented and checked; awaiting user art/feel review and publication receipt.** Latest direct request authorizes a separate playable pixel-net playground: carry/walk, held-ready slow movement, directional swing and catching existing critters. [Deliverable and checks](reviews/M1-NET1/README.md). No adventure integration or broader character/creator gate acceptance. Publish only this isolated review through the existing site, then collect user feedback on hold, creep, swing and catches; fishing and other tools remain future work. Existing creator/art foundation work remains preserved.
+**Published as version58; awaiting user art/feel review.** Latest direct request authorizes a separate playable pixel-net playground: carry/walk, held-ready slow movement, directional swing and catching existing critters. [Deliverable and checks](reviews/M1-NET1/README.md). No adventure integration or broader character/creator gate acceptance. The isolated review is published through the existing site; collect user feedback on hold, creep, swing and catches; fishing and other tools remain future work. Existing creator/art foundation work remains preserved.
 
 # Creator — authorized next phase after bald foundation review
 
