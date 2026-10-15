@@ -655,7 +655,7 @@
           "head"
         ],
         "selectedHeadAndHandsExact": true,
-        "HeroPNGsha256": "802845de212b2025f42ddf9d4422f1973e71138f756d4b90aaa7a906d4834cb3"
+        "HeroPNGsha256": "3aeb1011f2a9bc1624ba70f40f5dc11f8a1dc4433e05b4190978cc57c310cd79"
       },
       "A": {
         "bodyVisibleCells": 146,
@@ -778,7 +778,7 @@
           "head"
         ],
         "selectedHeadAndHandsExact": true,
-        "HeroPNGsha256": "b2de9c691c2ce6e94cd2247897aa9212bf136c664edf4abef59308cb9e48a0cc"
+        "HeroPNGsha256": "6270fdabe229e876707852c8ad671e623c6e73e501ffcd9d3395b72801477568"
       },
       "C": {
         "bodyVisibleCells": 144,
@@ -915,7 +915,7 @@
           "head"
         ],
         "selectedHeadAndHandsExact": true,
-        "HeroPNGsha256": "18827ba64950fa81c909de4ecd567af8efd57d365bb78d509d1bfb034d85bd86"
+        "HeroPNGsha256": "d6ab4c2dfcc3b714643326235a58f5ae5645b25afb4faf67e4fbf11e5ffb6c6e"
       },
       "A": {
         "bodyVisibleCells": 146,
@@ -1034,7 +1034,7 @@
           "head"
         ],
         "selectedHeadAndHandsExact": true,
-        "HeroPNGsha256": "2d95c840ac225d86ce564d288969967d8514a873ec9af4f3dd9242e18397be1b"
+        "HeroPNGsha256": "c6de17611a95dc25e7f55131ffa42f3283e12bd5b0966ce871400a8be8bc540c"
       },
       "C": {
         "bodyVisibleCells": 144,
@@ -1125,6 +1125,5 @@
     "Reference lowest contact pixels kept; contour/material refinements proposed",
     "Bald foundation and scale appearance require independent review",
     "No creator/runtime/save/deployment"
-  ],
-  "heroPaletteWithin15": true
+  ]
 }

@@ -61,6 +61,15 @@ for dr in ('south','north','west','east'):
     for (cx,y),material in nativeCues.items():
      x=31-cx if dr=='east' else cx
      if body.getpixel((x,y))[3]:body.putpixel((x,y),(174,69,74,255) if material=='accent' else P[material])
+   # Focused profile passing mass correction: reveal the original blue pants
+   # plane above the darker near-tip costume material. No invented bone/foot split.
+   if canonical=='west' and po in ('P','idle'):
+    for y in range(52 if po=='P' else 54,58):
+     for x in range(32):
+      if body.getpixel((x,y)) in (P['navy'],P['slate']):body.putpixel((x,y),P['slate'])
+    for cx,y in ((18,55),(19,56)):
+     x=31-cx if dr=='east' else cx
+     if body.getpixel((x,y))[3]:body.putpixel((x,y),P['light'])
    # Literal single-native-pixel exterior: an internal dark costume plane is
    # navy material, not a second black boundary. Hair and pack are excluded.
    frozen=body.copy()

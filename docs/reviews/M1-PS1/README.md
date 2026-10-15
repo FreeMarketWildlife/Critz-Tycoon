@@ -10,7 +10,7 @@ PS1 draws native silhouette steps in the existing side/back lower envelopes, kee
 
 ![Fixed front and side/back before/after](native-scale-before-after.png)
 
-[Exact changed cells](../../../art/source/hero-scale-r1/changes.json). Changes by pose idle/A/P/C: North40/33/40/31, West46/65/47/59, East46/65/47/59; South0/0/0/0. Alpha edits are bounded native contour cuts/steps in side/back only; no image rescaling/filtering, no hair/body enlargement. One-row fabric highlights and near-tip accents retain the selected outfit palette. The original HR14 files remain unchanged; this separate candidate is not silently accepted gameplay art.
+[Exact changed cells](../../../art/source/hero-scale-r1/changes.json). Changes by pose idle/A/P/C: North40/33/40/31, West84/65/108/59, East84/65/108/59; South0/0/0/0. Alpha edits are bounded native contour cuts/steps in side/back only; no image rescaling/filtering, no hair/body enlargement. One-row fabric highlights and near-tip accents retain the selected outfit palette. The original HR14 files remain unchanged; this separate candidate is not silently accepted gameplay art.
 
 ## Reviewable static and motion evidence
 
@@ -24,3 +24,7 @@ PS1 draws native silhouette steps in the existing side/back lower envelopes, kee
 Owner inspected all unique side/back stills and native/enlarged before/after plates. Current browser playback was sampled for front/back; no uninterrupted full-cycle human-watch claim. The broad profile passing costume mass remains a visual concern even after the native detail refinement; a technical contact match cannot settle its artistic weight. Full bald gait/limb depth/proportions and scale consistency remain for Eutychus's independent review. Old Library/render receipts refer to earlier art and are not current approval evidence.
 
 Exact next action: independent current side/back scale and full bald-body pose review, bounded corrections as identified, then the user-authorized creator after foundation confirmation. No creator implementation has started. Root owns Library replacement/review receipts. Parked shared-document/HR11 changes and prior NB1/NB2 evidence are preserved.
+
+## Focused profile passing material follow-up
+
+Independent review of sourcefca1b7a confirms finer sleeve cadence/stride corners, but leaves a heavy dark profile idle/P wedge. The follow-up preserves the exact PS1 silhouette and contact pixels and exposes the existing blue pants material above the darker near-tip costume region, with two native fold/highlight sites. This is an original color/material decision, not a new anatomical pants/shoe boundary or foot-width measurement. All Hero front/head/hand pixels and all neutral geometry stay exact to the first PS1 candidate. The sourcefca1b7a independent snapshots remain immutable historical evidence. Current shape/weight and motion need renewed independent judgment; no foundation/creator approval is inferred.
