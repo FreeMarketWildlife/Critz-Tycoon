@@ -1,0 +1,65 @@
+{
+  "task": "M1.HR8",
+  "phase": "LOCAL B trial only",
+  "state": "local sole-defect check passed; awaiting parent trial judgment",
+  "HR7FeetLegMass": "rejected",
+  "localAFlatSole": "rejected",
+  "localBFeetAccepted": false,
+  "headUpperBodyRows0To53ExactHR7": true,
+  "earsComponentAccepted": true,
+  "wholeNormalBaseAccepted": false,
+  "foregroundSolePaintedRow": 61,
+  "rearVisibleHeelPaintedRow": 60,
+  "groundAnchor": [
+    16,
+    64
+  ],
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR8/second-local-profile-before-after.png",
+      "bytes": 7753,
+      "sha256": "e8f5271a93441409dd4eeda504666aaa9a6f469cd9cd8a4754915858d4b9425a"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR8/lower-body-local-before-after.png",
+      "bytes": 10047,
+      "sha256": "3e1bb90927790b7ce86dfd45797d609d5ad7778b37ddb028d8bbad09c4456f85"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR8/whole-body-local-before-after.png",
+      "bytes": 9803,
+      "sha256": "cf68247d796a331dee972deb39a797f5bbc3e25459997d6c046ee10bdcf1a36d"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR8/native-light-dark-local.png",
+      "bytes": 12869,
+      "sha256": "a81c77d218e4bca576181d58a484540a970aa19665c8e60dcfa31628a8ec89e8"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR8/local-checks.json",
+      "bytes": 2070,
+      "sha256": "38d3b42c280c308afb7c6b505466145a3d211e8045ee3b1262e9e71d83d0c521"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/art/source/hero-redesign-r8/hero-boy.sprite.json",
+      "bytes": 17512,
+      "sha256": "481f71e232c63cccfb681b27dccc6362c65c6af600f5e8df3615578b659b28f0"
+    }
+  ],
+  "externalReferenceComparison": "/Users/tanoshi/.codex/visualizations/2026/10/14/hero-hr8-reference/lower-body-reference-local.png",
+  "critique": [
+    "Check stepped rear fragment looks subordinate and attached, not a detached pad",
+    "Front/back blocks are small; review for over-compression",
+    "Visible lower-leg strips are an original blue-short construction, not measured reference bones",
+    "Dark footwear contrast remains limited on dark backgrounds"
+  ],
+  "laterStagesStarted": false,
+  "fullCheckpointPrepared": false,
+  "runtimeIntegration": false,
+  "deployment": false,
+  "TN4HoldPreserved": true,
+  "nextAction": "Relay stable LocalB lower/whole-body and actual reference for parent judgment, before full checkpoint/further production",
+  "localBContinuousFlatSoleDefectCheck": "reviewer inspected actual second-local and native pixels; defect broken, not appearance acceptance",
+  "libraryExportByOwner": false,
+  "libraryExportByLocalRelay": "pending narrow-trial relay"
+}

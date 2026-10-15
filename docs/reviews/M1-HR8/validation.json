@@ -1,0 +1,75 @@
+{
+  "approval": "awaiting user visual review",
+  "animation": "not authored; LOCAL lower-body trial before full checkpoint",
+  "frames": {
+    "south": {
+      "boundsExclusive": [
+        4,
+        21,
+        28,
+        62
+      ],
+      "opaqueColors": 14,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "6e901bb8ff3da4638061dacf90b8d6a94322ea50dc0bd73adf14fb0c424f6c43"
+    },
+    "north": {
+      "boundsExclusive": [
+        4,
+        21,
+        28,
+        62
+      ],
+      "opaqueColors": 14,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "d0e6b0a3744a7e5955957da3730f6623446cef01dd4e570b8dfe99e2cd4c714f"
+    },
+    "west": {
+      "boundsExclusive": [
+        4,
+        21,
+        30,
+        62
+      ],
+      "opaqueColors": 14,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "3e69cda320acd58af9ba16714f724e6447e9800428dfd166ecaf6fdff86c9858"
+    },
+    "east": {
+      "boundsExclusive": [
+        2,
+        21,
+        28,
+        62
+      ],
+      "opaqueColors": 14,
+      "connected": true,
+      "binaryAlpha": true,
+      "sourceEquality": true,
+      "anchor": [
+        16,
+        64
+      ],
+      "sha256": "c4105ad1e4d88425fefa2ea326a060914c5cd9f7d1e980c0c5e84040b75e69c7"
+    }
+  },
+  "pairedAnatomyMasks": true
+}

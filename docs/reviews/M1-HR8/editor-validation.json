@@ -1,0 +1,14 @@
+{
+  "valid": true,
+  "phase": "LOCAL B, awaiting critique before full checkpoint",
+  "frames": [
+    "south idle",
+    "north idle",
+    "west idle",
+    "east idle"
+  ],
+  "width": 32,
+  "height": 64,
+  "mouth": null,
+  "nose": null
+}

@@ -1,5 +1,13 @@
 # Critz: Tycoon — art bible
 
+## Lower-body local correction — M1.HR8
+
+Parent rejects **HR7 feet/leg mass**: merged profile boot/wedge and outward/heavy front/back blocks. Upright arms improve direction but do not approve the body. Retain every HR7 pixel through row53, including accepted HR6 ears/head, no-mouth default and original outfit; revise the lower garment/visible leg/shoe construction. Same32×64 frame and `(16,64)` anchor. [Local A/B critique and source comparison](reviews/M1-HR8/README.md).
+
+Judge visible cuff-to-leg-to-shoe clusters and toe placement relative to each leg at native size, not aggregate reference widths or a hidden knee/foot model. The source silhouette includes multiple costume elements; its occupied-row span is not an anatomical foot length. LocalA adds short visible calves under the existing blue shorts and compact blocks beneath them, but its joined flat near/far sole is locally rejected. LocalB keeps the near shoe's painted contact at61 and renders only a subordinate rear heel fragment ending60, with an occlusion contour notch rather than a continuous sole rail. Full hidden rear-foot anatomy remains unspecified. Preserve front/back construction while testing this profile occlusion. No uniform shrink/color-only substitute for shape review.
+
+First return concise local native/enlarged lower-body and whole-body before/after plus actual registered reference. Review the rear fragment for plausible attachment/occlusion, not two detached pads. A shared full-frame ground anchor does not require drawing both visible shoe bottoms as one uninterrupted line. This is a local trial before full checkpoint/Library delivery; no whole-base/feet approval, variants/swaps/UI, gameplay publication or TN4 release inferred. Local critique subsequently confirms B breaks the shared low sole and permits returning the stable narrow trial to parent via relay; this does not accept foot weight/stance or the normal base.
+
 ## Normal-body revision — M1.HR7, parent checkpoint
 
 Parent review accepts **HR6 rounded human ears as a component only**. The whole normal body is not accepted. Parent explicitly authorizes revising rows46+ to correct forward-folded profile arms, hunched/compact torso reading, thick layered soles and splayed/heavy front feet. Preserve every HR6 head pixel, including accepted ears/hair/face, Black child identity and no-mouth default. Maintain the same starter coral/cream shirt, blue shorts, slate daypack and dark sneaker design/material identity,32×64 canvas and `(16,64)` ground anchor. HR6's prior body-preservation constraint is superseded for this targeted normal-body review only. [Body/reference checkpoint and critique](reviews/M1-HR7/README.md).

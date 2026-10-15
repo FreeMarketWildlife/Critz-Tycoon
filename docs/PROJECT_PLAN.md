@@ -1,3 +1,7 @@
+# M1.HR8 — Local lower-body critique before full checkpoint
+
+**LocalB sole-defect check passed locally; ready for narrow parent trial, not full delivery.** HR7 feet/leg mass rejected. Retain head/ears/no-mouth and upper body through53; correct lower cuff/leg/shoe shape and near/far occlusion. LocalA joined sole rejected; LocalB rear heel step needs local judgment. [Mini plates/reference](reviews/M1-HR8/README.md). No full checkpoint/Library export, variants/swaps/UI, gameplay integration, deployment or TN4 release before response.
+
 # M1.HR7 — Upright normal-body checkpoint
 
 **Implemented and checked; awaiting parent review.** HR6 ears component accepted; whole body pending. Explicitly revise body below46 while keeping head/ears exact, same starter outfit/frame/anchor/no-mouth default. Deliver relaxed connected profile arm, upright torso/hip and quieter compact shoes, whole-body native/enlarged and actual registered before/after/reference overlays, proposed visible landmarks and critique. [Review](reviews/M1-HR7/README.md). No variants, swaps, UI, gameplay replacement/publication or TN4 release.
