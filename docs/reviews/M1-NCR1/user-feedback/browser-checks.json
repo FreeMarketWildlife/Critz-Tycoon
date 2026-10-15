@@ -1,0 +1,256 @@
+{
+  "exactActualPlaybackFrames": 20,
+  "allFourDirectionsObservedPoses": [
+    "A",
+    "P",
+    "C"
+  ],
+  "samples": [
+    {
+      "file": "browser-frames/00.png",
+      "elapsedMs": 204.30000019073486,
+      "rgbaSHA256": "6033bcf213f2d3a72bb36009e5e56b1a0fa50bd3b446cb9328e69819affc38e2",
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/01.png",
+      "elapsedMs": 405.90000009536743,
+      "rgbaSHA256": "0341c9819558592b5976769ee94bcbbc3d6096d1edf73c1cf95eaf6c0b86c4cf",
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/02.png",
+      "elapsedMs": 591,
+      "rgbaSHA256": "697ff90314d6e322c97b8d99aa6a0572cbea6734f642d0827cb39a94a6584cb9",
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/03.png",
+      "elapsedMs": 774.8000001907349,
+      "rgbaSHA256": "d2f8055633115ed428ca529003c4ae3f0a6d44e6d63bd39178f41ddfd2e20041",
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/04.png",
+      "elapsedMs": 955.5999999046326,
+      "rgbaSHA256": "4cffba074ba4b78a9f10adbd8a5f98c5969aef4299ca2b889ca6ff0523c6d302",
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/05.png",
+      "elapsedMs": 1140.9000000953674,
+      "rgbaSHA256": "dc3fe5208b6afbed4d7bebc9502ba8198313602b08cd53b92f171bf3cb647fb0",
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/06.png",
+      "elapsedMs": 1323.9000000953674,
+      "rgbaSHA256": "2b10bbabe9f8547ab552abc18b0132cdfd4b0d4dfc4bcb0da3a4718ee6ffe6a1",
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/07.png",
+      "elapsedMs": 1510.6999998092651,
+      "rgbaSHA256": "d2f8055633115ed428ca529003c4ae3f0a6d44e6d63bd39178f41ddfd2e20041",
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/08.png",
+      "elapsedMs": 1707.8000001907349,
+      "rgbaSHA256": "653789e8cf32a265899d904113a0fa4802daadf23f55658b4a5b081412fb6679",
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/09.png",
+      "elapsedMs": 1907.3000001907349,
+      "rgbaSHA256": "d2f8055633115ed428ca529003c4ae3f0a6d44e6d63bd39178f41ddfd2e20041",
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/10.png",
+      "elapsedMs": 2102,
+      "rgbaSHA256": "2b10bbabe9f8547ab552abc18b0132cdfd4b0d4dfc4bcb0da3a4718ee6ffe6a1",
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/11.png",
+      "elapsedMs": 2288.5,
+      "rgbaSHA256": "dc3fe5208b6afbed4d7bebc9502ba8198313602b08cd53b92f171bf3cb647fb0",
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/12.png",
+      "elapsedMs": 2472.699999809265,
+      "rgbaSHA256": "4cffba074ba4b78a9f10adbd8a5f98c5969aef4299ca2b889ca6ff0523c6d302",
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/13.png",
+      "elapsedMs": 2655.9000000953674,
+      "rgbaSHA256": "d2f8055633115ed428ca529003c4ae3f0a6d44e6d63bd39178f41ddfd2e20041",
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/14.png",
+      "elapsedMs": 2844.4000000953674,
+      "rgbaSHA256": "697ff90314d6e322c97b8d99aa6a0572cbea6734f642d0827cb39a94a6584cb9",
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/15.png",
+      "elapsedMs": 3024,
+      "rgbaSHA256": "256a6e0404aff703686784f6e2b307d6274b779e429557df8fea245fe5675402",
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/16.png",
+      "elapsedMs": 3210.5,
+      "rgbaSHA256": "d2f8055633115ed428ca529003c4ae3f0a6d44e6d63bd39178f41ddfd2e20041",
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/17.png",
+      "elapsedMs": 3390.5,
+      "rgbaSHA256": "653789e8cf32a265899d904113a0fa4802daadf23f55658b4a5b081412fb6679",
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/18.png",
+      "elapsedMs": 3573.300000190735,
+      "rgbaSHA256": "0341c9819558592b5976769ee94bcbbc3d6096d1edf73c1cf95eaf6c0b86c4cf",
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "exactGifFrame": true
+    },
+    {
+      "file": "browser-frames/19.png",
+      "elapsedMs": 3773.9000000953674,
+      "rgbaSHA256": "2b10bbabe9f8547ab552abc18b0132cdfd4b0d4dfc4bcb0da3a4718ee6ffe6a1",
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "exactGifFrame": true
+    }
+  ],
+  "errors": [],
+  "storage": {
+    "local": 0,
+    "session": 0
+  },
+  "qualification": "Actual animated GIF screenshot pixels, not canvas default-frame sampling; fresh isolated Chrome, sampled not uninterrupted human viewing. No physical-phone test."
+}

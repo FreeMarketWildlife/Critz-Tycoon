@@ -1,0 +1,90 @@
+{
+  "samples": [
+    {
+      "file": "browser-frames/00.png",
+      "elapsedMs": 204.30000019073486
+    },
+    {
+      "file": "browser-frames/01.png",
+      "elapsedMs": 405.90000009536743
+    },
+    {
+      "file": "browser-frames/02.png",
+      "elapsedMs": 591
+    },
+    {
+      "file": "browser-frames/03.png",
+      "elapsedMs": 774.8000001907349
+    },
+    {
+      "file": "browser-frames/04.png",
+      "elapsedMs": 955.5999999046326
+    },
+    {
+      "file": "browser-frames/05.png",
+      "elapsedMs": 1140.9000000953674
+    },
+    {
+      "file": "browser-frames/06.png",
+      "elapsedMs": 1323.9000000953674
+    },
+    {
+      "file": "browser-frames/07.png",
+      "elapsedMs": 1510.6999998092651
+    },
+    {
+      "file": "browser-frames/08.png",
+      "elapsedMs": 1707.8000001907349
+    },
+    {
+      "file": "browser-frames/09.png",
+      "elapsedMs": 1907.3000001907349
+    },
+    {
+      "file": "browser-frames/10.png",
+      "elapsedMs": 2102
+    },
+    {
+      "file": "browser-frames/11.png",
+      "elapsedMs": 2288.5
+    },
+    {
+      "file": "browser-frames/12.png",
+      "elapsedMs": 2472.699999809265
+    },
+    {
+      "file": "browser-frames/13.png",
+      "elapsedMs": 2655.9000000953674
+    },
+    {
+      "file": "browser-frames/14.png",
+      "elapsedMs": 2844.4000000953674
+    },
+    {
+      "file": "browser-frames/15.png",
+      "elapsedMs": 3024
+    },
+    {
+      "file": "browser-frames/16.png",
+      "elapsedMs": 3210.5
+    },
+    {
+      "file": "browser-frames/17.png",
+      "elapsedMs": 3390.5
+    },
+    {
+      "file": "browser-frames/18.png",
+      "elapsedMs": 3573.300000190735
+    },
+    {
+      "file": "browser-frames/19.png",
+      "elapsedMs": 3773.9000000953674
+    }
+  ],
+  "errors": [],
+  "storage": {
+    "local": 0,
+    "session": 0
+  },
+  "qualification": "Fresh isolated Chrome actual GIF screenshots; canvas drawImage was unsuitable because it exposes the default animation frame."
+}

@@ -1,0 +1,2838 @@
+{
+  "sourceSHA": "0bb4ee4293ec2a76a3b8eb77d5d1fca4441bdcc1",
+  "scope": "Current original-art compositions only; no author/source modification",
+  "pngSize": [
+    830,
+    1110
+  ],
+  "gifSize": [
+    904,
+    340
+  ],
+  "background": "#cbd2d6",
+  "inputFiles": {
+    "docs/reviews/M1-NCR1/south-idle/master-hero.png": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+    "docs/reviews/M1-NCR1/south-idle/master-bald.png": "0a348d6ac2004904e94f8dc69c15991f286ceadd36d2d31aa4d3c81a52e30d54",
+    "docs/reviews/M1-NCR1/south-idle/native-hero.png": "4f93443acf2928973c889763c824dec48d72ac3872b335eb7c2f7775ab730b85",
+    "docs/reviews/M1-NCR1/south-idle/native-bald.png": "c9070e7eafc959332aea6f48c873f0f698a9a900797cb86a99dab153d320b119",
+    "docs/reviews/M1-NCR1/north-idle/master-hero.png": "2785a2d8b3010cfb0959e4a9960f19c9fbc8c7c4c53f4b13c93b0b7d7e6940f2",
+    "docs/reviews/M1-NCR1/north-idle/master-bald.png": "d181b95f31988b33f6ce8da39f1371250820a971e3153e5ab7271f077f055828",
+    "docs/reviews/M1-NCR1/north-idle/native-hero.png": "157cb66018a4bdd1d5a02638fdc667313b7d8665e9b7a6d9c633023db87e5232",
+    "docs/reviews/M1-NCR1/north-idle/native-bald.png": "6531505f9008f6179564c288556a60d07446368310e918631eae06ab592e55ac",
+    "docs/reviews/M1-NCR1/west-idle/master-hero.png": "4e8129ae49466d90f2dd83e9161010edd177eb0bbc66e91a3a0389d4f7caadec",
+    "docs/reviews/M1-NCR1/west-idle/master-bald.png": "ea0c528d6f7ba166118dc8bc37755646e0614e31ec1716d3d7c3979ab8a39b2a",
+    "docs/reviews/M1-NCR1/west-idle/native-hero.png": "7906cf47251e7f83c1098810b25cb83041143ba4375a5885a3cb05448307c8f0",
+    "docs/reviews/M1-NCR1/west-idle/native-bald.png": "1e3067aaeb9c12bf57338ced7c18f42cb4a6326c62c99774d88b0ad011b8b84b",
+    "docs/reviews/M1-NCR1/east-idle/master-hero.png": "01b06ace69398050581fdbf977ee3839d3349c405ba154fef9ca55a6b5be3e2c",
+    "docs/reviews/M1-NCR1/east-idle/master-bald.png": "c2d1bdc49b2ce9f160645ccb88eb941b63f685ad8ac5909056fb5ee346605e47",
+    "docs/reviews/M1-NCR1/east-idle/native-hero.png": "9278d987502ef3a04ec6d0ce1ad139055a3812e2651f0b81b1a894a01e22fe64",
+    "docs/reviews/M1-NCR1/east-idle/native-bald.png": "8077c55e642175d702f6d57de4e0eef4cde4c9281fcd20b03025e99259874edf",
+    "docs/reviews/M1-NCR1/south-A/master-hero.png": "d640b4ed404d6691ae2490fd320889caa4138eeb5ee160816d02087f36e17565",
+    "docs/reviews/M1-NCR1/south-A/master-bald.png": "571379203eb11a2784ebc4b08c304865b07e1881d1396d4ef5676c2205c3af7c",
+    "docs/reviews/M1-NCR1/south-P/master-hero.png": "34ca788dba3b40c259c52aa1783d4695df6adc0005e49dc2df1837082de689f4",
+    "docs/reviews/M1-NCR1/south-P/master-bald.png": "9c040e9bd8749ff9e12c1d951a1f81712bc8c6488042e8ad5fb12c04fd2ac22d",
+    "docs/reviews/M1-NCR1/south-C/master-hero.png": "ad27f3da18fbfd5c4d6b392f966862b3a9264c7cc1d1d61e065ab514252cc8c4",
+    "docs/reviews/M1-NCR1/south-C/master-bald.png": "cfc5d4e498864aebfe5ff67a792f4b9d193aef32ae08c204065d413037248af6",
+    "docs/reviews/M1-NCR1/north-A/master-hero.png": "81a5b805c2e3c25b87f232471c1d9a4f3dfc6bff5f55754604e0f7ae5a0841e6",
+    "docs/reviews/M1-NCR1/north-A/master-bald.png": "e4195a6844d159a3621a56c44abcfc8c3ef15403972f3894fb10a52501bc262d",
+    "docs/reviews/M1-NCR1/north-P/master-hero.png": "f043fb80f7229817df93ca279cd4605c80ec27b64cc5990553a60c47816806ee",
+    "docs/reviews/M1-NCR1/north-P/master-bald.png": "3df2017dfec01d0c27949082487319b995a9d6a7f9921884377e76c0240d5b78",
+    "docs/reviews/M1-NCR1/north-C/master-hero.png": "8825bf0a6cb14813469f9185032e9c0f0828c6bb2295ad56007c24bbee48dbad",
+    "docs/reviews/M1-NCR1/north-C/master-bald.png": "9b256b254a81fcfd3fa44534c36a1f23587ef258c6317b22353eb22e3bec9328",
+    "docs/reviews/M1-NCR1/west-A/master-hero.png": "0a556200a48a01dc1b3fa10b9c9678edf6cb5264a3f8ff080aea7544391e4bd5",
+    "docs/reviews/M1-NCR1/west-A/master-bald.png": "226d0c191c6d1f3b8e57d8a1ff10a61eaf2d3b782db2bec2323107e25e3ea575",
+    "docs/reviews/M1-NCR1/west-P/master-hero.png": "c787d86b2ab85b4988755a38d2802b97ec94a70dd8a0d3be770f6108db5d818c",
+    "docs/reviews/M1-NCR1/west-P/master-bald.png": "c859a376b93138ac6759dd0ef536f550727ff393f153e4fcc90f4f6f4f5ee63b",
+    "docs/reviews/M1-NCR1/west-C/master-hero.png": "262c31026629cebe436408d48fc0c6ed94ad2fb75c1437ebed93bee56a1dcb9d",
+    "docs/reviews/M1-NCR1/west-C/master-bald.png": "e7f149b7a1774262d149aa4c191eb8a435310afd240bb5f8ceb2c24a7f90a68b",
+    "docs/reviews/M1-NCR1/east-A/master-hero.png": "90141e9ebb4f4acac223964def8370e65fcf560081b7bff0363857902c2b4357",
+    "docs/reviews/M1-NCR1/east-A/master-bald.png": "0629599dc57a6b6a14f4b4a4a5311c025e552bb2e6a68c241fe83e77ec7193b2",
+    "docs/reviews/M1-NCR1/east-P/master-hero.png": "b170b07d2c8550df98b96606251cbbccb831e8c7436add56973aeb863c10a9e8",
+    "docs/reviews/M1-NCR1/east-P/master-bald.png": "54b5fbff6c5af96e528bac0760cca62ac988633775ad3734664f11afe6c3f71f",
+    "docs/reviews/M1-NCR1/east-C/master-hero.png": "6711d33be52b47b3e449ab82edc729f17b424a019d4a2afcf6805bd755348f64",
+    "docs/reviews/M1-NCR1/east-C/master-bald.png": "7aa47dafaa8b7ebbc1496313a9691592666d10a6df828fe271bf4a63a9431558"
+  },
+  "spritePanelChecks": 92,
+  "gifFrames": 252,
+  "gifDurationMs": 21600,
+  "gifMinHoldMs": 20,
+  "gifLoop": 0,
+  "combinedTimelineSamplingMs": 20,
+  "maxSourceTransitionDisplayRoundingMs": 10,
+  "timingQualification": "Original South800ms and NWE540ms timelines combined on20ms sampling grid for GIF compatibility; no cumulative drift; original source timing metadata unchanged. This presentation is not an exact10ms timing oracle.",
+  "frames": [
+    {
+      "frame": 0,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 1,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 2,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 3,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 4,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 5,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 6,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 7,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 8,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 9,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 10,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 11,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 12,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 13,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 14,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 15,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 16,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 17,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 18,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 19,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 20,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 21,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 22,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 23,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 24,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 25,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 26,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 27,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 28,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 29,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 30,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 31,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 32,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 33,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 34,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 35,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 36,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 37,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 38,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 39,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 40,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 41,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 42,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 43,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 44,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 45,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 46,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 47,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 48,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 49,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 50,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 51,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 52,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 53,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 54,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 55,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 56,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 57,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 58,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 59,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 60,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 61,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 62,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 63,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 64,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 65,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 66,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 67,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 68,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 69,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 70,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 71,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 72,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 73,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 74,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 75,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 76,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 77,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 78,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 79,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 80,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 81,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 82,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 83,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 84,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 85,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 86,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 87,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 88,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 89,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 90,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 91,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 92,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 93,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 94,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 95,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 96,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 97,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 98,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 99,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 100,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 101,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 102,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 103,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 104,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 105,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 106,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 107,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 108,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 109,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 110,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 111,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 112,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 113,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 114,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 115,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 116,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 117,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 118,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 119,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 120,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 121,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 122,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 123,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 124,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 125,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 126,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 127,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 128,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 129,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 130,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 131,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 132,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 133,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 134,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 135,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 136,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 137,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 138,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 139,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 140,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 141,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 142,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 143,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 144,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 145,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 146,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 147,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 148,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 149,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 150,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 151,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 152,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 153,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 154,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 155,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 156,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 157,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 158,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 159,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 160,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 161,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 162,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 163,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 164,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 165,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 166,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 167,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 168,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 169,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 170,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 171,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 172,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 173,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 174,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 175,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 176,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 177,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 178,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 179,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 180,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 181,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 182,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 183,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 184,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 185,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 186,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 187,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 188,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 189,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 190,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 191,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 192,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 193,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 194,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 195,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 196,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 197,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 198,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 199,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 200,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 201,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 202,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 203,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 204,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 205,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 206,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 207,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 208,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 209,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 210,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 211,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 212,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 213,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 214,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 215,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 216,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 217,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 218,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 219,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 220,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 221,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 222,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 223,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 224,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 225,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 226,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 100,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 227,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 228,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 229,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 230,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 231,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 232,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 40,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 233,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 234,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 235,
+      "poses": [
+        "A",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 236,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 237,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 238,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 239,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 20,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 240,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 241,
+      "poses": [
+        "C",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 242,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 243,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 244,
+      "poses": [
+        "A",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 120,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 245,
+      "poses": [
+        "A",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 80,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 246,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 247,
+      "poses": [
+        "P",
+        "A",
+        "A",
+        "A"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 248,
+      "poses": [
+        "C",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 249,
+      "poses": [
+        "C",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 250,
+      "poses": [
+        "P",
+        "C",
+        "C",
+        "C"
+      ],
+      "durationMs": 60,
+      "allFrameRGBExact": true
+    },
+    {
+      "frame": 251,
+      "poses": [
+        "P",
+        "P",
+        "P",
+        "P"
+      ],
+      "durationMs": 140,
+      "allFrameRGBExact": true
+    }
+  ],
+  "userAppearanceApproval": false
+}
