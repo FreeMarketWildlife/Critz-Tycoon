@@ -1,6 +1,10 @@
+# M1.HR6 — Corrected human-ear default and modular player base
+
+**Specification recorded; correction blocked on sole-owner handoff.** [ART_BIBLE](ART_BIBLE.md#human-ears-and-modular-player-base--m1hr6-user-correction) owns exact feature/body/clothing/default requirements. First review corrected normal default, then structural body variants with the same starter outfit, then limited swappable-feature proof. No UI expansion or gameplay publication before concrete review. HR5 is rejected for elf-like default ears. Existing owner remains sole Hero writer; obtain destination/export authorization required by prior automatic approval rejection. TN4 remains held.
+
 # M1.HR5 — Head overlay and silhouette correction
 
-User explicitly requests an actual Hero-over-Brendan overlay and correction of the head, superseding HR4's unchanged head. Deliver registered50% overlays/difference maps, original corrected four-direction heads, native/enlarged comparison, row-by-row evidence and editable sources. **Implemented and checked; awaiting visual review.** Full bodies from row46 down stay exact HR4, including corrected feet. Static review only; no wider self-approval or gameplay replacement. [Review](reviews/M1-HR5/README.md).
+User explicitly requests an actual Hero-over-Brendan overlay and correction of the head, superseding HR4's unchanged head. Deliver registered50% overlays/difference maps, original corrected four-direction heads, native/enlarged comparison, row-by-row evidence and editable sources. **Implemented and checked; subsequently rejected for default ears.** Full bodies from row46 down stay exact HR4, including corrected feet. Static review only; no wider self-approval or gameplay replacement. [Review](reviews/M1-HR5/README.md).
 
 # M1.TN4 — Tanoshi eye readability and bear refinement
 
