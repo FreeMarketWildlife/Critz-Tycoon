@@ -1,0 +1,55 @@
+{
+  "sourceHEAD": "b4ebfce2772af2889a4e163371165607555f1a58",
+  "protectedTrackedFiles": 322,
+  "allSelectedHeroGirlAndNB1FilesUnchanged": true,
+  "poses": {
+    "south": {
+      "exactSavedRecomposition": true,
+      "realBodyOwnsExposedPixels": 167,
+      "allStoredPartMasksExact": true,
+      "clippedBodyCells": [],
+      "actualBrownHeadSupportCells": []
+    },
+    "west": {
+      "exactSavedRecomposition": true,
+      "realBodyOwnsExposedPixels": 144,
+      "allStoredPartMasksExact": true,
+      "clippedBodyCells": [],
+      "actualBrownHeadSupportCells": [
+        [
+          5,
+          36
+        ],
+        [
+          5,
+          37
+        ],
+        [
+          5,
+          38
+        ],
+        [
+          5,
+          39
+        ],
+        [
+          5,
+          40
+        ],
+        [
+          6,
+          40
+        ],
+        [
+          23,
+          43
+        ],
+        [
+          22,
+          44
+        ]
+      ]
+    }
+  },
+  "visualApproval": false
+}

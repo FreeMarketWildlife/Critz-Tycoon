@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Compact reference-adjacent body diagnostic — M1.NB2
+
+Before broad pose packaging when profile projection remains disputed, return a small South/West native/nearest comparison with actual removable clothes and pinned source art adjacent externally. Show head-over-torso overlap and isolated arm/hand and pelvis/leg/foot layers; a large roster sheet must not hide a neck-post, merged arm or copied costume contour. Keep accepted South construction exact. Profile source-visible brown face support can inform a declared reconstructed surface; dark collar/hair-edge pixels cannot manufacture anatomy. Retain actual per-view eye/ear/face/garment ownership and protected selected Hero art. [Current two-view proposal, mask/overlap records and limits](reviews/M1-NB2/README.md). Compact torso/limb/foot mass remains an independent visual decision, not a test-derived gate pass. Resume existing-pose proofs only after this diagnostic response; no creator or runtime work.
+
 ## Independent neutral-body reconstruction — M1.NB1 foundation reopened
 
 A recolored shirt/shorts/shoe silhouette is a material map, not a reusable anatomical base. First return a bounded South idle proposal with independent actual RGBA head/torso/pelvis/arms/hands/legs/feet layers, then separate skin/face appearance and removable garment/hair/pack layers. Under-clothes contours/joints are authored reconstruction, never measured from clothing. Maintain projected head/torso overlap, compact height/contact/frame registration and exact selected dressed Hero. No collar/fringe/sideburn silhouette may be smuggled into the bald base via old head-mask names.

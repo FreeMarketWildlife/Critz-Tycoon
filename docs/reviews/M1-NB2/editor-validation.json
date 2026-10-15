@@ -1,0 +1,19 @@
+{
+  "tool": "Actual Sprite Editor validateProject",
+  "results": [
+    {
+      "direction": "south",
+      "width": 32,
+      "height": 64,
+      "frames": 1,
+      "pass": true
+    },
+    {
+      "direction": "west",
+      "width": 32,
+      "height": 64,
+      "frames": 1,
+      "pass": true
+    }
+  ]
+}

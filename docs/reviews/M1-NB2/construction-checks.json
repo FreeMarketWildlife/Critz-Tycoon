@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "all selected visible skin/face supported by neutral body geometry",
+    "foot 0 overlaps its leg",
+    "foot 1 overlaps its leg",
+    "southidle exact selected Hero recomposition",
+    "southidle registered contact row",
+    "costume does not own skin/face/hand cells",
+    "visible body contributes exact selected skin/face",
+    "all selected visible skin/face supported by neutral body geometry",
+    "foot 0 overlaps its leg",
+    "foot 1 overlaps its leg",
+    "westidle exact selected Hero recomposition",
+    "westidle registered contact row",
+    "costume does not own skin/face/hand cells",
+    "visible body contributes exact selected skin/face"
+  ],
+  "pass": true,
+  "visualApproval": false
+}

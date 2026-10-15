@@ -1,0 +1,140 @@
+{
+  "scope": "SOUTH+WEST IDLE diagnostic first, full pose packaging held",
+  "records": {
+    "south": {
+      "visibleBodyCells": 167,
+      "headTorsoOverlap": 32,
+      "headBrownSupportAdded": [],
+      "footLegOverlap": {
+        "0": [
+          [
+            11,
+            59
+          ],
+          [
+            12,
+            59
+          ],
+          [
+            12,
+            60
+          ],
+          [
+            13,
+            60
+          ]
+        ],
+        "1": [
+          [
+            20,
+            59
+          ],
+          [
+            21,
+            59
+          ]
+        ]
+      },
+      "clippedBodyCells": []
+    },
+    "west": {
+      "visibleBodyCells": 144,
+      "headTorsoOverlap": 46,
+      "headBrownSupportAdded": [
+        [
+          5,
+          36
+        ],
+        [
+          5,
+          37
+        ],
+        [
+          5,
+          38
+        ],
+        [
+          5,
+          39
+        ],
+        [
+          5,
+          40
+        ],
+        [
+          6,
+          40
+        ],
+        [
+          23,
+          43
+        ],
+        [
+          22,
+          44
+        ]
+      ],
+      "footLegOverlap": {
+        "0": [
+          [
+            14,
+            59
+          ],
+          [
+            15,
+            59
+          ]
+        ],
+        "1": [
+          [
+            18,
+            58
+          ],
+          [
+            19,
+            58
+          ]
+        ]
+      },
+      "clippedBodyCells": []
+    }
+  },
+  "southPriorPNGFilesExact": [
+    "recomposed-hero.png",
+    "overlay-hair.png",
+    "body-pelvis.png",
+    "body-leg1.png",
+    "body-leg0.png",
+    "body-foot0.png",
+    "overlay-skin-face-features.png",
+    "body-plus-hair.png",
+    "body-plus-shorts.png",
+    "body-foot1.png",
+    "body-render-with-selected-skin.png",
+    "body-arm1.png",
+    "body-torso.png",
+    "body-arm0.png",
+    "body-head.png",
+    "body-only-selected-skin.png",
+    "overlay-shorts.png",
+    "neutral-body.png",
+    "overlay-shoes.png",
+    "body-hand0.png",
+    "body-hand1.png",
+    "body-plus-shirt.png",
+    "body-plus-pack.png",
+    "body-plus-straps.png",
+    "body-plus-shoes.png",
+    "actual-visible-body-contribution.png",
+    "overlay-shirt.png",
+    "overlay-pack.png",
+    "full-rear-pack.png",
+    "dressing-coverage-mask.png",
+    "overlay-straps.png",
+    "removable-appearance.png"
+  ],
+  "southNeutralSHA256": "92c68cd507ab6b1c9311360e6dd119cd2ce2d87945ed5f0c801b3a617aeba571",
+  "reference": "pret/pokeemerald 5eff78649e7170a877b961ef0b3da13b81a16038 ROM art0/2 exact2x32x64; source-art observation not emulator/bone measurement",
+  "externalReferencePlate": "/Users/tanoshi/.codex/visualizations/2026/10/15/nb2-small-diagnostic/pinned-reference-south-west.png",
+  "visualApproval": false
+}
