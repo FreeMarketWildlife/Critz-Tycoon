@@ -1,0 +1,51 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net-grid.html",
+  "checks": [
+    {
+      "name": "one key release finishes one real-game tile, rest tap only turns, ready slows committed steps",
+      "pass": true,
+      "walkDestination": {
+        "x": 8,
+        "y": 7
+      },
+      "readyDestination": {
+        "x": 8,
+        "y": 6
+      },
+      "slowGate": 3
+    },
+    {
+      "name": "adjacent-tile net catches the actual starting snail exactly once",
+      "pass": true
+    },
+    {
+      "name": "a mid-step release queues the swing until the committed tile boundary",
+      "pass": true,
+      "releaseCell": {
+        "x": 7,
+        "y": 7
+      },
+      "swingCell": {
+        "x": 8,
+        "y": 7
+      }
+    },
+    {
+      "name": "bag freezes in-flight movement; resume finishes it and never writes adventure data",
+      "pass": true
+    },
+    {
+      "name": "actual two-finger touch readies while taking a slow grid step, then queues a swing",
+      "pass": true
+    },
+    {
+      "name": "tile overlay, four responsive layouts, and original comparison link work",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "limits": [
+    "Chromium desktop and touch emulation; physical iPhone Safari untested.",
+    "Real input, read-only snapshots, isolated synthetic save markers."
+  ]
+}

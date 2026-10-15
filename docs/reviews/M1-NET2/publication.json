@@ -1,0 +1,30 @@
+{
+  "task": "M1.NET2",
+  "githubSource": "24f84e384b730165ca4cd26148d652406c0af581",
+  "sitesBase": "bf05494282db4bad3607675eb9f45bb3fa31d48a",
+  "sitesSource": "4ecb721b4d9e5152913c93701bd2382990a94dc9",
+  "version": 59,
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_3e310a9166ac81919443f042158e7736",
+  "deploymentId": "appgdep_6ad141384a8881918e2cf1b328e20764",
+  "status": "succeeded",
+  "tileURL": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net-grid.html",
+  "originalURL": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net.html",
+  "archiveSHA256": "3023a22d69899c2edc83cd3743c3a204bae5622ef6a7f3363b2428761551f76f",
+  "packageFingerprint": "ab2b6a513a68c8d805ec8a63d9abba107a4bba0fe0ff20847c1335f330ab3d64",
+  "archiveExpandedMiB": 253.0029296875,
+  "rootUnitTestsPassed": 340,
+  "scopedProductionUnitTestsPassed": 331,
+  "gridBrowserScenarios": 6,
+  "originalBrowserScenarios": 7,
+  "modelAllSix": {
+    "swings": 10,
+    "ticks": 4119,
+    "note": "Model inputs only; no creature mutation, not browser play."
+  },
+  "scope": "NET2 files and own canonical-doc insertions only over previous live source. No src/assets/art/music/root entry or style diff. Other private character studies excluded.",
+  "visualApproval": "Awaiting user comparison; broader M1/M2 approval and adventure adoption remain open.",
+  "limitation": "Chromium desktop/touch emulation only; physical iPhone Safari untested.",
+  "hostedGridBrowserScenariosPassed": 6,
+  "publicNoSignInVerified": true,
+  "initialHostedIssue": "The first public load saw net-grid-state.js return404 during rollout. A fresh browser later verified the unchanged module at200; the complete six-scenario hosted suite then passed without code changes."
+}

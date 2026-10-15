@@ -1,0 +1,12 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net-grid.html",
+  "checks": [],
+  "errors": [
+    "404:https://critz-tycoon.freemarketwildlife.chatgpt.site/art-review/net-grid-state.js"
+  ],
+  "limits": [
+    "Chromium desktop and touch emulation; physical iPhone Safari untested.",
+    "Real input, read-only snapshots, isolated synthetic save markers."
+  ],
+  "fatal": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#begin:not([disabled])') to be visible\u001b[22m\n\n    at /Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/tests/net-grid-browser.mjs:13:37"
+}
