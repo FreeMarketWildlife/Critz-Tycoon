@@ -1,0 +1,441 @@
+{
+  "pass": true,
+  "snapshots": 48,
+  "imageMatches": 192,
+  "allEightSlotsEveryPanel": true,
+  "scope": "Fresh isolated art-only Chrome page; visual sequence inspection, not uninterrupted human watch",
+  "samples": [
+    {
+      "capture": "capture-0.png",
+      "slots": {
+        "west-normal": 1,
+        "east-normal": 1,
+        "west-slow": 1,
+        "east-slow": 1
+      }
+    },
+    {
+      "capture": "capture-1.png",
+      "slots": {
+        "west-normal": 2,
+        "east-normal": 2,
+        "west-slow": 1,
+        "east-slow": 1
+      }
+    },
+    {
+      "capture": "capture-2.png",
+      "slots": {
+        "west-normal": 4,
+        "east-normal": 4,
+        "west-slow": 1,
+        "east-slow": 1
+      }
+    },
+    {
+      "capture": "capture-3.png",
+      "slots": {
+        "west-normal": 5,
+        "east-normal": 5,
+        "west-slow": 2,
+        "east-slow": 2
+      }
+    },
+    {
+      "capture": "capture-4.png",
+      "slots": {
+        "west-normal": 6,
+        "east-normal": 6,
+        "west-slow": 2,
+        "east-slow": 2
+      }
+    },
+    {
+      "capture": "capture-5.png",
+      "slots": {
+        "west-normal": 8,
+        "east-normal": 8,
+        "west-slow": 2,
+        "east-slow": 2
+      }
+    },
+    {
+      "capture": "capture-6.png",
+      "slots": {
+        "west-normal": 1,
+        "east-normal": 1,
+        "west-slow": 3,
+        "east-slow": 3
+      }
+    },
+    {
+      "capture": "capture-7.png",
+      "slots": {
+        "west-normal": 2,
+        "east-normal": 2,
+        "west-slow": 3,
+        "east-slow": 3
+      }
+    },
+    {
+      "capture": "capture-8.png",
+      "slots": {
+        "west-normal": 4,
+        "east-normal": 4,
+        "west-slow": 3,
+        "east-slow": 3
+      }
+    },
+    {
+      "capture": "capture-9.png",
+      "slots": {
+        "west-normal": 5,
+        "east-normal": 5,
+        "west-slow": 4,
+        "east-slow": 4
+      }
+    },
+    {
+      "capture": "capture-10.png",
+      "slots": {
+        "west-normal": 6,
+        "east-normal": 6,
+        "west-slow": 4,
+        "east-slow": 4
+      }
+    },
+    {
+      "capture": "capture-11.png",
+      "slots": {
+        "west-normal": 8,
+        "east-normal": 8,
+        "west-slow": 4,
+        "east-slow": 4
+      }
+    },
+    {
+      "capture": "capture-12.png",
+      "slots": {
+        "west-normal": 1,
+        "east-normal": 1,
+        "west-slow": 5,
+        "east-slow": 5
+      }
+    },
+    {
+      "capture": "capture-13.png",
+      "slots": {
+        "west-normal": 2,
+        "east-normal": 2,
+        "west-slow": 5,
+        "east-slow": 5
+      }
+    },
+    {
+      "capture": "capture-14.png",
+      "slots": {
+        "west-normal": 3,
+        "east-normal": 3,
+        "west-slow": 5,
+        "east-slow": 5
+      }
+    },
+    {
+      "capture": "capture-15.png",
+      "slots": {
+        "west-normal": 5,
+        "east-normal": 5,
+        "west-slow": 6,
+        "east-slow": 6
+      }
+    },
+    {
+      "capture": "capture-16.png",
+      "slots": {
+        "west-normal": 6,
+        "east-normal": 6,
+        "west-slow": 6,
+        "east-slow": 6
+      }
+    },
+    {
+      "capture": "capture-17.png",
+      "slots": {
+        "west-normal": 7,
+        "east-normal": 7,
+        "west-slow": 6,
+        "east-slow": 6
+      }
+    },
+    {
+      "capture": "capture-18.png",
+      "slots": {
+        "west-normal": 8,
+        "east-normal": 8,
+        "west-slow": 6,
+        "east-slow": 6
+      }
+    },
+    {
+      "capture": "capture-19.png",
+      "slots": {
+        "west-normal": 2,
+        "east-normal": 2,
+        "west-slow": 7,
+        "east-slow": 7
+      }
+    },
+    {
+      "capture": "capture-20.png",
+      "slots": {
+        "west-normal": 3,
+        "east-normal": 3,
+        "west-slow": 7,
+        "east-slow": 7
+      }
+    },
+    {
+      "capture": "capture-21.png",
+      "slots": {
+        "west-normal": 4,
+        "east-normal": 4,
+        "west-slow": 7,
+        "east-slow": 7
+      }
+    },
+    {
+      "capture": "capture-22.png",
+      "slots": {
+        "west-normal": 5,
+        "east-normal": 5,
+        "west-slow": 8,
+        "east-slow": 8
+      }
+    },
+    {
+      "capture": "capture-23.png",
+      "slots": {
+        "west-normal": 7,
+        "east-normal": 7,
+        "west-slow": 8,
+        "east-slow": 8
+      }
+    },
+    {
+      "capture": "capture-24.png",
+      "slots": {
+        "west-normal": 8,
+        "east-normal": 8,
+        "west-slow": 8,
+        "east-slow": 8
+      }
+    },
+    {
+      "capture": "capture-25.png",
+      "slots": {
+        "west-normal": 2,
+        "east-normal": 2,
+        "west-slow": 1,
+        "east-slow": 1
+      }
+    },
+    {
+      "capture": "capture-26.png",
+      "slots": {
+        "west-normal": 3,
+        "east-normal": 3,
+        "west-slow": 1,
+        "east-slow": 1
+      }
+    },
+    {
+      "capture": "capture-27.png",
+      "slots": {
+        "west-normal": 4,
+        "east-normal": 4,
+        "west-slow": 1,
+        "east-slow": 1
+      }
+    },
+    {
+      "capture": "capture-28.png",
+      "slots": {
+        "west-normal": 6,
+        "east-normal": 6,
+        "west-slow": 2,
+        "east-slow": 2
+      }
+    },
+    {
+      "capture": "capture-29.png",
+      "slots": {
+        "west-normal": 7,
+        "east-normal": 7,
+        "west-slow": 2,
+        "east-slow": 2
+      }
+    },
+    {
+      "capture": "capture-30.png",
+      "slots": {
+        "west-normal": 1,
+        "east-normal": 1,
+        "west-slow": 3,
+        "east-slow": 3
+      }
+    },
+    {
+      "capture": "capture-31.png",
+      "slots": {
+        "west-normal": 2,
+        "east-normal": 2,
+        "west-slow": 3,
+        "east-slow": 3
+      }
+    },
+    {
+      "capture": "capture-32.png",
+      "slots": {
+        "west-normal": 3,
+        "east-normal": 3,
+        "west-slow": 3,
+        "east-slow": 3
+      }
+    },
+    {
+      "capture": "capture-33.png",
+      "slots": {
+        "west-normal": 4,
+        "east-normal": 4,
+        "west-slow": 3,
+        "east-slow": 3
+      }
+    },
+    {
+      "capture": "capture-34.png",
+      "slots": {
+        "west-normal": 6,
+        "east-normal": 6,
+        "west-slow": 4,
+        "east-slow": 4
+      }
+    },
+    {
+      "capture": "capture-35.png",
+      "slots": {
+        "west-normal": 7,
+        "east-normal": 7,
+        "west-slow": 4,
+        "east-slow": 4
+      }
+    },
+    {
+      "capture": "capture-36.png",
+      "slots": {
+        "west-normal": 8,
+        "east-normal": 8,
+        "west-slow": 4,
+        "east-slow": 4
+      }
+    },
+    {
+      "capture": "capture-37.png",
+      "slots": {
+        "west-normal": 2,
+        "east-normal": 2,
+        "west-slow": 5,
+        "east-slow": 5
+      }
+    },
+    {
+      "capture": "capture-38.png",
+      "slots": {
+        "west-normal": 3,
+        "east-normal": 3,
+        "west-slow": 5,
+        "east-slow": 5
+      }
+    },
+    {
+      "capture": "capture-39.png",
+      "slots": {
+        "west-normal": 4,
+        "east-normal": 4,
+        "west-slow": 5,
+        "east-slow": 5
+      }
+    },
+    {
+      "capture": "capture-40.png",
+      "slots": {
+        "west-normal": 6,
+        "east-normal": 6,
+        "west-slow": 6,
+        "east-slow": 6
+      }
+    },
+    {
+      "capture": "capture-41.png",
+      "slots": {
+        "west-normal": 7,
+        "east-normal": 7,
+        "west-slow": 6,
+        "east-slow": 6
+      }
+    },
+    {
+      "capture": "capture-42.png",
+      "slots": {
+        "west-normal": 8,
+        "east-normal": 8,
+        "west-slow": 6,
+        "east-slow": 6
+      }
+    },
+    {
+      "capture": "capture-43.png",
+      "slots": {
+        "west-normal": 1,
+        "east-normal": 1,
+        "west-slow": 7,
+        "east-slow": 7
+      }
+    },
+    {
+      "capture": "capture-44.png",
+      "slots": {
+        "west-normal": 3,
+        "east-normal": 3,
+        "west-slow": 7,
+        "east-slow": 7
+      }
+    },
+    {
+      "capture": "capture-45.png",
+      "slots": {
+        "west-normal": 4,
+        "east-normal": 4,
+        "west-slow": 7,
+        "east-slow": 7
+      }
+    },
+    {
+      "capture": "capture-46.png",
+      "slots": {
+        "west-normal": 6,
+        "east-normal": 6,
+        "west-slow": 8,
+        "east-slow": 8
+      }
+    },
+    {
+      "capture": "capture-47.png",
+      "slots": {
+        "west-normal": 7,
+        "east-normal": 7,
+        "west-slow": 8,
+        "east-slow": 8
+      }
+    }
+  ]
+}

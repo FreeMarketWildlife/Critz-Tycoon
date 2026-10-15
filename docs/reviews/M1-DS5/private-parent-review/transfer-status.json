@@ -1,0 +1,198 @@
+{
+  "sourceCommit": "fe3cdf94d410ba63738428326b2298551ab1805c",
+  "scope": "Private parent internal review only; no main-user draft delivery or appearance approval",
+  "state": "BLOCKED \u2014 Library mutation outcome unconfirmed; no verified DS5 identities or private delivery",
+  "attempts": [
+    {
+      "route": "current Library prepared helper",
+      "result": "Failed before create: Library prepare_uploads is not available"
+    },
+    {
+      "route": "one native ordered eight-file create batch",
+      "result": "Returned non-JSON error content beginning tool call e; no identity metadata recovered",
+      "orchestrationError": "SyntaxError: Unexpected token o, \"tool call e\"... is not valid JSON",
+      "outcome": "Unconfirmed; not retried"
+    }
+  ],
+  "reconciliation": {
+    "recentList": "No DS5 files; latest confirmed packet is DS4",
+    "exactFilenameSearches": 8,
+    "exactDS5Matches": 0,
+    "limitation": "Read-only absence is not treated as a confirmed mutation rollback; no duplicate write attempted"
+  },
+  "review": {
+    "savedChecks": 126,
+    "pairedGIFPhysicalFrames": 32,
+    "actualChromeSnapshots": 48,
+    "actualPanelMatches": 192,
+    "allEightSlotsEveryPanel": true,
+    "visualResult": "Named arm/torso correction has no additional internal blocker; parent appearance/motion judgment remains required",
+    "observationLimit": "Actual rendered sequence inspection and sampled playback, not uninterrupted human watching"
+  },
+  "files": [
+    {
+      "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/native-side-gait-internal.png",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-native-side-gait-INTERNAL.png",
+      "sha256": "c10d7c7e84fb9d956b2c4ce93683ee5b0c55afee5dfa676f1b616f1d7df3bc4f",
+      "size": 8952,
+      "dimensions": [
+        480,
+        560
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "library_file_id": null,
+      "uploadVerified": false
+    },
+    {
+      "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/side-gait-native-refined-internal.png",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-complete-side-gait-INTERNAL.png",
+      "sha256": "0cf13a18f3c4835a3f04cee2d833023b9bf60c384108a8ee23c39c89cd0f297d",
+      "size": 15847,
+      "dimensions": [
+        960,
+        560
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "library_file_id": null,
+      "uploadVerified": false
+    },
+    {
+      "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/idle-arm-role-before-after.png",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-idle-arm-before-after-INTERNAL.png",
+      "sha256": "27cb8366cb982f7b45592d8d3f974b9e50ca0f150de0a8acb713948f249cfae3",
+      "size": 12593,
+      "dimensions": [
+        960,
+        460
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "library_file_id": null,
+      "uploadVerified": false
+    },
+    {
+      "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-west-normal-INTERNAL.gif",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-paired-west-normal-INTERNAL.gif",
+      "sha256": "94567454f7eca72b80cd90da16353b71ba4997672d5f6030485469c86f257a0e",
+      "size": 22158,
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "library_file_id": null,
+      "uploadVerified": false
+    },
+    {
+      "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-west-slow-INTERNAL.gif",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-paired-west-slow-INTERNAL.gif",
+      "sha256": "0d681a22a4f978f7295e59df827d796cb11e8b69c6c9e79624b76632ca28de3f",
+      "size": 22093,
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "library_file_id": null,
+      "uploadVerified": false
+    },
+    {
+      "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-east-normal-INTERNAL.gif",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-paired-east-normal-INTERNAL.gif",
+      "sha256": "bc5e88fc9c0414fc4fdb941664297c5e67774fb03a2179ee2eb6f82c92d186dd",
+      "size": 22129,
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "library_file_id": null,
+      "uploadVerified": false
+    },
+    {
+      "source_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-DS5/independent-review/paired-east-slow-INTERNAL.gif",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-paired-east-slow-INTERNAL.gif",
+      "sha256": "c502d6d7169b0869113dde703fadd2c10acd1ae7bae54b5f25d3ef5188f4c326",
+      "size": 22056,
+      "dimensions": [
+        352,
+        192
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "library_file_id": null,
+      "uploadVerified": false
+    },
+    {
+      "source_path": "/Users/tanoshi/.codex/visualizations/2026/10/15/dummy-ds5/contact-aligned-source-side-gait.png",
+      "local_path": "/tmp/ds5-private-parent-packet/critz-DS5-contact-aligned-primary-reference-INTERNAL.png",
+      "sha256": "fd293ef56ea55cdc6d91aec287e7f46bdae5e08f8ad0318b284993d2beaf349a",
+      "size": 46276,
+      "dimensions": [
+        1100,
+        940
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "library_file_id": null,
+      "uploadVerified": false
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # DS4 — complete private parent construction/motion review
 
+Parent actually inspected this packet and reopened the side arm/torso construction. These frozen files remain history, not accepted side artwork. The separate [DS5 corrected candidate and transfer status](../../M1-DS5/private-parent-review/README.md) records the response; compact head/overlap remain protected and creator stays stopped.
+
 All 12 files saved once at version 0 and downloaded byte/pixel/timing exact. Source `2f4e39d` is frozen. Three original comparison plates, eight phase-synchronized equal-display loops and one credited primary-source gait comparison. No main-user rough-draft delivery or creator restart.
 
 - [critz-DS4-four-direction-idle-INTERNAL.png](https://chatgpt.com/api/library/files/libfile_d4a7ee1460648191b0ecc42e354cd0c5/download) — `libfile_d4a7ee1460648191b0ecc42e354cd0c5`
