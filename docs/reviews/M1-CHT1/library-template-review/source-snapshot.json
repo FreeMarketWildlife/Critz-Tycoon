@@ -1,0 +1,55 @@
+{
+  "HEAD": "98ea5450647765fa1e1c737f9224c83e1aaec6e7",
+  "CHT1staticSource": "c600c290cf965f0c3093962f37586137b0ccbe5f",
+  "state": "Corrected shared-shape review proofs; separate from rejected anatomical NB/PS1 previews. FM1 focused material trial not mass-applied.",
+  "files": [
+    {
+      "source": "docs/reviews/M1-CHT1/south-idle-aligned.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-cht1-south-idle-aligned.png",
+      "sha256": "7dde2c69343e2a3fc999eacf8f023de355dd785c7e9c7a42149e9fc16a93bfd6",
+      "kind": "Shared-shape template proof; review candidate"
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/south-idle-lower-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-cht1-south-idle-lower-grid.png",
+      "sha256": "7fc3931e47f25c822db1d79d59f8d3a66dc1501a931e79535ac6e40934bb45d8",
+      "kind": "Shared-shape template proof; review candidate"
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/north-P/north-P-aligned.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-cht1-north-P-aligned.png",
+      "sha256": "243b38a04f76ad96d4266d63a85e164cda5719c6ce9f8b5307752efb72efe668",
+      "kind": "Shared-shape template proof; review candidate"
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/north-P/north-P-lower-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-cht1-north-P-lower-grid.png",
+      "sha256": "2813919476a88bb8fe28360c0f723bd13ca4e445b6725e930b3549a245538e23",
+      "kind": "Shared-shape template proof; review candidate"
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/west-idle/west-idle-aligned.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-cht1-west-idle-aligned.png",
+      "sha256": "7787eef8b316ac903514a583fb9ef091891bca557ce29a3fe621767da028079f",
+      "kind": "Shared-shape template proof; review candidate"
+    },
+    {
+      "source": "docs/reviews/M1-CHT1/west-idle/west-idle-lower-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-cht1-west-idle-lower-grid.png",
+      "sha256": "a1c57c16da6c356f477deb8fb94aa768ec545f7d4de47e30e66ec584746c91e8",
+      "kind": "Shared-shape template proof; review candidate"
+    },
+    {
+      "source": "docs/reviews/M1-FM1/west-idle-P-material-trial.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-fm1-west-idle-P-material-trial.png",
+      "sha256": "89d522cdc259695ff4529585e485c02485fc00c498a88d730be0cf4e6ea64f3b",
+      "kind": "Focused West shoe material proposal; unapproved"
+    },
+    {
+      "source": "docs/reviews/M1-FM1/west-idle-P-native-grid.png",
+      "local_path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-CHT1/library-template-review/critz-ps1-followup-fm1-west-idle-P-native-grid.png",
+      "sha256": "72e49c15ab8904ec60388d359835c8db34c00a4368a40fbb60a3667d0dfd36b7",
+      "kind": "Focused West shoe material proposal; unapproved"
+    }
+  ]
+}
