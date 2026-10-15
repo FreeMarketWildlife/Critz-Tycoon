@@ -1,0 +1,11 @@
+# FM2 independent static review
+
+**Current static set warrants verification of the existing walk frames.** Both reviewers inspected all four actual full plates and grids at art source ecd4f4e7729f52c8358537c1035c5db9865dcf05. Side uppers and restrained sole edges now read coherently, retaining the full shoe footprint. A/C details follow the existing near/far surfaces without suggesting smaller feet. North reads as heel/back-edge detail rather than front toe caps. No concrete static material jump or blocker was identified.
+
+Root's separate saved-PNG audit confirms all 16 actual changed-cell sets match the declared edits. South is exact in all four poses. Alpha, existing ink, lowest contact pixels and upper body through row55 remain exact. Actual template body pixels match the corresponding dressed Hero. The second reviewer separately checked South, alpha/ink/waist/contacts, focused FM1 continuity and all16 dressed/template body pairs. These facts support the visual inspection, not user acceptance.
+
+Material counts by idle/A/P/C: South0/0/0/0; North28/13/28/13; West and East28/27/28/29. Source build SHA2568673558f9571984bab9172fe0209d4546370150cce674b66937a2e88297355f6; edits SHA2564af1d94e00069b0f762bac44c62ada4b8193ea82952eea2c47034541300098a0. Original Critz view-specific material choices preserve source-supported compact overlap; no new anatomy or source RGB claim is made.
+
+Executor recovery allowed the previously interrupted root audit to run. The scoped verdict was sent successfully to the existing writer. Next action is only current existing-pose walk verification using the original phase order, holds and registration, with native/nearest normal and labelled-slow proof. Check full-cycle material identity and perceived shoe size before accepting a further gate. No new poses, gait or geometry.
+
+Motion verification, parent/user appearance acceptance, M1/gameplay adoption, creator expansion and deployment remain pending. Creator remains paused. Library follow-up remains denied until new direct authorization; no retry, alternate transfer or new IDs. Existing PS1 Library previews contain rejected NB history and are not current FM2/template acceptance evidence. Runtime, saves and phone build remain unchanged.

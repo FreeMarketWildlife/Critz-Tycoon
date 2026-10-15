@@ -1,0 +1,98 @@
+[
+  {
+    "pose": "south-idle",
+    "changedCells": 0,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "south-A",
+    "changedCells": 0,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "south-P",
+    "changedCells": 0,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "south-C",
+    "changedCells": 0,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "north-idle",
+    "changedCells": 28,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "north-A",
+    "changedCells": 13,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "north-P",
+    "changedCells": 28,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "north-C",
+    "changedCells": 13,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "west-idle",
+    "changedCells": 28,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "west-A",
+    "changedCells": 27,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "west-P",
+    "changedCells": 28,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "west-C",
+    "changedCells": 29,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "east-idle",
+    "changedCells": 28,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "east-A",
+    "changedCells": 27,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "east-P",
+    "changedCells": 28,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  },
+  {
+    "pose": "east-C",
+    "changedCells": 29,
+    "alphaInkContactAndUpperBodyExact": true,
+    "templateBodyMatchesHero": true
+  }
+]
