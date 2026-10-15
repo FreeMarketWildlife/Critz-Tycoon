@@ -1,0 +1,151 @@
+{
+  "task": "M1.HR13 Library delivery",
+  "sourceCommit": "294963438cdb7d373a2c498fa2fe93d0d6d8f4a9",
+  "sourceReceiptHead": "a7e4b38",
+  "items": [
+    {
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-idle-source-hero-template.png",
+      "library_file_id": "libfile_bdbe6da76cd081919b7a97bcbe02f3a0",
+      "file_id": "file_00000000b0dc8230be9dc21d105b94cb",
+      "file_name": "four-direction-idle-source-hero-template.png",
+      "version": 0,
+      "bytes": 21019,
+      "sha256": "c2cf33f9101ace015ce8a14fbea01f0746d842f73f19fb7227a9a5e445b87581",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        1600,
+        380
+      ],
+      "exactDecodedPixels": true
+    },
+    {
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-4x.gif",
+      "library_file_id": "libfile_df98c4102ab08191922b86062858d885",
+      "file_id": "file_0000000060b482309ca90251812f1a73",
+      "file_name": "four-direction-source-hero-template-4x.gif",
+      "version": 0,
+      "bytes": 6249513,
+      "sha256": "094eccaf6db1eb4c2ce99edf984fbb0c8b0ee3210bfb171a1e8a2f27f60e1573",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        896,
+        768
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "cycleMs": 800,
+      "exactDecodedPixels": true,
+      "loop": 0
+    },
+    {
+      "localPath": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr13-review/four-direction-source-hero-template-SLOW4x-4x.gif",
+      "library_file_id": "libfile_5c360f79ac708191957fcba672988f91",
+      "file_id": "file_00000000f46c81f595c304601a3258d9",
+      "file_name": "four-direction-source-hero-template-SLOW4x-4x.gif",
+      "version": 0,
+      "bytes": 6249513,
+      "sha256": "b55950cdfbf8b9e394fcf5598d7f317c9dc3f97f4184bf65968eafeea4c7cc1c",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        896,
+        768
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "cycleMs": 3200,
+      "exactDecodedPixels": true,
+      "loop": 0
+    },
+    {
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/four-direction-anatomy-contact.png",
+      "library_file_id": "libfile_f579fbc40f3c8191aadfa4f8d42d010d",
+      "file_id": "file_00000000d6388209b9de603ed3b9b243",
+      "file_name": "four-direction-anatomy-contact.png",
+      "version": 0,
+      "bytes": 42227,
+      "sha256": "19168202514fc6ffa98b50abe6a07576db6c4cbf29701c60eaad8228b3e0c70c",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        1400,
+        560
+      ],
+      "exactDecodedPixels": true
+    },
+    {
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/four-direction-outfit-registration.png",
+      "library_file_id": "libfile_7a9dc6a6e8cc8191ba84176dbc820074",
+      "file_id": "file_0000000009448230bd344ccd605121f7",
+      "file_name": "four-direction-outfit-registration.png",
+      "version": 0,
+      "bytes": 36453,
+      "sha256": "ceabfe52a10af0a1c2b85ee7b2a7a10ebd7b86ba79605aa1fc51383ff2846917",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        1120,
+        420
+      ],
+      "exactDecodedPixels": true
+    },
+    {
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/projection-before-after.png",
+      "library_file_id": "libfile_5422cfb4858c8191ba18898f3cd11dad",
+      "file_id": "file_00000000586c8230921485b115b91621",
+      "file_name": "projection-before-after.png",
+      "version": 0,
+      "bytes": 6978,
+      "sha256": "644294df621ceba201a2d04bfc74497002a2e9d607343a871ff0baabd3c124fe",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        1040,
+        360
+      ],
+      "exactDecodedPixels": true
+    },
+    {
+      "localPath": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR13/projection-occlusion-map.png",
+      "library_file_id": "libfile_9074c5098910819197d1a7ada4e398a1",
+      "file_id": "file_000000005adc82308bee9b5a932b821e",
+      "file_name": "projection-occlusion-map.png",
+      "version": 0,
+      "bytes": 19624,
+      "sha256": "ee80c4f8b333845177fec1175f755083f76fd3a207ce27d93379349d368d166e",
+      "downloadedByteExact": true,
+      "metadataPersisted": true,
+      "dimensions": [
+        1120,
+        400
+      ],
+      "exactDecodedPixels": true
+    }
+  ],
+  "artworkChangedByExport": false,
+  "deployed": false,
+  "visualReview": "Corrected projected head/torso contact in all four idles; no separate mannequin neck column. Profile cuff/foot rail cleanup visibly reduces tiers, retains extents and joints. Fixed overlay/intended-part-slot checks support registration; template remains a proposed simplified scaffold. Profiles remain angular/heavier, stride spread wider than reference; not accepted.",
+  "independentChecks": "Reviewer inspected all4 all8plates, decoded25 directional/original/initialcombinedGIFs; root separately verified updated combined8frame panels, exact4x and identicalfast/slow actorpixels. Owner checks cover28GIFs/10editableprojects/32nativeposes.",
+  "continuousIndependentPlaybackObserved": false,
+  "nextAction": "Parent inspect delivered images/GIFs and collect Phil scoped visual response. Sole writer holds further artwork. No deployment or wider milestone acceptance."
+}

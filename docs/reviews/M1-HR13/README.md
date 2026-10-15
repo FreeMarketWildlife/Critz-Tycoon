@@ -25,3 +25,7 @@ Hidden joints, profile bodies and projected attachment sites are original 2D pro
 Parent's independent static/phase review found the four-direction neck correction successful and bounded cleanup visible; its initial report covered the preceding25 GIF set. Parent subsequently independently verified the combined eight-frame panels and exact4x/fast-slow actor pixels. Owner's final report covers all28. Continuous browser playback was not established by the independent reviewer. Profiles still read angular/heavier and their stride spread may feel too wide; passing boot weight remains subjective. Technical checks do not resolve or approve those concerns.
 
 No gameplay/editor UI/save/map changes, deployment or M1/M2 acceptance. HR11 remains parked, unadopted and unstaged. Exact next action: Eutychus presents this stable review and handles Library export; owner holds further art pending the scoped response.
+
+## Library delivery
+
+Seven review files are saved as new Library version0 items. Downloaded copies match exact local bytes and decoded pixels; the combined walking GIFs retain eight frames at100ms/400ms. [Identity/download verification receipt](library-review-receipt.json) records actual IDs and checks. This delivers the stable unapproved review; it changes no artwork or playable build. Parent/user visual response remains next, with profile weight/stride and proposed template fit explicitly unresolved as appearance judgments.
