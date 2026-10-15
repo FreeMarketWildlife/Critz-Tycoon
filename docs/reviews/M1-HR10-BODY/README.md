@@ -1,6 +1,6 @@
 # M1.HR10-BODY — Focused cuff, shoe and hand-cluster trial
 
-**One focused pass implemented/checked; awaiting local/parent visual judgment.** Base is HR9 source `9d1d1595329004829082ebe6fd44ea33208a3e06`, not the separate HEAD candidate. HR9 head/face/ears/eyes and rigid translations remain exact, including its original hair, Black child identity and empty nose/mouth. Forward only, same starter outfit, original proposed idle and eight-frame A,A,P,P,C,C,P,P walk. No runtime integration, directions, variants, UI, Library upload, Sites deployment or TN4 work.
+**One focused pass implemented/checked; local critique complete, awaiting parent visual judgment.** Base is HR9 source `9d1d1595329004829082ebe6fd44ea33208a3e06`, not the separate HEAD candidate. HR9 head/face/ears/eyes and rigid translations remain exact, including its original hair, Black child identity and empty nose/mouth. Forward only, same starter outfit, original proposed idle and eight-frame A,A,P,P,C,C,P,P walk. No runtime integration, directions, variants, UI, Library upload, Sites deployment or TN4 work.
 
 The HEAD detour arose from a historical HR5 human instruction resurfaced through compaction; no newer authenticated head instruction was identified. Its `fb4a66b`/`e598fbc` commits remain preserved, unapproved and unadopted. [Verified chronology and scope reconciliation](scope-reconciliation.json). The resumed active task is this body-only pass.
 
@@ -34,7 +34,7 @@ Passing cuff/ankle/shoe shapes now overlap diagonally, removing the full-width s
 
 **Residual criticism:** passing feet remain heavier/more boot-like than the source's compact integrated clusters. Repeated horizontal bands are reduced, not proven fully solved. The unchanged shoe area in P makes this a contour/overlap refinement, not a smaller-area shoe claim. Original blue cuffs/dark sneakers and outlined torso remain more graphic than the source costume; front-facing shirt shading is deliberately bilateral and does not establish final asymmetric lighting. The retained HR9 head and daypack are scope constraints, not newly approved. Source costume blocks cannot reveal hidden bones; actual stride reaches the original crop bottom, so uncropped anatomy remains unknown. No new anatomy is inferred. No artistic acceptance follows from mask counts or export checks.
 
-The local relay's first-contact critique agrees horizontal bands are reduced and hands more compact, while retaining the boot-weight objection. No additional automatic redesign was requested. This is the single focused pass returned for judgment, not a claim that all mechanical-post defects are solved.
+The local relay inspected actual all8/native/source-speed4x/labelled-slow comparisons in an isolated browser: horizontal bands reduced, hands compact, contact-to-pass transition legible; passing feet remain solid/boot-like and the original shirt heavier than source. No additional automatic redesign was requested. This is the single focused pass returned for judgment, not a claim that all mechanical-post defects are solved.
 
 ## Actual checks and inspection
 

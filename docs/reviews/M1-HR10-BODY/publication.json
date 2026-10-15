@@ -1,0 +1,108 @@
+{
+  "task": "M1.HR10-BODY",
+  "state": "single focused pass stable; local critique complete; awaiting parent judgment",
+  "sourceCommit": "d158c3ecceaddaf1a0919f01ef75eac47f367cc5",
+  "branch": "main",
+  "sourcePushed": true,
+  "sourceRemoteSHAEqualsLocalHEAD": true,
+  "baselineCommit": "9d1d1595329004829082ebe6fd44ea33208a3e06",
+  "allHR9HeadPixelsAndTranslationsExact": true,
+  "headMasksExactHR9": true,
+  "headDetourAdopted": false,
+  "headDetourPreservedUnapproved": true,
+  "sourceSpeedFrameMs": 100,
+  "sourceSpeedLoopMs": 800,
+  "slowFrameMs": 400,
+  "slowLoopMs": 3200,
+  "allGIFs8FramesAndDecodedPixelsExact": true,
+  "localReview": {
+    "accepted": false,
+    "findings": [
+      "Repeated cuff/sole bars reduced",
+      "Contact-to-pass transition legible",
+      "Passing feet still solid/boot-like compared with source tiny integrated clusters",
+      "Original shirt remains heavier"
+    ],
+    "method": "Local relay inspected actual contact/native/4x/slow in isolated browser; no game storage or screenshot export",
+    "furtherAutomaticRedrawRequested": false
+  },
+  "artAccepted": false,
+  "scope": "forward-only body cuff/shoe/hand refinement; stable pixels for Library relay",
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/draft-poses.png",
+      "bytes": 6129,
+      "sha256": "b8c08f6bde9a288a0e54b5569637565ecbfe93af25bb59db18efa6146a121545"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/hero-all-eight-contact.png",
+      "bytes": 7256,
+      "sha256": "7b7195520a1e00245c0c9f02e9f97f5434e245e5138c51321faa24a569ea4d4e"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/hero-light-dark-native.gif",
+      "bytes": 117209,
+      "sha256": "80d641eac9415f09d578f716ca600e5fbb36ef0d9e31249e1d023a9d75634c69"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/hero-forward-walk-native.gif",
+      "bytes": 19585,
+      "sha256": "b419820c784d315a88c79e7f4cd30e40c73311e3f8f82a2969a5a7d06fbdd5c9"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/hero-forward-walk-4x.gif",
+      "bytes": 298529,
+      "sha256": "a87be9ade5f6daee585e11858c16be87259bb17db4f2510eeb2cab36d1f80c2e"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/independent-checks.json",
+      "bytes": 4239,
+      "sha256": "f45659104f521ea7bc0c8268c6e0e989cce0d58c3e96eaaf00fba2f2da4e491b"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/editor-validation.json",
+      "bytes": 1945,
+      "sha256": "8134f5a29f99eb8081cf2af7682312c872d319636f21547b9eadea0ea329d1f2"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR10-BODY/scope-reconciliation.json",
+      "bytes": 1726,
+      "sha256": "bafa137347f58cca779b742dcd74fbc9f8fbbb05fec65998cc044d2f764b049f"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/body-clusters-source-before-after.png",
+      "bytes": 16094,
+      "sha256": "d9637cee41157d64966b8d3b1f0503caac782991eae9433f28134a20ed2821fe"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-all-eight-contact.png",
+      "bytes": 19067,
+      "sha256": "5de72b60071dbc6064756e94d2551a8fd0f0c506d474a7f65bfa5153c3abd52d"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-native.gif",
+      "bytes": 66513,
+      "sha256": "f1c2857fccc68cb3af4e23723a52cf85ead70362a68ab83c9d0e3fbc8a4c591b"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-4x.gif",
+      "bytes": 1049377,
+      "sha256": "9fd1d4ddd48d1135477b379dbc5b04e1a47fface2db6228417ea5de829a49f21"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-SLOW4x-native.gif",
+      "bytes": 102681,
+      "sha256": "3f7f179c5293642b69653150b889aee11c16f9a995d88176f46868a45485e0b0"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr10-body/source-hero-SLOW4x-4x.gif",
+      "bytes": 1628201,
+      "sha256": "a6b50247e3d1b8abed6babe96e69a018f442d430b93093f4e98435179d60f6a3"
+    }
+  ],
+  "runtimeChanged": false,
+  "deployed": false,
+  "libraryExport": "relay handles; not performed by owner",
+  "remainingChangesAtSourceCheckpoint": "none",
+  "nextAction": "Relay stable images and source-speed/labelled-slow GIFs for parent judgment; owner pauses artwork"
+}
