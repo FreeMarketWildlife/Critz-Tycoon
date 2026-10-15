@@ -11,3 +11,9 @@ Reapplying the independent original hair over this template with an explicit sel
 The first uncommitted northP experiment was superseded by the direct South-first instruction and parked outside the repository. No new animation or all-pose rollout yet. The earlier untested `character-creator/` draft is paused and excluded from the build; it currently references rejected NB3 layers and must be replaced after this direction is reviewed. No gameplay/save/hosting changes.
 
 Exact next action: Eutychus reviews this one aligned frame before the same shape-preserving method extends to existing NWE directions/poses and later the creator.
+
+## Focused follow-up frames
+
+Eutychus inspected South idle and [north P](north-P/north-P-aligned.png), confirming that each retains the actual dressed waist, hands and full shoes and that north P has continuous head/nape/collar contact. This is scoped shape confirmation for those individual frames; user scalp/appearance and full-pose readiness remain open. North's [native lower grid](north-P/north-P-lower-grid.png) and24 saved checks are separate from South's unchanged proof.
+
+[West idle aligned comparison](west-idle/west-idle-aligned.png) · [West lower grid](west-idle/west-idle-lower-grid.png). The head-only profile scalp omits an invented far-ear bulge, while the actual source near-ear/eye/skin and every finished outfit/waist/shoe pixel remain. Its24 saved checks pass; profile critique is pending. These are still images, not an animation or creator release. No remaining-pose batch has been run.
