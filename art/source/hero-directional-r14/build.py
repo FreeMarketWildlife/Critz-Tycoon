@@ -117,6 +117,25 @@ for d in directions:
    for y in range(46+dy,49+dy):
     for x in range(12,20):
      if body.getpixel((x,y))[:3]==(249,237,200) and not (y==46+dy and 14<=x<=17):body.putpixel((x,y),tuple(bytes.fromhex(P['r'][1:]))+(255,))
+  # Bounded FRONT wrist material ownership; preserve all ink/navy geometry.
+  # Selected brown ramp already matched: remove clothing islands below sleeve,
+  # not cream globally. Passing mirrors idle construction with its fixed2px bob.
+  wristSkin=[];cuffCells=[]
+  if d=='south':
+   if pose in ('idle','P'):
+    offset=0 if pose=='idle' else -2
+    region=[(xx,y+offset) for y in range(49,54) for x in range(4,9) for xx in (x,31-x)]
+   else:
+    region=[(31-x if pose=='C' else x,y) for y in range(50,54) for x in range(6,10)]
+   for x,y in region:
+    px=body.getpixel((x,y))
+    if px[3] and px[:3] not in [tuple(bytes.fromhex(P[k][1:])) for k in ('O','n')]:
+     key='d' if y==(53 if pose!='P' else 51) else 'S' if y==(49 if pose=='idle' else 47 if pose=='P' else 50) else 's'
+     body.putpixel((x,y),tuple(bytes.fromhex(P[key][1:]))+(255,));wristSkin.append([x,y])
+   if pose in ('idle','P'):
+    for x in (22,23):
+     pt=(x,53 if pose=='idle' else 51);body.putpixel(pt,tuple(bytes.fromhex(P['r'][1:]))+(255,))
+     if list(pt) in wristSkin:wristSkin.remove(list(pt))
   # The overwritten idle hem rows now belong to the same upper-costume
   # material layer as P+2. Do not let stale lower-plane classifications
   # recolor the dummy's idle torso purple while its passing torso is teal.

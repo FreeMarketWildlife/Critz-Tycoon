@@ -1,0 +1,686 @@
+{
+  "editableProjects": 10,
+  "nativePoses": [
+    {
+      "kind": "hero",
+      "direction": "south",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "south",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "south",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "south",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "south",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 59
+    },
+    {
+      "kind": "dummy",
+      "direction": "south",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 59
+    },
+    {
+      "kind": "hero",
+      "direction": "south",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "south",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "north",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "north",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "north",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "dummy",
+      "direction": "north",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "hero",
+      "direction": "north",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "north",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "north",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "dummy",
+      "direction": "north",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "hero",
+      "direction": "west",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "west",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "west",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "dummy",
+      "direction": "west",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "hero",
+      "direction": "west",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "west",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "west",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "dummy",
+      "direction": "west",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "hero",
+      "direction": "east",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "east",
+      "pose": "idle",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "east",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "dummy",
+      "direction": "east",
+      "pose": "A",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "hero",
+      "direction": "east",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "dummy",
+      "direction": "east",
+      "pose": "P",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 61
+    },
+    {
+      "kind": "hero",
+      "direction": "east",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    },
+    {
+      "kind": "dummy",
+      "direction": "east",
+      "pose": "C",
+      "binaryAlpha": true,
+      "connected": true,
+      "bottom": 63
+    }
+  ],
+  "GIFs": [
+    {
+      "name": "source-hero-template-south-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "sha256": "d4ec70e2fb6f9a0b6124fd38056b47487946e0c40fb02aba49e85b657e6e456b"
+    },
+    {
+      "name": "source-hero-template-south-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "sha256": "ccb20b4f3ee4df039b633d866643265733213ca01ca6ffc81e1afef6c89f35f7"
+    },
+    {
+      "name": "hero-south-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "sha256": "832c9443215ed92c00b9d749eec036e717f4fb1aa7d3d0d147a0de20b3c98ab7"
+    },
+    {
+      "name": "dummy-south-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "sha256": "f3f86f409f499fad525138fc529ef4fc94048153fe37d523680250b881589f5f"
+    },
+    {
+      "name": "source-hero-template-south-SLOW4x-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "sha256": "ffd8ce556239fa77b0d47956f051d90492a8ee6e48c7e14d89f78ace61307876"
+    },
+    {
+      "name": "source-hero-template-south-SLOW4x-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "sha256": "8fd0e6c5802b410c3935ca6bd43f2628d271f5457ebfec7cf3506d7dfa1f1086"
+    },
+    {
+      "name": "source-hero-template-north-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "7efc029ab891533af26b7b6fc54ee74b289470c6b59d63470c94fdacea97a1c4"
+    },
+    {
+      "name": "source-hero-template-north-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "46675a99a84e4ecfa2d9a34103137a4d4968be90c9c487324663fc01e81874db"
+    },
+    {
+      "name": "hero-north-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "a445e4571b9aceced6ae8fc09b3c86a7b1aec41b4c673469edff9d299acc1647"
+    },
+    {
+      "name": "dummy-north-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "df7b2b28a9c99bf3a67ec1676119ce082d6241ec4df7d5ded0bcddfba3b6f78b"
+    },
+    {
+      "name": "source-hero-template-north-SLOW4x-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "sha256": "93955729d9e61ec9c8ef18911e70d2c7a0e56170a083742b870160d9a8113ea9"
+    },
+    {
+      "name": "source-hero-template-north-SLOW4x-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "sha256": "5670652067e504f5a1526d42b73dec6e39468ecbc62134386498a0b55bfd9d43"
+    },
+    {
+      "name": "source-hero-template-west-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "e457f73f39f58c7414be65cf3bd2a2e9b12853449ef7a2794e68d25308bab236"
+    },
+    {
+      "name": "source-hero-template-west-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "d0c3ccf35a4062465e456b9ef6c4a38db0a8d174c14c5fcb82bd5c9444034bfa"
+    },
+    {
+      "name": "hero-west-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "f9e6ee5f7a538f5809c5abea09ab8f20ef9bf40600575f38fcaee852212baec8"
+    },
+    {
+      "name": "dummy-west-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "f5fba9fc305b4933e464d345e8219db4af1edeb813077f205ec320dd79686fe5"
+    },
+    {
+      "name": "source-hero-template-west-SLOW4x-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "sha256": "448bf2b221b86df9583a636af69553377f1549369612da0daa5d0e9c3e7a2688"
+    },
+    {
+      "name": "source-hero-template-west-SLOW4x-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "sha256": "a126a5a81b2e616d95ec37c62829af0b103940d3f63d818232e3b2647d368877"
+    },
+    {
+      "name": "source-hero-template-east-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "8183f6f9eb7bf3d434dbc520dfb418ce514d934e9620695ef1ebc2805d3b250a"
+    },
+    {
+      "name": "source-hero-template-east-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "96f732908f00427308de927108ee1b2a0abbe142df7ec1d40b17078f89f5c082"
+    },
+    {
+      "name": "hero-east-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "79239fd59d8362e9fe46ea6d43b3a6f11ba3f87f35b62a35b7741c4ffbdbcd25"
+    },
+    {
+      "name": "dummy-east-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "sha256": "db69e3e2285aee48f09b17f881de9e0fe5537d74700e5c7ae3a181ff28500739"
+    },
+    {
+      "name": "source-hero-template-east-SLOW4x-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "sha256": "af0ec5203caaca8bbe4426221c50cb563ecca022596b0aca6d72b27a2ecda153"
+    },
+    {
+      "name": "source-hero-template-east-SLOW4x-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "sha256": "1c4e1e89659b55d6218e09596af6eb20c7598f06e91be768fc0eb00ceb4339dd"
+    },
+    {
+      "name": "four-direction-PHASE-source-hero-template-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "sha256": "92644f730d2edfb5cfb717b124db43126ab9192078fc638580aa02904307d94f"
+    },
+    {
+      "name": "four-direction-PHASE-source-hero-template-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "sha256": "ac67598d184a6f734106616b30c6319f7613bb5471bf3312cd73678037694362"
+    },
+    {
+      "name": "four-direction-PHASE-source-hero-template-SLOW4x-native.gif",
+      "exact8Frames": true,
+      "delays": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "sha256": "75bef16b9d396233be2734a8dfe59a9edfb58c64b52ca9dc5794b2cf6b5e6c12"
+    },
+    {
+      "name": "four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
+      "exact8Frames": true,
+      "delays": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "sha256": "071e88f8b10d367d053dcc6b6dabfbba0887dbb734cb92f71d32f486062cf828"
+    }
+  ],
+  "southIdlePassingInterfaceRGBAExact": true,
+  "allPass": true,
+  "renderedTraceLimit": "Previous c98a8cb browser-cycle trace is historical; current owned-page playback sampled in2screenshots, not uninterrupted full watch."
+}

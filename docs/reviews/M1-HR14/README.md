@@ -1,5 +1,7 @@
 # M1.HR14 — Source-derived material contrast and visible foot landmarks
 
+**Current checkpoint:** [Bald reusable dummy audit and bounded front hand/cuff correction](wrist-correction/README.md) supersede the front wrist pixels described below. Dummy already bald in all16 distinct combinations; zero head edits. Corrected south native/export hashes differ; earlier render traces/Library receipts below remain historical evidence, not current south-motion approval. Independent foundation review pending.
+
 **Bounded material pass stable; overall Hero/dummy remain UNAPPROVED pending parent/user review.** The dummy had collapsed dark, shadow and accent planes into one purple mass. This pass restores distinct source-derived material contrast without adding or resizing a single silhouette pixel. Original Hero head/identity/hand sites and every lower pixel remain exact. A small front cream-to-coral recolor quiets the duplicated chest bars while retaining the collar, stripe and cuffs.
 
 ## Visible material evidence, not hidden anatomy

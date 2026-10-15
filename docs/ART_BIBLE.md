@@ -1,5 +1,11 @@
 # Critz: Tycoon — art bible
 
+## Bald reusable dummy and front hand ownership — HR14 foundation checkpoint
+
+Reusable dummy is BALD in every direction and existing animation frame. Hair/fringe/headwear must be separate optional overlays, not a base silhouette. Verify actual pixels and contours; current16 distinct heads are already smooth/bald, so preserve them with zero gratuitous head edits. Head contour is authored reconstruction, not a hidden-skull reference measurement. Preserve dressed Hero selected hair, eyes/ears/no-mouth default, projected head/torso occlusion and frame/contact/gait registration. [All-direction dressed/bald proof](reviews/M1-HR14/wrist-correction/README.md).
+
+For existing front idle/A/P/C hand correction, palette match alone is insufficient. Assign actual exposed skin below retained upper sleeve trim, separately display skin/cloth-highlight/edge masks, preserve the original brown ramp, and keep ink/navy/alpha/lower/pack immutable. Current bounded changes idle27/P27/A10/C10 are material-only; hidden wrist/arm joints remain unmeasured. Compare allunique/all8 and actual normal/slow playback; historical trace hashes do not approve changed exports. Foundation review precedes creator/feature-swap prototypes or broader roster continuation. No new UI/poses/runtime/deployment or automatic appearance acceptance.
+
 ## Girl front arm/hand material ownership — M1.GH1 correction
 
 Do not treat palette matching as proof of readable skin. Current C6 complexion ramp already matched, while cream/muted-fabric and coral islands surrounded tiny brown wrists. Preserve checked geometry/ink/alpha; explicitly assign the below-sleeve exposed skin region, retain upper cream trim, and keep inward shirt highlights cloth. Current bounded correction changes27 cells, expands actual skin12→34 in the audited region, retains10 cream upper-trim cells and quiets two inward pale fabric sites to coral. [Actual separate material masks and cells](reviews/M1-GH1/wrist-correction/material-decision.json). These arm/hand regions are authored visible-material decisions, not hidden joint measurements. Compare actual saved C6/before/after masks and native/nearest whole characters; preserve head/ears/lower contacts. Independent visual review is required; other directions/walks remain held.
