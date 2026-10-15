@@ -1,0 +1,137 @@
+{
+  "task": "M1.HR14",
+  "state": "stable UNAPPROVED; awaiting human visual review",
+  "branch": "main",
+  "sourceCommit": "52399af91052c60ad2cf06d4c917c086794a750d",
+  "verifiedOriginMain": "52399af91052c60ad2cf06d4c917c086794a750d",
+  "geometrySourceCommit": "6bd8105",
+  "spriteAndGIFPixelsUnchangedSinceGeometryCommit": true,
+  "independentReview": "Parent/read-only confirms corrected12loweralpha/material maps, no lower skin,eyes/hands,rigidpack/straps,timing; separatecontactguide honest/no extra geometry. Requested explicit occluded/inferred legs entry/label completed with16records checked. Broad/angularlowerread remains subjective/unapproved.",
+  "checks": "32native poses;12unique lower alpha/material maps exact;16rigid pack/strap/composite cases;16commonfeature/contact records withnullhiddenjoints;10editable projects;28decoded8frameGIFs exact pixels/holds/nearest4x",
+  "timing": {
+    "frontNormalMs": 800,
+    "frontSlowMs": 3200,
+    "ROMdirectionNormalGIFms": 540,
+    "ROMdirectionSlowGIFms": 2160,
+    "ROMengineSourceDerivedApproxMs": 535.77,
+    "additionalPHASEboardNormalMs": 800,
+    "additionalPHASEboardSlowMs": 3200,
+    "phaseBoardNotEnginePlayback": true
+  },
+  "artifacts": [
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/first-native-aligned-boundary-checkpoint.png",
+      "bytes": 70299,
+      "sha256": "2088166c4ec8b31a08ead6c3adca4f65c8f46b1cac185020505859b36d648fa5"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-common-feature-registration.png",
+      "bytes": 57305,
+      "sha256": "467710fe4c600354b4b8a6b26f37e09fd99a948c642146f2dc6c451909d8cc82"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/four-direction-featured-dummy-sheet.png",
+      "bytes": 74659,
+      "sha256": "4f71de53cdc72de56f8059efcc5fbb386660ab2a3452ef4e401fc282c03ff2f5"
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR14/torso-registered-pack-all-eight.png",
+      "bytes": 30584,
+      "sha256": "f9198aa0590be2980130145fcaf8e38c9117ce301a2418a6c503f1d7b6297b98"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-4x.gif",
+      "bytes": 1563113,
+      "sha256": "71b73ee03fc809ea6c0bd9b0f78a7db5a9ed2f60a1e3d0f9a27b5e7c2b008bb6"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-south-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "a0c79f1a439cc293df330d9e5db4203e0c5625ba51102199e1fc1ed2276d4a05"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-aligned-lower-boundary-grid.png",
+      "bytes": 19965,
+      "sha256": "7788c37edde208c38ab3b7df2513ccb4773d93df6b26e58937462ca95e3cacd1"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/south-all-eight-source-hero-template.png",
+      "bytes": 31300,
+      "sha256": "e708b89992e78ae4d13f4c874aee568b1adb477fb45baee34db55d6a09b66b5d"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-4x.gif",
+      "bytes": 1563113,
+      "sha256": "f26d28768b001f85a314c02c2190c4363fe2e8cc257f3afed5f17ff6a3067d52"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-north-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "3d87cf58cfdad464ab874f4abba5edef94256944910470cacac0ef1e5a8ab2c7"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-aligned-lower-boundary-grid.png",
+      "bytes": 20021,
+      "sha256": "3bab2f807282f76daef3e2777bb9ebd7de2c6f192e8162bd2c3fd3ea139fa8ec"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/north-all-eight-source-hero-template.png",
+      "bytes": 25665,
+      "sha256": "6306587f2deb6b005f9f6595cea4d375e44bdc8ea1d2cd431dacf84e6e4656cd"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-4x.gif",
+      "bytes": 1563113,
+      "sha256": "b5d00ac41f5209b694d6f0f30a355da3bd2488ef6a7874f448f87dc52697379e"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-west-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "93ca803d9204d5d53709d9120363ed99d206eb908efbada9d2b287f1b44cdfcc"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-aligned-lower-boundary-grid.png",
+      "bytes": 20425,
+      "sha256": "000efc6d8a9c6383c333947e4ff44115a6886c1aff1e18fd8b41456bb1b1b289"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/west-all-eight-source-hero-template.png",
+      "bytes": 26048,
+      "sha256": "8f9c30e047045e21b9a8395026a4de4802f8e1d3ebf2530206ff918631f906fb"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-4x.gif",
+      "bytes": 1563113,
+      "sha256": "31415e346cf0fbb49996f1b02bef24b6b5fd2ffdc347d0587b781f3bd355235f"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/source-hero-template-east-SLOW4x-4x.gif",
+      "bytes": 1563113,
+      "sha256": "839ba0e108ea5e31ada3829b5e04087b9b1638e6b0425b14be3a5be1b16934a0"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-aligned-lower-boundary-grid.png",
+      "bytes": 20457,
+      "sha256": "9c490a49c48d9ca81462ac872a63054a2f1241498e218470f8d41e32ff0c68ac"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/east-all-eight-source-hero-template.png",
+      "bytes": 26017,
+      "sha256": "407df0f8f955b66d80f8f3e680216f0564ec8f9c6b02ec1e6458a8be63221a1d"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-4x.gif",
+      "bytes": 6249513,
+      "sha256": "2465b570a41f01eed6cc5467a28698e3af6ceda5bb88f4ed3e8d796a53dfaa27"
+    },
+    {
+      "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr14-review/four-direction-PHASE-source-hero-template-SLOW4x-4x.gif",
+      "bytes": 6249513,
+      "sha256": "72cf5564098aaacf38aa32e476f134f7924cd825b0716225e76c965fcc36bf2a"
+    }
+  ],
+  "library": "Eutychus/root handles export and downloaded-pixel/timing checks; no owner export performed",
+  "deployment": "None; acceptedgame/UI/save/editor unchanged",
+  "remainingChanges": "ParkedHR11 source/review and original four shared-document change lines retained unstaged; index/context shifts do not change their edits.",
+  "nextAction": "Eutychus Library delivery and human review; owner holds further artwork"
+}
