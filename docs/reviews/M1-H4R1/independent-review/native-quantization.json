@@ -1,0 +1,90 @@
+{
+  "south": {
+    "idle": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 0,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "A": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 0,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "P": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 0,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "C": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 0,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    }
+  },
+  "north": {
+    "idle": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 2,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "A": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 2,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "P": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 2,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "C": {
+      "heroChosenColorAbsentFromOwn2x2Block": 0,
+      "baldChosenColorAbsentFromOwn2x2Block": 2,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    }
+  },
+  "west": {
+    "idle": {
+      "heroChosenColorAbsentFromOwn2x2Block": 3,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "A": {
+      "heroChosenColorAbsentFromOwn2x2Block": 3,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "P": {
+      "heroChosenColorAbsentFromOwn2x2Block": 3,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "C": {
+      "heroChosenColorAbsentFromOwn2x2Block": 3,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    }
+  },
+  "east": {
+    "idle": {
+      "heroChosenColorAbsentFromOwn2x2Block": 2,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "A": {
+      "heroChosenColorAbsentFromOwn2x2Block": 2,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "P": {
+      "heroChosenColorAbsentFromOwn2x2Block": 2,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    },
+    "C": {
+      "heroChosenColorAbsentFromOwn2x2Block": 2,
+      "baldChosenColorAbsentFromOwn2x2Block": 5,
+      "meaning": "Deliberate native contour/material correction, not pure block voting or an exact inverse."
+    }
+  }
+}

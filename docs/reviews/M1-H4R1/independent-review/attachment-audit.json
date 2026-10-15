@@ -1,0 +1,103 @@
+{
+  "packPoses": [
+    {
+      "pose": "south-idle",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "south-A",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "south-P",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "south-C",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "north-idle",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "north-A",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "north-P",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "north-C",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "west-idle",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "west-A",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 1,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "west-P",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "west-C",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "east-idle",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "east-A",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 1,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "east-P",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 0,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    },
+    {
+      "pose": "east-C",
+      "masterPackRigidAfterUndoingTorsoBob": true,
+      "nativeObservedPackNormalizedDifferences": 1,
+      "nativeObservedPackIsVisibleMaskNotHiddenPart": true
+    }
+  ],
+  "actualMasterRigidRasterChecks": 16,
+  "lowerSideMaterialMirrorChecks": 16,
+  "qualification": "Head/hair lighting is retained per source; only intended lower material/geometry planes are checked as mirrored. Native observed mask may vary under source occlusion; not a reconstructed hidden pack."
+}

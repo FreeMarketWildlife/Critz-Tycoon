@@ -1,0 +1,3619 @@
+{
+  "sourceSHA": "2c8fa4fef4c6872b05fce294a82b09f873876a6e",
+  "captures": [
+    {
+      "name": "slot-0",
+      "panels": [
+        {
+          "src": "south-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:A 1/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "name": "slot-1",
+      "panels": [
+        {
+          "src": "south-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-A/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:A 2/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "name": "slot-2",
+      "panels": [
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:P 3/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "name": "slot-3",
+      "panels": [
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:P 4/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "name": "slot-4",
+      "panels": [
+        {
+          "src": "south-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:C 5/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "name": "slot-5",
+      "panels": [
+        {
+          "src": "south-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-C/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:C 6/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "name": "slot-6",
+      "panels": [
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:P 7/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "name": "slot-7",
+      "panels": [
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-P/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:P 8/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "name": "idle",
+      "panels": [
+        {
+          "src": "south-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            249,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "south-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "south-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            162,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "south-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            249,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            507,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "north-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "north-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            420,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "north-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            507,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            765,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "west-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "west-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            678,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "west-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            765,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            24,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-idle/master-hero.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            172,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            284,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-idle/master-bald.png",
+          "width": 32,
+          "height": 64,
+          "rect": [
+            432,
+            1023,
+            32,
+            64
+          ]
+        },
+        {
+          "src": "east-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            544,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-idle/native-hero.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            692,
+            1023,
+            16,
+            32
+          ]
+        },
+        {
+          "src": "east-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            804,
+            936,
+            96,
+            192
+          ]
+        },
+        {
+          "src": "east-idle/native-bald.png",
+          "width": 16,
+          "height": 32,
+          "rect": [
+            952,
+            1023,
+            16,
+            32
+          ]
+        }
+      ],
+      "clock": "Paused south:idle 8/8 | north:idle 8/8 | west:idle 8/8 | east:idle 8/8"
+    }
+  ],
+  "live": [
+    {
+      "speed": "1",
+      "text": "Playing south:A 1/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 2/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 3/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 4/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 5/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 5/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 6/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 7/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 8/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 1/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 1/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 2/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 3/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 4/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 5/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 6/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 6/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 7/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 8/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 1/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 2/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 3/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 3/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 4/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 5/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 6/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 7/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 8/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 8/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 1/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 2/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 3/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 4/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 5/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 5/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 6/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 7/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 8/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 1/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 2/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:A 2/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 3/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 4/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 5/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:C 6/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 7/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 7/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "1",
+      "text": "Playing south:P 8/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 3/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 3/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 3/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 3/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 3/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 4/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 4/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 4/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 4/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 4/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 5/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 5/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 5/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 5/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 5/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 6/8 | north:P 8/8 | west:P 8/8 | east:P 8/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 6/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 6/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:C 6/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 7/8 | north:A 1/8 | west:A 1/8 | east:A 1/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 7/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 7/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 7/8 | north:A 2/8 | west:A 2/8 | east:A 2/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 7/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 8/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 8/8 | north:P 3/8 | west:P 3/8 | east:P 3/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 8/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 8/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:P 8/8 | north:P 4/8 | west:P 4/8 | east:P 4/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:C 5/8 | west:C 5/8 | east:C 5/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 1/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:C 6/8 | west:C 6/8 | east:C 6/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    },
+    {
+      "speed": "4",
+      "text": "Playing south:A 2/8 | north:P 7/8 | west:P 7/8 | east:P 7/8"
+    }
+  ],
+  "errors": [],
+  "storage": {
+    "local": 0,
+    "session": 0
+  },
+  "scope": "Fresh isolated desktop Chrome; controlled all-slot captures plus live normal/slow observations; not uninterrupted human viewing or physical phone testing."
+}

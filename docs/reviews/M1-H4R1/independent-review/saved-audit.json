@@ -1,0 +1,3433 @@
+{
+  "sourceSHA": "2c8fa4fef4c6872b05fce294a82b09f873876a6e",
+  "passed": 721,
+  "checks": [
+    {
+      "check": "south-idle pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "south-idle pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero palette source",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlehero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald palette source",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-idlebald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-idle actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "south-idle identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "south-idle master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-idle native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "south-idle native shared body",
+      "pass": true
+    },
+    {
+      "check": "south-idle native size",
+      "pass": true
+    },
+    {
+      "check": "south-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-idle native palette source",
+      "pass": true
+    },
+    {
+      "check": "south-idle contact row floor",
+      "pass": true
+    },
+    {
+      "check": "south-idle contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "south-idle contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "south-A pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "south-A pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero palette source",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Ahero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-Abald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Abald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-Abald palette source",
+      "pass": true
+    },
+    {
+      "check": "south-Abald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Abald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-A actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "south-A identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "south-A master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-A native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "south-A native shared body",
+      "pass": true
+    },
+    {
+      "check": "south-A native size",
+      "pass": true
+    },
+    {
+      "check": "south-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-A native palette source",
+      "pass": true
+    },
+    {
+      "check": "south-A contact row floor",
+      "pass": true
+    },
+    {
+      "check": "south-A contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "south-A contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "south-P pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "south-P pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "south-Phero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Phero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-Phero palette source",
+      "pass": true
+    },
+    {
+      "check": "south-Phero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Phero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald palette source",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Pbald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-P actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "south-P identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "south-P master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-P native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "south-P native shared body",
+      "pass": true
+    },
+    {
+      "check": "south-P native size",
+      "pass": true
+    },
+    {
+      "check": "south-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-P native palette source",
+      "pass": true
+    },
+    {
+      "check": "south-P contact row floor",
+      "pass": true
+    },
+    {
+      "check": "south-P contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "south-P contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "south-C pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "south-C pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "south-Chero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Chero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-Chero palette source",
+      "pass": true
+    },
+    {
+      "check": "south-Chero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Chero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald palette source",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "south-Cbald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "south-C actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "south-C identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "south-C master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "south-C native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "south-C native shared body",
+      "pass": true
+    },
+    {
+      "check": "south-C native size",
+      "pass": true
+    },
+    {
+      "check": "south-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "south-C native palette source",
+      "pass": true
+    },
+    {
+      "check": "south-C contact row floor",
+      "pass": true
+    },
+    {
+      "check": "south-C contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "south-C contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "north-idle pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "north-idle pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero palette source",
+      "pass": true
+    },
+    {
+      "check": "north-idlehero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald palette source",
+      "pass": true
+    },
+    {
+      "check": "north-idlebald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-idle actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "north-idle identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "north-idle exterior pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-idle ink pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-idle master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-idle native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "north-idle native shared body",
+      "pass": true
+    },
+    {
+      "check": "north-idle native size",
+      "pass": true
+    },
+    {
+      "check": "north-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-idle native palette source",
+      "pass": true
+    },
+    {
+      "check": "north-idle contact row floor",
+      "pass": true
+    },
+    {
+      "check": "north-idle contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "north-idle contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "north-A pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "north-A pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero palette source",
+      "pass": true
+    },
+    {
+      "check": "north-Ahero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Abald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Abald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-Abald palette source",
+      "pass": true
+    },
+    {
+      "check": "north-Abald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-A actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "north-A identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "north-A exterior pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-A ink pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-A master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-A native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "north-A native shared body",
+      "pass": true
+    },
+    {
+      "check": "north-A native size",
+      "pass": true
+    },
+    {
+      "check": "north-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-A native palette source",
+      "pass": true
+    },
+    {
+      "check": "north-A contact row floor",
+      "pass": true
+    },
+    {
+      "check": "north-A contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "north-A contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "north-P pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "north-P pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "north-Phero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Phero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-Phero palette source",
+      "pass": true
+    },
+    {
+      "check": "north-Phero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald palette source",
+      "pass": true
+    },
+    {
+      "check": "north-Pbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-P actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "north-P identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "north-P exterior pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-P ink pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-P master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-P native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "north-P native shared body",
+      "pass": true
+    },
+    {
+      "check": "north-P native size",
+      "pass": true
+    },
+    {
+      "check": "north-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-P native palette source",
+      "pass": true
+    },
+    {
+      "check": "north-P contact row floor",
+      "pass": true
+    },
+    {
+      "check": "north-P contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "north-P contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "north-C pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "north-C pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "north-Chero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Chero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-Chero palette source",
+      "pass": true
+    },
+    {
+      "check": "north-Chero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald palette source",
+      "pass": true
+    },
+    {
+      "check": "north-Cbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "north-C actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "north-C identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "north-C exterior pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-C ink pixels exact",
+      "pass": true
+    },
+    {
+      "check": "north-C master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "north-C native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "north-C native shared body",
+      "pass": true
+    },
+    {
+      "check": "north-C native size",
+      "pass": true
+    },
+    {
+      "check": "north-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "north-C native palette source",
+      "pass": true
+    },
+    {
+      "check": "north-C contact row floor",
+      "pass": true
+    },
+    {
+      "check": "north-C contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "north-C contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "west-idle pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "west-idle pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero palette source",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlehero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald palette source",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-idlebald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-idle actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "west-idle identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "west-idle master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-idle native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "west-idle native shared body",
+      "pass": true
+    },
+    {
+      "check": "west-idle native size",
+      "pass": true
+    },
+    {
+      "check": "west-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-idle native palette source",
+      "pass": true
+    },
+    {
+      "check": "west-idle contact row floor",
+      "pass": true
+    },
+    {
+      "check": "west-idle contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "west-idle contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "west-A pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "west-A pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero palette source",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Ahero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-Abald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Abald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-Abald palette source",
+      "pass": true
+    },
+    {
+      "check": "west-Abald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Abald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-A actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "west-A identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "west-A master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-A native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "west-A native shared body",
+      "pass": true
+    },
+    {
+      "check": "west-A native size",
+      "pass": true
+    },
+    {
+      "check": "west-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-A native palette source",
+      "pass": true
+    },
+    {
+      "check": "west-A contact row floor",
+      "pass": true
+    },
+    {
+      "check": "west-A contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "west-A contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "west-P pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "west-P pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "west-Phero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Phero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-Phero palette source",
+      "pass": true
+    },
+    {
+      "check": "west-Phero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Phero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald palette source",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Pbald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-P actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "west-P identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "west-P master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-P native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "west-P native shared body",
+      "pass": true
+    },
+    {
+      "check": "west-P native size",
+      "pass": true
+    },
+    {
+      "check": "west-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-P native palette source",
+      "pass": true
+    },
+    {
+      "check": "west-P contact row floor",
+      "pass": true
+    },
+    {
+      "check": "west-P contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "west-P contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "west-C pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "west-C pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "west-Chero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Chero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-Chero palette source",
+      "pass": true
+    },
+    {
+      "check": "west-Chero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Chero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald palette source",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "west-Cbald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "west-C actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "west-C identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "west-C master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "west-C native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "west-C native shared body",
+      "pass": true
+    },
+    {
+      "check": "west-C native size",
+      "pass": true
+    },
+    {
+      "check": "west-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "west-C native palette source",
+      "pass": true
+    },
+    {
+      "check": "west-C contact row floor",
+      "pass": true
+    },
+    {
+      "check": "west-C contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "west-C contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "east-idle pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "east-idle pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero palette source",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlehero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald palette source",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-idlebald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-idle actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "east-idle identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "east-idle master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-idle native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "east-idle native shared body",
+      "pass": true
+    },
+    {
+      "check": "east-idle native size",
+      "pass": true
+    },
+    {
+      "check": "east-idle native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-idle native palette source",
+      "pass": true
+    },
+    {
+      "check": "east-idle contact row floor",
+      "pass": true
+    },
+    {
+      "check": "east-idle contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "east-idle contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "east-A pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "east-A pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero palette source",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Ahero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-Abald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Abald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-Abald palette source",
+      "pass": true
+    },
+    {
+      "check": "east-Abald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Abald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-A actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "east-A identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "east-A master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-A native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "east-A native shared body",
+      "pass": true
+    },
+    {
+      "check": "east-A native size",
+      "pass": true
+    },
+    {
+      "check": "east-A native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-A native palette source",
+      "pass": true
+    },
+    {
+      "check": "east-A contact row floor",
+      "pass": true
+    },
+    {
+      "check": "east-A contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "east-A contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "east-P pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "east-P pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "east-Phero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Phero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-Phero palette source",
+      "pass": true
+    },
+    {
+      "check": "east-Phero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Phero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald palette source",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Pbald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-P actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "east-P identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "east-P master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-P native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "east-P native shared body",
+      "pass": true
+    },
+    {
+      "check": "east-P native size",
+      "pass": true
+    },
+    {
+      "check": "east-P native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-P native palette source",
+      "pass": true
+    },
+    {
+      "check": "east-P contact row floor",
+      "pass": true
+    },
+    {
+      "check": "east-P contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "east-P contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "east-C pinned input heroInput",
+      "pass": true
+    },
+    {
+      "check": "east-C pinned input baldInput",
+      "pass": true
+    },
+    {
+      "check": "east-Chero alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Chero top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-Chero palette source",
+      "pass": true
+    },
+    {
+      "check": "east-Chero contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Chero protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald alpha preserved",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald top54 exact",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald palette source",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald contact RGBA exact",
+      "pass": true
+    },
+    {
+      "check": "east-Cbald protected entire RGBA",
+      "pass": true
+    },
+    {
+      "check": "east-C actual declared changes",
+      "pass": true
+    },
+    {
+      "check": "east-C identical bald material delta",
+      "pass": true
+    },
+    {
+      "check": "east-C master actual layer recomposition",
+      "pass": true
+    },
+    {
+      "check": "east-C native real layers recompose",
+      "pass": true
+    },
+    {
+      "check": "east-C native shared body",
+      "pass": true
+    },
+    {
+      "check": "east-C native size",
+      "pass": true
+    },
+    {
+      "check": "east-C native binary alpha",
+      "pass": true
+    },
+    {
+      "check": "east-C native palette source",
+      "pass": true
+    },
+    {
+      "check": "east-C contact row floor",
+      "pass": true
+    },
+    {
+      "check": "east-C contact exact half widths",
+      "pass": true
+    },
+    {
+      "check": "east-C contact edge <=1",
+      "pass": true
+    },
+    {
+      "check": "protected South idle file hash",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/README.md",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/apple-rootport-bare.png",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/apple-yard-ripe.png",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/apple-yard-shake.png",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/archive-check.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/art-check.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/bag.png",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/contact-report.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/deployment.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/doors-report.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/motion-proof.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/report.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/story-report.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/tested-build-sha256.json",
+      "pass": true
+    },
+    {
+      "check": "historical fruit docs/reviews/M1-FR1/unit-results.txt",
+      "pass": true
+    },
+    {
+      "check": "creator no changes since pre-H4R1",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif loop",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-normal.gif7native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif loop",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "south-paired-existing-walk-slow.gif7native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif loop",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-normal.gif7native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif loop",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "north-paired-existing-walk-slow.gif7native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif loop",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-normal.gif7native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif loop",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "west-paired-existing-walk-slow.gif7native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif loop",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-normal.gif7native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif 8 slots",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif loop",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif0 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif0master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif0master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif0native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif0native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif1 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif1master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif1master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif1native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif1native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif2 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif2master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif2master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif2native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif2native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif3 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif3master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif3master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif3native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif3native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif4 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif4master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif4master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif4native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif4native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif5 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif5master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif5master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif5native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif5native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif6 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif6master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif6master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif6native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif6native-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif7 hold",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif7master-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif7master-bald.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif7native-hero.png saved panel exact",
+      "pass": true
+    },
+    {
+      "check": "east-paired-existing-walk-slow.gif7native-bald.png saved panel exact",
+      "pass": true
+    }
+  ],
+  "poses": {
+    "south-idle": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          9,
+          13
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          6
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "masterBaldBounds": [
+        3,
+        27,
+        29,
+        62
+      ],
+      "nativeBaldBounds": [
+        1,
+        13,
+        15,
+        31
+      ],
+      "nativePackBounds": null
+    },
+    "south-A": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          17,
+          21
+        ]
+      ],
+      "nativeContact": [
+        [
+          9,
+          11
+        ]
+      ],
+      "masterBaldBounds": [
+        5,
+        27,
+        28,
+        62
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ],
+      "nativePackBounds": null
+    },
+    "south-P": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          9,
+          13
+        ],
+        [
+          19,
+          23
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          6
+        ],
+        [
+          10,
+          12
+        ]
+      ],
+      "masterBaldBounds": [
+        3,
+        25,
+        29,
+        60
+      ],
+      "nativeBaldBounds": [
+        1,
+        12,
+        15,
+        30
+      ],
+      "nativePackBounds": null
+    },
+    "south-C": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          11,
+          15
+        ]
+      ],
+      "nativeContact": [
+        [
+          5,
+          7
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        27,
+        27,
+        62
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ],
+      "nativePackBounds": null
+    },
+    "north-idle": {
+      "masterChanges": 16,
+      "masterContact": [
+        [
+          8,
+          14
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          7
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "masterBaldBounds": [
+        2,
+        27,
+        30,
+        62
+      ],
+      "nativeBaldBounds": [
+        1,
+        13,
+        15,
+        31
+      ],
+      "nativePackBounds": [
+        5,
+        23,
+        11,
+        27
+      ]
+    },
+    "north-A": {
+      "masterChanges": 23,
+      "masterContact": [
+        [
+          10,
+          16
+        ]
+      ],
+      "nativeContact": [
+        [
+          5,
+          8
+        ]
+      ],
+      "masterBaldBounds": [
+        5,
+        27,
+        28,
+        64
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "nativePackBounds": [
+        5,
+        23,
+        11,
+        27
+      ]
+    },
+    "north-P": {
+      "masterChanges": 32,
+      "masterContact": [
+        [
+          8,
+          14
+        ],
+        [
+          18,
+          24
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          7
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "masterBaldBounds": [
+        2,
+        25,
+        30,
+        62
+      ],
+      "nativeBaldBounds": [
+        1,
+        12,
+        15,
+        31
+      ],
+      "nativePackBounds": [
+        5,
+        22,
+        11,
+        26
+      ]
+    },
+    "north-C": {
+      "masterChanges": 19,
+      "masterContact": [
+        [
+          16,
+          22
+        ]
+      ],
+      "nativeContact": [
+        [
+          8,
+          11
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        27,
+        27,
+        64
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "nativePackBounds": [
+        5,
+        23,
+        11,
+        27
+      ]
+    },
+    "west-idle": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          10,
+          20
+        ]
+      ],
+      "nativeContact": [
+        [
+          5,
+          10
+        ]
+      ],
+      "masterBaldBounds": [
+        5,
+        27,
+        28,
+        62
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ],
+      "nativePackBounds": [
+        11,
+        22,
+        14,
+        27
+      ]
+    },
+    "west-A": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          20,
+          24
+        ]
+      ],
+      "nativeContact": [
+        [
+          10,
+          12
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        27,
+        28,
+        64
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "nativePackBounds": [
+        11,
+        22,
+        14,
+        27
+      ]
+    },
+    "west-P": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          10,
+          20
+        ]
+      ],
+      "nativeContact": [
+        [
+          5,
+          10
+        ]
+      ],
+      "masterBaldBounds": [
+        5,
+        25,
+        28,
+        62
+      ],
+      "nativeBaldBounds": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "nativePackBounds": [
+        11,
+        21,
+        14,
+        26
+      ]
+    },
+    "west-C": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          8,
+          12
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          6
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        27,
+        28,
+        64
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "nativePackBounds": [
+        11,
+        22,
+        14,
+        27
+      ]
+    },
+    "east-idle": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          12,
+          22
+        ]
+      ],
+      "nativeContact": [
+        [
+          6,
+          11
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        27,
+        27,
+        62
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        31
+      ],
+      "nativePackBounds": [
+        2,
+        22,
+        5,
+        27
+      ]
+    },
+    "east-A": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          8,
+          12
+        ]
+      ],
+      "nativeContact": [
+        [
+          4,
+          6
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        27,
+        28,
+        64
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "nativePackBounds": [
+        2,
+        22,
+        5,
+        27
+      ]
+    },
+    "east-P": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          12,
+          22
+        ]
+      ],
+      "nativeContact": [
+        [
+          6,
+          11
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        25,
+        27,
+        62
+      ],
+      "nativeBaldBounds": [
+        2,
+        12,
+        14,
+        31
+      ],
+      "nativePackBounds": [
+        2,
+        21,
+        5,
+        26
+      ]
+    },
+    "east-C": {
+      "masterChanges": 0,
+      "masterContact": [
+        [
+          20,
+          24
+        ]
+      ],
+      "nativeContact": [
+        [
+          10,
+          12
+        ]
+      ],
+      "masterBaldBounds": [
+        4,
+        27,
+        28,
+        64
+      ],
+      "nativeBaldBounds": [
+        2,
+        13,
+        14,
+        32
+      ],
+      "nativePackBounds": [
+        2,
+        22,
+        5,
+        27
+      ]
+    }
+  },
+  "decodedGifFrames": 64
+}

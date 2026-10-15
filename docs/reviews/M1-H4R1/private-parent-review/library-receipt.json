@@ -1,0 +1,293 @@
+{
+  "task": "M1.H4R1",
+  "sourceSHA": "2c8fa4fef4c6872b05fce294a82b09f873876a6e",
+  "audience": "PRIVATE parent inspection only; no main-user draft relay",
+  "files": [
+    {
+      "file_name": "H4R1-INTERNAL-four-direction-idles.png",
+      "file_id": "file_0000000083e481fdbee8e5c6139b8974",
+      "library_file_id": "libfile_4267a3a838dc8191abc7a0a33bef5ba3",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-four-direction-idles.png",
+      "sha256": "9d82d39c72a8f0a8a854e709b4bbb8811087ad16c694030d9f3233c58ae4fe3a",
+      "dimensions": [
+        1040,
+        1040
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-north-before-after.png",
+      "file_id": "file_00000000c3d88230b53e61d3dd5ba613",
+      "library_file_id": "libfile_7b4403cc39948191b42222c1bc6aa3d7",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-north-before-after.png",
+      "sha256": "5ccb0b6a7b004e2619019bc459a1364cdad34777c8d0b1f40254e7390155cab0",
+      "dimensions": [
+        780,
+        1040
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-all-direction-poses.png",
+      "file_id": "file_00000000c4fc82309d34f640b699f025",
+      "library_file_id": "libfile_bc65c926e7288191a29871c2a850bd36",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-all-direction-poses.png",
+      "sha256": "53aa0c05d9c9aebd271d5c9b2aec29cece08cb193b22356b8b391b0e3f5b8c06",
+      "dimensions": [
+        1040,
+        4160
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-countable-idle-grid.png",
+      "file_id": "file_00000000b67481fb87982b054fbea19e",
+      "library_file_id": "libfile_029dfe2b84d48191a6e382e79f07d72a",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-countable-idle-grid.png",
+      "sha256": "35002fa5dbdc12a88bac5dc7034a200f3452b5125d25fa8b21895500f099f0a9",
+      "dimensions": [
+        1120,
+        760
+      ],
+      "frames": 1,
+      "durationsMs": [
+        null
+      ],
+      "loop": null,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-south-paired-existing-walk-normal.gif",
+      "file_id": "file_00000000bb808230a9297d5f1656426b",
+      "library_file_id": "libfile_a32574b346f08191bf8b3941b35aac71",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-south-paired-existing-walk-normal.gif",
+      "sha256": "29a32fa243360dce30b592731a9c33b51b949777a51f598fd741a3d7a792f734",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-south-paired-existing-walk-slow.gif",
+      "file_id": "file_000000001f308230887f6fe72771841c",
+      "library_file_id": "libfile_babf908397388191866a404c763cb87d",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-south-paired-existing-walk-slow.gif",
+      "sha256": "aa56edeb9d0dddf783f9edeed9cd4875e5cc5a7bfeadbdf481aecdefd34c3d36",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-north-paired-existing-walk-normal.gif",
+      "file_id": "file_00000000825c82309303bfcbf4c39b89",
+      "library_file_id": "libfile_091558fd837c819182055a1b6291b8bd",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-north-paired-existing-walk-normal.gif",
+      "sha256": "1efe579a9b04479b2939e4416a7cb8a59263e762886bbb368b1848a6776a4b77",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-north-paired-existing-walk-slow.gif",
+      "file_id": "file_00000000e7e48230b7d68e836dc2eec8",
+      "library_file_id": "libfile_662c84f683548191950835e18cb38f6c",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-north-paired-existing-walk-slow.gif",
+      "sha256": "18c1c5fc3e2e1610cbcf05d8187d706b3e720f9bc0c4f1b319b33bf757824296",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-west-paired-existing-walk-normal.gif",
+      "file_id": "file_000000004c48820dae7811977d456711",
+      "library_file_id": "libfile_939797a220d08191ab5c50b0d29430e0",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-west-paired-existing-walk-normal.gif",
+      "sha256": "c81621d8be16e16dae550c877260dbfe4e04fb8a2912dd290a92d64b6e6d39b1",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-west-paired-existing-walk-slow.gif",
+      "file_id": "file_0000000015488230836d87dc7e2ff011",
+      "library_file_id": "libfile_db188f6103308191a75b75ab1dc3bc7c",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-west-paired-existing-walk-slow.gif",
+      "sha256": "8a15adccc86fb115d2caf2ce0e2875cae68c7b0e20a568950e961f40adc66363",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-east-paired-existing-walk-normal.gif",
+      "file_id": "file_00000000c89481fdb5a121c271cee912",
+      "library_file_id": "libfile_51f8faf0ed78819183997a7a3abcca19",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-east-paired-existing-walk-normal.gif",
+      "sha256": "dadb6765f33256756d6384a6180cdf48136defccfd7a8f96feba7bdeb0adcdc9",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        70,
+        60,
+        70,
+        70,
+        70,
+        60,
+        70,
+        70
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    },
+    {
+      "file_name": "H4R1-INTERNAL-east-paired-existing-walk-slow.gif",
+      "file_id": "file_0000000011c08230a375b7bfab90b8cd",
+      "library_file_id": "libfile_1473f15cc5388191a2dd9772c8322072",
+      "current_version_number": 0,
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-east-paired-existing-walk-slow.gif",
+      "sha256": "d65e19e03bc977dcafcbdf9fb476f4c60f27773b8d6ca456fde842eda22a1062",
+      "dimensions": [
+        1040,
+        250
+      ],
+      "frames": 8,
+      "durationsMs": [
+        280,
+        240,
+        280,
+        280,
+        280,
+        240,
+        280,
+        280
+      ],
+      "loop": 0,
+      "metadataAppliedAndReadBack": true,
+      "exactDownloadedBytesRGBAFramesHoldsAndLoops": true
+    }
+  ],
+  "uniqueFiles": 12,
+  "animatedFramesVerified": 64
+}

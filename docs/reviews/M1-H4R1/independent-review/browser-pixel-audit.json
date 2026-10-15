@@ -1,0 +1,3554 @@
+{
+  "exactScreenshotPanelComparisons": 288,
+  "panels": [
+    {
+      "capture": "slot-0",
+      "src": "south-A/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "south-A/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "south-A/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "south-A/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "south-A/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "south-A/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "south-A/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "south-A/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "north-A/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "west-A/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-0",
+      "src": "east-A/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "south-A/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "north-A/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "west-A/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-1",
+      "src": "east-A/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-2",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-3",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "south-C/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "north-C/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "west-C/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-4",
+      "src": "east-C/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "south-C/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "north-C/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "west-C/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-5",
+      "src": "east-C/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-6",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "south-P/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "north-P/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "west-P/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "slot-7",
+      "src": "east-P/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/master-hero.png",
+      "rect": [
+        24,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/master-hero.png",
+      "rect": [
+        172,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/master-bald.png",
+      "rect": [
+        284,
+        162,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/master-bald.png",
+      "rect": [
+        432,
+        249,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/native-hero.png",
+      "rect": [
+        544,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/native-hero.png",
+      "rect": [
+        692,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/native-bald.png",
+      "rect": [
+        804,
+        162,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "south-idle/native-bald.png",
+      "rect": [
+        952,
+        249,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/master-hero.png",
+      "rect": [
+        24,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/master-hero.png",
+      "rect": [
+        172,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/master-bald.png",
+      "rect": [
+        284,
+        420,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/master-bald.png",
+      "rect": [
+        432,
+        507,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/native-hero.png",
+      "rect": [
+        544,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/native-hero.png",
+      "rect": [
+        692,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/native-bald.png",
+      "rect": [
+        804,
+        420,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "north-idle/native-bald.png",
+      "rect": [
+        952,
+        507,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/master-hero.png",
+      "rect": [
+        24,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/master-hero.png",
+      "rect": [
+        172,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/master-bald.png",
+      "rect": [
+        284,
+        678,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/master-bald.png",
+      "rect": [
+        432,
+        765,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/native-hero.png",
+      "rect": [
+        544,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/native-hero.png",
+      "rect": [
+        692,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/native-bald.png",
+      "rect": [
+        804,
+        678,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "west-idle/native-bald.png",
+      "rect": [
+        952,
+        765,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/master-hero.png",
+      "rect": [
+        24,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/master-hero.png",
+      "rect": [
+        172,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/master-bald.png",
+      "rect": [
+        284,
+        936,
+        96,
+        192
+      ],
+      "scale": 3.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/master-bald.png",
+      "rect": [
+        432,
+        1023,
+        32,
+        64
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/native-hero.png",
+      "rect": [
+        544,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/native-hero.png",
+      "rect": [
+        692,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/native-bald.png",
+      "rect": [
+        804,
+        936,
+        96,
+        192
+      ],
+      "scale": 6.0,
+      "exactPixels": true
+    },
+    {
+      "capture": "idle",
+      "src": "east-idle/native-bald.png",
+      "rect": [
+        952,
+        1023,
+        16,
+        32
+      ],
+      "scale": 1.0,
+      "exactPixels": true
+    }
+  ],
+  "liveCoverage": {
+    "1": {
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "west": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "east": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "4": {
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "west": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "east": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    }
+  },
+  "liveSamples": 96,
+  "errors": [],
+  "storage": {
+    "local": 0,
+    "session": 0
+  },
+  "qualification": "Exact all-slot screenshots and observed live DOM coverage; visual screenshots inspected separately. No claim of uninterrupted human viewing or real device test."
+}

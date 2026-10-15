@@ -1,0 +1,78 @@
+{
+  "sourceSHA": "2c8fa4fef4c6872b05fce294a82b09f873876a6e",
+  "scope": "PRIVATE parent inspection only; not accepted art or main-user draft relay",
+  "files": [
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/four-direction-idles.png",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-four-direction-idles.png",
+      "file_name": "H4R1-INTERNAL-four-direction-idles.png",
+      "sha256": "9d82d39c72a8f0a8a854e709b4bbb8811087ad16c694030d9f3233c58ae4fe3a"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/north-before-after.png",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-north-before-after.png",
+      "file_name": "H4R1-INTERNAL-north-before-after.png",
+      "sha256": "5ccb0b6a7b004e2619019bc459a1364cdad34777c8d0b1f40254e7390155cab0"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/all-direction-poses.png",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-all-direction-poses.png",
+      "file_name": "H4R1-INTERNAL-all-direction-poses.png",
+      "sha256": "53aa0c05d9c9aebd271d5c9b2aec29cece08cb193b22356b8b391b0e3f5b8c06"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/countable-idle-grid.png",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-countable-idle-grid.png",
+      "file_name": "H4R1-INTERNAL-countable-idle-grid.png",
+      "sha256": "35002fa5dbdc12a88bac5dc7034a200f3452b5125d25fa8b21895500f099f0a9"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/south-paired-existing-walk-normal.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-south-paired-existing-walk-normal.gif",
+      "file_name": "H4R1-INTERNAL-south-paired-existing-walk-normal.gif",
+      "sha256": "29a32fa243360dce30b592731a9c33b51b949777a51f598fd741a3d7a792f734"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/south-paired-existing-walk-slow.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-south-paired-existing-walk-slow.gif",
+      "file_name": "H4R1-INTERNAL-south-paired-existing-walk-slow.gif",
+      "sha256": "aa56edeb9d0dddf783f9edeed9cd4875e5cc5a7bfeadbdf481aecdefd34c3d36"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/north-paired-existing-walk-normal.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-north-paired-existing-walk-normal.gif",
+      "file_name": "H4R1-INTERNAL-north-paired-existing-walk-normal.gif",
+      "sha256": "1efe579a9b04479b2939e4416a7cb8a59263e762886bbb368b1848a6776a4b77"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/north-paired-existing-walk-slow.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-north-paired-existing-walk-slow.gif",
+      "file_name": "H4R1-INTERNAL-north-paired-existing-walk-slow.gif",
+      "sha256": "18c1c5fc3e2e1610cbcf05d8187d706b3e720f9bc0c4f1b319b33bf757824296"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/west-paired-existing-walk-normal.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-west-paired-existing-walk-normal.gif",
+      "file_name": "H4R1-INTERNAL-west-paired-existing-walk-normal.gif",
+      "sha256": "c81621d8be16e16dae550c877260dbfe4e04fb8a2912dd290a92d64b6e6d39b1"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/west-paired-existing-walk-slow.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-west-paired-existing-walk-slow.gif",
+      "file_name": "H4R1-INTERNAL-west-paired-existing-walk-slow.gif",
+      "sha256": "8a15adccc86fb115d2caf2ce0e2875cae68c7b0e20a568950e961f40adc66363"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/east-paired-existing-walk-normal.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-east-paired-existing-walk-normal.gif",
+      "file_name": "H4R1-INTERNAL-east-paired-existing-walk-normal.gif",
+      "sha256": "dadb6765f33256756d6384a6180cdf48136defccfd7a8f96feba7bdeb0adcdc9"
+    },
+    {
+      "sourcePath": "docs/reviews/M1-H4R1/east-paired-existing-walk-slow.gif",
+      "localPath": "docs/reviews/M1-H4R1/private-parent-review/H4R1-INTERNAL-east-paired-existing-walk-slow.gif",
+      "file_name": "H4R1-INTERNAL-east-paired-existing-walk-slow.gif",
+      "sha256": "d65e19e03bc977dcafcbdf9fb476f4c60f27773b8d6ca456fde842eda22a1062"
+    }
+  ]
+}
