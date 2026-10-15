@@ -1,5 +1,9 @@
 # Project status
 
+## DS3 single native side idle — awaiting parent internal construction review
+
+Parent rejected DS2's elongated face. [Separate DS3 diagnosis/native proof](reviews/M1-DS3/README.md) restores compact11-row head height (crown11, eyes17..18, chin21) and projects the shoulder behind it from19, with coral garment beside the jaw rather than an added tan face row. One16×32Westidle only; row23 downward, relaxed palm and sole exactDS2. Writer and Eutychus actually inspected the native silhouette, original comparisons and actual baseline-aligned source crop. Eutychus permits returning this restricted checkpoint to parent, not visual acceptance or expansion. Frozen; no32×64, front/back/East/walk, creator, main-user delivery or deployment. Root owns authorized private INTERNAL plate transfer/receipt; source-colored comparison outside Git. Main; source/docs commit and push follow; prior DS1/DS2/creator/artifacts and parked edits preserved. Next: actual PARENT construction judgment.
+
 ## DS2 private parent transfer — construction review pending
 
 Parent clarified that withholding rough drafts from main user delivery does not cancel authorized private review transfer. [Two frozen INTERNAL construction plates](reviews/M1-DS2/private-parent-review/README.md) are saved to Library once at version zero and downloaded byte/RGBA exact, for parent's actual inspection. Source `1b8314ddfd9ff12fecd92bc372dada2a512191e2` remains frozen: only native16×32 West/South/North idles, no refinement or pose rollout. The credited source crop remains outside Git. Exact next action: parent inspects these actual Library files and gives construction feedback. No main-user draft delivery, new artwork, creator work or public deployment is authorized by this transfer. Prior rejected DS1 copies/identities, existing Hero/creator files, live game and saves unchanged. Root receipt-only commit/push; parked edits preserved.
