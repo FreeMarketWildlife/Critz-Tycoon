@@ -1,0 +1,26 @@
+{
+  "task": "M1.GH1 bounded FRONT wrist material correction",
+  "sourceCommit": "5f452efc24b0402f9f986aaa228b955dfa0f4f47",
+  "verifiedOriginMain": "5f452efc24b0402f9f986aaa228b955dfa0f4f47",
+  "changedColorCells": 27,
+  "checks": {
+    "baselinePixel": 29,
+    "boundedCorrectionAssertions": 6,
+    "actualSpriteEditorProjects": 2
+  },
+  "hashes": {
+    "docs/reviews/M1-GH1/girl-front-idle.png": "18c60508c6bfc176bd880df42324a1a1227df41a34bb40e383782ea8bb56f14d",
+    "docs/reviews/M1-GH1/girl-front-construction.png": "6905e80cb5da7df2c7d666227f88c13a1b7fc55bea44bbee602e72296109b21f",
+    "docs/reviews/M1-GH1/front-head-ears-join.png": "355371f596c44b9e3c36d785d9a528cf04ec1e6adb452ebd3a3d6047fc05960d",
+    "docs/reviews/M1-GH1/front-native-light-dark.png": "aa1097c0e636ac4ad1766c3d09df2385ed6592c729100a3c60840330e069af24",
+    "docs/reviews/M1-GH1/front-feature-material-masks.png": "ac5c06a5d41b4447e4ec6a9e64bae9cd3346cb6c0c2877977c2c5079194b5af0",
+    "docs/reviews/M1-GH1/front-world-context.png": "0139fa055f7994093c568d9077e85bfe4871f6b7990fca3fc7e97e9ad1bf7a2a",
+    "docs/reviews/M1-GH1/wrist-correction/source-before-after-actual-masks.png": "efa703fd0706a604daa57ca6b5b2d0f265fbea5a663b6002965b89bc44d5602b",
+    "docs/reviews/M1-GH1/wrist-correction/before-after-region-materials.png": "81506734dd8896c125e2d9a8e657970706b4c317d633a66ab212979a8b38f640"
+  },
+  "Library": "Root six existing identities/version0 retained; guarded replacement pending independent review",
+  "approval": "No final appearance approval; directional continuation denied",
+  "runtimeSaveDeployment": "unchanged; no deployment",
+  "remainingChanges": "Only preserved four shared-document and parked HR11 edits",
+  "nextAction": "Independent current front wrist material review"
+}
