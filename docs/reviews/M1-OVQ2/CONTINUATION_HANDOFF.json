@@ -12,7 +12,9 @@
   "reproduction": "/Users/tanoshi/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 docs/reviews/M1-OVQ2/audit.py",
   "checksPassed": 223,
   "checksFailed": 0,
-  "currentConcreteIdleBlockers": [],
+  "currentConcreteIdleBlockers": ["Source-facing addendum: Mom profile cream torso material reads as isolated forward patch; recommend one bounded material-integration correction before walking, pending root decision"],
+  "sourceFacingAddendum": "docs/reviews/M1-OVQ2/SOURCE-FACING-ADDENDUM.md",
+  "walkingCandidateRecommendations": {"girl": "candidate-ready for root decision only", "mom": "one bounded cream-top material correction recommended", "nugget": "candidate-ready for root decision only"},
   "qualifications": [
     "No appearance or M1 acceptance inferred; root and user retain their review gates",
     "RD1 fan frame2 is passing, not idle or side/back proof; internal segmentation remains provisional",

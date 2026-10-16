@@ -1,0 +1,318 @@
+{
+  "task": "M1.OVC1",
+  "referenceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "method": "Actual primary source idle0South/1North/2West; index0 transparent, exact2x whole frame. Candidate native32x64; no fitting. Matching contact61/anchor16,64. Color display3x and silhouettes2x, integer nearest.",
+  "spriteEdits": false,
+  "pairs": [
+    {
+      "character": "Girl Hero",
+      "reference": "May",
+      "facing": "south",
+      "index": 0,
+      "sourceSHA256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87",
+      "candidate": "docs/reviews/M1-OGH2/south/idle.png",
+      "candidateSHA256": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+      "referenceBoundsNormalized": [
+        2,
+        22,
+        30,
+        62
+      ],
+      "candidateBounds": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        16,
+        16,
+        8,
+        8
+      ],
+      "candidateLowerWidths58to61": [
+        18,
+        16,
+        12,
+        8
+      ]
+    },
+    {
+      "character": "Girl Hero",
+      "reference": "May",
+      "facing": "west",
+      "index": 2,
+      "sourceSHA256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87",
+      "candidate": "docs/reviews/M1-OGH2/west/idle.png",
+      "candidateSHA256": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+      "referenceBoundsNormalized": [
+        4,
+        22,
+        32,
+        62
+      ],
+      "candidateBounds": [
+        5,
+        21,
+        31,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        14,
+        14,
+        10,
+        10
+      ],
+      "candidateLowerWidths58to61": [
+        12,
+        14,
+        13,
+        10
+      ]
+    },
+    {
+      "character": "Girl Hero",
+      "reference": "May",
+      "facing": "north",
+      "index": 1,
+      "sourceSHA256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87",
+      "candidate": "docs/reviews/M1-OGH2/north/idle.png",
+      "candidateSHA256": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+      "referenceBoundsNormalized": [
+        2,
+        22,
+        30,
+        62
+      ],
+      "candidateBounds": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        16,
+        16,
+        8,
+        8
+      ],
+      "candidateLowerWidths58to61": [
+        18,
+        16,
+        12,
+        8
+      ]
+    },
+    {
+      "character": "Mom",
+      "reference": "Mom",
+      "facing": "south",
+      "index": 0,
+      "sourceSHA256": "a404a3c79252a6a13e10622307c3bce4c76c1e1a39814b7c7a11ad7520442289",
+      "candidate": "docs/reviews/M1-OM2/idle-south.png",
+      "candidateSHA256": "68be2c945bb1e1368e7c222f5b81f48b87822a921d3181c04dfa8ef95160496c",
+      "referenceBoundsNormalized": [
+        0,
+        22,
+        32,
+        62
+      ],
+      "candidateBounds": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        16,
+        16,
+        8,
+        8
+      ],
+      "candidateLowerWidths58to61": [
+        18,
+        16,
+        12,
+        8
+      ]
+    },
+    {
+      "character": "Mom",
+      "reference": "Mom",
+      "facing": "west",
+      "index": 2,
+      "sourceSHA256": "a404a3c79252a6a13e10622307c3bce4c76c1e1a39814b7c7a11ad7520442289",
+      "candidate": "docs/reviews/M1-OM2/idle-west.png",
+      "candidateSHA256": "2829df6ac17b4cded39737c36d86dadc36e0bc20ca31bb47282d753b76622b31",
+      "referenceBoundsNormalized": [
+        4,
+        22,
+        28,
+        62
+      ],
+      "candidateBounds": [
+        4,
+        20,
+        28,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        10,
+        10,
+        6,
+        6
+      ],
+      "candidateLowerWidths58to61": [
+        11,
+        11,
+        10,
+        6
+      ]
+    },
+    {
+      "character": "Mom",
+      "reference": "Mom",
+      "facing": "north",
+      "index": 1,
+      "sourceSHA256": "a404a3c79252a6a13e10622307c3bce4c76c1e1a39814b7c7a11ad7520442289",
+      "candidate": "docs/reviews/M1-OM2/idle-north.png",
+      "candidateSHA256": "aa6715f4cb7185edc7c73d8247a87e89eb43861a133cf8fded94bd9248a92df3",
+      "referenceBoundsNormalized": [
+        0,
+        22,
+        32,
+        62
+      ],
+      "candidateBounds": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        16,
+        16,
+        8,
+        8
+      ],
+      "candidateLowerWidths58to61": [
+        18,
+        16,
+        12,
+        8
+      ]
+    },
+    {
+      "character": "Nugget",
+      "reference": "Birch",
+      "facing": "south",
+      "index": 0,
+      "sourceSHA256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15",
+      "candidate": "docs/reviews/M1-ON2/south-idle.png",
+      "candidateSHA256": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+      "referenceBoundsNormalized": [
+        0,
+        22,
+        32,
+        62
+      ],
+      "candidateBounds": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        20,
+        20,
+        12,
+        12
+      ],
+      "candidateLowerWidths58to61": [
+        18,
+        16,
+        12,
+        8
+      ]
+    },
+    {
+      "character": "Nugget",
+      "reference": "Birch",
+      "facing": "west",
+      "index": 2,
+      "sourceSHA256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15",
+      "candidate": "docs/reviews/M1-ON2/west-idle.png",
+      "candidateSHA256": "97007bbbdd17a018d89e7d8181eb6211357587e24b69b93dc57a3c1ba4152e50",
+      "referenceBoundsNormalized": [
+        4,
+        22,
+        32,
+        62
+      ],
+      "candidateBounds": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        14,
+        14,
+        10,
+        10
+      ],
+      "candidateLowerWidths58to61": [
+        11,
+        13,
+        13,
+        9
+      ]
+    },
+    {
+      "character": "Nugget",
+      "reference": "Birch",
+      "facing": "north",
+      "index": 1,
+      "sourceSHA256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15",
+      "candidate": "docs/reviews/M1-ON2/north-idle.png",
+      "candidateSHA256": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748",
+      "referenceBoundsNormalized": [
+        0,
+        22,
+        32,
+        62
+      ],
+      "candidateBounds": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "referenceLowerWidths58to61": [
+        20,
+        20,
+        12,
+        12
+      ],
+      "candidateLowerWidths58to61": [
+        18,
+        16,
+        12,
+        8
+      ]
+    }
+  ],
+  "recommendations": {
+    "Girl Hero": "Candidate-ready for a separate bounded walking decision; no shared perspective redraw proven.",
+    "Mom": "One material integration correction before walking: continuous inset blouse/cardigan plane rather than isolated outlined cream lobe; preserve torso/hand/shoe envelope and height. Original design proposal, not source anatomy proof.",
+    "Nugget": "Candidate-ready for separate bounded walking decision; no new idle blocker; motion untested."
+  },
+  "board": {
+    "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-source-comparison/reference-candidate-idles.png",
+    "sha256": "a16ee88c8ba7c9ff817f5c83e06f754da5e9ad59b7f6a2fa63669c2fea8232c9",
+    "dimensions": [
+      880,
+      1320
+    ]
+  }
+}
