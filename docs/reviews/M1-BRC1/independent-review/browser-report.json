@@ -1,0 +1,123 @@
+[
+  {
+    "engine": "chromium",
+    "name": "exact seed/14parts/character-relative directions",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "native reference/dummy/label rasters exact; layer opacity non-destructive",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "one native pixel at zoom1/3/6 and canvas corners",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "continuous stroke undo/redo is atomic; unassigned erases",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "synthetic two-pointer pinch cancels tentative dot/history",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "Copy success/denied fallback selectable exact2048 text",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "source mismatch import rejected; valid full-label import/undo roundtrip",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "download backup exactly preserves labels/identities",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "reset cancel/confirm and undo",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "autosave exact; stale source rejected; ordinary save/layout unchanged",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "responsive320/390 desktop; integer sharp zoom and reachable actions",
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "name": "zero page errors",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "exact seed/14parts/character-relative directions",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "native reference/dummy/label rasters exact; layer opacity non-destructive",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "one native pixel at zoom1/3/6 and canvas corners",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "continuous stroke undo/redo is atomic; unassigned erases",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "synthetic two-pointer pinch cancels tentative dot/history",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "Copy success/denied fallback selectable exact2048 text",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "source mismatch import rejected; valid full-label import/undo roundtrip",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "download backup exactly preserves labels/identities",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "reset cancel/confirm and undo",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "autosave exact; stale source rejected; ordinary save/layout unchanged",
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "name": "responsive320/390 desktop; integer sharp zoom and reachable actions",
+    "pass": true,
+    "verification": "Targeted fresh WebKit rerun; skips intentionally hidden desktop reset-layout control. 320/390 fit, actual actions and integer canvas pass."
+  },
+  {
+    "engine": "webkit",
+    "name": "zero page errors",
+    "pass": true
+  }
+]

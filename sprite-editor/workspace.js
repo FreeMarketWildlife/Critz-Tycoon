@@ -1,7 +1,7 @@
 // Dock sizes/visibility are UI preferences, isolated from sprite and game saves.
-export function createWorkspace({onResize, onAnimationCollapse}) {
+export function createWorkspace({onResize, onAnimationCollapse, storageKey='fmw.sprite-editor.layout.v1', defaultSections=['palette-panel','reference-panel']}) {
   const $=id=>document.getElementById(id),root=$('workspace');
-  const KEY='fmw.sprite-editor.layout.v1';
+  const KEY=storageKey;
   const defaults=()=>({tools:true,inspector:innerWidth>=900,animation:false,toolsWidth:58,inspectorWidth:290,timelineHeight:185,sections:{}});
   let state=defaults(),focusSnapshot=null,drag=null,persistTimer;
   try {const saved=JSON.parse(localStorage.getItem(KEY));if(saved&&typeof saved==='object'){
@@ -25,7 +25,7 @@ export function createWorkspace({onResize, onAnimationCollapse}) {
   for(const key of ['tools','inspector','animation'])$('toggle-'+key).onclick=()=>toggle(key);
   $('collapse-animation').onclick=()=>toggle('animation');$('close-inspector').onclick=()=>{if(state.inspector)toggle('inspector');};
   $('focus-mode').onclick=()=>{if(focusSnapshot){state=focusSnapshot;focusSnapshot=null;}else{focusSnapshot=structuredClone(state);state={...state,tools:false,inspector:false,animation:false};onAnimationCollapse();}apply();};
-  $('reset-layout').onclick=()=>{focusSnapshot=null;state=defaults();for(const d of document.querySelectorAll('.inspector details'))d.open=['palette-panel','reference-panel'].includes(d.id);apply();};
+  $('reset-layout').onclick=()=>{focusSnapshot=null;state=defaults();for(const d of document.querySelectorAll('.inspector details'))d.open=defaultSections.includes(d.id);apply();};
   for(const d of document.querySelectorAll('.inspector details')){
     if(typeof state.sections[d.id]==='boolean')d.open=state.sections[d.id];
     d.addEventListener('toggle',()=>{state.sections[d.id]=d.open;if(focusSnapshot)focusSnapshot.sections[d.id]=d.open;save();});

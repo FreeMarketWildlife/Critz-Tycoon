@@ -1,5 +1,9 @@
 # Reference measurements — Emerald exploration
 
+## BRC1 publication scope
+
+The user directly approved public delivery of the supplied Brendan reference and current RD1 dummy inside the updated sprite editor on October 15, 2026. The approved bundled seed retains the existing reference hashes, source frame and RD1 registration unchanged; prior external-only notes remain historical for other review files.
+
 ## RD1 actual fan-frame body-mask target
 
 Pinned supplied GIF5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e, frame2, exact left128×192 display-block÷4→32×48 then(0,+16) registration. Source-posed passing target, not idle. [Exact row/mask evidence](../art/source/reference-dummy-r1/construction.json) records338occupied cells45+, face/ear alpha36..45, pupil sitesx12..13/18..19,y38..41 and lastcontact61[9,13)+[19,23). RD1 original flat dummy has XOR0 at45+,46+,shoes58+; only covered skull above36 changes. Internal part labels/dividers and rounded crown25 are explicitly original proposals, not measured hidden anatomy or exact source material-contour tracing. Reference-bearing raster remains external to Git/build; no primary-sprite substitute or emulator claim.

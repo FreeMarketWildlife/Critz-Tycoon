@@ -1,5 +1,22 @@
 # Free Market Wildlife Sprite Editor
 
+## Body-region corrections — M1.BRC1
+
+Open **Body regions** in the existing editor, or `/sprite-editor/?mode=body-regions`. This mode labels the frozen RD1 front template; it does not edit the Hero or reopen the character creator. The existing canvas, viewport, docks, grid and sharp integer zoom are retained. Ordinary drawing mode keeps its existing tools and project format.
+
+The editor preloads the user-approved supplied reference, frozen dummy and labels from `assets/body-regions-seed.json`. Publication of these exact assets on the existing public Critz Tycoon website was directly authorized on October 15, 2026. No external reference fetch or local preparation is needed. **Load seed file** can also open a saved seed JSON.
+
+For reproducibility, `python3 scripts/prepare-body-region-review.py` (Pillow required) verifies the pinned supplied GIF and dummy, then writes the original seed under ignored `local-review/`. The published seed is a byte-for-byte copy of that verified input. Other private review files remain outside production inputs.
+
+- The reference, RD1 dummy and region labels are separate fixed-registration layers, each with visibility and opacity controls. The initial view draws the RD1 dummy at 100%, the reference above it at 40%, and labels above both at 60%. No dragging, scaling or raster editing changes their registration.
+- Choose one of 14 swatches: unassigned, head, ears, eyes, torso, pelvis, and separate left/right arms, hands, legs and shoes. Here left/right is **character-relative: character left is screen right in the front view**. The ordinary editor's older skeleton guide retains its own screen-relative convention.
+- Paint one native pixel per brush point, including transparent canvas cells. A drag is one undoable stroke. Eraser sets unassigned; Undo/Redo operate on strokes, imports and resets. Pan/Space-drag, two-finger navigation, integer zoom and Fit move the view. A second touch cancels the tentative first-finger paint before navigation. Arrow keys move a keyboard cursor; Enter paints.
+- **Copy Corrections** opens selectable JSON even when clipboard access fails. On iPhone Safari, use **Select all** and the system Copy command. **Download backup** saves the same data. Corrections contain all 2,048 labels in row-major order from the top-left (`index = y * 32 + x`), schema/version, dimensions, seed/source identities, registration and part definitions. They contain no reference/dummy raster.
+- **Import** accepts pasted JSON or a downloaded backup. It validates the complete array, IDs, dimensions, schema, source identities and registration before changing any labels. Import is undoable; malformed/mismatched data leaves the current map intact. **Reset labels…** requires confirmation and restores the original seed map, also undoably.
+- Label autosaves use `fmw.sprite-editor.body-regions.v1:<seedId>` and contain the same source-bound correction JSON. Layout uses `fmw.sprite-editor.body-regions.v1.layout`. Neither changes ordinary `fmw.sprite-editor.v1` projects, ordinary layout preferences or game saves. Unavailable storage is reported with a backup instruction. Reference rasters remain in memory and must be reloaded on reopening.
+
+Editor publication is authorized; sprite appearance approval and character-creator work remain separate. Model regression tests are in `tests/body-regions.test.mjs`; independent browser evidence is recorded in `docs/reviews/M1-BRC1/independent-review/`.
+
 ## Reference and colors (revision 08)
 
 - **Reference → Copy reference** paints the positioned/cropped reference onto the active frame with full opacity and exact sampled colors. Transparent cells preserve existing artwork. Other frames are unchanged; Undo restores the edit. The overlay hides afterward. Copy uses the entire reference footprint, independent of drawing locks.

@@ -6,3 +6,6 @@ __pycache__/
 *.py[cod]
 ._*
 generated_images/
+
+# Local/private review inputs; approved public assets are copied explicitly.
+/local-review/

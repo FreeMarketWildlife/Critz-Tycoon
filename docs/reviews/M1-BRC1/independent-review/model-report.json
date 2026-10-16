@@ -1,0 +1,26 @@
+[
+  {
+    "name": "actual seeded sources and character-relative mapping",
+    "pass": true
+  },
+  {
+    "name": "export/import all labels and metadata roundtrip; compact payload",
+    "pass": true
+  },
+  {
+    "name": "malformed, truncated, invalid label/dimension/source/registration imports rejected",
+    "pass": true
+  },
+  {
+    "name": "stroke undo/redo and replacement exactly restore all2048 pixels",
+    "pass": true
+  },
+  {
+    "name": "zoom-scaled coordinate mapping; borders never spill into next cell",
+    "pass": true
+  },
+  {
+    "name": "sparse label arrays fail complete per-pixel contract",
+    "pass": true
+  }
+]

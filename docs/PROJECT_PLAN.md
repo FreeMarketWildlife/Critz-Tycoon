@@ -1,5 +1,9 @@
 ## Active M1.RD1 — source-posed front dummy, exact visible body
 
+## Active M1.BRC1 — publish the approved correction editor
+
+Direct user approval authorizes the existing public website to serve the updated sprite editor with its supplied Brendan reference and current RD1 dummy. Package only the editor/assets over the current live build, verify source-bound correction copy/import and phone-size rendering, then return the public `/sprite-editor/?mode=body-regions` route. This does not reopen creator implementation or approve gameplay sprite appearance.
+
 Direct Phil instruction replaces NF1 geometry target with actual fan-GIF frame2 visible body. [Flat named-region dummy and exact source silhouette evidence](reviews/M1-RD1/README.md) are complete for one posed front, only rounded skull reconstructed; no garment-thickness subtraction. All338body cells45+/face/eyes/fullshoes registered, body-XOR0. Root actual native/enlarged overlay/regions and27independent checks find no concrete body-mask blocker, not appearance approval. Source frozen for selective owned commit/push and one private parent reference/dummy/overlay checkpoint. NF1/Hero/West/history preserved; no otherposes/16/animation/creator/runtime/deploy.
 
 ## Active M1.NF1 — corrected front only, private judgment next

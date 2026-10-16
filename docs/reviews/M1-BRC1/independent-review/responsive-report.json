@@ -1,0 +1,33 @@
+[
+  {
+    "engine": "chromium",
+    "pass": true,
+    "widths": [
+      1024,
+      1366
+    ],
+    "desktopResetOpensBodyPanels": true,
+    "actualClipboardChanged": false,
+    "defaultComposition": {
+      "maxError": 0.5600000000000307,
+      "count": 743
+    },
+    "exactReferenceDummyRasters": true
+  },
+  {
+    "engine": "webkit",
+    "pass": true,
+    "widths": [
+      320,
+      390,
+      430
+    ],
+    "desktopResetOpensBodyPanels": false,
+    "actualClipboardChanged": false,
+    "defaultComposition": {
+      "maxError": 0.5600000000000307,
+      "count": 743
+    },
+    "exactReferenceDummyRasters": true
+  }
+]
