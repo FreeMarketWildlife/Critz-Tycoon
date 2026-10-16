@@ -1,3 +1,8 @@
+## M1.MIR1 — focused editor tool; character work paused
+
+Complete the requested left-toolbar Mirror Y toggle for subsequent pixel/label edits, meaningful Undo/Redo and mobile touch checks, then publish only this editor overlay to the existing public site. Preserve actual assets, labels and saves. Girl/Mom/Nugget art, animation, QA and integration are stopped until Phil provides his own dummy corrections and new direction. [Mirror evidence](reviews/M1-MIR1/README.md).
+
+
 ## Awaiting parent review M1.OWR2 — corrected three-character walking studies
 
 The locally retained ten-file private packet contains Girl, Nugget and Mom normal/slow native+4× cycles, phase strips and the actual Birch/initial/corrected Nugget comparison. Girl's far-toe cue and Nugget's original dark far-shoe wedge received bounded corrections; Mom's continuous inset was reviewed before separately authorized walking. Final current PNGs/GIFs are pinned to actual root/independent sampled playback and exact downloaded Library bytes. Earlier OWR1 holds and initial recommendations remain historical, superseded here. Next: actual parent motion judgment and Phil feedback; no automatic redraw, creator restart, runtime/save adoption or deployment. Live v61 unchanged.

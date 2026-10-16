@@ -1,0 +1,23 @@
+{
+  "baseline": "Exact public v61 archive",
+  "candidate": "Exact supported Sites helper archive",
+  "baselineFiles": 5902,
+  "candidateFiles": 5903,
+  "protectedFiles": 5896,
+  "changedProtectedFiles": [],
+  "missingProtectedFiles": [],
+  "changedEditorFiles": [
+    "dist/sprite-editor/README.md",
+    "dist/sprite-editor/body-regions-model.js",
+    "dist/sprite-editor/body-regions.js",
+    "dist/sprite-editor/editor.css",
+    "dist/sprite-editor/editor.js",
+    "dist/sprite-editor/index.html"
+  ],
+  "added": [
+    "dist/sprite-editor/mirror.js"
+  ],
+  "payloadBytes": 254475975,
+  "candidateSHA256": "fffcd5ace68d38af28137debde9d7779ff6c6713ec5805d53cbc5800ca5c8b88",
+  "sitesSource": "f444c91aaf5e1bd29878deb640872b4a22e85b06"
+}

@@ -1,5 +1,10 @@
 # Project status
 
+## M1.MIR1 — left-toolbar mirror editing tested; publication next
+
+Phil explicitly requests subsequent drawing, erasing and body-region edits mirrored across the vertical Y axis. The new icon beneath left tool options starts Off, shows On/Off and accessible pressed state, and uses x′ = width − 1 − x with one visit for odd center columns. Freehand/eraser, line, box, flood fill and shade/lighten mirror; label brush/erase/keyboard use the same selected ID on both sides. A stroke and its reflection share Undo/Redo; enabling does not alter existing content. Pan/picker/import/reference copy retain their existing role. Model tests and actual isolated Chrome desktop/390px plus WebKit320px touch/UI checks pass; screenshots actually inspected, physical phone untested. [Source-free evidence](reviews/M1-MIR1/README.md). Existing source seed/assets and save keys remain exact. Publish only the tested editor overlay through the existing public Sites project; verified version/commit follow in final receipt. All character generation, animation, corrections and QA remain STOPPED after Phil's rejection pending his dummy corrections; this editor request does not reopen them. Parked edits preserved.
+
+
 ## M1.OWR2 — corrected three-character walking packet awaiting parent judgment
 
 [Current source-free review checkpoint](reviews/M1-OWR2/independent-review/README.md) supersede OWR1's Girl hold and initial Nugget recommendation. All three authorized studies are ready for actual parent playback judgment. Girl's bounded far-toe darkening reduces the double-bright shoe cue while preserving full masks and idle anchors. Nugget's rejected wedge came from original duplicated full-shoe completion and low-contrast recoloring, not a traced Birch contour or stretching; corrected far-only travel and gray upper reduce the bar while preserving the entire near shoe and all core layers. Mom walking was separately authorized after the continuous cream inset review; the inset remains rigid and coherent through the source-derived vertical bob.

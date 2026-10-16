@@ -1,3 +1,4 @@
+import {mirrorPoints} from './mirror.js';
 // Labels only: source rasters and registration are never edited or included in corrections.
 export const WIDTH=32, HEIGHT=64, SIZE=WIDTH*HEIGHT;
 export const STORAGE='fmw.sprite-editor.body-regions.v1';
@@ -62,7 +63,7 @@ export function createLabelModel(initial){
  return{
   get labels(){return labels.slice();},get undoCount(){return undo.length;},get redoCount(){return redo.length;},
   begin(){end();stroke=new Map();},
-  paint(x,y,id){if(!stroke)fail('Start a stroke before painting.');if(!Number.isInteger(id)||id<0||id>=PART_IDS.length)fail('Unknown label.');if(!Number.isInteger(x)||!Number.isInteger(y)||x<0||y<0||x>=WIDTH||y>=HEIGHT)return;const i=y*WIDTH+x;if(!stroke.has(i))stroke.set(i,labels[i]);labels[i]=id;},
+  paint(x,y,id,mirror=false){if(!stroke)fail('Start a stroke before painting.');if(!Number.isInteger(id)||id<0||id>=PART_IDS.length)fail('Unknown label.');if(!Number.isInteger(x)||!Number.isInteger(y)||x<0||y<0||x>=WIDTH||y>=HEIGHT)return;for(const [px,py]of mirrorPoints(WIDTH,x,y,mirror)){const i=py*WIDTH+px;if(!stroke.has(i))stroke.set(i,labels[i]);labels[i]=id;}},
   end,
   cancel(){if(!stroke)return false;for(const [i,v]of stroke)labels[i]=v;stroke=null;return true;},
   undo(){end();if(!undo.length)return false;const delta=undo.pop();redo.push(delta.map(([i,v])=>{const next=[i,labels[i]];labels[i]=v;return next;}));return true;},

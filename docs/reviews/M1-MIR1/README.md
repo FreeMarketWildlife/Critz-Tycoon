@@ -1,0 +1,11 @@
+# M1.MIR1 — mirror subsequent edits across the vertical Y axis
+
+Requested icon is beneath the existing left tool options. The supplied 36×38 screenshot was materialized through Library and actually inspected; original inline SVG uses paired curves and dashed centerline. Mirror Y defaults Off per page load, has explicit On/Off text, pressed state and accessible label, and a 64px-high touch target. Enabling never edits existing pixels/labels.
+
+Shared mirrorPoints uses width−1−x, returning the odd-width center once. Ordinary pencil/eraser/line/box/shade/lighten and fill mirror actual marks, independently respecting editing locks. Fill uses the original region then mirrors those written pixels. Body-region pointer/right-click eraser/keyboard Enter mirror the same selected label, not auto-swapped semantic IDs. All reflected writes belong to one stroke history. Navigation, picker, whole-project imports/reference copying/global replacements retain their original purpose.
+
+36 focused unit checks pass. Six isolated actual browser cases pass: Chrome desktop1400, Chrome portrait390, WebKit portrait320, each ordinary and region modes. Tested both edges, mirror off, no change on enable, draw/erase, drag, single Undo/Redo, ordinary line/box/fill and odd-center shading. Actual touch taps used on portrait contexts. Synthetic game-save sentinel unchanged; zero page errors. Existing ordinary-editor regression suite also passes animation/import/export/reference/autosave/touch/layout scenarios. No physical-phone claim.
+
+Actual desktop and portrait screenshots were viewed; button is left of the canvas, clear and unobstructed. Source-bearing screenshots stay ignored under local-review/mirror-editor, not in Git or build. Browser test is reproducible via tests/sprite-mirror-browser.mjs and source-free local-browser.json records bounds/results. The approved source/reference/dummy/label seed is unchanged. Existing v61 production archive is the baseline; only editor files are overlaid, with protected-file proof in production-preservation.json.
+
+Source/Git and deployment receipt follow after publication. No character artists were restarted. Character generation, animation, QA, creator and integration remain stopped pending Phil's dummy corrections/new direction.

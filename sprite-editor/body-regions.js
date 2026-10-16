@@ -1,3 +1,4 @@
+import {createMirrorToggle} from './mirror.js';
 import {createWorkspace} from './workspace.js';
 import {line} from './model.js';
 import {WIDTH,HEIGHT,SIZE,STORAGE,validateSeed,createLabelModel,pixelAt,exportCorrections,importCorrections} from './body-regions-model.js';
@@ -7,6 +8,8 @@ const $=id=>document.getElementById(id),canvas=$('canvas'),ctx=canvas.getContext
 document.body.classList.add('body-regions-mode');
 document.title='Body regions · Sprite Editor';
 let seed,model,zoom=6,autoFit=true,active=1,tool='brush',drag=null,space=false,workspace,saveTimer,resizeFrame;
+const mirror=createMirrorToggle(()=>finish());
+const paintLabel=(x,y,id)=>model.paint(x,y,id,mirror.enabled);
 const touches=new Map();let pinch=null;
 const layers={reference:{visible:true,opacity:.4},dummy:{visible:true,opacity:1},labels:{visible:true,opacity:.6}};
 const rasters={};
@@ -85,7 +88,7 @@ canvas.addEventListener('pointerdown',e=>{
  if(e.pointerType==='touch'){touches.set(e.pointerId,{x:e.clientX,y:e.clientY});if(touches.size>=2){if(drag?.kind==='paint')model.cancel();drag=null;render();const [a,b]=[...touches.values()];pinch={distance:Math.hypot(a.x-b.x,a.y-b.y),zoom,mid:{x:(a.x+b.x)/2,y:(a.y+b.y)/2}};return;}}
  if(drag)return;
  if(tool==='pan'||space||e.button===1){drag={kind:'pan',pointer:e.pointerId,x:e.clientX,y:e.clientY,left:view.scrollLeft,top:view.scrollTop};return;}
- const pos=pixelAt(e.clientX,e.clientY,canvas.getBoundingClientRect());if(!pos)return;showCursor=false;model.begin();drag={kind:'paint',pointer:e.pointerId,last:pos,id:tool==='erase'||e.button===2?0:active};model.paint(...pos,drag.id);render();
+ const pos=pixelAt(e.clientX,e.clientY,canvas.getBoundingClientRect());if(!pos)return;showCursor=false;model.begin();drag={kind:'paint',pointer:e.pointerId,last:pos,id:tool==='erase'||e.button===2?0:active};paintLabel(...pos,drag.id);render();
 });
 canvas.addEventListener('pointermove',e=>{
  if(touches.has(e.pointerId))touches.set(e.pointerId,{x:e.clientX,y:e.clientY});
@@ -93,7 +96,7 @@ canvas.addEventListener('pointermove',e=>{
  const pos=pixelAt(e.clientX,e.clientY,canvas.getBoundingClientRect());if(pos){cursor=pos;$('coordinates').textContent=`x ${pos[0]} · y ${pos[1]} (top = 0)`;$('anatomy-hover').textContent=seed?seed.parts[model.labels[pos[1]*WIDTH+pos[0]]].name:'';}
  if(!drag||drag.pointer!==e.pointerId)return;
  if(drag.kind==='pan'){view.scrollLeft=drag.left-(e.clientX-drag.x);view.scrollTop=drag.top-(e.clientY-drag.y);return;}
- if(!pos){drag.last=null;return;}if(drag.last)line(...drag.last,...pos,(x,y)=>model.paint(x,y,drag.id));else model.paint(...pos,drag.id);drag.last=pos;render();
+ if(!pos){drag.last=null;return;}if(drag.last)line(...drag.last,...pos,(x,y)=>paintLabel(x,y,drag.id));else paintLabel(...pos,drag.id);drag.last=pos;render();
 });
 function pointerEnd(e){touches.delete(e.pointerId);if(touches.size<2)pinch=null;if(drag?.pointer===e.pointerId)finish();}
 for(const type of ['pointerup','pointercancel','lostpointercapture'])canvas.addEventListener(type,pointerEnd);
@@ -123,11 +126,11 @@ window.addEventListener('keydown',e=>{
  if(e.target.matches('input,textarea,select')||document.querySelector('dialog[open]'))return;const k=e.key.toLowerCase();
  if(e.metaKey||e.ctrlKey){if(k==='z'||k==='y'){e.preventDefault();$(k==='y'||e.shiftKey?'redo':'undo').click();}if(k==='s'){e.preventDefault();$('br-download').click();}return;}
  if(k===' '){e.preventDefault();space=true;}if(k==='b')setTool('brush');if(k==='e')setTool('erase');if(k==='h')setTool('pan');if(k==='+'||k==='=')setZoom(zoom+1);if(k==='-')setZoom(zoom-1);
- if(e.target===canvas){const delta={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[e.key];if(delta){e.preventDefault();cursor=[Math.max(0,Math.min(WIDTH-1,cursor[0]+delta[0])),Math.max(0,Math.min(HEIGHT-1,cursor[1]+delta[1]))];showCursor=true;render();$('coordinates').textContent=`x ${cursor[0]} · y ${cursor[1]} (top = 0)`;}if(e.key==='Enter'&&model){e.preventDefault();model.begin();model.paint(...cursor,tool==='erase'?0:active);model.end();showCursor=true;changed();}}
+ if(e.target===canvas){const delta={ArrowLeft:[-1,0],ArrowRight:[1,0],ArrowUp:[0,-1],ArrowDown:[0,1]}[e.key];if(delta){e.preventDefault();cursor=[Math.max(0,Math.min(WIDTH-1,cursor[0]+delta[0])),Math.max(0,Math.min(HEIGHT-1,cursor[1]+delta[1]))];showCursor=true;render();$('coordinates').textContent=`x ${cursor[0]} · y ${cursor[1]} (top = 0)`;}if(e.key==='Enter'&&model){e.preventDefault();model.begin();paintLabel(...cursor,tool==='erase'?0:active);model.end();showCursor=true;changed();}}
 });
 window.addEventListener('keyup',e=>{if(e.key===' ')space=false;});window.addEventListener('blur',()=>{space=false;touches.clear();pinch=null;finish();});
 workspace=createWorkspace({storageKey:STORAGE+'.layout',defaultSections:['br-parts-panel','br-layers-panel','br-data-panel'],onResize:()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>autoFit?fit():render());},onAnimationCollapse:()=>{}});
 setTool('brush');render();
 try{const response=await fetch('./assets/body-regions-seed.json',{cache:'no-store'});if(!response.ok)throw Error('Missing source seed');loadSeed(await response.json());}catch(e){$('br-source').textContent='Source seed unavailable. Reload the editor, or use Load seed file to open a saved copy.';status('Source seed unavailable or invalid: '+e.message,true);workspace.showInspector();}
 // QA reads label state, never source raster or ordinary project/browser storage.
-export function getBodyRegionSnapshot(){return{ready:!!model,seedId:seed?.seedId,labels:model?.labels,zoom,tool,active,layers:structuredClone(layers),undo:model?.undoCount,redo:model?.redoCount};}
+export function getBodyRegionSnapshot(){return{ready:!!model,seedId:seed?.seedId,labels:model?.labels,zoom,tool,active,mirror:mirror.enabled,layers:structuredClone(layers),undo:model?.undoCount,redo:model?.redoCount};}

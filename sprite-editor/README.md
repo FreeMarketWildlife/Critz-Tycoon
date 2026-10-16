@@ -1,5 +1,11 @@
 # Free Market Wildlife Sprite Editor
 
+## Mirrored editing — M1.MIR1
+
+The **Mirror Y** icon beneath the left toolbar toggles subsequent edits across the vertical centerline (`x′ = width - 1 - x`). It starts Off on every load and shows On/Off with an accessible pressed state. Turning it on does not alter existing artwork or labels. Pencil, eraser, line, box, shade/lighten and flood-fill marks mirror; both sides independently respect drawing locks. Shade visits each pixel once, including an odd-width center column. Each stroke and its reflection are one Undo/Redo action.
+
+Body-region brush, eraser, right-click erase and keyboard Enter mirror the same selected label to both cells. Semantic left/right label IDs are not automatically exchanged. Two-finger cancellation restores both sides. Pan, eyedropper, whole-image imports, reference copying and global palette replacements retain their existing purpose and do not duplicate or flip existing content. Mirror is a session tool setting, separate from project data, label autosaves and game saves.
+
 ## Body-region corrections — M1.BRC1
 
 Open **Body regions** in the existing editor, or `/sprite-editor/?mode=body-regions`. This mode labels the frozen RD1 front template; it does not edit the Hero or reopen the character creator. The existing canvas, viewport, docks, grid and sharp integer zoom are retained. Ordinary drawing mode keeps its existing tools and project format.

@@ -1,9 +1,11 @@
+import {mirrorPoints,createMirrorToggle} from './mirror.js';
 import {createConstruction} from './construction.js';
 import {createWorkspace} from './workspace.js';
 import {createReferenceEditor} from './reference-editor.js';
 import {PRESETS,TICK_MS,MAX_PIXELS,makeProject,validateProject,readProjectData,isCharacter,usedColors,line,fill,nearest,bounds,describe,gifBytes,paintReference} from './model.js';
 const $=id=>document.getElementById(id),canvas=$('canvas'),ctx=canvas.getContext('2d'),overlay=$('overlay'),og=overlay.getContext('2d'),view=$('viewport');
 const STORAGE='fmw.sprite-editor.v1';
+const mirror=createMirrorToggle(()=>endStroke());
 let autoFit=true,pointerAnchor=null,backgroundPan=null,zoomAnchor=null;
 let banks,allowed,project,frame=0,tool='pencil',color=1,zoom=6,history=[],future=[],stroke=null,space=false,playing=false,playFrame=0,lastTime=0,elapsed=0,saveTimer,renderPending=false;
 const scratch=document.createElement('canvas');
@@ -83,7 +85,7 @@ function setZoom(value,anchor,fromFit=false){
 function fit(){setZoom(Math.max(1,Math.min(12,Math.floor(Math.min((view.clientWidth-64)/project.width,(view.clientHeight-64)/project.height)))),undefined,true);view.scrollLeft=view.clientWidth/2+project.width*zoom/2;view.scrollTop=view.clientHeight/2+project.height*zoom/2;zoomAnchor=null;}
 function position(e){const r=canvas.getBoundingClientRect();return [Math.floor((e.clientX-r.left)/zoom),Math.floor((e.clientY-r.top)/zoom)];}
 function paint(x,y,c){
- const points=$('mirror').checked?[[x,y],[project.width-1-x,y]]:[[x,y]];
+ const points=mirrorPoints(project.width,x,y,mirror.enabled);
  for(const [px,py]of points){
   if(!construction.canEdit(px,py,activePixels()))continue;
   const i=py*project.width+px;
@@ -113,7 +115,7 @@ canvas.addEventListener('pointerdown',e=>{if(e.button!==0&&e.button!==2&&e.butto
  if(tool==='pan'||space||e.button===1){stroke={pan:true,px:e.clientX,py:e.clientY,sx:view.scrollLeft,sy:view.scrollTop};return;}
  if(tool==='picker'||e.altKey){pickAt(x,y);return;}
  const c=tool==='eraser'||e.button===2?0:color;const shade=e.button!==2&&(tool==='shade'?-1:tool==='lighten'?1:0);stroke={before:clone(),start:[x,y],last:[x,y],c,shade,visited:new Set()};
- if(tool==='fill'){fill(activePixels(),project.width,project.height,x,y,c,(a,b)=>construction.canEdit(a,b,activePixels()));if($('mirror').checked)fill(activePixels(),project.width,project.height,project.width-1-x,y,c,(a,b)=>construction.canEdit(a,b,activePixels()));}
+ if(tool==='fill'){const draft=[...activePixels()];fill(draft,project.width,project.height,x,y,c,(a,b)=>construction.canEdit(a,b,activePixels()));draft.forEach((v,i)=>{if(v!==stroke.before.frames[frame].pixels[i])paint(i%project.width,Math.floor(i/project.width),v);});}
  else paint(x,y,c);requestRender();});
 canvas.addEventListener('pointermove',e=>{const [x,y]=position(e);$('coordinates').textContent=`x ${Math.max(0,Math.min(project.width-1,x))} · Y ${project.height-1-Math.max(0,Math.min(project.height-1,y))}`;$('coordinates').title=construction.inspect(x,y);$('anatomy-hover').textContent=construction.inspect(x,y);if(!stroke)return;if(stroke.pan){view.scrollLeft=stroke.sx-(e.clientX-stroke.px);view.scrollTop=stroke.sy-(e.clientY-stroke.py);return;}
  const tx=Math.max(0,Math.min(project.width-1,x)),ty=Math.max(0,Math.min(project.height-1,y));
