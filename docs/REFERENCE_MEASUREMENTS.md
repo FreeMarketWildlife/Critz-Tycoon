@@ -1,5 +1,9 @@
 # Reference measurements — Emerald exploration
 
+## RD1 actual fan-frame body-mask target
+
+Pinned supplied GIF5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e, frame2, exact left128×192 display-block÷4→32×48 then(0,+16) registration. Source-posed passing target, not idle. [Exact row/mask evidence](../art/source/reference-dummy-r1/construction.json) records338occupied cells45+, face/ear alpha36..45, pupil sitesx12..13/18..19,y38..41 and lastcontact61[9,13)+[19,23). RD1 original flat dummy has XOR0 at45+,46+,shoes58+; only covered skull above36 changes. Internal part labels/dividers and rounded crown25 are explicitly original proposals, not measured hidden anatomy or exact source material-contour tracing. Reference-bearing raster remains external to Git/build; no primary-sprite substitute or emulator claim.
+
 ## NCR1 source-visible rear join and native quantization
 
 Actual H4R1 North master idle inspection: hair/ink ends around41, exposed rear skin/shadow42..44, full dark collar45, visible pack beginning46. These are existing Critz visible pixels, not measured Emerald neck anatomy. Parent-authorized optional hair/shadow changes and precise source deltas are recorded in [NCR1 diagnosis](reviews/M1-NCR1/DIAGNOSIS.md) and [cell evidence](../art/source/native-cleanup-r1/changes.json). Native contacts retain exact half-width and<=1master-pixel edge rounding; eyes remain1×2 at19..20 (P18..19). Short sole material is deliberately compressed above dark contact, sometimes2master pixels away from a literal inverse; do not generalize contact rounding into a lossless color/part mapping claim. Primary Brendan/Man1 source basis remains pinned731ad5bfd6e6f265508d0efcca0ba42f9dcf5881 with index0 excluded; no new emulator observation.

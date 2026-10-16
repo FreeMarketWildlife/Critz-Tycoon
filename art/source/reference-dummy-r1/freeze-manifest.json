@@ -1,0 +1,29 @@
+{
+  "task": "M1.RD1",
+  "state": "frozen reference-posed candidate for parent judgment; no appearance acceptance",
+  "files": {
+    "art/source/reference-dummy-r1/archive-preservation.json": "44a3adb7f92e2600453bd2b28fb6432ca0f427ae310593640f181e653a31469a",
+    "art/source/reference-dummy-r1/build.py": "1c52a7833c87ba82f11a16392a45b6b05d1f7750a61bb161a9eb5722a1fc0e39",
+    "art/source/reference-dummy-r1/checks.json": "f6f9626cdefc506a65689ca6e6572b1c707ffb110ea77d42ac2f5400d9d10f0a",
+    "art/source/reference-dummy-r1/construction.json": "c3d533779ab8a07918478939cfcf70cfa413631d1342ddffd8e3d39b76267291",
+    "docs/reviews/M1-RD1/DIAGNOSIS.md": "5e18409cc4d86b5f5946225b2c93525e33712cd580a887c6a3c1aae2c15213e3",
+    "docs/reviews/M1-RD1/README.md": "a33a339a3ee55ffae81089b3ed8c5935b04eefe19d6d2988ce7e40db7e8c6aa2",
+    "docs/reviews/M1-RD1/arms-region.png": "3385b177c6370bd79bcdbb1d6d56027d8437dab58decc5a193fba7c14d8d6f4f",
+    "docs/reviews/M1-RD1/body-alpha-difference.png": "fa61f6b75304d4ba39121e7d3dbd2ef2ec5c6c97d59cca2d33a31c43fe2d0fd0",
+    "docs/reviews/M1-RD1/dummy-silhouette.png": "b1dc83eba7e02a18698a77f63693dfd95087f9a7f6065a7ec768025020073e23",
+    "docs/reviews/M1-RD1/ears-region.png": "97911fad3d67801b531b332eb7ad0cdb7fabad9a8d857d5fa4ebf4f1e035ce0c",
+    "docs/reviews/M1-RD1/eyes-region.png": "74de4df590eddba283be9c05c115c115e0a26e180d5c77fb54353aa748e6d309",
+    "docs/reviews/M1-RD1/hands-region.png": "356fb2460333195ef62cd21859edf94c3e9e08da8eb01af1bf4596a4330d8fbb",
+    "docs/reviews/M1-RD1/head-region.png": "51ccc2644f945be363836d122aa947ae4cf79e2bb8b90f0087d9159113fdbeca",
+    "docs/reviews/M1-RD1/left-leg-region.png": "4acffe7962db7a5e8772c2d04d4a855884835574d0cd3e4285afcd5abae9df7f",
+    "docs/reviews/M1-RD1/left-shoe-region.png": "7aa5ccd4f34db1fc19ed13bfdf894606dde3e45789c2a27bc1585b6a2f05902f",
+    "docs/reviews/M1-RD1/original-dummy-region-proof.png": "e5a89730912fe9ab84ae630368bb420f961dce55f0aac48f310e80907087fe29",
+    "docs/reviews/M1-RD1/outline-region.png": "b246808aef3afc54eea160f01e416461e0676aabfd791bd2de712e08204ef799",
+    "docs/reviews/M1-RD1/pelvis-region.png": "0fcd2ec83aa68540440c2cdac3d14542cc97107ba1472ea92307d785791416ed",
+    "docs/reviews/M1-RD1/reference-derived-dummy.png": "606a6305a9a3bc9473a8cf6314ad86188627b6e107cfbaa97ff7e0d9a64100f8",
+    "docs/reviews/M1-RD1/region-id-map.png": "50b277ec943cf755d71dadb31528700a7901042d3f85565406d8e88e74ee78c7",
+    "docs/reviews/M1-RD1/right-leg-region.png": "7aca5159a2a55f863decd289600e9b956e5be9dfa4f87687300b25264b4d875d",
+    "docs/reviews/M1-RD1/right-shoe-region.png": "46d90a63fb4aca5335bb6b39de9a5f07690dbd7b0c5aafc5a8659d7462ce0d58",
+    "docs/reviews/M1-RD1/torso-region.png": "f8088fce0ccc8e25b92d98f0fd6befe05fa500e8f34ad9e2eff1e6e14713c142"
+  }
+}
