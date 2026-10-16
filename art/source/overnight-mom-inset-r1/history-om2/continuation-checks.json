@@ -1,0 +1,820 @@
+{
+  "task": "M1.OM2",
+  "checksPassed": 372,
+  "checks": [
+    "read-only art/source/overnight-mom-r1/build.py",
+    "read-only art/source/overnight-mom-r1/input-hashes.json",
+    "read-only art/source/overnight-mom-r1/own-final-review.json",
+    "read-only art/source/overnight-mom-r1/saved-file-checks.json",
+    "read-only art/source/overnight-mom-r1/mom-four-idles.sprite.json",
+    "read-only art/source/overnight-mom-r1/validation.json",
+    "read-only art/source/overnight-mom-r1/verify.py",
+    "read-only art/source/overnight-mom-r1/freeze-manifest.json",
+    "read-only art/source/overnight-mom-r1/north/jewelry.png",
+    "read-only art/source/overnight-mom-r1/north/near-arm.png",
+    "read-only art/source/overnight-mom-r1/north/hair.png",
+    "read-only art/source/overnight-mom-r1/north/feet.png",
+    "read-only art/source/overnight-mom-r1/north/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/north/face.png",
+    "read-only art/source/overnight-mom-r1/north/hands.png",
+    "read-only art/source/overnight-mom-r1/north/legs.png",
+    "read-only art/source/overnight-mom-r1/north/head.png",
+    "read-only art/source/overnight-mom-r1/north/torso.png",
+    "read-only art/source/overnight-mom-r1/north/layers.json",
+    "read-only art/source/overnight-mom-r1/north/far-arm.png",
+    "read-only art/source/overnight-mom-r1/east/jewelry.png",
+    "read-only art/source/overnight-mom-r1/east/near-arm.png",
+    "read-only art/source/overnight-mom-r1/east/hair.png",
+    "read-only art/source/overnight-mom-r1/east/feet.png",
+    "read-only art/source/overnight-mom-r1/east/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/east/face.png",
+    "read-only art/source/overnight-mom-r1/east/hands.png",
+    "read-only art/source/overnight-mom-r1/east/legs.png",
+    "read-only art/source/overnight-mom-r1/east/head.png",
+    "read-only art/source/overnight-mom-r1/east/torso.png",
+    "read-only art/source/overnight-mom-r1/east/layers.json",
+    "read-only art/source/overnight-mom-r1/east/far-arm.png",
+    "read-only art/source/overnight-mom-r1/south/jewelry.png",
+    "read-only art/source/overnight-mom-r1/south/near-arm.png",
+    "read-only art/source/overnight-mom-r1/south/hair.png",
+    "read-only art/source/overnight-mom-r1/south/feet.png",
+    "read-only art/source/overnight-mom-r1/south/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/south/face.png",
+    "read-only art/source/overnight-mom-r1/south/hands.png",
+    "read-only art/source/overnight-mom-r1/south/legs.png",
+    "read-only art/source/overnight-mom-r1/south/head.png",
+    "read-only art/source/overnight-mom-r1/south/torso.png",
+    "read-only art/source/overnight-mom-r1/south/layers.json",
+    "read-only art/source/overnight-mom-r1/south/far-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/build.py",
+    "read-only art/source/overnight-mom-r1/history-v0/input-hashes.json",
+    "read-only art/source/overnight-mom-r1/history-v0/mom-four-idles.sprite.json",
+    "read-only art/source/overnight-mom-r1/history-v0/validation.json",
+    "read-only art/source/overnight-mom-r1/history-v0/north/jewelry.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/near-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/hair.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/feet.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/history-v0/north/face.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/hands.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/legs.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/head.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/torso.png",
+    "read-only art/source/overnight-mom-r1/history-v0/north/layers.json",
+    "read-only art/source/overnight-mom-r1/history-v0/north/far-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/jewelry.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/near-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/hair.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/feet.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/history-v0/east/face.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/hands.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/legs.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/head.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/torso.png",
+    "read-only art/source/overnight-mom-r1/history-v0/east/layers.json",
+    "read-only art/source/overnight-mom-r1/history-v0/east/far-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/jewelry.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/near-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/hair.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/feet.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/history-v0/south/face.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/hands.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/legs.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/head.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/torso.png",
+    "read-only art/source/overnight-mom-r1/history-v0/south/layers.json",
+    "read-only art/source/overnight-mom-r1/history-v0/south/far-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/jewelry.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/near-arm.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/hair.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/feet.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/history-v0/west/face.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/hands.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/legs.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/head.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/torso.png",
+    "read-only art/source/overnight-mom-r1/history-v0/west/layers.json",
+    "read-only art/source/overnight-mom-r1/history-v0/west/far-arm.png",
+    "read-only art/source/overnight-mom-r1/west/jewelry.png",
+    "read-only art/source/overnight-mom-r1/west/near-arm.png",
+    "read-only art/source/overnight-mom-r1/west/hair.png",
+    "read-only art/source/overnight-mom-r1/west/feet.png",
+    "read-only art/source/overnight-mom-r1/west/idle.sprite.json",
+    "read-only art/source/overnight-mom-r1/west/face.png",
+    "read-only art/source/overnight-mom-r1/west/hands.png",
+    "read-only art/source/overnight-mom-r1/west/legs.png",
+    "read-only art/source/overnight-mom-r1/west/head.png",
+    "read-only art/source/overnight-mom-r1/west/torso.png",
+    "read-only art/source/overnight-mom-r1/west/layers.json",
+    "read-only art/source/overnight-mom-r1/west/far-arm.png",
+    "read-only docs/reviews/M1-OM1/idle-north-6x.png",
+    "read-only docs/reviews/M1-OM1/idle-east-6x.png",
+    "read-only docs/reviews/M1-OM1/background-inspection.png",
+    "read-only docs/reviews/M1-OM1/idle-south-6x.png",
+    "read-only docs/reviews/M1-OM1/README.md",
+    "read-only docs/reviews/M1-OM1/idle-south.png",
+    "read-only docs/reviews/M1-OM1/idle-grid.png",
+    "read-only docs/reviews/M1-OM1/idle-west-6x.png",
+    "read-only docs/reviews/M1-OM1/idle-east.png",
+    "read-only docs/reviews/M1-OM1/idle-native.png",
+    "read-only docs/reviews/M1-OM1/before-after.png",
+    "read-only docs/reviews/M1-OM1/idle-north.png",
+    "read-only docs/reviews/M1-OM1/idle-west.png",
+    "read-only docs/reviews/M1-OM1/idle-comparison.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-north-6x.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-east-6x.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-south-6x.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-south.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-grid.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-west-6x.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-east.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-native.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-north.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-west.png",
+    "read-only docs/reviews/M1-OM1/history-v0/idle-comparison.png",
+    "checkpoint art/source/overnight-mom-r1/build.py",
+    "checkpoint art/source/overnight-mom-r1/east/face.png",
+    "checkpoint art/source/overnight-mom-r1/east/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/east/feet.png",
+    "checkpoint art/source/overnight-mom-r1/east/hair.png",
+    "checkpoint art/source/overnight-mom-r1/east/hands.png",
+    "checkpoint art/source/overnight-mom-r1/east/head.png",
+    "checkpoint art/source/overnight-mom-r1/east/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/east/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/east/layers.json",
+    "checkpoint art/source/overnight-mom-r1/east/legs.png",
+    "checkpoint art/source/overnight-mom-r1/east/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/east/torso.png",
+    "checkpoint art/source/overnight-mom-r1/freeze-manifest.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/build.py",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/face.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/feet.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/hair.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/hands.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/head.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/layers.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/legs.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/east/torso.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/input-hashes.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/mom-four-idles.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/face.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/feet.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/hair.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/hands.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/head.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/layers.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/legs.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/north/torso.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/face.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/feet.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/hair.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/hands.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/head.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/layers.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/legs.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/south/torso.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/validation.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/face.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/feet.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/hair.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/hands.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/head.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/layers.json",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/legs.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/history-v0/west/torso.png",
+    "checkpoint art/source/overnight-mom-r1/input-hashes.json",
+    "checkpoint art/source/overnight-mom-r1/mom-four-idles.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/north/face.png",
+    "checkpoint art/source/overnight-mom-r1/north/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/north/feet.png",
+    "checkpoint art/source/overnight-mom-r1/north/hair.png",
+    "checkpoint art/source/overnight-mom-r1/north/hands.png",
+    "checkpoint art/source/overnight-mom-r1/north/head.png",
+    "checkpoint art/source/overnight-mom-r1/north/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/north/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/north/layers.json",
+    "checkpoint art/source/overnight-mom-r1/north/legs.png",
+    "checkpoint art/source/overnight-mom-r1/north/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/north/torso.png",
+    "checkpoint art/source/overnight-mom-r1/own-final-review.json",
+    "checkpoint art/source/overnight-mom-r1/saved-file-checks.json",
+    "checkpoint art/source/overnight-mom-r1/south/face.png",
+    "checkpoint art/source/overnight-mom-r1/south/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/south/feet.png",
+    "checkpoint art/source/overnight-mom-r1/south/hair.png",
+    "checkpoint art/source/overnight-mom-r1/south/hands.png",
+    "checkpoint art/source/overnight-mom-r1/south/head.png",
+    "checkpoint art/source/overnight-mom-r1/south/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/south/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/south/layers.json",
+    "checkpoint art/source/overnight-mom-r1/south/legs.png",
+    "checkpoint art/source/overnight-mom-r1/south/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/south/torso.png",
+    "checkpoint art/source/overnight-mom-r1/validation.json",
+    "checkpoint art/source/overnight-mom-r1/verify.py",
+    "checkpoint art/source/overnight-mom-r1/west/face.png",
+    "checkpoint art/source/overnight-mom-r1/west/far-arm.png",
+    "checkpoint art/source/overnight-mom-r1/west/feet.png",
+    "checkpoint art/source/overnight-mom-r1/west/hair.png",
+    "checkpoint art/source/overnight-mom-r1/west/hands.png",
+    "checkpoint art/source/overnight-mom-r1/west/head.png",
+    "checkpoint art/source/overnight-mom-r1/west/idle.sprite.json",
+    "checkpoint art/source/overnight-mom-r1/west/jewelry.png",
+    "checkpoint art/source/overnight-mom-r1/west/layers.json",
+    "checkpoint art/source/overnight-mom-r1/west/legs.png",
+    "checkpoint art/source/overnight-mom-r1/west/near-arm.png",
+    "checkpoint art/source/overnight-mom-r1/west/torso.png",
+    "checkpoint docs/reviews/M1-OM1/README.md",
+    "checkpoint docs/reviews/M1-OM1/background-inspection.png",
+    "checkpoint docs/reviews/M1-OM1/before-after.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-comparison.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-east-6x.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-east.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-grid.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-native.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-north-6x.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-north.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-south-6x.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-south.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-west-6x.png",
+    "checkpoint docs/reviews/M1-OM1/history-v0/idle-west.png",
+    "checkpoint docs/reviews/M1-OM1/idle-comparison.png",
+    "checkpoint docs/reviews/M1-OM1/idle-east-6x.png",
+    "checkpoint docs/reviews/M1-OM1/idle-east.png",
+    "checkpoint docs/reviews/M1-OM1/idle-grid.png",
+    "checkpoint docs/reviews/M1-OM1/idle-native.png",
+    "checkpoint docs/reviews/M1-OM1/idle-north-6x.png",
+    "checkpoint docs/reviews/M1-OM1/idle-north.png",
+    "checkpoint docs/reviews/M1-OM1/idle-south-6x.png",
+    "checkpoint docs/reviews/M1-OM1/idle-south.png",
+    "checkpoint docs/reviews/M1-OM1/idle-west-6x.png",
+    "checkpoint docs/reviews/M1-OM1/idle-west.png",
+    "south registration unchanged",
+    "south protected real layer feet",
+    "south protected real layer legs",
+    "south protected real layer far-arm",
+    "south protected real layer torso",
+    "south protected real layer near-arm",
+    "south protected real layer hands",
+    "south protected real layer head",
+    "south protected real layer face",
+    "south protected real layer hair",
+    "south protected real layer jewelry",
+    "south front/back exact or bounded side removal",
+    "south full shoes exact",
+    "north registration unchanged",
+    "north protected real layer feet",
+    "north protected real layer legs",
+    "north protected real layer far-arm",
+    "north protected real layer torso",
+    "north protected real layer near-arm",
+    "north protected real layer hands",
+    "north protected real layer head",
+    "north protected real layer face",
+    "north protected real layer hair",
+    "north protected real layer jewelry",
+    "north front/back exact or bounded side removal",
+    "north full shoes exact",
+    "west registration unchanged",
+    "west protected real layer feet",
+    "west protected real layer legs",
+    "west hidden far-arm empty",
+    "west protected real layer torso",
+    "west protected real layer near-arm",
+    "west protected real layer hands",
+    "west protected real layer head",
+    "west protected real layer face",
+    "west protected real layer hair",
+    "west protected real layer jewelry",
+    "west delta supported by old far arm 10,45",
+    "west delta only removes unsupported projection 10,45",
+    "west delta supported by old far arm 11,45",
+    "west delta only removes unsupported projection 11,45",
+    "west delta supported by old far arm 9,46",
+    "west delta only removes unsupported projection 9,46",
+    "west delta supported by old far arm 10,46",
+    "west delta only removes unsupported projection 10,46",
+    "west delta supported by old far arm 9,47",
+    "west delta only removes unsupported projection 9,47",
+    "west delta supported by old far arm 10,47",
+    "west delta only removes unsupported projection 10,47",
+    "west delta supported by old far arm 9,48",
+    "west delta only removes unsupported projection 9,48",
+    "west delta supported by old far arm 10,48",
+    "west delta only removes unsupported projection 10,48",
+    "west delta supported by old far arm 9,49",
+    "west delta only removes unsupported projection 9,49",
+    "west delta supported by old far arm 10,49",
+    "west delta only removes unsupported projection 10,49",
+    "west delta supported by old far arm 10,50",
+    "west delta only removes unsupported projection 10,50",
+    "west delta supported by old far arm 11,50",
+    "west delta only removes unsupported projection 11,50",
+    "west front/back exact or bounded side removal",
+    "west full shoes exact",
+    "west connected near-arm",
+    "west connected hands",
+    "west connected sleeve and palm",
+    "east registration unchanged",
+    "east protected real layer feet",
+    "east protected real layer legs",
+    "east hidden far-arm empty",
+    "east protected real layer torso",
+    "east protected real layer near-arm",
+    "east protected real layer hands",
+    "east protected real layer head",
+    "east protected real layer face",
+    "east protected real layer hair",
+    "east protected real layer jewelry",
+    "east delta supported by old far arm 20,45",
+    "east delta only removes unsupported projection 20,45",
+    "east delta supported by old far arm 21,45",
+    "east delta only removes unsupported projection 21,45",
+    "east delta supported by old far arm 21,46",
+    "east delta only removes unsupported projection 21,46",
+    "east delta supported by old far arm 22,46",
+    "east delta only removes unsupported projection 22,46",
+    "east delta supported by old far arm 21,47",
+    "east delta only removes unsupported projection 21,47",
+    "east delta supported by old far arm 22,47",
+    "east delta only removes unsupported projection 22,47",
+    "east delta supported by old far arm 21,48",
+    "east delta only removes unsupported projection 21,48",
+    "east delta supported by old far arm 22,48",
+    "east delta only removes unsupported projection 22,48",
+    "east delta supported by old far arm 21,49",
+    "east delta only removes unsupported projection 21,49",
+    "east delta supported by old far arm 22,49",
+    "east delta only removes unsupported projection 22,49",
+    "east delta supported by old far arm 20,50",
+    "east delta only removes unsupported projection 20,50",
+    "east delta supported by old far arm 21,50",
+    "east delta only removes unsupported projection 21,50",
+    "east front/back exact or bounded side removal",
+    "east full shoes exact",
+    "east connected near-arm",
+    "east connected hands",
+    "east connected sleeve and palm"
+  ],
+  "deltas": {
+    "south": [],
+    "north": [],
+    "west": [
+      {
+        "cell": [
+          10,
+          45
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          11,
+          45
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          9,
+          46
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          10,
+          46
+        ],
+        "before": [
+          186,
+          112,
+          130,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          9,
+          47
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          10,
+          47
+        ],
+        "before": [
+          186,
+          112,
+          130,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          9,
+          48
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          10,
+          48
+        ],
+        "before": [
+          186,
+          112,
+          130,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          9,
+          49
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          10,
+          49
+        ],
+        "before": [
+          120,
+          72,
+          32,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          10,
+          50
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          11,
+          50
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ],
+    "east": [
+      {
+        "cell": [
+          20,
+          45
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          21,
+          45
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          21,
+          46
+        ],
+        "before": [
+          186,
+          112,
+          130,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          22,
+          46
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          21,
+          47
+        ],
+        "before": [
+          186,
+          112,
+          130,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          22,
+          47
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          21,
+          48
+        ],
+        "before": [
+          186,
+          112,
+          130,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          22,
+          48
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          21,
+          49
+        ],
+        "before": [
+          120,
+          72,
+          32,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          22,
+          49
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          20,
+          50
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "cell": [
+          21,
+          50
+        ],
+        "before": [
+          32,
+          16,
+          8,
+          255
+        ],
+        "after": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "scope": "Only unsupported W/E far-arm layer removed; all other real layers exact checkpoint",
+  "appearanceAccepted": false
+}

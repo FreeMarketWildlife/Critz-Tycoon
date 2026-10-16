@@ -1,0 +1,117 @@
+{
+  "state": "Five private review files saved and exact-download verified; Girl excluded pending correction",
+  "files": [
+    {
+      "title": "Nugget normal native+4x",
+      "source": "docs/reviews/M1-ON3/four-directions-normal.gif",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Nugget-walk-normal-native-4x.gif",
+      "sha256": "6d3b20ecab9874ca806bc150dc74d32e55f1cd7bde76735eccd77759c0bddd9c",
+      "action": "create",
+      "library_file_id": "libfile_9d7eb78aa2cc81919583c003094f149a",
+      "file_id": "file_0000000067b481fdad01a5ecc40c80e0",
+      "file_name": "Nugget-walk-normal-native-4x.gif",
+      "version": 0,
+      "exactDownloadedBytes": true,
+      "exactRGBAFrames": true,
+      "exactTimingLoop": true,
+      "identityMetadataVerified": true,
+      "dimensions": [
+        780,
+        365
+      ],
+      "link": "https://chatgpt.com/api/library/files/libfile_9d7eb78aa2cc81919583c003094f149a/download"
+    },
+    {
+      "title": "Nugget slow native+4x",
+      "source": "docs/reviews/M1-ON3/four-directions-slow4x.gif",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Nugget-walk-slow-native-4x.gif",
+      "sha256": "1afc127ff14a4a532a0abcc13eb8ae34ad8b6d23aefb6d3e6e2bce8c52e3f5f4",
+      "action": "create",
+      "library_file_id": "libfile_2bb310bbdf2c81919b7e5eb3fc28dae1",
+      "file_id": "file_00000000b53481f8a991dc267cde8553",
+      "file_name": "Nugget-walk-slow-native-4x.gif",
+      "version": 0,
+      "exactDownloadedBytes": true,
+      "exactRGBAFrames": true,
+      "exactTimingLoop": true,
+      "identityMetadataVerified": true,
+      "dimensions": [
+        780,
+        365
+      ],
+      "link": "https://chatgpt.com/api/library/files/libfile_2bb310bbdf2c81919b7e5eb3fc28dae1/download"
+    },
+    {
+      "title": "Nugget static frames",
+      "source": "docs/reviews/M1-ON3/all-phases-native-4x.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Nugget-walk-frame-strip.png",
+      "sha256": "47bc0241f24f73fa5901db5431930eeb2cef48a93552485a12eb5e5b54b377d0",
+      "action": "create",
+      "library_file_id": "libfile_d12192cd69748191843fabea415fcb60",
+      "file_id": "file_00000000e57881fd98f82465b690dff1",
+      "file_name": "Nugget-walk-frame-strip.png",
+      "version": 0,
+      "exactDownloadedBytes": true,
+      "exactRGBAFrames": true,
+      "exactTimingLoop": true,
+      "identityMetadataVerified": true,
+      "dimensions": [
+        780,
+        1220
+      ],
+      "link": "https://chatgpt.com/api/library/files/libfile_d12192cd69748191843fabea415fcb60/download"
+    },
+    {
+      "title": "Mom corrected idles",
+      "source": "docs/reviews/M1-OM3/idle-comparison.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Mom-inset-corrected-idles.png",
+      "sha256": "f4373e7557c62cbd6d8459a29b012593e1f1b18788d0794c440bdf75dc9ed431",
+      "action": "replace",
+      "library_file_id": "libfile_94bd005ac8248191afd92226244fb62a",
+      "expected_current_version": 1,
+      "file_id": "file_0000000035a481fd82c6c864e7d7fe75",
+      "file_name": "Mom-inset-corrected-idles.png",
+      "version": 2,
+      "exactDownloadedBytes": true,
+      "exactRGBAFrames": true,
+      "exactTimingLoop": true,
+      "identityMetadataVerified": true,
+      "dimensions": [
+        1030,
+        670
+      ],
+      "link": "https://chatgpt.com/api/library/files/libfile_94bd005ac8248191afd92226244fb62a/download"
+    },
+    {
+      "title": "Mom material before-after",
+      "source": "docs/reviews/M1-OM3/before-after.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Mom-inset-before-after.png",
+      "sha256": "97ab78fc2bba3c2378c9c29e03935eb13377c88460129424ee247c49b657b30c",
+      "action": "create",
+      "library_file_id": "libfile_8506db82f8708191a168ce4b43f7d6d1",
+      "file_id": "file_00000000c04881f489d2497436e292f7",
+      "file_name": "Mom-inset-before-after.png",
+      "version": 0,
+      "exactDownloadedBytes": true,
+      "exactRGBAFrames": true,
+      "exactTimingLoop": true,
+      "identityMetadataVerified": true,
+      "dimensions": [
+        900,
+        420
+      ],
+      "link": "https://chatgpt.com/api/library/files/libfile_8506db82f8708191a168ce4b43f7d6d1/download"
+    }
+  ],
+  "Girl": "NOT UPLOADED; requested W/E stride farshoe dark/recessed material or occlusion fix; nearfoot/idles/core protected. Prior capture historical after correction happens.",
+  "motion": "Nugget actualChrome normal/slow all4slots over6.5seconds sampled, 302 savedchecks allpass; reviewer/writerfinalreports currently waitingOnApproval, pendingIDs not exposed",
+  "Mom": "Continuouscreamcardiganinset material-only review; no walking authorized",
+  "sourceTiming": "Pinned5eff8updates/pose,535.7666msbrowser; GIFnormal540ms/slow2140ms cumulativecsrounding disclosed",
+  "originalsUnchanged": true,
+  "decodedGIFFramesVerified": 8,
+  "actualMotionReview": "Root isolatedChrome6.5s percharacter, allfour source-clock slots atnative/3x normal+slow;16 actual played screenshots captured, eight phase screenshots actually viewed; not uninterrupted human watch",
+  "savedAudit": "302 root saved layer/frame/idle/head/hold guards pass; QA102 preflight guards for Mom/source passed; independent walking final report pending",
+  "nativeToolState": "Girl/Nugget/QA native statuses waitingOnApproval; exact pending IDs/tool request unavailable in read_thread; no cards dismissed or permission changes. This holds Girl correction and final owner reports.",
+  "Nugget": "Root motion-reviewed pinned initial12pose snapshot; alternating full feet, coordinatedarms, source2Yrigidbob, no observed coatsway; final user appearance remainsopen",
+  "noDeployment": true
+}

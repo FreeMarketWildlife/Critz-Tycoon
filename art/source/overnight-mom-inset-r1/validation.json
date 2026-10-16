@@ -1,0 +1,64 @@
+{
+  "task": "M1.OM3",
+  "directions": {
+    "south": {
+      "bounds": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "opaqueCells": 900,
+      "colors": 14,
+      "layerRecomposition": true,
+      "binaryAlpha": true,
+      "bottomTwoRowsTransparent": true,
+      "pngSHA256": "68be2c945bb1e1368e7c222f5b81f48b87822a921d3181c04dfa8ef95160496c"
+    },
+    "north": {
+      "bounds": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "opaqueCells": 900,
+      "colors": 12,
+      "layerRecomposition": true,
+      "binaryAlpha": true,
+      "bottomTwoRowsTransparent": true,
+      "pngSHA256": "aa6715f4cb7185edc7c73d8247a87e89eb43861a133cf8fded94bd9248a92df3"
+    },
+    "west": {
+      "bounds": [
+        4,
+        20,
+        28,
+        62
+      ],
+      "opaqueCells": 646,
+      "colors": 16,
+      "layerRecomposition": true,
+      "binaryAlpha": true,
+      "bottomTwoRowsTransparent": true,
+      "pngSHA256": "d4a8e80a263331882a0845da7a5fda035b2bbef23547335fa955c7ea1ce38804"
+    },
+    "east": {
+      "bounds": [
+        4,
+        20,
+        28,
+        62
+      ],
+      "opaqueCells": 646,
+      "colors": 15,
+      "layerRecomposition": true,
+      "binaryAlpha": true,
+      "bottomTwoRowsTransparent": true,
+      "pngSHA256": "dd9d71216b783b05a85d66a0d9f2250148d99c462fd03f6d864dae89a62397ba"
+    }
+  },
+  "appearanceApproval": false,
+  "walking": "not authored",
+  "runtime": "unchanged"
+}

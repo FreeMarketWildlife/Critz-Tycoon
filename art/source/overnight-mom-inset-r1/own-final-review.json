@@ -1,0 +1,36 @@
+{
+  "task": "M1.OM3",
+  "state": "frozen awaiting root and private parent judgment",
+  "boardSHA256": "f4373e7557c62cbd6d8459a29b012593e1f1b18788d0794c440bdf75dc9ed431",
+  "actualViewing": [
+    "pinned primary all-facing native/6x",
+    "actual matched source-facing plate",
+    "prior OM2 West6x",
+    "final full native128x64",
+    "final complete6x board",
+    "before-after native/4x",
+    "light/dark native/3x",
+    "changed-cell5x",
+    "countable grid"
+  ],
+  "ownFinding": "Cream inset now continuous neckline-to-waist inside rose cardigan; no isolated short cream lobe; full near palm remains beside hip. Original material decision, not source anatomy.",
+  "changedCells": {
+    "south": 0,
+    "north": 0,
+    "west": 48,
+    "east": 48
+  },
+  "alphaChanges": 0,
+  "protected": "all non-torso layers exact OM2; S/N PNG bytes exact; full frame/anchor/whole silhouette/contact/full feet exact",
+  "checks": {
+    "savedFile": 80,
+    "materialAndProtection": 538,
+    "readOnlyHashes": 341
+  },
+  "appearanceAccepted": false,
+  "walksAuthorized": false,
+  "next": "Root/private parent actual material review before any walking",
+  "publication": "not attempted; root owns Git and private delivery",
+  "branch": "main",
+  "observedHEAD": "315a6459be50fe8b6cbc1a93ff5b07ef74901f62"
+}

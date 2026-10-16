@@ -1,0 +1,19 @@
+# M1.OVQ3 — bounded walk-study QA
+
+**In progress.** Parent explicitly cleared review-stage Girl/Nugget bounded walks; Mom is material correction first and remains no-walk until root decides. This reviewer writes only this directory and ignored `local-review/overnight-walk-qa/`. Artist files, frozen idles, prior OVQ2, Git/index/runtime and private uploads remain untouched.
+
+## Mom material-first finding
+
+Actually inspected frozen OM3 native/6× all-facing board, native/4× before-after and material-changed-cell plate after owner's stable report. The cream top now reads as a continuous collar-to-waist inset rather than a dangling outlined front patch. Near sleeve/full palm, compact torso and shoes retain their former shape. No additional concrete material blocker found. This resolves OVQ2's specific source-facing material concern, not final user appearance acceptance or walking clearance.
+
+Independent `preflight.py` reads actual saved PNG/JSON cells without invoking any artist generator. **102 checks pass, zero fail**, including four exact compositions and layer/cell equality, all non-torso layers byte-exact to OM2, full alpha protection, exact head0..43/lower55+, South/North byte equality and current primary reference hashes. Exactly48 visible torso colors change per profile; no alpha change. [Evidence and four individual PNG pins](preflight-audit.json). Frozen OM3 board SHA256 `f4373e7557c62cbd6d8459a29b012593e1f1b18788d0794c440bdf75dc9ed431`.
+
+Root and Mom owner received findings; root's separate private parent material review is next. This QA does not authorize Mom animation.
+
+## Walk review contract
+
+Source contacts are decoded from actual indexed May/Birch strips, revision5eff78649e7170a877b961ef0b3da13b81a16038, index0 transparent. Raw source-asset palettes are not verified runtime/emulator colors. May South3 has left contact and4 right; West7 screen-right and8 screen-left. Birch South3/North5 left and South4/North6 right; West7 screen-left and8 screen-right. “Left” without “screen” in front/back listings refers to the observed image side, not a recovered anatomical limb identity. East reflects the actual West source. Full contact X cells are pinned in JSON; pose numbering alone is insufficient evidence of correspondence.
+
+Root's actual pinned source command-table report gives8ticks each, source order South3,0,4,0; North5,1,6,1; West7,2,8,2; East flip. Tick280896/16777216seconds gives133.94165ms per slot and535.76660ms per four-slot loop. Normal GIF130/140/130/140ms approximates a540ms loop; slow4×540/530/540/530ms approximates2140ms versus exact2143.0664ms. These GIF quantization choices are declared approximations; exact browser timing requires separate actual playback inspection. Source-command timing is not an emulator recording.
+
+Pending when candidates exist: actual native/enlarged static articulation and normal/slow playback, frozen idle equality, shoulder-based opposing arm/leg motion, rigid2master-pixel head/upper bob with no lateral drift/reshaping/hair flaps, source-relative contact correspondence, real layer/source recomposition and actual timeline slot behavior. Idle frame32×64/anchor16,64/contact61 stays exact; source-derived stride contact63 is allowed. Tests alone will not accept motion or user appearance.

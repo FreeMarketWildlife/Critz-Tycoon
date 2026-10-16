@@ -1,0 +1,1031 @@
+{
+  "task": "M1.OVQ3",
+  "checks": [
+    {
+      "name": "May exact pinned source SHA",
+      "pass": true
+    },
+    {
+      "name": "May indexed144x32",
+      "pass": true
+    },
+    {
+      "name": "Birch exact pinned source SHA",
+      "pass": true
+    },
+    {
+      "name": "Birch indexed144x32",
+      "pass": true
+    },
+    {
+      "name": "Mom south whole alpha protected",
+      "pass": true
+    },
+    {
+      "name": "Mom south head0..43 protected",
+      "pass": true
+    },
+    {
+      "name": "Mom south lower55+ protected",
+      "pass": true
+    },
+    {
+      "name": "Mom south byte exact",
+      "pass": true
+    },
+    {
+      "name": "Mom south/feet actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/feet frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/legs actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/legs frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/far-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/far-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/torso actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/near-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/near-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/hands actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/hands frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/head actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/head frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/face actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/face frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/hair actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/hair frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south/jewelry actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom south/jewelry frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom south actual layers recompose",
+      "pass": true
+    },
+    {
+      "name": "Mom south changed only visible torso",
+      "pass": true
+    },
+    {
+      "name": "Mom north whole alpha protected",
+      "pass": true
+    },
+    {
+      "name": "Mom north head0..43 protected",
+      "pass": true
+    },
+    {
+      "name": "Mom north lower55+ protected",
+      "pass": true
+    },
+    {
+      "name": "Mom north byte exact",
+      "pass": true
+    },
+    {
+      "name": "Mom north/feet actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/feet frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/legs actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/legs frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/far-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/far-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/torso actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/near-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/near-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/hands actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/hands frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/head actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/head frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/face actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/face frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/hair actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/hair frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north/jewelry actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom north/jewelry frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom north actual layers recompose",
+      "pass": true
+    },
+    {
+      "name": "Mom north changed only visible torso",
+      "pass": true
+    },
+    {
+      "name": "Mom west whole alpha protected",
+      "pass": true
+    },
+    {
+      "name": "Mom west head0..43 protected",
+      "pass": true
+    },
+    {
+      "name": "Mom west lower55+ protected",
+      "pass": true
+    },
+    {
+      "name": "Mom west/feet actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/feet frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/legs actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/legs frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/far-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/far-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/torso actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/near-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/near-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/hands actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/hands frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/head actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/head frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/face actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/face frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/hair actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/hair frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west/jewelry actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom west/jewelry frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom west actual layers recompose",
+      "pass": true
+    },
+    {
+      "name": "Mom west changed only visible torso",
+      "pass": true
+    },
+    {
+      "name": "Mom east whole alpha protected",
+      "pass": true
+    },
+    {
+      "name": "Mom east head0..43 protected",
+      "pass": true
+    },
+    {
+      "name": "Mom east lower55+ protected",
+      "pass": true
+    },
+    {
+      "name": "Mom east/feet actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/feet frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/legs actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/legs frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/far-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/far-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/torso actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/near-arm actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/near-arm frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/hands actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/hands frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/head actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/head frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/face actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/face frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/hair actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/hair frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east/jewelry actual cells match PNG",
+      "pass": true
+    },
+    {
+      "name": "Mom east/jewelry frozen OM2 layer",
+      "pass": true
+    },
+    {
+      "name": "Mom east actual layers recompose",
+      "pass": true
+    },
+    {
+      "name": "Mom east changed only visible torso",
+      "pass": true
+    }
+  ],
+  "passed": 102,
+  "failed": 0,
+  "references": [
+    {
+      "name": "May",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87",
+      "frames": [
+        {
+          "index": 0,
+          "lastRow": 30,
+          "lastRowXs": [
+            5,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 1,
+          "lastRow": 30,
+          "lastRowXs": [
+            5,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 2,
+          "lastRow": 30,
+          "lastRowXs": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "index": 3,
+          "lastRow": 31,
+          "lastRowXs": [
+            6,
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "lastRow": 31,
+          "lastRowXs": [
+            8,
+            9
+          ]
+        },
+        {
+          "index": 5,
+          "lastRow": 31,
+          "lastRowXs": [
+            6,
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "lastRow": 31,
+          "lastRowXs": [
+            8,
+            9
+          ]
+        },
+        {
+          "index": 7,
+          "lastRow": 31,
+          "lastRowXs": [
+            10,
+            11
+          ]
+        },
+        {
+          "index": 8,
+          "lastRow": 31,
+          "lastRowXs": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Birch",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15",
+      "frames": [
+        {
+          "index": 0,
+          "lastRow": 30,
+          "lastRowXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 1,
+          "lastRow": 30,
+          "lastRowXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 2,
+          "lastRow": 30,
+          "lastRowXs": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 3,
+          "lastRow": 31,
+          "lastRowXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "lastRow": 31,
+          "lastRowXs": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 5,
+          "lastRow": 31,
+          "lastRowXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "lastRow": 31,
+          "lastRowXs": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 7,
+          "lastRow": 31,
+          "lastRowXs": [
+            4,
+            5
+          ]
+        },
+        {
+          "index": 8,
+          "lastRow": 31,
+          "lastRowXs": [
+            9,
+            10,
+            11,
+            12
+          ]
+        }
+      ]
+    }
+  ],
+  "mom": [
+    {
+      "direction": "south",
+      "file": "docs/reviews/M1-OM3/idle-south.png",
+      "sha256": "68be2c945bb1e1368e7c222f5b81f48b87822a921d3181c04dfa8ef95160496c",
+      "changedCells": []
+    },
+    {
+      "direction": "north",
+      "file": "docs/reviews/M1-OM3/idle-north.png",
+      "sha256": "aa6715f4cb7185edc7c73d8247a87e89eb43861a133cf8fded94bd9248a92df3",
+      "changedCells": []
+    },
+    {
+      "direction": "west",
+      "file": "docs/reviews/M1-OM3/idle-west.png",
+      "sha256": "d4a8e80a263331882a0845da7a5fda035b2bbef23547335fa955c7ea1ce38804",
+      "changedCells": [
+        [
+          14,
+          44
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          14,
+          45
+        ],
+        [
+          15,
+          45
+        ],
+        [
+          16,
+          45
+        ],
+        [
+          17,
+          45
+        ],
+        [
+          12,
+          46
+        ],
+        [
+          13,
+          46
+        ],
+        [
+          15,
+          46
+        ],
+        [
+          16,
+          46
+        ],
+        [
+          17,
+          46
+        ],
+        [
+          12,
+          47
+        ],
+        [
+          13,
+          47
+        ],
+        [
+          15,
+          47
+        ],
+        [
+          16,
+          47
+        ],
+        [
+          17,
+          47
+        ],
+        [
+          12,
+          48
+        ],
+        [
+          13,
+          48
+        ],
+        [
+          15,
+          48
+        ],
+        [
+          16,
+          48
+        ],
+        [
+          17,
+          48
+        ],
+        [
+          12,
+          49
+        ],
+        [
+          13,
+          49
+        ],
+        [
+          15,
+          49
+        ],
+        [
+          16,
+          49
+        ],
+        [
+          17,
+          49
+        ],
+        [
+          13,
+          50
+        ],
+        [
+          15,
+          50
+        ],
+        [
+          16,
+          50
+        ],
+        [
+          17,
+          50
+        ],
+        [
+          13,
+          51
+        ],
+        [
+          15,
+          51
+        ],
+        [
+          16,
+          51
+        ],
+        [
+          17,
+          51
+        ],
+        [
+          14,
+          52
+        ],
+        [
+          15,
+          52
+        ],
+        [
+          16,
+          52
+        ],
+        [
+          17,
+          52
+        ],
+        [
+          14,
+          53
+        ],
+        [
+          15,
+          53
+        ],
+        [
+          16,
+          53
+        ],
+        [
+          17,
+          53
+        ],
+        [
+          14,
+          54
+        ],
+        [
+          15,
+          54
+        ],
+        [
+          16,
+          54
+        ],
+        [
+          17,
+          54
+        ]
+      ]
+    },
+    {
+      "direction": "east",
+      "file": "docs/reviews/M1-OM3/idle-east.png",
+      "sha256": "dd9d71216b783b05a85d66a0d9f2250148d99c462fd03f6d864dae89a62397ba",
+      "changedCells": [
+        [
+          14,
+          44
+        ],
+        [
+          15,
+          44
+        ],
+        [
+          16,
+          44
+        ],
+        [
+          17,
+          44
+        ],
+        [
+          14,
+          45
+        ],
+        [
+          15,
+          45
+        ],
+        [
+          16,
+          45
+        ],
+        [
+          17,
+          45
+        ],
+        [
+          14,
+          46
+        ],
+        [
+          15,
+          46
+        ],
+        [
+          16,
+          46
+        ],
+        [
+          18,
+          46
+        ],
+        [
+          19,
+          46
+        ],
+        [
+          14,
+          47
+        ],
+        [
+          15,
+          47
+        ],
+        [
+          16,
+          47
+        ],
+        [
+          18,
+          47
+        ],
+        [
+          19,
+          47
+        ],
+        [
+          14,
+          48
+        ],
+        [
+          15,
+          48
+        ],
+        [
+          16,
+          48
+        ],
+        [
+          18,
+          48
+        ],
+        [
+          19,
+          48
+        ],
+        [
+          14,
+          49
+        ],
+        [
+          15,
+          49
+        ],
+        [
+          16,
+          49
+        ],
+        [
+          18,
+          49
+        ],
+        [
+          19,
+          49
+        ],
+        [
+          14,
+          50
+        ],
+        [
+          15,
+          50
+        ],
+        [
+          16,
+          50
+        ],
+        [
+          18,
+          50
+        ],
+        [
+          14,
+          51
+        ],
+        [
+          15,
+          51
+        ],
+        [
+          16,
+          51
+        ],
+        [
+          18,
+          51
+        ],
+        [
+          14,
+          52
+        ],
+        [
+          15,
+          52
+        ],
+        [
+          16,
+          52
+        ],
+        [
+          17,
+          52
+        ],
+        [
+          14,
+          53
+        ],
+        [
+          15,
+          53
+        ],
+        [
+          16,
+          53
+        ],
+        [
+          17,
+          53
+        ],
+        [
+          14,
+          54
+        ],
+        [
+          15,
+          54
+        ],
+        [
+          16,
+          54
+        ],
+        [
+          17,
+          54
+        ]
+      ]
+    }
+  ],
+  "timing": {
+    "sourceTickSeconds": 0.016742706298828125,
+    "slotTicks": 8,
+    "slotMilliseconds": 133.941650390625,
+    "fourSlotLoopMilliseconds": 535.7666015625,
+    "normalGifMilliseconds": [
+      130,
+      140,
+      130,
+      140
+    ],
+    "slow4xGifMilliseconds": [
+      540,
+      530,
+      540,
+      530
+    ],
+    "gifQuantization": "Four-slot GIF loops540ms and2140ms approximate exact535.7666ms and2143.0664ms; browser exact timeline requires separate actual review."
+  },
+  "limitations": "Raw source-asset palettes, index0 transparent; no emulator color/timing observation or hidden anatomy claim. Mom remains no-walk pending root."
+}

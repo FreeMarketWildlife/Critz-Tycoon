@@ -1,0 +1,11 @@
+{
+  "task": "M1.OGH3",
+  "pass": true,
+  "count": 4,
+  "files": [
+    "east.walk.sprite.json",
+    "north.walk.sprite.json",
+    "south.walk.sprite.json",
+    "west.walk.sprite.json"
+  ]
+}

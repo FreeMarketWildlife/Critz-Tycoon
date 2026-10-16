@@ -1,0 +1,47 @@
+{
+  "state": "Pinned root-reviewed snapshots; not final user visual approval",
+  "files": [
+    {
+      "title": "Nugget normal native+4x",
+      "source": "docs/reviews/M1-ON3/four-directions-normal.gif",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Nugget-walk-normal-native-4x.gif",
+      "sha256": "6d3b20ecab9874ca806bc150dc74d32e55f1cd7bde76735eccd77759c0bddd9c",
+      "action": "create"
+    },
+    {
+      "title": "Nugget slow native+4x",
+      "source": "docs/reviews/M1-ON3/four-directions-slow4x.gif",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Nugget-walk-slow-native-4x.gif",
+      "sha256": "1afc127ff14a4a532a0abcc13eb8ae34ad8b6d23aefb6d3e6e2bce8c52e3f5f4",
+      "action": "create"
+    },
+    {
+      "title": "Nugget static frames",
+      "source": "docs/reviews/M1-ON3/all-phases-native-4x.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Nugget-walk-frame-strip.png",
+      "sha256": "47bc0241f24f73fa5901db5431930eeb2cef48a93552485a12eb5e5b54b377d0",
+      "action": "create"
+    },
+    {
+      "title": "Mom corrected idles",
+      "source": "docs/reviews/M1-OM3/idle-comparison.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Mom-inset-corrected-idles.png",
+      "sha256": "f4373e7557c62cbd6d8459a29b012593e1f1b18788d0794c440bdf75dc9ed431",
+      "action": "replace",
+      "library_file_id": "libfile_94bd005ac8248191afd92226244fb62a",
+      "expected_current_version": 1
+    },
+    {
+      "title": "Mom material before-after",
+      "source": "docs/reviews/M1-OM3/before-after.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-motion-parent-packet/Mom-inset-before-after.png",
+      "sha256": "97ab78fc2bba3c2378c9c29e03935eb13377c88460129424ee247c49b657b30c",
+      "action": "create"
+    }
+  ],
+  "Girl": "Held for profile far-shoe material/occlusion correction; no upload of current loops",
+  "motion": "Nugget actualChrome normal/slow all4slots over6.5seconds sampled, 302 savedchecks allpass; reviewer/writerfinalreports currently waitingOnApproval, pendingIDs not exposed",
+  "Mom": "Material-only correction actualnative/integerreview+independent102checks; no Momwalking",
+  "sourceTiming": "Ordinary source8updates perpose; exactbrowser535.7666ms; GIF540msnormal/2140msslow4x disclosedquantization",
+  "originalsUnchanged": true
+}

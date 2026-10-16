@@ -1,0 +1,15 @@
+{
+  "task": "M1.OM3",
+  "baselineReadOnly": [
+    "art/source/overnight-mom-continuation-r1",
+    "docs/reviews/M1-OM2"
+  ],
+  "exclusiveWritable": [
+    "art/source/overnight-mom-inset-r1",
+    "docs/reviews/M1-OM3"
+  ],
+  "scope": "profile torso materials only; fixed all layer alpha and all non-torso layers; S/N exact",
+  "state": "frozen awaiting root/private parent judgment",
+  "walksAuthorized": false,
+  "appearanceAccepted": false
+}

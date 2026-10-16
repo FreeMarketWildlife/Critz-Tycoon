@@ -1,0 +1,1243 @@
+{
+  "task": "M1.OWR1",
+  "state": "Saved integrity audit; Girl far-foot material concern remains separately under correction",
+  "count": 302,
+  "passed": 302,
+  "failures": [],
+  "checks": [
+    {
+      "name": "girl/south/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A contact",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A connected",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle contact",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle connected",
+      "pass": true
+    },
+    {
+      "name": "girl/south exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B contact",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B connected",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A contact",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A connected",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle contact",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle connected",
+      "pass": true
+    },
+    {
+      "name": "girl/north exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B contact",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B connected",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A contact",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A connected",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle contact",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle connected",
+      "pass": true
+    },
+    {
+      "name": "girl/west exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B contact",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B connected",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A contact",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A connected",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle contact",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle connected",
+      "pass": true
+    },
+    {
+      "name": "girl/east exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B contact",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B connected",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B rigid2Y ties",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/south exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y face-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y face-shadow",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y glasses",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y hair-fringe",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y face",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y face-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y face-shadow",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y ears",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y glasses",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y hair-fringe",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/north exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A rigid2Y hair-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A rigid2Y hair-shadow",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B rigid2Y hair-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B rigid2Y hair-shadow",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/west exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y head",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y face-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y hair-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y ear",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y glasses",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y hat-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y head",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y face-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y hair-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y ear",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y glasses",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y hat-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/east exact frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B saved layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B binary frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B contact",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B connected",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y head",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y face-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y hair-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y ear",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y glasses",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y hat-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y head",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y face-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y hair",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y hair-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y ear",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y glasses",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y eyes",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y hat",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y hat-light",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y hat-band",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B rigid2Y hat-brim",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormalloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthnormal3hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormalloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthnormal3hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormalloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestnormal3hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormalloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastnormal3hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4xloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetsouthslow4x3hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4xloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetnorthslow4x3hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4xloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggetwestslow4x3hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x4frames",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4xloop",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x0exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x0hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x1exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x1hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x2exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x2hold",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x3exact RGBA",
+      "pass": true
+    },
+    {
+      "name": "Nuggeteastslow4x3hold",
+      "pass": true
+    }
+  ],
+  "PNGpins": {
+    "docs/reviews/M1-OGH3/south/stride-a/composite.png": "0c548f5e6e768974afa2ed5182d959a38420efe2e65bc0115d6f8fcbd00c4bde",
+    "docs/reviews/M1-OGH3/south/idle/composite.png": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+    "docs/reviews/M1-OGH3/south/stride-b/composite.png": "8195a76812833bb8aceb33e56423ab903ed92fae1b56064a41badf709440cf06",
+    "docs/reviews/M1-OGH3/north/stride-a/composite.png": "00d1684512fa63672a05153b561f3fa319ed0915cb0dd3e3e483414e4101a3fd",
+    "docs/reviews/M1-OGH3/north/idle/composite.png": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+    "docs/reviews/M1-OGH3/north/stride-b/composite.png": "0517425913e4fc96b2c834daccf7bf1c0b93a87eb8f065f13e7b11ec6f71fc16",
+    "docs/reviews/M1-OGH3/west/stride-a/composite.png": "464fe1c86365048694ecaf1fe96d9a90b634254d71f9cb57ffd4b71e7b3cf7a9",
+    "docs/reviews/M1-OGH3/west/idle/composite.png": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+    "docs/reviews/M1-OGH3/west/stride-b/composite.png": "9be7a1f0d2aa809d6bb1b69cafc09ac12590e13c25059f8ff21c5856235f0658",
+    "docs/reviews/M1-OGH3/east/stride-a/composite.png": "b7ffb08b3c65fb75cdfd2daf959fc6fe7e559a9118110174c978259fcd4de737",
+    "docs/reviews/M1-OGH3/east/idle/composite.png": "1bb6f1ba81eabe360cfafefc3e9ecc1b72d3b81b9a1d828facec86240e1e5ab8",
+    "docs/reviews/M1-OGH3/east/stride-b/composite.png": "087dbdf75d1fbb61dd06f158ee2f8b55479eb0a2548e336cf5502e239591fedd",
+    "docs/reviews/M1-ON3/south-A.png": "2242e43e6b91770a073e2754600bed28220f42b4ee62a5626c4a996864140e5c",
+    "docs/reviews/M1-ON3/south-idle.png": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+    "docs/reviews/M1-ON3/south-B.png": "c277a5fd39a151a7256f99daf0704e5f36439b2a541bbcb77da4f6bbc8187551",
+    "docs/reviews/M1-ON3/north-A.png": "4d59b555ee4fcda212c4cd7df2c1dc64dadd5c964995f78217b31012ad8b50e9",
+    "docs/reviews/M1-ON3/north-idle.png": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748",
+    "docs/reviews/M1-ON3/north-B.png": "4017fc35fe2d18187d659df69b5d96aaa6f158f675e8c615bd3ff4091d0ecad7",
+    "docs/reviews/M1-ON3/west-A.png": "a6fea43be5d26bd0f3d14bfe9daa05ad8a1422a6dcb5b21c1a949bd5c72685ac",
+    "docs/reviews/M1-ON3/west-idle.png": "97007bbbdd17a018d89e7d8181eb6211357587e24b69b93dc57a3c1ba4152e50",
+    "docs/reviews/M1-ON3/west-B.png": "87133c3a49be77bb06eb9f9d4c57ba1d5109e9e72a1cf845ecc68349980a5adb",
+    "docs/reviews/M1-ON3/east-A.png": "786d5908abe68ac60068ba60c567e9197b6f53139ac634f1c0d31a7b9d74df8c",
+    "docs/reviews/M1-ON3/east-idle.png": "97448f878310037459b49135d1d566af7d74fc7bff0ecf286df941de27a2fc2f",
+    "docs/reviews/M1-ON3/east-B.png": "217915a8e082aedf6bf96c3e8114c7bf04c3ffa11588e6a78c7ed9888b68218c"
+  }
+}

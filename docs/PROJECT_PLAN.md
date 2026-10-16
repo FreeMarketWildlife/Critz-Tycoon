@@ -1,3 +1,7 @@
+## In progress M1.OWR1 — bounded walking review; Girl correction held
+
+[Motion/inset packet](reviews/M1-OWR1/private-parent-review/README.md) privately delivers actual-playback-reviewed Nugget normal/slow native+4× plus frame strip, and Mom material-only correction. Girl motion stays held for one profile far-shoe darkening/occlusion correction, pending writer/QA approval waits; no requests dismissed or permissions broadened. Preserve exact candidate idle anchors. Source-derived ordinary8-update holds and cumulative GIFrounding are explicit. Next: parent judges Nugget/Mom; resolve pending writer step, finish Girl correction, independently inspect finalmotion, then deliver it. No Mom walk, creator, runtime/save adoption or deployment inferred.
+
 ## Awaiting parent review M1.OVN2 — corrected existing-cast idles
 
 Fresh exclusive-folder continuations OGH2/OM2/ON2 plus OVQ2 have completed the bounded four-idle correction/verification checkpoint. [Private same-identity v1 boards and exact receipt](reviews/M1-OVN2/private-parent-review/README.md) are ready for actual parent inspection. Preserve all old candidates/approval cards; no duplicate writers. Root70 and independent223 saved checks pass; user appearance acceptance is not inferred. Next: parent judges the four-facing construction before any walk authorization. Creator, runtime/save adoption and deployment remain stopped.

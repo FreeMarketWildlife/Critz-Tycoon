@@ -1,0 +1,1418 @@
+{
+  "task": "M1.OM3",
+  "checksPassed": 538,
+  "checks": [
+    "protected art/source/overnight-mom-continuation-r1/build.py",
+    "protected art/source/overnight-mom-continuation-r1/input-hashes.json",
+    "protected art/source/overnight-mom-continuation-r1/continuation-evidence.py",
+    "protected art/source/overnight-mom-continuation-r1/own-final-review.json",
+    "protected art/source/overnight-mom-continuation-r1/saved-file-checks.json",
+    "protected art/source/overnight-mom-continuation-r1/continuation-checks.json",
+    "protected art/source/overnight-mom-continuation-r1/README.md",
+    "protected art/source/overnight-mom-continuation-r1/CONTINUATION_HANDOFF.json",
+    "protected art/source/overnight-mom-continuation-r1/mom-four-idles.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/validation.json",
+    "protected art/source/overnight-mom-continuation-r1/verify.py",
+    "protected art/source/overnight-mom-continuation-r1/freeze-manifest.json",
+    "protected art/source/overnight-mom-continuation-r1/read-only-guards.json",
+    "protected art/source/overnight-mom-continuation-r1/north/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/north/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/north/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/north/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/north/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/north/face.png",
+    "protected art/source/overnight-mom-continuation-r1/north/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/north/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/north/head.png",
+    "protected art/source/overnight-mom-continuation-r1/north/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/north/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/north/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/east/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/east/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/east/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/east/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/east/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/east/face.png",
+    "protected art/source/overnight-mom-continuation-r1/east/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/east/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/east/head.png",
+    "protected art/source/overnight-mom-continuation-r1/east/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/east/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/east/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/build.py",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/input-hashes.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/own-final-review.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/saved-file-checks.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/mom-four-idles.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/validation.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/verify.py",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/freeze-manifest.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/north/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/east/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/south/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v1/west/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/south/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/south/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/south/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/south/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/south/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/south/face.png",
+    "protected art/source/overnight-mom-continuation-r1/south/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/south/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/south/head.png",
+    "protected art/source/overnight-mom-continuation-r1/south/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/south/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/south/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/build.py",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/input-hashes.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/mom-four-idles.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/validation.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/north/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/east/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/south/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/face.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/head.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/history-v0/west/far-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/west/jewelry.png",
+    "protected art/source/overnight-mom-continuation-r1/west/near-arm.png",
+    "protected art/source/overnight-mom-continuation-r1/west/hair.png",
+    "protected art/source/overnight-mom-continuation-r1/west/feet.png",
+    "protected art/source/overnight-mom-continuation-r1/west/idle.sprite.json",
+    "protected art/source/overnight-mom-continuation-r1/west/face.png",
+    "protected art/source/overnight-mom-continuation-r1/west/hands.png",
+    "protected art/source/overnight-mom-continuation-r1/west/legs.png",
+    "protected art/source/overnight-mom-continuation-r1/west/head.png",
+    "protected art/source/overnight-mom-continuation-r1/west/torso.png",
+    "protected art/source/overnight-mom-continuation-r1/west/layers.json",
+    "protected art/source/overnight-mom-continuation-r1/west/far-arm.png",
+    "protected docs/reviews/M1-OM2/idle-north-6x.png",
+    "protected docs/reviews/M1-OM2/idle-east-6x.png",
+    "protected docs/reviews/M1-OM2/background-inspection.png",
+    "protected docs/reviews/M1-OM2/idle-south-6x.png",
+    "protected docs/reviews/M1-OM2/README.md",
+    "protected docs/reviews/M1-OM2/idle-south.png",
+    "protected docs/reviews/M1-OM2/idle-grid.png",
+    "protected docs/reviews/M1-OM2/idle-west-6x.png",
+    "protected docs/reviews/M1-OM2/idle-east.png",
+    "protected docs/reviews/M1-OM2/idle-native.png",
+    "protected docs/reviews/M1-OM2/before-after.png",
+    "protected docs/reviews/M1-OM2/idle-north.png",
+    "protected docs/reviews/M1-OM2/idle-west.png",
+    "protected docs/reviews/M1-OM2/idle-comparison.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-north-6x.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-east-6x.png",
+    "protected docs/reviews/M1-OM2/history-v1/background-inspection.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-south-6x.png",
+    "protected docs/reviews/M1-OM2/history-v1/README.md",
+    "protected docs/reviews/M1-OM2/history-v1/idle-south.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-grid.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-west-6x.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-east.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-native.png",
+    "protected docs/reviews/M1-OM2/history-v1/before-after.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-north.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-west.png",
+    "protected docs/reviews/M1-OM2/history-v1/idle-comparison.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-north-6x.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-east-6x.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-south-6x.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-south.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-grid.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-west-6x.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-east.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-native.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-north.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-west.png",
+    "protected docs/reviews/M1-OM2/history-v0/idle-comparison.png",
+    "protected art/source/overnight-mom-r1/build.py",
+    "protected art/source/overnight-mom-r1/input-hashes.json",
+    "protected art/source/overnight-mom-r1/own-final-review.json",
+    "protected art/source/overnight-mom-r1/saved-file-checks.json",
+    "protected art/source/overnight-mom-r1/mom-four-idles.sprite.json",
+    "protected art/source/overnight-mom-r1/validation.json",
+    "protected art/source/overnight-mom-r1/verify.py",
+    "protected art/source/overnight-mom-r1/freeze-manifest.json",
+    "protected art/source/overnight-mom-r1/north/jewelry.png",
+    "protected art/source/overnight-mom-r1/north/near-arm.png",
+    "protected art/source/overnight-mom-r1/north/hair.png",
+    "protected art/source/overnight-mom-r1/north/feet.png",
+    "protected art/source/overnight-mom-r1/north/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/north/face.png",
+    "protected art/source/overnight-mom-r1/north/hands.png",
+    "protected art/source/overnight-mom-r1/north/legs.png",
+    "protected art/source/overnight-mom-r1/north/head.png",
+    "protected art/source/overnight-mom-r1/north/torso.png",
+    "protected art/source/overnight-mom-r1/north/layers.json",
+    "protected art/source/overnight-mom-r1/north/far-arm.png",
+    "protected art/source/overnight-mom-r1/east/jewelry.png",
+    "protected art/source/overnight-mom-r1/east/near-arm.png",
+    "protected art/source/overnight-mom-r1/east/hair.png",
+    "protected art/source/overnight-mom-r1/east/feet.png",
+    "protected art/source/overnight-mom-r1/east/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/east/face.png",
+    "protected art/source/overnight-mom-r1/east/hands.png",
+    "protected art/source/overnight-mom-r1/east/legs.png",
+    "protected art/source/overnight-mom-r1/east/head.png",
+    "protected art/source/overnight-mom-r1/east/torso.png",
+    "protected art/source/overnight-mom-r1/east/layers.json",
+    "protected art/source/overnight-mom-r1/east/far-arm.png",
+    "protected art/source/overnight-mom-r1/south/jewelry.png",
+    "protected art/source/overnight-mom-r1/south/near-arm.png",
+    "protected art/source/overnight-mom-r1/south/hair.png",
+    "protected art/source/overnight-mom-r1/south/feet.png",
+    "protected art/source/overnight-mom-r1/south/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/south/face.png",
+    "protected art/source/overnight-mom-r1/south/hands.png",
+    "protected art/source/overnight-mom-r1/south/legs.png",
+    "protected art/source/overnight-mom-r1/south/head.png",
+    "protected art/source/overnight-mom-r1/south/torso.png",
+    "protected art/source/overnight-mom-r1/south/layers.json",
+    "protected art/source/overnight-mom-r1/south/far-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/build.py",
+    "protected art/source/overnight-mom-r1/history-v0/input-hashes.json",
+    "protected art/source/overnight-mom-r1/history-v0/mom-four-idles.sprite.json",
+    "protected art/source/overnight-mom-r1/history-v0/validation.json",
+    "protected art/source/overnight-mom-r1/history-v0/north/jewelry.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/near-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/hair.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/feet.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/history-v0/north/face.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/hands.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/legs.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/head.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/torso.png",
+    "protected art/source/overnight-mom-r1/history-v0/north/layers.json",
+    "protected art/source/overnight-mom-r1/history-v0/north/far-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/jewelry.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/near-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/hair.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/feet.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/history-v0/east/face.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/hands.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/legs.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/head.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/torso.png",
+    "protected art/source/overnight-mom-r1/history-v0/east/layers.json",
+    "protected art/source/overnight-mom-r1/history-v0/east/far-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/jewelry.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/near-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/hair.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/feet.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/history-v0/south/face.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/hands.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/legs.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/head.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/torso.png",
+    "protected art/source/overnight-mom-r1/history-v0/south/layers.json",
+    "protected art/source/overnight-mom-r1/history-v0/south/far-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/jewelry.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/near-arm.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/hair.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/feet.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/history-v0/west/face.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/hands.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/legs.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/head.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/torso.png",
+    "protected art/source/overnight-mom-r1/history-v0/west/layers.json",
+    "protected art/source/overnight-mom-r1/history-v0/west/far-arm.png",
+    "protected art/source/overnight-mom-r1/west/jewelry.png",
+    "protected art/source/overnight-mom-r1/west/near-arm.png",
+    "protected art/source/overnight-mom-r1/west/hair.png",
+    "protected art/source/overnight-mom-r1/west/feet.png",
+    "protected art/source/overnight-mom-r1/west/idle.sprite.json",
+    "protected art/source/overnight-mom-r1/west/face.png",
+    "protected art/source/overnight-mom-r1/west/hands.png",
+    "protected art/source/overnight-mom-r1/west/legs.png",
+    "protected art/source/overnight-mom-r1/west/head.png",
+    "protected art/source/overnight-mom-r1/west/torso.png",
+    "protected art/source/overnight-mom-r1/west/layers.json",
+    "protected art/source/overnight-mom-r1/west/far-arm.png",
+    "protected docs/reviews/M1-OM1/idle-north-6x.png",
+    "protected docs/reviews/M1-OM1/idle-east-6x.png",
+    "protected docs/reviews/M1-OM1/background-inspection.png",
+    "protected docs/reviews/M1-OM1/idle-south-6x.png",
+    "protected docs/reviews/M1-OM1/README.md",
+    "protected docs/reviews/M1-OM1/idle-south.png",
+    "protected docs/reviews/M1-OM1/idle-grid.png",
+    "protected docs/reviews/M1-OM1/idle-west-6x.png",
+    "protected docs/reviews/M1-OM1/idle-east.png",
+    "protected docs/reviews/M1-OM1/idle-native.png",
+    "protected docs/reviews/M1-OM1/before-after.png",
+    "protected docs/reviews/M1-OM1/idle-north.png",
+    "protected docs/reviews/M1-OM1/idle-west.png",
+    "protected docs/reviews/M1-OM1/idle-comparison.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-north-6x.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-east-6x.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-south-6x.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-south.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-grid.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-west-6x.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-east.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-native.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-north.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-west.png",
+    "protected docs/reviews/M1-OM1/history-v0/idle-comparison.png",
+    "south anchor and frame exact",
+    "south whole silhouette exact",
+    "south full feet exact",
+    "south layer alpha exact feet",
+    "south protected layer feet",
+    "south layer alpha exact legs",
+    "south protected layer legs",
+    "south layer alpha exact far-arm",
+    "south protected layer far-arm",
+    "south layer alpha exact torso",
+    "south protected layer torso",
+    "south layer alpha exact near-arm",
+    "south protected layer near-arm",
+    "south layer alpha exact hands",
+    "south protected layer hands",
+    "south layer alpha exact head",
+    "south protected layer head",
+    "south layer alpha exact face",
+    "south protected layer face",
+    "south layer alpha exact hair",
+    "south protected layer hair",
+    "south layer alpha exact jewelry",
+    "south protected layer jewelry",
+    "south combined project exact",
+    "south PNG bytes exact",
+    "north anchor and frame exact",
+    "north whole silhouette exact",
+    "north full feet exact",
+    "north layer alpha exact feet",
+    "north protected layer feet",
+    "north layer alpha exact legs",
+    "north protected layer legs",
+    "north layer alpha exact far-arm",
+    "north protected layer far-arm",
+    "north layer alpha exact torso",
+    "north protected layer torso",
+    "north layer alpha exact near-arm",
+    "north protected layer near-arm",
+    "north layer alpha exact hands",
+    "north protected layer hands",
+    "north layer alpha exact head",
+    "north protected layer head",
+    "north layer alpha exact face",
+    "north protected layer face",
+    "north layer alpha exact hair",
+    "north protected layer hair",
+    "north layer alpha exact jewelry",
+    "north protected layer jewelry",
+    "north combined project exact",
+    "north PNG bytes exact",
+    "west anchor and frame exact",
+    "west whole silhouette exact",
+    "west full feet exact",
+    "west layer alpha exact feet",
+    "west protected layer feet",
+    "west layer alpha exact legs",
+    "west protected layer legs",
+    "west layer alpha exact far-arm",
+    "west protected layer far-arm",
+    "west layer alpha exact torso",
+    "west layer alpha exact near-arm",
+    "west protected layer near-arm",
+    "west layer alpha exact hands",
+    "west protected layer hands",
+    "west layer alpha exact head",
+    "west protected layer head",
+    "west layer alpha exact face",
+    "west protected layer face",
+    "west layer alpha exact hair",
+    "west protected layer hair",
+    "west layer alpha exact jewelry",
+    "west protected layer jewelry",
+    "west combined project exact",
+    "west bounded torso recolor 14,44",
+    "west bounded torso recolor 15,44",
+    "west bounded torso recolor 16,44",
+    "west bounded torso recolor 17,44",
+    "west bounded torso recolor 14,45",
+    "west bounded torso recolor 15,45",
+    "west bounded torso recolor 16,45",
+    "west bounded torso recolor 17,45",
+    "west bounded torso recolor 12,46",
+    "west bounded torso recolor 13,46",
+    "west bounded torso recolor 15,46",
+    "west bounded torso recolor 16,46",
+    "west bounded torso recolor 17,46",
+    "west bounded torso recolor 12,47",
+    "west bounded torso recolor 13,47",
+    "west bounded torso recolor 15,47",
+    "west bounded torso recolor 16,47",
+    "west bounded torso recolor 17,47",
+    "west bounded torso recolor 12,48",
+    "west bounded torso recolor 13,48",
+    "west bounded torso recolor 15,48",
+    "west bounded torso recolor 16,48",
+    "west bounded torso recolor 17,48",
+    "west bounded torso recolor 12,49",
+    "west bounded torso recolor 13,49",
+    "west bounded torso recolor 15,49",
+    "west bounded torso recolor 16,49",
+    "west bounded torso recolor 17,49",
+    "west bounded torso recolor 13,50",
+    "west bounded torso recolor 15,50",
+    "west bounded torso recolor 16,50",
+    "west bounded torso recolor 17,50",
+    "west bounded torso recolor 13,51",
+    "west bounded torso recolor 15,51",
+    "west bounded torso recolor 16,51",
+    "west bounded torso recolor 17,51",
+    "west bounded torso recolor 14,52",
+    "west bounded torso recolor 15,52",
+    "west bounded torso recolor 16,52",
+    "west bounded torso recolor 17,52",
+    "west bounded torso recolor 14,53",
+    "west bounded torso recolor 15,53",
+    "west bounded torso recolor 16,53",
+    "west bounded torso recolor 17,53",
+    "west bounded torso recolor 14,54",
+    "west bounded torso recolor 15,54",
+    "west bounded torso recolor 16,54",
+    "west bounded torso recolor 17,54",
+    "west continuous cream neckline to waist",
+    "west cream separated from leading lobe",
+    "east anchor and frame exact",
+    "east whole silhouette exact",
+    "east full feet exact",
+    "east layer alpha exact feet",
+    "east protected layer feet",
+    "east layer alpha exact legs",
+    "east protected layer legs",
+    "east layer alpha exact far-arm",
+    "east protected layer far-arm",
+    "east layer alpha exact torso",
+    "east layer alpha exact near-arm",
+    "east protected layer near-arm",
+    "east layer alpha exact hands",
+    "east protected layer hands",
+    "east layer alpha exact head",
+    "east protected layer head",
+    "east layer alpha exact face",
+    "east protected layer face",
+    "east layer alpha exact hair",
+    "east protected layer hair",
+    "east layer alpha exact jewelry",
+    "east protected layer jewelry",
+    "east combined project exact",
+    "east bounded torso recolor 14,44",
+    "east bounded torso recolor 15,44",
+    "east bounded torso recolor 16,44",
+    "east bounded torso recolor 17,44",
+    "east bounded torso recolor 14,45",
+    "east bounded torso recolor 15,45",
+    "east bounded torso recolor 16,45",
+    "east bounded torso recolor 17,45",
+    "east bounded torso recolor 14,46",
+    "east bounded torso recolor 15,46",
+    "east bounded torso recolor 16,46",
+    "east bounded torso recolor 18,46",
+    "east bounded torso recolor 19,46",
+    "east bounded torso recolor 14,47",
+    "east bounded torso recolor 15,47",
+    "east bounded torso recolor 16,47",
+    "east bounded torso recolor 18,47",
+    "east bounded torso recolor 19,47",
+    "east bounded torso recolor 14,48",
+    "east bounded torso recolor 15,48",
+    "east bounded torso recolor 16,48",
+    "east bounded torso recolor 18,48",
+    "east bounded torso recolor 19,48",
+    "east bounded torso recolor 14,49",
+    "east bounded torso recolor 15,49",
+    "east bounded torso recolor 16,49",
+    "east bounded torso recolor 18,49",
+    "east bounded torso recolor 19,49",
+    "east bounded torso recolor 14,50",
+    "east bounded torso recolor 15,50",
+    "east bounded torso recolor 16,50",
+    "east bounded torso recolor 18,50",
+    "east bounded torso recolor 14,51",
+    "east bounded torso recolor 15,51",
+    "east bounded torso recolor 16,51",
+    "east bounded torso recolor 18,51",
+    "east bounded torso recolor 14,52",
+    "east bounded torso recolor 15,52",
+    "east bounded torso recolor 16,52",
+    "east bounded torso recolor 17,52",
+    "east bounded torso recolor 14,53",
+    "east bounded torso recolor 15,53",
+    "east bounded torso recolor 16,53",
+    "east bounded torso recolor 17,53",
+    "east bounded torso recolor 14,54",
+    "east bounded torso recolor 15,54",
+    "east bounded torso recolor 16,54",
+    "east bounded torso recolor 17,54",
+    "east continuous cream neckline to waist",
+    "east cream separated from leading lobe",
+    "equivalent East wardrobe turn"
+  ],
+  "deltas": {
+    "south": [],
+    "north": [],
+    "west": [
+      {
+        "cell": [
+          14,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          12,
+          46
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          13,
+          46
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          46
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          46
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          46
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          12,
+          47
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          13,
+          47
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          47
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          47
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          47
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          12,
+          48
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          13,
+          48
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          48
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          48
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          48
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          12,
+          49
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          13,
+          49
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          49
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          49
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          49
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          13,
+          50
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          50
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          50
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          50
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          13,
+          51
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          51
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          51
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          51
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          52
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          52
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          52
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          52
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          54
+        ],
+        "before": "#201008",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          54
+        ],
+        "before": "#201008",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          54
+        ],
+        "before": "#201008",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          54
+        ],
+        "before": "#201008",
+        "after": "#87465e",
+        "owner": "torso"
+      }
+    ],
+    "east": [
+      {
+        "cell": [
+          14,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          44
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          45
+        ],
+        "before": "#ba7082",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          46
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          46
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          46
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          18,
+          46
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          19,
+          46
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          47
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          47
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          47
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          18,
+          47
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          19,
+          47
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          48
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          48
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          48
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          18,
+          48
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          19,
+          48
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          49
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          49
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          49
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          18,
+          49
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          19,
+          49
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          50
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          50
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          50
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          18,
+          50
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          51
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          51
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          51
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          18,
+          51
+        ],
+        "before": "#f7edcc",
+        "after": "#ba7082",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          52
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          52
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          52
+        ],
+        "before": "#87465e",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          52
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          53
+        ],
+        "before": "#ba7082",
+        "after": "#f7edcc",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          14,
+          54
+        ],
+        "before": "#201008",
+        "after": "#87465e",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          15,
+          54
+        ],
+        "before": "#201008",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          16,
+          54
+        ],
+        "before": "#201008",
+        "after": "#d9cba7",
+        "owner": "torso"
+      },
+      {
+        "cell": [
+          17,
+          54
+        ],
+        "before": "#201008",
+        "after": "#d9cba7",
+        "owner": "torso"
+      }
+    ]
+  },
+  "scope": "Only profile torso material RGBA; all alpha and other layers fixed",
+  "appearanceAccepted": false
+}
