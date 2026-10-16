@@ -1,7 +1,6 @@
-## M1.PAIR1 — unified anatomical brush; character work stays stopped
+## M1.PAIR1 — complete anatomical brush live v63; character work stays stopped
 
-Finish and publish the focused front-view semantic labeling fix: one Arm/Hand/Leg/Foot-shoe control; correct opposite anatomical IDs/colors per mirrored destination; stable v1 IDs/exports and unchanged saved labels. Actual browser colors and compatibility are verified. Next: publish editor-only overlay, verify hosted UI/IDs, then Phil continues correcting the dummy. No back/side inference, sprite generation, animation, QA or integration resumes. [Evidence](reviews/M1-PAIR1/README.md).
-
+Published and hosted-tested the focused front-view semantic labeling fix: one Arm/Hand/Leg/Foot-shoe control; correct opposite anatomical IDs/colors per mirrored destination; stable v1 IDs/exports and unchanged saved labels. Actual browser colors and compatibility are verified. Next: Phil continues correcting the front dummy in the hosted v63 editor; old saved labels are preserved and new strokes infer the correct anatomical side. No back/side inference, sprite generation, animation, QA or integration resumes. [Evidence](reviews/M1-PAIR1/README.md).
 
 ## M1.MIR1 — complete editor tool live v62; character work paused
 

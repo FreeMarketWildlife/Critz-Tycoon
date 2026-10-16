@@ -1,0 +1,41 @@
+{
+  "passed": 3,
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 14,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "frontOnly": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 14,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "frontOnly": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 14,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "frontOnly": true,
+      "errors": []
+    }
+  ],
+  "physicalPhoneTested": false,
+  "cleanUI": "Fresh approved-seed desktop1400/portrait390 screenshots actually inspected; choosing Arm and enabling Mirror did not change existing labels",
+  "screenshots": "Ignored local-review/paired-labels-hosted; no real user storage, no raster changes"
+}

@@ -14,5 +14,10 @@
   ],
   "payloadBytes": 254479180,
   "candidateSHA256": "58018e898cd0151bdfb613d2db59ef6a4d617a53559d62b171cf6a674dd061f3",
-  "approvedSeedByteExact": true
+  "approvedSeedByteExact": true,
+  "testedEditorSHA256": {
+    "sprite-editor/body-regions.js": "4d4df5a17a90cc55f6cbfc7e1dfa759e5da35844159975da3f973d9633a3952c",
+    "sprite-editor/body-regions-model.js": "73753ea79c95271bdd18041859bfd9ed7bbdb587ed27ade31f1c26b064056b20",
+    "sprite-editor/README.md": "d3504f60faeb70d10a848f13dded0d6d7930a09ec55628bd012aa31778937c6c"
+  }
 }
