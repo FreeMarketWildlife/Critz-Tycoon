@@ -1,0 +1,2017 @@
+{
+  "task": "M1.OVQ3 Mom walk followup",
+  "passed": 388,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "south/idle/feet JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/legs JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/far-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "south/idle native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "south/idle painted contact",
+      "pass": true
+    },
+    {
+      "name": "south/idle single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "south frozen OM3 idle bytes",
+      "pass": true
+    },
+    {
+      "name": "south/A/left-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/left-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/right-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/right-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/left-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/left-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/right-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/right-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "south/A native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "south/A painted contact",
+      "pass": true
+    },
+    {
+      "name": "south/A single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "south/B/left-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/left-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/right-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/right-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/left-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/left-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/right-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/right-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "south/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "south/B native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "south/B painted contact",
+      "pass": true
+    },
+    {
+      "name": "south/B single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "south/A/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/A/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/A/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/A/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/A/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/B/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/B/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/B/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/B/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "south/B/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/idle/feet JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/legs JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/far-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "north/idle native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "north/idle painted contact",
+      "pass": true
+    },
+    {
+      "name": "north/idle single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "north frozen OM3 idle bytes",
+      "pass": true
+    },
+    {
+      "name": "north/A/left-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/left-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/right-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/right-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/left-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/left-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/right-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/right-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "north/A native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "north/A painted contact",
+      "pass": true
+    },
+    {
+      "name": "north/A single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "north/B/left-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/left-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/right-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/right-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/left-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/left-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/right-near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/right-hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "north/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "north/B native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "north/B painted contact",
+      "pass": true
+    },
+    {
+      "name": "north/B single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "north/A/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/A/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/A/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/A/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/A/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/B/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/B/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/B/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/B/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "north/B/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/idle/feet JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/legs JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/far-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "west/idle native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "west/idle painted contact",
+      "pass": true
+    },
+    {
+      "name": "west/idle single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "west frozen OM3 idle bytes",
+      "pass": true
+    },
+    {
+      "name": "west/A/far-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/far-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/near-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/near-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/far-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/far-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/near-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/near-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "west/A native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "west/A painted contact",
+      "pass": true
+    },
+    {
+      "name": "west/A single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "west/B/far-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/far-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/near-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/near-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/far-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/far-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/near-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/near-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "west/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "west/B native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "west/B painted contact",
+      "pass": true
+    },
+    {
+      "name": "west/B single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "west/A/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/A/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/A/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/A/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/A/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/B/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/B/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/B/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/B/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "west/B/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/idle/feet JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/legs JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/far-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/near-arm JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/hands JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "east/idle native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "east/idle painted contact",
+      "pass": true
+    },
+    {
+      "name": "east/idle single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "east frozen OM3 idle bytes",
+      "pass": true
+    },
+    {
+      "name": "east/A/far-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/far-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/near-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/near-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/far-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/far-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/near-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/near-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "east/A native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "east/A painted contact",
+      "pass": true
+    },
+    {
+      "name": "east/A single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "east/B/far-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/far-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/near-leg JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/near-shoe JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/far-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/far-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/torso JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/near-sleeve JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/near-hand JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/head JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/face JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/hair JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B/jewelry JSON equals PNG",
+      "pass": true
+    },
+    {
+      "name": "east/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "east/B native32x64 binaryalpha",
+      "pass": true
+    },
+    {
+      "name": "east/B painted contact",
+      "pass": true
+    },
+    {
+      "name": "east/B single fourconnected cluster",
+      "pass": true
+    },
+    {
+      "name": "east/A/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/A/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/A/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/A/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/A/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/B/head exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/B/face exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/B/hair exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/B/jewelry exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east/B/torso exact idle+2Y",
+      "pass": true
+    },
+    {
+      "name": "east-normal-1x.gif/slot0/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-1x.gif/slot1/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-1x.gif/slot2/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-1x.gif/slot3/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "east-normal-4x.gif/slot0/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-4x.gif/slot1/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-4x.gif/slot2/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-4x.gif/slot3/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-normal-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-1x.gif/slot0/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-1x.gif/slot1/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-1x.gif/slot2/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-1x.gif/slot3/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-4x.gif/slot0/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-4x.gif/slot1/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-4x.gif/slot2/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-4x.gif/slot3/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "east-slow4x-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot0/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot1/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot2/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif/slot3/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-normal.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot0/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot1/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot2/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/east/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif/slot3/east/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "four-directions-slow4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "north-normal-1x.gif/slot0/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-1x.gif/slot1/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-1x.gif/slot2/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-1x.gif/slot3/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "north-normal-4x.gif/slot0/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-4x.gif/slot1/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-4x.gif/slot2/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-4x.gif/slot3/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-normal-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-1x.gif/slot0/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-1x.gif/slot1/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-1x.gif/slot2/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-1x.gif/slot3/north/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-4x.gif/slot0/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-4x.gif/slot1/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-4x.gif/slot2/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-4x.gif/slot3/north/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "north-slow4x-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "south-normal-1x.gif/slot0/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-1x.gif/slot1/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-1x.gif/slot2/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-1x.gif/slot3/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "south-normal-4x.gif/slot0/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-4x.gif/slot1/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-4x.gif/slot2/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-4x.gif/slot3/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-normal-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-1x.gif/slot0/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-1x.gif/slot1/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-1x.gif/slot2/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-1x.gif/slot3/south/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-4x.gif/slot0/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-4x.gif/slot1/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-4x.gif/slot2/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-4x.gif/slot3/south/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "south-slow4x-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "west-normal-1x.gif/slot0/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-1x.gif/slot1/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-1x.gif/slot2/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-1x.gif/slot3/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "west-normal-4x.gif/slot0/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-4x.gif/slot1/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-4x.gif/slot2/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-4x.gif/slot3/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-normal-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-1x.gif/slot0/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-1x.gif/slot1/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-1x.gif/slot2/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-1x.gif/slot3/west/1x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-1x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-4x.gif/slot0/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-4x.gif/slot1/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-4x.gif/slot2/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-4x.gif/slot3/west/4x exact decoded PNG",
+      "pass": true
+    },
+    {
+      "name": "west-slow4x-4x.gif four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "actual Mom pinned primary SHA",
+      "pass": true
+    },
+    {
+      "name": "south declared source order",
+      "pass": true
+    },
+    {
+      "name": "north declared source order",
+      "pass": true
+    },
+    {
+      "name": "west declared source order",
+      "pass": true
+    },
+    {
+      "name": "east declared source order",
+      "pass": true
+    },
+    {
+      "name": "exact source clock8tick",
+      "pass": true
+    }
+  ],
+  "poses": [
+    {
+      "direction": "south",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OM4/south-idle.png",
+      "sha256": "68be2c945bb1e1368e7c222f5b81f48b87822a921d3181c04dfa8ef95160496c",
+      "layersJsonSHA256": "5a03a09e357e9fd5fcce383d0e1fb37d25bd978cde3729c0ea8db9e33a6f4c23",
+      "contactRow": 61,
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "direction": "south",
+      "phase": "A",
+      "file": "docs/reviews/M1-OM4/south-A.png",
+      "sha256": "99c7a1a20406fd77042be496a739f761937b84dcd89ba3c66603bb3e1161eb88",
+      "layersJsonSHA256": "d62b627d66ef7eb90cf6c06f8c6c9103d4038ddb5a88c0fe064d58dee6019460",
+      "contactRow": 63,
+      "contactXs": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "direction": "south",
+      "phase": "B",
+      "file": "docs/reviews/M1-OM4/south-B.png",
+      "sha256": "7d07bb2f92f2a3d234a0978a7ccc7f3984755b32c9e8ba4dabb7d0e3c2f5814a",
+      "layersJsonSHA256": "f6a16481b05bc3c14554d7b3de10aa556cd43850c81a95982e199312c7e926b4",
+      "contactRow": 63,
+      "contactXs": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "direction": "north",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OM4/north-idle.png",
+      "sha256": "aa6715f4cb7185edc7c73d8247a87e89eb43861a133cf8fded94bd9248a92df3",
+      "layersJsonSHA256": "b4109344399f5fae1391120b91f44ec60a95fa1d4f4d895c8fbdae68018da1a0",
+      "contactRow": 61,
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "direction": "north",
+      "phase": "A",
+      "file": "docs/reviews/M1-OM4/north-A.png",
+      "sha256": "e1250c9b1de32e8e9de1d646031b9614571593bd322c7bf4cafa53a2baf0e556",
+      "layersJsonSHA256": "c5f976719d68b311d92c762a9e8cc98d91966efd694fb196f67ea5e4cb2b6bfd",
+      "contactRow": 63,
+      "contactXs": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "direction": "north",
+      "phase": "B",
+      "file": "docs/reviews/M1-OM4/north-B.png",
+      "sha256": "d182020e9ed303a04dd60305633b04279ea8d6999ed70c1f3603e7e0b43508ce",
+      "layersJsonSHA256": "256eee024d05c617c3277aea03970d7bbe4031866a26e2f51dc9613ecf1813b1",
+      "contactRow": 63,
+      "contactXs": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "direction": "west",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OM4/west-idle.png",
+      "sha256": "d4a8e80a263331882a0845da7a5fda035b2bbef23547335fa955c7ea1ce38804",
+      "layersJsonSHA256": "72a573db14469737379de4441591aa2e2b2ec3bc719dbb511de2d68d01449ccf",
+      "contactRow": 61,
+      "contactXs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "direction": "west",
+      "phase": "A",
+      "file": "docs/reviews/M1-OM4/west-A.png",
+      "sha256": "f7bee0c8febe3a0bc15277fd33a419c9139f1b41fd71c3a44b14b1510091f72c",
+      "layersJsonSHA256": "e1d020f0ce1f1209f3b5bb9111164033048a7151f1006a807b4365b7ef33ed15",
+      "contactRow": 63,
+      "contactXs": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "direction": "west",
+      "phase": "B",
+      "file": "docs/reviews/M1-OM4/west-B.png",
+      "sha256": "f1460433c2cb1efddf4859ec1eddfad43f6247b4b410e34523e8123c5bc047a4",
+      "layersJsonSHA256": "4a291209cef3679258e5d76f7c2af99859ad2672bedac65a90401d857d3a740a",
+      "contactRow": 63,
+      "contactXs": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "direction": "east",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OM4/east-idle.png",
+      "sha256": "dd9d71216b783b05a85d66a0d9f2250148d99c462fd03f6d864dae89a62397ba",
+      "layersJsonSHA256": "f894ba12a1a23158d5a76de73886c81c9bce1dc9a75c4061d240064929d74de1",
+      "contactRow": 61,
+      "contactXs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "direction": "east",
+      "phase": "A",
+      "file": "docs/reviews/M1-OM4/east-A.png",
+      "sha256": "50261d6545f07beb7aff665230ba73911afaaf8202a2271e9609eadce09becbd",
+      "layersJsonSHA256": "252a830c1a97a1c2fba7021339251ab603f54cc3c9512b56456eee8f7181ecf2",
+      "contactRow": 63,
+      "contactXs": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "direction": "east",
+      "phase": "B",
+      "file": "docs/reviews/M1-OM4/east-B.png",
+      "sha256": "8b06b68d428fe7cd61da708c2664a79128b56b7f310a2afbd726c48f8c008b4f",
+      "layersJsonSHA256": "ded465cb652c970cc5d0babc4842746eb76b2118c86ca6ea70a3ceeef2014193",
+      "contactRow": 63,
+      "contactXs": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  ],
+  "gifs": [
+    {
+      "file": "docs/reviews/M1-OM4/east-normal-1x.gif",
+      "sha256": "39df75acf31a82f00bfbd3071d970179b7b90540aafdc64cef9b60bc1f5cfafb",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/east-normal-4x.gif",
+      "sha256": "a95407a62705509eed0ded96a20ea37a136c3111c65fb627dd8df78d56d0684e",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/east-slow4x-1x.gif",
+      "sha256": "91671c665d34f73d54788e607fc5953215ec1b61734736d5a8759c35b47edc34",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/east-slow4x-4x.gif",
+      "sha256": "b6c6f2f28741598a011fc1827f8bfd431099a065bb60c5bf8995e31a88ab88e5",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/four-directions-normal.gif",
+      "sha256": "b4d93aa77e34c2873e8b2a199a30993fdb281a03bde28bc267a7811fe3dde4e0",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/four-directions-slow4x.gif",
+      "sha256": "4ebed079882e6b3bce4a488c865e8a2303789300ba04b5d0256fb45cd7a179ff",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/north-normal-1x.gif",
+      "sha256": "8108da02a5f7de5fe761732f391661e043e5145fb2394c958f3cda6e4b6ad710",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/north-normal-4x.gif",
+      "sha256": "ab798ee59a04a612d7757f97aba7ab7b678aeb33d497501a09c1b003b6e3201e",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/north-slow4x-1x.gif",
+      "sha256": "156ef56053cecffa354a45842009428fbe076e44ed58b2ec00bb4c11d7c90dc9",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/north-slow4x-4x.gif",
+      "sha256": "5446be78096d254937d519c1149ca869fbb03dad66aea3dccbee93f0be704866",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/south-normal-1x.gif",
+      "sha256": "46677e168eaa4d75f79120625f7954a07c9f9166d92ed6b742224fd595d6829d",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/south-normal-4x.gif",
+      "sha256": "e22fd1f02990023c8002f6cae68b9d9391a3636cd623256439dc95cc7aecefe4",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/south-slow4x-1x.gif",
+      "sha256": "bc6d90063d4e87bbb4f0a256e8ce591c5c9527e0552ecb88282fcf2c84060548",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/south-slow4x-4x.gif",
+      "sha256": "acd6bf4b72eb97542f6f644ea12c46f0e1b620e92905a3ffb73e81dacd6154dc",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/west-normal-1x.gif",
+      "sha256": "2343b24fb7a3aed0c38b13db2a5930cf1b550f332feb1490e80698ccbbeaf0c4",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/west-normal-4x.gif",
+      "sha256": "a998f3322947d912ba22934cd8174d2013c73b15dbf416b447c525cc748fc0aa",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/west-slow4x-1x.gif",
+      "sha256": "673a62d943418cf90529e5ddcc1665b5353b518e181848dd79dad084514432c7",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    },
+    {
+      "file": "docs/reviews/M1-OM4/west-slow4x-4x.gif",
+      "sha256": "810e16bf9a085110b72c3920fac81934d7b83ffefc17b5ddacaf8de5f55849a3",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ]
+    }
+  ],
+  "source": {
+    "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+    "sha256": "a404a3c79252a6a13e10622307c3bce4c76c1e1a39814b7c7a11ad7520442289",
+    "frames": [
+      {
+        "index": 0,
+        "contactRow": 30,
+        "contactXs": [
+          5,
+          6,
+          9,
+          10
+        ]
+      },
+      {
+        "index": 1,
+        "contactRow": 30,
+        "contactXs": [
+          5,
+          6,
+          9,
+          10
+        ]
+      },
+      {
+        "index": 2,
+        "contactRow": 30,
+        "contactXs": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "index": 3,
+        "contactRow": 31,
+        "contactXs": [
+          6,
+          7
+        ]
+      },
+      {
+        "index": 4,
+        "contactRow": 31,
+        "contactXs": [
+          8,
+          9
+        ]
+      },
+      {
+        "index": 5,
+        "contactRow": 31,
+        "contactXs": [
+          6,
+          7
+        ]
+      },
+      {
+        "index": 6,
+        "contactRow": 31,
+        "contactXs": [
+          8,
+          9
+        ]
+      },
+      {
+        "index": 7,
+        "contactRow": 31,
+        "contactXs": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "index": 8,
+        "contactRow": 31,
+        "contactXs": [
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  },
+  "limitations": "Root source-command audit confirms8ticks/order; actual PNG asset contacts independently decoded index0 transparent, raw palette not emulator color. Exact torso+2Y preserves inset material; does not approve visual read. GIF540/2140ms quantization versus exact535.7666/2143.0664ms."
+}

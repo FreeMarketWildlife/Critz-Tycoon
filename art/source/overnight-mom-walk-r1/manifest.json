@@ -1,0 +1,59 @@
+{
+  "task": "M1.OM4",
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "sequence": [
+    "A",
+    "idle",
+    "B",
+    "idle"
+  ],
+  "sourceOrder": {
+    "south": [
+      3,
+      0,
+      4,
+      0
+    ],
+    "north": [
+      5,
+      1,
+      6,
+      1
+    ],
+    "west": [
+      7,
+      2,
+      8,
+      2
+    ],
+    "east": [
+      "flip7",
+      "flip2",
+      "flip8",
+      "flip2"
+    ]
+  },
+  "tickSeconds": 0.016742706298828125,
+  "updatesPerSlot": 8,
+  "normalGifMs": [
+    130,
+    140,
+    130,
+    140
+  ],
+  "slow4xGifMs": [
+    540,
+    530,
+    540,
+    530
+  ],
+  "appearanceAccepted": false,
+  "construction": "Exact OM3 idle; rigid +2Y head and torso on strides; original alternating arm/short trouser connections; full near shoe translated intact; constructed dark full far shoe behind near foot, no shrinking. No x/shape sway or flaps."
+}

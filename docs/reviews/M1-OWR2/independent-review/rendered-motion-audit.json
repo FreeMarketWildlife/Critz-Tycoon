@@ -1,0 +1,715 @@
+{
+  "method": "Actual live Chrome rAF samples; exact canvas pixels compared with saved author PNGs, all4slot coverage normal/slow; actual screenshot sequence visually inspected, not uninterrupted human watch",
+  "matches": 3152,
+  "failures": [],
+  "casesCovered": 96,
+  "coverage": [
+    [
+      "girl",
+      "east",
+      "normal",
+      0
+    ],
+    [
+      "girl",
+      "east",
+      "normal",
+      1
+    ],
+    [
+      "girl",
+      "east",
+      "normal",
+      2
+    ],
+    [
+      "girl",
+      "east",
+      "normal",
+      3
+    ],
+    [
+      "girl",
+      "east",
+      "slow",
+      0
+    ],
+    [
+      "girl",
+      "east",
+      "slow",
+      1
+    ],
+    [
+      "girl",
+      "east",
+      "slow",
+      2
+    ],
+    [
+      "girl",
+      "east",
+      "slow",
+      3
+    ],
+    [
+      "girl",
+      "north",
+      "normal",
+      0
+    ],
+    [
+      "girl",
+      "north",
+      "normal",
+      1
+    ],
+    [
+      "girl",
+      "north",
+      "normal",
+      2
+    ],
+    [
+      "girl",
+      "north",
+      "normal",
+      3
+    ],
+    [
+      "girl",
+      "north",
+      "slow",
+      0
+    ],
+    [
+      "girl",
+      "north",
+      "slow",
+      1
+    ],
+    [
+      "girl",
+      "north",
+      "slow",
+      2
+    ],
+    [
+      "girl",
+      "north",
+      "slow",
+      3
+    ],
+    [
+      "girl",
+      "south",
+      "normal",
+      0
+    ],
+    [
+      "girl",
+      "south",
+      "normal",
+      1
+    ],
+    [
+      "girl",
+      "south",
+      "normal",
+      2
+    ],
+    [
+      "girl",
+      "south",
+      "normal",
+      3
+    ],
+    [
+      "girl",
+      "south",
+      "slow",
+      0
+    ],
+    [
+      "girl",
+      "south",
+      "slow",
+      1
+    ],
+    [
+      "girl",
+      "south",
+      "slow",
+      2
+    ],
+    [
+      "girl",
+      "south",
+      "slow",
+      3
+    ],
+    [
+      "girl",
+      "west",
+      "normal",
+      0
+    ],
+    [
+      "girl",
+      "west",
+      "normal",
+      1
+    ],
+    [
+      "girl",
+      "west",
+      "normal",
+      2
+    ],
+    [
+      "girl",
+      "west",
+      "normal",
+      3
+    ],
+    [
+      "girl",
+      "west",
+      "slow",
+      0
+    ],
+    [
+      "girl",
+      "west",
+      "slow",
+      1
+    ],
+    [
+      "girl",
+      "west",
+      "slow",
+      2
+    ],
+    [
+      "girl",
+      "west",
+      "slow",
+      3
+    ],
+    [
+      "mom",
+      "east",
+      "normal",
+      0
+    ],
+    [
+      "mom",
+      "east",
+      "normal",
+      1
+    ],
+    [
+      "mom",
+      "east",
+      "normal",
+      2
+    ],
+    [
+      "mom",
+      "east",
+      "normal",
+      3
+    ],
+    [
+      "mom",
+      "east",
+      "slow",
+      0
+    ],
+    [
+      "mom",
+      "east",
+      "slow",
+      1
+    ],
+    [
+      "mom",
+      "east",
+      "slow",
+      2
+    ],
+    [
+      "mom",
+      "east",
+      "slow",
+      3
+    ],
+    [
+      "mom",
+      "north",
+      "normal",
+      0
+    ],
+    [
+      "mom",
+      "north",
+      "normal",
+      1
+    ],
+    [
+      "mom",
+      "north",
+      "normal",
+      2
+    ],
+    [
+      "mom",
+      "north",
+      "normal",
+      3
+    ],
+    [
+      "mom",
+      "north",
+      "slow",
+      0
+    ],
+    [
+      "mom",
+      "north",
+      "slow",
+      1
+    ],
+    [
+      "mom",
+      "north",
+      "slow",
+      2
+    ],
+    [
+      "mom",
+      "north",
+      "slow",
+      3
+    ],
+    [
+      "mom",
+      "south",
+      "normal",
+      0
+    ],
+    [
+      "mom",
+      "south",
+      "normal",
+      1
+    ],
+    [
+      "mom",
+      "south",
+      "normal",
+      2
+    ],
+    [
+      "mom",
+      "south",
+      "normal",
+      3
+    ],
+    [
+      "mom",
+      "south",
+      "slow",
+      0
+    ],
+    [
+      "mom",
+      "south",
+      "slow",
+      1
+    ],
+    [
+      "mom",
+      "south",
+      "slow",
+      2
+    ],
+    [
+      "mom",
+      "south",
+      "slow",
+      3
+    ],
+    [
+      "mom",
+      "west",
+      "normal",
+      0
+    ],
+    [
+      "mom",
+      "west",
+      "normal",
+      1
+    ],
+    [
+      "mom",
+      "west",
+      "normal",
+      2
+    ],
+    [
+      "mom",
+      "west",
+      "normal",
+      3
+    ],
+    [
+      "mom",
+      "west",
+      "slow",
+      0
+    ],
+    [
+      "mom",
+      "west",
+      "slow",
+      1
+    ],
+    [
+      "mom",
+      "west",
+      "slow",
+      2
+    ],
+    [
+      "mom",
+      "west",
+      "slow",
+      3
+    ],
+    [
+      "nugget",
+      "east",
+      "normal",
+      0
+    ],
+    [
+      "nugget",
+      "east",
+      "normal",
+      1
+    ],
+    [
+      "nugget",
+      "east",
+      "normal",
+      2
+    ],
+    [
+      "nugget",
+      "east",
+      "normal",
+      3
+    ],
+    [
+      "nugget",
+      "east",
+      "slow",
+      0
+    ],
+    [
+      "nugget",
+      "east",
+      "slow",
+      1
+    ],
+    [
+      "nugget",
+      "east",
+      "slow",
+      2
+    ],
+    [
+      "nugget",
+      "east",
+      "slow",
+      3
+    ],
+    [
+      "nugget",
+      "north",
+      "normal",
+      0
+    ],
+    [
+      "nugget",
+      "north",
+      "normal",
+      1
+    ],
+    [
+      "nugget",
+      "north",
+      "normal",
+      2
+    ],
+    [
+      "nugget",
+      "north",
+      "normal",
+      3
+    ],
+    [
+      "nugget",
+      "north",
+      "slow",
+      0
+    ],
+    [
+      "nugget",
+      "north",
+      "slow",
+      1
+    ],
+    [
+      "nugget",
+      "north",
+      "slow",
+      2
+    ],
+    [
+      "nugget",
+      "north",
+      "slow",
+      3
+    ],
+    [
+      "nugget",
+      "south",
+      "normal",
+      0
+    ],
+    [
+      "nugget",
+      "south",
+      "normal",
+      1
+    ],
+    [
+      "nugget",
+      "south",
+      "normal",
+      2
+    ],
+    [
+      "nugget",
+      "south",
+      "normal",
+      3
+    ],
+    [
+      "nugget",
+      "south",
+      "slow",
+      0
+    ],
+    [
+      "nugget",
+      "south",
+      "slow",
+      1
+    ],
+    [
+      "nugget",
+      "south",
+      "slow",
+      2
+    ],
+    [
+      "nugget",
+      "south",
+      "slow",
+      3
+    ],
+    [
+      "nugget",
+      "west",
+      "normal",
+      0
+    ],
+    [
+      "nugget",
+      "west",
+      "normal",
+      1
+    ],
+    [
+      "nugget",
+      "west",
+      "normal",
+      2
+    ],
+    [
+      "nugget",
+      "west",
+      "normal",
+      3
+    ],
+    [
+      "nugget",
+      "west",
+      "slow",
+      0
+    ],
+    [
+      "nugget",
+      "west",
+      "slow",
+      1
+    ],
+    [
+      "nugget",
+      "west",
+      "slow",
+      2
+    ],
+    [
+      "nugget",
+      "west",
+      "slow",
+      3
+    ]
+  ],
+  "candidatePins": {
+    "docs/reviews/M1-OGH3/south/stride-a/composite.png": "0c548f5e6e768974afa2ed5182d959a38420efe2e65bc0115d6f8fcbd00c4bde",
+    "docs/reviews/M1-OGH3/north/stride-a/composite.png": "00d1684512fa63672a05153b561f3fa319ed0915cb0dd3e3e483414e4101a3fd",
+    "docs/reviews/M1-OGH3/west/stride-a/composite.png": "14ad88eb9a9f7a466d04ea12e73e45e840935c5101fb615cad3e3a011e0c4059",
+    "docs/reviews/M1-OGH3/east/stride-a/composite.png": "3718801e525856940de564aa54168f2a3eaade39f2f68374efbe558a8d6d86b2",
+    "docs/reviews/M1-OGH3/south/idle/composite.png": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+    "docs/reviews/M1-OGH3/north/idle/composite.png": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+    "docs/reviews/M1-OGH3/west/idle/composite.png": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+    "docs/reviews/M1-OGH3/east/idle/composite.png": "1bb6f1ba81eabe360cfafefc3e9ecc1b72d3b81b9a1d828facec86240e1e5ab8",
+    "docs/reviews/M1-OGH3/south/stride-b/composite.png": "8195a76812833bb8aceb33e56423ab903ed92fae1b56064a41badf709440cf06",
+    "docs/reviews/M1-OGH3/north/stride-b/composite.png": "0517425913e4fc96b2c834daccf7bf1c0b93a87eb8f065f13e7b11ec6f71fc16",
+    "docs/reviews/M1-OGH3/west/stride-b/composite.png": "9be7a1f0d2aa809d6bb1b69cafc09ac12590e13c25059f8ff21c5856235f0658",
+    "docs/reviews/M1-OGH3/east/stride-b/composite.png": "087dbdf75d1fbb61dd06f158ee2f8b55479eb0a2548e336cf5502e239591fedd",
+    "docs/reviews/M1-ON3/south-A.png": "2242e43e6b91770a073e2754600bed28220f42b4ee62a5626c4a996864140e5c",
+    "docs/reviews/M1-ON3/north-A.png": "4d59b555ee4fcda212c4cd7df2c1dc64dadd5c964995f78217b31012ad8b50e9",
+    "docs/reviews/M1-ON3/west-A.png": "d3674c55c907a94be727c4c9ccbad1ca857e0223cfe30ccfeaded6c5b628ebe3",
+    "docs/reviews/M1-ON3/east-A.png": "a844c784a8b166eb20bba66df519c3754fa16d7995a016931d04acfa3f57a511",
+    "docs/reviews/M1-ON3/south-idle.png": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+    "docs/reviews/M1-ON3/north-idle.png": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748",
+    "docs/reviews/M1-ON3/west-idle.png": "97007bbbdd17a018d89e7d8181eb6211357587e24b69b93dc57a3c1ba4152e50",
+    "docs/reviews/M1-ON3/east-idle.png": "97448f878310037459b49135d1d566af7d74fc7bff0ecf286df941de27a2fc2f",
+    "docs/reviews/M1-ON3/south-B.png": "c277a5fd39a151a7256f99daf0704e5f36439b2a541bbcb77da4f6bbc8187551",
+    "docs/reviews/M1-ON3/north-B.png": "4017fc35fe2d18187d659df69b5d96aaa6f158f675e8c615bd3ff4091d0ecad7",
+    "docs/reviews/M1-ON3/west-B.png": "f1fbdfa42e0ea26ece7df4fd58a1628a650112c0ef24bc441cb82f154e34b028",
+    "docs/reviews/M1-ON3/east-B.png": "5945d0b8d7398df189e2120ad50a400002e981d0f6c80ce493d140e0dc217980",
+    "docs/reviews/M1-OM4/south-A.png": "99c7a1a20406fd77042be496a739f761937b84dcd89ba3c66603bb3e1161eb88",
+    "docs/reviews/M1-OM4/north-A.png": "e1250c9b1de32e8e9de1d646031b9614571593bd322c7bf4cafa53a2baf0e556",
+    "docs/reviews/M1-OM4/west-A.png": "f7bee0c8febe3a0bc15277fd33a419c9139f1b41fd71c3a44b14b1510091f72c",
+    "docs/reviews/M1-OM4/east-A.png": "50261d6545f07beb7aff665230ba73911afaaf8202a2271e9609eadce09becbd",
+    "docs/reviews/M1-OM4/south-idle.png": "68be2c945bb1e1368e7c222f5b81f48b87822a921d3181c04dfa8ef95160496c",
+    "docs/reviews/M1-OM4/north-idle.png": "aa6715f4cb7185edc7c73d8247a87e89eb43861a133cf8fded94bd9248a92df3",
+    "docs/reviews/M1-OM4/west-idle.png": "d4a8e80a263331882a0845da7a5fda035b2bbef23547335fa955c7ea1ce38804",
+    "docs/reviews/M1-OM4/east-idle.png": "dd9d71216b783b05a85d66a0d9f2250148d99c462fd03f6d864dae89a62397ba",
+    "docs/reviews/M1-OM4/south-B.png": "7d07bb2f92f2a3d234a0978a7ccc7f3984755b32c9e8ba4dabb7d0e3c2f5814a",
+    "docs/reviews/M1-OM4/north-B.png": "d182020e9ed303a04dd60305633b04279ea8d6999ed70c1f3603e7e0b43508ce",
+    "docs/reviews/M1-OM4/west-B.png": "f1460433c2cb1efddf4859ec1eddfad43f6247b4b410e34523e8123c5bc047a4",
+    "docs/reviews/M1-OM4/east-B.png": "8b06b68d428fe7cd61da708c2664a79128b56b7f310a2afbd726c48f8c008b4f"
+  },
+  "browser": {
+    "girl": {
+      "char": "girl",
+      "observedMs": 6483.1,
+      "sampleCount": 131,
+      "seen": {
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "slow": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "screenshots": [
+        "normal0",
+        "slow0",
+        "normal1",
+        "normal2",
+        "normal3",
+        "slow1",
+        "slow2",
+        "slow3"
+      ],
+      "errors": []
+    },
+    "nugget": {
+      "char": "nugget",
+      "observedMs": 6499.9,
+      "sampleCount": 133,
+      "seen": {
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "slow": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "screenshots": [
+        "normal0",
+        "slow0",
+        "normal1",
+        "normal2",
+        "normal3",
+        "slow1",
+        "slow2",
+        "slow3"
+      ],
+      "errors": []
+    },
+    "mom": {
+      "char": "mom",
+      "observedMs": 6483,
+      "sampleCount": 130,
+      "seen": {
+        "normal": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "slow": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "screenshots": [
+        "normal0",
+        "slow0",
+        "normal1",
+        "normal2",
+        "normal3",
+        "slow1",
+        "slow2",
+        "slow3"
+      ],
+      "errors": []
+    }
+  },
+  "visualFindings": "All4facings normal/slow sampled. Feet alternate through exact idle with coherent near/far occlusion. Full hands follow alternating arm phases; head/hat/puff shapes stay rigid, with measured2pxYbob onstrides. No lateral torso sway/coat flap seen. Passing idle overlap remains broad; charm/bounce needs parent actual review. No final user appearance acceptance. Mom inset stays continuous under rigid torso bob in the final current capture; no user appearance acceptance."
+}

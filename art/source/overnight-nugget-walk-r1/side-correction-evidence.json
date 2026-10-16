@@ -1,0 +1,96 @@
+{
+  "task": "M1.ON3",
+  "revision": "v1 farfoot correction",
+  "state": "awaiting actual corrected motion review",
+  "exactPreservedPoses": [
+    "south-A",
+    "south-idle",
+    "south-B",
+    "north-A",
+    "north-idle",
+    "north-B",
+    "west-idle",
+    "east-idle"
+  ],
+  "onlyChangedStrideSourceLayers": [
+    "west/east far-shoe",
+    "west/east far-leg"
+  ],
+  "nearShoeHeadArmsAllOtherLayersByteExactV0": true,
+  "correction": "Far full45cell shoe remains unscaled, travel brought2targetcells closer under ankle: A+4->+2;B-3->-1. Existing shoe-gray96,105,106 replaces lowcontrast shoeDark52,53,55 upper; dark outline/contact unchanged. Three-cell old near-highlight is muted into same gray on farfoot; no pale rail. Far-leg ankle connection travels with foot.",
+  "referenceLimit": "Primary supports compact occlusion and material/contact separation, not exact hidden farfoot geometry or numerical width quota.",
+  "phases": {
+    "A": {
+      "changedRGBA": 20,
+      "visibleFarShoeCells": 16,
+      "visibleFarUpperGrayCells": 8,
+      "farShoeOriginalFullVolume": 45,
+      "visibleFarRows": {
+        "57": [],
+        "58": [
+          21
+        ],
+        "59": [
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "60": [
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "61": [
+          17,
+          18,
+          19,
+          20
+        ]
+      }
+    },
+    "B": {
+      "changedRGBA": 23,
+      "visibleFarShoeCells": 21,
+      "visibleFarUpperGrayCells": 12,
+      "farShoeOriginalFullVolume": 45,
+      "visibleFarRows": {
+        "57": [],
+        "58": [
+          11
+        ],
+        "59": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "60": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "61": [
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    }
+  },
+  "appearanceApproval": false
+}

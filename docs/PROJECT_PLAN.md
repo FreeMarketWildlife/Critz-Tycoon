@@ -1,3 +1,10 @@
+## Awaiting parent review M1.OWR2 — corrected three-character walking studies
+
+The locally retained ten-file private packet contains Girl, Nugget and Mom normal/slow native+4× cycles, phase strips and the actual Birch/initial/corrected Nugget comparison. Girl's far-toe cue and Nugget's original dark far-shoe wedge received bounded corrections; Mom's continuous inset was reviewed before separately authorized walking. Final current PNGs/GIFs are pinned to actual root/independent sampled playback and exact downloaded Library bytes. Earlier OWR1 holds and initial recommendations remain historical, superseded here. Next: actual parent motion judgment and Phil feedback; no automatic redraw, creator restart, runtime/save adoption or deployment. Live v61 unchanged.
+
+Private Library link/identity receipts are retained locally and excluded from GitHub: automatic approval review rejected publishing that metadata to the remote. Source artwork and source-free evidence can proceed separately; no private receipt push is claimed.
+
+
 ## In progress M1.OWR1 — bounded walking review; Girl correction held
 
 [Motion/inset packet](reviews/M1-OWR1/private-parent-review/README.md) privately delivers actual-playback-reviewed Nugget normal/slow native+4× plus frame strip, and Mom material-only correction. Girl motion stays held for one profile far-shoe darkening/occlusion correction, pending writer/QA approval waits; no requests dismissed or permissions broadened. Preserve exact candidate idle anchors. Source-derived ordinary8-update holds and cumulative GIFrounding are explicit. Next: parent judges Nugget/Mom; resolve pending writer step, finish Girl correction, independently inspect finalmotion, then deliver it. No Mom walk, creator, runtime/save adoption or deployment inferred.

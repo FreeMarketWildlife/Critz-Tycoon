@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nugget ON3 walking study</title>
+<style>
+body{margin:20px;background:#eee8d1;color:#302b29;font:15px system-ui}h1{font-size:22px;margin-bottom:8px}p{max-width:1050px}button{padding:10px 16px;margin-right:8px;font:inherit}button:focus{outline:3px solid #708661}main{display:grid;grid-template-columns:repeat(4,190px);gap:14px}article{padding:8px;background:#e1e3cf}canvas{display:block;image-rendering:pixelated;width:176px;height:256px;background:#24313b}h2{font-size:15px;margin:5px 0}output{display:block;font:12px monospace;margin:5px 0}footer{margin-top:20px}a{color:#314d42}
+</style>
+<h1>Professor Nugget · four-direction walking study · ON3</h1>
+<p>Original review artwork, awaiting visual judgment. Each panel pairs exact native 32×64 with integer 4×. Top row: ordinary source timing. Bottom: 4× slower for inspection. Idle holds preserve ON2 exactly; stride head/upperbody move rigidly +2Y.</p>
+<p><button id="toggle">Pause</button><button id="step">Next phase</button><button id="reset">Restart</button><span id="clock">Loading pixels…</span></p>
+<main id="panels"></main>
+<footer>Exact viewer clock: 280896/16777216 seconds per tick; 8 ticks per slot; A → idle → B → idle. Normal cycle 535.7666ms. GIF exports use centisecond rounding (540ms normal / 2140ms slow). No runtime, storage, save or game controls.</footer>
+<p><a href="all-phases-native-4x.png">All static phases</a> · <a href="four-directions-normal.gif">Normal GIF</a> · <a href="four-directions-slow4x.gif">Slow GIF</a> · <a href="README.md">Review notes</a></p>
+<script type="module">
+const dirs=['south','north','west','east'], phases=['A','idle','B','idle'];
+const tickMs=280896/16777216*1000, slotMs=8*tickMs;
+let images={},panels=[],playing=true,elapsed=0,last=null,ready=false;
+const seen=new Set(), samples=[];
+for(const dir of dirs){images[dir]={};for(const phase of ['A','idle','B']){const im=new Image();im.src=`${dir}-${phase}.png`;await im.decode();images[dir][phase]=im;}}
+for(const slow of [false,true])for(const dir of dirs){
+ const item=document.createElement('article'),label=document.createElement('h2'),c=document.createElement('canvas'),out=document.createElement('output');
+ c.width=176;c.height=256;label.textContent=`${dir.toUpperCase()} · ${slow?'slow 4×':'normal'}`;
+ item.append(label,c,out);document.querySelector('#panels').append(item);const ctx=c.getContext('2d');ctx.imageSmoothingEnabled=false;panels.push({dir,slow,c,ctx,out});
+}
+function render(){for(const p of panels){const slot=Math.floor(elapsed/(slotMs*(p.slow?4:1)))%4,phase=phases[slot],im=images[p.dir][phase];
+ p.ctx.clearRect(0,0,176,256);p.ctx.drawImage(im,0,0,128,256);p.ctx.drawImage(im,140,192,32,64);p.out.textContent=`slot${slot} / ${phase} / ${p.slow?'slow':'normal'}`;seen.add(`${p.slow?'slow':'normal'}:${slot}`);
+ }document.querySelector('#clock').textContent=`${Math.floor(elapsed)} ms · ${playing?'playing':'paused'} · fixed ${slotMs.toFixed(6)}ms holds`;
+}
+function frame(now){if(last!==null&&playing)elapsed+=now-last;last=now;render();requestAnimationFrame(frame);}
+document.querySelector('#toggle').onclick=()=>{playing=!playing;document.querySelector('#toggle').textContent=playing?'Pause':'Play';};
+document.querySelector('#step').onclick=()=>{playing=false;document.querySelector('#toggle').textContent='Play';elapsed=(Math.floor(elapsed/slotMs)+1)*slotMs;render();};
+document.querySelector('#reset').onclick=()=>{elapsed=0;last=null;render();};
+window.ON3={tickMs,slotMs,phases,images,panels,seen,samples,getState:()=>({playing,elapsed,seen:[...seen],slots:panels.map(p=>({dir:p.dir,slow:p.slow,slot:Math.floor(elapsed/(slotMs*(p.slow?4:1)))%4}))}),setElapsed:ms=>{elapsed=ms;render();},pause:()=>{playing=false;document.querySelector('#toggle').textContent='Play';render();}};
+ready=true;render();requestAnimationFrame(frame);
+</script></html>

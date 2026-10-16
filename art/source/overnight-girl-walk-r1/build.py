@@ -85,7 +85,7 @@ def west_stride(a):
  near=shift(idle['shoes'],dx=3 if a else -3,dy=2)
  far=shift(idle['shoes'],dx=-3 if a else 3,dy=0)
  for x,y in pts(far):
-  if far.getpixel((x,y))==col('shoeLight'):far.putpixel((x,y),col('shoe'))
+  if far.getpixel((x,y))!=col('ink'):far.putpixel((x,y),col('shoe'))
  ls['far-arm-hand']=arm_swing(idle['exposed-arms-hands'],1 if a else -1,True)
  ls['far-shoe']=far
  ls['shirt']=shift(idle['shirt'],dy=2);ls['shorts']=shift(idle['shorts'],dy=2)
@@ -143,12 +143,16 @@ board.save(O/'phase-board.png')
 # Paired same-art cycle previews: native32x64 above integer4x, all directions adjacent.
 preview=[];native=[]
 for j,phase in enumerate(cycle):
- b=Image.new('RGB',(760,370),'#eee8d1');d=ImageDraw.Draw(b);n=Image.new('RGB',(160,64),'#eee8d1')
+ b=Image.new('RGB',(760,370),'#eee8d1');d=ImageDraw.Draw(b);d.fontmode='1';n=Image.new('RGB',(160,64),'#eee8d1')
  d.text((10,6),'OGH3 / WALK STUDY / NORMAL: exact browser ~535.77ms; GIF rounded540ms',font=font,fill='#201008')
  for i,dr in enumerate(D):
   q=images[dr][phase];x=10+i*186;d.text((x,28),dr+' /slot'+str(j),font=font,fill='#201008');b.paste(q,(x+10,48),q);big=q.resize((128,256),Image.Resampling.NEAREST);b.paste(big,(x+48,110),big);n.paste(q,(i*40,0),q)
  preview.append(b);native.append(n)
 for name,frames,holds in [('walk-normal-paired.gif',preview,[130,140,130,140]),('walk-slow-paired.gif',preview,[540,530,540,530]),('walk-normal-native.gif',native,[130,140,130,140]),('walk-slow-native.gif',native,[540,530,540,530])]:
+ if name=='walk-slow-paired.gif':
+  frames=[q.copy() for q in frames]
+  for q in frames:
+   label=ImageDraw.Draw(q);label.fontmode='1';label.rectangle((0,0,759,23),fill='#eee8d1');label.text((10,6),'OGH3 / WALK STUDY / SLOW4x: exact browser ~2143.07ms; GIF rounded2140ms',font=font,fill='#201008')
  frames[0].save(O/name,save_all=True,append_images=frames[1:],duration=holds,loop=0,optimize=False,disposal=2)
  # Independent verification compares actual decoded GIF RGB frames to these intended RGB frames.
  (O/(name+'.frames.json')).write_text(json.dumps({'holdsMs':holds,'rgbFrameSHA256':[hashlib.sha256(q.tobytes()).hexdigest() for q in frames],'dimensions':list(frames[0].size)},indent=2)+'\n')

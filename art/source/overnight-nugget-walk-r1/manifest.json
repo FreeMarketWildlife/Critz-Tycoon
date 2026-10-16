@@ -1,6 +1,6 @@
 {
   "task": "M1.ON3",
-  "state": "in progress, actual visual/playback review required",
+  "state": "frozen corrected v1 awaiting parent/user visual judgment",
   "appearanceApproval": false,
   "frame": [
     32,
@@ -76,5 +76,8 @@
     "art/source/overnight-nugget-continuation-r1/manifest.json": "fdd9bc95aadee277690a1b0e6fe0b66fc300f3777d7f57d3ea47ac27f7b2e0f9",
     "docs/reviews/M1-ON2/four-idle-native.png": "176af67b5e094563a81423f03fd9f8e9a8fcaba0291333a6d7552c5cccc6be38",
     "local-review/overnight-cast-qa/prof_birch.png": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15"
-  }
+  },
+  "revision": "v1 bounded far-foot correction",
+  "sideCorrection": "Only W/E A/B far-shoe/far-leg; no nearfoot/head/arms/torso/SN/idle changes. Full farshoe45cell shape unscaled, closer ankle occlusion and existing gray upper restored.",
+  "rootMotionReview": "Root actual primary/v0/v1 comparison plus fresh6.5s Chrome sampled allslots normal/slow; no further concrete correction. OWR2 all12Nugget pins verified exact."
 }

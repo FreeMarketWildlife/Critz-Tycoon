@@ -1,0 +1,860 @@
+{
+  "task": "M1.OGH3",
+  "state": "walking study awaiting independent motion review",
+  "appearanceAccepted": false,
+  "sourceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "sourceClock": {
+    "numeratorSeconds": 280896,
+    "denominator": 16777216,
+    "ticksPerSlot": 8,
+    "slots": 4,
+    "totalTicks": 32,
+    "exactPeriodMs": 535.7666015625
+  },
+  "gifNormalHoldsMs": [
+    130,
+    140,
+    130,
+    140
+  ],
+  "gifSlowHoldsMs": [
+    540,
+    530,
+    540,
+    530
+  ],
+  "cycle": [
+    "stride-a",
+    "idle",
+    "stride-b",
+    "idle"
+  ],
+  "directions": {
+    "south": {
+      "sourceFrameIndices": [
+        3,
+        0,
+        4,
+        0
+      ],
+      "sourceHorizontalFlip": false,
+      "visibleContactLabels": [
+        "screen-left",
+        "both",
+        "screen-right",
+        "both"
+      ],
+      "poses": {
+        "idle": {
+          "png": "docs/reviews/M1-OGH3/south/idle/composite.png",
+          "pngSHA256": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+          "bounds": [
+            3,
+            21,
+            29,
+            62
+          ],
+          "lastOpaqueRow": 61,
+          "layers": [
+            "shirt",
+            "exposed-arms-hands",
+            "shorts",
+            "shoes",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-a": {
+          "png": "docs/reviews/M1-OGH3/south/stride-a/composite.png",
+          "pngSHA256": "0c548f5e6e768974afa2ed5182d959a38420efe2e65bc0115d6f8fcbd00c4bde",
+          "bounds": [
+            3,
+            23,
+            29,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "torso",
+            "left-sleeve",
+            "left-arm-hand",
+            "right-sleeve",
+            "right-arm-hand",
+            "shorts",
+            "rear-shoe",
+            "planted-shoe",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-b": {
+          "png": "docs/reviews/M1-OGH3/south/stride-b/composite.png",
+          "pngSHA256": "8195a76812833bb8aceb33e56423ab903ed92fae1b56064a41badf709440cf06",
+          "bounds": [
+            3,
+            23,
+            29,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "torso",
+            "left-sleeve",
+            "left-arm-hand",
+            "right-sleeve",
+            "right-arm-hand",
+            "shorts",
+            "rear-shoe",
+            "planted-shoe",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        }
+      }
+    },
+    "north": {
+      "sourceFrameIndices": [
+        5,
+        1,
+        6,
+        1
+      ],
+      "sourceHorizontalFlip": false,
+      "visibleContactLabels": [
+        "screen-left",
+        "both",
+        "screen-right",
+        "both"
+      ],
+      "poses": {
+        "idle": {
+          "png": "docs/reviews/M1-OGH3/north/idle/composite.png",
+          "pngSHA256": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+          "bounds": [
+            3,
+            21,
+            29,
+            62
+          ],
+          "lastOpaqueRow": 61,
+          "layers": [
+            "shirt",
+            "exposed-arms-hands",
+            "shorts",
+            "shoes",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-a": {
+          "png": "docs/reviews/M1-OGH3/north/stride-a/composite.png",
+          "pngSHA256": "00d1684512fa63672a05153b561f3fa319ed0915cb0dd3e3e483414e4101a3fd",
+          "bounds": [
+            3,
+            23,
+            29,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "torso",
+            "left-sleeve",
+            "left-arm-hand",
+            "right-sleeve",
+            "right-arm-hand",
+            "shorts",
+            "rear-shoe",
+            "planted-shoe",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-b": {
+          "png": "docs/reviews/M1-OGH3/north/stride-b/composite.png",
+          "pngSHA256": "0517425913e4fc96b2c834daccf7bf1c0b93a87eb8f065f13e7b11ec6f71fc16",
+          "bounds": [
+            3,
+            23,
+            29,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "torso",
+            "left-sleeve",
+            "left-arm-hand",
+            "right-sleeve",
+            "right-arm-hand",
+            "shorts",
+            "rear-shoe",
+            "planted-shoe",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        }
+      }
+    },
+    "west": {
+      "sourceFrameIndices": [
+        7,
+        2,
+        8,
+        2
+      ],
+      "sourceHorizontalFlip": false,
+      "visibleContactLabels": [
+        "screen-right/rear",
+        "center-overlap",
+        "screen-left/front",
+        "center-overlap"
+      ],
+      "poses": {
+        "idle": {
+          "png": "docs/reviews/M1-OGH3/west/idle/composite.png",
+          "pngSHA256": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+          "bounds": [
+            5,
+            21,
+            31,
+            62
+          ],
+          "lastOpaqueRow": 61,
+          "layers": [
+            "far-arm",
+            "far-shoe",
+            "shirt",
+            "shorts",
+            "shoes",
+            "exposed-arms-hands",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-a": {
+          "png": "docs/reviews/M1-OGH3/west/stride-a/composite.png",
+          "pngSHA256": "464fe1c86365048694ecaf1fe96d9a90b634254d71f9cb57ffd4b71e7b3cf7a9",
+          "bounds": [
+            5,
+            23,
+            31,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "far-arm-hand",
+            "far-shoe",
+            "shirt",
+            "shorts",
+            "near-shoe",
+            "near-arm-hand",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-b": {
+          "png": "docs/reviews/M1-OGH3/west/stride-b/composite.png",
+          "pngSHA256": "9be7a1f0d2aa809d6bb1b69cafc09ac12590e13c25059f8ff21c5856235f0658",
+          "bounds": [
+            5,
+            23,
+            31,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "far-arm-hand",
+            "far-shoe",
+            "shirt",
+            "shorts",
+            "near-shoe",
+            "near-arm-hand",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        }
+      }
+    },
+    "east": {
+      "sourceFrameIndices": [
+        7,
+        2,
+        8,
+        2
+      ],
+      "sourceHorizontalFlip": true,
+      "visibleContactLabels": [
+        "screen-left/rear",
+        "center-overlap",
+        "screen-right/front",
+        "center-overlap"
+      ],
+      "poses": {
+        "idle": {
+          "png": "docs/reviews/M1-OGH3/east/idle/composite.png",
+          "pngSHA256": "1bb6f1ba81eabe360cfafefc3e9ecc1b72d3b81b9a1d828facec86240e1e5ab8",
+          "bounds": [
+            1,
+            21,
+            27,
+            62
+          ],
+          "lastOpaqueRow": 61,
+          "layers": [
+            "far-arm",
+            "far-shoe",
+            "shirt",
+            "shorts",
+            "shoes",
+            "exposed-arms-hands",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-a": {
+          "png": "docs/reviews/M1-OGH3/east/stride-a/composite.png",
+          "pngSHA256": "b7ffb08b3c65fb75cdfd2daf959fc6fe7e559a9118110174c978259fcd4de737",
+          "bounds": [
+            1,
+            23,
+            27,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "far-arm-hand",
+            "far-shoe",
+            "shirt",
+            "shorts",
+            "near-shoe",
+            "near-arm-hand",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        },
+        "stride-b": {
+          "png": "docs/reviews/M1-OGH3/east/stride-b/composite.png",
+          "pngSHA256": "087dbdf75d1fbb61dd06f158ee2f8b55479eb0a2548e336cf5502e239591fedd",
+          "bounds": [
+            1,
+            23,
+            27,
+            64
+          ],
+          "lastOpaqueRow": 63,
+          "layers": [
+            "far-arm-hand",
+            "far-shoe",
+            "shirt",
+            "shorts",
+            "near-shoe",
+            "near-arm-hand",
+            "face",
+            "ears",
+            "hair",
+            "ties",
+            "eyes"
+          ]
+        }
+      }
+    }
+  },
+  "frameEdgeAnchor": [
+    16,
+    64
+  ],
+  "headTorsoTransforms": {
+    "idle": [
+      0,
+      0
+    ],
+    "stride-a": [
+      0,
+      2
+    ],
+    "stride-b": [
+      0,
+      2
+    ]
+  },
+  "proposalNotes": [
+    "Original compact limb articulation informed by actual May phases; not traced source graphics or recovered hidden bones.",
+    "Full shoe geometry translates unchanged before occlusion. Side hidden far shoe is proposed full-size completion of current near shoe.",
+    "Far arm is proposed occluded completion of existing near-arm volume; no new idle geometry.",
+    "Screen contact labels are visible source facts, not assertions of hidden anatomical left/right.",
+    "Exact browser clock is source-derived; GIF holds use cumulative nearest-centisecond quantization. No emulator observation."
+  ],
+  "referenceFiles": [
+    {
+      "name": "May",
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-cast-qa/may-walking.png",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87",
+      "frames": [
+        {
+          "index": 0,
+          "bounds": [
+            1,
+            11,
+            15,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            5,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            1,
+            11,
+            15,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            5,
+            6,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            2,
+            11,
+            16,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            6,
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            8,
+            9
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            6,
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            8,
+            9
+          ]
+        },
+        {
+          "index": 7,
+          "bounds": [
+            2,
+            12,
+            16,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            10,
+            11
+          ]
+        },
+        {
+          "index": 8,
+          "bounds": [
+            2,
+            12,
+            16,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brendan",
+      "path": "/tmp/ds1-primary-reference/brendan-walking.png",
+      "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+      "sha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+      "frames": [
+        {
+          "index": 0,
+          "bounds": [
+            1,
+            10,
+            15,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            1,
+            10,
+            15,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            2,
+            10,
+            16,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            1,
+            11,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            1,
+            11,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            1,
+            11,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "bounds": [
+            1,
+            11,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 7,
+          "bounds": [
+            2,
+            11,
+            16,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            10,
+            11
+          ]
+        },
+        {
+          "index": 8,
+          "bounds": [
+            2,
+            11,
+            16,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Man1",
+      "path": "/tmp/ds1-primary-reference/man_1.png",
+      "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+      "sha256": "cd71f4ec4dd2b634cf48d79020be960127434fcfcc56ed536f4e7084d6ffc57c",
+      "frames": [
+        {
+          "index": 0,
+          "bounds": [
+            1,
+            11,
+            15,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 1,
+          "bounds": [
+            1,
+            11,
+            15,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            4,
+            5,
+            6,
+            9,
+            10,
+            11
+          ]
+        },
+        {
+          "index": 2,
+          "bounds": [
+            2,
+            11,
+            14,
+            31
+          ],
+          "contactY": 30,
+          "contactXs": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "index": 3,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 4,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 5,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "index": 6,
+          "bounds": [
+            1,
+            12,
+            15,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            8,
+            9,
+            10
+          ]
+        },
+        {
+          "index": 7,
+          "bounds": [
+            2,
+            12,
+            14,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            4,
+            5
+          ]
+        },
+        {
+          "index": 8,
+          "bounds": [
+            2,
+            12,
+            14,
+            32
+          ],
+          "contactY": 31,
+          "contactXs": [
+            10,
+            11
+          ]
+        }
+      ]
+    }
+  ]
+}

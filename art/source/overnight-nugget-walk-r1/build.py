@@ -61,15 +61,17 @@ def frontal(dr,phase):
     return ls
 def profile(phase):
     idle=load('west');ls={}
+    # Bounded v1: full far shoe sits closer under its ankle, with existing
+    # cool-gray upper above the dark contact; never an undifferentiated black bar.
     # Complete hidden far shoe is an explicit original construction from the
     # unchanged full near-shoe shape, never enlargement of the idle heel fragment.
     shoe=compose({n:idle[n] for n in ['near-shoe','shoe-highlight']})
-    near_dx,far_dx=(-3,4) if phase=='A' else (4,-3)
+    near_dx,far_dx=(-3,2) if phase=='A' else (4,-1)
     far=shoe.copy()
     for y in range(64):
         for x in range(32):
             p=far.getpixel((x,y))
-            if p[3] and p!=INK:far.putpixel((x,y),(52,53,55,255))
+            if p[3] and p!=INK:far.putpixel((x,y),(96,105,106,255))
     ls['far-shoe']=translate(far,far_dx,0)
     # Two short trouser connections under the rigid coat; no added shin length.
     for n,dx,dy in [('far-leg',far_dx,0),('near-leg',near_dx,2)]:

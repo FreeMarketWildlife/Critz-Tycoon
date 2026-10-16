@@ -1,0 +1,80 @@
+{
+  "task": "M1.ON3",
+  "state": "in progress, actual visual/playback review required",
+  "appearanceApproval": false,
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "directions": [
+    "south",
+    "north",
+    "west",
+    "east"
+  ],
+  "poses": [
+    "A",
+    "idle",
+    "B",
+    "idle"
+  ],
+  "sourceFrames": {
+    "south": [
+      3,
+      0,
+      4,
+      0
+    ],
+    "north": [
+      5,
+      1,
+      6,
+      1
+    ],
+    "west": [
+      7,
+      2,
+      8,
+      2
+    ],
+    "east": [
+      7,
+      2,
+      8,
+      2
+    ]
+  },
+  "sourceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "sourceTickSeconds": 0.016742706298828125,
+  "holdTicks": [
+    8,
+    8,
+    8,
+    8
+  ],
+  "cycleTicks": 32,
+  "cycleMilliseconds": 535.7666015625,
+  "gifNormalMilliseconds": [
+    130,
+    140,
+    130,
+    140
+  ],
+  "gifSlow4xMilliseconds": [
+    540,
+    530,
+    540,
+    530
+  ],
+  "sourceBasis": "Actual Birch PNG plus root-verified sAnim_Go* commands; not emulator observation",
+  "construction": "Original clipped ON2 garment/limb layers; full front shoes translated intact; full profile near shoe translated intact; hidden far full shoe completion explicitly proposed. Rigid +2Y head/upperbody bob; no sway/flap/deformation.",
+  "sourceInputs": {
+    "art/source/overnight-nugget-continuation-r1/manifest.json": "fdd9bc95aadee277690a1b0e6fe0b66fc300f3777d7f57d3ea47ac27f7b2e0f9",
+    "docs/reviews/M1-ON2/four-idle-native.png": "176af67b5e094563a81423f03fd9f8e9a8fcaba0291333a6d7552c5cccc6be38",
+    "local-review/overnight-cast-qa/prof_birch.png": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15"
+  }
+}

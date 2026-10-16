@@ -1,6 +1,10 @@
 # M1.OVQ3 — bounded walk-study QA
 
-**In progress.** Parent explicitly cleared review-stage Girl/Nugget bounded walks; Mom is material correction first and remains no-walk until root decides. This reviewer writes only this directory and ignored `local-review/overnight-walk-qa/`. Artist files, frozen idles, prior OVQ2, Git/index/runtime and private uploads remain untouched.
+**Independent review complete; awaiting root/parent/user judgment.** Parent explicitly cleared review-stage Girl/Nugget bounded walks; Mom is material correction first and remains no-walk until root decides. This reviewer writes only this directory and ignored `local-review/overnight-walk-qa/`. Artist files, frozen idles, prior OVQ2, Git/index/runtime and private uploads remain untouched.
+
+[Actual motion review and final qualifications](MOTION-REVIEW.md) records sampled live/stepped observations, Girl's far-material correction and Nugget's reopened/fixed far-foot concern. No further concrete correction requested on the current revised candidates. [Independent saved walk audit](walk-audit.json):943 pass, zero fail;24 PNG pose hashes and22 GIF hashes/decoded pixels/hold times pinned. This supports private review, not appearance or motion acceptance. Exact next: root refreshes its current browser/private packet pins and gets actual parent playback judgment; root owns selective Git/publication decisions. No playable build changed here.
+
+**Later OM4 follow-up:** root subsequently requested current Mom walk review after its material-first gate. [Independent Mom motion addendum](MOM-WALK-ADDENDUM.md) records actual source contacts, sampled live/stepped native/4× playback and388 passing checks, zero failures. All12 PNG/eighteen GIF pins are in `mom-walk-audit.json`. The continuous cream inset survives the rigid torso bob. No additional concrete correction identified; all-three actual private playback judgment is next. Earlier no-Momwalk wording below is historical to the material-first checkpoint, not a claim that the later study is unauthorized.
 
 ## Mom material-first finding
 

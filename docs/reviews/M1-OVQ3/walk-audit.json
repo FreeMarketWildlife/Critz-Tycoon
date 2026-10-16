@@ -1,0 +1,4556 @@
+{
+  "task": "M1.OVQ3",
+  "passed": 943,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "girl/south/idle/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/exposed-arms-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/shoes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/south frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/torso cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/left-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/left-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/right-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/right-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/rear-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/planted-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/torso cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/left-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/left-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/right-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/right-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/rear-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/planted-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/A/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/B/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/exposed-arms-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/shoes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/north frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/torso cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/left-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/left-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/right-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/right-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/rear-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/planted-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/torso cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/left-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/left-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/right-sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/right-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/rear-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/planted-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/A/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/north/B/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/far-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/shoes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/exposed-arms-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/west frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/far-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/near-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/far-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/near-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/A/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/west/B/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/far-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/shoes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/exposed-arms-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/east frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/far-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/near-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/far-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/shorts cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/near-arm-hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/ties cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B native frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B contact row",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/A/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/face rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/ties rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/east/B/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south/idle correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/south/stride-a correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south/stride-a correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/south/stride-b correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south/stride-b correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north/idle correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/north/stride-a correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north/stride-a correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/north/stride-b correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north/stride-b correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west/idle correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/west/stride-a correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west/stride-a correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/west/stride-a full nearshoe RGBA preserved",
+      "pass": true
+    },
+    {
+      "name": "girl/west/stride-b correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west/stride-b correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/west/stride-b full nearshoe RGBA preserved",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east/idle correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/east/stride-a correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east/stride-a correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/east/stride-a full nearshoe RGBA preserved",
+      "pass": true
+    },
+    {
+      "name": "girl/east/stride-b correction preserves whole alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east/stride-b correction exact visible cell count",
+      "pass": true
+    },
+    {
+      "name": "girl/east/stride-b full nearshoe RGBA preserved",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-native.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot0/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot1/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot2/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-normal-paired.gif slot3/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-native.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot0/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot1/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot2/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "girl/walk-slow-paired.gif slot3/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/shoes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/body-outline cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/coat-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/lapels cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/shoe-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/trouser-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/face-shadow cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/hair-fringe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/south frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/left-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/left-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/right-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/right-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/torso-coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/torso-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/torso-trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/torso-body-outline cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/torso-coat-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/torso-shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/torso-lapels cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/left-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/right-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/face-shadow cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hair-fringe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/left-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/left-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/right-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/right-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/torso-coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/torso-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/torso-trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/torso-body-outline cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/torso-coat-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/torso-shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/torso-lapels cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/left-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/right-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/face cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/face-shadow cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/ears cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hair-fringe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/face-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/face-shadow rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hair-fringe rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/glasses rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/face-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/face-shadow rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/ears rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hair-fringe rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/glasses rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/shoes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/body-outline cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/coat-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/shoe-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/trouser-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/hair-shadow cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/north frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/left-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/left-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/right-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/right-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/torso-coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/torso-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/torso-trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/torso-body-outline cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/torso-coat-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/left-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/right-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hair-shadow cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/left-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/left-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/right-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/right-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/torso-coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/torso-hands cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/torso-trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/torso-body-outline cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/torso-coat-details cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/left-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/right-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hair-shadow cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hair-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hair-shadow rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hair-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hair-shadow rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/shoe-highlight cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hand-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/head cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/ear cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hat-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/west frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/far-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/near-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/far-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/near-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/head cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/ear cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/far-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/near-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/far-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/near-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/head cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/ear cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/head rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/face-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/ear rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hair-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/glasses rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/head rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/face-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/ear rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hair-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/glasses rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/trousers cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/shoe-highlight cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/sleeve cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hand cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hand-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/head cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/ear cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hat-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/east frozen idle bytes",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/far-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/near-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/far-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/near-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/head cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/ear cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/far-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/far-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/near-leg cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/near-shoe cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/far-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/coat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/shirt cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/near-arm cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/head cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/face-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hair cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hair-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/ear cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/glasses cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/eyes cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-light cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-band cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-brim cells equal actual PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B native frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B contact row",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/head rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/face-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/ear rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hair-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/glasses rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/head rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/face-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/ear rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hair rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hair-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/glasses rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/eyes rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-light rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-band rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-brim rigid +2Y unchanged shape/color",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/idle exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/A exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/B exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/idle exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/A exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/B exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/idle exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/near-leg exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/near-shoe exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/far-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/coat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/shirt exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/near-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/head exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/face-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hair exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hair-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/ear exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/glasses exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/eyes exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-band exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A/hat-brim exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/A full farshoe45 cells unscaled",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/near-leg exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/near-shoe exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/far-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/coat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/shirt exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/near-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/head exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/face-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hair exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hair-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/ear exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/glasses exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/eyes exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-band exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B/hat-brim exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/B full farshoe45 cells unscaled",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/idle exact v0 preserved pose",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/near-leg exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/near-shoe exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/far-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/coat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/shirt exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/near-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/head exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/face-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hair exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hair-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/ear exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/glasses exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/eyes exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-band exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A/hat-brim exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/A full farshoe45 cells unscaled",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/near-leg exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/near-shoe exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/far-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/coat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/shirt exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/near-arm exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/head exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/face-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hair exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hair-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/ear exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/glasses exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/eyes exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-light exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-band exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B/hat-brim exact v0 protected layer",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/B full farshoe45 cells unscaled",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-1x.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-1x.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-1x.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-1x.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-4x.gif slot0/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-4x.gif slot1/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-4x.gif slot2/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-normal-4x.gif slot3/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-1x.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-1x.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-1x.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-1x.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-4x.gif slot0/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-4x.gif slot1/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-4x.gif slot2/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/east-slow4x-4x.gif slot3/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-normal.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot0/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot1/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot2/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/east/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/four-directions-slow4x.gif slot3/east/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-1x.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-1x.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-1x.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-1x.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-4x.gif slot0/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-4x.gif slot1/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-4x.gif slot2/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-normal-4x.gif slot3/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-1x.gif slot0/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-1x.gif slot1/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-1x.gif slot2/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-1x.gif slot3/north/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-4x.gif slot0/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-4x.gif slot1/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-4x.gif slot2/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/north-slow4x-4x.gif slot3/north/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-1x.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-1x.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-1x.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-1x.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-4x.gif slot0/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-4x.gif slot1/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-4x.gif slot2/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-normal-4x.gif slot3/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-1x.gif slot0/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-1x.gif slot1/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-1x.gif slot2/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-1x.gif slot3/south/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-4x.gif slot0/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-4x.gif slot1/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-4x.gif slot2/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/south-slow4x-4x.gif slot3/south/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-1x.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-1x.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-1x.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-1x.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-4x.gif slot0/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-4x.gif slot1/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-4x.gif slot2/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-normal-4x.gif slot3/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-1x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-1x.gif slot0/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-1x.gif slot1/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-1x.gif slot2/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-1x.gif slot3/west/1x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-4x.gif exact four declared GIF holds",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-4x.gif slot0/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-4x.gif slot1/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-4x.gif slot2/west/4x decoded PNG equality",
+      "pass": true
+    },
+    {
+      "name": "nugget/west-slow4x-4x.gif slot3/west/4x decoded PNG equality",
+      "pass": true
+    }
+  ],
+  "poses": [
+    {
+      "character": "girl",
+      "direction": "south",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OGH3/south/idle/composite.png",
+      "sha256": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+      "layersJsonSHA256": "ff6bba9eb20d76a704145286b51ed97cd105197bb160dfb2b59712793f99fcee",
+      "contactRow": 61,
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "south",
+      "phase": "A",
+      "file": "docs/reviews/M1-OGH3/south/stride-a/composite.png",
+      "sha256": "0c548f5e6e768974afa2ed5182d959a38420efe2e65bc0115d6f8fcbd00c4bde",
+      "layersJsonSHA256": "54ab739d16fb6716dfa359eb8ef826be11cf7b5ee42359752de3d58def307069",
+      "contactRow": 63,
+      "contactXs": [
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "south",
+      "phase": "B",
+      "file": "docs/reviews/M1-OGH3/south/stride-b/composite.png",
+      "sha256": "8195a76812833bb8aceb33e56423ab903ed92fae1b56064a41badf709440cf06",
+      "layersJsonSHA256": "622fb7b2388092ec70f7c6483db8ecc25753b7b0501e8d3d984d59712abb9bad",
+      "contactRow": 63,
+      "contactXs": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "north",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OGH3/north/idle/composite.png",
+      "sha256": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+      "layersJsonSHA256": "8dd2bd16d078d34095f8354ac33e074b48b76d357bf505de170dc810d134d1fe",
+      "contactRow": 61,
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "north",
+      "phase": "A",
+      "file": "docs/reviews/M1-OGH3/north/stride-a/composite.png",
+      "sha256": "00d1684512fa63672a05153b561f3fa319ed0915cb0dd3e3e483414e4101a3fd",
+      "layersJsonSHA256": "0ff70b9901c06896cd651e65a941922c662620a7766768209837ee75c04bf45b",
+      "contactRow": 63,
+      "contactXs": [
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "north",
+      "phase": "B",
+      "file": "docs/reviews/M1-OGH3/north/stride-b/composite.png",
+      "sha256": "0517425913e4fc96b2c834daccf7bf1c0b93a87eb8f065f13e7b11ec6f71fc16",
+      "layersJsonSHA256": "b832357860db702cd61c11d55dff7b59effa6d6bd141c8e877f52a1f2f49617d",
+      "contactRow": 63,
+      "contactXs": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "west",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OGH3/west/idle/composite.png",
+      "sha256": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+      "layersJsonSHA256": "b4c7aefb7697e4621a1c19862d90a650258d9b2e88152693c0f00806590650b7",
+      "contactRow": 61,
+      "contactXs": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "west",
+      "phase": "A",
+      "file": "docs/reviews/M1-OGH3/west/stride-a/composite.png",
+      "sha256": "14ad88eb9a9f7a466d04ea12e73e45e840935c5101fb615cad3e3a011e0c4059",
+      "layersJsonSHA256": "a02353a061f0214547a433993d1aa1a49628b65822bf5c2d35ac07bd0ca6ea5c",
+      "contactRow": 63,
+      "contactXs": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "west",
+      "phase": "B",
+      "file": "docs/reviews/M1-OGH3/west/stride-b/composite.png",
+      "sha256": "9be7a1f0d2aa809d6bb1b69cafc09ac12590e13c25059f8ff21c5856235f0658",
+      "layersJsonSHA256": "065b7d6056b713ed01509d2c313095a2b819d57a6a1ac6497414c867527a358b",
+      "contactRow": 63,
+      "contactXs": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "east",
+      "phase": "idle",
+      "file": "docs/reviews/M1-OGH3/east/idle/composite.png",
+      "sha256": "1bb6f1ba81eabe360cfafefc3e9ecc1b72d3b81b9a1d828facec86240e1e5ab8",
+      "layersJsonSHA256": "0013a799ef158f32d5a40a79695d2281d7a14325ce9891be7675fe5a0a758865",
+      "contactRow": 61,
+      "contactXs": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "east",
+      "phase": "A",
+      "file": "docs/reviews/M1-OGH3/east/stride-a/composite.png",
+      "sha256": "3718801e525856940de564aa54168f2a3eaade39f2f68374efbe558a8d6d86b2",
+      "layersJsonSHA256": "923cb36ad3cf50d867b734c926df3bea2fc59c83a7dac35329103a95695b3b0a",
+      "contactRow": 63,
+      "contactXs": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "east",
+      "phase": "B",
+      "file": "docs/reviews/M1-OGH3/east/stride-b/composite.png",
+      "sha256": "087dbdf75d1fbb61dd06f158ee2f8b55479eb0a2548e336cf5502e239591fedd",
+      "layersJsonSHA256": "4e2f8e924fc02036a1766a93f606db162efdb1d1c82191a84bfb6a3cc2b9ff63",
+      "contactRow": 63,
+      "contactXs": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "south",
+      "phase": "idle",
+      "file": "docs/reviews/M1-ON3/south-idle.png",
+      "sha256": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+      "layersJsonSHA256": "9d16a608a07a348c9fff653dc411eadd4b31f0b9e987adc5675f9c8e8513a570",
+      "contactRow": 61,
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "south",
+      "phase": "A",
+      "file": "docs/reviews/M1-ON3/south-A.png",
+      "sha256": "2242e43e6b91770a073e2754600bed28220f42b4ee62a5626c4a996864140e5c",
+      "layersJsonSHA256": "2bc6c6b4d00c302650d8133fd41a03d18f7da34049407d35e848b17d5c3640d1",
+      "contactRow": 63,
+      "contactXs": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "south",
+      "phase": "B",
+      "file": "docs/reviews/M1-ON3/south-B.png",
+      "sha256": "c277a5fd39a151a7256f99daf0704e5f36439b2a541bbcb77da4f6bbc8187551",
+      "layersJsonSHA256": "7b3e3636315f4ed1f71af57c192e3a95d3f068229564b88cf180858a1f0b479f",
+      "contactRow": 63,
+      "contactXs": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "north",
+      "phase": "idle",
+      "file": "docs/reviews/M1-ON3/north-idle.png",
+      "sha256": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748",
+      "layersJsonSHA256": "029ba9f3f98e226c21854fccf8179c45ea5eff60c0de443e3d0dfe7cca15a011",
+      "contactRow": 61,
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "north",
+      "phase": "A",
+      "file": "docs/reviews/M1-ON3/north-A.png",
+      "sha256": "4d59b555ee4fcda212c4cd7df2c1dc64dadd5c964995f78217b31012ad8b50e9",
+      "layersJsonSHA256": "7da2e1c40a05c0609ea0926f33f3bc8ecd1bf4dfd0f84aae6f6d563d020a55be",
+      "contactRow": 63,
+      "contactXs": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "north",
+      "phase": "B",
+      "file": "docs/reviews/M1-ON3/north-B.png",
+      "sha256": "4017fc35fe2d18187d659df69b5d96aaa6f158f675e8c615bd3ff4091d0ecad7",
+      "layersJsonSHA256": "e988743d7f2ed464bda54b055f8e8ef0648ec107db3d6d1b18559a5763e60f82",
+      "contactRow": 63,
+      "contactXs": [
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "west",
+      "phase": "idle",
+      "file": "docs/reviews/M1-ON3/west-idle.png",
+      "sha256": "97007bbbdd17a018d89e7d8181eb6211357587e24b69b93dc57a3c1ba4152e50",
+      "layersJsonSHA256": "9e2c22cf7129e6bce51b65b8be4e5ff6572164305fc434b77a5069b7402e69a1",
+      "contactRow": 61,
+      "contactXs": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "west",
+      "phase": "A",
+      "file": "docs/reviews/M1-ON3/west-A.png",
+      "sha256": "d3674c55c907a94be727c4c9ccbad1ca857e0223cfe30ccfeaded6c5b628ebe3",
+      "layersJsonSHA256": "7cca00ba089580d5dc4fceed5816fa3ed990d7d26c97fbb3999b6e1f53cf6440",
+      "contactRow": 63,
+      "contactXs": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "west",
+      "phase": "B",
+      "file": "docs/reviews/M1-ON3/west-B.png",
+      "sha256": "f1fbdfa42e0ea26ece7df4fd58a1628a650112c0ef24bc441cb82f154e34b028",
+      "layersJsonSHA256": "326b0e61c1d3b93c3ff517c81bef6a7f2a466108d54592be42d57c9379e1802e",
+      "contactRow": 63,
+      "contactXs": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "east",
+      "phase": "idle",
+      "file": "docs/reviews/M1-ON3/east-idle.png",
+      "sha256": "97448f878310037459b49135d1d566af7d74fc7bff0ecf286df941de27a2fc2f",
+      "layersJsonSHA256": "357945b80eaeb3dbf392485d645e160cffd0b9088afaaf02ff68e83df28ba1e5",
+      "contactRow": 61,
+      "contactXs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "east",
+      "phase": "A",
+      "file": "docs/reviews/M1-ON3/east-A.png",
+      "sha256": "a844c784a8b166eb20bba66df519c3754fa16d7995a016931d04acfa3f57a511",
+      "layersJsonSHA256": "af239e10c6fa6c45c7031aeb4849e04b9be610654cab6d290307102209f9a36e",
+      "contactRow": 63,
+      "contactXs": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "east",
+      "phase": "B",
+      "file": "docs/reviews/M1-ON3/east-B.png",
+      "sha256": "5945d0b8d7398df189e2120ad50a400002e981d0f6c80ce493d140e0dc217980",
+      "layersJsonSHA256": "cfaa4647841c0dd7574b26d31a1ddd45a9fde0f800e0248f26ca7cf107e190b1",
+      "contactRow": 63,
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    }
+  ],
+  "gifs": [
+    {
+      "file": "docs/reviews/M1-OGH3/walk-normal-native.gif",
+      "sha256": "d8b630ad1513ce7633533f51dfa819669d617301a117272581ef8eba35917508",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        160,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-OGH3/walk-normal-paired.gif",
+      "sha256": "5ac86904a63448f00fc539774e29e8ea6450d7fd6e83aed1ce941d531ae2a661",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        760,
+        370
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-OGH3/walk-slow-native.gif",
+      "sha256": "664a742ff26c247d3094eadb62cb0413578951ac835920aa40fea81c15b26187",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        160,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-OGH3/walk-slow-paired.gif",
+      "sha256": "4472e7046b2ee83a8d8ef966b5cc80ec96462b8e38c8f225a9e9aa4ea8737817",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        760,
+        370
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/east-normal-1x.gif",
+      "sha256": "7c69f42f220b989c6d7d9b080e56c25d7d8cfa4d9c9a8fb67aa124f8db1e4fe9",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/east-normal-4x.gif",
+      "sha256": "167573ebf8ae26f45521e5c55c292b3c818590590e674d4236f774e0dd4b2f47",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/east-slow4x-1x.gif",
+      "sha256": "f1e9146df3120a11a2a86092c8682ef643d26993f537ffcacefe2f909507e748",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/east-slow4x-4x.gif",
+      "sha256": "31ab9450964180845c13e010ac576dafb6661d5cf8235676fa7d0ea667e451a8",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/four-directions-normal.gif",
+      "sha256": "e878154d99bc07f3f4539e93c3cd7050600daaf909fb7bcf3d661b783c22471d",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        780,
+        365
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/four-directions-slow4x.gif",
+      "sha256": "ee1bd23a07ce4c664fd51c40acd125ce934776ca42b233d55c4264c380dc35a1",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        780,
+        365
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/north-normal-1x.gif",
+      "sha256": "0c4df187586ea769a179dbbfd294affe2be812bf13166555962aed153cc11176",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/north-normal-4x.gif",
+      "sha256": "547925e93846757521d5ee6ec92264024366f03f6016d49f8c7f6519bcd718f4",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/north-slow4x-1x.gif",
+      "sha256": "7328cc6d5660d6b8b6ef128886b7c564687c47b48b6f9c86fb9458b2ce5f1906",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/north-slow4x-4x.gif",
+      "sha256": "4557c3d3c2ef45fd755e6e5873ac4c584eef38f560038d50161880c01b849210",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/south-normal-1x.gif",
+      "sha256": "d67b0bb454b6bea81e1a708b6af6f712c0c1af21e0c7b12897fc9a8eb1d962a3",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/south-normal-4x.gif",
+      "sha256": "1aca755522470bf6c38c0ce643126ccc975633ead5fe99b599cb47c3f56d0d2b",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/south-slow4x-1x.gif",
+      "sha256": "797b4b0bfe116e756a64fd2132c3a7a8dc11787e780b69a1c6886f353a41cf40",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/south-slow4x-4x.gif",
+      "sha256": "f63cacbd7c5c985db86d4d7c772a786296102cdc46b23c45955f5e7329434985",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/west-normal-1x.gif",
+      "sha256": "021bb8b6239792f8e8a3a61f21421392158802822a8e3de79dae2155e036834d",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/west-normal-4x.gif",
+      "sha256": "a0b13e8f4c6b953344f397fe14fac354ce6f4b251dd38f191c0220d8ed89fcc9",
+      "holdsMs": [
+        130,
+        140,
+        130,
+        140
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/west-slow4x-1x.gif",
+      "sha256": "0f73d71fc1fdf124a3ab18c13724f78712bde520f2f885e7eba34d2d2ef57bca",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        32,
+        64
+      ],
+      "loop": 0
+    },
+    {
+      "file": "docs/reviews/M1-ON3/west-slow4x-4x.gif",
+      "sha256": "22c74618aa0ca6b13691cfdca1918f81673f87c666a8129786e89ccd4c8b7dd5",
+      "holdsMs": [
+        540,
+        530,
+        540,
+        530
+      ],
+      "size": [
+        128,
+        256
+      ],
+      "loop": 0
+    }
+  ],
+  "limitations": "Static/GIF file integrity, not acceptance of appearance or movement. Browser observation is separately reported."
+}

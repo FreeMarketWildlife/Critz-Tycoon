@@ -1,0 +1,26 @@
+{
+  "sourceSHA256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15",
+  "pairs": [
+    {
+      "pose": "A",
+      "sourceFrame": 7,
+      "beforeCommit": "317fe6c4f7d070f883a85ed49b9f129cafa3143f",
+      "beforeSHA256": "a6fea43be5d26bd0f3d14bfe9daa05ad8a1422a6dcb5b21c1a949bd5c72685ac",
+      "afterSHA256": "d3674c55c907a94be727c4c9ccbad1ca857e0223cfe30ccfeaded6c5b628ebe3"
+    },
+    {
+      "pose": "B",
+      "sourceFrame": 8,
+      "beforeCommit": "317fe6c4f7d070f883a85ed49b9f129cafa3143f",
+      "beforeSHA256": "87133c3a49be77bb06eb9f9d4c57ba1d5109e9e72a1cf845ecc68349980a5adb",
+      "afterSHA256": "f1fbdfa42e0ea26ece7df4fd58a1628a650112c0ef24bc441cb82f154e34b028"
+    }
+  ],
+  "board": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-walk-qa/nugget-source-before-after-final.png",
+  "sha256": "0b12c028cf85817add37e1e7a580424547b903b9d2f4c800a525298c60b6f4a3",
+  "dimensions": [
+    780,
+    850
+  ],
+  "rasterExcludedFromGit": true
+}
