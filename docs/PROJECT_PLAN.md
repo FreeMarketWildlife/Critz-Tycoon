@@ -1,11 +1,8 @@
 ## M1.PAIR1 — complete anatomical brush live v63; character work stays stopped
 
-## M1.DC1 — current authorized Dummy Creator editor task
+## M1.DC1 — completed functional tool, user edits next
 
-Functional four-direction/per-frame label editing, playback, anatomical identity, source reference, project migration and phone QA are locally complete; publication/hosted checks are in progress. Supplied Region Labels remain authoritative; missing views are unfinished editable starting templates. Actual south is supplied walking evidence; generated other references failed native-grid QA and remain absent. Earlier character/M1 appearance gates remain separate. Next: exact tested editor-only publication and Phil edits/reviews his direction frames; no automatic NPC roster or art acceptance.
-
-
-Published and hosted-tested the focused front-view semantic labeling fix: one Arm/Hand/Leg/Foot-shoe control; correct opposite anatomical IDs/colors per mirrored destination; stable v1 IDs/exports and unchanged saved labels. Actual browser colors and compatibility are verified. Next: Phil continues correcting the front dummy in the hosted v63 editor; old saved labels are preserved and new strokes infer the correct anatomical side. No back/side inference, sprite generation, animation, QA or integration resumes. [Evidence](reviews/M1-PAIR1/README.md).
+Dummy Creator is live asv64 at the existing public Site, with Phil’s supplied authoritative labels, four editable direction/frame tracks, anatomical side controls, exact south reference, playback/history/backups/legacy recovery and actual hosted desktop/phone browser checks. [Current receipt](reviews/M1-DC1/publication.json). Next: Phil edits/reviews the explicitly unfinished direction templates. Generated W/E/N failed native-grid QA and remain absent; no invented turnaround/anatomy is claimed. Other NPC/creator variant/M1 appearance gates remain separate. No redundant deployment is needed for evidence-only follow-up.
 
 ## M1.MIR1 — complete editor tool live v62; character work paused
 

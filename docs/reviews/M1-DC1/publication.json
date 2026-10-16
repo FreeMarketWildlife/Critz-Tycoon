@@ -1,0 +1,22 @@
+{
+  "task": "M1.DC1",
+  "status": "complete-tool; appearance/directional art unapproved",
+  "githubImplementation": "768a739e698b5d6ba81f7b6239935baf2160772c",
+  "githubImplementationRemoteVerified": true,
+  "sitesSource": "3a16ab7a46f88979ce42074b9b4ce9919b252cfd",
+  "siteProjectId": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "versionNumber": 64,
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_72ce127133588191b76e979c62b46004",
+  "deploymentId": "appgdep_6ad2b973dcbc819199d9acd8e862f22d",
+  "deploymentStatus": "succeeded",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=dummy-creator&labels=phil-20261016",
+  "audience": "existing public unchanged",
+  "scope": "editor-only overlay; no gameplay code or art adoption",
+  "reference": "actual supplied refined south eight100ms frames; W/E/N unavailable",
+  "unitTestsPassed": 53,
+  "hostedCasesPassed": 3,
+  "anonymousAssetHashesCheckedPerCase": 15,
+  "physicalPhoneTested": false,
+  "blockedOptionalWork": "Generated W/E/N failed native-grid/alpha QA and remain absent; other direction layouts are unedited starting templates until user edits.",
+  "remainingUnrelatedEditsPreserved": true
+}

@@ -1,0 +1,33 @@
+{
+  "baselineVersion": 63,
+  "baselineArchiveSHA256": "58018e898cd0151bdfb613d2db59ef6a4d617a53559d62b171cf6a674dd061f3",
+  "archiveSHA256": "c76f58355deac9d605f8634a45a25622d31f76fa869ac55c39376128c9bf081c",
+  "archiveFiles": 5915,
+  "expandedFileBytes": 254517888,
+  "protectedNonEditorFilesExact": 5882,
+  "missing": [],
+  "changed": [
+    "dist/sprite-editor/README.md",
+    "dist/sprite-editor/assets/body-regions-seed.json",
+    "dist/sprite-editor/body-regions-model.js",
+    "dist/sprite-editor/body-regions.js",
+    "dist/sprite-editor/boot.js",
+    "dist/sprite-editor/editor.css"
+  ],
+  "added": [
+    "dist/sprite-editor/assets/phil-region-labels-20261016.json",
+    "dist/sprite-editor/assets/refined-south/frame-0.png",
+    "dist/sprite-editor/assets/refined-south/frame-1.png",
+    "dist/sprite-editor/assets/refined-south/frame-2.png",
+    "dist/sprite-editor/assets/refined-south/frame-3.png",
+    "dist/sprite-editor/assets/refined-south/frame-4.png",
+    "dist/sprite-editor/assets/refined-south/frame-5.png",
+    "dist/sprite-editor/assets/refined-south/frame-6.png",
+    "dist/sprite-editor/assets/refined-south/frame-7.png",
+    "dist/sprite-editor/assets/refined-south/manifest.json",
+    "dist/sprite-editor/dummy-creator-model.js",
+    "dist/sprite-editor/dummy-creator.js"
+  ],
+  "privateLocalReviewExcluded": true,
+  "appleDoubleFiles": 0
+}

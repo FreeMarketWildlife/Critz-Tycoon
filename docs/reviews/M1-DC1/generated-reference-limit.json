@@ -1,0 +1,58 @@
+{
+  "workerThreadId": "01a14712-17c5-73f1-9d1b-f741d259ebca",
+  "actualImageGenerationAvailable": true,
+  "workerReportedSourceInspection": true,
+  "integration": false,
+  "usableGeneratedDirections": [],
+  "reason": "Actual outputs and simplified one-pose retry failed native-grid/alpha quality; sampled conversions do not prove native craft or correct geometry. Retained privately; no generated asset included in deployed payload.",
+  "rawAudit": [
+    {
+      "file": "east-generated-raw.png",
+      "sha256": "a4a92e53c9dd8619cd4480204af4e0213184cc7d716ada3f8411997b7e66640d",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaValues": 255,
+      "binaryAlpha": false,
+      "exact32x64GridReplication": false,
+      "usable": false
+    },
+    {
+      "file": "north-generated-raw.png",
+      "sha256": "37668ea1187756c85731bf344e917f77ecf5f7e902a13f4cdff7ff6ed7a9bd7e",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaValues": 255,
+      "binaryAlpha": false,
+      "exact32x64GridReplication": false,
+      "usable": false
+    },
+    {
+      "file": "west-generated-raw.png",
+      "sha256": "b90877456786876f1629850137442e7c5f5e4d129993e51e06de1775755a64c7",
+      "size": [
+        1536,
+        1024
+      ],
+      "alphaValues": 255,
+      "binaryAlpha": false,
+      "exact32x64GridReplication": false,
+      "usable": false
+    },
+    {
+      "file": "west-one-pose-raw.png",
+      "sha256": "eac82855501e0f4d698bd94bc7c3ed97db41269ed1b1ac3cd74cf47c42b61daa",
+      "size": [
+        887,
+        1774
+      ],
+      "alphaValues": 256,
+      "binaryAlpha": false,
+      "exact32x64GridReplication": false,
+      "usable": false
+    }
+  ]
+}
