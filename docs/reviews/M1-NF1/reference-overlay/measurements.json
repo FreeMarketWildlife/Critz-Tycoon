@@ -1,0 +1,322 @@
+{
+  "task": "M1.NF1 reference overlay only",
+  "sourceURL": "https://i.redd.it/01agijgmbz561.gif",
+  "sourceGIFSHA256": "5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e",
+  "sourceGIFDimensions": [
+    256,
+    192
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "rgbaSHA256": "feca6adb5ef3302c8dc749305bcb71094787798bd81165168e729d862354d849"
+    },
+    {
+      "frame": 1,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "rgbaSHA256": "feca6adb5ef3302c8dc749305bcb71094787798bd81165168e729d862354d849"
+    },
+    {
+      "frame": 2,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "rgbaSHA256": "84735a7b0308d9ee9644f87dd5640c234422479b223457b81d0bbee85c5b1b5a"
+    },
+    {
+      "frame": 3,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "rgbaSHA256": "84735a7b0308d9ee9644f87dd5640c234422479b223457b81d0bbee85c5b1b5a"
+    },
+    {
+      "frame": 4,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "rgbaSHA256": "5b9d59d271da616e07a74a6e884d7efd0363d2d850892ac0049e2cb5af350703"
+    },
+    {
+      "frame": 5,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        8,
+        29,
+        48
+      ],
+      "rgbaSHA256": "5b9d59d271da616e07a74a6e884d7efd0363d2d850892ac0049e2cb5af350703"
+    },
+    {
+      "frame": 6,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "rgbaSHA256": "84735a7b0308d9ee9644f87dd5640c234422479b223457b81d0bbee85c5b1b5a"
+    },
+    {
+      "frame": 7,
+      "durationMs": 100,
+      "nativeBounds": [
+        3,
+        4,
+        29,
+        46
+      ],
+      "rgbaSHA256": "84735a7b0308d9ee9644f87dd5640c234422479b223457b81d0bbee85c5b1b5a"
+    }
+  ],
+  "selectedFrame": 2,
+  "selectionReason": "two-foot passing stance closest to neutral front; identical frames2/3/6/7; no true idle in8-frame walk",
+  "referenceExtraction": {
+    "crop": [
+      0,
+      0,
+      128,
+      192
+    ],
+    "displayBlockFactorRemoved": 4,
+    "allEightExactBlockReconstruction": true,
+    "nativeDimensions": [
+      32,
+      48
+    ],
+    "notOriginalBrendanUpscale": true
+  },
+  "registration": {
+    "referenceTranslation": [
+      0,
+      16
+    ],
+    "dummyTranslation": [
+      0,
+      0
+    ],
+    "bodyScaleFactor": 1,
+    "centerlinePixelX": 15.5,
+    "contactEdgeY": 62,
+    "enlargement": 6,
+    "interpolation": "nearest",
+    "noStretchOrPerPartFit": true
+  },
+  "nf1SourceCommit": "24444dba660577201f3352fcec89a0bb1a315c5f",
+  "nf1SHA256": "5958a184d1f9ee05a3f30392c40627a156752a3427a3d82c179d5d0acdb2294b",
+  "measurements": {
+    "referenceRegisteredBounds": [
+      3,
+      20,
+      29,
+      62
+    ],
+    "nf1Bounds": [
+      3,
+      27,
+      29,
+      62
+    ],
+    "eyesBoth": {
+      "xRuns": [
+        [
+          12,
+          14
+        ],
+        [
+          18,
+          20
+        ]
+      ],
+      "yRun": [
+        38,
+        42
+      ]
+    },
+    "shoulderProjectionRow47": {
+      "referenceXs": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "NF1Xs": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    "armsHandsRows50to52OuterBounds": {
+      "both": [
+        3,
+        29
+      ]
+    },
+    "waistCostumeRow54": {
+      "referenceXs": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "NF1Xs": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "qualification": "reference includes glove/costume projections, not anatomical waist"
+    },
+    "row55": {
+      "referenceXs": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "NF1Xs": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    "shoeAlpha58plusExact": true,
+    "contactRow61Both": [
+      9,
+      10,
+      11,
+      12,
+      19,
+      20,
+      21,
+      22
+    ],
+    "referenceHatTop": 20,
+    "NF1BareCrownTop": 27,
+    "qualification": "hat/helmet extent is not skull height; clothed/gloved source does not reveal hidden anatomy"
+  },
+  "nf1SourceBytesUnchanged": true,
+  "outputSHA256": "1a704fec468f6c434515087e8f8b16d0f890e5c94165686614bebef9891a7562",
+  "referencePixelsOutsideGit": true,
+  "presentationChecks": {
+    "nativeNF1PanelExact": true,
+    "nearest6xNF1CellsExactExceptLabeledRegistrationLines": true,
+    "sameEnlargementAllPanels": true,
+    "noSourceReferencePNGInRepo": true
+  }
+}
