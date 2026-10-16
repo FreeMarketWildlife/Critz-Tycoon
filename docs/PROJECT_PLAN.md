@@ -1,3 +1,7 @@
+## Active M1.NF1 — corrected front only, private judgment next
+
+Phil rejected NT1 front construction. [NF1 corrected front](reviews/M1-NF1/README.md) removes shoulder caps and waist spikes, cleans arms/palms then enforces exact reflected RGBA and alpha per real region and whole image. Head/fullshoes/protectedHero/frozenNT1/West preserved. Writer and root actually inspected native/3×/silhouette; no new concrete correction blocker, not user approval. Source frozen for selective owned commit/push and one private parent comparison. No West edits/extra poses/16/animation/creator/runtime/deploy.
+
 ## Active M1.NT1 — private front/West neutral construction
 
 NTC1 pre-edit comparison was actually viewed/shown by root and targeted critique relayed; drawing hold fulfilled. [Two complete idle32 neutral candidates and silhouettes](reviews/M1-NT1/README.md) now exist for private construction review. Complete shared face/arm/hand/hip-thigh/ankle/leftshoe geometry, flat semantic regions without Hero decoration/hair/pack, original occluded-body completion declared. Protected Front Hero/current history untouched. Root complete two-pose review finds a coherent candidate for private parent judgment, not final acceptance. Source frozen for audit/checkpoint; no pose/16/animation/creator/runtime/deployment expansion. Index/source commit coordination follows coherent private review.

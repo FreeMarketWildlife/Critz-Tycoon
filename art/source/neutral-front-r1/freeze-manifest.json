@@ -1,0 +1,25 @@
+{
+  "task": "M1.NF1",
+  "state": "frozen corrected-front candidate, not appearance approval",
+  "files": {
+    "art/source/neutral-front-r1/archive-preservation.json": "cb393284cea42731a80d8b73ebc29c1f37e0a6c789bdb262a453755d13b17383",
+    "art/source/neutral-front-r1/build.py": "f10814058427f48e366a21c527647ef0e484c5f959f856610dd0a92d993bcc7f",
+    "art/source/neutral-front-r1/checks.json": "f5a8af2e84d9b0109ed39eca8691df95a5251ca70633e445a38445ae72527308",
+    "art/source/neutral-front-r1/construction.json": "5e0cb63ef92d517de3d8d3815cbb3f9ef70b8b820a198b3ca80d010641366e32",
+    "art/source/neutral-front-r1/symmetry.json": "39fe120904e64b874b5f99fa531250879c55b2ac54cbb87f23d8a903e9611d2c",
+    "docs/reviews/M1-NF1/DIAGNOSIS.md": "15edd9c5e93e0e5629c5f163033cf85d6bedf7c67138ebe18cf76cea3c83f46c",
+    "docs/reviews/M1-NF1/README.md": "5f3493537f0468531bfb01f1e7a2ff8d4d8bb1a5f20d03a84ceffc7366d6e463",
+    "docs/reviews/M1-NF1/arms-region.png": "efab7519ea1af13b22ce515b5ac0a9ac63c65dab76c7c5d2b1f61582455a719f",
+    "docs/reviews/M1-NF1/corrected-front-comparison.png": "01c842e458d01d16dcbcdc39b5375c7bc0d01ecace343b6bd6bca15e8632973d",
+    "docs/reviews/M1-NF1/front-neutral.png": "5958a184d1f9ee05a3f30392c40627a156752a3427a3d82c179d5d0acdb2294b",
+    "docs/reviews/M1-NF1/front-silhouette.png": "69a68eb47e0f3a982f0d816d4e939736efda93d4176a23ebfc46f28535e069d4",
+    "docs/reviews/M1-NF1/hand-rim-region.png": "b53615e28c824fa817ba6112bab508f6e638d941bfdb29f2830e4955097d0ae1",
+    "docs/reviews/M1-NF1/hands-region.png": "47f59e74e3e11872862a84a0a6965a96b161b0d46970e73444fa701ac5995832",
+    "docs/reviews/M1-NF1/head-region.png": "799f00d2f4938620bc1b3f1a2f5240e2f936c14defa9f6d25e26a031600ac572",
+    "docs/reviews/M1-NF1/legs-region.png": "23c477824a7e9d2dd1313ba6cf7f778804d3660b33d39920e3554ccec7aac824",
+    "docs/reviews/M1-NF1/outline-region.png": "45c3035fa3962c37981fa9480ac77f46bd4d093fe9ecc0ffb857956b9d16a423",
+    "docs/reviews/M1-NF1/pelvis-region.png": "2cccd141e7fde2b6ef9df5359d5d6a5500bc0b931015a0d546519894edbc4fdd",
+    "docs/reviews/M1-NF1/shoes-region.png": "22588bf2183efba40fb17456fb9196b7e0a1383d556235b908d0e0cd039492d3",
+    "docs/reviews/M1-NF1/torso-region.png": "3cc419e382a73fc8cdb5cea938b1b015619d2be45d23ee62f669d5bb2a3afe0c"
+  }
+}

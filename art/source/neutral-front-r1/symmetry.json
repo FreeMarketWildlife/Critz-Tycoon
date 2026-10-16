@@ -1,0 +1,123 @@
+{
+  "before": {
+    "alphaMismatchedPairs": [],
+    "RGBAMismatchedPairs": [
+      [
+        6,
+        48
+      ],
+      [
+        8,
+        48
+      ],
+      [
+        6,
+        49
+      ],
+      [
+        8,
+        49
+      ],
+      [
+        9,
+        49
+      ]
+    ]
+  },
+  "after": {
+    "alphaMismatchedPairs": [],
+    "RGBAMismatchedPairs": []
+  },
+  "regions": {
+    "torso": {
+      "bounds": [
+        8,
+        45,
+        24,
+        54
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "arms": {
+      "bounds": [
+        4,
+        47,
+        28,
+        53
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "pelvis": {
+      "bounds": [
+        8,
+        54,
+        24,
+        56
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "legs": {
+      "bounds": [
+        7,
+        56,
+        25,
+        58
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "hand-rim": {
+      "bounds": [
+        3,
+        48,
+        29,
+        54
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "hands": {
+      "bounds": [
+        4,
+        49,
+        28,
+        53
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "shoes": {
+      "bounds": [
+        7,
+        58,
+        25,
+        62
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "head": {
+      "bounds": [
+        4,
+        27,
+        28,
+        45
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    },
+    "outline": {
+      "bounds": [
+        3,
+        27,
+        29,
+        62
+      ],
+      "RGBAReflectionMismatchedPairs": 0,
+      "alphaReflectionMismatchedPairs": 0
+    }
+  }
+}
