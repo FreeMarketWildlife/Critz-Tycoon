@@ -1,5 +1,7 @@
 # Current Hero and bald template — feedback presentation
 
+**Latest direct user judgment: REJECTED.** Phil finds the dummy insufficiently neutral, profile arms too thin, side/back lower construction unresolved and profile/dummy face outlines incomplete. Earlier checkpoint readiness is superseded. Active scope is only front idle and West idle32×64; exact reference/landmark comparison comes before art edits. Creator/deployment remain stopped; these files are preserved rejected history, not approved assets.
+
 The parent and an independent visual reviewer judged NCR1 coherent enough for a user-feedback checkpoint. **This is not final user appearance approval.** The two clean files contain current assets only, without before versions or internal audit labels.
 
 - [Four-direction sprite sheet](https://chatgpt.com/api/library/files/libfile_4d5e58ec00408191ae8050e3411386c4/download): Hero and bald template at32×64, clearly labelled16×32 counterparts, equal96×192 integer enlargements and small actual-size examples.

@@ -1,0 +1,90 @@
+{
+  "task": "M1.NT1",
+  "pass": true,
+  "count": 27,
+  "checks": [
+    "south dimensions/binary alpha",
+    "south only declared flat colors",
+    "south saved region and sparse outline composite exact",
+    "south sparse outline layer",
+    "south one four-connected silhouette",
+    "south ground row61",
+    "south source file exact committed NCR1",
+    "south registered eye sites preserved with flat charcoal color",
+    "south actual warm hand count",
+    "protected Front Hero exact known SHA",
+    "front body alpha differs only two paired hand-rim cells",
+    "front full shoe alpha58+ exact source",
+    "front bilateral alpha",
+    "west dimensions/binary alpha",
+    "west only declared flat colors",
+    "west saved region and sparse outline composite exact",
+    "west sparse outline layer",
+    "west one four-connected silhouette",
+    "west ground row61",
+    "west source file exact committed NCR1",
+    "west registered eye sites preserved with flat charcoal color",
+    "west actual warm hand count",
+    "all12 shared West face contour sites present dark",
+    "West ear curl has open skin interior",
+    "West full left shoe envelope",
+    "West rounded hand4x6",
+    "two directions only"
+  ],
+  "facts": {
+    "south": {
+      "neutralSHA256": "5959de03cd3208111bb496d747cdd127f68021e99c76f041ed65ddca7b2aa5dc",
+      "bounds": [
+        3,
+        27,
+        29,
+        62
+      ],
+      "handWarmCells": 34,
+      "groundXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ],
+      "fileCount": 13,
+      "bodyAlphaChanges": [
+        [
+          4,
+          49
+        ],
+        [
+          27,
+          49
+        ]
+      ]
+    },
+    "west": {
+      "neutralSHA256": "5a40dad6d12538613977445ace131ad9e29e9a4f5db3dfec75941946defbab87",
+      "bounds": [
+        4,
+        27,
+        26,
+        62
+      ],
+      "handWarmCells": 20,
+      "groundXs": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "fileCount": 13
+    }
+  },
+  "appearanceAcceptance": false,
+  "scope": "two idle32x64 construction candidates only; no motion claim"
+}

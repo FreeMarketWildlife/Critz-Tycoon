@@ -1,5 +1,7 @@
 # NCR1 — compact private parent review
 
+**Latest direct user judgment: REJECTED.** Phil finds the dummy insufficiently neutral, profile arms too thin, side/back lower construction unresolved and profile/dummy face outlines incomplete. Earlier checkpoint readiness is superseded. Active scope is only front idle and West idle32×64; exact reference/landmark comparison comes before art edits. Creator/deployment remain stopped; these files are preserved rejected history, not approved assets.
+
 Frozen source `0bb4ee4293ec2a76a3b8eb77d5d1fca4441bdcc1`; explicit beforeH4R1 `2c8fa4fef4c6872b05fce294a82b09f873876a6e`. **Private inspection only; no main-user draft relay or user appearance acceptance.**
 
 - [four-direction-before-after.png](https://chatgpt.com/api/library/files/libfile_c0e71c2f35f08191acdd34452a6aa6b4/download)

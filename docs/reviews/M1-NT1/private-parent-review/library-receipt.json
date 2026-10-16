@@ -1,0 +1,25 @@
+{
+  "task": "M1.NT1",
+  "scope": "private parent construction review only",
+  "sourceCommit": "ef43a54f05d78ce448396415f799e7e664f217b4",
+  "files": [
+    {
+      "source": "docs/reviews/M1-NT1/two-pose-neutral-comparison.png",
+      "libraryFileId": "libfile_be17ecfe47ec81918b85c9f5ffbcec15",
+      "version": 0,
+      "name": "NT1-INTERNAL-front-west-neutral-construction.png",
+      "downloadURL": "https://chatgpt.com/api/library/files/libfile_be17ecfe47ec81918b85c9f5ffbcec15/download",
+      "sha256": "b9fadb9db37b3e6ca133167177f77f77b1e1dc87692657f936ff335e72ab3344",
+      "dimensions": [
+        1040,
+        600
+      ],
+      "exactDownloadBytes": true,
+      "exactRGBA": true,
+      "originalAndDownloadIdentityVersionXattrs": true
+    }
+  ],
+  "appearanceApproval": false,
+  "noDeployment": true,
+  "sourcePushRemoteVerified": true
+}

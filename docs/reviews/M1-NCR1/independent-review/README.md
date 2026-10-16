@@ -1,5 +1,7 @@
 # NCR1 independent review — native cleanup and family consistency
 
+**Latest direct user judgment: REJECTED.** Phil finds the dummy insufficiently neutral, profile arms too thin, side/back lower construction unresolved and profile/dummy face outlines incomplete. Earlier checkpoint readiness is superseded. Active scope is only front idle and West idle32×64; exact reference/landmark comparison comes before art edits. Creator/deployment remain stopped; these files are preserved rejected history, not approved assets.
+
 Frozen source **`0bb4ee4293ec2a76a3b8eb77d5d1fca4441bdcc1`**. Explicit before: H4R1 `2c8fa4fef4c6872b05fce294a82b09f873876a6e`. Parent rejected H4R1 native finish; its earlier root readiness language was too generous. H4R1 original files remain history, not accepted native artwork.
 
 ## Actual visual result

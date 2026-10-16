@@ -1,0 +1,47 @@
+{
+  "task": "M1.NTC1",
+  "state": "PRE-EDIT exact reference/landmark checkpoint, no new artwork",
+  "audience": "Private parent study only; reference-bearing comparison not game art",
+  "referenceAttribution": "Primary Brendan/Man1 idle0/2, pret/pokeemerald731ad5bfd6e6f265508d0efcca0ba42f9dcf5881; originalCritzprotectedSouth/currentWest0bb4ee4",
+  "files": [
+    {
+      "file_name": "NTC1-PREEDIT-reference-current-front-west.png",
+      "library_file_id": "libfile_932474691d8481919f2f3ac683eb2b30",
+      "file_id": "file_00000000bbec8230830a7ef1780f0b74",
+      "current_version_number": 0,
+      "sha256": "d8dfb9465d4361dd2031cd8529e84c738b8dd975b5a695f8c915b8ccdca4b936",
+      "dimensions": [
+        1080,
+        650
+      ],
+      "exactDownloadedBytesAndRGBA": true,
+      "metadataAppliedAndReadBack": true
+    },
+    {
+      "file_name": "NTC1-PREEDIT-current-feature-and-contour-diagnostic.png",
+      "library_file_id": "libfile_3d4fcff28bb08191b90cde930ff73786",
+      "file_id": "file_00000000bb1081fdbfe07c0307d5c7f3",
+      "current_version_number": 0,
+      "sha256": "29b9bb80ab7a526b0bdc3bf09e6b02ae3d49a6ead0bd0771c54b2100dcf50bc2",
+      "dimensions": [
+        1040,
+        650
+      ],
+      "exactDownloadedBytesAndRGBA": true,
+      "metadataAppliedAndReadBack": true
+    },
+    {
+      "file_name": "NTC1-PREEDIT-nine-missing-shared-face-sites.png",
+      "library_file_id": "libfile_6e4ed64a56588191be8b80a4173b7135",
+      "file_id": "file_00000000a9e082309675ae4a1e3188cb",
+      "current_version_number": 0,
+      "sha256": "88b48121abb14c11368962524a8e80b14ce4346aee1a698549cc9ce92633fa48",
+      "dimensions": [
+        1050,
+        450
+      ],
+      "exactDownloadedBytesAndRGBA": true,
+      "metadataAppliedAndReadBack": true
+    }
+  ]
+}

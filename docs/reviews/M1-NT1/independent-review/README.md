@@ -1,0 +1,11 @@
+# M1.NT1 independent two-pose construction review
+
+Private internal candidate review; no M1/user appearance acceptance. Root actually inspected the complete two-pose comparison at true native32×64 and nearest3×, including silhouette columns, after the open-ear correction. No animation or browser/game claim applies to these two stills.
+
+The West ear now reads as an open curl alongside one eye rather than a second rectangular pupil. The connected arm and rounded warm hand end near the hip; the tapered lower mass leads into a full left-pointing shoe. Those are clearer original construction proposals than the rejected dressed dummy. The front keeps the source proportion envelope and full shoes. Large head-to-body proportions and the tightly overlapped shoulder/arm remain matters for the parent's actual appearance judgment; this scoped review does not approve them for other poses or creator use.
+
+The independent saved audit passes **27** checks: actual exported flat regions plus sparse outline and feature layers exactly recompose both neutral images; binary alpha/declared palette/connectivity, registered eye sites, face contour, hands, ground and source preservation are checked. Eye positions/shape are preserved with deliberately flat charcoal, not exact source eye RGBA. South neutral body alpha45+ adds exactly two paired hand-rim cells, (4,49)/(27,49); its full shoe alpha58+ is exact. Protected Front Hero SHA remains f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae.
+
+Front warm hand regions remain17 cells each/5×5; West is20 cells/4×6 versus old6/2×3. The reference-scaled warm patch is a sanity check, not a complete measured arm or quota. West restores all12 confirmed missing face/jaw contour sites. Its torso completion behind removed pack, new projected arm, hip/ankle and shoe are original proposals; old rejected wedge alpha was intentionally editable. The head-with-hair proof establishes head registration only, not a re-dressed corrected Hero.
+
+Next: parent inspects this private two-pose construction before any extension. Native16, other views/poses, animation, creator, runtime/save integration and deployment remain stopped. The playable build is unchanged.
