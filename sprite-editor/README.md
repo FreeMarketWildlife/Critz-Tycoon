@@ -1,10 +1,18 @@
 # Free Market Wildlife Sprite Editor
 
+## Automatic paired labels — M1.PAIR1
+
+The front-view region editor offers **Arm**, **Hand**, **Leg** and **Foot / shoe** once each. Painting on viewer-left writes the character-right ID/color; painting on viewer-right writes character-left. Mirror Y resolves each target independently, so mirrored limbs have opposite anatomical IDs and their existing distinct colors. Split-color swatches show screen-left/right colors. Head, ears, eyes, torso, pelvis and unassigned are not side-swapped.
+
+This inference is **front-only**: the frozen seed explicitly declares front and rejects back/profile registrations. Side-view occlusion and back-view sides are not guessed. No new animation or character work is performed. The currently even 32px width has no center pixel; the pure helper leaves an exact odd-width center unchanged under a paired brush rather than guessing a limb, while unpaired labels still paint normally.
+
+All 14 stable left/right IDs, original names/colors, source registration, schema version, correction exports and save keys remain unchanged. Existing saved labels—including previously crossed assignments—load exactly as saved. Only new brush/eraser edits change labels; enabling Mirror or choosing a unified category does not rewrite anything. Undo/Redo, backups and imports retain full anatomical IDs. Old numeric raw-label model/import entry points remain available for exact data restoration.
+
 ## Mirrored editing — M1.MIR1
 
 The **Mirror Y** icon beneath the left toolbar toggles subsequent edits across the vertical centerline (`x′ = width - 1 - x`). It starts Off on every load and shows On/Off with an accessible pressed state. Turning it on does not alter existing artwork or labels. Pencil, eraser, line, box, shade/lighten and flood-fill marks mirror; both sides independently respect drawing locks. Shade visits each pixel once, including an odd-width center column. Each stroke and its reflection are one Undo/Redo action.
 
-Body-region brush, eraser, right-click erase and keyboard Enter mirror the same selected label to both cells. Semantic left/right label IDs are not automatically exchanged. Two-finger cancellation restores both sides. Pan, eyedropper, whole-image imports, reference copying and global palette replacements retain their existing purpose and do not duplicate or flip existing content. Mirror is a session tool setting, separate from project data, label autosaves and game saves.
+Body-region brush, eraser, right-click erase and keyboard Enter now resolve opposite anatomical IDs for paired categories (see M1.PAIR1 above); unpaired labels remain identical on both sides. Two-finger cancellation restores both sides. Pan, eyedropper, whole-image imports, reference copying and global palette replacements retain their existing purpose and do not duplicate or flip existing content. Mirror is a session tool setting, separate from project data, label autosaves and game saves.
 
 ## Body-region corrections — M1.BRC1
 
@@ -15,7 +23,7 @@ The editor preloads the user-approved supplied reference, frozen dummy and label
 For reproducibility, `python3 scripts/prepare-body-region-review.py` (Pillow required) verifies the pinned supplied GIF and dummy, then writes the original seed under ignored `local-review/`. The published seed is a byte-for-byte copy of that verified input. Other private review files remain outside production inputs.
 
 - The reference, RD1 dummy and region labels are separate fixed-registration layers, each with visibility and opacity controls. The initial view draws the RD1 dummy at 100%, the reference above it at 40%, and labels above both at 60%. No dragging, scaling or raster editing changes their registration.
-- Choose one of 14 swatches: unassigned, head, ears, eyes, torso, pelvis, and separate left/right arms, hands, legs and shoes. Here left/right is **character-relative: character left is screen right in the front view**. The ordinary editor's older skeleton guide retains its own screen-relative convention.
+- Choose one of 10 categories: unassigned, head, ears, eyes, torso, pelvis, Arm, Hand, Leg and Foot / shoe. Paired categories automatically retain the corresponding left/right ID and color, so exports still contain all 14 part definitions. Here left/right is **character-relative: character left is screen right in the front view**. The ordinary editor's older skeleton guide retains its own screen-relative convention.
 - Paint one native pixel per brush point, including transparent canvas cells. A drag is one undoable stroke. Eraser sets unassigned; Undo/Redo operate on strokes, imports and resets. Pan/Space-drag, two-finger navigation, integer zoom and Fit move the view. A second touch cancels the tentative first-finger paint before navigation. Arrow keys move a keyboard cursor; Enter paints.
 - **Copy Corrections** opens selectable JSON even when clipboard access fails. On iPhone Safari, use **Select all** and the system Copy command. **Download backup** saves the same data. Corrections contain all 2,048 labels in row-major order from the top-left (`index = y * 32 + x`), schema/version, dimensions, seed/source identities, registration and part definitions. They contain no reference/dummy raster.
 - **Import** accepts pasted JSON or a downloaded backup. It validates the complete array, IDs, dimensions, schema, source identities and registration before changing any labels. Import is undoable; malformed/mismatched data leaves the current map intact. **Reset labels…** requires confirmation and restores the original seed map, also undoably.

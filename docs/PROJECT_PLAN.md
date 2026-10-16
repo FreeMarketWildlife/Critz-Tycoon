@@ -1,3 +1,8 @@
+## M1.PAIR1 — unified anatomical brush; character work stays stopped
+
+Finish and publish the focused front-view semantic labeling fix: one Arm/Hand/Leg/Foot-shoe control; correct opposite anatomical IDs/colors per mirrored destination; stable v1 IDs/exports and unchanged saved labels. Actual browser colors and compatibility are verified. Next: publish editor-only overlay, verify hosted UI/IDs, then Phil continues correcting the dummy. No back/side inference, sprite generation, animation, QA or integration resumes. [Evidence](reviews/M1-PAIR1/README.md).
+
+
 ## M1.MIR1 — complete editor tool live v62; character work paused
 
 The requested left-toolbar Mirror Y toggle is deployed on the existing public site as v62, with subsequent pixel/label edits, single-stroke Undo/Redo and actual Chrome/WebKit portrait tests verified. Next: Phil corrects the dummy in the hosted editor. Preserve actual assets, labels and saves. Girl/Mom/Nugget art, animation, QA and integration are stopped until Phil provides his own dummy corrections and new direction. [Mirror evidence](reviews/M1-MIR1/README.md).

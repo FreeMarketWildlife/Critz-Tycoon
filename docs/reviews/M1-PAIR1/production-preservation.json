@@ -1,0 +1,18 @@
+{
+  "baseline": "Exact live v62 production archive",
+  "sitesSource": "c615d315f3b588c4580064553dd7f5b9a4514864",
+  "baselineFiles": 5903,
+  "candidateFiles": 5903,
+  "protectedFiles": 5900,
+  "changedProtectedFiles": [],
+  "missingFiles": [],
+  "addedFiles": [],
+  "changedEditorFiles": [
+    "dist/sprite-editor/README.md",
+    "dist/sprite-editor/body-regions-model.js",
+    "dist/sprite-editor/body-regions.js"
+  ],
+  "payloadBytes": 254479180,
+  "candidateSHA256": "58018e898cd0151bdfb613d2db59ef6a4d617a53559d62b171cf6a674dd061f3",
+  "approvedSeedByteExact": true
+}

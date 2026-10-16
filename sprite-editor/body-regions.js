@@ -1,7 +1,7 @@
 import {createMirrorToggle} from './mirror.js';
 import {createWorkspace} from './workspace.js';
 import {line} from './model.js';
-import {WIDTH,HEIGHT,SIZE,STORAGE,validateSeed,createLabelModel,pixelAt,exportCorrections,importCorrections} from './body-regions-model.js';
+import {WIDTH,HEIGHT,SIZE,STORAGE,PART_OPTIONS,validateSeed,createLabelModel,pixelAt,exportCorrections,importCorrections} from './body-regions-model.js';
 
 // Mode adapter for the existing editor shell. Normal editor handlers are never loaded here.
 const $=id=>document.getElementById(id),canvas=$('canvas'),ctx=canvas.getContext('2d'),overlay=$('overlay'),og=overlay.getContext('2d'),view=$('viewport');
@@ -9,7 +9,7 @@ document.body.classList.add('body-regions-mode');
 document.title='Body regions · Sprite Editor';
 let seed,model,zoom=6,autoFit=true,active=1,tool='brush',drag=null,space=false,workspace,saveTimer,resizeFrame;
 const mirror=createMirrorToggle(()=>finish());
-const paintLabel=(x,y,id)=>model.paint(x,y,id,mirror.enabled);
+const paintLabel=(x,y,id)=>model.paintAnatomical(x,y,id,mirror.enabled,seed.registration.facing);
 const touches=new Map();let pinch=null;
 const layers={reference:{visible:true,opacity:.4},dummy:{visible:true,opacity:1},labels:{visible:true,opacity:.6}};
 const rasters={};
@@ -21,13 +21,13 @@ document.querySelector('.header-actions').replaceChildren(saveState);
 for(const [id,text]of [['br-copy','Copy Corrections'],['br-import','Import'],['br-download','Download backup']]){const b=document.createElement('button');b.id=id;b.textContent=text;if(id==='br-copy')b.className='accent';document.querySelector('.header-actions').append(b);}
 document.querySelector('.project-bar').prepend(Object.assign(document.createElement('strong'),{className:'br-title',textContent:'Body-region corrections'}));
 $('tools').innerHTML='<button id="br-brush" aria-label="Label brush, one native pixel" aria-pressed="true"><b>✎</b><span>Label brush</span></button><button id="br-erase" aria-label="Erase to unassigned"><b>▱</b><span>Unassigned</span></button><button id="br-pan" aria-label="Pan canvas"><b>✥</b><span>Pan</span></button>';
-document.querySelector('.canvas-options').innerHTML='<label class="br-select">Part <select id="br-part" aria-label="Active body part"></select></label><label><input type="checkbox" id="grid" checked> Grid</label><label><input type="checkbox" id="guides" checked> Guides</label><span class="br-orientation">Character left = screen right · top-left origin</span>';
+document.querySelector('.canvas-options').innerHTML='<label class="br-select">Part <select id="br-part" aria-label="Active body part"></select></label><label><input type="checkbox" id="grid" checked> Grid</label><label><input type="checkbox" id="guides" checked> Guides</label><span class="br-orientation">Front: screen left = character right · paired colors automatic</span>';
 $('canvas-info').textContent='32 × 64 · front';
 $('pixel-stats').textContent='2,048 labels';
 $('canvas').setAttribute('aria-label','Body-region label canvas. Brush paints one native pixel; arrows move cursor, Enter paints.');
 document.querySelector('#inspector .dock-header strong').textContent='Body regions';
 document.querySelector('.inspector-scroll').innerHTML=`
- <p class="br-direction"><strong>Character’s left = screen right.</strong><br>Front view · fixed 32 × 64 registration</p>
+ <p class="br-direction"><strong>Character’s left = screen right.</strong><br>Front view only · paired colors follow each painted side</p>
  <details id="br-parts-panel" open><summary>Parts <span>1 PIXEL BRUSH</span></summary><div class="panel-content"><div id="br-parts" role="group" aria-label="Body-part labels"></div></div></details>
  <details id="br-layers-panel" open><summary>Layers <span>FIXED REGISTRATION</span></summary><div class="panel-content" id="br-layers"></div></details>
  <details id="br-data-panel" open><summary>Source & corrections</summary><div class="panel-content"><p id="br-source" class="small muted">Loading local source…</p><p class="small">Only labels change. Copy and backup include all 2,048 cells and source identities; reference images are excluded from correction exports.</p><button id="br-reset">Reset labels…</button><button id="br-load-seed">Load seed file…</button></div></details>`;
@@ -46,7 +46,7 @@ document.body.append(dialogs);
 for(const id of ['br-copy','br-import','br-download','br-reset'])$(id).disabled=true;
 $('help-dialog').querySelector('h2').textContent='Correct the body-region map';
 $('help-dialog').querySelectorAll('p').forEach((p,i)=>{p.textContent=[
- 'Choose a named part and paint on the existing canvas. Each brush point changes one native pixel. Drag to draw a continuous stroke; Undo and Redo work per stroke. Unassigned erases a label. You can label empty canvas cells too.',
+ 'Choose a named part and paint on the existing canvas. Arm, Hand, Leg and Foot / shoe automatically choose the anatomical left/right ID and its color. Each brush point changes one native pixel. Drag to draw a continuous stroke; Undo and Redo work per stroke. Unassigned erases a label. You can label empty canvas cells too.',
  'Character-relative left is screen right in this front view. Reference, RD1 dummy and region labels have independent visibility and opacity. Their registration stays fixed. Grid and Guides do not change labels.',
  'Use + / − or Fit for sharp integer zoom. Pan tool or Space-drag moves the view; two fingers pan and pinch over the canvas. Arrow keys move the keyboard cursor; Enter paints. B brush, E unassigned, H pan, Command/Control Z undo, Shift Z redo.',
  'Copy Corrections always provides selectable JSON, including all 2,048 labels and exact source identities. Download backup saves the same data. Import rejects mismatched sources or registration. Label autosaves are isolated from ordinary sprite projects and game saves. Source images never enter correction files or autosaves.'
@@ -116,7 +116,13 @@ function loadSeed(data){
  finish();seed=validateSeed(data);model=createLabelModel(seed.labels);rasters.reference=raster(seed.referenceRGBA);rasters.dummy=raster(seed.dummyRGBA);
  for(const id of ['br-copy','br-import','br-download','br-reset'])$(id).disabled=false;
  $('br-parts').replaceChildren();$('br-part').replaceChildren();
- for(const p of seed.parts){$('br-part').add(new Option(p.name+(p.id>5?(p.id%2===0?' · screen right':' · screen left'):''),p.id));const b=document.createElement('button');b.dataset.part=p.id;b.style.setProperty('--part-color',p.color);b.textContent=p.name;b.onclick=()=>selectPart(p.id);$('br-parts').append(b);}
+ for(const option of PART_OPTIONS){
+  const p=seed.parts[option.id],paired=p.id>=6;
+  $('br-part').add(new Option(option.name+(paired?' · automatic sides':''),p.id));
+  const b=document.createElement('button');b.dataset.part=p.id;b.style.setProperty('--part-color',paired?`linear-gradient(to right, ${seed.parts[p.id+1].color} 50%, ${p.color} 50%)`:p.color);b.textContent=option.name;
+  if(paired)b.title='Front: screen left → character right; screen right → character left. Each side keeps its distinct color and ID.';
+  b.onclick=()=>selectPart(p.id);$('br-parts').append(b);
+ }
  $('br-source').textContent=`${seed.seedId} · reference ${seed.source.reference.gifSha256?.slice(0,12)||seed.source.reference.id} · dummy ${seed.source.dummy.sha256.slice(0,12)}`;
  status('Reference, RD1 dummy and region labels loaded. Choose a part to correct.');$('save-state').textContent='Original labels · saved locally';
  try{const saved=localStorage.getItem(STORAGE+':'+seed.seedId);if(saved){model=createLabelModel(importCorrections(saved,seed));$('save-state').textContent='Restored label autosave';status('Restored corrections for this exact source and registration.');}}catch{status('Saved corrections do not match this source or are corrupt. They were not loaded; download a backup after editing.',true);}

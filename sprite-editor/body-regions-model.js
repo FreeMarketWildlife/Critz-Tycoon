@@ -3,6 +3,17 @@ import {mirrorPoints} from './mirror.js';
 export const WIDTH=32, HEIGHT=64, SIZE=WIDTH*HEIGHT;
 export const STORAGE='fmw.sprite-editor.body-regions.v1';
 export const PART_IDS=['unassigned','head','ears','eyes','torso','pelvis','leftArm','rightArm','leftHand','rightHand','leftLeg','rightLeg','leftShoe','rightShoe'];
+// UI categories keep the stable v1 serialized IDs. Paired paint resolves each target independently.
+export const PART_OPTIONS=[{id:0,name:'Unassigned'},{id:1,name:'Head'},{id:2,name:'Ears'},{id:3,name:'Eyes'},{id:4,name:'Torso'},{id:5,name:'Pelvis'},{id:6,name:'Arm'},{id:8,name:'Hand'},{id:10,name:'Leg'},{id:12,name:'Foot / shoe'}];
+export function anatomicalPartId(id,x,width=WIDTH,facing='front'){
+ if(!Number.isInteger(id)||id<0||id>=PART_IDS.length)throw Error('Unknown label.');
+ if(!Number.isInteger(x)||x<0||x>=width)return null;
+ if(id<6)return id;
+ if(facing!=='front')throw Error('Automatic paired labels support the registered front view only.');
+ if(x===(width-1)/2)return null; // Exact odd-width center has no unambiguous paired side.
+ const leftId=id-id%2;
+ return x<(width-1)/2?leftId+1:leftId; // Viewer-left is character-right in the front view.
+}
 const fail=message=>{throw Error(message);};
 const isObject=v=>v!==null&&typeof v==='object'&&!Array.isArray(v);
 function keys(v,allowed,required=allowed){
@@ -64,6 +75,11 @@ export function createLabelModel(initial){
   get labels(){return labels.slice();},get undoCount(){return undo.length;},get redoCount(){return redo.length;},
   begin(){end();stroke=new Map();},
   paint(x,y,id,mirror=false){if(!stroke)fail('Start a stroke before painting.');if(!Number.isInteger(id)||id<0||id>=PART_IDS.length)fail('Unknown label.');if(!Number.isInteger(x)||!Number.isInteger(y)||x<0||y<0||x>=WIDTH||y>=HEIGHT)return;for(const [px,py]of mirrorPoints(WIDTH,x,y,mirror)){const i=py*WIDTH+px;if(!stroke.has(i))stroke.set(i,labels[i]);labels[i]=id;}},
+  paintAnatomical(x,y,id,mirror=false,facing='front'){
+   // Resolve before any write, so an unsupported facing cannot partially mutate a stroke.
+   const targets=mirrorPoints(WIDTH,x,y,mirror).map(([px,py])=>[px,py,anatomicalPartId(id,px,WIDTH,facing)]);
+   for(const [px,py,part]of targets)if(part!==null)this.paint(px,py,part);
+  },
   end,
   cancel(){if(!stroke)return false;for(const [i,v]of stroke)labels[i]=v;stroke=null;return true;},
   undo(){end();if(!undo.length)return false;const delta=undo.pop();redo.push(delta.map(([i,v])=>{const next=[i,labels[i]];labels[i]=v;return next;}));return true;},

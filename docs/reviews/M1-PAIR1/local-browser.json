@@ -1,0 +1,120 @@
+{
+  "passed": 3,
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 14,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "frontOnly": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 14,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "frontOnly": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 14,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "frontOnly": true,
+      "errors": []
+    }
+  ],
+  "physicalPhoneTested": false,
+  "mirrorRegressionCases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "mode": "body",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 17,
+        "y": 247,
+        "width": 44,
+        "height": 64
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "mode": "normal",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 17,
+        "y": 506,
+        "width": 44,
+        "height": 64
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "mode": "body",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 300.40625,
+        "width": 48,
+        "height": 64
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "mode": "normal",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 561.109375,
+        "width": 48,
+        "height": 64
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "mode": "body",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 306.28125,
+        "width": 48,
+        "height": 64
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "mode": "normal",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 561.109375,
+        "width": 48,
+        "height": 64
+      }
+    }
+  ],
+  "screenshots": "Source-bearing ignored local-review/paired-labels; desktop and390 actually inspected; intentionally synthetic legacy-label fixture, not art changes"
+}
