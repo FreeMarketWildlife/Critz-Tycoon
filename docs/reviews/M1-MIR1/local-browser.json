@@ -82,5 +82,6 @@
   "passed": 6,
   "physicalPhoneTested": false,
   "sourceBearingScreenshots": "Ignored local-review/mirror-editor; not committed or published",
-  "scope": "Mirror edits only; character generation stays stopped"
+  "scope": "Mirror edits only; character generation stays stopped",
+  "keyboardAndRightClickFollowup": "All three body-mode engine/width cases pass keyboard mirrored label +Undo/Redo; desktop right-click mirrored erase+Undo also passes"
 }

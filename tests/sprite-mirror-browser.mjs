@@ -14,6 +14,10 @@ const init=await cells();await draw(0,1);let now=await cells();assert.equal(now[
 await p.locator(mode==='body'?'#br-erase':'[data-tool=eraser]').click();await draw(31,1);assert.equal((await cells())[32],0);assert.equal((await cells())[63],0);await p.locator('#undo').click();assert.deepEqual(await cells(),now);
 await p.locator(mode==='body'?'#br-brush':'[data-tool=pencil]').click();await p.locator('#mirror').click();const off=await cells();await draw(2,3);assert.equal((await cells())[3*32+29],off[3*32+29]);
 await p.locator('#mirror').click();const strokeBefore=await cells();await draw(4,5,7,5);const strokeAfter=await cells();for(let x=4;x<=7;x++)assert.equal(strokeAfter[5*32+x],strokeAfter[5*32+31-x]);await p.locator('#undo').click();assert.deepEqual(await cells(),strokeBefore);await p.locator('#redo').click();assert.deepEqual(await cells(),strokeAfter);
+if(mode==='body'){
+ const keyboardBefore=await cells(),ks=await get(),kr=await p.locator('#canvas').boundingBox();await p.mouse.move(kr.x+16.5*ks.zoom,kr.y+40.5*ks.zoom);await p.locator('#canvas').focus();await p.keyboard.press('Enter');const keyboardAfter=await cells();assert.equal(keyboardAfter[40*32+16],4);assert.equal(keyboardAfter[40*32+15],4);await p.locator('#undo').click();assert.deepEqual(await cells(),keyboardBefore);await p.locator('#redo').click();assert.deepEqual(await cells(),keyboardAfter);
+ if(!mobile){const s=await get(),r=await p.locator('#canvas').boundingBox();await p.mouse.click(r.x+16.5*s.zoom,r.y+40.5*s.zoom,{button:'right'});assert.equal((await cells())[40*32+16],0);assert.equal((await cells())[40*32+15],0);await p.locator('#undo').click();assert.deepEqual(await cells(),keyboardAfter);}
+}
 if(mode==='normal'&&!mobile){
  await p.locator('[data-tool=line]').click();await draw(3,10,7,13);let a=await cells();for(let y=10;y<=13;y++)for(let x=3;x<=7;x++)assert.equal(a[y*32+x],a[y*32+31-x]);
  await p.locator('[data-tool=rectangle]').click();await draw(3,17,7,20);a=await cells();assert.ok(a[17*32+3]);assert.equal(a[17*32+3],a[17*32+28]);

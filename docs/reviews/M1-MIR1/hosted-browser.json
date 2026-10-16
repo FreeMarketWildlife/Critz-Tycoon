@@ -1,0 +1,91 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=body-regions",
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "mode": "body",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 17,
+        "y": 247,
+        "width": 44,
+        "height": 64
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "mode": "normal",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 17,
+        "y": 506,
+        "width": 44,
+        "height": 64
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "mode": "body",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 300.40625,
+        "width": 48,
+        "height": 64
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "mode": "normal",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 561.109375,
+        "width": 48,
+        "height": 64
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "mode": "body",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 306.28125,
+        "width": 48,
+        "height": 64
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "mode": "normal",
+      "pass": true,
+      "errors": [],
+      "toggleBounds": {
+        "x": 11,
+        "y": 561.109375,
+        "width": 48,
+        "height": 64
+      }
+    }
+  ],
+  "passed": 6,
+  "physicalPhoneTested": false,
+  "isolatedSyntheticStorage": true,
+  "screenshotsActuallyViewed": [
+    "Chrome390body",
+    "WebKit320body"
+  ],
+  "privateScreenshots": "Ignored local-review/mirror-editor-hosted, excluded from Git/build"
+}

@@ -1,7 +1,6 @@
-## M1.MIR1 — focused editor tool; character work paused
+## M1.MIR1 — complete editor tool live v62; character work paused
 
-Complete the requested left-toolbar Mirror Y toggle for subsequent pixel/label edits, meaningful Undo/Redo and mobile touch checks, then publish only this editor overlay to the existing public site. Preserve actual assets, labels and saves. Girl/Mom/Nugget art, animation, QA and integration are stopped until Phil provides his own dummy corrections and new direction. [Mirror evidence](reviews/M1-MIR1/README.md).
-
+The requested left-toolbar Mirror Y toggle is deployed on the existing public site as v62, with subsequent pixel/label edits, single-stroke Undo/Redo and actual Chrome/WebKit portrait tests verified. Next: Phil corrects the dummy in the hosted editor. Preserve actual assets, labels and saves. Girl/Mom/Nugget art, animation, QA and integration are stopped until Phil provides his own dummy corrections and new direction. [Mirror evidence](reviews/M1-MIR1/README.md).
 
 ## Awaiting parent review M1.OWR2 — corrected three-character walking studies
 
