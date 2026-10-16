@@ -1,3 +1,11 @@
+## Active M1.NT1 — private front/West neutral construction
+
+NTC1 pre-edit comparison was actually viewed/shown by root and targeted critique relayed; drawing hold fulfilled. [Two complete idle32 neutral candidates and silhouettes](reviews/M1-NT1/README.md) now exist for private construction review. Complete shared face/arm/hand/hip-thigh/ankle/leftshoe geometry, flat semantic regions without Hero decoration/hair/pack, original occluded-body completion declared. Protected Front Hero/current history untouched. Root complete two-pose review finds a coherent candidate for private parent judgment, not final acceptance. Source frozen for audit/checkpoint; no pose/16/animation/creator/runtime/deployment expansion. Index/source commit coordination follows coherent private review.
+
+## Active M1.NTC1 — pre-edit neutral front/West checkpoint
+
+Phil rejected NCR1's delivered art. [Actual reference/current comparison and numeric critique](reviews/M1-NTC1/README.md) are complete and sent to root. Only front/West idle32 neutral template is authorized next, following latest canonical art-bible correction. Sprite drawing is HELD until root has shown/relayed the exact checkpoint; no art changes yet. Current/history art, creator and game remain untouched; no native16/animation/back/variants/deployment.
+
 ## Active M1.NCR1 — native cleanup with bounded master consistency
 
 Parent reopened sampled native16 appearance and specifically authorized NWE32 footwear/rear-join material consistency, retaining exact South32/front and source anatomy/footprints/contacts/anchors. [Complete existing-pose candidate](reviews/M1-NCR1/README.md) now has authored native contours/materials, before bald+Hero, exact shared-body attachments, matching shoe hierarchy and actual pack corner stabilization. Writer normal-speed/native/static checks complete; frozen for root independent/private actual visual review. Source main commit/push verification follows; no automatic final art acceptance, creator restart or runtime/deployment expansion. H4R1/history and parked work remain preserved.
