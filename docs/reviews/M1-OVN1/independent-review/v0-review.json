@@ -1,0 +1,64 @@
+{
+  "state": "Parent rejected v0 side construction; bounded corrections in progress; no walk approval",
+  "reviewedBoardSHA256": {
+    "girl": "67e9e1b74de6917424ddc4dcf2c362b0473eadf62c849d4c3c407a7172eadb33",
+    "mom": "95a604daf8fd8ec43ca73d2dc29e7f4c7a7a6cc33c42c4ec4166c5a210d55e19",
+    "nugget": "d535bcfda732862cb180ac4c6fe0924e0100817ed72ed4096ef4754d14656715"
+  },
+  "actualViews": "Original native thumbnails and integer boards, plus actual pinned May/Mom/Birch/Brendan/Man1 reference plate. No animation reviewed.",
+  "girlFront": {
+    "alphaComponents4": 1,
+    "lastContactY": 61,
+    "contactRunsHalfOpen": [
+      [
+        9,
+        13
+      ],
+      [
+        19,
+        23
+      ]
+    ],
+    "alphaRows62and63": 0,
+    "sole60": "Opaque #f7edcc connects upper to dark contact, but blends into pale presentation background. Apparent isolated ink is not detached alpha."
+  },
+  "sideLowerAlphaWidths": {
+    "girl": {
+      "upper": 14,
+      "contact": 10,
+      "sourceMayNativeUpper": 7,
+      "sourceMayNativeContact": 5
+    },
+    "mom": {
+      "upper": 15,
+      "contact": 13,
+      "sourceMomNativeUpper": 5,
+      "sourceMomNativeContact": 3
+    },
+    "nugget": {
+      "upper": 19,
+      "contact": 16,
+      "sourceBirchNativeUpper": 7,
+      "sourceBirchNativeContact": 5
+    }
+  },
+  "qualification": "These are total visible lower-alpha widths at declared rows, not recovered shoe anatomy. Reference native widths compare at2x. Clothing and registration differ; values are perspective evidence, not exact quotas. Girl width already matches May but material band still reads as rail.",
+  "defects": {
+    "girl": [
+      "Flattened side puff silhouette",
+      "Long bright sole rail",
+      "Pale sole/background hides front contact connection"
+    ],
+    "mom": [
+      "Near hand substantially smaller than front",
+      "Forward cream torso bulge and ambiguous shoulder/arm",
+      "Merged long side platform"
+    ],
+    "nugget": [
+      "Long side shoe slab",
+      "Dominant opaque outlined profile lens",
+      "Unclear forearm/hand material ownership"
+    ]
+  },
+  "next": "Artists preserve v0 and correct only existing four idle facings. Root and independent QA inspect corrected native/integer/source-adjacent boards. No new characters, walks, creator, runtime or deployment."
+}

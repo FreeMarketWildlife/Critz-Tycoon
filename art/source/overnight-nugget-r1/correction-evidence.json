@@ -1,0 +1,205 @@
+{
+  "task": "M1.ON1",
+  "revision": "idle correction v1",
+  "status": "awaiting root actual visual review",
+  "approval": false,
+  "frontNorthBytesUnchanged": true,
+  "actualBirchSource": {
+    "path": "local-review/overnight-cast-qa/prof_birch.png",
+    "sha256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15",
+    "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+    "frame": 2,
+    "observation": "actual indexed PNG inspection, not emulator observation",
+    "rows": {
+      "25": [
+        [
+          4,
+          13
+        ]
+      ],
+      "26": [
+        [
+          4,
+          13
+        ]
+      ],
+      "27": [
+        [
+          5,
+          12
+        ]
+      ],
+      "28": [
+        [
+          6,
+          12
+        ]
+      ],
+      "29": [
+        [
+          5,
+          12
+        ]
+      ],
+      "30": [
+        [
+          6,
+          11
+        ]
+      ]
+    }
+  },
+  "sideRows": {
+    "52": {
+      "before": [
+        [
+          8,
+          24
+        ]
+      ],
+      "after": [
+        [
+          8,
+          24
+        ]
+      ]
+    },
+    "53": {
+      "before": [
+        [
+          9,
+          23
+        ]
+      ],
+      "after": [
+        [
+          9,
+          23
+        ]
+      ]
+    },
+    "54": {
+      "before": [
+        [
+          9,
+          23
+        ]
+      ],
+      "after": [
+        [
+          9,
+          23
+        ]
+      ]
+    },
+    "55": {
+      "before": [
+        [
+          9,
+          24
+        ]
+      ],
+      "after": [
+        [
+          10,
+          23
+        ]
+      ]
+    },
+    "56": {
+      "before": [
+        [
+          9,
+          24
+        ]
+      ],
+      "after": [
+        [
+          10,
+          22
+        ]
+      ]
+    },
+    "57": {
+      "before": [
+        [
+          8,
+          24
+        ]
+      ],
+      "after": [
+        [
+          10,
+          22
+        ]
+      ]
+    },
+    "58": {
+      "before": [
+        [
+          9,
+          24
+        ]
+      ],
+      "after": [
+        [
+          11,
+          22
+        ]
+      ]
+    },
+    "59": {
+      "before": [
+        [
+          7,
+          24
+        ]
+      ],
+      "after": [
+        [
+          10,
+          23
+        ]
+      ]
+    },
+    "60": {
+      "before": [
+        [
+          6,
+          25
+        ]
+      ],
+      "after": [
+        [
+          9,
+          22
+        ]
+      ]
+    },
+    "61": {
+      "before": [
+        [
+          7,
+          23
+        ]
+      ],
+      "after": [
+        [
+          10,
+          19
+        ]
+      ]
+    }
+  },
+  "sidePixelsChanged": 105,
+  "files": {
+    "east-idle.png": "97448f878310037459b49135d1d566af7d74fc7bff0ecf286df941de27a2fc2f",
+    "west-idle.png": "97007bbbdd17a018d89e7d8181eb6211357587e24b69b93dc57a3c1ba4152e50",
+    "four-idle-board.png": "d7be1dfc0641908da662a170596384b0fa1acd2317c5b51ee9b6aca0dfa40d03",
+    "south-idle.png": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+    "four-idle-dark-4x.png": "d8e22c8eaebc03d21bd9b683c9c04b8e0d1c4c94a5a5d0d000e1927c7d6c9642",
+    "four-idle-native.png": "176af67b5e094563a81423f03fd9f8e9a8fcaba0291333a6d7552c5cccc6be38",
+    "four-idle-grid.png": "10f52804b8b48daccf3a2ccf7a36ca4eb3f43118ed4ee380e41d7a3d9b335422",
+    "north-idle.png": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748"
+  }
+}

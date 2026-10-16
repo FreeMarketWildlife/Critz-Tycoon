@@ -1,0 +1,27 @@
+{
+  "task": "M1.OGH2",
+  "copiedFromCheckpoint": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-continuation-checkpoint/manifest.json",
+  "character": "girl",
+  "sourceReadOnly": "art/source/overnight-girl-r1",
+  "reviewReadOnly": "docs/reviews/M1-OGH1",
+  "exclusiveWritable": [
+    "art/source/overnight-girl-continuation-r1",
+    "docs/reviews/M1-OGH2"
+  ],
+  "state": "author PNGs/board frozen after root actual inspection; private parent judgment next",
+  "oldOwnerAccess": "Old sessions remain assigned only original folders; do not write original paths",
+  "appearanceAccepted": false,
+  "walksAuthorized": false,
+  "creatorOrDeploymentAuthorized": false,
+  "createdAt": "2026-10-16T16:44:21.431855+00:00",
+  "boardPath": "docs/reviews/M1-OGH2/four-idle-board.png",
+  "boardSHA256": "3150d999b3ef562a6edf74ec66f23e7dd7980754366648c319155327751c2ab2",
+  "characterPixelsChanged": false,
+  "checks": {
+    "builder": 20,
+    "v2Protection": 40,
+    "editorValidation": 8,
+    "independentContinuation": 92
+  },
+  "rootActualInspection": true
+}

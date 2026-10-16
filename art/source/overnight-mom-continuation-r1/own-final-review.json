@@ -1,0 +1,64 @@
+{
+  "task": "M1.OM2",
+  "state": "frozen for root and independent review; appearance unapproved",
+  "actualViewing": [
+    "final native128x64",
+    "final complete nearest6x board",
+    "before/after native and4x",
+    "light/dark native and3x",
+    "countable grid",
+    "pinned primary all-facing native/6x plate"
+  ],
+  "change": "West/East far-arm layer fully occluded;12 formerly exposed cells removed each; no surviving recolors; every other real layer exact v1",
+  "nearSleeve": {
+    "westEnvelope": [
+      20,
+      44,
+      26,
+      50
+    ],
+    "handEnvelope": [
+      20,
+      49,
+      26,
+      55
+    ],
+    "handWarmCells": 16,
+    "handWarmBounds": [
+      21,
+      50,
+      25,
+      54
+    ],
+    "observation": "Near sleeve descends on rear/profile-right side into full rounded palm beside hip. Palm projects beyond torso; no internal shirt patch."
+  },
+  "shoe": {
+    "westWidths58to61": [
+      11,
+      11,
+      10,
+      6
+    ],
+    "westContactRow61": [
+      13,
+      19
+    ],
+    "frontShoes": "all front58+RGBA unchanged from v0 and alpha identical to RD1",
+    "observation": "Toe/heel taper and short material accents remove v0 full-depth platform. Far foot remains occluded; no fabricated split."
+  },
+  "ownVerdict": "Specific forward rose extra-sleeve ambiguity removed. Cream torso edge remains coherent; full near palm attached beside hip. No additional concrete issue identified within bounded scope; not appearance acceptance.",
+  "referenceLimit": "Primary Mom skirt/garment differs from original Critz trousers; overlap/occupancy is evidence, hidden body segmentation remains inferred.",
+  "checks": {
+    "savedFile": 80,
+    "continuation": 372,
+    "oldPathHashes": 133,
+    "checkpointHashes": 133
+  },
+  "walksAuthorized": false,
+  "appearanceAccepted": false,
+  "boardSHA256": "fca77663ac685f4fa1a6164ccd72b68c4f2562b40316a293d490f636e2a84beb",
+  "publication": "not attempted; root owns Git and private delivery",
+  "branch": "main",
+  "observedHEAD": "967a6ad5aa6820cf268b47fc1deae47005600638",
+  "next": "Root and independent visual judgment; no walks without explicit root approval."
+}

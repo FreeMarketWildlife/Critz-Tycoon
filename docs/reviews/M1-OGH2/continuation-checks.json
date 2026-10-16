@@ -1,0 +1,206 @@
+{
+  "task": "M1.OGH2",
+  "revision": "v2-preserved",
+  "state": "stable awaiting parent/root visual judgment",
+  "pass": true,
+  "count": 92,
+  "checks": [
+    "old owner files preserved",
+    "both archived histories preserved",
+    "every candidate semantic PNG and native lineup byte exact copied v2",
+    "old girl files still exact checkpoint",
+    "south source explicit one native32x64 frame",
+    "south JSON layer order matches actual order",
+    "south saved shirt PNG equals semantic JSON",
+    "south saved exposed-arms-hands PNG equals semantic JSON",
+    "south saved shorts PNG equals semantic JSON",
+    "south saved shoes PNG equals semantic JSON",
+    "south saved face PNG equals semantic JSON",
+    "south saved ears PNG equals semantic JSON",
+    "south saved hair PNG equals semantic JSON",
+    "south saved ties PNG equals semantic JSON",
+    "south saved eyes PNG equals semantic JSON",
+    "south complete ordered semantic source exactly recomposes",
+    "south editable painted frame exact composite",
+    "south editable flat project exact separate diagram",
+    "south single connected whole character",
+    "south no mixed-grid resampling or partial alpha",
+    "south contact61 and empty62plus",
+    "south full near shoe connected",
+    "south saved near shoe exact copied v2",
+    "north source explicit one native32x64 frame",
+    "north JSON layer order matches actual order",
+    "north saved shirt PNG equals semantic JSON",
+    "north saved exposed-arms-hands PNG equals semantic JSON",
+    "north saved shorts PNG equals semantic JSON",
+    "north saved shoes PNG equals semantic JSON",
+    "north saved face PNG equals semantic JSON",
+    "north saved ears PNG equals semantic JSON",
+    "north saved hair PNG equals semantic JSON",
+    "north saved ties PNG equals semantic JSON",
+    "north saved eyes PNG equals semantic JSON",
+    "north complete ordered semantic source exactly recomposes",
+    "north editable painted frame exact composite",
+    "north editable flat project exact separate diagram",
+    "north single connected whole character",
+    "north no mixed-grid resampling or partial alpha",
+    "north contact61 and empty62plus",
+    "north full near shoe connected",
+    "north saved near shoe exact copied v2",
+    "west source explicit one native32x64 frame",
+    "west JSON layer order matches actual order",
+    "west saved far-arm PNG equals semantic JSON",
+    "west saved far-shoe PNG equals semantic JSON",
+    "west saved shirt PNG equals semantic JSON",
+    "west saved shorts PNG equals semantic JSON",
+    "west saved shoes PNG equals semantic JSON",
+    "west saved exposed-arms-hands PNG equals semantic JSON",
+    "west saved face PNG equals semantic JSON",
+    "west saved ears PNG equals semantic JSON",
+    "west saved hair PNG equals semantic JSON",
+    "west saved ties PNG equals semantic JSON",
+    "west saved eyes PNG equals semantic JSON",
+    "west complete ordered semantic source exactly recomposes",
+    "west editable painted frame exact composite",
+    "west editable flat project exact separate diagram",
+    "west single connected whole character",
+    "west no mixed-grid resampling or partial alpha",
+    "west contact61 and empty62plus",
+    "west full near shoe connected",
+    "west saved near shoe exact copied v2",
+    "east source explicit one native32x64 frame",
+    "east JSON layer order matches actual order",
+    "east saved far-arm PNG equals semantic JSON",
+    "east saved far-shoe PNG equals semantic JSON",
+    "east saved shirt PNG equals semantic JSON",
+    "east saved shorts PNG equals semantic JSON",
+    "east saved shoes PNG equals semantic JSON",
+    "east saved exposed-arms-hands PNG equals semantic JSON",
+    "east saved face PNG equals semantic JSON",
+    "east saved ears PNG equals semantic JSON",
+    "east saved hair PNG equals semantic JSON",
+    "east saved ties PNG equals semantic JSON",
+    "east saved eyes PNG equals semantic JSON",
+    "east complete ordered semantic source exactly recomposes",
+    "east editable painted frame exact composite",
+    "east editable flat project exact separate diagram",
+    "east single connected whole character",
+    "east no mixed-grid resampling or partial alpha",
+    "east contact61 and empty62plus",
+    "east full near shoe connected",
+    "east saved near shoe exact copied v2",
+    "front GH1 visible head through44 exact RGBA",
+    "front full RD1 source-posed alpha45plus exact",
+    "front entire shoe envelope58plus exact RD1",
+    "Brendan actual reference bytes match pinned audit",
+    "Man1 actual reference bytes match pinned audit",
+    "May actual reference bytes match pinned audit",
+    "Mom actual reference bytes match pinned audit",
+    "Birch actual reference bytes match pinned audit"
+  ],
+  "facts": {
+    "south": {
+      "pngSHA256": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+      "bounds": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "frameEdgeAnchor": [
+        16,
+        64
+      ],
+      "lastOpaqueRow": 61,
+      "nearShoeCells": 54
+    },
+    "north": {
+      "pngSHA256": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+      "bounds": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "frameEdgeAnchor": [
+        16,
+        64
+      ],
+      "lastOpaqueRow": 61,
+      "nearShoeCells": 54
+    },
+    "west": {
+      "pngSHA256": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+      "bounds": [
+        5,
+        21,
+        31,
+        62
+      ],
+      "frameEdgeAnchor": [
+        16,
+        64
+      ],
+      "lastOpaqueRow": 61,
+      "nearShoeCells": 56
+    },
+    "east": {
+      "pngSHA256": "1bb6f1ba81eabe360cfafefc3e9ecc1b72d3b81b9a1d828facec86240e1e5ab8",
+      "bounds": [
+        1,
+        21,
+        27,
+        62
+      ],
+      "frameEdgeAnchor": [
+        16,
+        64
+      ],
+      "lastOpaqueRow": 61,
+      "nearShoeCells": 56
+    }
+  },
+  "referenceFiles": [
+    {
+      "name": "Brendan",
+      "path": "/tmp/ds1-primary-reference/brendan-walking.png",
+      "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+      "sha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1"
+    },
+    {
+      "name": "Man1",
+      "path": "/tmp/ds1-primary-reference/man_1.png",
+      "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+      "sha256": "cd71f4ec4dd2b634cf48d79020be960127434fcfcc56ed536f4e7084d6ffc57c"
+    },
+    {
+      "name": "May",
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-cast-qa/may-walking.png",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87"
+    },
+    {
+      "name": "Mom",
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-cast-qa/mom.png",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "a404a3c79252a6a13e10622307c3bce4c76c1e1a39814b7c7a11ad7520442289"
+    },
+    {
+      "name": "Birch",
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-cast-qa/prof_birch.png",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15"
+    }
+  ],
+  "oldOwnerFilesGuarded": 201,
+  "historyFilesGuarded": 126,
+  "semanticPNGsGuarded": 49,
+  "copiedBoardSHA256": "27aa7538e7bfefe97bbfc9508b2337a5648d98968aaf35c1976f145454b8a51e",
+  "boardSHA256": "3150d999b3ef562a6edf74ec66f23e7dd7980754366648c319155327751c2ab2",
+  "boardPath": "docs/reviews/M1-OGH2/four-idle-board.png",
+  "labelChangeOnly": true,
+  "appearanceAccepted": false,
+  "walksAuthorized": false,
+  "runtimeChanged": false,
+  "sourceFreezeCommit": null
+}

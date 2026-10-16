@@ -1,0 +1,163 @@
+{
+  "task": "M1.ON1",
+  "status": "awaiting root four-idle review",
+  "appearanceApproval": false,
+  "palette": {
+    "ink": "#302b29",
+    "hatDark": "#6c6043",
+    "hat": "#bfab77",
+    "hatLight": "#e4d09a",
+    "band": "#3b5943",
+    "bandLight": "#708661",
+    "hairDark": "#798987",
+    "hair": "#a8b4af",
+    "hairLight": "#d2d7c8",
+    "skinDark": "#ad714f",
+    "skin": "#d29b68",
+    "skinLight": "#edbb83",
+    "coatDark": "#b9bea9",
+    "coat": "#e1e3cf",
+    "coatLight": "#f7edcc",
+    "shirtDark": "#526a50",
+    "shirt": "#78966b",
+    "pantsDark": "#514539",
+    "pants": "#8b8159",
+    "shoeDark": "#343537",
+    "shoe": "#60696a",
+    "shoeLight": "#9aa6a4",
+    "lens": "#e7efeb"
+  },
+  "frame": [
+    32,
+    64
+  ],
+  "anchor": [
+    16,
+    64
+  ],
+  "directions": {
+    "south": {
+      "bounds": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "paletteCount": 20,
+      "pngSHA256": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+      "layers": [
+        "coat",
+        "hands",
+        "trousers",
+        "shoes",
+        "body-outline",
+        "coat-details",
+        "shirt",
+        "lapels",
+        "shoe-details",
+        "trouser-details",
+        "hair",
+        "face",
+        "face-light",
+        "face-shadow",
+        "ears",
+        "glasses",
+        "eyes",
+        "hair-fringe",
+        "hat",
+        "hat-band",
+        "hat-brim"
+      ]
+    },
+    "north": {
+      "bounds": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "paletteCount": 16,
+      "pngSHA256": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748",
+      "layers": [
+        "coat",
+        "hands",
+        "trousers",
+        "shoes",
+        "body-outline",
+        "coat-details",
+        "shoe-details",
+        "trouser-details",
+        "hair",
+        "hair-light",
+        "hair-shadow",
+        "hat",
+        "hat-band",
+        "hat-brim"
+      ]
+    },
+    "west": {
+      "bounds": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "paletteCount": 19,
+      "pngSHA256": "6db804397e150524200b4a9152661cb7957149ed538817a12766dcfa308f5486",
+      "layers": [
+        "trousers",
+        "far-shoe",
+        "near-shoe",
+        "shoe-highlight",
+        "coat",
+        "shirt",
+        "sleeve",
+        "hand",
+        "hand-light",
+        "head",
+        "face-light",
+        "hair",
+        "hair-light",
+        "ear",
+        "glasses",
+        "eyes",
+        "hat",
+        "hat-light",
+        "hat-band",
+        "hat-brim"
+      ]
+    },
+    "east": {
+      "bounds": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "paletteCount": 19,
+      "pngSHA256": "1f7a05ef529aab3cc5292563892dd7cf4581441c1db296c9c6687ff6732f8e98",
+      "layers": [
+        "trousers",
+        "far-shoe",
+        "near-shoe",
+        "shoe-highlight",
+        "coat",
+        "shirt",
+        "sleeve",
+        "hand",
+        "hand-light",
+        "head",
+        "face-light",
+        "hair",
+        "hair-light",
+        "ear",
+        "glasses",
+        "eyes",
+        "hat",
+        "hat-light",
+        "hat-band",
+        "hat-brim"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1414 @@
+{
+  "task": "M1.OVQ2",
+  "method": "Independent actual saved PNG/JSON decoding without running artist builders; source-only reference evidence, no emulator capture.",
+  "checks": [
+    {
+      "name": "girl/south/shirt JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/exposed-arms-hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/shorts JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/shoes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/ears JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/ties JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south/eyes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/south exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/south frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "girl/south contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "girl full front shoe alpha58+ retained",
+      "pass": true
+    },
+    {
+      "name": "girl/north/shirt JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/exposed-arms-hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/shorts JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/shoes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/ears JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/ties JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north/eyes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/north exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/north frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "girl/north contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "girl/west/far-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/far-shoe JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/shirt JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/shorts JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/shoes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/exposed-arms-hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/ears JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/ties JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west/eyes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/west exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/west frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "girl/west contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "girl/east/far-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/far-shoe JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/shirt JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/shorts JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/shoes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/exposed-arms-hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/ears JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/ties JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east/eyes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "girl/east exact composition",
+      "pass": true
+    },
+    {
+      "name": "girl/east frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "girl/east contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "mom/south/feet JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/legs JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/far-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/torso JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/near-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/head JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south/jewelry JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/south exact composition",
+      "pass": true
+    },
+    {
+      "name": "mom/south frame",
+      "pass": true
+    },
+    {
+      "name": "mom/south binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/south single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "mom/south contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "mom full front shoe alpha58+ retained",
+      "pass": true
+    },
+    {
+      "name": "mom/north/feet JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/legs JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/far-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/torso JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/near-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/head JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north/jewelry JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/north exact composition",
+      "pass": true
+    },
+    {
+      "name": "mom/north frame",
+      "pass": true
+    },
+    {
+      "name": "mom/north binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/north single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "mom/north contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "mom/west/feet JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/legs JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/far-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/torso JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/near-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/head JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west/jewelry JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/west exact composition",
+      "pass": true
+    },
+    {
+      "name": "mom/west frame",
+      "pass": true
+    },
+    {
+      "name": "mom/west binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/west single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "mom/west contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "mom/east/feet JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/legs JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/far-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/torso JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/near-arm JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/head JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east/jewelry JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "mom/east exact composition",
+      "pass": true
+    },
+    {
+      "name": "mom/east frame",
+      "pass": true
+    },
+    {
+      "name": "mom/east binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/east single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "mom/east contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/coat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/trousers JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/shoes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/body-outline JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/coat-details JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/shirt JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/lapels JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/shoe-details JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/trouser-details JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/face JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/face-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/face-shadow JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/ears JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/glasses JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/eyes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/hair-fringe JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/hat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/hat-band JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south/hat-brim JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/south exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/south frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/south single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "nugget/south contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "nugget full front shoe alpha58+ retained",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/coat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/hands JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/trousers JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/shoes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/body-outline JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/coat-details JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/shoe-details JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/trouser-details JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/hair-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/hair-shadow JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/hat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/hat-band JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north/hat-brim JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/north exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/north frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/north single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "nugget/north contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/trousers JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/far-shoe JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/near-shoe JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/shoe-highlight JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/coat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/shirt JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/sleeve JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hand JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hand-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/head JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/face-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hair-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/ear JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/glasses JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/eyes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hat-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hat-band JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west/hat-brim JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/west exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/west frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/west single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "nugget/west contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/trousers JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/far-shoe JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/near-shoe JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/shoe-highlight JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/coat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/shirt JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/sleeve JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hand JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hand-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/head JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/face-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hair JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hair-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/ear JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/glasses JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/eyes JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hat JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hat-light JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hat-band JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east/hat-brim JSON equals saved PNG",
+      "pass": true
+    },
+    {
+      "name": "nugget/east exact composition",
+      "pass": true
+    },
+    {
+      "name": "nugget/east frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/east single four-connected silhouette",
+      "pass": true
+    },
+    {
+      "name": "nugget/east contact61 and empty62+",
+      "pass": true
+    },
+    {
+      "name": "Brendan actual reference SHA",
+      "pass": true
+    },
+    {
+      "name": "Man1 actual reference SHA",
+      "pass": true
+    },
+    {
+      "name": "May actual reference SHA",
+      "pass": true
+    },
+    {
+      "name": "Mom actual reference SHA",
+      "pass": true
+    },
+    {
+      "name": "Birch actual reference SHA",
+      "pass": true
+    }
+  ],
+  "passed": 223,
+  "failed": 0,
+  "poses": [
+    {
+      "character": "girl",
+      "direction": "south",
+      "file": "docs/reviews/M1-OGH2/south/idle.png",
+      "sha256": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+      "layersJson": "art/source/overnight-girl-continuation-r1/south.layers.json",
+      "layersJsonSHA256": "be601104f3fef6a9f62ac3d9c46c962e33b00a52ea0637c88c7b663e98dba51e",
+      "bbox": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "shirt": 166,
+        "exposed-arms-hands": 64,
+        "shorts": 54,
+        "shoes": 54,
+        "face": 120,
+        "ears": 26,
+        "hair": 331,
+        "ties": 14,
+        "eyes": 16
+      },
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "north",
+      "file": "docs/reviews/M1-OGH2/north/idle.png",
+      "sha256": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+      "layersJson": "art/source/overnight-girl-continuation-r1/north.layers.json",
+      "layersJsonSHA256": "72ea7ed23f54acaac64ee66907d63b9dff9edb8ddad676e0cb96efd508a025e6",
+      "bbox": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "shirt": 166,
+        "exposed-arms-hands": 64,
+        "shorts": 54,
+        "shoes": 54,
+        "face": 0,
+        "ears": 26,
+        "hair": 467,
+        "ties": 14,
+        "eyes": 0
+      },
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "west",
+      "file": "docs/reviews/M1-OGH2/west/idle.png",
+      "sha256": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+      "layersJson": "art/source/overnight-girl-continuation-r1/west.layers.json",
+      "layersJsonSHA256": "39169ad250d7be09146cdffd86af46dc0f1172c912576f401ca7a863c9b8e8c2",
+      "bbox": [
+        5,
+        21,
+        31,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "far-arm": 0,
+        "far-shoe": 33,
+        "shirt": 131,
+        "shorts": 33,
+        "shoes": 56,
+        "exposed-arms-hands": 42,
+        "face": 357,
+        "ears": 16,
+        "hair": 289,
+        "ties": 4,
+        "eyes": 8
+      },
+      "contactXs": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "character": "girl",
+      "direction": "east",
+      "file": "docs/reviews/M1-OGH2/east/idle.png",
+      "sha256": "1bb6f1ba81eabe360cfafefc3e9ecc1b72d3b81b9a1d828facec86240e1e5ab8",
+      "layersJson": "art/source/overnight-girl-continuation-r1/east.layers.json",
+      "layersJsonSHA256": "4e131b33d247a1ac59332b23414369869942ee4deb994cff707160ac126c2e7f",
+      "bbox": [
+        1,
+        21,
+        27,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "far-arm": 0,
+        "far-shoe": 33,
+        "shirt": 131,
+        "shorts": 33,
+        "shoes": 56,
+        "exposed-arms-hands": 42,
+        "face": 357,
+        "ears": 16,
+        "hair": 289,
+        "ties": 4,
+        "eyes": 8
+      },
+      "contactXs": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "character": "mom",
+      "direction": "south",
+      "file": "docs/reviews/M1-OM2/idle-south.png",
+      "sha256": "68be2c945bb1e1368e7c222f5b81f48b87822a921d3181c04dfa8ef95160496c",
+      "layersJson": "art/source/overnight-mom-continuation-r1/south/layers.json",
+      "layersJsonSHA256": "ac96ee4d49c65cc7663bb35b43cfb6d50522b1571710d1abd03d6bf92d2cd4ee",
+      "bbox": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "feet": 52,
+        "legs": 68,
+        "far-arm": 0,
+        "torso": 146,
+        "near-arm": 50,
+        "hands": 54,
+        "head": 432,
+        "face": 16,
+        "hair": 323,
+        "jewelry": 8
+      },
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "mom",
+      "direction": "north",
+      "file": "docs/reviews/M1-OM2/idle-north.png",
+      "sha256": "aa6715f4cb7185edc7c73d8247a87e89eb43861a133cf8fded94bd9248a92df3",
+      "layersJson": "art/source/overnight-mom-continuation-r1/north/layers.json",
+      "layersJsonSHA256": "b60c887ea9bbec106317e796d02f4527205b6c1522a6132a2fe67d413c796fe9",
+      "bbox": [
+        3,
+        19,
+        29,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "feet": 52,
+        "legs": 68,
+        "far-arm": 0,
+        "torso": 146,
+        "near-arm": 50,
+        "hands": 54,
+        "head": 432,
+        "face": 0,
+        "hair": 497,
+        "jewelry": 8
+      },
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "mom",
+      "direction": "west",
+      "file": "docs/reviews/M1-OM2/idle-west.png",
+      "sha256": "2829df6ac17b4cded39737c36d86dadc36e0bc20ca31bb47282d753b76622b31",
+      "layersJson": "art/source/overnight-mom-continuation-r1/west/layers.json",
+      "layersJsonSHA256": "b472319b9aadecb3dd9a441625aef8684764c3066e118e0b0cf18c024c8468b0",
+      "bbox": [
+        4,
+        20,
+        28,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "feet": 38,
+        "legs": 30,
+        "far-arm": 0,
+        "torso": 138,
+        "near-arm": 31,
+        "hands": 32,
+        "head": 330,
+        "face": 20,
+        "hair": 271,
+        "jewelry": 4
+      },
+      "contactXs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "character": "mom",
+      "direction": "east",
+      "file": "docs/reviews/M1-OM2/idle-east.png",
+      "sha256": "ee2a50c7edd925bb72083e46c3a0f49ae33dca487d0bc734730eaa21b2cf9b9d",
+      "layersJson": "art/source/overnight-mom-continuation-r1/east/layers.json",
+      "layersJsonSHA256": "588a95ebb678270a4ae690f725b2a55d553d50d0f11e5a085ec1b6d4a6a29fbb",
+      "bbox": [
+        4,
+        20,
+        28,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "feet": 38,
+        "legs": 30,
+        "far-arm": 0,
+        "torso": 138,
+        "near-arm": 31,
+        "hands": 32,
+        "head": 330,
+        "face": 20,
+        "hair": 271,
+        "jewelry": 4
+      },
+      "contactXs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "south",
+      "file": "docs/reviews/M1-ON2/south-idle.png",
+      "sha256": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+      "layersJson": "art/source/overnight-nugget-continuation-r1/south.layers.json",
+      "layersJsonSHA256": "a99569a6c9f47e6d8cd28c0e9c9c9ccf6a766ca1a548df159c5b21dc16939c6e",
+      "bbox": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "coat": 212,
+        "hands": 54,
+        "trousers": 68,
+        "shoes": 54,
+        "body-outline": 64,
+        "coat-details": 18,
+        "shirt": 96,
+        "lapels": 74,
+        "shoe-details": 30,
+        "trouser-details": 6,
+        "hair": 278,
+        "face": 200,
+        "face-light": 76,
+        "face-shadow": 8,
+        "ears": 6,
+        "glasses": 68,
+        "eyes": 6,
+        "hair-fringe": 16,
+        "hat": 262,
+        "hat-band": 56,
+        "hat-brim": 72
+      },
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "north",
+      "file": "docs/reviews/M1-ON2/north-idle.png",
+      "sha256": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748",
+      "layersJson": "art/source/overnight-nugget-continuation-r1/north.layers.json",
+      "layersJsonSHA256": "d23d0ec438c5d00ead109a3d12428650cf606b504a6d2b53e6ba585cfeae6d4b",
+      "bbox": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "coat": 212,
+        "hands": 54,
+        "trousers": 68,
+        "shoes": 54,
+        "body-outline": 64,
+        "coat-details": 44,
+        "shoe-details": 30,
+        "trouser-details": 6,
+        "hair": 278,
+        "hair-light": 132,
+        "hair-shadow": 60,
+        "hat": 262,
+        "hat-band": 56,
+        "hat-brim": 72
+      },
+      "contactXs": [
+        9,
+        10,
+        11,
+        12,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "west",
+      "file": "docs/reviews/M1-ON2/west-idle.png",
+      "sha256": "97007bbbdd17a018d89e7d8181eb6211357587e24b69b93dc57a3c1ba4152e50",
+      "layersJson": "art/source/overnight-nugget-continuation-r1/west.layers.json",
+      "layersJsonSHA256": "fccd84bd26f98d1b5a8c7b91a0c03802100e4b3e8be37544819b39a41e985423",
+      "bbox": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "trousers": 82,
+        "far-shoe": 18,
+        "near-shoe": 45,
+        "shoe-highlight": 3,
+        "coat": 179,
+        "shirt": 12,
+        "sleeve": 31,
+        "hand": 28,
+        "hand-light": 6,
+        "head": 266,
+        "face-light": 77,
+        "hair": 96,
+        "hair-light": 27,
+        "ear": 26,
+        "glasses": 27,
+        "eyes": 2,
+        "hat": 245,
+        "hat-light": 33,
+        "hat-band": 53,
+        "hat-brim": 72
+      },
+      "contactXs": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "character": "nugget",
+      "direction": "east",
+      "file": "docs/reviews/M1-ON2/east-idle.png",
+      "sha256": "97448f878310037459b49135d1d566af7d74fc7bff0ecf286df941de27a2fc2f",
+      "layersJson": "art/source/overnight-nugget-continuation-r1/east.layers.json",
+      "layersJsonSHA256": "12a5430ba8370a1cf75c1dd3cf68374d7126e8aa7d70491b5d958cd379662d55",
+      "bbox": [
+        2,
+        23,
+        30,
+        62
+      ],
+      "layerOccupiedCounts": {
+        "trousers": 82,
+        "far-shoe": 18,
+        "near-shoe": 45,
+        "shoe-highlight": 3,
+        "coat": 179,
+        "shirt": 12,
+        "sleeve": 31,
+        "hand": 28,
+        "hand-light": 6,
+        "head": 266,
+        "face-light": 77,
+        "hair": 96,
+        "hair-light": 27,
+        "ear": 26,
+        "glasses": 27,
+        "eyes": 2,
+        "hat": 245,
+        "hat-light": 33,
+        "hat-band": 53,
+        "hat-brim": 72
+      },
+      "contactXs": [
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    }
+  ],
+  "boards": [
+    {
+      "file": "docs/reviews/M1-OGH2/four-idle-board.png",
+      "sha256": "3150d999b3ef562a6edf74ec66f23e7dd7980754366648c319155327751c2ab2"
+    },
+    {
+      "file": "docs/reviews/M1-OM2/idle-comparison.png",
+      "sha256": "fca77663ac685f4fa1a6164ccd72b68c4f2562b40316a293d490f636e2a84beb"
+    },
+    {
+      "file": "docs/reviews/M1-ON2/four-idle-board.png",
+      "sha256": "2d9ce5528dc7a1624c876c208f67864c6a40b82c10e9707f010ba8d44e6b9459"
+    }
+  ],
+  "references": [
+    {
+      "name": "Brendan",
+      "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+      "sha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1"
+    },
+    {
+      "name": "Man1",
+      "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+      "sha256": "cd71f4ec4dd2b634cf48d79020be960127434fcfcc56ed536f4e7084d6ffc57c"
+    },
+    {
+      "name": "May",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "7f185cda9854f7812545c306795b454dc750be440e582974518ba8a63c9b7e87"
+    },
+    {
+      "name": "Mom",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "a404a3c79252a6a13e10622307c3bce4c76c1e1a39814b7c7a11ad7520442289"
+    },
+    {
+      "name": "Birch",
+      "revision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "sha256": "6618f1249880bd3672c453512351f63b173cb655fb136ceea84fdb2c9cd76c15"
+    }
+  ],
+  "appearanceAccepted": false,
+  "walkingAuthorized": false
+}

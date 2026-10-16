@@ -1,0 +1,17 @@
+{
+  "task": "M1.ON2",
+  "copiedFromCheckpoint": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-continuation-checkpoint/manifest.json",
+  "character": "nugget",
+  "sourceReadOnly": "art/source/overnight-nugget-r1",
+  "reviewReadOnly": "docs/reviews/M1-ON1",
+  "exclusiveWritable": [
+    "art/source/overnight-nugget-continuation-r1",
+    "docs/reviews/M1-ON2"
+  ],
+  "state": "Fresh-session continuation; copied files still contain historical builder paths; adapt all output paths before any rebuild",
+  "oldOwnerAccess": "Old sessions remain assigned only original folders; do not write original paths",
+  "appearanceAccepted": false,
+  "walksAuthorized": false,
+  "creatorOrDeploymentAuthorized": false,
+  "createdAt": "2026-10-16T16:44:21.494313+00:00"
+}

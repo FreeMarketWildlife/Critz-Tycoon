@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "count": 16,
+  "checks": [
+    "south binary alpha/frame/row61 contact",
+    "south sparse layers exactly recompose",
+    "south palette bounded",
+    "north binary alpha/frame/row61 contact",
+    "north sparse layers exactly recompose",
+    "north palette bounded",
+    "west binary alpha/frame/row61 contact",
+    "west sparse layers exactly recompose",
+    "west palette bounded",
+    "east binary alpha/frame/row61 contact",
+    "east sparse layers exactly recompose",
+    "east palette bounded",
+    "south bilateral alpha",
+    "north bilateral alpha",
+    "explicit east editable mirrored symmetric costume",
+    "front RD1 complete body alpha46+ exact"
+  ],
+  "appearanceApproval": false
+}

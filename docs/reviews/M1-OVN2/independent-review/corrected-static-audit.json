@@ -1,0 +1,510 @@
+{
+  "task": "M1.OVN2 fresh continuation static audit",
+  "passed": 70,
+  "total": 70,
+  "checks": [
+    {
+      "name": "girl/south exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/south frame",
+      "pass": true
+    },
+    {
+      "name": "girl/south binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south connected alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/south contact61",
+      "pass": true
+    },
+    {
+      "name": "girl/south full front shoe alpha58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "girl/north exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/north frame",
+      "pass": true
+    },
+    {
+      "name": "girl/north binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north connected alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/north contact61",
+      "pass": true
+    },
+    {
+      "name": "girl/north full front shoe alpha58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "girl/west exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/west frame",
+      "pass": true
+    },
+    {
+      "name": "girl/west binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west connected alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/west contact61",
+      "pass": true
+    },
+    {
+      "name": "girl/east exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "girl/east frame",
+      "pass": true
+    },
+    {
+      "name": "girl/east binary alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east connected alpha",
+      "pass": true
+    },
+    {
+      "name": "girl/east contact61",
+      "pass": true
+    },
+    {
+      "name": "mom/south exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "mom/south frame",
+      "pass": true
+    },
+    {
+      "name": "mom/south binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/south connected alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/south contact61",
+      "pass": true
+    },
+    {
+      "name": "mom/south full front shoe alpha58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "mom/south front shoe RGBA58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "mom/north exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "mom/north frame",
+      "pass": true
+    },
+    {
+      "name": "mom/north binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/north connected alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/north contact61",
+      "pass": true
+    },
+    {
+      "name": "mom/north full front shoe alpha58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "mom/north front shoe RGBA58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "mom/west exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "mom/west frame",
+      "pass": true
+    },
+    {
+      "name": "mom/west binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/west connected alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/west contact61",
+      "pass": true
+    },
+    {
+      "name": "mom/east exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "mom/east frame",
+      "pass": true
+    },
+    {
+      "name": "mom/east binary alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/east connected alpha",
+      "pass": true
+    },
+    {
+      "name": "mom/east contact61",
+      "pass": true
+    },
+    {
+      "name": "nugget/south exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/south frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/south binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/south connected alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/south contact61",
+      "pass": true
+    },
+    {
+      "name": "nugget/south full front shoe alpha58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "nugget/south front shoe RGBA58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "nugget/north exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/north frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/north binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/north connected alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/north contact61",
+      "pass": true
+    },
+    {
+      "name": "nugget/north full front shoe alpha58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "nugget/north front shoe RGBA58+ v0 exact",
+      "pass": true
+    },
+    {
+      "name": "nugget/west exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/west frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/west binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/west connected alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/west contact61",
+      "pass": true
+    },
+    {
+      "name": "nugget/east exact saved-layer recompose",
+      "pass": true
+    },
+    {
+      "name": "nugget/east frame",
+      "pass": true
+    },
+    {
+      "name": "nugget/east binary alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/east connected alpha",
+      "pass": true
+    },
+    {
+      "name": "nugget/east contact61",
+      "pass": true
+    }
+  ],
+  "characters": [
+    {
+      "character": "girl",
+      "poses": [
+        {
+          "direction": "south",
+          "file": "docs/reviews/M1-OGH2/south/idle.png",
+          "sha256": "a017d033644d36f3c5778403658ff6086521e2cb7d44754ab43e4fe653fe40be",
+          "bbox": [
+            3,
+            21,
+            29,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            18,
+            16,
+            12,
+            8
+          ]
+        },
+        {
+          "direction": "north",
+          "file": "docs/reviews/M1-OGH2/north/idle.png",
+          "sha256": "67dd57531738860aa23a902d19b3313b28984fc0a6e135dd78dc31e361064a7d",
+          "bbox": [
+            3,
+            21,
+            29,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            18,
+            16,
+            12,
+            8
+          ]
+        },
+        {
+          "direction": "west",
+          "file": "docs/reviews/M1-OGH2/west/idle.png",
+          "sha256": "7a2b7ef1a3ba31719f15cf8ed29e8f2b3a82ea0d1b032cee6f2da792085d2c0f",
+          "bbox": [
+            5,
+            21,
+            31,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            12,
+            14,
+            13,
+            10
+          ]
+        },
+        {
+          "direction": "east",
+          "file": "docs/reviews/M1-OGH2/east/idle.png",
+          "sha256": "1bb6f1ba81eabe360cfafefc3e9ecc1b72d3b81b9a1d828facec86240e1e5ab8",
+          "bbox": [
+            1,
+            21,
+            27,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            12,
+            14,
+            13,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "character": "mom",
+      "poses": [
+        {
+          "direction": "south",
+          "file": "docs/reviews/M1-OM2/idle-south.png",
+          "sha256": "68be2c945bb1e1368e7c222f5b81f48b87822a921d3181c04dfa8ef95160496c",
+          "bbox": [
+            3,
+            19,
+            29,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            18,
+            16,
+            12,
+            8
+          ]
+        },
+        {
+          "direction": "north",
+          "file": "docs/reviews/M1-OM2/idle-north.png",
+          "sha256": "aa6715f4cb7185edc7c73d8247a87e89eb43861a133cf8fded94bd9248a92df3",
+          "bbox": [
+            3,
+            19,
+            29,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            18,
+            16,
+            12,
+            8
+          ]
+        },
+        {
+          "direction": "west",
+          "file": "docs/reviews/M1-OM2/idle-west.png",
+          "sha256": "2829df6ac17b4cded39737c36d86dadc36e0bc20ca31bb47282d753b76622b31",
+          "bbox": [
+            4,
+            20,
+            28,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            11,
+            11,
+            10,
+            6
+          ]
+        },
+        {
+          "direction": "east",
+          "file": "docs/reviews/M1-OM2/idle-east.png",
+          "sha256": "ee2a50c7edd925bb72083e46c3a0f49ae33dca487d0bc734730eaa21b2cf9b9d",
+          "bbox": [
+            4,
+            20,
+            28,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            11,
+            11,
+            10,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "character": "nugget",
+      "poses": [
+        {
+          "direction": "south",
+          "file": "docs/reviews/M1-ON2/south-idle.png",
+          "sha256": "a31613892984f3594295ee9c61f1ca4e841d4d4142c2307a868408b856ab9c6b",
+          "bbox": [
+            2,
+            23,
+            30,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            18,
+            16,
+            12,
+            8
+          ]
+        },
+        {
+          "direction": "north",
+          "file": "docs/reviews/M1-ON2/north-idle.png",
+          "sha256": "d5aacb836b961cbb44f80c4cd850bb5b5abae6cd104f4cf1993289df39418748",
+          "bbox": [
+            2,
+            23,
+            30,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            18,
+            16,
+            12,
+            8
+          ]
+        },
+        {
+          "direction": "west",
+          "file": "docs/reviews/M1-ON2/west-idle.png",
+          "sha256": "97007bbbdd17a018d89e7d8181eb6211357587e24b69b93dc57a3c1ba4152e50",
+          "bbox": [
+            2,
+            23,
+            30,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            11,
+            13,
+            13,
+            9
+          ]
+        },
+        {
+          "direction": "east",
+          "file": "docs/reviews/M1-ON2/east-idle.png",
+          "sha256": "97448f878310037459b49135d1d566af7d74fc7bff0ecf286df941de27a2fc2f",
+          "bbox": [
+            2,
+            23,
+            30,
+            62
+          ],
+          "lowerAlphaWidths58to61": [
+            11,
+            13,
+            13,
+            9
+          ]
+        }
+      ]
+    }
+  ],
+  "visualReview": "Actual all-three corrected boards/native/grid inspected. Girl near puff now distinct rounded volume; shorter sole accents avoid v0 rail. Mom tapered shoes/full near hand improved; small forward rose far-sleeve remains ambiguous. Nugget compact shoes and framed smaller lens improve side read. No walking or user appearance approval inferred.",
+  "referenceCaveat": "Original NWE inference, primary family comparisons are occupancy/projection evidence rather than hidden anatomy or shoe quotas."
+}

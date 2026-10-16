@@ -1,0 +1,82 @@
+{
+  "state": "Three existing private identities updated to v1; frozen corrected candidates, appearance unapproved",
+  "files": [
+    {
+      "character": "Girl Hero",
+      "source": "docs/reviews/M1-OGH2/four-idle-board.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-parent-packet/OVN1-Girl-Hero-four-idle-review.png",
+      "sha256": "3150d999b3ef562a6edf74ec66f23e7dd7980754366648c319155327751c2ab2",
+      "library_file_id": "libfile_6d9c31928674819189fb832779faa4a5",
+      "expected_current_version": 0,
+      "previousSHA256": "67e9e1b74de6917424ddc4dcf2c362b0473eadf62c849d4c3c407a7172eadb33",
+      "version": 1,
+      "file_id": "file_00000000727481f5993ff7fe2f9ddc74",
+      "file_name": "OVN1-Girl-Hero-four-idle-review.png",
+      "dimensions": [
+        760,
+        430
+      ],
+      "exactDownloadBytes": true,
+      "exactRGBA": true,
+      "identityMetadataVerified": true,
+      "link": "https://chatgpt.com/api/library/files/libfile_6d9c31928674819189fb832779faa4a5/download",
+      "downloadSHA256": "3150d999b3ef562a6edf74ec66f23e7dd7980754366648c319155327751c2ab2"
+    },
+    {
+      "character": "Mom",
+      "source": "docs/reviews/M1-OM2/idle-comparison.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-parent-packet/OVN1-Mom-four-idle-review.png",
+      "sha256": "fca77663ac685f4fa1a6164ccd72b68c4f2562b40316a293d490f636e2a84beb",
+      "library_file_id": "libfile_94bd005ac8248191afd92226244fb62a",
+      "expected_current_version": 0,
+      "previousSHA256": "95a604daf8fd8ec43ca73d2dc29e7f4c7a7a6cc33c42c4ec4166c5a210d55e19",
+      "version": 1,
+      "file_id": "file_00000000556081fd8a19c1e1f87a9ff0",
+      "file_name": "OVN1-Mom-four-idle-review.png",
+      "dimensions": [
+        1030,
+        670
+      ],
+      "exactDownloadBytes": true,
+      "exactRGBA": true,
+      "identityMetadataVerified": true,
+      "link": "https://chatgpt.com/api/library/files/libfile_94bd005ac8248191afd92226244fb62a/download",
+      "downloadSHA256": "fca77663ac685f4fa1a6164ccd72b68c4f2562b40316a293d490f636e2a84beb"
+    },
+    {
+      "character": "Professor Nugget",
+      "source": "docs/reviews/M1-ON2/four-idle-board.png",
+      "snapshot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/overnight-parent-packet/OVN1-Professor-Nugget-four-idle-review.png",
+      "sha256": "2d9ce5528dc7a1624c876c208f67864c6a40b82c10e9707f010ba8d44e6b9459",
+      "library_file_id": "libfile_fcfc5b6a8c4881918537f487db21360e",
+      "expected_current_version": 0,
+      "previousSHA256": "d535bcfda732862cb180ac4c6fe0924e0100817ed72ed4096ef4754d14656715",
+      "version": 1,
+      "file_id": "file_0000000018c481fda0fc742ab1857489",
+      "file_name": "OVN1-Professor-Nugget-four-idle-review.png",
+      "dimensions": [
+        780,
+        430
+      ],
+      "exactDownloadBytes": true,
+      "exactRGBA": true,
+      "identityMetadataVerified": true,
+      "link": "https://chatgpt.com/api/library/files/libfile_fcfc5b6a8c4881918537f487db21360e/download",
+      "downloadSHA256": "2d9ce5528dc7a1624c876c208f67864c6a40b82c10e9707f010ba8d44e6b9459"
+    }
+  ],
+  "deliveredAt": "2026-10-16T16:50:26.557695+00:00",
+  "newLibraryIdentities": 0,
+  "rootChecks": 70,
+  "independentQAChecks": 223,
+  "oldCheckpointFilesPreserved": 528,
+  "sourceCommit": "Recorded by final Git checkpoint; current source starts from967a6ad",
+  "next": "Actual parent private four-idle judgment before any walking authorization",
+  "runtimeOrDeploymentChanged": false,
+  "limitations": [
+    "RD1 body and internal parts provisional; fan frame2 is passing, not observed idle",
+    "NWE shape/projection original proposals informed by primary reference strips",
+    "Girl profile full shoe can still read long; final turn/charm requires parent/user judgment",
+    "No new walk, animation, creator or gameplay adoption"
+  ]
+}

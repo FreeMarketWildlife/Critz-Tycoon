@@ -1,3 +1,11 @@
+## Awaiting parent review M1.OVN2 — corrected existing-cast idles
+
+Fresh exclusive-folder continuations OGH2/OM2/ON2 plus OVQ2 have completed the bounded four-idle correction/verification checkpoint. [Private same-identity v1 boards and exact receipt](reviews/M1-OVN2/private-parent-review/README.md) are ready for actual parent inspection. Preserve all old candidates/approval cards; no duplicate writers. Root70 and independent223 saved checks pass; user appearance acceptance is not inferred. Next: parent judges the four-facing construction before any walk authorization. Creator, runtime/save adoption and deployment remain stopped.
+
+## Active M1.OVN1 — isolated overnight cast studies
+
+User-authorized parallel task chats: Girl Hero(M1.OGH1), Mom(M1.OM1), Professor Nugget(M1.ON1), independent visual QA(M1.OVQ1). Each owns isolated new source/review paths; no shared generator/runtime changes. Root owns the review loop, source/reference checks and eventual scoped Git coordination. Complete and visually review four idle facings first; only then authorize walks for a coherent candidate. RD1 segmentation remains provisional pending Phil's labels. No automatic art deployment or creator restart. BRC1 mobile editor is independently complete/livev61.
+
 ## Active M1.RD1 — source-posed front dummy, exact visible body
 
 ## Complete M1.BRC1 — public correction editor

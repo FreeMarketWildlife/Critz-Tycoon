@@ -1,0 +1,39 @@
+{
+  "task": "M1.OVN2",
+  "state": "Frozen corrected four-idle private review, user appearance pending",
+  "model": "gpt-6.1-sol",
+  "reasoning": "medium",
+  "owners": {
+    "Girl Hero": {
+      "task": "M1.OGH2",
+      "thread": "01a1459a-4d7e-7360-8194-718adea9a11c",
+      "source": "art/source/overnight-girl-continuation-r1",
+      "review": "docs/reviews/M1-OGH2"
+    },
+    "Mom": {
+      "task": "M1.OM2",
+      "thread": "01a1459a-5a5f-7653-95f8-e96c6966f50a",
+      "source": "art/source/overnight-mom-continuation-r1",
+      "review": "docs/reviews/M1-OM2"
+    },
+    "Professor Nugget": {
+      "task": "M1.ON2",
+      "thread": "01a1459a-6757-7db2-8e1b-e88e8c9fa5d2",
+      "source": "art/source/overnight-nugget-continuation-r1",
+      "review": "docs/reviews/M1-ON2"
+    },
+    "Independent QA": {
+      "task": "M1.OVQ2",
+      "thread": "01a1459a-e68f-7573-a8e9-f4c6000f5e7a",
+      "review": "docs/reviews/M1-OVQ2"
+    }
+  },
+  "oldSessions": "Untouched pending approvals; assigned only original folders; no concurrent writers in new continuation folders",
+  "originalCheckpointFilesPreserved": 528,
+  "freshNativeMessages": "Startup/progress messages delivered in all four fresh chats; old sessions not restarted",
+  "settings": "Only separately user-approved single messaging override; no additional policy change during continuation",
+  "rootCheckCount": 70,
+  "independentCheckCount": 223,
+  "walksAuthorized": false,
+  "creatorOrDeploymentChanged": false
+}

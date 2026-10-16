@@ -1,0 +1,125 @@
+{
+  "task": "M1.OGH1",
+  "state": "four idle candidates awaiting root visual review",
+  "appearanceApproval": false,
+  "canvas": [
+    32,
+    64
+  ],
+  "frameEdgeAnchor": [
+    16,
+    64
+  ],
+  "directions": {
+    "south": {
+      "bounds": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "opaqueCells": 845,
+      "paletteColors": 15,
+      "layers": [
+        "shirt",
+        "exposed-arms-hands",
+        "shorts",
+        "shoes",
+        "face",
+        "ears",
+        "hair",
+        "ties",
+        "eyes"
+      ],
+      "pngSHA256": "b11e66b0766aa16a56b541aacc494be2dafcbdc31dbb4a2f315dfbec3e524fd9"
+    },
+    "north": {
+      "bounds": [
+        3,
+        21,
+        29,
+        62
+      ],
+      "opaqueCells": 845,
+      "paletteColors": 14,
+      "layers": [
+        "shirt",
+        "exposed-arms-hands",
+        "shorts",
+        "shoes",
+        "face",
+        "ears",
+        "hair",
+        "ties",
+        "eyes"
+      ],
+      "pngSHA256": "9e478cbe0241f640ae5b90fe424807ff7d0823631dd147b2c95fcbdd4e77304f"
+    },
+    "west": {
+      "bounds": [
+        5,
+        21,
+        28,
+        62
+      ],
+      "opaqueCells": 668,
+      "paletteColors": 14,
+      "layers": [
+        "far-arm",
+        "far-shoe",
+        "shirt",
+        "shorts",
+        "shoes",
+        "exposed-arms-hands",
+        "face",
+        "ears",
+        "hair",
+        "ties",
+        "eyes"
+      ],
+      "pngSHA256": "86370489490d1864932eace645305dbbe1e1a7d107a02c1437581da7b77c30b7"
+    },
+    "east": {
+      "bounds": [
+        4,
+        21,
+        27,
+        62
+      ],
+      "opaqueCells": 668,
+      "paletteColors": 14,
+      "layers": [
+        "far-arm",
+        "far-shoe",
+        "shirt",
+        "shorts",
+        "shoes",
+        "exposed-arms-hands",
+        "face",
+        "ears",
+        "hair",
+        "ties",
+        "eyes"
+      ],
+      "pngSHA256": "f0379de50e5de7ce58309d392f294ad8dbcd4c11e2f0be6a66bfa6c9d35b10e0"
+    }
+  },
+  "sources": {
+    "docs/reviews/M1-C4/revision-11/girl-hero-concept.png": "3e2387f74366daebda78ad39472148989f7ff0791ecb35d52b6691324c4abeea",
+    "docs/reviews/M1-C4/revision-11/user-girl-design-reference.png": "fdb32bf9b4bf8284000bde99694ab11af6f9cd48345e49ef6502774e7a23ee4a",
+    "docs/reviews/M1-GH1/head-layer.png": "8ad5a5df5b6a17e621aba39288e5532278991f33ae1ea2c1f2c3de9b6524ca27",
+    "art/source/reference-dummy-r1/construction.json": "c3d533779ab8a07918478939cfcf70cfa413631d1342ddffd8e3d39b76267291"
+  },
+  "referenceRevision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+  "referenceInspection": "Actual local primary Brendan/Man1 native and integer sixfold strips; not emulator observation. Fan GIF front only. No reference pixels in candidate.",
+  "proposals": [
+    "RD1 source-posed passing envelope adapted as still candidate, not observed idle",
+    "RD1 internal part segmentation not accepted",
+    "North rear hair and clothing material, West/East geometry and puff occlusion are original inferred proposals",
+    "East profile mirrors symmetric clothing/ear/face and proposed profile hair; not proof of asymmetric physical hair arrangement",
+    "Hidden skull, joints and garment boundaries are not source-recovered anatomy"
+  ],
+  "pack": null,
+  "noMouthNose": true,
+  "runtimeChanged": false
+}

@@ -1,0 +1,27 @@
+{
+  "task": "M1.ON2",
+  "state": "awaiting root and parent visual judgment",
+  "actualViews": [
+    "four-idle-native.png at native128x64",
+    "four-idle-board.png native thumbnails and nearest4x",
+    "four-idle-dark-4x.png",
+    "four-idle-grid.png nearest5x including64 boundary",
+    "idle-correction-evidence.png",
+    "local-review/overnight-cast-qa/primary-idles-native-6x.png"
+  ],
+  "judgment": "No concrete unresolved construction defect warrants redrawing current corrected v1. Compact side footwear and lens retained; connected hand/sleeve and distinct coat ownership visible. Small side eye remains subtle at native; parent judgment pending. Front full shoes unchanged.",
+  "artPixelsChanged": false,
+  "presentationChanges": [
+    "ON2 board label",
+    "explicit64 top grid boundary"
+  ],
+  "appearanceApproval": false,
+  "walksAuthorized": false,
+  "boardSHA256": "2d9ce5528dc7a1624c876c208f67864c6a40b82c10e9707f010ba8d44e6b9459",
+  "atlasSHA256": "176af67b5e094563a81423f03fd9f8e9a8fcaba0291333a6d7552c5cccc6be38",
+  "branch": "main",
+  "observedHEAD": "967a6ad5aa6820cf268b47fc1deae47005600638",
+  "gitActions": false,
+  "deploymentActions": false,
+  "next": "Root independent source and visual review, private parent delivery, then explicit response before any walk extension."
+}

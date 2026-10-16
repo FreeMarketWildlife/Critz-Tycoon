@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Overnight existing-cast candidates — M1.OVN1
+
+Latest user authorization expands isolated candidate work to Girl Hero and existing NPCs Mom and Professor Nugget in separate Codex task chats, with independent visual/reference QA. This supersedes historical single-character/roster holds only for these candidate studies; creator/runtime adoption and automatic art deployment remain stopped. RD1's visible reference-derived32×64 body proportions are the current construction scaffold, not an approved master or approved part segmentation. Phil is preparing manual body labels; preserve editable region ownership and record proposed hidden completions. Preserve established designs/canon and elevated head-over-torso projection, consistent full shoe envelope, readable side arms, native pixel coherence, face contour and torso-local pack attachment where present. Four idle facings must be actually inspected at native size/integer enlargement against appropriate pinned references before walking expansion. The supplied front fan GIF proves no side/back construction. Review/fix coherent candidates, not aimless variants. Parent/root private visual judgment and eventual user acceptance remain separate from technical checks.
+
 ## Body-region correction editor — M1.BRC1 public authorization
 
 Direct user approval on October 15, 2026 permits publication of the updated sprite editor, supplied Brendan reference and current RD1 dummy on the existing public Critz Tycoon website. The approved registered source/labels are bundled unchanged in `sprite-editor/assets/body-regions-seed.json`; this supersedes prior external-only reference restrictions for that exact editor payload. Existing RD1 art/registration and character-relative side definitions remain authoritative. No new artwork, geometry or creator/runtime appearance approval is inferred. Private review screenshots remain excluded.

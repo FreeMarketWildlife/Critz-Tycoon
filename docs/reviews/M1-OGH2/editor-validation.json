@@ -1,0 +1,15 @@
+{
+  "task": "M1.OGH2",
+  "pass": true,
+  "count": 8,
+  "files": [
+    "east.flat-construction.sprite.json",
+    "east.sprite.json",
+    "north.flat-construction.sprite.json",
+    "north.sprite.json",
+    "south.flat-construction.sprite.json",
+    "south.sprite.json",
+    "west.flat-construction.sprite.json",
+    "west.sprite.json"
+  ]
+}

@@ -1,0 +1,470 @@
+{
+  "task": "M1.OM1",
+  "revision": "bounded-idle-correction-r1",
+  "state": "frozen for root audit; unapproved",
+  "artChangedThisRecheck": false,
+  "actualViewing": [
+    "corrected West6x PNG reopened",
+    "actual primary Mom West2/side7/8 palette-colored external inspection reopened",
+    "corrected native128x64 lineup reopened"
+  ],
+  "ownVerdict": "Improved bounded idle candidate ready for root audit, not user appearance acceptance or walking authorization.",
+  "nearSleeve": {
+    "westEnvelope": [
+      20,
+      44,
+      26,
+      50
+    ],
+    "handEnvelope": [
+      20,
+      49,
+      26,
+      55
+    ],
+    "handWarmCells": 16,
+    "handWarmBounds": [
+      21,
+      50,
+      25,
+      54
+    ],
+    "observation": "Near sleeve descends on rear/profile-right side into full rounded palm beside hip. Palm projects beyond torso; no internal shirt patch."
+  },
+  "forwardCluster": {
+    "observation": "Small front/profile-left rose sliver is the mostly occluded far sleeve. Cream immediately behind it is torso front. Source Mom West2 does not expose a second complete far hand; OM1 likewise does not claim one. This far-sleeve interpretation is original, not traced source anatomy. The sliver remains the least certain visual ownership cue at native size; root may ask for its complete occlusion or simplification.",
+    "actualVisibleOwnerCells": [
+      {
+        "cell": [
+          12,
+          44
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          13,
+          44
+        ],
+        "owner": "torso",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          14,
+          44
+        ],
+        "owner": "torso",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          15,
+          44
+        ],
+        "owner": "torso",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          10,
+          45
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          11,
+          45
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          12,
+          45
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          13,
+          45
+        ],
+        "owner": "torso",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          14,
+          45
+        ],
+        "owner": "torso",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          15,
+          45
+        ],
+        "owner": "torso",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          9,
+          46
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          10,
+          46
+        ],
+        "owner": "far-arm",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          11,
+          46
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          12,
+          46
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          13,
+          46
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          14,
+          46
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          15,
+          46
+        ],
+        "owner": "torso",
+        "color": "#87465e"
+      },
+      {
+        "cell": [
+          9,
+          47
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          10,
+          47
+        ],
+        "owner": "far-arm",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          11,
+          47
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          12,
+          47
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          13,
+          47
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          14,
+          47
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          15,
+          47
+        ],
+        "owner": "torso",
+        "color": "#87465e"
+      },
+      {
+        "cell": [
+          9,
+          48
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          10,
+          48
+        ],
+        "owner": "far-arm",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          11,
+          48
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          12,
+          48
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          13,
+          48
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          14,
+          48
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          15,
+          48
+        ],
+        "owner": "torso",
+        "color": "#87465e"
+      },
+      {
+        "cell": [
+          9,
+          49
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          10,
+          49
+        ],
+        "owner": "far-arm",
+        "color": "#784820"
+      },
+      {
+        "cell": [
+          11,
+          49
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          12,
+          49
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          13,
+          49
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          14,
+          49
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          15,
+          49
+        ],
+        "owner": "torso",
+        "color": "#87465e"
+      },
+      {
+        "cell": [
+          10,
+          50
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          11,
+          50
+        ],
+        "owner": "far-arm",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          12,
+          50
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          13,
+          50
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          14,
+          50
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          15,
+          50
+        ],
+        "owner": "torso",
+        "color": "#87465e"
+      },
+      {
+        "cell": [
+          12,
+          51
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          13,
+          51
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          14,
+          51
+        ],
+        "owner": "torso",
+        "color": "#f7edcc"
+      },
+      {
+        "cell": [
+          15,
+          51
+        ],
+        "owner": "torso",
+        "color": "#87465e"
+      },
+      {
+        "cell": [
+          13,
+          52
+        ],
+        "owner": "torso",
+        "color": "#201008"
+      },
+      {
+        "cell": [
+          14,
+          52
+        ],
+        "owner": "torso",
+        "color": "#ba7082"
+      },
+      {
+        "cell": [
+          15,
+          52
+        ],
+        "owner": "torso",
+        "color": "#87465e"
+      }
+    ]
+  },
+  "shoe": {
+    "westWidths58to61": [
+      11,
+      11,
+      10,
+      6
+    ],
+    "westContactRow61": [
+      13,
+      19
+    ],
+    "frontShoes": "all front58+RGBA unchanged from v0 and alpha identical to RD1",
+    "observation": "Toe/heel taper and short material accents remove v0 full-depth platform. Far foot remains occluded; no fabricated split."
+  },
+  "referenceLimit": "Primary Mom skirt/garment differs from original Critz trousers; overlap/occupancy is evidence, hidden body segmentation remains inferred.",
+  "remainingConcreteConcern": "Forward rose sliver can still read as a small extra front sleeve at native size; ownership is documented for root judgment rather than declaring perfect anatomy.",
+  "checks": {
+    "passed": 80,
+    "visibleOwnership": "last opaque layer; same-color occlusion handled"
+  },
+  "next": "Root audit and bounded feedback on the frozen four idle set. No walks or Git until coordinated.",
+  "publication": "not attempted; no index/commit/push/deploy or shared files touched",
+  "boardSHA256": "36e014691ab3846d8c34c9ae7f54cf89c23749242b20aea713e997b82ac573d6"
+}

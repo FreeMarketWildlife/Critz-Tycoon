@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "checks": [
+    "south native32x64/binary alpha",
+    "south bottom two padding rows",
+    "south actual saved semantic layers exactly recompose PNG",
+    "south opaque silhouette orthogonally connected",
+    "north native32x64/binary alpha",
+    "north bottom two padding rows",
+    "north actual saved semantic layers exactly recompose PNG",
+    "north opaque silhouette orthogonally connected",
+    "west native32x64/binary alpha",
+    "west bottom two padding rows",
+    "west actual saved semantic layers exactly recompose PNG",
+    "west opaque silhouette orthogonally connected",
+    "east native32x64/binary alpha",
+    "east bottom two padding rows",
+    "east actual saved semantic layers exactly recompose PNG",
+    "east opaque silhouette orthogonally connected",
+    "South identity head exact historical GH1",
+    "South RD1 envelope exact45plus",
+    "North has no eye feature pixels",
+    "all four saved PNGs distinct"
+  ],
+  "count": 20,
+  "appearanceApproval": false
+}
