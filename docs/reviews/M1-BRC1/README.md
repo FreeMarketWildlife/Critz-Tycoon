@@ -1,6 +1,6 @@
 # M1.BRC1 — body-region correction editor
 
-Implementation and local verification are complete. Public editor publication is in progress under direct user authorization; hosted route: https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=body-regions.
+Implementation and local verification are complete. Published as version 61 under direct user authorization; hosted route: https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=body-regions.
 
 The mode reuses the sprite editor shell and supports pixel labels, stroke undo/redo, isolated autosave, source-bound correction import/export, clipboard fallback, layer visibility/opacity and integer zoom. Initial composition is dummy 100%, reference 40%, labels 60%, in that render order. Artwork, source pixels and game saves are unchanged.
 
@@ -8,4 +8,4 @@ Evidence: 32 focused writer tests; 24 independent Chromium/WebKit browser scenar
 
 Reports are in `independent-review/`. Private browser screenshots remain ignored under `local-review/`. The user directly approved publishing the updated editor, supplied Brendan reference and current dummy on the existing public Critz Tycoon site on October 15, 2026; this supersedes the earlier local-only publication hold. The approved preload is copied byte-for-byte to `sprite-editor/assets/body-regions-seed.json`.
 
-Git base: `eafb945d0e5f4c8f77681cdc4a57bbc4c84b33c4`. Only BRC1 source, tests, approved seed and scoped documentation are included. The deployment will overlay this editor onto the current live version 60 source `bc9f9a54694d67671b60a12fddf05f6b7150699c`, preserving that game's runtime, assets and saves. Creator and gameplay artwork remain paused. Publication receipt follows after deployment verification.
+Git base: `eafb945d0e5f4c8f77681cdc4a57bbc4c84b33c4`. Only BRC1 source, tests, approved seed and scoped documentation are included. The deployment overlays this editor onto the prior live version 60 source `bc9f9a54694d67671b60a12fddf05f6b7150699c`, preserving that game's runtime, assets and saves. Creator and gameplay artwork remain paused. [Verified publication receipt](publication.json): Sites source `8029a7eb59d4a31b6843949c08039ebf67105a1c`, successful deployment `appgdep_6ad19c1a9d248191bbe2f9efb1f25b8d`. All 5,881 preexisting non-editor archive files are byte-identical, with none missing. Hosted isolated WebKit 390/430 checks return HTTP 200 without sign-in, exact seed/default layers, real touch paint/undo, full 2,048-label copy fallback and zero page errors. Writer inspected both hosted phone/fallback screenshots; no physical-phone claim. GitHub implementation source is `e74da99b57acd05179e7cbaad0fc69deae21e257`; receipt follow-up is documentation only.

@@ -1,0 +1,43 @@
+{
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=body-regions",
+  "report": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "http": 200,
+      "seedExact": true,
+      "initialLayersExact": true,
+      "integerZoom": true,
+      "noOverflow": true,
+      "touchPaintUndo": true,
+      "copyFallback": {
+        "allSelected": true,
+        "labels": 2048,
+        "chars": 5655
+      },
+      "pageErrors": [],
+      "physicalPhone": false
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "http": 200,
+      "seedExact": true,
+      "initialLayersExact": true,
+      "integerZoom": true,
+      "noOverflow": true,
+      "touchPaintUndo": true,
+      "copyFallback": {
+        "allSelected": true,
+        "labels": 2048,
+        "chars": 5655
+      },
+      "pageErrors": [],
+      "physicalPhone": false
+    }
+  ]
+}

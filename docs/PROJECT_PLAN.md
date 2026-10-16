@@ -1,8 +1,8 @@
 ## Active M1.RD1 — source-posed front dummy, exact visible body
 
-## Active M1.BRC1 — publish the approved correction editor
+## Complete M1.BRC1 — public correction editor
 
-Direct user approval authorizes the existing public website to serve the updated sprite editor with its supplied Brendan reference and current RD1 dummy. Package only the editor/assets over the current live build, verify source-bound correction copy/import and phone-size rendering, then return the public `/sprite-editor/?mode=body-regions` route. This does not reopen creator implementation or approve gameplay sprite appearance.
+The directly authorized editor and exact supplied-reference/RD1-dummy preload are published as version 61 at [the body-region tool](https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=body-regions), over the prior live baseline with all non-editor bytes preserved. Hosted phone-size touch/undo and full correction-copy checks pass. Next: user marks body regions and returns the source-bound correction JSON. This does not reopen creator implementation or approve gameplay sprite appearance. [Publication receipt](reviews/M1-BRC1/publication.json).
 
 Direct Phil instruction replaces NF1 geometry target with actual fan-GIF frame2 visible body. [Flat named-region dummy and exact source silhouette evidence](reviews/M1-RD1/README.md) are complete for one posed front, only rounded skull reconstructed; no garment-thickness subtraction. All338body cells45+/face/eyes/fullshoes registered, body-XOR0. Root actual native/enlarged overlay/regions and27independent checks find no concrete body-mask blocker, not appearance approval. Source frozen for selective owned commit/push and one private parent reference/dummy/overlay checkpoint. NF1/Hero/West/history preserved; no otherposes/16/animation/creator/runtime/deploy.
 

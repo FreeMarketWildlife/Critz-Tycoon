@@ -1,0 +1,72 @@
+{
+  "task": "M1.BRC1",
+  "scope": "Updated sprite editor and exact supplied-reference/current-dummy preload only",
+  "authorization": "Direct human approval in writer thread on October 15, 2026 for existing public Critz Tycoon website",
+  "githubSource": "e74da99b57acd05179e7cbaad0fc69deae21e257",
+  "sitesSource": "8029a7eb59d4a31b6843949c08039ebf67105a1c",
+  "sitesBase": "bc9f9a54694d67671b60a12fddf05f6b7150699c",
+  "version": 61,
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_5fea43e4fab481918d3fbe21ce79c882",
+  "deploymentId": "appgdep_6ad19c1a9d248191bbe2f9efb1f25b8d",
+  "deploymentStatus": "succeeded",
+  "deployedAt": "2026-10-16T03:38:29.241023+00:00",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=body-regions",
+  "publicAudiencePreserved": true,
+  "focusedTestsPassed": 33,
+  "productionBuildPassed": true,
+  "package": {
+    "baselineArchiveSHA256": "c8c8cb27f64f09d18947c8c29992577abc8efe59908a311e05267c097fa6bb46",
+    "candidateArchiveSHA256": "e035e1c249b9d61fa9957520e4df2413c4f1e4109879dbb222ab92f769141ea6",
+    "baselineFiles": 5897,
+    "candidateFiles": 5902,
+    "protectedBaselineFiles": 5881,
+    "changedProtectedFiles": [],
+    "added": [
+      "dist/docs/reviews/M1-BRC1/README.md",
+      "dist/sprite-editor/assets/body-regions-seed.json",
+      "dist/sprite-editor/body-regions-model.js",
+      "dist/sprite-editor/body-regions.js",
+      "dist/sprite-editor/boot.js"
+    ],
+    "missing": []
+  },
+  "backendCanonicalArchive": {
+    "hash": "sha256:93df1112376d76aa74bc336384a6ad83a6bd76f140e49810f3b48b5f408d7a16",
+    "sizeBytes": 259000320,
+    "fileCount": 5902
+  },
+  "writerLiveChrome": {
+    "ready": true,
+    "exportLabels": 2048,
+    "sourceIdentitiesCorrect": true,
+    "consoleErrors": 0
+  },
+  "independentHostedPhoneCheck": {
+    "report": "independent-review/hosted-smoke.json",
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        430,
+        932
+      ]
+    ],
+    "http200NoSignIn": true,
+    "seedExact": true,
+    "touchPaintUndo": true,
+    "copyFallbackLabels": 2048,
+    "copyFallbackSelectedChars": 5655,
+    "pageErrors": 0,
+    "physicalPhone": false
+  },
+  "creatorRemainsPaused": true,
+  "gameplayFilesChanged": false,
+  "limitations": [
+    "Emulated browsers do not prove physical-phone Safari behavior.",
+    "Generic unauthenticated urllib requests receive HTTP403; actual browser checks are used for hosted UI verification."
+  ],
+  "packagingRecovery": "Initial save rejected expanded archive containing AppleDouble metadata; no version saved. Supported helper rerun with COPYFILE_DISABLE=1; all existing non-editor baseline bytes preserved and clean archive saved as v61.",
+  "writerViewedHostedScreenshots": true
+}
