@@ -1,0 +1,33 @@
+{
+  "sourceCommit": "ef43a54f05d78ce448396415f799e7e664f217b4",
+  "artworkChanged": false,
+  "inputs": [
+    {
+      "source": "docs/reviews/M1-NCR1/south-idle/master-hero.png",
+      "sha256": "f959249734d6c588e433bb84f1de9435820b738235d568d15c8cbf8964fdb4ae",
+      "enlargement": 3,
+      "actualSize": [
+        32,
+        64
+      ]
+    },
+    {
+      "source": "docs/reviews/M1-NT1/south/neutral.png",
+      "sha256": "5959de03cd3208111bb496d747cdd127f68021e99c76f041ed65ddca7b2aa5dc",
+      "enlargement": 3,
+      "actualSize": [
+        32,
+        64
+      ]
+    },
+    {
+      "source": "docs/reviews/M1-NT1/west/neutral.png",
+      "sha256": "5a40dad6d12538613977445ace131ad9e29e9a4f5db3dfec75941946defbab87",
+      "enlargement": 3,
+      "actualSize": [
+        32,
+        64
+      ]
+    }
+  ]
+}
