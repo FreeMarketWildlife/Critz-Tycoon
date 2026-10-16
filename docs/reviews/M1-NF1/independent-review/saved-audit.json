@@ -1,0 +1,419 @@
+{
+  "task": "M1.NF1",
+  "pass": true,
+  "count": 31,
+  "checks": [
+    "frame32x64",
+    "binary alpha",
+    "exact RGBA reflected about x15.5",
+    "exact reflected alpha",
+    "full shoes58+ RGBA unchanged",
+    "head0..44 RGBA unchanged",
+    "Hero file exact frozen source",
+    "West file exact frozen source",
+    "one4connected alpha silhouette",
+    "no old pale shoulder cap color",
+    "four requested outer waist flare cells removed",
+    "torso exact reflected RGBA",
+    "torso exact reflected alpha",
+    "arms exact reflected RGBA",
+    "arms exact reflected alpha",
+    "pelvis exact reflected RGBA",
+    "pelvis exact reflected alpha",
+    "legs exact reflected RGBA",
+    "legs exact reflected alpha",
+    "hand-rim exact reflected RGBA",
+    "hand-rim exact reflected alpha",
+    "hands exact reflected RGBA",
+    "hands exact reflected alpha",
+    "shoes exact reflected RGBA",
+    "shoes exact reflected alpha",
+    "head exact reflected RGBA",
+    "head exact reflected alpha",
+    "outline exact reflected RGBA",
+    "outline exact reflected alpha",
+    "saved region layers exactly recompose corrected front",
+    "seventeen warm hand cells each"
+  ],
+  "axis": "between columns15 and16, reflection x\u219231\u2212x",
+  "beforeMismatchedPairs": 5,
+  "afterMismatchedPairs": 0,
+  "rgbaChangedCells": [
+    [
+      6,
+      45
+    ],
+    [
+      7,
+      45
+    ],
+    [
+      8,
+      45
+    ],
+    [
+      9,
+      45
+    ],
+    [
+      10,
+      45
+    ],
+    [
+      21,
+      45
+    ],
+    [
+      22,
+      45
+    ],
+    [
+      23,
+      45
+    ],
+    [
+      24,
+      45
+    ],
+    [
+      25,
+      45
+    ],
+    [
+      7,
+      46
+    ],
+    [
+      8,
+      46
+    ],
+    [
+      10,
+      46
+    ],
+    [
+      21,
+      46
+    ],
+    [
+      23,
+      46
+    ],
+    [
+      24,
+      46
+    ],
+    [
+      6,
+      47
+    ],
+    [
+      7,
+      47
+    ],
+    [
+      8,
+      47
+    ],
+    [
+      9,
+      47
+    ],
+    [
+      10,
+      47
+    ],
+    [
+      21,
+      47
+    ],
+    [
+      22,
+      47
+    ],
+    [
+      23,
+      47
+    ],
+    [
+      24,
+      47
+    ],
+    [
+      25,
+      47
+    ],
+    [
+      7,
+      48
+    ],
+    [
+      8,
+      48
+    ],
+    [
+      9,
+      48
+    ],
+    [
+      10,
+      48
+    ],
+    [
+      21,
+      48
+    ],
+    [
+      22,
+      48
+    ],
+    [
+      23,
+      48
+    ],
+    [
+      24,
+      48
+    ],
+    [
+      25,
+      48
+    ],
+    [
+      5,
+      49
+    ],
+    [
+      7,
+      49
+    ],
+    [
+      9,
+      49
+    ],
+    [
+      10,
+      49
+    ],
+    [
+      21,
+      49
+    ],
+    [
+      22,
+      49
+    ],
+    [
+      23,
+      49
+    ],
+    [
+      24,
+      49
+    ],
+    [
+      25,
+      49
+    ],
+    [
+      26,
+      49
+    ],
+    [
+      9,
+      52
+    ],
+    [
+      22,
+      52
+    ],
+    [
+      5,
+      53
+    ],
+    [
+      6,
+      53
+    ],
+    [
+      8,
+      53
+    ],
+    [
+      23,
+      53
+    ],
+    [
+      25,
+      53
+    ],
+    [
+      26,
+      53
+    ],
+    [
+      5,
+      54
+    ],
+    [
+      6,
+      54
+    ],
+    [
+      7,
+      54
+    ],
+    [
+      8,
+      54
+    ],
+    [
+      9,
+      54
+    ],
+    [
+      22,
+      54
+    ],
+    [
+      23,
+      54
+    ],
+    [
+      24,
+      54
+    ],
+    [
+      25,
+      54
+    ],
+    [
+      26,
+      54
+    ],
+    [
+      7,
+      55
+    ],
+    [
+      8,
+      55
+    ],
+    [
+      23,
+      55
+    ],
+    [
+      24,
+      55
+    ]
+  ],
+  "alphaChangedCells": [
+    [
+      6,
+      45
+    ],
+    [
+      7,
+      45
+    ],
+    [
+      8,
+      45
+    ],
+    [
+      9,
+      45
+    ],
+    [
+      22,
+      45
+    ],
+    [
+      23,
+      45
+    ],
+    [
+      24,
+      45
+    ],
+    [
+      25,
+      45
+    ],
+    [
+      7,
+      46
+    ],
+    [
+      8,
+      46
+    ],
+    [
+      23,
+      46
+    ],
+    [
+      24,
+      46
+    ],
+    [
+      6,
+      47
+    ],
+    [
+      25,
+      47
+    ],
+    [
+      8,
+      53
+    ],
+    [
+      23,
+      53
+    ],
+    [
+      5,
+      54
+    ],
+    [
+      6,
+      54
+    ],
+    [
+      7,
+      54
+    ],
+    [
+      8,
+      54
+    ],
+    [
+      23,
+      54
+    ],
+    [
+      24,
+      54
+    ],
+    [
+      25,
+      54
+    ],
+    [
+      26,
+      54
+    ],
+    [
+      7,
+      55
+    ],
+    [
+      24,
+      55
+    ]
+  ],
+  "sha256": "5958a184d1f9ee05a3f30392c40627a156752a3427a3d82c179d5d0acdb2294b",
+  "approval": false
+}

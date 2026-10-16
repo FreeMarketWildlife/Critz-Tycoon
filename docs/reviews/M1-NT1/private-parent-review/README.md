@@ -1,5 +1,7 @@
 # NT1 — private two-pose neutral construction
 
+**Superseded by Phil’s front-construction rejection.** NT1 front retained raised pale shoulder shapes, waist flare and five pairs of asymmetric arm colors despite symmetric alpha. Earlier scoped readiness was insufficient. Preserve these files as history; a separate front-only correction must remove those defects and establish exact reflected RGBA as well as alpha. West is preserved pending consistency review; creator/deployment remain stopped.
+
 Frozen source **`ef43a54f05d78ce448396415f799e7e664f217b4`**, independently verified on origin/main.
 
 **Internal parent judgment only.** No user-facing draft relay, appearance acceptance or extension is implied.

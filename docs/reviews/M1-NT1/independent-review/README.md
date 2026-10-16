@@ -1,5 +1,7 @@
 # M1.NT1 independent two-pose construction review
 
+**Superseded by Phil’s front-construction rejection.** NT1 front retained raised pale shoulder shapes, waist flare and five pairs of asymmetric arm colors despite symmetric alpha. Earlier scoped readiness was insufficient. Preserve these files as history; a separate front-only correction must remove those defects and establish exact reflected RGBA as well as alpha. West is preserved pending consistency review; creator/deployment remain stopped.
+
 Private internal candidate review; no M1/user appearance acceptance. Root actually inspected the complete two-pose comparison at true native32×64 and nearest3×, including silhouette columns, after the open-ear correction. No animation or browser/game claim applies to these two stills.
 
 The West ear now reads as an open curl alongside one eye rather than a second rectangular pupil. The connected arm and rounded warm hand end near the hip; the tapered lower mass leads into a full left-pointing shoe. Those are clearer original construction proposals than the rejected dressed dummy. The front keeps the source proportion envelope and full shoes. Large head-to-body proportions and the tightly overlapped shoulder/arm remain matters for the parent's actual appearance judgment; this scoped review does not approve them for other poses or creator use.
