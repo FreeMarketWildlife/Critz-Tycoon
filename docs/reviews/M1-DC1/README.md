@@ -1,0 +1,13 @@
+# M1.DC1 — Dummy Creator
+
+Phil’s Region Labels are the authoritative starting dummy:740 occupied marks/category geometry retained. RD1 is removed from the active rendering workflow. Existing historical rasters and source-bound registration metadata remain preserved for legacy imports.
+
+Four direction tracks support editable frames, add/duplicate/delete/reorder/name,20–5000ms durations, stepping/playback, full project backup/import, structural/stroke Undo/Redo, isolated autosave and recovery of both earlier default and supplied-label drafts. Other directions initially copy the unchanged supplied layout and are explicitly labeled unfinished templates. No automatic turnaround/anatomy is claimed. Front/back automatic side assignment reverses with view; profiles require explicit anatomical side. All nine categories have stable left/right/center IDs and saturated related colors; color is never identity.
+
+The separate south reference is the actual supplied refined fan animation, eight100ms frames, three unique A/P/C poses, no observed idle. Exact4× block extraction,32×48→32×64 registration at(0,+16) and source/frame hashes are verified in [reference-extraction.json](reference-extraction.json). Frame2 equals the historical approved source reference RGBA. Generated missing-direction attempts failed transparency/native-grid QA; none is included in runtime or substituted for Phil’s geometry.
+
+Validation:53 focused unit tests pass. [Dummy project browser checks](local-browser.json), [all-category actual RGB checks](category-browser.json), [legacy pairs](pairs-browser.json), [supplied draft isolation/recovery](preset-browser.json) each pass Chrome1400, Chrome390 and WebKit320. [Mirror regression](mirror-browser.json) passes six ordinary/dummy cases. [Ordinary editor regression](ordinary-browser.json) passes ten flows including PNG/project exports, animation, reference handling and synthetic save preservation. Source-bearing screenshots were actually inspected and remain ignored. Physical phones are untested. No artwork/appearance acceptance is inferred.
+
+The first proposed replacement of old browser scripts was rejected by automatic approval review because it would discard checks. Those scripts were instead retained and adapted to explicit recovery/full-project exports; all existing assertions’ functional coverage remains and passes. No permission bypass or test deletion occurred.
+
+Publication uses an editor-only overlay over exact livev63 Sites source, preserving every protected non-editor production archive member. Actual source/deployment and hosted verification follow in publication.json. Existing public audience/save keys retained; no unrelated NPC, creator variant, adventure or runtime art adoption.

@@ -1,0 +1,65 @@
+{
+  "sourceSha256": "5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e",
+  "pass": true,
+  "all8ExactRGBA": true,
+  "frame2EqualsLegacyReferenceRGBA": true,
+  "noObservedIdle": true,
+  "frames": [
+    {
+      "frame": 0,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "5b089d98d6c4c3578df9074c322f99231634d7e328501f2e63ea331eff97eac5"
+    },
+    {
+      "frame": 1,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "5b089d98d6c4c3578df9074c322f99231634d7e328501f2e63ea331eff97eac5"
+    },
+    {
+      "frame": 2,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5"
+    },
+    {
+      "frame": 3,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5"
+    },
+    {
+      "frame": 4,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "74836393c0290935bc20080ea6ea3a0a00a028241218cf6acda1f56a05e36c99"
+    },
+    {
+      "frame": 5,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "74836393c0290935bc20080ea6ea3a0a00a028241218cf6acda1f56a05e36c99"
+    },
+    {
+      "frame": 6,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5"
+    },
+    {
+      "frame": 7,
+      "exactRGBA": true,
+      "exact4xBlocks": true,
+      "durationMs": 100,
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5"
+    }
+  ]
+}

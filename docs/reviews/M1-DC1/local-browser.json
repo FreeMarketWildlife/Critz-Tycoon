@@ -1,0 +1,57 @@
+{
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "supplied740Exact": true,
+      "noRD1Rendered": true,
+      "allDirectionEdits": true,
+      "profileExplicitSide": true,
+      "mirrorUndoRedo": true,
+      "frameHistory": true,
+      "holdsPlayback": true,
+      "referencePlayback": true,
+      "projectRoundtrip": true,
+      "legacyDraftPreserved": true,
+      "gameSaveUnchanged": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "supplied740Exact": true,
+      "noRD1Rendered": true,
+      "allDirectionEdits": true,
+      "profileExplicitSide": true,
+      "mirrorUndoRedo": true,
+      "frameHistory": true,
+      "holdsPlayback": true,
+      "referencePlayback": true,
+      "projectRoundtrip": true,
+      "legacyDraftPreserved": true,
+      "gameSaveUnchanged": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "supplied740Exact": true,
+      "noRD1Rendered": true,
+      "allDirectionEdits": true,
+      "profileExplicitSide": true,
+      "mirrorUndoRedo": true,
+      "frameHistory": true,
+      "holdsPlayback": true,
+      "referencePlayback": true,
+      "projectRoundtrip": true,
+      "legacyDraftPreserved": true,
+      "gameSaveUnchanged": true,
+      "errors": []
+    }
+  ],
+  "passed": 3,
+  "physicalPhoneTested": false
+}

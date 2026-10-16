@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "legacyLabelsPreserved": true,
+      "exportPaletteMatchesLegendAndCanvas": true,
+      "actualRGBA": [
+        [
+          240,
+          0,
+          32,
+          255
+        ],
+        [
+          240,
+          0,
+          32,
+          255
+        ],
+        [
+          119,
+          68,
+          170,
+          255
+        ],
+        [
+          0,
+          71,
+          255,
+          255
+        ]
+      ],
+      "defaultOpacity": 0.6,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "legacyLabelsPreserved": true,
+      "exportPaletteMatchesLegendAndCanvas": true,
+      "actualRGBA": [
+        [
+          240,
+          0,
+          32,
+          255
+        ],
+        [
+          240,
+          0,
+          32,
+          255
+        ],
+        [
+          119,
+          68,
+          170,
+          255
+        ],
+        [
+          0,
+          71,
+          255,
+          255
+        ]
+      ],
+      "defaultOpacity": 0.6,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "legacyLabelsPreserved": true,
+      "exportPaletteMatchesLegendAndCanvas": true,
+      "actualRGBA": [
+        [
+          240,
+          0,
+          32,
+          255
+        ],
+        [
+          240,
+          0,
+          32,
+          255
+        ],
+        [
+          119,
+          68,
+          170,
+          255
+        ],
+        [
+          0,
+          71,
+          255,
+          255
+        ]
+      ],
+      "defaultOpacity": 0.6,
+      "errors": []
+    }
+  ],
+  "passed": 3,
+  "physicalPhoneTested": false,
+  "screenshots": "Default60% label opacity, actual checkerboard/source layers; desktop/390/320 actually inspected; source-bearing screenshots ignored"
+}

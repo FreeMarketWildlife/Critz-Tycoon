@@ -50,3 +50,12 @@ dialog{max-width:530px;width:calc(100% - 28px);max-height:calc(100dvh - 28px);ov
 .mirror-toggle .mirror-caption{font-size:8px;white-space:nowrap}.mirror-state{font-size:9px;font-weight:700}
 .mirror-toggle[aria-pressed=true]{background:var(--deep);color:var(--accent);border-color:var(--accent)}
 .mirror-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+
+.br-dataset{flex:0 0 auto;display:flex;flex-wrap:wrap;gap:5px;margin:0;padding:5px 8px;font-size:10px;color:var(--accent);border-bottom:1px solid var(--line)}.br-dataset[hidden]{display:none}.br-dataset a{color:var(--accent);text-underline-offset:2px;padding:2px}
+
+.br-dataset a{display:inline-flex;align-items:center;min-height:28px}@media(max-width:600px){.br-dataset a{min-height:44px}}
+/* Dummy Creator shares the existing canvas shell; controls wrap on portrait phones. */
+.dc-timeline{padding:10px;border-top:1px solid var(--line,#354946);max-width:100%;flex-shrink:0;background:var(--panel,#162525)}
+.dc-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:5px 0}.dc-row label{display:flex;gap:5px;align-items:center;font-size:12px}.dc-row input[type=number]{width:76px}.dc-row input[type=text],#dc-name{width:140px}.dc-row select{max-width:210px}#dc-frames{display:flex;gap:5px;overflow:auto;padding:4px 0;max-width:100%}#dc-frames button{min-width:40px;flex-shrink:0}#dc-frames [aria-pressed=true]{outline:2px solid #b1dc92}.dc-timeline button{min-height:36px}.dc-timeline p{margin:6px 0 0;max-width:85ch}
+@media(max-width:600px){.dc-timeline{padding:6px}.dc-timeline button{min-height:40px}.dc-row{gap:5px}.dc-row label{font-size:11px}#dc-name{width:100px}.dc-row select{max-width:180px}.dc-timeline p{font-size:10px}.br-select select{max-width:150px}}
+.dc-timeline{max-height:36dvh;overflow:auto}.dc-timeline summary{cursor:pointer;padding:6px 0;font-size:12px;color:var(--accent)}.dc-timeline details{border:0;margin:0}.dc-timeline .dc-row{flex-shrink:0}

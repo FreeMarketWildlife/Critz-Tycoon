@@ -7,15 +7,15 @@ test('approved public preload retains pinned reference, RD1 dummy, complete labe
  const seed=validateSeed(JSON.parse(readFileSync(new URL('../sprite-editor/assets/body-regions-seed.json',import.meta.url))));
  assert.equal(seed.source.reference.gifSha256,'5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e');
  assert.equal(seed.source.dummy.sha256,'606a6305a9a3bc9473a8cf6314ad86188627b6e107cfbaa97ff7e0d9a64100f8');
- assert.equal(seed.labels.filter(v=>v===3).length,16);
- for(const id of [6,8,10,12])assert.ok(seed.labels.every((v,i)=>v!==id||i%32>=16));
- for(const id of [7,9,11,13])assert.ok(seed.labels.every((v,i)=>v!==id||i%32<16));
+ assert.equal(seed.labels.filter(v=>v===14).length,8);assert.equal(seed.labels.filter(v=>v===15).length,8);assert.equal(seed.parts[14].key,'leftEye');assert.equal(seed.parts[15].key,'rightEye');
+ for(const id of [6,8,10,12,14,16,18,20,22])assert.ok(seed.labels.every((v,i)=>v!==id||i%32>=16));
+ for(const id of [7,9,11,13,15,17,19,21,23])assert.ok(seed.labels.every((v,i)=>v!==id||i%32<16));
  assert.deepEqual(importCorrections(exportCorrections(seed,seed.labels),seed),seed.labels);
 });
 test('complete 2048-cell correction roundtrip binds exact source, seed, parts and registration, no raster',()=>{
- const seed=validateSeed(fixture()),labels=Array.from({length:SIZE},(_,i)=>i%14),text=exportCorrections(seed,labels),data=JSON.parse(text);
+ const seed=validateSeed(fixture()),labels=Array.from({length:SIZE},(_,i)=>i%28),text=exportCorrections(seed,labels),data=JSON.parse(text);
  assert.deepEqual(importCorrections(text,seed),labels);assert.equal(data.labels.length,2048);assert.equal(Object.hasOwn(data,'referenceRGBA'),false);assert.equal(Object.hasOwn(data,'dummyRGBA'),false);assert.notEqual(STORAGE,'fmw.sprite-editor.v1');
- for(const edit of [d=>d.version=2,d=>d.width=64,d=>d.seedId='wrong',d=>d.source.dummy.sha256='d'.repeat(64),d=>d.registration.translation=[0,15],d=>d.parts[6].name='Right',d=>d.labels.pop(),d=>d.labels[3]=14,d=>d.labels[3]=1.5,d=>d.labels[3]='1',d=>d.surprise=true]){const d=structuredClone(data);edit(d);assert.throws(()=>importCorrections(JSON.stringify(d),seed));}
+ for(const edit of [d=>d.version=3,d=>d.width=64,d=>d.seedId='wrong',d=>d.source.dummy.sha256='d'.repeat(64),d=>d.registration.translation=[0,15],d=>d.parts[6].name='Right',d=>d.labels.pop(),d=>d.labels[3]=28,d=>d.labels[3]=1.5,d=>d.labels[3]='1',d=>d.surprise=true]){const d=structuredClone(data);edit(d);assert.throws(()=>importCorrections(JSON.stringify(d),seed));}
 });
 test('hostile and corrupt JSON never changes model or prototypes',()=>{
  const seed=fixture(),model=createLabelModel(seed.labels),before=model.labels;

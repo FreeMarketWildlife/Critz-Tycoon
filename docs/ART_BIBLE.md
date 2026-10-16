@@ -1,5 +1,12 @@
 # Critz: Tycoon — art bible
 
+## Dummy Creator annotation and reference contract — M1.DC1
+
+Phil’s supplied Region Labels define the editable dummy; never replace them with RD1 or generated estimates. Stable anatomical IDs (left/right/center) and category metadata—not annotation colors—identify all parts across frames/views. Front/back automatic assignment reverses with viewpoint; profile ownership requires explicit side. Mirroring changes subsequent marks and writes opposite identities, not hidden-body truth. Other direction layouts initially copy the supplied map and are labeled unfinished templates until manually edited/reviewed.
+
+Actual supplied refined south is eight100ms walking frames A,A,P,P,C,C,P,P, exact4× display blocks reduced to32×48 and registered at(0,+16) in32×64; no observed idle. Separate reference opacity/playback never changes labels. Generated W/E/N attempts with glow, partial alpha or mixed grids fail QA and remain outside runtime; mechanical normalization alone is not native-art acceptance. Existing reference/history/canon art stays preserved. [Current tool evidence](reviews/M1-DC1/README.md).
+
+
 ## Overnight existing-cast candidates — M1.OVN1
 
 Latest user authorization expands isolated candidate work to Girl Hero and existing NPCs Mom and Professor Nugget in separate Codex task chats, with independent visual/reference QA. This supersedes historical single-character/roster holds only for these candidate studies; creator/runtime adoption and automatic art deployment remain stopped. RD1's visible reference-derived32×64 body proportions are the current construction scaffold, not an approved master or approved part segmentation. Phil is preparing manual body labels; preserve editable region ownership and record proposed hidden completions. Preserve established designs/canon and elevated head-over-torso projection, consistent full shoe envelope, readable side arms, native pixel coherence, face contour and torso-local pack attachment where present. Four idle facings must be actually inspected at native size/integer enlargement against appropriate pinned references before walking expansion. The supplied front fan GIF proves no side/back construction. Review/fix coherent candidates, not aimless variants. Parent/root private visual judgment and eventual user acceptance remain separate from technical checks.

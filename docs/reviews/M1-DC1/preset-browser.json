@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "firstLoad740Exact": true,
+      "defaultDraftByteExact": true,
+      "presetDraftReload": true,
+      "resetUndo": true,
+      "recoveryDialog": true,
+      "unknownDatasetFailsWithoutFallback": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "firstLoad740Exact": true,
+      "defaultDraftByteExact": true,
+      "presetDraftReload": true,
+      "resetUndo": true,
+      "recoveryDialog": true,
+      "unknownDatasetFailsWithoutFallback": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "firstLoad740Exact": true,
+      "defaultDraftByteExact": true,
+      "presetDraftReload": true,
+      "resetUndo": true,
+      "recoveryDialog": true,
+      "unknownDatasetFailsWithoutFallback": true,
+      "errors": []
+    }
+  ],
+  "passed": 3,
+  "physicalPhoneTested": false
+}
