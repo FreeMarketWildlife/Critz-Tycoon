@@ -1,9 +1,8 @@
 ## M1.PAIR1 — complete anatomical brush live v63; character work stays stopped
 
-## M1.DC2 — authorized rough animation setup and copy update
+## M1.DC2 — completed requested editor setup; Phil corrects rough poses next
 
-Local deliverable is complete for the latest request: exact completed714-cell south anchor plus rough labels for12unique source poses reused across32timed slots, all four direction controls and real reference frames, direct one-click Copy, shared-pose editing/history/backup and separate draft namespaces. Phil will correct the rough estimates; this is not appearance/M1 acceptance. Source references distinguish supplied refined south from original Emerald W/E/N nearest2×. Next: finish tested existing-site publication and hosted checks, then user correction in the new rough-draft URL. No unrelated roster/creative character generation.
-
+Livev65 provides the exact completed714-cell south anchor plus rough labels for12unique directional walking poses reused across32timed slots, real source references, four visible facing controls, shared-pose edits/history/backups and direct one-click Copy. [Verified source/deployment/hosted evidence](reviews/M1-DC2/publication.json). Next: Phil manually corrects each unique pose; repeats update together. Other poses are estimates, not appearance/M1 acceptance. Source provenance distinguishes fan-refined south from original Emerald W/E/N nearest2×. No NPC roster/world/art adoption resumes. Evidence-only follow-up needs no redundant deployment.
 
 ## M1.DC1 — completed functional tool, user edits next
 

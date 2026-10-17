@@ -1,0 +1,52 @@
+{
+  "task": "M1.DC2",
+  "status": "requested editable rough setup complete; poses await Phil correction",
+  "githubImplementation": "d9528f9f89ef9f6909b726df79051e731d68ed14",
+  "githubImplementationRemoteVerified": true,
+  "sitesSource": "1d17c2fdcdf5f071babcee79f6036392ae3fb9a5",
+  "projectId": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "version": 65,
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_655f7c81c0bc8191bc1ba36d9634b3cb",
+  "deploymentId": "appgdep_6ad2e83ecbfc819183c4435e36508dea",
+  "deploymentStatus": "succeeded",
+  "deployedAt": "2026-10-17T03:15:26.886340+00:00",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=dummy-creator&labels=phil-walk-draft-20261017",
+  "exactSouthURL": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=dummy-creator&labels=phil-south-20261017",
+  "audience": "existing public, unchanged",
+  "attachment": {
+    "bytes": 22997,
+    "sha256": "f88b094cf73ff272aaa629cfcc8ef1a9f02f6d01989d11b4e20a6ca3411736d7",
+    "version": 1,
+    "canvas": [
+      32,
+      64
+    ],
+    "parts": 28,
+    "occupiedSouth": 714,
+    "verbatim": true
+  },
+  "rough": {
+    "schemaVersion": 2,
+    "uniqueEditablePoses": 12,
+    "timedSlots": 32,
+    "anchorUnchanged": true,
+    "repeatsShareEdits": true,
+    "otherPosesRough": true
+  },
+  "referenceSources": {
+    "south": "actual supplied refined fan GIF, eight100ms slots",
+    "otherDirections": "original Emerald16x32 nearest2x, pinned5eff78649e7170a877b961ef0b3da13b81a16038; source commands/flip verified"
+  },
+  "unitTestsPassed": 61,
+  "hostedCasesPassed": 6,
+  "chromeActualClipboardReadback": true,
+  "webkitActualClipboardWrite": true,
+  "webkitReadbackClaimed": false,
+  "all32ReferenceAndLabelSlotsPixelChecked": true,
+  "all8LiveSlotsSampledPerDirection": true,
+  "continuousHumanWatchClaimed": false,
+  "physicalPhoneTested": false,
+  "existingDraftsAndSyntheticGameSavesPreserved": true,
+  "nonEditorProductionFilesUnchanged": true,
+  "unrelatedParkedEditsPreserved": true
+}
