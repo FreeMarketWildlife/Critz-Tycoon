@@ -138,3 +138,8 @@ Add blank frames, duplicate, rename, reorder, delete, adjust holds and play. Up 
 `tests/symmetry-sides-browser.mjs` asserts actual viewport RGBA after all four treatments for odd/even inputs, repeated edits, exact restoration, hidden/zero-opacity overlays and mobile apply.
 
 `tests/sprite-zoom-browser.mjs` verifies cursor anchors across all quadrants and repeated zoom steps, button/keyboard anchors, panning without painting, exact drawing coordinates after zoom, Fit recentering and small-screen layouts.
+
+
+### Dummy Creator workspace (M1.DUI1)
+
+Direction arrows are in the right Parts/Layers inspector, immediately above Parts. On a phone, use the panel icon to open that drawer; choosing a direction or part returns to the canvas. Plus adds a blank frame, overlapping pages duplicate independently, and the trash icon deletes the selected frame. All icon controls have accessible names and hover tooltips. The timeline retains the imported frame timing automatically; there is no millisecond/speed input. Copy remains a one-click full-project clipboard write with a manual fallback only on failure. Existing drafts, shared-pose links, undo and backups retain their formats/keys.

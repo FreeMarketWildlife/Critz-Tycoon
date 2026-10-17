@@ -1,0 +1,12 @@
+{
+  "baselineVersion": 65,
+  "baselineArchiveSHA256": "83d613104977929825f648182cba6fd5393f6a0d075f04894708796849748696",
+  "protectedNonEditorFilesExact": 5882,
+  "changed": [],
+  "missing": [],
+  "added": [
+    "dist/sprite-editor/dummy-icons.js"
+  ],
+  "sourceOnlyFixtureExcluded": "dist/docs/reviews/M1-DC2/rough-label-audit.json",
+  "privateInputsExcluded": true
+}

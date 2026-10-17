@@ -1,5 +1,9 @@
 ## M1.PAIR1 — complete anatomical brush live v63; character work stays stopped
 
+## M1.DUI1 — editor workspace cleanup
+
+In progress: publish the tested scoped Dummy Creator layout refresh to the existing Site. Direction arrows belong immediately above Parts in the right inspector; use accessible icons, preserve phone canvas access and stored frame timing without a speed input. Preserve all label projects, shared links, history, drafts and game saves. Artwork gates remain unchanged. [Evidence](reviews/M1-DUI1/README.md).
+
 ## M1.DC2 — completed requested editor setup; Phil corrects rough poses next
 
 Livev65 provides the exact completed714-cell south anchor plus rough labels for12unique directional walking poses reused across32timed slots, real source references, four visible facing controls, shared-pose edits/history/backups and direct one-click Copy. [Verified source/deployment/hosted evidence](reviews/M1-DC2/publication.json). Next: Phil manually corrects each unique pose; repeats update together. Other poses are estimates, not appearance/M1 acceptance. Source provenance distinguishes fan-refined south from original Emerald W/E/N nearest2×. No NPC roster/world/art adoption resumes. Evidence-only follow-up needs no redundant deployment.

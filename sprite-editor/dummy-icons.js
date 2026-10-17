@@ -1,0 +1,12 @@
+// Small, local outline icons. Names remain explicit through accessible labels/tooltips.
+const paths={
+ north:'<path d="m6 12 6-6 6 6M12 6v14"/>',south:'<path d="m6 12 6 6 6-6M12 4v14"/>',west:'<path d="m12 6-6 6 6 6M6 12h14"/>',east:'<path d="m12 6 6 6-6 6M4 12h14"/>',
+ plus:'<path d="M12 5v14M5 12h14"/>',duplicate:'<rect x="8" y="8" width="12" height="13" rx="1"/><path d="M15 8V3H3v13h5"/>',
+ play:'<path d="m8 4 12 8-12 8Z"/>',pause:'<path d="M8 4v16M16 4v16"/>',previous:'<path d="M5 5v14m14-14-10 7 10 7Z"/>',next:'<path d="M19 5v14M5 5l10 7-10 7Z"/>',
+ copy:'<rect x="8" y="8" width="12" height="13" rx="1"/><path d="M15 8V3H3v13h5"/>',upload:'<path d="M12 16V3m-5 5 5-5 5 5M4 15v6h16v-6"/>',download:'<path d="M12 3v13m-5-5 5 5 5-5M4 17v4h16v-4"/>',
+ brush:'<path d="m15 3 6 6-10 10-7 1 1-7Zm-10 10 6 6M12 6l6 6"/>',erase:'<path d="m14 3 7 7-10 11H6l-4-4Zm-7 7 7 7M11 21h11"/>',hand:'<path d="M8 12V5a2 2 0 0 1 4 0v6-8a2 2 0 0 1 4 0v8-6a2 2 0 0 1 4 0v10c0 4-2 7-6 7h-2c-2 0-4-1-5-3l-5-7a2 2 0 0 1 3-2l3 2Z"/>',
+ undo:'<path d="m8 4-5 5 5 5M3 9h11a6 6 0 0 1 0 12"/>',redo:'<path d="m16 4 5 5-5 5m5-5H10a6 6 0 0 0 0 12"/>',trash:'<path d="M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7"/>',link:'<path d="m10 7 3-3a5 5 0 0 1 7 7l-3 3m-3 3-3 3a5 5 0 0 1-7-7l3-3m1 6 8-8"/>',unlink:'<path d="m10 7 3-3a5 5 0 0 1 7 7l-2 2M14 17l-3 3a5 5 0 0 1-7-7l2-2M3 3l18 18"/>',
+ panels:'<rect x="3" y="3" width="18" height="18" rx="1"/><path d="M14 3v18m0-12h7"/>',tools:'<path d="m4 4 16 16M15 3a5 5 0 0 0 6 6L9 21l-6-6L15 3Z"/>',focus:'<path d="M3 9V3h6m6 0h6v6m0 6v6h-6m-6 0H3v-6"/>',reset:'<path d="M3 11a9 9 0 1 1 2 7M3 4v7h7"/>',close:'<path d="m5 5 14 14M5 19 19 5"/>',help:'<circle cx="12" cy="12" r="9"/><path d="M9 8a3 3 0 1 1 4 3c-1 1-1 2-1 3m0 3v.1"/>',fit:'<path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/><rect x="7" y="7" width="10" height="10"/>',minus:'<path d="M5 12h14"/>'
+};
+export function icon(name){if(!Object.hasOwn(paths,name))throw Error('Unknown icon');return `<svg class="dc-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${paths[name]}</svg>`;}
+export function iconButton(button,name,label,text=''){button.innerHTML=icon(name)+(text?`<span>${text}</span>`:'');button.classList.add('dc-icon-button');button.setAttribute('aria-label',label);button.title=label;}

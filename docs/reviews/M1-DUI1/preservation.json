@@ -1,0 +1,227 @@
+{
+  "passed": 44,
+  "failures": [],
+  "files": [
+    {
+      "path": "sprite-editor/assets/body-regions-seed.json",
+      "sha256": "0182cea340db2053e1605d893bd589f415dd1522db416a871044062e2f359ac3",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-0.png",
+      "sha256": "c5ac4a9f16f48cbd1d28a8c0de10a8d695dd05dcabc10f387ab5cffe0f996268",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-1.png",
+      "sha256": "c5ac4a9f16f48cbd1d28a8c0de10a8d695dd05dcabc10f387ab5cffe0f996268",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-2.png",
+      "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-3.png",
+      "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-4.png",
+      "sha256": "f246eb57f82b5097eb59ce0a014ad911935bae10d0628d61e553d6f4e7fdf142",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-5.png",
+      "sha256": "f246eb57f82b5097eb59ce0a014ad911935bae10d0628d61e553d6f4e7fdf142",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-6.png",
+      "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/east-7.png",
+      "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/manifest.json",
+      "sha256": "d2a00c5210d2270c459fb5c6a50d46c2c215b384be6461a5fd265b3c2573536b",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-0.png",
+      "sha256": "8cde09615ee8efb928ab70f9216e3d832550d5b9fb49a01bfc2aee084ff6195f",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-1.png",
+      "sha256": "8cde09615ee8efb928ab70f9216e3d832550d5b9fb49a01bfc2aee084ff6195f",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-2.png",
+      "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-3.png",
+      "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-4.png",
+      "sha256": "bd6ab840948a43e79708ac127afb1a47663efe8eb7de223a61026485c1b20295",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-5.png",
+      "sha256": "bd6ab840948a43e79708ac127afb1a47663efe8eb7de223a61026485c1b20295",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-6.png",
+      "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/north-7.png",
+      "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-0.png",
+      "sha256": "5f992b29a85f8f3bfd4a08254e1661966e6f25749b23f86803a34b0275510069",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-1.png",
+      "sha256": "5f992b29a85f8f3bfd4a08254e1661966e6f25749b23f86803a34b0275510069",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-2.png",
+      "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-3.png",
+      "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-4.png",
+      "sha256": "015e1423824df009aa0921d73cc723c0b9e2b91c06323b87b0508a92bcf839a9",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-5.png",
+      "sha256": "015e1423824df009aa0921d73cc723c0b9e2b91c06323b87b0508a92bcf839a9",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-6.png",
+      "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/emerald-brendan/west-7.png",
+      "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/phil-completed-south-20261017.json",
+      "sha256": "f88b094cf73ff272aaa629cfcc8ef1a9f02f6d01989d11b4e20a6ca3411736d7",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/phil-region-labels-20261016.json",
+      "sha256": "23d50a72fcf613549fabd44745865a92f915fb26aed5e6d97e259fd6bb9f4c14",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/phil-rough-walk-20261017.json",
+      "sha256": "15c997c78c270662a1c2676b6ae13e53634120558bf21f71e0e1d93780272e4b",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-0.png",
+      "sha256": "5b089d98d6c4c3578df9074c322f99231634d7e328501f2e63ea331eff97eac5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-1.png",
+      "sha256": "5b089d98d6c4c3578df9074c322f99231634d7e328501f2e63ea331eff97eac5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-2.png",
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-3.png",
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-4.png",
+      "sha256": "74836393c0290935bc20080ea6ea3a0a00a028241218cf6acda1f56a05e36c99",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-5.png",
+      "sha256": "74836393c0290935bc20080ea6ea3a0a00a028241218cf6acda1f56a05e36c99",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-6.png",
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/frame-7.png",
+      "sha256": "0bf2ce4694014b0c5eee68e3a47c11543321633b21e5f05420c54d4d6ba4d9b5",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/assets/refined-south/manifest.json",
+      "sha256": "15e12d7db100920a5a3ad993ccb8f2ddab308fe2cb92e779c9c5651b7a49d0c7",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/dummy-creator-model.js",
+      "sha256": "d17b4806483940ef70e539d0d309d5fdbe23586977f4ec9d398f2500e17f04e4",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/body-regions-model.js",
+      "sha256": "fe5115b3a62323b398cbbbb4addf45c0c07fa5d4b512bfd7cf2614d05b6d4b6e",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/dummy-references.js",
+      "sha256": "f24ab24261003ac6bf0046448d41d80ec2d50ccb84f2fe51c830390f39372515",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/editor.js",
+      "sha256": "8bb9a1d71611856fb73059fadecf7e6a9f018c4235da07700ea829d3360e69fa",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/workspace.js",
+      "sha256": "2d4723b92ab59fb5a6efa7ad7e9e30a0dbee3c23536253c43b2f1a4290eda84d",
+      "exact": true
+    },
+    {
+      "path": "sprite-editor/mirror.js",
+      "sha256": "df2f4312030eadf779fc01f6521a7354eb0acdd6bf27a5debe82ce7af4e44fe8",
+      "exact": true
+    }
+  ],
+  "schemaStorageAndPlaybackModelsUnchanged": true
+}

@@ -1,0 +1,252 @@
+{
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "categories": [
+        {
+          "category": "unassigned",
+          "left": 0,
+          "right": 0,
+          "side": "none"
+        },
+        {
+          "category": "head",
+          "left": 16,
+          "right": 17,
+          "leftColor": "#d5a000",
+          "rightColor": "#865b00"
+        },
+        {
+          "category": "ear",
+          "left": 18,
+          "right": 19,
+          "leftColor": "#ff8b45",
+          "rightColor": "#b64b10"
+        },
+        {
+          "category": "eye",
+          "left": 14,
+          "right": 15,
+          "leftColor": "#f00020",
+          "rightColor": "#900018"
+        },
+        {
+          "category": "torso",
+          "left": 20,
+          "right": 21,
+          "leftColor": "#288ac5",
+          "rightColor": "#134d7a"
+        },
+        {
+          "category": "pelvis",
+          "left": 22,
+          "right": 23,
+          "leftColor": "#00b09d",
+          "rightColor": "#006b60"
+        },
+        {
+          "category": "arm",
+          "left": 6,
+          "right": 7,
+          "leftColor": "#66ccee",
+          "rightColor": "#197b9d"
+        },
+        {
+          "category": "hand",
+          "left": 8,
+          "right": 9,
+          "leftColor": "#ee7733",
+          "rightColor": "#a43f0b"
+        },
+        {
+          "category": "leg",
+          "left": 10,
+          "right": 11,
+          "leftColor": "#50b83e",
+          "rightColor": "#216b19"
+        },
+        {
+          "category": "shoe",
+          "left": 12,
+          "right": 13,
+          "leftColor": "#0047ff",
+          "rightColor": "#17247e"
+        }
+      ],
+      "legacyMarkedCellsRetained": true,
+      "explicitLegacyIdsRetained": true,
+      "version2Roundtrip": true,
+      "actualCanvasColorsVerified": true,
+      "defaultOpacity": 1,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "categories": [
+        {
+          "category": "unassigned",
+          "left": 0,
+          "right": 0,
+          "side": "none"
+        },
+        {
+          "category": "head",
+          "left": 16,
+          "right": 17,
+          "leftColor": "#d5a000",
+          "rightColor": "#865b00"
+        },
+        {
+          "category": "ear",
+          "left": 18,
+          "right": 19,
+          "leftColor": "#ff8b45",
+          "rightColor": "#b64b10"
+        },
+        {
+          "category": "eye",
+          "left": 14,
+          "right": 15,
+          "leftColor": "#f00020",
+          "rightColor": "#900018"
+        },
+        {
+          "category": "torso",
+          "left": 20,
+          "right": 21,
+          "leftColor": "#288ac5",
+          "rightColor": "#134d7a"
+        },
+        {
+          "category": "pelvis",
+          "left": 22,
+          "right": 23,
+          "leftColor": "#00b09d",
+          "rightColor": "#006b60"
+        },
+        {
+          "category": "arm",
+          "left": 6,
+          "right": 7,
+          "leftColor": "#66ccee",
+          "rightColor": "#197b9d"
+        },
+        {
+          "category": "hand",
+          "left": 8,
+          "right": 9,
+          "leftColor": "#ee7733",
+          "rightColor": "#a43f0b"
+        },
+        {
+          "category": "leg",
+          "left": 10,
+          "right": 11,
+          "leftColor": "#50b83e",
+          "rightColor": "#216b19"
+        },
+        {
+          "category": "shoe",
+          "left": 12,
+          "right": 13,
+          "leftColor": "#0047ff",
+          "rightColor": "#17247e"
+        }
+      ],
+      "legacyMarkedCellsRetained": true,
+      "explicitLegacyIdsRetained": true,
+      "version2Roundtrip": true,
+      "actualCanvasColorsVerified": true,
+      "defaultOpacity": 1,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "categories": [
+        {
+          "category": "unassigned",
+          "left": 0,
+          "right": 0,
+          "side": "none"
+        },
+        {
+          "category": "head",
+          "left": 16,
+          "right": 17,
+          "leftColor": "#d5a000",
+          "rightColor": "#865b00"
+        },
+        {
+          "category": "ear",
+          "left": 18,
+          "right": 19,
+          "leftColor": "#ff8b45",
+          "rightColor": "#b64b10"
+        },
+        {
+          "category": "eye",
+          "left": 14,
+          "right": 15,
+          "leftColor": "#f00020",
+          "rightColor": "#900018"
+        },
+        {
+          "category": "torso",
+          "left": 20,
+          "right": 21,
+          "leftColor": "#288ac5",
+          "rightColor": "#134d7a"
+        },
+        {
+          "category": "pelvis",
+          "left": 22,
+          "right": 23,
+          "leftColor": "#00b09d",
+          "rightColor": "#006b60"
+        },
+        {
+          "category": "arm",
+          "left": 6,
+          "right": 7,
+          "leftColor": "#66ccee",
+          "rightColor": "#197b9d"
+        },
+        {
+          "category": "hand",
+          "left": 8,
+          "right": 9,
+          "leftColor": "#ee7733",
+          "rightColor": "#a43f0b"
+        },
+        {
+          "category": "leg",
+          "left": 10,
+          "right": 11,
+          "leftColor": "#50b83e",
+          "rightColor": "#216b19"
+        },
+        {
+          "category": "shoe",
+          "left": 12,
+          "right": 13,
+          "leftColor": "#0047ff",
+          "rightColor": "#17247e"
+        }
+      ],
+      "legacyMarkedCellsRetained": true,
+      "explicitLegacyIdsRetained": true,
+      "version2Roundtrip": true,
+      "actualCanvasColorsVerified": true,
+      "defaultOpacity": 1,
+      "errors": []
+    }
+  ],
+  "passed": 3,
+  "physicalPhoneTested": false
+}

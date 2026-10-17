@@ -1,0 +1,39 @@
+{
+  "passed": 3,
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 28,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "legacySeedFrontRegistration": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 28,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "legacySeedFrontRegistration": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "options": 10,
+      "stableExportParts": 28,
+      "pairedIdsAndActualColorsVerified": true,
+      "legacyImportAutosaveUnchanged": true,
+      "legacySeedFrontRegistration": true,
+      "errors": []
+    }
+  ],
+  "physicalPhoneTested": false
+}

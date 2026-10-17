@@ -1,0 +1,234 @@
+{
+  "passed": 3,
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1400,
+      "pass": true,
+      "clipboardActualWrite": true,
+      "clipboardReadback": true,
+      "uniquePoses": 12,
+      "timedSlots": 32,
+      "allReferenceSlotPixelsExact": true,
+      "allLabelSlotPixelsExact": true,
+      "sharedRepeatEdits": true,
+      "detachAndReuse": true,
+      "anchor714Exact": true,
+      "bothPriorDraftsByteExact": true,
+      "undoImportExportAutosave": true,
+      "gameUnchanged": true,
+      "playback": [
+        {
+          "direction": "south",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "west",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "east",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "north",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "pass": true,
+      "clipboardActualWrite": true,
+      "clipboardReadback": true,
+      "uniquePoses": 12,
+      "timedSlots": 32,
+      "allReferenceSlotPixelsExact": true,
+      "allLabelSlotPixelsExact": true,
+      "sharedRepeatEdits": true,
+      "detachAndReuse": true,
+      "anchor714Exact": true,
+      "bothPriorDraftsByteExact": true,
+      "undoImportExportAutosave": true,
+      "gameUnchanged": true,
+      "playback": [
+        {
+          "direction": "south",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "west",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "east",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "north",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        }
+      ],
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "pass": true,
+      "clipboardActualWrite": true,
+      "clipboardReadback": false,
+      "uniquePoses": 12,
+      "timedSlots": 32,
+      "allReferenceSlotPixelsExact": true,
+      "allLabelSlotPixelsExact": true,
+      "sharedRepeatEdits": true,
+      "detachAndReuse": true,
+      "anchor714Exact": true,
+      "bothPriorDraftsByteExact": true,
+      "undoImportExportAutosave": true,
+      "gameUnchanged": true,
+      "playback": [
+        {
+          "direction": "south",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "west",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "east",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        },
+        {
+          "direction": "north",
+          "observedSlots": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "mode": "sampled live; not uninterrupted watch"
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "physicalPhoneTested": false
+}

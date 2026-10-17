@@ -1,0 +1,48 @@
+{
+  "passed": 3,
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "height": 1000,
+      "pass": true,
+      "directionsAboveParts": true,
+      "accessibleArrowIcons": true,
+      "noDurationControl": true,
+      "timingPreserved": true,
+      "plusDuplicateUndo": true,
+      "canvasHeight": 504.5,
+      "noHorizontalOverflow": true,
+      "errors": []
+    },
+    {
+      "engine": "chrome",
+      "width": 390,
+      "height": 844,
+      "pass": true,
+      "directionsAboveParts": true,
+      "accessibleArrowIcons": true,
+      "noDurationControl": true,
+      "timingPreserved": true,
+      "plusDuplicateUndo": true,
+      "canvasHeight": 253.484375,
+      "noHorizontalOverflow": true,
+      "errors": []
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "height": 740,
+      "pass": true,
+      "directionsAboveParts": true,
+      "accessibleArrowIcons": true,
+      "noDurationControl": true,
+      "timingPreserved": true,
+      "plusDuplicateUndo": true,
+      "canvasHeight": 154.875,
+      "noHorizontalOverflow": true,
+      "errors": []
+    }
+  ],
+  "physicalPhoneTested": false
+}

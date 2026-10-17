@@ -1,5 +1,9 @@
 # Critz: Tycoon — art bible
 
+## Dummy Creator workspace chrome — M1.DUI1
+
+Phil requests Photoshop-informed neutral dark editing chrome, left tool rail, central canvas, right Parts/Layers and clean timeline. Directions are arrow icons immediately above Parts; action icons retain accessible names/tooltips and generous touch targets. Remove user-facing speed/ms edits while preserving actual stored timing. This is editor presentation only: never recolor or reshape the label/reference artwork, alter the completed south anchor, restart roster work or infer visual acceptance. Actual Adobe workspace screenshot/documentation was inspected; [evidence](reviews/M1-DUI1/README.md).
+
 ## User-correctable rough walk labels — M1.DC2
 
 Latest Phil instruction explicitly authorizes rough anatomical label drafts for ALL unique directional walking references, to correct manually. Preserve his finished714-cell south pose exactly as the anchor and keep the entire original project verbatim. New south strides derive from that anchor and actual source pose landmarks; W/E/N labels follow the actual visible reference envelopes and feature positions. Covered scalp/internal limb/clothing/pack-occluded ownership is a declared rough proposal, not recovered anatomy. Do not add hidden eyes/limbs to meet counts: North has no eyes, profiles have one visible eye. Keep anatomical identities consistent; mirror opposite views with identity remapping, never share labels between facings. Source-identical repeated frames share editable labels within a view; timeline order/holds remain separate.
