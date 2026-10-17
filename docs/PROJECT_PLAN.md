@@ -1,5 +1,10 @@
 ## M1.PAIR1 — complete anatomical brush live v63; character work stays stopped
 
+## M1.DC2 — authorized rough animation setup and copy update
+
+Local deliverable is complete for the latest request: exact completed714-cell south anchor plus rough labels for12unique source poses reused across32timed slots, all four direction controls and real reference frames, direct one-click Copy, shared-pose editing/history/backup and separate draft namespaces. Phil will correct the rough estimates; this is not appearance/M1 acceptance. Source references distinguish supplied refined south from original Emerald W/E/N nearest2×. Next: finish tested existing-site publication and hosted checks, then user correction in the new rough-draft URL. No unrelated roster/creative character generation.
+
+
 ## M1.DC1 — completed functional tool, user edits next
 
 Dummy Creator is live asv64 at the existing public Site, with Phil’s supplied authoritative labels, four editable direction/frame tracks, anatomical side controls, exact south reference, playback/history/backups/legacy recovery and actual hosted desktop/phone browser checks. [Current receipt](reviews/M1-DC1/publication.json). Next: Phil edits/reviews the explicitly unfinished direction templates. Generated W/E/N failed native-grid QA and remain absent; no invented turnaround/anatomy is claimed. Other NPC/creator variant/M1 appearance gates remain separate. No redundant deployment is needed for evidence-only follow-up.

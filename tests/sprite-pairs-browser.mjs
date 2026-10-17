@@ -8,11 +8,11 @@ for(const [name,width]of [['chrome',1400],['chrome',390],['webkit',320]]){
  const browser=await(name==='chrome'?chromium.launch({executablePath:process.env.CHROMIUM_EXECUTABLE,headless:true}):webkit.launch({headless:true})),context=await browser.newContext({viewport:{width,height:width>1000?1050:844},isMobile:width<1000,hasTouch:width<1000});
  await context.addInitScript(({key,data})=>{if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify(data));localStorage.setItem('critz-tycoon.save.v1','PAIRS_SYNTHETIC_SAVE');},{key:'fmw.sprite-editor.body-regions.v1:'+seed.seedId,data:backup});
  // Only initialize once: subsequent reloads must use the editor's actual autosave.
- const p=await context.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'/sprite-editor/?mode=body-regions');await p.waitForFunction(()=>document.documentElement.dataset.bodyRegionsReady==='true');
+ const p=await context.newPage(),errors=[];p.on('pageerror',e=>errors.push(e.message));await p.goto(base+'/sprite-editor/?mode=body-regions&labels=phil-20261016');await p.waitForFunction(()=>document.documentElement.dataset.bodyRegionsReady==='true');
  await p.locator('#br-import').click();await p.locator('#br-text').fill(JSON.stringify(backup));await p.locator('#br-apply').click();
  const snap=()=>p.evaluate(async()=>(await import('./body-regions.js')).getBodyRegionSnapshot()),labels=async()=>(await snap()).labels;
  assert.deepEqual(await labels(),expectedLegacy);assert.equal(await p.locator('#br-part option').count(),10);assert.equal(await p.locator('#br-parts button').count(),10);assert.deepEqual(await p.locator('#br-parts button').allTextContents(),['Unassigned','Head','Ear','Eye','Torso','Pelvis','Arm','Hand','Leg','Foot / shoe']);
- const point=async(x,y)=>{await p.waitForTimeout(80);const r=await p.locator('#canvas').boundingBox(),z=r.width/32;return{x:r.x+(x+.5)*z,y:r.y+(y+.5)*z};};
+ const point=async(x,y)=>{await p.locator('#fit').click();await p.waitForTimeout(100);const r=await p.locator('#canvas').boundingBox(),z=r.width/32;return{x:Math.ceil(r.x+x*z),y:Math.ceil(r.y+y*z)};};
  const paint=async(x,y)=>{const a=await point(x,y);if(width<1000)await p.touchscreen.tap(a.x,a.y);else await p.mouse.click(a.x,a.y);};
  const rgbaAt=(x,y)=>p.evaluate(([x,y])=>Array.from(document.querySelector('#canvas').getContext('2d').getImageData(x,y,1,1).data),[x,y]);
  const expected=id=>[...Buffer.from(seed.parts[id].color.slice(1),'hex'),255];
@@ -33,7 +33,7 @@ for(const [name,width]of [['chrome',1400],['chrome',390],['webkit',320]]){
  }
  await p.selectOption('#br-part','20');await paint(15,20);let final=await labels();assert.equal(final[20*32+15],21);assert.equal(final[20*32+16],20);
  await p.selectOption('#br-part','6');const a=await point(2,25);await p.mouse.move(a.x,a.y);await p.locator('#canvas').focus();await p.keyboard.press('Enter');final=await labels();assert.equal(final[25*32+2],7);assert.equal(final[25*32+29],6);
- await p.locator('#br-copy').click();const exported=JSON.parse(await p.locator('#br-text').inputValue());assert.deepEqual(exported.directions.south[0].labels,final);assert.deepEqual(exported.parts,seed.parts);assert.deepEqual(exported.registration,seed.registration);assert.equal(exported.version,1);await p.locator('#br-close-transfer').click();
+ await p.evaluate(()=>Object.defineProperty(navigator.clipboard,'writeText',{configurable:true,value:()=>Promise.reject(new DOMException('Synthetic denial','NotAllowedError'))}));await p.locator('#br-copy').click();const exported=JSON.parse(await p.locator('#br-text').inputValue());assert.deepEqual(exported.directions.south[0].labels,final);assert.deepEqual(exported.parts,seed.parts);assert.deepEqual(exported.registration,seed.registration);assert.equal(exported.version,1);await p.locator('#br-close-transfer').click();await p.evaluate(()=>delete navigator.clipboard.writeText);
  await p.locator('#br-import').click();await p.locator('#br-text').fill(JSON.stringify(backup));await p.locator('#br-apply').click();assert.deepEqual(await labels(),expectedLegacy);await p.locator('#undo').click();assert.deepEqual(await labels(),final);await p.locator('#redo').click();assert.deepEqual(await labels(),expectedLegacy);await p.locator('#undo').click();assert.deepEqual(await labels(),final);
  // The guarded fixture initializer leaves the real autosave intact on reload.
  await p.evaluate(()=>sessionStorage.setItem('paired-reload-check','ready'));

@@ -1,0 +1,57 @@
+{
+  "pass": true,
+  "checks": [
+    "north slot0 exact nearest2x, binary alpha, declared frame/flip",
+    "north slot1 exact nearest2x, binary alpha, declared frame/flip",
+    "north slot2 exact nearest2x, binary alpha, declared frame/flip",
+    "north slot3 exact nearest2x, binary alpha, declared frame/flip",
+    "north slot4 exact nearest2x, binary alpha, declared frame/flip",
+    "north slot5 exact nearest2x, binary alpha, declared frame/flip",
+    "north slot6 exact nearest2x, binary alpha, declared frame/flip",
+    "north slot7 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot0 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot1 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot2 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot3 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot4 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot5 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot6 exact nearest2x, binary alpha, declared frame/flip",
+    "west slot7 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot0 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot1 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot2 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot3 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot4 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot5 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot6 exact nearest2x, binary alpha, declared frame/flip",
+    "east slot7 exact nearest2x, binary alpha, declared frame/flip"
+  ],
+  "sourceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "sourceSHA256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+  "mapping": {
+    "north": [
+      5,
+      1,
+      6,
+      1
+    ],
+    "west": [
+      7,
+      2,
+      8,
+      2
+    ],
+    "east": [
+      7,
+      2,
+      8,
+      2
+    ]
+  },
+  "eastSourceHFlip": true,
+  "fixedAnchor": [
+    16,
+    64
+  ],
+  "notFanRefined": true
+}

@@ -1,5 +1,12 @@
 # Critz: Tycoon — art bible
 
+## User-correctable rough walk labels — M1.DC2
+
+Latest Phil instruction explicitly authorizes rough anatomical label drafts for ALL unique directional walking references, to correct manually. Preserve his finished714-cell south pose exactly as the anchor and keep the entire original project verbatim. New south strides derive from that anchor and actual source pose landmarks; W/E/N labels follow the actual visible reference envelopes and feature positions. Covered scalp/internal limb/clothing/pack-occluded ownership is a declared rough proposal, not recovered anatomy. Do not add hidden eyes/limbs to meet counts: North has no eyes, profiles have one visible eye. Keep anatomical identities consistent; mirror opposite views with identity remapping, never share labels between facings. Source-identical repeated frames share editable labels within a view; timeline order/holds remain separate.
+
+South reference is the supplied refined eight100ms GIF. West/North/East use actual original Emerald16×32 frames enlarged nearest2×, raw PNG palette, verified source mapping/clock/East flip at pinned5eff7864—not fabricated fan-refined art. Reference images/offsets do not alter labels. Rough drafts remain explicitly unapproved for Phil to correct; this editor request does not restart NPC roster/game artwork. [Actual evidence and qualifications](reviews/M1-DC2/README.md).
+
+
 ## Dummy Creator annotation and reference contract — M1.DC1
 
 Phil’s supplied Region Labels define the editable dummy; never replace them with RD1 or generated estimates. Stable anatomical IDs (left/right/center) and category metadata—not annotation colors—identify all parts across frames/views. Front/back automatic assignment reverses with viewpoint; profile ownership requires explicit side. Mirroring changes subsequent marks and writes opposite identities, not hidden-body truth. Other direction layouts initially copy the supplied map and are labeled unfinished templates until manually edited/reviewed.

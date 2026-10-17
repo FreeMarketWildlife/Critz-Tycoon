@@ -1,0 +1,27 @@
+{
+  "attachmentName": "Pasted text(20261017-023429).txt",
+  "bytes": 22997,
+  "sha256": "f88b094cf73ff272aaa629cfcc8ef1a9f02f6d01989d11b4e20a6ca3411736d7",
+  "verbatimMaterializedBytes": true,
+  "strictProjectSchema": "critz.dummy-creator.project",
+  "version": 1,
+  "canvas": [
+    32,
+    64
+  ],
+  "partDefinitions": 28,
+  "colorMetadataUnchanged": true,
+  "activeDirection": "south",
+  "activeFrame": 0,
+  "framesByDirection": {
+    "south": 1,
+    "west": 1,
+    "east": 1,
+    "north": 1
+  },
+  "southLabelCount": 2048,
+  "southOccupied": 714,
+  "southChangesFromEarlierSuppliedMap": 30,
+  "otherDirectionsUnchangedFromEarlierMap": true,
+  "projectSerializationExact": true
+}

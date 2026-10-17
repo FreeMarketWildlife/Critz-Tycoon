@@ -1,0 +1,433 @@
+{
+  "status": "ROUGH USER-CORRECTION DRAFT; not appearance approved",
+  "approvedAnchorSHA256": "f88b094cf73ff272aaa629cfcc8ef1a9f02f6d01989d11b4e20a6ca3411736d7",
+  "southAnchorLabelsExact": true,
+  "uniqueEditablePoses": 12,
+  "timelineSlots": 32,
+  "perDirection": {
+    "south": [
+      {
+        "slot": 0,
+        "celId": "south-1e077d628afa",
+        "referencePixelSHA256": "1e077d628afae17f172d4df810a65dcbb985a499b490733da716fddea5a1f9da",
+        "marked": 654
+      },
+      {
+        "slot": 1,
+        "celId": "south-1e077d628afa",
+        "referencePixelSHA256": "1e077d628afae17f172d4df810a65dcbb985a499b490733da716fddea5a1f9da",
+        "marked": 654
+      },
+      {
+        "slot": 2,
+        "celId": "south-00676127c2f1",
+        "referencePixelSHA256": "00676127c2f156f8ee4b62784dc851c8868220f4cc4007675a98ffec3cde1af2",
+        "marked": 714
+      },
+      {
+        "slot": 3,
+        "celId": "south-00676127c2f1",
+        "referencePixelSHA256": "00676127c2f156f8ee4b62784dc851c8868220f4cc4007675a98ffec3cde1af2",
+        "marked": 714
+      },
+      {
+        "slot": 4,
+        "celId": "south-ab251de5d408",
+        "referencePixelSHA256": "ab251de5d408e11e784f01d2521c3cc13f1b13b6bb6013583f4e27cf6e451905",
+        "marked": 654
+      },
+      {
+        "slot": 5,
+        "celId": "south-ab251de5d408",
+        "referencePixelSHA256": "ab251de5d408e11e784f01d2521c3cc13f1b13b6bb6013583f4e27cf6e451905",
+        "marked": 654
+      },
+      {
+        "slot": 6,
+        "celId": "south-00676127c2f1",
+        "referencePixelSHA256": "00676127c2f156f8ee4b62784dc851c8868220f4cc4007675a98ffec3cde1af2",
+        "marked": 714
+      },
+      {
+        "slot": 7,
+        "celId": "south-00676127c2f1",
+        "referencePixelSHA256": "00676127c2f156f8ee4b62784dc851c8868220f4cc4007675a98ffec3cde1af2",
+        "marked": 714
+      }
+    ],
+    "west": [
+      {
+        "slot": 0,
+        "celId": "west-7856451a6df9",
+        "referencePixelSHA256": "7856451a6df9e1c1e80aa0d6c3257de6b836d840f63f90c7f2da7badbb4eedef",
+        "marked": 666
+      },
+      {
+        "slot": 1,
+        "celId": "west-7856451a6df9",
+        "referencePixelSHA256": "7856451a6df9e1c1e80aa0d6c3257de6b836d840f63f90c7f2da7badbb4eedef",
+        "marked": 666
+      },
+      {
+        "slot": 2,
+        "celId": "west-83844d6363d2",
+        "referencePixelSHA256": "83844d6363d237405a4cf3995aac7d6cdc1bd35f686d274260647b37c8fc476f",
+        "marked": 630
+      },
+      {
+        "slot": 3,
+        "celId": "west-83844d6363d2",
+        "referencePixelSHA256": "83844d6363d237405a4cf3995aac7d6cdc1bd35f686d274260647b37c8fc476f",
+        "marked": 630
+      },
+      {
+        "slot": 4,
+        "celId": "west-795bf1e83e6b",
+        "referencePixelSHA256": "795bf1e83e6b9d8528ef7dae24eb1c9c672491f43387694347b3c6f32276fafc",
+        "marked": 662
+      },
+      {
+        "slot": 5,
+        "celId": "west-795bf1e83e6b",
+        "referencePixelSHA256": "795bf1e83e6b9d8528ef7dae24eb1c9c672491f43387694347b3c6f32276fafc",
+        "marked": 662
+      },
+      {
+        "slot": 6,
+        "celId": "west-83844d6363d2",
+        "referencePixelSHA256": "83844d6363d237405a4cf3995aac7d6cdc1bd35f686d274260647b37c8fc476f",
+        "marked": 630
+      },
+      {
+        "slot": 7,
+        "celId": "west-83844d6363d2",
+        "referencePixelSHA256": "83844d6363d237405a4cf3995aac7d6cdc1bd35f686d274260647b37c8fc476f",
+        "marked": 630
+      }
+    ],
+    "east": [
+      {
+        "slot": 0,
+        "celId": "east-90ad5a7928cc",
+        "referencePixelSHA256": "90ad5a7928cc33c95b66ea16a7c8b2bf03eb7f025979e567db9b6e268ef8b060",
+        "marked": 666
+      },
+      {
+        "slot": 1,
+        "celId": "east-90ad5a7928cc",
+        "referencePixelSHA256": "90ad5a7928cc33c95b66ea16a7c8b2bf03eb7f025979e567db9b6e268ef8b060",
+        "marked": 666
+      },
+      {
+        "slot": 2,
+        "celId": "east-ab77df09e029",
+        "referencePixelSHA256": "ab77df09e02952333f694f97109e16026e237bb1e2866fe3a7530e434f9e93f8",
+        "marked": 630
+      },
+      {
+        "slot": 3,
+        "celId": "east-ab77df09e029",
+        "referencePixelSHA256": "ab77df09e02952333f694f97109e16026e237bb1e2866fe3a7530e434f9e93f8",
+        "marked": 630
+      },
+      {
+        "slot": 4,
+        "celId": "east-5760af9b8584",
+        "referencePixelSHA256": "5760af9b85843c484f2d03cc30059f38b2d37f1e497139fa1d5880bd1b66a5db",
+        "marked": 662
+      },
+      {
+        "slot": 5,
+        "celId": "east-5760af9b8584",
+        "referencePixelSHA256": "5760af9b85843c484f2d03cc30059f38b2d37f1e497139fa1d5880bd1b66a5db",
+        "marked": 662
+      },
+      {
+        "slot": 6,
+        "celId": "east-ab77df09e029",
+        "referencePixelSHA256": "ab77df09e02952333f694f97109e16026e237bb1e2866fe3a7530e434f9e93f8",
+        "marked": 630
+      },
+      {
+        "slot": 7,
+        "celId": "east-ab77df09e029",
+        "referencePixelSHA256": "ab77df09e02952333f694f97109e16026e237bb1e2866fe3a7530e434f9e93f8",
+        "marked": 630
+      }
+    ],
+    "north": [
+      {
+        "slot": 0,
+        "celId": "north-41a92198d09a",
+        "referencePixelSHA256": "41a92198d09aa9febf0c39f262f7cfeee12f62186102d4d4cc5379ace70324f9",
+        "marked": 724
+      },
+      {
+        "slot": 1,
+        "celId": "north-41a92198d09a",
+        "referencePixelSHA256": "41a92198d09aa9febf0c39f262f7cfeee12f62186102d4d4cc5379ace70324f9",
+        "marked": 724
+      },
+      {
+        "slot": 2,
+        "celId": "north-b4d145ace4f7",
+        "referencePixelSHA256": "b4d145ace4f7267c14c4bc3a288c4d5833b3af06632a571884bdd64d57a27607",
+        "marked": 812
+      },
+      {
+        "slot": 3,
+        "celId": "north-b4d145ace4f7",
+        "referencePixelSHA256": "b4d145ace4f7267c14c4bc3a288c4d5833b3af06632a571884bdd64d57a27607",
+        "marked": 812
+      },
+      {
+        "slot": 4,
+        "celId": "north-8a60ca5ce2b2",
+        "referencePixelSHA256": "8a60ca5ce2b2735c91b6156b65c7aedd5e581d0eb5b440972d3aa3a3460674c8",
+        "marked": 724
+      },
+      {
+        "slot": 5,
+        "celId": "north-8a60ca5ce2b2",
+        "referencePixelSHA256": "8a60ca5ce2b2735c91b6156b65c7aedd5e581d0eb5b440972d3aa3a3460674c8",
+        "marked": 724
+      },
+      {
+        "slot": 6,
+        "celId": "north-b4d145ace4f7",
+        "referencePixelSHA256": "b4d145ace4f7267c14c4bc3a288c4d5833b3af06632a571884bdd64d57a27607",
+        "marked": 812
+      },
+      {
+        "slot": 7,
+        "celId": "north-b4d145ace4f7",
+        "referencePixelSHA256": "b4d145ace4f7267c14c4bc3a288c4d5833b3af06632a571884bdd64d57a27607",
+        "marked": 812
+      }
+    ]
+  },
+  "partCounts": {
+    "south-1e077d628afa": {
+      "0": 1394,
+      "17": 164,
+      "16": 164,
+      "19": 22,
+      "18": 22,
+      "15": 8,
+      "14": 8,
+      "6": 26,
+      "8": 8,
+      "7": 11,
+      "20": 48,
+      "9": 16,
+      "21": 38,
+      "23": 26,
+      "22": 19,
+      "11": 15,
+      "10": 8,
+      "13": 13,
+      "12": 38
+    },
+    "south-00676127c2f1": {
+      "0": 1334,
+      "17": 164,
+      "16": 164,
+      "19": 22,
+      "18": 22,
+      "15": 8,
+      "14": 8,
+      "7": 20,
+      "6": 20,
+      "21": 64,
+      "20": 64,
+      "9": 21,
+      "8": 21,
+      "23": 14,
+      "22": 14,
+      "11": 14,
+      "10": 14,
+      "13": 30,
+      "12": 30
+    },
+    "south-ab251de5d408": {
+      "0": 1394,
+      "17": 164,
+      "16": 164,
+      "19": 22,
+      "18": 22,
+      "15": 8,
+      "14": 8,
+      "7": 32,
+      "9": 8,
+      "20": 47,
+      "6": 6,
+      "21": 38,
+      "8": 16,
+      "23": 20,
+      "22": 25,
+      "11": 11,
+      "10": 12,
+      "13": 38,
+      "12": 13
+    },
+    "west-7856451a6df9": {
+      "0": 1382,
+      "16": 368,
+      "14": 8,
+      "18": 6,
+      "20": 76,
+      "6": 16,
+      "7": 8,
+      "9": 8,
+      "8": 16,
+      "22": 36,
+      "11": 22,
+      "10": 26,
+      "13": 26,
+      "12": 50
+    },
+    "west-83844d6363d2": {
+      "0": 1418,
+      "16": 368,
+      "14": 8,
+      "18": 6,
+      "20": 100,
+      "6": 16,
+      "7": 8,
+      "9": 8,
+      "8": 16,
+      "22": 28,
+      "10": 24,
+      "12": 48
+    },
+    "west-795bf1e83e6b": {
+      "0": 1386,
+      "16": 368,
+      "14": 8,
+      "18": 6,
+      "20": 72,
+      "6": 16,
+      "7": 8,
+      "9": 8,
+      "8": 16,
+      "22": 32,
+      "10": 26,
+      "11": 22,
+      "12": 50,
+      "13": 30
+    },
+    "east-90ad5a7928cc": {
+      "0": 1382,
+      "17": 368,
+      "15": 8,
+      "19": 6,
+      "21": 76,
+      "7": 16,
+      "6": 8,
+      "9": 16,
+      "8": 8,
+      "23": 36,
+      "11": 26,
+      "10": 22,
+      "13": 50,
+      "12": 26
+    },
+    "east-ab77df09e029": {
+      "0": 1418,
+      "17": 368,
+      "15": 8,
+      "19": 6,
+      "21": 100,
+      "7": 16,
+      "6": 8,
+      "9": 16,
+      "8": 8,
+      "23": 28,
+      "11": 24,
+      "13": 48
+    },
+    "east-5760af9b8584": {
+      "0": 1386,
+      "17": 368,
+      "15": 8,
+      "19": 6,
+      "21": 72,
+      "7": 16,
+      "6": 8,
+      "9": 16,
+      "8": 8,
+      "23": 32,
+      "10": 22,
+      "11": 26,
+      "12": 30,
+      "13": 50
+    },
+    "north-41a92198d09a": {
+      "0": 1324,
+      "16": 186,
+      "17": 186,
+      "18": 24,
+      "19": 24,
+      "6": 28,
+      "20": 40,
+      "21": 48,
+      "7": 20,
+      "8": 24,
+      "9": 20,
+      "22": 12,
+      "23": 16,
+      "10": 16,
+      "11": 20,
+      "12": 44,
+      "13": 16
+    },
+    "north-b4d145ace4f7": {
+      "0": 1236,
+      "16": 186,
+      "17": 186,
+      "18": 24,
+      "19": 24,
+      "6": 28,
+      "20": 52,
+      "21": 64,
+      "7": 28,
+      "8": 44,
+      "9": 32,
+      "22": 20,
+      "23": 20,
+      "10": 20,
+      "11": 20,
+      "12": 32,
+      "13": 32
+    },
+    "north-8a60ca5ce2b2": {
+      "0": 1324,
+      "16": 186,
+      "17": 186,
+      "18": 24,
+      "19": 24,
+      "6": 20,
+      "20": 40,
+      "21": 48,
+      "7": 28,
+      "8": 32,
+      "9": 12,
+      "22": 12,
+      "23": 16,
+      "10": 20,
+      "11": 16,
+      "12": 16,
+      "13": 44
+    }
+  },
+  "northNoEyes": true,
+  "profilesOneVisibleEyeSide": true,
+  "eastMirrorRemapsAnatomicalPairs": true,
+  "timing": "Actual fan south100ms slots; original Emerald8-update commands preserved as two4-update UI slots",
+  "proposals": [
+    "Covered scalp contours under hat are rough reconstructions",
+    "Body/arm/hand/clothed volumes and near/far ownership are source-anchored approximations",
+    "Reference pack-occluded torso segmentation is proposed, not recovered anatomy",
+    "No additional hidden pixels/limbs painted to meet counts; Phil will correct labels"
+  ]
+}

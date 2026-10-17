@@ -1,0 +1,494 @@
+{
+  "sourceRevision": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "sourceURL": "https://raw.githubusercontent.com/pret/pokeemerald/5eff78649e7170a877b961ef0b3da13b81a16038/graphics/object_events/pics/people/brendan/walking.png",
+  "sourceSHA256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+  "nativeFrame": [
+    16,
+    32
+  ],
+  "displayFrame": [
+    32,
+    64
+  ],
+  "background": "Source palette index0 transparent; other raw PNG palette RGB retained, not emulator color capture",
+  "tickMs": 16.742706298828125,
+  "animationDeclarations": {
+    "object-event-anims.h": {
+      "sha256": "4663646948caefc458e31684d6f3b89d55f50b34d8c8a6c7ca1724d139549b2a"
+    },
+    "object-event-pics.h": {
+      "sha256": "9d3f6afdfd3010fecfaf44a956de30a4f6d9697205b2e0ff78f5e285f47d6471"
+    },
+    "object-event-info.h": {
+      "sha256": "eeb2cf276ee20664276c7905bd1e36ed40519e271655a0ef2bed3b1d56960983"
+    }
+  },
+  "notFanRefined": true,
+  "directions": {
+    "north": {
+      "kind": "original-emerald-nearest-2x",
+      "label": "Original Emerald Brendan \u00b7 native16\u00d732 enlarged nearest2\u00d7",
+      "frames": [
+        {
+          "file": "north-0.png",
+          "sourceFrame": 5,
+          "hFlip": false,
+          "sourceCommand": 0,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride A",
+          "bounds": [
+            2,
+            22,
+            30,
+            64
+          ],
+          "sha256": "8cde09615ee8efb928ab70f9216e3d832550d5b9fb49a01bfc2aee084ff6195f"
+        },
+        {
+          "file": "north-1.png",
+          "sourceFrame": 5,
+          "hFlip": false,
+          "sourceCommand": 0,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride A",
+          "bounds": [
+            2,
+            22,
+            30,
+            64
+          ],
+          "sha256": "8cde09615ee8efb928ab70f9216e3d832550d5b9fb49a01bfc2aee084ff6195f"
+        },
+        {
+          "file": "north-2.png",
+          "sourceFrame": 1,
+          "hFlip": false,
+          "sourceCommand": 1,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            2,
+            20,
+            30,
+            62
+          ],
+          "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5"
+        },
+        {
+          "file": "north-3.png",
+          "sourceFrame": 1,
+          "hFlip": false,
+          "sourceCommand": 1,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            2,
+            20,
+            30,
+            62
+          ],
+          "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5"
+        },
+        {
+          "file": "north-4.png",
+          "sourceFrame": 6,
+          "hFlip": false,
+          "sourceCommand": 2,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride B",
+          "bounds": [
+            2,
+            22,
+            30,
+            64
+          ],
+          "sha256": "bd6ab840948a43e79708ac127afb1a47663efe8eb7de223a61026485c1b20295"
+        },
+        {
+          "file": "north-5.png",
+          "sourceFrame": 6,
+          "hFlip": false,
+          "sourceCommand": 2,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride B",
+          "bounds": [
+            2,
+            22,
+            30,
+            64
+          ],
+          "sha256": "bd6ab840948a43e79708ac127afb1a47663efe8eb7de223a61026485c1b20295"
+        },
+        {
+          "file": "north-6.png",
+          "sourceFrame": 1,
+          "hFlip": false,
+          "sourceCommand": 3,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            2,
+            20,
+            30,
+            62
+          ],
+          "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5"
+        },
+        {
+          "file": "north-7.png",
+          "sourceFrame": 1,
+          "hFlip": false,
+          "sourceCommand": 3,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            2,
+            20,
+            30,
+            62
+          ],
+          "sha256": "c5ebc8e578ea3463b53735d2250cf3fa9e94e15994817b35c44ad3995de37fa5"
+        }
+      ],
+      "sourceOrder": [
+        5,
+        1,
+        6,
+        1
+      ],
+      "sourceHoldTicks": 8,
+      "uiSlots": "Each 8-update source command split into two identical 4-update selectable UI slots; pixels/order/total duration unchanged.",
+      "loopMs": 535.7666015625,
+      "anchor": [
+        16,
+        64
+      ]
+    },
+    "west": {
+      "kind": "original-emerald-nearest-2x",
+      "label": "Original Emerald Brendan \u00b7 native16\u00d732 enlarged nearest2\u00d7",
+      "frames": [
+        {
+          "file": "west-0.png",
+          "sourceFrame": 7,
+          "hFlip": false,
+          "sourceCommand": 0,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride A",
+          "bounds": [
+            4,
+            22,
+            32,
+            64
+          ],
+          "sha256": "5f992b29a85f8f3bfd4a08254e1661966e6f25749b23f86803a34b0275510069"
+        },
+        {
+          "file": "west-1.png",
+          "sourceFrame": 7,
+          "hFlip": false,
+          "sourceCommand": 0,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride A",
+          "bounds": [
+            4,
+            22,
+            32,
+            64
+          ],
+          "sha256": "5f992b29a85f8f3bfd4a08254e1661966e6f25749b23f86803a34b0275510069"
+        },
+        {
+          "file": "west-2.png",
+          "sourceFrame": 2,
+          "hFlip": false,
+          "sourceCommand": 1,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            4,
+            20,
+            32,
+            62
+          ],
+          "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6"
+        },
+        {
+          "file": "west-3.png",
+          "sourceFrame": 2,
+          "hFlip": false,
+          "sourceCommand": 1,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            4,
+            20,
+            32,
+            62
+          ],
+          "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6"
+        },
+        {
+          "file": "west-4.png",
+          "sourceFrame": 8,
+          "hFlip": false,
+          "sourceCommand": 2,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride B",
+          "bounds": [
+            4,
+            22,
+            32,
+            64
+          ],
+          "sha256": "015e1423824df009aa0921d73cc723c0b9e2b91c06323b87b0508a92bcf839a9"
+        },
+        {
+          "file": "west-5.png",
+          "sourceFrame": 8,
+          "hFlip": false,
+          "sourceCommand": 2,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride B",
+          "bounds": [
+            4,
+            22,
+            32,
+            64
+          ],
+          "sha256": "015e1423824df009aa0921d73cc723c0b9e2b91c06323b87b0508a92bcf839a9"
+        },
+        {
+          "file": "west-6.png",
+          "sourceFrame": 2,
+          "hFlip": false,
+          "sourceCommand": 3,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            4,
+            20,
+            32,
+            62
+          ],
+          "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6"
+        },
+        {
+          "file": "west-7.png",
+          "sourceFrame": 2,
+          "hFlip": false,
+          "sourceCommand": 3,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            4,
+            20,
+            32,
+            62
+          ],
+          "sha256": "eba2894702c555e87432b9106817bf3ad1985499a6eb4f9f5361a14be4c8eda6"
+        }
+      ],
+      "sourceOrder": [
+        7,
+        2,
+        8,
+        2
+      ],
+      "sourceHoldTicks": 8,
+      "uiSlots": "Each 8-update source command split into two identical 4-update selectable UI slots; pixels/order/total duration unchanged.",
+      "loopMs": 535.7666015625,
+      "anchor": [
+        16,
+        64
+      ]
+    },
+    "east": {
+      "kind": "original-emerald-nearest-2x",
+      "label": "Original Emerald Brendan \u00b7 native16\u00d732 enlarged nearest2\u00d7",
+      "frames": [
+        {
+          "file": "east-0.png",
+          "sourceFrame": 7,
+          "hFlip": true,
+          "sourceCommand": 0,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride A",
+          "bounds": [
+            0,
+            22,
+            28,
+            64
+          ],
+          "sha256": "c5ac4a9f16f48cbd1d28a8c0de10a8d695dd05dcabc10f387ab5cffe0f996268"
+        },
+        {
+          "file": "east-1.png",
+          "sourceFrame": 7,
+          "hFlip": true,
+          "sourceCommand": 0,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride A",
+          "bounds": [
+            0,
+            22,
+            28,
+            64
+          ],
+          "sha256": "c5ac4a9f16f48cbd1d28a8c0de10a8d695dd05dcabc10f387ab5cffe0f996268"
+        },
+        {
+          "file": "east-2.png",
+          "sourceFrame": 2,
+          "hFlip": true,
+          "sourceCommand": 1,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            0,
+            20,
+            28,
+            62
+          ],
+          "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c"
+        },
+        {
+          "file": "east-3.png",
+          "sourceFrame": 2,
+          "hFlip": true,
+          "sourceCommand": 1,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            0,
+            20,
+            28,
+            62
+          ],
+          "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c"
+        },
+        {
+          "file": "east-4.png",
+          "sourceFrame": 8,
+          "hFlip": true,
+          "sourceCommand": 2,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride B",
+          "bounds": [
+            0,
+            22,
+            28,
+            64
+          ],
+          "sha256": "f246eb57f82b5097eb59ce0a014ad911935bae10d0628d61e553d6f4e7fdf142"
+        },
+        {
+          "file": "east-5.png",
+          "sourceFrame": 8,
+          "hFlip": true,
+          "sourceCommand": 2,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "stride B",
+          "bounds": [
+            0,
+            22,
+            28,
+            64
+          ],
+          "sha256": "f246eb57f82b5097eb59ce0a014ad911935bae10d0628d61e553d6f4e7fdf142"
+        },
+        {
+          "file": "east-6.png",
+          "sourceFrame": 2,
+          "hFlip": true,
+          "sourceCommand": 3,
+          "uiHalf": 0,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            0,
+            20,
+            28,
+            62
+          ],
+          "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c"
+        },
+        {
+          "file": "east-7.png",
+          "sourceFrame": 2,
+          "hFlip": true,
+          "sourceCommand": 3,
+          "uiHalf": 1,
+          "ticks": 4,
+          "durationMs": 66.9708251953125,
+          "pose": "idle",
+          "bounds": [
+            0,
+            20,
+            28,
+            62
+          ],
+          "sha256": "8a2e13890caa100286ae0d39e139d5df3f84db2d07942a001f5a20a368b2933c"
+        }
+      ],
+      "sourceOrder": [
+        7,
+        2,
+        8,
+        2
+      ],
+      "sourceHoldTicks": 8,
+      "uiSlots": "Each 8-update source command split into two identical 4-update selectable UI slots; pixels/order/total duration unchanged.",
+      "loopMs": 535.7666015625,
+      "anchor": [
+        16,
+        64
+      ]
+    }
+  }
+}

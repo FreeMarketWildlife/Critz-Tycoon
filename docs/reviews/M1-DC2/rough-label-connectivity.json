@@ -1,0 +1,122 @@
+{
+  "south-1e077d628afa": {
+    "marked": 654,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      3,
+      29,
+      29,
+      64
+    ]
+  },
+  "south-00676127c2f1": {
+    "marked": 714,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      3,
+      27,
+      29,
+      62
+    ]
+  },
+  "south-ab251de5d408": {
+    "marked": 654,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      3,
+      29,
+      29,
+      64
+    ]
+  },
+  "west-7856451a6df9": {
+    "marked": 666,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      4,
+      29,
+      28,
+      64
+    ]
+  },
+  "west-83844d6363d2": {
+    "marked": 630,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      4,
+      27,
+      28,
+      62
+    ]
+  },
+  "west-795bf1e83e6b": {
+    "marked": 662,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      4,
+      29,
+      28,
+      64
+    ]
+  },
+  "east-90ad5a7928cc": {
+    "marked": 666,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      4,
+      29,
+      28,
+      64
+    ]
+  },
+  "east-ab77df09e029": {
+    "marked": 630,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      4,
+      27,
+      28,
+      62
+    ]
+  },
+  "east-5760af9b8584": {
+    "marked": 662,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      4,
+      29,
+      28,
+      64
+    ]
+  },
+  "north-41a92198d09a": {
+    "marked": 724,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      2,
+      27,
+      30,
+      64
+    ]
+  },
+  "north-b4d145ace4f7": {
+    "marked": 812,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      2,
+      25,
+      30,
+      62
+    ]
+  },
+  "north-8a60ca5ce2b2": {
+    "marked": 724,
+    "fourConnectedComponents": 1,
+    "bounds": [
+      2,
+      27,
+      30,
+      64
+    ]
+  }
+}
