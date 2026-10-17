@@ -2,7 +2,7 @@
 
 ## M1.DUI1 — editor workspace cleanup
 
-In progress: publish the tested scoped Dummy Creator layout refresh to the existing Site. Direction arrows belong immediately above Parts in the right inspector; use accessible icons, preserve phone canvas access and stored frame timing without a speed input. Preserve all label projects, shared links, history, drafts and game saves. Artwork gates remain unchanged. [Evidence](reviews/M1-DUI1/README.md).
+Complete: published v66 on the existing public Site, with nine hosted desktop/phone cases passing. Exact next: Phil uses the updated controls; artwork gates remain unchanged. Direction arrows belong immediately above Parts in the right inspector; use accessible icons, preserve phone canvas access and stored frame timing without a speed input. Preserve all label projects, shared links, history, drafts and game saves. Artwork gates remain unchanged. [Evidence](reviews/M1-DUI1/README.md).
 
 ## M1.DC2 — completed requested editor setup; Phil corrects rough poses next
 

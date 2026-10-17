@@ -1,0 +1,16 @@
+{
+  "archiveSHA256": "3d121b1f9a4dd120c3ad79a775186ae0df8a4d6de3f626f6e3cd389e03e27e4b",
+  "fileCount": 5944,
+  "allEditorFilesMatchTestedSource": 62,
+  "missing": [],
+  "changed": [
+    "dist/sprite-editor/README.md",
+    "dist/sprite-editor/dummy-creator.js",
+    "dist/sprite-editor/editor.css"
+  ],
+  "added": [
+    "dist/sprite-editor/dummy-icons.js"
+  ],
+  "protectedNonEditorExact": 5882,
+  "noAppleDoubleFiles": true
+}
