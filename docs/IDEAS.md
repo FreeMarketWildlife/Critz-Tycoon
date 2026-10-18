@@ -255,6 +255,19 @@ Fill Critz: Tycoon with discoverable, affectionate Easter eggs referencing succe
 - **Possible details, not locked:** standout goldfish with names and personalities; a lesson on goldfish care and adequate aquarium sizes; a small side quest about helping a goldfish thrive; special seasonal stock only here.
 - **Suggested draft flavor (not approved dialogue):** "Around here, every nugget deserves a good home."
 
+#### First-meeting quest: the outdoor heating pump
+
+**State:** user-requested brainstorm captured, 2026-10-18; not implemented or assigned to a milestone. This is the complete requested quest sequence.
+
+**Cutscene definition:** A cutscene is **any sequence in which the player cannot move and scripted/pre-recorded NPC and player actions occur**. This includes in-world event sequences; it does not require a cinematic video.
+
+1. **First meeting, outside Luke’s Greenhouse:** Luke is working a wet concrete slab with his bare hands for his heating pump. He explains that placing the pump outside keeps it from shaking the greenhouse. After speaking to the player, he says exactly: **“GO AWAY IM BUSY!”**
+2. **First time gate:** After **one full in-game day has elapsed following that first meeting**, the player sees the finished concrete pad and heating pump outside.
+3. **Entrance-triggered cutscene:** After that time gate, **attempting to enter the greenhouse triggers the cutscene**. A nurse wheels Luke in a wheelchair; his hands are bandaged. Luke says he **“got 3rd degree burns”**. He closes the shop for that day and says: **“come back tomorrow kid, I’ve gotta rest up”**. The greenhouse locks.
+4. **Second time gate and completion:** After **one further full in-game day has elapsed following the closure cutscene**, the greenhouse functions normally. That completes the quest.
+
+The two time gates use elapsed **in-game** days. The finished pad/pump reveal follows the first gate; the wheelchair scene is triggered by the subsequent entrance attempt, not merely by time passing. The second gate starts with that closure scene. No fetch tasks, additional consequences, or extra quest stages are part of this request. Existing normal greenhouse/shop behavior above remains the baseline after reopening.
+
 ### Priority cameo: SerpaDesign — specialist naturalistic landscaping
 
 - **Real-world inspiration:** **Tanner Serpa / SerpaDesign**, known for planted aquariums, terrariums, vivariums, paludariums, and detailed naturalistic habitats.
