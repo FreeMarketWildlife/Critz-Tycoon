@@ -1,0 +1,165 @@
+{
+  "scope": "forward only, unapproved motion/art review",
+  "sourceFrameCount": 8,
+  "candidateFrameCount": 8,
+  "candidateUniquePoseCount": 3,
+  "allPNGsEqualEditableSource": true,
+  "allWalkHeadsExactlyTranslatedHR6": true,
+  "idleHeadExactHR6": true,
+  "defaultMouthNoseEmpty": true,
+  "visibleEyeBandsMatchConfirmedReference": true,
+  "allCandidatePosesConnected": true,
+  "originalPosePaletteLimit": 15,
+  "idleAnatomyPaired": true,
+  "registration": {
+    "leftCropDisplay": [
+      0,
+      0,
+      128,
+      192
+    ],
+    "uniformDisplayBlocks": [
+      4,
+      4
+    ],
+    "logicalCrop": [
+      32,
+      48
+    ],
+    "targetFrame": [
+      32,
+      64
+    ],
+    "fixedTopPadding": 14,
+    "fixedBottomPadding": 2,
+    "mapping": "target x=display x/4; target y=display y/4+14, identical every frame",
+    "groundAnchorConvention": [
+      16,
+      64
+    ],
+    "limitations": "Bottom edge is visible occupied in stride frames. Unknown uncropped extent/padding; 14top+2bottom is a fixed registration proposal; chosen target anchor is comparison convention, not measured artist anchor. No per-frame fits."
+  },
+  "gifs": {
+    "hero-forward-walk-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "9b479616815c4da08e1a736a0e0fc66f34662fcfd3a2b40f390aa481215c9b5d"
+    },
+    "hero-forward-walk-4x.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "7c2920e69c6b100d265c7a425f75b1de29cefeb8d61d547b4d8f5189177f76bb"
+    },
+    "source-hero-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "08b2f45e876e653d5be74864d7c03110cfe7628bb0d1fa92fbad00152b76adbf"
+    },
+    "source-hero-4x.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "7b45565e2ce74f3156538f88a769603e5ba0961938dbce759810c8f5eb13fe96"
+    },
+    "source-hero-SLOW4x-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "6642b32fc3e7e53549518071cdd9492f6707234d2991be3f7fd8962415fc9fd3"
+    },
+    "source-hero-SLOW4x-4x.gif": {
+      "frames": 8,
+      "durationMs": [
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400,
+        400
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "750de4404d5ace49d595ba9921954550db21f2614d760602442953ddd3e415c4"
+    },
+    "hero-light-dark-native.gif": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": 0,
+      "exactSavedPixels": true,
+      "sha256": "c17d5da1642941ed61f3d1cbc167f089a3db135a3f403f043bc0b9a710c3209b"
+    }
+  },
+  "comparisonReferencePixelsExact": true,
+  "HR9BaselineCommitVerified": "9d1d1595329004829082ebe6fd44ea33208a3e06",
+  "allHeadEarFaceEyeMasksExactlyHR9": true,
+  "slowLoopMs": 3200,
+  "sourceSpeedLoopMs": 800,
+  "slowPixelsExactlySourceSpeedPixels": true,
+  "nativeLightDarkSpritePixelsExact": true,
+  "referenceRecheckedAgainstOriginalGIF": true,
+  "timingCaveat": "GIFs exactly100ms/frame/800ms loop; editor6 ticks imply100.45623779296875ms. No gameplay timing integration."
+}

@@ -1,0 +1,38 @@
+{
+  "idle": {
+    "changedCells": 202,
+    "canvas": [
+      32,
+      64
+    ],
+    "headExactAbove": 45,
+    "baseSHA256": "d672dd48da61b1b83cd9a3de5ca1c8f27e0e468cd621a14cf9389aa4c85a941e"
+  },
+  "A": {
+    "changedCells": 250,
+    "canvas": [
+      32,
+      64
+    ],
+    "headExactAbove": 45,
+    "baseSHA256": "36cfa8278ab82e3de7dd6ade42087c53d83da60a36ab63fbbcc0fd69e9b6eb1f"
+  },
+  "P": {
+    "changedCells": 211,
+    "canvas": [
+      32,
+      64
+    ],
+    "headExactAbove": 43,
+    "baseSHA256": "316d0061aaa3b5df967689b5434531cc08cf58d598f9d72bb66027a5cf021cf8"
+  },
+  "C": {
+    "changedCells": 252,
+    "canvas": [
+      32,
+      64
+    ],
+    "headExactAbove": 45,
+    "baseSHA256": "2a61a027337778413907202042d9417a48a4944beae9d8f25be3f5e2f7cbddd7"
+  }
+}

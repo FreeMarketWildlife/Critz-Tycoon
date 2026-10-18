@@ -1,0 +1,1564 @@
+{
+  "sourceSha256": "5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e",
+  "registration": "32x48 logical left crop at(0,14),32x64 comparison; no per-frame fit",
+  "annotationStatus": "Visible costume/overlap interpretation, not measured bone anatomy",
+  "kneeVisibility": "UNRESOLVED: no visible knee landmark in any frame",
+  "frames": [
+    {
+      "frame": 0,
+      "pose": "A",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 57,
+        "lowerColoredClusterStartAnnotated": 56,
+        "leadingOnlyAlphaBandStart": 58,
+        "feetBottom": 61,
+        "lowerClusterBoundsAt58": [
+          [
+            15,
+            23
+          ]
+        ],
+        "rearFootVisibility": "Not separately identifiable; do not invent a detached rear shoe"
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              8,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              7,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              6,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              5,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              5,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              5,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              6,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              10,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              10,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              11,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              15,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              15,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": [
+            [
+              16,
+              22
+            ]
+          ]
+        },
+        {
+          "y": 61,
+          "alphaRuns": [
+            [
+              17,
+              21
+            ]
+          ]
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "pose": "A",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 57,
+        "lowerColoredClusterStartAnnotated": 56,
+        "leadingOnlyAlphaBandStart": 58,
+        "feetBottom": 61,
+        "lowerClusterBoundsAt58": [
+          [
+            15,
+            23
+          ]
+        ],
+        "rearFootVisibility": "Not separately identifiable; do not invent a detached rear shoe"
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              8,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              7,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              6,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              5,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              5,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              5,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              5,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              6,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              10,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              10,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              11,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              15,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              15,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": [
+            [
+              16,
+              22
+            ]
+          ]
+        },
+        {
+          "y": 61,
+          "alphaRuns": [
+            [
+              17,
+              21
+            ]
+          ]
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "pose": "P",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 56,
+        "lowerColoredClusterStartAnnotated": 55,
+        "firstSeparatedLowerAlphaRuns": 57,
+        "feetBottom": 59,
+        "centralBridgeAt56": [
+          14,
+          18
+        ],
+        "lowerClusterSideBoundsAt57": [
+          [
+            7,
+            15
+          ],
+          [
+            17,
+            25
+          ]
+        ]
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              6,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              7,
+              15
+            ],
+            [
+              17,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": []
+        },
+        {
+          "y": 61,
+          "alphaRuns": []
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "pose": "P",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 56,
+        "lowerColoredClusterStartAnnotated": 55,
+        "firstSeparatedLowerAlphaRuns": 57,
+        "feetBottom": 59,
+        "centralBridgeAt56": [
+          14,
+          18
+        ],
+        "lowerClusterSideBoundsAt57": [
+          [
+            7,
+            15
+          ],
+          [
+            17,
+            25
+          ]
+        ]
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              6,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              7,
+              15
+            ],
+            [
+              17,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": []
+        },
+        {
+          "y": 61,
+          "alphaRuns": []
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "pose": "C",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 57,
+        "lowerColoredClusterStartAnnotated": 56,
+        "leadingOnlyAlphaBandStart": 58,
+        "feetBottom": 61,
+        "lowerClusterBoundsAt58": [
+          [
+            9,
+            17
+          ]
+        ],
+        "rearFootVisibility": "Not separately identifiable; do not invent a detached rear shoe"
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              3,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              3,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              3,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              3,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              4,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              7,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              8,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              9,
+              22
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              9,
+              22
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              9,
+              21
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              9,
+              17
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              9,
+              17
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": [
+            [
+              10,
+              16
+            ]
+          ]
+        },
+        {
+          "y": 61,
+          "alphaRuns": [
+            [
+              11,
+              15
+            ]
+          ]
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "pose": "C",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 57,
+        "lowerColoredClusterStartAnnotated": 56,
+        "leadingOnlyAlphaBandStart": 58,
+        "feetBottom": 61,
+        "lowerClusterBoundsAt58": [
+          [
+            9,
+            17
+          ]
+        ],
+        "rearFootVisibility": "Not separately identifiable; do not invent a detached rear shoe"
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              3,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              3,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              3,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              3,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              4,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              7,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              8,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              8,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              9,
+              22
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              9,
+              22
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              9,
+              21
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              9,
+              17
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              9,
+              17
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": [
+            [
+              10,
+              16
+            ]
+          ]
+        },
+        {
+          "y": 61,
+          "alphaRuns": [
+            [
+              11,
+              15
+            ]
+          ]
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "pose": "P",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 56,
+        "lowerColoredClusterStartAnnotated": 55,
+        "firstSeparatedLowerAlphaRuns": 57,
+        "feetBottom": 59,
+        "centralBridgeAt56": [
+          14,
+          18
+        ],
+        "lowerClusterSideBoundsAt57": [
+          [
+            7,
+            15
+          ],
+          [
+            17,
+            25
+          ]
+        ]
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              6,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              7,
+              15
+            ],
+            [
+              17,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": []
+        },
+        {
+          "y": 61,
+          "alphaRuns": []
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "pose": "P",
+      "durationMs": 100,
+      "visibleCostumeAnnotations": {
+        "visibleBodyCostumeBottomAnnotated": 56,
+        "lowerColoredClusterStartAnnotated": 55,
+        "firstSeparatedLowerAlphaRuns": 57,
+        "feetBottom": 59,
+        "centralBridgeAt56": [
+          14,
+          18
+        ],
+        "lowerClusterSideBoundsAt57": [
+          [
+            7,
+            15
+          ],
+          [
+            17,
+            25
+          ]
+        ]
+      },
+      "rows": [
+        {
+          "y": 44,
+          "alphaRuns": [
+            [
+              6,
+              26
+            ]
+          ]
+        },
+        {
+          "y": 45,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 46,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 47,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 48,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 49,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 50,
+          "alphaRuns": [
+            [
+              3,
+              29
+            ]
+          ]
+        },
+        {
+          "y": 51,
+          "alphaRuns": [
+            [
+              4,
+              28
+            ]
+          ]
+        },
+        {
+          "y": 52,
+          "alphaRuns": [
+            [
+              5,
+              27
+            ]
+          ]
+        },
+        {
+          "y": 53,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 54,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 55,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 56,
+          "alphaRuns": [
+            [
+              7,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 57,
+          "alphaRuns": [
+            [
+              7,
+              15
+            ],
+            [
+              17,
+              25
+            ]
+          ]
+        },
+        {
+          "y": 58,
+          "alphaRuns": [
+            [
+              8,
+              14
+            ],
+            [
+              18,
+              24
+            ]
+          ]
+        },
+        {
+          "y": 59,
+          "alphaRuns": [
+            [
+              9,
+              13
+            ],
+            [
+              19,
+              23
+            ]
+          ]
+        },
+        {
+          "y": 60,
+          "alphaRuns": []
+        },
+        {
+          "y": 61,
+          "alphaRuns": []
+        },
+        {
+          "y": 62,
+          "alphaRuns": []
+        },
+        {
+          "y": 63,
+          "alphaRuns": []
+        }
+      ]
+    }
+  ]
+}

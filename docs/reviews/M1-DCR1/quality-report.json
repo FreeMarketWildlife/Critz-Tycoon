@@ -1,0 +1,338 @@
+{
+  "task": "M1.DCR1",
+  "date": "2026-10-16 America/Los_Angeles",
+  "tool": "actual built-in image_gen.imagegen",
+  "attempts": 5,
+  "result": "blocked on native pixel-art quality; none usable or integrated",
+  "imageGenerationSucceeded": true,
+  "nativeReferenceProductionSucceeded": false,
+  "files": [
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/dummy-creator-estimated-r1/west-first-raw.png",
+      "sha256": "933460350fbac086ce51b8532ffdf38542aaddb8a071101a43f03ee016801a2b",
+      "size": [
+        1536,
+        1024
+      ],
+      "distinctAlphaLevels": 255,
+      "binaryAlpha": false,
+      "exact32x64Replication": false,
+      "usable": false
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/dummy-creator-estimated-r1/west-generated-raw.png",
+      "sha256": "b90877456786876f1629850137442e7c5f5e4d129993e51e06de1775755a64c7",
+      "size": [
+        1536,
+        1024
+      ],
+      "distinctAlphaLevels": 255,
+      "binaryAlpha": false,
+      "exact32x64Replication": false,
+      "usable": false
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/dummy-creator-estimated-r1/east-generated-raw.png",
+      "sha256": "a4a92e53c9dd8619cd4480204af4e0213184cc7d716ada3f8411997b7e66640d",
+      "size": [
+        1536,
+        1024
+      ],
+      "distinctAlphaLevels": 255,
+      "binaryAlpha": false,
+      "exact32x64Replication": false,
+      "usable": false
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/dummy-creator-estimated-r1/north-generated-raw.png",
+      "sha256": "37668ea1187756c85731bf344e917f77ecf5f7e902a13f4cdff7ff6ed7a9bd7e",
+      "size": [
+        1536,
+        1024
+      ],
+      "distinctAlphaLevels": 255,
+      "binaryAlpha": false,
+      "exact32x64Replication": false,
+      "usable": false
+    },
+    {
+      "path": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/dummy-creator-estimated-r1/west-one-pose-raw.png",
+      "sha256": "eac82855501e0f4d698bd94bc7c3ed97db41269ed1b1ac3cd74cf47c42b61daa",
+      "size": [
+        887,
+        1774
+      ],
+      "distinctAlphaLevels": 256,
+      "binaryAlpha": false,
+      "exact32x64Replication": false,
+      "usable": false
+    }
+  ],
+  "draftRoot": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/local-review/dummy-creator-estimated-r1",
+  "sampledDrafts": {
+    "directions": [
+      "west",
+      "east",
+      "north"
+    ],
+    "canvas": [
+      32,
+      64
+    ],
+    "anchor": [
+      16,
+      64
+    ],
+    "eightSlots": "A,A,P,P,C,C,P,P at100ms",
+    "dataFile": "estimated-frame-data.json",
+    "nativeAuthored": false,
+    "quality": "REJECTED; resizing/alpha-threshold/palette cleanup does not prove native construction",
+    "manifestSHA256": "89a91e719b0afec9287e174f9c0a1fde1864e6374f852fbf5590ddf57211b887"
+  },
+  "source": {
+    "url": "https://i.redd.it/01agijgmbz561.gif",
+    "path": "/Users/tanoshi/.codex/visualizations/2026/10/15/brendan-user-reference-original/01agijgmbz561.gif",
+    "sha256": "5fe7935d9f90afbd23530b7a7f57a5147cd1c5142734e0b4306ca71f5666015e",
+    "crop": [
+      0,
+      0,
+      128,
+      192
+    ],
+    "exactDisplayRepeat": 4,
+    "nativeCrop": [
+      32,
+      48
+    ],
+    "registration": [
+      0,
+      16
+    ],
+    "directionsProven": [
+      "south"
+    ]
+  },
+  "primaryEvidence": {
+    "path": "/tmp/ds1-primary-reference/brendan-walking.png",
+    "sha256": "f33ec07a5fd17f4422455f8bc55cd3d3522fa65c3bf740ecbdc00da705eaa0d1",
+    "revision": "731ad5bfd6e6f265508d0efcca0ba42f9dcf5881",
+    "scope": "source-only perspective/motion evidence; not supplied artist missing frames; no emulator capture"
+  },
+  "baselinesTopDownHalfOpen": {
+    "south-original": [
+      [
+        3,
+        24,
+        29,
+        64
+      ],
+      [
+        3,
+        24,
+        29,
+        64
+      ],
+      [
+        3,
+        20,
+        29,
+        62
+      ],
+      [
+        3,
+        20,
+        29,
+        62
+      ],
+      [
+        3,
+        24,
+        29,
+        64
+      ]
+    ],
+    "west": [
+      [
+        5,
+        22,
+        28,
+        63
+      ],
+      [
+        5,
+        22,
+        28,
+        63
+      ],
+      [
+        5,
+        20,
+        27,
+        60
+      ],
+      [
+        5,
+        20,
+        27,
+        60
+      ],
+      [
+        4,
+        22,
+        27,
+        63
+      ]
+    ],
+    "east": [
+      [
+        4,
+        23,
+        27,
+        63
+      ],
+      [
+        4,
+        23,
+        27,
+        63
+      ],
+      [
+        4,
+        21,
+        27,
+        61
+      ],
+      [
+        4,
+        21,
+        27,
+        61
+      ],
+      [
+        3,
+        23,
+        27,
+        63
+      ]
+    ],
+    "north": [
+      [
+        4,
+        23,
+        29,
+        64
+      ],
+      [
+        4,
+        23,
+        29,
+        64
+      ],
+      [
+        2,
+        21,
+        28,
+        60
+      ],
+      [
+        2,
+        21,
+        28,
+        60
+      ],
+      [
+        2,
+        23,
+        27,
+        64
+      ]
+    ]
+  },
+  "decodedGifChecks": {
+    "south-original": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "totalMs": 800,
+      "loop": 0,
+      "decodedNativePixelsExact": true,
+      "gifSHA256": "e5e9f147b8e7a54e664cd73a9441c9f238d3b4dd225252beed958415a807acc8"
+    },
+    "west": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "totalMs": 800,
+      "loop": 0,
+      "decodedNativePixelsExact": true,
+      "gifSHA256": "dc297e4e4ff72b04bf37864a1faa9b13ba9dffaab45bc99864115c8d33a5aa21"
+    },
+    "east": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "totalMs": 800,
+      "loop": 0,
+      "decodedNativePixelsExact": true,
+      "gifSHA256": "2644fcf460efbf0ffe150f0bf503674828910fa31af276c3cabbd1bb257d5f52"
+    },
+    "north": {
+      "frames": 8,
+      "durationMs": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "totalMs": 800,
+      "loop": 0,
+      "decodedNativePixelsExact": true,
+      "gifSHA256": "80cb34312e16abefe01a81aad0aa1bf456c91654ffd037455e1fe8b2adbe9a12"
+    }
+  },
+  "visualFindings": [
+    "raw west initial/corrected/east/north: glow, nonbinary alpha and inconsistent logical-pixel scale",
+    "sampled native drafts: inconsistent baselines, asymmetric lateral registration drift, heavy shoes, generated costume/shape drift and weak passing poses",
+    "north backpack grows and shifts across poses; source consistency not established",
+    "single-pose retry reduces visible glow but retains gradient shading, irregular grid and nonbinary alpha; not an improvement sufficient to extend",
+    "contact sheets inspected at native and integer scale; browser/GIF visual playback not performed; GIFs only fully decoded and compared to exact export PNG pixels"
+  ],
+  "scope": {
+    "sharedCodeWrites": false,
+    "dummyGeometryOrLabelsChanged": false,
+    "gitIndexCommitPushDeploy": false,
+    "runtimeIntegration": false
+  },
+  "approvalState": "no user approval; no self approval",
+  "pendingApproval": null,
+  "localServer": "initial bind PermissionError; approved retry started8793 and was stopped without browser use; no pending action",
+  "nextAction": "Root completes functional Dummy Creator independently; missing W/E/N stay absent. Await a changed art method or user-provided clean native references; no repeated failing prompts."
+}

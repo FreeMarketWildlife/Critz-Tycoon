@@ -22,7 +22,6 @@ The locally retained ten-file private packet contains Girl, Nugget and Mom norma
 
 Private Library link/identity receipts are retained locally and excluded from GitHub: automatic approval review rejected publishing that metadata to the remote. Source artwork and source-free evidence can proceed separately; no private receipt push is claimed.
 
-
 ## In progress M1.OWR1 — bounded walking review; Girl correction held
 
 [Motion/inset packet](reviews/M1-OWR1/private-parent-review/README.md) privately delivers actual-playback-reviewed Nugget normal/slow native+4× plus frame strip, and Mom material-only correction. Girl motion stays held for one profile far-shoe darkening/occlusion correction, pending writer/QA approval waits; no requests dismissed or permissions broadened. Preserve exact candidate idle anchors. Source-derived ordinary8-update holds and cumulative GIFrounding are explicit. Next: parent judges Nugget/Mom; resolve pending writer step, finish Girl correction, independently inspect finalmotion, then deliver it. No Mom walk, creator, runtime/save adoption or deployment inferred.
@@ -31,11 +30,11 @@ Private Library link/identity receipts are retained locally and excluded from Gi
 
 Fresh exclusive-folder continuations OGH2/OM2/ON2 plus OVQ2 have completed the bounded four-idle correction/verification checkpoint. [Private same-identity v1 boards and exact receipt](reviews/M1-OVN2/private-parent-review/README.md) are ready for actual parent inspection. Preserve all old candidates/approval cards; no duplicate writers. Root70 and independent223 saved checks pass; user appearance acceptance is not inferred. Next: parent judges the four-facing construction before any walk authorization. Creator, runtime/save adoption and deployment remain stopped.
 
+## Active M1.RD1 — source-posed front dummy, exact visible body
+
 ## Active M1.OVN1 — isolated overnight cast studies
 
 User-authorized parallel task chats: Girl Hero(M1.OGH1), Mom(M1.OM1), Professor Nugget(M1.ON1), independent visual QA(M1.OVQ1). Each owns isolated new source/review paths; no shared generator/runtime changes. Root owns the review loop, source/reference checks and eventual scoped Git coordination. Complete and visually review four idle facings first; only then authorize walks for a coherent candidate. RD1 segmentation remains provisional pending Phil's labels. No automatic art deployment or creator restart. BRC1 mobile editor is independently complete/livev61.
-
-## Active M1.RD1 — source-posed front dummy, exact visible body
 
 ## Complete M1.BRC1 — public correction editor
 
@@ -119,11 +118,19 @@ Direct user correction supersedes the anatomical NB plan and its former scoped r
 
 **Implemented/checked; awaiting independent/user visual review.** Follow direct user-authorized Eutychus handoff from latest delivered HR10-BODY; preserve liked proportions/head/hair, park unshared HR11. Correct bounded final ear layering, compact attached pack/straps and shoe spur. Deliver source/clothed/neutral-mannequin native/4x/all8/source-speed/labelled-slow comparisons, labelled anatomy and registered outfit/attachment scaffold. [Review](reviews/M1-HR12/README.md). Hidden joints remain proposed; no types/UI/directions/gameplay/deployment/TN4.
 
+# M1.HR11 — Lower-body pose and occlusion reconstruction
+
+**Implemented/checked; awaiting parent visual judgment.** HR10 structurally rejected. Rebuild lower torso/shorts/cuff overlap from the actual all8 reference; maintain exact established HR9 head and translations. Native grids prove joined lower garment through56P/57stride and compact emerged shoe tips; knee/bone anatomy remains unresolved. [Source/candidate structural and animated proofs](reviews/M1-HR11/README.md). Blue/navy mass still heavy/baggy; matching alpha does not approve artwork. Hold stable after checks, no broader work/gameplay/deployment/TN4.
+
 # M1.HR10-BODY — Single focused body-cluster trial
+
+**Subsequent parent response: structurally rejected; HR11 reopens lower-body pose/occlusion.**
 
 **Implemented and checked; local review complete, awaiting parent judgment.** Preserve exact HR9 head/ears and translations; revise cuff/ankle/shoe silhouettes and hand/sleeve clusters only. Confirmed source, native/all8, source-speed800ms and explicitly labelled slow3200ms comparisons delivered. Passing feet remain heavy/boot-like; no self-approval or further automatic revision. [Review](reviews/M1-HR10-BODY/README.md). HEAD detour below is preserved unapproved history caused by stale HR5 chronology, not current authorized scope. No directions/variants/UI/gameplay/deployment/TN4 expansion.
 
 # M1.HR10H — Isolated head-overlay review
+
+**Historical out-of-scope detour:** stale HR5 wording resurfaced after compaction; no newer human head instruction was identified. Preserve this record unapproved and unadopted; it is not active authorization.
 
 **Implemented and checked; awaiting user visual review.** Answer the direct visible head request with actual aligned before/after overlays and original corrected forward hair. Preserve face/ears/eyes/body and motion. Separate namespace from disputed coordination HR10 body-only scope; no claim that body refinement is complete. [Review and residual critique](reviews/M1-HR10-HEAD/README.md). No gameplay integration/deployment or expanded directions.
 

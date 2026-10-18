@@ -1,0 +1,77 @@
+{
+  "tool": "Actual Sprite Editor validateProject/gifBytes",
+  "previews": [
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR11/hero-forward-walk-native.gif",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR11/hero-forward-walk-4x.gif",
+      "width": 128,
+      "height": 256,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr11-structure/source-hero-native.gif",
+      "width": 88,
+      "height": 82,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr11-structure/source-hero-4x.gif",
+      "width": 352,
+      "height": 328,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr11-structure/source-hero-SLOW4x-native.gif",
+      "width": 112,
+      "height": 100,
+      "frames": 8,
+      "delayMs": 400,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/.codex/visualizations/2026/10/15/hero-hr11-structure/source-hero-SLOW4x-4x.gif",
+      "width": 448,
+      "height": 400,
+      "frames": 8,
+      "delayMs": 400,
+      "validated": true
+    },
+    {
+      "output": "/Users/tanoshi/Documents/ChatGPT/Critz-Tycoon/docs/reviews/M1-HR11/hero-light-dark-native.gif",
+      "width": 128,
+      "height": 100,
+      "frames": 8,
+      "delayMs": 100,
+      "validated": true
+    }
+  ],
+  "editable": [
+    {
+      "name": "idle",
+      "width": 32,
+      "height": 64,
+      "frames": 1,
+      "validated": true
+    },
+    {
+      "name": "walk",
+      "width": 32,
+      "height": 64,
+      "frames": 8,
+      "validated": true
+    }
+  ]
+}
