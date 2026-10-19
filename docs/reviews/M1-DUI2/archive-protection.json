@@ -1,0 +1,21 @@
+{
+  "archiveSHA256": "b60bcf8adaec31ca8cead1a9f01bb89d182f4900f0e4bc981981cfc0138761ad",
+  "fileCount": 5945,
+  "expandedBytes": 254671571,
+  "changed": [
+    "dist/sprite-editor/index.html",
+    "dist/sprite-editor/editor.css",
+    "dist/sprite-editor/dummy-creator.js",
+    "dist/sprite-editor/README.md"
+  ],
+  "added": [
+    "dist/sprite-editor/dummy-mobile.js"
+  ],
+  "missing": [],
+  "protectedNonEditorExact": 5882,
+  "allEditorFilesMatchTestedSource": true,
+  "sourceCommit": "a29020cf993b272db073a8320456035c461fafa9",
+  "githubCommit": "6465b567e046036e5545c0aa03ecad2a8db79d84",
+  "noAppleDoubleFiles": true,
+  "initialArchiveRejected": "macOS metadata caused expanded archive size rejection; no version/deployment created"
+}

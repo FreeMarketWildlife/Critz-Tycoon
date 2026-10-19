@@ -1,0 +1,48 @@
+{
+  "entryScreenshots": [
+    {
+      "name": "chrome-390-canvas.png",
+      "localSHA256": "018e5368e6384e81e5e768b0516fb00f3d46ec31b4a83996307edd946dcf9f25",
+      "hostedSHA256": "018e5368e6384e81e5e768b0516fb00f3d46ec31b4a83996307edd946dcf9f25",
+      "bytesExact": true
+    },
+    {
+      "name": "webkit-320-canvas.png",
+      "localSHA256": "c7decf98968effcd105b50ee526ebb76b45afee6c94bb9f883c87f520ba457d2",
+      "hostedSHA256": "c7decf98968effcd105b50ee526ebb76b45afee6c94bb9f883c87f520ba457d2",
+      "bytesExact": true
+    },
+    {
+      "name": "chrome-768-canvas.png",
+      "localSHA256": "79acb2e640baf42a1ff0bb7000d90ddad8935fdacf49fdf9f4456617e212e3d4",
+      "hostedSHA256": "82fb5d7102d22dfac9849af9786a506b3e7903a3ca0cc23115220d811cfeb91e",
+      "bytesExact": false
+    },
+    {
+      "name": "webkit-1024-canvas.png",
+      "localSHA256": "aeb09872e6cdacfbe84a7923a73352b4c1b8c2ed3a6b30fcf9170f188085a702",
+      "hostedSHA256": "aeb09872e6cdacfbe84a7923a73352b4c1b8c2ed3a6b30fcf9170f188085a702",
+      "bytesExact": true
+    },
+    {
+      "name": "chrome-1180-canvas.png",
+      "localSHA256": "e777c690aec412dfb79604f3cf11af30bcd5188d05c38c9c43661e06d0ce9d90",
+      "hostedSHA256": "38166e6145042f7a8bf621a5a441a264d1a1daecde215a355f14780fff8821a5",
+      "bytesExact": false
+    },
+    {
+      "name": "chrome-844-canvas.png",
+      "localSHA256": "0f3ee563e335a566da1f89035c6de11a56eb30848e1cce95660dd92345b1218e",
+      "hostedSHA256": "ff4dc5d71413e9590662dbd09aadf7d2993d76bf6d33ee80452bf69ea457b036",
+      "bytesExact": false
+    },
+    {
+      "name": "desktop.png",
+      "localSHA256": "5cd1f9efc941ceef83e7f34ce4da7616b8ba25d42b25850dff41c963319d6397",
+      "hostedSHA256": "5cd1f9efc941ceef83e7f34ce4da7616b8ba25d42b25850dff41c963319d6397",
+      "bytesExact": true
+    }
+  ],
+  "imagesRemainIgnored": true,
+  "actualPhoneAndTabletScreenshotsViewed": true
+}

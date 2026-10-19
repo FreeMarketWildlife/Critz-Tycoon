@@ -1,0 +1,97 @@
+{
+  "passed": 7,
+  "cases": [
+    {
+      "engine": "chrome",
+      "width": 390,
+      "height": 844,
+      "compact": true,
+      "pass": true,
+      "initialCanvasHeight": 671,
+      "projectAndSavePreserved": true,
+      "tabFlows": true,
+      "resizeAndReload": true,
+      "errors": [],
+      "backupDownloadAndClipboardFallback": true
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "height": 740,
+      "compact": true,
+      "pass": true,
+      "initialCanvasHeight": 567,
+      "projectAndSavePreserved": true,
+      "tabFlows": true,
+      "resizeAndReload": true,
+      "errors": [],
+      "backupDownloadAndClipboardFallback": true
+    },
+    {
+      "engine": "chrome",
+      "width": 768,
+      "height": 1024,
+      "compact": true,
+      "pass": true,
+      "initialCanvasHeight": 851,
+      "projectAndSavePreserved": true,
+      "tabFlows": true,
+      "resizeAndReload": true,
+      "errors": [],
+      "backupDownloadAndClipboardFallback": true
+    },
+    {
+      "engine": "webkit",
+      "width": 1024,
+      "height": 768,
+      "compact": true,
+      "pass": true,
+      "initialCanvasHeight": 595,
+      "projectAndSavePreserved": true,
+      "tabFlows": true,
+      "resizeAndReload": true,
+      "errors": [],
+      "backupDownloadAndClipboardFallback": true
+    },
+    {
+      "engine": "chrome",
+      "width": 1180,
+      "height": 820,
+      "compact": true,
+      "pass": true,
+      "initialCanvasHeight": 647,
+      "projectAndSavePreserved": true,
+      "tabFlows": true,
+      "resizeAndReload": true,
+      "errors": [],
+      "backupDownloadAndClipboardFallback": true
+    },
+    {
+      "engine": "chrome",
+      "width": 844,
+      "height": 390,
+      "compact": true,
+      "pass": true,
+      "initialCanvasHeight": 235,
+      "projectAndSavePreserved": true,
+      "tabFlows": true,
+      "resizeAndReload": true,
+      "errors": [],
+      "backupDownloadAndClipboardFallback": true
+    },
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "height": 1000,
+      "compact": false,
+      "pass": true,
+      "initialCanvasHeight": 504.5,
+      "projectAndSavePreserved": true,
+      "tabFlows": false,
+      "resizeAndReload": false,
+      "errors": [],
+      "backupDownloadAndClipboardFallback": false
+    }
+  ],
+  "physicalPhoneTested": false
+}

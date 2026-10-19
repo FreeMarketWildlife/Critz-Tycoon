@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-19 America/Los_Angeles",
+  "task": "M1.DUI2",
+  "githubImplementationCommit": "6465b567e046036e5545c0aa03ecad2a8db79d84",
+  "githubRemoteVerified": true,
+  "siteSourceCommit": "a29020cf993b272db073a8320456035c461fafa9",
+  "projectId": "appgprj_6ab5dd1e11ac8191937254280d6ba196",
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_a31a51edc2e08191b1934cfe744b00dc",
+  "version": 67,
+  "deploymentId": "appgdep_6ad601f774a48191948ee2b842146da6",
+  "deploymentStatus": "succeeded",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site",
+  "audience": "public (preserved)",
+  "archiveStorage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_0000000032fc820dabaa7a26e31609a5",
+    "content_hash": "sha256:35e1d16f0832e321dfaac36b1c26245bdc30de146f75f9a3c22f14192fde2019",
+    "size_bytes": 259235840,
+    "file_count": 5945
+  },
+  "layoutOnly": true,
+  "protectedNonEditorContentFiles": 5881,
+  "hostingMetadataExact": true,
+  "assetsModelsAndKeysUnchanged": true,
+  "physicalDevicesTested": false,
+  "initialPackagingAttempt": "Rejected by expanded-size validation before version save; macOS AppleDouble metadata removed and exact same source repackaged.",
+  "hostedChecks": {
+    "passed": 7,
+    "engines": [
+      "Chrome",
+      "WebKit"
+    ],
+    "phoneTabletDesktop": true,
+    "isolatedSyntheticStorage": true,
+    "clipboardBackupImportDrawingResizeReload": true,
+    "errors": 0
+  }
+}
