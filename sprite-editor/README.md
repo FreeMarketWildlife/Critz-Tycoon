@@ -1,5 +1,11 @@
 # Free Market Wildlife Sprite Editor
 
+## Phone and tablet workspace (M1.DUI2)
+
+Dummy Creator opens on **Canvas**, with tools and settings tucked into **Draw / Frames / View / File** tabs. Undo, Redo, Copy and zoom stay within reach. Draw contains directions, brush/erase/pan, Mirror, part and anatomical-side selection. Frames contains stepping, playback, frame actions and sharing. View contains guides, layers and reference controls. File contains import, backups, source information and Help. Done, Canvas, or Escape closes a panel; selecting a facing or part button returns to drawing.
+
+The canvas fills the available dynamic viewport, including phone/tablet rotation and safe-area padding. Phones use a scrollable bottom panel; tablets use a side panel and refit the canvas beside it. Narrow landscape uses a side overlay. Compact mode applies through1100px wide and through1400px on coarse-pointer tablets; desktop docks return above those limits. Panels start closed on entry even if desktop dock preferences were saved. The same live controls move between layouts; artwork, project data, timing, storage keys, undo history and desktop layout preferences do not migrate or reset.
+
 ## Dummy Creator — completed south, rough walking setup and direct Copy (M1.DC2)
 
 Open `/sprite-editor/?mode=dummy-creator&labels=phil-walk-draft-20261017`. Four visible **South / West / East / North** buttons choose the track. **ROUGH labels are prefilled for Phil to correct**:12unique editable poses across32timed reference slots. The actual completed714-cell south passing pose is reused exactly; other poses are estimates, not approved anatomy or artwork. Region Labels remain the dummy; no RD1 raster is rendered. No NPC/game artwork is installed.

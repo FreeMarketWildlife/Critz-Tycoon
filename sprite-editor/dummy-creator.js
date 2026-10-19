@@ -1,4 +1,5 @@
 import {iconButton} from './dummy-icons.js';
+import {createDummyMobile} from './dummy-mobile.js';
 import {REFERENCE_SETS,referenceIndexAt} from './dummy-references.js';
 import {createProject,createProjectModel,parseProject,labelsForFrame,PROJECT_STORAGE,DIRECTIONS,frameAt} from './dummy-creator-model.js';
 import {createMirrorToggle} from './mirror.js';
@@ -192,6 +193,7 @@ document.querySelector('.app-header h1').textContent='Dummy Creator';
 document.querySelector('.eyebrow').textContent='CRITZ · SPRITE STUDIO';
 document.querySelector('#inspector .dock-header strong').textContent='Parts & layers';
 workspace=createWorkspace({storageKey:PROJECT_STORAGE+'.layout',defaultSections:['br-parts-panel','br-layers-panel','br-data-panel'],onResize:()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>autoFit?fit():render());},onAnimationCollapse:()=>{}});
+createDummyMobile({onResize:()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>autoFit?fit():render());},onClose:()=>{finish();}});
 setTool('brush');render();
 try{const response=await fetch('./assets/body-regions-seed.json',{cache:'no-store'});if(!response.ok)throw Error('Missing source seed');const source=validateSeed(await response.json());dataset=Object.hasOwn(DATASETS,requestedDataset)?DATASETS[requestedDataset]:null;if(!dataset)throw Error('Unknown requested label dataset; no original map was substituted');const preset=await fetch(dataset.url,{cache:'no-store'});if(!preset.ok)throw Error('Requested supplied labels unavailable; no original map was substituted');const text=await preset.text(),project=dataset.kind==='project'?parseProject(text,source):null,labels=project?labelsForFrame(project,'south',project.activeDirection==='south'?project.activeFrame:0):importCorrections(text,source);referenceFrames=Object.fromEntries(await Promise.all(DIRECTIONS.map(async direction=>[direction,await Promise.all(REFERENCE_SETS[direction].frames.map(frame=>new Promise(resolve=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>resolve(null);image.src=frame.file;})))])));loadSeed(source,labels,project);if(Object.values(referenceFrames).some(fs=>fs.some(f=>!f)))status('Dummy loaded. Some reference frames are unavailable; your labels remain editable.',true);}catch(e){$('br-source').textContent='Source data unavailable. Reload to recover; saved projects remain in browser storage.';status('Source data unavailable or invalid: '+e.message,true);workspace.showInspector();}
 // QA reads label state, never source raster or ordinary project/browser storage.

@@ -1,3 +1,7 @@
+## M1.DUI2 — mobile/tablet canvas-first workspace
+
+Implemented and locally checked: Canvas/Draw/Frames/View/File tabs, closed panels on entry and full adaptive viewport. All existing projects, shared cels, history, controls, references and desktop preferences remain intact. Thirty-five focused tests and seven isolated Chrome/WebKit cases pass phone/tablet/desktop drawing, import/export, real clipboard/fallback, resize and reload. Next: commit/push and publish on the existing Site, then hosted verification. No artwork or game changes.
+
 ## M1.PAIR1 — complete anatomical brush live v63; character work stays stopped
 
 ## M1.DUI1 — editor workspace cleanup

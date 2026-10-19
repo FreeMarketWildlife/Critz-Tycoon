@@ -1,0 +1,20 @@
+{
+  "baselineArchiveSHA256": "3d121b1f9a4dd120c3ad79a775186ae0df8a4d6de3f626f6e3cd389e03e27e4b",
+  "baselineVersion": 66,
+  "baselineSource": "e5eca7130ba4cb845f7ba812a6cd72a72807881d",
+  "protectedNonEditorContentExact": 5881,
+  "missing": [],
+  "changed": [
+    "dist/sprite-editor/index.html",
+    "dist/sprite-editor/editor.css",
+    "dist/sprite-editor/dummy-creator.js",
+    "dist/sprite-editor/README.md"
+  ],
+  "added": [
+    "dist/sprite-editor/dummy-mobile.js"
+  ],
+  "excludedGeneratedSourceDoc": [
+    "dist/docs/reviews/M1-DC2/rough-label-audit.json"
+  ],
+  "allEditorFilesMatchTestedSource": true
+}
