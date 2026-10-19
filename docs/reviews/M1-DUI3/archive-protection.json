@@ -1,0 +1,22 @@
+{
+  "baselineVersion": 67,
+  "archiveSHA256": "a2a44f016ca7d3138388a75531f4591ef80c6df170c506fecb679a6e5e68177b",
+  "fileCount": 5947,
+  "expandedBytes": 254681949,
+  "sourceCommit": "010466fd34856fc5732b18d732402325cb647272",
+  "githubCommit": "c7bbecd75a3bf4f2a6288de4c4333db1102e96d1",
+  "changed": [
+    "dist/sprite-editor/editor.css",
+    "dist/sprite-editor/dummy-creator.js",
+    "dist/sprite-editor/README.md",
+    "dist/sprite-editor/dummy-icons.js"
+  ],
+  "added": [
+    "dist/sprite-editor/dummy-hotbar.js",
+    "dist/sprite-editor/dummy-paint.js"
+  ],
+  "missing": [],
+  "protectedNonEditorExact": 5882,
+  "allEditorFilesMatchTestedSource": true,
+  "noAppleDoubleFiles": true
+}

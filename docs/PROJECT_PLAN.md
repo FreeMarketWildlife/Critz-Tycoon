@@ -1,6 +1,6 @@
 ## M1.DUI3 — vertical phone hotbar and painting tools
 
-Implemented/locally checked: retain tabs and add right-side Move/Pencil/Eyedropper/Forward/Backward/Reference/Dummy controls. Re-tapping the selected drawing slot opens Pencil/Fill/Line/Erase. Exact label picking, four-connected fill and release-to-commit line preview retain existing side/mirror/history semantics. Assets/IDs/keys remain unchanged.37units,6hotbar and7mobile regression cases pass, including cancelled line. [Evidence](reviews/M1-DUI3/README.md). Exact next: commit/push and publish over livev67, then hosted checks; no artwork changes.
+Complete/livev68: tabs retained with vertical right-side Move/Pencil/Eyedropper/Forward/Backward/Reference/Dummy controls. Re-tapping the drawing slot opens Pencil/Fill/Line/Erase. Exact label picking, four-connected fill and release-to-commit line preview retain side/mirror/history semantics. Assets/IDs/keys unchanged.37units,13local and13anonymous hosted Chrome/WebKit cases pass. [Publication](reviews/M1-DUI3/publication.json). Exact next: Phil uses the hotbar; no artwork changes or further deployment required for evidence-only documentation.
 
 ## M1.DUI2 — mobile/tablet canvas-first workspace
 
