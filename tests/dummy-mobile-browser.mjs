@@ -14,7 +14,7 @@ for(const [engine,width,height]of [['chrome',390,844],['webkit',320,740],['chrom
  if(compact){
   assert.equal(await page.locator('body').evaluate(e=>e.classList.contains('compact-dummy')),true);assert.equal(await page.locator('#dm-sheet').isVisible(),false);
   for(const id of ['br-part','dc-frames','br-layers','br-import'])assert.equal(await page.locator('#'+id).isVisible(),false,id+' starts hidden');
-  const v=await page.locator('#viewport').boundingBox();assert.ok(v.height>=height*(height<500?.60:.65),JSON.stringify({v,height}));assert.ok(v.width>=width-2);assert.equal(await page.locator('#undo').isVisible(),true);
+  const v=await page.locator('#viewport').boundingBox();assert.ok(v.height>=height*(height<500?.60:.65),JSON.stringify({v,height}));assert.ok(v.width>=width-58);assert.equal(await page.locator('#undo').isVisible(),true);
   await page.screenshot({path:out+'/'+engine+'-'+width+'-canvas.png'});
   await tab('Draw');assert.equal(await page.locator('#br-part').isVisible(),true);assert.equal(await page.locator('#dc-facing + .dm-drawing-tools').count(),1);
   await page.locator('[data-dc-facing="west"]').click();assert.equal((await state()).direction,'west');assert.equal(await page.locator('#dm-sheet').isVisible(),false);

@@ -1,5 +1,7 @@
 import {iconButton} from './dummy-icons.js';
 import {createDummyMobile} from './dummy-mobile.js';
+import {createDummyHotbar} from './dummy-hotbar.js';
+import {connectedLabelPixels} from './dummy-paint.js';
 import {REFERENCE_SETS,referenceIndexAt} from './dummy-references.js';
 import {createProject,createProjectModel,parseProject,labelsForFrame,PROJECT_STORAGE,DIRECTIONS,frameAt} from './dummy-creator-model.js';
 import {createMirrorToggle} from './mirror.js';
@@ -13,7 +15,7 @@ document.body.classList.add('body-regions-mode','dummy-studio');
 document.title='Dummy Creator · Sprite Editor';
 let referenceStarted=0,referenceHandle;
 let playing=false,playElapsed=0,playStarted=0,animationHandle,referenceFrames={},referencePlayback=false;
-let seed,model,zoom=6,autoFit=true,active=1,tool='brush',drag=null,space=false,workspace,saveTimer,resizeFrame;
+let seed,model,zoom=6,autoFit=true,active=1,tool='brush',drag=null,space=false,workspace,mobileWorkspace,hotbar,saveTimer,resizeFrame;
 const mirror=createMirrorToggle(()=>finish());
 const paintLabel=(x,y,id)=>{pause();model.paint(x,y,id,mirror.enabled,$('dc-side').value);};
 const requestedDataset=new URL(location.href).searchParams.get('labels')||'phil-walk-draft-20261017';
@@ -60,13 +62,13 @@ dialogs.innerHTML=`<dialog id="br-transfer"><div class="dialog-heading"><h2 id="
 document.body.append(dialogs);
 for(const id of ['br-copy','br-import','br-download','br-reset'])$(id).disabled=true;
 on('help','click',()=>$('help-dialog').showModal());on('close-help','click',()=>$('help-dialog').close());
-function setTool(next){finish();tool=next;for(const [id,t]of [['br-brush','brush'],['br-erase','erase'],['br-pan','pan']])$(id).setAttribute('aria-pressed',String(next===t));$('current-tool').textContent=next==='pan'?'Pan':next==='erase'?'Unassigned · 1px':'Label brush · 1px';canvas.style.cursor=next==='pan'?'grab':'crosshair';}
+function setTool(next){finish();tool=next;for(const [id,t]of [['br-brush','brush'],['br-erase','erase'],['br-pan','pan']])$(id).setAttribute('aria-pressed',String(next===t));$('current-tool').textContent=({pan:'Move canvas',erase:'Unassigned · 1px',picker:'Pick dummy part',fill:'Fill connected labels',line:'Line · 1px',brush:'Pencil · 1px'})[next];canvas.style.cursor=next==='pan'?'grab':'crosshair';hotbar?.sync();}
 for(const [id,t]of [['br-brush','brush'],['br-erase','erase'],['br-pan','pan']])on(id,'click',()=>setTool(t));
 function selectPart(id){active=id;$('br-part').value=String(id);document.querySelectorAll('#br-parts button').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.part)===id)));setTool('brush');}
 on('br-part','change',e=>selectPart(Number(e.target.value)));
 function save(){clearTimeout(saveTimer);try{localStorage.setItem(draftKey,model.export());$('save-state').textContent='Project saved in this browser';}catch{$('save-state').textContent='Download backup to save';status('Browser storage unavailable or full. Download a backup to keep your corrections.',true);}}
 function changed(){syncFrames();render();save();}
-function finish(){if(!drag)return;const painted=drag.kind==='paint'&&model?.end();drag=null;if(painted)changed();}
+function finish(){if(!drag)return;const stroke=drag;drag=null;if(stroke.kind==='line'){model.begin();line(...stroke.start,...stroke.last,(x,y)=>paintLabel(x,y,stroke.id));}const painted=['paint','fill','line'].includes(stroke.kind)&&model?.end();if(painted)changed();else if(stroke.kind==='line')render();}
 let cursor=[16,40],showCursor=false;
 function render(){
  canvas.width=WIDTH;canvas.height=HEIGHT;canvas.style.width=WIDTH*zoom+'px';canvas.style.height=HEIGHT*zoom+'px';
@@ -81,7 +83,8 @@ function render(){
  if($('grid').checked&&zoom>=4){og.strokeStyle='#17241f55';og.beginPath();for(let x=0;x<=w;x+=zoom){og.moveTo(x+.5,0);og.lineTo(x+.5,h);}for(let y=0;y<=h;y+=zoom){og.moveTo(0,y+.5);og.lineTo(w,y+.5);}og.stroke();}
  if($('guides').checked){og.strokeStyle='#ee91b0';og.setLineDash([4,3]);og.beginPath();og.moveTo(16*zoom+.5,0);og.lineTo(16*zoom+.5,h);og.stroke();og.setLineDash([]);og.strokeStyle='#ade28a';og.beginPath();og.moveTo(0,62*zoom+.5);og.lineTo(w,62*zoom+.5);og.stroke();}
  if(showCursor){og.strokeStyle='#fff';og.strokeRect(cursor[0]*zoom+.5,cursor[1]*zoom+.5,zoom-1,zoom-1);}
- if(model){const index=referencePlayback?referenceIndexAt(model.direction,performance.now()-referenceStarted):model.frame.referenceIndex;$('dc-ref-summary').textContent=`Reference · ${REFERENCE_SETS[model.direction].shortLabel} · ${index+1}/8`;}$('zoom-value').textContent=zoom+'×';$('undo').disabled=!model?.undoCount;$('redo').disabled=!model?.redoCount;
+ if(drag?.kind==='line'){og.fillStyle='#ffffff99';line(...drag.start,...drag.last,(x,y)=>{og.fillRect(x*zoom,y*zoom,zoom,zoom);if(mirror.enabled)og.fillRect((WIDTH-1-x)*zoom,y*zoom,zoom,zoom);});}
+ if(model){const index=referencePlayback?referenceIndexAt(model.direction,performance.now()-referenceStarted):model.frame.referenceIndex;$('dc-ref-summary').textContent=`Reference · ${REFERENCE_SETS[model.direction].shortLabel} · ${index+1}/8`;}$('zoom-value').textContent=zoom+'×';$('undo').disabled=!model?.undoCount;$('redo').disabled=!model?.redoCount;hotbar?.sync();
 }
 function setZoom(value,point,fit=false){
  autoFit=fit;const vr=view.getBoundingClientRect(),r=canvas.getBoundingClientRect(),p=point||{x:vr.left+view.clientWidth/2,y:vr.top+view.clientHeight/2},native={x:(p.x-r.left)/zoom,y:(p.y-r.top)/zoom};
@@ -94,10 +97,14 @@ view.addEventListener('wheel',e=>{if(!e.ctrlKey&&!e.metaKey)return;e.preventDefa
 canvas.addEventListener('contextmenu',e=>e.preventDefault());
 canvas.addEventListener('pointerdown',e=>{
  if(!seed||![0,1,2].includes(e.button))return;pause();e.preventDefault();canvas.setPointerCapture(e.pointerId);
- if(e.pointerType==='touch'){touches.set(e.pointerId,{x:e.clientX,y:e.clientY});if(touches.size>=2){if(drag?.kind==='paint')model.cancel();drag=null;render();const [a,b]=[...touches.values()];pinch={distance:Math.hypot(a.x-b.x,a.y-b.y),zoom,mid:{x:(a.x+b.x)/2,y:(a.y+b.y)/2}};return;}}
+ if(e.pointerType==='touch'){touches.set(e.pointerId,{x:e.clientX,y:e.clientY});if(touches.size>=2){if(['paint','fill'].includes(drag?.kind))model.cancel();drag=null;render();const [a,b]=[...touches.values()];pinch={distance:Math.hypot(a.x-b.x,a.y-b.y),zoom,mid:{x:(a.x+b.x)/2,y:(a.y+b.y)/2}};return;}}
  if(drag)return;
  if(tool==='pan'||space||e.button===1){drag={kind:'pan',pointer:e.pointerId,x:e.clientX,y:e.clientY,left:view.scrollLeft,top:view.scrollTop};return;}
- const pos=pixelAt(e.clientX,e.clientY,canvas.getBoundingClientRect());if(!pos)return;showCursor=false;model.begin();drag={kind:'paint',pointer:e.pointerId,last:pos,id:tool==='erase'||e.button===2?0:active};paintLabel(...pos,drag.id);render();
+ const pos=pixelAt(e.clientX,e.clientY,canvas.getBoundingClientRect());if(!pos)return;showCursor=false;
+ if(tool==='picker'&&e.button!==2){if(!layers.labels.visible){status('Show the dummy to pick its part and anatomical side.',true);return;}const id=model.labels[pos[1]*WIDTH+pos[0]],part=PART_DEFINITIONS[id];selectPart(CATEGORY_PARTS[part.category].left);if(part.category!=='unassigned')$('dc-side').value=part.side;status('Picked '+part.name+' · '+part.color+'. Pencil ready.');render();return;}
+ const id=tool==='erase'||e.button===2?0:active;
+ if(tool==='line'&&e.button!==2){drag={kind:'line',pointer:e.pointerId,start:pos,last:pos,id};render();return;}
+ const region=tool==='fill'&&e.button!==2?connectedLabelPixels(model.labels,...pos):null;model.begin();drag={kind:region?'fill':'paint',pointer:e.pointerId,last:pos,id};if(region)for(const point of region)paintLabel(...point,id);else paintLabel(...pos,id);render();
 });
 canvas.addEventListener('pointermove',e=>{
  if(touches.has(e.pointerId))touches.set(e.pointerId,{x:e.clientX,y:e.clientY});
@@ -105,9 +112,11 @@ canvas.addEventListener('pointermove',e=>{
  const pos=pixelAt(e.clientX,e.clientY,canvas.getBoundingClientRect());if(pos){cursor=pos;$('coordinates').textContent=`x ${pos[0]} · y ${pos[1]} (top = 0)`;$('anatomy-hover').textContent=seed?seed.parts[model.labels[pos[1]*WIDTH+pos[0]]].name:'';}
  if(!drag||drag.pointer!==e.pointerId)return;
  if(drag.kind==='pan'){view.scrollLeft=drag.left-(e.clientX-drag.x);view.scrollTop=drag.top-(e.clientY-drag.y);return;}
+ if(drag.kind==='fill')return;
+ if(drag.kind==='line'){if(pos)drag.last=pos;render();return;}
  if(!pos){drag.last=null;return;}if(drag.last)line(...drag.last,...pos,(x,y)=>paintLabel(x,y,drag.id));else paintLabel(...pos,drag.id);drag.last=pos;render();
 });
-function pointerEnd(e){touches.delete(e.pointerId);if(touches.size<2)pinch=null;if(drag?.pointer===e.pointerId)finish();}
+function pointerEnd(e){touches.delete(e.pointerId);if(touches.size<2)pinch=null;if(drag?.pointer===e.pointerId){if(e.type==='pointercancel'){if(['paint','fill'].includes(drag.kind))model.cancel();drag=null;render();}else if(drag.kind==='line'&&e.type!=='pointerup'){drag=null;render();}else finish();}}
 for(const type of ['pointerup','pointercancel','lostpointercapture'])canvas.addEventListener(type,pointerEnd);
 on('undo','click',()=>{pause();finish();if(model?.undo())changed();});on('redo','click',()=>{pause();finish();if(model?.redo())changed();});
 function openTransfer(mode,copyText=null){pause();finish();$('br-transfer-title').textContent=mode==='import'?'Import project':'Copy project';$('br-transfer-note').textContent=mode==='import'?'Paste complete correction JSON or choose a backup. Sources, registration and every label are validated before anything changes.':'All directions, frames, durations and anatomical labels are included. If clipboard access is unavailable, tap Select all, then use your device’s Copy command.';$('br-transfer-error').textContent='';$('br-apply').hidden=mode!=='import';$('br-file').hidden=mode!=='import';$('dc-recovery-choices')?.remove();$('br-text').readOnly=mode!=='import';$('br-text').value=mode==='import'?'':copyText??model.export();$('br-transfer').showModal();}
@@ -193,7 +202,8 @@ document.querySelector('.app-header h1').textContent='Dummy Creator';
 document.querySelector('.eyebrow').textContent='CRITZ · SPRITE STUDIO';
 document.querySelector('#inspector .dock-header strong').textContent='Parts & layers';
 workspace=createWorkspace({storageKey:PROJECT_STORAGE+'.layout',defaultSections:['br-parts-panel','br-layers-panel','br-data-panel'],onResize:()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>autoFit?fit():render());},onAnimationCollapse:()=>{}});
-createDummyMobile({onResize:()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>autoFit?fit():render());},onClose:()=>{finish();}});
+mobileWorkspace=createDummyMobile({onResize:()=>{cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>autoFit?fit():render());},onClose:()=>{finish();}});
+hotbar=createDummyHotbar({getState:()=>({ready:!!model,tool,layers}),setTool,revealCanvas:()=>mobileWorkspace.revealCanvas(),step:delta=>$(delta>0?'dc-next':'dc-prev').click(),toggle:name=>{finish();$(`br-${name}-visible`).click();}});
 setTool('brush');render();
 try{const response=await fetch('./assets/body-regions-seed.json',{cache:'no-store'});if(!response.ok)throw Error('Missing source seed');const source=validateSeed(await response.json());dataset=Object.hasOwn(DATASETS,requestedDataset)?DATASETS[requestedDataset]:null;if(!dataset)throw Error('Unknown requested label dataset; no original map was substituted');const preset=await fetch(dataset.url,{cache:'no-store'});if(!preset.ok)throw Error('Requested supplied labels unavailable; no original map was substituted');const text=await preset.text(),project=dataset.kind==='project'?parseProject(text,source):null,labels=project?labelsForFrame(project,'south',project.activeDirection==='south'?project.activeFrame:0):importCorrections(text,source);referenceFrames=Object.fromEntries(await Promise.all(DIRECTIONS.map(async direction=>[direction,await Promise.all(REFERENCE_SETS[direction].frames.map(frame=>new Promise(resolve=>{const image=new Image();image.onload=()=>resolve(image);image.onerror=()=>resolve(null);image.src=frame.file;})))])));loadSeed(source,labels,project);if(Object.values(referenceFrames).some(fs=>fs.some(f=>!f)))status('Dummy loaded. Some reference frames are unavailable; your labels remain editable.',true);}catch(e){$('br-source').textContent='Source data unavailable. Reload to recover; saved projects remain in browser storage.';status('Source data unavailable or invalid: '+e.message,true);workspace.showInspector();}
 // QA reads label state, never source raster or ordinary project/browser storage.

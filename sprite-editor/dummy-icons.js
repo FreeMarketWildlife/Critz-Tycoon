@@ -1,5 +1,6 @@
 // Small, local outline icons. Names remain explicit through accessible labels/tooltips.
 const paths={
+ fill:'<path d="m4 10 8-8 9 9-8 8-9-9Zm0 0h17M4 21h12"/><path d="M21 14s-3 3-3 5a3 3 0 0 0 6 0c0-2-3-5-3-5Z"/>',line:'<path d="M5 19 19 5"/><rect x="2" y="17" width="5" height="5"/><rect x="17" y="2" width="5" height="5"/>',picker:'<path d="m14 4 6 6m-4-8 6 6-4 4-6-6ZM14 8 4 18v3h3L17 11M3 22l2-2"/>',eye:'<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',dummy:'<circle cx="12" cy="5" r="3"/><path d="M7 11h10l3 6m-13-6-3 6m5-6v7l-2 5m8-12v7l2 5M9 18h6"/>',
  north:'<path d="m6 12 6-6 6 6M12 6v14"/>',south:'<path d="m6 12 6 6 6-6M12 4v14"/>',west:'<path d="m12 6-6 6 6 6M6 12h14"/>',east:'<path d="m12 6 6 6-6 6M4 12h14"/>',
  plus:'<path d="M12 5v14M5 12h14"/>',duplicate:'<rect x="8" y="8" width="12" height="13" rx="1"/><path d="M15 8V3H3v13h5"/>',
  play:'<path d="m8 4 12 8-12 8Z"/>',pause:'<path d="M8 4v16M16 4v16"/>',previous:'<path d="M5 5v14m14-14-10 7 10 7Z"/>',next:'<path d="M19 5v14M5 5l10 7-10 7Z"/>',

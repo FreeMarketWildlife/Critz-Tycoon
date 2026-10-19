@@ -1,5 +1,9 @@
 # Free Market Wildlife Sprite Editor
 
+## Right-side canvas hotbar (M1.DUI3)
+
+Phones/tablets have a vertical hotbar beside the canvas: **Move / Pencil / Eyedropper / Forward one frame / Backward one frame / Reference visibility / Dummy visibility**. Selecting the drawing slot activates its current tool; tapping it again opens Pencil, Fill, Line and Erase. Move pans the canvas. Eyedropper samples a dummy pixel's part and exact anatomical side, then returns to Pencil; reference RGB is not converted into label IDs. Show the dummy before sampling it. Fill replaces the connected region of the same exact label ID; Line previews until release; each action uses one Undo and the current mirroring/side rules. Frame stepping wraps within the current direction. Visibility buttons stay synchronized with View-tab checkboxes and do not alter labels. Short landscape rails scroll vertically to keep44px+ targets reachable. Desktop retains its existing docks.
+
 ## Phone and tablet workspace (M1.DUI2)
 
 Dummy Creator opens on **Canvas**, with tools and settings tucked into **Draw / Frames / View / File** tabs. Undo, Redo, Copy and zoom stay within reach. Draw contains directions, brush/erase/pan, Mirror, part and anatomical-side selection. Frames contains stepping, playback, frame actions and sharing. View contains guides, layers and reference controls. File contains import, backups, source information and Help. Done, Canvas, or Escape closes a panel; selecting a facing or part button returns to drawing.

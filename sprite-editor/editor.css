@@ -121,3 +121,16 @@ body.compact-dummy{height:100dvh;padding:env(safe-area-inset-top) env(safe-area-
 .compact-dummy #dm-panel-file .br-dataset{font-size:11px;padding:8px;background:transparent}.compact-dummy #dm-panel-file a{min-height:44px;padding:8px 0}.compact-dummy #br-data-panel p{font-size:12px}
 @media(min-width:700px) and (min-height:500px){.compact-dummy .dm-sheet:not([hidden]){top:0;left:auto;right:0;bottom:0;width:360px;max-height:100%;height:100%;border-radius:0;border-bottom:1px solid #646464;box-shadow:-10px 0 32px #0006}.compact-dummy:not([data-dummy-tab=canvas]) .canvas-panel{width:calc(100% - 360px)}}
 @media(max-height:500px){.compact-dummy .dm-sheet:not([hidden]){top:0;bottom:0;left:auto;width:min(360px,75%);height:100%;max-height:100%;border-radius:0}.compact-dummy .app-header{flex-basis:44px;min-height:44px}.compact-dummy .dm-tabs{padding-top:0;padding-bottom:env(safe-area-inset-bottom)}.compact-dummy .dm-tabs button{min-height:44px}}
+
+/* M1.DUI3: always-reachable canvas actions, separate from tab panels. */
+.dh-workarea{display:contents}#dh-hotbar,#dh-pencil-menu{display:none}
+.compact-dummy .dh-workarea{display:flex;flex:1;min-height:0;min-width:0;position:relative}
+.compact-dummy #dh-hotbar{display:flex;flex-direction:column;flex:0 0 56px;width:56px;gap:4px;padding:4px;background:#292929;border-left:1px solid var(--line);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+.compact-dummy #dh-hotbar button{display:flex;flex-direction:column;justify-content:center;align-items:center;flex:0 0 48px;min-height:48px;width:46px;min-width:44px;gap:1px;padding:4px 1px;border:1px solid transparent;background:transparent;position:relative}
+.compact-dummy #dh-hotbar button span{font-size:9px;line-height:12px}.compact-dummy #dh-hotbar button[aria-pressed=true]{background:var(--deep);color:#d6e7ff;border-color:#7b9bc5}
+.compact-dummy #dh-pencil:after{content:'';position:absolute;right:3px;bottom:4px;border-left:3px solid transparent;border-top:3px solid transparent;border-right:3px solid currentColor;border-bottom:3px solid currentColor}
+.compact-dummy #dh-hotbar button[aria-pressed=false]:is(#dh-reference,#dh-dummy){opacity:.6}.compact-dummy #dh-hotbar button[aria-pressed=false]:is(#dh-reference,#dh-dummy):after{content:'';position:absolute;width:26px;height:1px;background:currentColor;transform:rotate(-45deg);top:19px}
+.compact-dummy #dh-pencil-menu:not([hidden]){display:flex;flex-direction:column;position:absolute;z-index:15;right:60px;top:4px;width:144px;padding:5px;gap:3px;max-height:calc(100% - 8px);overflow:auto;border:1px solid #8299b8;border-radius:6px;background:#323232;box-shadow:0 6px 24px #0009}
+.compact-dummy #dh-pencil-menu button{display:flex;justify-content:flex-start;align-items:center;gap:10px;min-height:44px;flex:0 0 44px;padding:8px;font-size:13px;background:transparent;border:1px solid transparent}
+.compact-dummy #dh-pencil-menu button[aria-checked=true]{background:var(--deep);border-color:#7b9bc5;color:#d6e7ff}
+@media(max-width:699px),(max-height:500px){.compact-dummy .dm-sheet:not([hidden]){right:56px}}
