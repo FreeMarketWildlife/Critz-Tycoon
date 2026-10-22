@@ -1,3 +1,4 @@
+import {createWheelZoom,createPinchZoom} from './zoom-gestures.js';
 import {mirrorPoints,createMirrorToggle} from './mirror.js';
 import {createConstruction} from './construction.js';
 import {createWorkspace} from './workspace.js';
@@ -6,6 +7,7 @@ import {PRESETS,TICK_MS,MAX_PIXELS,makeProject,validateProject,readProjectData,i
 const $=id=>document.getElementById(id),canvas=$('canvas'),ctx=canvas.getContext('2d'),overlay=$('overlay'),og=overlay.getContext('2d'),view=$('viewport');
 const STORAGE='fmw.sprite-editor.v1';
 const mirror=createMirrorToggle(()=>endStroke());
+const wheelZoom=createWheelZoom();
 let autoFit=true,pointerAnchor=null,backgroundPan=null,zoomAnchor=null;
 let banks,allowed,project,frame=0,tool='pencil',color=1,zoom=6,history=[],future=[],stroke=null,space=false,playing=false,playFrame=0,lastTime=0,elapsed=0,saveTimer,renderPending=false;
 const scratch=document.createElement('canvas');
@@ -65,8 +67,8 @@ function renderPalette(){
 function renderAll(){if(!project)return;renderPalette();renderCanvas();renderFrames();$('project-name').value=project.name;$('preset').value=project.preset;$('bank').value=project.bank;$('notes').value=project.notes;$('frame-name').value=project.frames[frame].name;$('ticks').value=project.frames[frame].ticks;$('timing').textContent=`${Math.round(project.frames[frame].ticks*TICK_MS)} ms · ${Math.round(project.frames.reduce((a,f)=>a+f.ticks,0)*TICK_MS)} ms loop`;$('canvas-info').textContent=`${project.width} × ${project.height} px`;$('zoom-value').textContent=zoom+'×';$('undo').disabled=!history.length;$('redo').disabled=!future.length;$('delete-frame').disabled=project.frames.length===1;$('earlier').disabled=frame===0;$('later').disabled=frame===project.frames.length-1;}
 function requestRender(){if(renderPending)return;renderPending=true;requestAnimationFrame(()=>{renderPending=false;renderCanvas();});}
 function selectTool(t){reference.finish();tool=t;document.querySelectorAll('[data-tool]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.tool===tool));$('current-tool').textContent=(tool==='picker'?'Eyedropper':tool[0].toUpperCase()+tool.slice(1))+(tool==='pencil'?' · 1px':'');$('pick-color').setAttribute('aria-pressed',String(tool==='picker'));canvas.style.cursor=tool==='pan'?'grab':'crosshair';}
-function setZoom(value,anchor,fromFit=false){
- autoFit=fromFit;
+function setZoom(value,anchor,fromFit=false,gesture=false){
+ if(!gesture)wheelZoom.reset();autoFit=fromFit;
  const v=view.getBoundingClientRect(),before=canvas.getBoundingClientRect();
  const point=anchor||{x:v.left+view.clientWidth/2,y:v.top+view.clientHeight/2};
  // Use the actual canvas origin, including its centering margin and scroll.
@@ -129,12 +131,12 @@ for(const id of ['grid','guides','onion','clean-view'])listen(id,'change',render
 listen('zoom-in','click',()=>setZoom(zoom+1));listen('zoom-out','click',()=>setZoom(zoom-1));listen('native','click',()=>setZoom(1));listen('fit','click',fit);
 view.addEventListener('wheel',e=>{
  e.preventDefault();
- if(e.ctrlKey||e.metaKey){if(e.deltaY)setZoom(zoom+(e.deltaY<0?1:-1),{x:e.clientX,y:e.clientY});}
+ if(e.ctrlKey||e.metaKey){if(!pinch){const next=wheelZoom.next(e,zoom,performance.now(),1,Math.max(1,Math.min(24,Math.floor(Math.sqrt(8_000_000/(project.width*project.height))))));if(next!==zoom)setZoom(next,{x:e.clientX,y:e.clientY},false,true);}}
  else{const unit=e.deltaMode===1?16:e.deltaMode===2?view.clientHeight:1;view.scrollLeft+=(e.shiftKey&&!e.deltaX?e.deltaY:e.deltaX)*unit;view.scrollTop+=(e.shiftKey&&!e.deltaX?0:e.deltaY)*unit;zoomAnchor=null;}
 },{passive:false});
 let pinch=null;
-view.addEventListener('gesturestart',e=>{e.preventDefault();pinch={zoom,anchor:pointerAnchor};},{passive:false});
-view.addEventListener('gesturechange',e=>{e.preventDefault();if(pinch&&Number.isFinite(e.scale))setZoom(pinch.zoom*e.scale,pinch.anchor);},{passive:false});
+view.addEventListener('gesturestart',e=>{e.preventDefault();wheelZoom.reset();pinch={zoom:createPinchZoom(zoom),anchor:Number.isFinite(e.clientX)&&Number.isFinite(e.clientY)?{x:e.clientX,y:e.clientY}:pointerAnchor};},{passive:false});
+view.addEventListener('gesturechange',e=>{e.preventDefault();if(pinch&&Number.isFinite(e.scale))setZoom(pinch.zoom.next(e.scale,zoom),pinch.anchor,false,true);},{passive:false});
 view.addEventListener('gestureend',e=>{e.preventDefault();pinch=null;},{passive:false});
 view.addEventListener('pointermove',e=>{pointerAnchor={x:e.clientX,y:e.clientY};if(backgroundPan&&e.pointerId===backgroundPan.id){view.scrollLeft=backgroundPan.left-(e.clientX-backgroundPan.x);view.scrollTop=backgroundPan.top-(e.clientY-backgroundPan.y);}});
 view.addEventListener('pointerleave',()=>{pointerAnchor=null;});

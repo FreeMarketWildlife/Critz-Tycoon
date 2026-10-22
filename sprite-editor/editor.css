@@ -134,3 +134,6 @@ body.compact-dummy{height:100dvh;padding:env(safe-area-inset-top) env(safe-area-
 .compact-dummy #dh-pencil-menu button{display:flex;justify-content:flex-start;align-items:center;gap:10px;min-height:44px;flex:0 0 44px;padding:8px;font-size:13px;background:transparent;border:1px solid transparent}
 .compact-dummy #dh-pencil-menu button[aria-checked=true]{background:var(--deep);border-color:#7b9bc5;color:#d6e7ff}
 @media(max-width:699px),(max-height:500px){.compact-dummy .dm-sheet:not([hidden]){right:56px}}
+
+/* Editable drawings are separate from timed sequence references. */
+#dc-cels{display:flex;gap:6px;overflow-x:auto;max-width:100%;padding:6px 2px}#dc-cels button{flex-shrink:0;min-height:44px;min-width:80px}#dc-cels [aria-pressed=true]{outline:2px solid #a8c9f5}#dc-sequence{max-width:100%}#dc-sequence input,#dc-sequence select{min-height:44px}#dc-sequence #dc-frames button{min-height:44px;white-space:nowrap}

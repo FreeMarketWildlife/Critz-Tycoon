@@ -1,3 +1,11 @@
+## Supplied default — 22 October 2026
+
+Dummy Creator without a labels query, and the existing `labels=phil-walk-draft-20261017` link, now seed empty workspaces from `assets/phil-default-20261022.json`. This is Phil’s exact 65,252-byte supplied v2 project, SHA256 `1a1891a3a3c4bd75bf4942a5458c9efc8ea0e373c229ff63e11e6fa734112105`: 12 cels, 32 sequence references, all four directions and original durations/selection. No artwork or IDs are inferred or rewritten. The canonical region seed remains registration/part metadata only.
+
+The existing dataset identity and autosave key are retained. Valid existing v1/v2 autosaves load first; v1 uses the tested exact-label unique-cel migration. No default is written to storage on startup. Existing drafts are never automatically replaced by the new asset. Copy/Download preserve the complete current project; users may explicitly import a backup. Restore starting layout remains an undoable active-drawing operation and updates linked slots, not a whole-project reset.
+
+All prior assets remain byte-exact. **Original rough walk** opens `labels=phil-walk-original-20261017` under a separate autosave key, while `phil-south-20261017` and `phil-20261016` retain their original behavior. Ordinary drawing mode still starts its own workspace; this default is for Dummy Creator only.
+
 # Free Market Wildlife Sprite Editor
 
 ## Right-side canvas hotbar (M1.DUI3)
@@ -16,7 +24,7 @@ Open `/sprite-editor/?mode=dummy-creator&labels=phil-walk-draft-20261017`. Four 
 
 ### Correct repeated frames once
 
-Version2 projects store2048-cell label arrays once in named `cels`; timeline frames refer to `celId`. Pixel-identical reference repeats share the same editable pose **within that view**. Editing any repeat updates every linked slot, with one Undo. The Shared pose caption lists affected slots. **Reuse pose** adds a linked hold. **Duplicate** creates an independent copy. **Make independent** detaches just that slot. Frame order/name/reference/hold remain per slot. East is a distinct mirrored view with anatomical left/right IDs remapped, never linked to West.
+Version2 projects store2048-cell label arrays once in named `cels`; timeline frames refer to `celId`. Repeated sequence slots can reference the same editable pose **within that view**. Legacy migration shares only complete identical editable-label arrays, never merely similar reference images. Editing any repeat updates every linked slot, with one Undo. The Shared pose caption lists affected slots. **Reuse pose** adds a linked hold. **Duplicate** creates an independent copy. **Make independent** detaches just that slot. Frame order/name/reference/hold remain per slot. East is a distinct mirrored view with anatomical left/right IDs remapped, never linked to West.
 
 The completed south original is available separately at `?mode=dummy-creator&labels=phil-south-20261017` and through **Download completed south original**. The full attachment is byte-exact22,997bytes, SHA256 `f88b094cf73ff272aaa629cfcc8ef1a9f02f6d01989d11b4e20a6ca3411736d7`:version1,32×64,28parts, four single-frame tracks,714marked south cells, other views740cells. No labels/colors/geometry in that original are creatively changed. The earlier740-cell preset remains at `labels=phil-20261016`. Each dataset has a separate autosave key; opening an update does not overwrite another draft.
 
@@ -31,7 +39,7 @@ Expand **Reference** above the canvas for selectable slots, previous/next, indep
 
 ### One click Copy and safe projects
 
-**Copy project** calls the Clipboard API directly from one trusted click/tap. A Copied confirmation appears only after success, with no dialog. If denied/unavailable, a clearly identified manual fallback contains the entire captured project and Select all; no success is claimed. Download backup/Import preserve all poses, links, timings and identities. Brush strokes and structural edits support Undo/Redo. Version1 projects/correction imports remain lossless; they are not silently merged or rewritten into shared poses. Old explicit anatomical IDs stay stable even when crossing the screen center.
+**Copy project** calls the Clipboard API directly from one trusted click/tap. A Copied confirmation appears only after success, with no dialog. If denied/unavailable, a clearly identified manual fallback contains the entire captured project and Select all; no success is claimed. Download backup/Import preserve all poses, links, timings and identities. Brush strokes and structural edits support Undo/Redo. Version1 projects migrate losslessly into shared cels only for complete identical editable-label arrays within the same direction; every slot name/order/hold/reference is preserved. Intentional version2 cel identities stay separate. Legacy correction imports edit the active drawing and its linked slots. Old explicit anatomical IDs stay stable even when crossing the screen center.
 
 All categories retain left/right/center machine identities and related saturated annotation colors. Front Auto assigns screen-left to character-right; Back Auto reverses that. Profiles require an explicit anatomical side. Mirror writes opposite anatomical IDs and groups edits into one Undo. Two-finger navigation cancels tentative paint. Integer zoom/pan remain available; frame tools/reference controls collapse on portrait phones.
 

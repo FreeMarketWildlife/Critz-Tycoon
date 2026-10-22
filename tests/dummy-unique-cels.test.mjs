@@ -1,0 +1,13 @@
+import {readFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+import {createProjectModel,labelsForFrame,frameAt} from '../sprite-editor/dummy-creator-model.js';
+const seed=JSON.parse(readFileSync(new URL('../sprite-editor/assets/body-regions-seed.json',import.meta.url)));
+const legacy=JSON.parse(readFileSync(new URL('../sprite-editor/assets/phil-completed-south-20261017.json',import.meta.url)));
+const f=legacy.directions.south[0];legacy.directions.south=[...Array(8)].map((_,i)=>({...structuredClone(f),id:'south-test-'+i,durationMs:100+i,referenceIndex:i}));
+legacy.directions.south[7].labels[0]=legacy.directions.south[7].labels[0]===0?1:0;
+const before=structuredClone(legacy),m=createProjectModel(legacy,seed);
+assert.deepEqual(legacy,before);assert.equal(new Set(m.frames.map(f=>f.celId)).size,2);assert.deepEqual(m.frames.map(f=>f.durationMs),before.directions.south.map(f=>f.durationMs));
+for(let i=0;i<8;i++)assert.deepEqual(labelsForFrame(m.data,'south',i),before.directions.south[i].labels);
+m.begin();m.paint(1,1,1,false,'left');m.end();const labels=m.labels;m.select('south',6);assert.deepEqual(m.labels,labels);m.detach();m.begin();m.paint(2,2,1,false,'right');m.end();assert.notDeepEqual(m.labels,labels);m.undo();assert.deepEqual(m.labels,labels);m.undo();assert.equal(m.sharedSlots.length,7);
+m.update({durationMs:250.5});m.move(-1);const restored=createProjectModel(JSON.parse(m.export()),seed);assert.deepEqual(restored.data,m.data);assert.equal(frameAt([{durationMs:30},{durationMs:70}],29),0);assert.equal(frameAt([{durationMs:30},{durationMs:70}],30),1);assert.equal(frameAt([{durationMs:30},{durationMs:70}],100),0);
+console.log('PASS: eight-slot legacy migration; exact labels; shared edits; detach and undo; sequence timing/order; JSON round-trip; originals unchanged');

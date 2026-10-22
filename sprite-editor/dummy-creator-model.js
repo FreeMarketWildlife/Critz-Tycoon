@@ -50,8 +50,19 @@ export function validateProject(data,seed){
 }
 export function parseProject(text,seed){if(typeof text!=='string'||text.length>2000000)bad('Project must be smaller than 2 MB.');let d;try{d=JSON.parse(text);}catch{bad('Project must be valid JSON.');}return validateProject(d,seed);}
 export function frameAt(frames,elapsed){const period=frames.reduce((n,f)=>n+f.durationMs,0);let t=((elapsed%period)+period)%period;for(let i=0;i<frames.length;i++){if(t<frames[i].durationMs)return i;t-=frames[i].durationMs;}return 0;}
+// Consolidate only complete editable label arrays, within each direction. Reference
+// guides and timing belong to sequence slots and are preserved independently.
+export function migrateProject(initial,seed){
+ const p=validateProject(initial,seed);if(p.version===2)return p;
+ p.version=2;p.cels={};
+ for(const d of DIRECTIONS){const seen=new Map();for(const f of p.directions[d]){
+  const key=canonical(f.labels);let id=seen.get(key);
+  if(!id){id=d+'-cel-'+(seen.size+1);seen.set(key,id);p.cels[id]={id,name:f.name,direction:d,labels:f.labels.slice()};}
+  delete f.labels;f.celId=id;
+ }}return validateProject(p,seed);
+}
 export function createProjectModel(initial,seed){
- let p=validateProject(initial,seed),undos=[],redos=[],stroke=null,serial=0;
+ let p=migrateProject(initial,seed),undos=[],redos=[],stroke=null,serial=0;
  const frame=()=>p.directions[p.activeDirection][p.activeFrame];
  const currentLabels=()=>p.version===2?p.cels[frame().celId].labels:frame().labels;
  const hydrate=f=>({...clone(f),labels:(p.version===2?p.cels[f.celId].labels:f.labels).slice()});
@@ -72,7 +83,7 @@ export function createProjectModel(initial,seed){
  remove(){if(this.frames.length===1)bad('Keep at least one frame per direction.');return edit(()=>{p.directions[p.activeDirection].splice(p.activeFrame,1);p.activeFrame=Math.min(p.activeFrame,this.frames.length-1);if(p.version===2){const used=new Set(DIRECTIONS.flatMap(d=>p.directions[d].map(f=>f.celId)));for(const id of Object.keys(p.cels))if(!used.has(id))delete p.cels[id];}});},
  move(delta){const next=p.activeFrame+delta;if(next<0||next>=this.frames.length)return false;return edit(()=>{const fs=p.directions[p.activeDirection],[f]=fs.splice(p.activeFrame,1);fs.splice(next,0,f);p.activeFrame=next;});},
  update(values){return edit(()=>Object.assign(frame(),values));},
- import(text){let v;try{v=JSON.parse(text);}catch{bad('Import must be valid JSON.');}if(v?.schema==='critz.body-regions.corrections')return this.replace(importCorrections(text,seed));const next=parseProject(text,seed);return edit(()=>p=next);},
+ import(text){let v;try{v=JSON.parse(text);}catch{bad('Import must be valid JSON.');}if(v?.schema==='critz.body-regions.corrections')return this.replace(importCorrections(text,seed));const next=migrateProject(parseProject(text,seed),seed);return edit(()=>p=next);},
  undo(){end();if(!undos.length)return false;redos.push(clone(p));p=undos.pop();return true;},redo(){end();if(!redos.length)return false;undos.push(clone(p));p=redos.pop();return true;},export(){end();return JSON.stringify(p);}
  };
 }
