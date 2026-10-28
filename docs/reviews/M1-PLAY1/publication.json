@@ -1,0 +1,86 @@
+{
+  "task": "M1.PLAY1",
+  "implementationCommit": "bb68dc38931718b9fff916c04e9a23e35e05500e",
+  "originMainVerified": true,
+  "sitesSourceCommit": "3a001c0f32863d4a49718bdddb19c26e41438923",
+  "savedVersion": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_283e24b6c7bc8191be2590a0d3b005da",
+  "version": 71,
+  "deployment": "appgdep_6ae184c68068819182daba8c6c0f58b2",
+  "status": "succeeded",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=dummy-creator&labels=phil-supplied-20261027",
+  "updatedAt": "2026-10-28T05:14:58.181750+00:00",
+  "defaultAssetSha256": "043d230c1eb241db65fbc6d62f68b474618e08d7f541b97a7fecf7629f0419a4",
+  "drawings": 12,
+  "sequenceSlots": {
+    "south": 8,
+    "west": 8,
+    "east": 5,
+    "north": 8
+  },
+  "previewLoopMs": 800,
+  "previewTiming": "View-only relaxed loop; stored slots, relative holds and labels retained. Current gameplay normal gait is 32 simulation ticks, approximately 535.77 ms; gameplay is unchanged.",
+  "mainTests": 401,
+  "sitesTests": 392,
+  "localAndPackagedChromeWidths": [
+    390,
+    320,
+    844,
+    1440
+  ],
+  "landscapeViewport": [
+    844,
+    390
+  ],
+  "physicalDeviceTesting": false,
+  "protectedNonEditorFilesExact": 5882,
+  "archiveFilesVerified": 5953,
+  "archiveMetadataSidecars": 0,
+  "archiveHash": "sha256:62ee3d92036cb267ad9cdd35a1fabf128290858564cf61907c1f1a23a689aaff",
+  "storageTesting": "Synthetic memory Storage in fresh contexts; older draft precedence preserved.",
+  "unrelatedReviewData": "Preserved and excluded.",
+  "hostedBrowserResults": {
+    "cases": [
+      {
+        "width": 390,
+        "height": 900,
+        "pass": true,
+        "allFourDirections": true,
+        "all29SlotsVisited": true,
+        "toggleAndPauseStable": true,
+        "projectLabelsAndTimingExact": true,
+        "errors": []
+      },
+      {
+        "width": 320,
+        "height": 900,
+        "pass": true,
+        "allFourDirections": true,
+        "all29SlotsVisited": true,
+        "toggleAndPauseStable": true,
+        "projectLabelsAndTimingExact": true,
+        "errors": []
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "pass": true,
+        "allFourDirections": true,
+        "all29SlotsVisited": true,
+        "toggleAndPauseStable": true,
+        "projectLabelsAndTimingExact": true,
+        "errors": []
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "pass": true,
+        "allFourDirections": true,
+        "all29SlotsVisited": true,
+        "toggleAndPauseStable": true,
+        "projectLabelsAndTimingExact": true,
+        "errors": []
+      }
+    ],
+    "existingDraftPreserved": true
+  }
+}
