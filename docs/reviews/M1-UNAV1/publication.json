@@ -1,0 +1,51 @@
+{
+  "task": "M1.UNAV1",
+  "githubCommit": "cfec9ebe1ec22a4a32aa422d230bbb9d58f18d16",
+  "githubRemoteVerified": true,
+  "sitesCommit": "7a87ec6fb6d92b7cb44bab4641a35b719c298400",
+  "version": 70,
+  "versionId": "appgprj_6ab5dd1e11ac8191937254280d6ba196~appgver_891e5afb6e448191afe4cfdb7f169082",
+  "deploymentId": "appgdep_6ae17fa290a081918250ac5d860854e2",
+  "status": "succeeded",
+  "updatedAt": "2026-10-28T04:53:05.663289+00:00",
+  "url": "https://critz-tycoon.freemarketwildlife.chatgpt.site/sprite-editor/?mode=dummy-creator&labels=phil-walk-draft-20261017",
+  "audience": "public (preserved)",
+  "mainTests": 399,
+  "sitesTests": 390,
+  "localChromeCases": [
+    {
+      "width": 390,
+      "directions": 4,
+      "steps": 24,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "directions": 4,
+      "steps": 24,
+      "pass": true
+    }
+  ],
+  "physicalDevicesTested": false,
+  "protectedNonEditorFilesExact": 5882,
+  "archiveContentFilesVerified": 5951,
+  "archiveSha256": "c7a08db735d99fce074ffb98ad4cc2c015aee34c06992a157c30fac87d382a58",
+  "archiveNote": "Official helper archive rejected expanded size; macOS metadata sidecars removed, all required content verified byte-exact against tested build before successful save.",
+  "unrelatedUntrackedReviewData": "preserved and excluded",
+  "storage": "All automated browser tests use synthetic in-memory Storage in fresh contexts.",
+  "hostedChromeCases": [
+    {
+      "width": 390,
+      "directions": 4,
+      "steps": 24,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "directions": 4,
+      "steps": 24,
+      "pass": true
+    }
+  ],
+  "hostedPageErrors": []
+}
