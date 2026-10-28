@@ -9,8 +9,8 @@ export function createDummyHotbar({getState,setTool,revealCanvas,step,toggle}){
   const pencil=button('pencil','brush','Pencil tools','Pencil');pencil.setAttribute('aria-haspopup','menu');pencil.setAttribute('aria-expanded','false');pencil.setAttribute('aria-controls',menu.id);
   pencil.onclick=()=>{const s=getState();revealCanvas();if(tools.some(([t])=>t===s.tool)){menu.hidden=!menu.hidden;pencil.setAttribute('aria-expanded',String(!menu.hidden));if(!menu.hidden)menu.querySelector('[aria-checked=true]').focus();}else choose(drawTool);};
   button('picker','picker','Eyedropper: pick dummy part and side','Pick').onclick=()=>choose('picker');
-  button('next','next','Forward one frame','+1').onclick=()=>{close();revealCanvas();step(1);};
-  button('prev','previous','Backward one frame','−1').onclick=()=>{close();revealCanvas();step(-1);};
+  button('next','next','Forward to next unique drawing','+1').onclick=()=>{close();revealCanvas();step(1);};
+  button('prev','previous','Backward to previous unique drawing','−1').onclick=()=>{close();revealCanvas();step(-1);};
   button('reference','eye','Toggle reference visibility','Ref').onclick=()=>{close();revealCanvas();toggle('reference');};
   button('dummy','dummy','Toggle dummy visibility','Dummy').onclick=()=>{close();revealCanvas();toggle('labels');};
   for(const [tool,glyph,label]of tools){const b=document.createElement('button');b.type='button';b.dataset.tool=tool;b.setAttribute('role','menuitemradio');iconButton(b,glyph,label,label);b.onclick=()=>{drawTool=tool;choose(tool);pencil.focus();};menu.append(b);}

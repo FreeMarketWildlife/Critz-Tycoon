@@ -78,6 +78,12 @@ export function createProjectModel(initial,seed){
  paint(x,y,id,mirror=false,choice='auto'){if(!stroke)bad('Start a stroke first.');if(!Number.isInteger(x)||!Number.isInteger(y)||x<0||y<0||x>=WIDTH||y>=HEIGHT)return;const side=sideFor(p.activeDirection,x,choice),category=PART_DEFINITIONS[id]?.category;if(!category)bad('Unknown part.');const labels=currentLabels();labels[y*WIDTH+x]=CATEGORY_PARTS[category][side];if(mirror){const opposite=side==='left'?'right':side==='right'?'left':'center';labels[y*WIDTH+WIDTH-1-x]=CATEGORY_PARTS[category][opposite];}},
  replace(labels){const v=validateLabels(labels);return edit(()=>{if(p.version===2)p.cels[frame().celId].labels=v;else frame().labels=v;});},
  select(direction,index=0){end();if(!DIRECTIONS.includes(direction)||!Number.isInteger(index)||!p.directions[direction][index])bad('Unknown frame.');p.activeDirection=direction;p.activeFrame=index;},
+ selectUnique(delta){
+  end();const cels=Object.values(p.cels).filter(c=>c.direction===p.activeDirection);
+  if(cels.length<2)return;
+  const current=cels.findIndex(c=>c.id===frame().celId),next=cels[(current+delta+cels.length)%cels.length];
+  this.select(p.activeDirection,p.directions[p.activeDirection].findIndex(f=>f.celId===next.id));
+ },
  add(blank=false,linked=false){if(this.frames.length>=32)bad('Maximum 32 frames per direction.');return edit(()=>{const f=clone(frame());f.id=nextId('frame');f.name=(blank?'Blank frame':'Copy of '+f.name).slice(0,80);if(p.version===2){if(blank||!linked)f.celId=copyCel(blank);}else if(blank)f.labels=Array(SIZE).fill(0);p.directions[p.activeDirection].splice(++p.activeFrame,0,f);});},
  detach(){if(p.version!==2||this.sharedSlots.length<2)return false;return edit(()=>{frame().celId=copyCel(false);});},
  remove(){if(this.frames.length===1)bad('Keep at least one frame per direction.');return edit(()=>{p.directions[p.activeDirection].splice(p.activeFrame,1);p.activeFrame=Math.min(p.activeFrame,this.frames.length-1);if(p.version===2){const used=new Set(DIRECTIONS.flatMap(d=>p.directions[d].map(f=>f.celId)));for(const id of Object.keys(p.cels))if(!used.has(id))delete p.cels[id];}});},
