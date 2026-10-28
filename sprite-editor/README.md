@@ -1,4 +1,12 @@
-## Supplied default — 22 October 2026
+## Supplied default and Play/Pause — 27 October 2026
+
+Fresh Dummy Creator workspaces now use Phil’s exact pasted project in `assets/phil-default-20261027.json` (SHA256 `043d230c1eb241db65fbc6d62f68b474618e08d7f541b97a7fecf7629f0419a4`):12unique drawings,29timed slots, activeEastslot1. South/West/North each have8slots; East retains the5supplied slots. All labels, IDs, sequence order and stored durations are preserved. The previous22October asset remains available as `labels=phil-supplied-20261022`.
+
+The right mobile hotbar has a Play/Pause toggle below Pick. It plays every stored sequence slot, including repeated drawings, in the current direction. Pause freezes the displayed drawing; stepping or editing also pauses. Desktop Play/Pause uses the same player. The view-only relaxed loop is800ms in each direction, preserving relative holds. This is a slower review cadence than current gameplay’s32simulation-tick (~535.77ms) normal gait from `src/movement.js`; no game movement or stored project timing is changed and no missing poses are invented.
+
+Existing autosaves still load first without startup writes. The dedicated `labels=phil-supplied-20261027` link opens this supplied project under a separate draft key so older edits remain available through their original links. Copy/Download retain the complete current project. This changes the editor default, not accepted gameplay artwork.
+
+## Previous supplied default — 22 October 2026 (historical)
 
 Dummy Creator without a labels query, and the existing `labels=phil-walk-draft-20261017` link, now seed empty workspaces from `assets/phil-default-20261022.json`. This is Phil’s exact 65,252-byte supplied v2 project, SHA256 `1a1891a3a3c4bd75bf4942a5458c9efc8ea0e373c229ff63e11e6fa734112105`: 12 cels, 32 sequence references, all four directions and original durations/selection. No artwork or IDs are inferred or rewritten. The canonical region seed remains registration/part metadata only.
 

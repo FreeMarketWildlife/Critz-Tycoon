@@ -1,5 +1,5 @@
 import {iconButton} from './dummy-icons.js';
-export function createDummyHotbar({getState,setTool,revealCanvas,step,toggle}){
+export function createDummyHotbar({getState,setTool,revealCanvas,step,toggle,togglePlayback}){
   const view=document.getElementById('viewport'),area=document.createElement('div');area.className='dh-workarea';view.before(area);area.append(view);
   const rail=document.createElement('div');rail.id='dh-hotbar';rail.setAttribute('role','toolbar');rail.setAttribute('aria-label','Canvas hotbar');rail.setAttribute('aria-orientation','vertical');area.append(rail);
   const menu=document.createElement('div');menu.id='dh-pencil-menu';menu.hidden=true;menu.setAttribute('role','menu');menu.setAttribute('aria-label','Pencil tools');area.append(menu);
@@ -9,6 +9,7 @@ export function createDummyHotbar({getState,setTool,revealCanvas,step,toggle}){
   const pencil=button('pencil','brush','Pencil tools','Pencil');pencil.setAttribute('aria-haspopup','menu');pencil.setAttribute('aria-expanded','false');pencil.setAttribute('aria-controls',menu.id);
   pencil.onclick=()=>{const s=getState();revealCanvas();if(tools.some(([t])=>t===s.tool)){menu.hidden=!menu.hidden;pencil.setAttribute('aria-expanded',String(!menu.hidden));if(!menu.hidden)menu.querySelector('[aria-checked=true]').focus();}else choose(drawTool);};
   button('picker','picker','Eyedropper: pick dummy part and side','Pick').onclick=()=>choose('picker');
+  button('play','play','Play dummy','Play').onclick=()=>{close();revealCanvas();togglePlayback();};
   button('next','next','Forward to next unique drawing','+1').onclick=()=>{close();revealCanvas();step(1);};
   button('prev','previous','Backward to previous unique drawing','−1').onclick=()=>{close();revealCanvas();step(-1);};
   button('reference','eye','Toggle reference visibility','Ref').onclick=()=>{close();revealCanvas();toggle('reference');};
@@ -17,7 +18,9 @@ export function createDummyHotbar({getState,setTool,revealCanvas,step,toggle}){
   function close(focus=false){menu.hidden=true;pencil.setAttribute('aria-expanded','false');if(focus)pencil.focus();}
   function choose(tool){close();revealCanvas();setTool(tool);sync();}
   function sync(){
-    const s=getState(),key=JSON.stringify([s.ready,s.tool,s.layers.reference.visible,s.layers.labels.visible]);if(key===last)return;last=key;
+    const s=getState(),key=JSON.stringify([s.ready,s.tool,s.playing,s.layers.reference.visible,s.layers.labels.visible]);if(key===last)return;last=key;
+    iconButton(buttons.play,s.playing?'pause':'play',s.playing?'Pause dummy':'Play dummy',s.playing?'Pause':'Play');
+    buttons.play.setAttribute('aria-pressed',String(!!s.playing));
     if(tools.some(([t])=>t===s.tool))drawTool=s.tool;
     const [,glyph,label]=tools.find(([t])=>t===drawTool);iconButton(pencil,glyph,label+' tools',label);
     for(const b of Object.values(buttons))b.disabled=!s.ready;

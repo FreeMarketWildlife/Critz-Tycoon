@@ -1,3 +1,7 @@
+## Supplied dummy default and relaxed preview — M1.PLAY1
+
+Phil explicitly approves his27October pasted v2 project as the new editor default. Preserve all12unique drawings and29stored slots exactly, including5East slots, every label/ID/hold and active selection. Existing drafts remain authoritative on their original keys. The mobile right rail Play/Pause toggle runs the whole stored sequence, including repeats; pause freezes the visible drawing. Relaxed800ms full-loop timing is view-only, slower than the current normal gameplay32-tick (~535.77ms) gait. No new artwork, inferred frames, hidden anatomy or gameplay adoption is authorized by this editor request.
+
 # Critz: Tycoon — art bible
 
 ## Dummy Creator workspace chrome — M1.DUI1
